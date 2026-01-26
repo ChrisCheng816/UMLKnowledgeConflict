@@ -1,0 +1,4 @@
+@startuml
+Comedy <|-- MovieGenre
+MovieGenre <|-- Entertainment
+@enduml

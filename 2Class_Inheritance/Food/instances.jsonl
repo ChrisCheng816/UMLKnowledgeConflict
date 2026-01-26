@@ -1,0 +1,18 @@
+{"id": "line_1", "template_id": "inheritance_chain", "nodes": ["Apple", "Fruit", "Food"], "edges": ["Apple <|-- Fruit", "Fruit <|-- Food"]}
+{"id": "line_2", "template_id": "inheritance_chain", "nodes": ["Bread", "Food"], "edges": ["Bread <|-- Food"]}
+{"id": "line_3", "template_id": "inheritance_chain", "nodes": ["Broccoli", "Food"], "edges": ["Broccoli <|-- Food"]}
+{"id": "line_4", "template_id": "inheritance_chain", "nodes": ["Cheese", "Food"], "edges": ["Cheese <|-- Food"]}
+{"id": "line_5", "template_id": "inheritance_chain", "nodes": ["Cheesecake", "Dessert"], "edges": ["Cheesecake <|-- Dessert"]}
+{"id": "line_6", "template_id": "inheritance_chain", "nodes": ["Chicken", "Food"], "edges": ["Chicken <|-- Food"]}
+{"id": "line_7", "template_id": "inheritance_chain", "nodes": ["Chocolate", "Food"], "edges": ["Chocolate <|-- Food"]}
+{"id": "line_8", "template_id": "inheritance_chain", "nodes": ["Espresso", "CoffeeDrink", "Beverage"], "edges": ["Espresso <|-- CoffeeDrink", "CoffeeDrink <|-- Beverage"]}
+{"id": "line_9", "template_id": "inheritance_chain", "nodes": ["IceCream", "Dessert"], "edges": ["IceCream <|-- Dessert"]}
+{"id": "line_10", "template_id": "inheritance_chain", "nodes": ["Noodle", "Food"], "edges": ["Noodle <|-- Food"]}
+{"id": "line_11", "template_id": "inheritance_chain", "nodes": ["Oak", "HardwoodTree", "BotanicalGroup"], "edges": ["Oak <|-- HardwoodTree", "HardwoodTree <|-- BotanicalGroup"]}
+{"id": "line_12", "template_id": "inheritance_chain", "nodes": ["Rice", "Food"], "edges": ["Rice <|-- Food"]}
+{"id": "line_13", "template_id": "inheritance_chain", "nodes": ["Salad", "Dessert"], "edges": ["Salad <|-- Dessert"]}
+{"id": "line_14", "template_id": "inheritance_chain", "nodes": ["Salmon", "Food"], "edges": ["Salmon <|-- Food"]}
+{"id": "line_15", "template_id": "inheritance_chain", "nodes": ["Sashimi", "JapaneseDish", "CuisineStyle"], "edges": ["Sashimi <|-- JapaneseDish", "JapaneseDish <|-- CuisineStyle"]}
+{"id": "line_16", "template_id": "inheritance_chain", "nodes": ["Soup", "Dish"], "edges": ["Soup <|-- Dish"]}
+{"id": "line_17", "template_id": "inheritance_chain", "nodes": ["Tofu", "food"], "edges": ["Tofu <|-- food"]}
+{"id": "line_18", "template_id": "inheritance_chain", "nodes": ["TunaSashimi", "BeefDish"], "edges": ["TunaSashimi <|-- BeefDish"]}

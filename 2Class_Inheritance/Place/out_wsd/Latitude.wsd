@@ -1,0 +1,4 @@
+@startuml
+Latitude <|-- GeoCoordinate
+GeoCoordinate <|-- Measurement
+@enduml

@@ -1,0 +1,16 @@
+{"id": "line_1", "template_id": "inheritance_chain", "nodes": ["GoldenRetriever", "Dog"], "edges": ["GoldenRetriever <|-- Dog"]}
+{"id": "line_2", "template_id": "inheritance_chain", "nodes": ["GoldenRetriever", "Dog", "Animal"], "edges": ["GoldenRetriever <|-- Dog", "Dog <|-- Animal"]}
+{"id": "line_3", "template_id": "inheritance_chain", "nodes": ["Bat", "Bird"], "edges": ["Bat <|-- Bird"]}
+{"id": "line_4", "template_id": "inheritance_chain", "nodes": ["Bird", "Animal"], "edges": ["Bird <|-- Animal"]}
+{"id": "line_5", "template_id": "inheritance_chain", "nodes": ["Butterfly", "Bird"], "edges": ["Butterfly <|-- Bird"]}
+{"id": "line_6", "template_id": "inheritance_chain", "nodes": ["Cat", "Animal"], "edges": ["Cat <|-- Animal"]}
+{"id": "line_7", "template_id": "inheritance_chain", "nodes": ["Cheetah", "Cat", "Animal"], "edges": ["Cheetah <|-- Cat", "Cat <|-- Animal"]}
+{"id": "line_8", "template_id": "inheritance_chain", "nodes": ["Crocodile", "Lizard", "Reptile"], "edges": ["Crocodile <|-- Lizard", "Lizard <|-- Reptile"]}
+{"id": "line_9", "template_id": "inheritance_chain", "nodes": ["Dolphin", "Mammal", "Animal"], "edges": ["Dolphin <|-- Mammal", "Mammal <|-- Animal"]}
+{"id": "line_10", "template_id": "inheritance_chain", "nodes": ["Eagle", "Bird", "Animal"], "edges": ["Eagle <|-- Bird", "Bird <|-- Animal"]}
+{"id": "line_11", "template_id": "inheritance_chain", "nodes": ["Frog", "Lizard"], "edges": ["Frog <|-- Lizard"]}
+{"id": "line_12", "template_id": "inheritance_chain", "nodes": ["Lizard", "Reptile"], "edges": ["Lizard <|-- Reptile"]}
+{"id": "line_13", "template_id": "inheritance_chain", "nodes": ["Octopus", "Fish"], "edges": ["Octopus <|-- Fish"]}
+{"id": "line_14", "template_id": "inheritance_chain", "nodes": ["Penguin", "Bird", "Animal"], "edges": ["Penguin <|-- Bird", "Bird <|-- Animal"]}
+{"id": "line_15", "template_id": "inheritance_chain", "nodes": ["Shark", "Fish", "Animal"], "edges": ["Shark <|-- Fish", "Fish <|-- Animal"]}
+{"id": "line_16", "template_id": "inheritance_chain", "nodes": ["Whale", "Fish", "Animal"], "edges": ["Whale <|-- Fish", "Fish <|-- Animal"]}

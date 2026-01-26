@@ -1,0 +1,4 @@
+@startuml
+Oak <|-- HardwoodTree
+HardwoodTree <|-- BotanicalGroup
+@enduml

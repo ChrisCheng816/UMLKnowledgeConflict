@@ -1,0 +1,5 @@
+{"id": "line_1", "template_id": "inheritance_chain", "nodes": ["Canada", "Country", "Region"], "edges": ["Canada <|-- Country", "Country <|-- Region"]}
+{"id": "line_2", "template_id": "inheritance_chain", "nodes": ["EiffelTower", "Tower", "Structure"], "edges": ["EiffelTower <|-- Tower", "Tower <|-- Structure"]}
+{"id": "line_3", "template_id": "inheritance_chain", "nodes": ["Latitude", "GeoCoordinate", "Measurement"], "edges": ["Latitude <|-- GeoCoordinate", "GeoCoordinate <|-- Measurement"]}
+{"id": "line_4", "template_id": "inheritance_chain", "nodes": ["Mars", "Planet", "CelestialBody"], "edges": ["Mars <|-- Planet", "Planet <|-- CelestialBody"]}
+{"id": "line_5", "template_id": "inheritance_chain", "nodes": ["Taipei", "City", "Place"], "edges": ["Taipei <|-- City", "City <|-- Place"]}

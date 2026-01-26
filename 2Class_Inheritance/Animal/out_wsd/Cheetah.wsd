@@ -1,0 +1,4 @@
+@startuml
+Cheetah <|-- Cat
+Cat <|-- Animal
+@enduml

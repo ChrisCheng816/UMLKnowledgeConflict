@@ -1,0 +1,3 @@
+{"id": "line_1", "template_id": "inheritance_chain", "nodes": ["Beethoven", "Composer", "Artist"], "edges": ["Beethoven <|-- Composer", "Composer <|-- Artist"]}
+{"id": "line_2", "template_id": "inheritance_chain", "nodes": ["Manager", "Employee"], "edges": ["Manager <|-- Employee"]}
+{"id": "line_3", "template_id": "inheritance_chain", "nodes": ["Shakespeare", "Playwright", "Author"], "edges": ["Shakespeare <|-- Playwright", "Playwright <|-- Author"]}

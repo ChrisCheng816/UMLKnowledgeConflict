@@ -1,0 +1,10 @@
+{"id": "line_1", "template_id": "inheritance_chain", "nodes": ["BoxTruck", "Truck"], "edges": ["BoxTruck <|-- Truck"]}
+{"id": "line_2", "template_id": "inheritance_chain", "nodes": ["CargoVan", "Van"], "edges": ["CargoVan <|-- Van"]}
+{"id": "line_3", "template_id": "inheritance_chain", "nodes": ["Coupe", "CarType"], "edges": ["Coupe <|-- CarType"]}
+{"id": "line_4", "template_id": "inheritance_chain", "nodes": ["Hatchback", "Car"], "edges": ["Hatchback <|-- Car"]}
+{"id": "line_5", "template_id": "inheritance_chain", "nodes": ["Minivan", "Van"], "edges": ["Minivan <|-- Van"]}
+{"id": "line_6", "template_id": "inheritance_chain", "nodes": ["PickupTruck", "Truck"], "edges": ["PickupTruck <|-- Truck"]}
+{"id": "line_7", "template_id": "inheritance_chain", "nodes": ["Sedan", "Car"], "edges": ["Sedan <|-- Car"]}
+{"id": "line_8", "template_id": "inheritance_chain", "nodes": ["SemiTruck", "Truck"], "edges": ["SemiTruck <|-- Truck"]}
+{"id": "line_9", "template_id": "inheritance_chain", "nodes": ["ToyotaCamry", "Automobile", "Car"], "edges": ["ToyotaCamry <|-- Automobile", "Automobile <|-- Car"]}
+{"id": "line_10", "template_id": "inheritance_chain", "nodes": ["Wagon", "Car"], "edges": ["Wagon <|-- Car"]}

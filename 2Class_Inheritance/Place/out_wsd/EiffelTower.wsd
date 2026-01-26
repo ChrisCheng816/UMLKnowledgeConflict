@@ -1,0 +1,4 @@
+@startuml
+EiffelTower <|-- Tower
+Tower <|-- Structure
+@enduml

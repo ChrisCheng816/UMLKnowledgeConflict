@@ -1,0 +1,4 @@
+@startuml
+Bitcoin <|-- CryptoToken
+CryptoToken <|-- DigitalAsset
+@enduml

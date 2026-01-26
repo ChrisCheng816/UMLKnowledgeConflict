@@ -1,0 +1,2 @@
+{"id": "line_1", "template_id": "inheritance_chain", "nodes": ["Flower", "Plant"], "edges": ["Flower <|-- Plant"]}
+{"id": "line_2", "template_id": "inheritance_chain", "nodes": ["Rose", "Flower", "Botanical"], "edges": ["Rose <|-- Flower", "Flower <|-- Botanical"]}

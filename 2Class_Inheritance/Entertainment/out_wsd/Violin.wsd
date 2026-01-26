@@ -1,0 +1,4 @@
+@startuml
+Violin <|-- MusicalInstrument
+MusicalInstrument <|-- Artifact
+@enduml

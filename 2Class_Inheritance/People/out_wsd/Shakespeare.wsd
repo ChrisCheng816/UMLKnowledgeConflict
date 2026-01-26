@@ -1,0 +1,4 @@
+@startuml
+Shakespeare <|-- Playwright
+Playwright <|-- Author
+@enduml

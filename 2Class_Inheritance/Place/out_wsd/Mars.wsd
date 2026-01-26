@@ -1,0 +1,4 @@
+@startuml
+Mars <|-- Planet
+Planet <|-- CelestialBody
+@enduml

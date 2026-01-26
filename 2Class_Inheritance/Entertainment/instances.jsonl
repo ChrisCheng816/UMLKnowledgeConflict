@@ -1,0 +1,5 @@
+{"id": "line_1", "template_id": "inheritance_chain", "nodes": ["Bitcoin", "CryptoToken", "DigitalAsset"], "edges": ["Bitcoin <|-- CryptoToken", "CryptoToken <|-- DigitalAsset"]}
+{"id": "line_2", "template_id": "inheritance_chain", "nodes": ["Chess", "BoardGame", "Game"], "edges": ["Chess <|-- BoardGame", "BoardGame <|-- Game"]}
+{"id": "line_3", "template_id": "inheritance_chain", "nodes": ["Comedy", "MovieGenre", "Entertainment"], "edges": ["Comedy <|-- MovieGenre", "MovieGenre <|-- Entertainment"]}
+{"id": "line_4", "template_id": "inheritance_chain", "nodes": ["MozartSymphonyForty", "Symphony", "MusicalWork"], "edges": ["MozartSymphonyForty <|-- Symphony", "Symphony <|-- MusicalWork"]}
+{"id": "line_5", "template_id": "inheritance_chain", "nodes": ["Violin", "MusicalInstrument", "Artifact"], "edges": ["Violin <|-- MusicalInstrument", "MusicalInstrument <|-- Artifact"]}
