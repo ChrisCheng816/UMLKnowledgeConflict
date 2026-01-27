@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Recursively find every data.txt under a root folder, and in-place de-duplicate lines
-based on the first whitespace-separated token (the "child" class), case-insensitively.
+based on the full line content (all whitespace-separated tokens), case-insensitively.
 
 Rule:
-- Use lowercased first token as the key for de-duplication.
+- Use the entire stripped line as the key for de-duplication.
 - Keep the first occurrence, preserve original order.
 - Modify each data.txt in place (no new file), using an atomic replace.
 """
@@ -34,8 +34,9 @@ def dedup_file_in_place(path: Path) -> int:
             kept.append(line)
             continue
 
-        first = stripped.split(None, 1)[0]
-        key = first.casefold()  # case-insensitive match (better than lower for unicode)
+        # Use the full line (all tokens) as the key; case-insensitive.
+        key = stripped.casefold()
+
         if key in seen:
             removed += 1
             continue
@@ -70,8 +71,10 @@ def count_removed(path: Path) -> int:
         stripped = line.strip()
         if not stripped:
             continue
-        first = stripped.split(None, 1)[0]
-        key = first.casefold()
+
+        # Same key rule as dedup_file_in_place.
+        key = stripped.casefold()
+
         if key in seen:
             removed += 1
         else:
