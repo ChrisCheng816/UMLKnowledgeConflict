@@ -1,0 +1,4 @@
+@startuml
+Broccoli <|-- Food
+Food <|-- Thing
+@enduml

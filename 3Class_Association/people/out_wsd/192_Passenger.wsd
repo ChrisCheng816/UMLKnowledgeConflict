@@ -1,0 +1,4 @@
+@startuml
+Passenger --> CruiseDirector
+CruiseDirector --> CruiseLine
+@enduml

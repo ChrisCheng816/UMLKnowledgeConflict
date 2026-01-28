@@ -1,0 +1,4 @@
+@startuml
+Ramen <|-- Dish
+Dish <|-- Food
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Chile <|-- Country
+Country <|-- Location
+@enduml

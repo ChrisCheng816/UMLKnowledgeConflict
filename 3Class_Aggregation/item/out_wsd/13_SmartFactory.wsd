@@ -1,0 +1,4 @@
+@startuml
+ProductionCell o-- SmartFactory
+RobotArm o-- ProductionCell
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GermanShepherd <|-- Dog
+Dog <|-- Mammal
+@enduml

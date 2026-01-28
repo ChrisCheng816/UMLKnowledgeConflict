@@ -1,0 +1,4 @@
+@startuml
+Iris <|-- Flower
+Flower <|-- Plant
+@enduml

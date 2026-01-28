@@ -1,0 +1,4 @@
+@startuml
+Patient --> Midwife
+Midwife --> Hospital
+@enduml

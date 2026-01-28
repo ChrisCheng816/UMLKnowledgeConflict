@@ -1,0 +1,4 @@
+@startuml
+Customer --> LoanOfficer
+LoanOfficer --> Bank
+@enduml

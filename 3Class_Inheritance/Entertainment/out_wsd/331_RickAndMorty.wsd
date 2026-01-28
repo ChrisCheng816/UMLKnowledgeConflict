@@ -1,0 +1,4 @@
+@startuml
+RickAndMorty <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

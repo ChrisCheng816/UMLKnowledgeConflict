@@ -1,0 +1,4 @@
+@startuml
+CounterStrikeGlobalOffensive <|-- VideoGame
+VideoGame <|-- Game
+@enduml

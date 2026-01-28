@@ -1,0 +1,4 @@
+@startuml
+Sherlock <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

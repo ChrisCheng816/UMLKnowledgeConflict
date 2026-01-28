@@ -1,0 +1,4 @@
+@startuml
+DrumKit <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

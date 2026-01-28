@@ -1,0 +1,4 @@
+@startuml
+ArcticHare <|-- Hare
+Hare <|-- Mammal
+@enduml

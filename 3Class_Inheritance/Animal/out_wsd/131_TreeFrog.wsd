@@ -1,0 +1,4 @@
+@startuml
+TreeFrog <|-- Amphibian
+Amphibian <|-- Animal
+@enduml

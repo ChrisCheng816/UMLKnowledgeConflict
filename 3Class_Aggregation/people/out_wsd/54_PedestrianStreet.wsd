@@ -1,0 +1,4 @@
+@startuml
+StreetStall o-- PedestrianStreet
+Operator o-- StreetStall
+@enduml

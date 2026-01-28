@@ -1,0 +1,4 @@
+@startuml
+BohemianRhapsody <|-- Song
+Song <|-- MusicWork
+@enduml

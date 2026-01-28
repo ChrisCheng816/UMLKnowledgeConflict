@@ -1,0 +1,4 @@
+@startuml
+FIFA23 <|-- VideoGame
+VideoGame <|-- Game
+@enduml

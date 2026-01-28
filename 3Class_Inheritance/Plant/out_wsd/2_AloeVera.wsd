@@ -1,0 +1,4 @@
+@startuml
+AloeVera <|-- Succulent
+Succulent <|-- Plant
+@enduml

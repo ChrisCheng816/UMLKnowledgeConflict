@@ -1,0 +1,4 @@
+@startuml
+Resident --> WaterWorker
+WaterWorker --> WaterDepartment
+@enduml

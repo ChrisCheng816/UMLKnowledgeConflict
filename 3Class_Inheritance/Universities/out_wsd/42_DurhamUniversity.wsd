@@ -1,0 +1,4 @@
+@startuml
+DurhamUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

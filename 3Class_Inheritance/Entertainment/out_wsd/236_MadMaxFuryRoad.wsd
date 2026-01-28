@@ -1,0 +1,4 @@
+@startuml
+MadMaxFuryRoad <|-- Film
+Film <|-- Entertainment
+@enduml

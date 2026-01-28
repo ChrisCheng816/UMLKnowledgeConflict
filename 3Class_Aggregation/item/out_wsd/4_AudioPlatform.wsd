@@ -1,0 +1,4 @@
+@startuml
+PodcastChannel o-- AudioPlatform
+Subscriber o-- PodcastChannel
+@enduml

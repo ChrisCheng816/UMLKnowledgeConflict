@@ -1,0 +1,4 @@
+@startuml
+Course o-- CourseRegistrationSystem
+EnrolledStudent o-- Course
+@enduml

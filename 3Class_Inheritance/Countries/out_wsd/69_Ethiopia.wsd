@@ -1,0 +1,4 @@
+@startuml
+Ethiopia <|-- Country
+Country <|-- Location
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Resident --> CityClerk
+CityClerk --> CityHall
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Customer --> Manager
+Manager --> Supermarket
+@enduml

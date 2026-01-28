@@ -1,0 +1,4 @@
+@startuml
+WarmOceanSeaSurface ..> Hurricane
+TropicalOcean ..> WarmOceanSeaSurface
+@enduml

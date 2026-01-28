@@ -1,0 +1,4 @@
+@startuml
+TomatoSauce *-- Lasagna
+Tomato *-- TomatoSauce
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FormulaE <|-- MotorSport
+MotorSport <|-- Sport
+@enduml

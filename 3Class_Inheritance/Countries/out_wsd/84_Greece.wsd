@@ -1,0 +1,4 @@
+@startuml
+Greece <|-- Country
+Country <|-- Location
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Resident --> SchoolBoard
+SchoolBoard --> SchoolDistrict
+@enduml

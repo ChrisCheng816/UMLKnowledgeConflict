@@ -1,0 +1,4 @@
+@startuml
+Customer --> Salesperson
+Salesperson --> Store
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PluginLibrary o-- SoftwareIntegrator
+ThirdPartySDK o-- PluginLibrary
+@enduml

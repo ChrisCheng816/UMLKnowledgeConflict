@@ -1,0 +1,4 @@
+@startuml
+Patient --> Pediatrician
+Pediatrician --> Clinic
+@enduml

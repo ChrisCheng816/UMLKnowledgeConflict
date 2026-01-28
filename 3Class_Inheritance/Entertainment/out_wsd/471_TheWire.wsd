@@ -1,0 +1,4 @@
+@startuml
+TheWire <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

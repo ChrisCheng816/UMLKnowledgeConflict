@@ -1,0 +1,4 @@
+@startuml
+SensorNetwork o-- IndustrialAutomation
+SignalWire o-- SensorNetwork
+@enduml

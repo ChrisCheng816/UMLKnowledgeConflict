@@ -1,0 +1,4 @@
+@startuml
+Resident --> Lifeguard
+Lifeguard --> CommunityPool
+@enduml

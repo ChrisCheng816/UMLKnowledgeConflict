@@ -1,0 +1,4 @@
+@startuml
+Politician <|-- PersonRole
+PersonRole <|-- Person
+@enduml

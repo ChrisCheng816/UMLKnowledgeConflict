@@ -1,0 +1,4 @@
+@startuml
+FrenchPolynesia <|-- Country
+Country <|-- Location
+@enduml

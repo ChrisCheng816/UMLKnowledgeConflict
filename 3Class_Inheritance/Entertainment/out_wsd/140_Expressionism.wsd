@@ -1,0 +1,4 @@
+@startuml
+Expressionism <|-- ArtMovement
+ArtMovement <|-- Art
+@enduml

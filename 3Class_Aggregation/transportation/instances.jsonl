@@ -1,0 +1,17 @@
+{"id": "line_1", "template_id": "aggregation", "nodes": ["CarRentalPlatform", "CityOutlet", "RentalCar"], "edges": ["CityOutlet o-- CarRentalPlatform", "RentalCar o-- CityOutlet"]}
+{"id": "line_2", "template_id": "aggregation", "nodes": ["RideHailingApp", "DriverFleet", "Taxi"], "edges": ["DriverFleet o-- RideHailingApp", "Taxi o-- DriverFleet"]}
+{"id": "line_3", "template_id": "aggregation", "nodes": ["Pier", "Berth", "Yacht"], "edges": ["Berth o-- Pier", "Yacht o-- Berth"]}
+{"id": "line_4", "template_id": "aggregation", "nodes": ["ParkingLot", "Zone", "ShortTermCar"], "edges": ["Zone o-- ParkingLot", "ShortTermCar o-- Zone"]}
+{"id": "line_5", "template_id": "aggregation", "nodes": ["Expressway", "ServiceArea", "GasStation"], "edges": ["ServiceArea o-- Expressway", "GasStation o-- ServiceArea"]}
+{"id": "line_6", "template_id": "aggregation", "nodes": ["SmartParkingSystem", "MonitoringCenter", "Inspector"], "edges": ["MonitoringCenter o-- SmartParkingSystem", "Inspector o-- MonitoringCenter"]}
+{"id": "line_7", "template_id": "aggregation", "nodes": ["BridgeManagementOffice", "MaintenanceTeam", "Engineer"], "edges": ["MaintenanceTeam o-- BridgeManagementOffice", "Engineer o-- MaintenanceTeam"]}
+{"id": "line_8", "template_id": "aggregation", "nodes": ["TrafficControlCenter", "ExpertGroup", "Advisor"], "edges": ["ExpertGroup o-- TrafficControlCenter", "Advisor o-- ExpertGroup"]}
+{"id": "line_9", "template_id": "aggregation", "nodes": ["TunnelAuthority", "EmergencyTeam", "Firefighter"], "edges": ["EmergencyTeam o-- TunnelAuthority", "Firefighter o-- EmergencyTeam"]}
+{"id": "line_10", "template_id": "aggregation", "nodes": ["AirportTerminal", "VIPLounge", "Passenger"], "edges": ["VIPLounge o-- AirportTerminal", "Passenger o-- VIPLounge"]}
+{"id": "line_11", "template_id": "aggregation", "nodes": ["Heliport", "FlightTeam", "Pilot"], "edges": ["FlightTeam o-- Heliport", "Pilot o-- FlightTeam"]}
+{"id": "line_12", "template_id": "aggregation", "nodes": ["PortAuthority", "PilotTeam", "HarborPilot"], "edges": ["PilotTeam o-- PortAuthority", "HarborPilot o-- PilotTeam"]}
+{"id": "line_13", "template_id": "aggregation", "nodes": ["MovingCompany", "MovingCrew", "Mover"], "edges": ["MovingCrew o-- MovingCompany", "Mover o-- MovingCrew"]}
+{"id": "line_14", "template_id": "aggregation", "nodes": ["ParcelLocker", "LockerUnit", "Parcel"], "edges": ["LockerUnit o-- ParcelLocker", "Parcel o-- LockerUnit"]}
+{"id": "line_15", "template_id": "aggregation", "nodes": ["SmartStreetlightNetwork", "MaintenanceShift", "Electrician"], "edges": ["MaintenanceShift o-- SmartStreetlightNetwork", "Electrician o-- MaintenanceShift"]}
+{"id": "line_16", "template_id": "aggregation", "nodes": ["SanitationDepartment", "CleaningTeam", "StreetSweeper"], "edges": ["CleaningTeam o-- SanitationDepartment", "StreetSweeper o-- CleaningTeam"]}
+{"id": "line_17", "template_id": "aggregation", "nodes": ["TrafficRadio", "EditorialOffice", "Broadcaster"], "edges": ["EditorialOffice o-- TrafficRadio", "Broadcaster o-- EditorialOffice"]}

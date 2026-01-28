@@ -1,0 +1,4 @@
+@startuml
+OnePunchMan <|-- Manga
+Manga <|-- Comic
+@enduml

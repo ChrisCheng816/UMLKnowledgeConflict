@@ -1,0 +1,4 @@
+@startuml
+ConcordiaUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

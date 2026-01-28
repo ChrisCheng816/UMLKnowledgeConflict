@@ -1,0 +1,4 @@
+@startuml
+Durian <|-- TropicalFruit
+TropicalFruit <|-- Fruit
+@enduml

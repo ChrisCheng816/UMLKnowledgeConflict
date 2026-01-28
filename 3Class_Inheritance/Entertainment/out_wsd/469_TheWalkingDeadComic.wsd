@@ -1,0 +1,4 @@
+@startuml
+TheWalkingDeadComic <|-- Comic
+Comic <|-- Entertainment
+@enduml

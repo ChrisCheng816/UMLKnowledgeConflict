@@ -1,0 +1,4 @@
+@startuml
+MargheritaPizza *-- Pizza
+Mozzarella *-- MargheritaPizza
+@enduml

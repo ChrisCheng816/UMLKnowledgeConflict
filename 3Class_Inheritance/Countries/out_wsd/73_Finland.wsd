@@ -1,0 +1,4 @@
+@startuml
+Finland <|-- Country
+Country <|-- Location
+@enduml

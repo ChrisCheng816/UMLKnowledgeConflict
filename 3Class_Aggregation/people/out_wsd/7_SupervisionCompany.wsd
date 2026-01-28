@@ -1,0 +1,4 @@
+@startuml
+OnsiteTeam o-- SupervisionCompany
+Inspector o-- OnsiteTeam
+@enduml

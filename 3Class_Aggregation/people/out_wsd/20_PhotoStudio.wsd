@@ -1,0 +1,4 @@
+@startuml
+PhotographyTeam o-- PhotoStudio
+MakeupArtist o-- PhotographyTeam
+@enduml

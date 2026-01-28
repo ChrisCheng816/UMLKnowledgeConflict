@@ -1,0 +1,4 @@
+@startuml
+Mexico <|-- Country
+Country <|-- Location
+@enduml

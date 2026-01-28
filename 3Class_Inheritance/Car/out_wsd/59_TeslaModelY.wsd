@@ -1,0 +1,4 @@
+@startuml
+TeslaModelY <|-- Tesla
+Tesla <|-- CarManufacturer
+@enduml

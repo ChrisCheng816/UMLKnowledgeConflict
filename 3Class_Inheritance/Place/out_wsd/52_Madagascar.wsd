@@ -1,0 +1,4 @@
+@startuml
+Madagascar <|-- Island
+Island <|-- GeographicFeature
+@enduml

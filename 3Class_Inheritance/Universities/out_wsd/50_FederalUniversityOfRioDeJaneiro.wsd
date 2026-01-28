@@ -1,0 +1,4 @@
+@startuml
+FederalUniversityOfRioDeJaneiro <|-- University
+University <|-- EducationalInstitution
+@enduml

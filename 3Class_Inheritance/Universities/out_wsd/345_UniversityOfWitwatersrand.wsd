@@ -1,0 +1,4 @@
+@startuml
+UniversityOfWitwatersrand <|-- University
+University <|-- EducationalInstitution
+@enduml

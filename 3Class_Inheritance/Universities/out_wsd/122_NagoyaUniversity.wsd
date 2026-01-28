@@ -1,0 +1,4 @@
+@startuml
+NagoyaUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

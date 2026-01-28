@@ -1,0 +1,4 @@
+@startuml
+PopMusic <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

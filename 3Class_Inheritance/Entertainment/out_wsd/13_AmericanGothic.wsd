@@ -1,0 +1,4 @@
+@startuml
+AmericanGothic <|-- Painting
+Painting <|-- Artwork
+@enduml

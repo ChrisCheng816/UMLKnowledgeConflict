@@ -1,0 +1,4 @@
+@startuml
+Seinfeld <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

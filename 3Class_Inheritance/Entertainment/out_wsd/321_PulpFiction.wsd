@@ -1,0 +1,4 @@
+@startuml
+PulpFiction <|-- Film
+Film <|-- Entertainment
+@enduml

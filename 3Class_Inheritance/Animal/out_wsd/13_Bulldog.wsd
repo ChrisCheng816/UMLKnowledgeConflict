@@ -1,0 +1,4 @@
+@startuml
+Bulldog <|-- Dog
+Dog <|-- Mammal
+@enduml

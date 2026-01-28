@@ -1,0 +1,4 @@
+@startuml
+GameOfThrones <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

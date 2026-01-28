@@ -1,0 +1,4 @@
+@startuml
+Parasite <|-- Film
+Film <|-- Entertainment
+@enduml

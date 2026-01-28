@@ -1,0 +1,4 @@
+@startuml
+FindingNemo <|-- Film
+Film <|-- Entertainment
+@enduml

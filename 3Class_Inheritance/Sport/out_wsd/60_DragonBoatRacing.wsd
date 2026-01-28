@@ -1,0 +1,4 @@
+@startuml
+DragonBoatRacing <|-- WaterSport
+WaterSport <|-- Sport
+@enduml

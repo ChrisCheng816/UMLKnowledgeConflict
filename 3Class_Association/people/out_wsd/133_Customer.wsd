@@ -1,0 +1,4 @@
+@startuml
+Customer --> Jeweler
+Jeweler --> JewelryStore
+@enduml

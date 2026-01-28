@@ -1,0 +1,4 @@
+@startuml
+Rice <|-- Food
+Food <|-- Thing
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> MediaPlayer
+CircuitBreakerPanel ..> WallOutlet
+@enduml

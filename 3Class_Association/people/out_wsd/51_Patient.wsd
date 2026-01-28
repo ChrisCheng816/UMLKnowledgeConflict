@@ -1,0 +1,4 @@
+@startuml
+Patient --> Nurse
+Nurse --> Hospital
+@enduml

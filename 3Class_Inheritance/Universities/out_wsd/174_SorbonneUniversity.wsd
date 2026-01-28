@@ -1,0 +1,4 @@
+@startuml
+SorbonneUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

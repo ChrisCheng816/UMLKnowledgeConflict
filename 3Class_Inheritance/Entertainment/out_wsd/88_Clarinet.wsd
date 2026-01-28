@@ -1,0 +1,4 @@
+@startuml
+Clarinet <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

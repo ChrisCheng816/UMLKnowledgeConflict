@@ -1,0 +1,4 @@
+@startuml
+Hotpot <|-- Dish
+Dish <|-- Food
+@enduml

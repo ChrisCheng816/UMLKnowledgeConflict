@@ -1,0 +1,4 @@
+@startuml
+HipHopMusic <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

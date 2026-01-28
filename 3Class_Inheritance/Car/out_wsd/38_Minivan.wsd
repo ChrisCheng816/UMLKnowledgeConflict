@@ -1,0 +1,4 @@
+@startuml
+Minivan <|-- Van
+Van <|-- Vehicle
+@enduml

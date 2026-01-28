@@ -1,0 +1,4 @@
+@startuml
+Customer --> Tailor
+Tailor --> TailorShop
+@enduml

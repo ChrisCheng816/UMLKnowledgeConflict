@@ -1,0 +1,4 @@
+@startuml
+WoodPellets ..> PelletStove
+PelletSupplier ..> WoodPellets
+@enduml

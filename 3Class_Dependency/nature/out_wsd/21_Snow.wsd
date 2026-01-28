@@ -1,0 +1,4 @@
+@startuml
+ColdAir ..> Snow
+WinterStorm ..> ColdAir
+@enduml

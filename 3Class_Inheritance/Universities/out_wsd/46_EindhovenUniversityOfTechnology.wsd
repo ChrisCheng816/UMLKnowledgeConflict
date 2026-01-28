@@ -1,0 +1,4 @@
+@startuml
+EindhovenUniversityOfTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

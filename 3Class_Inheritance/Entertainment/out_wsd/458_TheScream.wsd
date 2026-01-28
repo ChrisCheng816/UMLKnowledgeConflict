@@ -1,0 +1,4 @@
+@startuml
+TheScream <|-- Painting
+Painting <|-- Artwork
+@enduml

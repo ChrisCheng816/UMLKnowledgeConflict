@@ -1,0 +1,4 @@
+@startuml
+MaintenanceTeam o-- BotanicalGarden
+Gardener o-- MaintenanceTeam
+@enduml

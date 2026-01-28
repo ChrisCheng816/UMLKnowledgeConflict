@@ -1,0 +1,4 @@
+@startuml
+MasseyUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Food
+Food <|-- Thing
+@enduml

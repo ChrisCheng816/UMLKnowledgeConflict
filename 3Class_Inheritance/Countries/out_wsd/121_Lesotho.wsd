@@ -1,0 +1,4 @@
+@startuml
+Lesotho <|-- Country
+Country <|-- Location
+@enduml

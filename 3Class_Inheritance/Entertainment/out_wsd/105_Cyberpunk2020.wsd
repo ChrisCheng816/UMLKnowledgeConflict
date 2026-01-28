@@ -1,0 +1,4 @@
+@startuml
+Cyberpunk2020 <|-- TabletopRPG
+TabletopRPG <|-- Game
+@enduml

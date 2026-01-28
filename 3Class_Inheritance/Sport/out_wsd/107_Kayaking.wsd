@@ -1,0 +1,4 @@
+@startuml
+Kayaking <|-- WaterSport
+WaterSport <|-- Sport
+@enduml

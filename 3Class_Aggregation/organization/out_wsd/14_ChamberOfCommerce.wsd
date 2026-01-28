@@ -1,0 +1,4 @@
+@startuml
+BoardMemberCompany o-- ChamberOfCommerce
+Accountant o-- BoardMemberCompany
+@enduml

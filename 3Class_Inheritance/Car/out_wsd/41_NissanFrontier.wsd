@@ -1,0 +1,4 @@
+@startuml
+NissanFrontier <|-- Nissan
+Nissan <|-- CarManufacturer
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Resident --> MeterReader
+MeterReader --> UtilityCompany
+@enduml

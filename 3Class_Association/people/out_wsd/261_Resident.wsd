@@ -1,0 +1,4 @@
+@startuml
+Resident --> TaxCollector
+TaxCollector --> CityHall
+@enduml

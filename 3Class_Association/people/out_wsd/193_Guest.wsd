@@ -1,0 +1,4 @@
+@startuml
+Guest --> TourGuide
+TourGuide --> CruiseLine
+@enduml

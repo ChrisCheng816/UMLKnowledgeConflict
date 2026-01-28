@@ -1,0 +1,4 @@
+@startuml
+AuditTeam o-- AccountingFirm
+AuditAssistant o-- AuditTeam
+@enduml

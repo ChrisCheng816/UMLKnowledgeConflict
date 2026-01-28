@@ -1,0 +1,4 @@
+@startuml
+SingaporeManagementUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

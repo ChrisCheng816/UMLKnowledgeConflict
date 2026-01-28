@@ -1,0 +1,4 @@
+@startuml
+AcornSquash <|-- SquashVegetable
+SquashVegetable <|-- Vegetable
+@enduml

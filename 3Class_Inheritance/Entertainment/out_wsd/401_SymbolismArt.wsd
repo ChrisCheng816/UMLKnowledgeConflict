@@ -1,0 +1,4 @@
+@startuml
+SymbolismArt <|-- ArtMovement
+ArtMovement <|-- Art
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Splatoon3 <|-- VideoGame
+VideoGame <|-- Game
+@enduml

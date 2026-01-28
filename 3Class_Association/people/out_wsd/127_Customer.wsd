@@ -1,0 +1,4 @@
+@startuml
+Customer --> Cashier
+Cashier --> Cafe
+@enduml

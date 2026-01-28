@@ -1,0 +1,4 @@
+@startuml
+Patchwork <|-- BoardGame
+BoardGame <|-- Game
+@enduml

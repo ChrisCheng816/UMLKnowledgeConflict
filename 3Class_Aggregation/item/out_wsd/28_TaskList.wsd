@@ -1,0 +1,4 @@
+@startuml
+Subtask o-- TaskList
+Assignee o-- Subtask
+@enduml

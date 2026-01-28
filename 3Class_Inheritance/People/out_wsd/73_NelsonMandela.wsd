@@ -1,0 +1,4 @@
+@startuml
+NelsonMandela <|-- Politician
+Politician <|-- PersonRole
+@enduml

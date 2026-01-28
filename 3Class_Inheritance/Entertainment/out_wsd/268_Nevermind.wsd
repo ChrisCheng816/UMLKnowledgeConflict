@@ -1,0 +1,4 @@
+@startuml
+Nevermind <|-- Album
+Album <|-- MusicWork
+@enduml

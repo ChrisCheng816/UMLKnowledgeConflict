@@ -1,0 +1,4 @@
+@startuml
+ArtDeco <|-- ArtMovement
+ArtMovement <|-- Art
+@enduml

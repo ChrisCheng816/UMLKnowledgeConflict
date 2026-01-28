@@ -1,0 +1,4 @@
+@startuml
+Patient --> Trainer
+Trainer --> Gym
+@enduml

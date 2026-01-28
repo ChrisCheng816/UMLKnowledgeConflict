@@ -1,0 +1,4 @@
+@startuml
+IITKharagpur <|-- University
+University <|-- EducationalInstitution
+@enduml

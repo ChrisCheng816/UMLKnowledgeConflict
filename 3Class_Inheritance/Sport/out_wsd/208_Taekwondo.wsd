@@ -1,0 +1,4 @@
+@startuml
+Taekwondo <|-- Sport
+Sport <|-- Activity
+@enduml

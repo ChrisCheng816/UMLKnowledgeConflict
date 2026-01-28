@@ -1,0 +1,4 @@
+@startuml
+Customer --> Accountant
+Accountant --> AccountingFirm
+@enduml

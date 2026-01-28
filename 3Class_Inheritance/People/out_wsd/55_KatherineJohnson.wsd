@@ -1,0 +1,4 @@
+@startuml
+KatherineJohnson <|-- Mathematician
+Mathematician <|-- Scientist
+@enduml

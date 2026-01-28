@@ -1,0 +1,4 @@
+@startuml
+Libya <|-- Country
+Country <|-- Location
+@enduml

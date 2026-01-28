@@ -1,0 +1,4 @@
+@startuml
+TheBindingOfIsaac <|-- VideoGame
+VideoGame <|-- Game
+@enduml

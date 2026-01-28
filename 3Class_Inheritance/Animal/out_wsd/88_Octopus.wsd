@@ -1,0 +1,4 @@
+@startuml
+Octopus <|-- Fish
+Fish <|-- Animal
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+AlliumVegetable <|-- Vegetable
+Vegetable <|-- Food
+@enduml

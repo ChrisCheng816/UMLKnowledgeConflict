@@ -1,0 +1,4 @@
+@startuml
+Character o-- VirtualCommunity
+SkinItem o-- Character
+@enduml

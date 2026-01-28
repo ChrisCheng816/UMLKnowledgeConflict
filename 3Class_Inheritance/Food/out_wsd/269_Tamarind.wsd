@@ -1,0 +1,4 @@
+@startuml
+Tamarind <|-- TropicalFruit
+TropicalFruit <|-- Fruit
+@enduml

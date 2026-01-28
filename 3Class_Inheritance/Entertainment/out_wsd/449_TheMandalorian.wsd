@@ -1,0 +1,4 @@
+@startuml
+TheMandalorian <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

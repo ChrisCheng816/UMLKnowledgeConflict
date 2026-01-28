@@ -1,0 +1,4 @@
+@startuml
+RapidCharger ..> PowerToolBattery
+WallOutlet ..> RapidCharger
+@enduml

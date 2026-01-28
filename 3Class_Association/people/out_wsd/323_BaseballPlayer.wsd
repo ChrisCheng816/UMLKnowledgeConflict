@@ -1,0 +1,4 @@
+@startuml
+BaseballPlayer --> Coach
+Coach --> Team
+@enduml

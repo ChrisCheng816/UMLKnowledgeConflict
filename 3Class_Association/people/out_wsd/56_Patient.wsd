@@ -1,0 +1,4 @@
+@startuml
+Patient --> Receptionist
+Receptionist --> Clinic
+@enduml

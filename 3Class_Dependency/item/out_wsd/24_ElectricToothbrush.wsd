@@ -1,0 +1,4 @@
+@startuml
+ChargingStand ..> ElectricToothbrush
+WallOutlet ..> ChargingStand
+@enduml

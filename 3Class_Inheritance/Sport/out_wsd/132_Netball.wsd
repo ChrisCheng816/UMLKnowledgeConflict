@@ -1,0 +1,4 @@
+@startuml
+Netball <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GasStation ..> GoKart
+FuelDeliveryTruck ..> GasStation
+@enduml

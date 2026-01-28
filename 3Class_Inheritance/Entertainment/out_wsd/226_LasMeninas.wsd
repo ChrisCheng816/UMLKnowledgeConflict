@@ -1,0 +1,4 @@
+@startuml
+LasMeninas <|-- Painting
+Painting <|-- Artwork
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Bhutan <|-- Country
+Country <|-- Location
+@enduml

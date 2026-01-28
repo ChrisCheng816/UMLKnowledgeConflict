@@ -1,0 +1,4 @@
+@startuml
+Neoclassicism <|-- ArtMovement
+ArtMovement <|-- Art
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Avalon <|-- BoardGame
+BoardGame <|-- Game
+@enduml

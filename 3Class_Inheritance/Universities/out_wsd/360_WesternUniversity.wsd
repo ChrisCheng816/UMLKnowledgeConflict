@@ -1,0 +1,4 @@
+@startuml
+WesternUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

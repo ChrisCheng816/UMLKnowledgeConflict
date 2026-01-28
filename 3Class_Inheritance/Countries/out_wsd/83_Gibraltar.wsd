@@ -1,0 +1,4 @@
+@startuml
+Gibraltar <|-- Country
+Country <|-- Location
+@enduml

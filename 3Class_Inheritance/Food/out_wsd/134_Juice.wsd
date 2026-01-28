@@ -1,0 +1,4 @@
+@startuml
+Juice <|-- Beverage
+Beverage <|-- Food
+@enduml

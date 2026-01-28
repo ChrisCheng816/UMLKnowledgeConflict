@@ -1,0 +1,4 @@
+@startuml
+Cat <|-- Animal
+Animal <|-- Organism
+@enduml

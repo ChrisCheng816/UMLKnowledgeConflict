@@ -1,0 +1,4 @@
+@startuml
+BatteryCharger ..> ElectricVehicle
+ChargingStation ..> BatteryCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Customer --> Mechanic
+Mechanic --> Garage
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+AgeOfEmpiresII <|-- VideoGame
+VideoGame <|-- Game
+@enduml

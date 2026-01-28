@@ -1,0 +1,4 @@
+@startuml
+NewStudent --> OrientationGuide
+OrientationGuide --> University
+@enduml

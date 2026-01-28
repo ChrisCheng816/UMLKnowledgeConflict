@@ -1,0 +1,4 @@
+@startuml
+Band --> Promoter
+Promoter --> ConcertVenue
+@enduml

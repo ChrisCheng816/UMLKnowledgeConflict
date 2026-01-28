@@ -1,0 +1,4 @@
+@startuml
+TheWalkingDead <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

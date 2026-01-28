@@ -1,0 +1,4 @@
+@startuml
+SouvenirShop o-- TouristAttraction
+Clerk o-- SouvenirShop
+@enduml

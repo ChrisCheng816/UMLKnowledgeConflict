@@ -1,0 +1,4 @@
+@startuml
+Shogi <|-- MindSport
+MindSport <|-- Sport
+@enduml

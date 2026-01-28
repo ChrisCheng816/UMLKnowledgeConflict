@@ -1,0 +1,4 @@
+@startuml
+BlackSwan <|-- Film
+Film <|-- Entertainment
+@enduml

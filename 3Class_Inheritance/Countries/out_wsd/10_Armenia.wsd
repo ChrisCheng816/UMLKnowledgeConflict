@@ -1,0 +1,4 @@
+@startuml
+Armenia <|-- Country
+Country <|-- Location
+@enduml

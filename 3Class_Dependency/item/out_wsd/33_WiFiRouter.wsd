@@ -1,0 +1,4 @@
+@startuml
+PowerAdapter ..> WiFiRouter
+WallOutlet ..> PowerAdapter
+@enduml

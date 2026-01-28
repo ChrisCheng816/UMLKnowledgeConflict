@@ -1,0 +1,4 @@
+@startuml
+PSLUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StemVegetable <|-- Vegetable
+Vegetable <|-- Food
+@enduml

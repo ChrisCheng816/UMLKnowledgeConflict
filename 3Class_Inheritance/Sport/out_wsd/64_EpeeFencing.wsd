@@ -1,0 +1,4 @@
+@startuml
+EpeeFencing <|-- Fencing
+Fencing <|-- Sport
+@enduml

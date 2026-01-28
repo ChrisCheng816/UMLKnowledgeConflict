@@ -1,0 +1,4 @@
+@startuml
+CentralAfricanRepublic <|-- Country
+Country <|-- Location
+@enduml

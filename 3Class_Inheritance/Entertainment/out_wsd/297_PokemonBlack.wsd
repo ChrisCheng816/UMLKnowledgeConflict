@@ -1,0 +1,4 @@
+@startuml
+PokemonBlack <|-- VideoGame
+VideoGame <|-- Game
+@enduml

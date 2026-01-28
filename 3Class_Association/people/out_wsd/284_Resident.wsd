@@ -1,0 +1,4 @@
+@startuml
+Resident --> TrashCollector
+TrashCollector --> SanitationDepartment
+@enduml

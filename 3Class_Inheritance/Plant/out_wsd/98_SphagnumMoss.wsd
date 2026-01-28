@@ -1,0 +1,4 @@
+@startuml
+SphagnumMoss <|-- Moss
+Moss <|-- Plant
+@enduml

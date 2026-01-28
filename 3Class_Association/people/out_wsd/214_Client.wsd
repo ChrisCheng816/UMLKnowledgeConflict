@@ -1,0 +1,4 @@
+@startuml
+Client --> Receptionist
+Receptionist --> LawFirm
+@enduml

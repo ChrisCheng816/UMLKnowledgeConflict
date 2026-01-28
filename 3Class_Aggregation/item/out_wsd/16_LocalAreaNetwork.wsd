@@ -1,0 +1,4 @@
+@startuml
+Workgroup o-- LocalAreaNetwork
+SharedPrinter o-- Workgroup
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Contractor o-- ConstructionSite
+CraneDriver o-- Contractor
+@enduml

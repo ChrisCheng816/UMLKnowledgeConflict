@@ -1,0 +1,4 @@
+@startuml
+OffRoadRacing <|-- MotorSport
+MotorSport <|-- Sport
+@enduml

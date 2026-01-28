@@ -1,0 +1,4 @@
+@startuml
+Luxembourg <|-- Country
+Country <|-- Location
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Delegation o-- DebateTournament
+Debater o-- Delegation
+@enduml

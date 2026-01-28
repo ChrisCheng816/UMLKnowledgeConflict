@@ -1,0 +1,4 @@
+@startuml
+Athlete --> PhysicalTherapist
+PhysicalTherapist --> Clinic
+@enduml

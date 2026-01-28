@@ -1,0 +1,4 @@
+@startuml
+Customer --> CreditCardAgent
+CreditCardAgent --> Bank
+@enduml

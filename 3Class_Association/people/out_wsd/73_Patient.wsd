@@ -1,0 +1,4 @@
+@startuml
+Patient --> CaseManager
+CaseManager --> Hospital
+@enduml

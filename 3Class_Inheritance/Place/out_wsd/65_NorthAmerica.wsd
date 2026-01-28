@@ -1,0 +1,4 @@
+@startuml
+NorthAmerica <|-- Continent
+Continent <|-- GeographicFeature
+@enduml

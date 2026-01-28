@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> RiceCooker
+CircuitBreakerPanel ..> WallOutlet
+@enduml

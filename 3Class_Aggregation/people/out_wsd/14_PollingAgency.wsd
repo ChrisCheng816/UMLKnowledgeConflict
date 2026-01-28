@@ -1,0 +1,4 @@
+@startuml
+InterviewTeam o-- PollingAgency
+Interviewer o-- InterviewTeam
+@enduml

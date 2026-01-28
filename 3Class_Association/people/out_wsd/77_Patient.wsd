@@ -1,0 +1,4 @@
+@startuml
+Patient --> Surgeon
+Surgeon --> OperatingRoom
+@enduml

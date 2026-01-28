@@ -1,0 +1,4 @@
+@startuml
+SatelliteSignal ..> DishAntenna
+CommunicationSatellite ..> SatelliteSignal
+@enduml

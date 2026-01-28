@@ -1,0 +1,4 @@
+@startuml
+UniversityOfCapeTown <|-- University
+University <|-- EducationalInstitution
+@enduml

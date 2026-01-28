@@ -1,0 +1,4 @@
+@startuml
+SgtPeppersLonelyHeartsClubBand <|-- Album
+Album <|-- MusicWork
+@enduml

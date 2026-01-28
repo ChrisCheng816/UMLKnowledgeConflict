@@ -1,0 +1,4 @@
+@startuml
+Customer --> SecurityGuard
+SecurityGuard --> Mall
+@enduml

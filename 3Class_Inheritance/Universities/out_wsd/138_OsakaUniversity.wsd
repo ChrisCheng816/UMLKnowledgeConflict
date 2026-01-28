@@ -1,0 +1,4 @@
+@startuml
+OsakaUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

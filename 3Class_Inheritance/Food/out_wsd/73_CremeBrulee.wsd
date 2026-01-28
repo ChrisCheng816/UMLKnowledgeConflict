@@ -1,0 +1,4 @@
+@startuml
+CremeBrulee <|-- Dessert
+Dessert <|-- Food
+@enduml

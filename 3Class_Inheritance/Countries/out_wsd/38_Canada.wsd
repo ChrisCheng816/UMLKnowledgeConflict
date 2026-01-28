@@ -1,0 +1,4 @@
+@startuml
+Canada <|-- Country
+Country <|-- Location
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Deer <|-- Mammal
+Mammal <|-- Animal
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Traveler --> CustomsOfficer
+CustomsOfficer --> BorderAgency
+@enduml

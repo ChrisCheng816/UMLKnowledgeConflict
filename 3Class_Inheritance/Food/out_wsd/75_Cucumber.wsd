@@ -1,0 +1,4 @@
+@startuml
+Cucumber <|-- Vegetable
+Vegetable <|-- Food
+@enduml

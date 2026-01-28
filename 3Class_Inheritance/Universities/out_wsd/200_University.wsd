@@ -1,0 +1,4 @@
+@startuml
+University <|-- EducationalInstitution
+EducationalInstitution <|-- Organization
+@enduml

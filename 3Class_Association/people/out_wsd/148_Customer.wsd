@@ -1,0 +1,4 @@
+@startuml
+Customer --> Technician
+Technician --> RepairShop
+@enduml

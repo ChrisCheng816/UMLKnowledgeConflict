@@ -1,0 +1,4 @@
+@startuml
+OpsTeam o-- DataCenter
+InspectionRobot o-- OpsTeam
+@enduml

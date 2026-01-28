@@ -1,0 +1,4 @@
+@startuml
+Okra <|-- Vegetable
+Vegetable <|-- Food
+@enduml

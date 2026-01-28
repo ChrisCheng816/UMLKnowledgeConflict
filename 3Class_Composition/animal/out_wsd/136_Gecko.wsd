@@ -1,0 +1,4 @@
+@startuml
+Tail *-- Gecko
+Vertebra *-- Tail
+@enduml

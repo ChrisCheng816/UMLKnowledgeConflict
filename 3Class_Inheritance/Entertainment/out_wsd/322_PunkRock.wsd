@@ -1,0 +1,4 @@
+@startuml
+PunkRock <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

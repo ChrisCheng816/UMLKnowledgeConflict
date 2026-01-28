@@ -1,0 +1,4 @@
+@startuml
+ToyotaCorolla <|-- Toyota
+Toyota <|-- CarManufacturer
+@enduml

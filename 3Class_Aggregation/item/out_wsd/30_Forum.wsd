@@ -1,0 +1,4 @@
+@startuml
+Board o-- Forum
+Moderator o-- Board
+@enduml

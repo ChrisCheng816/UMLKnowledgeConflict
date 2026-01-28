@@ -1,0 +1,4 @@
+@startuml
+SweetCorn <|-- Vegetable
+Vegetable <|-- Food
+@enduml

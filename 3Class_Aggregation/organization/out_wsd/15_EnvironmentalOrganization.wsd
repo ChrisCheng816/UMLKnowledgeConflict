@@ -1,0 +1,4 @@
+@startuml
+VolunteerGroup o-- EnvironmentalOrganization
+Investigator o-- VolunteerGroup
+@enduml

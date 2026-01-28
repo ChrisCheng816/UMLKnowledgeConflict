@@ -1,0 +1,4 @@
+@startuml
+USBCharger ..> WirelessHeadphones
+WallOutlet ..> USBCharger
+@enduml

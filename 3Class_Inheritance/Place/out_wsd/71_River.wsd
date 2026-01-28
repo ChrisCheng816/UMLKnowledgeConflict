@@ -1,0 +1,4 @@
+@startuml
+River <|-- GeographicFeature
+GeographicFeature <|-- Location
+@enduml

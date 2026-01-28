@@ -1,0 +1,4 @@
+@startuml
+FireSuppressionTeam o-- ForestRangerStation
+FireTruck o-- FireSuppressionTeam
+@enduml

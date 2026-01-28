@@ -1,0 +1,4 @@
+@startuml
+Teacher --> SubstituteTeacher
+SubstituteTeacher --> School
+@enduml

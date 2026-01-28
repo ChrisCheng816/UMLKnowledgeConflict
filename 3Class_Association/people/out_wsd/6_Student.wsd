@@ -1,0 +1,4 @@
+@startuml
+Student --> Tutor
+Tutor --> TutoringCenter
+@enduml

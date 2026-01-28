@@ -1,0 +1,4 @@
+@startuml
+USBCharger ..> ActionCamera
+WallOutlet ..> USBCharger
+@enduml

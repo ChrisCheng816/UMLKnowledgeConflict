@@ -1,0 +1,4 @@
+@startuml
+Ghana <|-- Country
+Country <|-- Location
+@enduml

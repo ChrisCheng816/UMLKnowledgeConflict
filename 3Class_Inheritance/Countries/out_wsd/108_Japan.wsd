@@ -1,0 +1,4 @@
+@startuml
+Japan <|-- Country
+Country <|-- Location
+@enduml

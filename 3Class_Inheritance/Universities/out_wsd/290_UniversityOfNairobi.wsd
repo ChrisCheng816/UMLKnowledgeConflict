@@ -1,0 +1,4 @@
+@startuml
+UniversityOfNairobi <|-- University
+University <|-- EducationalInstitution
+@enduml

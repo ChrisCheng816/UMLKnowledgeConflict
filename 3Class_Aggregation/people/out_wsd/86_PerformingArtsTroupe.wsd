@@ -1,0 +1,4 @@
+@startuml
+AcrobaticsTeam o-- PerformingArtsTroupe
+Performer o-- AcrobaticsTeam
+@enduml

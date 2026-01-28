@@ -1,0 +1,4 @@
+@startuml
+PolitecnicoDiTorino <|-- University
+University <|-- EducationalInstitution
+@enduml

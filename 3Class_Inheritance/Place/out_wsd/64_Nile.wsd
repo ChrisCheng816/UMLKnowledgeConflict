@@ -1,0 +1,4 @@
+@startuml
+Nile <|-- River
+River <|-- GeographicFeature
+@enduml

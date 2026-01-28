@@ -1,0 +1,4 @@
+@startuml
+Baobab <|-- Tree
+Tree <|-- Plant
+@enduml

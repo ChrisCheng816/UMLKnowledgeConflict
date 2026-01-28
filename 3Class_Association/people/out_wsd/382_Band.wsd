@@ -1,0 +1,4 @@
+@startuml
+Band --> Manager
+Manager --> MusicLabel
+@enduml

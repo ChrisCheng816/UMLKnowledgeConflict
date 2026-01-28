@@ -1,0 +1,4 @@
+@startuml
+CityOutlet o-- CarRentalPlatform
+RentalCar o-- CityOutlet
+@enduml

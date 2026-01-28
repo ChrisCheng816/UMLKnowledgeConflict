@@ -1,0 +1,4 @@
+@startuml
+UniversityOfMinnesotaTwinCities <|-- University
+University <|-- EducationalInstitution
+@enduml

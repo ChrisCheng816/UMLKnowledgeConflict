@@ -1,0 +1,4 @@
+@startuml
+Firewood ..> FirePit
+FirewoodSupplier ..> Firewood
+@enduml

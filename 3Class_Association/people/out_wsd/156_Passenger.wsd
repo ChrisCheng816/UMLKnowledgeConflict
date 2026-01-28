@@ -1,0 +1,4 @@
+@startuml
+Passenger --> TaxiDriver
+TaxiDriver --> TaxiCompany
+@enduml

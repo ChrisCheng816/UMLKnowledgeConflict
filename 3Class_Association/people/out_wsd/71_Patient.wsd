@@ -1,0 +1,4 @@
+@startuml
+Patient --> Psychiatrist
+Psychiatrist --> Hospital
+@enduml

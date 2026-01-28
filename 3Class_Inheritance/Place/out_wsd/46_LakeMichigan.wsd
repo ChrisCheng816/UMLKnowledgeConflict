@@ -1,0 +1,4 @@
+@startuml
+LakeMichigan <|-- Lake
+Lake <|-- GeographicFeature
+@enduml

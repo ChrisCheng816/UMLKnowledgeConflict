@@ -1,0 +1,4 @@
+@startuml
+SprintTriathlon <|-- Triathlon
+Triathlon <|-- Sport
+@enduml

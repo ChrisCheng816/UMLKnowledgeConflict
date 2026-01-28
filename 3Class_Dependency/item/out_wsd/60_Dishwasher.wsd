@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> Dishwasher
+CircuitBreakerPanel ..> WallOutlet
+@enduml

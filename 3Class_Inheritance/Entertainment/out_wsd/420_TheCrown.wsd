@@ -1,0 +1,4 @@
+@startuml
+TheCrown <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

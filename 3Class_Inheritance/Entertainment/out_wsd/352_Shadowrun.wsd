@@ -1,0 +1,4 @@
+@startuml
+Shadowrun <|-- TabletopRPG
+TabletopRPG <|-- Game
+@enduml

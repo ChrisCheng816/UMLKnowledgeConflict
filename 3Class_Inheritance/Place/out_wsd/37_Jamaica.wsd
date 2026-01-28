@@ -1,0 +1,4 @@
+@startuml
+Jamaica <|-- Island
+Island <|-- GeographicFeature
+@enduml

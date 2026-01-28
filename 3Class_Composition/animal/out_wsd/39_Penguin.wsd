@@ -1,0 +1,4 @@
+@startuml
+Flipper *-- Penguin
+Feather *-- Flipper
+@enduml

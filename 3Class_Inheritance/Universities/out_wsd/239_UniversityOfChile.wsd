@@ -1,0 +1,4 @@
+@startuml
+UniversityOfChile <|-- University
+University <|-- EducationalInstitution
+@enduml

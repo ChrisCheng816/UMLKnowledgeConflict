@@ -1,0 +1,4 @@
+@startuml
+EvaluationTeam o-- Pawnshop
+Evaluator o-- EvaluationTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ShanghaiJiaoTongUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

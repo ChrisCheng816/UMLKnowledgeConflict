@@ -1,0 +1,4 @@
+@startuml
+Customer --> Server
+Server --> Diner
+@enduml

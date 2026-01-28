@@ -1,0 +1,4 @@
+@startuml
+ChevroletTahoe <|-- Chevrolet
+Chevrolet <|-- CarManufacturer
+@enduml

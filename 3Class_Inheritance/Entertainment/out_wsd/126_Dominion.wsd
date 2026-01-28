@@ -1,0 +1,4 @@
+@startuml
+Dominion <|-- BoardGame
+BoardGame <|-- Game
+@enduml

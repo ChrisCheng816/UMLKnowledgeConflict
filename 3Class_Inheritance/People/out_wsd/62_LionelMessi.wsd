@@ -1,0 +1,4 @@
+@startuml
+LionelMessi <|-- FootballPlayer
+FootballPlayer <|-- Athlete
+@enduml

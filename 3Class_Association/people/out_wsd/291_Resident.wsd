@@ -1,0 +1,4 @@
+@startuml
+Resident --> ImmigrationOfficer
+ImmigrationOfficer --> BorderAgency
+@enduml

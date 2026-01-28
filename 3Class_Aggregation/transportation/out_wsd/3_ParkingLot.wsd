@@ -1,0 +1,4 @@
+@startuml
+Zone o-- ParkingLot
+ShortTermCar o-- Zone
+@enduml

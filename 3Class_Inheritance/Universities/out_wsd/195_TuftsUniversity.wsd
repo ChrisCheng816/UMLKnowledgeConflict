@@ -1,0 +1,4 @@
+@startuml
+TuftsUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

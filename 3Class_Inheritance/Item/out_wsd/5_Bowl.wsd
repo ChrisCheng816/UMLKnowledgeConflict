@@ -1,0 +1,4 @@
+@startuml
+Bowl <|-- Dish
+Dish <|-- Food
+@enduml

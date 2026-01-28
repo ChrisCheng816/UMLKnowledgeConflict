@@ -1,0 +1,4 @@
+@startuml
+Whiplash <|-- Film
+Film <|-- Entertainment
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MarioKart8Deluxe <|-- VideoGame
+VideoGame <|-- Game
+@enduml

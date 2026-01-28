@@ -1,0 +1,4 @@
+@startuml
+ResidentTeam o-- CoworkingSpace
+Programmer o-- ResidentTeam
+@enduml

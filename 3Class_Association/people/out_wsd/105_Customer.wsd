@@ -1,0 +1,4 @@
+@startuml
+Customer --> Chef
+Chef --> Restaurant
+@enduml

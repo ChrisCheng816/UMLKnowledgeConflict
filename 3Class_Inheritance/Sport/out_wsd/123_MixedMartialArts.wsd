@@ -1,0 +1,4 @@
+@startuml
+MixedMartialArts <|-- CombatSport
+CombatSport <|-- Sport
+@enduml

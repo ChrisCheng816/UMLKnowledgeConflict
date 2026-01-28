@@ -1,0 +1,4 @@
+@startuml
+Merchant o-- PaymentSystem
+SettlementStatement o-- Merchant
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Resident --> CityCouncil
+CityCouncil --> CityHall
+@enduml

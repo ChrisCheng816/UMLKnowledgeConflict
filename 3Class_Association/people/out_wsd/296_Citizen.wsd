@@ -1,0 +1,4 @@
+@startuml
+Citizen --> PassportOfficer
+PassportOfficer --> PassportOffice
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+AinShamsUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

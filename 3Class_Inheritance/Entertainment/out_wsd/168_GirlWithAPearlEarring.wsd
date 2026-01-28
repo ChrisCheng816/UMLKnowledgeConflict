@@ -1,0 +1,4 @@
+@startuml
+GirlWithAPearlEarring <|-- Painting
+Painting <|-- Artwork
+@enduml

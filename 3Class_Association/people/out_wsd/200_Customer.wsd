@@ -1,0 +1,4 @@
+@startuml
+Customer --> Teller
+Teller --> Bank
+@enduml

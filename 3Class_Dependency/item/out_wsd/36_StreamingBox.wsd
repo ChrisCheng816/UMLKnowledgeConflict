@@ -1,0 +1,4 @@
+@startuml
+PowerAdapter ..> StreamingBox
+WallOutlet ..> PowerAdapter
+@enduml

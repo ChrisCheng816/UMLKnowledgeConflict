@@ -1,0 +1,4 @@
+@startuml
+MusicWork <|-- Music
+Music <|-- Entertainment
+@enduml

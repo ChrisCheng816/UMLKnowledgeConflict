@@ -1,0 +1,4 @@
+@startuml
+UniversityOfQueensland <|-- University
+University <|-- EducationalInstitution
+@enduml

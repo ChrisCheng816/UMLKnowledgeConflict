@@ -1,0 +1,4 @@
+@startuml
+StartupCompany o-- StartupIncubator
+Founder o-- StartupCompany
+@enduml

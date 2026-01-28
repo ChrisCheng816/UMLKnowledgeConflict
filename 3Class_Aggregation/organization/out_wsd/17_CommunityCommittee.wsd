@@ -1,0 +1,4 @@
+@startuml
+InterestClub o-- CommunityCommittee
+Member o-- InterestClub
+@enduml

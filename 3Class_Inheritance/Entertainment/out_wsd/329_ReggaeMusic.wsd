@@ -1,0 +1,4 @@
+@startuml
+ReggaeMusic <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

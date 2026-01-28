@@ -1,0 +1,4 @@
+@startuml
+InteractionArea o-- OnlineClassroom
+QuestioningStudent o-- InteractionArea
+@enduml

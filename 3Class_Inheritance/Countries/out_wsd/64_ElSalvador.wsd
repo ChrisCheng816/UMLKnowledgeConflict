@@ -1,0 +1,4 @@
+@startuml
+ElSalvador <|-- Country
+Country <|-- Location
+@enduml

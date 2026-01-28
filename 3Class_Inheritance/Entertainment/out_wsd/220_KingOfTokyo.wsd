@@ -1,0 +1,4 @@
+@startuml
+KingOfTokyo <|-- BoardGame
+BoardGame <|-- Game
+@enduml

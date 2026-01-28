@@ -1,0 +1,4 @@
+@startuml
+Belize <|-- Country
+Country <|-- Location
+@enduml

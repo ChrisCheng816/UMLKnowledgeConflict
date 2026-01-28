@@ -1,0 +1,4 @@
+@startuml
+FreightForwarder o-- Port
+CustomsBroker o-- FreightForwarder
+@enduml

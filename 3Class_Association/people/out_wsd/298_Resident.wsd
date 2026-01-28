@@ -1,0 +1,4 @@
+@startuml
+Resident --> HousingOfficer
+HousingOfficer --> HousingAuthority
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Georgia <|-- Country
+Country <|-- Location
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BusinessOwner --> Accountant
+Accountant --> AccountingFirm
+@enduml

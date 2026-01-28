@@ -1,0 +1,4 @@
+@startuml
+UniversityOfIowa <|-- University
+University <|-- EducationalInstitution
+@enduml

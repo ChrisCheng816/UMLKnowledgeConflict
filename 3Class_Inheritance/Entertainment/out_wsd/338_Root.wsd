@@ -1,0 +1,4 @@
+@startuml
+Root <|-- BoardGame
+BoardGame <|-- Game
+@enduml

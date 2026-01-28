@@ -1,0 +1,4 @@
+@startuml
+LakeTanganyika <|-- Lake
+Lake <|-- GeographicFeature
+@enduml

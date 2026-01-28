@@ -1,0 +1,4 @@
+@startuml
+CaliforniaInstituteOfTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

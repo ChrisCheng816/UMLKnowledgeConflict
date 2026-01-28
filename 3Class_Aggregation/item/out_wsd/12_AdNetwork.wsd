@@ -1,0 +1,4 @@
+@startuml
+Site o-- AdNetwork
+AdSlot o-- Site
+@enduml

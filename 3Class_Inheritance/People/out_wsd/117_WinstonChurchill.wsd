@@ -1,0 +1,4 @@
+@startuml
+WinstonChurchill <|-- Politician
+Politician <|-- PersonRole
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Player --> Trainer
+Trainer --> Team
+@enduml

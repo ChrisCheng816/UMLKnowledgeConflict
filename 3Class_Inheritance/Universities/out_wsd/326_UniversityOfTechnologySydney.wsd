@@ -1,0 +1,4 @@
+@startuml
+UniversityOfTechnologySydney <|-- University
+University <|-- EducationalInstitution
+@enduml

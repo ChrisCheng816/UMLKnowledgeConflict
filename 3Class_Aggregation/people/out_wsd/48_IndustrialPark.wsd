@@ -1,0 +1,4 @@
+@startuml
+ResidentCompany o-- IndustrialPark
+Technician o-- ResidentCompany
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BranchStore o-- PharmacyChain
+LicensedPharmacist o-- BranchStore
+@enduml

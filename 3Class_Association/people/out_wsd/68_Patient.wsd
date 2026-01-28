@@ -1,0 +1,4 @@
+@startuml
+Patient --> PhysicalTherapist
+PhysicalTherapist --> RehabCenter
+@enduml

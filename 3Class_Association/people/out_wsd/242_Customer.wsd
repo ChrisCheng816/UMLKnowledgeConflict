@@ -1,0 +1,4 @@
+@startuml
+Customer --> Notary
+Notary --> NotaryOffice
+@enduml

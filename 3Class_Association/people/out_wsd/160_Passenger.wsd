@@ -1,0 +1,4 @@
+@startuml
+Passenger --> TrainConductor
+TrainConductor --> Railway
+@enduml

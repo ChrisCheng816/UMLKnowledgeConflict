@@ -1,0 +1,4 @@
+@startuml
+Newt <|-- Amphibian
+Amphibian <|-- Animal
+@enduml

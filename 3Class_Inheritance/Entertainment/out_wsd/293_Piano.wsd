@@ -1,0 +1,4 @@
+@startuml
+Piano <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

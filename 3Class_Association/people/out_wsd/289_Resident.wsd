@@ -1,0 +1,4 @@
+@startuml
+Resident --> SocialWorker
+SocialWorker --> SocialServices
+@enduml

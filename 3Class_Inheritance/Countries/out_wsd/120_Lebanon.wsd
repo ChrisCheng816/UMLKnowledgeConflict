@@ -1,0 +1,4 @@
+@startuml
+Lebanon <|-- Country
+Country <|-- Location
+@enduml

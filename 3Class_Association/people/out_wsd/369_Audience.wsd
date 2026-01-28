@@ -1,0 +1,4 @@
+@startuml
+Audience --> TicketSeller
+TicketSeller --> Theater
+@enduml

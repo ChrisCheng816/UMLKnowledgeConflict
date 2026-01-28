@@ -1,0 +1,4 @@
+@startuml
+ConstructionTeam o-- RenovationCompany
+Welder o-- ConstructionTeam
+@enduml

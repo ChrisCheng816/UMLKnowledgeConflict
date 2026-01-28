@@ -1,0 +1,4 @@
+@startuml
+Bagpipes <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

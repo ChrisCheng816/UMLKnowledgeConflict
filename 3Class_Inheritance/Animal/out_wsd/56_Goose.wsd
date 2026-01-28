@@ -1,0 +1,4 @@
+@startuml
+Goose <|-- Bird
+Bird <|-- Animal
+@enduml

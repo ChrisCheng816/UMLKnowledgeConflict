@@ -1,0 +1,4 @@
+@startuml
+HighSchoolTeacher <|-- Teacher
+Teacher <|-- PersonRole
+@enduml

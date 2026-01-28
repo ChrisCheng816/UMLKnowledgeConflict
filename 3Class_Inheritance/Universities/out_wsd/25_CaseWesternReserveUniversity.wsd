@@ -1,0 +1,4 @@
+@startuml
+CaseWesternReserveUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

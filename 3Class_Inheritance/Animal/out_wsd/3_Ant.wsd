@@ -1,0 +1,4 @@
+@startuml
+Ant <|-- Insect
+Insect <|-- Animal
+@enduml

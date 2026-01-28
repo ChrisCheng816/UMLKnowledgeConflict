@@ -1,0 +1,4 @@
+@startuml
+CostaRica <|-- Country
+Country <|-- Location
+@enduml

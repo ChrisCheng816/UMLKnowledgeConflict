@@ -1,0 +1,4 @@
+@startuml
+Doctor --> InsuranceAgent
+InsuranceAgent --> InsuranceCompany
+@enduml

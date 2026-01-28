@@ -1,0 +1,4 @@
+@startuml
+JujutsuKaisen <|-- AnimeSeries
+AnimeSeries <|-- TVSeries
+@enduml

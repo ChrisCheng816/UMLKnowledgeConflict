@@ -1,0 +1,4 @@
+@startuml
+MaintenanceShift o-- SmartStreetlightNetwork
+Electrician o-- MaintenanceShift
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Clue <|-- BoardGame
+BoardGame <|-- Game
+@enduml

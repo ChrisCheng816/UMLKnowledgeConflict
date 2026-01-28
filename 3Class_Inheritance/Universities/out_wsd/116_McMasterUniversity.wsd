@@ -1,0 +1,4 @@
+@startuml
+McMasterUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

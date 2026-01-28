@@ -1,0 +1,4 @@
+@startuml
+HolySeeVaticanCityState <|-- Country
+Country <|-- Location
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Malta <|-- Country
+Country <|-- Location
+@enduml

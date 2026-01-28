@@ -1,0 +1,4 @@
+@startuml
+FrenchOnionSoup <|-- Soup
+Soup <|-- Dish
+@enduml

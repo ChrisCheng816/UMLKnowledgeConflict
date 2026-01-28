@@ -1,0 +1,4 @@
+@startuml
+Butterfly <|-- Bird
+Bird <|-- Animal
+@enduml

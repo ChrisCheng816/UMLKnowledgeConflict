@@ -1,0 +1,4 @@
+@startuml
+FaroeIslands <|-- Country
+Country <|-- Location
+@enduml

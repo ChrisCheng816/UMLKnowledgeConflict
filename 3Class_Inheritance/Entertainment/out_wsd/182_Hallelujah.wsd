@@ -1,0 +1,4 @@
+@startuml
+Hallelujah <|-- Song
+Song <|-- MusicWork
+@enduml

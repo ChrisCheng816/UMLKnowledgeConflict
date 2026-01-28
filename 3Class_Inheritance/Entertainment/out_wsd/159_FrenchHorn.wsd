@@ -1,0 +1,4 @@
+@startuml
+FrenchHorn <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

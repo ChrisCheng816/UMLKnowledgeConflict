@@ -1,0 +1,4 @@
+@startuml
+MunicipalWaterMain ..> DrinkingFountain
+WaterTreatmentPlant ..> MunicipalWaterMain
+@enduml

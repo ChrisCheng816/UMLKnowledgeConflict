@@ -1,0 +1,4 @@
+@startuml
+UniversityOfDelaware <|-- University
+University <|-- EducationalInstitution
+@enduml

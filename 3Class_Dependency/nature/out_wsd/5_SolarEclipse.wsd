@@ -1,0 +1,4 @@
+@startuml
+Moon ..> SolarEclipse
+EarthOrbit ..> Moon
+@enduml

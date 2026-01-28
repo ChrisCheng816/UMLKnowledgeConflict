@@ -1,0 +1,4 @@
+@startuml
+OutreachGroup o-- LecturerTeam
+Member o-- OutreachGroup
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TugOfWar <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

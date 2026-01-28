@@ -1,0 +1,4 @@
+@startuml
+HeardIslandandMcDonaldIslands <|-- Country
+Country <|-- Location
+@enduml

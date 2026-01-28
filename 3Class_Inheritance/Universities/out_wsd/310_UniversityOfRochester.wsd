@@ -1,0 +1,4 @@
+@startuml
+UniversityOfRochester <|-- University
+University <|-- EducationalInstitution
+@enduml

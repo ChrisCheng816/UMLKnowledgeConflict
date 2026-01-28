@@ -1,0 +1,4 @@
+@startuml
+Sitar <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

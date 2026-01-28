@@ -1,0 +1,4 @@
+@startuml
+SagaComic <|-- Comic
+Comic <|-- Entertainment
+@enduml

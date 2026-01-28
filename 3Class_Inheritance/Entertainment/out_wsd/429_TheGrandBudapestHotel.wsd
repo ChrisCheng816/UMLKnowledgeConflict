@@ -1,0 +1,4 @@
+@startuml
+TheGrandBudapestHotel <|-- Film
+Film <|-- Entertainment
+@enduml

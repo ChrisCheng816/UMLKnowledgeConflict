@@ -1,0 +1,4 @@
+@startuml
+Client --> Mediator
+Mediator --> MediationCenter
+@enduml

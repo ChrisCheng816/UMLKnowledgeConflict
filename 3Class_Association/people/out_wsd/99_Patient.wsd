@@ -1,0 +1,4 @@
+@startuml
+Patient --> Caregiver
+Caregiver --> Home
+@enduml

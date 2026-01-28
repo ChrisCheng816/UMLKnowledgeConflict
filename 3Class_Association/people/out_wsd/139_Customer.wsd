@@ -1,0 +1,4 @@
+@startuml
+Customer --> StoreManager
+StoreManager --> Mall
+@enduml

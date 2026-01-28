@@ -1,0 +1,4 @@
+@startuml
+Farmer <|-- PersonRole
+PersonRole <|-- Person
+@enduml

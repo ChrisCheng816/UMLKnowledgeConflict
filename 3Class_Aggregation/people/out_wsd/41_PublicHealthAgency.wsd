@@ -1,0 +1,4 @@
+@startuml
+TaskForce o-- PublicHealthAgency
+Investigator o-- TaskForce
+@enduml

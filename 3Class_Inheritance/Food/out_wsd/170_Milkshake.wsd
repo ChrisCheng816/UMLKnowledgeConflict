@@ -1,0 +1,4 @@
+@startuml
+Milkshake <|-- Beverage
+Beverage <|-- Food
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Customer --> Butcher
+Butcher --> ButcherShop
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CleaningTeam o-- SanitationDepartment
+StreetSweeper o-- CleaningTeam
+@enduml

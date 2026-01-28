@@ -1,0 +1,4 @@
+@startuml
+Hearthstone <|-- CardGame
+CardGame <|-- Game
+@enduml

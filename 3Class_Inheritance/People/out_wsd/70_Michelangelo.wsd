@@ -1,0 +1,4 @@
+@startuml
+Michelangelo <|-- Sculptor
+Sculptor <|-- Artist
+@enduml

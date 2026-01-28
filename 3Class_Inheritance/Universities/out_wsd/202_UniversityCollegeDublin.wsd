@@ -1,0 +1,4 @@
+@startuml
+UniversityCollegeDublin <|-- University
+University <|-- EducationalInstitution
+@enduml

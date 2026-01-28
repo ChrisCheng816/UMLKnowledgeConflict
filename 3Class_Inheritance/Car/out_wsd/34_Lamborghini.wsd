@@ -1,0 +1,4 @@
+@startuml
+Lamborghini <|-- CarManufacturer
+CarManufacturer <|-- Organization
+@enduml

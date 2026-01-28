@@ -1,0 +1,4 @@
+@startuml
+WashingtonUniversityInStLouis <|-- University
+University <|-- EducationalInstitution
+@enduml

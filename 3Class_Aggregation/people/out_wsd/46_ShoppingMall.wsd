@@ -1,0 +1,4 @@
+@startuml
+RetailStore o-- ShoppingMall
+SalesAssistant o-- RetailStore
+@enduml

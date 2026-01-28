@@ -1,0 +1,4 @@
+@startuml
+Homeowner --> InsuranceAgent
+InsuranceAgent --> InsuranceCompany
+@enduml

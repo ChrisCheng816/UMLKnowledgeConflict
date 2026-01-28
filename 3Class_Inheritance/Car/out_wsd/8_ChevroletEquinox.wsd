@@ -1,0 +1,4 @@
+@startuml
+ChevroletEquinox <|-- Chevrolet
+Chevrolet <|-- CarManufacturer
+@enduml

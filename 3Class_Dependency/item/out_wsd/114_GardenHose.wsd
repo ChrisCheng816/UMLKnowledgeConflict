@@ -1,0 +1,4 @@
+@startuml
+MunicipalWaterMain ..> GardenHose
+WaterTreatmentPlant ..> MunicipalWaterMain
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SimoneBiles <|-- Athlete
+Athlete <|-- PersonRole
+@enduml

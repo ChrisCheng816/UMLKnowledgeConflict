@@ -1,0 +1,4 @@
+@startuml
+BladeRunner <|-- Film
+Film <|-- Entertainment
+@enduml

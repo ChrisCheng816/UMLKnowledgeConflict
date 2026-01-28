@@ -1,0 +1,4 @@
+@startuml
+TalentAgency o-- LivestreamBase
+Streamer o-- TalentAgency
+@enduml

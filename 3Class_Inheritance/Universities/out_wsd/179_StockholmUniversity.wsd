@@ -1,0 +1,4 @@
+@startuml
+StockholmUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Customer --> TicketSeller
+TicketSeller --> Cinema
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Patient --> BillingClerk
+BillingClerk --> Hospital
+@enduml

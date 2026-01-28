@@ -1,0 +1,4 @@
+@startuml
+TechnicalUniversityOfDenmark <|-- University
+University <|-- EducationalInstitution
+@enduml

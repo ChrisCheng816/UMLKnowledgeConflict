@@ -1,0 +1,4 @@
+@startuml
+Water ..> Germination
+SeedCoat ..> Water
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cubism <|-- ArtMovement
+ArtMovement <|-- Art
+@enduml

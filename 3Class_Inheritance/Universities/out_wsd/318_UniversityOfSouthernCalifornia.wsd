@@ -1,0 +1,4 @@
+@startuml
+UniversityOfSouthernCalifornia <|-- University
+University <|-- EducationalInstitution
+@enduml

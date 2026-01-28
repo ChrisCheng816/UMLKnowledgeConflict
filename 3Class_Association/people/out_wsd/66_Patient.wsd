@@ -1,0 +1,4 @@
+@startuml
+Patient --> Paramedic
+Paramedic --> Ambulance
+@enduml

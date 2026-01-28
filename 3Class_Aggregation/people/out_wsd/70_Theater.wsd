@@ -1,0 +1,4 @@
+@startuml
+PerformanceTroupe o-- Theater
+Dancer o-- PerformanceTroupe
+@enduml

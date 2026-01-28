@@ -1,0 +1,4 @@
+@startuml
+FavaBean <|-- Legume
+Legume <|-- Vegetable
+@enduml

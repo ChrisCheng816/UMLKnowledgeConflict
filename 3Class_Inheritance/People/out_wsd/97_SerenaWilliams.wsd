@@ -1,0 +1,4 @@
+@startuml
+SerenaWilliams <|-- TennisPlayer
+TennisPlayer <|-- Athlete
+@enduml

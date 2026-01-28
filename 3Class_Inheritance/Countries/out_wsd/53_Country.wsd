@@ -1,0 +1,4 @@
+@startuml
+Country <|-- Location
+Location <|-- Thing
+@enduml

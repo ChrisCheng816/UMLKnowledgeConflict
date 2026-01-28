@@ -1,0 +1,4 @@
+@startuml
+Harmonica <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

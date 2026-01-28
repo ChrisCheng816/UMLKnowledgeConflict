@@ -1,0 +1,4 @@
+@startuml
+Resident --> ParkRanger
+ParkRanger --> NationalPark
+@enduml

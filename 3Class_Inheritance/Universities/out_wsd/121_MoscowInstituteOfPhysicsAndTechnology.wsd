@@ -1,0 +1,4 @@
+@startuml
+MoscowInstituteOfPhysicsAndTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

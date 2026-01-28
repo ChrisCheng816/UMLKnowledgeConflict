@@ -1,0 +1,4 @@
+@startuml
+Flute <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

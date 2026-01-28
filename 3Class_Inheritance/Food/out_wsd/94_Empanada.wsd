@@ -1,0 +1,4 @@
+@startuml
+Empanada <|-- Dish
+Dish <|-- Food
+@enduml

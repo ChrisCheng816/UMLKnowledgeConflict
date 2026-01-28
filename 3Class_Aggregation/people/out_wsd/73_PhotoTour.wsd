@@ -1,0 +1,4 @@
+@startuml
+CreativeGroup o-- PhotoTour
+Photographer o-- CreativeGroup
+@enduml

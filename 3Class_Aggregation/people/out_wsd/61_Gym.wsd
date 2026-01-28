@@ -1,0 +1,4 @@
+@startuml
+PersonalTrainingClass o-- Gym
+Trainee o-- PersonalTrainingClass
+@enduml

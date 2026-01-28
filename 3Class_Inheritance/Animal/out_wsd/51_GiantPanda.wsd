@@ -1,0 +1,4 @@
+@startuml
+GiantPanda <|-- Mammal
+Mammal <|-- Animal
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Passenger --> StationClerk
+StationClerk --> TrainStation
+@enduml

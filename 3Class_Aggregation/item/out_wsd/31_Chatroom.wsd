@@ -1,0 +1,4 @@
+@startuml
+Channel o-- Chatroom
+Listener o-- Channel
+@enduml

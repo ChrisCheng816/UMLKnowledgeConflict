@@ -1,0 +1,4 @@
+@startuml
+BluetoothSpeaker <|-- Electronics
+Electronics <|-- Item
+@enduml

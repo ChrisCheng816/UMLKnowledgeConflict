@@ -1,0 +1,4 @@
+@startuml
+Booth o-- ExhibitionCenter
+Exhibit o-- Booth
+@enduml

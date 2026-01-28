@@ -1,0 +1,4 @@
+@startuml
+Patient --> SocialWorker
+SocialWorker --> Hospital
+@enduml

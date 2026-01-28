@@ -1,0 +1,4 @@
+@startuml
+TheLegendOfZeldaMajorasMask <|-- VideoGame
+VideoGame <|-- Game
+@enduml

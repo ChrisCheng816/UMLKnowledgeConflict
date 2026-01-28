@@ -1,0 +1,4 @@
+@startuml
+Discobolus <|-- Sculpture
+Sculpture <|-- Artwork
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Branch o-- CodeRepository
+Commit o-- Branch
+@enduml

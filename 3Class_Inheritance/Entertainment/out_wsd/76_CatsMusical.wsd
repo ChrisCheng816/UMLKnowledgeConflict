@@ -1,0 +1,4 @@
+@startuml
+CatsMusical <|-- MusicalTheatre
+MusicalTheatre <|-- Theatre
+@enduml

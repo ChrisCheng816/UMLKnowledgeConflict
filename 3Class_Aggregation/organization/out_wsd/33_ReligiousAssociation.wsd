@@ -1,0 +1,4 @@
+@startuml
+Congregation o-- ReligiousAssociation
+Believer o-- Congregation
+@enduml

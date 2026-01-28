@@ -1,0 +1,4 @@
+@startuml
+UppsalaUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

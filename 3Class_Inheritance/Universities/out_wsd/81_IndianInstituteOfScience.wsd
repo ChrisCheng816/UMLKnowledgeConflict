@@ -1,0 +1,4 @@
+@startuml
+IndianInstituteOfScience <|-- University
+University <|-- EducationalInstitution
+@enduml

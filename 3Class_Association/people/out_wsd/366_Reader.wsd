@@ -1,0 +1,4 @@
+@startuml
+Reader --> Bookseller
+Bookseller --> Bookstore
+@enduml

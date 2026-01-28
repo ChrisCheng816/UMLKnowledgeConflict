@@ -1,0 +1,4 @@
+@startuml
+USBCharger ..> GameController
+WallOutlet ..> USBCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PolytechnicUniversityOfMadrid <|-- University
+University <|-- EducationalInstitution
+@enduml

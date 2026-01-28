@@ -1,0 +1,4 @@
+@startuml
+MiddleEastTechnicalUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

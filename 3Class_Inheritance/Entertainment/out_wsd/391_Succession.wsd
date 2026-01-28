@@ -1,0 +1,4 @@
+@startuml
+Succession <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

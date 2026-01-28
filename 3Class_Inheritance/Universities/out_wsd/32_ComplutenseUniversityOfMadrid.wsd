@@ -1,0 +1,4 @@
+@startuml
+ComplutenseUniversityOfMadrid <|-- University
+University <|-- EducationalInstitution
+@enduml

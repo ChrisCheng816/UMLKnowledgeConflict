@@ -1,0 +1,4 @@
+@startuml
+Subnautica <|-- VideoGame
+VideoGame <|-- Game
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Marimba <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

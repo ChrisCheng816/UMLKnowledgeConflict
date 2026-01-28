@@ -1,0 +1,4 @@
+@startuml
+ReceptionTeam o-- EtiquetteCompany
+Hostess o-- ReceptionTeam
+@enduml

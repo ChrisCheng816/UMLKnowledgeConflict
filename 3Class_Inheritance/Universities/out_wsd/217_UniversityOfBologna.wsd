@@ -1,0 +1,4 @@
+@startuml
+UniversityOfBologna <|-- University
+University <|-- EducationalInstitution
+@enduml

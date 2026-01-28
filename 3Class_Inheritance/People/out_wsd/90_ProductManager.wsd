@@ -1,0 +1,4 @@
+@startuml
+ProductManager <|-- PersonRole
+PersonRole <|-- Person
+@enduml

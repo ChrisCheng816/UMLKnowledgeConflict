@@ -1,0 +1,4 @@
+@startuml
+Gambia <|-- Country
+Country <|-- Location
+@enduml

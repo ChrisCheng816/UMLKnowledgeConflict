@@ -1,0 +1,4 @@
+@startuml
+Mayotte <|-- Country
+Country <|-- Location
+@enduml

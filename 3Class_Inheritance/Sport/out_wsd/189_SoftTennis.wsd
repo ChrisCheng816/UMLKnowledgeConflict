@@ -1,0 +1,4 @@
+@startuml
+SoftTennis <|-- RacquetSport
+RacquetSport <|-- Sport
+@enduml

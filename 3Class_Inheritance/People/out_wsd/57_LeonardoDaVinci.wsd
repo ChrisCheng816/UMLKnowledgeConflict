@@ -1,0 +1,4 @@
+@startuml
+LeonardoDaVinci <|-- Artist
+Artist <|-- PersonRole
+@enduml

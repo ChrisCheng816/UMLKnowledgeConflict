@@ -1,0 +1,4 @@
+@startuml
+PompeuFabraUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

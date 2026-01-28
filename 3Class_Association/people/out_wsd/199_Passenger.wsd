@@ -1,0 +1,4 @@
+@startuml
+Passenger --> BorderOfficer
+BorderOfficer --> Airport
+@enduml

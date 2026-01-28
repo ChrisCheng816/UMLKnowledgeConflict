@@ -1,0 +1,4 @@
+@startuml
+PilotTeam o-- PortAuthority
+HarborPilot o-- PilotTeam
+@enduml

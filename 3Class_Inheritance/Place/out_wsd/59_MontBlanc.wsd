@@ -1,0 +1,4 @@
+@startuml
+MontBlanc <|-- Mountain
+Mountain <|-- GeographicFeature
+@enduml

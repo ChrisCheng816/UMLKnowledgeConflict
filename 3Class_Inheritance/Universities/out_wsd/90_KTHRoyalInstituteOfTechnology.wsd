@@ -1,0 +1,4 @@
+@startuml
+KTHRoyalInstituteOfTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

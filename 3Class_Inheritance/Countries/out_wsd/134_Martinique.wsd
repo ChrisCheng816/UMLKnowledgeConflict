@@ -1,0 +1,4 @@
+@startuml
+Martinique <|-- Country
+Country <|-- Location
+@enduml

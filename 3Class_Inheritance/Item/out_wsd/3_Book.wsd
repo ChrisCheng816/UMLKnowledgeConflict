@@ -1,0 +1,4 @@
+@startuml
+Book <|-- Stationery
+Stationery <|-- Item
+@enduml

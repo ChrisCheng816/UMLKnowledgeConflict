@@ -1,0 +1,4 @@
+@startuml
+CandidateList o-- HeadhunterCompany
+Candidate o-- CandidateList
+@enduml

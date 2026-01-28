@@ -1,0 +1,4 @@
+@startuml
+SungkyunkwanUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

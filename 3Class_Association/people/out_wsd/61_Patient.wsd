@@ -1,0 +1,4 @@
+@startuml
+Patient --> Cardiologist
+Cardiologist --> Hospital
+@enduml

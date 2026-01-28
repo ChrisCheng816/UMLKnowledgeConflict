@@ -1,0 +1,4 @@
+@startuml
+ChargingStand ..> HairTrimmer
+WallOutlet ..> ChargingStand
+@enduml

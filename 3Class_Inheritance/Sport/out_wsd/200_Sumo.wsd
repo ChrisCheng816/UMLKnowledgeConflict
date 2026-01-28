@@ -1,0 +1,4 @@
+@startuml
+Sumo <|-- CombatSport
+CombatSport <|-- Sport
+@enduml

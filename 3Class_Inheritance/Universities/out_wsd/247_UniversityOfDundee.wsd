@@ -1,0 +1,4 @@
+@startuml
+UniversityOfDundee <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Continent <|-- GeographicFeature
+GeographicFeature <|-- Location
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ToyotaCamry <|-- Car
+Car <|-- Vehicle
+@enduml

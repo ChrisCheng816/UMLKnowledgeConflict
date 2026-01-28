@@ -1,0 +1,4 @@
+@startuml
+Seal <|-- Mammal
+Mammal <|-- Animal
+@enduml

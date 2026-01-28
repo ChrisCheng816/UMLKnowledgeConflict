@@ -1,0 +1,4 @@
+@startuml
+PopArt <|-- ArtMovement
+ArtMovement <|-- Art
+@enduml

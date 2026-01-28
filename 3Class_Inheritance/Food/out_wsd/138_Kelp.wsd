@@ -1,0 +1,4 @@
+@startuml
+Kelp <|-- SeaVegetable
+SeaVegetable <|-- Vegetable
+@enduml

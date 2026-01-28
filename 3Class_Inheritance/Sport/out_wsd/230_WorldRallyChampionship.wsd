@@ -1,0 +1,4 @@
+@startuml
+WorldRallyChampionship <|-- MotorSport
+MotorSport <|-- Sport
+@enduml

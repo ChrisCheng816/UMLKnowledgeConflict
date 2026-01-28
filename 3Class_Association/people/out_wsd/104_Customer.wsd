@@ -1,0 +1,4 @@
+@startuml
+Customer --> Waiter
+Waiter --> Restaurant
+@enduml

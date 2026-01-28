@@ -1,0 +1,4 @@
+@startuml
+MagicTheGathering <|-- CardGame
+CardGame <|-- Game
+@enduml

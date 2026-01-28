@@ -1,0 +1,4 @@
+@startuml
+Traveler --> MuseumGuide
+MuseumGuide --> Museum
+@enduml

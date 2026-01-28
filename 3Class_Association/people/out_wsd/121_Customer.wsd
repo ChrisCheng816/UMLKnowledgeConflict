@@ -1,0 +1,4 @@
+@startuml
+Customer --> ServiceAdvisor
+ServiceAdvisor --> Garage
+@enduml

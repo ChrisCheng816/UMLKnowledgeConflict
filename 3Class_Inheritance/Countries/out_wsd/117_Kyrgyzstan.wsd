@@ -1,0 +1,4 @@
+@startuml
+Kyrgyzstan <|-- Country
+Country <|-- Location
+@enduml

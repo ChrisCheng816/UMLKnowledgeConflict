@@ -1,0 +1,4 @@
+@startuml
+Lawyer <|-- PersonRole
+PersonRole <|-- Person
+@enduml

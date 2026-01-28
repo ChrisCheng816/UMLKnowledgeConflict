@@ -1,0 +1,4 @@
+@startuml
+Bowling <|-- IndividualSport
+IndividualSport <|-- Sport
+@enduml

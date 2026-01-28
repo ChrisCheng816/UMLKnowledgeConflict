@@ -1,0 +1,4 @@
+@startuml
+MushroomSoup <|-- Soup
+Soup <|-- Dish
+@enduml

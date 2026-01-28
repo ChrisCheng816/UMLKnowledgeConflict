@@ -1,0 +1,4 @@
+@startuml
+Mirror <|-- Household
+Household <|-- Item
+@enduml

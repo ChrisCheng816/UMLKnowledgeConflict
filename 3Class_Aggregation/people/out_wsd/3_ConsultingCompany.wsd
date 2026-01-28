@@ -1,0 +1,4 @@
+@startuml
+ProjectTeam o-- ConsultingCompany
+ExternalConsultant o-- ProjectTeam
+@enduml

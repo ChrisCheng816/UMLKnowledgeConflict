@@ -1,0 +1,4 @@
+@startuml
+PontificalCatholicUniversityOfChile <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+LinusTorvalds <|-- SoftwareEngineer
+SoftwareEngineer <|-- Engineer
+@enduml

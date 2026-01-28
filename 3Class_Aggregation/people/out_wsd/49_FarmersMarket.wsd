@@ -1,0 +1,4 @@
+@startuml
+Stall o-- FarmersMarket
+Vendor o-- Stall
+@enduml

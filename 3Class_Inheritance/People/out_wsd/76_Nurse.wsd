@@ -1,0 +1,4 @@
+@startuml
+Nurse <|-- Doctor
+Doctor <|-- PersonRole
+@enduml

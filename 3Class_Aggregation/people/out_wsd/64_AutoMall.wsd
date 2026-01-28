@@ -1,0 +1,4 @@
+@startuml
+Dealership o-- AutoMall
+Salesperson o-- Dealership
+@enduml

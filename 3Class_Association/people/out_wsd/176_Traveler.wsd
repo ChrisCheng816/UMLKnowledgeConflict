@@ -1,0 +1,4 @@
+@startuml
+Traveler --> ShuttleDriver
+ShuttleDriver --> Hotel
+@enduml

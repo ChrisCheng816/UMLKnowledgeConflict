@@ -1,0 +1,4 @@
+@startuml
+Europe <|-- Continent
+Continent <|-- GeographicFeature
+@enduml

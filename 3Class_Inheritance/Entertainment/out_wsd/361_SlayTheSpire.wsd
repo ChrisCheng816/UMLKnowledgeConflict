@@ -1,0 +1,4 @@
+@startuml
+SlayTheSpire <|-- VideoGame
+VideoGame <|-- Game
+@enduml

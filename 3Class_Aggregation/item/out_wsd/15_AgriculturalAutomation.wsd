@@ -1,0 +1,4 @@
+@startuml
+IrrigationNetwork o-- AgriculturalAutomation
+SprinklerHead o-- IrrigationNetwork
+@enduml

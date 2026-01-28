@@ -1,0 +1,4 @@
+@startuml
+MichiganStateUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

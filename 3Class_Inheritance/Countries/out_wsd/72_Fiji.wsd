@@ -1,0 +1,4 @@
+@startuml
+Fiji <|-- Country
+Country <|-- Location
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Customer --> TravelAgent
+TravelAgent --> TravelAgency
+@enduml

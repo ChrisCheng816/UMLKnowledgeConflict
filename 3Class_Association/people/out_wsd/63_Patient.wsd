@@ -1,0 +1,4 @@
+@startuml
+Patient --> Orthopedist
+Orthopedist --> Hospital
+@enduml

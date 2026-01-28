@@ -1,0 +1,4 @@
+@startuml
+UniversityOfSheffield <|-- University
+University <|-- EducationalInstitution
+@enduml

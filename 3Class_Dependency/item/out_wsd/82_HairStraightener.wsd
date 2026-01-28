@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> HairStraightener
+CircuitBreakerPanel ..> WallOutlet
+@enduml

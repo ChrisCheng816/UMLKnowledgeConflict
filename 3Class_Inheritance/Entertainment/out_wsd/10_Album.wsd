@@ -1,0 +1,4 @@
+@startuml
+Album <|-- MusicWork
+MusicWork <|-- Music
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BrassBirmingham <|-- BoardGame
+BoardGame <|-- Game
+@enduml

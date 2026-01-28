@@ -1,0 +1,4 @@
+@startuml
+Kenya <|-- Country
+Country <|-- Location
+@enduml
