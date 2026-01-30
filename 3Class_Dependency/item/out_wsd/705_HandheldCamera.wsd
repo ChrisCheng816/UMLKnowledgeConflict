@@ -1,0 +1,4 @@
+@startuml
+HandheldCameraPowerCord ..> HandheldCamera
+WaterTreatmentFacilityExtensionCord ..> HandheldCameraPowerCord
+@enduml

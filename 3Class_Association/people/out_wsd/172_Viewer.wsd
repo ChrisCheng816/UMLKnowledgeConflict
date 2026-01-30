@@ -1,0 +1,4 @@
+@startuml
+Viewer --> Streamer
+Streamer --> StreamingPlatform
+@enduml

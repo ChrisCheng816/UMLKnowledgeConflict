@@ -1,0 +1,4 @@
+@startuml
+HospitalBedPowerCord ..> HospitalBed
+MuseumSurgeProtector ..> HospitalBedPowerCord
+@enduml

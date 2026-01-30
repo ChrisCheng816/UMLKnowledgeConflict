@@ -1,0 +1,4 @@
+@startuml
+FlockOfHawk o-- Wetland
+Hawk o-- FlockOfHawk
+@enduml

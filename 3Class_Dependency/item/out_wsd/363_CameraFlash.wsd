@@ -1,0 +1,4 @@
+@startuml
+CameraFlashPowerCord ..> CameraFlash
+ConventionCenterWallOutlet ..> CameraFlashPowerCord
+@enduml

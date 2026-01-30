@@ -1,0 +1,4 @@
+@startuml
+HomeCook --> Cashier
+Cashier --> OpticalShop
+@enduml

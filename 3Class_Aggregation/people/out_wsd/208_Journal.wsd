@@ -1,0 +1,4 @@
+@startuml
+EditorialOffice o-- Journal
+Editor o-- EditorialOffice
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+LanternPowerCord ..> Lantern
+ClassroomPowerStrip ..> LanternPowerCord
+@enduml

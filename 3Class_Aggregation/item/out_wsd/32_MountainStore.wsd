@@ -1,0 +1,4 @@
+@startuml
+Box o-- MountainStore
+ToolKit o-- Box
+@enduml

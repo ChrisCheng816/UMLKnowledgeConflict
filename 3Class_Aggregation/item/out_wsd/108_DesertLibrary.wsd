@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- DesertLibrary
+HardcoverBook o-- Shelf
+@enduml

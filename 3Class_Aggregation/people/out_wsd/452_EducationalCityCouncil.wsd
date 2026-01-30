@@ -1,0 +1,4 @@
+@startuml
+ComplianceTeam o-- EducationalCityCouncil
+StageActor o-- ComplianceTeam
+@enduml

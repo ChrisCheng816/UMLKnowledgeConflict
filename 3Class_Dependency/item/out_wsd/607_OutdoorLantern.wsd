@@ -1,0 +1,4 @@
+@startuml
+OutdoorLanternPowerCord ..> OutdoorLantern
+BakeryPowerStrip ..> OutdoorLanternPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WaterproofSpeakerPowerCord ..> WaterproofSpeaker
+HospitalWardWallOutlet ..> WaterproofSpeakerPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TeachingTeam o-- CommunityDesignAgency
+CommunityCoordinator o-- TeachingTeam
+@enduml

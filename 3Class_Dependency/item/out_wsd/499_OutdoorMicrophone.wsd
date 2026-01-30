@@ -1,0 +1,4 @@
+@startuml
+OutdoorMicrophonePowerCord ..> OutdoorMicrophone
+BookstoreSurgeProtector ..> OutdoorMicrophonePowerCord
+@enduml

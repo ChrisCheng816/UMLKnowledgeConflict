@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- RoboticsLibrary
+HardcoverBook o-- Shelf
+@enduml

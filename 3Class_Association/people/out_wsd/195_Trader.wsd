@@ -1,0 +1,4 @@
+@startuml
+Trader --> WealthManager
+WealthManager --> InvestmentBank
+@enduml

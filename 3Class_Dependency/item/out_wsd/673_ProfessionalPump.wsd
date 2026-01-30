@@ -1,0 +1,4 @@
+@startuml
+ProfessionalPumpPowerCord ..> ProfessionalPump
+EngineeringLabExtensionCord ..> ProfessionalPumpPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RoomServiceCaller --> Waiter
+Waiter --> Hostel
+@enduml

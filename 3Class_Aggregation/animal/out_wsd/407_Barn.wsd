@@ -1,0 +1,4 @@
+@startuml
+SchoolOfEel o-- Barn
+Eel o-- SchoolOfEel
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- LibraryShop
+Ebook o-- Shelf
+@enduml

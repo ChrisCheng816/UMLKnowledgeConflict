@@ -1,0 +1,4 @@
+@startuml
+Espresso *-- Latte
+CoffeeBeans *-- Espresso
+@enduml

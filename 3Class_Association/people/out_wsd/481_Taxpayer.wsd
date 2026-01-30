@@ -1,0 +1,4 @@
+@startuml
+Taxpayer --> PermitOfficer
+PermitOfficer --> ElectionsOffice
+@enduml

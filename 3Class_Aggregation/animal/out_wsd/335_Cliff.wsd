@@ -1,0 +1,4 @@
+@startuml
+FlockOfRook o-- Cliff
+Rook o-- FlockOfRook
+@enduml

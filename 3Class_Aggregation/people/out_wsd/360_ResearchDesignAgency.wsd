@@ -1,0 +1,4 @@
+@startuml
+AuditTeam o-- ResearchDesignAgency
+WarehouseSupervisor o-- AuditTeam
+@enduml

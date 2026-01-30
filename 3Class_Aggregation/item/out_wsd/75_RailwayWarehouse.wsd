@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- RailwayWarehouse
+SparePart o-- StorageBin
+@enduml

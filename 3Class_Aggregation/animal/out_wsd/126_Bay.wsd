@@ -1,0 +1,4 @@
+@startuml
+NestOfTurtle o-- Bay
+Turtle o-- NestOfTurtle
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FlockOfMagpie o-- Wetland
+Magpie o-- FlockOfMagpie
+@enduml

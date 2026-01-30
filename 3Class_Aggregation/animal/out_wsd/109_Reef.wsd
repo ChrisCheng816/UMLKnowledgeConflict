@@ -1,0 +1,4 @@
+@startuml
+SchoolOfEel o-- Reef
+Eel o-- SchoolOfEel
+@enduml

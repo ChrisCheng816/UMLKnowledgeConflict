@@ -1,0 +1,4 @@
+@startuml
+ResearchGroup o-- EnergyCharityFoundation
+ResearchFellow o-- ResearchGroup
+@enduml

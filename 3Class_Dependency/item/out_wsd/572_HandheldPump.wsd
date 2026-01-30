@@ -1,0 +1,4 @@
+@startuml
+HandheldPumpPowerCord ..> HandheldPump
+BiologyLabSurgeProtector ..> HandheldPumpPowerCord
+@enduml

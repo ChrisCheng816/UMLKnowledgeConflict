@@ -1,0 +1,4 @@
+@startuml
+SmartHeadphonesPowerCord ..> SmartHeadphones
+MuseumWallOutlet ..> SmartHeadphonesPowerCord
+@enduml

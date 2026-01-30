@@ -1,0 +1,4 @@
+@startuml
+RouterNode o-- RoutingNetwork
+RoutingTable o-- RouterNode
+@enduml

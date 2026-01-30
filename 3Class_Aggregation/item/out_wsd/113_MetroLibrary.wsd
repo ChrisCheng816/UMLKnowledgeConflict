@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- MetroLibrary
+HardcoverBook o-- Shelf
+@enduml

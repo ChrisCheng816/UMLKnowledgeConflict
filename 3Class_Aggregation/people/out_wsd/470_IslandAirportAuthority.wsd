@@ -1,0 +1,4 @@
+@startuml
+DispatchTeam o-- IslandAirportAuthority
+ForensicAnalyst o-- DispatchTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GroupOfShrimp o-- Zoo
+Shrimp o-- GroupOfShrimp
+@enduml

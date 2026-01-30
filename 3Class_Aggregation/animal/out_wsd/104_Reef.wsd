@@ -1,0 +1,4 @@
+@startuml
+SchoolOfCarp o-- Reef
+Carp o-- SchoolOfCarp
+@enduml

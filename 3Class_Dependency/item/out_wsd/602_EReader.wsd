@@ -1,0 +1,4 @@
+@startuml
+EReaderCharger ..> EReader
+GaragePowerStrip ..> EReaderCharger
+@enduml

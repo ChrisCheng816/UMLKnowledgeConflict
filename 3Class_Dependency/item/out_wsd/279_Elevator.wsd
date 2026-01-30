@@ -1,0 +1,4 @@
+@startuml
+BuildingPowerFeed ..> Elevator
+CircuitBreakerPanel ..> BuildingPowerFeed
+@enduml

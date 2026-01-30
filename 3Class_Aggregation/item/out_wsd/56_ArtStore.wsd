@@ -1,0 +1,4 @@
+@startuml
+Box o-- ArtStore
+PaintBrush o-- Box
+@enduml

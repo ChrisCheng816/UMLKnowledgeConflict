@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- GardenLibrary
+HardcoverBook o-- Shelf
+@enduml

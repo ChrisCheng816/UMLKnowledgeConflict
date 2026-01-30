@@ -1,0 +1,4 @@
+@startuml
+CompactLaptopPowerCord ..> CompactLaptop
+HospitalWardWallOutlet ..> CompactLaptopPowerCord
+@enduml

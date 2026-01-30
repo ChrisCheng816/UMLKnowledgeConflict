@@ -1,0 +1,4 @@
+@startuml
+InfrastructureTeam o-- TransportFireDepartment
+DockWorker o-- InfrastructureTeam
+@enduml

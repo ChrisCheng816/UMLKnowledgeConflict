@@ -1,0 +1,4 @@
+@startuml
+Nachos <|-- Snack
+Snack <|-- Food
+@enduml

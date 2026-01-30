@@ -1,0 +1,4 @@
+@startuml
+SwarmOfMosquito o-- Pasture
+Mosquito o-- SwarmOfMosquito
+@enduml

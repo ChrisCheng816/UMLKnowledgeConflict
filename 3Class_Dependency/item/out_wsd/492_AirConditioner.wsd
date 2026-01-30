@@ -1,0 +1,4 @@
+@startuml
+AirConditionerPowerCord ..> AirConditioner
+RoboticsLabWallOutlet ..> AirConditionerPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WeddingGuest --> Waiter
+Waiter --> HotelLobby
+@enduml

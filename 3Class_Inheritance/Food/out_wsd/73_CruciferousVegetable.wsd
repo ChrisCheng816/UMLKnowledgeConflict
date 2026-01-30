@@ -1,0 +1,4 @@
+@startuml
+CruciferousVegetable <|-- Vegetable
+Vegetable <|-- Food
+@enduml

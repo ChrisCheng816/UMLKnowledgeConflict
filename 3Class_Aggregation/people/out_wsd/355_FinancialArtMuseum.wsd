@@ -1,0 +1,4 @@
+@startuml
+EmergencyTeam o-- FinancialArtMuseum
+Pilot o-- EmergencyTeam
+@enduml

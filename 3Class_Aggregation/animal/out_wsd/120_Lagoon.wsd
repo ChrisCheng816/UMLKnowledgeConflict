@@ -1,0 +1,4 @@
+@startuml
+SwarmOfLadybug o-- Lagoon
+Ladybug o-- SwarmOfLadybug
+@enduml

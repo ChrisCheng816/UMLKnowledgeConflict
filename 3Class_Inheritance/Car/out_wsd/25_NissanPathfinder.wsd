@@ -1,0 +1,4 @@
+@startuml
+NissanPathfinder <|-- Nissan
+Nissan <|-- CarBrand
+@enduml

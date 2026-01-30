@@ -1,0 +1,4 @@
+@startuml
+HerdOfElephant o-- Savanna
+Elephant o-- HerdOfElephant
+@enduml

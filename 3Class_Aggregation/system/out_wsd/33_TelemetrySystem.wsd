@@ -1,0 +1,4 @@
+@startuml
+IngestionStage o-- TelemetrySystem
+DatasetRecord o-- IngestionStage
+@enduml

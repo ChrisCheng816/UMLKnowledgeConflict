@@ -1,0 +1,4 @@
+@startuml
+NestOfPython o-- Plateau
+Python o-- NestOfPython
+@enduml

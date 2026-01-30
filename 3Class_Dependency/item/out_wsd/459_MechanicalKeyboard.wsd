@@ -1,0 +1,4 @@
+@startuml
+MechanicalKeyboardPowerCord ..> MechanicalKeyboard
+TrainStationExtensionCord ..> MechanicalKeyboardPowerCord
+@enduml

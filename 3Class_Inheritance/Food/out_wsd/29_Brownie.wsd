@@ -1,0 +1,4 @@
+@startuml
+Brownie <|-- Dessert
+Dessert <|-- Food
+@enduml

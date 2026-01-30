@@ -1,0 +1,4 @@
+@startuml
+ColdAirMass ..> Snow
+PolarAir ..> ColdAirMass
+@enduml

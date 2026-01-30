@@ -1,0 +1,4 @@
+@startuml
+TrainingTeam o-- CulturalUniversityOffice
+Physiotherapist o-- TrainingTeam
+@enduml

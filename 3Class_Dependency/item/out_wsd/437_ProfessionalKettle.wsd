@@ -1,0 +1,4 @@
+@startuml
+ProfessionalKettlePowerCord ..> ProfessionalKettle
+CafeteriaPowerStrip ..> ProfessionalKettlePowerCord
+@enduml

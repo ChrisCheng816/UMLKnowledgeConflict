@@ -1,0 +1,4 @@
+@startuml
+ProgrammableSpeakerPowerCord ..> ProgrammableSpeaker
+MachineShopWallOutlet ..> ProgrammableSpeakerPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RechargeableFlashlightCharger ..> RechargeableFlashlight
+OfficeSurgeProtector ..> RechargeableFlashlightCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CoaxialCable ..> SetTopBox
+WallJack ..> CoaxialCable
+@enduml

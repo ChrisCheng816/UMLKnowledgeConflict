@@ -1,0 +1,4 @@
+@startuml
+PatrolTeam o-- ClinicalChamberOfCommerce
+Curator o-- PatrolTeam
+@enduml

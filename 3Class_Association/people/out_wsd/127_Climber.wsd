@@ -1,0 +1,4 @@
+@startuml
+Climber --> Instructor
+Instructor --> ClimbingGym
+@enduml

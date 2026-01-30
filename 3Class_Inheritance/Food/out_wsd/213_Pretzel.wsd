@@ -1,0 +1,4 @@
+@startuml
+Pretzel <|-- Snack
+Snack <|-- Food
+@enduml

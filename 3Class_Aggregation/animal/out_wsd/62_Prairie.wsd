@@ -1,0 +1,4 @@
+@startuml
+PackOfCoyote o-- Prairie
+Coyote o-- PackOfCoyote
+@enduml

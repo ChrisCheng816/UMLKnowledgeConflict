@@ -1,0 +1,4 @@
+@startuml
+RaftOfWalrus o-- Channel
+Walrus o-- RaftOfWalrus
+@enduml

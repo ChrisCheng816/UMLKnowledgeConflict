@@ -1,0 +1,4 @@
+@startuml
+Tail *-- MonitorLizard
+Vertebra *-- Tail
+@enduml

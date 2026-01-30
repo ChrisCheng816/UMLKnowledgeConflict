@@ -1,0 +1,4 @@
+@startuml
+StairLiftPowerCord ..> StairLift
+ParkingGaragePowerStrip ..> StairLiftPowerCord
+@enduml

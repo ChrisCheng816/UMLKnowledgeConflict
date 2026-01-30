@@ -1,0 +1,4 @@
+@startuml
+MunicipalWaterMain ..> KitchenFaucet
+WaterTreatmentPlant ..> MunicipalWaterMain
+@enduml

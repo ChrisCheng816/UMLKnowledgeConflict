@@ -1,0 +1,4 @@
+@startuml
+EmergencyTeam o-- IslandPortAuthority
+WarehouseSupervisor o-- EmergencyTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ChowMein <|-- Dish
+Dish <|-- Food
+@enduml

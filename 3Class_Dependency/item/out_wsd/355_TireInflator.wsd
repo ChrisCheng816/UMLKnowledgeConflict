@@ -1,0 +1,4 @@
+@startuml
+TireInflatorPowerCord ..> TireInflator
+StudentCenterExtensionCord ..> TireInflatorPowerCord
+@enduml

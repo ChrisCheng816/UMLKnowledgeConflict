@@ -1,0 +1,4 @@
+@startuml
+Visitor --> Photographer
+Photographer --> Museum
+@enduml

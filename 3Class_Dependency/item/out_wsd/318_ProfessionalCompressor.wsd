@@ -1,0 +1,4 @@
+@startuml
+ProfessionalCompressorPowerCord ..> ProfessionalCompressor
+AquariumHallSurgeProtector ..> ProfessionalCompressorPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WeddingGuest --> SecurityGuard
+SecurityGuard --> Restaurant
+@enduml

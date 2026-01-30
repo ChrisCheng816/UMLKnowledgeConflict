@@ -1,0 +1,4 @@
+@startuml
+Cruiser --> RentalAgent
+RentalAgent --> BorderCheckpoint
+@enduml

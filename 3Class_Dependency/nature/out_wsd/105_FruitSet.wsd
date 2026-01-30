@@ -1,0 +1,4 @@
+@startuml
+Flower ..> FruitSet
+Plant ..> Flower
+@enduml

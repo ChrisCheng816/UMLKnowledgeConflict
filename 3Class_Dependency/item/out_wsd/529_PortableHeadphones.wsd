@@ -1,0 +1,4 @@
+@startuml
+PortableHeadphonesCharger ..> PortableHeadphones
+RestaurantSurgeProtector ..> PortableHeadphonesCharger
+@enduml

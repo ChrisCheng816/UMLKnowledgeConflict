@@ -1,0 +1,4 @@
+@startuml
+ElectricBlanketPowerCord ..> ElectricBlanket
+LivingRoomWallOutlet ..> ElectricBlanketPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- FilmLibrary
+HardcoverBook o-- Shelf
+@enduml

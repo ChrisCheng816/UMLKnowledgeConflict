@@ -1,0 +1,4 @@
+@startuml
+CordlessFlashlightCharger ..> CordlessFlashlight
+CommunityCenterExtensionCord ..> CordlessFlashlightCharger
+@enduml

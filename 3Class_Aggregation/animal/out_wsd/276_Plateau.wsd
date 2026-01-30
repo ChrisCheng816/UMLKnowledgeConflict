@@ -1,0 +1,4 @@
+@startuml
+NestOfTortoise o-- Plateau
+Tortoise o-- NestOfTortoise
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+OutreachPanel o-- CulturalMusicAcademy
+MarketingSpecialist o-- OutreachPanel
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ColonyOfAnt o-- Bay
+Ant o-- ColonyOfAnt
+@enduml

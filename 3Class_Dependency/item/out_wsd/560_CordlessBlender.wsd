@@ -1,0 +1,4 @@
+@startuml
+CordlessBlenderCharger ..> CordlessBlender
+FarmhouseWallOutlet ..> CordlessBlenderCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MaintenanceCircle o-- MediaConstructionCompany
+Photographer o-- MaintenanceCircle
+@enduml

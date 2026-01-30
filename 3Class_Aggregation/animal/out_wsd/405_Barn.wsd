@@ -1,0 +1,4 @@
+@startuml
+SchoolOfPerch o-- Barn
+Perch o-- SchoolOfPerch
+@enduml

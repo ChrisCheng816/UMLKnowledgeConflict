@@ -1,0 +1,4 @@
+@startuml
+FlockOfPigeon o-- Clinic
+Pigeon o-- FlockOfPigeon
+@enduml

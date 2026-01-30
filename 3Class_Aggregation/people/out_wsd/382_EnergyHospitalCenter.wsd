@@ -1,0 +1,4 @@
+@startuml
+ProcurementTeam o-- EnergyHospitalCenter
+QAEngineer o-- ProcurementTeam
+@enduml

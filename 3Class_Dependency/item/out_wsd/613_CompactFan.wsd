@@ -1,0 +1,4 @@
+@startuml
+CompactFanPowerCord ..> CompactFan
+CoffeeShopPowerStrip ..> CompactFanPowerCord
+@enduml

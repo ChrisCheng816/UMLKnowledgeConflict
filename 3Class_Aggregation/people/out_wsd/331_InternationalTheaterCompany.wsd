@@ -1,0 +1,4 @@
+@startuml
+OperationsTeam o-- InternationalTheaterCompany
+TeachingAssistant o-- OperationsTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- UniversityWarehouse
+SparePart o-- StorageBin
+@enduml

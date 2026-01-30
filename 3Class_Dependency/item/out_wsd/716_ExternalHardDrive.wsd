@@ -1,0 +1,4 @@
+@startuml
+ExternalHardDrivePowerCord ..> ExternalHardDrive
+BoatCabinPowerStrip ..> ExternalHardDrivePowerCord
+@enduml

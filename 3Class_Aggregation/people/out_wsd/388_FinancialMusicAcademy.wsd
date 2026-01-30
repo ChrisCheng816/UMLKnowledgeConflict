@@ -1,0 +1,4 @@
+@startuml
+DispatchTeam o-- FinancialMusicAcademy
+PeerReviewer o-- DispatchTeam
+@enduml

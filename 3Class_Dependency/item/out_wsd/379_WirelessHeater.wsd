@@ -1,0 +1,4 @@
+@startuml
+WirelessHeaterCharger ..> WirelessHeater
+SubwayStationExtensionCord ..> WirelessHeaterCharger
+@enduml

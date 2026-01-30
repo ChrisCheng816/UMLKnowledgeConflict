@@ -1,0 +1,4 @@
+@startuml
+SensorHub o-- SensorNetwork
+HeartbeatLog o-- SensorHub
+@enduml

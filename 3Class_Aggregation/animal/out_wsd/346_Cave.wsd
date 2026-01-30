@@ -1,0 +1,4 @@
+@startuml
+HerdOfAntelope o-- Cave
+Antelope o-- HerdOfAntelope
+@enduml

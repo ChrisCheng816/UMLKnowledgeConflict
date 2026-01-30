@@ -1,0 +1,4 @@
+@startuml
+TeachingAssistant --> LabTechnician
+LabTechnician --> TechnicalInstitute
+@enduml

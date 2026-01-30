@@ -1,0 +1,4 @@
+@startuml
+CordlessRouterCharger ..> CordlessRouter
+RestaurantSmartPlug ..> CordlessRouterCharger
+@enduml

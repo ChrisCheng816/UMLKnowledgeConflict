@@ -1,0 +1,4 @@
+@startuml
+LogisticsUnit o-- RegionalLogisticsCenter
+FilmDirector o-- LogisticsUnit
+@enduml

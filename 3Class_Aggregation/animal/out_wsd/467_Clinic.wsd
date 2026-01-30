@@ -1,0 +1,4 @@
+@startuml
+FlockOfStork o-- Clinic
+Stork o-- FlockOfStork
+@enduml

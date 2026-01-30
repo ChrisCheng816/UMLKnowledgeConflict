@@ -1,0 +1,4 @@
+@startuml
+HomeownersCommittee o-- HomeownersAssembly
+CommitteeMember o-- HomeownersCommittee
+@enduml

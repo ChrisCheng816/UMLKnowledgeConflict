@@ -1,0 +1,4 @@
+@startuml
+PaintingClass o-- ArtSchool
+StudentPainter o-- PaintingClass
+@enduml

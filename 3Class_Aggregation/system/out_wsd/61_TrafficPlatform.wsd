@@ -1,0 +1,4 @@
+@startuml
+SensorNode o-- TrafficPlatform
+HeartbeatLog o-- SensorNode
+@enduml

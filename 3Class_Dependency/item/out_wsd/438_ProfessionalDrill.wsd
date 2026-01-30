@@ -1,0 +1,4 @@
+@startuml
+ProfessionalDrillPowerCord ..> ProfessionalDrill
+CityHallSmartPlug ..> ProfessionalDrillPowerCord
+@enduml

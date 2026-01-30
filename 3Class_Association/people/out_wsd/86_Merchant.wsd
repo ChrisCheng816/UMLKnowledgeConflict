@@ -1,0 +1,4 @@
+@startuml
+Merchant --> CustomerSupportRep
+CustomerSupportRep --> PaymentCompany
+@enduml

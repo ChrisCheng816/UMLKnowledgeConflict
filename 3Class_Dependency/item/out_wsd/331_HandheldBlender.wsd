@@ -1,0 +1,4 @@
+@startuml
+HandheldBlenderPowerCord ..> HandheldBlender
+MountainCabinExtensionCord ..> HandheldBlenderPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ProfessionalFanPowerCord ..> ProfessionalFan
+ReceptionDeskSmartPlug ..> ProfessionalFanPowerCord
+@enduml

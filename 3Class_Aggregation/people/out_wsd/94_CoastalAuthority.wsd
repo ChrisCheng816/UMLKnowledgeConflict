@@ -1,0 +1,4 @@
+@startuml
+HarborPilotTeam o-- CoastalAuthority
+HarborPilot o-- HarborPilotTeam
+@enduml

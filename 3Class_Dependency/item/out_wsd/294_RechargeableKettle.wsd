@@ -1,0 +1,4 @@
+@startuml
+RechargeableKettleCharger ..> RechargeableKettle
+RestaurantExtensionCord ..> RechargeableKettleCharger
+@enduml

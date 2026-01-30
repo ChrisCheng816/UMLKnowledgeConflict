@@ -1,0 +1,4 @@
+@startuml
+HerdOfCattle o-- Meadow
+Cattle o-- HerdOfCattle
+@enduml

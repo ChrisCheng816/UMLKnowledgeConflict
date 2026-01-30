@@ -1,0 +1,4 @@
+@startuml
+Outpatient --> Radiologist
+Radiologist --> RehabilitationCenter
+@enduml

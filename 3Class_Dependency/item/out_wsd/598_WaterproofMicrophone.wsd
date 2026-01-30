@@ -1,0 +1,4 @@
+@startuml
+WaterproofMicrophonePowerCord ..> WaterproofMicrophone
+CommunityCenterPowerStrip ..> WaterproofMicrophonePowerCord
+@enduml

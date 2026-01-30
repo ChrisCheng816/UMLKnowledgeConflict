@@ -1,0 +1,4 @@
+@startuml
+ColonyOfBadger o-- Taiga
+Badger o-- ColonyOfBadger
+@enduml

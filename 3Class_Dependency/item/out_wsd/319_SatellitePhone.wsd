@@ -1,0 +1,4 @@
+@startuml
+SatellitePhoneCharger ..> SatellitePhone
+LoadingDockSmartPlug ..> SatellitePhoneCharger
+@enduml

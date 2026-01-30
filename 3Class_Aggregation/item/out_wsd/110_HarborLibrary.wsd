@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- HarborLibrary
+HardcoverBook o-- Shelf
+@enduml

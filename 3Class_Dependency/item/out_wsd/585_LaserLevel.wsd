@@ -1,0 +1,4 @@
+@startuml
+LaserLevelPowerCord ..> LaserLevel
+RestaurantWallOutlet ..> LaserLevelPowerCord
+@enduml

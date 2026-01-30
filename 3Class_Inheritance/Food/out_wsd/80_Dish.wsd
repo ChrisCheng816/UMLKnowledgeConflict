@@ -1,0 +1,4 @@
+@startuml
+Dish <|-- Food
+Food <|-- Thing
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ExpertCommittee o-- SpaceCenter
+Physicist o-- ExpertCommittee
+@enduml

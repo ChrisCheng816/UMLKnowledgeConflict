@@ -1,0 +1,4 @@
+@startuml
+ProgrammableGrillPowerCord ..> ProgrammableGrill
+CruiseShipWallOutlet ..> ProgrammableGrillPowerCord
+@enduml

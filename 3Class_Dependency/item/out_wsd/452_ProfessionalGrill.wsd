@@ -1,0 +1,4 @@
+@startuml
+ProfessionalGrillPowerCord ..> ProfessionalGrill
+GalleryExtensionCord ..> ProfessionalGrillPowerCord
+@enduml

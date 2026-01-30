@@ -1,0 +1,4 @@
+@startuml
+AccountHolder --> PortfolioManager
+PortfolioManager --> MortgageLender
+@enduml

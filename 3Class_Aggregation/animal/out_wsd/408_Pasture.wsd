@@ -1,0 +1,4 @@
+@startuml
+SchoolOfShark o-- Pasture
+Shark o-- SchoolOfShark
+@enduml

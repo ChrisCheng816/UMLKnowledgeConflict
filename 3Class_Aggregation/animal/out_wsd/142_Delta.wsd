@@ -1,0 +1,4 @@
+@startuml
+GroupOfSquid o-- Delta
+Squid o-- GroupOfSquid
+@enduml

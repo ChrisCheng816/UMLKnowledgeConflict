@@ -1,0 +1,4 @@
+@startuml
+PilotTrainee --> Conductor
+Conductor --> CruiseTerminal
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SafetyTeam o-- IslandMetroAuthority
+Librarian o-- SafetyTeam
+@enduml

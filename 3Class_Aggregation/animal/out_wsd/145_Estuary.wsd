@@ -1,0 +1,4 @@
+@startuml
+GroupOfLobster o-- Estuary
+Lobster o-- GroupOfLobster
+@enduml

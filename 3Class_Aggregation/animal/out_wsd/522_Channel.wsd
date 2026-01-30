@@ -1,0 +1,4 @@
+@startuml
+TroopOfLemur o-- Channel
+Lemur o-- TroopOfLemur
+@enduml

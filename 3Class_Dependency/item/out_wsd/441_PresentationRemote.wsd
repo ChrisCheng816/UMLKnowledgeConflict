@@ -1,0 +1,4 @@
+@startuml
+PresentationRemotePowerCord ..> PresentationRemote
+TrainStationWallOutlet ..> PresentationRemotePowerCord
+@enduml

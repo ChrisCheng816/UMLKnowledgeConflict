@@ -1,0 +1,4 @@
+@startuml
+RechargeableVacuumCharger ..> RechargeableVacuum
+CampusLabWallOutlet ..> RechargeableVacuumCharger
+@enduml

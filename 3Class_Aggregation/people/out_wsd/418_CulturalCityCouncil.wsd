@@ -1,0 +1,4 @@
+@startuml
+PeerReviewTeam o-- CulturalCityCouncil
+Detective o-- PeerReviewTeam
+@enduml

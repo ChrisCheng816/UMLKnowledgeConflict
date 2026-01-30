@@ -1,0 +1,4 @@
+@startuml
+Crate o-- HarborMarket
+FrozenFish o-- Crate
+@enduml

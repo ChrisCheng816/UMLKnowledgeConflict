@@ -1,0 +1,4 @@
+@startuml
+DigitalLanternPowerCord ..> DigitalLantern
+LoadingDockSurgeProtector ..> DigitalLanternPowerCord
+@enduml

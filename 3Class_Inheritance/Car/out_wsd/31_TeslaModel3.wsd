@@ -1,0 +1,4 @@
+@startuml
+TeslaModel3 <|-- Tesla
+Tesla <|-- CarBrand
+@enduml

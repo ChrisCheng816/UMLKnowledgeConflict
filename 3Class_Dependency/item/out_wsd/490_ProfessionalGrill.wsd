@@ -1,0 +1,4 @@
+@startuml
+ProfessionalGrillPowerCord ..> ProfessionalGrill
+LoadingDockSmartPlug ..> ProfessionalGrillPowerCord
+@enduml

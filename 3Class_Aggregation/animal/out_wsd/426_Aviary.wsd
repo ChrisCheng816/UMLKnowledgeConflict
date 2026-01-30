@@ -1,0 +1,4 @@
+@startuml
+NestOfLizard o-- Aviary
+Lizard o-- NestOfLizard
+@enduml

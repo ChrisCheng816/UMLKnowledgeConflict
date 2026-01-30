@@ -1,0 +1,4 @@
+@startuml
+ProjectorACAdapter ..> Projector
+LaundromatWallOutlet ..> ProjectorACAdapter
+@enduml

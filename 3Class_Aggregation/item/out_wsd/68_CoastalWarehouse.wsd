@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- CoastalWarehouse
+SparePart o-- StorageBin
+@enduml

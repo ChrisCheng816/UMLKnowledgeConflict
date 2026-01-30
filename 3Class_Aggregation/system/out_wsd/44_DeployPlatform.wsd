@@ -1,0 +1,4 @@
+@startuml
+RepoBranch o-- DeployPlatform
+PatchNote o-- RepoBranch
+@enduml

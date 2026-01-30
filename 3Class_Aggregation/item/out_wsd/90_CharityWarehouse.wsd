@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- CharityWarehouse
+SparePart o-- StorageBin
+@enduml

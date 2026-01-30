@@ -1,0 +1,4 @@
+@startuml
+IncidentResponseTeam o-- EnergyResearchInstitute
+Radiologist o-- IncidentResponseTeam
+@enduml

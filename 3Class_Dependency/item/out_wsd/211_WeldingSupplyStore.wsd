@@ -1,0 +1,4 @@
+@startuml
+InventoryShipment ..> WeldingSupplyStore
+DeliveryTruck ..> InventoryShipment
+@enduml

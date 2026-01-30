@@ -1,0 +1,4 @@
+@startuml
+CompactLaptopPowerCord ..> CompactLaptop
+GreenhousePowerStrip ..> CompactLaptopPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Patient --> Therapist
+Therapist --> Clinic
+@enduml

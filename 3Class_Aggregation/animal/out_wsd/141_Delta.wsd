@@ -1,0 +1,4 @@
+@startuml
+GroupOfOctopus o-- Delta
+Octopus o-- GroupOfOctopus
+@enduml

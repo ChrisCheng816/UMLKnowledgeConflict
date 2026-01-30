@@ -1,0 +1,4 @@
+@startuml
+CordlessTabletCharger ..> CordlessTablet
+HomeKitchenPowerStrip ..> CordlessTabletCharger
+@enduml

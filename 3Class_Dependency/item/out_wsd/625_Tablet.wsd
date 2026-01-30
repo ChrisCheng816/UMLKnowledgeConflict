@@ -1,0 +1,4 @@
+@startuml
+TabletCharger ..> Tablet
+RVSurgeProtector ..> TabletCharger
+@enduml

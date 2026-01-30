@@ -1,0 +1,4 @@
+@startuml
+MaintenanceTeam o-- AerospaceAccountingFirm
+Pharmacist o-- MaintenanceTeam
+@enduml

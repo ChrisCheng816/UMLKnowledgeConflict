@@ -1,0 +1,4 @@
+@startuml
+HerdOfElk o-- Hatchery
+Elk o-- HerdOfElk
+@enduml

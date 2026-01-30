@@ -1,0 +1,4 @@
+@startuml
+WirelessHeadphonesCharger ..> WirelessHeadphones
+AutoShopPowerStrip ..> WirelessHeadphonesCharger
+@enduml

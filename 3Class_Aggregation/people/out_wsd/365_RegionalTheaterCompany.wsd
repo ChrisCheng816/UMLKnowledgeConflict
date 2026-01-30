@@ -1,0 +1,4 @@
+@startuml
+AdmissionsTeam o-- RegionalTheaterCompany
+Editor o-- AdmissionsTeam
+@enduml

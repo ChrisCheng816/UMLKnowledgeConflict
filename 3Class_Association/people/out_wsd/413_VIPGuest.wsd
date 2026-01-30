@@ -1,0 +1,4 @@
+@startuml
+VIPGuest --> Sommelier
+Sommelier --> BanquetHall
+@enduml

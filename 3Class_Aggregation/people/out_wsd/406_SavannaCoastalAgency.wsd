@@ -1,0 +1,4 @@
+@startuml
+AdmissionsTeam o-- SavannaCoastalAgency
+Professor o-- AdmissionsTeam
+@enduml

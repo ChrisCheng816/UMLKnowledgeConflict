@@ -1,0 +1,4 @@
+@startuml
+CameraFlashPowerCord ..> CameraFlash
+LaundromatWallOutlet ..> CameraFlashPowerCord
+@enduml

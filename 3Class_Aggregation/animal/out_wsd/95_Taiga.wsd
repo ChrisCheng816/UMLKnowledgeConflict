@@ -1,0 +1,4 @@
+@startuml
+ColonyOfKangaroo o-- Taiga
+Kangaroo o-- ColonyOfKangaroo
+@enduml

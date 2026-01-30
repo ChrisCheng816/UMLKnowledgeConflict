@@ -1,0 +1,4 @@
+@startuml
+CompanyBranch o-- LaborUnion
+EmployeeRepresentative o-- CompanyBranch
+@enduml

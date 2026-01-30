@@ -1,0 +1,4 @@
+@startuml
+Crate o-- CountyDepot
+SparePart o-- Crate
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WirelessScannerCharger ..> WirelessScanner
+CopyRoomSmartPlug ..> WirelessScannerCharger
+@enduml

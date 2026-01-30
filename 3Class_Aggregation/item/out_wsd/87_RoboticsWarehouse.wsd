@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- RoboticsWarehouse
+SparePart o-- StorageBin
+@enduml

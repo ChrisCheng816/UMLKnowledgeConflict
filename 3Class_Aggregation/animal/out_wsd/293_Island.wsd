@@ -1,0 +1,4 @@
+@startuml
+GroupOfCrab o-- Island
+Crab o-- GroupOfCrab
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Collection o-- ArchiveRoom
+Manuscript o-- Collection
+@enduml

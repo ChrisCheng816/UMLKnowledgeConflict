@@ -1,0 +1,4 @@
+@startuml
+HondaPilot <|-- Honda
+Honda <|-- CarBrand
+@enduml

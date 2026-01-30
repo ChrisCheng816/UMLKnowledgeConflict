@@ -1,0 +1,4 @@
+@startuml
+RescueTeam o-- WildlifeCenter
+ForestRanger o-- RescueTeam
+@enduml

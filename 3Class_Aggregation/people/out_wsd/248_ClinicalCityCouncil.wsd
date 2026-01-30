@@ -1,0 +1,4 @@
+@startuml
+AdmissionsCommittee o-- ClinicalCityCouncil
+FinancialAnalyst o-- AdmissionsCommittee
+@enduml

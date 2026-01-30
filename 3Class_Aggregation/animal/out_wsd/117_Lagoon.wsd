@@ -1,0 +1,4 @@
+@startuml
+SwarmOfWasp o-- Lagoon
+Wasp o-- SwarmOfWasp
+@enduml

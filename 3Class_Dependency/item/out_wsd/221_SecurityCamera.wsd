@@ -1,0 +1,4 @@
+@startuml
+NetworkRecorder ..> SecurityCamera
+EthernetSwitch ..> NetworkRecorder
+@enduml

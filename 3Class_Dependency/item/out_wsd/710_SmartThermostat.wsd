@@ -1,0 +1,4 @@
+@startuml
+SmartThermostatPowerCord ..> SmartThermostat
+PatioSmartPlug ..> SmartThermostatPowerCord
+@enduml

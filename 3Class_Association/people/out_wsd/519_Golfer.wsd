@@ -1,0 +1,4 @@
+@startuml
+Golfer --> EquipmentManager
+EquipmentManager --> GolfCourse
+@enduml

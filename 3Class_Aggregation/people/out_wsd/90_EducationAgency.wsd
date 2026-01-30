@@ -1,0 +1,4 @@
+@startuml
+CurriculumTeam o-- EducationAgency
+Professor o-- CurriculumTeam
+@enduml

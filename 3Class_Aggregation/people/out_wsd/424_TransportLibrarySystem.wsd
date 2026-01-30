@@ -1,0 +1,4 @@
+@startuml
+FinanceTeam o-- TransportLibrarySystem
+CivilEngineer o-- FinanceTeam
+@enduml

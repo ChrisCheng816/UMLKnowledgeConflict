@@ -1,0 +1,4 @@
+@startuml
+CordlessMonitorCharger ..> CordlessMonitor
+BusTerminalSmartPlug ..> CordlessMonitorCharger
+@enduml

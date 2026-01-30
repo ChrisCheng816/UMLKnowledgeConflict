@@ -1,0 +1,4 @@
+@startuml
+ToasterPowerCord ..> Toaster
+LibraryPowerStrip ..> ToasterPowerCord
+@enduml

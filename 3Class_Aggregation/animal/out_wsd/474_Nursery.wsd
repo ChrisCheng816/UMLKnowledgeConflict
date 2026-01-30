@@ -1,0 +1,4 @@
+@startuml
+FlockOfPheasant o-- Nursery
+Pheasant o-- FlockOfPheasant
+@enduml

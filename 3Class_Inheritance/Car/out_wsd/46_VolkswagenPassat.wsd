@@ -1,0 +1,4 @@
+@startuml
+VolkswagenPassat <|-- Volkswagen
+Volkswagen <|-- CarBrand
+@enduml

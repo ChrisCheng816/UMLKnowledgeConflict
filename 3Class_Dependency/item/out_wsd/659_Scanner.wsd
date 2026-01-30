@@ -1,0 +1,4 @@
+@startuml
+ScannerACAdapter ..> Scanner
+SubstationControlRoomExtensionCord ..> ScannerACAdapter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+AuditTeam o-- MaritimeLawFirm
+Attorney o-- AuditTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+LaserPointerPowerCord ..> LaserPointer
+ControlRoomSurgeProtector ..> LaserPointerPowerCord
+@enduml

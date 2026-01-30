@@ -1,0 +1,4 @@
+@startuml
+MemberState o-- UnitedNations
+Diplomat o-- MemberState
+@enduml

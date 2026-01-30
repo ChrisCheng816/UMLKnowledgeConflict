@@ -1,0 +1,4 @@
+@startuml
+Gnocchi <|-- Dish
+Dish <|-- Food
+@enduml

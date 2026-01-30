@@ -1,0 +1,4 @@
+@startuml
+GroupOfLobster o-- Zoo
+Lobster o-- GroupOfLobster
+@enduml

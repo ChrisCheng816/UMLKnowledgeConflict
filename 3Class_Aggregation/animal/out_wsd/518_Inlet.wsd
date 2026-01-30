@@ -1,0 +1,4 @@
+@startuml
+TroopOfBaboon o-- Inlet
+Baboon o-- TroopOfBaboon
+@enduml

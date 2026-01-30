@@ -1,0 +1,4 @@
+@startuml
+MarketingTeam o-- HealthcarePoliceDepartment
+ElectricalEngineer o-- MarketingTeam
+@enduml

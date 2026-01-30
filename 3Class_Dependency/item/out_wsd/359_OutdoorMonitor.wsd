@@ -1,0 +1,4 @@
+@startuml
+OutdoorMonitorPowerCord ..> OutdoorMonitor
+CafeteriaPowerStrip ..> OutdoorMonitorPowerCord
+@enduml

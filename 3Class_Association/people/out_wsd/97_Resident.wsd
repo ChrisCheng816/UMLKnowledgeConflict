@@ -1,0 +1,4 @@
+@startuml
+Resident --> BuildingInspector
+BuildingInspector --> CityHall
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DigitalModemPowerCord ..> DigitalModem
+PharmacySmartPlug ..> DigitalModemPowerCord
+@enduml

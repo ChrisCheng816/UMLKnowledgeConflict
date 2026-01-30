@@ -1,0 +1,4 @@
+@startuml
+FordExplorer <|-- Ford
+Ford <|-- CarBrand
+@enduml

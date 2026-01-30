@@ -1,0 +1,4 @@
+@startuml
+GroupOfCrab o-- Delta
+Crab o-- GroupOfCrab
+@enduml

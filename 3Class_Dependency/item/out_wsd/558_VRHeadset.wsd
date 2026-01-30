@@ -1,0 +1,4 @@
+@startuml
+VRHeadsetCharger ..> VRHeadset
+StreetMarketExtensionCord ..> VRHeadsetCharger
+@enduml

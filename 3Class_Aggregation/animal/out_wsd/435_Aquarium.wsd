@@ -1,0 +1,4 @@
+@startuml
+ArmyOfFrog o-- Aquarium
+Frog o-- ArmyOfFrog
+@enduml

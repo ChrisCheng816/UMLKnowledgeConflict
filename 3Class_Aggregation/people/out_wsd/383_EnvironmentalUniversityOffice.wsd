@@ -1,0 +1,4 @@
+@startuml
+FinanceTeam o-- EnvironmentalUniversityOffice
+ProductManager o-- FinanceTeam
+@enduml

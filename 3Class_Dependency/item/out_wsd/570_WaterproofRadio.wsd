@@ -1,0 +1,4 @@
+@startuml
+WaterproofRadioPowerCord ..> WaterproofRadio
+WindFarmOfficeSurgeProtector ..> WaterproofRadioPowerCord
+@enduml

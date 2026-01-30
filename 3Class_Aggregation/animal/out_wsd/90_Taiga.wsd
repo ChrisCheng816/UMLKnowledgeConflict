@@ -1,0 +1,4 @@
+@startuml
+ColonyOfSkunk o-- Taiga
+Skunk o-- ColonyOfSkunk
+@enduml

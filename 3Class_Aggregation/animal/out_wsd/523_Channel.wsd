@@ -1,0 +1,4 @@
+@startuml
+PodOfDolphin o-- Channel
+Dolphin o-- PodOfDolphin
+@enduml

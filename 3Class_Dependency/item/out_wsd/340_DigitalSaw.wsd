@@ -1,0 +1,4 @@
+@startuml
+DigitalSawPowerCord ..> DigitalSaw
+EngineeringLabSurgeProtector ..> DigitalSawPowerCord
+@enduml

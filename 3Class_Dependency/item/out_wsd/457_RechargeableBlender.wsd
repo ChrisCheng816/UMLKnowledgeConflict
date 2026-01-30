@@ -1,0 +1,4 @@
+@startuml
+RechargeableBlenderCharger ..> RechargeableBlender
+BalconyExtensionCord ..> RechargeableBlenderCharger
+@enduml

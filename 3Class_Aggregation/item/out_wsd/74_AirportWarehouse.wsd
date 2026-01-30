@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- AirportWarehouse
+SparePart o-- StorageBin
+@enduml

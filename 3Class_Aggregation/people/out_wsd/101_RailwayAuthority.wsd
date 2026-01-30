@@ -1,0 +1,4 @@
+@startuml
+MaintenanceTeam o-- RailwayAuthority
+MechanicalEngineer o-- MaintenanceTeam
+@enduml

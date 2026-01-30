@@ -1,0 +1,4 @@
+@startuml
+PortableRouterCharger ..> PortableRouter
+CityHallPowerStrip ..> PortableRouterCharger
+@enduml

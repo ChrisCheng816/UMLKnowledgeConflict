@@ -1,0 +1,4 @@
+@startuml
+SchoolOfHerring o-- Taiga
+Herring o-- SchoolOfHerring
+@enduml

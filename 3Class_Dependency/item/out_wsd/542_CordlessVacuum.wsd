@@ -1,0 +1,4 @@
+@startuml
+CordlessVacuumCharger ..> CordlessVacuum
+HomeOfficePowerStrip ..> CordlessVacuumCharger
+@enduml

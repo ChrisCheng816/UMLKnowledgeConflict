@@ -1,0 +1,4 @@
+@startuml
+GroupOfLobster o-- Island
+Lobster o-- GroupOfLobster
+@enduml

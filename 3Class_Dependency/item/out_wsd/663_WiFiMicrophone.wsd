@@ -1,0 +1,4 @@
+@startuml
+WiFiMicrophonePowerCord ..> WiFiMicrophone
+LibrarySurgeProtector ..> WiFiMicrophonePowerCord
+@enduml

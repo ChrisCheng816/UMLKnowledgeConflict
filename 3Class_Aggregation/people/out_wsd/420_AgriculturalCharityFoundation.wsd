@@ -1,0 +1,4 @@
+@startuml
+NursingTeam o-- AgriculturalCharityFoundation
+Dispatcher o-- NursingTeam
+@enduml

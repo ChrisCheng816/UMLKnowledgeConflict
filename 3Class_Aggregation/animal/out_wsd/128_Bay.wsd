@@ -1,0 +1,4 @@
+@startuml
+NestOfLizard o-- Bay
+Lizard o-- NestOfLizard
+@enduml

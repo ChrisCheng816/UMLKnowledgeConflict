@@ -1,0 +1,4 @@
+@startuml
+PodOfOrca o-- Tundra
+Orca o-- PodOfOrca
+@enduml

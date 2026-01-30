@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- CommunityLibrary
+HardcoverBook o-- Shelf
+@enduml

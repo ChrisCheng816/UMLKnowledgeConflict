@@ -1,0 +1,4 @@
+@startuml
+Child --> Paramedic
+Paramedic --> RehabilitationCenter
+@enduml

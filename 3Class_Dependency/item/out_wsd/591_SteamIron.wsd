@@ -1,0 +1,4 @@
+@startuml
+SteamIronPowerCord ..> SteamIron
+BakeryExtensionCord ..> SteamIronPowerCord
+@enduml

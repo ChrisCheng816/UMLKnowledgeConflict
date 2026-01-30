@@ -1,0 +1,4 @@
+@startuml
+PodOfOrca o-- Farm
+Orca o-- PodOfOrca
+@enduml

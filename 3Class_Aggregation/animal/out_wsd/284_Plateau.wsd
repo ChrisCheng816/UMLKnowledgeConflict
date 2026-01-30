@@ -1,0 +1,4 @@
+@startuml
+BaskOfCrocodile o-- Plateau
+Crocodile o-- BaskOfCrocodile
+@enduml

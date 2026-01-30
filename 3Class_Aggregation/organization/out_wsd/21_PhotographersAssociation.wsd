@@ -1,0 +1,4 @@
+@startuml
+Club o-- PhotographersAssociation
+Member o-- Club
+@enduml

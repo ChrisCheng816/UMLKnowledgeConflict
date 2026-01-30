@@ -1,0 +1,4 @@
+@startuml
+ParamedicUnit o-- EmergencyOffice
+Paramedic o-- ParamedicUnit
+@enduml

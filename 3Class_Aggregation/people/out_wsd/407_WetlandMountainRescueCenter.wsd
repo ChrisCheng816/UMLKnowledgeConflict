@@ -1,0 +1,4 @@
+@startuml
+MentorTeam o-- WetlandMountainRescueCenter
+Lecturer o-- MentorTeam
+@enduml

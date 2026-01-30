@@ -1,0 +1,4 @@
+@startuml
+HerdOfZebra o-- Savanna
+Zebra o-- HerdOfZebra
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RaftOfOtter o-- Channel
+Otter o-- RaftOfOtter
+@enduml

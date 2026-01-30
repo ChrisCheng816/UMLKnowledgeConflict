@@ -1,0 +1,4 @@
+@startuml
+GameControllerCharger ..> GameController
+HomeKitchenSurgeProtector ..> GameControllerCharger
+@enduml

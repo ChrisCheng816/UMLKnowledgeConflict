@@ -1,0 +1,4 @@
+@startuml
+FlockOfCrane o-- Sanctuary
+Crane o-- FlockOfCrane
+@enduml

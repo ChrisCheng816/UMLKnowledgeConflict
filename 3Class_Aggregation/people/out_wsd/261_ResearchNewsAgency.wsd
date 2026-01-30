@@ -1,0 +1,4 @@
+@startuml
+MedicalTeam o-- ResearchNewsAgency
+Radiologist o-- MedicalTeam
+@enduml

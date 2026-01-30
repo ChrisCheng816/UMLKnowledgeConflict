@@ -1,0 +1,4 @@
+@startuml
+Leg *-- PoisonDartFrog
+Muscle *-- Leg
+@enduml

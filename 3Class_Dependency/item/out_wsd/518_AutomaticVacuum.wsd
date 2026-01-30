@@ -1,0 +1,4 @@
+@startuml
+AutomaticVacuumPowerCord ..> AutomaticVacuum
+AtticExtensionCord ..> AutomaticVacuumPowerCord
+@enduml

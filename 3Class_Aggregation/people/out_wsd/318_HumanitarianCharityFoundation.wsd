@@ -1,0 +1,4 @@
+@startuml
+SafetyTeam o-- HumanitarianCharityFoundation
+AnimalKeeper o-- SafetyTeam
+@enduml

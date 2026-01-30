@@ -1,0 +1,4 @@
+@startuml
+OutreachUnit o-- EnvironmentalSportsClub
+LabTechnician o-- OutreachUnit
+@enduml

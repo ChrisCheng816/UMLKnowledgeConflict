@@ -1,0 +1,4 @@
+@startuml
+RaftOfSeal o-- Farm
+Seal o-- RaftOfSeal
+@enduml

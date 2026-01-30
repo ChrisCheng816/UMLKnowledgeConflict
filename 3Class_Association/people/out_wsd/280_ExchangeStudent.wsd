@@ -1,0 +1,4 @@
+@startuml
+ExchangeStudent --> Advisor
+Advisor --> TechnicalInstitute
+@enduml

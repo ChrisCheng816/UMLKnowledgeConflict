@@ -1,0 +1,4 @@
+@startuml
+EditorialCircle o-- CyberHospitalCenter
+HarborPilot o-- EditorialCircle
+@enduml

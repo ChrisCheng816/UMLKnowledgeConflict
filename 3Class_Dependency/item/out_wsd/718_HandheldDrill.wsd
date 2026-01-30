@@ -1,0 +1,4 @@
+@startuml
+HandheldDrillPowerCord ..> HandheldDrill
+StreetMarketSurgeProtector ..> HandheldDrillPowerCord
+@enduml

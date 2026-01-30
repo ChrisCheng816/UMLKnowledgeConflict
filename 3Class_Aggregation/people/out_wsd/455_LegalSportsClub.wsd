@@ -1,0 +1,4 @@
+@startuml
+MaintenanceTeam o-- LegalSportsClub
+SoundEngineer o-- MaintenanceTeam
+@enduml

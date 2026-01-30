@@ -1,0 +1,4 @@
+@startuml
+OperationsTeam o-- CityStation
+ProjectManager o-- OperationsTeam
+@enduml

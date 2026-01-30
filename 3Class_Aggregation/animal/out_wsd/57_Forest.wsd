@@ -1,0 +1,4 @@
+@startuml
+HerdOfWildebeest o-- Forest
+Wildebeest o-- HerdOfWildebeest
+@enduml

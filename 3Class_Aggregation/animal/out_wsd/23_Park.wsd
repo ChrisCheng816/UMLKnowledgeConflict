@@ -1,0 +1,4 @@
+@startuml
+FlockOfEmu o-- Park
+Emu o-- FlockOfEmu
+@enduml

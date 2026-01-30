@@ -1,0 +1,4 @@
+@startuml
+GroupOfOyster o-- Zoo
+Oyster o-- GroupOfOyster
+@enduml

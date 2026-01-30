@@ -1,0 +1,4 @@
+@startuml
+OutreachTeam o-- CharityStation
+Volunteer o-- OutreachTeam
+@enduml

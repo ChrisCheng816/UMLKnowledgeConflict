@@ -1,0 +1,4 @@
+@startuml
+HondaCivic <|-- Honda
+Honda <|-- CarBrand
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PatrolTeam o-- InternationalFilmStudio
+SalesAssistant o-- PatrolTeam
+@enduml

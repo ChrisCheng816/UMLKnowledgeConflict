@@ -1,0 +1,4 @@
+@startuml
+RaftOfSeal o-- Oasis
+Seal o-- RaftOfSeal
+@enduml

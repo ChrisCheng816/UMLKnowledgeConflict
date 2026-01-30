@@ -1,0 +1,4 @@
+@startuml
+ProfessionalMixerPowerCord ..> ProfessionalMixer
+GardenOfficeWallOutlet ..> ProfessionalMixerPowerCord
+@enduml

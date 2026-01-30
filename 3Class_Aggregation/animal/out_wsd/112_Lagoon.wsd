@@ -1,0 +1,4 @@
+@startuml
+SwarmOfBee o-- Lagoon
+Bee o-- SwarmOfBee
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RechargeableSpeakerCharger ..> RechargeableSpeaker
+HomeOfficeWallOutlet ..> RechargeableSpeakerCharger
+@enduml

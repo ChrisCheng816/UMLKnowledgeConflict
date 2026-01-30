@@ -1,0 +1,4 @@
+@startuml
+ChiliPepper <|-- NightshadeVegetable
+NightshadeVegetable <|-- Vegetable
+@enduml

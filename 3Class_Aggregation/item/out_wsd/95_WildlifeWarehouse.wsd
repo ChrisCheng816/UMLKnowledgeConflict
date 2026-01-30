@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- WildlifeWarehouse
+SparePart o-- StorageBin
+@enduml

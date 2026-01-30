@@ -1,0 +1,4 @@
+@startuml
+Recipient --> Courier
+Courier --> DeliveryService
+@enduml

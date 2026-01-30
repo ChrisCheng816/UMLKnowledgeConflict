@@ -1,0 +1,4 @@
+@startuml
+NestOfGecko o-- Plateau
+Gecko o-- NestOfGecko
+@enduml

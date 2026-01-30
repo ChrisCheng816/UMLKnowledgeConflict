@@ -1,0 +1,4 @@
+@startuml
+RaftOfSeal o-- Tundra
+Seal o-- RaftOfSeal
+@enduml

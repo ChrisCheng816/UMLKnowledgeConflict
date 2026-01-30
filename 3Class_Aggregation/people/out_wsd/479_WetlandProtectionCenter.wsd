@@ -1,0 +1,4 @@
+@startuml
+BirdwatchPlatform o-- WetlandProtectionCenter
+Visitor o-- BirdwatchPlatform
+@enduml

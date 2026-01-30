@@ -1,0 +1,4 @@
+@startuml
+MaintenanceTeam o-- BuildingCommittee
+Plumber o-- MaintenanceTeam
+@enduml

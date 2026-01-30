@@ -1,0 +1,4 @@
+@startuml
+FitnessTrackerCharger ..> FitnessTracker
+GaragePowerStrip ..> FitnessTrackerCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DocumentCameraPowerCord ..> DocumentCamera
+LaundromatWallOutlet ..> DocumentCameraPowerCord
+@enduml

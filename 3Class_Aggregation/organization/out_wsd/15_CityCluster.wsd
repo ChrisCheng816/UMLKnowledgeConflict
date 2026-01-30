@@ -1,0 +1,4 @@
+@startuml
+MemberCity o-- CityCluster
+Resident o-- MemberCity
+@enduml

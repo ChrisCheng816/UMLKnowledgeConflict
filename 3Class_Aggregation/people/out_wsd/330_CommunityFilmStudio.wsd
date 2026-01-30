@@ -1,0 +1,4 @@
+@startuml
+SafetyTeam o-- CommunityFilmStudio
+Lecturer o-- SafetyTeam
+@enduml

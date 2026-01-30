@@ -1,0 +1,4 @@
+@startuml
+Depositor --> ClaimsAdjuster
+ClaimsAdjuster --> PaymentProcessor
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ActingTeam o-- TheaterCompany
+StageActor o-- ActingTeam
+@enduml

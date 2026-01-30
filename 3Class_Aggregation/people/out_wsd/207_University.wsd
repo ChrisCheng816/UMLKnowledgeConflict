@@ -1,0 +1,4 @@
+@startuml
+ResearchGroup o-- University
+Researcher o-- ResearchGroup
+@enduml

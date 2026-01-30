@@ -1,0 +1,4 @@
+@startuml
+FordF150 <|-- Ford
+Ford <|-- CarBrand
+@enduml

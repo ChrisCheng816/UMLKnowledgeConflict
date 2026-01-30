@@ -1,0 +1,4 @@
+@startuml
+EarthRotation ..> DayNightCycle
+Earth ..> EarthRotation
+@enduml

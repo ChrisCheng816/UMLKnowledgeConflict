@@ -1,0 +1,4 @@
+@startuml
+FlockOfQuail o-- Park
+Quail o-- FlockOfQuail
+@enduml

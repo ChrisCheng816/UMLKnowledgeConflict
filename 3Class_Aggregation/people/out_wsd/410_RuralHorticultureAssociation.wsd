@@ -1,0 +1,4 @@
+@startuml
+TrainingTeam o-- RuralHorticultureAssociation
+Registrar o-- TrainingTeam
+@enduml

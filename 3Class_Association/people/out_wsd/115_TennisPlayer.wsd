@@ -1,0 +1,4 @@
+@startuml
+TennisPlayer --> Coach
+Coach --> TennisClub
+@enduml

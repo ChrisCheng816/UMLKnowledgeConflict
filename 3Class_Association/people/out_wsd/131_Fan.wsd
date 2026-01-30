@@ -1,0 +1,4 @@
+@startuml
+Fan --> TicketSeller
+TicketSeller --> Stadium
+@enduml

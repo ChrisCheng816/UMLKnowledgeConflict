@@ -1,0 +1,4 @@
+@startuml
+ResearchTeam o-- HumanitarianSportsClub
+CustomerSupportAgent o-- ResearchTeam
+@enduml

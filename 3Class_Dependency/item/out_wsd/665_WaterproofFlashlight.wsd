@@ -1,0 +1,4 @@
+@startuml
+WaterproofFlashlightPowerCord ..> WaterproofFlashlight
+StadiumPowerStrip ..> WaterproofFlashlightPowerCord
+@enduml

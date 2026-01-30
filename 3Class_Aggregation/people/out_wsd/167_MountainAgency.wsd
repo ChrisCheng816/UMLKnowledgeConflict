@@ -1,0 +1,4 @@
+@startuml
+RescueTeam o-- MountainAgency
+MountainGuide o-- RescueTeam
+@enduml

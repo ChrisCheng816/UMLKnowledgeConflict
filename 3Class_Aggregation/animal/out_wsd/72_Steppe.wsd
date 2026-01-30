@@ -1,0 +1,4 @@
+@startuml
+TroopOfChimpanzee o-- Steppe
+Chimpanzee o-- TroopOfChimpanzee
+@enduml

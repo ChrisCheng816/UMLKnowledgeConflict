@@ -1,0 +1,4 @@
+@startuml
+SmartwatchCharger ..> Smartwatch
+RecordingStudioPowerStrip ..> SmartwatchCharger
+@enduml

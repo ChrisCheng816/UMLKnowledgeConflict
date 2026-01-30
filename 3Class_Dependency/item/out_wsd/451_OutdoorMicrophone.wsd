@@ -1,0 +1,4 @@
+@startuml
+OutdoorMicrophonePowerCord ..> OutdoorMicrophone
+DormRoomExtensionCord ..> OutdoorMicrophonePowerCord
+@enduml

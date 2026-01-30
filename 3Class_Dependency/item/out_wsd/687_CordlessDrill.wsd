@@ -1,0 +1,4 @@
+@startuml
+CordlessDrillCharger ..> CordlessDrill
+OperatingRoomPowerStrip ..> CordlessDrillCharger
+@enduml

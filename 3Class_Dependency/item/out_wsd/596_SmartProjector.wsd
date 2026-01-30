@@ -1,0 +1,4 @@
+@startuml
+SmartProjectorPowerCord ..> SmartProjector
+FarmhouseSmartPlug ..> SmartProjectorPowerCord
+@enduml

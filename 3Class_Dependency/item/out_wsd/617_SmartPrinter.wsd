@@ -1,0 +1,4 @@
+@startuml
+SmartPrinterPowerCord ..> SmartPrinter
+MailRoomSmartPlug ..> SmartPrinterPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CompactCompressorPowerCord ..> CompactCompressor
+DataCenterPowerStrip ..> CompactCompressorPowerCord
+@enduml

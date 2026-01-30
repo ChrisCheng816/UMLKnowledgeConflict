@@ -1,0 +1,4 @@
+@startuml
+Cardholder --> Accountant
+Accountant --> InsuranceCompany
+@enduml

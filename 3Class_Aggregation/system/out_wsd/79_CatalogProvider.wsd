@@ -1,0 +1,4 @@
+@startuml
+APIModule o-- CatalogProvider
+SchemaFile o-- APIModule
+@enduml

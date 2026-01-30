@@ -1,0 +1,4 @@
+@startuml
+ThunderboltDockPowerCord ..> ThunderboltDock
+KitchenWallOutlet ..> ThunderboltDockPowerCord
+@enduml

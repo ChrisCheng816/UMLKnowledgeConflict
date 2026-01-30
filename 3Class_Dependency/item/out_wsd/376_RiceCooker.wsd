@@ -1,0 +1,4 @@
+@startuml
+RiceCookerPowerCord ..> RiceCooker
+CampusLabSmartPlug ..> RiceCookerPowerCord
+@enduml

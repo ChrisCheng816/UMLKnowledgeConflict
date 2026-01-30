@@ -1,0 +1,4 @@
+@startuml
+MaintenanceTeam o-- GardenAuthority
+ElectricalEngineer o-- MaintenanceTeam
+@enduml

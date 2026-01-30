@@ -1,0 +1,4 @@
+@startuml
+FlockOfRobin o-- Shelter
+Robin o-- FlockOfRobin
+@enduml

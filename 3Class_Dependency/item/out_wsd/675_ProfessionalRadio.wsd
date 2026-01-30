@@ -1,0 +1,4 @@
+@startuml
+ProfessionalRadioPowerCord ..> ProfessionalRadio
+MachineShopSmartPlug ..> ProfessionalRadioPowerCord
+@enduml

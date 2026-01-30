@@ -1,0 +1,4 @@
+@startuml
+ColonyOfSquirrel o-- Tundra
+Squirrel o-- ColonyOfSquirrel
+@enduml

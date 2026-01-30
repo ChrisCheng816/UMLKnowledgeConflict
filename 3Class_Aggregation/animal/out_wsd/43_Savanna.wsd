@@ -1,0 +1,4 @@
+@startuml
+HerdOfElk o-- Savanna
+Elk o-- HerdOfElk
+@enduml

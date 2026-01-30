@@ -1,0 +1,4 @@
+@startuml
+PatrolUnit o-- NationalPark
+ForestRanger o-- PatrolUnit
+@enduml

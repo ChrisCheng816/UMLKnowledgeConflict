@@ -1,0 +1,4 @@
+@startuml
+FlockOfRook o-- Wetland
+Rook o-- FlockOfRook
+@enduml

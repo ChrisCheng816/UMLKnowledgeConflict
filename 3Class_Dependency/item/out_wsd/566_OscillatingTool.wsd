@@ -1,0 +1,4 @@
+@startuml
+OscillatingToolPowerCord ..> OscillatingTool
+StableSmartPlug ..> OscillatingToolPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+AutomaticBlenderPowerCord ..> AutomaticBlender
+BankLobbyWallOutlet ..> AutomaticBlenderPowerCord
+@enduml

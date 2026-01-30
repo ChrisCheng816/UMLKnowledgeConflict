@@ -1,0 +1,4 @@
+@startuml
+InfusionPumpPowerCord ..> InfusionPump
+HospitalLobbySmartPlug ..> InfusionPumpPowerCord
+@enduml

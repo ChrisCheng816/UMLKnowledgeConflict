@@ -1,0 +1,4 @@
+@startuml
+SmartMonitorPowerCord ..> SmartMonitor
+GreenhouseWallOutlet ..> SmartMonitorPowerCord
+@enduml

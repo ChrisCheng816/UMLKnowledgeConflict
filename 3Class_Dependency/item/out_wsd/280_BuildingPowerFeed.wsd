@@ -1,0 +1,4 @@
+@startuml
+CircuitBreakerPanel ..> BuildingPowerFeed
+UtilityMeter ..> CircuitBreakerPanel
+@enduml

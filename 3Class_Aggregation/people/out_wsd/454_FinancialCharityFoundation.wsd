@@ -1,0 +1,4 @@
+@startuml
+OperationsTeam o-- FinancialCharityFoundation
+Producer o-- OperationsTeam
+@enduml

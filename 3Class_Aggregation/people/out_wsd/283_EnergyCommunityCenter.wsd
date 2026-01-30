@@ -1,0 +1,4 @@
+@startuml
+AdmissionsOffice o-- EnergyCommunityCenter
+WarehouseSupervisor o-- AdmissionsOffice
+@enduml

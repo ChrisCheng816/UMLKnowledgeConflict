@@ -1,0 +1,4 @@
+@startuml
+PatrolTeam o-- PoliceStation
+PoliceOfficer o-- PatrolTeam
+@enduml

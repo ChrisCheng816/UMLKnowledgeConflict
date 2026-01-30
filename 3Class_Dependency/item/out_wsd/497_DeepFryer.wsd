@@ -1,0 +1,4 @@
+@startuml
+DeepFryerPowerCord ..> DeepFryer
+PharmacyPowerStrip ..> DeepFryerPowerCord
+@enduml

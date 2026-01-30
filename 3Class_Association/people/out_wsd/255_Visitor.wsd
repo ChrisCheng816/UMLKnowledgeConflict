@@ -1,0 +1,4 @@
+@startuml
+Visitor --> Physiotherapist
+Physiotherapist --> MedicalCenter
+@enduml

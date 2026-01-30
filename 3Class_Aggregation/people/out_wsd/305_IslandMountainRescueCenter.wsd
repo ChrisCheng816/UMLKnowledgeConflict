@@ -1,0 +1,4 @@
+@startuml
+SecuritySquad o-- IslandMountainRescueCenter
+QAEngineer o-- SecuritySquad
+@enduml

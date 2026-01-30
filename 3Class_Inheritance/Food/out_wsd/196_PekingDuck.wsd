@@ -1,0 +1,4 @@
+@startuml
+PekingDuck <|-- Dish
+Dish <|-- Food
+@enduml

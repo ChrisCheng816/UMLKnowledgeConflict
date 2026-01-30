@@ -1,0 +1,4 @@
+@startuml
+GrantTeam o-- ResearchAgency
+Accountant o-- GrantTeam
+@enduml

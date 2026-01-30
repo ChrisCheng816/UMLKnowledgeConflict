@@ -1,0 +1,4 @@
+@startuml
+ElectricCartPowerCord ..> ElectricCart
+CarCigaretteLighter ..> ElectricCartPowerCord
+@enduml

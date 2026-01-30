@@ -1,0 +1,4 @@
+@startuml
+OutdoorPrinterPowerCord ..> OutdoorPrinter
+OutdoorPatioSurgeProtector ..> OutdoorPrinterPowerCord
+@enduml

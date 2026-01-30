@@ -1,0 +1,4 @@
+@startuml
+FordBronco <|-- Ford
+Ford <|-- CarBrand
+@enduml

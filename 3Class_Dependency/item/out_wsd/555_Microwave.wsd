@@ -1,0 +1,4 @@
+@startuml
+MicrowavePowerCord ..> Microwave
+HospitalWardWallOutlet ..> MicrowavePowerCord
+@enduml

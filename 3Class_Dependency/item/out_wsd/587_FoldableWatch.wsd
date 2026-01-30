@@ -1,0 +1,4 @@
+@startuml
+FoldableWatchPowerCord ..> FoldableWatch
+FactoryFloorWallOutlet ..> FoldableWatchPowerCord
+@enduml

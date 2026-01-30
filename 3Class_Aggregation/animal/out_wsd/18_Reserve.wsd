@@ -1,0 +1,4 @@
+@startuml
+FlockOfTern o-- Reserve
+Tern o-- FlockOfTern
+@enduml

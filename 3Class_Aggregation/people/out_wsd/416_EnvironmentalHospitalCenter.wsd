@@ -1,0 +1,4 @@
+@startuml
+CustomerSupportTeam o-- EnvironmentalHospitalCenter
+Paramedic o-- CustomerSupportTeam
+@enduml

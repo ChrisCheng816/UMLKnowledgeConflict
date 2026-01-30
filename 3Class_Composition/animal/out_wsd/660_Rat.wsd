@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Rat
+Root *-- Tooth
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ChevroletSilverado <|-- Chevrolet
+Chevrolet <|-- CarBrand
+@enduml

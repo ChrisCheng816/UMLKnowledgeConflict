@@ -1,0 +1,4 @@
+@startuml
+ColonyOfMouse o-- Farm
+Mouse o-- ColonyOfMouse
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FlockOfFinch o-- Wetland
+Finch o-- FlockOfFinch
+@enduml

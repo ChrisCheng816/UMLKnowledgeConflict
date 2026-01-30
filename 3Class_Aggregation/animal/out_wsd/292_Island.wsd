@@ -1,0 +1,4 @@
+@startuml
+GroupOfJellyfish o-- Island
+Jellyfish o-- GroupOfJellyfish
+@enduml

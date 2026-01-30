@@ -1,0 +1,4 @@
+@startuml
+PatrolTeam o-- CyberUniversityOffice
+Auditor o-- PatrolTeam
+@enduml

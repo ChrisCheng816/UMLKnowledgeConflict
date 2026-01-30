@@ -1,0 +1,4 @@
+@startuml
+PortableGPSCharger ..> PortableGPS
+HomeOfficeSmartPlug ..> PortableGPSCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ConferenceAttendee --> Waiter
+Waiter --> BanquetHall
+@enduml

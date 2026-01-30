@@ -1,0 +1,4 @@
+@startuml
+WirelessCameraCharger ..> WirelessCamera
+GallerySurgeProtector ..> WirelessCameraCharger
+@enduml

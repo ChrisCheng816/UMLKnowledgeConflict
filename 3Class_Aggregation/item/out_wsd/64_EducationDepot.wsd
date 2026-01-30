@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- EducationDepot
+Textbook o-- Shelf
+@enduml

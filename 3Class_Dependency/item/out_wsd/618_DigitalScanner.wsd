@@ -1,0 +1,4 @@
+@startuml
+DigitalScannerPowerCord ..> DigitalScanner
+BankLobbySurgeProtector ..> DigitalScannerPowerCord
+@enduml

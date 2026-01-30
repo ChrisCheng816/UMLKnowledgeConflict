@@ -1,0 +1,4 @@
+@startuml
+FlockOfGoose o-- Zoo
+Goose o-- FlockOfGoose
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+NursingTeam o-- ConvalescentHome
+Nurse o-- NursingTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PodOfPorpoise o-- Channel
+Porpoise o-- PodOfPorpoise
+@enduml

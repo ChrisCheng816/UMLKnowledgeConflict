@@ -1,0 +1,4 @@
+@startuml
+HandheldProjectorPowerCord ..> HandheldProjector
+GreenhouseExtensionCord ..> HandheldProjectorPowerCord
+@enduml

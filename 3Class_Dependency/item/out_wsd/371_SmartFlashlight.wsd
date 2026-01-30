@@ -1,0 +1,4 @@
+@startuml
+SmartFlashlightPowerCord ..> SmartFlashlight
+CopyRoomPowerStrip ..> SmartFlashlightPowerCord
+@enduml

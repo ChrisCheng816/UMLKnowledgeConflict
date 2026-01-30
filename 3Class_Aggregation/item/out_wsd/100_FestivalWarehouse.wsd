@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- FestivalWarehouse
+SparePart o-- StorageBin
+@enduml

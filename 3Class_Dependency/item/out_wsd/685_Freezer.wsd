@@ -1,0 +1,4 @@
+@startuml
+FreezerPowerCord ..> Freezer
+ClinicRoomSmartPlug ..> FreezerPowerCord
+@enduml

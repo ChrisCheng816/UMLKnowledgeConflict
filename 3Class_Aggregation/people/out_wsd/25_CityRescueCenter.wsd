@@ -1,0 +1,4 @@
+@startuml
+SearchTeam o-- CityRescueCenter
+Paramedic o-- SearchTeam
+@enduml

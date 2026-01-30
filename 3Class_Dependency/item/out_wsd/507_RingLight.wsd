@@ -1,0 +1,4 @@
+@startuml
+RingLightPowerCord ..> RingLight
+FoodTruckPowerStrip ..> RingLightPowerCord
+@enduml

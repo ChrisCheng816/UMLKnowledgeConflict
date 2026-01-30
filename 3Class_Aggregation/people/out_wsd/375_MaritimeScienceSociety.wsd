@@ -1,0 +1,4 @@
+@startuml
+CustomerSupportTeam o-- MaritimeScienceSociety
+StageActor o-- CustomerSupportTeam
+@enduml

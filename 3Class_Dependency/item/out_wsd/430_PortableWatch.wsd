@@ -1,0 +1,4 @@
+@startuml
+PortableWatchCharger ..> PortableWatch
+TrainStationWallOutlet ..> PortableWatchCharger
+@enduml

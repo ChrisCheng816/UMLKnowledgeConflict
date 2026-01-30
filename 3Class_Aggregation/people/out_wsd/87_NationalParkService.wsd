@@ -1,0 +1,4 @@
+@startuml
+RangerTeam o-- NationalParkService
+ForestRanger o-- RangerTeam
+@enduml

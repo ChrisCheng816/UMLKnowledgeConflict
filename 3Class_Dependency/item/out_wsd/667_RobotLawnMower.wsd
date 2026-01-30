@@ -1,0 +1,4 @@
+@startuml
+RobotLawnMowerPowerCord ..> RobotLawnMower
+RestaurantSmartPlug ..> RobotLawnMowerPowerCord
+@enduml

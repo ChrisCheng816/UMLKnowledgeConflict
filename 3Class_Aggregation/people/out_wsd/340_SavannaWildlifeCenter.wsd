@@ -1,0 +1,4 @@
+@startuml
+LogisticsTeam o-- SavannaWildlifeCenter
+PoliceOfficer o-- LogisticsTeam
+@enduml

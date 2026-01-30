@@ -1,0 +1,4 @@
+@startuml
+CordlessFlashlightCharger ..> CordlessFlashlight
+SupermarketWallOutlet ..> CordlessFlashlightCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ToyotaTacoma <|-- Toyota
+Toyota <|-- CarBrand
+@enduml

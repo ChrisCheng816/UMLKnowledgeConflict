@@ -1,0 +1,4 @@
+@startuml
+SoccerPlayer --> Referee
+Referee --> League
+@enduml

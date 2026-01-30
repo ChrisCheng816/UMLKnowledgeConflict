@@ -1,0 +1,4 @@
+@startuml
+ProfessionalLanternPowerCord ..> ProfessionalLantern
+BreakRoomSmartPlug ..> ProfessionalLanternPowerCord
+@enduml

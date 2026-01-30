@@ -1,0 +1,4 @@
+@startuml
+TennisPlayer --> Referee
+Referee --> Tournament
+@enduml

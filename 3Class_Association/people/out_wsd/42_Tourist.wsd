@@ -1,0 +1,4 @@
+@startuml
+Tourist --> TicketSeller
+TicketSeller --> Museum
+@enduml

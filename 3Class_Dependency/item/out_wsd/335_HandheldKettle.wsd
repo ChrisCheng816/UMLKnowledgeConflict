@@ -1,0 +1,4 @@
+@startuml
+HandheldKettlePowerCord ..> HandheldKettle
+OperatingRoomExtensionCord ..> HandheldKettlePowerCord
+@enduml

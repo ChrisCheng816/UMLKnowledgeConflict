@@ -1,0 +1,4 @@
+@startuml
+ProfessionalHeaterPowerCord ..> ProfessionalHeater
+MotorVehicleOffice ..> ProfessionalHeaterPowerCord
+@enduml

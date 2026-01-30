@@ -1,0 +1,4 @@
+@startuml
+AdmissionsTeam o-- MediaFireDepartment
+Auditor o-- AdmissionsTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+OutdoorCameraPowerCord ..> OutdoorCamera
+PoliceStationSurgeProtector ..> OutdoorCameraPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PortableGPSCharger ..> PortableGPS
+StudentCenterSurgeProtector ..> PortableGPSCharger
+@enduml

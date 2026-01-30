@@ -1,0 +1,4 @@
+@startuml
+PetOwner --> Optician
+Optician --> WineBar
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+AutomaticBlenderPowerCord ..> AutomaticBlender
+Consulate ..> AutomaticBlenderPowerCord
+@enduml

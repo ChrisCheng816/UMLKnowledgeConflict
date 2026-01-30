@@ -1,0 +1,4 @@
+@startuml
+WiFiModemPowerCord ..> WiFiModem
+RoboticsLabSmartPlug ..> WiFiModemPowerCord
+@enduml

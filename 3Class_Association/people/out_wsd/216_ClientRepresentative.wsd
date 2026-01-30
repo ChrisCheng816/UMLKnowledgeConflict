@@ -1,0 +1,4 @@
+@startuml
+ClientRepresentative --> Notary
+Notary --> ArbitrationCenter
+@enduml

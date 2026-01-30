@@ -1,0 +1,4 @@
+@startuml
+FreezerPowerCord ..> Freezer
+SubstationControlRoomPowerStrip ..> FreezerPowerCord
+@enduml

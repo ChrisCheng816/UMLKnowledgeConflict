@@ -1,0 +1,4 @@
+@startuml
+CommunityTeam o-- SecurityConstructionCompany
+Architect o-- CommunityTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WirelessMicrophoneCharger ..> WirelessMicrophone
+StudioApartmentWallOutlet ..> WirelessMicrophoneCharger
+@enduml

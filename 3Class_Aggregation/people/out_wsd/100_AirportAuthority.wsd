@@ -1,0 +1,4 @@
+@startuml
+ControlTeam o-- AirportAuthority
+AirTrafficController o-- ControlTeam
+@enduml

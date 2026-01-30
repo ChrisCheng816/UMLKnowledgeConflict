@@ -1,0 +1,4 @@
+@startuml
+NissanAltima <|-- Nissan
+Nissan <|-- CarBrand
+@enduml

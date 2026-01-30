@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- VideoStore
+VideoClip o-- Shelf
+@enduml

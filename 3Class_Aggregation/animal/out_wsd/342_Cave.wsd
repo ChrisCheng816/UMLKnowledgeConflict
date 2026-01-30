@@ -1,0 +1,4 @@
+@startuml
+HerdOfHorse o-- Cave
+Horse o-- HerdOfHorse
+@enduml

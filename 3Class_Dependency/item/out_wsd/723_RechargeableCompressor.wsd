@@ -1,0 +1,4 @@
+@startuml
+RechargeableCompressorCharger ..> RechargeableCompressor
+HotelLobbyPowerStrip ..> RechargeableCompressorCharger
+@enduml

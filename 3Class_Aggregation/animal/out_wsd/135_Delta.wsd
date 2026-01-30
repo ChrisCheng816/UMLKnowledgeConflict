@@ -1,0 +1,4 @@
+@startuml
+BaskOfCrocodile o-- Delta
+Crocodile o-- BaskOfCrocodile
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FoldableProjectorPowerCord ..> FoldableProjector
+InsuranceProvider ..> FoldableProjectorPowerCord
+@enduml

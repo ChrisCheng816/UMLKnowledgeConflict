@@ -1,0 +1,4 @@
+@startuml
+HandheldFlashlightPowerCord ..> HandheldFlashlight
+CampsiteWallOutlet ..> HandheldFlashlightPowerCord
+@enduml

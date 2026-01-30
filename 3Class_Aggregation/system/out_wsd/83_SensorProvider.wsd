@@ -1,0 +1,4 @@
+@startuml
+SensorHub o-- SensorProvider
+HeartbeatLog o-- SensorHub
+@enduml

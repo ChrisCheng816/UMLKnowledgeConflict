@@ -1,0 +1,4 @@
+@startuml
+SwarmOfMosquito o-- Hill
+Mosquito o-- SwarmOfMosquito
+@enduml

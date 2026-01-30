@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- HospitalLibrary
+HardcoverBook o-- Shelf
+@enduml

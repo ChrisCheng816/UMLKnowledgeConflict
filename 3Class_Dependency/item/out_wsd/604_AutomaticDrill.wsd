@@ -1,0 +1,4 @@
+@startuml
+AutomaticDrillPowerCord ..> AutomaticDrill
+WindFarmOfficeSurgeProtector ..> AutomaticDrillPowerCord
+@enduml

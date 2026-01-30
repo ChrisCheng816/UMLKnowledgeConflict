@@ -1,0 +1,4 @@
+@startuml
+BoatRadioPowerCord ..> BoatRadio
+AirportWallOutlet ..> BoatRadioPowerCord
+@enduml

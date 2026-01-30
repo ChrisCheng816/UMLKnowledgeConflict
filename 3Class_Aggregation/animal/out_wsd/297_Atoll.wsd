@@ -1,0 +1,4 @@
+@startuml
+GroupOfClam o-- Atoll
+Clam o-- GroupOfClam
+@enduml

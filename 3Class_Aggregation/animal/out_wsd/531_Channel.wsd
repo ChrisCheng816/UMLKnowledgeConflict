@@ -1,0 +1,4 @@
+@startuml
+ColonyOfRabbit o-- Channel
+Rabbit o-- ColonyOfRabbit
+@enduml

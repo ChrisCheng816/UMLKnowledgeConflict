@@ -1,0 +1,4 @@
+@startuml
+RepoBranch o-- DeploySystemService
+PatchNote o-- RepoBranch
+@enduml

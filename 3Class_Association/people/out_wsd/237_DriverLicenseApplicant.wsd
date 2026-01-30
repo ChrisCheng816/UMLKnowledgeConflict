@@ -1,0 +1,4 @@
+@startuml
+DriverLicenseApplicant --> Judge
+Judge --> TrafficCourt
+@enduml

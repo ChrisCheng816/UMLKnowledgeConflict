@@ -1,0 +1,4 @@
+@startuml
+Crate o-- ForestMarket
+SeedPacket o-- Crate
+@enduml

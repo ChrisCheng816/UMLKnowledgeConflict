@@ -1,0 +1,4 @@
+@startuml
+SafetyTeam o-- MountainTechCompany
+TaxAdvisor o-- SafetyTeam
+@enduml

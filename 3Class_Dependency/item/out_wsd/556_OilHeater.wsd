@@ -1,0 +1,4 @@
+@startuml
+OilHeaterPowerCord ..> OilHeater
+GasUtility ..> OilHeaterPowerCord
+@enduml

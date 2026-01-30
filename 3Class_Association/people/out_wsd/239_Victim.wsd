@@ -1,0 +1,4 @@
+@startuml
+Victim --> Arbitrator
+Arbitrator --> MediationCenter
+@enduml

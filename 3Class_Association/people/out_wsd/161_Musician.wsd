@@ -1,0 +1,4 @@
+@startuml
+Musician --> Producer
+Producer --> RecordingStudio
+@enduml

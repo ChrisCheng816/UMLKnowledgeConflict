@@ -1,0 +1,4 @@
+@startuml
+MarineGPSPowerCord ..> MarineGPS
+SkiLodgePowerStrip ..> MarineGPSPowerCord
+@enduml

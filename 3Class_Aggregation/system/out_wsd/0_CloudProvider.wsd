@@ -1,0 +1,4 @@
+@startuml
+ResourcePool o-- CloudProvider
+PhysicalServer o-- ResourcePool
+@enduml

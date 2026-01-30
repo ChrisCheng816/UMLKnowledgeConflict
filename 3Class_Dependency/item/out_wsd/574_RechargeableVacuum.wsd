@@ -1,0 +1,4 @@
+@startuml
+RechargeableVacuumCharger ..> RechargeableVacuum
+PowerPlantControlRoomSurgeProtector ..> RechargeableVacuumCharger
+@enduml

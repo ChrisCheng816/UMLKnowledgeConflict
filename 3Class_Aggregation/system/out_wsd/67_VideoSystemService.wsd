@@ -1,0 +1,4 @@
+@startuml
+FrontendModule o-- VideoSystemService
+ConfigFile o-- FrontendModule
+@enduml

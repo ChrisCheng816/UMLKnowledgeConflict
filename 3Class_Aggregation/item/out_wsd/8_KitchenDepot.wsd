@@ -1,0 +1,4 @@
+@startuml
+SpiceRack o-- KitchenDepot
+SpiceJar o-- SpiceRack
+@enduml

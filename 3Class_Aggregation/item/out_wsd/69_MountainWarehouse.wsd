@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- MountainWarehouse
+SparePart o-- StorageBin
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+AnalyticsTeam o-- TechInstitute
+DataAnalyst o-- AnalyticsTeam
+@enduml

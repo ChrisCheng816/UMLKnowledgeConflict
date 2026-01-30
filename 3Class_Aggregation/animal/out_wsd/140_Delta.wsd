@@ -1,0 +1,4 @@
+@startuml
+ColonyOfSalamander o-- Delta
+Salamander o-- ColonyOfSalamander
+@enduml

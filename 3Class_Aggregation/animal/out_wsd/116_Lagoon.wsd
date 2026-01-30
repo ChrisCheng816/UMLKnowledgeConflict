@@ -1,0 +1,4 @@
+@startuml
+SwarmOfLocust o-- Lagoon
+Locust o-- SwarmOfLocust
+@enduml

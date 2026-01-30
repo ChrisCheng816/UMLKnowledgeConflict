@@ -1,0 +1,4 @@
+@startuml
+DriedFruit <|-- Fruit
+Fruit <|-- Food
+@enduml

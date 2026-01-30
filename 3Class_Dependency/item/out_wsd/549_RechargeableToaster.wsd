@@ -1,0 +1,4 @@
+@startuml
+RechargeableToasterCharger ..> RechargeableToaster
+RecordingStudioExtensionCord ..> RechargeableToasterCharger
+@enduml

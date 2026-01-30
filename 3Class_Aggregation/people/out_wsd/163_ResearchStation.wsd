@@ -1,0 +1,4 @@
+@startuml
+ReviewTeam o-- ResearchStation
+QualityAuditor o-- ReviewTeam
+@enduml

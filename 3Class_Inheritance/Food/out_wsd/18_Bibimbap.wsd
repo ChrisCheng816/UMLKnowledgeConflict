@@ -1,0 +1,4 @@
+@startuml
+Bibimbap <|-- Dish
+Dish <|-- Food
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TrainingTeam o-- ForestPortAuthority
+Curator o-- TrainingTeam
+@enduml

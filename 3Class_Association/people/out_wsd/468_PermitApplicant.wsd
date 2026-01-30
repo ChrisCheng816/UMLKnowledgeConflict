@@ -1,0 +1,4 @@
+@startuml
+PermitApplicant --> Translator
+Translator --> TranslationBureau
+@enduml

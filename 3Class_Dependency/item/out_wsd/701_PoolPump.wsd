@@ -1,0 +1,4 @@
+@startuml
+PoolPumpPowerCord ..> PoolPump
+BeachHousePowerStrip ..> PoolPumpPowerCord
+@enduml

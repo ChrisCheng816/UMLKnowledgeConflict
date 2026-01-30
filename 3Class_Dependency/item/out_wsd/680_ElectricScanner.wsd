@@ -1,0 +1,4 @@
+@startuml
+ElectricScannerPowerCord ..> ElectricScanner
+BusTerminalWallOutlet ..> ElectricScannerPowerCord
+@enduml

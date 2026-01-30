@@ -1,0 +1,4 @@
+@startuml
+FlockOfQuail o-- Nursery
+Quail o-- FlockOfQuail
+@enduml

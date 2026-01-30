@@ -1,0 +1,4 @@
+@startuml
+RescueUnit o-- DigitalHospitalCenter
+TaxAdvisor o-- RescueUnit
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CompactMicrophonePowerCord ..> CompactMicrophone
+MarinaSurgeProtector ..> CompactMicrophonePowerCord
+@enduml

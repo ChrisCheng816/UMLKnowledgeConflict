@@ -1,0 +1,4 @@
+@startuml
+FoldableCameraPowerCord ..> FoldableCamera
+ClinicRoomSmartPlug ..> FoldableCameraPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- SportsWarehouse
+SparePart o-- StorageBin
+@enduml

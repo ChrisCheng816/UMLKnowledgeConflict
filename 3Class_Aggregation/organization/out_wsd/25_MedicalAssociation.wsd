@@ -1,0 +1,4 @@
+@startuml
+Chapter o-- MedicalAssociation
+Specialist o-- Chapter
+@enduml

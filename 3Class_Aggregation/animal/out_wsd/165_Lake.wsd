@@ -1,0 +1,4 @@
+@startuml
+FlockOfDove o-- Lake
+Dove o-- FlockOfDove
+@enduml

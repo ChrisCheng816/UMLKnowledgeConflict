@@ -1,0 +1,4 @@
+@startuml
+EducationTeam o-- MuseumFoundation
+TeachingAssistant o-- EducationTeam
+@enduml

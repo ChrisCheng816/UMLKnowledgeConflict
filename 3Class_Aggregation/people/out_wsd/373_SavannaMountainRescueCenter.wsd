@@ -1,0 +1,4 @@
+@startuml
+MaintenanceTeam o-- SavannaMountainRescueCenter
+Coach o-- MaintenanceTeam
+@enduml

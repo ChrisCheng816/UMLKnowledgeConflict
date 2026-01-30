@@ -1,0 +1,4 @@
+@startuml
+FrequentFlyer --> CustomsOfficer
+CustomsOfficer --> VisitorCenter
+@enduml

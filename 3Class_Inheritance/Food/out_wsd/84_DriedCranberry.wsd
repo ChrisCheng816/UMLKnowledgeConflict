@@ -1,0 +1,4 @@
+@startuml
+DriedCranberry <|-- DriedFruit
+DriedFruit <|-- Fruit
+@enduml

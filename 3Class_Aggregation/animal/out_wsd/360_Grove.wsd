@@ -1,0 +1,4 @@
+@startuml
+PackOfCoyote o-- Grove
+Coyote o-- PackOfCoyote
+@enduml

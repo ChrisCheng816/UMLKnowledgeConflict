@@ -1,0 +1,4 @@
+@startuml
+GymMember --> SportsDoctor
+SportsDoctor --> IceRink
+@enduml

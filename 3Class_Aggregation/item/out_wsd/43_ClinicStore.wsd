@@ -1,0 +1,4 @@
+@startuml
+Drawer o-- ClinicStore
+SampleVial o-- Drawer
+@enduml

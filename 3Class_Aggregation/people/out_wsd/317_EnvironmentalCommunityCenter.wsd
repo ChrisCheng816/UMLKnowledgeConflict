@@ -1,0 +1,4 @@
+@startuml
+InfrastructureTeam o-- EnvironmentalCommunityCenter
+WildlifeVeterinarian o-- InfrastructureTeam
+@enduml

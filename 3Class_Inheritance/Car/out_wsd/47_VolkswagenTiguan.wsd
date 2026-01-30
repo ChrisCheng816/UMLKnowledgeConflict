@@ -1,0 +1,4 @@
+@startuml
+VolkswagenTiguan <|-- Volkswagen
+Volkswagen <|-- CarBrand
+@enduml

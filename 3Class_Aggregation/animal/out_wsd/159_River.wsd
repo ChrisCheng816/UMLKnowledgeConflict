@@ -1,0 +1,4 @@
+@startuml
+FlockOfStarling o-- River
+Starling o-- FlockOfStarling
+@enduml

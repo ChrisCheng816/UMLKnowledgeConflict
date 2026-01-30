@@ -1,0 +1,4 @@
+@startuml
+Donor --> Optometrist
+Optometrist --> HealthDepartment
+@enduml

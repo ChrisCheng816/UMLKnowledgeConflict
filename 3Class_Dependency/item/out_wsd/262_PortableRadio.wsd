@@ -1,0 +1,4 @@
+@startuml
+Battery ..> PortableRadio
+ElectrochemicalReaction ..> Battery
+@enduml

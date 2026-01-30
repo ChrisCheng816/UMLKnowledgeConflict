@@ -1,0 +1,4 @@
+@startuml
+GroupOfShrimp o-- Estuary
+Shrimp o-- GroupOfShrimp
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ScannerACAdapter ..> Scanner
+BoatCabinPowerStrip ..> ScannerACAdapter
+@enduml

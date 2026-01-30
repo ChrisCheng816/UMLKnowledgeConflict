@@ -1,0 +1,4 @@
+@startuml
+FloorLampPowerCord ..> FloorLamp
+InternetService ..> FloorLampPowerCord
+@enduml

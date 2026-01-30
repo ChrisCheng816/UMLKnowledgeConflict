@@ -1,0 +1,4 @@
+@startuml
+Crate o-- CoffeeStore
+CoffeeBean o-- Crate
+@enduml

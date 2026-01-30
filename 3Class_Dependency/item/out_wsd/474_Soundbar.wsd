@@ -1,0 +1,4 @@
+@startuml
+SoundbarPowerCord ..> Soundbar
+WindFarmOfficePowerStrip ..> SoundbarPowerCord
+@enduml

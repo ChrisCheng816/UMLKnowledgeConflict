@@ -1,0 +1,4 @@
+@startuml
+SmartLaptopPowerCord ..> SmartLaptop
+BarnWallOutlet ..> SmartLaptopPowerCord
+@enduml

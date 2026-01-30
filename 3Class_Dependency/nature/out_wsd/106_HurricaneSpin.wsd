@@ -1,0 +1,4 @@
+@startuml
+CoriolisEffect ..> HurricaneSpin
+EarthRotation ..> CoriolisEffect
+@enduml

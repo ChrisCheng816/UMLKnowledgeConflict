@@ -1,0 +1,4 @@
+@startuml
+ColonyOfKoala o-- Taiga
+Koala o-- ColonyOfKoala
+@enduml

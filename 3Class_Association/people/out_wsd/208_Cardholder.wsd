@@ -1,0 +1,4 @@
+@startuml
+Cardholder --> FinancialAdvisor
+FinancialAdvisor --> FinTechCompany
+@enduml

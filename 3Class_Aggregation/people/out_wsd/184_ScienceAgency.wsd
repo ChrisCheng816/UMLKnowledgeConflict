@@ -1,0 +1,4 @@
+@startuml
+LabTeam o-- ScienceAgency
+LabTechnician o-- LabTeam
+@enduml

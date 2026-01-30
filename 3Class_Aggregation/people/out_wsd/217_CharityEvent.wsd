@@ -1,0 +1,4 @@
+@startuml
+SetupTeam o-- CharityEvent
+Volunteer o-- SetupTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ProgrammableHeaterPowerCord ..> ProgrammableHeater
+DataCenterExtensionCord ..> ProgrammableHeaterPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RecordPlayerPowerCord ..> RecordPlayer
+FilmStudioSmartPlug ..> RecordPlayerPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ModelService o-- RecommendationEngine
+MetadataRecord o-- ModelService
+@enduml

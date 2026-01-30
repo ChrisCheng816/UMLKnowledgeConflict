@@ -1,0 +1,4 @@
+@startuml
+SmartMonitorPowerCord ..> SmartMonitor
+HospitalLobbyPowerStrip ..> SmartMonitorPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CollaborationGroup o-- Wikipedia
+Editor o-- CollaborationGroup
+@enduml

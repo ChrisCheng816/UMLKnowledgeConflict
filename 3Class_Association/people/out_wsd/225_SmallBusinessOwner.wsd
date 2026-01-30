@@ -1,0 +1,4 @@
+@startuml
+SmallBusinessOwner --> Notary
+Notary --> ImmigrationOffice
+@enduml

@@ -26,3 +26,15 @@
 {"id": "line_26", "template_id": "aggregation", "nodes": ["Marina", "Boat"], "edges": ["Boat o-- Marina"]}
 {"id": "line_27", "template_id": "aggregation", "nodes": ["Harbor", "Ship"], "edges": ["Ship o-- Harbor"]}
 {"id": "line_28", "template_id": "aggregation", "nodes": ["Dock", "Boat"], "edges": ["Boat o-- Dock"]}
+{"id": "line_29", "template_id": "aggregation", "nodes": ["CityOutlet", "RentalCar"], "edges": ["RentalCar o-- CityOutlet"]}
+{"id": "line_30", "template_id": "aggregation", "nodes": ["DriverFleet", "Taxi"], "edges": ["Taxi o-- DriverFleet"]}
+{"id": "line_31", "template_id": "aggregation", "nodes": ["Berth", "Yacht"], "edges": ["Yacht o-- Berth"]}
+{"id": "line_32", "template_id": "aggregation", "nodes": ["Zone", "ShortTermCar"], "edges": ["ShortTermCar o-- Zone"]}
+{"id": "line_33", "template_id": "aggregation", "nodes": ["ServiceArea", "GasStation"], "edges": ["GasStation o-- ServiceArea"]}
+{"id": "line_34", "template_id": "aggregation", "nodes": ["SmartParkingSystem", "MonitoringCenter"], "edges": ["MonitoringCenter o-- SmartParkingSystem"]}
+{"id": "line_35", "template_id": "aggregation", "nodes": ["ExpertGroup", "Advisor"], "edges": ["Advisor o-- ExpertGroup"]}
+{"id": "line_36", "template_id": "aggregation", "nodes": ["AirportTerminal", "VIPLounge"], "edges": ["VIPLounge o-- AirportTerminal"]}
+{"id": "line_37", "template_id": "aggregation", "nodes": ["MovingCrew", "Mover"], "edges": ["Mover o-- MovingCrew"]}
+{"id": "line_38", "template_id": "aggregation", "nodes": ["ParcelLocker", "Parcel"], "edges": ["Parcel o-- ParcelLocker"]}
+{"id": "line_39", "template_id": "aggregation", "nodes": ["CleaningTeam", "StreetSweeper"], "edges": ["StreetSweeper o-- CleaningTeam"]}
+{"id": "line_40", "template_id": "aggregation", "nodes": ["EditorialOffice", "Broadcaster"], "edges": ["Broadcaster o-- EditorialOffice"]}

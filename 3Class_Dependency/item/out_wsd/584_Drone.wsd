@@ -1,0 +1,4 @@
+@startuml
+DroneCharger ..> Drone
+BedroomWallOutlet ..> DroneCharger
+@enduml

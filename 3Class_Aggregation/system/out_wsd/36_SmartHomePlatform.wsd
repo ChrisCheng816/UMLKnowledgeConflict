@@ -1,0 +1,4 @@
+@startuml
+GatewayNode o-- SmartHomePlatform
+NodeCertificate o-- GatewayNode
+@enduml

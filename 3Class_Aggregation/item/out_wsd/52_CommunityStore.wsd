@@ -1,0 +1,4 @@
+@startuml
+Bin o-- CommunityStore
+FoodParcel o-- Bin
+@enduml

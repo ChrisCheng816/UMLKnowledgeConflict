@@ -1,0 +1,4 @@
+@startuml
+NestOfTortoise o-- Bay
+Tortoise o-- NestOfTortoise
+@enduml

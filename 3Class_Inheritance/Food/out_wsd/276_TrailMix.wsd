@@ -1,0 +1,4 @@
+@startuml
+TrailMix <|-- Snack
+Snack <|-- Food
+@enduml

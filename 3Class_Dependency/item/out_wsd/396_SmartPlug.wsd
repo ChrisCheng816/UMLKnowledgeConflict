@@ -1,0 +1,4 @@
+@startuml
+SmartPlugPowerCord ..> SmartPlug
+ChemistryLabPowerStrip ..> SmartPlugPowerCord
+@enduml

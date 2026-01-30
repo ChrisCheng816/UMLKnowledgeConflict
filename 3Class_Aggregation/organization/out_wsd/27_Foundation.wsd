@@ -1,0 +1,4 @@
+@startuml
+FundedProject o-- Foundation
+Volunteer o-- FundedProject
+@enduml

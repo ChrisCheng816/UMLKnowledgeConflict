@@ -1,0 +1,4 @@
+@startuml
+NestOfGecko o-- Aquarium
+Gecko o-- NestOfGecko
+@enduml
