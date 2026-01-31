@@ -105,7 +105,7 @@ def parse_instances(lines: List[str], template_id: str) -> List[Instance]:
         edges = build_edges_from_nodes(nodes, template_id)
         instances.append(
             Instance(
-                id=f"line_{idx}",
+                id=f"{idx}",
                 template_id=template_id,
                 nodes=nodes,
                 edges=edges,
