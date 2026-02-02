@@ -1,0 +1,4 @@
+@startuml
+FryerInspectionReport --> ComplianceOfficer
+ComplianceOfficer --> InsuranceCompany
+@enduml

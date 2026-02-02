@@ -1,0 +1,4 @@
+@startuml
+VIPLounge o-- AirportTerminal
+Passenger o-- VIPLounge
+@enduml

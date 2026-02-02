@@ -1,0 +1,4 @@
+@startuml
+SpaceHeaterPowerCord ..> SpaceHeater
+TheaterSmartPlug ..> SpaceHeaterPowerCord
+@enduml

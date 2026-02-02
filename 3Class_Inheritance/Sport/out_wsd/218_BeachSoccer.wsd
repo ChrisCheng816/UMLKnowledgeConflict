@@ -1,0 +1,4 @@
+@startuml
+BeachSoccer <|-- AssociationFootball
+AssociationFootball <|-- TeamSport
+@enduml

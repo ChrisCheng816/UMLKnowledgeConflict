@@ -1,4 +1,4 @@
 @startuml
 ToyotaTacoma <|-- Toyota
-Toyota <|-- CarBrand
+Toyota <|-- CarManufacturer
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+VolkswagenID4 <|-- Volkswagen
+Volkswagen <|-- CarManufacturer
+@enduml

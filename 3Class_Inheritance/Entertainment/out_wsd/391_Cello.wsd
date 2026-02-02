@@ -1,0 +1,4 @@
+@startuml
+Cello <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

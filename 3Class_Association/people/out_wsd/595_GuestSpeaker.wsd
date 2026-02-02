@@ -1,0 +1,4 @@
+@startuml
+GuestSpeaker --> Concierge
+Concierge --> Hotel
+@enduml

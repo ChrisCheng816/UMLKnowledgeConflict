@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- WildlifeLibrary
+Ebook o-- Shelf
+@enduml

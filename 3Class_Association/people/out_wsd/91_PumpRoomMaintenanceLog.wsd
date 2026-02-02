@@ -1,0 +1,4 @@
+@startuml
+PumpRoomMaintenanceLog --> WarehouseWorker
+WarehouseWorker --> Warehouse
+@enduml

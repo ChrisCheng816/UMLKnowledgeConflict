@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> ScooterCharger
+CircuitBreakerPanel ..> WallOutlet
+@enduml

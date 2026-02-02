@@ -1,0 +1,4 @@
+@startuml
+Accountant <|-- PersonRole
+PersonRole <|-- Person
+@enduml

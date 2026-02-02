@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> AirFryer
+CircuitBreakerPanel ..> WallOutlet
+@enduml

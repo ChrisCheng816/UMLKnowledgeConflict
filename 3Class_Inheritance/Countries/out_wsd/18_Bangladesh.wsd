@@ -1,0 +1,4 @@
+@startuml
+Bangladesh <|-- Country
+Country <|-- Location
+@enduml

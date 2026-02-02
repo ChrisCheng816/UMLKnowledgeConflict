@@ -1,0 +1,4 @@
+@startuml
+SuperMario64 <|-- VideoGame
+VideoGame <|-- Game
+@enduml

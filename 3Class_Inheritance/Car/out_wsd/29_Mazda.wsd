@@ -1,0 +1,4 @@
+@startuml
+Mazda <|-- CarManufacturer
+CarManufacturer <|-- Organization
+@enduml

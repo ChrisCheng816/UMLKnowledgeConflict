@@ -1,0 +1,4 @@
+@startuml
+Correspondent --> FactChecker
+FactChecker --> StudioLot
+@enduml

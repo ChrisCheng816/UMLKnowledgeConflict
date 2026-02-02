@@ -1,0 +1,4 @@
+@startuml
+JerryCan ..> Gasoline
+GasStation ..> JerryCan
+@enduml

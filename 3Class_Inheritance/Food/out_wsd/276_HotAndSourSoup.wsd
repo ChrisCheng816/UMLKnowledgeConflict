@@ -1,0 +1,4 @@
+@startuml
+HotAndSourSoup <|-- Soup
+Soup <|-- Dish
+@enduml

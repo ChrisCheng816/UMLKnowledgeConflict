@@ -1,0 +1,4 @@
+@startuml
+AuthModule o-- PaymentSystem
+AccessPolicy o-- AuthModule
+@enduml

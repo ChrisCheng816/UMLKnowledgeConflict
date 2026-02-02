@@ -1,0 +1,4 @@
+@startuml
+Historian <|-- Scientist
+Scientist <|-- PersonRole
+@enduml

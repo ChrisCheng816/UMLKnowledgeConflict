@@ -1,0 +1,4 @@
+@startuml
+Moss <|-- Plant
+Plant <|-- Thing
+@enduml

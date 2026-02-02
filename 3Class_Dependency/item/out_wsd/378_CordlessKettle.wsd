@@ -1,0 +1,4 @@
+@startuml
+CordlessKettleCharger ..> CordlessKettle
+SportsArenaExtensionCord ..> CordlessKettleCharger
+@enduml

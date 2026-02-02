@@ -1,0 +1,4 @@
+@startuml
+HybridCar <|-- Car
+Car <|-- Vehicle
+@enduml

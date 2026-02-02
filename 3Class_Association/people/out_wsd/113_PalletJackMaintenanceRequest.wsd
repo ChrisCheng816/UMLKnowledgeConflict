@@ -1,0 +1,4 @@
+@startuml
+PalletJackMaintenanceRequest --> ComplianceOfficer
+ComplianceOfficer --> InsuranceCompany
+@enduml

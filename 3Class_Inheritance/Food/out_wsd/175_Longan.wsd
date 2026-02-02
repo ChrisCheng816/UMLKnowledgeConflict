@@ -1,0 +1,4 @@
+@startuml
+Longan <|-- TropicalFruit
+TropicalFruit <|-- Fruit
+@enduml

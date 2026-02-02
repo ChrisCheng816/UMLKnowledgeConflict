@@ -1,0 +1,4 @@
+@startuml
+FoldableHeadphonesPowerCord ..> FoldableHeadphones
+ConstructionSiteWallOutlet ..> FoldableHeadphonesPowerCord
+@enduml

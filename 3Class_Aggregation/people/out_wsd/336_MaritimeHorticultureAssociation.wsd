@@ -1,0 +1,4 @@
+@startuml
+FinanceTeam o-- MaritimeHorticultureAssociation
+Dispatcher o-- FinanceTeam
+@enduml

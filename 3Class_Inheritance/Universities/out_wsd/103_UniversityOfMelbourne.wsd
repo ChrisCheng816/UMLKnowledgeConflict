@@ -1,0 +1,4 @@
+@startuml
+UniversityOfMelbourne <|-- University
+University <|-- EducationalInstitution
+@enduml

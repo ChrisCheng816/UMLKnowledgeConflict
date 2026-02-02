@@ -1,0 +1,4 @@
+@startuml
+Battery ..> WirelessMouse
+ElectrochemicalReaction ..> Battery
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Yangtze <|-- River
+River <|-- GeographicFeature
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- MarineLibrary
+Ebook o-- Shelf
+@enduml

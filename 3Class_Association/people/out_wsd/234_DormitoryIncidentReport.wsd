@@ -1,0 +1,4 @@
+@startuml
+DormitoryIncidentReport --> ComplianceOfficer
+ComplianceOfficer --> InsuranceCompany
+@enduml

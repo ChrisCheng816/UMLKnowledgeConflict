@@ -1,0 +1,4 @@
+@startuml
+CacheCluster o-- StreamingNetwork
+CacheFile o-- CacheCluster
+@enduml

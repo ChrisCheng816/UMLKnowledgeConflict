@@ -1,0 +1,4 @@
+@startuml
+DormitoryAccessLog --> CustomsOfficer
+CustomsOfficer --> Airport
+@enduml

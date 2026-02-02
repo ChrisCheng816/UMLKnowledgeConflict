@@ -1,0 +1,4 @@
+@startuml
+Fern <|-- Plant
+Plant <|-- Thing
+@enduml

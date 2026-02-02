@@ -1,0 +1,4 @@
+@startuml
+CarbonMonoxideDetectorRepairOrder --> TrainConductor
+TrainConductor --> Railway
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Student <|-- PersonRole
+PersonRole <|-- Person
+@enduml

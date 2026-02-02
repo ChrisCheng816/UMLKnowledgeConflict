@@ -1,0 +1,4 @@
+@startuml
+Suspect --> Notary
+Notary --> ImmigrationOffice
+@enduml

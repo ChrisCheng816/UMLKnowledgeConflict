@@ -1,0 +1,4 @@
+@startuml
+DragonAgeOrigins <|-- VideoGame
+VideoGame <|-- Game
+@enduml

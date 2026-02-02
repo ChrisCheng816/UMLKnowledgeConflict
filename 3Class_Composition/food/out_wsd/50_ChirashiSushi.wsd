@@ -1,0 +1,4 @@
+@startuml
+SushiRice *-- ChirashiSushi
+RiceVinegar *-- SushiRice
+@enduml

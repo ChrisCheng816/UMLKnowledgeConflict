@@ -1,0 +1,4 @@
+@startuml
+RegionalChapter o-- AlumniAssociation
+SecretaryGeneral o-- RegionalChapter
+@enduml

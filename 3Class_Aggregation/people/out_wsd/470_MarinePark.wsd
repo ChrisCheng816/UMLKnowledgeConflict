@@ -1,0 +1,4 @@
+@startuml
+ShowPool o-- MarinePark
+Dolphin o-- ShowPool
+@enduml

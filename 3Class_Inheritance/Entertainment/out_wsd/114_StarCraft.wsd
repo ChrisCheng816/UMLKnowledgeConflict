@@ -1,0 +1,4 @@
+@startuml
+StarCraft <|-- VideoGame
+VideoGame <|-- Game
+@enduml

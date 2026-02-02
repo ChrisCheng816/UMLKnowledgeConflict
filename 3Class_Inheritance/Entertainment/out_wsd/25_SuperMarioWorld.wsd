@@ -1,0 +1,4 @@
+@startuml
+SuperMarioWorld <|-- VideoGame
+VideoGame <|-- Game
+@enduml

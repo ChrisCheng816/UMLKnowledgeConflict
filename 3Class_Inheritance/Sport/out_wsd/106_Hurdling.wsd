@@ -1,0 +1,4 @@
+@startuml
+Hurdling <|-- AthleticsSport
+AthleticsSport <|-- Sport
+@enduml

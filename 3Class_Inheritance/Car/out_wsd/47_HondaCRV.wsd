@@ -1,0 +1,4 @@
+@startuml
+HondaCRV <|-- Honda
+Honda <|-- CarManufacturer
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+KitchenHoodMaintenanceRequest --> EventCoordinator
+EventCoordinator --> BoxingGym
+@enduml

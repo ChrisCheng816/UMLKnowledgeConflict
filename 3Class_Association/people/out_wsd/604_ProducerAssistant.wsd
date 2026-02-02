@@ -1,0 +1,4 @@
+@startuml
+ProducerAssistant --> EditorInChief
+EditorInChief --> Newsroom
+@enduml

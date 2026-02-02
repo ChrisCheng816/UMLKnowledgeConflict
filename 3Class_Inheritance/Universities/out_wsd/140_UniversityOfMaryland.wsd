@@ -1,0 +1,4 @@
+@startuml
+UniversityOfMaryland <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Jaws <|-- Film
+Film <|-- Entertainment
+@enduml

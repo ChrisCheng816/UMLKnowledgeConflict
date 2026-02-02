@@ -1,0 +1,4 @@
+@startuml
+Battery ..> RemoteControl
+ElectrochemicalReaction ..> Battery
+@enduml

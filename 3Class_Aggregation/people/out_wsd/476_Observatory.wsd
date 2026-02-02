@@ -1,0 +1,4 @@
+@startuml
+ObservationRoom o-- Observatory
+AstronomyEnthusiast o-- ObservationRoom
+@enduml

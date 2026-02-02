@@ -1,0 +1,4 @@
+@startuml
+GrillMaintenanceRequest --> HealthInspector
+HealthInspector --> CityHall
+@enduml

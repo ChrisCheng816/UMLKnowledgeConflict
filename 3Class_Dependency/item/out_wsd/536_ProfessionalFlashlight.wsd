@@ -1,0 +1,4 @@
+@startuml
+ProfessionalFlashlightPowerCord ..> ProfessionalFlashlight
+TheaterSmartPlug ..> ProfessionalFlashlightPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DischargeSummary --> Therapist
+Therapist --> Clinic
+@enduml

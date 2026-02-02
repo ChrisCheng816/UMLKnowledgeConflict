@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- VillageLibrary
+Ebook o-- Shelf
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HandheldFanPowerCord ..> HandheldFan
+GallerySmartPlug ..> HandheldFanPowerCord
+@enduml

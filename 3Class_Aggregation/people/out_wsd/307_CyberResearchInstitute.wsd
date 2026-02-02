@@ -1,0 +1,4 @@
+@startuml
+WildlifeCareUnit o-- CyberResearchInstitute
+OperationsManager o-- WildlifeCareUnit
+@enduml

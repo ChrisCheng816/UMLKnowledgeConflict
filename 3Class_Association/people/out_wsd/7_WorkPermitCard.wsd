@@ -1,0 +1,4 @@
+@startuml
+WorkPermitCard --> Prosecutor
+Prosecutor --> ImmigrationOffice
+@enduml

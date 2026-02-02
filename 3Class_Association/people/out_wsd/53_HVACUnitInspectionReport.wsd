@@ -1,0 +1,4 @@
+@startuml
+HVACUnitInspectionReport --> BuildingInspector
+BuildingInspector --> CityHall
+@enduml

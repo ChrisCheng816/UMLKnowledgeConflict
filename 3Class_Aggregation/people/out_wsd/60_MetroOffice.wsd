@@ -1,0 +1,4 @@
+@startuml
+TicketingTeam o-- MetroOffice
+AdmissionsOfficer o-- TicketingTeam
+@enduml

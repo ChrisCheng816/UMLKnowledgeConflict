@@ -1,0 +1,4 @@
+@startuml
+StorageCluster o-- StorageSystem
+ShardManifest o-- StorageCluster
+@enduml

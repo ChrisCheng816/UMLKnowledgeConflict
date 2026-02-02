@@ -1,0 +1,4 @@
+@startuml
+Painter <|-- Artist
+Artist <|-- PersonRole
+@enduml

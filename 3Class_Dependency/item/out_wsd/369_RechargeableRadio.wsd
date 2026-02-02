@@ -1,0 +1,4 @@
+@startuml
+RechargeableRadioCharger ..> RechargeableRadio
+BasementSurgeProtector ..> RechargeableRadioCharger
+@enduml

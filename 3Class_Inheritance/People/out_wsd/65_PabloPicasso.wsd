@@ -1,0 +1,4 @@
+@startuml
+PabloPicasso <|-- Painter
+Painter <|-- Artist
+@enduml

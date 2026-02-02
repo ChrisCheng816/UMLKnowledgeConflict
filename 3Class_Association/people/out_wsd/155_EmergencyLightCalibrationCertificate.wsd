@@ -1,0 +1,4 @@
+@startuml
+EmergencyLightCalibrationCertificate --> Librarian
+Librarian --> PublicLibrary
+@enduml

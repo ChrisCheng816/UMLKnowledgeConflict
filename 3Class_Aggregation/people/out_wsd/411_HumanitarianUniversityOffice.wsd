@@ -1,0 +1,4 @@
+@startuml
+GrantReviewTeam o-- HumanitarianUniversityOffice
+Surgeon o-- GrantReviewTeam
+@enduml

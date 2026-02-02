@@ -1,0 +1,4 @@
+@startuml
+UniversityOfToronto <|-- University
+University <|-- EducationalInstitution
+@enduml

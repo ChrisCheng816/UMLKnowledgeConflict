@@ -1,0 +1,4 @@
+@startuml
+SmartLockPowerCord ..> SmartLock
+HomeOfficeSurgeProtector ..> SmartLockPowerCord
+@enduml

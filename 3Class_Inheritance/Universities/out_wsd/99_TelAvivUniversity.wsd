@@ -1,0 +1,4 @@
+@startuml
+TelAvivUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

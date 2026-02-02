@@ -1,0 +1,4 @@
+@startuml
+EthernetCable ..> Router
+BroadbandModem ..> EthernetCable
+@enduml

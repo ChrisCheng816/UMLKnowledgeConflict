@@ -1,0 +1,4 @@
+@startuml
+Tuba <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

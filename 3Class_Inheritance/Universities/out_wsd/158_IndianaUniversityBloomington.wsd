@@ -1,0 +1,4 @@
+@startuml
+IndianaUniversityBloomington <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Antarctica <|-- Continent
+Continent <|-- GeographicFeature
+@enduml

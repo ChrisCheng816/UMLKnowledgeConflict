@@ -1,0 +1,4 @@
+@startuml
+TheSimpsons <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

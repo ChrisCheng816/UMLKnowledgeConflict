@@ -1,0 +1,4 @@
+@startuml
+OccupancyPermit --> HealthInspector
+HealthInspector --> CityHall
+@enduml

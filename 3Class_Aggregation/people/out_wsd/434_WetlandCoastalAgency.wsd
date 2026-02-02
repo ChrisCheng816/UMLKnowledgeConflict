@@ -1,0 +1,4 @@
+@startuml
+InfrastructureTeam o-- WetlandCoastalAgency
+WildlifeVeterinarian o-- InfrastructureTeam
+@enduml

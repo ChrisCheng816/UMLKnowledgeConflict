@@ -1,0 +1,4 @@
+@startuml
+Mackerel <|-- Fish
+Fish <|-- Animal
+@enduml

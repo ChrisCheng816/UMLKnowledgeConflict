@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- MountainLibrary
+Ebook o-- Shelf
+@enduml

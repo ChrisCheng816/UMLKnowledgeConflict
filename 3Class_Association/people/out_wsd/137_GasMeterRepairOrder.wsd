@@ -1,0 +1,4 @@
+@startuml
+GasMeterRepairOrder --> HealthInspector
+HealthInspector --> CityHall
+@enduml

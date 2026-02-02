@@ -1,0 +1,4 @@
+@startuml
+StorageRoomAccessLog --> Courier
+Courier --> DeliveryService
+@enduml

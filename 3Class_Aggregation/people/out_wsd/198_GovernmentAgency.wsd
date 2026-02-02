@@ -1,0 +1,4 @@
+@startuml
+AuditTeam o-- GovernmentAgency
+QualityAuditor o-- AuditTeam
+@enduml

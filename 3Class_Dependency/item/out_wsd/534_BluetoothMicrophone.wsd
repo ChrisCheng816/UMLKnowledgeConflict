@@ -1,0 +1,4 @@
+@startuml
+BluetoothMicrophonePowerCord ..> BluetoothMicrophone
+SkiLodgeSurgeProtector ..> BluetoothMicrophonePowerCord
+@enduml

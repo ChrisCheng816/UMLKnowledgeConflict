@@ -1,0 +1,4 @@
+@startuml
+LogisticsTeam o-- AerospaceResearchInstitute
+ProjectManager o-- LogisticsTeam
+@enduml

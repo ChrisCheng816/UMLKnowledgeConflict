@@ -1,0 +1,4 @@
+@startuml
+SmartRouterPowerCord ..> SmartRouter
+PoliceStationExtensionCord ..> SmartRouterPowerCord
+@enduml

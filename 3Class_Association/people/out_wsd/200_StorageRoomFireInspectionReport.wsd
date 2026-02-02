@@ -1,0 +1,4 @@
+@startuml
+StorageRoomFireInspectionReport --> Auditor
+Auditor --> AccountingFirm
+@enduml

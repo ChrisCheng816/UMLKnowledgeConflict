@@ -1,0 +1,4 @@
+@startuml
+DragonFruit <|-- TropicalFruit
+TropicalFruit <|-- Fruit
+@enduml

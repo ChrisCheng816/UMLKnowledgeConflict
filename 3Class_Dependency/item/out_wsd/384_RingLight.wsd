@@ -1,0 +1,4 @@
+@startuml
+RingLightPowerCord ..> RingLight
+RoboticsLabSurgeProtector ..> RingLightPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+UniversityOfAntwerp <|-- University
+University <|-- EducationalInstitution
+@enduml

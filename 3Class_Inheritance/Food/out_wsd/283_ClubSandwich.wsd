@@ -1,0 +1,4 @@
+@startuml
+ClubSandwich <|-- Sandwich
+Sandwich <|-- Food
+@enduml

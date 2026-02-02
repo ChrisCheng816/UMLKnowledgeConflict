@@ -1,0 +1,4 @@
+@startuml
+Gasoline ..> GasGenerator
+JerryCan ..> Gasoline
+@enduml

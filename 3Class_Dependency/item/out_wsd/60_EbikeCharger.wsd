@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> EbikeCharger
+CircuitBreakerPanel ..> WallOutlet
+@enduml

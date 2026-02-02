@@ -1,0 +1,4 @@
+@startuml
+DragRacing <|-- MotorSport
+MotorSport <|-- Sport
+@enduml

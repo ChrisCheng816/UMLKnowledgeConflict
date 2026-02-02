@@ -1,0 +1,4 @@
+@startuml
+Firefighter <|-- PersonRole
+PersonRole <|-- Person
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ServiceTeam o-- MetroStation
+AdmissionsOfficer o-- ServiceTeam
+@enduml

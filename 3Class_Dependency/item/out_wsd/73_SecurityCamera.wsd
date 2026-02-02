@@ -1,0 +1,4 @@
+@startuml
+PowerAdapter ..> SecurityCamera
+WallOutlet ..> PowerAdapter
+@enduml

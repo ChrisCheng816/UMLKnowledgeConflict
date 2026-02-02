@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- SportsLibrary
+Ebook o-- Shelf
+@enduml

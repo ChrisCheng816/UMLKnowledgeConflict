@@ -1,0 +1,4 @@
+@startuml
+QualityCommittee o-- UrbanChamberOfCommerce
+GrantReviewer o-- QualityCommittee
+@enduml

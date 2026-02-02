@@ -1,0 +1,4 @@
+@startuml
+SmartToasterPowerCord ..> SmartToaster
+PowerPlantControlRoomPowerStrip ..> SmartToasterPowerCord
+@enduml

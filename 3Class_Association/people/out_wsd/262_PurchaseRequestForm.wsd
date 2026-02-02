@@ -1,0 +1,4 @@
+@startuml
+PurchaseRequestForm --> AdmissionsOfficer
+AdmissionsOfficer --> ResearchLab
+@enduml

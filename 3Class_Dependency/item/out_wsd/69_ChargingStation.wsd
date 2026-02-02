@@ -1,0 +1,4 @@
+@startuml
+UtilityTransformer ..> ChargingStation
+DistributionLine ..> UtilityTransformer
+@enduml

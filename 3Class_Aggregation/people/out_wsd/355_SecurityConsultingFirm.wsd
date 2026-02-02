@@ -1,0 +1,4 @@
+@startuml
+CaseTeam o-- SecurityConsultingFirm
+CaseLawyer o-- CaseTeam
+@enduml

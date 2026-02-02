@@ -1,0 +1,4 @@
+@startuml
+PowerCord ..> GameConsole
+WallOutlet ..> PowerCord
+@enduml

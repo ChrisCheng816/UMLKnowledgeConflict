@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> ElectricGrill
+CircuitBreakerPanel ..> WallOutlet
+@enduml

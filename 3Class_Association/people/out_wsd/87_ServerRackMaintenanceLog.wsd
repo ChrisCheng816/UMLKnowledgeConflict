@@ -1,0 +1,4 @@
+@startuml
+ServerRackMaintenanceLog --> BaggageHandler
+BaggageHandler --> Airport
+@enduml

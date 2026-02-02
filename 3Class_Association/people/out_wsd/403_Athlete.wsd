@@ -1,0 +1,4 @@
+@startuml
+Athlete --> Trainer
+Trainer --> Gym
+@enduml

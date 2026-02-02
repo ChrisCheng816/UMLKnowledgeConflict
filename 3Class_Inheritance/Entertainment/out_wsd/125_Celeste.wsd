@@ -1,0 +1,4 @@
+@startuml
+Celeste <|-- VideoGame
+VideoGame <|-- Game
+@enduml

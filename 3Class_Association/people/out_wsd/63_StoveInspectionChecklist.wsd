@@ -1,0 +1,4 @@
+@startuml
+StoveInspectionChecklist --> Auditor
+Auditor --> AccountingFirm
+@enduml

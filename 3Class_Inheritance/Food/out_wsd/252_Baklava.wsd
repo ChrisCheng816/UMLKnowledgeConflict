@@ -1,0 +1,4 @@
+@startuml
+Baklava <|-- Dessert
+Dessert <|-- Food
+@enduml

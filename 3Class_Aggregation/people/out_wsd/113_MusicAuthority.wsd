@@ -1,0 +1,4 @@
+@startuml
+TeachingTeam o-- MusicAuthority
+Professor o-- TeachingTeam
+@enduml

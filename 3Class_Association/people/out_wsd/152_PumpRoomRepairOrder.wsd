@@ -1,0 +1,4 @@
+@startuml
+PumpRoomRepairOrder --> HealthInspector
+HealthInspector --> CityHall
+@enduml

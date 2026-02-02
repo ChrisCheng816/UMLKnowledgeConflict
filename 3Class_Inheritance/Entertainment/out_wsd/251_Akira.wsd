@@ -1,0 +1,4 @@
+@startuml
+Akira <|-- Film
+Film <|-- Entertainment
+@enduml

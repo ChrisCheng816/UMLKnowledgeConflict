@@ -1,0 +1,4 @@
+@startuml
+LogisticsTeam o-- InternationalConsultingFirm
+ProjectManager o-- LogisticsTeam
+@enduml

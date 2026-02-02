@@ -1,0 +1,4 @@
+@startuml
+Gasoline ..> GasStringTrimmer
+JerryCan ..> Gasoline
+@enduml

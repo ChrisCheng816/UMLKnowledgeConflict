@@ -1,0 +1,4 @@
+@startuml
+NightshadeVegetable <|-- Vegetable
+Vegetable <|-- Food
+@enduml

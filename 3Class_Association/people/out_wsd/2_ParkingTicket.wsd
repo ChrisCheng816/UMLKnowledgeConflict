@@ -1,0 +1,4 @@
+@startuml
+ParkingTicket --> WarehouseWorker
+WarehouseWorker --> Warehouse
+@enduml

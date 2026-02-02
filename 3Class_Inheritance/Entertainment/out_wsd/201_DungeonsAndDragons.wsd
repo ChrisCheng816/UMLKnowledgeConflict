@@ -1,0 +1,4 @@
+@startuml
+DungeonsAndDragons <|-- TabletopRPG
+TabletopRPG <|-- Game
+@enduml

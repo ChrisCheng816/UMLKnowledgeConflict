@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- ResearchWarehouse
+Blanket o-- StorageBin
+@enduml

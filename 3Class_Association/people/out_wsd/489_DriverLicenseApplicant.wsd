@@ -1,0 +1,4 @@
+@startuml
+DriverLicenseApplicant --> Paralegal
+Paralegal --> LawFirm
+@enduml

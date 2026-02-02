@@ -1,0 +1,4 @@
+@startuml
+Carbonara <|-- PastaDish
+PastaDish <|-- Food
+@enduml

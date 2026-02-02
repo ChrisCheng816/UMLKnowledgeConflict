@@ -1,0 +1,4 @@
+@startuml
+OutdoorWatchPowerCord ..> OutdoorWatch
+ClassroomExtensionCord ..> OutdoorWatchPowerCord
+@enduml

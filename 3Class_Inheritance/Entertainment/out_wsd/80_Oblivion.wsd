@@ -1,0 +1,4 @@
+@startuml
+Oblivion <|-- VideoGame
+VideoGame <|-- Game
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Boxer --> EventCoordinator
+EventCoordinator --> BoxingGym
+@enduml

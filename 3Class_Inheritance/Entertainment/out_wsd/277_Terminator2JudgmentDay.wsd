@@ -1,0 +1,4 @@
+@startuml
+Terminator2JudgmentDay <|-- Film
+Film <|-- Entertainment
+@enduml

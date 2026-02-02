@@ -1,0 +1,4 @@
+@startuml
+FuelTankMaintenanceRequest --> Barista
+Barista --> CoffeeShop
+@enduml

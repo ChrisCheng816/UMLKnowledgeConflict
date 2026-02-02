@@ -1,0 +1,4 @@
+@startuml
+Passenger --> BaggageHandler
+BaggageHandler --> Airport
+@enduml

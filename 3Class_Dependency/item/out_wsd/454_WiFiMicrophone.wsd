@@ -1,0 +1,4 @@
+@startuml
+WiFiMicrophonePowerCord ..> WiFiMicrophone
+PowerPlantControlRoomPowerStrip ..> WiFiMicrophonePowerCord
+@enduml

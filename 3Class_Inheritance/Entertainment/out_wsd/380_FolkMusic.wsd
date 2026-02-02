@@ -1,0 +1,4 @@
+@startuml
+FolkMusic <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

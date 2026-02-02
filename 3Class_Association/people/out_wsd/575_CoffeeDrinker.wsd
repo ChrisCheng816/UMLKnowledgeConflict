@@ -1,0 +1,4 @@
+@startuml
+CoffeeDrinker --> Sommelier
+Sommelier --> FarmersMarket
+@enduml

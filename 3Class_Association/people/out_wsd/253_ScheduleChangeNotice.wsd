@@ -1,0 +1,4 @@
+@startuml
+ScheduleChangeNotice --> WarehouseWorker
+WarehouseWorker --> Warehouse
+@enduml

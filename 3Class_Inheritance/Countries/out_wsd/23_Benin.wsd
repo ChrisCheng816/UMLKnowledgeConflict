@@ -1,0 +1,4 @@
+@startuml
+Benin <|-- Country
+Country <|-- Location
+@enduml

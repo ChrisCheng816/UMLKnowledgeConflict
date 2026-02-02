@@ -1,0 +1,4 @@
+@startuml
+DehumidifierPowerCord ..> Dehumidifier
+BiologyLabPowerStrip ..> DehumidifierPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FudanUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

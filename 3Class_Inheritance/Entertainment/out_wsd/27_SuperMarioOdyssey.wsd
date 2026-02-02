@@ -1,0 +1,4 @@
+@startuml
+SuperMarioOdyssey <|-- VideoGame
+VideoGame <|-- Game
+@enduml

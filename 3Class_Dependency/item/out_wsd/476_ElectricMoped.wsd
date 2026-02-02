@@ -1,0 +1,4 @@
+@startuml
+ElectricMopedPowerCord ..> ElectricMoped
+WoodShopPowerStrip ..> ElectricMopedPowerCord
+@enduml

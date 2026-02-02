@@ -1,0 +1,4 @@
+@startuml
+FiberModemACAdapter ..> FiberModem
+PharmacyExtensionCord ..> FiberModemACAdapter
+@enduml

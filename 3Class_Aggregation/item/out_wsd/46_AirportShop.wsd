@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- AirportShop
+Ebook o-- Shelf
+@enduml

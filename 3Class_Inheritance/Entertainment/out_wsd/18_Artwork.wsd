@@ -1,0 +1,4 @@
+@startuml
+Artwork <|-- Art
+Art <|-- Entertainment
+@enduml

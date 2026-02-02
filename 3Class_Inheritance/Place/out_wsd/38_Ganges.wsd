@@ -1,0 +1,4 @@
+@startuml
+Ganges <|-- River
+River <|-- GeographicFeature
+@enduml

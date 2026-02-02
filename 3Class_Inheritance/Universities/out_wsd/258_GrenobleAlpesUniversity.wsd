@@ -1,0 +1,4 @@
+@startuml
+GrenobleAlpesUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

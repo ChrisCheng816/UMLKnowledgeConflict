@@ -1,0 +1,4 @@
+@startuml
+StorageRoomCleaningLog --> Host
+Host --> RadioStation
+@enduml

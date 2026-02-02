@@ -1,0 +1,4 @@
+@startuml
+Mint <|-- Herb
+Herb <|-- Plant
+@enduml

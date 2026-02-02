@@ -1,0 +1,4 @@
+@startuml
+ThomasEdison <|-- Engineer
+Engineer <|-- PersonRole
+@enduml

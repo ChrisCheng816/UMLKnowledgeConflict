@@ -1,0 +1,4 @@
+@startuml
+GateChangeNotice --> StageManager
+StageManager --> PublishingHouse
+@enduml

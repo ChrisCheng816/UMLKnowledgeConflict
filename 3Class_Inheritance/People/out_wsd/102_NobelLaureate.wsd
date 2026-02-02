@@ -1,0 +1,4 @@
+@startuml
+NobelLaureate <|-- PersonRole
+PersonRole <|-- Person
+@enduml

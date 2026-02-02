@@ -1,0 +1,4 @@
+@startuml
+MarketingCommittee o-- CoastalPortAuthority
+SecurityGuard o-- MarketingCommittee
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TokyoInstituteOfTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

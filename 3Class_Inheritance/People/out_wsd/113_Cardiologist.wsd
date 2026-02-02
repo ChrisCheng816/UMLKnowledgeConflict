@@ -1,0 +1,4 @@
+@startuml
+Cardiologist <|-- Doctor
+Doctor <|-- PersonRole
+@enduml

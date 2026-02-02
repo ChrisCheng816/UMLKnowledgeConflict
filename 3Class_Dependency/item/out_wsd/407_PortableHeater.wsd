@@ -1,0 +1,4 @@
+@startuml
+PortableHeaterCharger ..> PortableHeater
+SolarFarmOfficePowerStrip ..> PortableHeaterCharger
+@enduml

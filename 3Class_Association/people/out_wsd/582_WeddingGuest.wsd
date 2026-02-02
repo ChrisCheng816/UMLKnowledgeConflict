@@ -1,0 +1,4 @@
+@startuml
+WeddingGuest --> SecurityGuard
+SecurityGuard --> Stadium
+@enduml

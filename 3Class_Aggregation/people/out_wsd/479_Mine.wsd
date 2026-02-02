@@ -1,0 +1,4 @@
+@startuml
+ExtractionZone o-- Mine
+Excavator o-- ExtractionZone
+@enduml

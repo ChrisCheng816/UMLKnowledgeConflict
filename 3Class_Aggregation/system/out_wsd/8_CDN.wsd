@@ -1,0 +1,4 @@
+@startuml
+EdgeServer o-- CDN
+CacheFile o-- EdgeServer
+@enduml

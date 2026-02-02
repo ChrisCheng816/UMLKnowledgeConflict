@@ -1,0 +1,4 @@
+@startuml
+Linguist <|-- Scientist
+Scientist <|-- PersonRole
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PharmacyTeam o-- ClinicAssociation
+LabTechnician o-- PharmacyTeam
+@enduml

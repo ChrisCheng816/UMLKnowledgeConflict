@@ -1,0 +1,4 @@
+@startuml
+ElectricalSafetyPolicy --> Receptionist
+Receptionist --> Clinic
+@enduml

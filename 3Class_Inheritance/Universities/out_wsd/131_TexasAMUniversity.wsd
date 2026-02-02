@@ -1,0 +1,4 @@
+@startuml
+TexasAMUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

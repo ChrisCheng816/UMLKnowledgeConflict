@@ -1,0 +1,4 @@
+@startuml
+WaterSport <|-- Sport
+Sport <|-- Activity
+@enduml

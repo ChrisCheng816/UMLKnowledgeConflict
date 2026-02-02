@@ -1,0 +1,4 @@
+@startuml
+ClothesDryerPowerCord ..> ClothesDryer
+LaundromatExtensionCord ..> ClothesDryerPowerCord
+@enduml

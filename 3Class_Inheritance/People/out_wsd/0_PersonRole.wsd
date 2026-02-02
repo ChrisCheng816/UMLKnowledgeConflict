@@ -1,0 +1,4 @@
+@startuml
+PersonRole <|-- Person
+Person <|-- Organism
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DishwasherAuditReport --> LoanOfficer
+LoanOfficer --> Bank
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FirstAidKitMaintenanceRequest --> Waiter
+Waiter --> HotelLobby
+@enduml

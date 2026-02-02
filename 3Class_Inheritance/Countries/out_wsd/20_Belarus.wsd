@@ -1,0 +1,4 @@
+@startuml
+Belarus <|-- Country
+Country <|-- Location
+@enduml

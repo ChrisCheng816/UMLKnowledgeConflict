@@ -1,0 +1,4 @@
+@startuml
+PolicyUpdateNotice --> Dispatcher
+Dispatcher --> Ambulance
+@enduml

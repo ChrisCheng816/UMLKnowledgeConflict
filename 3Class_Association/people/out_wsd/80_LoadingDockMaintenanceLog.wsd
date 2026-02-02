@@ -1,0 +1,4 @@
+@startuml
+LoadingDockMaintenanceLog --> GateAgent
+GateAgent --> Airport
+@enduml

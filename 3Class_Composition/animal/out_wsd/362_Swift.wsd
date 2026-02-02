@@ -1,0 +1,4 @@
+@startuml
+Beak *-- Swift
+Nostril *-- Beak
+@enduml

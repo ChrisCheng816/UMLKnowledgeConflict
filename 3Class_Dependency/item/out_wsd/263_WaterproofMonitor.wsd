@@ -1,0 +1,4 @@
+@startuml
+WaterproofMonitorPowerCord ..> WaterproofMonitor
+HomeOfficeExtensionCord ..> WaterproofMonitorPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FlagFootball <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

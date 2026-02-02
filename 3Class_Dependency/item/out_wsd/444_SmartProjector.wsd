@@ -1,0 +1,4 @@
+@startuml
+SmartProjectorPowerCord ..> SmartProjector
+PropaneSupplier ..> SmartProjectorPowerCord
+@enduml

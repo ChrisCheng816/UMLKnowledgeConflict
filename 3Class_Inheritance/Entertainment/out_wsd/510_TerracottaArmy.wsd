@@ -1,0 +1,4 @@
+@startuml
+TerracottaArmy <|-- Sculpture
+Sculpture <|-- Artwork
+@enduml

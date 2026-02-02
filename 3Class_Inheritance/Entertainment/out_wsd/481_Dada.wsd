@@ -1,0 +1,4 @@
+@startuml
+Dada <|-- ArtMovement
+ArtMovement <|-- Art
+@enduml

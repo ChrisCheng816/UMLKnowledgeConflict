@@ -1,0 +1,4 @@
+@startuml
+Pomegranate <|-- Fruit
+Fruit <|-- Food
+@enduml

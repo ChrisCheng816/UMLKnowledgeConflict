@@ -1,0 +1,4 @@
+@startuml
+Beak *-- Grouse
+Nostril *-- Beak
+@enduml

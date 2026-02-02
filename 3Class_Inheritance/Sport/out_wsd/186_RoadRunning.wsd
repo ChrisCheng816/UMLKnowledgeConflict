@@ -1,0 +1,4 @@
+@startuml
+RoadRunning <|-- AthleticsSport
+AthleticsSport <|-- Sport
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Chicken <|-- Food
+Food <|-- Thing
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Chayote <|-- SquashVegetable
+SquashVegetable <|-- Vegetable
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PostImpressionism <|-- ArtMovement
+ArtMovement <|-- Art
+@enduml

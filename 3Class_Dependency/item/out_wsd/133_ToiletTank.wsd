@@ -1,0 +1,4 @@
+@startuml
+MunicipalWaterMain ..> ToiletTank
+WaterTreatmentPlant ..> MunicipalWaterMain
+@enduml

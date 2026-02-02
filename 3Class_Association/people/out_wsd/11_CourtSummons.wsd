@@ -1,0 +1,4 @@
+@startuml
+CourtSummons --> Prosecutor
+Prosecutor --> ImmigrationOffice
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ElectricBlenderPowerCord ..> ElectricBlender
+FilmStudioWallOutlet ..> ElectricBlenderPowerCord
+@enduml

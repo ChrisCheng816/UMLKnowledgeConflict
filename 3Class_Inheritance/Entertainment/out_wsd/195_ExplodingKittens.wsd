@@ -1,0 +1,4 @@
+@startuml
+ExplodingKittens <|-- CardGame
+CardGame <|-- Game
+@enduml

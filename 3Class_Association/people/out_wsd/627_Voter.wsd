@@ -1,0 +1,4 @@
+@startuml
+Voter --> Translator
+Translator --> CountyOffice
+@enduml

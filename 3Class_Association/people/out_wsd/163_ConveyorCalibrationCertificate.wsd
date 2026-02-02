@@ -1,0 +1,4 @@
+@startuml
+ConveyorCalibrationCertificate --> Registrar
+Registrar --> ExamCenter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CouncilMember o-- VillageCouncil
+Treasurer o-- CouncilMember
+@enduml

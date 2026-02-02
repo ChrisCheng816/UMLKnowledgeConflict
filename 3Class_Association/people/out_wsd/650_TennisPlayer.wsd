@@ -1,0 +1,4 @@
+@startuml
+TennisPlayer --> Nutritionist
+Nutritionist --> TennisClub
+@enduml

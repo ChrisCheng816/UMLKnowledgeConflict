@@ -1,0 +1,4 @@
+@startuml
+AttendanceRecordForm --> Accountant
+Accountant --> AccountingFirm
+@enduml

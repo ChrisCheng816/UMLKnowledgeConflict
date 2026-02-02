@@ -1,0 +1,4 @@
+@startuml
+GraduateStudent --> Supervisor
+Supervisor --> University
+@enduml

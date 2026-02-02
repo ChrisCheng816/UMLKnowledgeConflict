@@ -1,0 +1,4 @@
+@startuml
+Cuba <|-- Country
+Country <|-- Location
+@enduml

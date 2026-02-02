@@ -1,0 +1,4 @@
+@startuml
+SteinsGate <|-- AnimeSeries
+AnimeSeries <|-- TVSeries
+@enduml

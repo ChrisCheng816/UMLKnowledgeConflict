@@ -1,0 +1,4 @@
+@startuml
+UniversityOfBergen <|-- University
+University <|-- EducationalInstitution
+@enduml

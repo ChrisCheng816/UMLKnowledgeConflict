@@ -1,0 +1,4 @@
+@startuml
+PeerReviewBoard o-- HealthcarePublishingHouse
+Pharmacist o-- PeerReviewBoard
+@enduml

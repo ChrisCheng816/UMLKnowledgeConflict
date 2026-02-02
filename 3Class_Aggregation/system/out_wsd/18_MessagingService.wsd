@@ -1,0 +1,4 @@
+@startuml
+BackendService o-- MessagingService
+SessionToken o-- BackendService
+@enduml

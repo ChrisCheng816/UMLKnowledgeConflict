@@ -1,0 +1,4 @@
+@startuml
+SecurityCameraInspectionChecklist --> FireMarshal
+FireMarshal --> BuildingDepartment
+@enduml

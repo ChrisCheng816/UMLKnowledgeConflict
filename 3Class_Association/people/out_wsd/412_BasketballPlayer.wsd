@@ -1,0 +1,4 @@
+@startuml
+BasketballPlayer --> Referee
+Referee --> Tournament
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BluesMusic <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

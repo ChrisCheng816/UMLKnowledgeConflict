@@ -1,0 +1,4 @@
+@startuml
+CollectorService o-- WeatherPlatform
+ErrorReport o-- CollectorService
+@enduml

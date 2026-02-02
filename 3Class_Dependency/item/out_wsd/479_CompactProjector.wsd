@@ -1,0 +1,4 @@
+@startuml
+CompactProjectorPowerCord ..> CompactProjector
+StudentCenterExtensionCord ..> CompactProjectorPowerCord
+@enduml

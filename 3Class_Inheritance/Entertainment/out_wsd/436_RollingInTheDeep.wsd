@@ -1,0 +1,4 @@
+@startuml
+RollingInTheDeep <|-- Song
+Song <|-- MusicWork
+@enduml

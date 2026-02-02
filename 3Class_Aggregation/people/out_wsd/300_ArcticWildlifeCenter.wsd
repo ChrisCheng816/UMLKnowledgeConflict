@@ -1,0 +1,4 @@
+@startuml
+DispatchTeam o-- ArcticWildlifeCenter
+AirTrafficController o-- DispatchTeam
+@enduml

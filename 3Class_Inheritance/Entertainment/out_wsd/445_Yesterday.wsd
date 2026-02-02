@@ -1,0 +1,4 @@
+@startuml
+Yesterday <|-- Song
+Song <|-- MusicWork
+@enduml

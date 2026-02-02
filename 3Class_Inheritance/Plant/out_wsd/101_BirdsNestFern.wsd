@@ -1,0 +1,4 @@
+@startuml
+BirdsNestFern <|-- Fern
+Fern <|-- Plant
+@enduml

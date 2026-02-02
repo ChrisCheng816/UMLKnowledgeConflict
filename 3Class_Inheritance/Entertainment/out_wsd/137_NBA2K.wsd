@@ -1,0 +1,4 @@
+@startuml
+NBA2K <|-- VideoGame
+VideoGame <|-- Game
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DarkSoulsIII <|-- VideoGame
+VideoGame <|-- Game
+@enduml

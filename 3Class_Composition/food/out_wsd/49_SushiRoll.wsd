@@ -1,0 +1,4 @@
+@startuml
+SushiRice *-- SushiRoll
+RiceVinegar *-- SushiRice
+@enduml

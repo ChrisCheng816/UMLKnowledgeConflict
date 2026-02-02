@@ -1,0 +1,4 @@
+@startuml
+PadThai <|-- Dish
+Dish <|-- Food
+@enduml

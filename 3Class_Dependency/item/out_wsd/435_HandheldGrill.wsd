@@ -1,0 +1,4 @@
+@startuml
+HandheldGrillPowerCord ..> HandheldGrill
+MuseumSurgeProtector ..> HandheldGrillPowerCord
+@enduml

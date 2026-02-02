@@ -1,0 +1,4 @@
+@startuml
+MedicalTeam o-- SecurityFireDepartment
+ERDoctor o-- MedicalTeam
+@enduml

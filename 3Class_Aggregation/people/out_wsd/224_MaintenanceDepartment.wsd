@@ -1,0 +1,4 @@
+@startuml
+RepairTeam o-- MaintenanceDepartment
+Electrician o-- RepairTeam
+@enduml

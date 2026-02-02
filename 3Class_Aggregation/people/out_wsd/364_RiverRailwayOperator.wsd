@@ -1,0 +1,4 @@
+@startuml
+ComplianceTeam o-- RiverRailwayOperator
+Doctor o-- ComplianceTeam
+@enduml

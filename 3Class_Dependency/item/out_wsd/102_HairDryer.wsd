@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> HairDryer
+CircuitBreakerPanel ..> WallOutlet
+@enduml

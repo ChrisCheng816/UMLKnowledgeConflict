@@ -1,0 +1,4 @@
+@startuml
+HotelCleaningLog --> Host
+Host --> RadioStation
+@enduml

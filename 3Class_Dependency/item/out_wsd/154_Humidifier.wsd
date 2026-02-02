@@ -1,0 +1,4 @@
+@startuml
+TapWater ..> Humidifier
+MunicipalWaterMain ..> TapWater
+@enduml

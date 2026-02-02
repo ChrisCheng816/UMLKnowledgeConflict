@@ -1,0 +1,4 @@
+@startuml
+RadboudUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

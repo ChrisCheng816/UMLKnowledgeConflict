@@ -1,0 +1,4 @@
+@startuml
+TeachingTeam o-- ClinicalAccountingFirm
+Professor o-- TeachingTeam
+@enduml

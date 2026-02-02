@@ -1,0 +1,4 @@
+@startuml
+ElectricSkateboardCharger ..> ElectricSkateboard
+CourthouseWallOutlet ..> ElectricSkateboardCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BusinessOwner --> PermitOfficer
+PermitOfficer --> FireDepartment
+@enduml

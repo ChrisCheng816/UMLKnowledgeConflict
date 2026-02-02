@@ -1,0 +1,4 @@
+@startuml
+CommunityTeam o-- ForestTechCompany
+SafetyInspector o-- CommunityTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+LobbyCleaningLog --> EventCoordinator
+EventCoordinator --> BoxingGym
+@enduml

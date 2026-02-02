@@ -1,0 +1,4 @@
+@startuml
+Coco <|-- Film
+Film <|-- Entertainment
+@enduml

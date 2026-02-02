@@ -1,0 +1,4 @@
+@startuml
+MechanicalRoomHealthInspectionReport --> ComplianceOfficer
+ComplianceOfficer --> InsuranceCompany
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SmartHeaterPowerCord ..> SmartHeater
+PharmacyPowerStrip ..> SmartHeaterPowerCord
+@enduml

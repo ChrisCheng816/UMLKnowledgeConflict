@@ -1,0 +1,4 @@
+@startuml
+ElectricMixerPowerCord ..> ElectricMixer
+LibrarySmartPlug ..> ElectricMixerPowerCord
+@enduml

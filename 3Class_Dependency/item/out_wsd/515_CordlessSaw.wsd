@@ -1,0 +1,4 @@
+@startuml
+CordlessSawCharger ..> CordlessSaw
+MountainCabinWallOutlet ..> CordlessSawCharger
+@enduml

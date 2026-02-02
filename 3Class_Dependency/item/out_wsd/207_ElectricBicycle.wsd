@@ -1,0 +1,4 @@
+@startuml
+BatteryCharger ..> ElectricBicycle
+WallOutlet ..> BatteryCharger
+@enduml

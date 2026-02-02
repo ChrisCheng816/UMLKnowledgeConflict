@@ -1,0 +1,4 @@
+@startuml
+DepotFuelPump ..> DieselBus
+FuelDeliveryTruck ..> DepotFuelPump
+@enduml

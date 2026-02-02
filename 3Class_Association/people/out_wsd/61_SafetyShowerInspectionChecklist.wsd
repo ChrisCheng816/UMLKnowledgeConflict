@@ -1,0 +1,4 @@
+@startuml
+SafetyShowerInspectionChecklist --> HealthInspector
+HealthInspector --> CityHall
+@enduml

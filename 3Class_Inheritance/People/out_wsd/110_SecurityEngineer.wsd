@@ -1,0 +1,4 @@
+@startuml
+SecurityEngineer <|-- Engineer
+Engineer <|-- PersonRole
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Eye *-- MonitorLizard
+Lens *-- Eye
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Swimmer <|-- Athlete
+Athlete <|-- PersonRole
+@enduml

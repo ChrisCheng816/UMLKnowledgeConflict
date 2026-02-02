@@ -1,0 +1,4 @@
+@startuml
+VanderbiltUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

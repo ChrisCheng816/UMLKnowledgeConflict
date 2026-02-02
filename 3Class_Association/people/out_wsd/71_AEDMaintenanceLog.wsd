@@ -1,0 +1,4 @@
+@startuml
+AEDMaintenanceLog --> Courier
+Courier --> DeliveryService
+@enduml

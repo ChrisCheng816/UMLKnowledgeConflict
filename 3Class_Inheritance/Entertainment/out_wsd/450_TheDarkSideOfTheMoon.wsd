@@ -1,0 +1,4 @@
+@startuml
+TheDarkSideOfTheMoon <|-- Album
+Album <|-- MusicWork
+@enduml

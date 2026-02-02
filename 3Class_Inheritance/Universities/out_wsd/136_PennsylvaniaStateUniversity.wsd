@@ -1,0 +1,4 @@
+@startuml
+PennsylvaniaStateUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

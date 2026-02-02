@@ -1,0 +1,4 @@
+@startuml
+RagingBull <|-- Film
+Film <|-- Entertainment
+@enduml

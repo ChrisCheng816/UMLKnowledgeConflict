@@ -1,0 +1,4 @@
+@startuml
+SledTeam o-- PolarStation
+SledDog o-- SledTeam
+@enduml

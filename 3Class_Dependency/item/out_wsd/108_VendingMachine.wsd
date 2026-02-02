@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> VendingMachine
+CircuitBreakerPanel ..> WallOutlet
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GrillMaintenanceLog --> Courier
+Courier --> DeliveryService
+@enduml

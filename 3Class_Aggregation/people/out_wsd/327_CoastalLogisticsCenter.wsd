@@ -1,0 +1,4 @@
+@startuml
+IncidentResponseTeam o-- CoastalLogisticsCenter
+Registrar o-- IncidentResponseTeam
+@enduml

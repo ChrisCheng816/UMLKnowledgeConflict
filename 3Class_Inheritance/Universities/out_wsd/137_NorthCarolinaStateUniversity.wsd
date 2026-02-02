@@ -1,0 +1,4 @@
+@startuml
+NorthCarolinaStateUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

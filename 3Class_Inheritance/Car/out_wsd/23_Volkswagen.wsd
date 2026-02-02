@@ -1,0 +1,4 @@
+@startuml
+Volkswagen <|-- CarManufacturer
+CarManufacturer <|-- Organization
+@enduml

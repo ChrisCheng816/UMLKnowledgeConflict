@@ -1,0 +1,4 @@
+@startuml
+WiFiWatchPowerCord ..> WiFiWatch
+GardenOfficeSurgeProtector ..> WiFiWatchPowerCord
+@enduml

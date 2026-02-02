@@ -1,0 +1,4 @@
+@startuml
+SpiritIsland <|-- BoardGame
+BoardGame <|-- Game
+@enduml

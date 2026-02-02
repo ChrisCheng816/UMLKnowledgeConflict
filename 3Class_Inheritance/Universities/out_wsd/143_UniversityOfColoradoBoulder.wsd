@@ -1,0 +1,4 @@
+@startuml
+UniversityOfColoradoBoulder <|-- University
+University <|-- EducationalInstitution
+@enduml

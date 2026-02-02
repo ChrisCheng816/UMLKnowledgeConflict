@@ -1,0 +1,4 @@
+@startuml
+UniversityOfIllinoisUrbanaChampaign <|-- University
+University <|-- EducationalInstitution
+@enduml

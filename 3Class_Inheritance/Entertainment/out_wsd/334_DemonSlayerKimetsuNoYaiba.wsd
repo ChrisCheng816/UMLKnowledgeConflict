@@ -1,0 +1,4 @@
+@startuml
+DemonSlayerKimetsuNoYaiba <|-- AnimeSeries
+AnimeSeries <|-- TVSeries
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ForensicPanel o-- UrbanLawFirm
+Engineer o-- ForensicPanel
+@enduml

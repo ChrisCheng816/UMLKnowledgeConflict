@@ -1,0 +1,4 @@
+@startuml
+OutreachTeam o-- HumanitarianHospitalCenter
+Volunteer o-- OutreachTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+EscalatorInspectionChecklist --> BuildingInspector
+BuildingInspector --> CityHall
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BritishIndianOceanTerritory <|-- Country
+Country <|-- Location
+@enduml

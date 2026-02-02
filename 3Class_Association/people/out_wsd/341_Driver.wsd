@@ -1,0 +1,4 @@
+@startuml
+Driver --> Dispatcher
+Dispatcher --> Ambulance
+@enduml

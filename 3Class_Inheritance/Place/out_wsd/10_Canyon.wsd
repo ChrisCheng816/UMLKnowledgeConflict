@@ -1,0 +1,4 @@
+@startuml
+Canyon <|-- GeographicFeature
+GeographicFeature <|-- Location
+@enduml

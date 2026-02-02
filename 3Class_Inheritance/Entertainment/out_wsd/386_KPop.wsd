@@ -1,0 +1,4 @@
+@startuml
+KPop <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

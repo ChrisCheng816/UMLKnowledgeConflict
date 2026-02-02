@@ -1,0 +1,4 @@
+@startuml
+Cheesecake <|-- Dessert
+Dessert <|-- Food
+@enduml

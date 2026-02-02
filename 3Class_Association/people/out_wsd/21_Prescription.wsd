@@ -1,0 +1,4 @@
+@startuml
+Prescription --> Therapist
+Therapist --> Clinic
+@enduml

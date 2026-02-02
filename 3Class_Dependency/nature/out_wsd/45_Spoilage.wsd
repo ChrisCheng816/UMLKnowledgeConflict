@@ -1,0 +1,4 @@
+@startuml
+Microorganisms ..> Spoilage
+OrganicMatter ..> Microorganisms
+@enduml

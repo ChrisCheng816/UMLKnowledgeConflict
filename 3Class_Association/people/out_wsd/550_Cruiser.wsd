@@ -1,0 +1,4 @@
+@startuml
+Cruiser --> TicketAgent
+TicketAgent --> CarRentalOffice
+@enduml

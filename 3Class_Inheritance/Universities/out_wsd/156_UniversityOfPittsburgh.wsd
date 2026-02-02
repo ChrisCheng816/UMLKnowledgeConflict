@@ -1,0 +1,4 @@
+@startuml
+UniversityOfPittsburgh <|-- University
+University <|-- EducationalInstitution
+@enduml

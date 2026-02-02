@@ -1,0 +1,4 @@
+@startuml
+Lodger --> SecurityGuard
+SecurityGuard --> Stadium
+@enduml

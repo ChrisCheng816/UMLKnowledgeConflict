@@ -1,0 +1,4 @@
+@startuml
+PresentationRemotePowerCord ..> PresentationRemote
+CoffeeShopPowerStrip ..> PresentationRemotePowerCord
+@enduml

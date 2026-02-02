@@ -1,0 +1,4 @@
+@startuml
+WarhammerFantasyRoleplay <|-- TabletopRPG
+TabletopRPG <|-- Game
+@enduml

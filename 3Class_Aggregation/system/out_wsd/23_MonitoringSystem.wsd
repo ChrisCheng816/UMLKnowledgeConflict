@@ -1,0 +1,4 @@
+@startuml
+DatabaseNode o-- MonitoringSystem
+SnapshotFile o-- DatabaseNode
+@enduml

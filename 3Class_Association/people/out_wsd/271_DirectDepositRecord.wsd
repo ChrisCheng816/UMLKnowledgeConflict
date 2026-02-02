@@ -1,0 +1,4 @@
+@startuml
+DirectDepositRecord --> GateAgent
+GateAgent --> Airport
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+KULeuven <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Algeria <|-- Country
+Country <|-- Location
+@enduml

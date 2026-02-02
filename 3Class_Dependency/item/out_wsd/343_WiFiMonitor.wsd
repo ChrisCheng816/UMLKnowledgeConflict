@@ -1,0 +1,4 @@
+@startuml
+WiFiMonitorPowerCord ..> WiFiMonitor
+SkiLodgeWallOutlet ..> WiFiMonitorPowerCord
+@enduml

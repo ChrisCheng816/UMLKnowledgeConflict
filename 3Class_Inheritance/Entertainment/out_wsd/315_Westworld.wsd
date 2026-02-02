@@ -1,0 +1,4 @@
+@startuml
+Westworld <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

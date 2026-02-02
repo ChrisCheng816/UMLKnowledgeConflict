@@ -1,0 +1,4 @@
+@startuml
+Van <|-- Vehicle
+Vehicle <|-- Thing
+@enduml

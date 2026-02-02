@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- ForestLibrary
+Ebook o-- Shelf
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Tesla <|-- CarManufacturer
+CarManufacturer <|-- Organization
+@enduml

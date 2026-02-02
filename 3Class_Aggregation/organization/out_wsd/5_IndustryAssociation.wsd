@@ -1,0 +1,4 @@
+@startuml
+MemberCompany o-- IndustryAssociation
+Liaison o-- MemberCompany
+@enduml

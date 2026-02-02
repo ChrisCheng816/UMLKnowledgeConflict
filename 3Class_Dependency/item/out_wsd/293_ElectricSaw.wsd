@@ -1,0 +1,4 @@
+@startuml
+ElectricSawPowerCord ..> ElectricSaw
+ConferenceRoomExtensionCord ..> ElectricSawPowerCord
+@enduml

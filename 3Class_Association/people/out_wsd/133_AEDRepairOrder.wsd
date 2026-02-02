@@ -1,0 +1,4 @@
+@startuml
+AEDRepairOrder --> WarehouseWorker
+WarehouseWorker --> Warehouse
+@enduml

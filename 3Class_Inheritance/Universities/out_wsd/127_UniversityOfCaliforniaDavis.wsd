@@ -1,0 +1,4 @@
+@startuml
+UniversityOfCaliforniaDavis <|-- University
+University <|-- EducationalInstitution
+@enduml

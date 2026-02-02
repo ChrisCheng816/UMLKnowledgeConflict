@@ -1,0 +1,4 @@
+@startuml
+Tourist --> ParkRanger
+ParkRanger --> NationalPark
+@enduml

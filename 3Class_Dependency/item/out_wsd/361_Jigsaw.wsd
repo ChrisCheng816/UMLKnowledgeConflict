@@ -1,0 +1,4 @@
+@startuml
+JigsawPowerCord ..> Jigsaw
+BeachHouseSurgeProtector ..> JigsawPowerCord
+@enduml

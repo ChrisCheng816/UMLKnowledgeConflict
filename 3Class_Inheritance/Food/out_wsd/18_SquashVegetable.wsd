@@ -1,0 +1,4 @@
+@startuml
+SquashVegetable <|-- Vegetable
+Vegetable <|-- Food
+@enduml

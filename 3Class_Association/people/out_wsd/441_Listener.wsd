@@ -1,0 +1,4 @@
+@startuml
+Listener --> Host
+Host --> RadioStation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+InductionCooktopPowerCord ..> InductionCooktop
+SportsArenaExtensionCord ..> InductionCooktopPowerCord
+@enduml

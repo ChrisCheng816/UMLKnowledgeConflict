@@ -1,0 +1,4 @@
+@startuml
+LostBaggageReport --> TrainConductor
+TrainConductor --> Railway
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CanOpenerPowerCord ..> CanOpener
+MakerSpaceExtensionCord ..> CanOpenerPowerCord
+@enduml

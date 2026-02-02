@@ -1,0 +1,4 @@
+@startuml
+AutomaticCameraPowerCord ..> AutomaticCamera
+SportsArenaSurgeProtector ..> AutomaticCameraPowerCord
+@enduml

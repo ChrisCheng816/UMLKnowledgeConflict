@@ -1,0 +1,4 @@
+@startuml
+GoetheUniversityFrankfurt <|-- University
+University <|-- EducationalInstitution
+@enduml

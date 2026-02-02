@@ -1,0 +1,4 @@
+@startuml
+EditorialOffice o-- TrafficRadio
+Broadcaster o-- EditorialOffice
+@enduml

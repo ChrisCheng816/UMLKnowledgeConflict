@@ -1,0 +1,4 @@
+@startuml
+Swimmer --> Teammate
+Teammate --> RunningClub
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Blogger --> FactChecker
+FactChecker --> StudioLot
+@enduml

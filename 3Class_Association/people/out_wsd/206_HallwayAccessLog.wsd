@@ -1,0 +1,4 @@
+@startuml
+HallwayAccessLog --> Courier
+Courier --> DeliveryService
+@enduml

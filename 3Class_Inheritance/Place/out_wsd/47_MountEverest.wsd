@@ -1,0 +1,4 @@
+@startuml
+MountEverest <|-- Mountain
+Mountain <|-- GeographicFeature
+@enduml

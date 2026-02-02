@@ -1,0 +1,4 @@
+@startuml
+WonderWoman <|-- Comic
+Comic <|-- Entertainment
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Parkour <|-- IndividualSport
+IndividualSport <|-- Sport
+@enduml

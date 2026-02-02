@@ -1,0 +1,4 @@
+@startuml
+NissanSentra <|-- Nissan
+Nissan <|-- CarManufacturer
+@enduml

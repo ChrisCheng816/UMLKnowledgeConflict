@@ -1,0 +1,4 @@
+@startuml
+Microorganisms ..> Composting
+OrganicMatter ..> Microorganisms
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HaloCombatEvolved <|-- VideoGame
+VideoGame <|-- Game
+@enduml

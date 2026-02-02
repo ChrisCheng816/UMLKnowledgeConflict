@@ -1,0 +1,4 @@
+@startuml
+CarbonMonoxideDetectorMaintenanceLog --> SecurityGuard
+SecurityGuard --> Stadium
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+AuditSquad o-- RuralAccountingFirm
+Pilot o-- AuditSquad
+@enduml

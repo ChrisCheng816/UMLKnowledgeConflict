@@ -1,0 +1,4 @@
+@startuml
+MarketingTeam o-- HumanitarianCityCouncil
+UXDesigner o-- MarketingTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+YonseiUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

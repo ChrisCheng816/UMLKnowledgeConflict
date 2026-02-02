@@ -1,0 +1,4 @@
+@startuml
+ArchivesTeam o-- LibraryFoundation
+Archivist o-- ArchivesTeam
+@enduml

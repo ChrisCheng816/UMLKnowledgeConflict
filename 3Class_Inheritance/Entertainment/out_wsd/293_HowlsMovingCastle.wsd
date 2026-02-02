@@ -1,0 +1,4 @@
+@startuml
+HowlsMovingCastle <|-- AnimatedFilm
+AnimatedFilm <|-- Film
+@enduml

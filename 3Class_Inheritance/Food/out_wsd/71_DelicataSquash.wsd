@@ -1,0 +1,4 @@
+@startuml
+DelicataSquash <|-- SquashVegetable
+SquashVegetable <|-- Vegetable
+@enduml

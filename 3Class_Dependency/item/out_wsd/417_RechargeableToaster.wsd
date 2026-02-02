@@ -1,0 +1,4 @@
+@startuml
+RechargeableToasterCharger ..> RechargeableToaster
+AutoShopWallOutlet ..> RechargeableToasterCharger
+@enduml

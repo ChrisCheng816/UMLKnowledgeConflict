@@ -1,0 +1,4 @@
+@startuml
+Jackfruit <|-- TropicalFruit
+TropicalFruit <|-- Fruit
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- TechWarehouse
+Blanket o-- StorageBin
+@enduml

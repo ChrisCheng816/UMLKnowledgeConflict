@@ -1,0 +1,4 @@
+@startuml
+HotelRoomSafetyChecklist --> Auditor
+Auditor --> AccountingFirm
+@enduml

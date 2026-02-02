@@ -1,0 +1,4 @@
+@startuml
+RechargeableModemCharger ..> RechargeableModem
+FoodTruckPowerStrip ..> RechargeableModemCharger
+@enduml

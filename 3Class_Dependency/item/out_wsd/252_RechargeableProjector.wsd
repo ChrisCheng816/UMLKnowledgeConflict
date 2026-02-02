@@ -1,0 +1,4 @@
+@startuml
+RechargeableProjectorCharger ..> RechargeableProjector
+GardenShedSmartPlug ..> RechargeableProjectorCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ProfessionalCameraPowerCord ..> ProfessionalCamera
+TheaterSmartPlug ..> ProfessionalCameraPowerCord
+@enduml

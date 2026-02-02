@@ -1,0 +1,4 @@
+@startuml
+GeneratorAuditReport --> LoanOfficer
+LoanOfficer --> Bank
+@enduml

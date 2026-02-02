@@ -1,0 +1,4 @@
+@startuml
+MarketingTeam o-- HealthcarePoliceDepartment
+UXDesigner o-- MarketingTeam
+@enduml

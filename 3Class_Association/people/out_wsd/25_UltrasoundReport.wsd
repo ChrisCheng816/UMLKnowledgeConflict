@@ -1,0 +1,4 @@
+@startuml
+UltrasoundReport --> Physiotherapist
+Physiotherapist --> MedicalCenter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> WallSwitch
+CircuitBreakerPanel ..> WallOutlet
+@enduml

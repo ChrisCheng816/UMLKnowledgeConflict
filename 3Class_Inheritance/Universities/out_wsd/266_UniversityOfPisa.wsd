@@ -1,0 +1,4 @@
+@startuml
+UniversityOfPisa <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Flamingo <|-- Bird
+Bird <|-- Animal
+@enduml

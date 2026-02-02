@@ -1,0 +1,4 @@
+@startuml
+Cinderella <|-- AnimatedFilm
+AnimatedFilm <|-- Film
+@enduml

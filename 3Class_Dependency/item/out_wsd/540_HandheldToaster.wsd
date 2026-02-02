@@ -1,0 +1,4 @@
+@startuml
+HandheldToasterPowerCord ..> HandheldToaster
+DormKitchenWallOutlet ..> HandheldToasterPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TheSandman <|-- Comic
+Comic <|-- Entertainment
+@enduml

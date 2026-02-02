@@ -1,0 +1,4 @@
+@startuml
+EventTeam o-- FestivalCommittee
+ProjectManager o-- EventTeam
+@enduml

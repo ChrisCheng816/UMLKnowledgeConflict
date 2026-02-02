@@ -1,0 +1,4 @@
+@startuml
+ClinicCleaningLog --> Sommelier
+Sommelier --> FarmersMarket
+@enduml

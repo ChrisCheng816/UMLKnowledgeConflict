@@ -1,0 +1,4 @@
+@startuml
+Celeriac <|-- RootVegetable
+RootVegetable <|-- Vegetable
+@enduml

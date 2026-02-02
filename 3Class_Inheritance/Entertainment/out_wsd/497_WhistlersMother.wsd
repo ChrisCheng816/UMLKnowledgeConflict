@@ -1,0 +1,4 @@
+@startuml
+WhistlersMother <|-- Painting
+Painting <|-- Artwork
+@enduml

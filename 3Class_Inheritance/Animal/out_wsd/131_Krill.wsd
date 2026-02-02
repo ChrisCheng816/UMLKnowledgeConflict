@@ -1,0 +1,4 @@
+@startuml
+Krill <|-- Crustacean
+Crustacean <|-- Animal
+@enduml

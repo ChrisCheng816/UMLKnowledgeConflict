@@ -1,0 +1,4 @@
+@startuml
+IncidentResponsePolicy --> Journalist
+Journalist --> Editor
+@enduml

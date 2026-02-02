@@ -1,0 +1,4 @@
+@startuml
+NursingTeam o-- SecurityFilmStudio
+Nurse o-- NursingTeam
+@enduml

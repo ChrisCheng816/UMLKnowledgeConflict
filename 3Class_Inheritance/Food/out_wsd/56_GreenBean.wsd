@@ -1,0 +1,4 @@
+@startuml
+GreenBean <|-- Legume
+Legume <|-- Vegetable
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BluetoothLaptopPowerCord ..> BluetoothLaptop
+CafeteriaSurgeProtector ..> BluetoothLaptopPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StevensInstituteOfTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

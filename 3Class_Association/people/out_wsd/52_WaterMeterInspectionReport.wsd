@@ -1,0 +1,4 @@
+@startuml
+WaterMeterInspectionReport --> ComplianceOfficer
+ComplianceOfficer --> InsuranceCompany
+@enduml

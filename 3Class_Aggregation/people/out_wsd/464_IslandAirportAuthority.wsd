@@ -1,0 +1,4 @@
+@startuml
+DispatchTeam o-- IslandAirportAuthority
+AirTrafficController o-- DispatchTeam
+@enduml

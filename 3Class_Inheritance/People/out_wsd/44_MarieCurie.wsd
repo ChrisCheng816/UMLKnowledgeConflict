@@ -1,0 +1,4 @@
+@startuml
+MarieCurie <|-- Chemist
+Chemist <|-- Scientist
+@enduml

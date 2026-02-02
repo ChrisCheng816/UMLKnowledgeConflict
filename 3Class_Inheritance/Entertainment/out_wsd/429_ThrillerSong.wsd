@@ -1,0 +1,4 @@
+@startuml
+ThrillerSong <|-- Song
+Song <|-- MusicWork
+@enduml

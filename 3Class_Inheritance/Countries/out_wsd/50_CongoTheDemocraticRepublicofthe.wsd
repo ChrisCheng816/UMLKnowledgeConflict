@@ -1,0 +1,4 @@
+@startuml
+CongoTheDemocraticRepublicofthe <|-- Country
+Country <|-- Location
+@enduml

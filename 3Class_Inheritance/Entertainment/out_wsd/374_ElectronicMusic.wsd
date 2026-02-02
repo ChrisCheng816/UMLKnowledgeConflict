@@ -1,0 +1,4 @@
+@startuml
+ElectronicMusic <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

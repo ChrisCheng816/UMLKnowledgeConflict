@@ -1,0 +1,4 @@
+@startuml
+ElectricToothbrushPowerCord ..> ElectricToothbrush
+CourthouseSurgeProtector ..> ElectricToothbrushPowerCord
+@enduml

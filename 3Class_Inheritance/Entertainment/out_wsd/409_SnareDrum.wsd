@@ -1,0 +1,4 @@
+@startuml
+SnareDrum <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

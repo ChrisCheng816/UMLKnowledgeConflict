@@ -1,0 +1,4 @@
+@startuml
+WorkerPod o-- BuildPlatform
+BuildArtifact o-- WorkerPod
+@enduml

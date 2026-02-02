@@ -1,0 +1,4 @@
+@startuml
+NursingTeam o-- CyberLawFirm
+Nurse o-- NursingTeam
+@enduml

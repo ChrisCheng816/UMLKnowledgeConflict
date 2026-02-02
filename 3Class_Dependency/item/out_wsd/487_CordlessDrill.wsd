@@ -1,0 +1,4 @@
+@startuml
+CordlessDrillCharger ..> CordlessDrill
+HomeOfficeWallOutlet ..> CordlessDrillCharger
+@enduml

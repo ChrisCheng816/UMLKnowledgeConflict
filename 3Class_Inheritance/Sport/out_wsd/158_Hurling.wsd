@@ -1,0 +1,4 @@
+@startuml
+Hurling <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

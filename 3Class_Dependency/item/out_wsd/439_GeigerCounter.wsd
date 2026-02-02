@@ -1,0 +1,4 @@
+@startuml
+GeigerCounterPowerCord ..> GeigerCounter
+ClassroomWallOutlet ..> GeigerCounterPowerCord
+@enduml

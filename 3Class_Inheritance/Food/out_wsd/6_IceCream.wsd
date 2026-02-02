@@ -1,0 +1,4 @@
+@startuml
+IceCream <|-- Dessert
+Dessert <|-- Food
+@enduml

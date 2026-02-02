@@ -1,0 +1,4 @@
+@startuml
+ResearchTeam o-- HealthcareDesignAgency
+ResearchFellow o-- ResearchTeam
+@enduml

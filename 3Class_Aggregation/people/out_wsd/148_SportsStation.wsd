@@ -1,0 +1,4 @@
+@startuml
+CoachingTeam o-- SportsStation
+AssistantCoach o-- CoachingTeam
+@enduml

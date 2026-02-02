@@ -1,0 +1,4 @@
+@startuml
+BackupPolicy --> Bartender
+Bartender --> WeddingVenue
+@enduml

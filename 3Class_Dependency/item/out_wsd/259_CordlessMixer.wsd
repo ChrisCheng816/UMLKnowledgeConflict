@@ -1,0 +1,4 @@
+@startuml
+CordlessMixerCharger ..> CordlessMixer
+FoodTruckExtensionCord ..> CordlessMixerCharger
+@enduml

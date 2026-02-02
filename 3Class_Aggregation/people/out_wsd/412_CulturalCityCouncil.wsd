@@ -1,0 +1,4 @@
+@startuml
+PeerReviewTeam o-- CulturalCityCouncil
+Nurse o-- PeerReviewTeam
+@enduml

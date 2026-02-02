@@ -1,0 +1,4 @@
+@startuml
+InterviewTeam o-- InterviewPanel
+Interviewer o-- InterviewTeam
+@enduml

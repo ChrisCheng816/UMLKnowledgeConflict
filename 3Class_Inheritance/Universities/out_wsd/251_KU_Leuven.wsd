@@ -1,0 +1,4 @@
+@startuml
+KU_Leuven <|-- University
+University <|-- EducationalInstitution
+@enduml

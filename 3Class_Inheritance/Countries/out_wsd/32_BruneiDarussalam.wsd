@@ -1,0 +1,4 @@
+@startuml
+BruneiDarussalam <|-- Country
+Country <|-- Location
+@enduml

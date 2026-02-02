@@ -1,0 +1,4 @@
+@startuml
+LudwigvanBeethoven <|-- Composer
+Composer <|-- Musician
+@enduml

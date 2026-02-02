@@ -1,0 +1,4 @@
+@startuml
+Patient --> Pharmacist
+Pharmacist --> Pharmacy
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StageTeam o-- TheaterAuthority
+SoundEngineer o-- StageTeam
+@enduml

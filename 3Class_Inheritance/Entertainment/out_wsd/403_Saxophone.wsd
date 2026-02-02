@@ -1,0 +1,4 @@
+@startuml
+Saxophone <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DispatchTeam o-- ClinicalResearchInstitute
+AirTrafficController o-- DispatchTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RecreationDepartment o-- Hotel
+Technician o-- RecreationDepartment
+@enduml

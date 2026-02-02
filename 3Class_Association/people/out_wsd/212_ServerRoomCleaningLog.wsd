@@ -1,0 +1,4 @@
+@startuml
+ServerRoomCleaningLog --> Concierge
+Concierge --> Hotel
+@enduml

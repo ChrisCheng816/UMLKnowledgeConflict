@@ -1,0 +1,4 @@
+@startuml
+MedicalTeam o-- RiverMetroAuthority
+ERDoctor o-- MedicalTeam
+@enduml

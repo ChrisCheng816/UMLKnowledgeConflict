@@ -1,0 +1,4 @@
+@startuml
+HotelCaliforniaAlbum <|-- Album
+Album <|-- MusicWork
+@enduml

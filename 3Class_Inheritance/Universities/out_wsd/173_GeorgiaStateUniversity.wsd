@@ -1,0 +1,4 @@
+@startuml
+GeorgiaStateUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

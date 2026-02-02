@@ -1,0 +1,4 @@
+@startuml
+UniversityOfAuckland <|-- University
+University <|-- EducationalInstitution
+@enduml

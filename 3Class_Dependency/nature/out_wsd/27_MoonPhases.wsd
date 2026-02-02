@@ -1,0 +1,4 @@
+@startuml
+Sunlight ..> MoonPhases
+Sun ..> Sunlight
+@enduml

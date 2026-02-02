@@ -1,0 +1,4 @@
+@startuml
+UniversityOfManitoba <|-- University
+University <|-- EducationalInstitution
+@enduml

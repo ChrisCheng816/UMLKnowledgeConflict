@@ -1,0 +1,4 @@
+@startuml
+WirelessScannerCharger ..> WirelessScanner
+TrainStationSurgeProtector ..> WirelessScannerCharger
+@enduml

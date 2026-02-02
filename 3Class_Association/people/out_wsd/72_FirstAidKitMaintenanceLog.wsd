@@ -1,0 +1,4 @@
+@startuml
+FirstAidKitMaintenanceLog --> ComplianceOfficer
+ComplianceOfficer --> InsuranceCompany
+@enduml

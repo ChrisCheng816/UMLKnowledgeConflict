@@ -1,0 +1,4 @@
+@startuml
+WaterproofLampPowerCord ..> WaterproofLamp
+OfficeSurgeProtector ..> WaterproofLampPowerCord
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MedicalTeam o-- ClinicOffice
+ERDoctor o-- MedicalTeam
+@enduml

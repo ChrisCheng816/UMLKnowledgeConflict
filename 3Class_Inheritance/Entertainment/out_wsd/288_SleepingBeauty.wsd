@@ -1,0 +1,4 @@
+@startuml
+SleepingBeauty <|-- AnimatedFilm
+AnimatedFilm <|-- Film
+@enduml

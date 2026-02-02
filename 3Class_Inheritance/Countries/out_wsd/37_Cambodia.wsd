@@ -1,0 +1,4 @@
+@startuml
+Cambodia <|-- Country
+Country <|-- Location
+@enduml

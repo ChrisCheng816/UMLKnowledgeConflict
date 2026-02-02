@@ -1,0 +1,4 @@
+@startuml
+DiscoMusic <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

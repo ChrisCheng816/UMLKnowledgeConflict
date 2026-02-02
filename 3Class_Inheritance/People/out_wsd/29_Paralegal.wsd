@@ -1,0 +1,4 @@
+@startuml
+Paralegal <|-- Lawyer
+Lawyer <|-- PersonRole
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Friends <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

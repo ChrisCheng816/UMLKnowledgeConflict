@@ -1,0 +1,4 @@
+@startuml
+Angola <|-- Country
+Country <|-- Location
+@enduml

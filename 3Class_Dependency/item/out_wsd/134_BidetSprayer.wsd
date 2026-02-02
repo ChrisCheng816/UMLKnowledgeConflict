@@ -1,0 +1,4 @@
+@startuml
+MunicipalWaterMain ..> BidetSprayer
+WaterTreatmentPlant ..> MunicipalWaterMain
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CustomerSupportTeam o-- MountainAirportAuthority
+Surgeon o-- CustomerSupportTeam
+@enduml

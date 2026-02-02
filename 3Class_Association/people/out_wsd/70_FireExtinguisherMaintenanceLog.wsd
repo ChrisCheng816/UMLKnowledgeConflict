@@ -1,0 +1,4 @@
+@startuml
+FireExtinguisherMaintenanceLog --> Auditor
+Auditor --> AccountingFirm
+@enduml

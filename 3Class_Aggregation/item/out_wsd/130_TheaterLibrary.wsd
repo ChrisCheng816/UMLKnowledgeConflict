@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- TheaterLibrary
+Ebook o-- Shelf
+@enduml

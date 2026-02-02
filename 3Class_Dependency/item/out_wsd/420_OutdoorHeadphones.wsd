@@ -1,0 +1,4 @@
+@startuml
+OutdoorHeadphonesPowerCord ..> OutdoorHeadphones
+BarnExtensionCord ..> OutdoorHeadphonesPowerCord
+@enduml

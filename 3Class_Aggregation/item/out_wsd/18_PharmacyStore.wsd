@@ -1,0 +1,4 @@
+@startuml
+MedicineCabinet o-- PharmacyStore
+MedicineBottle o-- MedicineCabinet
+@enduml

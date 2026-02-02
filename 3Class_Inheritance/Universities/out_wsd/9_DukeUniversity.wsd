@@ -1,0 +1,4 @@
+@startuml
+DukeUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

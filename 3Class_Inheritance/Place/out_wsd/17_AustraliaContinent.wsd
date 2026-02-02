@@ -1,0 +1,4 @@
+@startuml
+AustraliaContinent <|-- Continent
+Continent <|-- GeographicFeature
+@enduml

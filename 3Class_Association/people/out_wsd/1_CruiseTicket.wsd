@@ -1,0 +1,4 @@
+@startuml
+CruiseTicket --> StageManager
+StageManager --> PublishingHouse
+@enduml

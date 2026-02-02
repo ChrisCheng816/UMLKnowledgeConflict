@@ -1,0 +1,4 @@
+@startuml
+Rumours <|-- Album
+Album <|-- MusicWork
+@enduml

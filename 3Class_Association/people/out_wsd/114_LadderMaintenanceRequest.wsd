@@ -1,0 +1,4 @@
+@startuml
+LadderMaintenanceRequest --> FireMarshal
+FireMarshal --> BuildingDepartment
+@enduml

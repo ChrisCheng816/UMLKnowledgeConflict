@@ -1,0 +1,4 @@
+@startuml
+Defendant --> CourtClerk
+CourtClerk --> MagistrateCourt
+@enduml

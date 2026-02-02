@@ -1,0 +1,4 @@
+@startuml
+DevTeam o-- SoftwareCompany
+SoftwareEngineer o-- DevTeam
+@enduml

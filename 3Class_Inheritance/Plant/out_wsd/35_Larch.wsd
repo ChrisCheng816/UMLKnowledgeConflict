@@ -1,0 +1,4 @@
+@startuml
+Larch <|-- Tree
+Tree <|-- Plant
+@enduml

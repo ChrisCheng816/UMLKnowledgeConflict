@@ -1,0 +1,4 @@
+@startuml
+Traveler --> TourGuide
+TourGuide --> TourCompany
+@enduml

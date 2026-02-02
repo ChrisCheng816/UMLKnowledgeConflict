@@ -1,0 +1,4 @@
+@startuml
+DefibrillatorPowerCord ..> Defibrillator
+SolarFarmOfficeExtensionCord ..> DefibrillatorPowerCord
+@enduml

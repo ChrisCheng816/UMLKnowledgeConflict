@@ -1,0 +1,4 @@
+@startuml
+Baker <|-- PersonRole
+PersonRole <|-- Person
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+UniversityOfFlorida <|-- University
+University <|-- EducationalInstitution
+@enduml

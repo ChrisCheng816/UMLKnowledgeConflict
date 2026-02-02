@@ -1,0 +1,4 @@
+@startuml
+DispatchTeam o-- RailwayStation
+AirTrafficController o-- DispatchTeam
+@enduml

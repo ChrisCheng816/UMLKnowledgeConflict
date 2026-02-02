@@ -1,0 +1,4 @@
+@startuml
+PlaygroundSafetyChecklist --> HealthInspector
+HealthInspector --> CityHall
+@enduml

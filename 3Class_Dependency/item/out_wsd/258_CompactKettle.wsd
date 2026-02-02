@@ -1,0 +1,4 @@
+@startuml
+CompactKettlePowerCord ..> CompactKettle
+FerryTerminalExtensionCord ..> CompactKettlePowerCord
+@enduml

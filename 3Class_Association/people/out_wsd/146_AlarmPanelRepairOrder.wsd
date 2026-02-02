@@ -1,0 +1,4 @@
+@startuml
+AlarmPanelRepairOrder --> TrainConductor
+TrainConductor --> Railway
+@enduml

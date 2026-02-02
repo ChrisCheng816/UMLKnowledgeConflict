@@ -1,0 +1,4 @@
+@startuml
+TrainingTeam o-- SecurityPublishingHouse
+Professor o-- TrainingTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ForkliftMaintenanceRequest --> Concierge
+Concierge --> Hotel
+@enduml

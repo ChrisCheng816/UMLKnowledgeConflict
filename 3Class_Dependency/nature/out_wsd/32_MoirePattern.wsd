@@ -1,0 +1,4 @@
+@startuml
+Interference ..> MoirePattern
+CoherentLight ..> Interference
+@enduml

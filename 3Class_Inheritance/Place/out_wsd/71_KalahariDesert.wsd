@@ -1,0 +1,4 @@
+@startuml
+KalahariDesert <|-- Desert
+Desert <|-- GeographicFeature
+@enduml

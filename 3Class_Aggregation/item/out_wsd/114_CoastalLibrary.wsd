@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- CoastalLibrary
+Ebook o-- Shelf
+@enduml

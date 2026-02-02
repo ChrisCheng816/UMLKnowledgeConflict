@@ -1,0 +1,4 @@
+@startuml
+FireAlarmInspectionReport --> HealthInspector
+HealthInspector --> CityHall
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BeachHandball <|-- Handball
+Handball <|-- Sport
+@enduml

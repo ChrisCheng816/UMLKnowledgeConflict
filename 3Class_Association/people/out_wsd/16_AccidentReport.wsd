@@ -1,0 +1,4 @@
+@startuml
+AccidentReport --> Judge
+Judge --> Court
+@enduml

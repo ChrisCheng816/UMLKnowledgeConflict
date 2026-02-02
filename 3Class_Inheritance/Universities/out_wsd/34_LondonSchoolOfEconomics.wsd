@@ -1,0 +1,4 @@
+@startuml
+LondonSchoolOfEconomics <|-- University
+University <|-- EducationalInstitution
+@enduml

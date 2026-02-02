@@ -1,0 +1,4 @@
+@startuml
+SmartLampPowerCord ..> SmartLamp
+WaterTreatmentFacilitySurgeProtector ..> SmartLampPowerCord
+@enduml

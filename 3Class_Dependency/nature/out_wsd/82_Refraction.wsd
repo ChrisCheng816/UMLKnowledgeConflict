@@ -1,0 +1,4 @@
+@startuml
+TransparentMedium ..> Refraction
+LightRay ..> TransparentMedium
+@enduml

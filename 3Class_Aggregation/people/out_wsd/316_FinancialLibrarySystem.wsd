@@ -1,0 +1,4 @@
+@startuml
+RescueTeam o-- FinancialLibrarySystem
+SearchAndRescueWorker o-- RescueTeam
+@enduml

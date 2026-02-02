@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> CoffeeMaker
+CircuitBreakerPanel ..> WallOutlet
+@enduml

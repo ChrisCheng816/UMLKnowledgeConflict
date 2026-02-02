@@ -1,0 +1,4 @@
+@startuml
+FirewallApplianceCalibrationCertificate --> BuildingInspector
+BuildingInspector --> CityHall
+@enduml

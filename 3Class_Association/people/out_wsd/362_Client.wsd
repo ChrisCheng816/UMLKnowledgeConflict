@@ -1,0 +1,4 @@
+@startuml
+Client --> Lawyer
+Lawyer --> LawFirm
+@enduml

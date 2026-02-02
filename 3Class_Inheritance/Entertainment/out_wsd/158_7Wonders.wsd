@@ -1,0 +1,4 @@
+@startuml
+7Wonders <|-- BoardGame
+BoardGame <|-- Game
+@enduml

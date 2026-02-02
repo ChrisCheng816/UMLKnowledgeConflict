@@ -1,0 +1,4 @@
+@startuml
+DishwasherRepairOrder --> Courier
+Courier --> DeliveryService
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HousekeepingTeam o-- Hotel
+Cleaner o-- HousekeepingTeam
+@enduml

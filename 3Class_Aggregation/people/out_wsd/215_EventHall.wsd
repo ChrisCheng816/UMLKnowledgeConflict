@@ -1,0 +1,4 @@
+@startuml
+SecurityTeam o-- EventHall
+SecurityGuard o-- SecurityTeam
+@enduml

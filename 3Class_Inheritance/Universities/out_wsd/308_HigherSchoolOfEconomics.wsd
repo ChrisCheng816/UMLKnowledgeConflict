@@ -1,0 +1,4 @@
+@startuml
+HigherSchoolOfEconomics <|-- University
+University <|-- EducationalInstitution
+@enduml

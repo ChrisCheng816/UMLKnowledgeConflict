@@ -1,0 +1,4 @@
+@startuml
+LaboratorySafetyChecklist --> Auditor
+Auditor --> AccountingFirm
+@enduml

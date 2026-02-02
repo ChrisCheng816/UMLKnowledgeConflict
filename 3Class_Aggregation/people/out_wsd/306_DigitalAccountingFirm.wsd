@@ -1,0 +1,4 @@
+@startuml
+PublicHealthCommittee o-- DigitalAccountingFirm
+ComplianceOfficer o-- PublicHealthCommittee
+@enduml

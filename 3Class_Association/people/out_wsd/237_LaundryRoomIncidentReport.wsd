@@ -1,0 +1,4 @@
+@startuml
+LaundryRoomIncidentReport --> BuildingInspector
+BuildingInspector --> CityHall
+@enduml

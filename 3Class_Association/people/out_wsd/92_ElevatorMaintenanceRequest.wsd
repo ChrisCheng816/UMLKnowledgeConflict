@@ -1,0 +1,4 @@
+@startuml
+ElevatorMaintenanceRequest --> Concierge
+Concierge --> Hotel
+@enduml

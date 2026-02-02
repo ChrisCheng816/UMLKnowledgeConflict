@@ -1,0 +1,4 @@
+@startuml
+BackInBlack <|-- Album
+Album <|-- MusicWork
+@enduml

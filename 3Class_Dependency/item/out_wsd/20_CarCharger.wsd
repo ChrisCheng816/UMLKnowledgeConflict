@@ -1,0 +1,4 @@
+@startuml
+CarCigaretteLighter ..> CarCharger
+CarBattery ..> CarCigaretteLighter
+@enduml

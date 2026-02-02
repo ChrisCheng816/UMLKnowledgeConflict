@@ -1,0 +1,4 @@
+@startuml
+Chef <|-- PersonRole
+PersonRole <|-- Person
+@enduml

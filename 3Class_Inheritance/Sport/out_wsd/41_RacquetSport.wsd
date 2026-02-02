@@ -1,0 +1,4 @@
+@startuml
+RacquetSport <|-- Sport
+Sport <|-- Activity
+@enduml

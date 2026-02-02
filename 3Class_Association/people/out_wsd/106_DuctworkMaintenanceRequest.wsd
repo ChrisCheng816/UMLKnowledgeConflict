@@ -1,0 +1,4 @@
+@startuml
+DuctworkMaintenanceRequest --> Barista
+Barista --> CoffeeShop
+@enduml

@@ -1,0 +1,13 @@
+{"id": "1", "template_id": "dependency", "nodes": ["BaleenWhale", "Krill", "Phytoplankton"], "edges": ["Krill ..> BaleenWhale", "Phytoplankton ..> Krill"]}
+{"id": "2", "template_id": "dependency", "nodes": ["BlueWhale", "Krill", "Phytoplankton"], "edges": ["Krill ..> BlueWhale", "Phytoplankton ..> Krill"]}
+{"id": "3", "template_id": "dependency", "nodes": ["HumpbackWhale", "Krill", "Phytoplankton"], "edges": ["Krill ..> HumpbackWhale", "Phytoplankton ..> Krill"]}
+{"id": "4", "template_id": "dependency", "nodes": ["KomodoDragon", "Deer", "Leaves"], "edges": ["Deer ..> KomodoDragon", "Leaves ..> Deer"]}
+{"id": "5", "template_id": "dependency", "nodes": ["Penguin", "Krill", "Phytoplankton"], "edges": ["Krill ..> Penguin", "Phytoplankton ..> Krill"]}
+{"id": "6", "template_id": "dependency", "nodes": ["EmperorPenguin", "Krill", "Phytoplankton"], "edges": ["Krill ..> EmperorPenguin", "Phytoplankton ..> Krill"]}
+{"id": "7", "template_id": "dependency", "nodes": ["VarroaDestructor", "HoneyBee", "Nectar"], "edges": ["HoneyBee ..> VarroaDestructor", "Nectar ..> HoneyBee"]}
+{"id": "8", "template_id": "dependency", "nodes": ["Tiger", "Deer", "Leaves"], "edges": ["Deer ..> Tiger", "Leaves ..> Deer"]}
+{"id": "9", "template_id": "dependency", "nodes": ["Leopard", "Deer", "Leaves"], "edges": ["Deer ..> Leopard", "Leaves ..> Deer"]}
+{"id": "10", "template_id": "dependency", "nodes": ["Jaguar", "Capybara", "Grasses"], "edges": ["Capybara ..> Jaguar", "Grasses ..> Capybara"]}
+{"id": "11", "template_id": "dependency", "nodes": ["Puma", "Deer", "Leaves"], "edges": ["Deer ..> Puma", "Leaves ..> Deer"]}
+{"id": "12", "template_id": "dependency", "nodes": ["AdeliePenguin", "Krill", "Phytoplankton"], "edges": ["Krill ..> AdeliePenguin", "Phytoplankton ..> Krill"]}
+{"id": "13", "template_id": "dependency", "nodes": ["ChinstrapPenguin", "Krill", "Phytoplankton"], "edges": ["Krill ..> ChinstrapPenguin", "Phytoplankton ..> Krill"]}

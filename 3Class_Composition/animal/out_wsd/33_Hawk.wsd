@@ -1,0 +1,4 @@
+@startuml
+Beak *-- Hawk
+Nostril *-- Beak
+@enduml

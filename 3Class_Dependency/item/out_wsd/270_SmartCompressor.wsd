@@ -1,0 +1,4 @@
+@startuml
+SmartCompressorPowerCord ..> SmartCompressor
+FarmhouseExtensionCord ..> SmartCompressorPowerCord
+@enduml

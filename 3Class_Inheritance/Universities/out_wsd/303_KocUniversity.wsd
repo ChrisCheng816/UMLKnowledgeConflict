@@ -1,0 +1,4 @@
+@startuml
+KocUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

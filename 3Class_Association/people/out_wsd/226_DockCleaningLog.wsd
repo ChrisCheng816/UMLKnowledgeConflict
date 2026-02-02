@@ -1,0 +1,4 @@
+@startuml
+DockCleaningLog --> Bartender
+Bartender --> WeddingVenue
+@enduml

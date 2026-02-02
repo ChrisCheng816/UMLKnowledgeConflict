@@ -1,0 +1,4 @@
+@startuml
+GasMeter ..> GasBoiler
+GasPipeline ..> GasMeter
+@enduml

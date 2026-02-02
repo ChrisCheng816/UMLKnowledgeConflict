@@ -1,0 +1,4 @@
+@startuml
+GlassCabinet o-- MuseumStore
+MuseumArtifact o-- GlassCabinet
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ETHZurich <|-- University
+University <|-- EducationalInstitution
+@enduml

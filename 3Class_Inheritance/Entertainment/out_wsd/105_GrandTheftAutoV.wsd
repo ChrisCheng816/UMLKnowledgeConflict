@@ -1,0 +1,4 @@
+@startuml
+GrandTheftAutoV <|-- VideoGame
+VideoGame <|-- Game
+@enduml

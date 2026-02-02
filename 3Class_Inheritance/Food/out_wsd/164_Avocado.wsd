@@ -1,0 +1,4 @@
+@startuml
+Avocado <|-- Fruit
+Fruit <|-- Food
+@enduml

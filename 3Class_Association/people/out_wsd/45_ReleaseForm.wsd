@@ -1,0 +1,4 @@
+@startuml
+ReleaseForm --> CameraOperator
+CameraOperator --> Publicist
+@enduml

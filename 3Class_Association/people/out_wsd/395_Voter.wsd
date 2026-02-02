@@ -1,0 +1,4 @@
+@startuml
+Voter --> PollWorker
+PollWorker --> PollingPlace
+@enduml

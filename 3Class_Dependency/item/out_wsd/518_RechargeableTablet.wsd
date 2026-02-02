@@ -1,0 +1,4 @@
+@startuml
+RechargeableTabletCharger ..> RechargeableTablet
+HospitalLobbyWallOutlet ..> RechargeableTabletCharger
+@enduml

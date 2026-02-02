@@ -1,0 +1,4 @@
+@startuml
+TranceMusic <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

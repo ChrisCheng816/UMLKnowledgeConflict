@@ -1,0 +1,4 @@
+@startuml
+FuelDeliveryTruck ..> DieselDepot
+FuelTerminal ..> FuelDeliveryTruck
+@enduml

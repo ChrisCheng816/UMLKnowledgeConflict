@@ -1,0 +1,4 @@
+@startuml
+SpringRoll <|-- Snack
+Snack <|-- Food
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+OscillatingToolPowerCord ..> OscillatingTool
+WoodShopSmartPlug ..> OscillatingToolPowerCord
+@enduml

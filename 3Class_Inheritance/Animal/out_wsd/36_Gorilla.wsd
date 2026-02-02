@@ -1,0 +1,4 @@
+@startuml
+Gorilla <|-- Mammal
+Mammal <|-- Animal
+@enduml

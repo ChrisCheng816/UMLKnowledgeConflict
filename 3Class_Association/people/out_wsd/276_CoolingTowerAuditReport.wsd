@@ -1,0 +1,4 @@
+@startuml
+CoolingTowerAuditReport --> ClaimsAdjuster
+ClaimsAdjuster --> PaymentProcessor
+@enduml

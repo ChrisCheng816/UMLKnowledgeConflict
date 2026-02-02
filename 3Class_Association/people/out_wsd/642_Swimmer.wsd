@@ -1,0 +1,4 @@
+@startuml
+Swimmer --> CoachAssistant
+CoachAssistant --> ClimbingGym
+@enduml

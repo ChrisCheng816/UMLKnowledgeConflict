@@ -1,0 +1,4 @@
+@startuml
+Cameroon <|-- Country
+Country <|-- Location
+@enduml

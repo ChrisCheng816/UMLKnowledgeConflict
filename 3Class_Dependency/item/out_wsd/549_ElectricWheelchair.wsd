@@ -1,0 +1,4 @@
+@startuml
+ElectricWheelchairCharger ..> ElectricWheelchair
+WoodShopWallOutlet ..> ElectricWheelchairCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Battleship <|-- BoardGame
+BoardGame <|-- Game
+@enduml

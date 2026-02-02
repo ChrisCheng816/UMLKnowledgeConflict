@@ -1,0 +1,4 @@
+@startuml
+Voter --> HealthInspector
+HealthInspector --> CityHall
+@enduml

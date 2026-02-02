@@ -1,0 +1,4 @@
+@startuml
+COAlarmPowerCord ..> COAlarm
+FoodTruckPowerStrip ..> COAlarmPowerCord
+@enduml

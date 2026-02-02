@@ -1,0 +1,4 @@
+@startuml
+StoveRepairOrder --> ComplianceOfficer
+ComplianceOfficer --> InsuranceCompany
+@enduml

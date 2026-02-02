@@ -1,0 +1,4 @@
+@startuml
+MansionsOfMadness <|-- BoardGame
+BoardGame <|-- Game
+@enduml

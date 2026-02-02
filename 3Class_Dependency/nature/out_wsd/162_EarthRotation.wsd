@@ -1,0 +1,4 @@
+@startuml
+Earth ..> EarthRotation
+Sunlight ..> Earth
+@enduml

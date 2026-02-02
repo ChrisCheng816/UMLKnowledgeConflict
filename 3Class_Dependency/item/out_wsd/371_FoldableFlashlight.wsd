@@ -1,0 +1,4 @@
+@startuml
+FoldableFlashlightPowerCord ..> FoldableFlashlight
+SolarPanel ..> FoldableFlashlightPowerCord
+@enduml

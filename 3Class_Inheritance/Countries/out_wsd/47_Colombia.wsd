@@ -1,0 +1,4 @@
+@startuml
+Colombia <|-- Country
+Country <|-- Location
+@enduml

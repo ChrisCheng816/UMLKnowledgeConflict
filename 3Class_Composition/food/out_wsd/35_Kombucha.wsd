@@ -1,0 +1,4 @@
+@startuml
+Tea *-- Kombucha
+TeaLeaves *-- Tea
+@enduml

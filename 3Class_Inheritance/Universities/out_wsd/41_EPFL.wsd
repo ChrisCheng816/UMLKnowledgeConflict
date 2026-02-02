@@ -1,0 +1,4 @@
+@startuml
+EPFL <|-- University
+University <|-- EducationalInstitution
+@enduml

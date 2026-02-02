@@ -1,0 +1,4 @@
+@startuml
+TeachingAssistant --> Examiner
+Examiner --> GraduateSchool
+@enduml

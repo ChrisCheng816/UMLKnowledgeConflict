@@ -1,0 +1,4 @@
+@startuml
+MarketingTeam o-- MountainFilmStudio
+UXDesigner o-- MarketingTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CocosKeelingIslands <|-- Country
+Country <|-- Location
+@enduml

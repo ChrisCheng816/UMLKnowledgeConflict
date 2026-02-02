@@ -1,0 +1,4 @@
+@startuml
+BoliviaPlurinationalStateof <|-- Country
+Country <|-- Location
+@enduml

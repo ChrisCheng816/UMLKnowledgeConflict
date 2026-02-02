@@ -1,0 +1,4 @@
+@startuml
+AirHandlerMaintenanceRequest --> BuildingInspector
+BuildingInspector --> CityHall
+@enduml

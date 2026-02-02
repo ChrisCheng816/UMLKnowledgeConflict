@@ -1,0 +1,4 @@
+@startuml
+RescueUnit o-- DigitalHospitalCenter
+Paramedic o-- RescueUnit
+@enduml

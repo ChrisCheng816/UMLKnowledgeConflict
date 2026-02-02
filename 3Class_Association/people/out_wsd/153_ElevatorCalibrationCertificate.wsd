@@ -1,0 +1,4 @@
+@startuml
+ElevatorCalibrationCertificate --> Teacher
+Teacher --> School
+@enduml

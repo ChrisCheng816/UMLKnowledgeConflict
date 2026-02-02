@@ -1,0 +1,4 @@
+@startuml
+ForkliftAuditReport --> LoanOfficer
+LoanOfficer --> Bank
+@enduml

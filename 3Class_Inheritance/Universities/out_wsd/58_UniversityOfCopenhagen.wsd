@@ -1,0 +1,4 @@
+@startuml
+UniversityOfCopenhagen <|-- University
+University <|-- EducationalInstitution
+@enduml

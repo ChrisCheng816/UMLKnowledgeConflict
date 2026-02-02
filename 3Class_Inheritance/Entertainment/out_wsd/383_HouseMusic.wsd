@@ -1,0 +1,4 @@
+@startuml
+HouseMusic <|-- MusicGenre
+MusicGenre <|-- Music
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WasteRoomIncidentReport --> FireMarshal
+FireMarshal --> BuildingDepartment
+@enduml

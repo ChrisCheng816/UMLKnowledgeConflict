@@ -1,0 +1,4 @@
+@startuml
+NissanLeaf <|-- Nissan
+Nissan <|-- CarManufacturer
+@enduml

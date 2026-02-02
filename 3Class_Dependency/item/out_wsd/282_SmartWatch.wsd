@@ -1,0 +1,4 @@
+@startuml
+SmartWatchPowerCord ..> SmartWatch
+RecordingStudioExtensionCord ..> SmartWatchPowerCord
+@enduml

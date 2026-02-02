@@ -1,0 +1,4 @@
+@startuml
+StorageTankInspectionReport --> ComplianceOfficer
+ComplianceOfficer --> InsuranceCompany
+@enduml

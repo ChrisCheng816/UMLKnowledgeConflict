@@ -1,0 +1,4 @@
+@startuml
+BetterCallSaul <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

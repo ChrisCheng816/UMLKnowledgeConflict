@@ -1,0 +1,4 @@
+@startuml
+Beak *-- Plover
+Nostril *-- Beak
+@enduml

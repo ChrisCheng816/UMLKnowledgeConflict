@@ -1,0 +1,4 @@
+@startuml
+OrganPipeCactus <|-- Cactus
+Cactus <|-- Plant
+@enduml

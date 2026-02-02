@@ -1,0 +1,4 @@
+@startuml
+PumpStation ..> WaterTower
+WaterTreatmentPlant ..> PumpStation
+@enduml

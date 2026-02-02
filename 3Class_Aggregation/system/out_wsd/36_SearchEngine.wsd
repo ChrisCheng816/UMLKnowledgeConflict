@@ -1,0 +1,4 @@
+@startuml
+IndexShard o-- SearchEngine
+IndexSegment o-- IndexShard
+@enduml

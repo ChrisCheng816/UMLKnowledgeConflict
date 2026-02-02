@@ -1,0 +1,4 @@
+@startuml
+Sender --> PostalWorker
+PostalWorker --> PostOffice
+@enduml

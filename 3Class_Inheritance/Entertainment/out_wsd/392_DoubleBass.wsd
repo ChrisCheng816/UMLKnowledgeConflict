@@ -1,0 +1,4 @@
+@startuml
+DoubleBass <|-- MusicalInstrument
+MusicalInstrument <|-- Music
+@enduml

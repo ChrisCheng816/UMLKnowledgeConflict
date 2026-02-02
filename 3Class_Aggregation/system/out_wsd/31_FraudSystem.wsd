@@ -1,0 +1,4 @@
+@startuml
+AuditService o-- FraudSystem
+AuditLog o-- AuditService
+@enduml

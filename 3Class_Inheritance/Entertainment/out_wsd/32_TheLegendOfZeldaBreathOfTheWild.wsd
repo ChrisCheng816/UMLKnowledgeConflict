@@ -1,0 +1,4 @@
+@startuml
+TheLegendOfZeldaBreathOfTheWild <|-- VideoGame
+VideoGame <|-- Game
+@enduml

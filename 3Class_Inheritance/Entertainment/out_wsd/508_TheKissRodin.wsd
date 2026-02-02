@@ -1,0 +1,4 @@
+@startuml
+TheKissRodin <|-- Sculpture
+Sculpture <|-- Artwork
+@enduml

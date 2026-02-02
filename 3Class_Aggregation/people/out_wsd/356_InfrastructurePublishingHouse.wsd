@@ -1,0 +1,4 @@
+@startuml
+EditorialTeam o-- InfrastructurePublishingHouse
+Reporter o-- EditorialTeam
+@enduml

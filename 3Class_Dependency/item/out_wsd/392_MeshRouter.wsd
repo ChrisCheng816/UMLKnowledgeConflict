@@ -1,0 +1,4 @@
+@startuml
+MeshRouterACAdapter ..> MeshRouter
+InternetService ..> MeshRouterACAdapter
+@enduml

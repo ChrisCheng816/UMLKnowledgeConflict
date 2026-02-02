@@ -1,0 +1,4 @@
+@startuml
+Germination ..> PlantGrowth
+Moisture ..> Germination
+@enduml

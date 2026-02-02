@@ -1,0 +1,4 @@
+@startuml
+TheGodfather <|-- Film
+Film <|-- Entertainment
+@enduml

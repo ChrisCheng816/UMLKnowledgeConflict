@@ -1,0 +1,4 @@
+@startuml
+Onigiri <|-- Snack
+Snack <|-- Food
+@enduml

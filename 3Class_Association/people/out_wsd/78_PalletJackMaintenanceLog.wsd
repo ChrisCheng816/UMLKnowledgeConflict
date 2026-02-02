@@ -1,0 +1,4 @@
+@startuml
+PalletJackMaintenanceLog --> HealthInspector
+HealthInspector --> CityHall
+@enduml

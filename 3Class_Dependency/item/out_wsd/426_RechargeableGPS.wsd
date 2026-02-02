@@ -1,0 +1,4 @@
+@startuml
+RechargeableGPSCharger ..> RechargeableGPS
+BarnExtensionCord ..> RechargeableGPSCharger
+@enduml

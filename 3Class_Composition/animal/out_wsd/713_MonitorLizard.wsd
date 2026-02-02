@@ -1,0 +1,4 @@
+@startuml
+Tail *-- MonitorLizard
+Feather *-- Tail
+@enduml

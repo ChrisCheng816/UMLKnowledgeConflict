@@ -1,0 +1,4 @@
+@startuml
+EldenRing <|-- VideoGame
+VideoGame <|-- Game
+@enduml

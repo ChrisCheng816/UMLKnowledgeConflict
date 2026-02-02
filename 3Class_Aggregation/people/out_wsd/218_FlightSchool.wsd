@@ -1,0 +1,4 @@
+@startuml
+PilotTeam o-- FlightSchool
+HarborPilot o-- PilotTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StatueOfLiberty <|-- Sculpture
+Sculpture <|-- Artwork
+@enduml

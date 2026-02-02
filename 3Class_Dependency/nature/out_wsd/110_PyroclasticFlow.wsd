@@ -1,0 +1,4 @@
+@startuml
+Volcano ..> PyroclasticFlow
+Magma ..> Volcano
+@enduml

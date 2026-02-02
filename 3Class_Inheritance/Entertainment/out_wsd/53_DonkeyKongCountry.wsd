@@ -1,0 +1,4 @@
+@startuml
+DonkeyKongCountry <|-- VideoGame
+VideoGame <|-- Game
+@enduml

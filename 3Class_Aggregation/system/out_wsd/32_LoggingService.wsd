@@ -1,0 +1,4 @@
+@startuml
+CollectorModule o-- LoggingService
+LogFile o-- CollectorModule
+@enduml

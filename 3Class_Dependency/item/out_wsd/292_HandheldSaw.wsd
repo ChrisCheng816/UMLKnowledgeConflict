@@ -1,0 +1,4 @@
+@startuml
+HandheldSawPowerCord ..> HandheldSaw
+GalleryWallOutlet ..> HandheldSawPowerCord
+@enduml

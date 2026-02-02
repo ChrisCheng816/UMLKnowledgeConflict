@@ -1,0 +1,4 @@
+@startuml
+Curry <|-- Dish
+Dish <|-- Food
+@enduml

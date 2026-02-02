@@ -1,0 +1,4 @@
+@startuml
+PatientCaller --> TaxCollector
+TaxCollector --> CityHall
+@enduml

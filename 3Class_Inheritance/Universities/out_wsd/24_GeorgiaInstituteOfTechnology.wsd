@@ -1,0 +1,4 @@
+@startuml
+GeorgiaInstituteOfTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Policyholder --> InsuranceAgent
+InsuranceAgent --> InsuranceCompany
+@enduml

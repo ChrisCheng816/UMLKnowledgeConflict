@@ -1,0 +1,4 @@
+@startuml
+KitchenHoodRepairOrder --> ComplianceOfficer
+ComplianceOfficer --> InsuranceCompany
+@enduml

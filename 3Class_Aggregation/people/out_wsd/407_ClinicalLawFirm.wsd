@@ -1,0 +1,4 @@
+@startuml
+OperationsTeam o-- ClinicalLawFirm
+TrainConductor o-- OperationsTeam
+@enduml

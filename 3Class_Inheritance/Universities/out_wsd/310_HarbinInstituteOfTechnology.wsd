@@ -1,0 +1,4 @@
+@startuml
+HarbinInstituteOfTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

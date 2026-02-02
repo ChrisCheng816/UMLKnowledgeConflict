@@ -1,0 +1,4 @@
+@startuml
+ArabianDesert <|-- Desert
+Desert <|-- GeographicFeature
+@enduml

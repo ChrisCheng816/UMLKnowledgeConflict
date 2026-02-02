@@ -1,0 +1,4 @@
+@startuml
+NebulizerCharger ..> Nebulizer
+SportsArenaSurgeProtector ..> NebulizerCharger
+@enduml

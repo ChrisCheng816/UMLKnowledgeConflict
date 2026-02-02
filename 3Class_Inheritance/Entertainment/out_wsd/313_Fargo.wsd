@@ -1,0 +1,4 @@
+@startuml
+Fargo <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

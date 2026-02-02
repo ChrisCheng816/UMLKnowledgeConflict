@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- MetroLibrary
+Ebook o-- Shelf
+@enduml

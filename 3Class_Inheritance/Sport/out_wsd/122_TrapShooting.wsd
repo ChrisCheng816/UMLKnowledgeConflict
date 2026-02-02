@@ -1,0 +1,4 @@
+@startuml
+TrapShooting <|-- ShootingSport
+ShootingSport <|-- Sport
+@enduml

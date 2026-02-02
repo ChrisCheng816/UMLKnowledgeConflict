@@ -1,0 +1,4 @@
+@startuml
+CTScanReport --> Radiologist
+Radiologist --> RehabilitationCenter
+@enduml

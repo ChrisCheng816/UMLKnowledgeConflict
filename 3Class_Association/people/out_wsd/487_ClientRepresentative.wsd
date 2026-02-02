@@ -1,0 +1,4 @@
+@startuml
+ClientRepresentative --> CourtClerk
+CourtClerk --> MagistrateCourt
+@enduml

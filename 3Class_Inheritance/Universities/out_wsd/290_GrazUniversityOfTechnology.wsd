@@ -1,0 +1,4 @@
+@startuml
+GrazUniversityOfTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

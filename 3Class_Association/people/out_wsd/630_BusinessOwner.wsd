@@ -1,0 +1,4 @@
+@startuml
+BusinessOwner --> Caseworker
+Caseworker --> MagistrateCourt
+@enduml

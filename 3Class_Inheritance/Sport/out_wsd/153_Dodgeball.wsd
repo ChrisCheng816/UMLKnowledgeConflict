@@ -1,0 +1,4 @@
+@startuml
+Dodgeball <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

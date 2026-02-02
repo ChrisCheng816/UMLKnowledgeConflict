@@ -1,0 +1,4 @@
+@startuml
+ImmunizationCard --> Dentist
+Dentist --> DentalClinic
+@enduml

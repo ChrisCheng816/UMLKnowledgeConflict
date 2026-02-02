@@ -1,0 +1,4 @@
+@startuml
+RechargeablePrinterCharger ..> RechargeablePrinter
+ClassroomPowerStrip ..> RechargeablePrinterCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MechanicalRoomIncidentReport --> Detective
+Detective --> PoliceStation
+@enduml

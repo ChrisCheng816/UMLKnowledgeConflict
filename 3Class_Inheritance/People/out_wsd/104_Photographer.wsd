@@ -1,0 +1,4 @@
+@startuml
+Photographer <|-- Artist
+Artist <|-- PersonRole
+@enduml

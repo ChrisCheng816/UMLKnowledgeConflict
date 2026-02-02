@@ -1,0 +1,4 @@
+@startuml
+ElectricShaverPowerCord ..> ElectricShaver
+CommunityCenterSurgeProtector ..> ElectricShaverPowerCord
+@enduml

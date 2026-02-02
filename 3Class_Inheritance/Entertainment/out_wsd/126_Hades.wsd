@@ -1,0 +1,4 @@
+@startuml
+Hades <|-- VideoGame
+VideoGame <|-- Game
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Yam <|-- RootVegetable
+RootVegetable <|-- Vegetable
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TheSopranos <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

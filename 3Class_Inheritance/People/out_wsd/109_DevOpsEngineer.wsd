@@ -1,0 +1,4 @@
+@startuml
+DevOpsEngineer <|-- Engineer
+Engineer <|-- PersonRole
+@enduml

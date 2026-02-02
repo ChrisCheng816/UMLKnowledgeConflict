@@ -1,0 +1,4 @@
+@startuml
+NewsArticle --> SoundEngineer
+SoundEngineer --> Archivist
+@enduml

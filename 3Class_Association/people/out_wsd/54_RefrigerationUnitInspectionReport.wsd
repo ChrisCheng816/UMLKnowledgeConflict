@@ -1,0 +1,4 @@
+@startuml
+RefrigerationUnitInspectionReport --> FireMarshal
+FireMarshal --> BuildingDepartment
+@enduml

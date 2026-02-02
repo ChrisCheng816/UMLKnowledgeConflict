@@ -1,0 +1,4 @@
+@startuml
+PerformanceReviewForm --> Cashier
+Cashier --> Supermarket
+@enduml

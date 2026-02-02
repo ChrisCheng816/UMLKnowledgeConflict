@@ -1,0 +1,4 @@
+@startuml
+Crate o-- CountyDepot
+CoffeeBean o-- Crate
+@enduml

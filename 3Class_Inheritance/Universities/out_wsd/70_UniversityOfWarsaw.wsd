@@ -1,0 +1,4 @@
+@startuml
+UniversityOfWarsaw <|-- University
+University <|-- EducationalInstitution
+@enduml

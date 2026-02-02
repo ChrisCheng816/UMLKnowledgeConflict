@@ -1,0 +1,4 @@
+@startuml
+UPSRepairOrder --> FireMarshal
+FireMarshal --> BuildingDepartment
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Motorist --> FireMarshal
+FireMarshal --> BuildingDepartment
+@enduml

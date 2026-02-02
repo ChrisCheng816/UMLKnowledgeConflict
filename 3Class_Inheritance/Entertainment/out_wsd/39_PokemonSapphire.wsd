@@ -1,0 +1,4 @@
+@startuml
+PokemonSapphire <|-- VideoGame
+VideoGame <|-- Game
+@enduml

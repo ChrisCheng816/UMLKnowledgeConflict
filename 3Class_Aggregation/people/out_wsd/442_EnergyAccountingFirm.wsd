@@ -1,0 +1,4 @@
+@startuml
+MentorTeam o-- EnergyAccountingFirm
+DataAnalyst o-- MentorTeam
+@enduml

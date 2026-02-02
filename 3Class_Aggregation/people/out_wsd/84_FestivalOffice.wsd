@@ -1,0 +1,4 @@
+@startuml
+OperationsTeam o-- FestivalOffice
+TrainConductor o-- OperationsTeam
+@enduml

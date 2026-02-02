@@ -1,0 +1,4 @@
+@startuml
+LaboratoryCleaningLog --> Waiter
+Waiter --> HotelLobby
+@enduml

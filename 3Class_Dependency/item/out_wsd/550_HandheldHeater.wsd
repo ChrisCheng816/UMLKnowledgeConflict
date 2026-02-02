@@ -1,0 +1,4 @@
+@startuml
+HandheldHeaterPowerCord ..> HandheldHeater
+CampusLabWallOutlet ..> HandheldHeaterPowerCord
+@enduml

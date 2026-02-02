@@ -1,0 +1,4 @@
+@startuml
+ArenaFootball <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

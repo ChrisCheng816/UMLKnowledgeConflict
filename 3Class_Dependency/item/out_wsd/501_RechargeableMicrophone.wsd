@@ -1,0 +1,4 @@
+@startuml
+RechargeableMicrophoneCharger ..> RechargeableMicrophone
+PostOfficeSmartPlug ..> RechargeableMicrophoneCharger
+@enduml

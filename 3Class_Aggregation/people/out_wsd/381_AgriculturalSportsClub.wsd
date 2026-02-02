@@ -1,0 +1,4 @@
+@startuml
+SecurityTeam o-- AgriculturalSportsClub
+SecurityGuard o-- SecurityTeam
+@enduml

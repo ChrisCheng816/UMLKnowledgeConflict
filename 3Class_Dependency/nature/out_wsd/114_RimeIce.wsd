@@ -1,0 +1,4 @@
+@startuml
+FreezingTemperature ..> RimeIce
+PolarAir ..> FreezingTemperature
+@enduml
