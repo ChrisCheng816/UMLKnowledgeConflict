@@ -1,0 +1,4 @@
+@startuml
+Bottle <|-- Container
+Container <|-- Item
+@enduml

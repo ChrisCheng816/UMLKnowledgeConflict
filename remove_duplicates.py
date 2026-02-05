@@ -139,7 +139,12 @@ def dedup_files_in_place(paths: Iterable[Path], seen: set[str]) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("root", help="Root directory to scan recursively.")
+    parser.add_argument(
+        "root",
+        nargs="?",
+        default=None,
+        help="Root directory to scan recursively. If omitted, scans all 2Class_* and 3Class_* folders under CWD.",
+    )
     parser.add_argument(
         "--dry-run",
         action="store_true",
@@ -147,25 +152,37 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    root = Path(args.root).expanduser().resolve()
-    if not root.exists() or not root.is_dir():
-        raise SystemExit(f"Not a directory: {root}")
+    if args.root:
+        root = Path(args.root).expanduser().resolve()
+        if not root.exists() or not root.is_dir():
+            raise SystemExit(f"Not a directory: {root}")
+        roots = [root]
+    else:
+        cwd = Path.cwd().resolve()
+        roots = [
+            p
+            for p in cwd.iterdir()
+            if p.is_dir() and (p.name.startswith("2Class_") or p.name.startswith("3Class_"))
+        ]
+        if not roots:
+            raise SystemExit(f"No 2Class_* or 3Class_* folders found under: {cwd}")
 
     total_files = 0
     total_removed = 0
 
-    # Group by top-level folder under root for cross-file dedup (e.g., 2Class_* or 3Class_*).
+    # Group by top-level folder under each root for cross-file dedup (e.g., 2Class_* or 3Class_*).
     groups: Dict[str, List[Path]] = {}
-    for path in sorted(root.rglob("data.txt")):
-        if not path.is_file():
-            continue
-        total_files += 1
-        try:
-            rel = path.relative_to(root)
-            group = rel.parts[0] if rel.parts else ""
-        except ValueError:
-            group = ""
-        groups.setdefault(group, []).append(path)
+    for root in roots:
+        for path in sorted(root.rglob("data.txt")):
+            if not path.is_file():
+                continue
+            total_files += 1
+            try:
+                rel = path.relative_to(root)
+                group = rel.parts[0] if rel.parts else root.name
+            except ValueError:
+                group = root.name
+            groups.setdefault(group, []).append(path)
 
     for group, paths in sorted(groups.items(), key=lambda kv: kv[0].lower()):
         # Dry-run: count removals using a shared seen set across the group.
@@ -178,7 +195,7 @@ def main() -> int:
                     stripped = line.strip()
                     if not stripped:
                         continue
-                    key = stripped.casefold()
+                    key = _dedup_key(stripped)
                     if key in seen:
                         removed += 1
                     else:

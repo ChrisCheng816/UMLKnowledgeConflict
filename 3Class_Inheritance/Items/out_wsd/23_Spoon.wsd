@@ -1,0 +1,4 @@
+@startuml
+Spoon <|-- Utensil
+Utensil <|-- Item
+@enduml
