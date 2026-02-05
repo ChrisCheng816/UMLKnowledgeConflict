@@ -36,8 +36,6 @@ Hologram Interference CoherentLight
 EchoLocation Echo Reflection
 SonarReturn Reflection SmoothSurface
 TerminalVelocity Drag AirResistance
-Influenza Virus Host
-Cancer Mutation DNAError
 Decomposition Microorganisms OrganicMatter
 Composting Microorganisms OrganicMatter
 Bioluminescence LuciferinReaction Organism
@@ -46,14 +44,8 @@ BreadRising Yeast Sugar
 Spoilage Microorganisms OrganicMatter
 SeedDispersal Wind PressureDifference
 Rainbow Sunlight Sun
-Sunlight Sun Photosphere
-SolarWind Sun Photosphere
 CometTail Sunlight Sun
-SolarEclipse Moon EarthOrbit
-LunarEclipse Earth Sunlight
 Earth Sunlight Sun
-Tide Moon EarthOrbit
-Moon Earth Sunlight
 OceanWave Wind PressureDifference
 Wind StormSystem PressureGradient
 Wind PressureSystem TemperatureContrast
@@ -87,7 +79,6 @@ Germination Water SeedCoat
 Pollination Pollen Stamen
 Pollen Flower Plant
 Sunburn UVRadiation Sun
-UVRadiation Sun Photosphere
 GeomagneticStorm SolarWind Sun
 ElNino OceanCurrent CoriolisEffect
 OceanCurrent CoriolisEffect EarthRotation
@@ -160,7 +151,6 @@ StormSystem PressureGradient TemperatureContrast
 PlateTectonics MantleConvection EarthHeat
 MantleConvection EarthHeat EarthCore
 TimeZoneShift EarthRotation Earth
-EarthRotation Earth Sunlight
 SeedSet Pollination Pollinator
 VolcanicEruption Magma EarthHeat
 CoastalErosion WaveEnergy Wind

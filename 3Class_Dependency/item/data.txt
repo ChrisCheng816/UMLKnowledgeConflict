@@ -1,12 +1,3 @@
-GasLawnmower Gasoline JerryCan
-GasChainsaw Gasoline JerryCan
-GasLeafBlower Gasoline JerryCan
-GasStringTrimmer Gasoline JerryCan
-GasGenerator Gasoline JerryCan
-GasPressureWasher Gasoline JerryCan
-GoKart Gasoline JerryCan
-DirtBike Gasoline JerryCan
-Speedboat Gasoline JerryCan
 Smartphone USBCharger WallOutlet
 USBCharger WallOutlet CircuitBreakerPanel
 Tablet USBCharger WallOutlet
@@ -66,7 +57,6 @@ WalkieTalkieBattery BatteryCharger WallOutlet
 LaptopBattery LaptopCharger WallOutlet
 LaptopCharger WallOutlet CircuitBreakerPanel
 ElectricVehicle BatteryCharger WallOutlet
-BatteryCharger ChargingStation UtilityTransformer
 ChargingStation UtilityTransformer DistributionLine
 NeonSign PowerSupply WallOutlet
 PowerSupply WallOutlet CircuitBreakerPanel
@@ -165,19 +155,12 @@ PropaneGrill PropaneTank PropaneFillingStation
 PropaneHeater PropaneTank PropaneFillingStation
 PropaneTorch PropaneTank PropaneFillingStation
 CampingStove PropaneTank PropaneFillingStation
-ButaneStove ButaneCanister ConvenienceStore
 FirePit Firewood FirewoodSupplier
-CharcoalGrill CharcoalBag GroceryStore
 WoodStove Firewood FirewoodSupplier
 PelletStove WoodPellets PelletSupplier
-GasolineGenerator Gasoline JerryCan
-Gasoline JerryCan GasStation
-JerryCan GasStation FuelDeliveryTruck
 GasStation FuelDeliveryTruck FuelTerminal
 FuelDeliveryTruck FuelTerminal Refinery
 FuelTerminal Refinery CrudeOilSupply
-ArcWelder WeldingElectrode WeldingSupplyStore
-WeldingElectrode WeldingSupplyStore InventoryShipment
 WeldingSupplyStore InventoryShipment DeliveryTruck
 Car GasStation FuelDeliveryTruck
 Motorcycle GasStation FuelDeliveryTruck
@@ -394,7 +377,6 @@ MeshRouter MeshRouterACAdapter InternetService
 WaterproofHeater WaterproofHeaterPowerCord BalconyPowerStrip
 RechargeableBlender RechargeableBlenderCharger BalconyExtensionCord
 CompactHeater CompactHeaterPowerCord StudioApartmentExtensionCord
-PortableHeadphones PortableHeadphonesCharger PropaneSupplier
 ElectricSkateboard ElectricSkateboardCharger CourthouseWallOutlet
 RechargeableSpeaker RechargeableSpeakerCharger HomeOfficeWallOutlet
 CompactFlashlight CompactFlashlightPowerCord ChemistryLabPowerStrip
@@ -442,7 +424,6 @@ SmartSpeaker SmartSpeakerPowerCord CityHallPowerStrip
 COAlarm COAlarmPowerCord FoodTruckPowerStrip
 MarineGPS MarineGPSPowerCord SkiLodgePowerStrip
 Defibrillator DefibrillatorPowerCord SolarFarmOfficeExtensionCord
-SmartProjector SmartProjectorPowerCord PropaneSupplier
 ElectricScooter ElectricScooterCharger PostOfficePowerStrip
 FiberModem FiberModemACAdapter PharmacyExtensionCord
 RechargeableGrill RechargeableGrillCharger PoliceStationPowerStrip
@@ -482,7 +463,6 @@ Dehumidifier DehumidifierPowerCord BiologyLabPowerStrip
 OutdoorWatch OutdoorWatchPowerCord ClassroomExtensionCord
 Drone DroneCharger BedroomWallOutlet
 LaserLevel LaserLevelPowerCord RestaurantWallOutlet
-PortablePump PortablePumpCharger PropaneSupplier
 AutomaticBlender AutomaticBlenderPowerCord BankLobbyWallOutlet
 AutomaticSaw AutomaticSawPowerCord WindFarmOfficeExtensionCord
 CordlessDrill CordlessDrillCharger HomeOfficeWallOutlet
