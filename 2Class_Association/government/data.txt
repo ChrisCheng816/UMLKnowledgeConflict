@@ -8,10 +8,6 @@ TransitReport PoliceDetective
 PoliceDetective PoliceDepartment
 ComplianceNotice PoliceDetective
 PermitApplication PoliceDetective
-InspectionReport SanitationSupervisor
-SanitationSupervisor SanitationDepartment
-IncidentLog SanitationSupervisor
-PatrolReport SanitationSupervisor
 WaterQualityReport WaterQualityTechnician
 WaterQualityTechnician WaterTreatmentPlant
 BudgetProposal WaterQualityTechnician
@@ -49,7 +45,6 @@ ZoningMap Caseworker
 EmergencyPlan TransitInspector
 TransitInspector TransitAuthority
 ServiceRequest TransitInspector
-MaintenanceSchedule TransitInspector
 MeetingMinutes EnvironmentalInspector
 TransitReport EnvironmentalInspector
 PatrolReport PublicWorksEngineer

@@ -25,9 +25,6 @@ DeliveryConfirmation RouteDispatcher DispatchOffice
 TransitLog Courier CourierService
 CarrierContract Courier CourierService
 BillOfLading Courier CourierService
-CargoManifest CustomsBroker CustomsOffice
-ShippingLabel CustomsBroker CustomsOffice
-DeliverySchedule CustomsBroker CustomsOffice
 PackingList InventoryAuditor InventoryDepartment
 DispatchOrder InventoryAuditor InventoryDepartment
 CustomsDeclaration InventoryAuditor InventoryDepartment

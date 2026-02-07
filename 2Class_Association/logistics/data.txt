@@ -34,10 +34,6 @@ TransitLog Courier
 Courier CourierService
 CarrierContract Courier
 BillOfLading Courier
-CargoManifest CustomsBroker
-CustomsBroker CustomsOffice
-ShippingLabel CustomsBroker
-DeliverySchedule CustomsBroker
 PackingList InventoryAuditor
 InventoryAuditor InventoryDepartment
 DispatchOrder InventoryAuditor
