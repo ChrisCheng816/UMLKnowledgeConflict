@@ -1,0 +1,4 @@
+@startuml
+InspectionReport --> SanitationSupervisor
+SanitationSupervisor --> SanitationDepartment
+@enduml

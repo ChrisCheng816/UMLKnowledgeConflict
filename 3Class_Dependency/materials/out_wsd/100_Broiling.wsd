@@ -1,0 +1,4 @@
+@startuml
+GasOven ..> Broiling
+NaturalGas ..> GasOven
+@enduml

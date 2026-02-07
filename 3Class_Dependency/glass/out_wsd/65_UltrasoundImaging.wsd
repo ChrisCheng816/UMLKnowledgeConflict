@@ -1,0 +1,4 @@
+@startuml
+UltrasoundMachine ..> UltrasoundImaging
+Electricity ..> UltrasoundMachine
+@enduml

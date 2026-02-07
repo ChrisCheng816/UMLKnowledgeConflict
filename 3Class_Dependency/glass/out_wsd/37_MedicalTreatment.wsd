@@ -1,0 +1,4 @@
+@startuml
+LinearAccelerator ..> MedicalTreatment
+Electricity ..> LinearAccelerator
+@enduml

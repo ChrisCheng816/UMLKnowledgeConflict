@@ -1,0 +1,4 @@
+@startuml
+LabOrder --> Dentist
+Dentist --> DentalClinic
+@enduml

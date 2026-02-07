@@ -1,0 +1,4 @@
+@startuml
+RadiologyReport --> Nurse
+Nurse --> CommunityHospital
+@enduml

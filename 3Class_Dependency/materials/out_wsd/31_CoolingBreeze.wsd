@@ -1,0 +1,4 @@
+@startuml
+CeilingFan ..> CoolingBreeze
+Electricity ..> CeilingFan
+@enduml

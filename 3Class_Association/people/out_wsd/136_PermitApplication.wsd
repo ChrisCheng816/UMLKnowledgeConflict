@@ -1,0 +1,4 @@
+@startuml
+PermitApplication --> PermitTechnician
+PermitTechnician --> BuildingDepartment
+@enduml

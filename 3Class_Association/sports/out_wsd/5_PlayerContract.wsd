@@ -1,0 +1,4 @@
+@startuml
+PlayerContract --> Referee
+Referee --> LeagueOffice
+@enduml

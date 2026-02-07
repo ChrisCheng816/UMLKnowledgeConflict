@@ -1,0 +1,4 @@
+@startuml
+JavaRuntime ..> BuildTool
+OperatingSystem ..> JavaRuntime
+@enduml

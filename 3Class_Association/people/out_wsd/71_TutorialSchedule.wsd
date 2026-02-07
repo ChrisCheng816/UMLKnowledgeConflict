@@ -1,0 +1,4 @@
+@startuml
+TutorialSchedule --> TeachingAssistant
+TeachingAssistant --> College
+@enduml

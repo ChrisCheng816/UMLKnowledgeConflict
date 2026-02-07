@@ -1,0 +1,4 @@
+@startuml
+CruiseManifest --> CruiseDirector
+CruiseDirector --> CruiseShip
+@enduml

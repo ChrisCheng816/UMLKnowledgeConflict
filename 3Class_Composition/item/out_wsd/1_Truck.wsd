@@ -1,0 +1,4 @@
+@startuml
+Engine *-- Truck
+Piston *-- Engine
+@enduml

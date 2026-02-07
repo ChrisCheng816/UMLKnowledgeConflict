@@ -1,0 +1,4 @@
+@startuml
+FilingChecklist --> LegalSecretary
+LegalSecretary --> LawFirm
+@enduml

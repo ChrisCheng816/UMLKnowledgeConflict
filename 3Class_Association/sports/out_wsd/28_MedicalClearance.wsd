@@ -1,0 +1,4 @@
+@startuml
+MedicalClearance --> TicketAgent
+TicketAgent --> ArenaBoxOffice
+@enduml

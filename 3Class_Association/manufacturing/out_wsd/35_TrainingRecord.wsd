@@ -1,0 +1,4 @@
+@startuml
+TrainingRecord --> ProductionSupervisor
+ProductionSupervisor --> AssemblyLine
+@enduml

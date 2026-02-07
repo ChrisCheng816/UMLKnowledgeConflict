@@ -1,0 +1,4 @@
+@startuml
+DiagramTool ..> Flowchart
+OperatingSystem ..> DiagramTool
+@enduml

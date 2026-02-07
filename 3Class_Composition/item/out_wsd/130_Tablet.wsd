@@ -1,0 +1,4 @@
+@startuml
+DisplayModule *-- Tablet
+Polarizer *-- DisplayModule
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BookingConfirmation --> BanquetCaptain
+BanquetCaptain --> BanquetHall
+@enduml

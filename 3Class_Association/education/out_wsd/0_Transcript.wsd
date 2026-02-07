@@ -1,0 +1,4 @@
+@startuml
+Transcript --> Registrar
+Registrar --> RegistrarOffice
+@enduml

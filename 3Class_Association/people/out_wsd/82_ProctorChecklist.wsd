@@ -1,0 +1,4 @@
+@startuml
+ProctorChecklist --> Examiner
+Examiner --> ExamCenter
+@enduml

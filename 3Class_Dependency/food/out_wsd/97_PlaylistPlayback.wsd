@@ -1,0 +1,4 @@
+@startuml
+RadioStreamingService ..> PlaylistPlayback
+InternetConnection ..> RadioStreamingService
+@enduml

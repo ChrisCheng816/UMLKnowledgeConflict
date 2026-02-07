@@ -1,0 +1,4 @@
+@startuml
+ReferralForm --> CareCoordinator
+CareCoordinator --> Clinic
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MusicStreamingService ..> MusicStreaming
+InternetConnection ..> MusicStreamingService
+@enduml

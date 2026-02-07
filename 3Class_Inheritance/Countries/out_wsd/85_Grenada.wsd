@@ -1,0 +1,4 @@
+@startuml
+Grenada <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

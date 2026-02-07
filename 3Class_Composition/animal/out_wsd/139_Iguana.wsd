@@ -1,4 +1,4 @@
 @startuml
-Tail *-- Iguana
-Vertebra *-- Tail
+Tooth *-- Iguana
+Root *-- Tooth
 @enduml

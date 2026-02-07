@@ -1,0 +1,4 @@
+@startuml
+BudgetProposal --> BudgetAnalyst
+BudgetAnalyst --> TreasuryOffice
+@enduml

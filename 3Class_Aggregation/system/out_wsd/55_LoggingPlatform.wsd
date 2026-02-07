@@ -1,4 +1,0 @@
-@startuml
-CollectorModule o-- LoggingPlatform
-LogFile o-- CollectorModule
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+TurbineEngine *-- TurbineHelicopter
+CombustionChamber *-- TurbineEngine
+@enduml

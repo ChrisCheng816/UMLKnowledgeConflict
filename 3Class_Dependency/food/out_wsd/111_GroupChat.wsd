@@ -1,0 +1,4 @@
+@startuml
+SocialMediaApp ..> GroupChat
+InternetConnection ..> SocialMediaApp
+@enduml

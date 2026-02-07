@@ -1,4 +1,4 @@
 @startuml
 BritishIndianOceanTerritory <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

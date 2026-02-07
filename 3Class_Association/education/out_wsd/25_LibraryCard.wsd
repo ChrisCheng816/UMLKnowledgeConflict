@@ -1,0 +1,4 @@
+@startuml
+LibraryCard --> TeachingAssistant
+TeachingAssistant --> LectureHall
+@enduml

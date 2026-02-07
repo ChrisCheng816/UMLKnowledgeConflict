@@ -1,0 +1,4 @@
+@startuml
+HarvestLog --> FarmManager
+FarmManager --> Farm
+@enduml

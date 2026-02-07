@@ -1,0 +1,4 @@
+@startuml
+Indictment --> VictimAdvocate
+VictimAdvocate --> VictimSupportCenter
+@enduml

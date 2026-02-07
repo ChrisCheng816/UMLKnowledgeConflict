@@ -1,0 +1,4 @@
+@startuml
+TicketBatch --> Physiotherapist
+Physiotherapist --> SportsMedicineClinic
+@enduml

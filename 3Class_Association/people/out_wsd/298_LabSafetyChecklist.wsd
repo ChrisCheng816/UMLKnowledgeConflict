@@ -1,0 +1,4 @@
+@startuml
+LabSafetyChecklist --> LabManager
+LabManager --> ResearchInstitute
+@enduml

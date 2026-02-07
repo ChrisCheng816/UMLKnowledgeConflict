@@ -1,0 +1,4 @@
+@startuml
+DisciplinaryNotice --> Coach
+Coach --> Gymnasium
+@enduml

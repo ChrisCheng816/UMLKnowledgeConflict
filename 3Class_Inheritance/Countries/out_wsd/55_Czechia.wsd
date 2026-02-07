@@ -1,0 +1,4 @@
+@startuml
+Czechia <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

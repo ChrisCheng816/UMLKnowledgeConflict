@@ -1,0 +1,4 @@
+@startuml
+EarthHeat ..> Magma
+EarthCore ..> EarthHeat
+@enduml

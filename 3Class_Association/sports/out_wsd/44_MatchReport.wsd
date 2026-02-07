@@ -1,0 +1,4 @@
+@startuml
+MatchReport --> RaceDirector
+RaceDirector --> RaceOffice
+@enduml

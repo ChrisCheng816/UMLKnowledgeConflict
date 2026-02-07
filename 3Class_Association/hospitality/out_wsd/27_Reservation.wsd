@@ -1,0 +1,4 @@
+@startuml
+Reservation --> SpaTherapist
+SpaTherapist --> Spa
+@enduml

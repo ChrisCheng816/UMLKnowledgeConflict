@@ -1,0 +1,4 @@
+@startuml
+ElectricShaver ..> Grooming
+Electricity ..> ElectricShaver
+@enduml

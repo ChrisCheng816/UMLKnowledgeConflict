@@ -1,0 +1,4 @@
+@startuml
+WitnessStatement --> CourtReporter
+CourtReporter --> AppealsCourt
+@enduml

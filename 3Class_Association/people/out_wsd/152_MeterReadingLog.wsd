@@ -1,0 +1,4 @@
+@startuml
+MeterReadingLog --> MeterReader
+MeterReader --> WaterUtility
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+InspectionRecord --> MaterialsEngineer
+MaterialsEngineer --> MaterialsLab
+@enduml

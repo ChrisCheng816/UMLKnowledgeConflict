@@ -1,0 +1,4 @@
+@startuml
+Door *-- OfficeBuilding
+DoorFrame *-- Door
+@enduml

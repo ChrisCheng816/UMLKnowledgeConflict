@@ -1,0 +1,4 @@
+@startuml
+EnrollmentForm --> CareerCounselor
+CareerCounselor --> CareerCenter
+@enduml

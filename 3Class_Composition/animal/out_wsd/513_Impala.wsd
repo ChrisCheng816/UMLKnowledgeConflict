@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Impala
+Root *-- Tooth
+@enduml

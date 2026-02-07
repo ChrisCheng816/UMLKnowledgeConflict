@@ -1,4 +1,4 @@
 @startuml
 Armenia <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

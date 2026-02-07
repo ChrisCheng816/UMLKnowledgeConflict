@@ -1,0 +1,4 @@
+@startuml
+StandingWave ..> Seiche
+BoundaryConditions ..> StandingWave
+@enduml

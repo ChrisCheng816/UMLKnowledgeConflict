@@ -1,0 +1,4 @@
+@startuml
+AlarmSystem ..> MotionDetection
+Electricity ..> AlarmSystem
+@enduml

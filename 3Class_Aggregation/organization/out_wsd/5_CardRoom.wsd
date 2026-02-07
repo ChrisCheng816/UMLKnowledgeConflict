@@ -1,4 +1,0 @@
-@startuml
-TournamentTable o-- CardRoom
-PlayingCards o-- TournamentTable
-@enduml

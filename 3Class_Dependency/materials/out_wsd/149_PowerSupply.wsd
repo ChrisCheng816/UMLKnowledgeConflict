@@ -1,0 +1,4 @@
+@startuml
+PhoneCharger ..> PowerSupply
+Electricity ..> PhoneCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HeadlampLight ..> ProcedureLighting
+Electricity ..> HeadlampLight
+@enduml

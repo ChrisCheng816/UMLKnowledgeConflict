@@ -1,0 +1,4 @@
+@startuml
+Transcript --> TeachingAssistant
+TeachingAssistant --> LectureHall
+@enduml

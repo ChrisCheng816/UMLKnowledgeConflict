@@ -1,0 +1,4 @@
+@startuml
+LabInventory --> LabCoordinator
+LabCoordinator --> ScienceDepartment
+@enduml

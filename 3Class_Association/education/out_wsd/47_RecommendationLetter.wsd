@@ -1,0 +1,4 @@
+@startuml
+RecommendationLetter --> MusicTeacher
+MusicTeacher --> MusicSchool
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+InjuryReport --> BoxingTrainer
+BoxingTrainer --> BoxingGym
+@enduml

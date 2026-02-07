@@ -1,0 +1,4 @@
+@startuml
+CruiseManifest --> Host
+Host --> Restaurant
+@enduml

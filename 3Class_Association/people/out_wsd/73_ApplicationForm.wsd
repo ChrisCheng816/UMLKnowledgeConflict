@@ -1,0 +1,4 @@
+@startuml
+ApplicationForm --> AdmissionsOfficer
+AdmissionsOfficer --> AdmissionsOffice
+@enduml

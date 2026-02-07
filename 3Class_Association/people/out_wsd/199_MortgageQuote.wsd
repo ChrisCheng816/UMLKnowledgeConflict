@@ -1,0 +1,4 @@
+@startuml
+MortgageQuote --> MortgageBroker
+MortgageBroker --> MortgageCompany
+@enduml

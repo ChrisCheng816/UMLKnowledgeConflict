@@ -1,0 +1,4 @@
+@startuml
+WeatherWebsite ..> WebSearch
+InternetConnection ..> WeatherWebsite
+@enduml

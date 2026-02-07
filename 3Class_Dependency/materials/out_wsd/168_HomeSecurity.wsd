@@ -1,0 +1,4 @@
+@startuml
+SecurityCamera ..> HomeSecurity
+Electricity ..> SecurityCamera
+@enduml

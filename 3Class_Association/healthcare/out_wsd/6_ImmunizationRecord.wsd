@@ -1,0 +1,4 @@
+@startuml
+ImmunizationRecord --> Pharmacist
+Pharmacist --> Pharmacy
+@enduml

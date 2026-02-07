@@ -1,0 +1,4 @@
+@startuml
+APIProposal --> IncidentCommander
+IncidentCommander --> OperationsCenter
+@enduml

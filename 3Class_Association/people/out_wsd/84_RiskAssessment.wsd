@@ -1,0 +1,4 @@
+@startuml
+RiskAssessment --> Underwriter
+Underwriter --> InsuranceCompany
+@enduml

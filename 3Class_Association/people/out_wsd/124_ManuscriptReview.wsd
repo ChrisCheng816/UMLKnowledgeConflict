@@ -1,0 +1,4 @@
+@startuml
+ManuscriptReview --> Editor
+Editor --> PublishingHouse
+@enduml

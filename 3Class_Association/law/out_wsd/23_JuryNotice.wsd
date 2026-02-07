@@ -1,0 +1,4 @@
+@startuml
+JuryNotice --> Arbitrator
+Arbitrator --> ArbitrationCenter
+@enduml

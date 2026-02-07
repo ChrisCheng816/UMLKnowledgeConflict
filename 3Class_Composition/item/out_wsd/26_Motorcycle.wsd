@@ -1,0 +1,4 @@
+@startuml
+WheelAssembly *-- Motorcycle
+Tire *-- WheelAssembly
+@enduml

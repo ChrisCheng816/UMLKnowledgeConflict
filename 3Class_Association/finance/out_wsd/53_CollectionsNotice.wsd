@@ -1,0 +1,4 @@
+@startuml
+CollectionsNotice --> AccountRepresentative
+AccountRepresentative --> CustomerAccountsOffice
+@enduml

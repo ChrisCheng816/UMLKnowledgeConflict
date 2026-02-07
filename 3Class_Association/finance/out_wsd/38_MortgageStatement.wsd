@@ -1,0 +1,4 @@
+@startuml
+MortgageStatement --> CollectionsAgent
+CollectionsAgent --> CollectionsOffice
+@enduml

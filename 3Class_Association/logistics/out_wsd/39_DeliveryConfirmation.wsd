@@ -1,0 +1,4 @@
+@startuml
+DeliveryConfirmation --> TrafficController
+TrafficController --> LogisticsControlCenter
+@enduml

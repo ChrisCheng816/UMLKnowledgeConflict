@@ -1,0 +1,4 @@
+@startuml
+OperationsLog --> WaterTreatmentOperator
+WaterTreatmentOperator --> WaterTreatmentPlant
+@enduml

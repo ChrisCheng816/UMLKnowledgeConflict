@@ -1,0 +1,4 @@
+@startuml
+SinkFaucet ..> Handwashing
+TapWater ..> SinkFaucet
+@enduml

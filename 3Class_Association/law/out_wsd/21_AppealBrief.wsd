@@ -1,0 +1,4 @@
+@startuml
+AppealBrief --> CourtReporter
+CourtReporter --> AppealsCourt
+@enduml

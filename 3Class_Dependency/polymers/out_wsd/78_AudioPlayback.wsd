@@ -1,0 +1,4 @@
+@startuml
+MusicPlayer ..> AudioPlayback
+OperatingSystem ..> MusicPlayer
+@enduml

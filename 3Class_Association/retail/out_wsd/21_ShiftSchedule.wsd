@@ -1,0 +1,4 @@
+@startuml
+ShiftSchedule --> ReturnsClerk
+ReturnsClerk --> ReturnsCenter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Wall *-- House
+Drywall *-- Wall
+@enduml

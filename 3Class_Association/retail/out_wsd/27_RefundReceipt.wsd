@@ -1,0 +1,4 @@
+@startuml
+RefundReceipt --> LossPreventionOfficer
+LossPreventionOfficer --> SecurityOffice
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TriageForm --> Cardiologist
+Cardiologist --> HeartInstitute
+@enduml

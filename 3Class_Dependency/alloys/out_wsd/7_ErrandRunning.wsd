@@ -1,0 +1,4 @@
+@startuml
+Car ..> ErrandRunning
+Gasoline ..> Car
+@enduml

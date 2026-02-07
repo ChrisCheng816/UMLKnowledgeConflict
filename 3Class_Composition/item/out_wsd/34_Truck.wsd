@@ -1,0 +1,4 @@
+@startuml
+WheelAssembly *-- Truck
+LugNut *-- WheelAssembly
+@enduml

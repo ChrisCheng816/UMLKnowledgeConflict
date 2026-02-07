@@ -1,0 +1,4 @@
+@startuml
+OnlineCoursePlatform ..> HomeworkSubmission
+InternetConnection ..> OnlineCoursePlatform
+@enduml

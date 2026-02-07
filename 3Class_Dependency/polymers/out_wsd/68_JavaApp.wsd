@@ -1,0 +1,4 @@
+@startuml
+JavaRuntime ..> JavaApp
+OperatingSystem ..> JavaRuntime
+@enduml

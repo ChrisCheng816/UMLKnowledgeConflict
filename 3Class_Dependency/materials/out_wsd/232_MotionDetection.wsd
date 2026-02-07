@@ -1,0 +1,4 @@
+@startuml
+VideoDoorbell ..> MotionDetection
+Electricity ..> VideoDoorbell
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-BatchStage o-- AnalyticsPlatform
-DataBatch o-- BatchStage
-@enduml

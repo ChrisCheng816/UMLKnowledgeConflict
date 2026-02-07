@@ -1,0 +1,4 @@
+@startuml
+RoomServiceOrder --> Lifeguard
+Lifeguard --> BeachResort
+@enduml

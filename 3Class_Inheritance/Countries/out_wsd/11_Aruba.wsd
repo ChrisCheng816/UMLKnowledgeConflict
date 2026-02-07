@@ -1,4 +1,4 @@
 @startuml
 Aruba <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

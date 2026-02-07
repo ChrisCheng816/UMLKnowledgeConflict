@@ -1,4 +1,4 @@
 @startuml
 CaymanIslands <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

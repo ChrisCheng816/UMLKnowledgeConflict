@@ -1,0 +1,4 @@
+@startuml
+ElectricBus ..> Commuting
+Electricity ..> ElectricBus
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Cameroon <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

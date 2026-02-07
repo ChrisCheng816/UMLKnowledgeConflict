@@ -1,0 +1,4 @@
+@startuml
+WorkSchedule --> MaintenancePlanner
+MaintenancePlanner --> MaintenanceDepartment
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SurgeProtector ..> BatteryCharging
+Electricity ..> SurgeProtector
+@enduml

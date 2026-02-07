@@ -1,0 +1,4 @@
+@startuml
+FraudAlert --> AccountRepresentative
+AccountRepresentative --> CustomerAccountsOffice
+@enduml

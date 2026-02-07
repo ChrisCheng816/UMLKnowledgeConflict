@@ -1,0 +1,4 @@
+@startuml
+DiagnosisReport --> Anesthesiologist
+Anesthesiologist --> SurgeryCenter
+@enduml

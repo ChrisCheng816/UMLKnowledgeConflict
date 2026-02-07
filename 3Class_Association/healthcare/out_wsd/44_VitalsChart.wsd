@@ -1,0 +1,4 @@
+@startuml
+VitalsChart --> Pathologist
+Pathologist --> MedicalLaboratory
+@enduml

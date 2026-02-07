@@ -1,0 +1,4 @@
+@startuml
+DischargeSummary --> SpeechTherapist
+SpeechTherapist --> RehabilitationCenter
+@enduml

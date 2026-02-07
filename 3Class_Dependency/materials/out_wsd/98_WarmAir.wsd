@@ -1,0 +1,4 @@
+@startuml
+GasFurnace ..> WarmAir
+NaturalGas ..> GasFurnace
+@enduml

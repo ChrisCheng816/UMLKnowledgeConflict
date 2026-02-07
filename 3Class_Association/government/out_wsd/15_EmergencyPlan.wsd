@@ -1,0 +1,4 @@
+@startuml
+EmergencyPlan --> CensusWorker
+CensusWorker --> CensusBureau
+@enduml

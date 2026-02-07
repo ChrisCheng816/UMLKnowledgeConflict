@@ -1,0 +1,4 @@
+@startuml
+WirelessHeadphones ..> MusicStreaming
+Bluetooth ..> WirelessHeadphones
+@enduml

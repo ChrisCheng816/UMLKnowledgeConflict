@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Jaw
+Root *-- Tooth
+@enduml

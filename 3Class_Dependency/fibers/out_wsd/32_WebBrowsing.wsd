@@ -1,0 +1,4 @@
+@startuml
+Laptop ..> WebBrowsing
+WiFiNetwork ..> Laptop
+@enduml

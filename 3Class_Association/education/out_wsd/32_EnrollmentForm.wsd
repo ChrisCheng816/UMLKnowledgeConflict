@@ -1,0 +1,4 @@
+@startuml
+EnrollmentForm --> ScholarshipOfficer
+ScholarshipOfficer --> ScholarshipOffice
+@enduml

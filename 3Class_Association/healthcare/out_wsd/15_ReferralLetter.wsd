@@ -1,0 +1,4 @@
+@startuml
+ReferralLetter --> Midwife
+Midwife --> MaternityWard
+@enduml

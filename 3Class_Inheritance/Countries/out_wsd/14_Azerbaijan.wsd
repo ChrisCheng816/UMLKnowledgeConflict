@@ -1,4 +1,4 @@
 @startuml
 Azerbaijan <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

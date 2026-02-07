@@ -1,0 +1,4 @@
+@startuml
+EventContract --> EventPlanner
+EventPlanner --> ConventionCenter
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Chile <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

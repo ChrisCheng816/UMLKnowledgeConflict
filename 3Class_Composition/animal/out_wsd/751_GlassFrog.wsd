@@ -1,0 +1,4 @@
+@startuml
+Eye *-- GlassFrog
+Lens *-- Eye
+@enduml

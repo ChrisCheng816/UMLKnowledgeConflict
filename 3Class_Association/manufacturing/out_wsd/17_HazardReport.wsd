@@ -1,0 +1,4 @@
+@startuml
+HazardReport --> Electrician
+Electrician --> ControlRoom
+@enduml

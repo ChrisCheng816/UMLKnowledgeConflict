@@ -1,0 +1,4 @@
+@startuml
+GiftCard --> ReturnsClerk
+ReturnsClerk --> ReturnsCenter
+@enduml

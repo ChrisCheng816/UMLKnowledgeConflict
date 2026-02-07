@@ -1,0 +1,4 @@
+@startuml
+ToasterOven ..> Reheating
+Electricity ..> ToasterOven
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BenchSander ..> Sanding
+Electricity ..> BenchSander
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ReturnAuthorization --> StoreManager
+StoreManager --> RetailStore
+@enduml

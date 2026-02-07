@@ -1,0 +1,4 @@
+@startuml
+RestaurantReservation ..> OnlineBooking
+InternetConnection ..> RestaurantReservation
+@enduml

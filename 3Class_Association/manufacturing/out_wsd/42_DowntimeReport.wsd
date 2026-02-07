@@ -1,0 +1,4 @@
+@startuml
+DowntimeReport --> ForkliftMechanic
+ForkliftMechanic --> MaintenanceShop
+@enduml

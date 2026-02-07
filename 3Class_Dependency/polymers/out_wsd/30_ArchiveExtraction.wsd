@@ -1,0 +1,4 @@
+@startuml
+CompressionTool ..> ArchiveExtraction
+OperatingSystem ..> CompressionTool
+@enduml

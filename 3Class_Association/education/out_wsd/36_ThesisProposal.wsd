@@ -1,0 +1,4 @@
+@startuml
+ThesisProposal --> FinancialAidAdvisor
+FinancialAidAdvisor --> FinancialAidOffice
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Microorganisms ..> Rot
+OrganicMatter ..> Microorganisms
+@enduml

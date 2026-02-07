@@ -1,0 +1,4 @@
+@startuml
+PressRelease --> Musician
+Musician --> RecordingStudio
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+QualityCertificate --> PlantManager
+PlantManager --> Factory
+@enduml

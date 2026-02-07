@@ -1,0 +1,4 @@
+@startuml
+PreventiveMaintenancePlan --> MaintenancePlanner
+MaintenancePlanner --> MaintenanceDepartment
+@enduml

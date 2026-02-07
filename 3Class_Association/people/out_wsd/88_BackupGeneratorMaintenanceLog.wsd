@@ -1,4 +1,0 @@
-@startuml
-BackupGeneratorMaintenanceLog --> WarehouseWorker
-WarehouseWorker --> Warehouse
-@enduml

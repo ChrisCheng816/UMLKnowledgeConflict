@@ -1,0 +1,4 @@
+@startuml
+Physician --> LabTechnician
+LabTechnician --> Laboratory
+@enduml

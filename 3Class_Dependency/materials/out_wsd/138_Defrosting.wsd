@@ -1,0 +1,4 @@
+@startuml
+MicrowaveOven ..> Defrosting
+Electricity ..> MicrowaveOven
+@enduml

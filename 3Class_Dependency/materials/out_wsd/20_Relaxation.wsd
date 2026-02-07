@@ -1,0 +1,4 @@
+@startuml
+BathTub ..> Relaxation
+HotWater ..> BathTub
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ExpenseReport --> ComplianceOfficer
+ComplianceOfficer --> FinanceDepartment
+@enduml

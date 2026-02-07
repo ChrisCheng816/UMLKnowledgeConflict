@@ -1,0 +1,4 @@
+@startuml
+MotionSensor ..> HomeSecurity
+Electricity ..> MotionSensor
+@enduml

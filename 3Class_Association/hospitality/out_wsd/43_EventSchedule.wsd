@@ -1,0 +1,4 @@
+@startuml
+EventSchedule --> Valet
+Valet --> ParkingGarage
+@enduml

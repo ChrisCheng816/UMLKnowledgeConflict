@@ -1,0 +1,4 @@
+@startuml
+ChargingCable ..> ElectricShaver
+WallOutlet ..> ChargingCable
+@enduml

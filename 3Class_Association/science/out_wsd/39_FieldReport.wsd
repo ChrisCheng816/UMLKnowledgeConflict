@@ -1,0 +1,4 @@
+@startuml
+FieldReport --> Geneticist
+Geneticist --> GenomicsLab
+@enduml

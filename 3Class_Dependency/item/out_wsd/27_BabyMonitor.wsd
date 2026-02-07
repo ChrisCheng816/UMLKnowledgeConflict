@@ -1,0 +1,4 @@
+@startuml
+PowerAdapter ..> BabyMonitor
+WallOutlet ..> PowerAdapter
+@enduml

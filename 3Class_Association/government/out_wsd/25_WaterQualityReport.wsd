@@ -1,0 +1,4 @@
+@startuml
+WaterQualityReport --> PermitClerk
+PermitClerk --> PermitOffice
+@enduml

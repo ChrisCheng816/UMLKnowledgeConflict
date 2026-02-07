@@ -1,0 +1,4 @@
+@startuml
+GISSoftware ..> GeodataEditing
+OperatingSystem ..> GISSoftware
+@enduml

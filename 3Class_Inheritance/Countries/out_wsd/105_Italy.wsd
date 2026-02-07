@@ -1,0 +1,4 @@
+@startuml
+Italy <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

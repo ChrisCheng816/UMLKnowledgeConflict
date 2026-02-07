@@ -1,0 +1,4 @@
+@startuml
+WheelAssembly *-- Motorcycle
+LugNut *-- WheelAssembly
+@enduml

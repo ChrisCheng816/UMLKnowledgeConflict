@@ -1,0 +1,4 @@
+@startuml
+Reflection ..> SonarReturn
+SmoothSurface ..> Reflection
+@enduml

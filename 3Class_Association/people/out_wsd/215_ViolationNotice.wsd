@@ -1,0 +1,4 @@
+@startuml
+ViolationNotice --> FireInspector
+FireInspector --> FirePreventionBureau
+@enduml

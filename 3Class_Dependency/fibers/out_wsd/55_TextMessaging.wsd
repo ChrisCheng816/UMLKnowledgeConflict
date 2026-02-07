@@ -1,0 +1,4 @@
+@startuml
+TabletWithLTE ..> TextMessaging
+CellularNetwork ..> TabletWithLTE
+@enduml

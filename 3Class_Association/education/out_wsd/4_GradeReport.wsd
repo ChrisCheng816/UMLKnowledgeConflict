@@ -1,0 +1,4 @@
+@startuml
+GradeReport --> Librarian
+Librarian --> UniversityLibrary
+@enduml

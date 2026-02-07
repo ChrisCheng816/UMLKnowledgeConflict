@@ -1,0 +1,4 @@
+@startuml
+Toilet ..> ToiletFlush
+TapWater ..> Toilet
+@enduml

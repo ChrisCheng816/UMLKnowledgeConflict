@@ -1,0 +1,4 @@
+@startuml
+IntercomPanel ..> HomeIntercom
+WallOutlet ..> IntercomPanel
+@enduml

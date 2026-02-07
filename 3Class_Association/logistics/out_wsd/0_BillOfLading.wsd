@@ -1,0 +1,4 @@
+@startuml
+BillOfLading --> LogisticsCoordinator
+LogisticsCoordinator --> DistributionHub
+@enduml

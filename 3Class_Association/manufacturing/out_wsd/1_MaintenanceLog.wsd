@@ -1,0 +1,4 @@
+@startuml
+MaintenanceLog --> QualityInspector
+QualityInspector --> ManufacturingPlant
+@enduml

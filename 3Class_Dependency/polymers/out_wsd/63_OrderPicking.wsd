@@ -1,0 +1,4 @@
+@startuml
+InventoryApp ..> OrderPicking
+OperatingSystem ..> InventoryApp
+@enduml

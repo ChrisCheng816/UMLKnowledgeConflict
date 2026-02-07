@@ -1,0 +1,4 @@
+@startuml
+ClaimDecisionLetter --> ClaimsProcessor
+ClaimsProcessor --> LifeInsurer
+@enduml

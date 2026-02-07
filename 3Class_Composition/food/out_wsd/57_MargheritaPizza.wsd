@@ -1,0 +1,4 @@
+@startuml
+PizzaDough *-- MargheritaPizza
+Flour *-- PizzaDough
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CateringOrder --> CateringManager
+CateringManager --> CateringCompany
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MapService ..> LocationSearch
+InternetConnection ..> MapService
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SolderingStation ..> ElectronicsAssembly
+Electricity ..> SolderingStation
+@enduml

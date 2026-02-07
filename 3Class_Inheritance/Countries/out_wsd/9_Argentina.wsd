@@ -1,4 +1,4 @@
 @startuml
 Argentina <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

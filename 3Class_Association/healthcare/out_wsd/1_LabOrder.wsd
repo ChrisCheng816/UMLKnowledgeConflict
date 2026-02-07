@@ -1,0 +1,4 @@
+@startuml
+LabOrder --> Physician
+Physician --> MedicalCenter
+@enduml

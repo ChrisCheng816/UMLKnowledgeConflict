@@ -1,0 +1,4 @@
+@startuml
+SpecimenCatalog --> Astronomer
+Astronomer --> Observatory
+@enduml

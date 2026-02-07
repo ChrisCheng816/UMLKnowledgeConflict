@@ -1,4 +1,0 @@
-@startuml
-LogCollectorService o-- AudioService
-AuditLog o-- LogCollectorService
-@enduml

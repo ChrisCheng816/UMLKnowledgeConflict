@@ -1,0 +1,4 @@
+@startuml
+LearningPlatform ..> OnlineLearning
+InternetConnection ..> LearningPlatform
+@enduml

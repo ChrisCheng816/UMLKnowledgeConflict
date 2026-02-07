@@ -1,0 +1,4 @@
+@startuml
+DisplayModule *-- Tablet
+LCDPanel *-- DisplayModule
+@enduml

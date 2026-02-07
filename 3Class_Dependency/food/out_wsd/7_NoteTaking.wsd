@@ -1,0 +1,4 @@
+@startuml
+CalendarApp ..> NoteTaking
+OperatingSystem ..> CalendarApp
+@enduml

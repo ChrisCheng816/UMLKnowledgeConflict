@@ -1,0 +1,4 @@
+@startuml
+PracticeSchedule --> SwimCoach
+SwimCoach --> SwimCenter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PowerAdapter ..> CableModem
+WallOutlet ..> PowerAdapter
+@enduml

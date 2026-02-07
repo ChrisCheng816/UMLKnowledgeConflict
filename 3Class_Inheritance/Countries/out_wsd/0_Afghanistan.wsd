@@ -1,4 +1,4 @@
 @startuml
 Afghanistan <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

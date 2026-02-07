@@ -1,0 +1,4 @@
+@startuml
+CameraModule *-- Tablet
+IRFilter *-- CameraModule
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PhotoAssignment --> Reporter
+Reporter --> Newspaper
+@enduml

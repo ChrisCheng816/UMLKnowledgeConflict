@@ -1,4 +1,0 @@
-@startuml
-FrontendModule o-- VideoService
-ConfigFile o-- FrontendModule
-@enduml

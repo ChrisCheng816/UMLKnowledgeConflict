@@ -1,0 +1,4 @@
+@startuml
+StudentIDCard --> Dean
+Dean --> BusinessSchool
+@enduml

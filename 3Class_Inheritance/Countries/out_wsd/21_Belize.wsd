@@ -1,4 +1,4 @@
 @startuml
 Belize <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

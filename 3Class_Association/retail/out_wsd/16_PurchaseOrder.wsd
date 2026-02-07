@@ -1,0 +1,4 @@
+@startuml
+PurchaseOrder --> PharmacyTechnician
+PharmacyTechnician --> RetailPharmacy
+@enduml

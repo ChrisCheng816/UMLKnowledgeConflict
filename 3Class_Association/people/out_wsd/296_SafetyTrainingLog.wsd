@@ -1,0 +1,4 @@
+@startuml
+SafetyTrainingLog --> SafetyCoordinator
+SafetyCoordinator --> IndustrialSite
+@enduml

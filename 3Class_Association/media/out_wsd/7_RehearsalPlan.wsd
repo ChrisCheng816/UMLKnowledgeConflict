@@ -1,0 +1,4 @@
+@startuml
+RehearsalPlan --> Photographer
+Photographer --> PhotoStudio
+@enduml

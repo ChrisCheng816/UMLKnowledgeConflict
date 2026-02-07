@@ -1,0 +1,4 @@
+@startuml
+SprinklerSystem ..> LawnWatering
+TapWater ..> SprinklerSystem
+@enduml

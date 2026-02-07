@@ -1,0 +1,4 @@
+@startuml
+AdvisingNote --> AcademicAdvisor
+AcademicAdvisor --> Institute
+@enduml

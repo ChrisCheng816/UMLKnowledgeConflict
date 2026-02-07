@@ -1,4 +1,4 @@
 @startuml
 Colombia <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

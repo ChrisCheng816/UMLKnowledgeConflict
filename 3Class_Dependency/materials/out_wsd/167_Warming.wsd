@@ -1,0 +1,4 @@
+@startuml
+RiceCooker ..> Warming
+Electricity ..> RiceCooker
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ZoningPermit --> ZoningOfficer
+ZoningOfficer --> PlanningDepartment
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+InsurancePreauth --> Pathologist
+Pathologist --> MedicalLaboratory
+@enduml

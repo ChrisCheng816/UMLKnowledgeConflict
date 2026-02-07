@@ -1,0 +1,4 @@
+@startuml
+MindMapTool ..> ProjectPlanning
+OperatingSystem ..> MindMapTool
+@enduml

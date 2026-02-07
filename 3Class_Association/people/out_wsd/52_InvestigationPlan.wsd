@@ -1,0 +1,4 @@
+@startuml
+InvestigationPlan --> Detective
+Detective --> PoliceDepartment
+@enduml

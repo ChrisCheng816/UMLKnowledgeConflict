@@ -1,0 +1,4 @@
+@startuml
+TabletWithLTE ..> MobileInternet
+CellularNetwork ..> TabletWithLTE
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CarrierContract --> Courier
+Courier --> CourierService
+@enduml

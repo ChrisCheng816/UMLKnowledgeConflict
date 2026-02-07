@@ -1,0 +1,4 @@
+@startuml
+StereoReceiver ..> AudioStreaming
+Electricity ..> StereoReceiver
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PropertyTransferForm --> LandRegistrar
+LandRegistrar --> LandRegistry
+@enduml

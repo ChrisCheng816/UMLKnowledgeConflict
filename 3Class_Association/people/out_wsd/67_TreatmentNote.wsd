@@ -1,0 +1,4 @@
+@startuml
+TreatmentNote --> Veterinarian
+Veterinarian --> VeterinaryClinic
+@enduml

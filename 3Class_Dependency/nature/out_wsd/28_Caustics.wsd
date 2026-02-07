@@ -1,0 +1,4 @@
+@startuml
+Refraction ..> Caustics
+Medium ..> Refraction
+@enduml

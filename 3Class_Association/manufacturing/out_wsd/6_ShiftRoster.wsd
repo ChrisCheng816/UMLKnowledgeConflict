@@ -1,0 +1,4 @@
+@startuml
+ShiftRoster --> MaintenanceTechnician
+MaintenanceTechnician --> MaintenanceDepartment
+@enduml

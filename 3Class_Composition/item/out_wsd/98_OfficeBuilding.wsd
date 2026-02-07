@@ -1,0 +1,4 @@
+@startuml
+Window *-- OfficeBuilding
+GlassPane *-- Window
+@enduml

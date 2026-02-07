@@ -1,0 +1,4 @@
+@startuml
+ConsentForm --> ClinicalResearchCoordinator
+ClinicalResearchCoordinator --> ResearchHospital
+@enduml

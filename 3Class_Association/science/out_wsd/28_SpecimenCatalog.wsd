@@ -1,0 +1,4 @@
+@startuml
+SpecimenCatalog --> Oceanographer
+Oceanographer --> MarineInstitute
+@enduml

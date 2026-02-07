@@ -1,0 +1,4 @@
+@startuml
+MediaPlayer ..> OnlineGaming
+Electricity ..> MediaPlayer
+@enduml

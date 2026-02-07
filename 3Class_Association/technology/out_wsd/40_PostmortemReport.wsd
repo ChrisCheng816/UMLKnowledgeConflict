@@ -1,0 +1,4 @@
+@startuml
+PostmortemReport --> TechnicalWriter
+TechnicalWriter --> DocumentationTeam
+@enduml

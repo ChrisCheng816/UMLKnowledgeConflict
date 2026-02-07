@@ -1,4 +1,0 @@
-@startuml
-CollectorService o-- WeatherNetwork
-ErrorReport o-- CollectorService
-@enduml

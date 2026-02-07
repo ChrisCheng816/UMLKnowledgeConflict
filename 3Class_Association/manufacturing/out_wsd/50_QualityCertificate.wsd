@@ -1,0 +1,4 @@
+@startuml
+QualityCertificate --> SupplyTechnician
+SupplyTechnician --> PartsWarehouse
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ParkingTicket --> CruiseDirector
+CruiseDirector --> CruiseShip
+@enduml

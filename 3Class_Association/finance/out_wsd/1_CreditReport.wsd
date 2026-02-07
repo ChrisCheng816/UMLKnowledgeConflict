@@ -1,0 +1,4 @@
+@startuml
+CreditReport --> LoanOfficer
+LoanOfficer --> CreditUnion
+@enduml

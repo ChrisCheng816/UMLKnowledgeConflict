@@ -1,0 +1,4 @@
+@startuml
+AccountingSoftware ..> ExpenseTracking
+OperatingSystem ..> AccountingSoftware
+@enduml

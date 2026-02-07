@@ -1,0 +1,4 @@
+@startuml
+SmartTV ..> OnlineGaming
+WiFiNetwork ..> SmartTV
+@enduml

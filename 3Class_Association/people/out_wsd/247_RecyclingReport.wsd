@@ -1,0 +1,4 @@
+@startuml
+RecyclingReport --> RecyclingCoordinator
+RecyclingCoordinator --> RecyclingCenter
+@enduml

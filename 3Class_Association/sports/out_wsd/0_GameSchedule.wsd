@@ -1,0 +1,4 @@
+@startuml
+GameSchedule --> HeadCoach
+HeadCoach --> SportsClub
+@enduml

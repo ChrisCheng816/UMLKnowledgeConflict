@@ -1,0 +1,4 @@
+@startuml
+RadioReceiver ..> MusicPlayback
+Electricity ..> RadioReceiver
+@enduml

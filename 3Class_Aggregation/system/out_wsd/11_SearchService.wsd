@@ -1,4 +1,0 @@
-@startuml
-IndexShard o-- SearchService
-IndexSegment o-- IndexShard
-@enduml

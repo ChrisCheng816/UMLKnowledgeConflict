@@ -1,4 +1,4 @@
 @startuml
 CongoTheDemocraticRepublicofthe <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

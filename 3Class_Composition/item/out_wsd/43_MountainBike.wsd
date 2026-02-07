@@ -1,0 +1,4 @@
+@startuml
+BicycleWheel *-- MountainBike
+Spoke *-- BicycleWheel
+@enduml

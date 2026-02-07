@@ -1,0 +1,4 @@
+@startuml
+NotaryCertificate --> NotaryPublic
+NotaryPublic --> MunicipalOffice
+@enduml

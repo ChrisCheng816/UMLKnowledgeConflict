@@ -1,0 +1,4 @@
+@startuml
+StoryOutline --> StageManager
+StageManager --> ConcertHall
+@enduml

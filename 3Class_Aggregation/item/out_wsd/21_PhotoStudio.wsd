@@ -1,4 +1,4 @@
 @startuml
 Album o-- PhotoStudio
-PhotoPrint o-- Album
+Photograph o-- Album
 @enduml

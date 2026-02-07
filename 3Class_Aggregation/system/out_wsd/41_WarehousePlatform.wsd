@@ -1,4 +1,0 @@
-@startuml
-SchedulerService o-- WarehousePlatform
-JobSpec o-- SchedulerService
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+TournamentBracket --> Physiotherapist
+Physiotherapist --> SportsMedicineClinic
+@enduml

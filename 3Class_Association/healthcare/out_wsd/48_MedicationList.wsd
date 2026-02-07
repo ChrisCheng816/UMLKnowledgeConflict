@@ -1,0 +1,4 @@
+@startuml
+MedicationList --> EmergencyPhysician
+EmergencyPhysician --> TraumaCenter
+@enduml

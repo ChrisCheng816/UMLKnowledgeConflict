@@ -1,0 +1,4 @@
+@startuml
+Receipt --> DeliveryDriver
+DeliveryDriver --> DeliveryService
+@enduml

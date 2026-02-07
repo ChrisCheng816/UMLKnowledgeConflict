@@ -1,0 +1,4 @@
+@startuml
+AirFryer ..> Crisping
+Electricity ..> AirFryer
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CourseEvaluation --> ResearchAdvisor
+ResearchAdvisor --> GraduateSchool
+@enduml

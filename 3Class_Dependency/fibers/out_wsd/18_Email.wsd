@@ -1,0 +1,4 @@
+@startuml
+GameConsole ..> Email
+WiFiNetwork ..> GameConsole
+@enduml

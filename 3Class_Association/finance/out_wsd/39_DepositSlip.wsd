@@ -1,0 +1,4 @@
+@startuml
+DepositSlip --> CollectionsAgent
+CollectionsAgent --> CollectionsOffice
+@enduml

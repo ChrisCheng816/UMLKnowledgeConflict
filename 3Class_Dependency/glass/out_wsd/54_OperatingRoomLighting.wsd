@@ -1,0 +1,4 @@
+@startuml
+SurgicalLight ..> OperatingRoomLighting
+Electricity ..> SurgicalLight
+@enduml

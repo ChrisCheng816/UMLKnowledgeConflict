@@ -1,0 +1,4 @@
+@startuml
+ClothesDryer ..> ClothesDrying
+Electricity ..> ClothesDryer
+@enduml

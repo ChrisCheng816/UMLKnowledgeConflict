@@ -1,0 +1,4 @@
+@startuml
+WorkOrder --> Mechanic
+Mechanic --> ServiceCenter
+@enduml

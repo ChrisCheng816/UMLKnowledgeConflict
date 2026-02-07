@@ -1,0 +1,4 @@
+@startuml
+Indictment --> Prosecutor
+Prosecutor --> DistrictCourt
+@enduml

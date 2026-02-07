@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Frog
-Gland *-- Skin
+Leg *-- Frog
+Muscle *-- Leg
 @enduml

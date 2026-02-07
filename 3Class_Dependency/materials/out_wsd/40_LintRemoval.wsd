@@ -1,0 +1,4 @@
+@startuml
+ClothesDryer ..> LintRemoval
+Electricity ..> ClothesDryer
+@enduml

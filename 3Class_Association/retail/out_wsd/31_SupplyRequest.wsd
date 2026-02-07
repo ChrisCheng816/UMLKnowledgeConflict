@@ -1,0 +1,4 @@
+@startuml
+SupplyRequest --> Barista
+Barista --> CoffeeShop
+@enduml

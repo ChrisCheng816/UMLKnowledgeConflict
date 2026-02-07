@@ -1,0 +1,4 @@
+@startuml
+VendorInvoice --> Merchandiser
+Merchandiser --> DepartmentStore
+@enduml

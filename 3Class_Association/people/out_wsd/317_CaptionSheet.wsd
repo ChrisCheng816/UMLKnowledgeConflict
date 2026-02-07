@@ -1,0 +1,4 @@
+@startuml
+CaptionSheet --> PhotoEditor
+PhotoEditor --> Newsroom
+@enduml

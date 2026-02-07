@@ -1,0 +1,4 @@
+@startuml
+RadiologyReport --> EmergencyPhysician
+EmergencyPhysician --> TraumaCenter
+@enduml

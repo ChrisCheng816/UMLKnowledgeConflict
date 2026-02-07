@@ -1,0 +1,4 @@
+@startuml
+MusicScore --> RadioHost
+RadioHost --> RadioStation
+@enduml

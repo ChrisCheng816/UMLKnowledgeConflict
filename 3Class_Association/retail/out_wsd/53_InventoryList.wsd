@@ -1,0 +1,4 @@
+@startuml
+InventoryList --> DeliveryDriver
+DeliveryDriver --> DeliveryService
+@enduml

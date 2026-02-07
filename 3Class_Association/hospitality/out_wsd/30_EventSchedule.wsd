@@ -1,0 +1,4 @@
+@startuml
+EventSchedule --> PastryChef
+PastryChef --> BakeryCafe
+@enduml

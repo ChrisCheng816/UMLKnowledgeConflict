@@ -1,0 +1,4 @@
+@startuml
+Beak *-- Penguin
+Nostril *-- Beak
+@enduml

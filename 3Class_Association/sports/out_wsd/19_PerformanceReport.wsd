@@ -1,0 +1,4 @@
+@startuml
+PerformanceReport --> EquipmentManager
+EquipmentManager --> Arena
+@enduml

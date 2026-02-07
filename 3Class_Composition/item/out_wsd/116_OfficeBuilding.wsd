@@ -1,0 +1,4 @@
+@startuml
+Wall *-- OfficeBuilding
+Insulation *-- Wall
+@enduml

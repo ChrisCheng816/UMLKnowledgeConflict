@@ -1,0 +1,4 @@
+@startuml
+InventoryCycleCount --> FleetManager
+FleetManager --> TransportCompany
+@enduml

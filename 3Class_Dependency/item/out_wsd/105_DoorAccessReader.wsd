@@ -1,0 +1,4 @@
+@startuml
+AccessController ..> DoorAccessReader
+WallOutlet ..> AccessController
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SafetyChecklist --> RecyclingCoordinator
+RecyclingCoordinator --> RecyclingCenter
+@enduml

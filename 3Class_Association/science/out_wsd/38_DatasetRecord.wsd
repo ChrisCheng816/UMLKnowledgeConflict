@@ -1,0 +1,4 @@
+@startuml
+DatasetRecord --> Geneticist
+Geneticist --> GenomicsLab
+@enduml

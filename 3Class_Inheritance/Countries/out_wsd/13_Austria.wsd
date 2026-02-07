@@ -1,4 +1,4 @@
 @startuml
 Austria <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

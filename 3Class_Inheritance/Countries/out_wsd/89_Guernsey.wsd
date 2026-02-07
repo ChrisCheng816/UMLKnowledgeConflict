@@ -1,0 +1,4 @@
+@startuml
+Guernsey <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

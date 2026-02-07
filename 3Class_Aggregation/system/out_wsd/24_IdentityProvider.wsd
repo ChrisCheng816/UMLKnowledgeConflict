@@ -1,4 +1,0 @@
-@startuml
-PolicyService o-- IdentityProvider
-AccessPolicy o-- PolicyService
-@enduml

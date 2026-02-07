@@ -1,0 +1,4 @@
+@startuml
+OncallSchedule --> ProductManager
+ProductManager --> ProductTeam
+@enduml

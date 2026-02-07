@@ -1,0 +1,4 @@
+@startuml
+PermitApproval --> PermitReviewer
+PermitReviewer --> PlanningDepartment
+@enduml

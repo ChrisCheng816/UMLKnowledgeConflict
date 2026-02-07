@@ -1,0 +1,4 @@
+@startuml
+Sink *-- House
+Basin *-- Sink
+@enduml

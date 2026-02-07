@@ -1,0 +1,4 @@
+@startuml
+CRMSoftware ..> LeadManagement
+OperatingSystem ..> CRMSoftware
+@enduml

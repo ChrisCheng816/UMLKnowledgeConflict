@@ -1,0 +1,4 @@
+@startuml
+Malawi <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

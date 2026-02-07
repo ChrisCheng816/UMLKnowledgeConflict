@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Gazelle
+Root *-- Tooth
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ScholarshipApplication --> CareerCounselor
+CareerCounselor --> CareerCenter
+@enduml

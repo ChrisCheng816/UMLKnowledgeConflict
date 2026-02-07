@@ -1,0 +1,4 @@
+@startuml
+HealthAdvisory --> RecordsClerk
+RecordsClerk --> CityArchives
+@enduml

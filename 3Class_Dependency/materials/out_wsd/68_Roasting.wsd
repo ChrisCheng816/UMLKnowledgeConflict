@@ -1,0 +1,4 @@
+@startuml
+ElectricOven ..> Roasting
+Electricity ..> ElectricOven
+@enduml

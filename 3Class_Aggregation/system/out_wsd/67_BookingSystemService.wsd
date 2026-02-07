@@ -1,4 +1,0 @@
-@startuml
-MessageQueue o-- BookingSystemService
-QueueMessage o-- MessageQueue
-@enduml

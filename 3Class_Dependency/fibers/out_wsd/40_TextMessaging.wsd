@@ -1,0 +1,4 @@
+@startuml
+Smartphone ..> TextMessaging
+CellularNetwork ..> Smartphone
+@enduml

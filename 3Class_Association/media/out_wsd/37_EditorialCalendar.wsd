@@ -1,0 +1,4 @@
+@startuml
+EditorialCalendar --> RadioHost
+RadioHost --> RadioStation
+@enduml

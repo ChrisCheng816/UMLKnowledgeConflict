@@ -1,0 +1,4 @@
+@startuml
+PayrollReport --> PayrollClerk
+PayrollClerk --> PayrollOffice
+@enduml

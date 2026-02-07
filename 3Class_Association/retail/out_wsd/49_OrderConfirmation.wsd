@@ -1,0 +1,4 @@
+@startuml
+OrderConfirmation --> PharmacistAssistant
+PharmacistAssistant --> RetailPharmacy
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BuildingPermit --> EmergencyManager
+EmergencyManager --> EmergencyOperationsCenter
+@enduml

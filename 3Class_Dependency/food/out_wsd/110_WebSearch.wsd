@@ -1,0 +1,4 @@
+@startuml
+SearchEngine ..> WebSearch
+InternetConnection ..> SearchEngine
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ClampMeter ..> VoltageTesting
+Electricity ..> ClampMeter
+@enduml

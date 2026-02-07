@@ -1,0 +1,4 @@
+@startuml
+3DPrinter ..> ModelPrinting
+Electricity ..> 3DPrinter
+@enduml

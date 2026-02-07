@@ -1,0 +1,4 @@
+@startuml
+CommunityForum ..> SocialNetworking
+InternetConnection ..> CommunityForum
+@enduml

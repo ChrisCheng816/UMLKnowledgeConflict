@@ -1,4 +1,4 @@
 @startuml
-Tail *-- Gecko
-Vertebra *-- Tail
+Skin *-- Gecko
+Scale *-- Skin
 @enduml

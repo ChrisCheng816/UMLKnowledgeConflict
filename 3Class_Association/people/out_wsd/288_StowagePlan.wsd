@@ -1,0 +1,4 @@
+@startuml
+StowagePlan --> CargoPlanner
+CargoPlanner --> ContainerTerminal
+@enduml

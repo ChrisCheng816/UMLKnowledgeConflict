@@ -1,0 +1,4 @@
+@startuml
+ArrivalNotice --> HarborMaster
+HarborMaster --> PortAuthority
+@enduml

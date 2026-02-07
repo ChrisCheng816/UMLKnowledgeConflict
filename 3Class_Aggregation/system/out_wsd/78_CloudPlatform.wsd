@@ -1,4 +1,0 @@
-@startuml
-CoordinatorService o-- CloudPlatform
-MetadataRecord o-- CoordinatorService
-@enduml

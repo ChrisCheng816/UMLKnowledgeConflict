@@ -1,0 +1,4 @@
+@startuml
+DataManagementPlan --> Astronomer
+Astronomer --> Observatory
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BrowserExtension ..> Translation
+OperatingSystem ..> BrowserExtension
+@enduml

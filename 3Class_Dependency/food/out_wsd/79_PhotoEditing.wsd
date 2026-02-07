@@ -1,0 +1,4 @@
+@startuml
+PhotoEditor ..> PhotoEditing
+OperatingSystem ..> PhotoEditor
+@enduml

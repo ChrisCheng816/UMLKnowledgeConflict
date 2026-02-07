@@ -1,0 +1,4 @@
+@startuml
+CompetitionEntryForm --> Scorekeeper
+Scorekeeper --> Stadium
+@enduml

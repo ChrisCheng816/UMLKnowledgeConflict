@@ -1,0 +1,4 @@
+@startuml
+InventoryList --> PharmacyTechnician
+PharmacyTechnician --> RetailPharmacy
+@enduml

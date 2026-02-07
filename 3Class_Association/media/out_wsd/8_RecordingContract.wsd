@@ -1,0 +1,4 @@
+@startuml
+RecordingContract --> Photographer
+Photographer --> PhotoStudio
+@enduml

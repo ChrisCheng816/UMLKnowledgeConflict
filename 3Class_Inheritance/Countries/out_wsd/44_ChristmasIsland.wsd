@@ -1,4 +1,4 @@
 @startuml
 ChristmasIsland <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Cambodia <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

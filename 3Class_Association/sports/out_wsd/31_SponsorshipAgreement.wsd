@@ -1,0 +1,4 @@
+@startuml
+SponsorshipAgreement --> SwimCoach
+SwimCoach --> SwimCenter
+@enduml

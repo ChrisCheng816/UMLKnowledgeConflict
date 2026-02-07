@@ -1,0 +1,4 @@
+@startuml
+BrakeCaliper *-- Car
+CaliperBracket *-- BrakeCaliper
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ElectricBus ..> ShortTrip
+Electricity ..> ElectricBus
+@enduml

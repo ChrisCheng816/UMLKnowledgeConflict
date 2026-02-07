@@ -1,0 +1,4 @@
+@startuml
+Humidifier ..> HumidityControl
+TapWater ..> Humidifier
+@enduml

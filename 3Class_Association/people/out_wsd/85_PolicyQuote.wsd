@@ -1,0 +1,4 @@
+@startuml
+PolicyQuote --> Underwriter
+Underwriter --> InsuranceCompany
+@enduml

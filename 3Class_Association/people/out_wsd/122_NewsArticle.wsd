@@ -1,0 +1,4 @@
+@startuml
+NewsArticle --> Journalist
+Journalist --> Newsroom
+@enduml

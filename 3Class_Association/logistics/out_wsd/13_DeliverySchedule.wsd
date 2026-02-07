@@ -1,0 +1,4 @@
+@startuml
+DeliverySchedule --> FreightBroker
+FreightBroker --> ShippingCompany
+@enduml

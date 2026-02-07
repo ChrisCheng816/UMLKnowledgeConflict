@@ -1,0 +1,4 @@
+@startuml
+HearingNotice --> CourtClerk
+CourtClerk --> Courthouse
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Bhutan <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

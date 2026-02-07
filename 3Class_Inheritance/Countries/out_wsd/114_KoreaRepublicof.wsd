@@ -1,0 +1,4 @@
+@startuml
+KoreaRepublicof <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

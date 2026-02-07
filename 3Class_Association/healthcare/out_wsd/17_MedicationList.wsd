@@ -1,0 +1,4 @@
+@startuml
+MedicationList --> Therapist
+Therapist --> TherapyCenter
+@enduml

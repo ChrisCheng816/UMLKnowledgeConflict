@@ -1,0 +1,4 @@
+@startuml
+ObservationLog --> Ethicist
+Ethicist --> EthicsCommittee
+@enduml

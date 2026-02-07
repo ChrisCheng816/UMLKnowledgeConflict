@@ -1,0 +1,4 @@
+@startuml
+IncidentReport --> SafetyOfficer
+SafetyOfficer --> SafetyOffice
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+LessonPlan --> AdmissionsCounselor
+AdmissionsCounselor --> AdmissionsOffice
+@enduml

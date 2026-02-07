@@ -1,0 +1,4 @@
+@startuml
+DeliveryNote --> SalesAssociate
+SalesAssociate --> ClothingStore
+@enduml

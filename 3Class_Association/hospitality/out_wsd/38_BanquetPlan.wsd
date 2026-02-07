@@ -1,0 +1,4 @@
+@startuml
+BanquetPlan --> TravelAgent
+TravelAgent --> TravelAgency
+@enduml

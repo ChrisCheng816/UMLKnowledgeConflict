@@ -1,0 +1,4 @@
+@startuml
+BMW <|-- CarManufacturer
+CarManufacturer <|-- Manufacturer
+@enduml

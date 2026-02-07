@@ -1,0 +1,4 @@
+@startuml
+TourItinerary --> Chef
+Chef --> Restaurant
+@enduml

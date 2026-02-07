@@ -1,0 +1,4 @@
+@startuml
+TherapySchedule --> Pediatrician
+Pediatrician --> ChildrensHospital
+@enduml

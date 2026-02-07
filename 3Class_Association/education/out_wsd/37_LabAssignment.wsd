@@ -1,0 +1,4 @@
+@startuml
+LabAssignment --> DormSupervisor
+DormSupervisor --> ResidenceHall
+@enduml

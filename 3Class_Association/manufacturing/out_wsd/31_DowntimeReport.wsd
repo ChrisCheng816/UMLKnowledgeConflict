@@ -1,0 +1,4 @@
+@startuml
+DowntimeReport --> Machinist
+Machinist --> MachineShop
+@enduml

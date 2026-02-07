@@ -1,0 +1,4 @@
+@startuml
+TicketReceipt --> TicketAgent
+TicketAgent --> TransitAuthority
+@enduml

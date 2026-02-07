@@ -1,0 +1,4 @@
+@startuml
+OccupancyInspectionReport --> BuildingFireMarshal
+BuildingFireMarshal --> FireDepartment
+@enduml

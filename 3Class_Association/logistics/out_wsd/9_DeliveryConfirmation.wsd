@@ -1,0 +1,4 @@
+@startuml
+DeliveryConfirmation --> ShippingClerk
+ShippingClerk --> ShippingDepartment
+@enduml

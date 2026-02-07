@@ -1,0 +1,4 @@
+@startuml
+SmartLock ..> MotionDetection
+Electricity ..> SmartLock
+@enduml

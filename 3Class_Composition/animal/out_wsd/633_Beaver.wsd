@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Beaver
+Root *-- Tooth
+@enduml

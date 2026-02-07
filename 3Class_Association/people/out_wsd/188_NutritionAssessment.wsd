@@ -1,0 +1,4 @@
+@startuml
+NutritionAssessment --> Dietitian
+Dietitian --> MedicalCenter
+@enduml

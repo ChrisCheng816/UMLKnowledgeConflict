@@ -1,0 +1,4 @@
+@startuml
+EventSchedule --> Sommelier
+Sommelier --> Winery
+@enduml

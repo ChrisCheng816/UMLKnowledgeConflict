@@ -1,0 +1,4 @@
+@startuml
+EarthRotation ..> CoriolisEffect
+Earth ..> EarthRotation
+@enduml

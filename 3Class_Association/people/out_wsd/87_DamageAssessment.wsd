@@ -1,0 +1,4 @@
+@startuml
+DamageAssessment --> ClaimsAdjuster
+ClaimsAdjuster --> InsuranceCompany
+@enduml

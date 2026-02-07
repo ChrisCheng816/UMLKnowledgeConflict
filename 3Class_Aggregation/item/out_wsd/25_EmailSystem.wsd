@@ -1,4 +1,0 @@
-@startuml
-MailingList o-- EmailSystem
-Subscriber o-- MailingList
-@enduml

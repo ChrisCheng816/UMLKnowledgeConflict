@@ -1,0 +1,4 @@
+@startuml
+Jamaica <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

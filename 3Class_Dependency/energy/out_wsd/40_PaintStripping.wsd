@@ -1,0 +1,4 @@
+@startuml
+HotAirStation ..> PaintStripping
+Electricity ..> HotAirStation
+@enduml

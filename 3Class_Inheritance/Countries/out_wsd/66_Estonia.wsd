@@ -1,0 +1,4 @@
+@startuml
+Estonia <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

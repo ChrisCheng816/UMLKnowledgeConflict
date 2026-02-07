@@ -1,0 +1,4 @@
+@startuml
+Menu --> Concierge
+Concierge --> Resort
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MeetingMinutes --> EnvironmentalInspector
+EnvironmentalInspector --> EnvironmentalAgency
+@enduml

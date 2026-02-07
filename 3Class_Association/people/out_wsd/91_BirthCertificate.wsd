@@ -1,0 +1,4 @@
+@startuml
+BirthCertificate --> CityClerk
+CityClerk --> CityHall
+@enduml

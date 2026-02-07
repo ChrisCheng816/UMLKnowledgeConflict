@@ -1,0 +1,4 @@
+@startuml
+FileManager ..> FileSearch
+OperatingSystem ..> FileManager
+@enduml

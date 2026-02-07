@@ -1,0 +1,4 @@
+@startuml
+TrainingRecord --> Welder
+Welder --> Workshop
+@enduml

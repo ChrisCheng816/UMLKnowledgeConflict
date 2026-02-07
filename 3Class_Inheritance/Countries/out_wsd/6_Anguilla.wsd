@@ -1,4 +1,4 @@
 @startuml
 Anguilla <|-- Country
-Country <|-- Location
+Country <|-- GeopoliticalEntity
 @enduml

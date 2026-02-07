@@ -1,0 +1,4 @@
+@startuml
+TrainingPlan --> SportsAgent
+SportsAgent --> LeagueOffice
+@enduml

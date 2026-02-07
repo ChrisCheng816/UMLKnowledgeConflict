@@ -1,0 +1,4 @@
+@startuml
+BluetoothSpeaker ..> RadioListening
+Electricity ..> BluetoothSpeaker
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FrenchSouthernTerritories <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

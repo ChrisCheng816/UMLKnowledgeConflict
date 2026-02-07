@@ -1,0 +1,4 @@
+@startuml
+Dehumidifier ..> MoldPrevention
+Electricity ..> Dehumidifier
+@enduml

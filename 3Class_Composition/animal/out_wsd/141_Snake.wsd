@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Snake
-Scale *-- Skin
+Jaw *-- Snake
+Tooth *-- Jaw
 @enduml

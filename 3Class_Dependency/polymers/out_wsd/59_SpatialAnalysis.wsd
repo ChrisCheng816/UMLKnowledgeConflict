@@ -1,0 +1,4 @@
+@startuml
+GISSoftware ..> SpatialAnalysis
+OperatingSystem ..> GISSoftware
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DetentionNotice --> PortStateControlOfficer
+PortStateControlOfficer --> MaritimeAuthority
+@enduml

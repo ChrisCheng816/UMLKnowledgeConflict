@@ -1,0 +1,4 @@
+@startuml
+TravelItinerary --> SwimCoach
+SwimCoach --> SwimCenter
+@enduml

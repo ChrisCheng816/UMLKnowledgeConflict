@@ -1,0 +1,4 @@
+@startuml
+SpaAppointment --> Lifeguard
+Lifeguard --> BeachResort
+@enduml

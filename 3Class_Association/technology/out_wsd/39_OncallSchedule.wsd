@@ -1,0 +1,4 @@
+@startuml
+OncallSchedule --> IncidentCommander
+IncidentCommander --> OperationsCenter
+@enduml

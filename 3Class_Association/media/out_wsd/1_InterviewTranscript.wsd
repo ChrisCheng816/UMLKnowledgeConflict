@@ -1,0 +1,4 @@
+@startuml
+InterviewTranscript --> Reporter
+Reporter --> Newspaper
+@enduml

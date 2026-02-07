@@ -1,0 +1,4 @@
+@startuml
+PromotionFlyer --> Stocker
+Stocker --> GroceryStore
+@enduml

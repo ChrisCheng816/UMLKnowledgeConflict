@@ -1,0 +1,4 @@
+@startuml
+ProcurementContract --> ZoningOfficer
+ZoningOfficer --> ZoningOffice
+@enduml

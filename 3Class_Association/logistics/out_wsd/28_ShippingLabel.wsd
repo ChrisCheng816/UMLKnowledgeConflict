@@ -1,0 +1,4 @@
+@startuml
+ShippingLabel --> CustomsBroker
+CustomsBroker --> CustomsOffice
+@enduml

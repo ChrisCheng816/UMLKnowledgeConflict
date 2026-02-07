@@ -1,4 +1,4 @@
 @startuml
-PodOfOrca o-- Tundra
-Orca o-- PodOfOrca
+ColonyOfMouse o-- Tundra
+Mouse o-- ColonyOfMouse
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+DepositSlip --> Teller
+Teller --> CommercialBank
+@enduml

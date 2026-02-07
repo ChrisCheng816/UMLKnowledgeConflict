@@ -1,0 +1,4 @@
+@startuml
+RoomAssignment --> EventPlanner
+EventPlanner --> ConferenceCenter
+@enduml

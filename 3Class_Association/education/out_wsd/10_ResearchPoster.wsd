@@ -1,0 +1,4 @@
+@startuml
+ResearchPoster --> Lecturer
+Lecturer --> CommunityCollege
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DesktopComputer ..> Email
+WiFiNetwork ..> DesktopComputer
+@enduml

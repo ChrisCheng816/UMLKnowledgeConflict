@@ -1,0 +1,4 @@
+@startuml
+ProductionBudget --> CopyEditor
+CopyEditor --> PublishingHouse
+@enduml

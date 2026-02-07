@@ -1,0 +1,4 @@
+@startuml
+UserStory --> SecurityAnalyst
+SecurityAnalyst --> SecurityOperationsCenter
+@enduml

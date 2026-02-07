@@ -1,0 +1,4 @@
+@startuml
+DialysisMachine ..> RenalTherapy
+Electricity ..> DialysisMachine
+@enduml

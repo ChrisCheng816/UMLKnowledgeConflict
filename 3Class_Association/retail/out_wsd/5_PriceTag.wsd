@@ -1,0 +1,4 @@
+@startuml
+PriceTag --> StoreManager
+StoreManager --> RetailStore
+@enduml

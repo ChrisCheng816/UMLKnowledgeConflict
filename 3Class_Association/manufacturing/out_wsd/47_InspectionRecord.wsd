@@ -1,0 +1,4 @@
+@startuml
+InspectionRecord --> WeldingInspector
+WeldingInspector --> Workshop
+@enduml

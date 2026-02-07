@@ -1,0 +1,4 @@
+@startuml
+CarbonMonoxideAlarm ..> Surveillance
+Electricity ..> CarbonMonoxideAlarm
+@enduml

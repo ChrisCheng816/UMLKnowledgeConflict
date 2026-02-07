@@ -1,0 +1,4 @@
+@startuml
+PickupNotice --> DeliveryCoordinator
+DeliveryCoordinator --> DeliveryCenter
+@enduml

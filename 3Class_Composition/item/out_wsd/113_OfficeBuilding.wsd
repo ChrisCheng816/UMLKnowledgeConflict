@@ -1,0 +1,4 @@
+@startuml
+Wall *-- OfficeBuilding
+Drywall *-- Wall
+@enduml

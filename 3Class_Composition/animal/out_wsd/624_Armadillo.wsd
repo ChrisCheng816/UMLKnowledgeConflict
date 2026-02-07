@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Armadillo
+Root *-- Tooth
+@enduml
