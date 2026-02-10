@@ -1,0 +1,4 @@
+@startuml
+ObservationLog --> Archaeologist
+Archaeologist --> ArchaeologyInstitute
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Peacock
-Lens *-- Eye
+Feather *-- Peacock
+Shaft *-- Feather
 @enduml

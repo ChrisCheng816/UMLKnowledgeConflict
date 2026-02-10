@@ -1,0 +1,4 @@
+@startuml
+TrueDetective <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

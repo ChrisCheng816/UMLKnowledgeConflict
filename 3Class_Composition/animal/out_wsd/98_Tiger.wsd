@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Tiger
-Lens *-- Eye
+Paw *-- Tiger
+Claw *-- Paw
 @enduml

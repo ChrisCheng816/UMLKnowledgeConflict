@@ -1,0 +1,4 @@
+@startuml
+VenusDeMilo <|-- Sculpture
+Sculpture <|-- Artwork
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PayrollRecord --> BudgetAnalyst
+BudgetAnalyst --> TreasuryOffice
+@enduml

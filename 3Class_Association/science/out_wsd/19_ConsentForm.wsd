@@ -1,0 +1,4 @@
+@startuml
+ConsentForm --> DataCurator
+DataCurator --> DataRepository
+@enduml

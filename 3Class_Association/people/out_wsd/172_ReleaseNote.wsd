@@ -1,0 +1,4 @@
+@startuml
+ReleaseNote --> TechnicalWriter
+TechnicalWriter --> SoftwareVendor
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Invoice --> Bartender
+Bartender --> Bar
+@enduml

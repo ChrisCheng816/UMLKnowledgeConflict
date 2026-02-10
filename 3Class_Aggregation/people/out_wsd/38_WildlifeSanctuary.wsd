@@ -1,0 +1,4 @@
+@startuml
+VeterinaryTeam o-- WildlifeSanctuary
+ResearchFellow o-- VeterinaryTeam
+@enduml

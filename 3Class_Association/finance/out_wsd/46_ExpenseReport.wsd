@@ -1,0 +1,4 @@
+@startuml
+ExpenseReport --> InvestmentAnalyst
+InvestmentAnalyst --> AssetManagementFirm
+@enduml

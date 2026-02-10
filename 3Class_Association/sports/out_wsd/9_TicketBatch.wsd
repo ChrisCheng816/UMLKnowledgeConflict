@@ -1,0 +1,4 @@
+@startuml
+TicketBatch --> Umpire
+Umpire --> BaseballField
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FreestyleSkiing <|-- WinterSport
+WinterSport <|-- Sport
+@enduml

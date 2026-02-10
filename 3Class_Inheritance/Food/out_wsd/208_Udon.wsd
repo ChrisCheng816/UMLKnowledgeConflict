@@ -1,0 +1,4 @@
+@startuml
+Udon <|-- Dish
+Dish <|-- Food
+@enduml

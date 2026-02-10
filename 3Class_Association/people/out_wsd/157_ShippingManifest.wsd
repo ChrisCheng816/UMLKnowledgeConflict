@@ -1,0 +1,4 @@
+@startuml
+ShippingManifest --> LogisticsPlanner
+LogisticsPlanner --> FreightCompany
+@enduml

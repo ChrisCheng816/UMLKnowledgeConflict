@@ -1,0 +1,4 @@
+@startuml
+Tortoise <|-- Reptile
+Reptile <|-- Animal
+@enduml

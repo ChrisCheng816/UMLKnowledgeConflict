@@ -1,4 +1,4 @@
 @startuml
-TomatoSauce *-- Lasagna
-Tomato *-- TomatoSauce
+Ricotta *-- Lasagna
+Milk *-- Ricotta
 @enduml

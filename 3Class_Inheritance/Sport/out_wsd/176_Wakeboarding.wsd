@@ -1,0 +1,4 @@
+@startuml
+Wakeboarding <|-- WaterSport
+WaterSport <|-- Sport
+@enduml

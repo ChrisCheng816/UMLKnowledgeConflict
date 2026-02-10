@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Shrike
-Shaft *-- Feather
+Wing *-- Shrike
+Feather *-- Wing
 @enduml

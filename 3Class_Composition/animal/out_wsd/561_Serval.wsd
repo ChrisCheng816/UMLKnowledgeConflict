@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Serval
-Root *-- Tooth
+Nose *-- Serval
+Nostril *-- Nose
 @enduml

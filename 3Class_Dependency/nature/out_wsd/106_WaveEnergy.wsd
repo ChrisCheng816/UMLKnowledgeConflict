@@ -1,0 +1,4 @@
+@startuml
+Wind ..> WaveEnergy
+PressureDifference ..> Wind
+@enduml

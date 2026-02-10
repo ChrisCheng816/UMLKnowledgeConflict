@@ -1,0 +1,4 @@
+@startuml
+ProductionReport --> MachineOperator
+MachineOperator --> AssemblyLine
+@enduml

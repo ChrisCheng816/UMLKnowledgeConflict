@@ -1,0 +1,4 @@
+@startuml
+Sedan <|-- Car
+Car <|-- Vehicle
+@enduml

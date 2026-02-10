@@ -1,4 +1,4 @@
 @startuml
-NestOfLizard o-- Aviary
-Lizard o-- NestOfLizard
+NestOfTortoise o-- Aviary
+Tortoise o-- NestOfTortoise
 @enduml

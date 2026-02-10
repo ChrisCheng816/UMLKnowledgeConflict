@@ -1,4 +1,4 @@
 @startuml
-BaskOfCrocodile o-- Delta
-Crocodile o-- BaskOfCrocodile
+NestOfChameleon o-- Delta
+Chameleon o-- NestOfChameleon
 @enduml

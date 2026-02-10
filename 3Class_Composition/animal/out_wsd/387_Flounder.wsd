@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Flounder
-Ray *-- Fin
+Gill *-- Flounder
+Filament *-- Gill
 @enduml

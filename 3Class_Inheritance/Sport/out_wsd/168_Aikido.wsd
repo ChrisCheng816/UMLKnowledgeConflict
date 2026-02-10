@@ -1,0 +1,4 @@
+@startuml
+Aikido <|-- CombatSport
+CombatSport <|-- Sport
+@enduml

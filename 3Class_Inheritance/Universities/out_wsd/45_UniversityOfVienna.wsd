@@ -1,0 +1,4 @@
+@startuml
+UniversityOfVienna <|-- University
+University <|-- EducationalInstitution
+@enduml

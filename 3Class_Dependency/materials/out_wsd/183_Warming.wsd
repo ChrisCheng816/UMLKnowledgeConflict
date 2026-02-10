@@ -1,0 +1,4 @@
+@startuml
+SlowCooker ..> Warming
+Electricity ..> SlowCooker
+@enduml

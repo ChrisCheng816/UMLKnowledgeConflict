@@ -1,0 +1,4 @@
+@startuml
+PatientMonitor ..> VitalSignsMonitoring
+Electricity ..> PatientMonitor
+@enduml

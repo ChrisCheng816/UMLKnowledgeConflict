@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Bat
-Root *-- Tooth
+Ear *-- Bat
+Eardrum *-- Ear
 @enduml

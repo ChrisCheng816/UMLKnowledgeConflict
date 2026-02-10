@@ -1,4 +1,4 @@
 @startuml
-ColonyOfMouse o-- Tundra
-Mouse o-- ColonyOfMouse
+ColonyOfRat o-- Tundra
+Rat o-- ColonyOfRat
 @enduml

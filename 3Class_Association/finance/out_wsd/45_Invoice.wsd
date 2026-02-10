@@ -1,0 +1,4 @@
+@startuml
+Invoice --> InvestmentAnalyst
+InvestmentAnalyst --> AssetManagementFirm
+@enduml

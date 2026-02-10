@@ -1,0 +1,4 @@
+@startuml
+NorwegianUniversityOfScienceAndTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

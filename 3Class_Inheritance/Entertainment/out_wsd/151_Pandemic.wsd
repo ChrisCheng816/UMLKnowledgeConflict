@@ -1,0 +1,4 @@
+@startuml
+Pandemic <|-- BoardGame
+BoardGame <|-- Game
+@enduml

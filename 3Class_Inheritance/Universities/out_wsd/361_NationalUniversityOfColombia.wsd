@@ -1,0 +1,4 @@
+@startuml
+NationalUniversityOfColombia <|-- University
+University <|-- EducationalInstitution
+@enduml

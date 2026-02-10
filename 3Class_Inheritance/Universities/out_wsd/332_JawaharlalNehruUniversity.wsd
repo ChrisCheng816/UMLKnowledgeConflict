@@ -1,0 +1,4 @@
+@startuml
+JawaharlalNehruUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

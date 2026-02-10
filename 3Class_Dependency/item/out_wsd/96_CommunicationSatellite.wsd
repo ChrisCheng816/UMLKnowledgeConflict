@@ -1,0 +1,4 @@
+@startuml
+GroundStation ..> CommunicationSatellite
+TrackingAntenna ..> GroundStation
+@enduml

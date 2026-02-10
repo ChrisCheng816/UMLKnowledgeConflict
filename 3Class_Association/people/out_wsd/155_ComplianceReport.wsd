@@ -1,0 +1,4 @@
+@startuml
+ComplianceReport --> ComplianceManager
+ComplianceManager --> ComplianceOffice
+@enduml

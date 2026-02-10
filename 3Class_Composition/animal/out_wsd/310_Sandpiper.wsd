@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Sandpiper
-Shaft *-- Feather
+Wing *-- Sandpiper
+Feather *-- Wing
 @enduml

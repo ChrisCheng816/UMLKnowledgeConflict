@@ -1,0 +1,4 @@
+@startuml
+Collection o-- ArchiveRoom
+Coin o-- Collection
+@enduml

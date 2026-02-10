@@ -1,0 +1,4 @@
+@startuml
+PaymentReceipt --> RiskAnalyst
+RiskAnalyst --> RiskOffice
+@enduml

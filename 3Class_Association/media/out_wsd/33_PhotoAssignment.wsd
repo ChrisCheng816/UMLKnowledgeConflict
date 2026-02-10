@@ -1,0 +1,4 @@
+@startuml
+PhotoAssignment --> CastingDirector
+CastingDirector --> FilmStudio
+@enduml

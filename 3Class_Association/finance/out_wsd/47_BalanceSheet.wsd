@@ -1,0 +1,4 @@
+@startuml
+BalanceSheet --> BranchManager
+BranchManager --> RetailBank
+@enduml

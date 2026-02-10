@@ -1,0 +1,4 @@
+@startuml
+Chimpanzee <|-- Mammal
+Mammal <|-- Animal
+@enduml

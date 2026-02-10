@@ -1,0 +1,4 @@
+@startuml
+Eel <|-- Fish
+Fish <|-- Animal
+@enduml

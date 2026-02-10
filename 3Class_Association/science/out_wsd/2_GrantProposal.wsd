@@ -1,0 +1,4 @@
+@startuml
+GrantProposal --> LabTechnician
+LabTechnician --> ResearchLaboratory
+@enduml

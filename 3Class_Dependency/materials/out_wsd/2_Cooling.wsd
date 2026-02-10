@@ -1,0 +1,4 @@
+@startuml
+AirConditioner ..> Cooling
+Electricity ..> AirConditioner
+@enduml

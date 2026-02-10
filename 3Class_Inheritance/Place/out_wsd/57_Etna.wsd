@@ -1,0 +1,4 @@
+@startuml
+Etna <|-- Volcano
+Volcano <|-- GeographicFeature
+@enduml

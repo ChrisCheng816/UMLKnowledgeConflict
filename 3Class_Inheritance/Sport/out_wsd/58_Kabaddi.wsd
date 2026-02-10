@@ -1,0 +1,4 @@
+@startuml
+Kabaddi <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

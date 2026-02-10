@@ -1,4 +1,4 @@
 @startuml
-Tongue *-- Chameleon
-Muscle *-- Tongue
+Skin *-- Chameleon
+Scale *-- Skin
 @enduml

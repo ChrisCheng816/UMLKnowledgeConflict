@@ -1,0 +1,4 @@
+@startuml
+PortInspectionReport --> PortInspector
+PortInspector --> MaritimeAuthority
+@enduml

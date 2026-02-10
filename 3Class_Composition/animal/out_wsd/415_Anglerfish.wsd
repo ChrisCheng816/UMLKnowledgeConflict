@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Anglerfish
-Ray *-- Fin
+Gill *-- Anglerfish
+Filament *-- Gill
 @enduml

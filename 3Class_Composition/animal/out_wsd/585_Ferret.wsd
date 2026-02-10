@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Ferret
-Root *-- Tooth
+Nose *-- Ferret
+Nostril *-- Nose
 @enduml

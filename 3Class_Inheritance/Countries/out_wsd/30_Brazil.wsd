@@ -1,0 +1,4 @@
+@startuml
+Brazil <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

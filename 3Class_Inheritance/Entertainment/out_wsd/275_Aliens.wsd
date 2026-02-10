@@ -1,0 +1,4 @@
+@startuml
+Aliens <|-- Film
+Film <|-- Entertainment
+@enduml

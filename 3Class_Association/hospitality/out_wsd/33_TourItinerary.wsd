@@ -1,0 +1,4 @@
+@startuml
+TourItinerary --> CateringManager
+CateringManager --> CateringCompany
+@enduml

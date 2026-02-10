@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Parrotfish
-Ray *-- Fin
+Gill *-- Parrotfish
+Filament *-- Gill
 @enduml

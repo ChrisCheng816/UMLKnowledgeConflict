@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Osprey
-Nostril *-- Beak
+Feather *-- Osprey
+Shaft *-- Feather
 @enduml

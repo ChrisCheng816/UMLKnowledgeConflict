@@ -1,0 +1,4 @@
+@startuml
+UniversityOfMassachusettsAmherst <|-- University
+University <|-- EducationalInstitution
+@enduml

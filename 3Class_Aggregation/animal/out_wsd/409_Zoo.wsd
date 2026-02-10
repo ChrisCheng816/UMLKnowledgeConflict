@@ -1,4 +1,4 @@
 @startuml
-GroupOfCrab o-- Zoo
-Crab o-- GroupOfCrab
+GroupOfJellyfish o-- Zoo
+Jellyfish o-- GroupOfJellyfish
 @enduml

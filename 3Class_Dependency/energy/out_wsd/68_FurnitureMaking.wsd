@@ -1,0 +1,4 @@
+@startuml
+TableSaw ..> FurnitureMaking
+Electricity ..> TableSaw
+@enduml

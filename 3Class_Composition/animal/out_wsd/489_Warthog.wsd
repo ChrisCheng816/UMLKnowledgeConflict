@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Warthog
-Root *-- Tooth
+Nose *-- Warthog
+Nostril *-- Nose
 @enduml

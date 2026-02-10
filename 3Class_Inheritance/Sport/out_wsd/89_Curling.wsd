@@ -1,0 +1,4 @@
+@startuml
+Curling <|-- WinterSport
+WinterSport <|-- Sport
+@enduml

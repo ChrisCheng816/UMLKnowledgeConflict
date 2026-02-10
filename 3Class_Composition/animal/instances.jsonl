@@ -754,3 +754,4 @@
 {"id": "754", "template_id": "composition", "nodes": ["TigerSalamander", "Eye", "Lens"], "edges": ["Eye *-- TigerSalamander", "Lens *-- Eye"]}
 {"id": "755", "template_id": "composition", "nodes": ["TigerSalamander", "Skin", "Scale"], "edges": ["Skin *-- TigerSalamander", "Scale *-- Skin"]}
 {"id": "756", "template_id": "composition", "nodes": ["TigerSalamander", "Leg", "Muscle"], "edges": ["Leg *-- TigerSalamander", "Muscle *-- Leg"]}
+{"id": "757", "template_id": "composition", "nodes": ["HumanBody", "Skeleton", "Vertebra"], "edges": ["Skeleton *-- HumanBody", "Vertebra *-- Skeleton"]}

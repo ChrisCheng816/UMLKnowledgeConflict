@@ -1,0 +1,4 @@
+@startuml
+ShippingLabel --> ShippingClerk
+ShippingClerk --> Warehouse
+@enduml

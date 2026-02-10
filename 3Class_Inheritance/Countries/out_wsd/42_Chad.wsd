@@ -1,0 +1,4 @@
+@startuml
+Chad <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

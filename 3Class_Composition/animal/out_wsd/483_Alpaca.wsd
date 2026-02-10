@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Alpaca
-Root *-- Tooth
+Nose *-- Alpaca
+Nostril *-- Nose
 @enduml

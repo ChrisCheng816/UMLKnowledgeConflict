@@ -1,0 +1,4 @@
+@startuml
+NotaryJournalEntry --> NotaryPublic
+NotaryPublic --> NotaryOffice
+@enduml

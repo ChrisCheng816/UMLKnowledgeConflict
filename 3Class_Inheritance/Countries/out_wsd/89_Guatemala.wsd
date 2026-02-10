@@ -1,0 +1,4 @@
+@startuml
+Guatemala <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

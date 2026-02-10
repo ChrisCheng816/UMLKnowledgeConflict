@@ -1,4 +1,4 @@
 @startuml
-NestOfTortoise o-- Plateau
-Tortoise o-- NestOfTortoise
+NestOfTurtle o-- Plateau
+Turtle o-- NestOfTurtle
 @enduml

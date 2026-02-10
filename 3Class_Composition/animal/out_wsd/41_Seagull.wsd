@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Seagull
-Nostril *-- Beak
+Feather *-- Seagull
+Shaft *-- Feather
 @enduml

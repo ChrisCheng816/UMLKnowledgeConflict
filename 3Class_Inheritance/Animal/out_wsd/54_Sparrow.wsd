@@ -1,0 +1,4 @@
+@startuml
+Sparrow <|-- Bird
+Bird <|-- Animal
+@enduml

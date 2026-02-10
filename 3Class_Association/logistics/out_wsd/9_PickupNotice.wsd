@@ -1,0 +1,4 @@
+@startuml
+PickupNotice --> ShippingClerk
+ShippingClerk --> ShippingDepartment
+@enduml

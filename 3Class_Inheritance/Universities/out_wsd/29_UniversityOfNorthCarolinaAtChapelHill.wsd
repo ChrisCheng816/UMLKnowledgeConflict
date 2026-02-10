@@ -1,0 +1,4 @@
+@startuml
+UniversityOfNorthCarolinaAtChapelHill <|-- University
+University <|-- EducationalInstitution
+@enduml

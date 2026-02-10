@@ -1,0 +1,4 @@
+@startuml
+Film <|-- Entertainment
+Entertainment <|-- Activity
+@enduml

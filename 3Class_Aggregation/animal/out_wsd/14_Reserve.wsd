@@ -1,4 +1,4 @@
 @startuml
-FlockOfRobin o-- Reserve
-Robin o-- FlockOfRobin
+FlockOfSparrow o-- Reserve
+Sparrow o-- FlockOfSparrow
 @enduml

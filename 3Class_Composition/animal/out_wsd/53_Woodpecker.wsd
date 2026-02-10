@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Woodpecker
-Feather *-- Wing
+Beak *-- Woodpecker
+Nostril *-- Beak
 @enduml

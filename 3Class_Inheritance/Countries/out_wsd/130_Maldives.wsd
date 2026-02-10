@@ -1,0 +1,4 @@
+@startuml
+Maldives <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

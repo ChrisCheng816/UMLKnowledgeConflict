@@ -1,0 +1,4 @@
+@startuml
+ChargingStation ..> ElectricCar
+UtilityTransformer ..> ChargingStation
+@enduml

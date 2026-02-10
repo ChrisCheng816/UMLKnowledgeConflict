@@ -1,0 +1,4 @@
+@startuml
+Woodpecker <|-- Bird
+Bird <|-- Animal
+@enduml

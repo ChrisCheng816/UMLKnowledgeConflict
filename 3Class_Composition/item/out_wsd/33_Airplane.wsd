@@ -1,0 +1,4 @@
+@startuml
+Wing *-- Airplane
+Winglet *-- Wing
+@enduml

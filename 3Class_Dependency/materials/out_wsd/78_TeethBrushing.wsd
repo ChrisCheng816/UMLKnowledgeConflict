@@ -1,0 +1,4 @@
+@startuml
+ElectricToothbrush ..> TeethBrushing
+Electricity ..> ElectricToothbrush
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+UniversityOfOtago <|-- University
+University <|-- EducationalInstitution
+@enduml

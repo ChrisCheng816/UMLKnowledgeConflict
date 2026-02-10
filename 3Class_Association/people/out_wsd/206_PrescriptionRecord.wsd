@@ -1,0 +1,4 @@
+@startuml
+PrescriptionRecord --> PharmacyTechnician
+PharmacyTechnician --> Pharmacy
+@enduml

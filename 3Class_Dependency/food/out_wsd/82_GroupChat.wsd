@@ -1,0 +1,4 @@
+@startuml
+PhotoSharingApp ..> GroupChat
+InternetConnection ..> PhotoSharingApp
+@enduml

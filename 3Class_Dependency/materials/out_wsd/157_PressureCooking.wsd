@@ -1,0 +1,4 @@
+@startuml
+PressureCooker ..> PressureCooking
+Electricity ..> PressureCooker
+@enduml

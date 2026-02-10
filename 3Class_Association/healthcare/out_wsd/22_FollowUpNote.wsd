@@ -1,0 +1,4 @@
+@startuml
+FollowUpNote --> Cardiologist
+Cardiologist --> HeartInstitute
+@enduml

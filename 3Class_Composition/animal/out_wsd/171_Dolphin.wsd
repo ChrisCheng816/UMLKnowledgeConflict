@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Dolphin
-Root *-- Tooth
+Fin *-- Dolphin
+Ray *-- Fin
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Triggerfish
-Ray *-- Fin
+Gill *-- Triggerfish
+Filament *-- Gill
 @enduml

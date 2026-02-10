@@ -1,0 +1,4 @@
+@startuml
+PaymentGateway ..> SubscriptionPayment
+InternetConnection ..> PaymentGateway
+@enduml

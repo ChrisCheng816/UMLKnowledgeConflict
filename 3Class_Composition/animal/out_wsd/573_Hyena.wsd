@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Hyena
-Root *-- Tooth
+Nose *-- Hyena
+Nostril *-- Nose
 @enduml

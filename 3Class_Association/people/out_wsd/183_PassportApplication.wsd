@@ -1,0 +1,4 @@
+@startuml
+PassportApplication --> PassportSpecialist
+PassportSpecialist --> PassportOffice
+@enduml

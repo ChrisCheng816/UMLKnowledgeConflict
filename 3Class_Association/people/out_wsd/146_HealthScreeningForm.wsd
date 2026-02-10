@@ -1,0 +1,4 @@
+@startuml
+HealthScreeningForm --> SchoolNurse
+SchoolNurse --> PublicSchool
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Grouse
-Nostril *-- Beak
+Feather *-- Grouse
+Shaft *-- Feather
 @enduml

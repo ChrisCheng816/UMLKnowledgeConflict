@@ -1,0 +1,4 @@
+@startuml
+Kyrgyzstan <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HearingNotice --> Bondsman
+Bondsman --> BailAgency
+@enduml

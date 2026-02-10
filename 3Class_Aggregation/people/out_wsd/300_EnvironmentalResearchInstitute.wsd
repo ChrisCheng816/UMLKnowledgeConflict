@@ -1,0 +1,4 @@
+@startuml
+ResearchTeam o-- EnvironmentalResearchInstitute
+ResearchFellow o-- ResearchTeam
+@enduml

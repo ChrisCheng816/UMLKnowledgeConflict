@@ -1,0 +1,4 @@
+@startuml
+SpyXFamily <|-- AnimeSeries
+AnimeSeries <|-- TVSeries
+@enduml

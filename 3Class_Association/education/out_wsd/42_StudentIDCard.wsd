@@ -1,0 +1,4 @@
+@startuml
+StudentIDCard --> CurriculumCoordinator
+CurriculumCoordinator --> SchoolDistrictOffice
+@enduml

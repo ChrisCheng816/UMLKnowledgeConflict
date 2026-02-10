@@ -1,0 +1,4 @@
+@startuml
+FacilityInspectionReport --> AthleticTrainer
+AthleticTrainer --> TrainingFacility
+@enduml

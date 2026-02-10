@@ -1,0 +1,4 @@
+@startuml
+SurgicalConsentForm --> Surgeon
+Surgeon --> TeachingHospital
+@enduml

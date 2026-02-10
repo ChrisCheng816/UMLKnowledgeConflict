@@ -1,0 +1,4 @@
+@startuml
+WorkOrder --> QualityInspector
+QualityInspector --> ManufacturingPlant
+@enduml

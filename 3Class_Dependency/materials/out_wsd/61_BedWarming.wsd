@@ -1,0 +1,4 @@
+@startuml
+ElectricBlanket ..> BedWarming
+Electricity ..> ElectricBlanket
+@enduml

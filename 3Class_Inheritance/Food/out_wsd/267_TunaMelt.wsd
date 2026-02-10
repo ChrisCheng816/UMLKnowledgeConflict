@@ -1,0 +1,4 @@
+@startuml
+TunaMelt <|-- Sandwich
+Sandwich <|-- Food
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BioShock <|-- VideoGame
+VideoGame <|-- Game
+@enduml

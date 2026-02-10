@@ -1,0 +1,4 @@
+@startuml
+Volga <|-- River
+River <|-- GeographicFeature
+@enduml

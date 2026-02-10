@@ -1,0 +1,4 @@
+@startuml
+LeidenUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

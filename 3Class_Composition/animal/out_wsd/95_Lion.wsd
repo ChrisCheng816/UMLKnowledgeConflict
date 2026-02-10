@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lion
-Lens *-- Eye
+Paw *-- Lion
+Claw *-- Paw
 @enduml

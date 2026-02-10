@@ -1,4 +1,4 @@
 @startuml
-Leg *-- FireSalamander
-Muscle *-- Leg
+Skin *-- FireSalamander
+Scale *-- Skin
 @enduml

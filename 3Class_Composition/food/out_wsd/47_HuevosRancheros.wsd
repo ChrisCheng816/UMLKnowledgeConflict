@@ -1,0 +1,4 @@
+@startuml
+Tortilla *-- HuevosRancheros
+Cornmeal *-- Tortilla
+@enduml

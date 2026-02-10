@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Toad
-Gland *-- Skin
+Leg *-- Toad
+Muscle *-- Leg
 @enduml

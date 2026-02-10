@@ -1,0 +1,4 @@
+@startuml
+DeathNoteManga <|-- Manga
+Manga <|-- Comic
+@enduml

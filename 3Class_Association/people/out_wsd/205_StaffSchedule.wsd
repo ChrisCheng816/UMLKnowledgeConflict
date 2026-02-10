@@ -1,0 +1,4 @@
+@startuml
+StaffSchedule --> RestaurantManager
+RestaurantManager --> Restaurant
+@enduml

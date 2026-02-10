@@ -1,0 +1,4 @@
+@startuml
+PaymentReceipt --> FinancialAdvisor
+FinancialAdvisor --> InvestmentFirm
+@enduml

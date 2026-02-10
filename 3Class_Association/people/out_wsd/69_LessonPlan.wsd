@@ -1,0 +1,4 @@
+@startuml
+LessonPlan --> Teacher
+Teacher --> HighSchool
+@enduml

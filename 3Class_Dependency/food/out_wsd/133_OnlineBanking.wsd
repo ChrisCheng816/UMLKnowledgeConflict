@@ -1,0 +1,4 @@
+@startuml
+WebBrowser ..> OnlineBanking
+InternetConnection ..> WebBrowser
+@enduml

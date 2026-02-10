@@ -1,0 +1,4 @@
+@startuml
+AttendanceSheet --> Teacher
+Teacher --> MiddleSchool
+@enduml

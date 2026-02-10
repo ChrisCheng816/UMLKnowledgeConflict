@@ -1,0 +1,4 @@
+@startuml
+TurbineEngine *-- TurbopropPlane
+Compressor *-- TurbineEngine
+@enduml

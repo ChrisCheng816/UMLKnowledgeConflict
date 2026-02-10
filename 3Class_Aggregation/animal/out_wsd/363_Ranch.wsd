@@ -1,4 +1,4 @@
 @startuml
-SchoolOfSalmon o-- Ranch
-Salmon o-- SchoolOfSalmon
+ColonyOfKangaroo o-- Ranch
+Kangaroo o-- ColonyOfKangaroo
 @enduml

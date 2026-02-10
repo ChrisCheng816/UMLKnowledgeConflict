@@ -1,0 +1,4 @@
+@startuml
+RescueReport --> CoastGuardOfficer
+CoastGuardOfficer --> CoastGuardStation
+@enduml

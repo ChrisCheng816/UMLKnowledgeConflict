@@ -1,0 +1,4 @@
+@startuml
+Rocky <|-- Film
+Film <|-- Entertainment
+@enduml

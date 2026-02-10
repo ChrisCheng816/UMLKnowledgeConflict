@@ -1,0 +1,4 @@
+@startuml
+Hatchback <|-- Car
+Car <|-- Vehicle
+@enduml

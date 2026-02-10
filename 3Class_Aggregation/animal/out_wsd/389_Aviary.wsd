@@ -1,4 +1,4 @@
 @startuml
-ColonyOfAnt o-- Aviary
-Ant o-- ColonyOfAnt
+SwarmOfFirefly o-- Aviary
+Firefly o-- SwarmOfFirefly
 @enduml

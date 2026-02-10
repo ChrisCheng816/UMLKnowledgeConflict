@@ -1,0 +1,4 @@
+@startuml
+FinanceTeam o-- CoastalNewsAgency
+Dispatcher o-- FinanceTeam
+@enduml

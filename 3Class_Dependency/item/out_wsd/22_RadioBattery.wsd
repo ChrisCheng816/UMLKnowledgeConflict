@@ -1,0 +1,4 @@
+@startuml
+BatteryCharger ..> RadioBattery
+WallOutlet ..> BatteryCharger
+@enduml

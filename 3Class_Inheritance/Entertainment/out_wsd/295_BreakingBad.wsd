@@ -1,0 +1,4 @@
+@startuml
+BreakingBad <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

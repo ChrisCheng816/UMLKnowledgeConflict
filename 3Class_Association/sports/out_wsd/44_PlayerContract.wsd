@@ -1,0 +1,4 @@
+@startuml
+PlayerContract --> BoxingTrainer
+BoxingTrainer --> BoxingGym
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+OperationsTeam o-- RailwayOffice
+TrainConductor o-- OperationsTeam
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Guest --> Bellhop
-Bellhop --> Hotel
+Guest --> Housekeeper
+Housekeeper --> Hotel
 @enduml

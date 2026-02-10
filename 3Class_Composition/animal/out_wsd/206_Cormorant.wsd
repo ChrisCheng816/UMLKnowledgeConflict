@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Cormorant
-Nostril *-- Beak
+Feather *-- Cormorant
+Shaft *-- Feather
 @enduml

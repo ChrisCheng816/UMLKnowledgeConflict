@@ -1,0 +1,4 @@
+@startuml
+LaocoonAndHisSons <|-- Sculpture
+Sculpture <|-- Artwork
+@enduml

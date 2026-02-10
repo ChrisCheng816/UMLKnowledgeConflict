@@ -1,0 +1,4 @@
+@startuml
+InstitutPolytechniqueDeParis <|-- University
+University <|-- EducationalInstitution
+@enduml

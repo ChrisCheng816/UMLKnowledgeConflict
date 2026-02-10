@@ -1,0 +1,4 @@
+@startuml
+CloudStorage ..> FileSharing
+InternetConnection ..> CloudStorage
+@enduml

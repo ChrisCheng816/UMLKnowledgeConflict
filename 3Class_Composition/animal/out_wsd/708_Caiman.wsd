@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Caiman
-Lens *-- Eye
+Skin *-- Caiman
+Scale *-- Skin
 @enduml

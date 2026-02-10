@@ -1,0 +1,4 @@
+@startuml
+BatteryBackupRepairOrder --> BaggageHandler
+BaggageHandler --> Airport
+@enduml

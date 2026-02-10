@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Mockingbird
-Nostril *-- Beak
+Feather *-- Mockingbird
+Shaft *-- Feather
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+MississippiRiver <|-- River
+River <|-- GeographicFeature
+@enduml

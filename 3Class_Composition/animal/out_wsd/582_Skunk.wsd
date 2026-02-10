@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Skunk
-Root *-- Tooth
+Nose *-- Skunk
+Nostril *-- Nose
 @enduml

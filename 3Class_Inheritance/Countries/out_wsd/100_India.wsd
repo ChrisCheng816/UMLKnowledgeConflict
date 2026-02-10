@@ -1,0 +1,4 @@
+@startuml
+India <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WirelessHeadphones ..> HandsFreeCalling
+Bluetooth ..> WirelessHeadphones
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Iguana
-Root *-- Tooth
+Skin *-- Iguana
+Scale *-- Skin
 @enduml

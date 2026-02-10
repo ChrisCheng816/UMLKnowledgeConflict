@@ -1,0 +1,4 @@
+@startuml
+CarNavigationSystem ..> RouteGuidance
+GPSSignal ..> CarNavigationSystem
+@enduml

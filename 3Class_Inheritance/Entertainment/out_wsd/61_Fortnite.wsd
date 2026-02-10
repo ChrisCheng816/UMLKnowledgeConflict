@@ -1,0 +1,4 @@
+@startuml
+Fortnite <|-- VideoGame
+VideoGame <|-- Game
+@enduml

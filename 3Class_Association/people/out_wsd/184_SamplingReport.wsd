@@ -1,0 +1,4 @@
+@startuml
+SamplingReport --> EnvironmentalScientist
+EnvironmentalScientist --> EnvironmentalAgency
+@enduml

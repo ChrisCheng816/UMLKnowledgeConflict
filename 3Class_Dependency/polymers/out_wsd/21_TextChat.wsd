@@ -1,0 +1,4 @@
+@startuml
+ChatClient ..> TextChat
+OperatingSystem ..> ChatClient
+@enduml

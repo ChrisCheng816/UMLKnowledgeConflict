@@ -1,4 +1,4 @@
 @startuml
-TroopOfMonkey o-- Desert
-Monkey o-- TroopOfMonkey
+PrideOfLion o-- Desert
+Lion o-- PrideOfLion
 @enduml

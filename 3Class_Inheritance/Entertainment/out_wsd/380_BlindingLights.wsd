@@ -1,0 +1,4 @@
+@startuml
+BlindingLights <|-- Song
+Song <|-- MusicWork
+@enduml

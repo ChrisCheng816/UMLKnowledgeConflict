@@ -1,0 +1,4 @@
+@startuml
+SolarWind ..> GeomagneticStorm
+Sun ..> SolarWind
+@enduml

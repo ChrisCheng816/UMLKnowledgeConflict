@@ -1,0 +1,4 @@
+@startuml
+LoanApplication --> MortgageBroker
+MortgageBroker --> MortgageCompany
+@enduml

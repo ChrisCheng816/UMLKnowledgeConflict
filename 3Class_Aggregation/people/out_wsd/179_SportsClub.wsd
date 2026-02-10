@@ -1,0 +1,4 @@
+@startuml
+PlayerGroup o-- SportsClub
+GameMaster o-- PlayerGroup
+@enduml

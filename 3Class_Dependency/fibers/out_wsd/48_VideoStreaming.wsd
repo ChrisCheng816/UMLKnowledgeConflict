@@ -1,0 +1,4 @@
+@startuml
+SmartTV ..> VideoStreaming
+WiFiNetwork ..> SmartTV
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PublicationNotice --> Ecologist
+Ecologist --> ConservationOffice
+@enduml

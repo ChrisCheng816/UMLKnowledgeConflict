@@ -1,4 +1,4 @@
 @startuml
-PackOfWolf o-- Jungle
-Wolf o-- PackOfWolf
+HerdOfBoar o-- Jungle
+Boar o-- HerdOfBoar
 @enduml

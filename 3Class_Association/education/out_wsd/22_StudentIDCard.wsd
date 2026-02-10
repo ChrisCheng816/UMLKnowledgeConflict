@@ -1,0 +1,4 @@
+@startuml
+StudentIDCard --> Coach
+Coach --> Gymnasium
+@enduml

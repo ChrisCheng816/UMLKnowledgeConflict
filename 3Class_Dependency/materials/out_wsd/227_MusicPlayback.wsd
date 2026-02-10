@@ -1,0 +1,4 @@
+@startuml
+Turntable ..> MusicPlayback
+Electricity ..> Turntable
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+AlbertEinstein <|-- Physicist
+Physicist <|-- Scientist
+@enduml

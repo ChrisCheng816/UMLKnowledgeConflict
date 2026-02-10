@@ -1,0 +1,4 @@
+@startuml
+UniversityOfCalcutta <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+NewYorkUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

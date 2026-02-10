@@ -1,0 +1,4 @@
+@startuml
+NestOfGecko o-- Bay
+Gecko o-- NestOfGecko
+@enduml

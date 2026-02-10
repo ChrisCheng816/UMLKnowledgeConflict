@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Chipmunk
-Root *-- Tooth
+Nose *-- Chipmunk
+Nostril *-- Nose
 @enduml

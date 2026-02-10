@@ -1,4 +1,4 @@
 @startuml
-FlockOfMagpie o-- Hatchery
-Magpie o-- FlockOfMagpie
+FlockOfRook o-- Hatchery
+Rook o-- FlockOfRook
 @enduml

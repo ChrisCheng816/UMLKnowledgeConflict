@@ -1,0 +1,4 @@
+@startuml
+FriedRice <|-- Dish
+Dish <|-- Food
+@enduml

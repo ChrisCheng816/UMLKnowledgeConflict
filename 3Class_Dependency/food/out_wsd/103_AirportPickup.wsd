@@ -1,0 +1,4 @@
+@startuml
+RideHailingApp ..> AirportPickup
+InternetConnection ..> RideHailingApp
+@enduml

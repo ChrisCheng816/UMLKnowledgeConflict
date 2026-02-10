@@ -1,0 +1,4 @@
+@startuml
+NonconformanceReport --> QualityInspector
+QualityInspector --> ManufacturingPlant
+@enduml

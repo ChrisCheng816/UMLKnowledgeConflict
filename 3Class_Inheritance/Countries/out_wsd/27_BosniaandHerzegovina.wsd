@@ -1,0 +1,4 @@
+@startuml
+BosniaandHerzegovina <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

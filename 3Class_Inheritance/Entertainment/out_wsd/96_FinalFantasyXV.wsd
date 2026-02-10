@@ -1,0 +1,4 @@
+@startuml
+FinalFantasyXV <|-- VideoGame
+VideoGame <|-- Game
+@enduml

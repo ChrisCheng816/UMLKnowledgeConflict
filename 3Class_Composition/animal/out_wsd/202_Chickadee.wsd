@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Chickadee
-Shaft *-- Feather
+Wing *-- Chickadee
+Feather *-- Wing
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+TechnionIsraelInstituteOfTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

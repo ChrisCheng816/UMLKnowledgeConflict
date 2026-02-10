@@ -1,0 +1,4 @@
+@startuml
+CounselingNote --> SchoolCounselor
+SchoolCounselor --> ElementarySchool
+@enduml

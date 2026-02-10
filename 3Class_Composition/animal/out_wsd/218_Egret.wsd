@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Egret
-Nostril *-- Beak
+Feather *-- Egret
+Shaft *-- Feather
 @enduml

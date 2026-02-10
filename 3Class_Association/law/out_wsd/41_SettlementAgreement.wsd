@@ -1,0 +1,4 @@
+@startuml
+SettlementAgreement --> DefenseAttorney
+DefenseAttorney --> CriminalCourt
+@enduml

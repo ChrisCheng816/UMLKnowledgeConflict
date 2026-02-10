@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Okapi
-Root *-- Tooth
+Nose *-- Okapi
+Nostril *-- Nose
 @enduml

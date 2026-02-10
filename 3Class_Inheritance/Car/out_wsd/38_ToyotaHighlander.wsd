@@ -1,0 +1,4 @@
+@startuml
+ToyotaHighlander <|-- Toyota
+Toyota <|-- CarManufacturer
+@enduml

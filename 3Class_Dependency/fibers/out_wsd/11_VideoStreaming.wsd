@@ -1,0 +1,4 @@
+@startuml
+DesktopComputer ..> VideoStreaming
+WiFiNetwork ..> DesktopComputer
+@enduml

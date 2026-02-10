@@ -1,0 +1,4 @@
+@startuml
+WardTeam o-- HospitalAuthority
+ICUNurse o-- WardTeam
+@enduml

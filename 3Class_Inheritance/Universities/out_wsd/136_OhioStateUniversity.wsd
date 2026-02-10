@@ -1,0 +1,4 @@
+@startuml
+OhioStateUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

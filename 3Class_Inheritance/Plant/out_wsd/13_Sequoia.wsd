@@ -1,0 +1,4 @@
+@startuml
+Sequoia <|-- Tree
+Tree <|-- Plant
+@enduml

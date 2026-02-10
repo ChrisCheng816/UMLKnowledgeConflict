@@ -1,0 +1,4 @@
+@startuml
+HanyangUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

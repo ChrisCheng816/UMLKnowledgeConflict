@@ -1,0 +1,4 @@
+@startuml
+EquatorialGuinea <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

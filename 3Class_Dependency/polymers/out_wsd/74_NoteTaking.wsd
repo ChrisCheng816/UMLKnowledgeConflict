@@ -1,0 +1,4 @@
+@startuml
+MindMapTool ..> NoteTaking
+OperatingSystem ..> MindMapTool
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-NestOfCobra o-- Plateau
-Cobra o-- NestOfCobra
+NestOfSnake o-- Plateau
+Snake o-- NestOfSnake
 @enduml

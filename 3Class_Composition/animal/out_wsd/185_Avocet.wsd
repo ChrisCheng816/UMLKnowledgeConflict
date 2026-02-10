@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Avocet
-Nostril *-- Beak
+Feather *-- Avocet
+Shaft *-- Feather
 @enduml

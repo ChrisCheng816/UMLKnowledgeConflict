@@ -1,4 +1,4 @@
 @startuml
-FlockOfFalcon o-- Park
-Falcon o-- FlockOfFalcon
+FlockOfParrot o-- Park
+Parrot o-- FlockOfParrot
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+VitalsChart --> Paramedic
+Paramedic --> AmbulanceService
+@enduml

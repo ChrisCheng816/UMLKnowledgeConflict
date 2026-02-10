@@ -1,0 +1,4 @@
+@startuml
+LibraryCard --> Librarian
+Librarian --> CommunityLibrary
+@enduml

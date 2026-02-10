@@ -1,0 +1,4 @@
+@startuml
+UniversityOfSaoPaulo <|-- University
+University <|-- EducationalInstitution
+@enduml

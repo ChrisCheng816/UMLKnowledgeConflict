@@ -1,0 +1,4 @@
+@startuml
+City <|-- GeographicFeature
+GeographicFeature <|-- Location
+@enduml

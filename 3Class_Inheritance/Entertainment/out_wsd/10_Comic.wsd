@@ -1,0 +1,4 @@
+@startuml
+Comic <|-- Entertainment
+Entertainment <|-- Activity
+@enduml

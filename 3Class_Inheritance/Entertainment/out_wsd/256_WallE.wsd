@@ -1,0 +1,4 @@
+@startuml
+WallE <|-- Film
+Film <|-- Entertainment
+@enduml

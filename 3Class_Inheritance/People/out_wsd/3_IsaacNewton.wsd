@@ -1,0 +1,4 @@
+@startuml
+IsaacNewton <|-- Physicist
+Physicist <|-- Scientist
+@enduml

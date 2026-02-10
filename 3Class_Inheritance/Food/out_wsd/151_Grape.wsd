@@ -1,0 +1,4 @@
+@startuml
+Grape <|-- Fruit
+Fruit <|-- Food
+@enduml

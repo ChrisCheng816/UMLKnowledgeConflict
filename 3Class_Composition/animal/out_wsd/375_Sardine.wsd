@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Sardine
-Ray *-- Fin
+Gill *-- Sardine
+Filament *-- Gill
 @enduml

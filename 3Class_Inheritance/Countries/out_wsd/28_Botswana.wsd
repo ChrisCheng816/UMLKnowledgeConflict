@@ -1,0 +1,4 @@
+@startuml
+Botswana <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

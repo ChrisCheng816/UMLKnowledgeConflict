@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Bullfrog
+Muscle *-- Leg
+@enduml

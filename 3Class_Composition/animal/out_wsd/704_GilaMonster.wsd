@@ -1,4 +1,4 @@
 @startuml
-Eye *-- GilaMonster
-Lens *-- Eye
+Skin *-- GilaMonster
+Scale *-- Skin
 @enduml

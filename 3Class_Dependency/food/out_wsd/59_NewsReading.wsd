@@ -1,0 +1,4 @@
+@startuml
+NewsWebsite ..> NewsReading
+InternetConnection ..> NewsWebsite
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+JagiellonianUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

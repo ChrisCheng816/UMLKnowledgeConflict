@@ -1,0 +1,4 @@
+@startuml
+UniversityOfCaliforniaRiverside <|-- University
+University <|-- EducationalInstitution
+@enduml

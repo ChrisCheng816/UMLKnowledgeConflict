@@ -1,0 +1,4 @@
+@startuml
+ClamChowder <|-- Soup
+Soup <|-- Dish
+@enduml

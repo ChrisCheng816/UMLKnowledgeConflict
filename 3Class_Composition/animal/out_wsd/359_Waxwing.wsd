@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Waxwing
-Nostril *-- Beak
+Feather *-- Waxwing
+Shaft *-- Feather
 @enduml

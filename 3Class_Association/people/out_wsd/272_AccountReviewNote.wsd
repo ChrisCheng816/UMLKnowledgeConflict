@@ -1,0 +1,4 @@
+@startuml
+AccountReviewNote --> FraudAnalyst
+FraudAnalyst --> Bank
+@enduml

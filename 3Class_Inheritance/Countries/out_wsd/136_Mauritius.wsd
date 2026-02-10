@@ -1,0 +1,4 @@
+@startuml
+Mauritius <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StateUniversityOfCampinas <|-- University
+University <|-- EducationalInstitution
+@enduml

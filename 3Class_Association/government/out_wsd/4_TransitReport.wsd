@@ -1,0 +1,4 @@
+@startuml
+TransitReport --> PoliceDetective
+PoliceDetective --> PoliceDepartment
+@enduml

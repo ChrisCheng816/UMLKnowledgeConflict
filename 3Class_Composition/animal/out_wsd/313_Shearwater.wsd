@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Shearwater
-Shaft *-- Feather
+Wing *-- Shearwater
+Feather *-- Wing
 @enduml

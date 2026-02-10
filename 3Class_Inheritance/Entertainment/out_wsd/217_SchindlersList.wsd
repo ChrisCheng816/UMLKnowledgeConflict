@@ -1,0 +1,4 @@
+@startuml
+SchindlersList <|-- Film
+Film <|-- Entertainment
+@enduml

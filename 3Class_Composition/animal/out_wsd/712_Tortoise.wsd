@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Tortoise
-Lens *-- Eye
+Skin *-- Tortoise
+Scale *-- Skin
 @enduml

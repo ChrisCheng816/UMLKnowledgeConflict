@@ -1,0 +1,4 @@
+@startuml
+TheThinker <|-- Sculpture
+Sculpture <|-- Artwork
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Nightingale
-Shaft *-- Feather
+Wing *-- Nightingale
+Feather *-- Wing
 @enduml

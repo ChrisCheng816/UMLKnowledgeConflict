@@ -1,0 +1,4 @@
+@startuml
+ShiftSchedule --> OperationsManager
+OperationsManager --> Warehouse
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CaseReport --> Detective
+Detective --> PoliceDepartment
+@enduml

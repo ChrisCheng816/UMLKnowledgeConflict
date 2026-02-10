@@ -1,0 +1,4 @@
+@startuml
+UniversityOfOslo <|-- University
+University <|-- EducationalInstitution
+@enduml

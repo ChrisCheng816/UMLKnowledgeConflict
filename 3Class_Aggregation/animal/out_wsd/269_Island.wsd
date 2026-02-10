@@ -1,4 +1,4 @@
 @startuml
-GroupOfJellyfish o-- Island
-Jellyfish o-- GroupOfJellyfish
+GroupOfSquid o-- Island
+Squid o-- GroupOfSquid
 @enduml

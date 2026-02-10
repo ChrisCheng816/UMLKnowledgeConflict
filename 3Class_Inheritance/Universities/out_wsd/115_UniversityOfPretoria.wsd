@@ -1,0 +1,4 @@
+@startuml
+UniversityOfPretoria <|-- University
+University <|-- EducationalInstitution
+@enduml

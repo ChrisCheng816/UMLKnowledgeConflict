@@ -1,0 +1,4 @@
+@startuml
+Diving <|-- WaterSport
+WaterSport <|-- Sport
+@enduml

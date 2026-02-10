@@ -1,0 +1,4 @@
+@startuml
+Indictment --> FamilyLawyer
+FamilyLawyer --> FamilyCourt
+@enduml

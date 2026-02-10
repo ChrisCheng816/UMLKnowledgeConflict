@@ -1,0 +1,4 @@
+@startuml
+FalklandIslandsMalvinas <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

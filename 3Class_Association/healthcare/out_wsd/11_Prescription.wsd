@@ -1,0 +1,4 @@
+@startuml
+Prescription --> Dentist
+Dentist --> DentalClinic
+@enduml

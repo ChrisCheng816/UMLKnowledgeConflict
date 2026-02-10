@@ -1,0 +1,4 @@
+@startuml
+AuditTeam o-- DesertLogisticsCenter
+QualityAuditor o-- AuditTeam
+@enduml

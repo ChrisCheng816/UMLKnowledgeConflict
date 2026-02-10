@@ -1,0 +1,4 @@
+@startuml
+TheBirthOfVenus <|-- Painting
+Painting <|-- Artwork
+@enduml

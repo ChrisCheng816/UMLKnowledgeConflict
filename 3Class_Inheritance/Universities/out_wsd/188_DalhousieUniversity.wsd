@@ -1,0 +1,4 @@
+@startuml
+DalhousieUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

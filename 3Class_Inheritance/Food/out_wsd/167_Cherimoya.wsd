@@ -1,0 +1,4 @@
+@startuml
+Cherimoya <|-- TropicalFruit
+TropicalFruit <|-- Fruit
+@enduml

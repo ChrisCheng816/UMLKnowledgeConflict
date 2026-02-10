@@ -1,0 +1,4 @@
+@startuml
+AuditReport --> CreditAnalyst
+CreditAnalyst --> LendingDepartment
+@enduml

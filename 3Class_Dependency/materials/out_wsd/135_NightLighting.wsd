@@ -1,0 +1,4 @@
+@startuml
+LEDStrip ..> NightLighting
+Electricity ..> LEDStrip
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ReleaseChecklist --> ReleaseManager
+ReleaseManager --> SoftwareVendor
+@enduml

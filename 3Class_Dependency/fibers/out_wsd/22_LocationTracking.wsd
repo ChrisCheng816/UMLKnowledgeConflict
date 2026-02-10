@@ -1,0 +1,4 @@
+@startuml
+GPSNavigator ..> LocationTracking
+GPSSignal ..> GPSNavigator
+@enduml

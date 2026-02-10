@@ -1,0 +1,4 @@
+@startuml
+RoomAssignment --> HotelManager
+HotelManager --> Hotel
+@enduml

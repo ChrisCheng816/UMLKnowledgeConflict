@@ -1,0 +1,4 @@
+@startuml
+NASCAR <|-- MotorSport
+MotorSport <|-- Sport
+@enduml

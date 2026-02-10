@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Arowana
-Ray *-- Fin
+Gill *-- Arowana
+Filament *-- Gill
 @enduml

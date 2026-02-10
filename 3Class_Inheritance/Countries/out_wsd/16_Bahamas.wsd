@@ -1,0 +1,4 @@
+@startuml
+Bahamas <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

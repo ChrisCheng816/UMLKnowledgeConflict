@@ -1,4 +1,4 @@
 @startuml
-Leg *-- GlassFrog
-Muscle *-- Leg
+Eye *-- GlassFrog
+Lens *-- Eye
 @enduml

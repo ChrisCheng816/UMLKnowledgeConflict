@@ -1,0 +1,4 @@
+@startuml
+Burundi <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

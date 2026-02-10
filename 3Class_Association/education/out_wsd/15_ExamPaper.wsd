@@ -1,0 +1,4 @@
+@startuml
+ExamPaper --> GuidanceCounselor
+GuidanceCounselor --> HighSchool
+@enduml

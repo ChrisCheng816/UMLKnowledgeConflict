@@ -1,0 +1,4 @@
+@startuml
+Rhododendron <|-- Shrub
+Shrub <|-- Plant
+@enduml

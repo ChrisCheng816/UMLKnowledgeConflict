@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Siren
-Muscle *-- Leg
+Skin *-- Siren
+Scale *-- Skin
 @enduml

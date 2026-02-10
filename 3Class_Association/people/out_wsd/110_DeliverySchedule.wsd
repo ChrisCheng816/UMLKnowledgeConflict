@@ -1,0 +1,4 @@
+@startuml
+DeliverySchedule --> LogisticsCoordinator
+LogisticsCoordinator --> DistributionCenter
+@enduml

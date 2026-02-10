@@ -1,0 +1,4 @@
+@startuml
+StandMixer ..> Mixing
+Electricity ..> StandMixer
+@enduml

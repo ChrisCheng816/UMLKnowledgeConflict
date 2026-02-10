@@ -1,4 +1,4 @@
 @startuml
-Eye *-- TokayGecko
-Lens *-- Eye
+Skin *-- TokayGecko
+Scale *-- Skin
 @enduml

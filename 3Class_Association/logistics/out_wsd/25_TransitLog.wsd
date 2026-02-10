@@ -1,0 +1,4 @@
+@startuml
+TransitLog --> Courier
+Courier --> CourierService
+@enduml

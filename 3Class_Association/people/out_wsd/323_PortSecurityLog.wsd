@@ -1,0 +1,4 @@
+@startuml
+PortSecurityLog --> HarborMaster
+HarborMaster --> PortOperationsCenter
+@enduml

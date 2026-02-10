@@ -1,0 +1,4 @@
+@startuml
+CateringOrder --> Chef
+Chef --> Restaurant
+@enduml

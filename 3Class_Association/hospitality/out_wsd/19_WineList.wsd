@@ -1,0 +1,4 @@
+@startuml
+WineList --> Sommelier
+Sommelier --> Winery
+@enduml

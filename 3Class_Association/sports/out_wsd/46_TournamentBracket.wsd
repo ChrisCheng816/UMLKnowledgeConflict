@@ -1,0 +1,4 @@
+@startuml
+TournamentBracket --> RaceDirector
+RaceDirector --> RaceOffice
+@enduml

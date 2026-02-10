@@ -1,0 +1,4 @@
+@startuml
+RensselaerPolytechnicInstitute <|-- University
+University <|-- EducationalInstitution
+@enduml

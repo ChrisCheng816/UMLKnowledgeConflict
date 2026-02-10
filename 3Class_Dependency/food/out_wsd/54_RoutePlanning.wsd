@@ -1,0 +1,4 @@
+@startuml
+MapService ..> RoutePlanning
+InternetConnection ..> MapService
+@enduml

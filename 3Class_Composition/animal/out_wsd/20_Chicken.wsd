@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Chicken
-Shaft *-- Feather
+Wing *-- Chicken
+Feather *-- Wing
 @enduml

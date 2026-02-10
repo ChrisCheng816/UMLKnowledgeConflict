@@ -1,0 +1,4 @@
+@startuml
+OKComputer <|-- Album
+Album <|-- MusicWork
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Halibut
-Ray *-- Fin
+Gill *-- Halibut
+Filament *-- Gill
 @enduml

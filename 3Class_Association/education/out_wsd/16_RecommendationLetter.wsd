@@ -1,0 +1,4 @@
+@startuml
+RecommendationLetter --> GuidanceCounselor
+GuidanceCounselor --> HighSchool
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DockTeam o-- HarborStation
+Mechanic o-- DockTeam
+@enduml

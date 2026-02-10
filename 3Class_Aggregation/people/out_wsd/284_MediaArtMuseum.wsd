@@ -1,0 +1,4 @@
+@startuml
+ProcurementTeam o-- MediaArtMuseum
+Producer o-- ProcurementTeam
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Herring
-Ray *-- Fin
+Gill *-- Herring
+Filament *-- Gill
 @enduml

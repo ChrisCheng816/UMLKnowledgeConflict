@@ -1,4 +1,4 @@
 @startuml
-Professor --> Lecturer
-Lecturer --> University
+Professor --> Researcher
+Researcher --> University
 @enduml

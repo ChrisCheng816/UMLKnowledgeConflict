@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Toucan
-Shaft *-- Feather
+Wing *-- Toucan
+Feather *-- Wing
 @enduml

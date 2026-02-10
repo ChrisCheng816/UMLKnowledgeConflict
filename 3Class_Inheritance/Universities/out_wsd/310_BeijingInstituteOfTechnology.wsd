@@ -1,0 +1,4 @@
+@startuml
+BeijingInstituteOfTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

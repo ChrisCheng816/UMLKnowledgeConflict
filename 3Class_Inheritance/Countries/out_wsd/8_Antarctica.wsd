@@ -1,0 +1,4 @@
+@startuml
+Antarctica <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

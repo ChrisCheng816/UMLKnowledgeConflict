@@ -1,0 +1,4 @@
+@startuml
+CanoeSprint <|-- WaterSport
+WaterSport <|-- Sport
+@enduml

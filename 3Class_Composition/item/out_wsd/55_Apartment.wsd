@@ -1,0 +1,4 @@
+@startuml
+Roof *-- Apartment
+Sheathing *-- Roof
+@enduml

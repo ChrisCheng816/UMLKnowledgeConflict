@@ -1,0 +1,4 @@
+@startuml
+TrafficAdvisory --> AirTrafficController
+AirTrafficController --> ControlTower
+@enduml

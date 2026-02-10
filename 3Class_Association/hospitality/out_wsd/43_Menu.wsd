@@ -1,0 +1,4 @@
+@startuml
+Menu --> Valet
+Valet --> ParkingGarage
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Coati
-Root *-- Tooth
+Nose *-- Coati
+Nostril *-- Nose
 @enduml

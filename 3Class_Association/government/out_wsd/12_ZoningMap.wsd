@@ -1,0 +1,4 @@
+@startuml
+ZoningMap --> CensusWorker
+CensusWorker --> CensusBureau
+@enduml

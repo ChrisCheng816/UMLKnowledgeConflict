@@ -1,0 +1,4 @@
+@startuml
+SchoolPolicyMemo --> Principal
+Principal --> SchoolDistrict
+@enduml

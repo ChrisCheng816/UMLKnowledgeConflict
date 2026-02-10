@@ -1,0 +1,4 @@
+@startuml
+Spades <|-- CardGame
+CardGame <|-- Game
+@enduml

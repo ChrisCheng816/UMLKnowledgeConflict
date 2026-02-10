@@ -1,0 +1,4 @@
+@startuml
+MobilityAssessment --> Physiotherapist
+Physiotherapist --> RehabilitationCenter
+@enduml

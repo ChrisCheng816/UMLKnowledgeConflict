@@ -1,0 +1,4 @@
+@startuml
+SingaporeUniversityOfTechnologyAndDesign <|-- University
+University <|-- EducationalInstitution
+@enduml

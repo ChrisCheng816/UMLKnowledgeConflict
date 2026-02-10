@@ -142,7 +142,7 @@ def main() -> int:
     parser.add_argument(
         "root",
         nargs="?",
-        default=None,
+        default="../",
         help="Root directory to scan recursively. If omitted, scans all 2Class_* and 3Class_* folders under CWD.",
     )
     parser.add_argument(

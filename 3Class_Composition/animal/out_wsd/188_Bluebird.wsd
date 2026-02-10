@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Bluebird
-Nostril *-- Beak
+Feather *-- Bluebird
+Shaft *-- Feather
 @enduml

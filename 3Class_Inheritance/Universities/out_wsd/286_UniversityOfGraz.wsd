@@ -1,0 +1,4 @@
+@startuml
+UniversityOfGraz <|-- University
+University <|-- EducationalInstitution
+@enduml

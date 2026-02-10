@@ -1,0 +1,4 @@
+@startuml
+GitRepositoryHost ..> CodeHosting
+InternetConnection ..> GitRepositoryHost
+@enduml

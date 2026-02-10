@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Giraffe
-Root *-- Tooth
+Nose *-- Giraffe
+Nostril *-- Nose
 @enduml

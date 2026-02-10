@@ -1,0 +1,4 @@
+@startuml
+BroadcastSchedule --> BroadcastEngineer
+BroadcastEngineer --> TVStation
+@enduml

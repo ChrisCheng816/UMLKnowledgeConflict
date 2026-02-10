@@ -1,0 +1,4 @@
+@startuml
+VacuumCleaner ..> DustRemoval
+Electricity ..> VacuumCleaner
+@enduml

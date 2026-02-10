@@ -1,0 +1,4 @@
+@startuml
+ContainerList --> TrafficController
+TrafficController --> LogisticsControlCenter
+@enduml

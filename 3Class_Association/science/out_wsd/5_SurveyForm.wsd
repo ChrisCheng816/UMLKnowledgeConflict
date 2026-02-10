@@ -1,0 +1,4 @@
+@startuml
+SurveyForm --> ResearchScientist
+ResearchScientist --> ResearchInstitute
+@enduml

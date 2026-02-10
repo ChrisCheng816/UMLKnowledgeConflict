@@ -1,0 +1,4 @@
+@startuml
+EthicsApproval --> Ethicist
+Ethicist --> EthicsCommittee
+@enduml

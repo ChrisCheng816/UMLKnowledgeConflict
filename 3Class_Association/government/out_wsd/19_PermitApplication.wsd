@@ -1,0 +1,4 @@
+@startuml
+PermitApplication --> PublicHealthOfficer
+PublicHealthOfficer --> HealthDepartment
+@enduml

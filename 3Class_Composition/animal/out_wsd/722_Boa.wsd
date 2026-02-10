@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Boa
-Lens *-- Eye
+Skin *-- Boa
+Scale *-- Skin
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+ElectricScooter ..> Commuting
+Electricity ..> ElectricScooter
+@enduml

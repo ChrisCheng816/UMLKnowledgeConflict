@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Hellbender
-Scale *-- Skin
+Eye *-- Hellbender
+Lens *-- Eye
 @enduml

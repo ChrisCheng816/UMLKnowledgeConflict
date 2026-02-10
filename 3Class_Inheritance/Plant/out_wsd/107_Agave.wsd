@@ -1,0 +1,4 @@
+@startuml
+Agave <|-- Succulent
+Succulent <|-- Plant
+@enduml

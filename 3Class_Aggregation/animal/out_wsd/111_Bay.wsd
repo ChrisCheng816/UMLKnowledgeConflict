@@ -1,4 +1,4 @@
 @startuml
-ColonyOfTermite o-- Bay
-Termite o-- ColonyOfTermite
+ColonyOfAnt o-- Bay
+Ant o-- ColonyOfAnt
 @enduml

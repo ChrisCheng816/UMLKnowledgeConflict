@@ -1,0 +1,4 @@
+@startuml
+HeavyRain ..> SaturatedSoil
+Thunderstorm ..> HeavyRain
+@enduml

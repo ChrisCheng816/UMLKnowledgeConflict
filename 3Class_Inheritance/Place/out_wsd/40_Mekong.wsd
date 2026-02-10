@@ -1,0 +1,4 @@
+@startuml
+Mekong <|-- River
+River <|-- GeographicFeature
+@enduml

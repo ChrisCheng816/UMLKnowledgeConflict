@@ -1,0 +1,4 @@
+@startuml
+UniversityOfAberdeen <|-- University
+University <|-- EducationalInstitution
+@enduml

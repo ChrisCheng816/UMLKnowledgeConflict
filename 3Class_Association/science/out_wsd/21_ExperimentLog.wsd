@@ -1,0 +1,4 @@
+@startuml
+ExperimentLog --> Archivist
+Archivist --> Archive
+@enduml

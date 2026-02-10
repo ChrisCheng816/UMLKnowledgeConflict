@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Uromastyx
-Lens *-- Eye
+Skin *-- Uromastyx
+Scale *-- Skin
 @enduml

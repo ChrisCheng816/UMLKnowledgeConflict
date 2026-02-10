@@ -1,0 +1,4 @@
+@startuml
+ReviewGroup o-- FilmAssociation
+Critic o-- ReviewGroup
+@enduml

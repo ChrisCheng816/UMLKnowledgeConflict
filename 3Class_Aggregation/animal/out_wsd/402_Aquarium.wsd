@@ -1,4 +1,4 @@
 @startuml
-ArmyOfFrog o-- Aquarium
-Frog o-- ArmyOfFrog
+BaskOfAlligator o-- Aquarium
+Alligator o-- BaskOfAlligator
 @enduml

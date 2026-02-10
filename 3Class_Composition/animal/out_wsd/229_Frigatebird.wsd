@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Frigatebird
-Shaft *-- Feather
+Wing *-- Frigatebird
+Feather *-- Wing
 @enduml

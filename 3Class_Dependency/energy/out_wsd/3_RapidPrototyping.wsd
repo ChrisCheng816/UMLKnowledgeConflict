@@ -1,0 +1,4 @@
+@startuml
+3DPrinter ..> RapidPrototyping
+Electricity ..> 3DPrinter
+@enduml

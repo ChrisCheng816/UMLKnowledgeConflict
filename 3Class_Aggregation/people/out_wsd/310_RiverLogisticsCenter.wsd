@@ -1,0 +1,4 @@
+@startuml
+SecurityTeam o-- RiverLogisticsCenter
+SecurityGuard o-- SecurityTeam
+@enduml

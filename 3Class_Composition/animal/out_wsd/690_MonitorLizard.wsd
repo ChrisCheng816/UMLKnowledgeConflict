@@ -1,4 +1,4 @@
 @startuml
-Eye *-- MonitorLizard
-Lens *-- Eye
+Skin *-- MonitorLizard
+Scale *-- Skin
 @enduml

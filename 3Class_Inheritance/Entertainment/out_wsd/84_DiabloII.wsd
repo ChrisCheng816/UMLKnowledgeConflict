@@ -1,0 +1,4 @@
+@startuml
+DiabloII <|-- VideoGame
+VideoGame <|-- Game
+@enduml

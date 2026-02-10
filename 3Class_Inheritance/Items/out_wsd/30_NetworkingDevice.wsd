@@ -1,0 +1,4 @@
+@startuml
+NetworkingDevice <|-- Electronics
+Electronics <|-- Item
+@enduml

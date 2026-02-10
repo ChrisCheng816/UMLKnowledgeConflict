@@ -1,0 +1,4 @@
+@startuml
+Squirrel <|-- Mammal
+Mammal <|-- Animal
+@enduml

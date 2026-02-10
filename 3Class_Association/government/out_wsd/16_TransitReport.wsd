@@ -1,0 +1,4 @@
+@startuml
+TransitReport --> ProcurementOfficer
+ProcurementOfficer --> ProcurementOffice
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- GardenWarehouse
+Blanket o-- StorageBin
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Crate o-- FilmStore
+CoffeeBean o-- Crate
+@enduml

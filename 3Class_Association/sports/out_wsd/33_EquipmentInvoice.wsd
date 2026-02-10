@@ -1,0 +1,4 @@
+@startuml
+EquipmentInvoice --> TennisInstructor
+TennisInstructor --> TennisClub
+@enduml

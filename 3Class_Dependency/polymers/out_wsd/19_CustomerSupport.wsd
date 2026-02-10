@@ -1,0 +1,4 @@
+@startuml
+ChatClient ..> CustomerSupport
+OperatingSystem ..> ChatClient
+@enduml

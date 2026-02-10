@@ -1,0 +1,4 @@
+@startuml
+ProductionSchedule --> PlantManager
+PlantManager --> ManufacturingPlant
+@enduml

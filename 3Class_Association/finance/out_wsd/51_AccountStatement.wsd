@@ -1,0 +1,4 @@
+@startuml
+AccountStatement --> FraudInvestigator
+FraudInvestigator --> FraudDepartment
+@enduml

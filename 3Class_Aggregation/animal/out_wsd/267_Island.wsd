@@ -1,4 +1,4 @@
 @startuml
-GroupOfOctopus o-- Island
-Octopus o-- GroupOfOctopus
+ColonyOfSalamander o-- Island
+Salamander o-- ColonyOfSalamander
 @enduml

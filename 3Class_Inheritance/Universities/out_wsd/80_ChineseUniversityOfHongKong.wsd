@@ -1,0 +1,4 @@
+@startuml
+ChineseUniversityOfHongKong <|-- University
+University <|-- EducationalInstitution
+@enduml

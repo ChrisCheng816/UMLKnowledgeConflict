@@ -1,0 +1,4 @@
+@startuml
+Roof *-- Cabin
+Truss *-- Roof
+@enduml

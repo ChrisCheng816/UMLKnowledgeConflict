@@ -1,0 +1,4 @@
+@startuml
+CalibrationRecord --> ProductionPlanner
+ProductionPlanner --> ProductionOffice
+@enduml

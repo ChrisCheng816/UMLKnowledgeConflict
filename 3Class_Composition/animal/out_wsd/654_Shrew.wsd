@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Shrew
-Root *-- Tooth
+Nose *-- Shrew
+Nostril *-- Nose
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+CarrierContract --> ImportSpecialist
+ImportSpecialist --> ImportOffice
+@enduml

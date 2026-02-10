@@ -1,0 +1,4 @@
+@startuml
+NoteApp ..> CalendarManagement
+OperatingSystem ..> NoteApp
+@enduml

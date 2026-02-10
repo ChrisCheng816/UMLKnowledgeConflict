@@ -1,0 +1,4 @@
+@startuml
+EmoryUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

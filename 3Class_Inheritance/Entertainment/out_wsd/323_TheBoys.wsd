@@ -1,0 +1,4 @@
+@startuml
+TheBoys <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

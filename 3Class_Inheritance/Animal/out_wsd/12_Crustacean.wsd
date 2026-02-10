@@ -1,0 +1,4 @@
+@startuml
+Crustacean <|-- Animal
+Animal <|-- Organism
+@enduml

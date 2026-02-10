@@ -1,0 +1,4 @@
+@startuml
+CICDService ..> CodeReview
+InternetConnection ..> CICDService
+@enduml

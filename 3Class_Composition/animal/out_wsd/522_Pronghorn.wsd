@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Pronghorn
-Root *-- Tooth
+Nose *-- Pronghorn
+Nostril *-- Nose
 @enduml

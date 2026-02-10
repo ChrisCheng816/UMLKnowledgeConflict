@@ -182,3 +182,5 @@
 {"id": "182", "template_id": "dependency", "nodes": ["WordProcessor", "OperatingSystem"], "edges": ["OperatingSystem ..> WordProcessor"]}
 {"id": "183", "template_id": "dependency", "nodes": ["SlideEditing", "WordProcessor"], "edges": ["WordProcessor ..> SlideEditing"]}
 {"id": "184", "template_id": "dependency", "nodes": ["SpreadsheetEditing", "WordProcessor"], "edges": ["WordProcessor ..> SpreadsheetEditing"]}
+{"id": "185", "template_id": "dependency", "nodes": ["Restaurant", "Customer"], "edges": ["Customer ..> Restaurant"]}
+{"id": "186", "template_id": "dependency", "nodes": ["Customer", "Meal"], "edges": ["Meal ..> Customer"]}

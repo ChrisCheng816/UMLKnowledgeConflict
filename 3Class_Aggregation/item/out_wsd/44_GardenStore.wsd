@@ -1,0 +1,4 @@
+@startuml
+Bin o-- GardenStore
+DriedHerb o-- Bin
+@enduml

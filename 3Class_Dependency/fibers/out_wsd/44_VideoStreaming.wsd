@@ -1,0 +1,4 @@
+@startuml
+SmartSpeaker ..> VideoStreaming
+WiFiNetwork ..> SmartSpeaker
+@enduml

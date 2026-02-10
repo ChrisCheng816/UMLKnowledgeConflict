@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Civet
-Root *-- Tooth
+Nose *-- Civet
+Nostril *-- Nose
 @enduml

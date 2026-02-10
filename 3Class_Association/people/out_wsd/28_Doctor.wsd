@@ -1,4 +1,4 @@
 @startuml
-Doctor --> Receptionist
-Receptionist --> Clinic
+Doctor --> Nurse
+Nurse --> Hospital
 @enduml

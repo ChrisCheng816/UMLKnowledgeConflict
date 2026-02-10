@@ -1,0 +1,4 @@
+@startuml
+RutgersUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

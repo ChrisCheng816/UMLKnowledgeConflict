@@ -173,7 +173,7 @@ def write_wsd_files(instances: List[Instance], out_dir: Path, overwrite: bool) -
             continue
 
         root_name = safe_filename(inst.nodes[0])
-        out_path = out_dir / f"{i}_{root_name}.wsd"
+        out_path = out_dir / f"{i+1}_{root_name}.wsd"
 
         if out_path.exists() and not overwrite:
             raise FileExistsError(f"Output exists: {out_path}")

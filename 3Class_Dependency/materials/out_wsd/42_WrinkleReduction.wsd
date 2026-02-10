@@ -1,0 +1,4 @@
+@startuml
+ClothesDryer ..> WrinkleReduction
+Electricity ..> ClothesDryer
+@enduml

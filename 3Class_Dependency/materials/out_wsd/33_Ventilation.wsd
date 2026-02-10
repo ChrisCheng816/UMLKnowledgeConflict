@@ -1,0 +1,4 @@
+@startuml
+CeilingFan ..> Ventilation
+Electricity ..> CeilingFan
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SpaAppointment --> TravelAgent
+TravelAgent --> TravelAgency
+@enduml

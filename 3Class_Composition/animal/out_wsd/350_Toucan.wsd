@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Toucan
-Nostril *-- Beak
+Feather *-- Toucan
+Shaft *-- Feather
 @enduml

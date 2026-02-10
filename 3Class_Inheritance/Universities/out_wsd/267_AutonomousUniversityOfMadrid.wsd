@@ -1,0 +1,4 @@
+@startuml
+AutonomousUniversityOfMadrid <|-- University
+University <|-- EducationalInstitution
+@enduml

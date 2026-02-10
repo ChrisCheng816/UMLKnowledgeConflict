@@ -1,0 +1,4 @@
+@startuml
+Mali <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

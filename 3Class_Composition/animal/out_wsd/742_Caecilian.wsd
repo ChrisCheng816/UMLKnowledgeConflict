@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Caecilian
-Muscle *-- Leg
+Skin *-- Caecilian
+Scale *-- Skin
 @enduml

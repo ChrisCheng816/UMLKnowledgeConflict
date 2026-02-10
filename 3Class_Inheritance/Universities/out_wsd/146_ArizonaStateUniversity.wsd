@@ -1,0 +1,4 @@
+@startuml
+ArizonaStateUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

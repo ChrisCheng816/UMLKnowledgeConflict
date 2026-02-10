@@ -1,0 +1,4 @@
+@startuml
+Freezer ..> FrozenStorage
+Electricity ..> Freezer
+@enduml

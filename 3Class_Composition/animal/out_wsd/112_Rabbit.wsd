@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Rabbit
-Eardrum *-- Ear
+Tooth *-- Rabbit
+Root *-- Tooth
 @enduml

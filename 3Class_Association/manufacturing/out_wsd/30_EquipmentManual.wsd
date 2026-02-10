@@ -1,0 +1,4 @@
+@startuml
+EquipmentManual --> Machinist
+Machinist --> MachineShop
+@enduml

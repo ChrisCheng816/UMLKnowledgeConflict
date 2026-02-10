@@ -1,0 +1,4 @@
+@startuml
+VitalsChart --> Dermatologist
+Dermatologist --> SkinClinic
+@enduml

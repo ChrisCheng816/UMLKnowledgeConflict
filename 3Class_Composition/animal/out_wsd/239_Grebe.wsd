@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Grebe
-Nostril *-- Beak
+Feather *-- Grebe
+Shaft *-- Feather
 @enduml

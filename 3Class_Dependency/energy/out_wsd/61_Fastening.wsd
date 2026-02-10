@@ -1,0 +1,4 @@
+@startuml
+PneumaticStapler ..> Fastening
+CompressedAir ..> PneumaticStapler
+@enduml

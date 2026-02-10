@@ -1,0 +1,4 @@
+@startuml
+WaterTreatmentPlant ..> MunicipalWaterMain
+RawWaterIntake ..> WaterTreatmentPlant
+@enduml

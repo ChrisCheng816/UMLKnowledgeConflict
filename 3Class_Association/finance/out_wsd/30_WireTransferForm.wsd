@@ -1,0 +1,4 @@
+@startuml
+WireTransferForm --> RiskAnalyst
+RiskAnalyst --> RiskOffice
+@enduml

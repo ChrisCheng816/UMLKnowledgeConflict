@@ -1,0 +1,4 @@
+@startuml
+PaymentReceipt --> BranchManager
+BranchManager --> RetailBank
+@enduml

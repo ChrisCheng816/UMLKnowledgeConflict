@@ -1,0 +1,4 @@
+@startuml
+EngineeringTeam o-- RoboticsStation
+MechanicalEngineer o-- EngineeringTeam
+@enduml

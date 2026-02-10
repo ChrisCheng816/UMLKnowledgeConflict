@@ -1,0 +1,4 @@
+@startuml
+TeacherGroup o-- School
+Teacher o-- TeacherGroup
+@enduml

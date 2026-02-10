@@ -1,0 +1,4 @@
+@startuml
+Amplifier ..> AudioStreaming
+Electricity ..> Amplifier
+@enduml

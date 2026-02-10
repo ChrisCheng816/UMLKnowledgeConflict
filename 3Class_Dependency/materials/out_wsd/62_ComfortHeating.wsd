@@ -1,0 +1,4 @@
+@startuml
+ElectricBlanket ..> ComfortHeating
+Electricity ..> ElectricBlanket
+@enduml

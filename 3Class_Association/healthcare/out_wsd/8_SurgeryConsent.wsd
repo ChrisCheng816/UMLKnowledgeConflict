@@ -1,0 +1,4 @@
+@startuml
+SurgeryConsent --> Pharmacist
+Pharmacist --> Pharmacy
+@enduml

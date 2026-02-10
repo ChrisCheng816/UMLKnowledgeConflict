@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Otter
-Root *-- Tooth
+Paw *-- Otter
+Claw *-- Paw
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-HerdOfZebra o-- Savanna
-Zebra o-- HerdOfZebra
+HerdOfHorse o-- Savanna
+Horse o-- HerdOfHorse
 @enduml

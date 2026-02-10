@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Rattlesnake
-Lens *-- Eye
+Skin *-- Rattlesnake
+Scale *-- Skin
 @enduml

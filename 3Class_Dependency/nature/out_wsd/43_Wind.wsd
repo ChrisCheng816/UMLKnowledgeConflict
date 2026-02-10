@@ -1,4 +1,4 @@
 @startuml
-PressureSystem ..> Wind
-TemperatureContrast ..> PressureSystem
+StormSystem ..> Wind
+PressureGradient ..> StormSystem
 @enduml

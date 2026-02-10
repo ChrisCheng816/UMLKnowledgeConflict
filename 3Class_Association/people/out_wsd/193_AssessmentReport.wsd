@@ -1,0 +1,4 @@
+@startuml
+AssessmentReport --> SchoolPsychologist
+SchoolPsychologist --> VocationalSchool
+@enduml

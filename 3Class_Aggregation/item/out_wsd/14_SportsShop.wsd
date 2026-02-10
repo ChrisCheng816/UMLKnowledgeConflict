@@ -1,0 +1,4 @@
+@startuml
+Locker o-- SportsShop
+SportsBall o-- Locker
+@enduml

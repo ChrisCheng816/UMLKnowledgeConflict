@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Siskin
-Nostril *-- Beak
+Feather *-- Siskin
+Shaft *-- Feather
 @enduml

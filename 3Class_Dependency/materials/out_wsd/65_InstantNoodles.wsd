@@ -1,0 +1,4 @@
+@startuml
+ElectricKettle ..> InstantNoodles
+Electricity ..> ElectricKettle
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Woodcock
-Nostril *-- Beak
+Feather *-- Woodcock
+Shaft *-- Feather
 @enduml

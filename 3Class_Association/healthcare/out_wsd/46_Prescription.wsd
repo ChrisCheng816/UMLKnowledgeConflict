@@ -1,0 +1,4 @@
+@startuml
+Prescription --> PhysicalTherapist
+PhysicalTherapist --> RehabilitationCenter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PublicHealthUnit o-- ArcticScienceSociety
+Architect o-- PublicHealthUnit
+@enduml

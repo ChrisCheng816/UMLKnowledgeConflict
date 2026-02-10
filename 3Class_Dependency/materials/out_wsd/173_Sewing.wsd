@@ -1,0 +1,4 @@
+@startuml
+SewingMachine ..> Sewing
+Electricity ..> SewingMachine
+@enduml

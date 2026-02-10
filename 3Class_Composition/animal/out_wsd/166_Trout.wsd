@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Trout
-Ray *-- Fin
+Gill *-- Trout
+Filament *-- Gill
 @enduml

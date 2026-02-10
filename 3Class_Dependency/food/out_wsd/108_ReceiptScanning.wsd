@@ -1,0 +1,4 @@
+@startuml
+Scanner ..> ReceiptScanning
+Electricity ..> Scanner
+@enduml

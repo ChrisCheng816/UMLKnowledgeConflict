@@ -1,0 +1,4 @@
+@startuml
+SettlementAgreement --> CaseManager
+CaseManager --> LegalServicesOffice
+@enduml

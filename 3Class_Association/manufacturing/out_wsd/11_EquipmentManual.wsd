@@ -1,0 +1,4 @@
+@startuml
+EquipmentManual --> SafetyOfficer
+SafetyOfficer --> SafetyOffice
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ValenciaOrange <|-- CitrusFruit
+CitrusFruit <|-- Fruit
+@enduml

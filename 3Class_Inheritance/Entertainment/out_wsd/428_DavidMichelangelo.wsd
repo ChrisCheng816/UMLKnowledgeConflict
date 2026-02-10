@@ -1,0 +1,4 @@
+@startuml
+DavidMichelangelo <|-- Sculpture
+Sculpture <|-- Artwork
+@enduml

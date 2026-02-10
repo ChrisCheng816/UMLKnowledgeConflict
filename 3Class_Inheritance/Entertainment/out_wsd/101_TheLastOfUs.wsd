@@ -1,0 +1,4 @@
+@startuml
+TheLastOfUs <|-- VideoGame
+VideoGame <|-- Game
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DrillingPlatform o-- OilCompany
+DrillBit o-- DrillingPlatform
+@enduml

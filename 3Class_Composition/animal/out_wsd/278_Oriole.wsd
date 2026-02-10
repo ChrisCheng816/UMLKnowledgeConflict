@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Oriole
-Nostril *-- Beak
+Feather *-- Oriole
+Shaft *-- Feather
 @enduml

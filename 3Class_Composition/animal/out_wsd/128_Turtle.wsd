@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Turtle
-Lens *-- Eye
+Shell *-- Turtle
+Scute *-- Shell
 @enduml

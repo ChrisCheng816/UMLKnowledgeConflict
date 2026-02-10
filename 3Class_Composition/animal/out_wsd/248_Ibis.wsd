@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Ibis
-Nostril *-- Beak
+Feather *-- Ibis
+Shaft *-- Feather
 @enduml

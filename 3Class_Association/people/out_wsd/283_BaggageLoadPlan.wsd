@@ -1,0 +1,4 @@
+@startuml
+BaggageLoadPlan --> GroundHandlingAgent
+GroundHandlingAgent --> AirportServices
+@enduml

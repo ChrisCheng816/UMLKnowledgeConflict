@@ -1,0 +1,4 @@
+@startuml
+NationalAutonomousUniversityOfMexico <|-- University
+University <|-- EducationalInstitution
+@enduml

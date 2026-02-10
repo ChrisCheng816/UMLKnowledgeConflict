@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Cobra
-Lens *-- Eye
+Skin *-- Cobra
+Scale *-- Skin
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Giraffe
-Lens *-- Eye
+Tooth *-- Giraffe
+Root *-- Tooth
 @enduml

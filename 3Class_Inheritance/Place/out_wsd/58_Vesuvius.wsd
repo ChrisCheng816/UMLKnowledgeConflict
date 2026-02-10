@@ -1,0 +1,4 @@
+@startuml
+Vesuvius <|-- Volcano
+Volcano <|-- GeographicFeature
+@enduml

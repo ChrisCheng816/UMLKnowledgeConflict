@@ -1,0 +1,4 @@
+@startuml
+PatrolTeam o-- ArcticMetroAuthority
+PoliceOfficer o-- PatrolTeam
+@enduml

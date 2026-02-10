@@ -1,4 +1,4 @@
 @startuml
-Student --> Principal
-Principal --> School
+Student --> Teacher
+Teacher --> School
 @enduml

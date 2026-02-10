@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Thrush
-Nostril *-- Beak
+Feather *-- Thrush
+Shaft *-- Feather
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+FingerprintReport --> ForensicAnalyst
+ForensicAnalyst --> ForensicLab
+@enduml

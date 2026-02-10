@@ -1,0 +1,4 @@
+@startuml
+WorkOrder --> FacilitiesCoordinator
+FacilitiesCoordinator --> OfficeBuilding
+@enduml

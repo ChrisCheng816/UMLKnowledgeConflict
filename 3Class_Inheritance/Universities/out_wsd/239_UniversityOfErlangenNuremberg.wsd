@@ -1,0 +1,4 @@
+@startuml
+UniversityOfErlangenNuremberg <|-- University
+University <|-- EducationalInstitution
+@enduml

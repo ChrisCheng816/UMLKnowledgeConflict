@@ -1,0 +1,4 @@
+@startuml
+SurgeryConsent --> Pediatrician
+Pediatrician --> ChildrensHospital
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FlightOpsTeam o-- ArcticPortAuthority
+ComplianceOfficer o-- FlightOpsTeam
+@enduml

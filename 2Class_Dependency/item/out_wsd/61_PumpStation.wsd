@@ -1,3 +1,3 @@
 @startuml
-ElectricalService ..> PumpStation
+WaterTreatmentPlant ..> PumpStation
 @enduml

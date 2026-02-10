@@ -1,0 +1,4 @@
+@startuml
+GroupOfShrimp o-- Island
+Shrimp o-- GroupOfShrimp
+@enduml

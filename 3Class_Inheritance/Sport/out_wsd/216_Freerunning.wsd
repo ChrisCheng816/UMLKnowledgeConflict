@@ -1,0 +1,4 @@
+@startuml
+Freerunning <|-- IndividualSport
+IndividualSport <|-- Sport
+@enduml

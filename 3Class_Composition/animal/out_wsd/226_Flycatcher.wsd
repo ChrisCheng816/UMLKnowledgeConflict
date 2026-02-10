@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Flycatcher
-Shaft *-- Feather
+Wing *-- Flycatcher
+Feather *-- Wing
 @enduml

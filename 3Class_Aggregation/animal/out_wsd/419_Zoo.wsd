@@ -1,0 +1,4 @@
+@startuml
+FlockOfHeron o-- Zoo
+Heron o-- FlockOfHeron
+@enduml

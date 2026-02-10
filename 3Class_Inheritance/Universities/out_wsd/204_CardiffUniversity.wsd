@@ -1,0 +1,4 @@
+@startuml
+CardiffUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

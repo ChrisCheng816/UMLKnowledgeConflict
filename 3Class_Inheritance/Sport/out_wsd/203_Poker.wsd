@@ -1,0 +1,4 @@
+@startuml
+Poker <|-- MindSport
+MindSport <|-- Sport
+@enduml

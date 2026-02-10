@@ -1,0 +1,4 @@
+@startuml
+HotelBooking ..> ScheduleCheck
+InternetConnection ..> HotelBooking
+@enduml

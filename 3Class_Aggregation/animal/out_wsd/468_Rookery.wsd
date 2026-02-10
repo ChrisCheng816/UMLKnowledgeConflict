@@ -1,4 +1,4 @@
 @startuml
-HerdOfGoat o-- Rookery
-Goat o-- HerdOfGoat
+HerdOfSheep o-- Rookery
+Sheep o-- HerdOfSheep
 @enduml

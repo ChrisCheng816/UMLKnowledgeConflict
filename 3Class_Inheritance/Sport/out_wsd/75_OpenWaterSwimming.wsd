@@ -1,0 +1,4 @@
+@startuml
+OpenWaterSwimming <|-- WaterSport
+WaterSport <|-- Sport
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Bluegill
-Ray *-- Fin
+Gill *-- Bluegill
+Filament *-- Gill
 @enduml

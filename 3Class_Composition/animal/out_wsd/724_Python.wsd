@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Python
-Lens *-- Eye
+Skin *-- Python
+Scale *-- Skin
 @enduml

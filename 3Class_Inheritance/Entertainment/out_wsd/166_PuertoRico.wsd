@@ -1,0 +1,4 @@
+@startuml
+PuertoRico <|-- BoardGame
+BoardGame <|-- Game
+@enduml

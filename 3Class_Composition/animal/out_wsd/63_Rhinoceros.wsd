@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Rhinoceros
-Eardrum *-- Ear
+Tooth *-- Rhinoceros
+Root *-- Tooth
 @enduml

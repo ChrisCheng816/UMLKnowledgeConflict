@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Axolotl
-Scale *-- Skin
+Eye *-- Axolotl
+Lens *-- Eye
 @enduml

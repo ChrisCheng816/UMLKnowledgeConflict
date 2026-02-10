@@ -1,0 +1,4 @@
+@startuml
+TaxPaymentReceipt --> TaxOfficer
+TaxOfficer --> TaxOffice
+@enduml

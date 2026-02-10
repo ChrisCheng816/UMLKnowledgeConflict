@@ -1,4 +1,4 @@
 @startuml
-HerdOfWildebeest o-- Jungle
-Wildebeest o-- HerdOfWildebeest
+HerdOfBuffalo o-- Jungle
+Buffalo o-- HerdOfBuffalo
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+EquipmentChecklist --> BoxingTrainer
+BoxingTrainer --> BoxingGym
+@enduml

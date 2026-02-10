@@ -1,0 +1,4 @@
+@startuml
+Table <|-- Furniture
+Furniture <|-- Item
+@enduml

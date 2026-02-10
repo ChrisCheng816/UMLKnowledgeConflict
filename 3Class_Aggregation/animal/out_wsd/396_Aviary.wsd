@@ -1,4 +1,4 @@
 @startuml
-NestOfCobra o-- Aviary
-Cobra o-- NestOfCobra
+NestOfSnake o-- Aviary
+Snake o-- NestOfSnake
 @enduml

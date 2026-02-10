@@ -1,0 +1,4 @@
+@startuml
+FreeUniversityOfBerlin <|-- University
+University <|-- EducationalInstitution
+@enduml

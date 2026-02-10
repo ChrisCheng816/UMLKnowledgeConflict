@@ -1,4 +1,4 @@
 @startuml
-Mouth *-- Turtle
-Beak *-- Mouth
+Eye *-- Turtle
+Lens *-- Eye
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+TicketToRide <|-- BoardGame
+BoardGame <|-- Game
+@enduml

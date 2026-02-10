@@ -1,0 +1,4 @@
+@startuml
+FinanceTeam o-- RegionalAirportAuthority
+Dispatcher o-- FinanceTeam
+@enduml

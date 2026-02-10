@@ -1,4 +1,4 @@
 @startuml
-HerdOfBuffalo o-- Harbor
-Buffalo o-- HerdOfBuffalo
+HerdOfCattle o-- Harbor
+Cattle o-- HerdOfCattle
 @enduml

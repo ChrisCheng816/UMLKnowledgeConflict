@@ -1,0 +1,4 @@
+@startuml
+CitationManager ..> PaperWriting
+OperatingSystem ..> CitationManager
+@enduml

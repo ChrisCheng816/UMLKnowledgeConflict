@@ -1,0 +1,4 @@
+@startuml
+BrownUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

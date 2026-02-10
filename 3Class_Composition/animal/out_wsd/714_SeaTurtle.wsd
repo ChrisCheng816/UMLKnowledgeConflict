@@ -1,4 +1,4 @@
 @startuml
-Eye *-- SeaTurtle
-Lens *-- Eye
+Skin *-- SeaTurtle
+Scale *-- Skin
 @enduml

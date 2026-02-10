@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Rat
-Claw *-- Paw
+Tooth *-- Rat
+Root *-- Tooth
 @enduml

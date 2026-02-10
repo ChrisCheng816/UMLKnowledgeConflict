@@ -1,0 +1,4 @@
+@startuml
+RepairTicket --> Machinist
+Machinist --> MachineShop
+@enduml

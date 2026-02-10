@@ -1,0 +1,4 @@
+@startuml
+OneDance <|-- Song
+Song <|-- MusicWork
+@enduml

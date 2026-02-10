@@ -1,0 +1,4 @@
+@startuml
+Afghanistan <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

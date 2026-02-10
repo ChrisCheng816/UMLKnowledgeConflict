@@ -1,0 +1,4 @@
+@startuml
+BenchSander ..> SurfaceFinishing
+Electricity ..> BenchSander
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DoorSensor ..> HomeSecurity
+Electricity ..> DoorSensor
+@enduml

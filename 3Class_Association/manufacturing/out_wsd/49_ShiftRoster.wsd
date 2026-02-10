@@ -1,0 +1,4 @@
+@startuml
+ShiftRoster --> SupplyTechnician
+SupplyTechnician --> PartsWarehouse
+@enduml

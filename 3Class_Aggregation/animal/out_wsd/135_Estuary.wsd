@@ -1,4 +1,4 @@
 @startuml
-FlockOfGoose o-- Estuary
-Goose o-- FlockOfGoose
+GroupOfClam o-- Estuary
+Clam o-- GroupOfClam
 @enduml

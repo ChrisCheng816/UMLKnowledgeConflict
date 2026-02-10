@@ -1,0 +1,4 @@
+@startuml
+Churro <|-- Dessert
+Dessert <|-- Food
+@enduml

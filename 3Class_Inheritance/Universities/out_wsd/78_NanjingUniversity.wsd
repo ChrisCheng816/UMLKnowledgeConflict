@@ -1,0 +1,4 @@
+@startuml
+NanjingUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

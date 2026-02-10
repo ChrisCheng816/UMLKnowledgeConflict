@@ -1,0 +1,4 @@
+@startuml
+Porsche <|-- CarManufacturer
+CarManufacturer <|-- Manufacturer
+@enduml

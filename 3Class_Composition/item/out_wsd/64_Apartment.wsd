@@ -1,0 +1,4 @@
+@startuml
+Door *-- Apartment
+DoorFrame *-- Door
+@enduml

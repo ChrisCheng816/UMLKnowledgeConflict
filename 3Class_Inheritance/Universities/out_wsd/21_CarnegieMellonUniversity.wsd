@@ -1,0 +1,4 @@
+@startuml
+CarnegieMellonUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

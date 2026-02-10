@@ -1,0 +1,4 @@
+@startuml
+CloudSyncClient ..> DeviceSync
+OperatingSystem ..> CloudSyncClient
+@enduml

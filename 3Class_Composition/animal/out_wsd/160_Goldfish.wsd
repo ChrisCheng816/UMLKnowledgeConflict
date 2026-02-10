@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Goldfish
-Ray *-- Fin
+Gill *-- Goldfish
+Filament *-- Gill
 @enduml

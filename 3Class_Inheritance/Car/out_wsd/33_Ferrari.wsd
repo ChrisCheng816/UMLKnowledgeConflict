@@ -1,0 +1,4 @@
+@startuml
+Ferrari <|-- CarManufacturer
+CarManufacturer <|-- Manufacturer
+@enduml

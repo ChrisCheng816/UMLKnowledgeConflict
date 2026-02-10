@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- RiverWarehouse
+Blanket o-- StorageBin
+@enduml

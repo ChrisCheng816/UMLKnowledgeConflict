@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Rhinoceros
-Root *-- Tooth
+Nose *-- Rhinoceros
+Nostril *-- Nose
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Plover
-Nostril *-- Beak
+Feather *-- Plover
+Shaft *-- Feather
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Superman <|-- Comic
+Comic <|-- Entertainment
+@enduml

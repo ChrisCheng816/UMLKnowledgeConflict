@@ -1,0 +1,4 @@
+@startuml
+Kuwait <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

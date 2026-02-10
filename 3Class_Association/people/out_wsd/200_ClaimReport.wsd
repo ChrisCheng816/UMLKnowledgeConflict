@@ -1,0 +1,4 @@
+@startuml
+ClaimReport --> ClaimsProcessor
+ClaimsProcessor --> InsuranceCarrier
+@enduml

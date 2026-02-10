@@ -1,0 +1,4 @@
+@startuml
+BogaziciUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+UniversityOfCaliforniaSantaBarbara <|-- University
+University <|-- EducationalInstitution
+@enduml

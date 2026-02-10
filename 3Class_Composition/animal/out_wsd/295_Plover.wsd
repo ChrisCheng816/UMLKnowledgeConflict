@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Plover
-Shaft *-- Feather
+Wing *-- Plover
+Feather *-- Wing
 @enduml

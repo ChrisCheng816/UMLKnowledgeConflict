@@ -1,0 +1,4 @@
+@startuml
+UniversityOfGeneva <|-- University
+University <|-- EducationalInstitution
+@enduml

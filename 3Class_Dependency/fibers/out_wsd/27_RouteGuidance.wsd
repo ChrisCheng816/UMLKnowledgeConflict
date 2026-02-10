@@ -1,0 +1,4 @@
+@startuml
+GPSReceiver ..> RouteGuidance
+GPSSatellite ..> GPSReceiver
+@enduml

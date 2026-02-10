@@ -1,0 +1,4 @@
+@startuml
+UniversityOfScienceAndTechnologyOfChina <|-- University
+University <|-- EducationalInstitution
+@enduml

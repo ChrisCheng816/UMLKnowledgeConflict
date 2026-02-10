@@ -1,0 +1,4 @@
+@startuml
+ToyotaPrius <|-- Toyota
+Toyota <|-- CarManufacturer
+@enduml

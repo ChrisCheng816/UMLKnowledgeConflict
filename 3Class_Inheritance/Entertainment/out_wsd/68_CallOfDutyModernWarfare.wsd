@@ -1,0 +1,4 @@
+@startuml
+CallOfDutyModernWarfare <|-- VideoGame
+VideoGame <|-- Game
+@enduml

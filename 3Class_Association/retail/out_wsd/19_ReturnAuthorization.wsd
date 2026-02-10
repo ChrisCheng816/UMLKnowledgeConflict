@@ -1,0 +1,4 @@
+@startuml
+ReturnAuthorization --> PharmacyTechnician
+PharmacyTechnician --> RetailPharmacy
+@enduml

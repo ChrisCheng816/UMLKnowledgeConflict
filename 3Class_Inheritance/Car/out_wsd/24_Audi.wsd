@@ -1,0 +1,4 @@
+@startuml
+Audi <|-- CarManufacturer
+CarManufacturer <|-- Manufacturer
+@enduml

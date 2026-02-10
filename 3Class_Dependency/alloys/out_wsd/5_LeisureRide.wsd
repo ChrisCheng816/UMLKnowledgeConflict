@@ -1,0 +1,4 @@
+@startuml
+Bicycle ..> LeisureRide
+HumanPower ..> Bicycle
+@enduml

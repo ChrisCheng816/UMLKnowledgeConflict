@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Heron
-Nostril *-- Beak
+Feather *-- Heron
+Shaft *-- Feather
 @enduml

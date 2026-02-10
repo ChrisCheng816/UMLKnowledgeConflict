@@ -1,0 +1,4 @@
+@startuml
+SalesInvoice --> BookSeller
+BookSeller --> Bookstore
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Siren
-Scale *-- Skin
+Eye *-- Siren
+Lens *-- Eye
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+MindSport <|-- Sport
+Sport <|-- Activity
+@enduml

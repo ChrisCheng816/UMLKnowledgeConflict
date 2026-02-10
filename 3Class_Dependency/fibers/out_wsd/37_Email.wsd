@@ -1,0 +1,4 @@
+@startuml
+SmartDisplay ..> Email
+WiFiNetwork ..> SmartDisplay
+@enduml

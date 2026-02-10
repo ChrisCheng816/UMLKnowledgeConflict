@@ -1,4 +1,4 @@
 @startuml
-Eye *-- GreenAnole
-Lens *-- Eye
+Skin *-- GreenAnole
+Scale *-- Skin
 @enduml

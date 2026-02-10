@@ -1,4 +1,4 @@
 @startuml
-Professor --> DepartmentHead
-DepartmentHead --> University
+Professor --> Lecturer
+Lecturer --> University
 @enduml

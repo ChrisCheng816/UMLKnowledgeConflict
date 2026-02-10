@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Wrasse
-Ray *-- Fin
+Gill *-- Wrasse
+Filament *-- Gill
 @enduml

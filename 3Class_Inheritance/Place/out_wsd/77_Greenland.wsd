@@ -1,0 +1,4 @@
+@startuml
+Greenland <|-- Island
+Island <|-- GeographicFeature
+@enduml

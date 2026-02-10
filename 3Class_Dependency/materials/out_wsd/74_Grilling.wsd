@@ -1,0 +1,4 @@
+@startuml
+ElectricSkillet ..> Grilling
+Electricity ..> ElectricSkillet
+@enduml

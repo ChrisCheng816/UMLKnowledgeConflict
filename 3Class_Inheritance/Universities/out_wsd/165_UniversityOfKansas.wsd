@@ -1,0 +1,4 @@
+@startuml
+UniversityOfKansas <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PowerSupply ..> NeonSign
+WallOutlet ..> PowerSupply
+@enduml

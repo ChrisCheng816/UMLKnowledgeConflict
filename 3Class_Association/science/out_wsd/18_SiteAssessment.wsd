@@ -1,0 +1,4 @@
+@startuml
+SiteAssessment --> DataCurator
+DataCurator --> DataRepository
+@enduml

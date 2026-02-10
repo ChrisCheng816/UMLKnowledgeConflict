@@ -1,0 +1,4 @@
+@startuml
+Laptop ..> VideoCall
+WiFiNetwork ..> Laptop
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WarehousePickList --> LogisticsCoordinator
+LogisticsCoordinator --> DistributionCenter
+@enduml

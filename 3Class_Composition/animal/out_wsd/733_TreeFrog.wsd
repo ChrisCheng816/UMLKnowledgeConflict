@@ -1,4 +1,4 @@
 @startuml
-Leg *-- TreeFrog
-Muscle *-- Leg
+Eye *-- TreeFrog
+Lens *-- Eye
 @enduml

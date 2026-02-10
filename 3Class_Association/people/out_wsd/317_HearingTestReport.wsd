@@ -1,0 +1,4 @@
+@startuml
+HearingTestReport --> Audiologist
+Audiologist --> HearingClinic
+@enduml

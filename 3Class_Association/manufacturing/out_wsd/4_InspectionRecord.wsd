@@ -1,0 +1,4 @@
+@startuml
+InspectionRecord --> MachineOperator
+MachineOperator --> AssemblyLine
+@enduml

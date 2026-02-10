@@ -1,0 +1,4 @@
+@startuml
+UniversityOfUtah <|-- University
+University <|-- EducationalInstitution
+@enduml

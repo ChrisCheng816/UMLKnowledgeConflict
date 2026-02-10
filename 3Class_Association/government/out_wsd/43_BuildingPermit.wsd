@@ -1,0 +1,4 @@
+@startuml
+BuildingPermit --> CustomsOfficer
+CustomsOfficer --> PortAuthority
+@enduml

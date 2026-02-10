@@ -1,4 +1,4 @@
 @startuml
-ElectricalService ..> PumpStation
-WallOutlet ..> ElectricalService
+WaterTreatmentPlant ..> PumpStation
+RawWaterIntake ..> WaterTreatmentPlant
 @enduml

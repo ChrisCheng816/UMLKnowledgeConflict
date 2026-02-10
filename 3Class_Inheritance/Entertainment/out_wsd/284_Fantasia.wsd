@@ -1,0 +1,4 @@
+@startuml
+Fantasia <|-- AnimatedFilm
+AnimatedFilm <|-- Film
+@enduml

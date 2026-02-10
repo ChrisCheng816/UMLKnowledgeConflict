@@ -1,0 +1,4 @@
+@startuml
+AutonomousUniversityOfBarcelona <|-- University
+University <|-- EducationalInstitution
+@enduml

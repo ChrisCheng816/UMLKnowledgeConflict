@@ -1,0 +1,4 @@
+@startuml
+RefundReceipt --> BookSeller
+BookSeller --> Bookstore
+@enduml

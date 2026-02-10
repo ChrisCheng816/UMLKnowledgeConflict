@@ -1,0 +1,4 @@
+@startuml
+UniversityOfPadua <|-- University
+University <|-- EducationalInstitution
+@enduml

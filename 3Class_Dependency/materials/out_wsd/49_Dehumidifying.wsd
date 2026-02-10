@@ -1,0 +1,4 @@
+@startuml
+Dehumidifier ..> Dehumidifying
+Electricity ..> Dehumidifier
+@enduml

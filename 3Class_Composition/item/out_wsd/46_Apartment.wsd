@@ -1,0 +1,4 @@
+@startuml
+Roof *-- Apartment
+Rafter *-- Roof
+@enduml

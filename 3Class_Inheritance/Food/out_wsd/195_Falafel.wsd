@@ -1,0 +1,4 @@
+@startuml
+Falafel <|-- Dish
+Dish <|-- Food
+@enduml

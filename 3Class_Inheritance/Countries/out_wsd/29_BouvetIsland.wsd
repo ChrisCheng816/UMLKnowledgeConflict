@@ -1,0 +1,4 @@
+@startuml
+BouvetIsland <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

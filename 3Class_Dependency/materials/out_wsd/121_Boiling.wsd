@@ -1,0 +1,4 @@
+@startuml
+InductionCooktop ..> Boiling
+Electricity ..> InductionCooktop
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Mongoose
-Root *-- Tooth
+Nose *-- Mongoose
+Nostril *-- Nose
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Guava <|-- TropicalFruit
+TropicalFruit <|-- Fruit
+@enduml

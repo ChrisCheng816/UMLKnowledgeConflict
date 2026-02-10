@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Chickadee
-Nostril *-- Beak
+Feather *-- Chickadee
+Shaft *-- Feather
 @enduml

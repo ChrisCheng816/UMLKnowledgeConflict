@@ -1,0 +1,4 @@
+@startuml
+Kilimanjaro <|-- Mountain
+Mountain <|-- GeographicFeature
+@enduml

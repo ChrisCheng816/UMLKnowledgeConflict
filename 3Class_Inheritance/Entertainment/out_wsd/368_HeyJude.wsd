@@ -1,0 +1,4 @@
+@startuml
+HeyJude <|-- Song
+Song <|-- MusicWork
+@enduml

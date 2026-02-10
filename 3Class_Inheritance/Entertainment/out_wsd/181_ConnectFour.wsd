@@ -1,0 +1,4 @@
+@startuml
+ConnectFour <|-- BoardGame
+BoardGame <|-- Game
+@enduml

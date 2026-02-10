@@ -1,0 +1,4 @@
+@startuml
+MusicScore --> LightingDesigner
+LightingDesigner --> Theater
+@enduml

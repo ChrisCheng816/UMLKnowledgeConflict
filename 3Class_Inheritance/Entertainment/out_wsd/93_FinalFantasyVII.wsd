@@ -1,0 +1,4 @@
+@startuml
+FinalFantasyVII <|-- VideoGame
+VideoGame <|-- Game
+@enduml

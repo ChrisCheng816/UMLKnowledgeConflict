@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Shearwater
-Nostril *-- Beak
+Feather *-- Shearwater
+Shaft *-- Feather
 @enduml

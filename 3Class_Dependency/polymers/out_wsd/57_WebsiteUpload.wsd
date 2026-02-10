@@ -1,0 +1,4 @@
+@startuml
+FTPClient ..> WebsiteUpload
+OperatingSystem ..> FTPClient
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PeakyBlinders <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

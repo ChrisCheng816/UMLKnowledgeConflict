@@ -1,0 +1,4 @@
+@startuml
+Andorra <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+EnrollmentForm --> GuidanceCounselor
+GuidanceCounselor --> HighSchool
+@enduml

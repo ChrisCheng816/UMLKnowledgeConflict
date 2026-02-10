@@ -1,0 +1,4 @@
+@startuml
+SampleInventory --> Geologist
+Geologist --> SurveyAgency
+@enduml

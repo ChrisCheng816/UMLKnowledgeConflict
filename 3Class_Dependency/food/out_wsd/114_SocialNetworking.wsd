@@ -1,0 +1,4 @@
+@startuml
+SocialMediaApp ..> SocialNetworking
+InternetConnection ..> SocialMediaApp
+@enduml

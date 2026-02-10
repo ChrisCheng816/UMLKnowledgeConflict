@@ -1,0 +1,4 @@
+@startuml
+BookingConfirmation --> Bartender
+Bartender --> Bar
+@enduml

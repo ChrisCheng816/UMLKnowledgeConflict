@@ -1,0 +1,4 @@
+@startuml
+Mollusk <|-- Animal
+Animal <|-- Organism
+@enduml

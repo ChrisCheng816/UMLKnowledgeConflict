@@ -1,0 +1,4 @@
+@startuml
+MadMen <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

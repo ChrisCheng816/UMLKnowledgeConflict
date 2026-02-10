@@ -1,0 +1,4 @@
+@startuml
+KungFuPanda <|-- AnimatedFilm
+AnimatedFilm <|-- Film
+@enduml

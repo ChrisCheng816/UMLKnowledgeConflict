@@ -1,0 +1,4 @@
+@startuml
+MilkQualityReport --> DairyManager
+DairyManager --> DairyFarm
+@enduml

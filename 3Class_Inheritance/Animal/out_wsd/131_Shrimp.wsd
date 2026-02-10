@@ -1,0 +1,4 @@
+@startuml
+Shrimp <|-- Crustacean
+Crustacean <|-- Animal
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Motocross <|-- MotorSport
+MotorSport <|-- Sport
+@enduml

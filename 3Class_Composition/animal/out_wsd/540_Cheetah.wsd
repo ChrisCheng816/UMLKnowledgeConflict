@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Cheetah
-Root *-- Tooth
+Nose *-- Cheetah
+Nostril *-- Nose
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Scanner ..> ImageScanning
+Electricity ..> Scanner
+@enduml

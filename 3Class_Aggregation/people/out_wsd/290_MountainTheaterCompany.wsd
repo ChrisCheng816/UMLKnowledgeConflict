@@ -1,0 +1,4 @@
+@startuml
+QualityTeam o-- MountainTheaterCompany
+Drafter o-- QualityTeam
+@enduml

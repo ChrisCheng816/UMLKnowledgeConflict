@@ -1,0 +1,4 @@
+@startuml
+ElectricSkillet ..> Sauteing
+Electricity ..> ElectricSkillet
+@enduml

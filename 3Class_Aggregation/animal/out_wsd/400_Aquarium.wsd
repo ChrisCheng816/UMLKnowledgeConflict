@@ -1,4 +1,4 @@
 @startuml
-BaskOfCrocodile o-- Aquarium
-Crocodile o-- BaskOfCrocodile
+NestOfChameleon o-- Aquarium
+Chameleon o-- NestOfChameleon
 @enduml

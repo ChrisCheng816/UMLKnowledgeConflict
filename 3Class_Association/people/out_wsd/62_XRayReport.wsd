@@ -1,0 +1,4 @@
+@startuml
+XRayReport --> Radiologist
+Radiologist --> ImagingCenter
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-NestOfGecko o-- Bay
-Gecko o-- NestOfGecko
+NestOfPython o-- Bay
+Python o-- NestOfPython
 @enduml

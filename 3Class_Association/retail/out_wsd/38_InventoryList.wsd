@@ -1,0 +1,4 @@
+@startuml
+InventoryList --> Baker
+Baker --> Bakery
+@enduml

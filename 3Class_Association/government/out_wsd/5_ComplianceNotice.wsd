@@ -1,0 +1,4 @@
+@startuml
+ComplianceNotice --> PoliceDetective
+PoliceDetective --> PoliceDepartment
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TransitReport --> EnvironmentalInspector
+EnvironmentalInspector --> EnvironmentalAgency
+@enduml

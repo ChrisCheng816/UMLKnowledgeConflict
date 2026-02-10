@@ -1,0 +1,4 @@
+@startuml
+Llama <|-- Mammal
+Mammal <|-- Animal
+@enduml

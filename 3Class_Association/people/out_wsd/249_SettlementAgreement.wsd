@@ -1,0 +1,4 @@
+@startuml
+SettlementAgreement --> Mediator
+Mediator --> MediationCenter
+@enduml

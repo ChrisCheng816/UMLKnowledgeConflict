@@ -1,0 +1,4 @@
+@startuml
+ShippingLabel --> ExportCoordinator
+ExportCoordinator --> ExportOffice
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Student --> Coach
-Coach --> School
+Student --> Counselor
+Counselor --> School
 @enduml

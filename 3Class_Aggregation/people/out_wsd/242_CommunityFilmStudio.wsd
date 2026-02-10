@@ -1,0 +1,4 @@
+@startuml
+SafetyTeam o-- CommunityFilmStudio
+SecurityGuard o-- SafetyTeam
+@enduml

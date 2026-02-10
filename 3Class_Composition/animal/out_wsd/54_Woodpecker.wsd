@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Woodpecker
-Shaft *-- Feather
+Wing *-- Woodpecker
+Feather *-- Wing
 @enduml

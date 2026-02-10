@@ -1,0 +1,4 @@
+@startuml
+CaboVerde <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

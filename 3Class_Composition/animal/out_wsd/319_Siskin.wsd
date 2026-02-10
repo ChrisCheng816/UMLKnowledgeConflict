@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Siskin
-Shaft *-- Feather
+Wing *-- Siskin
+Feather *-- Wing
 @enduml

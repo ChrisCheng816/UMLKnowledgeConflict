@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Koala
-Root *-- Tooth
+Paw *-- Koala
+Claw *-- Paw
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+LakeTahoe <|-- Lake
+Lake <|-- GeographicFeature
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FlightOpsCrew o-- SavannaScienceSociety
+ProjectManager o-- FlightOpsCrew
+@enduml

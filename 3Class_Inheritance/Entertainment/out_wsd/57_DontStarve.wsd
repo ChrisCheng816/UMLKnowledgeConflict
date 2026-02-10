@@ -1,0 +1,4 @@
+@startuml
+DontStarve <|-- VideoGame
+VideoGame <|-- Game
+@enduml

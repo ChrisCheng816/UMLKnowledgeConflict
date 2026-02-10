@@ -1,0 +1,4 @@
+@startuml
+RadioReceiver ..> RadioListening
+Electricity ..> RadioReceiver
+@enduml

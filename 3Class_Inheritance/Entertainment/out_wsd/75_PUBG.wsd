@@ -1,0 +1,4 @@
+@startuml
+PUBG <|-- VideoGame
+VideoGame <|-- Game
+@enduml

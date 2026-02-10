@@ -1,0 +1,4 @@
+@startuml
+OrderConfirmation --> Stocker
+Stocker --> GroceryStore
+@enduml

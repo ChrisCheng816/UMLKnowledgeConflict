@@ -1,4 +1,4 @@
 @startuml
-ColonyOfHare o-- Farm
-Hare o-- ColonyOfHare
+ColonyOfRabbit o-- Farm
+Rabbit o-- ColonyOfRabbit
 @enduml

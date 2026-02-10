@@ -1,0 +1,4 @@
+@startuml
+FireAlarmMaintenanceRequest --> BuildingInspector
+BuildingInspector --> CityHall
+@enduml

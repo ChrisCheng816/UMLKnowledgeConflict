@@ -1,0 +1,4 @@
+@startuml
+WaterQualityReport --> WaterQualityAnalyst
+WaterQualityAnalyst --> WaterTreatmentPlant
+@enduml

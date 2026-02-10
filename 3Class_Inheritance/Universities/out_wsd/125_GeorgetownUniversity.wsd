@@ -1,0 +1,4 @@
+@startuml
+GeorgetownUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

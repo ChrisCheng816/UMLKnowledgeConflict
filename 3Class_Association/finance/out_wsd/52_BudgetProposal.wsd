@@ -1,0 +1,4 @@
+@startuml
+BudgetProposal --> FraudInvestigator
+FraudInvestigator --> FraudDepartment
+@enduml

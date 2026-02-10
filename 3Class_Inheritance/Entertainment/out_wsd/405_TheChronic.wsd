@@ -1,0 +1,4 @@
+@startuml
+TheChronic <|-- Album
+Album <|-- MusicWork
+@enduml

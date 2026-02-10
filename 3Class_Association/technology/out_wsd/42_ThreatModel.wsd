@@ -1,0 +1,4 @@
+@startuml
+ThreatModel --> TechnicalWriter
+TechnicalWriter --> DocumentationTeam
+@enduml

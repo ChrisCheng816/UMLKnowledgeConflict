@@ -1,0 +1,4 @@
+@startuml
+TeachingTeam o-- EducationAuthority
+Professor o-- TeachingTeam
+@enduml

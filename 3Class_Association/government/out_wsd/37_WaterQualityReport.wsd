@@ -1,0 +1,4 @@
+@startuml
+WaterQualityReport --> PublicWorksEngineer
+PublicWorksEngineer --> PublicWorksDepartment
+@enduml

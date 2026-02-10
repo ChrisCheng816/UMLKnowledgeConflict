@@ -1,4 +1,4 @@
 @startuml
-Horn *-- Cow
-Core *-- Horn
+Nose *-- Cow
+Nostril *-- Nose
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+AlarmSystem ..> Surveillance
+Electricity ..> AlarmSystem
+@enduml

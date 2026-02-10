@@ -1,0 +1,4 @@
+@startuml
+ElectricHotPlate ..> ShrinkWrapping
+Electricity ..> ElectricHotPlate
+@enduml

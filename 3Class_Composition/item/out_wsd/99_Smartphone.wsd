@@ -1,0 +1,4 @@
+@startuml
+CircuitBoard *-- Smartphone
+Capacitor *-- CircuitBoard
+@enduml

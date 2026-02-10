@@ -1,0 +1,4 @@
+@startuml
+Scrabble <|-- MindSport
+MindSport <|-- Sport
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CoachingStaff o-- SportsLeague
+HeadCoach o-- CoachingStaff
+@enduml

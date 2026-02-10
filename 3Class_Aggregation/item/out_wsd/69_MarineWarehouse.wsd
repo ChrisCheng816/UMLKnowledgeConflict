@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- MarineWarehouse
+Blanket o-- StorageBin
+@enduml

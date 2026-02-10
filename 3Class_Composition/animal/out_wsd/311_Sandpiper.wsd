@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Sandpiper
-Nostril *-- Beak
+Feather *-- Sandpiper
+Shaft *-- Feather
 @enduml

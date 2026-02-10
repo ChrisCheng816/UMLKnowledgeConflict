@@ -1,0 +1,4 @@
+@startuml
+RideHailingApp ..> CityCommute
+InternetConnection ..> RideHailingApp
+@enduml

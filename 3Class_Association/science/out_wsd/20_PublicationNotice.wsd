@@ -1,0 +1,4 @@
+@startuml
+PublicationNotice --> DataCurator
+DataCurator --> DataRepository
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ArkhamHorror <|-- BoardGame
+BoardGame <|-- Game
+@enduml

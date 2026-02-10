@@ -1,0 +1,4 @@
+@startuml
+Iron ..> ClothesIroning
+Electricity ..> Iron
+@enduml

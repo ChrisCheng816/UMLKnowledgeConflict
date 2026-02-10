@@ -1,0 +1,4 @@
+@startuml
+Krakatoa <|-- Volcano
+Volcano <|-- GeographicFeature
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MaunaLoa <|-- Volcano
+Volcano <|-- GeographicFeature
+@enduml

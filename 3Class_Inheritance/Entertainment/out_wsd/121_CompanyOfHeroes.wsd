@@ -1,0 +1,4 @@
+@startuml
+CompanyOfHeroes <|-- VideoGame
+VideoGame <|-- Game
+@enduml

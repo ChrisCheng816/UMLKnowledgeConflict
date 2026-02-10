@@ -1,0 +1,4 @@
+@startuml
+Helicopter ..> AerialSurvey
+JetFuel ..> Helicopter
+@enduml

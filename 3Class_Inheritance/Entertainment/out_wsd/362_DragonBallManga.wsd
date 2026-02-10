@@ -1,0 +1,4 @@
+@startuml
+DragonBallManga <|-- Manga
+Manga <|-- Comic
+@enduml

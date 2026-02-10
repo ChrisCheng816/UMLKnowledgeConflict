@@ -1,0 +1,4 @@
+@startuml
+Nighthawks <|-- Painting
+Painting <|-- Artwork
+@enduml

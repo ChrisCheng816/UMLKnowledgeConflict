@@ -1,0 +1,4 @@
+@startuml
+Pumpkin <|-- SquashVegetable
+SquashVegetable <|-- Vegetable
+@enduml

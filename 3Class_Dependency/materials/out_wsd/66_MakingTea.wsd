@@ -1,0 +1,4 @@
+@startuml
+ElectricKettle ..> MakingTea
+Electricity ..> ElectricKettle
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-ColonyOfMouse o-- Farm
-Mouse o-- ColonyOfMouse
+ColonyOfRat o-- Farm
+Rat o-- ColonyOfRat
 @enduml

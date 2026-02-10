@@ -1,0 +1,4 @@
+@startuml
+Luge <|-- WinterSport
+WinterSport <|-- Sport
+@enduml

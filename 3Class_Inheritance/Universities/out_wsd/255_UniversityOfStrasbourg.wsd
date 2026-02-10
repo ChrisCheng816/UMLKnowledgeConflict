@@ -1,0 +1,4 @@
+@startuml
+UniversityOfStrasbourg <|-- University
+University <|-- EducationalInstitution
+@enduml

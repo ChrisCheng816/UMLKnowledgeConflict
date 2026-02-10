@@ -1,0 +1,4 @@
+@startuml
+ExamPaper --> AdmissionsCounselor
+AdmissionsCounselor --> AdmissionsOffice
+@enduml

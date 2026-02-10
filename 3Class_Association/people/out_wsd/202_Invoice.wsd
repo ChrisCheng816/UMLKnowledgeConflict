@@ -1,0 +1,4 @@
+@startuml
+Invoice --> Bookkeeper
+Bookkeeper --> SmallBusiness
+@enduml

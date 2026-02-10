@@ -1,0 +1,4 @@
+@startuml
+TurmericPlant <|-- Herb
+Herb <|-- Plant
+@enduml

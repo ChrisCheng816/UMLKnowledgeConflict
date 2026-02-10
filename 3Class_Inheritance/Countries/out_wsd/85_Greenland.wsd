@@ -1,0 +1,4 @@
+@startuml
+Greenland <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

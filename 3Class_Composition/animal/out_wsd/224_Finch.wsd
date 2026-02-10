@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Finch
-Nostril *-- Beak
+Feather *-- Finch
+Shaft *-- Feather
 @enduml

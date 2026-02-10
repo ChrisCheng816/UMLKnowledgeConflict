@@ -1,0 +1,4 @@
+@startuml
+TicketBatch --> RaceDirector
+RaceDirector --> RaceOffice
+@enduml

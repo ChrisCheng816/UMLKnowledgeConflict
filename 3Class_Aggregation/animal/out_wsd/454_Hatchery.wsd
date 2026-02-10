@@ -1,4 +1,4 @@
 @startuml
-HerdOfDeer o-- Hatchery
-Deer o-- HerdOfDeer
+FlockOfJay o-- Hatchery
+Jay o-- FlockOfJay
 @enduml

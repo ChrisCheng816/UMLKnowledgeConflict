@@ -1,0 +1,4 @@
+@startuml
+CodingSummary --> MedicalCoder
+MedicalCoder --> Clinic
+@enduml

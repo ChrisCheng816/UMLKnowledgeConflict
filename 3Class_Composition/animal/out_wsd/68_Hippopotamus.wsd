@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Hippopotamus
-Eardrum *-- Ear
+Tooth *-- Hippopotamus
+Root *-- Tooth
 @enduml

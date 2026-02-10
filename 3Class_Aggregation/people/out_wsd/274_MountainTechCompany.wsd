@@ -1,0 +1,4 @@
+@startuml
+SafetyTeam o-- MountainTechCompany
+SecurityGuard o-- SafetyTeam
+@enduml

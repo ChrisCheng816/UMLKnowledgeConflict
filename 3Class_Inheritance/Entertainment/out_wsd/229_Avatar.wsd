@@ -1,0 +1,4 @@
+@startuml
+Avatar <|-- Film
+Film <|-- Entertainment
+@enduml

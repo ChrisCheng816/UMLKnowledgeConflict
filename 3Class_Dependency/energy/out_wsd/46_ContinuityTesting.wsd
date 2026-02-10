@@ -1,0 +1,4 @@
+@startuml
+Multimeter ..> ContinuityTesting
+Electricity ..> Multimeter
+@enduml

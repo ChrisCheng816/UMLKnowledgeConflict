@@ -1,4 +1,4 @@
 @startuml
-NestOfPython o-- Plateau
-Python o-- NestOfPython
+NestOfCobra o-- Plateau
+Cobra o-- NestOfCobra
 @enduml

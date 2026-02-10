@@ -1,0 +1,4 @@
+@startuml
+Spider <|-- Arachnid
+Arachnid <|-- Animal
+@enduml

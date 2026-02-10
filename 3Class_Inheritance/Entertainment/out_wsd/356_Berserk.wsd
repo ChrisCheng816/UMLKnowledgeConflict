@@ -1,0 +1,4 @@
+@startuml
+Berserk <|-- Manga
+Manga <|-- Comic
+@enduml

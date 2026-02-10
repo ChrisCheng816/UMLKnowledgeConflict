@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Seagull
-Shaft *-- Feather
+Wing *-- Seagull
+Feather *-- Wing
 @enduml

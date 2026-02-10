@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Porcupine
-Root *-- Tooth
+Nose *-- Porcupine
+Nostril *-- Nose
 @enduml

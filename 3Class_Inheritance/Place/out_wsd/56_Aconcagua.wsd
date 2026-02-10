@@ -1,0 +1,4 @@
+@startuml
+Aconcagua <|-- Mountain
+Mountain <|-- GeographicFeature
+@enduml

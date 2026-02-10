@@ -1,0 +1,4 @@
+@startuml
+EmergencyPlan --> TransitInspector
+TransitInspector --> TransitAuthority
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TaxReturn --> CreditAnalyst
+CreditAnalyst --> LendingDepartment
+@enduml

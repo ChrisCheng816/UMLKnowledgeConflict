@@ -1,0 +1,4 @@
+@startuml
+CitationManager ..> Bibliography
+OperatingSystem ..> CitationManager
+@enduml

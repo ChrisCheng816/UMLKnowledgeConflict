@@ -1,0 +1,4 @@
+@startuml
+RadiologyReport --> Neurologist
+Neurologist --> NeurologyCenter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BathroomLight ..> Illumination
+Electricity ..> BathroomLight
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Hedgehog
-Root *-- Tooth
+Nose *-- Hedgehog
+Nostril *-- Nose
 @enduml

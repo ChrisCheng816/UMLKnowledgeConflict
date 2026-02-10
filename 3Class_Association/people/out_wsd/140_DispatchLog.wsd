@@ -1,0 +1,4 @@
+@startuml
+DispatchLog --> TrainDispatcher
+TrainDispatcher --> RailControlCenter
+@enduml

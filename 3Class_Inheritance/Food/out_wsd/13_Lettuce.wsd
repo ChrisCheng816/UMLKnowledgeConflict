@@ -1,0 +1,4 @@
+@startuml
+Lettuce <|-- LeafyVegetable
+LeafyVegetable <|-- Vegetable
+@enduml

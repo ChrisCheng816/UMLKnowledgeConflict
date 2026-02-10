@@ -1,0 +1,4 @@
+@startuml
+RehabPlan --> Physiotherapist
+Physiotherapist --> RehabilitationCenter
+@enduml

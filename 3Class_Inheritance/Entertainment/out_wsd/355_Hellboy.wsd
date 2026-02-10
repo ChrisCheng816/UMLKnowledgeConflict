@@ -1,0 +1,4 @@
+@startuml
+Hellboy <|-- Comic
+Comic <|-- Entertainment
+@enduml

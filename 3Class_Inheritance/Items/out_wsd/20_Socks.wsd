@@ -1,0 +1,4 @@
+@startuml
+Socks <|-- Clothing
+Clothing <|-- Item
+@enduml

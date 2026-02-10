@@ -1,0 +1,4 @@
+@startuml
+ProtocolDocument --> GrantAdministrator
+GrantAdministrator --> FundingAgency
+@enduml

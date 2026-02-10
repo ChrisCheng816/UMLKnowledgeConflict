@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Lionfish
-Ray *-- Fin
+Gill *-- Lionfish
+Filament *-- Gill
 @enduml

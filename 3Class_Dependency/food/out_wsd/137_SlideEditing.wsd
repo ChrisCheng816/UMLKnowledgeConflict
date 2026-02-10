@@ -1,0 +1,4 @@
+@startuml
+WordProcessor ..> SlideEditing
+OperatingSystem ..> WordProcessor
+@enduml

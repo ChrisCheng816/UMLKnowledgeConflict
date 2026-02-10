@@ -1,0 +1,4 @@
+@startuml
+KingSaudUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Shrike
-Nostril *-- Beak
+Feather *-- Shrike
+Shaft *-- Feather
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Anchovy
-Ray *-- Fin
+Gill *-- Anchovy
+Filament *-- Gill
 @enduml

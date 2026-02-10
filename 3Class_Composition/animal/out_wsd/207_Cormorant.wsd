@@ -1,0 +1,4 @@
+@startuml
+Beak *-- Cormorant
+Nostril *-- Beak
+@enduml

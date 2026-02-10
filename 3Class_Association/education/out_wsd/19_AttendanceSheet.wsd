@@ -1,0 +1,4 @@
+@startuml
+AttendanceSheet --> Examiner
+Examiner --> TestCenter
+@enduml

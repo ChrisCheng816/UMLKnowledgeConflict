@@ -1,0 +1,4 @@
+@startuml
+CircuitBoard *-- Smartphone
+Diode *-- CircuitBoard
+@enduml

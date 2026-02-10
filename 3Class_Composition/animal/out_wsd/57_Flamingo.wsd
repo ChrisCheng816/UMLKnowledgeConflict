@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Flamingo
-Nostril *-- Beak
+Feather *-- Flamingo
+Shaft *-- Feather
 @enduml

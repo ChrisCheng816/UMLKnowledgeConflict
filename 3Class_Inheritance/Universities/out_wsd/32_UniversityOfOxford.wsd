@@ -1,0 +1,4 @@
+@startuml
+UniversityOfOxford <|-- University
+University <|-- EducationalInstitution
+@enduml

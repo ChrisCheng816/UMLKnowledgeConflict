@@ -1,0 +1,4 @@
+@startuml
+FigureSkating <|-- WinterSport
+WinterSport <|-- Sport
+@enduml

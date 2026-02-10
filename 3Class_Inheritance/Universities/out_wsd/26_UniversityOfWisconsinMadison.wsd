@@ -1,0 +1,4 @@
+@startuml
+UniversityOfWisconsinMadison <|-- University
+University <|-- EducationalInstitution
+@enduml

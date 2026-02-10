@@ -1,4 +1,4 @@
 @startuml
-Jaw *-- Eel
-Tooth *-- Jaw
+Gill *-- Eel
+Filament *-- Gill
 @enduml

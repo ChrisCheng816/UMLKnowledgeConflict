@@ -1,4 +1,4 @@
 @startuml
-Skin *-- FireSalamander
-Scale *-- Skin
+Eye *-- FireSalamander
+Lens *-- Eye
 @enduml

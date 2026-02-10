@@ -1,0 +1,4 @@
+@startuml
+AllergyRecord --> Oncologist
+Oncologist --> CancerCenter
+@enduml

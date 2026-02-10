@@ -1,0 +1,4 @@
+@startuml
+Wolf <|-- Mammal
+Mammal <|-- Animal
+@enduml

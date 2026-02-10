@@ -1,4 +1,4 @@
 @startuml
-Skin *-- TigerSalamander
-Scale *-- Skin
+Eye *-- TigerSalamander
+Lens *-- Eye
 @enduml

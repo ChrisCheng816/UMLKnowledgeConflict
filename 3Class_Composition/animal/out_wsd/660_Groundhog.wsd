@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Groundhog
-Root *-- Tooth
+Nose *-- Groundhog
+Nostril *-- Nose
 @enduml

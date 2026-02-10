@@ -1,0 +1,4 @@
+@startuml
+BudgetProposal --> ZoningOfficer
+ZoningOfficer --> ZoningOffice
+@enduml

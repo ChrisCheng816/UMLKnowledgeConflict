@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Warbler
-Shaft *-- Feather
+Wing *-- Warbler
+Feather *-- Wing
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+PickingTeam o-- Orchard
+PickingBasket o-- PickingTeam
+@enduml

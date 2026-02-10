@@ -1,0 +1,4 @@
+@startuml
+Beak *-- Kingfisher
+Nostril *-- Beak
+@enduml

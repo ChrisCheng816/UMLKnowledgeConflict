@@ -1,0 +1,4 @@
+@startuml
+SponsorshipAgreement --> Scorekeeper
+Scorekeeper --> Stadium
+@enduml

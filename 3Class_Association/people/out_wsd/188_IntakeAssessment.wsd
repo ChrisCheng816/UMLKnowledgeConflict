@@ -1,0 +1,4 @@
+@startuml
+IntakeAssessment --> MedicalAssistant
+MedicalAssistant --> UrgentCare
+@enduml

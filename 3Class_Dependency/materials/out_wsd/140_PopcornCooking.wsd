@@ -1,0 +1,4 @@
+@startuml
+MicrowaveOven ..> PopcornCooking
+Electricity ..> MicrowaveOven
+@enduml

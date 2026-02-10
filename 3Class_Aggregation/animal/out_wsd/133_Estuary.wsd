@@ -1,4 +1,4 @@
 @startuml
-GroupOfOyster o-- Estuary
-Oyster o-- GroupOfOyster
+GroupOfShrimp o-- Estuary
+Shrimp o-- GroupOfShrimp
 @enduml

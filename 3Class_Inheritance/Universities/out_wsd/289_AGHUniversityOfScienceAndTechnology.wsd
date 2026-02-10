@@ -1,0 +1,4 @@
+@startuml
+AGHUniversityOfScienceAndTechnology <|-- University
+University <|-- EducationalInstitution
+@enduml

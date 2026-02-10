@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Reindeer
-Root *-- Tooth
+Nose *-- Reindeer
+Nostril *-- Nose
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+CustomsDeclaration --> WarehouseSupervisor
+WarehouseSupervisor --> FulfillmentCenter
+@enduml

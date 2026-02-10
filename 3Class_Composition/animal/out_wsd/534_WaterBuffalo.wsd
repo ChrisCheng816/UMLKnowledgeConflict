@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- WaterBuffalo
-Root *-- Tooth
+Nose *-- WaterBuffalo
+Nostril *-- Nose
 @enduml

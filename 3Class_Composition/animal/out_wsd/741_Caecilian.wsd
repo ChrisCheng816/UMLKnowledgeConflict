@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Caecilian
-Scale *-- Skin
+Eye *-- Caecilian
+Lens *-- Eye
 @enduml

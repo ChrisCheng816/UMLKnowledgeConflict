@@ -1,0 +1,4 @@
+@startuml
+AWhiskerAway <|-- AnimatedFilm
+AnimatedFilm <|-- Film
+@enduml

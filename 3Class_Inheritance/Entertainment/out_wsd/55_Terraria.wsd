@@ -1,0 +1,4 @@
+@startuml
+Terraria <|-- VideoGame
+VideoGame <|-- Game
+@enduml

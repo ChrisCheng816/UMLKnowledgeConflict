@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Magpie
-Nostril *-- Beak
+Feather *-- Magpie
+Shaft *-- Feather
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GroupOfOctopus o-- Aquarium
-Octopus o-- GroupOfOctopus
+ColonyOfSalamander o-- Aquarium
+Salamander o-- ColonyOfSalamander
 @enduml

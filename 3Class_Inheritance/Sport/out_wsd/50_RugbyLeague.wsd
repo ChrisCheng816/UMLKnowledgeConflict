@@ -1,0 +1,4 @@
+@startuml
+RugbyLeague <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

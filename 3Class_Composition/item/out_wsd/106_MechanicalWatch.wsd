@@ -1,0 +1,4 @@
+@startuml
+WatchMovement *-- MechanicalWatch
+GearTrain *-- WatchMovement
+@enduml

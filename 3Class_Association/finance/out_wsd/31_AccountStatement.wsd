@@ -1,0 +1,4 @@
+@startuml
+AccountStatement --> RiskAnalyst
+RiskAnalyst --> RiskOffice
+@enduml

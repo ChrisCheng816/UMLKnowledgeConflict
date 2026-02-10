@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Toad
-Muscle *-- Leg
+Eye *-- Toad
+Lens *-- Eye
 @enduml

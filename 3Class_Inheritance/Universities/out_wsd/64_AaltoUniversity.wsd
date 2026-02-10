@@ -1,0 +1,4 @@
+@startuml
+AaltoUniversity <|-- University
+University <|-- EducationalInstitution
+@enduml

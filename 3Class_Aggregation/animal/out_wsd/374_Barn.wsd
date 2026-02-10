@@ -1,4 +1,4 @@
 @startuml
-SchoolOfPerch o-- Barn
-Perch o-- SchoolOfPerch
+SchoolOfBass o-- Barn
+Bass o-- SchoolOfBass
 @enduml

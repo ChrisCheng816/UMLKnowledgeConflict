@@ -1,0 +1,4 @@
+@startuml
+BatchRecord --> Electrician
+Electrician --> ControlRoom
+@enduml

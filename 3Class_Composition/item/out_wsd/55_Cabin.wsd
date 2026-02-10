@@ -1,0 +1,4 @@
+@startuml
+Roof *-- Cabin
+Sheathing *-- Roof
+@enduml

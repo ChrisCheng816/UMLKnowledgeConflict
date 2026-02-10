@@ -1,0 +1,4 @@
+@startuml
+ObservationLog --> FieldBiologist
+FieldBiologist --> NatureReserve
+@enduml

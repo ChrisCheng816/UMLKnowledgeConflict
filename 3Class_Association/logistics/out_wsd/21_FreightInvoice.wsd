@@ -1,0 +1,4 @@
+@startuml
+FreightInvoice --> SupplyPlanner
+SupplyPlanner --> SupplyChainDepartment
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Mouth *-- Whale
-Beak *-- Mouth
+Fin *-- Whale
+Ray *-- Fin
 @enduml

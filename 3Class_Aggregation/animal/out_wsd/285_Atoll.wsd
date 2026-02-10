@@ -1,0 +1,4 @@
+@startuml
+FlockOfGannet o-- Atoll
+Gannet o-- FlockOfGannet
+@enduml

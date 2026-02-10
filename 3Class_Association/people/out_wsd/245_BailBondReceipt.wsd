@@ -1,0 +1,4 @@
+@startuml
+BailBondReceipt --> BailBondsAgent
+BailBondsAgent --> BailBondsAgency
+@enduml

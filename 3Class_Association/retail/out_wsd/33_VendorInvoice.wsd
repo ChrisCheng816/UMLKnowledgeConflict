@@ -1,0 +1,4 @@
+@startuml
+VendorInvoice --> Barista
+Barista --> CoffeeShop
+@enduml

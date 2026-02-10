@@ -1,0 +1,4 @@
+@startuml
+SettlersOfCatan <|-- BoardGame
+BoardGame <|-- Game
+@enduml

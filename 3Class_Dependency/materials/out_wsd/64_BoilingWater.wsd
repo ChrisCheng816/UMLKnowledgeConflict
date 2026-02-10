@@ -1,0 +1,4 @@
+@startuml
+ElectricKettle ..> BoilingWater
+Electricity ..> ElectricKettle
+@enduml

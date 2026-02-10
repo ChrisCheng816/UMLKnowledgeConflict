@@ -1,0 +1,4 @@
+@startuml
+BlackMirror <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

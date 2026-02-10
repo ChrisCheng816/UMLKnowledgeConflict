@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Flycatcher
-Nostril *-- Beak
+Feather *-- Flycatcher
+Shaft *-- Feather
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+CustomerComplaintForm --> Buyer
+Buyer --> PurchasingDepartment
+@enduml

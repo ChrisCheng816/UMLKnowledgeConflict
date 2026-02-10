@@ -1,0 +1,4 @@
+@startuml
+EthicsApproval --> Statistician
+Statistician --> BiostatisticsUnit
+@enduml

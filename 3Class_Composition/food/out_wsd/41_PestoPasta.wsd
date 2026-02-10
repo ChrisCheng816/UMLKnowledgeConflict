@@ -1,0 +1,4 @@
+@startuml
+Pesto *-- PestoPasta
+Basil *-- Pesto
+@enduml

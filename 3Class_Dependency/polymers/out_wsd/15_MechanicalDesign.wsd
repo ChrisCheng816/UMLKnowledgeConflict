@@ -1,0 +1,4 @@
+@startuml
+CADSoftware ..> MechanicalDesign
+OperatingSystem ..> CADSoftware
+@enduml

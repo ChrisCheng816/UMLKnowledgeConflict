@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Pufferfish
-Ray *-- Fin
+Gill *-- Pufferfish
+Filament *-- Gill
 @enduml

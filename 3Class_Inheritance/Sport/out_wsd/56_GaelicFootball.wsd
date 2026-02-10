@@ -1,0 +1,4 @@
+@startuml
+GaelicFootball <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

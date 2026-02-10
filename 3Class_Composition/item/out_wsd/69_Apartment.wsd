@@ -1,0 +1,4 @@
+@startuml
+Window *-- Apartment
+Sash *-- Window
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Soundbar ..> RadioListening
+Electricity ..> Soundbar
+@enduml

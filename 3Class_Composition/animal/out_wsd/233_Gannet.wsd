@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Gannet
-Nostril *-- Beak
+Feather *-- Gannet
+Shaft *-- Feather
 @enduml

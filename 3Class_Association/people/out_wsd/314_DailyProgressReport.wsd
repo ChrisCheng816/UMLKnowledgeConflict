@@ -1,0 +1,4 @@
+@startuml
+DailyProgressReport --> ConstructionSupervisor
+ConstructionSupervisor --> ConstructionCompany
+@enduml

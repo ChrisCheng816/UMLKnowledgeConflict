@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Nuthatch
-Nostril *-- Beak
+Feather *-- Nuthatch
+Shaft *-- Feather
 @enduml

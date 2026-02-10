@@ -1,0 +1,4 @@
+@startuml
+RadiologyReport --> Midwife
+Midwife --> MaternityWard
+@enduml

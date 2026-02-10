@@ -1,4 +1,4 @@
 @startuml
-NestOfTurtle o-- Bay
-Turtle o-- NestOfTurtle
+ColonyOfTermite o-- Bay
+Termite o-- ColonyOfTermite
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+DominicanRepublic <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

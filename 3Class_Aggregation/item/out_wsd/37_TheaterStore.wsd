@@ -1,0 +1,4 @@
+@startuml
+Box o-- TheaterStore
+ChocolateBar o-- Box
+@enduml

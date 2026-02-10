@@ -1,0 +1,4 @@
+@startuml
+PerformanceReport --> GymManager
+GymManager --> Gymnasium
+@enduml

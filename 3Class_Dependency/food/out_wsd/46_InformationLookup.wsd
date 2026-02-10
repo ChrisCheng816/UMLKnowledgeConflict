@@ -1,0 +1,4 @@
+@startuml
+JobPortal ..> InformationLookup
+InternetConnection ..> JobPortal
+@enduml

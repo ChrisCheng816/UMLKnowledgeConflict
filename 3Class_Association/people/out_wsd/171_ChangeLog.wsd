@@ -1,0 +1,4 @@
+@startuml
+ChangeLog --> ReleaseManager
+ReleaseManager --> SoftwareVendor
+@enduml

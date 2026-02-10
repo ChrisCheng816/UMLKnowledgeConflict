@@ -1,0 +1,4 @@
+@startuml
+SmartDisplay ..> VideoStreaming
+WiFiNetwork ..> SmartDisplay
+@enduml

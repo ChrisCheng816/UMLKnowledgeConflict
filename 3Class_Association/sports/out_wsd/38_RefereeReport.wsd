@@ -1,0 +1,4 @@
+@startuml
+RefereeReport --> Groundskeeper
+Groundskeeper --> Stadium
+@enduml

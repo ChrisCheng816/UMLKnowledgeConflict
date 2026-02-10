@@ -1,0 +1,4 @@
+@startuml
+Wakame <|-- SeaVegetable
+SeaVegetable <|-- Vegetable
+@enduml

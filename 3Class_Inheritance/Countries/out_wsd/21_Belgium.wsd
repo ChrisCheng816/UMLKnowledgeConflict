@@ -1,0 +1,4 @@
+@startuml
+Belgium <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

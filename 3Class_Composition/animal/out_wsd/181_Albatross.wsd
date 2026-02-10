@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Albatross
-Shaft *-- Feather
+Wing *-- Albatross
+Feather *-- Wing
 @enduml

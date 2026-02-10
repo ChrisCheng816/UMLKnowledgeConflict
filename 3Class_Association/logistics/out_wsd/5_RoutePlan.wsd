@@ -1,0 +1,4 @@
+@startuml
+RoutePlan --> DispatchManager
+DispatchManager --> DispatchOffice
+@enduml

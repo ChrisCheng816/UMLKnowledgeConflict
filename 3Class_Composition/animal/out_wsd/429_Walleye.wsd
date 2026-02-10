@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Walleye
-Ray *-- Fin
+Gill *-- Walleye
+Filament *-- Gill
 @enduml

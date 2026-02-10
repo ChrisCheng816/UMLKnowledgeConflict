@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Grouse
-Shaft *-- Feather
+Wing *-- Grouse
+Feather *-- Wing
 @enduml

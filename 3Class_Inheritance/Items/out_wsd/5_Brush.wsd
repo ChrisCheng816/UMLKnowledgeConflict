@@ -1,0 +1,4 @@
+@startuml
+Brush <|-- Toiletry
+Toiletry <|-- Item
+@enduml

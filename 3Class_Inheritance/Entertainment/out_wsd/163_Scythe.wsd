@@ -1,0 +1,4 @@
+@startuml
+Scythe <|-- BoardGame
+BoardGame <|-- Game
+@enduml

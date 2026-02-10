@@ -1,4 +1,4 @@
 @startuml
-Student --> Counselor
-Counselor --> School
+Student --> Principal
+Principal --> School
 @enduml

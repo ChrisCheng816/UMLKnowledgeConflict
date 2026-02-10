@@ -1,0 +1,4 @@
+@startuml
+Ocean <|-- GeographicFeature
+GeographicFeature <|-- Location
+@enduml

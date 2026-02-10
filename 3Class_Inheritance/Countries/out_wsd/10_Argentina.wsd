@@ -1,0 +1,4 @@
+@startuml
+Argentina <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

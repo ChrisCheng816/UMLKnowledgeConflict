@@ -1,0 +1,4 @@
+@startuml
+BokChoy <|-- LeafyVegetable
+LeafyVegetable <|-- Vegetable
+@enduml

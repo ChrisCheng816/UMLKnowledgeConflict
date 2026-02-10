@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Flamingo
-Shaft *-- Feather
+Wing *-- Flamingo
+Feather *-- Wing
 @enduml

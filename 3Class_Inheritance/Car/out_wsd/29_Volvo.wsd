@@ -1,0 +1,4 @@
+@startuml
+Volvo <|-- CarManufacturer
+CarManufacturer <|-- Manufacturer
+@enduml

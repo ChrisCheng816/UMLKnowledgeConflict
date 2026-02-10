@@ -1,4 +1,4 @@
 @startuml
-ColonyOfSquirrel o-- Farm
-Squirrel o-- ColonyOfSquirrel
+ColonyOfHare o-- Farm
+Hare o-- ColonyOfHare
 @enduml

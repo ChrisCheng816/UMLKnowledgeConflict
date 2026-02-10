@@ -1,0 +1,4 @@
+@startuml
+ScoreSheet --> HeadCoach
+HeadCoach --> SportsClub
+@enduml

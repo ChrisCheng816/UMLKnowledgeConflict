@@ -1,0 +1,4 @@
+@startuml
+GoGame <|-- MindSport
+MindSport <|-- Sport
+@enduml

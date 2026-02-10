@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Terrapin
-Lens *-- Eye
+Skin *-- Terrapin
+Scale *-- Skin
 @enduml
