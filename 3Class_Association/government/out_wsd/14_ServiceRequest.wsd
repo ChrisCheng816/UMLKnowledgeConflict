@@ -1,4 +1,0 @@
-@startuml
-ServiceRequest --> CensusWorker
-CensusWorker --> CensusBureau
-@enduml
