@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Dict, Any, Optional
@@ -242,6 +243,8 @@ def run_for_root(
         folder = data_path.parent
         jsonl_path = folder / jsonl_name
         wsd_dir = folder / wsd_subdir_name
+        if wsd_dir.exists() and wsd_dir.is_dir():
+            shutil.rmtree(wsd_dir)
         run_pipeline(
             data_path=data_path,
             jsonl_path=jsonl_path,
