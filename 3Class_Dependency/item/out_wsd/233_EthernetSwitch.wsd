@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> EthernetSwitch
-CircuitBreakerPanel ..> WallOutlet
-@enduml

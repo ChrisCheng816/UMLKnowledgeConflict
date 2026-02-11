@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> FireAlarmPanel
-CircuitBreakerPanel ..> WallOutlet
-@enduml

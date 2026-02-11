@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> ChargingStand
-CircuitBreakerPanel ..> WallOutlet
-@enduml

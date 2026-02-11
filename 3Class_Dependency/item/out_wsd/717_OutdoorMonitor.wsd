@@ -1,4 +1,0 @@
-@startuml
-OutdoorMonitorPowerCord ..> OutdoorMonitor
-ControlRoomSurgeProtector ..> OutdoorMonitorPowerCord
-@enduml

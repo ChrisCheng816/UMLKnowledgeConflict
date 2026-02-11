@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> WashingMachine
-CircuitBreakerPanel ..> WallOutlet
-@enduml

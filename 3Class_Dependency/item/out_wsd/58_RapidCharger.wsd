@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> RapidCharger
-CircuitBreakerPanel ..> WallOutlet
-@enduml

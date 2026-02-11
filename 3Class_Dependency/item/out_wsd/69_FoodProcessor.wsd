@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> FoodProcessor
-CircuitBreakerPanel ..> WallOutlet
-@enduml

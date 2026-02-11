@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> MicrowaveOven
-CircuitBreakerPanel ..> WallOutlet
-@enduml

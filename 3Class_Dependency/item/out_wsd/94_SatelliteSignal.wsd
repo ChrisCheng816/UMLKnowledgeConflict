@@ -1,4 +1,0 @@
-@startuml
-CommunicationSatellite ..> SatelliteSignal
-GroundStation ..> CommunicationSatellite
-@enduml

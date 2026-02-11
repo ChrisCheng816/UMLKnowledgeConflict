@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> SpaceHeater
-CircuitBreakerPanel ..> WallOutlet
-@enduml

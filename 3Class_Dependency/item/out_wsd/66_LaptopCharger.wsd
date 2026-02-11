@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> LaptopCharger
-CircuitBreakerPanel ..> WallOutlet
-@enduml

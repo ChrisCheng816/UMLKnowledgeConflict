@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> Dehumidifier
-CircuitBreakerPanel ..> WallOutlet
-@enduml

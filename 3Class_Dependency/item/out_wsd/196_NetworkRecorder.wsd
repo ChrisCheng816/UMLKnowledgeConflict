@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> NetworkRecorder
-CircuitBreakerPanel ..> WallOutlet
-@enduml

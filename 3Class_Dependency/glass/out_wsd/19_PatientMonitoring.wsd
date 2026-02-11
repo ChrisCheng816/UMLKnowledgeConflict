@@ -1,4 +1,0 @@
-@startuml
-ECGMonitor ..> PatientMonitoring
-Electricity ..> ECGMonitor
-@enduml

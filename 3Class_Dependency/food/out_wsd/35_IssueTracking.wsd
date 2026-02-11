@@ -1,4 +1,0 @@
-@startuml
-GitRepositoryHost ..> IssueTracking
-InternetConnection ..> GitRepositoryHost
-@enduml

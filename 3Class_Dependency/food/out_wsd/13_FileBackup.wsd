@@ -1,4 +1,0 @@
-@startuml
-CloudStorage ..> FileBackup
-InternetConnection ..> CloudStorage
-@enduml

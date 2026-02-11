@@ -1,4 +1,0 @@
-@startuml
-FitnessTracker ..> LocationTracking
-GPSSignal ..> FitnessTracker
-@enduml

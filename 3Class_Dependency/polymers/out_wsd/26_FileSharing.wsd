@@ -1,4 +1,0 @@
-@startuml
-CloudSyncClient ..> FileSharing
-OperatingSystem ..> CloudSyncClient
-@enduml

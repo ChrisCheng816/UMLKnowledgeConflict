@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> StandMixer
-CircuitBreakerPanel ..> WallOutlet
-@enduml

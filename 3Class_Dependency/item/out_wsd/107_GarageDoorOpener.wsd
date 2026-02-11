@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> GarageDoorOpener
-CircuitBreakerPanel ..> WallOutlet
-@enduml

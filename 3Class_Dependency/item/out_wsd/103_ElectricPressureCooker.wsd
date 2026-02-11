@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> ElectricPressureCooker
-CircuitBreakerPanel ..> WallOutlet
-@enduml

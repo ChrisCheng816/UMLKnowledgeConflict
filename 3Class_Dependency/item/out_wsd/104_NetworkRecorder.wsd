@@ -1,4 +1,0 @@
-@startuml
-EthernetSwitch ..> NetworkRecorder
-WallOutlet ..> EthernetSwitch
-@enduml

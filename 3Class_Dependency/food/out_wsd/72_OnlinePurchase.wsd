@@ -1,4 +1,0 @@
-@startuml
-PaymentGateway ..> OnlinePurchase
-InternetConnection ..> PaymentGateway
-@enduml

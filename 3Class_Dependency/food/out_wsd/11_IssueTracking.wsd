@@ -1,4 +1,0 @@
-@startuml
-CICDService ..> IssueTracking
-InternetConnection ..> CICDService
-@enduml

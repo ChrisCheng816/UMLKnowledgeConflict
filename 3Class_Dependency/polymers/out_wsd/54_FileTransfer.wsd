@@ -1,4 +1,0 @@
-@startuml
-FTPClient ..> FileTransfer
-OperatingSystem ..> FTPClient
-@enduml

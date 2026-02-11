@@ -1,4 +1,0 @@
-@startuml
-WiFiNetwork ..> VideoCall
-InternetConnection ..> WiFiNetwork
-@enduml

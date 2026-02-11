@@ -1,4 +1,0 @@
-@startuml
-WallOutlet ..> AirPurifier
-CircuitBreakerPanel ..> WallOutlet
-@enduml

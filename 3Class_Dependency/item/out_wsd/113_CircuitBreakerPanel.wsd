@@ -1,4 +1,0 @@
-@startuml
-UtilityMeter ..> CircuitBreakerPanel
-DistributionLine ..> UtilityMeter
-@enduml
