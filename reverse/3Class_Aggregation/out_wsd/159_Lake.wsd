@@ -1,0 +1,4 @@
+@startuml
+FlockOfEmu o-- Emu
+Lake o-- FlockOfEmu
+@enduml

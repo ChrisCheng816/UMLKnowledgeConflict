@@ -1,0 +1,4 @@
+@startuml
+WindShear ..> PressureGradient
+Tornado ..> WindShear
+@enduml

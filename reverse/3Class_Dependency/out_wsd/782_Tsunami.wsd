@@ -1,0 +1,4 @@
+@startuml
+Earthquake ..> TectonicMovement
+Tsunami ..> Earthquake
+@enduml

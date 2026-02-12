@@ -1,0 +1,4 @@
+@startuml
+MantleConvection ..> EarthHeat
+PlateTectonics ..> MantleConvection
+@enduml

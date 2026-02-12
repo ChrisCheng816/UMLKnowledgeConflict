@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Dog
+Dog <|-- GoldenRetriever
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StreamingBox ..> Electricity
+MusicPlayback ..> StreamingBox
+@enduml

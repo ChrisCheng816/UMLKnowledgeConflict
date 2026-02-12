@@ -1,0 +1,4 @@
+@startuml
+SmartTV ..> WiFiNetwork
+MusicPlayback ..> SmartTV
+@enduml

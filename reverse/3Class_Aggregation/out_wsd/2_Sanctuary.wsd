@@ -1,0 +1,4 @@
+@startuml
+FlockOfDuck o-- Duck
+Sanctuary o-- FlockOfDuck
+@enduml

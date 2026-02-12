@@ -1,0 +1,4 @@
+@startuml
+RescueTeam o-- SearchAndRescueWorker
+MountainStation o-- RescueTeam
+@enduml

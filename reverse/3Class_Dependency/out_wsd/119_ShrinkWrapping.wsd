@@ -1,0 +1,4 @@
+@startuml
+HotAirStation ..> Electricity
+ShrinkWrapping ..> HotAirStation
+@enduml

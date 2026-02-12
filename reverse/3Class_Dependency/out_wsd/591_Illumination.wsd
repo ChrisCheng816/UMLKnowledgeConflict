@@ -1,0 +1,4 @@
+@startuml
+DeskLamp ..> Electricity
+Illumination ..> DeskLamp
+@enduml

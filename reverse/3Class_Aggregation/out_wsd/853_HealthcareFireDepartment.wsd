@@ -1,0 +1,4 @@
+@startuml
+QualityTeam o-- Drafter
+HealthcareFireDepartment o-- QualityTeam
+@enduml

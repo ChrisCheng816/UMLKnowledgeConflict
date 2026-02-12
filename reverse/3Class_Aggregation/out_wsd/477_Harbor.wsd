@@ -1,0 +1,4 @@
+@startuml
+PackOfCoyote o-- Coyote
+Harbor o-- PackOfCoyote
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SinkFaucet ..> TapWater
+Rinsing ..> SinkFaucet
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StationTeam o-- SecurityGuard
+MetroAuthority o-- StationTeam
+@enduml

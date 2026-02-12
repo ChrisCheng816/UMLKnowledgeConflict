@@ -1,0 +1,4 @@
+@startuml
+SeaIce ..> FreezingTemperature
+IceAlbedo ..> SeaIce
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PresentationSoftware ..> OperatingSystem
+SlideEditing ..> PresentationSoftware
+@enduml

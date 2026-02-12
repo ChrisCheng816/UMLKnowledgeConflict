@@ -1,0 +1,4 @@
+@startuml
+BloodTestAnalyzer ..> Electricity
+LabDiagnostics ..> BloodTestAnalyzer
+@enduml

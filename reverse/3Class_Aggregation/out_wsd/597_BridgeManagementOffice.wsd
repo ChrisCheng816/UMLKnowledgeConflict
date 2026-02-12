@@ -1,0 +1,4 @@
+@startuml
+MaintenanceTeam o-- Engineer
+BridgeManagementOffice o-- MaintenanceTeam
+@enduml

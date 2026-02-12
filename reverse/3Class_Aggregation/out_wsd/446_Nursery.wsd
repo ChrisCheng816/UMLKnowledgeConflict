@@ -1,0 +1,4 @@
+@startuml
+FlockOfOwl o-- Owl
+Nursery o-- FlockOfOwl
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ControlCabinet ..> UtilityMeter
+TrafficCamera ..> ControlCabinet
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CRMSoftware ..> OperatingSystem
+SalesPipeline ..> CRMSoftware
+@enduml

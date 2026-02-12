@@ -1,0 +1,4 @@
+@startuml
+NestOfChameleon o-- Chameleon
+Aquarium o-- NestOfChameleon
+@enduml

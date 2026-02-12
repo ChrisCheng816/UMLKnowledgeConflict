@@ -1,0 +1,4 @@
+@startuml
+Engineer <|-- ElectricalEngineer
+ElectricalEngineer <|-- NikolaTesla
+@enduml

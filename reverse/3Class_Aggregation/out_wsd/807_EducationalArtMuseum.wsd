@@ -1,0 +1,4 @@
+@startuml
+TrainingBoard o-- SalesAssistant
+EducationalArtMuseum o-- TrainingBoard
+@enduml

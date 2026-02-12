@@ -1,0 +1,4 @@
+@startuml
+USBCharger ..> WallOutlet
+PowerBank ..> USBCharger
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HerdOfAntelope o-- Antelope
+Savanna o-- HerdOfAntelope
+@enduml

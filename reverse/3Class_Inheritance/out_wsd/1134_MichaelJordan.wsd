@@ -1,0 +1,4 @@
+@startuml
+Athlete <|-- BasketballPlayer
+BasketballPlayer <|-- MichaelJordan
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CarHandsFree ..> Bluetooth
+HandsFreeCalling ..> CarHandsFree
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+EmailServer ..> InternetConnection
+EmailSending ..> EmailServer
+@enduml

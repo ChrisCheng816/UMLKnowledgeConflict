@@ -1,0 +1,4 @@
+@startuml
+ToolBox o-- ToolKit
+WorkshopDepot o-- ToolBox
+@enduml

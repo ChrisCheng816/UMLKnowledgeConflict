@@ -1,0 +1,4 @@
+@startuml
+Lens *-- Element
+Camera *-- Lens
+@enduml

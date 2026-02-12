@@ -1,0 +1,4 @@
+@startuml
+Wall *-- Drywall
+Apartment *-- Wall
+@enduml

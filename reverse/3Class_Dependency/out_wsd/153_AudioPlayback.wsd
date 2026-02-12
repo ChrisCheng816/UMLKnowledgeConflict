@@ -1,0 +1,4 @@
+@startuml
+BluetoothEarbuds ..> Bluetooth
+AudioPlayback ..> BluetoothEarbuds
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MedicalHelicopter ..> JetFuel
+AerialSurvey ..> MedicalHelicopter
+@enduml

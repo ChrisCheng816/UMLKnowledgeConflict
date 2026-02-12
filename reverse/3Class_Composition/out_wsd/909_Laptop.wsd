@@ -1,0 +1,4 @@
+@startuml
+DisplayModule *-- LCDPanel
+Laptop *-- DisplayModule
+@enduml

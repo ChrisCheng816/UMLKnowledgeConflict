@@ -1,0 +1,4 @@
+@startuml
+Dishwasher ..> TapWater
+Dishwashing ..> Dishwasher
+@enduml

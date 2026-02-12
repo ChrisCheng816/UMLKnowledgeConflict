@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Tree
+Tree <|-- Mahogany
+@enduml

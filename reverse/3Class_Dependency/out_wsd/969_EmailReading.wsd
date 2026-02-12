@@ -1,0 +1,4 @@
+@startuml
+EmailClient ..> OperatingSystem
+EmailReading ..> EmailClient
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SpaceHeater ..> Electricity
+WarmAir ..> SpaceHeater
+@enduml

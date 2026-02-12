@@ -1,0 +1,4 @@
+@startuml
+PodcastApp ..> InternetConnection
+PlaylistPlayback ..> PodcastApp
+@enduml

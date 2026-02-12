@@ -1,0 +1,4 @@
+@startuml
+Reflection ..> SmoothSurface
+Echo ..> Reflection
+@enduml

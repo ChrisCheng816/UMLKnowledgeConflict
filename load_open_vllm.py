@@ -12,6 +12,7 @@ from qwen_vl_utils import process_vision_info
 
 BATCH_SIZE = 4
 GPU_PER = 0.65
+N = 1
 LOGGER.setLevel(logging.ERROR)
 logging.getLogger("ultralytics").setLevel(logging.ERROR)
 
@@ -56,16 +57,38 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
     relation = (relation or "inheritance").strip().lower()
     class_desc = ", ".join(nodes)
     class_prefix = "two" if len(nodes) == 2 else "three"
-    if relation == "inheritance":
-        question = f"This is a UML diagram showing inheritance relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. An arrow with a hollow triangle head points from the subclass to the superclass, indicating the inheritance relationship. Please analyze the diagram and answer the question based solely on the relationships shown in the diagram. The question is:\n Does class {node2} inherits from class {node1}? Do not output any reasoning or thought steps; output only the final binary answer: True or False."
-    elif relation == "aggregation":
-        question = f"This is a UML diagram showing aggregation relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. A line with a hollow diamond at the whole side points from the part to the whole, indicating the aggregation relationship. Please analyze the diagram and answer the question based solely on the relationships shown in the diagram. The question is:\n Does class {node2} aggregates class {node1}? Do not output any reasoning or thought steps; output only the final binary answer: True or False."
-    elif relation == "composition":
-        question = f"This is a UML diagram showing composition relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. A line with a filled diamond at the whole side points from the part to the whole, indicating the composition relationship. Please analyze the diagram and answer the question based solely on the relationships shown in the diagram. The question is:\n Does class {node2} is composed of class {node1}? Do not output any reasoning or thought steps; output only the final binary answer: True or False."
-    elif relation == "dependency":
-        question = f"This is a UML diagram showing dependency relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. A dashed arrow points from the dependent class to the class it depends on, indicating the dependency relationship. Please analyze the diagram and answer the question based solely on the relationships shown in the diagram. The question is:\n Does class {node2} depends on class {node1}? Do not output any reasoning or thought steps; output only the final binary answer: True or False."
-    else:
+
+    relation_specs = {
+        "inheritance": {
+            "relation_sentence": "An arrow with a hollow triangle head points from the subclass to the superclass, indicating the inheritance relationship.",
+            "ask_sentence": f"Does class {node2} inherits from class {node1}?",
+        },
+        "aggregation": {
+            "relation_sentence": "A line with a hollow diamond at the whole side points from the part to the whole, indicating the aggregation relationship.",
+            "ask_sentence": f"Does class {node2} aggregates class {node1}?",
+        },
+        "composition": {
+            "relation_sentence": "A line with a filled diamond at the whole side points from the part to the whole, indicating the composition relationship.",
+            "ask_sentence": f"Does class {node2} is composed of class {node1}?",
+        },
+        "dependency": {
+            "relation_sentence": "A dashed arrow points from the dependent class to the class it depends on, indicating the dependency relationship.",
+            "ask_sentence": f"Does class {node2} depends on class {node1}?",
+        },
+    }
+    if relation not in relation_specs:
         raise ValueError(f"Unsupported relation type: {relation}")
+
+    spec = relation_specs[relation]
+    question = (
+        f"This is a UML diagram showing {relation} relationships. "
+        f"The diagram contains {class_prefix} classes: {class_desc}. "
+        "Each class is represented as a box, with the class name at the top. "
+        f"{spec['relation_sentence']} "
+        "Please analyze the diagram and answer the question based solely on the relationships shown in the diagram. "
+        f"The question is:\n {spec['ask_sentence']} "
+        "Do not output any reasoning or thought steps; output only the final binary answer: True or False."
+    )
 
     return question, {
         "node1": node1,
@@ -138,11 +161,36 @@ def _discover_dataset_dirs(root_dir):
         if not (top_lower.startswith("2class") or top_lower.startswith("3class")):
             continue
 
+        top_instances = os.path.join(top_path, "instances.jsonl")
+        if os.path.isfile(top_instances):
+            dataset_dirs.append(os.path.relpath(top_path, root_dir))
+            continue
+
         for cur_root, _, files in os.walk(top_path):
             if "instances.jsonl" in files:
                 dataset_dirs.append(os.path.relpath(cur_root, root_dir))
 
     return sorted(dataset_dirs)
+
+def _extract_relation_arity_from_dataset_dir(dataset_dir):
+    # Example: 2Class_Inheritance/Animal -> ("inheritance", "2")
+    normalized = os.path.normpath(dataset_dir)
+    parts = normalized.split(os.sep)
+    if not parts:
+        return "unknown", "unknown"
+    top = parts[0]
+    m = re.match(r"^([23])class_(.+)$", top, flags=re.IGNORECASE)
+    if not m:
+        return "unknown", "unknown"
+    arity = m.group(1)
+    relation = m.group(2).strip().lower() or "unknown"
+    return relation, arity
+
+def _build_group_out_path(out_path, relation, arity):
+    root, ext = os.path.splitext(out_path)
+    if not ext:
+        ext = ".jsonl"
+    return f"{root}_{relation}_{arity}{ext}"
 
 def load_prompt(
     processor,
@@ -157,9 +205,7 @@ def load_prompt(
     information = []
 
     instances_path = os.path.join(dataset_root, dataset_dir, "instances.jsonl")
-    image_dir_candidate = os.path.join(output_image_root, dataset_dir, "out_wsd")
-    image_dir = _resolve_case_insensitive_path(image_dir_candidate) or image_dir_candidate
-    image_map = _collect_image_map(image_dir)
+    image_map_cache = {}
 
     prepared_rows = []
     with open(instances_path, "r", encoding="utf8") as f:
@@ -169,12 +215,25 @@ def load_prompt(
                 continue
             obj = json.loads(line)
             sample_id = str(int(obj.get("id")))
+            source_subset = obj.get("source_subset")
+            source_id_raw = obj.get("source_id")
+            source_id = sample_id if source_id_raw is None else str(int(source_id_raw))
             nodes = obj.get("nodes", [])
             relation_for_row = (obj.get("template_id") or relation or "inheritance")
-            image_path = image_map.get(sample_id)
+            if source_subset:
+                image_dir_key = os.path.join(dataset_dir, source_subset, "out_wsd")
+            else:
+                image_dir_key = os.path.join(dataset_dir, "out_wsd")
+
+            if image_dir_key not in image_map_cache:
+                image_dir_candidate = os.path.join(output_image_root, image_dir_key)
+                image_dir = _resolve_case_insensitive_path(image_dir_candidate) or image_dir_candidate
+                image_map_cache[image_dir_key] = (image_dir, _collect_image_map(image_dir))
+            image_dir, image_map = image_map_cache[image_dir_key]
+            image_path = image_map.get(source_id)
             if image_path is None:
                 raise FileNotFoundError(
-                    f"No image found for id={sample_id}. Expected a file like '{sample_id}_*.png' in {image_dir}."
+                    f"No image found for id={source_id}. Expected a file like '{source_id}_*.png' in {image_dir}."
                 )
             prompt_items = _build_relation_prompts(
                 nodes,
@@ -220,7 +279,7 @@ def load_prompt(
                 row = {
                     "id": sample_id,
                     "query_id": q_idx,
-                    "query_pair": list(q_pair),
+                    # "query_pair": list(q_pair),
                     "template_id": obj.get("template_id"),
                     "nodes": nodes,
                     "triplet_slots": triplet_slots,
@@ -259,19 +318,20 @@ def run_batch(batch_prompts, model):
 
     sampling_params = SamplingParams(
         max_tokens=1024,
+        n=N,
         stop_token_ids=[]
     )
 
     outputs = model.generate(batch_prompts, sampling_params)
-    # Decode input and output to strings
-
-    predictions = [output.outputs[0].text.strip() for output in outputs]
+    # Keep multiple candidates per prompt for pass@k style metrics.
+    predictions = [[o.text.strip() for o in output.outputs] for output in outputs]
 
     return predictions
 
 def save_outputs(predictions, information, out_path):
     with open(out_path, "w", encoding="utf8") as f:
         for pred, info in zip(predictions, information):
+            first_output = pred[0] if pred else ""
             obj = {
                 "id": info["id"],
                 "query_id": info.get("query_id"),
@@ -281,7 +341,8 @@ def save_outputs(predictions, information, out_path):
                 "triplet_slots": info.get("triplet_slots"),
                 "image_path": info.get("image_path"),
                 "prompt": info.get("prompt"),
-                "output": pred
+                "outputs": pred,
+                "output": first_output
             }
             json.dump(obj, f, ensure_ascii=False)
             f.write("\n")
@@ -311,10 +372,16 @@ def generate_outputs(
         dataset_dirs = [dataset_dir]
 
     llm, processor = load_model(model_path)
+    grouped_requests = {}
+    grouped_information = {}
+    valid_relations = {"inheritance", "aggregation", "composition", "dependency"}
 
-    requests = []
-    information = []
     for ds in dataset_dirs:
+        relation_name, arity = _extract_relation_arity_from_dataset_dir(ds)
+        if relation_name not in valid_relations or arity not in {"2", "3"}:
+            print(f"[WARN] Skip dataset '{ds}': unknown group relation={relation_name}, arity={arity}")
+            continue
+        group_key = (relation_name, arity)
         try:
             reqs, infos = load_prompt(
                 processor=processor,
@@ -328,18 +395,32 @@ def generate_outputs(
         except FileNotFoundError as e:
             print(f"[WARN] Skip dataset '{ds}': {e}")
             continue
-        requests.extend(reqs)
-        information.extend(infos)
 
-    if not requests:
+        grouped_requests.setdefault(group_key, []).extend(reqs)
+        grouped_information.setdefault(group_key, []).extend(infos)
+
+    if not grouped_requests:
         raise FileNotFoundError(
             "No runnable datasets found. Please check output_image/*/<dataset>/out_wsd directories."
         )
 
     if prepared_out_jsonl is not None:
         with open(prepared_out_jsonl, "w", encoding="utf8") as wf:
-            for row in information:
-                json.dump(row, wf, ensure_ascii=False)
-                wf.write("\n")
+            for group_key in sorted(grouped_information):
+                for row in grouped_information[group_key]:
+                    json.dump(row, wf, ensure_ascii=False)
+                    wf.write("\n")
 
-    run_model(requests, information, BATCH_SIZE, llm, out_path)
+    ordered_relations = ["inheritance", "aggregation", "composition", "dependency"]
+    ordered_arities = ["2", "3"]
+    for relation_name in ordered_relations:
+        for arity in ordered_arities:
+            group_key = (relation_name, arity)
+            group_requests = grouped_requests.get(group_key, [])
+            group_information = grouped_information.get(group_key, [])
+            group_out_path = _build_group_out_path(out_path, relation_name, arity)
+            if not group_requests:
+                print(f"[INFO] skip empty group {relation_name}_{arity} -> {group_out_path}")
+                continue
+            print(f"[INFO] Generating {relation_name}_{arity} -> {group_out_path}")
+            run_model(group_requests, group_information, BATCH_SIZE, llm, group_out_path)

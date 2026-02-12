@@ -1,0 +1,4 @@
+@startuml
+Refrigerator ..> Electricity
+Cooling ..> Refrigerator
+@enduml

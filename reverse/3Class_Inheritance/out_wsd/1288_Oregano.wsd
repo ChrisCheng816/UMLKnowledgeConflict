@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Herb
+Herb <|-- Oregano
+@enduml

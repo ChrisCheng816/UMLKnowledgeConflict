@@ -1,0 +1,4 @@
+@startuml
+PneumaticNailGun ..> CompressedAir
+Carpentry ..> PneumaticNailGun
+@enduml

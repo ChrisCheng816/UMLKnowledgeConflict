@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- StemVegetable
+StemVegetable <|-- Asparagus
+@enduml

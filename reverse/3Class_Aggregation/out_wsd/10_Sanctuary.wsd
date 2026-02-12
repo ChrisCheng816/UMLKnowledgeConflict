@@ -1,0 +1,4 @@
+@startuml
+FlockOfGannet o-- Gannet
+Sanctuary o-- FlockOfGannet
+@enduml

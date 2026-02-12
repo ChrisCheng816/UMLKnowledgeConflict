@@ -1,0 +1,4 @@
+@startuml
+SwarmOfWasp o-- Wasp
+Mountain o-- SwarmOfWasp
+@enduml

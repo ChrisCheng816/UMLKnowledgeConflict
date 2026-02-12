@@ -1,0 +1,4 @@
+@startuml
+DockOpsTeam o-- OperationsManager
+RegionalNewsAgency o-- DockOpsTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TractionSubstation ..> DistributionLine
+ThirdRail ..> TractionSubstation
+@enduml

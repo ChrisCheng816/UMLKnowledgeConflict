@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- GymnasticsSport
+GymnasticsSport <|-- TrampolineGymnastics
+@enduml

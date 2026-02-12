@@ -1,0 +1,4 @@
+@startuml
+TradeWinds ..> CoriolisEffect
+EquatorialCurrent ..> TradeWinds
+@enduml

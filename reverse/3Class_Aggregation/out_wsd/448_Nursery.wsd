@@ -1,0 +1,4 @@
+@startuml
+FlockOfWren o-- Wren
+Nursery o-- FlockOfWren
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TelephoneLine ..> WallJack
+LandlineModem ..> TelephoneLine
+@enduml

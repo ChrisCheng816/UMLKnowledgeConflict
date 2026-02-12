@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- Island
+Island <|-- Honshu
+@enduml

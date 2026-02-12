@@ -1,0 +1,4 @@
+@startuml
+MusicWork <|-- Song
+Song <|-- HotelCalifornia
+@enduml

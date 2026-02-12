@@ -1,0 +1,4 @@
+@startuml
+ChargingDock ..> Electricity
+BatteryCharging ..> ChargingDock
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- Blanket
+DesertWarehouse o-- StorageBin
+@enduml

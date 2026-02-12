@@ -1,0 +1,4 @@
+@startuml
+FlockOfQuail o-- Quail
+Nursery o-- FlockOfQuail
+@enduml

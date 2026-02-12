@@ -1,0 +1,4 @@
+@startuml
+FlockOfCrane o-- Crane
+Atoll o-- FlockOfCrane
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+InfusionPump ..> Electricity
+MedicationInfusion ..> InfusionPump
+@enduml

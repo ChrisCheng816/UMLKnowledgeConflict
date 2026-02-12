@@ -1,0 +1,4 @@
+@startuml
+DatabaseServer ..> OperatingSystem
+InventorySystem ..> DatabaseServer
+@enduml

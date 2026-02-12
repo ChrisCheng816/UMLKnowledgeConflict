@@ -1,0 +1,4 @@
+@startuml
+Yeast ..> Sugar
+FermentationAlcohol ..> Yeast
+@enduml

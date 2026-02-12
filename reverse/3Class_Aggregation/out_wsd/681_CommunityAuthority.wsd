@@ -1,0 +1,4 @@
+@startuml
+VolunteerTeam o-- Volunteer
+CommunityAuthority o-- VolunteerTeam
+@enduml

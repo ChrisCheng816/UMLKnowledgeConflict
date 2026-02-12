@@ -1,0 +1,4 @@
+@startuml
+Manufacturer <|-- CarManufacturer
+CarManufacturer <|-- Hyundai
+@enduml

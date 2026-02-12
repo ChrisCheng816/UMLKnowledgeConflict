@@ -1,0 +1,4 @@
+@startuml
+GlucoseMeter ..> BatteryPower
+TemperatureCheck ..> GlucoseMeter
+@enduml

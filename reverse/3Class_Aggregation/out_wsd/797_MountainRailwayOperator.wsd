@@ -1,0 +1,4 @@
+@startuml
+VolunteerCrew o-- SafetyInspector
+MountainRailwayOperator o-- VolunteerCrew
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FlockOfOstrich o-- Ostrich
+Clinic o-- FlockOfOstrich
+@enduml

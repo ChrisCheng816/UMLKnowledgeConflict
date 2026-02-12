@@ -1,0 +1,4 @@
+@startuml
+Artist <|-- Painter
+Painter <|-- VincentVanGogh
+@enduml

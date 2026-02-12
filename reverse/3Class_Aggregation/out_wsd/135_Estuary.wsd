@@ -1,0 +1,4 @@
+@startuml
+GroupOfClam o-- Clam
+Estuary o-- GroupOfClam
+@enduml

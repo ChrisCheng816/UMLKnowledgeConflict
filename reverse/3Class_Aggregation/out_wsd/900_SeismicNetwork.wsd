@@ -1,0 +1,4 @@
+@startuml
+ObservationStation o-- Sensor
+SeismicNetwork o-- ObservationStation
+@enduml

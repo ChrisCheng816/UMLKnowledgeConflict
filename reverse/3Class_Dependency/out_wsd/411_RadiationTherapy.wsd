@@ -1,0 +1,4 @@
+@startuml
+RadiationTherapySystem ..> Electricity
+RadiationTherapy ..> RadiationTherapySystem
+@enduml

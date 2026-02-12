@@ -1,0 +1,4 @@
+@startuml
+WatchMovement *-- GearTrain
+PocketWatch *-- WatchMovement
+@enduml

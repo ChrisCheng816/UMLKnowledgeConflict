@@ -1,0 +1,4 @@
+@startuml
+MotionSensor ..> Electricity
+Surveillance ..> MotionSensor
+@enduml

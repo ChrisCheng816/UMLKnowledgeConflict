@@ -1,0 +1,4 @@
+@startuml
+WashingMachine ..> TapWater
+RinsingClothes ..> WashingMachine
+@enduml

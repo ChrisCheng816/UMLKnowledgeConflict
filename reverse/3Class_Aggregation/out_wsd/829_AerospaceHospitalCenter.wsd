@@ -1,0 +1,4 @@
+@startuml
+FlightOpsTeam o-- ComplianceOfficer
+AerospaceHospitalCenter o-- FlightOpsTeam
+@enduml

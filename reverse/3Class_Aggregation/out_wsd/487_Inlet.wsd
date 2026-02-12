@@ -1,0 +1,4 @@
+@startuml
+TroopOfGorilla o-- Gorilla
+Inlet o-- TroopOfGorilla
+@enduml

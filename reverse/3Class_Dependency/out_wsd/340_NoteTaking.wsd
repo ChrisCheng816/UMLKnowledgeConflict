@@ -1,0 +1,4 @@
+@startuml
+TaskManager ..> OperatingSystem
+NoteTaking ..> TaskManager
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FlockOfPheasant o-- Pheasant
+Park o-- FlockOfPheasant
+@enduml

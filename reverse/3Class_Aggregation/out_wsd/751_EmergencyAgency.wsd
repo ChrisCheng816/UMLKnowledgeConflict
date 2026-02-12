@@ -1,0 +1,4 @@
+@startuml
+ResponseTeam o-- FieldMedic
+EmergencyAgency o-- ResponseTeam
+@enduml

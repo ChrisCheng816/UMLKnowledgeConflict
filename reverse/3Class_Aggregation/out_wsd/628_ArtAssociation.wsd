@@ -1,0 +1,4 @@
+@startuml
+DesignTeam o-- Designer
+ArtAssociation o-- DesignTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WashingMachine ..> TapWater
+SpinCycle ..> WashingMachine
+@enduml

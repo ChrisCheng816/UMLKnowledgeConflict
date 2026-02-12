@@ -1,0 +1,4 @@
+@startuml
+DisplayModule *-- TouchDigitizer
+Laptop *-- DisplayModule
+@enduml

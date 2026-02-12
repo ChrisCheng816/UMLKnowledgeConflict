@@ -1,0 +1,4 @@
+@startuml
+Feather *-- Shaft
+Kestrel *-- Feather
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Zooplankton ..> Phytoplankton
+Herring ..> Zooplankton
+@enduml

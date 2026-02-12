@@ -1,0 +1,4 @@
+@startuml
+ArchiveTeam o-- Archivist
+MuseumAuthority o-- ArchiveTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HerdOfElephant o-- Elephant
+Rookery o-- HerdOfElephant
+@enduml

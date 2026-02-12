@@ -1,0 +1,4 @@
+@startuml
+Reservoir ..> Watershed
+RawWaterIntake ..> Reservoir
+@enduml

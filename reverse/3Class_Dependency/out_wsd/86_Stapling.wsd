@@ -1,0 +1,4 @@
+@startuml
+AirImpactWrench ..> CompressedAir
+Stapling ..> AirImpactWrench
+@enduml

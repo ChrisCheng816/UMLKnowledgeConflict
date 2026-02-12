@@ -1,0 +1,4 @@
+@startuml
+HotelBooking ..> InternetConnection
+OnlineBooking ..> HotelBooking
+@enduml

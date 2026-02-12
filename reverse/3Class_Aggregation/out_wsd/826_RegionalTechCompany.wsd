@@ -1,0 +1,4 @@
+@startuml
+MaintenanceTeam o-- Engineer
+RegionalTechCompany o-- MaintenanceTeam
+@enduml

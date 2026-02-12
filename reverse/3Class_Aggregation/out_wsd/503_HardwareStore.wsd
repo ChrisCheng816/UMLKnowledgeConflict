@@ -1,0 +1,4 @@
+@startuml
+PartsCrate o-- SparePart
+HardwareStore o-- PartsCrate
+@enduml

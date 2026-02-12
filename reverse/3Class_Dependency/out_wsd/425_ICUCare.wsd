@@ -1,0 +1,4 @@
+@startuml
+Ventilator ..> Electricity
+ICUCare ..> Ventilator
+@enduml

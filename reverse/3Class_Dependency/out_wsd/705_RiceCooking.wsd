@@ -1,0 +1,4 @@
+@startuml
+RiceCooker ..> Electricity
+RiceCooking ..> RiceCooker
+@enduml

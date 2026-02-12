@@ -1,0 +1,4 @@
+@startuml
+TankCage o-- Turtle
+AquariumShop o-- TankCage
+@enduml

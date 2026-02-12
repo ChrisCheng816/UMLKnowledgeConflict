@@ -1,0 +1,4 @@
+@startuml
+SchoolOfAnchovy o-- Anchovy
+Barn o-- SchoolOfAnchovy
+@enduml

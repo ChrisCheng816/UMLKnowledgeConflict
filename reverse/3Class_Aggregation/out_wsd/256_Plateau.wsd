@@ -1,0 +1,4 @@
+@startuml
+NestOfLizard o-- Lizard
+Plateau o-- NestOfLizard
+@enduml

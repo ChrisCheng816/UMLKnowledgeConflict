@@ -1,0 +1,4 @@
+@startuml
+EditingTeam o-- Editor
+FilmAuthority o-- EditingTeam
+@enduml

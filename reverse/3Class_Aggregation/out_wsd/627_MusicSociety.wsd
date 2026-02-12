@@ -1,0 +1,4 @@
+@startuml
+ChoirGroup o-- ChoirSinger
+MusicSociety o-- ChoirGroup
+@enduml

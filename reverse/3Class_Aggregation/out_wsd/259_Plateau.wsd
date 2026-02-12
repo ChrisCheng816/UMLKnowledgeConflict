@@ -1,0 +1,4 @@
+@startuml
+NestOfCobra o-- Cobra
+Plateau o-- NestOfCobra
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Activity <|-- Sport
+Sport <|-- Cricket
+@enduml

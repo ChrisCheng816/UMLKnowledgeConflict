@@ -1,0 +1,4 @@
+@startuml
+BaskOfCrocodile o-- Crocodile
+Aquarium o-- BaskOfCrocodile
+@enduml

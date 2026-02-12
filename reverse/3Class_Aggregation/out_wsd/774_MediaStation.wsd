@@ -1,0 +1,4 @@
+@startuml
+BroadcastTeam o-- Broadcaster
+MediaStation o-- BroadcastTeam
+@enduml

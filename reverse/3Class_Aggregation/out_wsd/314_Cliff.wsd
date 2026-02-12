@@ -1,0 +1,4 @@
+@startuml
+FlockOfMagpie o-- Magpie
+Cliff o-- FlockOfMagpie
+@enduml

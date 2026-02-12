@@ -1,0 +1,4 @@
+@startuml
+CameraModule *-- IRFilter
+DigitalCamera *-- CameraModule
+@enduml

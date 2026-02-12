@@ -1,0 +1,4 @@
+@startuml
+ColonyOfMouse o-- Mouse
+Canyon o-- ColonyOfMouse
+@enduml

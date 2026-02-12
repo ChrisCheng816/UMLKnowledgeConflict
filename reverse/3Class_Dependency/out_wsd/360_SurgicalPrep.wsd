@@ -1,0 +1,4 @@
+@startuml
+Autoclave ..> Electricity
+SurgicalPrep ..> Autoclave
+@enduml

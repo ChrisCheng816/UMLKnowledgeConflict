@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Root
+Lion *-- Tooth
+@enduml

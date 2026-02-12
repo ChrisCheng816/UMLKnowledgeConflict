@@ -1,0 +1,4 @@
+@startuml
+SecurityCamera ..> Electricity
+MotionDetection ..> SecurityCamera
+@enduml

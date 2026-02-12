@@ -1,0 +1,4 @@
+@startuml
+QualityTeam o-- Drafter
+RiverMountainRescueCenter o-- QualityTeam
+@enduml

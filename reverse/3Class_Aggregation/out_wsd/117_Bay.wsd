@@ -1,0 +1,4 @@
+@startuml
+NestOfSnake o-- Snake
+Bay o-- NestOfSnake
+@enduml

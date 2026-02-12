@@ -1,0 +1,4 @@
+@startuml
+MediationGroup o-- Mediator
+AutonomousOrganization o-- MediationGroup
+@enduml

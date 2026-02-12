@@ -1,0 +1,4 @@
+@startuml
+UtilityMeter ..> DistributionLine
+TrafficLight ..> UtilityMeter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DockCrew o-- Mechanic
+HarborOffice o-- DockCrew
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HerdOfHorse o-- Horse
+Savanna o-- HerdOfHorse
+@enduml

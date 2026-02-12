@@ -1,0 +1,4 @@
+@startuml
+AdvisoryBoard o-- Lawyer
+LegalAidCenter o-- AdvisoryBoard
+@enduml

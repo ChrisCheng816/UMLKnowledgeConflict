@@ -1,0 +1,4 @@
+@startuml
+GitRepositoryHost ..> InternetConnection
+CodeReview ..> GitRepositoryHost
+@enduml

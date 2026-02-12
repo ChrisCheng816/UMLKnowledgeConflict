@@ -1,0 +1,4 @@
+@startuml
+PatrolSection o-- LogisticsCoordinator
+AerospaceCityCouncil o-- PatrolSection
+@enduml

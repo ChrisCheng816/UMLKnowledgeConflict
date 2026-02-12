@@ -1,0 +1,4 @@
+@startuml
+NoteApp ..> OperatingSystem
+NoteTaking ..> NoteApp
+@enduml

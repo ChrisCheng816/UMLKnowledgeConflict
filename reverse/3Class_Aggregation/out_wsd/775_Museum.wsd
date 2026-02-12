@@ -1,0 +1,4 @@
+@startuml
+TourTeam o-- TourGuide
+Museum o-- TourTeam
+@enduml

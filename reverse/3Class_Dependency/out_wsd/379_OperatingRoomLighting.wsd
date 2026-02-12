@@ -1,0 +1,4 @@
+@startuml
+ExamLight ..> Electricity
+OperatingRoomLighting ..> ExamLight
+@enduml

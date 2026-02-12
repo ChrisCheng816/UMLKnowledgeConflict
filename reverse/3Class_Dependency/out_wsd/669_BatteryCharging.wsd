@@ -1,0 +1,4 @@
+@startuml
+LaptopCharger ..> Electricity
+BatteryCharging ..> LaptopCharger
+@enduml

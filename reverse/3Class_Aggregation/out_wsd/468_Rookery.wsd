@@ -1,0 +1,4 @@
+@startuml
+HerdOfSheep o-- Sheep
+Rookery o-- HerdOfSheep
+@enduml

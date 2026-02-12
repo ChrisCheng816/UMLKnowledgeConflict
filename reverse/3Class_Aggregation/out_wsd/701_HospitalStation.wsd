@@ -1,0 +1,4 @@
+@startuml
+WardTeam o-- ICUNurse
+HospitalStation o-- WardTeam
+@enduml

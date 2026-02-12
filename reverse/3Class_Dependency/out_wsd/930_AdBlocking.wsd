@@ -1,0 +1,4 @@
+@startuml
+BrowserExtension ..> OperatingSystem
+AdBlocking ..> BrowserExtension
+@enduml

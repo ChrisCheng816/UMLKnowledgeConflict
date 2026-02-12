@@ -1,0 +1,4 @@
+@startuml
+ProcurementOffice o-- Firefighter
+InternationalLogisticsCenter o-- ProcurementOffice
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PackOfHyena o-- Hyena
+Prairie o-- PackOfHyena
+@enduml

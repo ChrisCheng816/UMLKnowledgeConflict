@@ -1,0 +1,4 @@
+@startuml
+MonitoringCenter o-- Inspector
+SmartParkingSystem o-- MonitoringCenter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+LockerUnit o-- Parcel
+ParcelLocker o-- LockerUnit
+@enduml

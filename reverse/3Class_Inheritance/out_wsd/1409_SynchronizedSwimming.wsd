@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- WaterSport
+WaterSport <|-- SynchronizedSwimming
+@enduml

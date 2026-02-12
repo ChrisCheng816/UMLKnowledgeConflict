@@ -1,0 +1,4 @@
+@startuml
+Roof *-- Shingle
+House *-- Roof
+@enduml

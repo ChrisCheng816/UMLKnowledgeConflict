@@ -1,0 +1,4 @@
+@startuml
+Projector ..> Electricity
+Presentation ..> Projector
+@enduml

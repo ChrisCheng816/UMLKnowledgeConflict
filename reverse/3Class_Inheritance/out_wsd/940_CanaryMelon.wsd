@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Melon
+Melon <|-- CanaryMelon
+@enduml

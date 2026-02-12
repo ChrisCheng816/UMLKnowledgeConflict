@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- MindSport
+MindSport <|-- Bridge
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Athlete <|-- Boxer
+Boxer <|-- MuhammadAli
+@enduml

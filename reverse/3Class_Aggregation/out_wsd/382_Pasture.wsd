@@ -1,0 +1,4 @@
+@startuml
+SwarmOfLocust o-- Locust
+Pasture o-- SwarmOfLocust
+@enduml

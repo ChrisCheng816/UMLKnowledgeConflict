@@ -1,0 +1,4 @@
+@startuml
+AppointmentBooking ..> InternetConnection
+ScheduleCheck ..> AppointmentBooking
+@enduml

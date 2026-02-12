@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- Blanket
+NationalParkWarehouse o-- StorageBin
+@enduml

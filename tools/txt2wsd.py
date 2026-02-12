@@ -85,10 +85,10 @@ def build_edges_from_nodes(nodes: List[str], template_id: str) -> List[str]:
         for child, parent in zip(nodes[:-1], nodes[1:]):
             edges.append(f"{parent} ..> {child}")
         return edges
-    elif template_id == "association":
-        for child, parent in zip(nodes[:-1], nodes[1:]):
-            edges.append(f"{child} --> {parent}")
-        return edges
+    # elif template_id == "association":
+    #     for child, parent in zip(nodes[:-1], nodes[1:]):
+    #         edges.append(f"{child} --> {parent}")
+        # return edges
 
 def parse_instances(lines: List[str], template_id: str) -> List[Instance]:
     """
@@ -184,13 +184,47 @@ def write_wsd_files(instances: List[Instance], out_dir: Path, overwrite: bool) -
         out_path.write_text(content, encoding="utf-8")
 
 
+def write_reverse_wsd_files(
+    forward_instances: List[Instance],
+    out_dir: Path,
+    overwrite: bool,
+    start_index: int = 1,
+) -> None:
+    """
+    Generate reversed-direction .wsd files while keeping the exact same filenames
+    as forward outputs.
+
+    Reverse rule
+    - Reverse node order first, then reuse the same edge-building logic.
+    - Filename remains indexed and rooted by the original first node to match forward.
+    """
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    for i, inst in enumerate(forward_instances):
+        if not inst.nodes:
+            continue
+
+        reverse_nodes = list(reversed(inst.nodes))
+        reverse_edges = build_edges_from_nodes(reverse_nodes, inst.template_id)
+
+        root_name = safe_filename(inst.nodes[0])
+        out_path = out_dir / f"{start_index + i}_{root_name}.wsd"
+
+        if out_path.exists() and not overwrite:
+            raise FileExistsError(f"Output exists: {out_path}")
+
+        body = "\n".join(reverse_edges)
+        content = "@startuml\n" + body + "\n@enduml\n"
+        out_path.write_text(content, encoding="utf-8")
+
+
 def run_pipeline(
     data_path: Path,
     jsonl_path: Path,
     template_id: str,
     wsd_dir: Optional[Path],
     overwrite_wsd: bool,
-) -> None:
+) -> List[Instance]:
     """
     Pipeline entry for one data.txt.
 
@@ -206,6 +240,14 @@ def run_pipeline(
 
     if wsd_dir is not None:
         write_wsd_files(instances, wsd_dir, overwrite=overwrite_wsd)
+    return instances
+
+
+def write_jsonl_rows(rows: List[Dict[str, Any]], out_path: Path) -> None:
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open("w", encoding="utf-8") as f:
+        for row in rows:
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
 def find_all_data_txt(root_dir: Path) -> List[Path]:
@@ -229,6 +271,7 @@ def run_for_root(
     overwrite_wsd: bool,
     wsd_subdir_name: str,
     jsonl_name: str,
+    reverse_root: Optional[Path] = None,
 ) -> None:
     """
     Run the pipeline for every data.txt found under root_dir.
@@ -239,19 +282,56 @@ def run_for_root(
       .wsd files are written into a subfolder under the same folder
     """
     data_files = find_all_data_txt(root_dir)
+    merged_rows: List[Dict[str, Any]] = []
+    global_id = 1
+    reverse_next_index = 1
+
+    reverse_wsd_dir: Optional[Path] = None
+    if reverse_root is not None:
+        reverse_wsd_dir = reverse_root / root_dir.name / wsd_subdir_name
+        if reverse_wsd_dir.exists() and reverse_wsd_dir.is_dir():
+            shutil.rmtree(reverse_wsd_dir)
+        reverse_wsd_dir.mkdir(parents=True, exist_ok=True)
+
     for data_path in data_files:
         folder = data_path.parent
         jsonl_path = folder / jsonl_name
         wsd_dir = folder / wsd_subdir_name
         if wsd_dir.exists() and wsd_dir.is_dir():
             shutil.rmtree(wsd_dir)
-        run_pipeline(
+        instances = run_pipeline(
             data_path=data_path,
             jsonl_path=jsonl_path,
             template_id=template_id,
             wsd_dir=wsd_dir,
             overwrite_wsd=overwrite_wsd,
         )
+
+        if reverse_wsd_dir is not None:
+            write_reverse_wsd_files(
+                instances,
+                reverse_wsd_dir,
+                overwrite=overwrite_wsd,
+                start_index=reverse_next_index,
+            )
+            reverse_next_index += len(instances)
+
+        source_subset = folder.relative_to(root_dir).as_posix()
+        for inst in instances:
+            merged_rows.append(
+                {
+                    "id": str(global_id),
+                    "template_id": inst.template_id,
+                    "nodes": inst.nodes,
+                    "edges": inst.edges,
+                    "source_subset": source_subset,
+                    "source_id": inst.id,
+                }
+            )
+            global_id += 1
+
+    merged_jsonl_path = root_dir / jsonl_name
+    write_jsonl_rows(merged_rows, merged_jsonl_path)
 
 
 if __name__ == "__main__":
@@ -268,6 +348,7 @@ if __name__ == "__main__":
 
     wsd_subdir_name = "out_wsd"
     jsonl_name = "instances.jsonl"
+    reverse_root = Path("../reverse")
 
     run_for_root(
         root_dir=Path("../2Class_Inheritance"),
@@ -275,6 +356,7 @@ if __name__ == "__main__":
         overwrite_wsd=overwrite_wsd,
         wsd_subdir_name=wsd_subdir_name,
         jsonl_name=jsonl_name,
+        reverse_root=reverse_root,
     )
     run_for_root(
         root_dir=Path("../3Class_Inheritance"),
@@ -282,6 +364,7 @@ if __name__ == "__main__":
         overwrite_wsd=overwrite_wsd,
         wsd_subdir_name=wsd_subdir_name,
         jsonl_name=jsonl_name,
+        reverse_root=reverse_root,
     )
     
     run_for_root(
@@ -290,6 +373,7 @@ if __name__ == "__main__":
         overwrite_wsd=overwrite_wsd,
         wsd_subdir_name=wsd_subdir_name,
         jsonl_name=jsonl_name,
+        reverse_root=reverse_root,
     )
     run_for_root(
         root_dir=Path("../3Class_Aggregation"),
@@ -297,6 +381,7 @@ if __name__ == "__main__":
         overwrite_wsd=overwrite_wsd,
         wsd_subdir_name=wsd_subdir_name,
         jsonl_name=jsonl_name,
+        reverse_root=reverse_root,
     )
     run_for_root(
         root_dir=Path("../2Class_Composition"),
@@ -304,6 +389,7 @@ if __name__ == "__main__":
         overwrite_wsd=overwrite_wsd,
         wsd_subdir_name=wsd_subdir_name,
         jsonl_name=jsonl_name,
+        reverse_root=reverse_root,
     )
     run_for_root(
         root_dir=Path("../3Class_Composition"),
@@ -311,20 +397,7 @@ if __name__ == "__main__":
         overwrite_wsd=overwrite_wsd,
         wsd_subdir_name=wsd_subdir_name,
         jsonl_name=jsonl_name,
-    )
-    run_for_root(
-        root_dir=Path("../2Class_Association"),
-        template_id="association",
-        overwrite_wsd=overwrite_wsd,
-        wsd_subdir_name=wsd_subdir_name,
-        jsonl_name=jsonl_name,
-    )
-    run_for_root(
-        root_dir=Path("../3Class_Association"),
-        template_id="association",
-        overwrite_wsd=overwrite_wsd,
-        wsd_subdir_name=wsd_subdir_name,
-        jsonl_name=jsonl_name,
+        reverse_root=reverse_root,
     )
     run_for_root(
         root_dir=Path("../2Class_Dependency"),
@@ -332,6 +405,7 @@ if __name__ == "__main__":
         overwrite_wsd=overwrite_wsd,
         wsd_subdir_name=wsd_subdir_name,
         jsonl_name=jsonl_name,
+        reverse_root=reverse_root,
     )
     run_for_root(
         root_dir=Path("../3Class_Dependency"),
@@ -339,4 +413,5 @@ if __name__ == "__main__":
         overwrite_wsd=overwrite_wsd,
         wsd_subdir_name=wsd_subdir_name,
         jsonl_name=jsonl_name,
+        reverse_root=reverse_root,
     )

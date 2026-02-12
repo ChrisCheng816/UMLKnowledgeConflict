@@ -1,0 +1,4 @@
+@startuml
+DesktopComputer ..> WiFiNetwork
+WebBrowsing ..> DesktopComputer
+@enduml

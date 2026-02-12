@@ -1,0 +1,4 @@
+@startuml
+HerdOfGiraffe o-- Giraffe
+Rookery o-- HerdOfGiraffe
+@enduml

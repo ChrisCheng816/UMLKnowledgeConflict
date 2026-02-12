@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- StoneFruit
+StoneFruit <|-- Lychee
+@enduml

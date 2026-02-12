@@ -1,0 +1,4 @@
+@startuml
+MusicWork <|-- Song
+Song <|-- SweetChildOMine
+@enduml

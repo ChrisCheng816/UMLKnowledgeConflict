@@ -1,0 +1,4 @@
+@startuml
+XRayMachine ..> Electricity
+XRayImaging ..> XRayMachine
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Dessert
+Dessert <|-- Cookie
+@enduml

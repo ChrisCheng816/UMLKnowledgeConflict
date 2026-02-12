@@ -1,0 +1,4 @@
+@startuml
+Chocolate *-- CocoaBeans
+Brownie *-- Chocolate
+@enduml

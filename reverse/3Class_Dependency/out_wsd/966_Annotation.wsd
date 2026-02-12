@@ -1,0 +1,4 @@
+@startuml
+EbookReader ..> OperatingSystem
+Annotation ..> EbookReader
+@enduml

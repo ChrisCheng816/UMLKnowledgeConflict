@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- Lake
+Lake <|-- LakeSuperior
+@enduml

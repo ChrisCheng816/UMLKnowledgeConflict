@@ -1,0 +1,4 @@
+@startuml
+FlockOfOstrich o-- Ostrich
+Park o-- FlockOfOstrich
+@enduml

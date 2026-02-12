@@ -1,0 +1,4 @@
+@startuml
+SchoolOfBass o-- Bass
+Barn o-- SchoolOfBass
+@enduml

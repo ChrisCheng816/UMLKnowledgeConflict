@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- River
+River <|-- IndusRiver
+@enduml

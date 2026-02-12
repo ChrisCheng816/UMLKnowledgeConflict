@@ -1,0 +1,4 @@
+@startuml
+TableSaw ..> Electricity
+WoodCutting ..> TableSaw
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Refraction ..> Medium
+Rainbow ..> Refraction
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SafetyCrew o-- TeachingAssistant
+EducationalLibrarySystem o-- SafetyCrew
+@enduml

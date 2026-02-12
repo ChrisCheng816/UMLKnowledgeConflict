@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- CruciferousVegetable
+CruciferousVegetable <|-- Romanesco
+@enduml

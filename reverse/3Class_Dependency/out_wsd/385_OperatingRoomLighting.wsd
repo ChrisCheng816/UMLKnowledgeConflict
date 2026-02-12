@@ -1,0 +1,4 @@
+@startuml
+HeadlampLight ..> Electricity
+OperatingRoomLighting ..> HeadlampLight
+@enduml

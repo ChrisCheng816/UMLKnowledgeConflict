@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- ComputerScientist
+ComputerScientist <|-- DonaldKnuth
+@enduml

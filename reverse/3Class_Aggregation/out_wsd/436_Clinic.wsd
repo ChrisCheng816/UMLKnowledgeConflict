@@ -1,0 +1,4 @@
+@startuml
+FlockOfVulture o-- Vulture
+Clinic o-- FlockOfVulture
+@enduml

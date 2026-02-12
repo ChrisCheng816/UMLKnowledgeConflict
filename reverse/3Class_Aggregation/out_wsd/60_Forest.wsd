@@ -1,0 +1,4 @@
+@startuml
+HerdOfBoar o-- Boar
+Forest o-- HerdOfBoar
+@enduml

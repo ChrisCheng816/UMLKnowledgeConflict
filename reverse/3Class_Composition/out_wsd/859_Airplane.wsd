@@ -1,0 +1,4 @@
+@startuml
+Wing *-- Spar
+Airplane *-- Wing
+@enduml

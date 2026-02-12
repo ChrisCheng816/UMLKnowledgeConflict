@@ -1,0 +1,4 @@
+@startuml
+Wing *-- Winglet
+Glider *-- Wing
+@enduml

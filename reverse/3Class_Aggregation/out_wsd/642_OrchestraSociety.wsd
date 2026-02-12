@@ -1,0 +1,4 @@
+@startuml
+Board o-- CommitteeMember
+OrchestraSociety o-- Board
+@enduml

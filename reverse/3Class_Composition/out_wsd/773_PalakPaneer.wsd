@@ -1,0 +1,4 @@
+@startuml
+Paneer *-- Milk
+PalakPaneer *-- Paneer
+@enduml

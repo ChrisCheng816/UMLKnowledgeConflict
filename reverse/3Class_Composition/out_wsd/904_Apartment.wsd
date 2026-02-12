@@ -1,0 +1,4 @@
+@startuml
+Wall *-- VaporBarrier
+Apartment *-- Wall
+@enduml

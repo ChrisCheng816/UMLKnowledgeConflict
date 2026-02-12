@@ -1,0 +1,4 @@
+@startuml
+LearningPlatform ..> InternetConnection
+HomeworkSubmission ..> LearningPlatform
+@enduml

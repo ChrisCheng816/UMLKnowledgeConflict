@@ -1,0 +1,4 @@
+@startuml
+Beak *-- Nostril
+Frigatebird *-- Beak
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ProcessingTeam o-- Archivist
+ArchiveCenter o-- ProcessingTeam
+@enduml

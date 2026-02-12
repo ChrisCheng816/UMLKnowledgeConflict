@@ -1,0 +1,4 @@
+@startuml
+SwarmOfBee o-- Bee
+Lagoon o-- SwarmOfBee
+@enduml

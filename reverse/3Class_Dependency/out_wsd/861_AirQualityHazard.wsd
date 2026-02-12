@@ -1,0 +1,4 @@
+@startuml
+VolcanicAsh ..> Volcano
+AirQualityHazard ..> VolcanicAsh
+@enduml

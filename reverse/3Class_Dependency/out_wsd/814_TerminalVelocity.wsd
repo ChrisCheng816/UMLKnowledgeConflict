@@ -1,0 +1,4 @@
+@startuml
+Drag ..> AirResistance
+TerminalVelocity ..> Drag
+@enduml

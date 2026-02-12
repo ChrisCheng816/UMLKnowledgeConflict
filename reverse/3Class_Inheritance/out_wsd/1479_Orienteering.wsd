@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- IndividualSport
+IndividualSport <|-- Orienteering
+@enduml

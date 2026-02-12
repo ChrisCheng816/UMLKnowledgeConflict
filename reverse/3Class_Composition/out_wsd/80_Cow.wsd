@@ -1,0 +1,4 @@
+@startuml
+Horn *-- Core
+Cow *-- Horn
+@enduml

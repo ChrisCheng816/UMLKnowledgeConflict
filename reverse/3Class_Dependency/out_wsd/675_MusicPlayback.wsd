@@ -1,0 +1,4 @@
+@startuml
+MediaPlayer ..> Electricity
+MusicPlayback ..> MediaPlayer
+@enduml

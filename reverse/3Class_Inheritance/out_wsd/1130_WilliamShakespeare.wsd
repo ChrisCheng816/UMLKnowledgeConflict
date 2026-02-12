@@ -1,0 +1,4 @@
+@startuml
+Artist <|-- Author
+Author <|-- WilliamShakespeare
+@enduml

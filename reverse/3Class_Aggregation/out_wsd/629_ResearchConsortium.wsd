@@ -1,0 +1,4 @@
+@startuml
+InnovationGroup o-- ResearchFellow
+ResearchConsortium o-- InnovationGroup
+@enduml

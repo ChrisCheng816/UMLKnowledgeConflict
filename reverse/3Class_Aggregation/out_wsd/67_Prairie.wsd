@@ -1,0 +1,4 @@
+@startuml
+PackOfCheetah o-- Cheetah
+Prairie o-- PackOfCheetah
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FlightBooking ..> InternetConnection
+ScheduleCheck ..> FlightBooking
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+NestOfPython o-- Python
+Aquarium o-- NestOfPython
+@enduml

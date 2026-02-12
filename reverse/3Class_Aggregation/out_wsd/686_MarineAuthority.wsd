@@ -1,0 +1,4 @@
+@startuml
+DiveTeam o-- RescueDiver
+MarineAuthority o-- DiveTeam
+@enduml

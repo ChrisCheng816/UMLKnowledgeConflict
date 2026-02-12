@@ -1,0 +1,4 @@
+@startuml
+GrowLight ..> Electricity
+NightLighting ..> GrowLight
+@enduml

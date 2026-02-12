@@ -1,0 +1,4 @@
+@startuml
+HerdOfBison o-- Bison
+Hatchery o-- HerdOfBison
+@enduml

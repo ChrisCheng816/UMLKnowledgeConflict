@@ -1,0 +1,4 @@
+@startuml
+EsportsTeam o-- ProfessionalPlayer
+Club o-- EsportsTeam
+@enduml

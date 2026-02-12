@@ -1,0 +1,4 @@
+@startuml
+TroopOfMonkey o-- Monkey
+Desert o-- TroopOfMonkey
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+EnsembleGroup o-- Cellist
+MusicAcademy o-- EnsembleGroup
+@enduml

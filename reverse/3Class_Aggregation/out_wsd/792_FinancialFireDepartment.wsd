@@ -1,0 +1,4 @@
+@startuml
+MaintenanceTeam o-- Engineer
+FinancialFireDepartment o-- MaintenanceTeam
+@enduml

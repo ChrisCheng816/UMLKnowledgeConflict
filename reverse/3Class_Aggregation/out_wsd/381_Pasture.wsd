@@ -1,0 +1,4 @@
+@startuml
+SwarmOfMoth o-- Moth
+Pasture o-- SwarmOfMoth
+@enduml

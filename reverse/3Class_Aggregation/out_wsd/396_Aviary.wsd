@@ -1,0 +1,4 @@
+@startuml
+NestOfSnake o-- Snake
+Aviary o-- NestOfSnake
+@enduml

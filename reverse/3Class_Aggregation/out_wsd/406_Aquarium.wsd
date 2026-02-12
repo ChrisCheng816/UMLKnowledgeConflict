@@ -1,0 +1,4 @@
+@startuml
+ColonyOfSalamander o-- Salamander
+Aquarium o-- ColonyOfSalamander
+@enduml

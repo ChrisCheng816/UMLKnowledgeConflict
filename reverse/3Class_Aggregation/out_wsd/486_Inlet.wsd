@@ -1,0 +1,4 @@
+@startuml
+TroopOfChimpanzee o-- Chimpanzee
+Inlet o-- TroopOfChimpanzee
+@enduml

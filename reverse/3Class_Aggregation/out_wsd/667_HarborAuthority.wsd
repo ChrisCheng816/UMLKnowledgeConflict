@@ -1,0 +1,4 @@
+@startuml
+FerryTeam o-- Mechanic
+HarborAuthority o-- FerryTeam
+@enduml

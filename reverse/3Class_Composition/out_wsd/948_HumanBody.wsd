@@ -1,0 +1,4 @@
+@startuml
+Organ *-- Tissue
+HumanBody *-- Organ
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Convoy o-- Driver
+CarOwnersClub o-- Convoy
+@enduml

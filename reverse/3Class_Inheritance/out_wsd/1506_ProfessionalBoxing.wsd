@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Boxing
+Boxing <|-- ProfessionalBoxing
+@enduml

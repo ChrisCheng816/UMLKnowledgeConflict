@@ -1,0 +1,4 @@
+@startuml
+FlockOfAlbatross o-- Albatross
+Sanctuary o-- FlockOfAlbatross
+@enduml

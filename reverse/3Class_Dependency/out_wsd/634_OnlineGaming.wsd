@@ -1,0 +1,4 @@
+@startuml
+GameConsole ..> Electricity
+OnlineGaming ..> GameConsole
+@enduml

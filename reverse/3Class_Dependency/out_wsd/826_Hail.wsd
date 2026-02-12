@@ -1,0 +1,4 @@
+@startuml
+Thundercloud ..> StormSystem
+Hail ..> Thundercloud
+@enduml

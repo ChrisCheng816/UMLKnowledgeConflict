@@ -1,0 +1,4 @@
+@startuml
+ArchiveFolder o-- ArchiveDocument
+CityLibrary o-- ArchiveFolder
+@enduml

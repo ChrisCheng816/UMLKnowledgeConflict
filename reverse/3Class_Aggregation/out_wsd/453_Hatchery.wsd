@@ -1,0 +1,4 @@
+@startuml
+FlockOfMagpie o-- Magpie
+Hatchery o-- FlockOfMagpie
+@enduml

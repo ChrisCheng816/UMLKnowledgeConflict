@@ -1,0 +1,4 @@
+@startuml
+FlockOfRook o-- Rook
+Hatchery o-- FlockOfRook
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+EditorialCrew o-- Accountant
+RuralResearchInstitute o-- EditorialCrew
+@enduml

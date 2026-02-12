@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Moss
+Moss <|-- SheetMoss
+@enduml

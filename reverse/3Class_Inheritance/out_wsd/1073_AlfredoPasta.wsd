@@ -1,0 +1,4 @@
+@startuml
+Food <|-- PastaDish
+PastaDish <|-- AlfredoPasta
+@enduml

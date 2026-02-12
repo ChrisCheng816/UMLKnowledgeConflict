@@ -1,0 +1,4 @@
+@startuml
+ColonyOfRabbit o-- Rabbit
+Tundra o-- ColonyOfRabbit
+@enduml

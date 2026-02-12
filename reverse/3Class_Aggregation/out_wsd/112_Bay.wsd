@@ -1,0 +1,4 @@
+@startuml
+ColonyOfTermite o-- Termite
+Bay o-- ColonyOfTermite
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FlockOfOwl o-- Owl
+Pond o-- FlockOfOwl
+@enduml
