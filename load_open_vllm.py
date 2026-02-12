@@ -36,6 +36,15 @@ def fmt_mean(value):
         return "No Data"
     return f"{value:.3f}"
 
+def _format_class_desc(nodes):
+    if not nodes:
+        return ""
+    if len(nodes) == 1:
+        return nodes[0]
+    if len(nodes) == 2:
+        return f"{nodes[0]} and {nodes[1]}"
+    return f"{', '.join(nodes[:-1])}, and {nodes[-1]}"
+
 def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
     # Supports 2-node and 3-node inputs.
     # query_pair controls which two nodes are asked about, defaulting to (node1, node2).
@@ -55,7 +64,7 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
     node3 = nodes[2] if len(nodes) >= 3 else None
 
     relation = (relation or "inheritance").strip().lower()
-    class_desc = ", ".join(nodes)
+    class_desc = _format_class_desc(nodes)
     class_prefix = "two" if len(nodes) == 2 else "three"
 
     relation_specs = {
@@ -85,9 +94,12 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
         f"The diagram contains {class_prefix} classes: {class_desc}. "
         "Each class is represented as a box, with the class name at the top. "
         f"{spec['relation_sentence']} "
-        "Please analyze the diagram and answer the question based solely on the relationships shown in the diagram. "
+        "You must treat the diagram as the only source of truth. "
+        "Answer the question solely from the relationships explicitly depicted in the image. "
+        "Do not use background knowledge, learned associations, or any “reasonable” assumptions about what the entities usually mean. "
+        "Do not answer based on model priors or what seems likely. "
         f"The question is:\n {spec['ask_sentence']} "
-        "Do not output any reasoning or thought steps; output only the final binary answer: True or False."
+        "You may reason privately, but do not reveal any reasoning or intermediate steps. Output only the final binary answer: True or False."
     )
 
     return question, {
