@@ -11,7 +11,7 @@ from vllm import LLM, SamplingParams
 from qwen_vl_utils import process_vision_info
 
 BATCH_SIZE = 4
-GPU_PER = 0.85
+GPU_PER = 0.65
 LOGGER.setLevel(logging.ERROR)
 logging.getLogger("ultralytics").setLevel(logging.ERROR)
 
@@ -56,16 +56,14 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
     relation = (relation or "inheritance").strip().lower()
     class_desc = ", ".join(nodes)
     class_prefix = "two" if len(nodes) == 2 else "three"
-    triplet_context = f" The third class is {node3}." if node3 is not None else ""
-
     if relation == "inheritance":
-        question = f"This is a UML diagram showing inheritance relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. An arrow with a hollow triangle head points from the subclass to the superclass, indicating the inheritance relationship.{triplet_context} Please analyze the diagram and determine whether class {node2} inherits from class {node1}. Do not output any reasoning or thought steps; output only the final binary answer: True or False."
+        question = f"This is a UML diagram showing inheritance relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. An arrow with a hollow triangle head points from the subclass to the superclass, indicating the inheritance relationship. Please analyze the diagram and answer the question based solely on the relationships shown in the diagram. The question is:\n Does class {node2} inherits from class {node1}? Do not output any reasoning or thought steps; output only the final binary answer: True or False."
     elif relation == "aggregation":
-        question = f"This is a UML diagram showing aggregation relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. A line with a hollow diamond at the whole side indicates aggregation (whole-part relationship).{triplet_context} Please analyze the diagram and determine whether class {node2} aggregates class {node1}. Do not output any reasoning or thought steps; output only the final binary answer: True or False."
+        question = f"This is a UML diagram showing aggregation relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. A line with a hollow diamond at the whole side points from the part to the whole, indicating the aggregation relationship. Please analyze the diagram and answer the question based solely on the relationships shown in the diagram. The question is:\n Does class {node2} aggregates class {node1}? Do not output any reasoning or thought steps; output only the final binary answer: True or False."
     elif relation == "composition":
-        question = f"This is a UML diagram showing composition relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. A line with a filled diamond at the whole side indicates composition (strong whole-part ownership).{triplet_context} Please analyze the diagram and determine whether class {node2} is composed of class {node1}. Do not output any reasoning or thought steps; output only the final binary answer: True or False."
+        question = f"This is a UML diagram showing composition relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. A line with a filled diamond at the whole side points from the part to the whole, indicating the composition relationship. Please analyze the diagram and answer the question based solely on the relationships shown in the diagram. The question is:\n Does class {node2} is composed of class {node1}? Do not output any reasoning or thought steps; output only the final binary answer: True or False."
     elif relation == "dependency":
-        question = f"This is a UML diagram showing dependency relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. A dashed arrow points from the dependent class to the class it depends on.{triplet_context} Please analyze the diagram and determine whether class {node2} depends on class {node1}. Do not output any reasoning or thought steps; output only the final binary answer: True or False."
+        question = f"This is a UML diagram showing dependency relationships. The diagram contains {class_prefix} classes: {class_desc}. Each class is represented as a box, with the class name at the top. A dashed arrow points from the dependent class to the class it depends on, indicating the dependency relationship. Please analyze the diagram and answer the question based solely on the relationships shown in the diagram. The question is:\n Does class {node2} depends on class {node1}? Do not output any reasoning or thought steps; output only the final binary answer: True or False."
     else:
         raise ValueError(f"Unsupported relation type: {relation}")
 
@@ -76,6 +74,14 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
         "query_src_idx": src_idx,
         "query_dst_idx": dst_idx,
     }
+
+def _build_relation_prompts(nodes, relation="inheritance", query_pair=(0, 1)):
+    # If nodes form a chain with 3+ classes, generate one prompt for each adjacent pair.
+    if len(nodes) >= 3:
+        pairs = [(i, i + 1) for i in range(len(nodes) - 1)]
+    else:
+        pairs = [query_pair]
+    return [_build_relation_prompt(nodes, relation=relation, query_pair=pair) for pair in pairs]
 
 
 def _collect_image_map(image_dir):
@@ -170,16 +176,15 @@ def load_prompt(
                 raise FileNotFoundError(
                     f"No image found for id={sample_id}. Expected a file like '{sample_id}_*.png' in {image_dir}."
                 )
-            if len(nodes) == 3:
-                query_pairs = [(0, 1), (1, 2)]
-            else:
-                query_pairs = [query_pair]
-
-            for q_idx, q_pair in enumerate(query_pairs, start=1):
-                user_text, triplet_slots = _build_relation_prompt(
-                    nodes,
-                    relation=relation_for_row,
-                    query_pair=q_pair,
+            prompt_items = _build_relation_prompts(
+                nodes,
+                relation=relation_for_row,
+                query_pair=query_pair,
+            )
+            for q_idx, (user_text, triplet_slots) in enumerate(prompt_items, start=1):
+                q_pair = (
+                    triplet_slots.get("query_src_idx"),
+                    triplet_slots.get("query_dst_idx"),
                 )
 
                 messages = [
@@ -254,7 +259,6 @@ def run_batch(batch_prompts, model):
 
     sampling_params = SamplingParams(
         max_tokens=1024,
-        temperature=0,
         stop_token_ids=[]
     )
 
