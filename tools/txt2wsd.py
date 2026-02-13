@@ -114,6 +114,28 @@ def parse_instances(lines: List[str], template_id: str) -> List[Instance]:
         )
     return instances
 
+def reverse_instances(instances: List[Instance]) -> List[Instance]:
+    """
+    Build reversed instances from forward instances.
+
+    Rule
+    - Keep id and template_id unchanged.
+    - Reverse node order, then rebuild edges with the same template logic.
+    """
+    reversed_list: List[Instance] = []
+    for inst in instances:
+        rev_nodes = list(reversed(inst.nodes))
+        rev_edges = build_edges_from_nodes(rev_nodes, inst.template_id)
+        reversed_list.append(
+            Instance(
+                id=inst.id,
+                template_id=inst.template_id,
+                nodes=rev_nodes,
+                edges=rev_edges,
+            )
+        )
+    return reversed_list
+
 
 def write_jsonl(instances: List[Instance], out_path: Path) -> None:
     """
@@ -272,6 +294,7 @@ def run_for_root(
     wsd_subdir_name: str,
     jsonl_name: str,
     reverse_root: Optional[Path] = None,
+    reverse_layout: str = "mirror",
 ) -> None:
     """
     Run the pipeline for every data.txt found under root_dir.
@@ -284,14 +307,22 @@ def run_for_root(
     data_files = find_all_data_txt(root_dir)
     merged_rows: List[Dict[str, Any]] = []
     global_id = 1
-    reverse_next_index = 1
+    reverse_merged_rows: List[Dict[str, Any]] = []
+    reverse_global_id = 1
 
-    reverse_wsd_dir: Optional[Path] = None
+    reverse_dataset_root: Optional[Path] = None
+    reverse_flat_wsd_dir: Optional[Path] = None
     if reverse_root is not None:
-        reverse_wsd_dir = reverse_root / root_dir.name / wsd_subdir_name
-        if reverse_wsd_dir.exists() and reverse_wsd_dir.is_dir():
-            shutil.rmtree(reverse_wsd_dir)
-        reverse_wsd_dir.mkdir(parents=True, exist_ok=True)
+        reverse_dataset_root = reverse_root / root_dir.name
+        if reverse_dataset_root.exists() and reverse_dataset_root.is_dir():
+            shutil.rmtree(reverse_dataset_root)
+        reverse_dataset_root.mkdir(parents=True, exist_ok=True)
+
+        if reverse_layout == "flat":
+            reverse_flat_wsd_dir = reverse_dataset_root / wsd_subdir_name
+            reverse_flat_wsd_dir.mkdir(parents=True, exist_ok=True)
+        elif reverse_layout != "mirror":
+            raise ValueError(f"Unsupported reverse_layout: {reverse_layout}")
 
     for data_path in data_files:
         folder = data_path.parent
@@ -307,16 +338,31 @@ def run_for_root(
             overwrite_wsd=overwrite_wsd,
         )
 
-        if reverse_wsd_dir is not None:
-            write_reverse_wsd_files(
-                instances,
-                reverse_wsd_dir,
-                overwrite=overwrite_wsd,
-                start_index=reverse_next_index,
-            )
-            reverse_next_index += len(instances)
-
         source_subset = folder.relative_to(root_dir).as_posix()
+        if source_subset == ".":
+            source_subset = ""
+
+        reverse_local_instances: Optional[List[Instance]] = None
+        if reverse_dataset_root is not None:
+            reverse_local_instances = reverse_instances(instances)
+            if reverse_layout == "mirror":
+                reverse_folder = reverse_dataset_root / source_subset
+                reverse_jsonl_path = reverse_folder / jsonl_name
+                reverse_wsd_dir = reverse_folder / wsd_subdir_name
+                if reverse_wsd_dir.exists() and reverse_wsd_dir.is_dir():
+                    shutil.rmtree(reverse_wsd_dir)
+                write_jsonl(reverse_local_instances, reverse_jsonl_path)
+                write_wsd_files(reverse_local_instances, reverse_wsd_dir, overwrite=overwrite_wsd)
+            else:
+                # Backward-compatible layout:
+                # reverse/<Dataset>/out_wsd/<global_id>_*.wsd and only forward-style merged jsonl.
+                write_reverse_wsd_files(
+                    instances,
+                    reverse_flat_wsd_dir,
+                    overwrite=overwrite_wsd,
+                    start_index=reverse_global_id,
+                )
+
         for inst in instances:
             merged_rows.append(
                 {
@@ -330,8 +376,26 @@ def run_for_root(
             )
             global_id += 1
 
+        if reverse_local_instances is not None:
+            for inst in reverse_local_instances:
+                reverse_merged_rows.append(
+                    {
+                        "id": str(reverse_global_id),
+                        "template_id": inst.template_id,
+                        "nodes": inst.nodes,
+                        "edges": inst.edges,
+                        "source_subset": source_subset,
+                        "source_id": inst.id,
+                    }
+                )
+                reverse_global_id += 1
+
     merged_jsonl_path = root_dir / jsonl_name
     write_jsonl_rows(merged_rows, merged_jsonl_path)
+
+    if reverse_dataset_root is not None and reverse_layout == "mirror":
+        reverse_merged_jsonl_path = reverse_dataset_root / jsonl_name
+        write_jsonl_rows(reverse_merged_rows, reverse_merged_jsonl_path)
 
 
 if __name__ == "__main__":
@@ -343,75 +407,66 @@ if __name__ == "__main__":
       write .wsd files into that folder's out_wsd subfolder
     """
 
-    template_id = "inheritance"
     overwrite_wsd = True
 
     wsd_subdir_name = "out_wsd"
     jsonl_name = "instances.jsonl"
-    reverse_root = Path("../reverse")
+    dataset_specs = [
+        ("2Class_Inheritance", "inheritance"),
+        ("3Class_Inheritance", "inheritance"),
+        ("2Class_Aggregation", "aggregation"),
+        ("3Class_Aggregation", "aggregation"),
+        ("2Class_Composition", "composition"),
+        ("3Class_Composition", "composition"),
+        ("2Class_Dependency", "dependency"),
+        ("3Class_Dependency", "dependency"),
+    ]
 
-    run_for_root(
-        root_dir=Path("../2Class_Inheritance"),
-        template_id="inheritance",
-        overwrite_wsd=overwrite_wsd,
-        wsd_subdir_name=wsd_subdir_name,
-        jsonl_name=jsonl_name,
-        reverse_root=reverse_root,
-    )
-    run_for_root(
-        root_dir=Path("../3Class_Inheritance"),
-        template_id="inheritance",
-        overwrite_wsd=overwrite_wsd,
-        wsd_subdir_name=wsd_subdir_name,
-        jsonl_name=jsonl_name,
-        reverse_root=reverse_root,
-    )
-    
-    run_for_root(
-        root_dir=Path("../2Class_Aggregation"),
-        template_id="aggregation",
-        overwrite_wsd=overwrite_wsd,
-        wsd_subdir_name=wsd_subdir_name,
-        jsonl_name=jsonl_name,
-        reverse_root=reverse_root,
-    )
-    run_for_root(
-        root_dir=Path("../3Class_Aggregation"),
-        template_id="aggregation",
-        overwrite_wsd=overwrite_wsd,
-        wsd_subdir_name=wsd_subdir_name,
-        jsonl_name=jsonl_name,
-        reverse_root=reverse_root,
-    )
-    run_for_root(
-        root_dir=Path("../2Class_Composition"),
-        template_id="composition",
-        overwrite_wsd=overwrite_wsd,
-        wsd_subdir_name=wsd_subdir_name,
-        jsonl_name=jsonl_name,
-        reverse_root=reverse_root,
-    )
-    run_for_root(
-        root_dir=Path("../3Class_Composition"),
-        template_id="composition",
-        overwrite_wsd=overwrite_wsd,
-        wsd_subdir_name=wsd_subdir_name,
-        jsonl_name=jsonl_name,
-        reverse_root=reverse_root,
-    )
-    run_for_root(
-        root_dir=Path("../2Class_Dependency"),
-        template_id="dependency",
-        overwrite_wsd=overwrite_wsd,
-        wsd_subdir_name=wsd_subdir_name,
-        jsonl_name=jsonl_name,
-        reverse_root=reverse_root,
-    )
-    run_for_root(
-        root_dir=Path("../3Class_Dependency"),
-        template_id="dependency",
-        overwrite_wsd=overwrite_wsd,
-        wsd_subdir_name=wsd_subdir_name,
-        jsonl_name=jsonl_name,
-        reverse_root=reverse_root,
-    )
+    project_root = Path(__file__).resolve().parent.parent
+
+    # Preferred new layout.
+    # One side is treated as forward source (contains data.txt), and the other side
+    # receives mirror-structured reverse outputs.
+    base_forward = project_root / "data_forward"
+    base_reverse = project_root / "data_reverse"
+
+    source_base = base_forward
+    reverse_base = base_reverse
+    if not any(base_forward.rglob("data.txt")) and any(base_reverse.rglob("data.txt")):
+        source_base = base_reverse
+        reverse_base = base_forward
+
+    if source_base.exists() and reverse_base.exists():
+        print(f"[INFO] source_base={source_base} reverse_base={reverse_base}")
+        for dataset_name, template_id in dataset_specs:
+            root_dir = source_base / dataset_name
+            if not root_dir.exists():
+                print(f"[WARN] skip missing dataset dir: {root_dir}")
+                continue
+            run_for_root(
+                root_dir=root_dir,
+                template_id=template_id,
+                overwrite_wsd=overwrite_wsd,
+                wsd_subdir_name=wsd_subdir_name,
+                jsonl_name=jsonl_name,
+                reverse_root=reverse_base,
+                reverse_layout="mirror",
+            )
+    else:
+        # Backward-compatible legacy layout.
+        reverse_root = project_root / "reverse"
+        print(f"[INFO] using legacy layout under parent folder with reverse root {reverse_root}")
+        for dataset_name, template_id in dataset_specs:
+            root_dir = project_root / dataset_name
+            if not root_dir.exists():
+                print(f"[WARN] skip missing dataset dir: {root_dir}")
+                continue
+            run_for_root(
+                root_dir=root_dir,
+                template_id=template_id,
+                overwrite_wsd=overwrite_wsd,
+                wsd_subdir_name=wsd_subdir_name,
+                jsonl_name=jsonl_name,
+                reverse_root=reverse_root,
+                reverse_layout="flat",
+            )
