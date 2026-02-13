@@ -1,0 +1,4 @@
+@startuml
+NoteApp ..> OperatingSystem
+TaskManagement ..> NoteApp
+@enduml

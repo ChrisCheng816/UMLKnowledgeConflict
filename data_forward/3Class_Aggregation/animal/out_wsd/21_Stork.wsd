@@ -1,0 +1,4 @@
+@startuml
+FlockOfStork o-- Stork
+Park o-- FlockOfStork
+@enduml

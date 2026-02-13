@@ -1,0 +1,4 @@
+@startuml
+AirConditioner ..> Electricity
+Dehumidifying ..> AirConditioner
+@enduml

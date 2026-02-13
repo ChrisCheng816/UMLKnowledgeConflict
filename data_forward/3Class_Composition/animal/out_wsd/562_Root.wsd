@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Root
+Serval *-- Tooth
+@enduml

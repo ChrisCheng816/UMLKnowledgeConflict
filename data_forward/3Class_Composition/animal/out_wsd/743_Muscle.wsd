@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Muscle
+Caecilian *-- Leg
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WinterSport <|-- AlpineSkiing
+AlpineSkiing <|-- DownhillSkiing
+@enduml

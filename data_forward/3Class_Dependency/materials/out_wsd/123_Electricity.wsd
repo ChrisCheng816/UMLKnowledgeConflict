@@ -1,0 +1,4 @@
+@startuml
+InductionCooktop ..> Electricity
+StirFrying ..> InductionCooktop
+@enduml

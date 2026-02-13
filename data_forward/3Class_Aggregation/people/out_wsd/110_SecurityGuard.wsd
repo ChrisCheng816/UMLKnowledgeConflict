@@ -1,0 +1,4 @@
+@startuml
+SecurityTeam o-- SecurityGuard
+CountyStation o-- SecurityTeam
+@enduml

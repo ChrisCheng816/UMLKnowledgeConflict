@@ -1,0 +1,4 @@
+@startuml
+RescueTeam o-- SearchAndRescueWorker
+IslandRailwayOperator o-- RescueTeam
+@enduml

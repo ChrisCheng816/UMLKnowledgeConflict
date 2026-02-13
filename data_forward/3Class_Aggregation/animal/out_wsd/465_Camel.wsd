@@ -1,0 +1,4 @@
+@startuml
+HerdOfCamel o-- Camel
+Rookery o-- HerdOfCamel
+@enduml

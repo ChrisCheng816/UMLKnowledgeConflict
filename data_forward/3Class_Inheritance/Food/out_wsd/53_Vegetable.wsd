@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Legume
+Legume <|-- PintoBean
+@enduml

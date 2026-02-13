@@ -1,0 +1,4 @@
+@startuml
+HerdOfYak o-- Yak
+Meadow o-- HerdOfYak
+@enduml

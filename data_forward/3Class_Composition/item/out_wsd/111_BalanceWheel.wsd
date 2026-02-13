@@ -1,0 +1,4 @@
+@startuml
+WatchMovement *-- BalanceWheel
+Wristwatch *-- WatchMovement
+@enduml

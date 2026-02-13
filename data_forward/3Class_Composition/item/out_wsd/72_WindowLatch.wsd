@@ -1,0 +1,4 @@
+@startuml
+Window *-- WindowLatch
+Apartment *-- Window
+@enduml

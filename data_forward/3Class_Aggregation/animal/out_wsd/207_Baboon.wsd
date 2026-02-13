@@ -1,0 +1,4 @@
+@startuml
+TroopOfBaboon o-- Baboon
+Desert o-- TroopOfBaboon
+@enduml

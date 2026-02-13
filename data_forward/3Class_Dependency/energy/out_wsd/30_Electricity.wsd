@@ -1,0 +1,4 @@
+@startuml
+CutoffSaw ..> Electricity
+Grinding ..> CutoffSaw
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HerdOfLlama o-- Llama
+Rookery o-- HerdOfLlama
+@enduml

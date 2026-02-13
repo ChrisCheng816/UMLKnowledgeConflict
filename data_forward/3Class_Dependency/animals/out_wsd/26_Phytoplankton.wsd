@@ -1,0 +1,4 @@
+@startuml
+Zooplankton ..> Phytoplankton
+Sardine ..> Zooplankton
+@enduml

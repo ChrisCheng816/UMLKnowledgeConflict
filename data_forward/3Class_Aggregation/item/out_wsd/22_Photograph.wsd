@@ -1,0 +1,4 @@
+@startuml
+Album o-- Photograph
+PhotoStudio o-- Album
+@enduml

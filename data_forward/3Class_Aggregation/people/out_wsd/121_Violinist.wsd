@@ -1,0 +1,4 @@
+@startuml
+SectionTeam o-- Violinist
+OrchestraStation o-- SectionTeam
+@enduml

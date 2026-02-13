@@ -1,0 +1,4 @@
+@startuml
+BrakeCaliper *-- BleederScrew
+Motorcycle *-- BrakeCaliper
+@enduml

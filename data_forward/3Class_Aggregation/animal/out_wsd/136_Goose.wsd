@@ -1,0 +1,4 @@
+@startuml
+FlockOfGoose o-- Goose
+Estuary o-- FlockOfGoose
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ColonyOfSquirrel o-- Squirrel
+Farm o-- ColonyOfSquirrel
+@enduml

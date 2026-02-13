@@ -1,0 +1,4 @@
+@startuml
+BrowserExtension ..> OperatingSystem
+PasswordAutofill ..> BrowserExtension
+@enduml

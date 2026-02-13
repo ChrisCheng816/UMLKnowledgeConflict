@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Comic
+Comic <|-- TheFantasticFour
+@enduml

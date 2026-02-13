@@ -1,0 +1,4 @@
+@startuml
+TherapyMachine ..> Electricity
+RadiationTherapy ..> TherapyMachine
+@enduml

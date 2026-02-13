@@ -1,0 +1,4 @@
+@startuml
+LabTeam o-- LabTechnician
+ClinicStation o-- LabTeam
+@enduml

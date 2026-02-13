@@ -1,0 +1,4 @@
+@startuml
+PressureGradient ..> TemperatureContrast
+WindShear ..> PressureGradient
+@enduml

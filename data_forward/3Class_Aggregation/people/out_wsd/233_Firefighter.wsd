@@ -1,0 +1,4 @@
+@startuml
+EmergencyTeam o-- Firefighter
+ClinicalHospitalCenter o-- EmergencyTeam
+@enduml

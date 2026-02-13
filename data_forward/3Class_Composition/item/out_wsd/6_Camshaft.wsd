@@ -1,0 +1,4 @@
+@startuml
+Engine *-- Camshaft
+Motorcycle *-- Engine
+@enduml

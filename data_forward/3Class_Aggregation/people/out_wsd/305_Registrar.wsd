@@ -1,0 +1,4 @@
+@startuml
+IncidentResponseTeam o-- Registrar
+MediaMusicAcademy o-- IncidentResponseTeam
+@enduml

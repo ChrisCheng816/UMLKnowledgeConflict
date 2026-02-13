@@ -1,0 +1,4 @@
+@startuml
+PaintSprayer ..> CompressedAir
+Finishing ..> PaintSprayer
+@enduml

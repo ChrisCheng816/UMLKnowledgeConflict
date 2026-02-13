@@ -1,0 +1,4 @@
+@startuml
+Rainfall ..> StormSystem
+SoilMoisture ..> Rainfall
+@enduml

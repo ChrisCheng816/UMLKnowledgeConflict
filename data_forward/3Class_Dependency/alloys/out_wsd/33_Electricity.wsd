@@ -1,0 +1,4 @@
+@startuml
+ElectricScooter ..> Electricity
+ShortTrip ..> ElectricScooter
+@enduml

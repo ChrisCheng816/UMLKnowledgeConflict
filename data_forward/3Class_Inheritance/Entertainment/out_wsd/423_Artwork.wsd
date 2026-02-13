@@ -1,0 +1,4 @@
+@startuml
+Artwork <|-- Painting
+Painting <|-- TheKissKlimt
+@enduml

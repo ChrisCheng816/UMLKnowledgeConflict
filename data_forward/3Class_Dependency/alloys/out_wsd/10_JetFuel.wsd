@@ -1,0 +1,4 @@
+@startuml
+CargoPlane ..> JetFuel
+AerialSurvey ..> CargoPlane
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+AquariumLight ..> Electricity
+Lighting ..> AquariumLight
+@enduml

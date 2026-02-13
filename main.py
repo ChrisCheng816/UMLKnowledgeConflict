@@ -1,16 +1,46 @@
-from load_open_vllm import generate_outputs
+import argparse
 import os
 
 os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
 
-if __name__ == "__main__":
-    model_path = "Qwen/Qwen3-VL-8B-Instruct"
-    root = os.path.dirname(os.path.abspath(__file__))
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--mode",
+        choices=["forward", "reverse", "both"],
+        default="both",
+        help="Run forward dataset, reverse dataset, or both.",
+    )
+    parser.add_argument(
+        "--model-path",
+        default="Qwen/Qwen3-VL-8B-Instruct",
+        help="Model path passed to generate_outputs.",
+    )
+    parser.add_argument(
+        "--out-prefix",
+        default="result",
+        help="Output prefix. Files are written as <out-prefix>_<mode>_<relation>_<arity>.jsonl",
+    )
+    return parser.parse_args()
 
-    runs = [
-        ("forward", os.path.join(root, "data_forward"), os.path.join(root, "image_forward")),
-        ("reverse", os.path.join(root, "data_reverse"), os.path.join(root, "image_reverse")),
-    ]
+
+def build_runs(mode, root):
+    all_runs = {
+        "forward": (os.path.join(root, "data_forward"), os.path.join(root, "image_forward")),
+        "reverse": (os.path.join(root, "data_reverse"), os.path.join(root, "image_reverse")),
+    }
+    if mode == "both":
+        return [("forward", *all_runs["forward"]), ("reverse", *all_runs["reverse"])]
+    return [(mode, *all_runs[mode])]
+
+
+def main():
+    args = parse_args()
+    # Delay heavy import so '--help' works even if runtime deps are not ready.
+    from load_open_vllm import generate_outputs
+
+    root = os.path.dirname(os.path.abspath(__file__))
+    runs = build_runs(args.mode, root)
 
     for tag, dataset_root, output_image_root in runs:
         if not os.path.isdir(dataset_root):
@@ -22,8 +52,12 @@ if __name__ == "__main__":
 
         print(f"[INFO] run {tag}: dataset_root={dataset_root}, output_image_root={output_image_root}")
         generate_outputs(
-            model_path=model_path,
-            out_path=f"result_{tag}.jsonl",
+            model_path=args.model_path,
+            out_path=f"{args.out_prefix}_{tag}.jsonl",
             dataset_root=dataset_root,
             output_image_root=output_image_root,
         )
+
+
+if __name__ == "__main__":
+    main()

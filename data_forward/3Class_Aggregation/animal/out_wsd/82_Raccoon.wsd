@@ -1,0 +1,4 @@
+@startuml
+ColonyOfRaccoon o-- Raccoon
+Tundra o-- ColonyOfRaccoon
+@enduml

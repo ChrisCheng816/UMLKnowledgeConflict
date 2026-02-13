@@ -1,0 +1,4 @@
+@startuml
+GeothermalHeat ..> UndergroundWater
+HotSpring ..> GeothermalHeat
+@enduml

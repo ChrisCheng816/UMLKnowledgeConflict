@@ -1,0 +1,4 @@
+@startuml
+HerdOfBuffalo o-- Buffalo
+Harbor o-- HerdOfBuffalo
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Antivirus ..> OperatingSystem
+MalwareScan ..> Antivirus
+@enduml

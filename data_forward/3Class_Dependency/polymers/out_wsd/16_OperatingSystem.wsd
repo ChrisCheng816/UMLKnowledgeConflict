@@ -1,0 +1,4 @@
+@startuml
+CalendarClient ..> OperatingSystem
+AppointmentReminder ..> CalendarClient
+@enduml

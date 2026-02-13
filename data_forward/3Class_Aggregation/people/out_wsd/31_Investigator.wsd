@@ -1,0 +1,4 @@
+@startuml
+VolunteerGroup o-- Investigator
+CommunityCouncil o-- VolunteerGroup
+@enduml

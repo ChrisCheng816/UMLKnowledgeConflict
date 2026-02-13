@@ -1,0 +1,4 @@
+@startuml
+FlockOfPenguin o-- Penguin
+Sanctuary o-- FlockOfPenguin
+@enduml

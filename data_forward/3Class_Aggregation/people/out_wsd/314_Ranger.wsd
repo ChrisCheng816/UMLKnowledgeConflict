@@ -1,0 +1,4 @@
+@startuml
+PatrolStation o-- Ranger
+NatureReserve o-- PatrolStation
+@enduml

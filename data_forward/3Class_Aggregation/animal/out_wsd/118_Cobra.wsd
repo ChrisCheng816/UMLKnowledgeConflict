@@ -1,0 +1,4 @@
+@startuml
+NestOfCobra o-- Cobra
+Bay o-- NestOfCobra
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Item <|-- HomeAppliance
+HomeAppliance <|-- AirPurifier
+@enduml

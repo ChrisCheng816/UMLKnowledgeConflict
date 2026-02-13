@@ -1,0 +1,4 @@
+@startuml
+GroupOfOyster o-- Oyster
+Atoll o-- GroupOfOyster
+@enduml

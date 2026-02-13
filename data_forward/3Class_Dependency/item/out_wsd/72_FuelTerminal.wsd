@@ -1,0 +1,4 @@
+@startuml
+FuelTankerTruck ..> FuelTerminal
+AirportFuelFarm ..> FuelTankerTruck
+@enduml

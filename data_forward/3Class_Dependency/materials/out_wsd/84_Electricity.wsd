@@ -1,0 +1,4 @@
+@startuml
+FlashlightCharger ..> Electricity
+NightLighting ..> FlashlightCharger
+@enduml

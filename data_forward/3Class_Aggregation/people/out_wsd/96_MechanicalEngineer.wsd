@@ -1,0 +1,4 @@
+@startuml
+BuildTeam o-- MechanicalEngineer
+RoboticsAuthority o-- BuildTeam
+@enduml

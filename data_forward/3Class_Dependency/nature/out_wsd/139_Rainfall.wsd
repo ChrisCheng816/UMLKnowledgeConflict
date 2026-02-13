@@ -1,0 +1,4 @@
+@startuml
+SoilMoisture ..> Rainfall
+PlantGrowth ..> SoilMoisture
+@enduml

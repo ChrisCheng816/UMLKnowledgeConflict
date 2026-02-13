@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Fruit
+Fruit <|-- Kiwi
+@enduml

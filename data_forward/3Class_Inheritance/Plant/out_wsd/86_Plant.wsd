@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Fern
+Fern <|-- MaidenhairFern
+@enduml

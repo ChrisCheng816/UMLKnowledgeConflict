@@ -1,0 +1,4 @@
+@startuml
+FloorLamp ..> Electricity
+NightLighting ..> FloorLamp
+@enduml

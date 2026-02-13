@@ -1,0 +1,4 @@
+@startuml
+CatalogTeam o-- Librarian
+LibraryAuthority o-- CatalogTeam
+@enduml

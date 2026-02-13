@@ -1,0 +1,4 @@
+@startuml
+CompressionTool ..> OperatingSystem
+FileCompression ..> CompressionTool
+@enduml

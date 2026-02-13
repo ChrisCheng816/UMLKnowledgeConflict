@@ -1,0 +1,4 @@
+@startuml
+InstantMessagingApp ..> InternetConnection
+TextChat ..> InstantMessagingApp
+@enduml

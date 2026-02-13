@@ -1,0 +1,4 @@
+@startuml
+Horn *-- Core
+Goat *-- Horn
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Roof *-- RidgeBeam
+House *-- Roof
+@enduml

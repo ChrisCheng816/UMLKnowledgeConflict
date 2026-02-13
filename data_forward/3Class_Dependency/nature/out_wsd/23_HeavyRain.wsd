@@ -1,0 +1,4 @@
+@startuml
+SaturatedSoil ..> HeavyRain
+Mudslide ..> SaturatedSoil
+@enduml

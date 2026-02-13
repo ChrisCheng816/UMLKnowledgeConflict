@@ -1,0 +1,4 @@
+@startuml
+FlockOfGull o-- Gull
+Clinic o-- FlockOfGull
+@enduml

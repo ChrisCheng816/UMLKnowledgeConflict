@@ -1,0 +1,4 @@
+@startuml
+GroupOfJellyfish o-- Jellyfish
+Delta o-- GroupOfJellyfish
+@enduml

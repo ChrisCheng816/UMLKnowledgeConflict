@@ -1,0 +1,4 @@
+@startuml
+CalendarApp ..> OperatingSystem
+CalendarManagement ..> CalendarApp
+@enduml

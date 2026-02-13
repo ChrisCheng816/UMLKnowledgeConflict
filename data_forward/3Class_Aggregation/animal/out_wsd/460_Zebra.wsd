@@ -1,0 +1,4 @@
+@startuml
+HerdOfZebra o-- Zebra
+Rookery o-- HerdOfZebra
+@enduml

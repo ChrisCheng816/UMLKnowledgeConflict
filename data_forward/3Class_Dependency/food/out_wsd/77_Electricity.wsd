@@ -1,0 +1,4 @@
+@startuml
+Photocopier ..> Electricity
+HandoutPrinting ..> Photocopier
+@enduml

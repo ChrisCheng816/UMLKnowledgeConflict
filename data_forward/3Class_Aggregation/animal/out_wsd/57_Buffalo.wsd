@@ -1,0 +1,4 @@
+@startuml
+HerdOfBuffalo o-- Buffalo
+Forest o-- HerdOfBuffalo
+@enduml

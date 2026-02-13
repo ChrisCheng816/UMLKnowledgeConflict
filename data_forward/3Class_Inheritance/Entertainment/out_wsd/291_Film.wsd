@@ -1,0 +1,4 @@
+@startuml
+Film <|-- AnimatedFilm
+AnimatedFilm <|-- KikisDeliveryService
+@enduml

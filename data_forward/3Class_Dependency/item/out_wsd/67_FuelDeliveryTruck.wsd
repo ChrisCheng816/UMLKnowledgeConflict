@@ -1,0 +1,4 @@
+@startuml
+TruckStop ..> FuelDeliveryTruck
+DieselTruck ..> TruckStop
+@enduml

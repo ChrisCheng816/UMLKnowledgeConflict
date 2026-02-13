@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- Blanket
+FestivalWarehouse o-- StorageBin
+@enduml

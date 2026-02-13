@@ -1,0 +1,4 @@
+@startuml
+SmokeAlarm ..> Electricity
+HomeSecurity ..> SmokeAlarm
+@enduml

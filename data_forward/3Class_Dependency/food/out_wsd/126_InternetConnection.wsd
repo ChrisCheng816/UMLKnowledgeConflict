@@ -1,0 +1,4 @@
+@startuml
+VideoConferencingApp ..> InternetConnection
+TelehealthCall ..> VideoConferencingApp
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FlightCrewTeam o-- Pilot
+AirportAuthority o-- FlightCrewTeam
+@enduml

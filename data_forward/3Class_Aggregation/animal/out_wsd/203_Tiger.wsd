@@ -1,0 +1,4 @@
+@startuml
+PackOfTiger o-- Tiger
+Desert o-- PackOfTiger
+@enduml

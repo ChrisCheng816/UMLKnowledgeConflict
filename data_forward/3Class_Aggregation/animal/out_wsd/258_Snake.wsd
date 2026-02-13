@@ -1,0 +1,4 @@
+@startuml
+NestOfSnake o-- Snake
+Plateau o-- NestOfSnake
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WebBrowser ..> InternetConnection
+WebMail ..> WebBrowser
+@enduml

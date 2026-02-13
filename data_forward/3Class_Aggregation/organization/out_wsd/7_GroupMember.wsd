@@ -1,0 +1,4 @@
+@startuml
+MutualAidGroup o-- GroupMember
+MutualAidAssociation o-- MutualAidGroup
+@enduml

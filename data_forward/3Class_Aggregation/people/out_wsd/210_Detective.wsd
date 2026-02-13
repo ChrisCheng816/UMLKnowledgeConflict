@@ -1,0 +1,4 @@
+@startuml
+LogisticsSection o-- Detective
+CommunityTechCompany o-- LogisticsSection
+@enduml

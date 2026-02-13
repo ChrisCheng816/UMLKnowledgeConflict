@@ -1,0 +1,4 @@
+@startuml
+BaskOfAlligator o-- Alligator
+Island o-- BaskOfAlligator
+@enduml

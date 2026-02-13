@@ -1,0 +1,4 @@
+@startuml
+TrainingTeam o-- Professor
+CulturalUniversityOffice o-- TrainingTeam
+@enduml

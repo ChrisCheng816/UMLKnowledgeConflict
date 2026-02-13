@@ -1,0 +1,4 @@
+@startuml
+Library o-- Book
+College o-- Library
+@enduml

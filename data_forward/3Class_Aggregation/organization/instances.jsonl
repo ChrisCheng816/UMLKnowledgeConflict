@@ -1,0 +1,15 @@
+{"id": "1", "template_id": "aggregation", "nodes": ["Critic", "ReviewGroup", "FilmAssociation"], "edges": ["ReviewGroup o-- Critic", "FilmAssociation o-- ReviewGroup"]}
+{"id": "2", "template_id": "aggregation", "nodes": ["GameMaster", "PlayerGroup", "MurderMysteryShop"], "edges": ["PlayerGroup o-- GameMaster", "MurderMysteryShop o-- PlayerGroup"]}
+{"id": "3", "template_id": "aggregation", "nodes": ["Liaison", "MemberCompany", "IndustryAssociation"], "edges": ["MemberCompany o-- Liaison", "IndustryAssociation o-- MemberCompany"]}
+{"id": "4", "template_id": "aggregation", "nodes": ["SearchAndRescueWorker", "RescueTeam", "VolunteerAlliance"], "edges": ["RescueTeam o-- SearchAndRescueWorker", "VolunteerAlliance o-- RescueTeam"]}
+{"id": "5", "template_id": "aggregation", "nodes": ["Investigator", "VolunteerGroup", "EnvironmentalOrganization"], "edges": ["VolunteerGroup o-- Investigator", "EnvironmentalOrganization o-- VolunteerGroup"]}
+{"id": "6", "template_id": "aggregation", "nodes": ["Member", "InterestClub", "CommunityCommittee"], "edges": ["InterestClub o-- Member", "CommunityCommittee o-- InterestClub"]}
+{"id": "7", "template_id": "aggregation", "nodes": ["GroupMember", "MutualAidGroup", "MutualAidAssociation"], "edges": ["MutualAidGroup o-- GroupMember", "MutualAidAssociation o-- MutualAidGroup"]}
+{"id": "8", "template_id": "aggregation", "nodes": ["Painter", "LocalArtAcademy", "ArtAssociation"], "edges": ["LocalArtAcademy o-- Painter", "ArtAssociation o-- LocalArtAcademy"]}
+{"id": "9", "template_id": "aggregation", "nodes": ["Member", "Club", "PhotographersAssociation"], "edges": ["Club o-- Member", "PhotographersAssociation o-- Club"]}
+{"id": "10", "template_id": "aggregation", "nodes": ["Lawyer", "AdvisoryBoard", "LegalAidCenter"], "edges": ["AdvisoryBoard o-- Lawyer", "LegalAidCenter o-- AdvisoryBoard"]}
+{"id": "11", "template_id": "aggregation", "nodes": ["Agent", "TradingCompany", "TradeAlliance"], "edges": ["TradingCompany o-- Agent", "TradeAlliance o-- TradingCompany"]}
+{"id": "12", "template_id": "aggregation", "nodes": ["Mediator", "MediationGroup", "AutonomousOrganization"], "edges": ["MediationGroup o-- Mediator", "AutonomousOrganization o-- MediationGroup"]}
+{"id": "13", "template_id": "aggregation", "nodes": ["ProfessionalPlayer", "EsportsTeam", "Club"], "edges": ["EsportsTeam o-- ProfessionalPlayer", "Club o-- EsportsTeam"]}
+{"id": "14", "template_id": "aggregation", "nodes": ["TeamLeader", "MountaineeringTeam", "OutdoorAlliance"], "edges": ["MountaineeringTeam o-- TeamLeader", "OutdoorAlliance o-- MountaineeringTeam"]}
+{"id": "15", "template_id": "aggregation", "nodes": ["Driver", "Convoy", "CarOwnersClub"], "edges": ["Convoy o-- Driver", "CarOwnersClub o-- Convoy"]}

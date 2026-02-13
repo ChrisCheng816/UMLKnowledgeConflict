@@ -1,0 +1,4 @@
+@startuml
+CeilingLight ..> Electricity
+NightLighting ..> CeilingLight
+@enduml

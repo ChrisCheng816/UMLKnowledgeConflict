@@ -1,0 +1,4 @@
+@startuml
+WeatherWebsite ..> InternetConnection
+NewsReading ..> WeatherWebsite
+@enduml

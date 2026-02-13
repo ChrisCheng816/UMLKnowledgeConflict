@@ -1,0 +1,4 @@
+@startuml
+CarManufacturer <|-- Honda
+Honda <|-- HondaRidgeline
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GasWaterHeater ..> NaturalGas
+Dishwashing ..> GasWaterHeater
+@enduml

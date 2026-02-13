@@ -1,0 +1,4 @@
+@startuml
+FeaturePhone ..> CellularNetwork
+TextMessaging ..> FeaturePhone
+@enduml

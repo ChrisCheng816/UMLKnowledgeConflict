@@ -1,0 +1,4 @@
+@startuml
+ElectricTrain ..> Electricity
+RailTravel ..> ElectricTrain
+@enduml

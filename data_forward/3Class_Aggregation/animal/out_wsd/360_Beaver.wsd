@@ -1,0 +1,4 @@
+@startuml
+ColonyOfBeaver o-- Beaver
+Ranch o-- ColonyOfBeaver
+@enduml

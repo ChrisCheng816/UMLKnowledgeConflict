@@ -1,0 +1,4 @@
+@startuml
+MentorCommittee o-- ProcurementSpecialist
+EnvironmentalCharityFoundation o-- MentorCommittee
+@enduml

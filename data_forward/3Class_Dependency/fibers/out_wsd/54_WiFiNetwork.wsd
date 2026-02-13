@@ -1,0 +1,4 @@
+@startuml
+Tablet ..> WiFiNetwork
+WebBrowsing ..> Tablet
+@enduml

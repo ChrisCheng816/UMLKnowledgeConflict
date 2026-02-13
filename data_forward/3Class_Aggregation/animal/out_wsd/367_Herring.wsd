@@ -1,0 +1,4 @@
+@startuml
+SchoolOfHerring o-- Herring
+Ranch o-- SchoolOfHerring
+@enduml

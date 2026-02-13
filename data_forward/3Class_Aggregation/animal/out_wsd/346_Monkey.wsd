@@ -1,0 +1,4 @@
+@startuml
+TroopOfMonkey o-- Monkey
+Orchard o-- TroopOfMonkey
+@enduml

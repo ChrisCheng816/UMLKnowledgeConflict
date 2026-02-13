@@ -1,0 +1,4 @@
+@startuml
+CarManufacturer <|-- Tesla
+Tesla <|-- TeslaCybertruck
+@enduml

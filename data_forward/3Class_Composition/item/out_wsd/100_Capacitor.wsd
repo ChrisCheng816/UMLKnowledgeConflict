@@ -1,0 +1,4 @@
+@startuml
+CircuitBoard *-- Capacitor
+Router *-- CircuitBoard
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GroupOfJellyfish o-- Jellyfish
+Zoo o-- GroupOfJellyfish
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DiagramTool ..> OperatingSystem
+UMLDiagram ..> DiagramTool
+@enduml

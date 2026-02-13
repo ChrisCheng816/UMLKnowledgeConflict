@@ -1,0 +1,4 @@
+@startuml
+NarrowGap ..> Wavefront
+Diffraction ..> NarrowGap
+@enduml

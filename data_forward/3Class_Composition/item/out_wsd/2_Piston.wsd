@@ -1,0 +1,4 @@
+@startuml
+Engine *-- Piston
+Motorcycle *-- Engine
+@enduml

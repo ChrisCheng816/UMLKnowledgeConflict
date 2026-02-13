@@ -1,0 +1,4 @@
+@startuml
+PackOfDog o-- Dog
+Harbor o-- PackOfDog
+@enduml

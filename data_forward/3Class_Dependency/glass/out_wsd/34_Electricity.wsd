@@ -1,0 +1,4 @@
+@startuml
+InfusionPump ..> Electricity
+FluidAdministration ..> InfusionPump
+@enduml

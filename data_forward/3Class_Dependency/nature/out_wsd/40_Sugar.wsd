@@ -1,0 +1,4 @@
+@startuml
+Yeast ..> Sugar
+BreadRising ..> Yeast
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+LogisticsTeam o-- ProjectManager
+FestivalStation o-- LogisticsTeam
+@enduml

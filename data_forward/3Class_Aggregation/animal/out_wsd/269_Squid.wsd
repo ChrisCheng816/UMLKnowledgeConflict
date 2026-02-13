@@ -1,0 +1,4 @@
+@startuml
+GroupOfSquid o-- Squid
+Island o-- GroupOfSquid
+@enduml

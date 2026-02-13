@@ -1,0 +1,4 @@
+@startuml
+WallSwitch ..> WallOutlet
+CeilingFan ..> WallSwitch
+@enduml

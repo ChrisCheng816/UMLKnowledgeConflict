@@ -1,0 +1,4 @@
+@startuml
+AirFryer ..> Electricity
+Reheating ..> AirFryer
+@enduml

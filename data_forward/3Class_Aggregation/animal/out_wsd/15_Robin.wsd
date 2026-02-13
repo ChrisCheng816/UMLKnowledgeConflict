@@ -1,0 +1,4 @@
+@startuml
+FlockOfRobin o-- Robin
+Reserve o-- FlockOfRobin
+@enduml

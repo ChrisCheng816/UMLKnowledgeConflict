@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Muscle
+Siren *-- Leg
+@enduml

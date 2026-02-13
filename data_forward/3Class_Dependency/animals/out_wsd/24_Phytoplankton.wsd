@@ -1,0 +1,4 @@
+@startuml
+Zooplankton ..> Phytoplankton
+Anchovy ..> Zooplankton
+@enduml

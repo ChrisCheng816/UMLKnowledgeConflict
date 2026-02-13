@@ -1,0 +1,4 @@
+@startuml
+HeadphoneAmplifier ..> Electricity
+RadioListening ..> HeadphoneAmplifier
+@enduml

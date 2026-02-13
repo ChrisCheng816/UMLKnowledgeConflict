@@ -1,0 +1,4 @@
+@startuml
+LegalAidTeam o-- PeerReviewer
+DesertTechCompany o-- LegalAidTeam
+@enduml

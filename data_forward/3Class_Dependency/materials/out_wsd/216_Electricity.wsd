@@ -1,0 +1,4 @@
+@startuml
+SurgeProtector ..> Electricity
+PowerSupply ..> SurgeProtector
+@enduml

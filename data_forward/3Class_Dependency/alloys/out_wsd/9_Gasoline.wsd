@@ -1,0 +1,4 @@
+@startuml
+Car ..> Gasoline
+RoadTrip ..> Car
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Basketball
+Basketball <|-- 3x3Basketball
+@enduml

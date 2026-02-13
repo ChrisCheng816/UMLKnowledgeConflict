@@ -1,0 +1,4 @@
+@startuml
+Roof *-- Rafter
+House *-- Roof
+@enduml

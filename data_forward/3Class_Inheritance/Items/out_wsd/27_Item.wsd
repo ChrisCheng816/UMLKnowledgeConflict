@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Electronics
+Electronics <|-- PowerBank
+@enduml

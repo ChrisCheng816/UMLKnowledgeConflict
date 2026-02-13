@@ -1,0 +1,4 @@
+@startuml
+ExpertGroup o-- Advisor
+ExpeditionTeam o-- ExpertGroup
+@enduml

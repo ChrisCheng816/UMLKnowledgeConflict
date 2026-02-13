@@ -1,0 +1,4 @@
+@startuml
+HerdOfHorse o-- Horse
+Hatchery o-- HerdOfHorse
+@enduml

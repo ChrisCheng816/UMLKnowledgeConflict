@@ -1,0 +1,4 @@
+@startuml
+PeritonealDialysisCycler ..> Electricity
+KidneyDialysis ..> PeritonealDialysisCycler
+@enduml

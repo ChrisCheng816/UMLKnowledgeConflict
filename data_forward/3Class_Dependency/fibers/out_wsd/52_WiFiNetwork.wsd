@@ -1,0 +1,4 @@
+@startuml
+Tablet ..> WiFiNetwork
+Email ..> Tablet
+@enduml

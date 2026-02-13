@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Flower
+Flower <|-- Daffodil
+@enduml

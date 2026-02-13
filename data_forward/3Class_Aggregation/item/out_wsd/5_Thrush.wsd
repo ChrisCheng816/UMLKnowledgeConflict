@@ -1,0 +1,4 @@
+@startuml
+BirdCage o-- Thrush
+BirdMarket o-- BirdCage
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SchoolOfHerring o-- Herring
+Valley o-- SchoolOfHerring
+@enduml

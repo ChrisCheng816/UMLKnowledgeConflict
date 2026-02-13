@@ -1,0 +1,4 @@
+@startuml
+GroundCrewTeam o-- Mechanic
+AirportStation o-- GroundCrewTeam
+@enduml

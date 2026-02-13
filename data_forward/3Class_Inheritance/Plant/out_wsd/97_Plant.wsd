@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Cactus
+Cactus <|-- Saguaro
+@enduml

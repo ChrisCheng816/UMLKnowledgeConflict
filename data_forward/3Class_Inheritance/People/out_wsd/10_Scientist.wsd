@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- Mathematician
+Mathematician <|-- CarlGauss
+@enduml

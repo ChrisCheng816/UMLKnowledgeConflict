@@ -1,0 +1,4 @@
+@startuml
+FlockOfCrow o-- Crow
+Reserve o-- FlockOfCrow
+@enduml

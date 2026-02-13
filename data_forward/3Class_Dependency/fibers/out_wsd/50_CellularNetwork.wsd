@@ -1,0 +1,4 @@
+@startuml
+Smartwatch ..> CellularNetwork
+TextMessaging ..> Smartwatch
+@enduml

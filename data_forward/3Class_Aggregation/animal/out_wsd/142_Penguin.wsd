@@ -1,0 +1,4 @@
+@startuml
+FlockOfPenguin o-- Penguin
+River o-- FlockOfPenguin
+@enduml

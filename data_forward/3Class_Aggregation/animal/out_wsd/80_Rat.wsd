@@ -1,0 +1,4 @@
+@startuml
+ColonyOfRat o-- Rat
+Tundra o-- ColonyOfRat
+@enduml

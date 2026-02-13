@@ -1,0 +1,4 @@
+@startuml
+FlockOfPelican o-- Pelican
+Coast o-- FlockOfPelican
+@enduml

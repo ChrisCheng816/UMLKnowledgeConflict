@@ -1,0 +1,4 @@
+@startuml
+Comic <|-- Manga
+Manga <|-- MyHeroAcademiaManga
+@enduml

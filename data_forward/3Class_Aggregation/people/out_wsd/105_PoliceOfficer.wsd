@@ -1,0 +1,4 @@
+@startuml
+PatrolTeam o-- PoliceOfficer
+NationalParkAuthority o-- PatrolTeam
+@enduml

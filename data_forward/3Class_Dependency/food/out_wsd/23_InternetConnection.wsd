@@ -1,0 +1,4 @@
+@startuml
+EncyclopediaSite ..> InternetConnection
+NewsReading ..> EncyclopediaSite
+@enduml

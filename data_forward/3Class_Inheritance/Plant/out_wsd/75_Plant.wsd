@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Shrub
+Shrub <|-- Lilac
+@enduml

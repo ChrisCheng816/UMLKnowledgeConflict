@@ -1,0 +1,4 @@
+@startuml
+CutoffSaw ..> Electricity
+Deburring ..> CutoffSaw
+@enduml

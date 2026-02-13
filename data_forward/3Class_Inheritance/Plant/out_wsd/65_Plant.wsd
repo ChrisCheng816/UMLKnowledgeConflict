@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Herb
+Herb <|-- Chives
+@enduml

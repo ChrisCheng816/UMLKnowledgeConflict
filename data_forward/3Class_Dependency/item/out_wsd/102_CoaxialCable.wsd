@@ -1,0 +1,4 @@
+@startuml
+BroadbandModem ..> CoaxialCable
+EthernetCable ..> BroadbandModem
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SecurityTeam o-- SecurityGuard
+InfrastructureDesignAgency o-- SecurityTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PropaneTank ..> PropaneFillingStation
+PropaneHeater ..> PropaneTank
+@enduml

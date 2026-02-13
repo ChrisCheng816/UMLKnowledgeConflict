@@ -1,0 +1,4 @@
+@startuml
+Eye *-- Lens
+PoisonDartFrog *-- Eye
+@enduml

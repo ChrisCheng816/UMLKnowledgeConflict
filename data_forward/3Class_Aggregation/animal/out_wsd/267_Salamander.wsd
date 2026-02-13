@@ -1,0 +1,4 @@
+@startuml
+ColonyOfSalamander o-- Salamander
+Island o-- ColonyOfSalamander
+@enduml

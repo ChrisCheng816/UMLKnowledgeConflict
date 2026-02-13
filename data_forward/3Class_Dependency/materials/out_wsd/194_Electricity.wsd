@@ -1,0 +1,4 @@
+@startuml
+SmokeAlarm ..> Electricity
+MotionDetection ..> SmokeAlarm
+@enduml

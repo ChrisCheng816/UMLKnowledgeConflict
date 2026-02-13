@@ -1,0 +1,4 @@
+@startuml
+BathTub ..> HotWater
+Hygiene ..> BathTub
+@enduml

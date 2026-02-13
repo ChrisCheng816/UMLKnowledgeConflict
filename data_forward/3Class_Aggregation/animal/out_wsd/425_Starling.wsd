@@ -1,0 +1,4 @@
+@startuml
+FlockOfStarling o-- Starling
+Shelter o-- FlockOfStarling
+@enduml

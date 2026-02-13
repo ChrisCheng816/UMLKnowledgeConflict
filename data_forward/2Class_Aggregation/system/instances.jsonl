@@ -1,0 +1,10 @@
+{"id": "1", "template_id": "aggregation", "nodes": ["ComputePool", "ComputeSystem"], "edges": ["ComputeSystem o-- ComputePool"]}
+{"id": "2", "template_id": "aggregation", "nodes": ["TaskTicket", "ComputePool"], "edges": ["ComputePool o-- TaskTicket"]}
+{"id": "3", "template_id": "aggregation", "nodes": ["ComputePool", "ComputePlatform"], "edges": ["ComputePlatform o-- ComputePool"]}
+{"id": "4", "template_id": "aggregation", "nodes": ["CacheCluster", "StreamingPlatform"], "edges": ["StreamingPlatform o-- CacheCluster"]}
+{"id": "5", "template_id": "aggregation", "nodes": ["CacheFile", "CacheCluster"], "edges": ["CacheCluster o-- CacheFile"]}
+{"id": "6", "template_id": "aggregation", "nodes": ["MessageQueue", "BookingPlatform"], "edges": ["BookingPlatform o-- MessageQueue"]}
+{"id": "7", "template_id": "aggregation", "nodes": ["QueueMessage", "MessageQueue"], "edges": ["MessageQueue o-- QueueMessage"]}
+{"id": "8", "template_id": "aggregation", "nodes": ["MessageQueue", "PaymentPlatform"], "edges": ["PaymentPlatform o-- MessageQueue"]}
+{"id": "9", "template_id": "aggregation", "nodes": ["CacheCluster", "StreamingNetwork"], "edges": ["StreamingNetwork o-- CacheCluster"]}
+{"id": "10", "template_id": "aggregation", "nodes": ["MessageQueue", "BookingSystemService"], "edges": ["BookingSystemService o-- MessageQueue"]}

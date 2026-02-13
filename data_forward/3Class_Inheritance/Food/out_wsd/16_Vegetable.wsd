@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- LeafyVegetable
+LeafyVegetable <|-- Arugula
+@enduml

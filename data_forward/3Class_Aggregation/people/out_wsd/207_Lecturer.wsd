@@ -1,0 +1,4 @@
+@startuml
+ComplianceCommittee o-- Lecturer
+CulturalArtMuseum o-- ComplianceCommittee
+@enduml

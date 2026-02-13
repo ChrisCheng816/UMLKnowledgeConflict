@@ -1,0 +1,4 @@
+@startuml
+ElectricalService ..> WallOutlet
+PumpStation ..> ElectricalService
+@enduml

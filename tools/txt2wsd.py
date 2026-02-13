@@ -314,8 +314,6 @@ def run_for_root(
     reverse_flat_wsd_dir: Optional[Path] = None
     if reverse_root is not None:
         reverse_dataset_root = reverse_root / root_dir.name
-        if reverse_dataset_root.exists() and reverse_dataset_root.is_dir():
-            shutil.rmtree(reverse_dataset_root)
         reverse_dataset_root.mkdir(parents=True, exist_ok=True)
 
         if reverse_layout == "flat":
@@ -328,8 +326,6 @@ def run_for_root(
         folder = data_path.parent
         jsonl_path = folder / jsonl_name
         wsd_dir = folder / wsd_subdir_name
-        if wsd_dir.exists() and wsd_dir.is_dir():
-            shutil.rmtree(wsd_dir)
         instances = run_pipeline(
             data_path=data_path,
             jsonl_path=jsonl_path,
@@ -349,8 +345,6 @@ def run_for_root(
                 reverse_folder = reverse_dataset_root / source_subset
                 reverse_jsonl_path = reverse_folder / jsonl_name
                 reverse_wsd_dir = reverse_folder / wsd_subdir_name
-                if reverse_wsd_dir.exists() and reverse_wsd_dir.is_dir():
-                    shutil.rmtree(reverse_wsd_dir)
                 write_jsonl(reverse_local_instances, reverse_jsonl_path)
                 write_wsd_files(reverse_local_instances, reverse_wsd_dir, overwrite=overwrite_wsd)
             else:

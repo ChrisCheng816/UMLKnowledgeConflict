@@ -1,0 +1,4 @@
+@startuml
+DishAntenna ..> SatelliteSignal
+SatelliteTV ..> DishAntenna
+@enduml

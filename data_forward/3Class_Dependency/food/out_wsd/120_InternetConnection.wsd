@@ -1,0 +1,4 @@
+@startuml
+StudentPortal ..> InternetConnection
+OnlineLearning ..> StudentPortal
+@enduml

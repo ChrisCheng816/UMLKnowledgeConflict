@@ -1,0 +1,4 @@
+@startuml
+Freezer ..> Electricity
+FoodPreservation ..> Freezer
+@enduml

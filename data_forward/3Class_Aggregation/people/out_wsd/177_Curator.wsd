@@ -1,0 +1,4 @@
+@startuml
+CuratorTeam o-- Curator
+Museum o-- CuratorTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Battery ..> ElectrochemicalReaction
+TVRemote ..> Battery
+@enduml

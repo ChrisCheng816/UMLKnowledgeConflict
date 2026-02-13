@@ -1,0 +1,4 @@
+@startuml
+GroupOfCrab o-- Crab
+Zoo o-- GroupOfCrab
+@enduml

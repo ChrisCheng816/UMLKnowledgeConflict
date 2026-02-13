@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Sandwich
+Sandwich <|-- VeggieSandwich
+@enduml

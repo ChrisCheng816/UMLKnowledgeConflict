@@ -1,0 +1,4 @@
+@startuml
+HerdOfYak o-- Yak
+Rookery o-- HerdOfYak
+@enduml

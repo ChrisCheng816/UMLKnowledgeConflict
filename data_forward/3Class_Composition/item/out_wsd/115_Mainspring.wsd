@@ -1,0 +1,4 @@
+@startuml
+WatchMovement *-- Mainspring
+MechanicalWatch *-- WatchMovement
+@enduml

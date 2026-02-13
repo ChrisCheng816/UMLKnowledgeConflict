@@ -1,0 +1,4 @@
+@startuml
+WirelessCharger ..> Electricity
+DeviceCharging ..> WirelessCharger
+@enduml

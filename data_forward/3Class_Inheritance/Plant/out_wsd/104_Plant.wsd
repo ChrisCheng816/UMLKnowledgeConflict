@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Succulent
+Succulent <|-- JadePlant
+@enduml

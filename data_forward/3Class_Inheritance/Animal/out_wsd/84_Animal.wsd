@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Reptile
+Reptile <|-- Cobra
+@enduml

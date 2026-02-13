@@ -1,0 +1,4 @@
+@startuml
+Activity <|-- Entertainment
+Entertainment <|-- TVSeries
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+IDE ..> OperatingSystem
+Debugging ..> IDE
+@enduml

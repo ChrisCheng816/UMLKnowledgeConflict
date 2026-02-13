@@ -1,0 +1,4 @@
+@startuml
+MindMapTool ..> OperatingSystem
+Brainstorming ..> MindMapTool
+@enduml

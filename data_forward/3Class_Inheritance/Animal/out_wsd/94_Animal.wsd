@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Fish
+Fish <|-- Shark
+@enduml

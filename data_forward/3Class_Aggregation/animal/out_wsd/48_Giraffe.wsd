@@ -1,0 +1,4 @@
+@startuml
+HerdOfGiraffe o-- Giraffe
+Savanna o-- HerdOfGiraffe
+@enduml

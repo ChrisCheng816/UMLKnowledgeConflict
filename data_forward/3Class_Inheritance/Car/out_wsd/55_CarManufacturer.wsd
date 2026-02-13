@@ -1,0 +1,4 @@
+@startuml
+CarManufacturer <|-- Ford
+Ford <|-- FordBronco
+@enduml

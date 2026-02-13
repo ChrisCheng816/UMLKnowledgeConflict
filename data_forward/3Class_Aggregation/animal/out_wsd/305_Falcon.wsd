@@ -1,0 +1,4 @@
+@startuml
+FlockOfFalcon o-- Falcon
+Beach o-- FlockOfFalcon
+@enduml

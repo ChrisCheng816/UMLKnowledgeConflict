@@ -1,0 +1,4 @@
+@startuml
+RangerTeam o-- ForestRanger
+ForestPark o-- RangerTeam
+@enduml

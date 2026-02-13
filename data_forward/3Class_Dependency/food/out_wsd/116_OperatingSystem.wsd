@@ -1,0 +1,4 @@
+@startuml
+SpreadsheetSoftware ..> OperatingSystem
+SlideEditing ..> SpreadsheetSoftware
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MunicipalWaterMain ..> WaterTreatmentPlant
+Dishwasher ..> MunicipalWaterMain
+@enduml

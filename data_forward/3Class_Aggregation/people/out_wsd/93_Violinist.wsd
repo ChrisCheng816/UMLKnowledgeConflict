@@ -1,0 +1,4 @@
+@startuml
+RehearsalTeam o-- Violinist
+OrchestraAuthority o-- RehearsalTeam
+@enduml

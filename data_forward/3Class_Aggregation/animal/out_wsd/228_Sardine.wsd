@@ -1,0 +1,4 @@
+@startuml
+SchoolOfSardine o-- Sardine
+Valley o-- SchoolOfSardine
+@enduml

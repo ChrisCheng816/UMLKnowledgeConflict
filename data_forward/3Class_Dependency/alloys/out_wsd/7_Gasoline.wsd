@@ -1,0 +1,4 @@
+@startuml
+Car ..> Gasoline
+Commuting ..> Car
+@enduml

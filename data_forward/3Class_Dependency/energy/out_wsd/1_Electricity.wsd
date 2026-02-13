@@ -1,0 +1,4 @@
+@startuml
+3DPrinter ..> Electricity
+CustomParts ..> 3DPrinter
+@enduml

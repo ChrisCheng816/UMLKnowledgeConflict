@@ -1,0 +1,4 @@
+@startuml
+UltrasoundMachine ..> Electricity
+PrenatalCheckup ..> UltrasoundMachine
+@enduml

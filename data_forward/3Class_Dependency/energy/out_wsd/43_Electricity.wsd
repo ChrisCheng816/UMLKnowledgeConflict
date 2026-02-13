@@ -1,0 +1,4 @@
+@startuml
+LaserCutter ..> Electricity
+Engraving ..> LaserCutter
+@enduml

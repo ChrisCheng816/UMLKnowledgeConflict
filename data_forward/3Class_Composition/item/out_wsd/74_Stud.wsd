@@ -1,0 +1,4 @@
+@startuml
+Wall *-- Stud
+Apartment *-- Wall
+@enduml

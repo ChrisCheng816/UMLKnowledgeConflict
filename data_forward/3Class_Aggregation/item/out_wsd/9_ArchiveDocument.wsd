@@ -1,0 +1,4 @@
+@startuml
+ArchiveFolder o-- ArchiveDocument
+LibraryWarehouse o-- ArchiveFolder
+@enduml

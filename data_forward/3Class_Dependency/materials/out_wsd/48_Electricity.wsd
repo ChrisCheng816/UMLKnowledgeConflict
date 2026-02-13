@@ -1,0 +1,4 @@
+@startuml
+ConvectionOven ..> Electricity
+Toasting ..> ConvectionOven
+@enduml

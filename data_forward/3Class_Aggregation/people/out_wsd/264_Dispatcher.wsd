@@ -1,0 +1,4 @@
+@startuml
+FinanceTeam o-- Dispatcher
+EnvironmentalUniversityOffice o-- FinanceTeam
+@enduml

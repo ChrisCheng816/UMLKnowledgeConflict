@@ -1,0 +1,4 @@
+@startuml
+ProductionTeam o-- FilmDirector
+FilmStation o-- ProductionTeam
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HerdOfGazelle o-- Gazelle
+Savanna o-- HerdOfGazelle
+@enduml

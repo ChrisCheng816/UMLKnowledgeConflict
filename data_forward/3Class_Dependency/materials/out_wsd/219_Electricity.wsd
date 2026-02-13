@@ -1,0 +1,4 @@
+@startuml
+TabletCharger ..> Electricity
+PowerSupply ..> TabletCharger
+@enduml

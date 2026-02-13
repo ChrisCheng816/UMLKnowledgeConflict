@@ -1,0 +1,4 @@
+@startuml
+Game <|-- VideoGame
+VideoGame <|-- BattlefieldV
+@enduml

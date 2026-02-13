@@ -1,0 +1,4 @@
+@startuml
+USBCharger ..> WallOutlet
+Tablet ..> USBCharger
+@enduml

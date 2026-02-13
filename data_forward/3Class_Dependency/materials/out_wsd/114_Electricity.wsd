@@ -1,0 +1,4 @@
+@startuml
+HairDryer ..> Electricity
+WarmAir ..> HairDryer
+@enduml

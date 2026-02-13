@@ -1,0 +1,4 @@
+@startuml
+PowerCord ..> WallOutlet
+Monitor ..> PowerCord
+@enduml

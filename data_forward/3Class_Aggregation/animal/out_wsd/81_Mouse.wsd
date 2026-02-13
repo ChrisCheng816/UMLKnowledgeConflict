@@ -1,0 +1,4 @@
+@startuml
+ColonyOfMouse o-- Mouse
+Tundra o-- ColonyOfMouse
+@enduml

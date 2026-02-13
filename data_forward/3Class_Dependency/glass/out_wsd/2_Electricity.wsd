@@ -1,0 +1,4 @@
+@startuml
+Autoclave ..> Electricity
+MedicalSterilization ..> Autoclave
+@enduml

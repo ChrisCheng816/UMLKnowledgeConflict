@@ -1,0 +1,4 @@
+@startuml
+FuelBarge ..> FuelTerminal
+BunkeringPort ..> FuelBarge
+@enduml

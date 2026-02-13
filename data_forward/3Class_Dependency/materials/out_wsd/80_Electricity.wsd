@@ -1,0 +1,4 @@
+@startuml
+EspressoMachine ..> Electricity
+EspressoBrewing ..> EspressoMachine
+@enduml

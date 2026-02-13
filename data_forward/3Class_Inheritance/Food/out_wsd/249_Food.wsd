@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Beverage
+Beverage <|-- Kombucha
+@enduml

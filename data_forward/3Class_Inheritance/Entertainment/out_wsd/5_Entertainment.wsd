@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Game
+Game <|-- TabletopRPG
+@enduml

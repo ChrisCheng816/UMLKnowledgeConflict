@@ -1,0 +1,4 @@
+@startuml
+SwarmOfAphid o-- Aphid
+Lagoon o-- SwarmOfAphid
+@enduml

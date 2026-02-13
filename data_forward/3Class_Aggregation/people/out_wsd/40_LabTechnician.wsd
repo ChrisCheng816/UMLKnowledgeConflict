@@ -1,0 +1,4 @@
+@startuml
+CareTeam o-- LabTechnician
+AquariumStation o-- CareTeam
+@enduml

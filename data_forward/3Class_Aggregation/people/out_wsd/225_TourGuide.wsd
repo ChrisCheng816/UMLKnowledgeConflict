@@ -1,0 +1,4 @@
+@startuml
+PeerReviewCommittee o-- TourGuide
+SecurityNewsAgency o-- PeerReviewCommittee
+@enduml

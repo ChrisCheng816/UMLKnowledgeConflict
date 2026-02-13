@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Mammal
+Mammal <|-- Raccoon
+@enduml

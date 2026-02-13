@@ -1,0 +1,4 @@
+@startuml
+HerdOfSheep o-- Sheep
+Forest o-- HerdOfSheep
+@enduml

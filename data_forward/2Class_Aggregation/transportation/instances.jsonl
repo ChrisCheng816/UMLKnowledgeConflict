@@ -1,0 +1,7 @@
+{"id": "1", "template_id": "aggregation", "nodes": ["MonitoringCenter", "SmartParkingSystem"], "edges": ["SmartParkingSystem o-- MonitoringCenter"]}
+{"id": "2", "template_id": "aggregation", "nodes": ["Inspector", "MonitoringCenter"], "edges": ["MonitoringCenter o-- Inspector"]}
+{"id": "3", "template_id": "aggregation", "nodes": ["PilotTeam", "PortAuthority"], "edges": ["PortAuthority o-- PilotTeam"]}
+{"id": "4", "template_id": "aggregation", "nodes": ["MovingCrew", "MovingCompany"], "edges": ["MovingCompany o-- MovingCrew"]}
+{"id": "5", "template_id": "aggregation", "nodes": ["Mover", "MovingCrew"], "edges": ["MovingCrew o-- Mover"]}
+{"id": "6", "template_id": "aggregation", "nodes": ["LockerUnit", "ParcelLocker"], "edges": ["ParcelLocker o-- LockerUnit"]}
+{"id": "7", "template_id": "aggregation", "nodes": ["Parcel", "LockerUnit"], "edges": ["LockerUnit o-- Parcel"]}

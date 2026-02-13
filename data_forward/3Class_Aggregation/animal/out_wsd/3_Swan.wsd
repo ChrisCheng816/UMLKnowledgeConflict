@@ -1,0 +1,4 @@
+@startuml
+FlockOfSwan o-- Swan
+Sanctuary o-- FlockOfSwan
+@enduml

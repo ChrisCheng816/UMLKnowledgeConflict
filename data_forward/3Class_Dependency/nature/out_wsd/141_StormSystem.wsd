@@ -1,0 +1,4 @@
+@startuml
+Rainfall ..> StormSystem
+RiverRise ..> Rainfall
+@enduml

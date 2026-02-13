@@ -1,0 +1,4 @@
+@startuml
+WildlifeCareTeam o-- Drafter
+AgriculturalMusicAcademy o-- WildlifeCareTeam
+@enduml

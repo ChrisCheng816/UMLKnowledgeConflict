@@ -1,0 +1,4 @@
+@startuml
+Radio ..> RadioNetwork
+WeatherUpdate ..> Radio
+@enduml

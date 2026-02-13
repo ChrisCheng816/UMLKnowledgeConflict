@@ -1,0 +1,4 @@
+@startuml
+CyclingSport <|-- TrackCycling
+TrackCycling <|-- Omnium
+@enduml

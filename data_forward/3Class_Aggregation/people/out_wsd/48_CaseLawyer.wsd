@@ -1,0 +1,4 @@
+@startuml
+CaseTeam o-- CaseLawyer
+CountyOffice o-- CaseTeam
+@enduml

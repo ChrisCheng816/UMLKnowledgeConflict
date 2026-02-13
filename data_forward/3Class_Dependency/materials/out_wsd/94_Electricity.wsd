@@ -1,0 +1,4 @@
+@startuml
+GameConsole ..> Electricity
+MusicPlayback ..> GameConsole
+@enduml
