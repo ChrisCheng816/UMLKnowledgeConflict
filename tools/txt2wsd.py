@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import shutil
 from dataclasses import dataclass
 from pathlib import Path
@@ -174,6 +175,37 @@ def safe_filename(name: str) -> str:
     return s or "unnamed"
 
 
+def safe_unlink(path: Path) -> bool:
+    """
+    Best-effort delete for files that may be read-only on Windows.
+    """
+    try:
+        path.unlink()
+    except PermissionError:
+        try:
+            os.chmod(path, 0o666)
+            path.unlink()
+        except OSError as exc:
+            return False
+    except FileNotFoundError:
+        return True
+    return True
+
+
+def clear_wsd_files(out_dir: Path) -> None:
+    """
+    Remove existing .wsd files under out_dir before regeneration.
+    """
+    if not out_dir.exists():
+        return
+    failed = 0
+    for stale in out_dir.glob("*.wsd"):
+        if not safe_unlink(stale):
+            failed += 1
+    if failed:
+        print(f"[WARN] failed to remove {failed} stale .wsd files under {out_dir}")
+
+
 def write_wsd_files(instances: List[Instance], out_dir: Path, overwrite: bool) -> None:
     """
     Generate one .wsd file per instance.
@@ -190,6 +222,8 @@ def write_wsd_files(instances: List[Instance], out_dir: Path, overwrite: bool) -
       @enduml
     """
     out_dir.mkdir(parents=True, exist_ok=True)
+    if overwrite:
+        clear_wsd_files(out_dir)
 
     for i, inst in enumerate(instances):
         if not inst.nodes:
@@ -287,6 +321,53 @@ def find_all_data_txt(root_dir: Path) -> List[Path]:
     return results
 
 
+def remove_empty_parents(start_dir: Path, stop_dir: Path) -> None:
+    """
+    Remove empty folders upwards until stop_dir (exclusive).
+    """
+    cur = start_dir
+    while cur != stop_dir and cur.exists():
+        try:
+            next(cur.iterdir())
+            break
+        except StopIteration:
+            cur.rmdir()
+            cur = cur.parent
+
+
+def prune_mirror_generated_layout(
+    mirror_root: Path,
+    expected_rel_dirs: set[Path],
+    wsd_subdir_name: str,
+    jsonl_name: str,
+) -> None:
+    """
+    Keep mirror generated layout aligned with source data.txt folders.
+
+    What gets pruned
+    - all mirror data.txt files (mirror side should only keep generated outputs)
+    - mirror/<subset>/instances.jsonl when <subset> is no longer present in source
+    - mirror/<subset>/out_wsd when <subset> is no longer present in source
+    """
+    for data_file in sorted(p for p in mirror_root.rglob("data.txt") if p.is_file()):
+        safe_unlink(data_file)
+        remove_empty_parents(data_file.parent, mirror_root)
+
+    for jsonl_file in sorted(p for p in mirror_root.rglob(jsonl_name) if p.is_file()):
+        if jsonl_file == mirror_root / jsonl_name:
+            continue
+        rel_parent = jsonl_file.parent.relative_to(mirror_root)
+        if rel_parent not in expected_rel_dirs:
+            safe_unlink(jsonl_file)
+            remove_empty_parents(jsonl_file.parent, mirror_root)
+
+    for wsd_dir in sorted(p for p in mirror_root.rglob(wsd_subdir_name) if p.is_dir()):
+        rel_parent = wsd_dir.parent.relative_to(mirror_root)
+        if rel_parent not in expected_rel_dirs:
+            shutil.rmtree(wsd_dir, ignore_errors=True)
+            remove_empty_parents(wsd_dir.parent, mirror_root)
+
+
 def run_for_root(
     root_dir: Path,
     template_id: str,
@@ -322,6 +403,15 @@ def run_for_root(
         elif reverse_layout != "mirror":
             raise ValueError(f"Unsupported reverse_layout: {reverse_layout}")
 
+    expected_rel_dirs = set(p.parent.relative_to(root_dir) for p in data_files)
+    if reverse_dataset_root is not None and reverse_layout == "mirror":
+        prune_mirror_generated_layout(
+            mirror_root=reverse_dataset_root,
+            expected_rel_dirs=expected_rel_dirs,
+            wsd_subdir_name=wsd_subdir_name,
+            jsonl_name=jsonl_name,
+        )
+
     for data_path in data_files:
         folder = data_path.parent
         jsonl_path = folder / jsonl_name
@@ -345,6 +435,8 @@ def run_for_root(
                 reverse_folder = reverse_dataset_root / source_subset
                 reverse_jsonl_path = reverse_folder / jsonl_name
                 reverse_wsd_dir = reverse_folder / wsd_subdir_name
+                if overwrite_wsd and reverse_wsd_dir.exists():
+                    shutil.rmtree(reverse_wsd_dir, ignore_errors=True)
                 write_jsonl(reverse_local_instances, reverse_jsonl_path)
                 write_wsd_files(reverse_local_instances, reverse_wsd_dir, overwrite=overwrite_wsd)
             else:
@@ -395,7 +487,6 @@ def run_for_root(
 if __name__ == "__main__":
     """
     Default usage
-    - root directory is ./Nagetive
     - for each subfolder containing data.txt:
       write instances.jsonl in that folder
       write .wsd files into that folder's out_wsd subfolder
@@ -419,18 +510,23 @@ if __name__ == "__main__":
     project_root = Path(__file__).resolve().parent.parent
 
     # Preferred new layout.
-    # One side is treated as forward source (contains data.txt), and the other side
-    # receives mirror-structured reverse outputs.
+    # Always prefer data_reverse as source when it has data.txt.
+    # The opposite side receives mirror-structured outputs.
     base_forward = project_root / "data_forward"
     base_reverse = project_root / "data_reverse"
 
-    source_base = base_forward
-    reverse_base = base_reverse
-    if not any(base_forward.rglob("data.txt")) and any(base_reverse.rglob("data.txt")):
+    reverse_has_data = base_reverse.exists() and any(base_reverse.rglob("data.txt"))
+    forward_has_data = base_forward.exists() and any(base_forward.rglob("data.txt"))
+
+    if reverse_has_data:
         source_base = base_reverse
         reverse_base = base_forward
+    else:
+        source_base = base_forward
+        reverse_base = base_reverse
 
-    if source_base.exists() and reverse_base.exists():
+    if source_base.exists():
+        reverse_base.mkdir(parents=True, exist_ok=True)
         print(f"[INFO] source_base={source_base} reverse_base={reverse_base}")
         for dataset_name, template_id in dataset_specs:
             root_dir = source_base / dataset_name
