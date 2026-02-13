@@ -1,4 +1,0 @@
-@startuml
-NewsWebsite ..> InternetConnection
-InformationLookup ..> NewsWebsite
-@enduml

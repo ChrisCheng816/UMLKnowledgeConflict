@@ -1,4 +1,0 @@
-@startuml
-CloudStorage ..> InternetConnection
-DeviceSync ..> CloudStorage
-@enduml

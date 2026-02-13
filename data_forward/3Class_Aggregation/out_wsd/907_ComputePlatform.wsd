@@ -1,4 +1,0 @@
-@startuml
-ComputePool o-- TaskTicket
-ComputePlatform o-- ComputePool
-@enduml

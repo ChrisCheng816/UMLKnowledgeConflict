@@ -1,4 +1,0 @@
-@startuml
-EmailClient ..> OperatingSystem
-MailboxManagement ..> EmailClient
-@enduml

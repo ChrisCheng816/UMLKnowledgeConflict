@@ -1,4 +1,0 @@
-@startuml
-DatabaseServer ..> OperatingSystem
-CustomerDatabase ..> DatabaseServer
-@enduml

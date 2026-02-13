@@ -1,4 +1,0 @@
-@startuml
-BloodPressureMonitor ..> BatteryPower
-GlucoseCheck ..> BloodPressureMonitor
-@enduml

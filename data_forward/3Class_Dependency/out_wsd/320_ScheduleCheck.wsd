@@ -1,4 +1,0 @@
-@startuml
-RestaurantReservation ..> InternetConnection
-ScheduleCheck ..> RestaurantReservation
-@enduml

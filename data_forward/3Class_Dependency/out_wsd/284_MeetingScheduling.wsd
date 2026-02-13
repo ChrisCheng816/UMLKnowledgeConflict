@@ -1,4 +1,0 @@
-@startuml
-OnlineCalendar ..> InternetConnection
-MeetingScheduling ..> OnlineCalendar
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-DoorSensor ..> Electricity
-MotionDetection ..> DoorSensor
-@enduml

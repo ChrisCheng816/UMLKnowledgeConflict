@@ -16,10 +16,6 @@ N = 1
 LOGGER.setLevel(logging.ERROR)
 logging.getLogger("ultralytics").setLevel(logging.ERROR)
 
-
-def to_png(n, width=6, ext="png", dataset=0):
-    return f"{MAPPING_DATASET[dataset]}/{int(n):0{width}d}.{ext}"
-
 def load_model(model_name):
     processor = AutoProcessor.from_pretrained(model_name)
     llm = LLM(

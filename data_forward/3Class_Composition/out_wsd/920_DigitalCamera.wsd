@@ -1,4 +1,0 @@
-@startuml
-CameraModule *-- Aperture
-DigitalCamera *-- CameraModule
-@enduml

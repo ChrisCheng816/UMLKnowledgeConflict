@@ -1,4 +1,0 @@
-@startuml
-GPSReceiver ..> GPSSatellite
-LocationTracking ..> GPSReceiver
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-OnlinePayment ..> InternetConnection
-BillPayment ..> OnlinePayment
-@enduml

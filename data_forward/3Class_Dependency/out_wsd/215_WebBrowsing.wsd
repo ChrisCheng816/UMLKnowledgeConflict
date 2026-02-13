@@ -1,4 +1,0 @@
-@startuml
-WiFiNetwork ..> InternetConnection
-WebBrowsing ..> WiFiNetwork
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-FileTransfer ..> InternetConnection
-SoftwareUpdate ..> FileTransfer
-@enduml

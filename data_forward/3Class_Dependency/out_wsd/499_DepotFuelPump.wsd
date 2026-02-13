@@ -1,4 +1,0 @@
-@startuml
-FuelDeliveryTruck ..> FuelTerminal
-DepotFuelPump ..> FuelDeliveryTruck
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-FileTransfer ..> InternetConnection
-LargeDownload ..> FileTransfer
-@enduml

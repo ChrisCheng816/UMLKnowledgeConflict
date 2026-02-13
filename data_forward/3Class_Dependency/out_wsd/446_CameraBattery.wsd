@@ -1,4 +1,0 @@
-@startuml
-BatteryCharger ..> WallOutlet
-CameraBattery ..> BatteryCharger
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-CICDService ..> InternetConnection
-CodeHosting ..> CICDService
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-FlightBooking ..> InternetConnection
-OnlineBooking ..> FlightBooking
-@enduml

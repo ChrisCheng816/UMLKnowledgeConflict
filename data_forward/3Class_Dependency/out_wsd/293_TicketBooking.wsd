@@ -1,4 +1,0 @@
-@startuml
-PaymentGateway ..> InternetConnection
-TicketBooking ..> PaymentGateway
-@enduml

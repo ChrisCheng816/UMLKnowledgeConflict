@@ -1,4 +1,0 @@
-@startuml
-InstantMessagingApp ..> InternetConnection
-TeamCoordination ..> InstantMessagingApp
-@enduml

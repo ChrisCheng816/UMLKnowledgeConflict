@@ -1,4 +1,0 @@
-@startuml
-FoodDeliveryApp ..> InternetConnection
-MealDelivery ..> FoodDeliveryApp
-@enduml

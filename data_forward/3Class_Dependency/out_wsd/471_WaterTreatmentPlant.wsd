@@ -1,4 +1,0 @@
-@startuml
-RawWaterIntake ..> Reservoir
-WaterTreatmentPlant ..> RawWaterIntake
-@enduml

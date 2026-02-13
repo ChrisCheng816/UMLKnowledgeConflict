@@ -1,4 +1,0 @@
-@startuml
-VideoConferencingApp ..> InternetConnection
-RemoteMeeting ..> VideoConferencingApp
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-AppointmentBooking ..> InternetConnection
-OnlineBooking ..> AppointmentBooking
-@enduml
