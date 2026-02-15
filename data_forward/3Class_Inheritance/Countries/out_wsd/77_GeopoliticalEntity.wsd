@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- FrenchSouthernTerritories
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- FrenchSouthernTerritories : inherits
 @enduml

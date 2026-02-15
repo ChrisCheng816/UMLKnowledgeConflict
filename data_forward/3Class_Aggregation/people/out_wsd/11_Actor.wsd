@@ -1,4 +1,4 @@
 @startuml
-ParticipatingCrew o-- Actor
-FilmFestival o-- ParticipatingCrew
+ParticipatingCrew o-- Actor : aggregates
+FilmFestival o-- ParticipatingCrew : aggregates
 @enduml

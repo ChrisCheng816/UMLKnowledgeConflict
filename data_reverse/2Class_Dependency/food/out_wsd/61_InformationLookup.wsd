@@ -1,3 +1,3 @@
 @startuml
-JobPortal ..> InformationLookup
+JobPortal ..> InformationLookup : depends on
 @enduml

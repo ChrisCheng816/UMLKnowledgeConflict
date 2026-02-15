@@ -1,4 +1,4 @@
 @startuml
-DialysisMachine ..> BloodFiltration
-Electricity ..> DialysisMachine
+DialysisMachine ..> BloodFiltration : depends on
+Electricity ..> DialysisMachine : depends on
 @enduml

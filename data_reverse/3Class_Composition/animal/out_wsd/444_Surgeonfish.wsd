@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Surgeonfish
-Ray *-- Fin
+Fin *-- Surgeonfish : composes
+Ray *-- Fin : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfJay o-- Hatchery
-Jay o-- FlockOfJay
+FlockOfJay o-- Hatchery : aggregates
+Jay o-- FlockOfJay : aggregates
 @enduml

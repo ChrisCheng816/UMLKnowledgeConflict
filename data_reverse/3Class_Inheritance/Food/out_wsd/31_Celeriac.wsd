@@ -1,4 +1,4 @@
 @startuml
-Celeriac <|-- RootVegetable
-RootVegetable <|-- Vegetable
+Celeriac <|-- RootVegetable : inherits
+RootVegetable <|-- Vegetable : inherits
 @enduml

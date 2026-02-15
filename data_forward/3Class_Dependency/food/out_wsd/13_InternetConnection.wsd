@@ -1,4 +1,4 @@
 @startuml
-CloudStorage ..> InternetConnection
-DeviceSync ..> CloudStorage
+CloudStorage ..> InternetConnection : depends on
+DeviceSync ..> CloudStorage : depends on
 @enduml

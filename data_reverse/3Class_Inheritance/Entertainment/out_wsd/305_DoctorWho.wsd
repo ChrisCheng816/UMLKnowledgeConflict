@@ -1,4 +1,4 @@
 @startuml
-DoctorWho <|-- TVSeries
-TVSeries <|-- Entertainment
+DoctorWho <|-- TVSeries : inherits
+TVSeries <|-- Entertainment : inherits
 @enduml

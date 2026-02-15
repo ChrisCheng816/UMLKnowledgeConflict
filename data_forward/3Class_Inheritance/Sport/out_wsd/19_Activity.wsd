@@ -1,4 +1,4 @@
 @startuml
-Activity <|-- Sport
-Sport <|-- Rowing
+Activity <|-- Sport : inherits
+Sport <|-- Rowing : inherits
 @enduml

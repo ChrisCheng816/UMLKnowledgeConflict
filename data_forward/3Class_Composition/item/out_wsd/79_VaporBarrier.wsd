@@ -1,4 +1,4 @@
 @startuml
-Wall *-- VaporBarrier
-House *-- Wall
+Wall *-- VaporBarrier : composes
+House *-- Wall : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CreativeTeam o-- MarketingAgency
-Illustrator o-- CreativeTeam
+CreativeTeam o-- MarketingAgency : aggregates
+Illustrator o-- CreativeTeam : aggregates
 @enduml

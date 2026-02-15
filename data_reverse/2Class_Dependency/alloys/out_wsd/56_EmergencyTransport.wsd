@@ -1,3 +1,3 @@
 @startuml
-Helicopter ..> EmergencyTransport
+Helicopter ..> EmergencyTransport : depends on
 @enduml

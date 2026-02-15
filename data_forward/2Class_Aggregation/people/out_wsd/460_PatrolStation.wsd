@@ -1,3 +1,3 @@
 @startuml
-NatureReserve o-- PatrolStation
+NatureReserve o-- PatrolStation : aggregates
 @enduml

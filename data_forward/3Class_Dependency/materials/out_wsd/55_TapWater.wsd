@@ -1,4 +1,4 @@
 @startuml
-Dishwasher ..> TapWater
-Dishwashing ..> Dishwasher
+Dishwasher ..> TapWater : depends on
+Dishwashing ..> Dishwasher : depends on
 @enduml

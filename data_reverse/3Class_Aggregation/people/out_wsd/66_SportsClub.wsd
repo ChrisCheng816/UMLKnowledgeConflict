@@ -1,4 +1,4 @@
 @startuml
-CyclingTeam o-- SportsClub
-Cyclist o-- CyclingTeam
+CyclingTeam o-- SportsClub : aggregates
+Cyclist o-- CyclingTeam : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Cougar
-Nostril *-- Nose
+Nose *-- Cougar : composes
+Nostril *-- Nose : composes
 @enduml

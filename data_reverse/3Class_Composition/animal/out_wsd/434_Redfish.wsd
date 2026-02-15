@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Redfish
-Ray *-- Fin
+Fin *-- Redfish : composes
+Ray *-- Fin : composes
 @enduml

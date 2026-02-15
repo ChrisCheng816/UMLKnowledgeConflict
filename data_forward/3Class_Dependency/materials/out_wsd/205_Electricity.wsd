@@ -1,4 +1,4 @@
 @startuml
-StandMixer ..> Electricity
-Kneading ..> StandMixer
+StandMixer ..> Electricity : depends on
+Kneading ..> StandMixer : depends on
 @enduml

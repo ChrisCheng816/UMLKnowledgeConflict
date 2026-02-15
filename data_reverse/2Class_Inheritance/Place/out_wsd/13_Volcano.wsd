@@ -1,3 +1,3 @@
 @startuml
-Volcano <|-- GeographicFeature
+Volcano <|-- GeographicFeature : inherits
 @enduml

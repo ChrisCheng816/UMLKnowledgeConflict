@@ -1,3 +1,3 @@
 @startuml
-Mascarpone *-- Milk
+Mascarpone *-- Milk : composes
 @enduml

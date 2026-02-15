@@ -1,3 +1,3 @@
 @startuml
-Tooth *-- Mule
+Tooth *-- Mule : composes
 @enduml

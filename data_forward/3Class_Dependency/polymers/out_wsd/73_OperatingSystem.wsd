@@ -1,4 +1,4 @@
 @startuml
-MindMapTool ..> OperatingSystem
-Brainstorming ..> MindMapTool
+MindMapTool ..> OperatingSystem : depends on
+Brainstorming ..> MindMapTool : depends on
 @enduml

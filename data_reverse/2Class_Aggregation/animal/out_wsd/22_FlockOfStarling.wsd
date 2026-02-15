@@ -1,3 +1,3 @@
 @startuml
-Starling o-- FlockOfStarling
+Starling o-- FlockOfStarling : aggregates
 @enduml

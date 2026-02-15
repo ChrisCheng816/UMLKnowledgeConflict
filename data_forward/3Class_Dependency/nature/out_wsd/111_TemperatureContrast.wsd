@@ -1,4 +1,4 @@
 @startuml
-PressureGradient ..> TemperatureContrast
-WindShear ..> PressureGradient
+PressureGradient ..> TemperatureContrast : depends on
+WindShear ..> PressureGradient : depends on
 @enduml

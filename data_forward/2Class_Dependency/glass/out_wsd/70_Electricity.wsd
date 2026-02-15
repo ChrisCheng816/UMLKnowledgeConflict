@@ -1,3 +1,3 @@
 @startuml
-RadiationTherapySystem ..> Electricity
+RadiationTherapySystem ..> Electricity : depends on
 @enduml

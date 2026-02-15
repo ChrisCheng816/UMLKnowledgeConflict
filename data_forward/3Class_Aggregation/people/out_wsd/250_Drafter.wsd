@@ -1,4 +1,4 @@
 @startuml
-WildlifeCareTeam o-- Drafter
-AgriculturalMusicAcademy o-- WildlifeCareTeam
+WildlifeCareTeam o-- Drafter : aggregates
+AgriculturalMusicAcademy o-- WildlifeCareTeam : aggregates
 @enduml

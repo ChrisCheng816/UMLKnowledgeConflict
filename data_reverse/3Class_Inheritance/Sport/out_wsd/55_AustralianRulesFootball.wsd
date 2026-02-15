@@ -1,4 +1,4 @@
 @startuml
-AustralianRulesFootball <|-- TeamSport
-TeamSport <|-- Sport
+AustralianRulesFootball <|-- TeamSport : inherits
+TeamSport <|-- Sport : inherits
 @enduml

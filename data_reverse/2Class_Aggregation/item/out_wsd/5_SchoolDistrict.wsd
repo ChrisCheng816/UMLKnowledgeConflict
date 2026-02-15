@@ -1,3 +1,3 @@
 @startuml
-School o-- SchoolDistrict
+School o-- SchoolDistrict : aggregates
 @enduml

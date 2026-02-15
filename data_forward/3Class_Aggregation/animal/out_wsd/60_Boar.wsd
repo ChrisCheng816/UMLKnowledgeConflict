@@ -1,4 +1,4 @@
 @startuml
-HerdOfBoar o-- Boar
-Forest o-- HerdOfBoar
+HerdOfBoar o-- Boar : aggregates
+Forest o-- HerdOfBoar : aggregates
 @enduml

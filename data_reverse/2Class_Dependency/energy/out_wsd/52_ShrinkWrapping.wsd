@@ -1,3 +1,3 @@
 @startuml
-HeatGun ..> ShrinkWrapping
+HeatGun ..> ShrinkWrapping : depends on
 @enduml

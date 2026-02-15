@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> BenchGrinder
+Electricity ..> BenchGrinder : depends on
 @enduml

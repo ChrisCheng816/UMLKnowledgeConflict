@@ -1,4 +1,4 @@
 @startuml
-FlockOfTern o-- Tern
-Coast o-- FlockOfTern
+FlockOfTern o-- Tern : aggregates
+Coast o-- FlockOfTern : aggregates
 @enduml

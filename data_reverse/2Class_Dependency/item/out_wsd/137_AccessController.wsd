@@ -1,3 +1,3 @@
 @startuml
-WallOutlet ..> AccessController
+WallOutlet ..> AccessController : depends on
 @enduml

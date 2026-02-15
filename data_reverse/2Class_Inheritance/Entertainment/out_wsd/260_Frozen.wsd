@@ -1,3 +1,3 @@
 @startuml
-Frozen <|-- Film
+Frozen <|-- Film : inherits
 @enduml

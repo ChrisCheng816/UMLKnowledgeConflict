@@ -1,4 +1,4 @@
 @startuml
-NestOfGecko o-- Plateau
-Gecko o-- NestOfGecko
+NestOfGecko o-- Plateau : aggregates
+Gecko o-- NestOfGecko : aggregates
 @enduml

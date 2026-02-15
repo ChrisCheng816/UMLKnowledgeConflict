@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens
-GreenAnole *-- Eye
+Eye *-- Lens : composes
+GreenAnole *-- Eye : composes
 @enduml

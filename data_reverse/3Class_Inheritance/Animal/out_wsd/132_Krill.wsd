@@ -1,4 +1,4 @@
 @startuml
-Krill <|-- Crustacean
-Crustacean <|-- Animal
+Krill <|-- Crustacean : inherits
+Crustacean <|-- Animal : inherits
 @enduml

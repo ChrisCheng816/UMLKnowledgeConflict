@@ -1,4 +1,4 @@
 @startuml
-EnsembleGroup o-- MusicAcademy
-Cellist o-- EnsembleGroup
+EnsembleGroup o-- MusicAcademy : aggregates
+Cellist o-- EnsembleGroup : aggregates
 @enduml

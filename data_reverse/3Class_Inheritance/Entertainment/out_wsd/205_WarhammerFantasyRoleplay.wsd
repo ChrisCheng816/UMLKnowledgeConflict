@@ -1,4 +1,4 @@
 @startuml
-WarhammerFantasyRoleplay <|-- TabletopRPG
-TabletopRPG <|-- Game
+WarhammerFantasyRoleplay <|-- TabletopRPG : inherits
+TabletopRPG <|-- Game : inherits
 @enduml

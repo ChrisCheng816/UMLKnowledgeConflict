@@ -1,4 +1,4 @@
 @startuml
-FlockOfDuck o-- Zoo
-Duck o-- FlockOfDuck
+FlockOfDuck o-- Zoo : aggregates
+Duck o-- FlockOfDuck : aggregates
 @enduml

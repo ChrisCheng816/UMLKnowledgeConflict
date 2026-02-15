@@ -1,3 +1,3 @@
 @startuml
-SchoolOfPike o-- Barn
+SchoolOfPike o-- Barn : aggregates
 @enduml

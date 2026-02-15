@@ -1,3 +1,3 @@
 @startuml
-FlockOfStarling o-- Reserve
+FlockOfStarling o-- Reserve : aggregates
 @enduml

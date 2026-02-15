@@ -1,4 +1,4 @@
 @startuml
-RollingInTheDeep <|-- Song
-Song <|-- MusicWork
+RollingInTheDeep <|-- Song : inherits
+Song <|-- MusicWork : inherits
 @enduml

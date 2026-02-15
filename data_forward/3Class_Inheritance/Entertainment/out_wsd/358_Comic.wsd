@@ -1,4 +1,4 @@
 @startuml
-Comic <|-- Manga
-Manga <|-- JoJosBizarreAdventure
+Comic <|-- Manga : inherits
+Manga <|-- JoJosBizarreAdventure : inherits
 @enduml

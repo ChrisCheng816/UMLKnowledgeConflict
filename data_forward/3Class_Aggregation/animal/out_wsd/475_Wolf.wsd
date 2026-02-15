@@ -1,4 +1,4 @@
 @startuml
-PackOfWolf o-- Wolf
-Harbor o-- PackOfWolf
+PackOfWolf o-- Wolf : aggregates
+Harbor o-- PackOfWolf : aggregates
 @enduml

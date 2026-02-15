@@ -1,4 +1,4 @@
 @startuml
-CommunicationSatellite ..> GroundStation
-SatelliteSignal ..> CommunicationSatellite
+CommunicationSatellite ..> GroundStation : depends on
+SatelliteSignal ..> CommunicationSatellite : depends on
 @enduml

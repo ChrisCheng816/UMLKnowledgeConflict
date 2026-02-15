@@ -1,4 +1,4 @@
 @startuml
-BurkinaFaso <|-- Country
-Country <|-- GeopoliticalEntity
+BurkinaFaso <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-WaveEnergy ..> CoastalErosion
-Wind ..> WaveEnergy
+WaveEnergy ..> CoastalErosion : depends on
+Wind ..> WaveEnergy : depends on
 @enduml

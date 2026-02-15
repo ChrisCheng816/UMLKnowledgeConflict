@@ -1,4 +1,4 @@
 @startuml
-CeilingFan ..> Electricity
-Ventilation ..> CeilingFan
+CeilingFan ..> Electricity : depends on
+Ventilation ..> CeilingFan : depends on
 @enduml

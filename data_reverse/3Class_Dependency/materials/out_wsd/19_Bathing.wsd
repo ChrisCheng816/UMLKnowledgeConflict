@@ -1,4 +1,4 @@
 @startuml
-BathTub ..> Bathing
-HotWater ..> BathTub
+BathTub ..> Bathing : depends on
+HotWater ..> BathTub : depends on
 @enduml

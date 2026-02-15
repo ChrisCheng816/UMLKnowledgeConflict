@@ -1,3 +1,3 @@
 @startuml
-Thundercloud ..> StormSystem
+Thundercloud ..> StormSystem : depends on
 @enduml

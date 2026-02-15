@@ -1,3 +1,3 @@
 @startuml
-HotAirStation ..> Heating
+HotAirStation ..> Heating : depends on
 @enduml

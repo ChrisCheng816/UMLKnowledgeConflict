@@ -1,4 +1,4 @@
 @startuml
-Terminator2JudgmentDay <|-- Film
-Film <|-- Entertainment
+Terminator2JudgmentDay <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

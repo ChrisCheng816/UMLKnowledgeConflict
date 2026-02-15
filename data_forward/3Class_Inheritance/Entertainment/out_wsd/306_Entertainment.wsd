@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries
-TVSeries <|-- TheCrown
+Entertainment <|-- TVSeries : inherits
+TVSeries <|-- TheCrown : inherits
 @enduml

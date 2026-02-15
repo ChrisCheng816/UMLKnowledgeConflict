@@ -1,4 +1,4 @@
 @startuml
-AntiguaandBarbuda <|-- Country
-Country <|-- GeopoliticalEntity
+AntiguaandBarbuda <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

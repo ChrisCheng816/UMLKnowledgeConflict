@@ -1,4 +1,4 @@
 @startuml
-Daikon <|-- RootVegetable
-RootVegetable <|-- Vegetable
+Daikon <|-- RootVegetable : inherits
+RootVegetable <|-- Vegetable : inherits
 @enduml

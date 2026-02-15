@@ -1,4 +1,4 @@
 @startuml
-Crate o-- CoffeeBean
-FilmStore o-- Crate
+Crate o-- CoffeeBean : aggregates
+FilmStore o-- Crate : aggregates
 @enduml

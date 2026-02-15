@@ -1,4 +1,4 @@
 @startuml
-TapWater ..> MunicipalWaterMain
-Humidifier ..> TapWater
+TapWater ..> MunicipalWaterMain : depends on
+Humidifier ..> TapWater : depends on
 @enduml

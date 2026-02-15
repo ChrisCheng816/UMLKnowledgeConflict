@@ -1,4 +1,4 @@
 @startuml
-Butter *-- Milk
-FettuccineAlfredo *-- Butter
+Butter *-- Milk : composes
+FettuccineAlfredo *-- Butter : composes
 @enduml

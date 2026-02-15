@@ -1,3 +1,3 @@
 @startuml
-UtilityMeter ..> DistributionLine
+UtilityMeter ..> DistributionLine : depends on
 @enduml

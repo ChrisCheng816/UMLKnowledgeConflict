@@ -1,3 +1,3 @@
 @startuml
-Germination ..> PlantGrowth
+Germination ..> PlantGrowth : depends on
 @enduml

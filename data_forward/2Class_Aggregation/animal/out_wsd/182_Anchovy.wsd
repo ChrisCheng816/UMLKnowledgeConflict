@@ -1,3 +1,3 @@
 @startuml
-SchoolOfAnchovy o-- Anchovy
+SchoolOfAnchovy o-- Anchovy : aggregates
 @enduml

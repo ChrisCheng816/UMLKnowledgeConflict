@@ -1,3 +1,3 @@
 @startuml
-RefractiveIndexContrast ..> TotalInternalReflection
+RefractiveIndexContrast ..> TotalInternalReflection : depends on
 @enduml

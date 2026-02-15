@@ -1,4 +1,4 @@
 @startuml
-SchindlersList <|-- Film
-Film <|-- Entertainment
+SchindlersList <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

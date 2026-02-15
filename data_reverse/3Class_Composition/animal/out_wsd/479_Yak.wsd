@@ -1,4 +1,4 @@
 @startuml
-Hoof *-- Yak
-Sole *-- Hoof
+Hoof *-- Yak : composes
+Sole *-- Hoof : composes
 @enduml

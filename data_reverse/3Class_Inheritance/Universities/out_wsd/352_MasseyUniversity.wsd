@@ -1,4 +1,4 @@
 @startuml
-MasseyUniversity <|-- University
-University <|-- EducationalInstitution
+MasseyUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Artist <|-- Musician
+Artist <|-- Musician : inherits
 @enduml

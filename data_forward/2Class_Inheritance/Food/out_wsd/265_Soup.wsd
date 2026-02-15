@@ -1,3 +1,3 @@
 @startuml
-Soup <|-- Gazpacho
+Soup <|-- Gazpacho : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-CommunityForum ..> GroupChat
+CommunityForum ..> GroupChat : depends on
 @enduml

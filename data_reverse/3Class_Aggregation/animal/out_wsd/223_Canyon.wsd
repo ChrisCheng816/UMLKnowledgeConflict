@@ -1,4 +1,4 @@
 @startuml
-ColonyOfKangaroo o-- Canyon
-Kangaroo o-- ColonyOfKangaroo
+ColonyOfKangaroo o-- Canyon : aggregates
+Kangaroo o-- ColonyOfKangaroo : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Pollen ..> Stamen
-AllergicRhinitis ..> Pollen
+Pollen ..> Stamen : depends on
+AllergicRhinitis ..> Pollen : depends on
 @enduml

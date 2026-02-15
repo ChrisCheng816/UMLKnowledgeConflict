@@ -1,4 +1,4 @@
 @startuml
-TokyoGhoul <|-- Manga
-Manga <|-- Comic
+TokyoGhoul <|-- Manga : inherits
+Manga <|-- Comic : inherits
 @enduml

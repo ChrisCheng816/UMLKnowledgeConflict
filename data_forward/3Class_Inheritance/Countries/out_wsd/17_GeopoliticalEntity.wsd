@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Bahrain
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- Bahrain : inherits
 @enduml

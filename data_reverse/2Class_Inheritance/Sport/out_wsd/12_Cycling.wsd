@@ -1,3 +1,3 @@
 @startuml
-Cycling <|-- Sport
+Cycling <|-- Sport : inherits
 @enduml

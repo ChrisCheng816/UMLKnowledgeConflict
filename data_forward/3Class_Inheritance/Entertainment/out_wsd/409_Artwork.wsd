@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- TheLastSupper
+Artwork <|-- Painting : inherits
+Painting <|-- TheLastSupper : inherits
 @enduml

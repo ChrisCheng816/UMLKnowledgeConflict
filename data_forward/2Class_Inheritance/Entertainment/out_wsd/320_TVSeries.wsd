@@ -1,3 +1,3 @@
 @startuml
-TVSeries <|-- Dexter
+TVSeries <|-- Dexter : inherits
 @enduml

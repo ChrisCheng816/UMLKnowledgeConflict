@@ -1,4 +1,4 @@
 @startuml
-DeathNoteManga <|-- Manga
-Manga <|-- Comic
+DeathNoteManga <|-- Manga : inherits
+Manga <|-- Comic : inherits
 @enduml

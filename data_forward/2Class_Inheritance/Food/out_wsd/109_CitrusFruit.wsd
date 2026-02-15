@@ -1,3 +1,3 @@
 @startuml
-CitrusFruit <|-- Pomelo
+CitrusFruit <|-- Pomelo : inherits
 @enduml

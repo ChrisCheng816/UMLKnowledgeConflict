@@ -1,3 +1,3 @@
 @startuml
-TheMandalorian <|-- TVSeries
+TheMandalorian <|-- TVSeries : inherits
 @enduml

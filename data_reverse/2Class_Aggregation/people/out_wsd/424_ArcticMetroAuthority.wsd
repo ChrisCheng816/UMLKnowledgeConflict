@@ -1,3 +1,3 @@
 @startuml
-PatrolTeam o-- ArcticMetroAuthority
+PatrolTeam o-- ArcticMetroAuthority : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfLark o-- Lark
-Pond o-- FlockOfLark
+FlockOfLark o-- Lark : aggregates
+Pond o-- FlockOfLark : aggregates
 @enduml

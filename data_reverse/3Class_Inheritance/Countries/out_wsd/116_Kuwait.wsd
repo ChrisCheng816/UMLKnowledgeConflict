@@ -1,4 +1,4 @@
 @startuml
-Kuwait <|-- Country
-Country <|-- GeopoliticalEntity
+Kuwait <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

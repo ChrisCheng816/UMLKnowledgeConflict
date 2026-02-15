@@ -1,4 +1,4 @@
 @startuml
-HerdOfLlama o-- Llama
-Forest o-- HerdOfLlama
+HerdOfLlama o-- Llama : aggregates
+Forest o-- HerdOfLlama : aggregates
 @enduml

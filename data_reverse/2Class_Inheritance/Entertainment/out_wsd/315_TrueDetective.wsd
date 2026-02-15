@@ -1,3 +1,3 @@
 @startuml
-TrueDetective <|-- TVSeries
+TrueDetective <|-- TVSeries : inherits
 @enduml

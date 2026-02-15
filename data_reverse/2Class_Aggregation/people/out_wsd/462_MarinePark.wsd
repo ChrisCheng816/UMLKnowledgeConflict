@@ -1,3 +1,3 @@
 @startuml
-ShowPool o-- MarinePark
+ShowPool o-- MarinePark : aggregates
 @enduml

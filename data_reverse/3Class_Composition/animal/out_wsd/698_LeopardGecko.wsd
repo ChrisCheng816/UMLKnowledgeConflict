@@ -1,4 +1,4 @@
 @startuml
-Skin *-- LeopardGecko
-Scale *-- Skin
+Skin *-- LeopardGecko : composes
+Scale *-- Skin : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tongue *-- Muscle
-Chameleon *-- Tongue
+Tongue *-- Muscle : composes
+Chameleon *-- Tongue : composes
 @enduml

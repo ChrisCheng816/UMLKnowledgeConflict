@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> LaptopCharger
+Electricity ..> LaptopCharger : depends on
 @enduml

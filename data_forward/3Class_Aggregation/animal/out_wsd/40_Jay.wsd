@@ -1,4 +1,4 @@
 @startuml
-FlockOfJay o-- Jay
-Wetland o-- FlockOfJay
+FlockOfJay o-- Jay : aggregates
+Wetland o-- FlockOfJay : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfGull o-- Clinic
-Gull o-- FlockOfGull
+FlockOfGull o-- Clinic : aggregates
+Gull o-- FlockOfGull : aggregates
 @enduml

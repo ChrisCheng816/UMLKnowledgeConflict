@@ -1,4 +1,4 @@
 @startuml
-AttackOnTitan <|-- AnimeSeries
-AnimeSeries <|-- TVSeries
+AttackOnTitan <|-- AnimeSeries : inherits
+AnimeSeries <|-- TVSeries : inherits
 @enduml

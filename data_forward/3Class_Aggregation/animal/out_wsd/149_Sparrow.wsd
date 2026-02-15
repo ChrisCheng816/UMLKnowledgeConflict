@@ -1,4 +1,4 @@
 @startuml
-FlockOfSparrow o-- Sparrow
-River o-- FlockOfSparrow
+FlockOfSparrow o-- Sparrow : aggregates
+River o-- FlockOfSparrow : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfCrane o-- Crane
-Atoll o-- FlockOfCrane
+FlockOfCrane o-- Crane : aggregates
+Atoll o-- FlockOfCrane : aggregates
 @enduml

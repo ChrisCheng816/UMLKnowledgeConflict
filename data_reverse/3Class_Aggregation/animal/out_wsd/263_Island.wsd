@@ -1,4 +1,4 @@
 @startuml
-BaskOfAlligator o-- Island
-Alligator o-- BaskOfAlligator
+BaskOfAlligator o-- Island : aggregates
+Alligator o-- BaskOfAlligator : aggregates
 @enduml

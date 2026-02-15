@@ -1,4 +1,4 @@
 @startuml
-BirdCage o-- Thrush
-BirdMarket o-- BirdCage
+BirdCage o-- Thrush : aggregates
+BirdMarket o-- BirdCage : aggregates
 @enduml

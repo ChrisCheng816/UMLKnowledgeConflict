@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Rhinoceros
-Eardrum *-- Ear
+Ear *-- Rhinoceros : composes
+Eardrum *-- Ear : composes
 @enduml

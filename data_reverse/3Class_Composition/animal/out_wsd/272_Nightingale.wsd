@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Nightingale
-Shaft *-- Feather
+Feather *-- Nightingale : composes
+Shaft *-- Feather : composes
 @enduml

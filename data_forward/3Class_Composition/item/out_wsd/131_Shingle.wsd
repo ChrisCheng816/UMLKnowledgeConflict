@@ -1,4 +1,4 @@
 @startuml
-Roof *-- Shingle
-House *-- Roof
+Roof *-- Shingle : composes
+House *-- Roof : composes
 @enduml

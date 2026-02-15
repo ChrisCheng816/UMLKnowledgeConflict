@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Opossum
-Root *-- Tooth
+Tooth *-- Opossum : composes
+Root *-- Tooth : composes
 @enduml

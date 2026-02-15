@@ -1,3 +1,3 @@
 @startuml
-ClubSandwich <|-- Sandwich
+ClubSandwich <|-- Sandwich : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Leg *-- Newt
+Leg *-- Newt : composes
 @enduml

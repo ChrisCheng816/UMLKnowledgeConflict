@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Bison
-Root *-- Tooth
+Tooth *-- Bison : composes
+Root *-- Tooth : composes
 @enduml

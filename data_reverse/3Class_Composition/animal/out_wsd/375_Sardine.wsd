@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Sardine
-Filament *-- Gill
+Gill *-- Sardine : composes
+Filament *-- Gill : composes
 @enduml

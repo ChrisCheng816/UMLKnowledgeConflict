@@ -1,4 +1,4 @@
 @startuml
-TroopOfGorilla o-- Desert
-Gorilla o-- TroopOfGorilla
+TroopOfGorilla o-- Desert : aggregates
+Gorilla o-- TroopOfGorilla : aggregates
 @enduml

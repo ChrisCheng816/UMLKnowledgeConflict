@@ -1,4 +1,4 @@
 @startuml
-Microorganisms ..> Composting
-OrganicMatter ..> Microorganisms
+Microorganisms ..> Composting : depends on
+OrganicMatter ..> Microorganisms : depends on
 @enduml

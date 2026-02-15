@@ -1,3 +1,3 @@
 @startuml
-DieselDepot ..> Train
+DieselDepot ..> Train : depends on
 @enduml

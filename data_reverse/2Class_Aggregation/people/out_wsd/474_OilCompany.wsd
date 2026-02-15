@@ -1,3 +1,3 @@
 @startuml
-DrillingPlatform o-- OilCompany
+DrillingPlatform o-- OilCompany : aggregates
 @enduml

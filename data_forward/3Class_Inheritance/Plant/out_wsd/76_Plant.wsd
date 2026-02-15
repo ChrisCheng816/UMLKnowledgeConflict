@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Shrub
-Shrub <|-- Rhododendron
+Plant <|-- Shrub : inherits
+Shrub <|-- Rhododendron : inherits
 @enduml

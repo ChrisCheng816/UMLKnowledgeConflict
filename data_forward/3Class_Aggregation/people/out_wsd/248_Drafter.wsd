@@ -1,4 +1,4 @@
 @startuml
-QualityTeam o-- Drafter
-HumanitarianCommunityCenter o-- QualityTeam
+QualityTeam o-- Drafter : aggregates
+HumanitarianCommunityCenter o-- QualityTeam : aggregates
 @enduml

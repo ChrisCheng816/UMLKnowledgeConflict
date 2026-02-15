@@ -1,4 +1,4 @@
 @startuml
-CircuitBoard *-- Diode
-Router *-- CircuitBoard
+CircuitBoard *-- Diode : composes
+Router *-- CircuitBoard : composes
 @enduml

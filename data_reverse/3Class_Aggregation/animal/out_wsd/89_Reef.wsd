@@ -1,4 +1,4 @@
 @startuml
-SchoolOfMackerel o-- Reef
-Mackerel o-- SchoolOfMackerel
+SchoolOfMackerel o-- Reef : aggregates
+Mackerel o-- SchoolOfMackerel : aggregates
 @enduml

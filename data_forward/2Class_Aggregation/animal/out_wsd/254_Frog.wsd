@@ -1,3 +1,3 @@
 @startuml
-ArmyOfFrog o-- Frog
+ArmyOfFrog o-- Frog : aggregates
 @enduml

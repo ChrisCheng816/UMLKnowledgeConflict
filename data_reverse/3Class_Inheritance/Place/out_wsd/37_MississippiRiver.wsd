@@ -1,4 +1,4 @@
 @startuml
-MississippiRiver <|-- River
-River <|-- GeographicFeature
+MississippiRiver <|-- River : inherits
+River <|-- GeographicFeature : inherits
 @enduml

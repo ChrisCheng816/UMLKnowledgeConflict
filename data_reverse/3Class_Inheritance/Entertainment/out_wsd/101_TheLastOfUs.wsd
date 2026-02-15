@@ -1,4 +1,4 @@
 @startuml
-TheLastOfUs <|-- VideoGame
-VideoGame <|-- Game
+TheLastOfUs <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

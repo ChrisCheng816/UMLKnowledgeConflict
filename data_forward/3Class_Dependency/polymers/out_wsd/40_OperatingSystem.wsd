@@ -1,4 +1,4 @@
 @startuml
-DiagramTool ..> OperatingSystem
-Flowchart ..> DiagramTool
+DiagramTool ..> OperatingSystem : depends on
+Flowchart ..> DiagramTool : depends on
 @enduml

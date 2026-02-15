@@ -1,3 +1,3 @@
 @startuml
-Reindeer *-- Tooth
+Reindeer *-- Tooth : composes
 @enduml

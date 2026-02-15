@@ -1,4 +1,4 @@
 @startuml
-NestOfChameleon o-- Aquarium
-Chameleon o-- NestOfChameleon
+NestOfChameleon o-- Aquarium : aggregates
+Chameleon o-- NestOfChameleon : aggregates
 @enduml

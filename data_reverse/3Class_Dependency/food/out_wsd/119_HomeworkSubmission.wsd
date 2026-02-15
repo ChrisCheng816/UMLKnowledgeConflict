@@ -1,4 +1,4 @@
 @startuml
-StudentPortal ..> HomeworkSubmission
-InternetConnection ..> StudentPortal
+StudentPortal ..> HomeworkSubmission : depends on
+InternetConnection ..> StudentPortal : depends on
 @enduml

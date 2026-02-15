@@ -1,4 +1,4 @@
 @startuml
-TeacherGroup o-- Teacher
-School o-- TeacherGroup
+TeacherGroup o-- Teacher : aggregates
+School o-- TeacherGroup : aggregates
 @enduml

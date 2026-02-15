@@ -1,4 +1,4 @@
 @startuml
-RepairTeam o-- MaintenanceDepartment
-Electrician o-- RepairTeam
+RepairTeam o-- MaintenanceDepartment : aggregates
+Electrician o-- RepairTeam : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Eye *-- TreeFrog
+Eye *-- TreeFrog : composes
 @enduml

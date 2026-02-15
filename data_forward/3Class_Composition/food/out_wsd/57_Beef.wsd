@@ -1,4 +1,4 @@
 @startuml
-BologneseSauce *-- Beef
-Lasagna *-- BologneseSauce
+BologneseSauce *-- Beef : composes
+Lasagna *-- BologneseSauce : composes
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-PlaylistPlayback ..> PodcastApp
+PlaylistPlayback ..> PodcastApp : depends on
 @enduml

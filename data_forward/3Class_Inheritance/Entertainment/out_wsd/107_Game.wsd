@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- BioShockInfinite
+Game <|-- VideoGame : inherits
+VideoGame <|-- BioShockInfinite : inherits
 @enduml

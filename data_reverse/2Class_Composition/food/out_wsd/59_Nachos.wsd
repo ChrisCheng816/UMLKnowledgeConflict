@@ -1,3 +1,3 @@
 @startuml
-TortillaChips *-- Nachos
+TortillaChips *-- Nachos : composes
 @enduml

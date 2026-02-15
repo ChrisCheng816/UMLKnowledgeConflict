@@ -1,4 +1,4 @@
 @startuml
-InfusionPump ..> MedicationInfusion
-Electricity ..> InfusionPump
+InfusionPump ..> MedicationInfusion : depends on
+Electricity ..> InfusionPump : depends on
 @enduml

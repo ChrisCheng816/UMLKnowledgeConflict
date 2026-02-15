@@ -1,3 +1,3 @@
 @startuml
-ArcticScienceSociety o-- PublicHealthUnit
+ArcticScienceSociety o-- PublicHealthUnit : aggregates
 @enduml

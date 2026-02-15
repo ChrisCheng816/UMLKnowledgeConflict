@@ -1,4 +1,4 @@
 @startuml
-ColonyOfRaccoon o-- Farm
-Raccoon o-- ColonyOfRaccoon
+ColonyOfRaccoon o-- Farm : aggregates
+Raccoon o-- ColonyOfRaccoon : aggregates
 @enduml

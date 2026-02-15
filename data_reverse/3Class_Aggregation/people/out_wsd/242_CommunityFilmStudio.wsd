@@ -1,4 +1,4 @@
 @startuml
-SafetyTeam o-- CommunityFilmStudio
-SecurityGuard o-- SafetyTeam
+SafetyTeam o-- CommunityFilmStudio : aggregates
+SecurityGuard o-- SafetyTeam : aggregates
 @enduml

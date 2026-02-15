@@ -1,4 +1,4 @@
 @startuml
-Tea *-- Kombucha
-TeaLeaves *-- Tea
+Tea *-- Kombucha : composes
+TeaLeaves *-- Tea : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PatrolTeam o-- PoliceOfficer
-NationalParkStation o-- PatrolTeam
+PatrolTeam o-- PoliceOfficer : aggregates
+NationalParkStation o-- PatrolTeam : aggregates
 @enduml

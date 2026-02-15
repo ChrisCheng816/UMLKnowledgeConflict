@@ -1,4 +1,4 @@
 @startuml
-Blender ..> Electricity
-MilkshakeMaking ..> Blender
+Blender ..> Electricity : depends on
+MilkshakeMaking ..> Blender : depends on
 @enduml

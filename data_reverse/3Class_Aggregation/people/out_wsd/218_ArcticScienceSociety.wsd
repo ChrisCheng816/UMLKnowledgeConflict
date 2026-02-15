@@ -1,4 +1,4 @@
 @startuml
-PublicHealthUnit o-- ArcticScienceSociety
-Architect o-- PublicHealthUnit
+PublicHealthUnit o-- ArcticScienceSociety : aggregates
+Architect o-- PublicHealthUnit : aggregates
 @enduml

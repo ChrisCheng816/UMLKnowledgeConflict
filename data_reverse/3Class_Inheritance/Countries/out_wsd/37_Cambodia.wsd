@@ -1,4 +1,4 @@
 @startuml
-Cambodia <|-- Country
-Country <|-- GeopoliticalEntity
+Cambodia <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

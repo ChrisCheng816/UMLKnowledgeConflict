@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Sculpture
-Sculpture <|-- WingedVictoryOfSamothrace
+Artwork <|-- Sculpture : inherits
+Sculpture <|-- WingedVictoryOfSamothrace : inherits
 @enduml

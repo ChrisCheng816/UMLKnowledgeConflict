@@ -1,4 +1,4 @@
 @startuml
-Drawer o-- MapPoster
-MapShop o-- Drawer
+Drawer o-- MapPoster : aggregates
+MapShop o-- Drawer : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-MarieCurie <|-- Chemist
+MarieCurie <|-- Chemist : inherits
 @enduml

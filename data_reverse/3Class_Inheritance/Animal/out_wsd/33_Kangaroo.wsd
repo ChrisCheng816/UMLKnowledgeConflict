@@ -1,4 +1,4 @@
 @startuml
-Kangaroo <|-- Mammal
-Mammal <|-- Animal
+Kangaroo <|-- Mammal : inherits
+Mammal <|-- Animal : inherits
 @enduml

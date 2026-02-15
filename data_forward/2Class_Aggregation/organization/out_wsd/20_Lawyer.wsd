@@ -1,3 +1,3 @@
 @startuml
-AdvisoryBoard o-- Lawyer
+AdvisoryBoard o-- Lawyer : aggregates
 @enduml

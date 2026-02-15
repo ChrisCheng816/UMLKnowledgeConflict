@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University
-University <|-- POSTECH
+EducationalInstitution <|-- University : inherits
+University <|-- POSTECH : inherits
 @enduml

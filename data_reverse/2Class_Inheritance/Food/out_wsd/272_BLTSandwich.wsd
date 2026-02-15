@@ -1,3 +1,3 @@
 @startuml
-BLTSandwich <|-- Sandwich
+BLTSandwich <|-- Sandwich : inherits
 @enduml

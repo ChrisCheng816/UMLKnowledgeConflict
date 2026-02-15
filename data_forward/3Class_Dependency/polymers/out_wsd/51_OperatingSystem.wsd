@@ -1,4 +1,4 @@
 @startuml
-EmailClient ..> OperatingSystem
-MailboxManagement ..> EmailClient
+EmailClient ..> OperatingSystem : depends on
+MailboxManagement ..> EmailClient : depends on
 @enduml

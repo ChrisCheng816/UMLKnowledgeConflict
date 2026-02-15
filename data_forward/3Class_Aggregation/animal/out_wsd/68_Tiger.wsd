@@ -1,4 +1,4 @@
 @startuml
-PackOfTiger o-- Tiger
-Prairie o-- PackOfTiger
+PackOfTiger o-- Tiger : aggregates
+Prairie o-- PackOfTiger : aggregates
 @enduml

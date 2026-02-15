@@ -1,4 +1,4 @@
 @startuml
-Whiplash <|-- Film
-Film <|-- Entertainment
+Whiplash <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

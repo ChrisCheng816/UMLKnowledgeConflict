@@ -1,3 +1,3 @@
 @startuml
-Apartment *-- Roof
+Apartment *-- Roof : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TroopOfLemur o-- Orchard
-Lemur o-- TroopOfLemur
+TroopOfLemur o-- Orchard : aggregates
+Lemur o-- TroopOfLemur : aggregates
 @enduml

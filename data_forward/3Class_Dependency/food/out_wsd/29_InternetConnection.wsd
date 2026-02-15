@@ -1,4 +1,4 @@
 @startuml
-FlightBooking ..> InternetConnection
-Reservation ..> FlightBooking
+FlightBooking ..> InternetConnection : depends on
+Reservation ..> FlightBooking : depends on
 @enduml

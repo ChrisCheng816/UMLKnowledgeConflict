@@ -1,4 +1,4 @@
 @startuml
-GrantReviewTeam o-- Surgeon
-HealthcareLibrarySystem o-- GrantReviewTeam
+GrantReviewTeam o-- Surgeon : aggregates
+HealthcareLibrarySystem o-- GrantReviewTeam : aggregates
 @enduml

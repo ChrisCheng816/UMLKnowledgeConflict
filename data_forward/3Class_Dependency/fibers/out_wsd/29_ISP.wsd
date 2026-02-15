@@ -1,4 +1,4 @@
 @startuml
-InternetConnection ..> ISP
-VideoStreaming ..> InternetConnection
+InternetConnection ..> ISP : depends on
+VideoStreaming ..> InternetConnection : depends on
 @enduml

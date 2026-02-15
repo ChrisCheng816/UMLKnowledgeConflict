@@ -1,4 +1,4 @@
 @startuml
-FlockOfOstrich o-- Ostrich
-Park o-- FlockOfOstrich
+FlockOfOstrich o-- Ostrich : aggregates
+Park o-- FlockOfOstrich : aggregates
 @enduml

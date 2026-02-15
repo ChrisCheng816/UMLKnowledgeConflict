@@ -1,4 +1,4 @@
 @startuml
-CotedIvoire <|-- Country
-Country <|-- GeopoliticalEntity
+CotedIvoire <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

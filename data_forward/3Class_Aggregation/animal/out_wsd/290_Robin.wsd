@@ -1,4 +1,4 @@
 @startuml
-FlockOfRobin o-- Robin
-Coast o-- FlockOfRobin
+FlockOfRobin o-- Robin : aggregates
+Coast o-- FlockOfRobin : aggregates
 @enduml

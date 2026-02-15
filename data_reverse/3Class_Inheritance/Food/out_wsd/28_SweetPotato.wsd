@@ -1,4 +1,4 @@
 @startuml
-SweetPotato <|-- RootVegetable
-RootVegetable <|-- Vegetable
+SweetPotato <|-- RootVegetable : inherits
+RootVegetable <|-- Vegetable : inherits
 @enduml

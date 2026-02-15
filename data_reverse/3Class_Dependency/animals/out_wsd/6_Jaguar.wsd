@@ -1,4 +1,4 @@
 @startuml
-Capybara ..> Jaguar
-Grasses ..> Capybara
+Capybara ..> Jaguar : depends on
+Grasses ..> Capybara : depends on
 @enduml

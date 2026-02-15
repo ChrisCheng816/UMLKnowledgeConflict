@@ -1,3 +1,3 @@
 @startuml
-TouchDigitizer *-- DisplayModule
+TouchDigitizer *-- DisplayModule : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-RutgersUniversity <|-- University
-University <|-- EducationalInstitution
+RutgersUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

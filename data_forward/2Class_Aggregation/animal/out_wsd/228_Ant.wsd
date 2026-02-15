@@ -1,3 +1,3 @@
 @startuml
-ColonyOfAnt o-- Ant
+ColonyOfAnt o-- Ant : aggregates
 @enduml

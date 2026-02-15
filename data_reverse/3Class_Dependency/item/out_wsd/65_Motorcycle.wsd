@@ -1,4 +1,4 @@
 @startuml
-GasStation ..> Motorcycle
-FuelDeliveryTruck ..> GasStation
+GasStation ..> Motorcycle : depends on
+FuelDeliveryTruck ..> GasStation : depends on
 @enduml

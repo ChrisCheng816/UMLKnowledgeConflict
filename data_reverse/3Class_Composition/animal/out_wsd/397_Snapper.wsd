@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Snapper
-Filament *-- Gill
+Gill *-- Snapper : composes
+Filament *-- Gill : composes
 @enduml

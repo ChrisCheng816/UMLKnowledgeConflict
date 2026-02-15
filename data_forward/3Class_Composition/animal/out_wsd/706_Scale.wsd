@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Scale
-KomodoDragon *-- Skin
+Skin *-- Scale : composes
+KomodoDragon *-- Skin : composes
 @enduml

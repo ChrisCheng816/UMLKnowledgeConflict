@@ -1,4 +1,4 @@
 @startuml
-CuratorialTeam o-- MuseumCurator
-ArtAuthority o-- CuratorialTeam
+CuratorialTeam o-- MuseumCurator : aggregates
+ArtAuthority o-- CuratorialTeam : aggregates
 @enduml

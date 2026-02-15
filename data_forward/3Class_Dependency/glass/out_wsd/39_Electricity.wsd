@@ -1,4 +1,4 @@
 @startuml
-LinearAccelerator ..> Electricity
-RadiationTherapy ..> LinearAccelerator
+LinearAccelerator ..> Electricity : depends on
+RadiationTherapy ..> LinearAccelerator : depends on
 @enduml

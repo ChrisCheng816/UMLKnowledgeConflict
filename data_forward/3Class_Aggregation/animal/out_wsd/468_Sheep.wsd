@@ -1,4 +1,4 @@
 @startuml
-HerdOfSheep o-- Sheep
-Rookery o-- HerdOfSheep
+HerdOfSheep o-- Sheep : aggregates
+Rookery o-- HerdOfSheep : aggregates
 @enduml

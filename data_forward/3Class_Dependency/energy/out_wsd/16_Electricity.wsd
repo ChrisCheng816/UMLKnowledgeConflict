@@ -1,4 +1,4 @@
 @startuml
-BenchGrinder ..> Electricity
-Cutting ..> BenchGrinder
+BenchGrinder ..> Electricity : depends on
+Cutting ..> BenchGrinder : depends on
 @enduml

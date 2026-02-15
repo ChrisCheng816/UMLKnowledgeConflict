@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> ElectricTram
+Electricity ..> ElectricTram : depends on
 @enduml

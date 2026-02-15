@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root
-TasmanianDevil *-- Tooth
+Tooth *-- Root : composes
+TasmanianDevil *-- Tooth : composes
 @enduml

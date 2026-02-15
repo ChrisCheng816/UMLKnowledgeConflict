@@ -1,3 +1,3 @@
 @startuml
-UniversityOfFlorida <|-- University
+UniversityOfFlorida <|-- University : inherits
 @enduml

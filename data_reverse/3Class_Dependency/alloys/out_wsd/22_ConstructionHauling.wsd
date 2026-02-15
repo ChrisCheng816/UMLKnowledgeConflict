@@ -1,4 +1,4 @@
 @startuml
-DieselTruck ..> ConstructionHauling
-DieselFuel ..> DieselTruck
+DieselTruck ..> ConstructionHauling : depends on
+DieselFuel ..> DieselTruck : depends on
 @enduml

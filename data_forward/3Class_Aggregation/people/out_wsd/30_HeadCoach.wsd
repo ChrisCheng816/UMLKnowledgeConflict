@@ -1,4 +1,4 @@
 @startuml
-CoachingStaff o-- HeadCoach
-SportsLeague o-- CoachingStaff
+CoachingStaff o-- HeadCoach : aggregates
+SportsLeague o-- CoachingStaff : aggregates
 @enduml

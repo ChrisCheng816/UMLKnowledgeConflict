@@ -1,4 +1,4 @@
 @startuml
-GroupOfCrab o-- Island
-Crab o-- GroupOfCrab
+GroupOfCrab o-- Island : aggregates
+Crab o-- GroupOfCrab : aggregates
 @enduml

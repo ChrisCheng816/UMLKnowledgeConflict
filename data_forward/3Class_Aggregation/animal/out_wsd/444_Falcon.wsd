@@ -1,4 +1,4 @@
 @startuml
-FlockOfFalcon o-- Falcon
-Nursery o-- FlockOfFalcon
+FlockOfFalcon o-- Falcon : aggregates
+Nursery o-- FlockOfFalcon : aggregates
 @enduml

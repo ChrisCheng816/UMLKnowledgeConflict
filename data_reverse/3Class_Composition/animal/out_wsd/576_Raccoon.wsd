@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Raccoon
-Nostril *-- Nose
+Nose *-- Raccoon : composes
+Nostril *-- Nose : composes
 @enduml

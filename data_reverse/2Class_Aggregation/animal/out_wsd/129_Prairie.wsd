@@ -1,3 +1,3 @@
 @startuml
-PackOfHyena o-- Prairie
+PackOfHyena o-- Prairie : aggregates
 @enduml

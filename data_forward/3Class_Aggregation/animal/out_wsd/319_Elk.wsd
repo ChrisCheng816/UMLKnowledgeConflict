@@ -1,4 +1,4 @@
 @startuml
-HerdOfElk o-- Elk
-Cave o-- HerdOfElk
+HerdOfElk o-- Elk : aggregates
+Cave o-- HerdOfElk : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root
-Springbok *-- Tooth
+Tooth *-- Root : composes
+Springbok *-- Tooth : composes
 @enduml

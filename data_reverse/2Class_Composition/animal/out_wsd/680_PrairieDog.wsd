@@ -1,3 +1,3 @@
 @startuml
-Tooth *-- PrairieDog
+Tooth *-- PrairieDog : composes
 @enduml

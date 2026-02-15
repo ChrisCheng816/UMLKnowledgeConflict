@@ -1,4 +1,4 @@
 @startuml
-MonitoringCenter o-- Inspector
-SmartParkingSystem o-- MonitoringCenter
+MonitoringCenter o-- Inspector : aggregates
+SmartParkingSystem o-- MonitoringCenter : aggregates
 @enduml

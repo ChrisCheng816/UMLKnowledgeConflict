@@ -1,4 +1,4 @@
 @startuml
-ArmyOfToad o-- Delta
-Toad o-- ArmyOfToad
+ArmyOfToad o-- Delta : aggregates
+Toad o-- ArmyOfToad : aggregates
 @enduml

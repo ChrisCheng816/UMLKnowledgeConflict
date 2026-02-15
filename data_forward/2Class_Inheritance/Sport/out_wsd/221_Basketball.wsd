@@ -1,3 +1,3 @@
 @startuml
-Basketball <|-- WheelchairBasketball
+Basketball <|-- WheelchairBasketball : inherits
 @enduml

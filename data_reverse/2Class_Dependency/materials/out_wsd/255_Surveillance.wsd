@@ -1,3 +1,3 @@
 @startuml
-SmokeAlarm ..> Surveillance
+SmokeAlarm ..> Surveillance : depends on
 @enduml

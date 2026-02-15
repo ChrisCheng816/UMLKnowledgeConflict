@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Grouper
-Ray *-- Fin
+Fin *-- Grouper : composes
+Ray *-- Fin : composes
 @enduml

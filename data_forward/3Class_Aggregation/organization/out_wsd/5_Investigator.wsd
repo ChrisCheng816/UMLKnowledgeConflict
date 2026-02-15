@@ -1,4 +1,4 @@
 @startuml
-VolunteerGroup o-- Investigator
-EnvironmentalOrganization o-- VolunteerGroup
+VolunteerGroup o-- Investigator : aggregates
+EnvironmentalOrganization o-- VolunteerGroup : aggregates
 @enduml

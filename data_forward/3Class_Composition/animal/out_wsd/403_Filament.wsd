@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Filament
-MahiMahi *-- Gill
+Gill *-- Filament : composes
+MahiMahi *-- Gill : composes
 @enduml

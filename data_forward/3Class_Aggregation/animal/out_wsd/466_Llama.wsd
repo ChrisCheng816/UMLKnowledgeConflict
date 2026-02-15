@@ -1,4 +1,4 @@
 @startuml
-HerdOfLlama o-- Llama
-Rookery o-- HerdOfLlama
+HerdOfLlama o-- Llama : aggregates
+Rookery o-- HerdOfLlama : aggregates
 @enduml

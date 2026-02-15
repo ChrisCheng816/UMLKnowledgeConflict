@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Reptile
-Reptile <|-- Snake
+Animal <|-- Reptile : inherits
+Reptile <|-- Snake : inherits
 @enduml

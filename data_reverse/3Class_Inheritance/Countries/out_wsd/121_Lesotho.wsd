@@ -1,4 +1,4 @@
 @startuml
-Lesotho <|-- Country
-Country <|-- GeopoliticalEntity
+Lesotho <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

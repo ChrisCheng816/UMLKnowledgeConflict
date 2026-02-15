@@ -1,3 +1,3 @@
 @startuml
-TaskManagement ..> CalendarApp
+TaskManagement ..> CalendarApp : depends on
 @enduml

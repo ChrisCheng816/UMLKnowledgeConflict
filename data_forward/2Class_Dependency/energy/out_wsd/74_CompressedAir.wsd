@@ -1,3 +1,3 @@
 @startuml
-PaintSprayer ..> CompressedAir
+PaintSprayer ..> CompressedAir : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MindMapTool ..> OperatingSystem
-ProjectPlanning ..> MindMapTool
+MindMapTool ..> OperatingSystem : depends on
+ProjectPlanning ..> MindMapTool : depends on
 @enduml

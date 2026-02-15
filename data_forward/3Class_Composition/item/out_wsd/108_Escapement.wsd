@@ -1,4 +1,4 @@
 @startuml
-WatchMovement *-- Escapement
-Wristwatch *-- WatchMovement
+WatchMovement *-- Escapement : composes
+Wristwatch *-- WatchMovement : composes
 @enduml

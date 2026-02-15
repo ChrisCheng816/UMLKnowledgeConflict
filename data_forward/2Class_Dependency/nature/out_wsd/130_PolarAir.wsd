@@ -1,3 +1,3 @@
 @startuml
-FreezingTemperature ..> PolarAir
+FreezingTemperature ..> PolarAir : depends on
 @enduml

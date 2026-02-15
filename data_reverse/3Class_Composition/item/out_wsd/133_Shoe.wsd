@@ -1,4 +1,4 @@
 @startuml
-Sole *-- Shoe
-Tread *-- Sole
+Sole *-- Shoe : composes
+Tread *-- Sole : composes
 @enduml

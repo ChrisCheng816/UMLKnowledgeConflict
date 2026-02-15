@@ -1,4 +1,4 @@
 @startuml
-Shogi <|-- MindSport
-MindSport <|-- Sport
+Shogi <|-- MindSport : inherits
+MindSport <|-- Sport : inherits
 @enduml

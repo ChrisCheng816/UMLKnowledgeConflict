@@ -1,3 +1,3 @@
 @startuml
-Iron ..> Electricity
+Iron ..> Electricity : depends on
 @enduml

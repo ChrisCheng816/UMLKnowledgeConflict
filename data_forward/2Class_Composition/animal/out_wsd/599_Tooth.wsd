@@ -1,3 +1,3 @@
 @startuml
-Raccoon *-- Tooth
+Raccoon *-- Tooth : composes
 @enduml

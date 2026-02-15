@@ -1,4 +1,4 @@
 @startuml
-MarketingCommittee o-- SecurityGuard
-CoastalPortAuthority o-- MarketingCommittee
+MarketingCommittee o-- SecurityGuard : aggregates
+CoastalPortAuthority o-- MarketingCommittee : aggregates
 @enduml

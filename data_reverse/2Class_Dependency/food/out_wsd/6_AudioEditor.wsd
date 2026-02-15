@@ -1,3 +1,3 @@
 @startuml
-OperatingSystem ..> AudioEditor
+OperatingSystem ..> AudioEditor : depends on
 @enduml

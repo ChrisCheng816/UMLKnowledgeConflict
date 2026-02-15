@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Aardvark
-Claw *-- Paw
+Paw *-- Aardvark : composes
+Claw *-- Paw : composes
 @enduml

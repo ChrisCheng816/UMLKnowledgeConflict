@@ -1,4 +1,4 @@
 @startuml
-VolunteerTeam o-- DesertTheaterCompany
-Volunteer o-- VolunteerTeam
+VolunteerTeam o-- DesertTheaterCompany : aggregates
+Volunteer o-- VolunteerTeam : aggregates
 @enduml

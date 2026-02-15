@@ -1,4 +1,4 @@
 @startuml
-FuelTerminal ..> Refinery
-FuelBarge ..> FuelTerminal
+FuelTerminal ..> Refinery : depends on
+FuelBarge ..> FuelTerminal : depends on
 @enduml

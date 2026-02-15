@@ -1,4 +1,4 @@
 @startuml
-RideHailingApp ..> InternetConnection
-CityCommute ..> RideHailingApp
+RideHailingApp ..> InternetConnection : depends on
+CityCommute ..> RideHailingApp : depends on
 @enduml

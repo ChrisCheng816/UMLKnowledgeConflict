@@ -1,4 +1,4 @@
 @startuml
-Krill ..> Penguin
-Phytoplankton ..> Krill
+Krill ..> Penguin : depends on
+Phytoplankton ..> Krill : depends on
 @enduml

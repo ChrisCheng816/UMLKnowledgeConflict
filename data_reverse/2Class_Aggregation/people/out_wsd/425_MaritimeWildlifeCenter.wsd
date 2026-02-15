@@ -1,3 +1,3 @@
 @startuml
-ResearchTeam o-- MaritimeWildlifeCenter
+ResearchTeam o-- MaritimeWildlifeCenter : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> AirCompressor
+Electricity ..> AirCompressor : depends on
 @enduml

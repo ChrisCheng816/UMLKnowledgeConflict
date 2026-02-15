@@ -1,4 +1,4 @@
 @startuml
-OperationsTeam o-- RailwayOffice
-TrainConductor o-- OperationsTeam
+OperationsTeam o-- RailwayOffice : aggregates
+TrainConductor o-- OperationsTeam : aggregates
 @enduml

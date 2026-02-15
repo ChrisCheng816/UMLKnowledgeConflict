@@ -1,3 +1,3 @@
 @startuml
-GameMaster o-- PlayerGroup
+GameMaster o-- PlayerGroup : aggregates
 @enduml

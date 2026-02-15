@@ -1,3 +1,3 @@
 @startuml
-Pollen ..> AllergicRhinitis
+Pollen ..> AllergicRhinitis : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BackToTheFuture <|-- Film
-Film <|-- Entertainment
+BackToTheFuture <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

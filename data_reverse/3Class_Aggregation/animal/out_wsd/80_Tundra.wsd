@@ -1,4 +1,4 @@
 @startuml
-ColonyOfRat o-- Tundra
-Rat o-- ColonyOfRat
+ColonyOfRat o-- Tundra : aggregates
+Rat o-- ColonyOfRat : aggregates
 @enduml

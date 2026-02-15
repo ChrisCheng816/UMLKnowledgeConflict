@@ -1,4 +1,4 @@
 @startuml
-PneumaticStapler ..> Stapling
-CompressedAir ..> PneumaticStapler
+PneumaticStapler ..> Stapling : depends on
+CompressedAir ..> PneumaticStapler : depends on
 @enduml

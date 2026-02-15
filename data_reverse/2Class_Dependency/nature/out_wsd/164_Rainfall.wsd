@@ -1,3 +1,3 @@
 @startuml
-StormSystem ..> Rainfall
+StormSystem ..> Rainfall : depends on
 @enduml

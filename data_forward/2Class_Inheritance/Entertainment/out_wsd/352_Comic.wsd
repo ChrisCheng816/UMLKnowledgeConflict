@@ -1,3 +1,3 @@
 @startuml
-Comic <|-- TheSandman
+Comic <|-- TheSandman : inherits
 @enduml

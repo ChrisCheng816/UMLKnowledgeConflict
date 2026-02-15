@@ -1,4 +1,4 @@
 @startuml
-NestOfIguana o-- Iguana
-Bay o-- NestOfIguana
+NestOfIguana o-- Iguana : aggregates
+Bay o-- NestOfIguana : aggregates
 @enduml

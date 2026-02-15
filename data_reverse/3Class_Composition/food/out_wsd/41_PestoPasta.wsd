@@ -1,4 +1,4 @@
 @startuml
-Pesto *-- PestoPasta
-Basil *-- Pesto
+Pesto *-- PestoPasta : composes
+Basil *-- Pesto : composes
 @enduml

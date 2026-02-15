@@ -1,4 +1,4 @@
 @startuml
-Titanic <|-- Film
-Film <|-- Entertainment
+Titanic <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

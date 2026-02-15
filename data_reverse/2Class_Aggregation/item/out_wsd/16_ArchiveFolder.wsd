@@ -1,3 +1,3 @@
 @startuml
-ArchiveDocument o-- ArchiveFolder
+ArchiveDocument o-- ArchiveFolder : aggregates
 @enduml

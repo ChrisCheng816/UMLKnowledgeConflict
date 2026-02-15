@@ -1,3 +1,3 @@
 @startuml
-Food <|-- Snack
+Food <|-- Snack : inherits
 @enduml

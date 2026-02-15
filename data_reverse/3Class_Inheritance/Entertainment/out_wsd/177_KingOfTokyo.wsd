@@ -1,4 +1,4 @@
 @startuml
-KingOfTokyo <|-- BoardGame
-BoardGame <|-- Game
+KingOfTokyo <|-- BoardGame : inherits
+BoardGame <|-- Game : inherits
 @enduml

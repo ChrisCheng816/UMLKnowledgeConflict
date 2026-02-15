@@ -1,4 +1,4 @@
 @startuml
-Sunlight ..> Sun
-Rainbow ..> Sunlight
+Sunlight ..> Sun : depends on
+Rainbow ..> Sunlight : depends on
 @enduml

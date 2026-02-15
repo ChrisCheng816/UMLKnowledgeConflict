@@ -1,3 +1,3 @@
 @startuml
-TheGardenOfEarthlyDelights <|-- Painting
+TheGardenOfEarthlyDelights <|-- Painting : inherits
 @enduml

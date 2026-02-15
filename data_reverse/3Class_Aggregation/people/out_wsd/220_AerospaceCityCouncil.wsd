@@ -1,4 +1,4 @@
 @startuml
-PatrolSection o-- AerospaceCityCouncil
-LogisticsCoordinator o-- PatrolSection
+PatrolSection o-- AerospaceCityCouncil : aggregates
+LogisticsCoordinator o-- PatrolSection : aggregates
 @enduml

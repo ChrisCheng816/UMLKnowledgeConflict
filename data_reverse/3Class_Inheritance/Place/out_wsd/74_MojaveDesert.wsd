@@ -1,4 +1,4 @@
 @startuml
-MojaveDesert <|-- Desert
-Desert <|-- GeographicFeature
+MojaveDesert <|-- Desert : inherits
+Desert <|-- GeographicFeature : inherits
 @enduml

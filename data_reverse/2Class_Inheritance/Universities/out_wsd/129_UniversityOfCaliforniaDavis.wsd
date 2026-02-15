@@ -1,3 +1,3 @@
 @startuml
-UniversityOfCaliforniaDavis <|-- University
+UniversityOfCaliforniaDavis <|-- University : inherits
 @enduml

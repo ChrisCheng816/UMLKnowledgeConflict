@@ -1,4 +1,4 @@
 @startuml
-ColonyOfPanda o-- Ranch
-Panda o-- ColonyOfPanda
+ColonyOfPanda o-- Ranch : aggregates
+Panda o-- ColonyOfPanda : aggregates
 @enduml

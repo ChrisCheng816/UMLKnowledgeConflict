@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- StemVegetable
-StemVegetable <|-- Celery
+Vegetable <|-- StemVegetable : inherits
+StemVegetable <|-- Celery : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PadThai <|-- Dish
-Dish <|-- Food
+PadThai <|-- Dish : inherits
+Dish <|-- Food : inherits
 @enduml

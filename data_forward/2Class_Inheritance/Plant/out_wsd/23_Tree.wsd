@@ -1,3 +1,3 @@
 @startuml
-Tree <|-- Redwood
+Tree <|-- Redwood : inherits
 @enduml

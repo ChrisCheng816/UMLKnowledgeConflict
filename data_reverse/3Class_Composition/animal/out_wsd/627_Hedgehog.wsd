@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Hedgehog
-Nostril *-- Nose
+Nose *-- Hedgehog : composes
+Nostril *-- Nose : composes
 @enduml

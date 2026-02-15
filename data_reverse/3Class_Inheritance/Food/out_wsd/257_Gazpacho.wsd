@@ -1,4 +1,4 @@
 @startuml
-Gazpacho <|-- Soup
-Soup <|-- Dish
+Gazpacho <|-- Soup : inherits
+Soup <|-- Dish : inherits
 @enduml

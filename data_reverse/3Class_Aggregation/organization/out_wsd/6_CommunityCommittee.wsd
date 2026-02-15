@@ -1,4 +1,4 @@
 @startuml
-InterestClub o-- CommunityCommittee
-Member o-- InterestClub
+InterestClub o-- CommunityCommittee : aggregates
+Member o-- InterestClub : aggregates
 @enduml

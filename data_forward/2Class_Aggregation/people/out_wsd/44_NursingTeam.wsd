@@ -1,3 +1,3 @@
 @startuml
-HospitalCenter o-- NursingTeam
+HospitalCenter o-- NursingTeam : aggregates
 @enduml

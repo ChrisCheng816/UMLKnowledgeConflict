@@ -1,4 +1,4 @@
 @startuml
-EsportsTeam o-- Club
-ProfessionalPlayer o-- EsportsTeam
+EsportsTeam o-- Club : aggregates
+ProfessionalPlayer o-- EsportsTeam : aggregates
 @enduml

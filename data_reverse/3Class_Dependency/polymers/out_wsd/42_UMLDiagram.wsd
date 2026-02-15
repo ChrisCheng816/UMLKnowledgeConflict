@@ -1,4 +1,4 @@
 @startuml
-DiagramTool ..> UMLDiagram
-OperatingSystem ..> DiagramTool
+DiagramTool ..> UMLDiagram : depends on
+OperatingSystem ..> DiagramTool : depends on
 @enduml

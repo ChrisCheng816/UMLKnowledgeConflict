@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens
-Uromastyx *-- Eye
+Eye *-- Lens : composes
+Uromastyx *-- Eye : composes
 @enduml

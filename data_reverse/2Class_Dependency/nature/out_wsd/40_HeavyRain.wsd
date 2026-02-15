@@ -1,3 +1,3 @@
 @startuml
-Thunderstorm ..> HeavyRain
+Thunderstorm ..> HeavyRain : depends on
 @enduml

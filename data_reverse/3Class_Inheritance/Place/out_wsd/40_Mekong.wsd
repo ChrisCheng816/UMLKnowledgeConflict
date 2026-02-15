@@ -1,4 +1,4 @@
 @startuml
-Mekong <|-- River
-River <|-- GeographicFeature
+Mekong <|-- River : inherits
+River <|-- GeographicFeature : inherits
 @enduml

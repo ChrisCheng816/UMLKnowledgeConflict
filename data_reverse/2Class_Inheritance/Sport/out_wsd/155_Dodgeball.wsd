@@ -1,3 +1,3 @@
 @startuml
-Dodgeball <|-- TeamSport
+Dodgeball <|-- TeamSport : inherits
 @enduml

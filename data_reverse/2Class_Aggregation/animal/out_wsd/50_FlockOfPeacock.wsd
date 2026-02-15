@@ -1,3 +1,3 @@
 @startuml
-Peacock o-- FlockOfPeacock
+Peacock o-- FlockOfPeacock : aggregates
 @enduml

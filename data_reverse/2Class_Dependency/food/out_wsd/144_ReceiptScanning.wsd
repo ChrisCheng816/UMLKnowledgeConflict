@@ -1,3 +1,3 @@
 @startuml
-Scanner ..> ReceiptScanning
+Scanner ..> ReceiptScanning : depends on
 @enduml

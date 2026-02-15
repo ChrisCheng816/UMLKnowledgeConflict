@@ -1,3 +1,3 @@
 @startuml
-CTImaging ..> CTScanner
+CTImaging ..> CTScanner : depends on
 @enduml

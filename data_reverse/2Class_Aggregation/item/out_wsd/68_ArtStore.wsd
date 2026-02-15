@@ -1,3 +1,3 @@
 @startuml
-Box o-- ArtStore
+Box o-- ArtStore : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Echo ..> EchoLocation
-Reflection ..> Echo
+Echo ..> EchoLocation : depends on
+Reflection ..> Echo : depends on
 @enduml

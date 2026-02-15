@@ -1,3 +1,3 @@
 @startuml
-StorageBin o-- MusicWarehouse
+StorageBin o-- MusicWarehouse : aggregates
 @enduml

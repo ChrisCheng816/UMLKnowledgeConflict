@@ -1,4 +1,4 @@
 @startuml
-Wall *-- Apartment
-Drywall *-- Wall
+Wall *-- Apartment : composes
+Drywall *-- Wall : composes
 @enduml

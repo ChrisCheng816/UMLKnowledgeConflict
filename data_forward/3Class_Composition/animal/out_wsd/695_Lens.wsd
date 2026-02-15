@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens
-BlueTongueSkink *-- Eye
+Eye *-- Lens : composes
+BlueTongueSkink *-- Eye : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfWren o-- Wren
-Pond o-- FlockOfWren
+FlockOfWren o-- Wren : aggregates
+Pond o-- FlockOfWren : aggregates
 @enduml

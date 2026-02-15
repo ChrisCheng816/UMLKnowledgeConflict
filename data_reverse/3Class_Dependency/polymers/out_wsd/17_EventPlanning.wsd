@@ -1,4 +1,4 @@
 @startuml
-CalendarClient ..> EventPlanning
-OperatingSystem ..> CalendarClient
+CalendarClient ..> EventPlanning : depends on
+OperatingSystem ..> CalendarClient : depends on
 @enduml

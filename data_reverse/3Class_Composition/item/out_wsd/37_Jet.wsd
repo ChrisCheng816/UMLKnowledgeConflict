@@ -1,4 +1,4 @@
 @startuml
-TurbineEngine *-- Jet
-Compressor *-- TurbineEngine
+TurbineEngine *-- Jet : composes
+Compressor *-- TurbineEngine : composes
 @enduml

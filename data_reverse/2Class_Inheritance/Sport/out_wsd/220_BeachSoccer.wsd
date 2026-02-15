@@ -1,3 +1,3 @@
 @startuml
-BeachSoccer <|-- AssociationFootball
+BeachSoccer <|-- AssociationFootball : inherits
 @enduml

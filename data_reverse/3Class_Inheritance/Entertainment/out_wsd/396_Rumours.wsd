@@ -1,4 +1,4 @@
 @startuml
-Rumours <|-- Album
-Album <|-- MusicWork
+Rumours <|-- Album : inherits
+Album <|-- MusicWork : inherits
 @enduml

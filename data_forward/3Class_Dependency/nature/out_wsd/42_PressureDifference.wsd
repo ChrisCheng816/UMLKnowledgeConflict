@@ -1,4 +1,4 @@
 @startuml
-Wind ..> PressureDifference
-OceanWave ..> Wind
+Wind ..> PressureDifference : depends on
+OceanWave ..> Wind : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Skin *-- Hellbender
+Skin *-- Hellbender : composes
 @enduml

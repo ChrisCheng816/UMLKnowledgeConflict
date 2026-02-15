@@ -1,3 +1,3 @@
 @startuml
-TrampolineGymnastics <|-- GymnasticsSport
+TrampolineGymnastics <|-- GymnasticsSport : inherits
 @enduml

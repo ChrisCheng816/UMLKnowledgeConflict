@@ -1,4 +1,4 @@
 @startuml
-FieldTeam o-- FieldEngineer
-LegalLibrarySystem o-- FieldTeam
+FieldTeam o-- FieldEngineer : aggregates
+LegalLibrarySystem o-- FieldTeam : aggregates
 @enduml

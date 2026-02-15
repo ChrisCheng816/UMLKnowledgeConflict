@@ -1,4 +1,4 @@
 @startuml
-SetTopBox ..> Television
-CoaxialCable ..> SetTopBox
+SetTopBox ..> Television : depends on
+CoaxialCable ..> SetTopBox : depends on
 @enduml

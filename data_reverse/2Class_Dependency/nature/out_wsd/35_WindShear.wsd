@@ -1,3 +1,3 @@
 @startuml
-PressureGradient ..> WindShear
+PressureGradient ..> WindShear : depends on
 @enduml

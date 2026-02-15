@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> AngleGrinder
+Electricity ..> AngleGrinder : depends on
 @enduml

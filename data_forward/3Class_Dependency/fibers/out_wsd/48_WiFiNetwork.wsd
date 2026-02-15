@@ -1,4 +1,4 @@
 @startuml
-SmartTV ..> WiFiNetwork
-VideoStreaming ..> SmartTV
+SmartTV ..> WiFiNetwork : depends on
+VideoStreaming ..> SmartTV : depends on
 @enduml

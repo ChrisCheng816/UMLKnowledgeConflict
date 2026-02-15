@@ -1,4 +1,4 @@
 @startuml
-FlockOfDove o-- Dove
-Coast o-- FlockOfDove
+FlockOfDove o-- Dove : aggregates
+Coast o-- FlockOfDove : aggregates
 @enduml

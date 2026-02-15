@@ -1,3 +1,3 @@
 @startuml
-Showcase o-- ArtGallery
+Showcase o-- ArtGallery : aggregates
 @enduml

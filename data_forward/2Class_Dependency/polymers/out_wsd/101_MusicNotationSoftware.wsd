@@ -1,3 +1,3 @@
 @startuml
-MusicComposition ..> MusicNotationSoftware
+MusicComposition ..> MusicNotationSoftware : depends on
 @enduml

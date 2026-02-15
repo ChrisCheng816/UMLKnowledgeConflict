@@ -1,3 +1,3 @@
 @startuml
-ObservationGroup o-- AstronomyClub
+ObservationGroup o-- AstronomyClub : aggregates
 @enduml

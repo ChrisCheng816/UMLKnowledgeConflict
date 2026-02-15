@@ -1,3 +1,3 @@
 @startuml
-DiveTeam o-- MarineAgency
+DiveTeam o-- MarineAgency : aggregates
 @enduml

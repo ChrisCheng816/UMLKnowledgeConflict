@@ -1,3 +1,3 @@
 @startuml
-ChoirSinger o-- ChoirGroup
+ChoirSinger o-- ChoirGroup : aggregates
 @enduml

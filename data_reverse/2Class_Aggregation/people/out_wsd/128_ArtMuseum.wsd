@@ -1,3 +1,3 @@
 @startuml
-ExhibitionTeam o-- ArtMuseum
+ExhibitionTeam o-- ArtMuseum : aggregates
 @enduml

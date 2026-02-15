@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Mauritania
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- Mauritania : inherits
 @enduml

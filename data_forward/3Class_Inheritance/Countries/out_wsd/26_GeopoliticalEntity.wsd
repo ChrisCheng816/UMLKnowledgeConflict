@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- BoliviaPlurinationalStateof
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- BoliviaPlurinationalStateof : inherits
 @enduml

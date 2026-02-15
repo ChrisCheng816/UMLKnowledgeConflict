@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Kingfisher
-Nostril *-- Beak
+Beak *-- Kingfisher : composes
+Nostril *-- Beak : composes
 @enduml

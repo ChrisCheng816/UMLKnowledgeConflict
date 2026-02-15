@@ -1,3 +1,3 @@
 @startuml
-FinanceTeam o-- EnvironmentalUniversityOffice
+FinanceTeam o-- EnvironmentalUniversityOffice : aggregates
 @enduml

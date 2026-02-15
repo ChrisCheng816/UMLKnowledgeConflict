@@ -1,4 +1,4 @@
 @startuml
-Maldives <|-- Country
-Country <|-- GeopoliticalEntity
+Maldives <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ElectricScooter ..> ShortTrip
-Electricity ..> ElectricScooter
+ElectricScooter ..> ShortTrip : depends on
+Electricity ..> ElectricScooter : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-MusicNotationSoftware ..> OperatingSystem
+MusicNotationSoftware ..> OperatingSystem : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Laptop ..> Email
-WiFiNetwork ..> Laptop
+Laptop ..> Email : depends on
+WiFiNetwork ..> Laptop : depends on
 @enduml

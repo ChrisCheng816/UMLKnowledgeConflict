@@ -1,3 +1,3 @@
 @startuml
-WoodPellets ..> PelletStove
+WoodPellets ..> PelletStove : depends on
 @enduml

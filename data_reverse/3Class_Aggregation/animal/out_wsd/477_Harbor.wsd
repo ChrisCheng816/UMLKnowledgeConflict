@@ -1,4 +1,4 @@
 @startuml
-PackOfCoyote o-- Harbor
-Coyote o-- PackOfCoyote
+PackOfCoyote o-- Harbor : aggregates
+Coyote o-- PackOfCoyote : aggregates
 @enduml

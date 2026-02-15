@@ -1,4 +1,4 @@
 @startuml
-BaskOfCrocodile o-- Aquarium
-Crocodile o-- BaskOfCrocodile
+BaskOfCrocodile o-- Aquarium : aggregates
+Crocodile o-- BaskOfCrocodile : aggregates
 @enduml

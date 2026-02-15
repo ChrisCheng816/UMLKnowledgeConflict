@@ -1,4 +1,4 @@
 @startuml
-ColonyOfSkunk o-- Canyon
-Skunk o-- ColonyOfSkunk
+ColonyOfSkunk o-- Canyon : aggregates
+Skunk o-- ColonyOfSkunk : aggregates
 @enduml

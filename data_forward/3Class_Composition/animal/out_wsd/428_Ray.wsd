@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Ray
-Gar *-- Fin
+Fin *-- Ray : composes
+Gar *-- Fin : composes
 @enduml

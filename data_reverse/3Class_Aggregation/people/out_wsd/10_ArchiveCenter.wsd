@@ -1,4 +1,4 @@
 @startuml
-ProcessingTeam o-- ArchiveCenter
-Archivist o-- ProcessingTeam
+ProcessingTeam o-- ArchiveCenter : aggregates
+Archivist o-- ProcessingTeam : aggregates
 @enduml

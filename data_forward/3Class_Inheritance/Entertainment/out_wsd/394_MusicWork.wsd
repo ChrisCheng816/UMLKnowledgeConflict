@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Album
-Album <|-- SgtPeppersLonelyHeartsClubBand
+MusicWork <|-- Album : inherits
+Album <|-- SgtPeppersLonelyHeartsClubBand : inherits
 @enduml

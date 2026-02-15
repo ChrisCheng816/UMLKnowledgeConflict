@@ -1,4 +1,4 @@
 @startuml
-Freezer ..> IceMaking
-Electricity ..> Freezer
+Freezer ..> IceMaking : depends on
+Electricity ..> Freezer : depends on
 @enduml

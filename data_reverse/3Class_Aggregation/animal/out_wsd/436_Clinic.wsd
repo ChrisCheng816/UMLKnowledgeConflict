@@ -1,4 +1,4 @@
 @startuml
-FlockOfVulture o-- Clinic
-Vulture o-- FlockOfVulture
+FlockOfVulture o-- Clinic : aggregates
+Vulture o-- FlockOfVulture : aggregates
 @enduml

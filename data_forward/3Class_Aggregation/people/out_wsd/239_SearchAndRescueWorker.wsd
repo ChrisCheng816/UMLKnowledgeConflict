@@ -1,4 +1,4 @@
 @startuml
-RescueTeam o-- SearchAndRescueWorker
-FinancialLibrarySystem o-- RescueTeam
+RescueTeam o-- SearchAndRescueWorker : aggregates
+FinancialLibrarySystem o-- RescueTeam : aggregates
 @enduml

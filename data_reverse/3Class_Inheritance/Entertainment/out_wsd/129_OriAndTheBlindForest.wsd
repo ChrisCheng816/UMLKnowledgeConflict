@@ -1,4 +1,4 @@
 @startuml
-OriAndTheBlindForest <|-- VideoGame
-VideoGame <|-- Game
+OriAndTheBlindForest <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-WebBrowser ..> InternetConnection
-WebSearch ..> WebBrowser
+WebBrowser ..> InternetConnection : depends on
+WebSearch ..> WebBrowser : depends on
 @enduml

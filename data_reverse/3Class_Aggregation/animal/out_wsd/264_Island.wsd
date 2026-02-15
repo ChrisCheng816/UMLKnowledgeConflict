@@ -1,4 +1,4 @@
 @startuml
-ArmyOfFrog o-- Island
-Frog o-- ArmyOfFrog
+ArmyOfFrog o-- Island : aggregates
+Frog o-- ArmyOfFrog : aggregates
 @enduml

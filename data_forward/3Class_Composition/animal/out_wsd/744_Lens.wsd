@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens
-Hellbender *-- Eye
+Eye *-- Lens : composes
+Hellbender *-- Eye : composes
 @enduml

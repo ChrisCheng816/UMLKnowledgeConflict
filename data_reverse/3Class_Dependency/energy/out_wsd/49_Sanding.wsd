@@ -1,4 +1,4 @@
 @startuml
-OrbitalSander ..> Sanding
-Electricity ..> OrbitalSander
+OrbitalSander ..> Sanding : depends on
+Electricity ..> OrbitalSander : depends on
 @enduml

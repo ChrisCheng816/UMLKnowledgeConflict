@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Reindeer
-Root *-- Tooth
+Tooth *-- Reindeer : composes
+Root *-- Tooth : composes
 @enduml

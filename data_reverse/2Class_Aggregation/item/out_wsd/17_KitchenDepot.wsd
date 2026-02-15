@@ -1,3 +1,3 @@
 @startuml
-SpiceRack o-- KitchenDepot
+SpiceRack o-- KitchenDepot : aggregates
 @enduml

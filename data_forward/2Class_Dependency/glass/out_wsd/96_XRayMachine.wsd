@@ -1,3 +1,3 @@
 @startuml
-XRayImaging ..> XRayMachine
+XRayImaging ..> XRayMachine : depends on
 @enduml

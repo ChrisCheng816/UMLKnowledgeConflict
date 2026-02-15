@@ -1,4 +1,4 @@
 @startuml
-Blender ..> SmoothieMaking
-Electricity ..> Blender
+Blender ..> SmoothieMaking : depends on
+Electricity ..> Blender : depends on
 @enduml

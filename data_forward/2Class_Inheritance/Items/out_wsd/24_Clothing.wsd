@@ -1,3 +1,3 @@
 @startuml
-Clothing <|-- Pants
+Clothing <|-- Pants : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Tapir
-Root *-- Tooth
+Tooth *-- Tapir : composes
+Root *-- Tooth : composes
 @enduml

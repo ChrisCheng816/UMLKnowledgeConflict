@@ -1,4 +1,4 @@
 @startuml
-Dehumidifier ..> MoistureRemoval
-Electricity ..> Dehumidifier
+Dehumidifier ..> MoistureRemoval : depends on
+Electricity ..> Dehumidifier : depends on
 @enduml

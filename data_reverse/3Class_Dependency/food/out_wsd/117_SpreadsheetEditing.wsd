@@ -1,4 +1,4 @@
 @startuml
-SpreadsheetSoftware ..> SpreadsheetEditing
-OperatingSystem ..> SpreadsheetSoftware
+SpreadsheetSoftware ..> SpreadsheetEditing : depends on
+OperatingSystem ..> SpreadsheetSoftware : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Yogurt *-- Milk
-Tzatziki *-- Yogurt
+Yogurt *-- Milk : composes
+Tzatziki *-- Yogurt : composes
 @enduml

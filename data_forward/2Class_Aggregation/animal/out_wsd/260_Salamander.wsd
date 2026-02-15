@@ -1,3 +1,3 @@
 @startuml
-ColonyOfSalamander o-- Salamander
+ColonyOfSalamander o-- Salamander : aggregates
 @enduml

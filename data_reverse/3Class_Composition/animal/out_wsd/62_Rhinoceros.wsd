@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Rhinoceros
-Nostril *-- Nose
+Nose *-- Rhinoceros : composes
+Nostril *-- Nose : composes
 @enduml

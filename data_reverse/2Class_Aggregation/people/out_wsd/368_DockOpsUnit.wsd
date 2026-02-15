@@ -1,3 +1,3 @@
 @startuml
-CommunityCoordinator o-- DockOpsUnit
+CommunityCoordinator o-- DockOpsUnit : aggregates
 @enduml

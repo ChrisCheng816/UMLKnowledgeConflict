@@ -1,4 +1,4 @@
 @startuml
-AdvisoryBoard o-- Lawyer
-LegalAidCenter o-- AdvisoryBoard
+AdvisoryBoard o-- Lawyer : aggregates
+LegalAidCenter o-- AdvisoryBoard : aggregates
 @enduml

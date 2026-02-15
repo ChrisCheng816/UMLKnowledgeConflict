@@ -1,4 +1,4 @@
 @startuml
-SushiRice *-- RiceVinegar
-SushiRoll *-- SushiRice
+SushiRice *-- RiceVinegar : composes
+SushiRoll *-- SushiRice : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TheDeparted <|-- Film
-Film <|-- Entertainment
+TheDeparted <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

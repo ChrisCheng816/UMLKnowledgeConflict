@@ -1,4 +1,4 @@
 @startuml
-Fin *-- MahiMahi
-Ray *-- Fin
+Fin *-- MahiMahi : composes
+Ray *-- Fin : composes
 @enduml

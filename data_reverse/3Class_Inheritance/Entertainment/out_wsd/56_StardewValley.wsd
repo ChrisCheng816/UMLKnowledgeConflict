@@ -1,4 +1,4 @@
 @startuml
-StardewValley <|-- VideoGame
-VideoGame <|-- Game
+StardewValley <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

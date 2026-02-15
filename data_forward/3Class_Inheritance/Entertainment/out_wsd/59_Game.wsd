@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- Subnautica
+Game <|-- VideoGame : inherits
+VideoGame <|-- Subnautica : inherits
 @enduml

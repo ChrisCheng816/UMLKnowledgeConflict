@@ -1,3 +1,3 @@
 @startuml
-DevOpsTeam o-- TechAgency
+DevOpsTeam o-- TechAgency : aggregates
 @enduml

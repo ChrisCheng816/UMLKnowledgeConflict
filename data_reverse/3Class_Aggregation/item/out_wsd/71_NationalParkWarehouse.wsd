@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- NationalParkWarehouse
-Blanket o-- StorageBin
+StorageBin o-- NationalParkWarehouse : aggregates
+Blanket o-- StorageBin : aggregates
 @enduml

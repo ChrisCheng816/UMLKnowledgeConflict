@@ -1,3 +1,3 @@
 @startuml
-TheSoundOfMusic <|-- MusicalTheatre
+TheSoundOfMusic <|-- MusicalTheatre : inherits
 @enduml

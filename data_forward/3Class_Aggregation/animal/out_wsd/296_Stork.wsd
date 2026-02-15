@@ -1,4 +1,4 @@
 @startuml
-FlockOfStork o-- Stork
-Beach o-- FlockOfStork
+FlockOfStork o-- Stork : aggregates
+Beach o-- FlockOfStork : aggregates
 @enduml

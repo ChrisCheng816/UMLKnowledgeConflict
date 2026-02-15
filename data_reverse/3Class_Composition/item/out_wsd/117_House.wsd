@@ -1,4 +1,4 @@
 @startuml
-Sink *-- House
-Basin *-- Sink
+Sink *-- House : composes
+Basin *-- Sink : composes
 @enduml

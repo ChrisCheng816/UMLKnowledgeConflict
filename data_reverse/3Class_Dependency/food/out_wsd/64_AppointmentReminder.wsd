@@ -1,4 +1,4 @@
 @startuml
-OnlineCalendar ..> AppointmentReminder
-InternetConnection ..> OnlineCalendar
+OnlineCalendar ..> AppointmentReminder : depends on
+InternetConnection ..> OnlineCalendar : depends on
 @enduml

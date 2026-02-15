@@ -1,4 +1,4 @@
 @startuml
-Tail *-- Feather
-Peacock *-- Tail
+Tail *-- Feather : composes
+Peacock *-- Tail : composes
 @enduml

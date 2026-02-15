@@ -1,4 +1,4 @@
 @startuml
-FlockOfPeacock o-- Lake
-Peacock o-- FlockOfPeacock
+FlockOfPeacock o-- Lake : aggregates
+Peacock o-- FlockOfPeacock : aggregates
 @enduml

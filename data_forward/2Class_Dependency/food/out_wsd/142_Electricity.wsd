@@ -1,3 +1,3 @@
 @startuml
-Scanner ..> Electricity
+Scanner ..> Electricity : depends on
 @enduml

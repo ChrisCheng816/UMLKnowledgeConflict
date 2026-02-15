@@ -1,4 +1,4 @@
 @startuml
-Bahrain <|-- Country
-Country <|-- GeopoliticalEntity
+Bahrain <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

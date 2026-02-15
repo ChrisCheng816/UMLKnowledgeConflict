@@ -1,4 +1,4 @@
 @startuml
-EthernetSwitch ..> NetworkRecorder
-WallOutlet ..> EthernetSwitch
+EthernetSwitch ..> NetworkRecorder : depends on
+WallOutlet ..> EthernetSwitch : depends on
 @enduml

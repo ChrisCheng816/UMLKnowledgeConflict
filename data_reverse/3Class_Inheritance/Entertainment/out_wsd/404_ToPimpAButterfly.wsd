@@ -1,4 +1,4 @@
 @startuml
-ToPimpAButterfly <|-- Album
-Album <|-- MusicWork
+ToPimpAButterfly <|-- Album : inherits
+Album <|-- MusicWork : inherits
 @enduml

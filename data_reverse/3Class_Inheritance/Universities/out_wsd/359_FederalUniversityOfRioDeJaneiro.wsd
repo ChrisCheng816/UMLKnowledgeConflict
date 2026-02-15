@@ -1,4 +1,4 @@
 @startuml
-FederalUniversityOfRioDeJaneiro <|-- University
-University <|-- EducationalInstitution
+FederalUniversityOfRioDeJaneiro <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

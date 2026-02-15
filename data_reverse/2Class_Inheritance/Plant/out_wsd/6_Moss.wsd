@@ -1,3 +1,3 @@
 @startuml
-Moss <|-- Plant
+Moss <|-- Plant : inherits
 @enduml

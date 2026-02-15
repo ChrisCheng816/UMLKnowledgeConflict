@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Zebra
-Root *-- Tooth
+Tooth *-- Zebra : composes
+Root *-- Tooth : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Freezer ..> Electricity
-FoodPreservation ..> Freezer
+Freezer ..> Electricity : depends on
+FoodPreservation ..> Freezer : depends on
 @enduml

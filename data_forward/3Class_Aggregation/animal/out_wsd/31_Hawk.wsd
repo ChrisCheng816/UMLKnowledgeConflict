@@ -1,4 +1,4 @@
 @startuml
-FlockOfHawk o-- Hawk
-Wetland o-- FlockOfHawk
+FlockOfHawk o-- Hawk : aggregates
+Wetland o-- FlockOfHawk : aggregates
 @enduml

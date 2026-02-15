@@ -1,4 +1,4 @@
 @startuml
-FileManager ..> OperatingSystem
-FileOrganization ..> FileManager
+FileManager ..> OperatingSystem : depends on
+FileOrganization ..> FileManager : depends on
 @enduml

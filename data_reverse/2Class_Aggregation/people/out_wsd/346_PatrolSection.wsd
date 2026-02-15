@@ -1,3 +1,3 @@
 @startuml
-LogisticsCoordinator o-- PatrolSection
+LogisticsCoordinator o-- PatrolSection : aggregates
 @enduml

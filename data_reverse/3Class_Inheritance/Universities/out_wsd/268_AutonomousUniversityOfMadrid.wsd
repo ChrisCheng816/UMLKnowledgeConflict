@@ -1,4 +1,4 @@
 @startuml
-AutonomousUniversityOfMadrid <|-- University
-University <|-- EducationalInstitution
+AutonomousUniversityOfMadrid <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

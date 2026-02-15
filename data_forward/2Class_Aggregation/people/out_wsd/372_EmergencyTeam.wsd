@@ -1,3 +1,3 @@
 @startuml
-ClinicalHospitalCenter o-- EmergencyTeam
+ClinicalHospitalCenter o-- EmergencyTeam : aggregates
 @enduml

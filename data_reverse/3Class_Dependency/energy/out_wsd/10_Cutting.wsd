@@ -1,4 +1,4 @@
 @startuml
-AngleGrinder ..> Cutting
-Electricity ..> AngleGrinder
+AngleGrinder ..> Cutting : depends on
+Electricity ..> AngleGrinder : depends on
 @enduml

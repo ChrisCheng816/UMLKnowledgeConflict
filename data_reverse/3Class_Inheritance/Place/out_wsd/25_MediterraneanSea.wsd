@@ -1,4 +1,4 @@
 @startuml
-MediterraneanSea <|-- Sea
-Sea <|-- GeographicFeature
+MediterraneanSea <|-- Sea : inherits
+Sea <|-- GeographicFeature : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Sport <|-- Activity
+Sport <|-- Activity : inherits
 @enduml

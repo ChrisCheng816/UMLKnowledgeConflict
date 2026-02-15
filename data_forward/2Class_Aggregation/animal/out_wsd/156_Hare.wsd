@@ -1,3 +1,3 @@
 @startuml
-ColonyOfHare o-- Hare
+ColonyOfHare o-- Hare : aggregates
 @enduml

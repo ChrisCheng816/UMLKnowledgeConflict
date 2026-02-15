@@ -1,4 +1,4 @@
 @startuml
-CustomerSupportTeam o-- Surgeon
-EnvironmentalHospitalCenter o-- CustomerSupportTeam
+CustomerSupportTeam o-- Surgeon : aggregates
+EnvironmentalHospitalCenter o-- CustomerSupportTeam : aggregates
 @enduml

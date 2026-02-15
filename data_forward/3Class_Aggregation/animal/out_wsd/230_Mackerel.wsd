@@ -1,4 +1,4 @@
 @startuml
-SchoolOfMackerel o-- Mackerel
-Valley o-- SchoolOfMackerel
+SchoolOfMackerel o-- Mackerel : aggregates
+Valley o-- SchoolOfMackerel : aggregates
 @enduml

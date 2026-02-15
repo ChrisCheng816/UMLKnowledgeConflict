@@ -1,4 +1,4 @@
 @startuml
-InnovationGroup o-- ResearchFellow
-ResearchConsortium o-- InnovationGroup
+InnovationGroup o-- ResearchFellow : aggregates
+ResearchConsortium o-- InnovationGroup : aggregates
 @enduml

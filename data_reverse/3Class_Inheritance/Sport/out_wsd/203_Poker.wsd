@@ -1,4 +1,4 @@
 @startuml
-Poker <|-- MindSport
-MindSport <|-- Sport
+Poker <|-- MindSport : inherits
+MindSport <|-- Sport : inherits
 @enduml

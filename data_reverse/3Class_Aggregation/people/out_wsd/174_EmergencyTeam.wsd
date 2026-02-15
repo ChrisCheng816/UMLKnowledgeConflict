@@ -1,4 +1,4 @@
 @startuml
-RescueUnit o-- EmergencyTeam
-Paramedic o-- RescueUnit
+RescueUnit o-- EmergencyTeam : aggregates
+Paramedic o-- RescueUnit : aggregates
 @enduml

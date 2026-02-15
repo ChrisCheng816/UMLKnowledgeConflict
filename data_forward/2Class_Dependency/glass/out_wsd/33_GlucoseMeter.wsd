@@ -1,3 +1,3 @@
 @startuml
-BloodPressureCheck ..> GlucoseMeter
+BloodPressureCheck ..> GlucoseMeter : depends on
 @enduml

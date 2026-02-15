@@ -1,3 +1,3 @@
 @startuml
-TrainCrew o-- RailwayStation
+TrainCrew o-- RailwayStation : aggregates
 @enduml

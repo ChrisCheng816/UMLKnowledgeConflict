@@ -1,4 +1,4 @@
 @startuml
-DesktopComputer ..> VideoStreaming
-WiFiNetwork ..> DesktopComputer
+DesktopComputer ..> VideoStreaming : depends on
+WiFiNetwork ..> DesktopComputer : depends on
 @enduml

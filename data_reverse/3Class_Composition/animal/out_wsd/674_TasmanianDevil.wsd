@@ -1,4 +1,4 @@
 @startuml
-Paw *-- TasmanianDevil
-Claw *-- Paw
+Paw *-- TasmanianDevil : composes
+Claw *-- Paw : composes
 @enduml

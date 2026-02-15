@@ -1,4 +1,4 @@
 @startuml
-IncidentResponseTeam o-- Registrar
-MediaMusicAcademy o-- IncidentResponseTeam
+IncidentResponseTeam o-- Registrar : aggregates
+MediaMusicAcademy o-- IncidentResponseTeam : aggregates
 @enduml

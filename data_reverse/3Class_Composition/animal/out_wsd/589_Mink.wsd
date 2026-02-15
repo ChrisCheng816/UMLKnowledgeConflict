@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Mink
-Root *-- Tooth
+Tooth *-- Mink : composes
+Root *-- Tooth : composes
 @enduml

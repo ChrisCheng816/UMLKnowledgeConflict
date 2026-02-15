@@ -1,4 +1,4 @@
 @startuml
-FlockOfKite o-- Kite
-Pond o-- FlockOfKite
+FlockOfKite o-- Kite : aggregates
+Pond o-- FlockOfKite : aggregates
 @enduml

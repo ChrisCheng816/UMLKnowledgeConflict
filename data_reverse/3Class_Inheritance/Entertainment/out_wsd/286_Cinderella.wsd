@@ -1,4 +1,4 @@
 @startuml
-Cinderella <|-- AnimatedFilm
-AnimatedFilm <|-- Film
+Cinderella <|-- AnimatedFilm : inherits
+AnimatedFilm <|-- Film : inherits
 @enduml

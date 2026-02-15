@@ -1,4 +1,4 @@
 @startuml
-TheNightWatch <|-- Painting
-Painting <|-- Artwork
+TheNightWatch <|-- Painting : inherits
+Painting <|-- Artwork : inherits
 @enduml

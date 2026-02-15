@@ -1,3 +1,3 @@
 @startuml
-LegalMusicAcademy o-- LogisticsTeam
+LegalMusicAcademy o-- LogisticsTeam : aggregates
 @enduml

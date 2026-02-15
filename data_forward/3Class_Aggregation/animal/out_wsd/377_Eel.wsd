@@ -1,4 +1,4 @@
 @startuml
-SchoolOfEel o-- Eel
-Barn o-- SchoolOfEel
+SchoolOfEel o-- Eel : aggregates
+Barn o-- SchoolOfEel : aggregates
 @enduml

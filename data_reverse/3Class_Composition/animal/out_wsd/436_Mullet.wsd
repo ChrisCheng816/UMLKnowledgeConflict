@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Mullet
-Ray *-- Fin
+Fin *-- Mullet : composes
+Ray *-- Fin : composes
 @enduml

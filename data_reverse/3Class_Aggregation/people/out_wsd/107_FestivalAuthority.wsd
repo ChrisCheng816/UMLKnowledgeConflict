@@ -1,4 +1,4 @@
 @startuml
-LogisticsTeam o-- FestivalAuthority
-ProjectManager o-- LogisticsTeam
+LogisticsTeam o-- FestivalAuthority : aggregates
+ProjectManager o-- LogisticsTeam : aggregates
 @enduml

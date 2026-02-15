@@ -1,3 +1,3 @@
 @startuml
-Rabbit o-- ColonyOfRabbit
+Rabbit o-- ColonyOfRabbit : aggregates
 @enduml

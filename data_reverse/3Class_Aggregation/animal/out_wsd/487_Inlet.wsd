@@ -1,4 +1,4 @@
 @startuml
-TroopOfGorilla o-- Inlet
-Gorilla o-- TroopOfGorilla
+TroopOfGorilla o-- Inlet : aggregates
+Gorilla o-- TroopOfGorilla : aggregates
 @enduml

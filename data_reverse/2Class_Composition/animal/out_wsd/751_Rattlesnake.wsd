@@ -1,3 +1,3 @@
 @startuml
-Eye *-- Rattlesnake
+Eye *-- Rattlesnake : composes
 @enduml

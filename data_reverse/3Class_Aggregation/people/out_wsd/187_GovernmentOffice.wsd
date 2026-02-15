@@ -1,4 +1,4 @@
 @startuml
-ReceptionTeam o-- GovernmentOffice
-Receptionist o-- ReceptionTeam
+ReceptionTeam o-- GovernmentOffice : aggregates
+Receptionist o-- ReceptionTeam : aggregates
 @enduml

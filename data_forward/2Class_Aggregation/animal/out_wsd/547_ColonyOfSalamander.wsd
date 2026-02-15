@@ -1,3 +1,3 @@
 @startuml
-Aquarium o-- ColonyOfSalamander
+Aquarium o-- ColonyOfSalamander : aggregates
 @enduml

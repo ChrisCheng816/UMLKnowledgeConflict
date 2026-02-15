@@ -1,4 +1,4 @@
 @startuml
-SchoolOfTuna o-- Tuna
-Valley o-- SchoolOfTuna
+SchoolOfTuna o-- Tuna : aggregates
+Valley o-- SchoolOfTuna : aggregates
 @enduml

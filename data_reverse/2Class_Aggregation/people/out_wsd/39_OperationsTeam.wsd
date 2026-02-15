@@ -1,3 +1,3 @@
 @startuml
-TrainConductor o-- OperationsTeam
+TrainConductor o-- OperationsTeam : aggregates
 @enduml

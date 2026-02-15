@@ -1,4 +1,4 @@
 @startuml
-PackOfWolf o-- Grove
-Wolf o-- PackOfWolf
+PackOfWolf o-- Grove : aggregates
+Wolf o-- PackOfWolf : aggregates
 @enduml

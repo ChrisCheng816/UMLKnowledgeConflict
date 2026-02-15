@@ -1,4 +1,4 @@
 @startuml
-TroopOfMonkey o-- Monkey
-Orchard o-- TroopOfMonkey
+TroopOfMonkey o-- Monkey : aggregates
+Orchard o-- TroopOfMonkey : aggregates
 @enduml

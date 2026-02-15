@@ -1,4 +1,4 @@
 @startuml
-Grass ..> Bison
-Sunlight ..> Grass
+Grass ..> Bison : depends on
+Sunlight ..> Grass : depends on
 @enduml

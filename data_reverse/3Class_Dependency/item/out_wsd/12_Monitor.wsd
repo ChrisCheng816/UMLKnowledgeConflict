@@ -1,4 +1,4 @@
 @startuml
-PowerCord ..> Monitor
-WallOutlet ..> PowerCord
+PowerCord ..> Monitor : depends on
+WallOutlet ..> PowerCord : depends on
 @enduml

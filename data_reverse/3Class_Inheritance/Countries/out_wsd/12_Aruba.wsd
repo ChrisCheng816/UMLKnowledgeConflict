@@ -1,4 +1,4 @@
 @startuml
-Aruba <|-- Country
-Country <|-- GeopoliticalEntity
+Aruba <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

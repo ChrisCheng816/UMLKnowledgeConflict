@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Scale
-Gecko *-- Skin
+Skin *-- Scale : composes
+Gecko *-- Skin : composes
 @enduml

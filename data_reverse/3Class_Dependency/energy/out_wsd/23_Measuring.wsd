@@ -1,4 +1,4 @@
 @startuml
-ClampMeter ..> Measuring
-Electricity ..> ClampMeter
+ClampMeter ..> Measuring : depends on
+Electricity ..> ClampMeter : depends on
 @enduml

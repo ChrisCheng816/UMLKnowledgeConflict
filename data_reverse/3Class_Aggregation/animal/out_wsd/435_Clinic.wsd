@@ -1,4 +1,4 @@
 @startuml
-FlockOfStork o-- Clinic
-Stork o-- FlockOfStork
+FlockOfStork o-- Clinic : aggregates
+Stork o-- FlockOfStork : aggregates
 @enduml

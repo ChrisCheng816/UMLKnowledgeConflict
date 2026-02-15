@@ -1,3 +1,3 @@
 @startuml
-DriedFruit <|-- Prune
+DriedFruit <|-- Prune : inherits
 @enduml

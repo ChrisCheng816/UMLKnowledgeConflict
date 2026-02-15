@@ -1,3 +1,3 @@
 @startuml
-ClampMeter ..> VoltageTesting
+ClampMeter ..> VoltageTesting : depends on
 @enduml

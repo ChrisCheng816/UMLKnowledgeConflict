@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- UltimateFrisbee
+Sport <|-- TeamSport : inherits
+TeamSport <|-- UltimateFrisbee : inherits
 @enduml

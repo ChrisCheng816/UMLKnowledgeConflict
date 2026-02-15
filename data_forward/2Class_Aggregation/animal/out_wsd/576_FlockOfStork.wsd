@@ -1,3 +1,3 @@
 @startuml
-Clinic o-- FlockOfStork
+Clinic o-- FlockOfStork : aggregates
 @enduml

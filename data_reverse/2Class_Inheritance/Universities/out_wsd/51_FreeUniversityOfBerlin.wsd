@@ -1,3 +1,3 @@
 @startuml
-FreeUniversityOfBerlin <|-- University
+FreeUniversityOfBerlin <|-- University : inherits
 @enduml

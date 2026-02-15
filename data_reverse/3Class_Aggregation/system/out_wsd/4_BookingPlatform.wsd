@@ -1,4 +1,4 @@
 @startuml
-MessageQueue o-- BookingPlatform
-QueueMessage o-- MessageQueue
+MessageQueue o-- BookingPlatform : aggregates
+QueueMessage o-- MessageQueue : aggregates
 @enduml

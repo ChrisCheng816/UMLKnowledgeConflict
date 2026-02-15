@@ -1,3 +1,3 @@
 @startuml
-WarehouseSupervisor o-- AdmissionsOffice
+WarehouseSupervisor o-- AdmissionsOffice : aggregates
 @enduml

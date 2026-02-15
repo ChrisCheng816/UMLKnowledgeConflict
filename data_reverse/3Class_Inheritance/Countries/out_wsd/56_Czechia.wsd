@@ -1,4 +1,4 @@
 @startuml
-Czechia <|-- Country
-Country <|-- GeopoliticalEntity
+Czechia <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

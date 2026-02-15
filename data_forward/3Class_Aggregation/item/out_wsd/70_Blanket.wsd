@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- Blanket
-AquariumWarehouse o-- StorageBin
+StorageBin o-- Blanket : aggregates
+AquariumWarehouse o-- StorageBin : aggregates
 @enduml

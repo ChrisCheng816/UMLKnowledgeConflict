@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Sculpture
-Sculpture <|-- ChristTheRedeemer
+Artwork <|-- Sculpture : inherits
+Sculpture <|-- ChristTheRedeemer : inherits
 @enduml

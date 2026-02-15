@@ -1,4 +1,4 @@
 @startuml
-MentorGroup o-- Mentor
-EducationCommittee o-- MentorGroup
+MentorGroup o-- Mentor : aggregates
+EducationCommittee o-- MentorGroup : aggregates
 @enduml

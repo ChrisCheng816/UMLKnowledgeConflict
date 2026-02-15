@@ -1,4 +1,4 @@
 @startuml
-SecurityTeam o-- CountyStation
-SecurityGuard o-- SecurityTeam
+SecurityTeam o-- CountyStation : aggregates
+SecurityGuard o-- SecurityTeam : aggregates
 @enduml

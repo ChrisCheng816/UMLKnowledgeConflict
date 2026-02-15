@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Weasel
-Root *-- Tooth
+Tooth *-- Weasel : composes
+Root *-- Tooth : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SchoolOfTrout o-- Trout
-Valley o-- SchoolOfTrout
+SchoolOfTrout o-- Trout : aggregates
+Valley o-- SchoolOfTrout : aggregates
 @enduml

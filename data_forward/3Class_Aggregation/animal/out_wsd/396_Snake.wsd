@@ -1,4 +1,4 @@
 @startuml
-NestOfSnake o-- Snake
-Aviary o-- NestOfSnake
+NestOfSnake o-- Snake : aggregates
+Aviary o-- NestOfSnake : aggregates
 @enduml

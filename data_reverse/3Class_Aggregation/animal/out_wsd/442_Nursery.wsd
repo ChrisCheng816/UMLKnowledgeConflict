@@ -1,4 +1,4 @@
 @startuml
-FlockOfPheasant o-- Nursery
-Pheasant o-- FlockOfPheasant
+FlockOfPheasant o-- Nursery : aggregates
+Pheasant o-- FlockOfPheasant : aggregates
 @enduml

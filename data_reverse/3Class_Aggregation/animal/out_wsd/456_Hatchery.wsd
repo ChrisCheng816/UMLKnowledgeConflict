@@ -1,4 +1,4 @@
 @startuml
-HerdOfBison o-- Hatchery
-Bison o-- HerdOfBison
+HerdOfBison o-- Hatchery : aggregates
+Bison o-- HerdOfBison : aggregates
 @enduml

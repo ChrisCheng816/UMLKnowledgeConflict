@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- DesertWarehouse
-Blanket o-- StorageBin
+StorageBin o-- DesertWarehouse : aggregates
+Blanket o-- StorageBin : aggregates
 @enduml

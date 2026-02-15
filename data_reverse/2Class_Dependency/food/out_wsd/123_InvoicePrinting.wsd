@@ -1,3 +1,3 @@
 @startuml
-Printer ..> InvoicePrinting
+Printer ..> InvoicePrinting : depends on
 @enduml

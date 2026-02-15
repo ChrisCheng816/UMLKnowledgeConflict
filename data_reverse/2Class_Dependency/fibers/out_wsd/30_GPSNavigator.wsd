@@ -1,3 +1,3 @@
 @startuml
-GPSSignal ..> GPSNavigator
+GPSSignal ..> GPSNavigator : depends on
 @enduml

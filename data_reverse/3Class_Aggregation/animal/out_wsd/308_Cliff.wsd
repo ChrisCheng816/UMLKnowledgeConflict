@@ -1,4 +1,4 @@
 @startuml
-FlockOfFinch o-- Cliff
-Finch o-- FlockOfFinch
+FlockOfFinch o-- Cliff : aggregates
+Finch o-- FlockOfFinch : aggregates
 @enduml

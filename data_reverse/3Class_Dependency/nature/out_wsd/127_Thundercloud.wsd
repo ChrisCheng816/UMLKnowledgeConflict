@@ -1,4 +1,4 @@
 @startuml
-Thunderstorm ..> Thundercloud
-Convection ..> Thunderstorm
+Thunderstorm ..> Thundercloud : depends on
+Convection ..> Thunderstorm : depends on
 @enduml

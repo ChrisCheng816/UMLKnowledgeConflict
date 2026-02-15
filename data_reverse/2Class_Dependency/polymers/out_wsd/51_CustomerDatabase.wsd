@@ -1,3 +1,3 @@
 @startuml
-DatabaseServer ..> CustomerDatabase
+DatabaseServer ..> CustomerDatabase : depends on
 @enduml

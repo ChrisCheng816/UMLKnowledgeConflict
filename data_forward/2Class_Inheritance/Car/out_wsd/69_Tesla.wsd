@@ -1,3 +1,3 @@
 @startuml
-Tesla <|-- TeslaModelY
+Tesla <|-- TeslaModelY : inherits
 @enduml

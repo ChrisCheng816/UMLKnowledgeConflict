@@ -1,3 +1,3 @@
 @startuml
-RescueSquad o-- MountainRescueCenter
+RescueSquad o-- MountainRescueCenter : aggregates
 @enduml

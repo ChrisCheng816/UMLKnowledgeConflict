@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame
-BoardGame <|-- TwilightStruggle
+Game <|-- BoardGame : inherits
+BoardGame <|-- TwilightStruggle : inherits
 @enduml

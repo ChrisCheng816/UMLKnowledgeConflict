@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- TheLegendOfZeldaMajorasMask
+Game <|-- VideoGame : inherits
+VideoGame <|-- TheLegendOfZeldaMajorasMask : inherits
 @enduml

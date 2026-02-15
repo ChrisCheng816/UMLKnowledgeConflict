@@ -1,4 +1,4 @@
 @startuml
-ResearchTeam o-- HealthcareDesignAgency
-ResearchFellow o-- ResearchTeam
+ResearchTeam o-- HealthcareDesignAgency : aggregates
+ResearchFellow o-- ResearchTeam : aggregates
 @enduml

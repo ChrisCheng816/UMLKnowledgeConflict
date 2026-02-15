@@ -1,4 +1,4 @@
 @startuml
-SchoolOfPerch o-- Hill
-Perch o-- SchoolOfPerch
+SchoolOfPerch o-- Hill : aggregates
+Perch o-- SchoolOfPerch : aggregates
 @enduml

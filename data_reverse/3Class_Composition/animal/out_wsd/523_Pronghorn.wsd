@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Pronghorn
-Root *-- Tooth
+Tooth *-- Pronghorn : composes
+Root *-- Tooth : composes
 @enduml

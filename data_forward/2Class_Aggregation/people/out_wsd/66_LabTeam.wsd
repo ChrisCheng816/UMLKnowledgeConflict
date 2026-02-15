@@ -1,3 +1,3 @@
 @startuml
-ScienceInstitute o-- LabTeam
+ScienceInstitute o-- LabTeam : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ColonyOfBadger o-- Taiga
-Badger o-- ColonyOfBadger
+ColonyOfBadger o-- Taiga : aggregates
+Badger o-- ColonyOfBadger : aggregates
 @enduml

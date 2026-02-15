@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Badger
-Root *-- Tooth
+Tooth *-- Badger : composes
+Root *-- Tooth : composes
 @enduml

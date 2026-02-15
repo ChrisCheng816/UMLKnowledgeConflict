@@ -1,4 +1,4 @@
 @startuml
-SmartTV ..> Electricity
-VideoStreaming ..> SmartTV
+SmartTV ..> Electricity : depends on
+VideoStreaming ..> SmartTV : depends on
 @enduml

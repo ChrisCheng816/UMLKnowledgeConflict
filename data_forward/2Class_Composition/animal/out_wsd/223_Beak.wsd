@@ -1,3 +1,3 @@
 @startuml
-Cardinal *-- Beak
+Cardinal *-- Beak : composes
 @enduml

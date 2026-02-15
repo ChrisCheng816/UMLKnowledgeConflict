@@ -1,4 +1,4 @@
 @startuml
-Jamaica <|-- Country
-Country <|-- GeopoliticalEntity
+Jamaica <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

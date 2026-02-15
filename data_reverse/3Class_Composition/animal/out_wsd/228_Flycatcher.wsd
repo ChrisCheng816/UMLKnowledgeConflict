@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Flycatcher
-Nostril *-- Beak
+Beak *-- Flycatcher : composes
+Nostril *-- Beak : composes
 @enduml

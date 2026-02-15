@@ -1,4 +1,4 @@
 @startuml
-ToyotaCamry <|-- Car
-Car <|-- Vehicle
+ToyotaCamry <|-- Car : inherits
+Car <|-- Vehicle : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-SmartParkingSystem o-- MonitoringCenter
+SmartParkingSystem o-- MonitoringCenter : aggregates
 @enduml

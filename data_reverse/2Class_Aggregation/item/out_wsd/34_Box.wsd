@@ -1,3 +1,3 @@
 @startuml
-ChocolateBar o-- Box
+ChocolateBar o-- Box : aggregates
 @enduml

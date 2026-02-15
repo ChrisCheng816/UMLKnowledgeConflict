@@ -1,4 +1,4 @@
 @startuml
-Paw *-- GiantPanda
-Claw *-- Paw
+Paw *-- GiantPanda : composes
+Claw *-- Paw : composes
 @enduml

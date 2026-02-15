@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- LaoPeoplesDemocraticRepublic
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- LaoPeoplesDemocraticRepublic : inherits
 @enduml

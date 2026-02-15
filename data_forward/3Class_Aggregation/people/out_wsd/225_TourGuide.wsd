@@ -1,4 +1,4 @@
 @startuml
-PeerReviewCommittee o-- TourGuide
-SecurityNewsAgency o-- PeerReviewCommittee
+PeerReviewCommittee o-- TourGuide : aggregates
+SecurityNewsAgency o-- PeerReviewCommittee : aggregates
 @enduml

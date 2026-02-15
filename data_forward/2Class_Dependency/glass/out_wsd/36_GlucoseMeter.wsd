@@ -1,3 +1,3 @@
 @startuml
-TemperatureCheck ..> GlucoseMeter
+TemperatureCheck ..> GlucoseMeter : depends on
 @enduml

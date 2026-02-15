@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- CostaRica
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- CostaRica : inherits
 @enduml

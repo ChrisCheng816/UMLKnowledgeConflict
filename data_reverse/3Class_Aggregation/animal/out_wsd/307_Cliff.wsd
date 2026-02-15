@@ -1,4 +1,4 @@
 @startuml
-FlockOfOwl o-- Cliff
-Owl o-- FlockOfOwl
+FlockOfOwl o-- Cliff : aggregates
+Owl o-- FlockOfOwl : aggregates
 @enduml

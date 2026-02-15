@@ -1,4 +1,4 @@
 @startuml
-Cheese *-- Cheeseburger
-Milk *-- Cheese
+Cheese *-- Cheeseburger : composes
+Milk *-- Cheese : composes
 @enduml

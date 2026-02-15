@@ -1,4 +1,4 @@
 @startuml
-WordProcessor ..> DocumentEditing
-OperatingSystem ..> WordProcessor
+WordProcessor ..> DocumentEditing : depends on
+OperatingSystem ..> WordProcessor : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TVSeries <|-- AnimeSeries
-AnimeSeries <|-- JujutsuKaisen
+TVSeries <|-- AnimeSeries : inherits
+AnimeSeries <|-- JujutsuKaisen : inherits
 @enduml

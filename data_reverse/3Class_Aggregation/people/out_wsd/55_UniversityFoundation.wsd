@@ -1,4 +1,4 @@
 @startuml
-AdmissionsTeam o-- UniversityFoundation
-AdmissionsOfficer o-- AdmissionsTeam
+AdmissionsTeam o-- UniversityFoundation : aggregates
+AdmissionsOfficer o-- AdmissionsTeam : aggregates
 @enduml

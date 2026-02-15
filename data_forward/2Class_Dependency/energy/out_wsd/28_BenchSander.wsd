@@ -1,3 +1,3 @@
 @startuml
-Woodworking ..> BenchSander
+Woodworking ..> BenchSander : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BayLaurel <|-- Herb
-Herb <|-- Plant
+BayLaurel <|-- Herb : inherits
+Herb <|-- Plant : inherits
 @enduml

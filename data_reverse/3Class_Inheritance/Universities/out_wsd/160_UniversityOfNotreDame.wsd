@@ -1,4 +1,4 @@
 @startuml
-UniversityOfNotreDame <|-- University
-University <|-- EducationalInstitution
+UniversityOfNotreDame <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

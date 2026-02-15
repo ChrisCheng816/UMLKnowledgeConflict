@@ -1,4 +1,4 @@
 @startuml
-InfusionPump ..> FluidAdministration
-Electricity ..> InfusionPump
+InfusionPump ..> FluidAdministration : depends on
+Electricity ..> InfusionPump : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SolarWind ..> Sun
-Aurora ..> SolarWind
+SolarWind ..> Sun : depends on
+Aurora ..> SolarWind : depends on
 @enduml

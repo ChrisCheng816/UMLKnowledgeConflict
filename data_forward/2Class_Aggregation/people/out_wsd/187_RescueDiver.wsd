@@ -1,3 +1,3 @@
 @startuml
-DiveTeam o-- RescueDiver
+DiveTeam o-- RescueDiver : aggregates
 @enduml

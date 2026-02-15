@@ -1,4 +1,4 @@
 @startuml
-HerdOfWildebeest o-- Wildebeest
-Forest o-- HerdOfWildebeest
+HerdOfWildebeest o-- Wildebeest : aggregates
+Forest o-- HerdOfWildebeest : aggregates
 @enduml

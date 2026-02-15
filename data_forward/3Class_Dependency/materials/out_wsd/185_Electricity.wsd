@@ -1,4 +1,4 @@
 @startuml
-SmartLock ..> Electricity
-MotionDetection ..> SmartLock
+SmartLock ..> Electricity : depends on
+MotionDetection ..> SmartLock : depends on
 @enduml

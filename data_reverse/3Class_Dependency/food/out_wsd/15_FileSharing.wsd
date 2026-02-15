@@ -1,4 +1,4 @@
 @startuml
-CloudStorage ..> FileSharing
-InternetConnection ..> CloudStorage
+CloudStorage ..> FileSharing : depends on
+InternetConnection ..> CloudStorage : depends on
 @enduml

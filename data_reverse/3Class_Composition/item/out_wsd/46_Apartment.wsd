@@ -1,4 +1,4 @@
 @startuml
-Roof *-- Apartment
-Rafter *-- Roof
+Roof *-- Apartment : composes
+Rafter *-- Roof : composes
 @enduml

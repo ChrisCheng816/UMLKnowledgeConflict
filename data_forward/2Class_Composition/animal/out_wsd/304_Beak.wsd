@@ -1,3 +1,3 @@
 @startuml
-Osprey *-- Beak
+Osprey *-- Beak : composes
 @enduml

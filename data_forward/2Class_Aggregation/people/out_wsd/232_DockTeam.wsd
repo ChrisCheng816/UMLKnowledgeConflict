@@ -1,3 +1,3 @@
 @startuml
-CoastalAgency o-- DockTeam
+CoastalAgency o-- DockTeam : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Crustacean <|-- Animal
-Animal <|-- Organism
+Crustacean <|-- Animal : inherits
+Animal <|-- Organism : inherits
 @enduml

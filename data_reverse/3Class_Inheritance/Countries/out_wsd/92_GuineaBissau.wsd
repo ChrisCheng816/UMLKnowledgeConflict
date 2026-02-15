@@ -1,4 +1,4 @@
 @startuml
-GuineaBissau <|-- Country
-Country <|-- GeopoliticalEntity
+GuineaBissau <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

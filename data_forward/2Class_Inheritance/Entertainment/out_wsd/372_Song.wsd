@@ -1,3 +1,3 @@
 @startuml
-Song <|-- BillieJean
+Song <|-- BillieJean : inherits
 @enduml

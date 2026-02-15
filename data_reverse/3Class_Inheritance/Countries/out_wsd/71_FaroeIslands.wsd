@@ -1,4 +1,4 @@
 @startuml
-FaroeIslands <|-- Country
-Country <|-- GeopoliticalEntity
+FaroeIslands <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

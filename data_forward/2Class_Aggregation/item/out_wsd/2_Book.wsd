@@ -1,3 +1,3 @@
 @startuml
-Library o-- Book
+Library o-- Book : aggregates
 @enduml

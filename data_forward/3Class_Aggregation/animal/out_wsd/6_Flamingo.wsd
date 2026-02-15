@@ -1,4 +1,4 @@
 @startuml
-FlockOfFlamingo o-- Flamingo
-Sanctuary o-- FlockOfFlamingo
+FlockOfFlamingo o-- Flamingo : aggregates
+Sanctuary o-- FlockOfFlamingo : aggregates
 @enduml

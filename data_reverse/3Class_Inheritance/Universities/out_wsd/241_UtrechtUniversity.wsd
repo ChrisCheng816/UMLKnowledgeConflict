@@ -1,4 +1,4 @@
 @startuml
-UtrechtUniversity <|-- University
-University <|-- EducationalInstitution
+UtrechtUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

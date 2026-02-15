@@ -1,3 +1,3 @@
 @startuml
-MedicalTeam o-- ERDoctor
+MedicalTeam o-- ERDoctor : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Zebra ..> Cheetah
+Zebra ..> Cheetah : depends on
 @enduml

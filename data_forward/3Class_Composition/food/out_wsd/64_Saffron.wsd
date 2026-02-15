@@ -1,4 +1,4 @@
 @startuml
-SaffronRice *-- Saffron
-Paella *-- SaffronRice
+SaffronRice *-- Saffron : composes
+Paella *-- SaffronRice : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-StationTeam o-- SecurityGuard
-MetroAuthority o-- StationTeam
+StationTeam o-- SecurityGuard : aggregates
+MetroAuthority o-- StationTeam : aggregates
 @enduml

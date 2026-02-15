@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Chickadee
-Shaft *-- Feather
+Feather *-- Chickadee : composes
+Shaft *-- Feather : composes
 @enduml

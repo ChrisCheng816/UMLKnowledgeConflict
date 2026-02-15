@@ -1,4 +1,4 @@
 @startuml
-FlockOfEmu o-- Beach
-Emu o-- FlockOfEmu
+FlockOfEmu o-- Beach : aggregates
+Emu o-- FlockOfEmu : aggregates
 @enduml

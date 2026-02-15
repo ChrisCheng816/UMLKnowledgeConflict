@@ -1,4 +1,4 @@
 @startuml
-TaskManager ..> OperatingSystem
-CalendarManagement ..> TaskManager
+TaskManager ..> OperatingSystem : depends on
+CalendarManagement ..> TaskManager : depends on
 @enduml

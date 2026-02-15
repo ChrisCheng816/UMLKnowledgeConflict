@@ -1,3 +1,3 @@
 @startuml
-Bread *-- Bruschetta
+Bread *-- Bruschetta : composes
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-SaturatedSoil ..> Landslide
+SaturatedSoil ..> Landslide : depends on
 @enduml

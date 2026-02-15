@@ -1,4 +1,4 @@
 @startuml
-CounterStrikeGlobalOffensive <|-- VideoGame
-VideoGame <|-- Game
+CounterStrikeGlobalOffensive <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

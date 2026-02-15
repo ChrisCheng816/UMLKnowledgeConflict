@@ -1,3 +1,3 @@
 @startuml
-BenchGrinder ..> Cutting
+BenchGrinder ..> Cutting : depends on
 @enduml

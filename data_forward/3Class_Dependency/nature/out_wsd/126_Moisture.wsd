@@ -1,4 +1,4 @@
 @startuml
-Germination ..> Moisture
-PlantGrowth ..> Germination
+Germination ..> Moisture : depends on
+PlantGrowth ..> Germination : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root
-Shrew *-- Tooth
+Tooth *-- Root : composes
+Shrew *-- Tooth : composes
 @enduml

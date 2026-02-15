@@ -1,4 +1,4 @@
 @startuml
-SafetyCrew o-- EducationalLibrarySystem
-TeachingAssistant o-- SafetyCrew
+SafetyCrew o-- EducationalLibrarySystem : aggregates
+TeachingAssistant o-- SafetyCrew : aggregates
 @enduml

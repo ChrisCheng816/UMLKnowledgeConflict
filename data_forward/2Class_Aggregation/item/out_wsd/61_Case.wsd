@@ -1,3 +1,3 @@
 @startuml
-OrchestraStore o-- Case
+OrchestraStore o-- Case : aggregates
 @enduml

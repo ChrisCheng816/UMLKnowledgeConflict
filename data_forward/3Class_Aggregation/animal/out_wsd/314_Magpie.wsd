@@ -1,4 +1,4 @@
 @startuml
-FlockOfMagpie o-- Magpie
-Cliff o-- FlockOfMagpie
+FlockOfMagpie o-- Magpie : aggregates
+Cliff o-- FlockOfMagpie : aggregates
 @enduml

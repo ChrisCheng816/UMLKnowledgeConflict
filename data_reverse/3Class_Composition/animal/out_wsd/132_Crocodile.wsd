@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Crocodile
-Scale *-- Skin
+Skin *-- Crocodile : composes
+Scale *-- Skin : composes
 @enduml

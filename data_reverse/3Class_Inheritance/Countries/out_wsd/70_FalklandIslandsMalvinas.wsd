@@ -1,4 +1,4 @@
 @startuml
-FalklandIslandsMalvinas <|-- Country
-Country <|-- GeopoliticalEntity
+FalklandIslandsMalvinas <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

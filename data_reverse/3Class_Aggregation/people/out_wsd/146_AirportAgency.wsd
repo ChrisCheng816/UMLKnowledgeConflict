@@ -1,4 +1,4 @@
 @startuml
-GroundCrewTeam o-- AirportAgency
-Mechanic o-- GroundCrewTeam
+GroundCrewTeam o-- AirportAgency : aggregates
+Mechanic o-- GroundCrewTeam : aggregates
 @enduml

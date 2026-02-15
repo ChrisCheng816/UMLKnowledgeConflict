@@ -1,4 +1,4 @@
 @startuml
-Zebra ..> Grass
-Cheetah ..> Zebra
+Zebra ..> Grass : depends on
+Cheetah ..> Zebra : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-AirCirculation ..> CeilingFan
+AirCirculation ..> CeilingFan : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Mammal <|-- Koala
+Mammal <|-- Koala : inherits
 @enduml

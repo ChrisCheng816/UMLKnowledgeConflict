@@ -1,4 +1,4 @@
 @startuml
-FlightOpsTeam o-- ComplianceOfficer
-LegalArtMuseum o-- FlightOpsTeam
+FlightOpsTeam o-- ComplianceOfficer : aggregates
+LegalArtMuseum o-- FlightOpsTeam : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Country <|-- Greece
+Country <|-- Greece : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Manufacturer <|-- CarManufacturer
-CarManufacturer <|-- Lexus
+Manufacturer <|-- CarManufacturer : inherits
+CarManufacturer <|-- Lexus : inherits
 @enduml

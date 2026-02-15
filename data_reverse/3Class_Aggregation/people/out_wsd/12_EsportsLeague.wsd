@@ -1,4 +1,4 @@
 @startuml
-Club o-- EsportsLeague
-Member o-- Club
+Club o-- EsportsLeague : aggregates
+Member o-- Club : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Softball <|-- TeamSport
+Softball <|-- TeamSport : inherits
 @enduml

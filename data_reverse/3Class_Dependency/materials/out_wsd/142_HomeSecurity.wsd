@@ -1,4 +1,4 @@
 @startuml
-MotionSensor ..> HomeSecurity
-Electricity ..> MotionSensor
+MotionSensor ..> HomeSecurity : depends on
+Electricity ..> MotionSensor : depends on
 @enduml

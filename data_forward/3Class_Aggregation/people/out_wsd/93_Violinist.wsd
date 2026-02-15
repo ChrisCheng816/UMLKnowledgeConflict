@@ -1,4 +1,4 @@
 @startuml
-RehearsalTeam o-- Violinist
-OrchestraAuthority o-- RehearsalTeam
+RehearsalTeam o-- Violinist : aggregates
+OrchestraAuthority o-- RehearsalTeam : aggregates
 @enduml

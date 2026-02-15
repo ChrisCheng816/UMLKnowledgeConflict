@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Legume
-Legume <|-- PintoBean
+Vegetable <|-- Legume : inherits
+Legume <|-- PintoBean : inherits
 @enduml

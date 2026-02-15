@@ -1,4 +1,4 @@
 @startuml
-DockOpsTeam o-- EnergyUniversityOffice
-OperationsManager o-- DockOpsTeam
+DockOpsTeam o-- EnergyUniversityOffice : aggregates
+OperationsManager o-- DockOpsTeam : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-RangerTeam o-- GardenClub
+RangerTeam o-- GardenClub : aggregates
 @enduml

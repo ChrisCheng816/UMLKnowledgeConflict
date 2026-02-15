@@ -1,4 +1,4 @@
 @startuml
-Turntable ..> RadioListening
-Electricity ..> Turntable
+Turntable ..> RadioListening : depends on
+Electricity ..> Turntable : depends on
 @enduml

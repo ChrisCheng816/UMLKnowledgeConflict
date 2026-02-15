@@ -1,4 +1,4 @@
 @startuml
-NestOfTurtle o-- Turtle
-Plateau o-- NestOfTurtle
+NestOfTurtle o-- Turtle : aggregates
+Plateau o-- NestOfTurtle : aggregates
 @enduml

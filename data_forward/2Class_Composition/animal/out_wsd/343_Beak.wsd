@@ -1,3 +1,3 @@
 @startuml
-Siskin *-- Beak
+Siskin *-- Beak : composes
 @enduml

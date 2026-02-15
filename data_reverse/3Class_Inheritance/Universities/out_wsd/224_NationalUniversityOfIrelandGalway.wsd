@@ -1,4 +1,4 @@
 @startuml
-NationalUniversityOfIrelandGalway <|-- University
-University <|-- EducationalInstitution
+NationalUniversityOfIrelandGalway <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

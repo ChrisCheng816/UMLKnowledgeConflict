@@ -1,3 +1,3 @@
 @startuml
-FlockOfPuffin o-- Sanctuary
+FlockOfPuffin o-- Sanctuary : aggregates
 @enduml

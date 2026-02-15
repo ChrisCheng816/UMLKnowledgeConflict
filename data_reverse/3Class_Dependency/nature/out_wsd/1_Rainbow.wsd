@@ -1,4 +1,4 @@
 @startuml
-Refraction ..> Rainbow
-Medium ..> Refraction
+Refraction ..> Rainbow : depends on
+Medium ..> Refraction : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-HarbinInstituteOfTechnology <|-- University
-University <|-- EducationalInstitution
+HarbinInstituteOfTechnology <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

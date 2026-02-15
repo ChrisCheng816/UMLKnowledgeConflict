@@ -1,4 +1,4 @@
 @startuml
-ArkhamHorror <|-- BoardGame
-BoardGame <|-- Game
+ArkhamHorror <|-- BoardGame : inherits
+BoardGame <|-- Game : inherits
 @enduml

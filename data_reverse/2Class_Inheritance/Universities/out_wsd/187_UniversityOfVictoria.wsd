@@ -1,3 +1,3 @@
 @startuml
-UniversityOfVictoria <|-- University
+UniversityOfVictoria <|-- University : inherits
 @enduml

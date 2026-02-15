@@ -1,4 +1,4 @@
 @startuml
-Athlete <|-- TennisPlayer
-TennisPlayer <|-- SerenaWilliams
+Athlete <|-- TennisPlayer : inherits
+TennisPlayer <|-- SerenaWilliams : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Lost <|-- TVSeries
+Lost <|-- TVSeries : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sambo <|-- CombatSport
-CombatSport <|-- Sport
+Sambo <|-- CombatSport : inherits
+CombatSport <|-- Sport : inherits
 @enduml

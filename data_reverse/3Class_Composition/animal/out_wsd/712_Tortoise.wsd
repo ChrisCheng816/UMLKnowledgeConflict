@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Tortoise
-Scale *-- Skin
+Skin *-- Tortoise : composes
+Scale *-- Skin : composes
 @enduml

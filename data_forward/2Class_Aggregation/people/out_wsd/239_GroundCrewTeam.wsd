@@ -1,3 +1,3 @@
 @startuml
-AirportAgency o-- GroundCrewTeam
+AirportAgency o-- GroundCrewTeam : aggregates
 @enduml

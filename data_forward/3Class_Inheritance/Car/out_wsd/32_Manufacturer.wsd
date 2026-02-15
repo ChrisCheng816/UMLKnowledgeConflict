@@ -1,4 +1,4 @@
 @startuml
-Manufacturer <|-- CarManufacturer
-CarManufacturer <|-- Rivian
+Manufacturer <|-- CarManufacturer : inherits
+CarManufacturer <|-- Rivian : inherits
 @enduml

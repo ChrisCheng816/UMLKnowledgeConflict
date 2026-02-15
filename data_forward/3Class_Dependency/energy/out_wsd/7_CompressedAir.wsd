@@ -1,4 +1,4 @@
 @startuml
-AirImpactWrench ..> CompressedAir
-Fastening ..> AirImpactWrench
+AirImpactWrench ..> CompressedAir : depends on
+Fastening ..> AirImpactWrench : depends on
 @enduml

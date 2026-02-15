@@ -1,4 +1,4 @@
 @startuml
-GISSoftware ..> MapAnalysis
-OperatingSystem ..> GISSoftware
+GISSoftware ..> MapAnalysis : depends on
+OperatingSystem ..> GISSoftware : depends on
 @enduml

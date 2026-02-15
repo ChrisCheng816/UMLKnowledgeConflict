@@ -1,4 +1,4 @@
 @startuml
-Chair <|-- Furniture
-Furniture <|-- Item
+Chair <|-- Furniture : inherits
+Furniture <|-- Item : inherits
 @enduml

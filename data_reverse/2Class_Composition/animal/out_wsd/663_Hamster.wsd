@@ -1,3 +1,3 @@
 @startuml
-Paw *-- Hamster
+Paw *-- Hamster : composes
 @enduml

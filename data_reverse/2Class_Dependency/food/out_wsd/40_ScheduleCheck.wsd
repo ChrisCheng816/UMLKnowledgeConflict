@@ -1,3 +1,3 @@
 @startuml
-FlightBooking ..> ScheduleCheck
+FlightBooking ..> ScheduleCheck : depends on
 @enduml

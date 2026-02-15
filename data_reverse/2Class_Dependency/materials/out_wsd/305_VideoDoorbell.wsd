@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> VideoDoorbell
+Electricity ..> VideoDoorbell : depends on
 @enduml

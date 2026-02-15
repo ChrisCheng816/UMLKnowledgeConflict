@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root
-WaterBuffalo *-- Tooth
+Tooth *-- Root : composes
+WaterBuffalo *-- Tooth : composes
 @enduml

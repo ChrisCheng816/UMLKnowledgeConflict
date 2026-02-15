@@ -1,4 +1,4 @@
 @startuml
-FlockOfFinch o-- Nursery
-Finch o-- FlockOfFinch
+FlockOfFinch o-- Nursery : aggregates
+Finch o-- FlockOfFinch : aggregates
 @enduml

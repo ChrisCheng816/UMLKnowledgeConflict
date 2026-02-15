@@ -1,4 +1,4 @@
 @startuml
-CommunityForum ..> InternetConnection
-SocialNetworking ..> CommunityForum
+CommunityForum ..> InternetConnection : depends on
+SocialNetworking ..> CommunityForum : depends on
 @enduml

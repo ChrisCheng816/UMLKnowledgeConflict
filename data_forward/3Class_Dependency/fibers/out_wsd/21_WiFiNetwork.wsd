@@ -1,4 +1,4 @@
 @startuml
-GameConsole ..> WiFiNetwork
-WebBrowsing ..> GameConsole
+GameConsole ..> WiFiNetwork : depends on
+WebBrowsing ..> GameConsole : depends on
 @enduml

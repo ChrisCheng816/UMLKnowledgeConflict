@@ -1,4 +1,4 @@
 @startuml
-BloodTestAnalyzer ..> LabDiagnostics
-Electricity ..> BloodTestAnalyzer
+BloodTestAnalyzer ..> LabDiagnostics : depends on
+Electricity ..> BloodTestAnalyzer : depends on
 @enduml

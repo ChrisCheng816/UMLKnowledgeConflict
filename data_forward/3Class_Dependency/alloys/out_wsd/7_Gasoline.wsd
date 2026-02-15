@@ -1,4 +1,4 @@
 @startuml
-Car ..> Gasoline
-Commuting ..> Car
+Car ..> Gasoline : depends on
+Commuting ..> Car : depends on
 @enduml

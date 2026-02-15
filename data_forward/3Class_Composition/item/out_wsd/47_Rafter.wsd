@@ -1,4 +1,4 @@
 @startuml
-Roof *-- Rafter
-Cabin *-- Roof
+Roof *-- Rafter : composes
+Cabin *-- Roof : composes
 @enduml

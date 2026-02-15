@@ -1,3 +1,3 @@
 @startuml
-Gannet o-- FlockOfGannet
+Gannet o-- FlockOfGannet : aggregates
 @enduml

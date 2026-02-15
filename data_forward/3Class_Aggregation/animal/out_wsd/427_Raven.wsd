@@ -1,4 +1,4 @@
 @startuml
-FlockOfRaven o-- Raven
-Shelter o-- FlockOfRaven
+FlockOfRaven o-- Raven : aggregates
+Shelter o-- FlockOfRaven : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfTurkey o-- Nursery
-Turkey o-- FlockOfTurkey
+FlockOfTurkey o-- Nursery : aggregates
+Turkey o-- FlockOfTurkey : aggregates
 @enduml

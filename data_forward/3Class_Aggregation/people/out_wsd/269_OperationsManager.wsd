@@ -1,4 +1,4 @@
 @startuml
-DockOpsTeam o-- OperationsManager
-MediaLibrarySystem o-- DockOpsTeam
+DockOpsTeam o-- OperationsManager : aggregates
+MediaLibrarySystem o-- DockOpsTeam : aggregates
 @enduml

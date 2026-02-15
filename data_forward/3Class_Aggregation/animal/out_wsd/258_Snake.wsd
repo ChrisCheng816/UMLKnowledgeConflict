@@ -1,4 +1,4 @@
 @startuml
-NestOfSnake o-- Snake
-Plateau o-- NestOfSnake
+NestOfSnake o-- Snake : aggregates
+Plateau o-- NestOfSnake : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SecurityTeam o-- SecurityGuard
-AgriculturalSportsClub o-- SecurityTeam
+SecurityTeam o-- SecurityGuard : aggregates
+AgriculturalSportsClub o-- SecurityTeam : aggregates
 @enduml

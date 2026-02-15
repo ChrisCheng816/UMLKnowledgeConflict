@@ -1,4 +1,4 @@
 @startuml
-FlockOfPigeon o-- Pigeon
-River o-- FlockOfPigeon
+FlockOfPigeon o-- Pigeon : aggregates
+River o-- FlockOfPigeon : aggregates
 @enduml

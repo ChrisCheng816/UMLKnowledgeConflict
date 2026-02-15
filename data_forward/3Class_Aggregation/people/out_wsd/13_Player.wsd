@@ -1,4 +1,4 @@
 @startuml
-Team o-- Player
-Racetrack o-- Team
+Team o-- Player : aggregates
+Racetrack o-- Team : aggregates
 @enduml

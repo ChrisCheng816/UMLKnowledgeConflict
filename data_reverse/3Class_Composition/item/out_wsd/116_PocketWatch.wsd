@@ -1,4 +1,4 @@
 @startuml
-WatchMovement *-- PocketWatch
-Mainspring *-- WatchMovement
+WatchMovement *-- PocketWatch : composes
+Mainspring *-- WatchMovement : composes
 @enduml

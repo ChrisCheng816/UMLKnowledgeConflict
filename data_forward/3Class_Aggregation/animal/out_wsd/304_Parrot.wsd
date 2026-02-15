@@ -1,4 +1,4 @@
 @startuml
-FlockOfParrot o-- Parrot
-Beach o-- FlockOfParrot
+FlockOfParrot o-- Parrot : aggregates
+Beach o-- FlockOfParrot : aggregates
 @enduml

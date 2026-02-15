@@ -1,4 +1,4 @@
 @startuml
-PulseOximeter ..> VitalSignsMonitoring
-Electricity ..> PulseOximeter
+PulseOximeter ..> VitalSignsMonitoring : depends on
+Electricity ..> PulseOximeter : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University
-University <|-- MoscowInstituteOfPhysicsAndTechnology
+EducationalInstitution <|-- University : inherits
+University <|-- MoscowInstituteOfPhysicsAndTechnology : inherits
 @enduml

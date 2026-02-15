@@ -1,4 +1,4 @@
 @startuml
-Window *-- Apartment
-Sash *-- Window
+Window *-- Apartment : composes
+Sash *-- Window : composes
 @enduml

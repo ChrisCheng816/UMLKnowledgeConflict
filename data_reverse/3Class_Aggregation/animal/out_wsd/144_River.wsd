@@ -1,4 +1,4 @@
 @startuml
-FlockOfAlbatross o-- River
-Albatross o-- FlockOfAlbatross
+FlockOfAlbatross o-- River : aggregates
+Albatross o-- FlockOfAlbatross : aggregates
 @enduml

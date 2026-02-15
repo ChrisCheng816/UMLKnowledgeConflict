@@ -1,4 +1,4 @@
 @startuml
-ExamLight ..> OperatingRoomLighting
-Electricity ..> ExamLight
+ExamLight ..> OperatingRoomLighting : depends on
+Electricity ..> ExamLight : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CommunityForum ..> InternetConnection
-PhotoSharing ..> CommunityForum
+CommunityForum ..> InternetConnection : depends on
+PhotoSharing ..> CommunityForum : depends on
 @enduml

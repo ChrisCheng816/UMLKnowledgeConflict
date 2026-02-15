@@ -1,3 +1,3 @@
 @startuml
-Toiletry <|-- Item
+Toiletry <|-- Item : inherits
 @enduml

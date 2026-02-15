@@ -1,4 +1,4 @@
 @startuml
-Volga <|-- River
-River <|-- GeographicFeature
+Volga <|-- River : inherits
+River <|-- GeographicFeature : inherits
 @enduml

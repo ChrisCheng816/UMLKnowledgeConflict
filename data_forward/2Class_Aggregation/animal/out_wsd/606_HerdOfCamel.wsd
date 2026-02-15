@@ -1,3 +1,3 @@
 @startuml
-Rookery o-- HerdOfCamel
+Rookery o-- HerdOfCamel : aggregates
 @enduml

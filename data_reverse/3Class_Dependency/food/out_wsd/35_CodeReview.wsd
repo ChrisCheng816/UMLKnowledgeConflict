@@ -1,4 +1,4 @@
 @startuml
-GitRepositoryHost ..> CodeReview
-InternetConnection ..> GitRepositoryHost
+GitRepositoryHost ..> CodeReview : depends on
+InternetConnection ..> GitRepositoryHost : depends on
 @enduml

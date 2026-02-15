@@ -1,4 +1,4 @@
 @startuml
-NestOfTurtle o-- Turtle
-Aviary o-- NestOfTurtle
+NestOfTurtle o-- Turtle : aggregates
+Aviary o-- NestOfTurtle : aggregates
 @enduml

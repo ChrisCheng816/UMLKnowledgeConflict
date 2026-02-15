@@ -1,4 +1,4 @@
 @startuml
-Radio ..> RadioNetwork
-PublicBroadcast ..> Radio
+Radio ..> RadioNetwork : depends on
+PublicBroadcast ..> Radio : depends on
 @enduml

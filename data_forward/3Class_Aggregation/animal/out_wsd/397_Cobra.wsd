@@ -1,4 +1,4 @@
 @startuml
-NestOfCobra o-- Cobra
-Aviary o-- NestOfCobra
+NestOfCobra o-- Cobra : aggregates
+Aviary o-- NestOfCobra : aggregates
 @enduml

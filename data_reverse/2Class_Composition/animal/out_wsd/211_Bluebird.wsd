@@ -1,3 +1,3 @@
 @startuml
-Beak *-- Bluebird
+Beak *-- Bluebird : composes
 @enduml

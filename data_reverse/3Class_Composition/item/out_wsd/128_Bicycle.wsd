@@ -1,4 +1,4 @@
 @startuml
-Wheel *-- Bicycle
-Spoke *-- Wheel
+Wheel *-- Bicycle : composes
+Spoke *-- Wheel : composes
 @enduml

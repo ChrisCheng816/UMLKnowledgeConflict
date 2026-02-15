@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Muscle
-TreeFrog *-- Leg
+Leg *-- Muscle : composes
+TreeFrog *-- Leg : composes
 @enduml

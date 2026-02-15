@@ -1,4 +1,4 @@
 @startuml
-NestOfSnake o-- Bay
-Snake o-- NestOfSnake
+NestOfSnake o-- Bay : aggregates
+Snake o-- NestOfSnake : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CNCMachine ..> Electricity
-PrototypeMaking ..> CNCMachine
+CNCMachine ..> Electricity : depends on
+PrototypeMaking ..> CNCMachine : depends on
 @enduml

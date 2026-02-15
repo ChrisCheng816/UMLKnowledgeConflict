@@ -1,4 +1,4 @@
 @startuml
-VolunteerTeam o-- CommunityAuthority
-Volunteer o-- VolunteerTeam
+VolunteerTeam o-- CommunityAuthority : aggregates
+Volunteer o-- VolunteerTeam : aggregates
 @enduml

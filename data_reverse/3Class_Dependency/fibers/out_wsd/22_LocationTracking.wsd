@@ -1,4 +1,4 @@
 @startuml
-GPSNavigator ..> LocationTracking
-GPSSignal ..> GPSNavigator
+GPSNavigator ..> LocationTracking : depends on
+GPSSignal ..> GPSNavigator : depends on
 @enduml

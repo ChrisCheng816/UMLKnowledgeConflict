@@ -1,4 +1,4 @@
 @startuml
-XRayMachine ..> ChestXRay
-Electricity ..> XRayMachine
+XRayMachine ..> ChestXRay : depends on
+Electricity ..> XRayMachine : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Athlete <|-- FootballPlayer
-FootballPlayer <|-- CristianoRonaldo
+Athlete <|-- FootballPlayer : inherits
+FootballPlayer <|-- CristianoRonaldo : inherits
 @enduml

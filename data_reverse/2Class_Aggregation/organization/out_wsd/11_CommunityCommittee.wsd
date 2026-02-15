@@ -1,3 +1,3 @@
 @startuml
-InterestClub o-- CommunityCommittee
+InterestClub o-- CommunityCommittee : aggregates
 @enduml

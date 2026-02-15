@@ -1,4 +1,4 @@
 @startuml
-Item <|-- OfficeEquipment
-OfficeEquipment <|-- Printer
+Item <|-- OfficeEquipment : inherits
+OfficeEquipment <|-- Printer : inherits
 @enduml

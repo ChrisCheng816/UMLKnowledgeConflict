@@ -1,4 +1,4 @@
 @startuml
-CutoffSaw ..> Deburring
-Electricity ..> CutoffSaw
+CutoffSaw ..> Deburring : depends on
+Electricity ..> CutoffSaw : depends on
 @enduml

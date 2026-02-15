@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- FrenchPolynesia
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- FrenchPolynesia : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-PaymentGateway ..> SubscriptionPayment
+PaymentGateway ..> SubscriptionPayment : depends on
 @enduml

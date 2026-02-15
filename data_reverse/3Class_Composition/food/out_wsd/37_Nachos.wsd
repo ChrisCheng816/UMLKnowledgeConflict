@@ -1,4 +1,4 @@
 @startuml
-TortillaChips *-- Nachos
-Cornmeal *-- TortillaChips
+TortillaChips *-- Nachos : composes
+Cornmeal *-- TortillaChips : composes
 @enduml

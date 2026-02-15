@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Anchovy
-Ray *-- Fin
+Fin *-- Anchovy : composes
+Ray *-- Fin : composes
 @enduml

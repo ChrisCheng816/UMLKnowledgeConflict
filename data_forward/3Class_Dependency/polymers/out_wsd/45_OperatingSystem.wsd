@@ -1,4 +1,4 @@
 @startuml
-DrawingApp ..> OperatingSystem
-Sketching ..> DrawingApp
+DrawingApp ..> OperatingSystem : depends on
+Sketching ..> DrawingApp : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-AuditTeam o-- DesertLogisticsCenter
-QualityAuditor o-- AuditTeam
+AuditTeam o-- DesertLogisticsCenter : aggregates
+QualityAuditor o-- AuditTeam : aggregates
 @enduml

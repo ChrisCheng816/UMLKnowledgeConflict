@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Turkey
-Shaft *-- Feather
+Feather *-- Turkey : composes
+Shaft *-- Feather : composes
 @enduml

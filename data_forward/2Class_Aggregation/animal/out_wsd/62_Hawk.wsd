@@ -1,3 +1,3 @@
 @startuml
-FlockOfHawk o-- Hawk
+FlockOfHawk o-- Hawk : aggregates
 @enduml

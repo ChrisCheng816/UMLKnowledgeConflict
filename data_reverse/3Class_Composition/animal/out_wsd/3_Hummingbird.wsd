@@ -1,4 +1,4 @@
 @startuml
-Tongue *-- Hummingbird
-Muscle *-- Tongue
+Tongue *-- Hummingbird : composes
+Muscle *-- Tongue : composes
 @enduml

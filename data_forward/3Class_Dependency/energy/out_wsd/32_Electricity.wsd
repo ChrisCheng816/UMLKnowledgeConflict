@@ -1,4 +1,4 @@
 @startuml
-DrillPress ..> Electricity
-HoleMaking ..> DrillPress
+DrillPress ..> Electricity : depends on
+HoleMaking ..> DrillPress : depends on
 @enduml

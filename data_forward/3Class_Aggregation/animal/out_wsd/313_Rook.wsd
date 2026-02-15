@@ -1,4 +1,4 @@
 @startuml
-FlockOfRook o-- Rook
-Cliff o-- FlockOfRook
+FlockOfRook o-- Rook : aggregates
+Cliff o-- FlockOfRook : aggregates
 @enduml

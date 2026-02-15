@@ -1,4 +1,4 @@
 @startuml
-SafetyTeam o-- HumanitarianCharityFoundation
-SecurityGuard o-- SafetyTeam
+SafetyTeam o-- HumanitarianCharityFoundation : aggregates
+SecurityGuard o-- SafetyTeam : aggregates
 @enduml

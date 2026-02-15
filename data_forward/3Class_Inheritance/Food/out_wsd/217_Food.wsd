@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Snack
-Snack <|-- TrailMix
+Food <|-- Snack : inherits
+Snack <|-- TrailMix : inherits
 @enduml

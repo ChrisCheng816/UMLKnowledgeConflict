@@ -1,3 +1,3 @@
 @startuml
-PaintSprayer ..> Finishing
+PaintSprayer ..> Finishing : depends on
 @enduml

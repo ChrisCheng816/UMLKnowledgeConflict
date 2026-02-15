@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Armadillo
-Root *-- Tooth
+Tooth *-- Armadillo : composes
+Root *-- Tooth : composes
 @enduml

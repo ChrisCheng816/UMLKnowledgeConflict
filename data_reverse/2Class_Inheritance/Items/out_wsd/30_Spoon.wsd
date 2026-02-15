@@ -1,3 +1,3 @@
 @startuml
-Spoon <|-- Utensil
+Spoon <|-- Utensil : inherits
 @enduml

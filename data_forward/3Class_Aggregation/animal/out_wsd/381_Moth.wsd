@@ -1,4 +1,4 @@
 @startuml
-SwarmOfMoth o-- Moth
-Pasture o-- SwarmOfMoth
+SwarmOfMoth o-- Moth : aggregates
+Pasture o-- SwarmOfMoth : aggregates
 @enduml

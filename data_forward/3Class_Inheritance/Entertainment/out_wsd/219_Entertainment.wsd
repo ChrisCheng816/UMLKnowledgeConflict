@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- TheLordOfTheRingsTheTwoTowers
+Entertainment <|-- Film : inherits
+Film <|-- TheLordOfTheRingsTheTwoTowers : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Bison *-- Tooth
+Bison *-- Tooth : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TrainCrew o-- TrainConductor
-RailwayCompany o-- TrainCrew
+TrainCrew o-- TrainConductor : aggregates
+RailwayCompany o-- TrainCrew : aggregates
 @enduml

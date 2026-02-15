@@ -1,4 +1,4 @@
 @startuml
-FlockOfTurkey o-- Lake
-Turkey o-- FlockOfTurkey
+FlockOfTurkey o-- Lake : aggregates
+Turkey o-- FlockOfTurkey : aggregates
 @enduml

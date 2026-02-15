@@ -1,4 +1,4 @@
 @startuml
-DisplayModule *-- Polarizer
-Laptop *-- DisplayModule
+DisplayModule *-- Polarizer : composes
+Laptop *-- DisplayModule : composes
 @enduml

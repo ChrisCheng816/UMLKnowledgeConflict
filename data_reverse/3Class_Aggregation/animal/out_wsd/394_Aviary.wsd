@@ -1,4 +1,4 @@
 @startuml
-NestOfLizard o-- Aviary
-Lizard o-- NestOfLizard
+NestOfLizard o-- Aviary : aggregates
+Lizard o-- NestOfLizard : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Microorganisms ..> Rot
-OrganicMatter ..> Microorganisms
+Microorganisms ..> Rot : depends on
+OrganicMatter ..> Microorganisms : depends on
 @enduml

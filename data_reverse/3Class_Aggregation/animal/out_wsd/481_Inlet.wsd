@@ -1,4 +1,4 @@
 @startuml
-PackOfCheetah o-- Inlet
-Cheetah o-- PackOfCheetah
+PackOfCheetah o-- Inlet : aggregates
+Cheetah o-- PackOfCheetah : aggregates
 @enduml

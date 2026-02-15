@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- StarWarsReturnOfTheJedi
+Entertainment <|-- Film : inherits
+Film <|-- StarWarsReturnOfTheJedi : inherits
 @enduml

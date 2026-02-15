@@ -1,4 +1,4 @@
 @startuml
-CarManufacturer <|-- Nissan
-Nissan <|-- NissanPathfinder
+CarManufacturer <|-- Nissan : inherits
+Nissan <|-- NissanPathfinder : inherits
 @enduml

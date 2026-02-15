@@ -1,4 +1,4 @@
 @startuml
-Pollen ..> Stamen
-Pollination ..> Pollen
+Pollen ..> Stamen : depends on
+Pollination ..> Pollen : depends on
 @enduml

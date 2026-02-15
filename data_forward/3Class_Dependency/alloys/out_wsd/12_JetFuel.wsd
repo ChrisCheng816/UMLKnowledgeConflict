@@ -1,4 +1,4 @@
 @startuml
-CargoPlane ..> JetFuel
-EmergencyTransport ..> CargoPlane
+CargoPlane ..> JetFuel : depends on
+EmergencyTransport ..> CargoPlane : depends on
 @enduml

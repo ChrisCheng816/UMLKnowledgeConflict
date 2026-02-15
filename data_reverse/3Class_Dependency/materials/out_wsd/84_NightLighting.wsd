@@ -1,4 +1,4 @@
 @startuml
-FlashlightCharger ..> NightLighting
-Electricity ..> FlashlightCharger
+FlashlightCharger ..> NightLighting : depends on
+Electricity ..> FlashlightCharger : depends on
 @enduml

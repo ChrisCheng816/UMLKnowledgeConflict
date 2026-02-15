@@ -1,4 +1,4 @@
 @startuml
-Roof *-- Truss
-Apartment *-- Roof
+Roof *-- Truss : composes
+Apartment *-- Roof : composes
 @enduml

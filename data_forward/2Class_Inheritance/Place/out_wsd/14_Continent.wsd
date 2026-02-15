@@ -1,3 +1,3 @@
 @startuml
-Continent <|-- Asia
+Continent <|-- Asia : inherits
 @enduml

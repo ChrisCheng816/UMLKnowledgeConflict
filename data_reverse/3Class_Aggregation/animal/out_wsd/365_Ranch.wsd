@@ -1,4 +1,4 @@
 @startuml
-SchoolOfTuna o-- Ranch
-Tuna o-- SchoolOfTuna
+SchoolOfTuna o-- Ranch : aggregates
+Tuna o-- SchoolOfTuna : aggregates
 @enduml

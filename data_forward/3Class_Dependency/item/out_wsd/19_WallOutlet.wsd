@@ -1,4 +1,4 @@
 @startuml
-RapidCharger ..> WallOutlet
-PowerToolBattery ..> RapidCharger
+RapidCharger ..> WallOutlet : depends on
+PowerToolBattery ..> RapidCharger : depends on
 @enduml

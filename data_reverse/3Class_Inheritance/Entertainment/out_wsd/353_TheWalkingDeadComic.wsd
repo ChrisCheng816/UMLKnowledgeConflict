@@ -1,4 +1,4 @@
 @startuml
-TheWalkingDeadComic <|-- Comic
-Comic <|-- Entertainment
+TheWalkingDeadComic <|-- Comic : inherits
+Comic <|-- Entertainment : inherits
 @enduml

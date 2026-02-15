@@ -1,3 +1,3 @@
 @startuml
-Bat *-- Tooth
+Bat *-- Tooth : composes
 @enduml

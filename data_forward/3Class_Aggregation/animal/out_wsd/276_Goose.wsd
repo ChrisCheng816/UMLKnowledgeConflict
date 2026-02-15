@@ -1,4 +1,4 @@
 @startuml
-FlockOfGoose o-- Goose
-Atoll o-- FlockOfGoose
+FlockOfGoose o-- Goose : aggregates
+Atoll o-- FlockOfGoose : aggregates
 @enduml

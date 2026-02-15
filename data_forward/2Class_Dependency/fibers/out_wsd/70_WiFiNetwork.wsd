@@ -1,3 +1,3 @@
 @startuml
-Tablet ..> WiFiNetwork
+Tablet ..> WiFiNetwork : depends on
 @enduml

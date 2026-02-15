@@ -1,3 +1,3 @@
 @startuml
-TankCage o-- Turtle
+TankCage o-- Turtle : aggregates
 @enduml

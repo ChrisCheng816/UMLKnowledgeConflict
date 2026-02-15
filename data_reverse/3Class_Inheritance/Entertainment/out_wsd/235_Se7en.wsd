@@ -1,4 +1,4 @@
 @startuml
-Se7en <|-- Film
-Film <|-- Entertainment
+Se7en <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

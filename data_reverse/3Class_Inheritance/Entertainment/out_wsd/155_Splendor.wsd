@@ -1,4 +1,4 @@
 @startuml
-Splendor <|-- BoardGame
-BoardGame <|-- Game
+Splendor <|-- BoardGame : inherits
+BoardGame <|-- Game : inherits
 @enduml

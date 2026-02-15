@@ -1,3 +1,3 @@
 @startuml
-PneumaticNailGun ..> Carpentry
+PneumaticNailGun ..> Carpentry : depends on
 @enduml

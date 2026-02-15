@@ -1,4 +1,4 @@
 @startuml
-MutualAidGroup o-- GroupMember
-MutualAidAssociation o-- MutualAidGroup
+MutualAidGroup o-- GroupMember : aggregates
+MutualAidAssociation o-- MutualAidGroup : aggregates
 @enduml

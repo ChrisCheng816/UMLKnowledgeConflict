@@ -1,3 +1,3 @@
 @startuml
-University <|-- AaltoUniversity
+University <|-- AaltoUniversity : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Amplifier ..> AudioStreaming
-Electricity ..> Amplifier
+Amplifier ..> AudioStreaming : depends on
+Electricity ..> Amplifier : depends on
 @enduml

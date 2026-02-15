@@ -1,4 +1,4 @@
 @startuml
-PilotTeam o-- PortAuthority
-HarborPilot o-- PilotTeam
+PilotTeam o-- PortAuthority : aggregates
+HarborPilot o-- PilotTeam : aggregates
 @enduml

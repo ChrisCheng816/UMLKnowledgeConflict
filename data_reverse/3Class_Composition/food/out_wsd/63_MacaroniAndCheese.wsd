@@ -1,4 +1,4 @@
 @startuml
-Cheese *-- MacaroniAndCheese
-Milk *-- Cheese
+Cheese *-- MacaroniAndCheese : composes
+Milk *-- Cheese : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Bird
-Bird <|-- Owl
+Animal <|-- Bird : inherits
+Bird <|-- Owl : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TrainingBoard o-- EducationalArtMuseum
-SalesAssistant o-- TrainingBoard
+TrainingBoard o-- EducationalArtMuseum : aggregates
+SalesAssistant o-- TrainingBoard : aggregates
 @enduml

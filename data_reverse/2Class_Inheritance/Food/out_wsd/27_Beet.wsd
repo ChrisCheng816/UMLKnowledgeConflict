@@ -1,3 +1,3 @@
 @startuml
-Beet <|-- RootVegetable
+Beet <|-- RootVegetable : inherits
 @enduml

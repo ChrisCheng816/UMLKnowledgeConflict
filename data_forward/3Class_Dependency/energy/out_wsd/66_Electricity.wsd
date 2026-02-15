@@ -1,4 +1,4 @@
 @startuml
-SolderingStation ..> Electricity
-Soldering ..> SolderingStation
+SolderingStation ..> Electricity : depends on
+Soldering ..> SolderingStation : depends on
 @enduml

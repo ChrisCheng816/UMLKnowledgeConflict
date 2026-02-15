@@ -1,4 +1,4 @@
 @startuml
-DockOpsTeam o-- OperationsManager
-SavannaRailwayOperator o-- DockOpsTeam
+DockOpsTeam o-- OperationsManager : aggregates
+SavannaRailwayOperator o-- DockOpsTeam : aggregates
 @enduml

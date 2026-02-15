@@ -1,3 +1,3 @@
 @startuml
-Beak *-- Grouse
+Beak *-- Grouse : composes
 @enduml

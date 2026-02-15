@@ -1,4 +1,4 @@
 @startuml
-Firewood ..> FirePit
-FirewoodSupplier ..> Firewood
+Firewood ..> FirePit : depends on
+FirewoodSupplier ..> Firewood : depends on
 @enduml

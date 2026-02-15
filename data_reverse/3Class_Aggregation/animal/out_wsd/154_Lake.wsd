@@ -1,4 +1,4 @@
 @startuml
-FlockOfTern o-- Lake
-Tern o-- FlockOfTern
+FlockOfTern o-- Lake : aggregates
+Tern o-- FlockOfTern : aggregates
 @enduml

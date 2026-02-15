@@ -1,4 +1,4 @@
 @startuml
-DesktopComputer ..> WebBrowsing
-WiFiNetwork ..> DesktopComputer
+DesktopComputer ..> WebBrowsing : depends on
+WiFiNetwork ..> DesktopComputer : depends on
 @enduml

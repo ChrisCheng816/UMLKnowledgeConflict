@@ -1,3 +1,3 @@
 @startuml
-PatientMonitoring ..> ECGMonitor
+PatientMonitoring ..> ECGMonitor : depends on
 @enduml

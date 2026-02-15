@@ -1,4 +1,4 @@
 @startuml
-TrainingTeam o-- HumanitarianMusicAcademy
-Professor o-- TrainingTeam
+TrainingTeam o-- HumanitarianMusicAcademy : aggregates
+Professor o-- TrainingTeam : aggregates
 @enduml

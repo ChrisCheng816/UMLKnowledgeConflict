@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Python
-Scale *-- Skin
+Skin *-- Python : composes
+Scale *-- Skin : composes
 @enduml

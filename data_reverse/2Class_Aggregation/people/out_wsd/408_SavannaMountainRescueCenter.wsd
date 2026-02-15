@@ -1,3 +1,3 @@
 @startuml
-MaintenanceTeam o-- SavannaMountainRescueCenter
+MaintenanceTeam o-- SavannaMountainRescueCenter : aggregates
 @enduml

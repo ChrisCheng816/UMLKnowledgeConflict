@@ -1,3 +1,3 @@
 @startuml
-Up <|-- Film
+Up <|-- Film : inherits
 @enduml

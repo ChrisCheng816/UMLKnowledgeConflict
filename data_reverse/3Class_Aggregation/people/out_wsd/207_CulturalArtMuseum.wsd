@@ -1,4 +1,4 @@
 @startuml
-ComplianceCommittee o-- CulturalArtMuseum
-Lecturer o-- ComplianceCommittee
+ComplianceCommittee o-- CulturalArtMuseum : aggregates
+Lecturer o-- ComplianceCommittee : aggregates
 @enduml

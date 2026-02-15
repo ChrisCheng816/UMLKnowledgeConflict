@@ -1,3 +1,3 @@
 @startuml
-Sport <|-- Gymnastics
+Sport <|-- Gymnastics : inherits
 @enduml

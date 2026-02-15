@@ -1,4 +1,4 @@
 @startuml
-TabletWithLTE ..> VoiceCall
-CellularNetwork ..> TabletWithLTE
+TabletWithLTE ..> VoiceCall : depends on
+CellularNetwork ..> TabletWithLTE : depends on
 @enduml

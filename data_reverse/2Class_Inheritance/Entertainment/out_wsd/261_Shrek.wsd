@@ -1,3 +1,3 @@
 @startuml
-Shrek <|-- Film
+Shrek <|-- Film : inherits
 @enduml

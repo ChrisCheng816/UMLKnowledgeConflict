@@ -1,3 +1,3 @@
 @startuml
-FrozenDrawer o-- FrozenFish
+FrozenDrawer o-- FrozenFish : aggregates
 @enduml

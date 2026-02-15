@@ -1,3 +1,3 @@
 @startuml
-Albatross <|-- Bird
+Albatross <|-- Bird : inherits
 @enduml

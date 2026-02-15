@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Alpaca
-Nostril *-- Nose
+Nose *-- Alpaca : composes
+Nostril *-- Nose : composes
 @enduml

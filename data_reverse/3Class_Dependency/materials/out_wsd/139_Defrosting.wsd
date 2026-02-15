@@ -1,4 +1,4 @@
 @startuml
-MicrowaveOven ..> Defrosting
-Electricity ..> MicrowaveOven
+MicrowaveOven ..> Defrosting : depends on
+Electricity ..> MicrowaveOven : depends on
 @enduml

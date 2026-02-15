@@ -1,4 +1,4 @@
 @startuml
-Microorganisms ..> OrganicMatter
-Decomposition ..> Microorganisms
+Microorganisms ..> OrganicMatter : depends on
+Decomposition ..> Microorganisms : depends on
 @enduml

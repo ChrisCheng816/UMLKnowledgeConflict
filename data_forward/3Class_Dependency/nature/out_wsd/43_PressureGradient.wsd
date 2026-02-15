@@ -1,4 +1,4 @@
 @startuml
-StormSystem ..> PressureGradient
-Wind ..> StormSystem
+StormSystem ..> PressureGradient : depends on
+Wind ..> StormSystem : depends on
 @enduml

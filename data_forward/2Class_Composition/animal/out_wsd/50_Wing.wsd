@@ -1,3 +1,3 @@
 @startuml
-Crow *-- Wing
+Crow *-- Wing : composes
 @enduml

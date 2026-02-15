@@ -1,4 +1,4 @@
 @startuml
-ColdSurface ..> Frost
-NightSky ..> ColdSurface
+ColdSurface ..> Frost : depends on
+NightSky ..> ColdSurface : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Aviary o-- NestOfLizard
+Aviary o-- NestOfLizard : aggregates
 @enduml

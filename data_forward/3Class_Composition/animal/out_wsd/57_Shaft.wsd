@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Shaft
-Flamingo *-- Feather
+Feather *-- Shaft : composes
+Flamingo *-- Feather : composes
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-RailwayAuthority o-- MaintenanceTeam
+RailwayAuthority o-- MaintenanceTeam : aggregates
 @enduml

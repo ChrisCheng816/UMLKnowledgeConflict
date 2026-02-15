@@ -1,4 +1,4 @@
 @startuml
-GroupOfClam o-- Estuary
-Clam o-- GroupOfClam
+GroupOfClam o-- Estuary : aggregates
+Clam o-- GroupOfClam : aggregates
 @enduml

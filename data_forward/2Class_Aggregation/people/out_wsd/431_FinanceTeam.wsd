@@ -1,3 +1,3 @@
 @startuml
-TransportLibrarySystem o-- FinanceTeam
+TransportLibrarySystem o-- FinanceTeam : aggregates
 @enduml

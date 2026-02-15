@@ -1,4 +1,4 @@
 @startuml
-CommunityTeam o-- ForestTechCompany
-SafetyInspector o-- CommunityTeam
+CommunityTeam o-- ForestTechCompany : aggregates
+SafetyInspector o-- CommunityTeam : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Bandy <|-- TeamSport
-TeamSport <|-- Sport
+Bandy <|-- TeamSport : inherits
+TeamSport <|-- Sport : inherits
 @enduml

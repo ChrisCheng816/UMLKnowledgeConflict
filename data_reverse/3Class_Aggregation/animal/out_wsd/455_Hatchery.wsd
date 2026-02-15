@@ -1,4 +1,4 @@
 @startuml
-HerdOfDeer o-- Hatchery
-Deer o-- HerdOfDeer
+HerdOfDeer o-- Hatchery : aggregates
+Deer o-- HerdOfDeer : aggregates
 @enduml

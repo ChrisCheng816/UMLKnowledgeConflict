@@ -1,3 +1,3 @@
 @startuml
-CitationManager ..> OperatingSystem
+CitationManager ..> OperatingSystem : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SingaporeUniversityOfTechnologyAndDesign <|-- University
-University <|-- EducationalInstitution
+SingaporeUniversityOfTechnologyAndDesign <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

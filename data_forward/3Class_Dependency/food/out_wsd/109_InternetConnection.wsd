@@ -1,4 +1,4 @@
 @startuml
-SearchEngine ..> InternetConnection
-InformationLookup ..> SearchEngine
+SearchEngine ..> InternetConnection : depends on
+InformationLookup ..> SearchEngine : depends on
 @enduml

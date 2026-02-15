@@ -1,4 +1,4 @@
 @startuml
-TaskManager ..> TaskManagement
-OperatingSystem ..> TaskManager
+TaskManager ..> TaskManagement : depends on
+OperatingSystem ..> TaskManager : depends on
 @enduml

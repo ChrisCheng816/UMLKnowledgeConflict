@@ -1,3 +1,3 @@
 @startuml
-StreetLight ..> UtilityMeter
+StreetLight ..> UtilityMeter : depends on
 @enduml

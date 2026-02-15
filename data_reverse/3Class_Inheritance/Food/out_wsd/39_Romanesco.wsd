@@ -1,4 +1,4 @@
 @startuml
-Romanesco <|-- CruciferousVegetable
-CruciferousVegetable <|-- Vegetable
+Romanesco <|-- CruciferousVegetable : inherits
+CruciferousVegetable <|-- Vegetable : inherits
 @enduml

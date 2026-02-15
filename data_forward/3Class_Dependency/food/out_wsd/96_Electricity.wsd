@@ -1,4 +1,4 @@
 @startuml
-Projector ..> Electricity
-Presentation ..> Projector
+Projector ..> Electricity : depends on
+Presentation ..> Projector : depends on
 @enduml

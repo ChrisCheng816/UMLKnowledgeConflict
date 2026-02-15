@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Crocodile
-Root *-- Tooth
+Tooth *-- Crocodile : composes
+Root *-- Tooth : composes
 @enduml

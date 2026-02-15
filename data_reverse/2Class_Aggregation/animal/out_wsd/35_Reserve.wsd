@@ -1,3 +1,3 @@
 @startuml
-FlockOfGull o-- Reserve
+FlockOfGull o-- Reserve : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfSwan o-- Swan
-Atoll o-- FlockOfSwan
+FlockOfSwan o-- Swan : aggregates
+Atoll o-- FlockOfSwan : aggregates
 @enduml

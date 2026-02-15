@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Nostril
-Tapir *-- Nose
+Nose *-- Nostril : composes
+Tapir *-- Nose : composes
 @enduml

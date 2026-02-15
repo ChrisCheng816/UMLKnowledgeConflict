@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Mountain
-Mountain <|-- Kilimanjaro
+GeographicFeature <|-- Mountain : inherits
+Mountain <|-- Kilimanjaro : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-FileCompression ..> CompressionTool
+FileCompression ..> CompressionTool : depends on
 @enduml

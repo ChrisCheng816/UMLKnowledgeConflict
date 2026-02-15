@@ -1,4 +1,4 @@
 @startuml
-Mozzarella *-- Milk
-MargheritaPizza *-- Mozzarella
+Mozzarella *-- Milk : composes
+MargheritaPizza *-- Mozzarella : composes
 @enduml

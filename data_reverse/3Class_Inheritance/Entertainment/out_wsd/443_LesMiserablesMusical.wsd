@@ -1,4 +1,4 @@
 @startuml
-LesMiserablesMusical <|-- MusicalTheatre
-MusicalTheatre <|-- Theatre
+LesMiserablesMusical <|-- MusicalTheatre : inherits
+MusicalTheatre <|-- Theatre : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Interference ..> Hologram
-CoherentLight ..> Interference
+Interference ..> Hologram : depends on
+CoherentLight ..> Interference : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-FlockOfDuck o-- Atoll
+FlockOfDuck o-- Atoll : aggregates
 @enduml

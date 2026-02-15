@@ -1,3 +1,3 @@
 @startuml
-SoilMoisture ..> PlantGrowth
+SoilMoisture ..> PlantGrowth : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-HerdOfWildebeest o-- Forest
+HerdOfWildebeest o-- Forest : aggregates
 @enduml

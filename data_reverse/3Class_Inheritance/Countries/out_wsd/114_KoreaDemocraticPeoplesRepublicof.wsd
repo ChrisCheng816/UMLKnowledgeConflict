@@ -1,4 +1,4 @@
 @startuml
-KoreaDemocraticPeoplesRepublicof <|-- Country
-Country <|-- GeopoliticalEntity
+KoreaDemocraticPeoplesRepublicof <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-IronMan <|-- Film
-Film <|-- Entertainment
+IronMan <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

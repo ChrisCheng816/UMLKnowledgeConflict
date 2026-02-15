@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- CommunityWarehouse
-Blanket o-- StorageBin
+StorageBin o-- CommunityWarehouse : aggregates
+Blanket o-- StorageBin : aggregates
 @enduml

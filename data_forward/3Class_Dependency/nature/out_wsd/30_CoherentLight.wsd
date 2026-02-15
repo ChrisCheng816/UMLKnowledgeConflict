@@ -1,4 +1,4 @@
 @startuml
-Interference ..> CoherentLight
-MoirePattern ..> Interference
+Interference ..> CoherentLight : depends on
+MoirePattern ..> Interference : depends on
 @enduml

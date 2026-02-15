@@ -1,4 +1,4 @@
 @startuml
-TrainingTeam o-- CulturalUniversityOffice
-Professor o-- TrainingTeam
+TrainingTeam o-- CulturalUniversityOffice : aggregates
+Professor o-- TrainingTeam : aggregates
 @enduml

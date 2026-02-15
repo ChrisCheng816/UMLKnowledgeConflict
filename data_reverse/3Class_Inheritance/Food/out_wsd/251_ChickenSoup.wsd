@@ -1,4 +1,4 @@
 @startuml
-ChickenSoup <|-- Soup
-Soup <|-- Dish
+ChickenSoup <|-- Soup : inherits
+Soup <|-- Dish : inherits
 @enduml

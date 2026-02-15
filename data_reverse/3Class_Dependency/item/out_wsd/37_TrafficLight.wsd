@@ -1,4 +1,4 @@
 @startuml
-UtilityMeter ..> TrafficLight
-DistributionLine ..> UtilityMeter
+UtilityMeter ..> TrafficLight : depends on
+DistributionLine ..> UtilityMeter : depends on
 @enduml

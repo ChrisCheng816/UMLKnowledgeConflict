@@ -1,3 +1,3 @@
 @startuml
-Flower ..> Nectar
+Flower ..> Nectar : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TectonicPlate ..> Subduction
-MantleConvection ..> TectonicPlate
+TectonicPlate ..> Subduction : depends on
+MantleConvection ..> TectonicPlate : depends on
 @enduml

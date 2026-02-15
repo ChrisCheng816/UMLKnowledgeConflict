@@ -1,3 +1,3 @@
 @startuml
-Nissan <|-- NissanLeaf
+Nissan <|-- NissanLeaf : inherits
 @enduml

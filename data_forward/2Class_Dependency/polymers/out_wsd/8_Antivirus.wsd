@@ -1,3 +1,3 @@
 @startuml
-ThreatProtection ..> Antivirus
+ThreatProtection ..> Antivirus : depends on
 @enduml

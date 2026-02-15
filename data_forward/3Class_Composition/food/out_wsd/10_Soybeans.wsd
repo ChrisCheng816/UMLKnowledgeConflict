@@ -1,4 +1,4 @@
 @startuml
-Miso *-- Soybeans
-MisoSoup *-- Miso
+Miso *-- Soybeans : composes
+MisoSoup *-- Miso : composes
 @enduml

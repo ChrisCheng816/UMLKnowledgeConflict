@@ -1,3 +1,3 @@
 @startuml
-AngleGrinder ..> Cutting
+AngleGrinder ..> Cutting : depends on
 @enduml

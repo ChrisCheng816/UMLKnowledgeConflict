@@ -1,4 +1,4 @@
 @startuml
-ResearchGroup o-- PhDStudent
-EnergyCharityFoundation o-- ResearchGroup
+ResearchGroup o-- PhDStudent : aggregates
+EnergyCharityFoundation o-- ResearchGroup : aggregates
 @enduml

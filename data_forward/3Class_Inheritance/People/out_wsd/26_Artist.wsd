@@ -1,4 +1,4 @@
 @startuml
-Artist <|-- Author
-Author <|-- WilliamShakespeare
+Artist <|-- Author : inherits
+Author <|-- WilliamShakespeare : inherits
 @enduml

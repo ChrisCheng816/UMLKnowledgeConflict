@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens
-Caiman *-- Eye
+Eye *-- Lens : composes
+Caiman *-- Eye : composes
 @enduml

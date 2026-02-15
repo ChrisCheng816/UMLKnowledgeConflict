@@ -1,3 +1,3 @@
 @startuml
-Foot *-- Chicken
+Foot *-- Chicken : composes
 @enduml

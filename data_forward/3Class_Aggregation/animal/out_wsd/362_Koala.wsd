@@ -1,4 +1,4 @@
 @startuml
-ColonyOfKoala o-- Koala
-Ranch o-- ColonyOfKoala
+ColonyOfKoala o-- Koala : aggregates
+Ranch o-- ColonyOfKoala : aggregates
 @enduml

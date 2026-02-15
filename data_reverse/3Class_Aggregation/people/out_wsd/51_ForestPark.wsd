@@ -1,4 +1,4 @@
 @startuml
-RangerTeam o-- ForestPark
-ForestRanger o-- RangerTeam
+RangerTeam o-- ForestPark : aggregates
+ForestRanger o-- RangerTeam : aggregates
 @enduml

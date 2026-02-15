@@ -1,4 +1,4 @@
 @startuml
-CADSoftware ..> OperatingSystem
-3DModeling ..> CADSoftware
+CADSoftware ..> OperatingSystem : depends on
+3DModeling ..> CADSoftware : depends on
 @enduml

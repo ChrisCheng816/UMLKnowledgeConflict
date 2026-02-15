@@ -1,4 +1,4 @@
 @startuml
-SwarmOfBee o-- Hill
-Bee o-- SwarmOfBee
+SwarmOfBee o-- Hill : aggregates
+Bee o-- SwarmOfBee : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-BanhMi *-- Baguette
+BanhMi *-- Baguette : composes
 @enduml

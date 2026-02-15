@@ -1,4 +1,4 @@
 @startuml
-Thundercloud ..> StormSystem
-Lightning ..> Thundercloud
+Thundercloud ..> StormSystem : depends on
+Lightning ..> Thundercloud : depends on
 @enduml

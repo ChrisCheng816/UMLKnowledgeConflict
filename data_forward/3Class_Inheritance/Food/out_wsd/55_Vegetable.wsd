@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Legume
-Legume <|-- Edamame
+Vegetable <|-- Legume : inherits
+Legume <|-- Edamame : inherits
 @enduml

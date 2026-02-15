@@ -1,3 +1,3 @@
 @startuml
-MaintenanceTeam o-- RegionalTechCompany
+MaintenanceTeam o-- RegionalTechCompany : aggregates
 @enduml

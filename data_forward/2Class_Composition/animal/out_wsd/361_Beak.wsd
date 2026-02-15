@@ -1,3 +1,3 @@
 @startuml
-Swallow *-- Beak
+Swallow *-- Beak : composes
 @enduml

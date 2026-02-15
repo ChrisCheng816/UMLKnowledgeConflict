@@ -1,4 +1,4 @@
 @startuml
-FlockOfPuffin o-- River
-Puffin o-- FlockOfPuffin
+FlockOfPuffin o-- River : aggregates
+Puffin o-- FlockOfPuffin : aggregates
 @enduml

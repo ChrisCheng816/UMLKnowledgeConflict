@@ -1,4 +1,4 @@
 @startuml
-Butter *-- ButterChicken
-Milk *-- Butter
+Butter *-- ButterChicken : composes
+Milk *-- Butter : composes
 @enduml

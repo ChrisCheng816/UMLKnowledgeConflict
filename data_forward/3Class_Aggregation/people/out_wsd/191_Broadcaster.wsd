@@ -1,4 +1,4 @@
 @startuml
-BroadcastTeam o-- Broadcaster
-MediaStation o-- BroadcastTeam
+BroadcastTeam o-- Broadcaster : aggregates
+MediaStation o-- BroadcastTeam : aggregates
 @enduml

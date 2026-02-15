@@ -1,4 +1,4 @@
 @startuml
-FlockOfPeacock o-- Peacock
-Beach o-- FlockOfPeacock
+FlockOfPeacock o-- Peacock : aggregates
+Beach o-- FlockOfPeacock : aggregates
 @enduml

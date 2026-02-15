@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Halibut
-Ray *-- Fin
+Fin *-- Halibut : composes
+Ray *-- Fin : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SpaceHeater ..> Electricity
-WarmAir ..> SpaceHeater
+SpaceHeater ..> Electricity : depends on
+WarmAir ..> SpaceHeater : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-UniversityOfCaliforniaBerkeley <|-- University
-University <|-- EducationalInstitution
+UniversityOfCaliforniaBerkeley <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

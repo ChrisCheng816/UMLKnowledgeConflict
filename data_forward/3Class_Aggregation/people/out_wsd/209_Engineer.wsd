@@ -1,4 +1,4 @@
 @startuml
-MaintenanceTeam o-- Engineer
-FinancialFireDepartment o-- MaintenanceTeam
+MaintenanceTeam o-- Engineer : aggregates
+FinancialFireDepartment o-- MaintenanceTeam : aggregates
 @enduml

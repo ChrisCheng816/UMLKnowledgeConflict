@@ -1,4 +1,4 @@
 @startuml
-ColonyOfBeaver o-- Ranch
-Beaver o-- ColonyOfBeaver
+ColonyOfBeaver o-- Ranch : aggregates
+Beaver o-- ColonyOfBeaver : aggregates
 @enduml

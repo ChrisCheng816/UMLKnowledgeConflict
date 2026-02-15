@@ -1,3 +1,3 @@
 @startuml
-WatchMovement *-- Escapement
+WatchMovement *-- Escapement : composes
 @enduml

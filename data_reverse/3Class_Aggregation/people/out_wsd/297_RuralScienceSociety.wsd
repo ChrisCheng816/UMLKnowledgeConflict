@@ -1,4 +1,4 @@
 @startuml
-CaseTeam o-- RuralScienceSociety
-CaseLawyer o-- CaseTeam
+CaseTeam o-- RuralScienceSociety : aggregates
+CaseLawyer o-- CaseTeam : aggregates
 @enduml

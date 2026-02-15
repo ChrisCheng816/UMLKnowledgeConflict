@@ -1,3 +1,3 @@
 @startuml
-CappuccinoMaking ..> EspressoMachine
+CappuccinoMaking ..> EspressoMachine : depends on
 @enduml

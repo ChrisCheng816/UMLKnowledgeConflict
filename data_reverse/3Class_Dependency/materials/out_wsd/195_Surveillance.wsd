@@ -1,4 +1,4 @@
 @startuml
-SmokeAlarm ..> Surveillance
-Electricity ..> SmokeAlarm
+SmokeAlarm ..> Surveillance : depends on
+Electricity ..> SmokeAlarm : depends on
 @enduml

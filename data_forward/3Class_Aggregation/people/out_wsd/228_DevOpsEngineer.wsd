@@ -1,4 +1,4 @@
 @startuml
-CommunityBoard o-- DevOpsEngineer
-RiverCoastalAgency o-- CommunityBoard
+CommunityBoard o-- DevOpsEngineer : aggregates
+RiverCoastalAgency o-- CommunityBoard : aggregates
 @enduml

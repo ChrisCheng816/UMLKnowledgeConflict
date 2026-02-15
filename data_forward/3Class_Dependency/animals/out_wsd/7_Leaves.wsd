@@ -1,4 +1,4 @@
 @startuml
-Deer ..> Leaves
-Puma ..> Deer
+Deer ..> Leaves : depends on
+Puma ..> Deer : depends on
 @enduml

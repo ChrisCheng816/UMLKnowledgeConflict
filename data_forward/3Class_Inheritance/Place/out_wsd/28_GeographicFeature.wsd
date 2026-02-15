@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Sea
-Sea <|-- RedSea
+GeographicFeature <|-- Sea : inherits
+Sea <|-- RedSea : inherits
 @enduml

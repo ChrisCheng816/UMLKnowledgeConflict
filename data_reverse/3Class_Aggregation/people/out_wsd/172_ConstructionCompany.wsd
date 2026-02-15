@@ -1,4 +1,4 @@
 @startuml
-WorkCrew o-- ConstructionCompany
-Welder o-- WorkCrew
+WorkCrew o-- ConstructionCompany : aggregates
+Welder o-- WorkCrew : aggregates
 @enduml

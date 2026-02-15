@@ -1,3 +1,3 @@
 @startuml
-MaintenanceDepartment o-- RepairTeam
+MaintenanceDepartment o-- RepairTeam : aggregates
 @enduml

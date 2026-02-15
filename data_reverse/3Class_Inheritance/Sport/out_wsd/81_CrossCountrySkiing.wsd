@@ -1,4 +1,4 @@
 @startuml
-CrossCountrySkiing <|-- WinterSport
-WinterSport <|-- Sport
+CrossCountrySkiing <|-- WinterSport : inherits
+WinterSport <|-- Sport : inherits
 @enduml

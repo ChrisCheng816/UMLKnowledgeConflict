@@ -1,4 +1,4 @@
 @startuml
-Alligator <|-- Reptile
-Reptile <|-- Animal
+Alligator <|-- Reptile : inherits
+Reptile <|-- Animal : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Painting <|-- TheNightWatch
+Painting <|-- TheNightWatch : inherits
 @enduml

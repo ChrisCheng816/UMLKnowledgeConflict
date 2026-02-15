@@ -1,3 +1,3 @@
 @startuml
-Wing *-- Kestrel
+Wing *-- Kestrel : composes
 @enduml

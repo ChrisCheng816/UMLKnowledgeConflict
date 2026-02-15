@@ -1,4 +1,4 @@
 @startuml
-MansionsOfMadness <|-- BoardGame
-BoardGame <|-- Game
+MansionsOfMadness <|-- BoardGame : inherits
+BoardGame <|-- Game : inherits
 @enduml

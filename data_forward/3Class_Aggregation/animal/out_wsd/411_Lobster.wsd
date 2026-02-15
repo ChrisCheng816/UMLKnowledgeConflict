@@ -1,4 +1,4 @@
 @startuml
-GroupOfLobster o-- Lobster
-Zoo o-- GroupOfLobster
+GroupOfLobster o-- Lobster : aggregates
+Zoo o-- GroupOfLobster : aggregates
 @enduml

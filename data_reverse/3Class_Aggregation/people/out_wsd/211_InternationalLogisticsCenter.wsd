@@ -1,4 +1,4 @@
 @startuml
-ProcurementOffice o-- InternationalLogisticsCenter
-Firefighter o-- ProcurementOffice
+ProcurementOffice o-- InternationalLogisticsCenter : aggregates
+Firefighter o-- ProcurementOffice : aggregates
 @enduml

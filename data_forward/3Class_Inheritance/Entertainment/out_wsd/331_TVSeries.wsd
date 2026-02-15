@@ -1,4 +1,4 @@
 @startuml
-TVSeries <|-- AnimeSeries
-AnimeSeries <|-- FullmetalAlchemistBrotherhood
+TVSeries <|-- AnimeSeries : inherits
+AnimeSeries <|-- FullmetalAlchemistBrotherhood : inherits
 @enduml

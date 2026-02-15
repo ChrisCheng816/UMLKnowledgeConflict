@@ -1,4 +1,4 @@
 @startuml
-SeafloorQuake ..> TectonicPlate
-Aftershock ..> SeafloorQuake
+SeafloorQuake ..> TectonicPlate : depends on
+Aftershock ..> SeafloorQuake : depends on
 @enduml

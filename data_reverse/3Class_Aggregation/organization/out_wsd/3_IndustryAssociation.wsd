@@ -1,4 +1,4 @@
 @startuml
-MemberCompany o-- IndustryAssociation
-Liaison o-- MemberCompany
+MemberCompany o-- IndustryAssociation : aggregates
+Liaison o-- MemberCompany : aggregates
 @enduml

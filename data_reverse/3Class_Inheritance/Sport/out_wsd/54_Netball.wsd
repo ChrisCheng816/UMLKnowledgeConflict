@@ -1,4 +1,4 @@
 @startuml
-Netball <|-- TeamSport
-TeamSport <|-- Sport
+Netball <|-- TeamSport : inherits
+TeamSport <|-- Sport : inherits
 @enduml

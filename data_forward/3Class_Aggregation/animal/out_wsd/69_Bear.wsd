@@ -1,4 +1,4 @@
 @startuml
-PackOfBear o-- Bear
-Prairie o-- PackOfBear
+PackOfBear o-- Bear : aggregates
+Prairie o-- PackOfBear : aggregates
 @enduml

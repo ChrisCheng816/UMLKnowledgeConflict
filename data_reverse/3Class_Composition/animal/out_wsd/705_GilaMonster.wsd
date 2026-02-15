@@ -1,4 +1,4 @@
 @startuml
-Eye *-- GilaMonster
-Lens *-- Eye
+Eye *-- GilaMonster : composes
+Lens *-- Eye : composes
 @enduml

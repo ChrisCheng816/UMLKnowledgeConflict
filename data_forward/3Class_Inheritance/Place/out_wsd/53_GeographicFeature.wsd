@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Mountain
-Mountain <|-- Matterhorn
+GeographicFeature <|-- Mountain : inherits
+Mountain <|-- Matterhorn : inherits
 @enduml

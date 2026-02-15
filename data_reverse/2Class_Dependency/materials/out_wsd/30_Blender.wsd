@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> Blender
+Electricity ..> Blender : depends on
 @enduml

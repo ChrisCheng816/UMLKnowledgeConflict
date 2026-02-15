@@ -1,3 +1,3 @@
 @startuml
-Refinery ..> FuelTerminal
+Refinery ..> FuelTerminal : depends on
 @enduml

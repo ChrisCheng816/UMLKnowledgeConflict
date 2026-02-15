@@ -1,4 +1,4 @@
 @startuml
-Iceland <|-- Island
-Island <|-- GeographicFeature
+Iceland <|-- Island : inherits
+Island <|-- GeographicFeature : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GISSoftware ..> GeodataEditing
-OperatingSystem ..> GISSoftware
+GISSoftware ..> GeodataEditing : depends on
+OperatingSystem ..> GISSoftware : depends on
 @enduml

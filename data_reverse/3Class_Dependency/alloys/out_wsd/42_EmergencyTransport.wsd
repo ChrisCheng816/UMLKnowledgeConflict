@@ -1,4 +1,4 @@
 @startuml
-Helicopter ..> EmergencyTransport
-JetFuel ..> Helicopter
+Helicopter ..> EmergencyTransport : depends on
+JetFuel ..> Helicopter : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Bicycle ..> LeisureRide
+Bicycle ..> LeisureRide : depends on
 @enduml

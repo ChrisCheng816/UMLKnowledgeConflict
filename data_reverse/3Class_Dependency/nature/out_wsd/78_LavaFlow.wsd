@@ -1,4 +1,4 @@
 @startuml
-Volcano ..> LavaFlow
-Magma ..> Volcano
+Volcano ..> LavaFlow : depends on
+Magma ..> Volcano : depends on
 @enduml

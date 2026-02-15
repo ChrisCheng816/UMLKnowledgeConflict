@@ -1,3 +1,3 @@
 @startuml
-SchoolOfTuna o-- Tuna
+SchoolOfTuna o-- Tuna : aggregates
 @enduml

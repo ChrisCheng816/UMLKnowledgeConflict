@@ -1,3 +1,3 @@
 @startuml
-TemperatureCheck ..> BloodPressureMonitor
+TemperatureCheck ..> BloodPressureMonitor : depends on
 @enduml

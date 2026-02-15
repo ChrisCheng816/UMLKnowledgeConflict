@@ -1,3 +1,3 @@
 @startuml
-MediaPlayer ..> MusicPlayback
+MediaPlayer ..> MusicPlayback : depends on
 @enduml

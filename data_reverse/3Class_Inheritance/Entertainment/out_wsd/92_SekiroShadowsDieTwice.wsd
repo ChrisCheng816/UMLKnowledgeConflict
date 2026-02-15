@@ -1,4 +1,4 @@
 @startuml
-SekiroShadowsDieTwice <|-- VideoGame
-VideoGame <|-- Game
+SekiroShadowsDieTwice <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SchoolOfSalmon o-- Valley
-Salmon o-- SchoolOfSalmon
+SchoolOfSalmon o-- Valley : aggregates
+Salmon o-- SchoolOfSalmon : aggregates
 @enduml

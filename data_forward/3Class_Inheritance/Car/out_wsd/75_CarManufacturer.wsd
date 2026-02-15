@@ -1,4 +1,4 @@
 @startuml
-CarManufacturer <|-- Volkswagen
-Volkswagen <|-- VolkswagenPassat
+CarManufacturer <|-- Volkswagen : inherits
+Volkswagen <|-- VolkswagenPassat : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ArmyOfFrog o-- Frog
-Aquarium o-- ArmyOfFrog
+ArmyOfFrog o-- Frog : aggregates
+Aquarium o-- ArmyOfFrog : aggregates
 @enduml

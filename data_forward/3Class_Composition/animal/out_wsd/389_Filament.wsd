@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Filament
-Tilapia *-- Gill
+Gill *-- Filament : composes
+Tilapia *-- Gill : composes
 @enduml

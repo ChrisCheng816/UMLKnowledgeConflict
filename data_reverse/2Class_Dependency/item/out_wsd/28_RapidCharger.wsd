@@ -1,3 +1,3 @@
 @startuml
-WallOutlet ..> RapidCharger
+WallOutlet ..> RapidCharger : depends on
 @enduml

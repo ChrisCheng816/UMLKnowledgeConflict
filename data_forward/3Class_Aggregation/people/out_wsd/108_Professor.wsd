@@ -1,4 +1,4 @@
 @startuml
-TeachingTeam o-- Professor
-EducationAuthority o-- TeachingTeam
+TeachingTeam o-- Professor : aggregates
+EducationAuthority o-- TeachingTeam : aggregates
 @enduml

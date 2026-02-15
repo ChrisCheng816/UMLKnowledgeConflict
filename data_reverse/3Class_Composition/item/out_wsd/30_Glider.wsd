@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Glider
-Aileron *-- Wing
+Wing *-- Glider : composes
+Aileron *-- Wing : composes
 @enduml

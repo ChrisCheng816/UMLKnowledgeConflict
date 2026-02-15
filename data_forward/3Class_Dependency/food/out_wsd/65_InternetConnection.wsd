@@ -1,4 +1,4 @@
 @startuml
-OnlineCalendar ..> InternetConnection
-EventPlanning ..> OnlineCalendar
+OnlineCalendar ..> InternetConnection : depends on
+EventPlanning ..> OnlineCalendar : depends on
 @enduml

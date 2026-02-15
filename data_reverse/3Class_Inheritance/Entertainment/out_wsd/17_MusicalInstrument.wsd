@@ -1,4 +1,4 @@
 @startuml
-MusicalInstrument <|-- Music
-Music <|-- Entertainment
+MusicalInstrument <|-- Music : inherits
+Music <|-- Entertainment : inherits
 @enduml

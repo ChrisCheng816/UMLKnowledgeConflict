@@ -1,4 +1,4 @@
 @startuml
-Hoof *-- Sole
-Springbok *-- Hoof
+Hoof *-- Sole : composes
+Springbok *-- Hoof : composes
 @enduml

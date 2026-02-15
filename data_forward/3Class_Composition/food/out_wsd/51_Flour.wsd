@@ -1,4 +1,4 @@
 @startuml
-Pancakes *-- Flour
-PekingDuck *-- Pancakes
+Pancakes *-- Flour : composes
+PekingDuck *-- Pancakes : composes
 @enduml

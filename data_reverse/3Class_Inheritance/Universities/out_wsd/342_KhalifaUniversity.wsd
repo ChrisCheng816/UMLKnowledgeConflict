@@ -1,4 +1,4 @@
 @startuml
-KhalifaUniversity <|-- University
-University <|-- EducationalInstitution
+KhalifaUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

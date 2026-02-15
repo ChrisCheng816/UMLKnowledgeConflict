@@ -1,3 +1,3 @@
 @startuml
-Beak *-- Kingfisher
+Beak *-- Kingfisher : composes
 @enduml

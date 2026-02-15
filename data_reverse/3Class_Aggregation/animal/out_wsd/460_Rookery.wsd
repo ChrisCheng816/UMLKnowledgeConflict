@@ -1,4 +1,4 @@
 @startuml
-HerdOfZebra o-- Rookery
-Zebra o-- HerdOfZebra
+HerdOfZebra o-- Rookery : aggregates
+Zebra o-- HerdOfZebra : aggregates
 @enduml

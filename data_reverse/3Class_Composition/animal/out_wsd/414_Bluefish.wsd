@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Bluefish
-Ray *-- Fin
+Fin *-- Bluefish : composes
+Ray *-- Fin : composes
 @enduml

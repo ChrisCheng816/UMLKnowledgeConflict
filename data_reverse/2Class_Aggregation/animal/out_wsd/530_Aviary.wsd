@@ -1,3 +1,3 @@
 @startuml
-SwarmOfFirefly o-- Aviary
+SwarmOfFirefly o-- Aviary : aggregates
 @enduml

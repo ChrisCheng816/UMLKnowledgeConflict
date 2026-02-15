@@ -1,4 +1,4 @@
 @startuml
-FlockOfQuail o-- Quail
-Nursery o-- FlockOfQuail
+FlockOfQuail o-- Quail : aggregates
+Nursery o-- FlockOfQuail : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Hoof *-- Sole
-Wildebeest *-- Hoof
+Hoof *-- Sole : composes
+Wildebeest *-- Hoof : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SchoolOfRay o-- Ray
-Reef o-- SchoolOfRay
+SchoolOfRay o-- Ray : aggregates
+Reef o-- SchoolOfRay : aggregates
 @enduml

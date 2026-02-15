@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- ForestWarehouse
-Blanket o-- StorageBin
+StorageBin o-- ForestWarehouse : aggregates
+Blanket o-- StorageBin : aggregates
 @enduml

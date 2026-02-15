@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Mongoose
-Root *-- Tooth
+Tooth *-- Mongoose : composes
+Root *-- Tooth : composes
 @enduml

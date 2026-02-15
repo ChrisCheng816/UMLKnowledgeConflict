@@ -1,3 +1,3 @@
 @startuml
-TaskManager ..> TaskManagement
+TaskManager ..> TaskManagement : depends on
 @enduml

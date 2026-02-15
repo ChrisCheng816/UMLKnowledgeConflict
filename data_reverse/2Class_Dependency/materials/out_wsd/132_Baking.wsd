@@ -1,3 +1,3 @@
 @startuml
-GasOven ..> Baking
+GasOven ..> Baking : depends on
 @enduml

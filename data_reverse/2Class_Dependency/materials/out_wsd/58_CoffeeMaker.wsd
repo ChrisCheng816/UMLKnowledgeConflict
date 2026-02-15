@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> CoffeeMaker
+Electricity ..> CoffeeMaker : depends on
 @enduml

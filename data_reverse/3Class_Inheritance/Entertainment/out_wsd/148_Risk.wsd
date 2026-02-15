@@ -1,4 +1,4 @@
 @startuml
-Risk <|-- BoardGame
-BoardGame <|-- Game
+Risk <|-- BoardGame : inherits
+BoardGame <|-- Game : inherits
 @enduml

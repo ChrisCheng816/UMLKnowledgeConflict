@@ -1,4 +1,4 @@
 @startuml
-NationalAutonomousUniversityOfMexico <|-- University
-University <|-- EducationalInstitution
+NationalAutonomousUniversityOfMexico <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

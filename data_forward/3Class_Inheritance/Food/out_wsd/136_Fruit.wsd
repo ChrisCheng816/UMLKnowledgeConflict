@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- PomeFruit
-PomeFruit <|-- Loquat
+Fruit <|-- PomeFruit : inherits
+PomeFruit <|-- Loquat : inherits
 @enduml

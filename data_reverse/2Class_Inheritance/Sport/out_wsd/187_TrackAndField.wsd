@@ -1,3 +1,3 @@
 @startuml
-TrackAndField <|-- AthleticsSport
+TrackAndField <|-- AthleticsSport : inherits
 @enduml

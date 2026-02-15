@@ -1,3 +1,3 @@
 @startuml
-Peacock <|-- Bird
+Peacock <|-- Bird : inherits
 @enduml

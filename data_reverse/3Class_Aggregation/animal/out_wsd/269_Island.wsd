@@ -1,4 +1,4 @@
 @startuml
-GroupOfSquid o-- Island
-Squid o-- GroupOfSquid
+GroupOfSquid o-- Island : aggregates
+Squid o-- GroupOfSquid : aggregates
 @enduml

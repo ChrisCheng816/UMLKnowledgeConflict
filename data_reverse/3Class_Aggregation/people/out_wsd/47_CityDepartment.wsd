@@ -1,4 +1,4 @@
 @startuml
-AuditTeam o-- CityDepartment
-QualityAuditor o-- AuditTeam
+AuditTeam o-- CityDepartment : aggregates
+QualityAuditor o-- AuditTeam : aggregates
 @enduml

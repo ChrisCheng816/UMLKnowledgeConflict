@@ -1,4 +1,4 @@
 @startuml
-WeatherWebsite ..> InternetConnection
-WebSearch ..> WeatherWebsite
+WeatherWebsite ..> InternetConnection : depends on
+WebSearch ..> WeatherWebsite : depends on
 @enduml

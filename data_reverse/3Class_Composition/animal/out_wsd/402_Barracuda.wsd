@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Barracuda
-Ray *-- Fin
+Fin *-- Barracuda : composes
+Ray *-- Fin : composes
 @enduml

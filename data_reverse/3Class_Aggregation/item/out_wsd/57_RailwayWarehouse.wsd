@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- RailwayWarehouse
-Blanket o-- StorageBin
+StorageBin o-- RailwayWarehouse : aggregates
+Blanket o-- StorageBin : aggregates
 @enduml

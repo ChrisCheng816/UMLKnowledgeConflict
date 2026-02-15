@@ -1,3 +1,3 @@
 @startuml
-CloudStorage ..> InternetConnection
+CloudStorage ..> InternetConnection : depends on
 @enduml

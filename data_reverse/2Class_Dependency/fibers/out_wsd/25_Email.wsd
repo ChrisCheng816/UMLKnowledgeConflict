@@ -1,3 +1,3 @@
 @startuml
-GameConsole ..> Email
+GameConsole ..> Email : depends on
 @enduml

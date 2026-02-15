@@ -1,3 +1,3 @@
 @startuml
-OperationsManager o-- DockOpsTeam
+OperationsManager o-- DockOpsTeam : aggregates
 @enduml

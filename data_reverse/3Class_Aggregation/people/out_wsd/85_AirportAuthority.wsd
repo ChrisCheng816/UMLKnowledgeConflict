@@ -1,4 +1,4 @@
 @startuml
-ControlTeam o-- AirportAuthority
-AirTrafficController o-- ControlTeam
+ControlTeam o-- AirportAuthority : aggregates
+AirTrafficController o-- ControlTeam : aggregates
 @enduml

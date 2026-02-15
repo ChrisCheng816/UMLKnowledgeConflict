@@ -1,4 +1,4 @@
 @startuml
-ExhibitionTeam o-- Curator
-ArtMuseum o-- ExhibitionTeam
+ExhibitionTeam o-- Curator : aggregates
+ArtMuseum o-- ExhibitionTeam : aggregates
 @enduml

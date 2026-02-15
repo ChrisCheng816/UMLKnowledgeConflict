@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root
-Impala *-- Tooth
+Tooth *-- Root : composes
+Impala *-- Tooth : composes
 @enduml

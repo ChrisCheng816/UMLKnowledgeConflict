@@ -1,4 +1,4 @@
 @startuml
-FlockOfGannet o-- Shelter
-Gannet o-- FlockOfGannet
+FlockOfGannet o-- Shelter : aggregates
+Gannet o-- FlockOfGannet : aggregates
 @enduml

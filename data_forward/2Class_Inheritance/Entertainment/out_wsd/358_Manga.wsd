@@ -1,3 +1,3 @@
 @startuml
-Manga <|-- Berserk
+Manga <|-- Berserk : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-VideoConferencingApp ..> InternetConnection
-OnlineClass ..> VideoConferencingApp
+VideoConferencingApp ..> InternetConnection : depends on
+OnlineClass ..> VideoConferencingApp : depends on
 @enduml

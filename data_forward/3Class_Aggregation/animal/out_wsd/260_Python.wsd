@@ -1,4 +1,4 @@
 @startuml
-NestOfPython o-- Python
-Plateau o-- NestOfPython
+NestOfPython o-- Python : aggregates
+Plateau o-- NestOfPython : aggregates
 @enduml

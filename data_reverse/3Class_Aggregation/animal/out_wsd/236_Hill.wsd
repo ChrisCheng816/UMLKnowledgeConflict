@@ -1,4 +1,4 @@
 @startuml
-SchoolOfPike o-- Hill
-Pike o-- SchoolOfPike
+SchoolOfPike o-- Hill : aggregates
+Pike o-- SchoolOfPike : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ObservationStation o-- Sensor
-SeismicNetwork o-- ObservationStation
+ObservationStation o-- Sensor : aggregates
+SeismicNetwork o-- ObservationStation : aggregates
 @enduml

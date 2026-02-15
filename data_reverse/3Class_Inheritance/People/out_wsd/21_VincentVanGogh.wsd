@@ -1,4 +1,4 @@
 @startuml
-VincentVanGogh <|-- Painter
-Painter <|-- Artist
+VincentVanGogh <|-- Painter : inherits
+Painter <|-- Artist : inherits
 @enduml

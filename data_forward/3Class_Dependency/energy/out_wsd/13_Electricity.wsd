@@ -1,4 +1,4 @@
 @startuml
-BeltSander ..> Electricity
-Sanding ..> BeltSander
+BeltSander ..> Electricity : depends on
+Sanding ..> BeltSander : depends on
 @enduml

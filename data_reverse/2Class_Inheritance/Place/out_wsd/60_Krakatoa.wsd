@@ -1,3 +1,3 @@
 @startuml
-Krakatoa <|-- Volcano
+Krakatoa <|-- Volcano : inherits
 @enduml

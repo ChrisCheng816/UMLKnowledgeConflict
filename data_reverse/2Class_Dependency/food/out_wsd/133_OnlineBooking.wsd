@@ -1,3 +1,3 @@
 @startuml
-RestaurantReservation ..> OnlineBooking
+RestaurantReservation ..> OnlineBooking : depends on
 @enduml

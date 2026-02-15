@@ -1,4 +1,4 @@
 @startuml
-CurriculumTeam o-- EducationAgency
-Professor o-- CurriculumTeam
+CurriculumTeam o-- EducationAgency : aggregates
+Professor o-- CurriculumTeam : aggregates
 @enduml

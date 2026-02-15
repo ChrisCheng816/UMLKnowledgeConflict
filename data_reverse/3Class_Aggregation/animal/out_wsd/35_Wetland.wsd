@@ -1,4 +1,4 @@
 @startuml
-FlockOfLark o-- Wetland
-Lark o-- FlockOfLark
+FlockOfLark o-- Wetland : aggregates
+Lark o-- FlockOfLark : aggregates
 @enduml

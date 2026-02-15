@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Chameleon
-Lens *-- Eye
+Eye *-- Chameleon : composes
+Lens *-- Eye : composes
 @enduml

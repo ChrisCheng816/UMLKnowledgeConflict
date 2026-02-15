@@ -1,4 +1,4 @@
 @startuml
-TableSaw ..> Electricity
-FurnitureMaking ..> TableSaw
+TableSaw ..> Electricity : depends on
+FurnitureMaking ..> TableSaw : depends on
 @enduml

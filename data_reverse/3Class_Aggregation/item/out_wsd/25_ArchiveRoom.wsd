@@ -1,4 +1,4 @@
 @startuml
-Collection o-- ArchiveRoom
-Coin o-- Collection
+Collection o-- ArchiveRoom : aggregates
+Coin o-- Collection : aggregates
 @enduml

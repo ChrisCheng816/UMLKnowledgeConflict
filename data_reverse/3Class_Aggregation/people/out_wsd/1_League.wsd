@@ -1,4 +1,4 @@
 @startuml
-Team o-- League
-Player o-- Team
+Team o-- League : aggregates
+Player o-- Team : aggregates
 @enduml

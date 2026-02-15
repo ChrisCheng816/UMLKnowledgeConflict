@@ -1,4 +1,4 @@
 @startuml
-LogisticsTeam o-- ProjectManager
-AerospaceResearchInstitute o-- LogisticsTeam
+LogisticsTeam o-- ProjectManager : aggregates
+AerospaceResearchInstitute o-- LogisticsTeam : aggregates
 @enduml

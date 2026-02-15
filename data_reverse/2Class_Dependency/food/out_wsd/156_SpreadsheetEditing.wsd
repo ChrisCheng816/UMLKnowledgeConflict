@@ -1,3 +1,3 @@
 @startuml
-SpreadsheetSoftware ..> SpreadsheetEditing
+SpreadsheetSoftware ..> SpreadsheetEditing : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-NationalTeam o-- SportsAuthority
-TeamDoctor o-- NationalTeam
+NationalTeam o-- SportsAuthority : aggregates
+TeamDoctor o-- NationalTeam : aggregates
 @enduml

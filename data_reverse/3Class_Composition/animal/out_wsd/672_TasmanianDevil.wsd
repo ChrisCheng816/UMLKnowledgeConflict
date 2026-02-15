@@ -1,4 +1,4 @@
 @startuml
-Nose *-- TasmanianDevil
-Nostril *-- Nose
+Nose *-- TasmanianDevil : composes
+Nostril *-- Nose : composes
 @enduml

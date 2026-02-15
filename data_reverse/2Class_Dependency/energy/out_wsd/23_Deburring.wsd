@@ -1,3 +1,3 @@
 @startuml
-BenchGrinder ..> Deburring
+BenchGrinder ..> Deburring : depends on
 @enduml

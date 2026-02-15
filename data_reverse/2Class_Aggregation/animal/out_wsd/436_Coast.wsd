@@ -1,3 +1,3 @@
 @startuml
-FlockOfPelican o-- Coast
+FlockOfPelican o-- Coast : aggregates
 @enduml

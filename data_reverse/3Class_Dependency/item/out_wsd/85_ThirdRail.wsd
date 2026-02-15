@@ -1,4 +1,4 @@
 @startuml
-TractionSubstation ..> ThirdRail
-DistributionLine ..> TractionSubstation
+TractionSubstation ..> ThirdRail : depends on
+DistributionLine ..> TractionSubstation : depends on
 @enduml

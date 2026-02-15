@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Bullfrog
-Lens *-- Eye
+Eye *-- Bullfrog : composes
+Lens *-- Eye : composes
 @enduml

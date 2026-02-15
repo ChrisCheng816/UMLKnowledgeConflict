@@ -1,3 +1,3 @@
 @startuml
-DeadCells <|-- VideoGame
+DeadCells <|-- VideoGame : inherits
 @enduml

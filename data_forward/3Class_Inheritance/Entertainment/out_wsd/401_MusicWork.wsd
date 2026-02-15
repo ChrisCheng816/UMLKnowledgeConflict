@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Album
-Album <|-- NineteenEightyNineAlbum
+MusicWork <|-- Album : inherits
+Album <|-- NineteenEightyNineAlbum : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Shelter o-- FlockOfRobin
+Shelter o-- FlockOfRobin : aggregates
 @enduml

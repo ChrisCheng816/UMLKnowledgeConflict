@@ -1,3 +1,3 @@
 @startuml
-Reservation ..> FlightBooking
+Reservation ..> FlightBooking : depends on
 @enduml

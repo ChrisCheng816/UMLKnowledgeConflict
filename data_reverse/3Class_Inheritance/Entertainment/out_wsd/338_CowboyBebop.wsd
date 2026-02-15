@@ -1,4 +1,4 @@
 @startuml
-CowboyBebop <|-- AnimeSeries
-AnimeSeries <|-- TVSeries
+CowboyBebop <|-- AnimeSeries : inherits
+AnimeSeries <|-- TVSeries : inherits
 @enduml

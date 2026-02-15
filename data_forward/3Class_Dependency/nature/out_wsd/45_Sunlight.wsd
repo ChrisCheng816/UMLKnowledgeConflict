@@ -1,4 +1,4 @@
 @startuml
-TemperatureContrast ..> Sunlight
-PressureSystem ..> TemperatureContrast
+TemperatureContrast ..> Sunlight : depends on
+PressureSystem ..> TemperatureContrast : depends on
 @enduml

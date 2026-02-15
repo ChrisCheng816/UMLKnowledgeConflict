@@ -1,4 +1,4 @@
 @startuml
-MonterreyInstituteOfTechnologyAndHigherEducation <|-- University
-University <|-- EducationalInstitution
+MonterreyInstituteOfTechnologyAndHigherEducation <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

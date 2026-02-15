@@ -1,3 +1,3 @@
 @startuml
-Airplane ..> InternationalFlight
+Airplane ..> InternationalFlight : depends on
 @enduml

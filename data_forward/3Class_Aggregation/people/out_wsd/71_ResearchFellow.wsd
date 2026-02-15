@@ -1,4 +1,4 @@
 @startuml
-MonitoringTeam o-- ResearchFellow
-MarineSanctuary o-- MonitoringTeam
+MonitoringTeam o-- ResearchFellow : aggregates
+MarineSanctuary o-- MonitoringTeam : aggregates
 @enduml

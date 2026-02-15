@@ -1,3 +1,3 @@
 @startuml
-LibraryAssociation o-- ReadingClub
+LibraryAssociation o-- ReadingClub : aggregates
 @enduml

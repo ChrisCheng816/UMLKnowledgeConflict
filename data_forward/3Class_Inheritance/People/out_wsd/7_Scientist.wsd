@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- Astronomer
-Astronomer <|-- JohannesKepler
+Scientist <|-- Astronomer : inherits
+Astronomer <|-- JohannesKepler : inherits
 @enduml

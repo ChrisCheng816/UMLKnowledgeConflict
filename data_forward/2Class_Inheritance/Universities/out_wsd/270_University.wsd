@@ -1,3 +1,3 @@
 @startuml
-University <|-- PompeuFabraUniversity
+University <|-- PompeuFabraUniversity : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TerracottaArmy <|-- Sculpture
-Sculpture <|-- Artwork
+TerracottaArmy <|-- Sculpture : inherits
+Sculpture <|-- Artwork : inherits
 @enduml

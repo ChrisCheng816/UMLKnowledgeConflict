@@ -1,3 +1,3 @@
 @startuml
-ProcedureLighting ..> HeadlampLight
+ProcedureLighting ..> HeadlampLight : depends on
 @enduml

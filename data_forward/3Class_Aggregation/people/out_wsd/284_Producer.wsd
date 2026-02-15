@@ -1,4 +1,4 @@
 @startuml
-ProcurementTeam o-- Producer
-MediaArtMuseum o-- ProcurementTeam
+ProcurementTeam o-- Producer : aggregates
+MediaArtMuseum o-- ProcurementTeam : aggregates
 @enduml

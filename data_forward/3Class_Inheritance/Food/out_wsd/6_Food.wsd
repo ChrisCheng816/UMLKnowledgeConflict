@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Vegetable
-Vegetable <|-- CruciferousVegetable
+Food <|-- Vegetable : inherits
+Vegetable <|-- CruciferousVegetable : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TheFantasticFour <|-- Comic
-Comic <|-- Entertainment
+TheFantasticFour <|-- Comic : inherits
+Comic <|-- Entertainment : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Herring
-Filament *-- Gill
+Gill *-- Herring : composes
+Filament *-- Gill : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Arowana
-Ray *-- Fin
+Fin *-- Arowana : composes
+Ray *-- Fin : composes
 @enduml

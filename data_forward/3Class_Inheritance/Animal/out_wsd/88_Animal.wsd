@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Amphibian
-Amphibian <|-- Newt
+Animal <|-- Amphibian : inherits
+Amphibian <|-- Newt : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Falcon
-Nostril *-- Beak
+Beak *-- Falcon : composes
+Nostril *-- Beak : composes
 @enduml

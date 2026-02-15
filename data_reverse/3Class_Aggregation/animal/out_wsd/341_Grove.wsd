@@ -1,4 +1,4 @@
 @startuml
-PackOfLeopard o-- Grove
-Leopard o-- PackOfLeopard
+PackOfLeopard o-- Grove : aggregates
+Leopard o-- PackOfLeopard : aggregates
 @enduml

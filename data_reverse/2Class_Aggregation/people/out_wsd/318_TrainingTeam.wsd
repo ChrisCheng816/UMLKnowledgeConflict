@@ -1,3 +1,3 @@
 @startuml
-Professor o-- TrainingTeam
+Professor o-- TrainingTeam : aggregates
 @enduml

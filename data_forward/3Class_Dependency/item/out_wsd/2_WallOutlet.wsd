@@ -1,4 +1,4 @@
 @startuml
-USBCharger ..> WallOutlet
-PowerBank ..> USBCharger
+USBCharger ..> WallOutlet : depends on
+PowerBank ..> USBCharger : depends on
 @enduml

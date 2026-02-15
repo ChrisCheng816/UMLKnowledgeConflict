@@ -1,4 +1,4 @@
 @startuml
-Honey *-- Baklava
-Nectar *-- Honey
+Honey *-- Baklava : composes
+Nectar *-- Honey : composes
 @enduml

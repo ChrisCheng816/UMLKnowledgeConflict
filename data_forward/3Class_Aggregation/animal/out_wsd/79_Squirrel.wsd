@@ -1,4 +1,4 @@
 @startuml
-ColonyOfSquirrel o-- Squirrel
-Tundra o-- ColonyOfSquirrel
+ColonyOfSquirrel o-- Squirrel : aggregates
+Tundra o-- ColonyOfSquirrel : aggregates
 @enduml

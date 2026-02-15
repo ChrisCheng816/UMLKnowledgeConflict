@@ -1,3 +1,3 @@
 @startuml
-TropicalFruit <|-- Durian
+TropicalFruit <|-- Durian : inherits
 @enduml

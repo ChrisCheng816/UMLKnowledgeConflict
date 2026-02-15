@@ -1,4 +1,4 @@
 @startuml
-LaocoonAndHisSons <|-- Sculpture
-Sculpture <|-- Artwork
+LaocoonAndHisSons <|-- Sculpture : inherits
+Sculpture <|-- Artwork : inherits
 @enduml

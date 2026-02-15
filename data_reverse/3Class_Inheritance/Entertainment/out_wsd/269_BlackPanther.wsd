@@ -1,4 +1,4 @@
 @startuml
-BlackPanther <|-- Film
-Film <|-- Entertainment
+BlackPanther <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

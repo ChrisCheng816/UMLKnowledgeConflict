@@ -1,4 +1,4 @@
 @startuml
-IndianaUniversityBloomington <|-- University
-University <|-- EducationalInstitution
+IndianaUniversityBloomington <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- Mathematician
-Mathematician <|-- LeonhardEuler
+Scientist <|-- Mathematician : inherits
+Mathematician <|-- LeonhardEuler : inherits
 @enduml

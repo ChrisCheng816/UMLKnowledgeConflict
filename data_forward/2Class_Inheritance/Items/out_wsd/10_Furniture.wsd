@@ -1,3 +1,3 @@
 @startuml
-Furniture <|-- Chair
+Furniture <|-- Chair : inherits
 @enduml

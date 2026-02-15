@@ -1,4 +1,4 @@
 @startuml
-Jordan <|-- Country
-Country <|-- GeopoliticalEntity
+Jordan <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

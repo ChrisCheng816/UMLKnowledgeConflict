@@ -1,4 +1,4 @@
 @startuml
-RescueTeam o-- MountainAgency
-SearchAndRescueWorker o-- RescueTeam
+RescueTeam o-- MountainAgency : aggregates
+SearchAndRescueWorker o-- RescueTeam : aggregates
 @enduml

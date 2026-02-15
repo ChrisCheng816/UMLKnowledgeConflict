@@ -1,4 +1,4 @@
 @startuml
-Roof *-- Sheathing
-Cabin *-- Roof
+Roof *-- Sheathing : composes
+Cabin *-- Roof : composes
 @enduml

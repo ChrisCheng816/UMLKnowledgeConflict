@@ -1,4 +1,4 @@
 @startuml
-SimonFraserUniversity <|-- University
-University <|-- EducationalInstitution
+SimonFraserUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

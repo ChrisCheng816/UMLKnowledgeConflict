@@ -1,4 +1,4 @@
 @startuml
-ColonyOfBeaver o-- Beaver
-Taiga o-- ColonyOfBeaver
+ColonyOfBeaver o-- Beaver : aggregates
+Taiga o-- ColonyOfBeaver : aggregates
 @enduml

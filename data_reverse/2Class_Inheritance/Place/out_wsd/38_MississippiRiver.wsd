@@ -1,3 +1,3 @@
 @startuml
-MississippiRiver <|-- River
+MississippiRiver <|-- River : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Lion *-- Tooth
+Lion *-- Tooth : composes
 @enduml

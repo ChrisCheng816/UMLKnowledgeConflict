@@ -1,3 +1,3 @@
 @startuml
-ElectricBus ..> CityCommute
+ElectricBus ..> CityCommute : depends on
 @enduml

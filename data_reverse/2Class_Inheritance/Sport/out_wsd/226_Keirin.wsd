@@ -1,3 +1,3 @@
 @startuml
-Keirin <|-- TrackCycling
+Keirin <|-- TrackCycling : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CarNavigationSystem ..> GPSSignal
-RouteGuidance ..> CarNavigationSystem
+CarNavigationSystem ..> GPSSignal : depends on
+RouteGuidance ..> CarNavigationSystem : depends on
 @enduml

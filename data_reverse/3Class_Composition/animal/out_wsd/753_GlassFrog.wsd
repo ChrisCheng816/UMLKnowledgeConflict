@@ -1,4 +1,4 @@
 @startuml
-Leg *-- GlassFrog
-Muscle *-- Leg
+Leg *-- GlassFrog : composes
+Muscle *-- Leg : composes
 @enduml

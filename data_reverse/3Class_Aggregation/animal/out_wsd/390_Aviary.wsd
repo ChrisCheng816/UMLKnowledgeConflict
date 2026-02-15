@@ -1,4 +1,4 @@
 @startuml
-ColonyOfAnt o-- Aviary
-Ant o-- ColonyOfAnt
+ColonyOfAnt o-- Aviary : aggregates
+Ant o-- ColonyOfAnt : aggregates
 @enduml

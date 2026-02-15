@@ -1,4 +1,4 @@
 @startuml
-SapienzaUniversityOfRome <|-- University
-University <|-- EducationalInstitution
+SapienzaUniversityOfRome <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

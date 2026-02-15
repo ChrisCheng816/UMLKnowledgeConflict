@@ -1,4 +1,4 @@
 @startuml
-FlockOfGull o-- Lake
-Gull o-- FlockOfGull
+FlockOfGull o-- Lake : aggregates
+Gull o-- FlockOfGull : aggregates
 @enduml

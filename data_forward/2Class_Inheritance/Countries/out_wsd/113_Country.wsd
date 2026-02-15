@@ -1,3 +1,3 @@
 @startuml
-Country <|-- Kenya
+Country <|-- Kenya : inherits
 @enduml

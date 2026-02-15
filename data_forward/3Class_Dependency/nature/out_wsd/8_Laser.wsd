@@ -1,4 +1,4 @@
 @startuml
-CoherentLight ..> Laser
-Interference ..> CoherentLight
+CoherentLight ..> Laser : depends on
+Interference ..> CoherentLight : depends on
 @enduml

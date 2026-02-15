@@ -1,3 +1,3 @@
 @startuml
-FlockOfAlbatross o-- Albatross
+FlockOfAlbatross o-- Albatross : aggregates
 @enduml

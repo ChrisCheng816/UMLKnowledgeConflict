@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- HarborWarehouse
-Blanket o-- StorageBin
+StorageBin o-- HarborWarehouse : aggregates
+Blanket o-- StorageBin : aggregates
 @enduml

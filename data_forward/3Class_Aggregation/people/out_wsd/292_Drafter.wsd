@@ -1,4 +1,4 @@
 @startuml
-WildlifeCareTeam o-- Drafter
-RiverAirportAuthority o-- WildlifeCareTeam
+WildlifeCareTeam o-- Drafter : aggregates
+RiverAirportAuthority o-- WildlifeCareTeam : aggregates
 @enduml

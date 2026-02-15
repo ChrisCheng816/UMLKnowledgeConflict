@@ -1,4 +1,4 @@
 @startuml
-ChiliPepper <|-- NightshadeVegetable
-NightshadeVegetable <|-- Vegetable
+ChiliPepper <|-- NightshadeVegetable : inherits
+NightshadeVegetable <|-- Vegetable : inherits
 @enduml

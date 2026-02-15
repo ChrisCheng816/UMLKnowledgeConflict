@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Sandwich
-Sandwich <|-- GrilledCheese
+Food <|-- Sandwich : inherits
+Sandwich <|-- GrilledCheese : inherits
 @enduml

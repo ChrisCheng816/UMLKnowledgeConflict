@@ -1,4 +1,4 @@
 @startuml
-ColonyOfHare o-- Channel
-Hare o-- ColonyOfHare
+ColonyOfHare o-- Channel : aggregates
+Hare o-- ColonyOfHare : aggregates
 @enduml

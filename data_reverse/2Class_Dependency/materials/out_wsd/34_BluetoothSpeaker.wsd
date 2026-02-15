@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> BluetoothSpeaker
+Electricity ..> BluetoothSpeaker : depends on
 @enduml

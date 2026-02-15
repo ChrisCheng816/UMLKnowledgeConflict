@@ -1,3 +1,3 @@
 @startuml
-HigherSchoolOfEconomics <|-- University
+HigherSchoolOfEconomics <|-- University : inherits
 @enduml

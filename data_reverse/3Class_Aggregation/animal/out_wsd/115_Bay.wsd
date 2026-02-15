@@ -1,4 +1,4 @@
 @startuml
-NestOfLizard o-- Bay
-Lizard o-- NestOfLizard
+NestOfLizard o-- Bay : aggregates
+Lizard o-- NestOfLizard : aggregates
 @enduml

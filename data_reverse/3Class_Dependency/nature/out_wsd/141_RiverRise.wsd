@@ -1,4 +1,4 @@
 @startuml
-Rainfall ..> RiverRise
-StormSystem ..> Rainfall
+Rainfall ..> RiverRise : depends on
+StormSystem ..> Rainfall : depends on
 @enduml

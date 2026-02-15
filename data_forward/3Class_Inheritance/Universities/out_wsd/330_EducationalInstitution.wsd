@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University
-University <|-- IITRoorkee
+EducationalInstitution <|-- University : inherits
+University <|-- IITRoorkee : inherits
 @enduml

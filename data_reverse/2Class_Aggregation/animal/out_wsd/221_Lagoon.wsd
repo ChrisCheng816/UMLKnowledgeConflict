@@ -1,3 +1,3 @@
 @startuml
-SwarmOfAphid o-- Lagoon
+SwarmOfAphid o-- Lagoon : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-DiagramTool ..> SystemDiagram
+DiagramTool ..> SystemDiagram : depends on
 @enduml

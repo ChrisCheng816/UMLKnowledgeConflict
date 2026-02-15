@@ -1,4 +1,4 @@
 @startuml
-WheelAssembly *-- Motorcycle
-Tire *-- WheelAssembly
+WheelAssembly *-- Motorcycle : composes
+Tire *-- WheelAssembly : composes
 @enduml

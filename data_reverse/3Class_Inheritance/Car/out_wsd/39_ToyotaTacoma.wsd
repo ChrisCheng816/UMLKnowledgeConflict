@@ -1,4 +1,4 @@
 @startuml
-ToyotaTacoma <|-- Toyota
-Toyota <|-- CarManufacturer
+ToyotaTacoma <|-- Toyota : inherits
+Toyota <|-- CarManufacturer : inherits
 @enduml

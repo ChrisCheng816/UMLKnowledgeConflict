@@ -1,3 +1,3 @@
 @startuml
-AthleticsSport <|-- Sprinting
+AthleticsSport <|-- Sprinting : inherits
 @enduml

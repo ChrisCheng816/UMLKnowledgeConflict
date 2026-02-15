@@ -1,4 +1,4 @@
 @startuml
-BunkeringPort ..> FuelBarge
-CargoShip ..> BunkeringPort
+BunkeringPort ..> FuelBarge : depends on
+CargoShip ..> BunkeringPort : depends on
 @enduml

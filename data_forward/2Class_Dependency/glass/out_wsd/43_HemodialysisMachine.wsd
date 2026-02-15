@@ -1,3 +1,3 @@
 @startuml
-KidneyDialysis ..> HemodialysisMachine
+KidneyDialysis ..> HemodialysisMachine : depends on
 @enduml

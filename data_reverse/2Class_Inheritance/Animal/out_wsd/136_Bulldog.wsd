@@ -1,3 +1,3 @@
 @startuml
-Bulldog <|-- Dog
+Bulldog <|-- Dog : inherits
 @enduml

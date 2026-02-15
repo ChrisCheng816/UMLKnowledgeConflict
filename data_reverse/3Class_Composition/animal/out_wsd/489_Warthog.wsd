@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Warthog
-Nostril *-- Nose
+Nose *-- Warthog : composes
+Nostril *-- Nose : composes
 @enduml

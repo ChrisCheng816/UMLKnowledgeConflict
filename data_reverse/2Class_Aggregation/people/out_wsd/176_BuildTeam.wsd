@@ -1,3 +1,3 @@
 @startuml
-MechanicalEngineer o-- BuildTeam
+MechanicalEngineer o-- BuildTeam : aggregates
 @enduml

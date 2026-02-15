@@ -1,4 +1,4 @@
 @startuml
-SwarmOfHornet o-- Pasture
-Hornet o-- SwarmOfHornet
+SwarmOfHornet o-- Pasture : aggregates
+Hornet o-- SwarmOfHornet : aggregates
 @enduml

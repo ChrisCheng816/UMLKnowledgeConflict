@@ -1,4 +1,4 @@
 @startuml
-Zooplankton ..> Phytoplankton
-Sardine ..> Zooplankton
+Zooplankton ..> Phytoplankton : depends on
+Sardine ..> Zooplankton : depends on
 @enduml

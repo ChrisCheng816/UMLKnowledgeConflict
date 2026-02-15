@@ -1,4 +1,4 @@
 @startuml
-Film <|-- AnimatedFilm
-AnimatedFilm <|-- Pinocchio
+Film <|-- AnimatedFilm : inherits
+AnimatedFilm <|-- Pinocchio : inherits
 @enduml

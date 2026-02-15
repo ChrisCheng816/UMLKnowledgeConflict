@@ -1,4 +1,4 @@
 @startuml
-Leg *-- PoisonDartFrog
-Muscle *-- Leg
+Leg *-- PoisonDartFrog : composes
+Muscle *-- Leg : composes
 @enduml

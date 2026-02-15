@@ -1,4 +1,4 @@
 @startuml
-FerryTeam o-- HarborAuthority
-Mechanic o-- FerryTeam
+FerryTeam o-- HarborAuthority : aggregates
+Mechanic o-- FerryTeam : aggregates
 @enduml

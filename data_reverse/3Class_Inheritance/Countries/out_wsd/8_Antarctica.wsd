@@ -1,4 +1,4 @@
 @startuml
-Antarctica <|-- Country
-Country <|-- GeopoliticalEntity
+Antarctica <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

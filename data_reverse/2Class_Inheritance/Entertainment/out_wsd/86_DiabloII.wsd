@@ -1,3 +1,3 @@
 @startuml
-DiabloII <|-- VideoGame
+DiabloII <|-- VideoGame : inherits
 @enduml

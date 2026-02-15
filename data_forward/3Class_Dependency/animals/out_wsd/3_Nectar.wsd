@@ -1,4 +1,4 @@
 @startuml
-HoneyBee ..> Nectar
-VarroaDestructor ..> HoneyBee
+HoneyBee ..> Nectar : depends on
+VarroaDestructor ..> HoneyBee : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-LogisticsSection o-- Detective
-CommunityTechCompany o-- LogisticsSection
+LogisticsSection o-- Detective : aggregates
+CommunityTechCompany o-- LogisticsSection : aggregates
 @enduml

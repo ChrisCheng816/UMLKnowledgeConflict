@@ -1,4 +1,4 @@
 @startuml
-Tasmania <|-- Island
-Island <|-- GeographicFeature
+Tasmania <|-- Island : inherits
+Island <|-- GeographicFeature : inherits
 @enduml

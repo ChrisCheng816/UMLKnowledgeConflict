@@ -1,4 +1,4 @@
 @startuml
-CameraCrew o-- FilmAgency
-CameraOperator o-- CameraCrew
+CameraCrew o-- FilmAgency : aggregates
+CameraOperator o-- CameraCrew : aggregates
 @enduml

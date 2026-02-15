@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- MedicineBottle
-HospitalStore o-- Cabinet
+Cabinet o-- MedicineBottle : aggregates
+HospitalStore o-- Cabinet : aggregates
 @enduml

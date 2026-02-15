@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- River
-River <|-- AmazonRiver
+GeographicFeature <|-- River : inherits
+River <|-- AmazonRiver : inherits
 @enduml

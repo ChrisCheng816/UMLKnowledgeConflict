@@ -1,4 +1,4 @@
 @startuml
-PackOfHyena o-- Grove
-Hyena o-- PackOfHyena
+PackOfHyena o-- Grove : aggregates
+Hyena o-- PackOfHyena : aggregates
 @enduml

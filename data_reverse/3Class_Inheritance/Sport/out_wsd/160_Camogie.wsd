@@ -1,4 +1,4 @@
 @startuml
-Camogie <|-- TeamSport
-TeamSport <|-- Sport
+Camogie <|-- TeamSport : inherits
+TeamSport <|-- Sport : inherits
 @enduml

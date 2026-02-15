@@ -1,4 +1,4 @@
 @startuml
-VideoEditor ..> OperatingSystem
-AudioEditing ..> VideoEditor
+VideoEditor ..> OperatingSystem : depends on
+AudioEditing ..> VideoEditor : depends on
 @enduml

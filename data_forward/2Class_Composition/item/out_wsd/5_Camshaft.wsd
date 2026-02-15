@@ -1,3 +1,3 @@
 @startuml
-Engine *-- Camshaft
+Engine *-- Camshaft : composes
 @enduml

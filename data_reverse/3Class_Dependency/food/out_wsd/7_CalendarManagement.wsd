@@ -1,4 +1,4 @@
 @startuml
-CalendarApp ..> CalendarManagement
-OperatingSystem ..> CalendarApp
+CalendarApp ..> CalendarManagement : depends on
+OperatingSystem ..> CalendarApp : depends on
 @enduml

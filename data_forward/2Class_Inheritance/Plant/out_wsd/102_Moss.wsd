@@ -1,3 +1,3 @@
 @startuml
-Moss <|-- SheetMoss
+Moss <|-- SheetMoss : inherits
 @enduml

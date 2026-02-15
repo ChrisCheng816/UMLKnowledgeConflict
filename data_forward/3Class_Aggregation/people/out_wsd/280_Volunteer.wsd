@@ -1,4 +1,4 @@
 @startuml
-OutreachTeam o-- Volunteer
-UrbanScienceSociety o-- OutreachTeam
+OutreachTeam o-- Volunteer : aggregates
+UrbanScienceSociety o-- OutreachTeam : aggregates
 @enduml

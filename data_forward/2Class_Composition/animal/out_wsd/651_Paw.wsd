@@ -1,3 +1,3 @@
 @startuml
-Hedgehog *-- Paw
+Hedgehog *-- Paw : composes
 @enduml

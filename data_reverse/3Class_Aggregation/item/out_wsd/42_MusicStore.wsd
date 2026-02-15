@@ -1,4 +1,4 @@
 @startuml
-Case o-- MusicStore
-TeaTin o-- Case
+Case o-- MusicStore : aggregates
+TeaTin o-- Case : aggregates
 @enduml

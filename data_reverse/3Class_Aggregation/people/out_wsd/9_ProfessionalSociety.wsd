@@ -1,4 +1,4 @@
 @startuml
-Committee o-- ProfessionalSociety
-Secretary o-- Committee
+Committee o-- ProfessionalSociety : aggregates
+Secretary o-- Committee : aggregates
 @enduml

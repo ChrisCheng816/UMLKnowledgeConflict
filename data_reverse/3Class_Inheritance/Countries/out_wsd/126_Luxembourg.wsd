@@ -1,4 +1,4 @@
 @startuml
-Luxembourg <|-- Country
-Country <|-- GeopoliticalEntity
+Luxembourg <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

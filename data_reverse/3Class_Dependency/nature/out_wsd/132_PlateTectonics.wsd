@@ -1,4 +1,4 @@
 @startuml
-MantleConvection ..> PlateTectonics
-EarthHeat ..> MantleConvection
+MantleConvection ..> PlateTectonics : depends on
+EarthHeat ..> MantleConvection : depends on
 @enduml

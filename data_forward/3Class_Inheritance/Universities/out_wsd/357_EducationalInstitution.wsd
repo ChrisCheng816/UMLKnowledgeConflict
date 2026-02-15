@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University
-University <|-- UniversityOfIbadan
+EducationalInstitution <|-- University : inherits
+University <|-- UniversityOfIbadan : inherits
 @enduml

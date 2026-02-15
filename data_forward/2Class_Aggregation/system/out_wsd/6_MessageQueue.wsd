@@ -1,3 +1,3 @@
 @startuml
-BookingPlatform o-- MessageQueue
+BookingPlatform o-- MessageQueue : aggregates
 @enduml

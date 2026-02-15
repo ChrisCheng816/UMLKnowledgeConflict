@@ -1,4 +1,4 @@
 @startuml
-HeadphoneAmplifier ..> Electricity
-MusicPlayback ..> HeadphoneAmplifier
+HeadphoneAmplifier ..> Electricity : depends on
+MusicPlayback ..> HeadphoneAmplifier : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BloodTestAnalyzer ..> Electricity
-MedicalTesting ..> BloodTestAnalyzer
+BloodTestAnalyzer ..> Electricity : depends on
+MedicalTesting ..> BloodTestAnalyzer : depends on
 @enduml

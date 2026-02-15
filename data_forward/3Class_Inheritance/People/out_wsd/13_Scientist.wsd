@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- ComputerScientist
-ComputerScientist <|-- GraceHopper
+Scientist <|-- ComputerScientist : inherits
+ComputerScientist <|-- GraceHopper : inherits
 @enduml

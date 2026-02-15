@@ -1,3 +1,3 @@
 @startuml
-ShuttleBus ..> DieselFuel
+ShuttleBus ..> DieselFuel : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root
-GuineaPig *-- Tooth
+Tooth *-- Root : composes
+GuineaPig *-- Tooth : composes
 @enduml

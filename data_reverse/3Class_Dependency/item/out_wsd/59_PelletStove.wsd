@@ -1,4 +1,4 @@
 @startuml
-WoodPellets ..> PelletStove
-PelletSupplier ..> WoodPellets
+WoodPellets ..> PelletStove : depends on
+PelletSupplier ..> WoodPellets : depends on
 @enduml

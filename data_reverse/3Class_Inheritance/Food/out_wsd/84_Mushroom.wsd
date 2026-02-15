@@ -1,4 +1,4 @@
 @startuml
-Mushroom <|-- Vegetable
-Vegetable <|-- Food
+Mushroom <|-- Vegetable : inherits
+Vegetable <|-- Food : inherits
 @enduml

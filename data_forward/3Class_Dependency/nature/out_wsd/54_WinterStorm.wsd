@@ -1,4 +1,4 @@
 @startuml
-ColdAir ..> WinterStorm
-Snow ..> ColdAir
+ColdAir ..> WinterStorm : depends on
+Snow ..> ColdAir : depends on
 @enduml

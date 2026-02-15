@@ -1,4 +1,4 @@
 @startuml
-MusicNotationSoftware ..> ScoreEditing
-OperatingSystem ..> MusicNotationSoftware
+MusicNotationSoftware ..> ScoreEditing : depends on
+OperatingSystem ..> MusicNotationSoftware : depends on
 @enduml

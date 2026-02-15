@@ -1,3 +1,3 @@
 @startuml
-ImageScanning ..> Scanner
+ImageScanning ..> Scanner : depends on
 @enduml

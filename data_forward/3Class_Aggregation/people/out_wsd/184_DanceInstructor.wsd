@@ -1,4 +1,4 @@
 @startuml
-InstructorTeam o-- DanceInstructor
-DanceStudio o-- InstructorTeam
+InstructorTeam o-- DanceInstructor : aggregates
+DanceStudio o-- InstructorTeam : aggregates
 @enduml

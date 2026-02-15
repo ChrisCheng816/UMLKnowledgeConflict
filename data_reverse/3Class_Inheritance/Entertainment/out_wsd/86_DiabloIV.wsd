@@ -1,4 +1,4 @@
 @startuml
-DiabloIV <|-- VideoGame
-VideoGame <|-- Game
+DiabloIV <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

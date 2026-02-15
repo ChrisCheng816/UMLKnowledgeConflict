@@ -1,4 +1,4 @@
 @startuml
-HerdOfGazelle o-- Gazelle
-Rookery o-- HerdOfGazelle
+HerdOfGazelle o-- Gazelle : aggregates
+Rookery o-- HerdOfGazelle : aggregates
 @enduml

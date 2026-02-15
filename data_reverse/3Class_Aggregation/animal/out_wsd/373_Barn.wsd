@@ -1,4 +1,4 @@
 @startuml
-SchoolOfCatfish o-- Barn
-Catfish o-- SchoolOfCatfish
+SchoolOfCatfish o-- Barn : aggregates
+Catfish o-- SchoolOfCatfish : aggregates
 @enduml

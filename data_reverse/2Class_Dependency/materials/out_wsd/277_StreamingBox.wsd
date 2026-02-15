@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> StreamingBox
+Electricity ..> StreamingBox : depends on
 @enduml

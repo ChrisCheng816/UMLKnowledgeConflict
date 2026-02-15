@@ -1,4 +1,4 @@
 @startuml
-FlockOfHawk o-- Nursery
-Hawk o-- FlockOfHawk
+FlockOfHawk o-- Nursery : aggregates
+Hawk o-- FlockOfHawk : aggregates
 @enduml

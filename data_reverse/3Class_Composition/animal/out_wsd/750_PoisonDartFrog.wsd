@@ -1,4 +1,4 @@
 @startuml
-Eye *-- PoisonDartFrog
-Lens *-- Eye
+Eye *-- PoisonDartFrog : composes
+Lens *-- Eye : composes
 @enduml

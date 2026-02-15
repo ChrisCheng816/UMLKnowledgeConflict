@@ -1,4 +1,4 @@
 @startuml
-Kombu <|-- SeaVegetable
-SeaVegetable <|-- Vegetable
+Kombu <|-- SeaVegetable : inherits
+SeaVegetable <|-- Vegetable : inherits
 @enduml

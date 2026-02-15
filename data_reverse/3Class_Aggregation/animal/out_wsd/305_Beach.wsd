@@ -1,4 +1,4 @@
 @startuml
-FlockOfFalcon o-- Beach
-Falcon o-- FlockOfFalcon
+FlockOfFalcon o-- Beach : aggregates
+Falcon o-- FlockOfFalcon : aggregates
 @enduml

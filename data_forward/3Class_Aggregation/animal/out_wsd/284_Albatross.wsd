@@ -1,4 +1,4 @@
 @startuml
-FlockOfAlbatross o-- Albatross
-Atoll o-- FlockOfAlbatross
+FlockOfAlbatross o-- Albatross : aggregates
+Atoll o-- FlockOfAlbatross : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SurgicalLight ..> Electricity
-OperatingRoomLighting ..> SurgicalLight
+SurgicalLight ..> Electricity : depends on
+OperatingRoomLighting ..> SurgicalLight : depends on
 @enduml

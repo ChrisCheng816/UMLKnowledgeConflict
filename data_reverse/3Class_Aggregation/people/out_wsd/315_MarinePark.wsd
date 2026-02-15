@@ -1,4 +1,4 @@
 @startuml
-ShowPool o-- MarinePark
-Dolphin o-- ShowPool
+ShowPool o-- MarinePark : aggregates
+Dolphin o-- ShowPool : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Song
-Song <|-- ThrillerSong
+MusicWork <|-- Song : inherits
+Song <|-- ThrillerSong : inherits
 @enduml

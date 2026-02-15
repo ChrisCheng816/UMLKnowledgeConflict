@@ -1,4 +1,4 @@
 @startuml
-Water ..> Germination
-SeedCoat ..> Water
+Water ..> Germination : depends on
+SeedCoat ..> Water : depends on
 @enduml

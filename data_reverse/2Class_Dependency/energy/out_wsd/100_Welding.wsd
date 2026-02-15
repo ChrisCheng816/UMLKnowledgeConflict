@@ -1,3 +1,3 @@
 @startuml
-WeldingMachine ..> Welding
+WeldingMachine ..> Welding : depends on
 @enduml

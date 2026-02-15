@@ -1,3 +1,3 @@
 @startuml
-SmartSpeaker ..> Email
+SmartSpeaker ..> Email : depends on
 @enduml

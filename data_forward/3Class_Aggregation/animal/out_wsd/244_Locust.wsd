@@ -1,4 +1,4 @@
 @startuml
-SwarmOfLocust o-- Locust
-Mountain o-- SwarmOfLocust
+SwarmOfLocust o-- Locust : aggregates
+Mountain o-- SwarmOfLocust : aggregates
 @enduml

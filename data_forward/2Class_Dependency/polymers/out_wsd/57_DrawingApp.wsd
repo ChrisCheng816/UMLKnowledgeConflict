@@ -1,3 +1,3 @@
 @startuml
-DigitalDrawing ..> DrawingApp
+DigitalDrawing ..> DrawingApp : depends on
 @enduml

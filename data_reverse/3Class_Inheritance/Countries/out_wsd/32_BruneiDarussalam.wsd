@@ -1,4 +1,4 @@
 @startuml
-BruneiDarussalam <|-- Country
-Country <|-- GeopoliticalEntity
+BruneiDarussalam <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

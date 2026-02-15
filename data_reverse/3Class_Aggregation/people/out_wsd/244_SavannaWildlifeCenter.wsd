@@ -1,4 +1,4 @@
 @startuml
-LogisticsTeam o-- SavannaWildlifeCenter
-ProjectManager o-- LogisticsTeam
+LogisticsTeam o-- SavannaWildlifeCenter : aggregates
+ProjectManager o-- LogisticsTeam : aggregates
 @enduml

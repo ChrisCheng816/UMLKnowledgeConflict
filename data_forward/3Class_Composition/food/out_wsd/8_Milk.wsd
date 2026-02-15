@@ -1,4 +1,4 @@
 @startuml
-Mascarpone *-- Milk
-Tiramisu *-- Mascarpone
+Mascarpone *-- Milk : composes
+Tiramisu *-- Mascarpone : composes
 @enduml

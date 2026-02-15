@@ -1,4 +1,4 @@
 @startuml
-GroupOfCrab o-- Crab
-Delta o-- GroupOfCrab
+GroupOfCrab o-- Crab : aggregates
+Delta o-- GroupOfCrab : aggregates
 @enduml

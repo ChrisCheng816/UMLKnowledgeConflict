@@ -1,4 +1,4 @@
 @startuml
-MediaEncoder ..> AudioEncoding
-OperatingSystem ..> MediaEncoder
+MediaEncoder ..> AudioEncoding : depends on
+OperatingSystem ..> MediaEncoder : depends on
 @enduml

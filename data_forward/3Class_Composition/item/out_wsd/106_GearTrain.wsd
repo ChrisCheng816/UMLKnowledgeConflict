@@ -1,4 +1,4 @@
 @startuml
-WatchMovement *-- GearTrain
-MechanicalWatch *-- WatchMovement
+WatchMovement *-- GearTrain : composes
+MechanicalWatch *-- WatchMovement : composes
 @enduml

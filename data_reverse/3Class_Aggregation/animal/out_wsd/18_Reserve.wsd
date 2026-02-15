@@ -1,4 +1,4 @@
 @startuml
-FlockOfGull o-- Reserve
-Gull o-- FlockOfGull
+FlockOfGull o-- Reserve : aggregates
+Gull o-- FlockOfGull : aggregates
 @enduml

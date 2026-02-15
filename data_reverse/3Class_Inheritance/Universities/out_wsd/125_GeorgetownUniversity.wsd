@@ -1,4 +1,4 @@
 @startuml
-GeorgetownUniversity <|-- University
-University <|-- EducationalInstitution
+GeorgetownUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

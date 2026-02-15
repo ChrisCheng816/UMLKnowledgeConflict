@@ -1,4 +1,4 @@
 @startuml
-CoherentLight ..> Speckle
-Laser ..> CoherentLight
+CoherentLight ..> Speckle : depends on
+Laser ..> CoherentLight : depends on
 @enduml

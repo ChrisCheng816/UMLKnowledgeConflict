@@ -1,4 +1,4 @@
 @startuml
-Anchovy ..> Zooplankton
-Dolphin ..> Anchovy
+Anchovy ..> Zooplankton : depends on
+Dolphin ..> Anchovy : depends on
 @enduml

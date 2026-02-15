@@ -1,3 +1,3 @@
 @startuml
-MuseumSociety o-- CuratorialTeam
+MuseumSociety o-- CuratorialTeam : aggregates
 @enduml

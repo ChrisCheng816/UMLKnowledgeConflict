@@ -1,4 +1,4 @@
 @startuml
-AirCompressor ..> Electricity
-SprayPainting ..> AirCompressor
+AirCompressor ..> Electricity : depends on
+SprayPainting ..> AirCompressor : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-NationalParkStation o-- PatrolTeam
+NationalParkStation o-- PatrolTeam : aggregates
 @enduml

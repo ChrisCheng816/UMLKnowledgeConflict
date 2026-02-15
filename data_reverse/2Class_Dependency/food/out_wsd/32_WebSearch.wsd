@@ -1,3 +1,3 @@
 @startuml
-EncyclopediaSite ..> WebSearch
+EncyclopediaSite ..> WebSearch : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Car <|-- Vehicle
+Car <|-- Vehicle : inherits
 @enduml

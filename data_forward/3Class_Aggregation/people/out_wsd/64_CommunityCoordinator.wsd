@@ -1,4 +1,4 @@
 @startuml
-NeighborhoodTeam o-- CommunityCoordinator
-CommunityUnion o-- NeighborhoodTeam
+NeighborhoodTeam o-- CommunityCoordinator : aggregates
+CommunityUnion o-- NeighborhoodTeam : aggregates
 @enduml

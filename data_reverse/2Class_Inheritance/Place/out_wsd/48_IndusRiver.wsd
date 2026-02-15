@@ -1,3 +1,3 @@
 @startuml
-IndusRiver <|-- River
+IndusRiver <|-- River : inherits
 @enduml

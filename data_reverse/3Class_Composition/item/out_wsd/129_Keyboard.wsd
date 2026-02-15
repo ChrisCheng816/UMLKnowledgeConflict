@@ -1,4 +1,4 @@
 @startuml
-Key *-- Keyboard
-Switch *-- Key
+Key *-- Keyboard : composes
+Switch *-- Key : composes
 @enduml

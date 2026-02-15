@@ -1,4 +1,4 @@
 @startuml
-ControlPanel ..> WallOutlet
-SecuritySystem ..> ControlPanel
+ControlPanel ..> WallOutlet : depends on
+SecuritySystem ..> ControlPanel : depends on
 @enduml

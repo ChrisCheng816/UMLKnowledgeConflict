@@ -1,4 +1,4 @@
 @startuml
-HerdOfMoose o-- Moose
-Cave o-- HerdOfMoose
+HerdOfMoose o-- Moose : aggregates
+Cave o-- HerdOfMoose : aggregates
 @enduml

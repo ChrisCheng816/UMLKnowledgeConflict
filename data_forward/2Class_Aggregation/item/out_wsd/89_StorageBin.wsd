@@ -1,3 +1,3 @@
 @startuml
-CommunityWarehouse o-- StorageBin
+CommunityWarehouse o-- StorageBin : aggregates
 @enduml

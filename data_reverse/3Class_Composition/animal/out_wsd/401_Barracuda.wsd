@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Barracuda
-Filament *-- Gill
+Gill *-- Barracuda : composes
+Filament *-- Gill : composes
 @enduml

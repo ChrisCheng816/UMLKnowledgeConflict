@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Succulent
-Succulent <|-- AloeVera
+Plant <|-- Succulent : inherits
+Succulent <|-- AloeVera : inherits
 @enduml

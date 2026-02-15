@@ -1,4 +1,4 @@
 @startuml
-OutreachTeam o-- Volunteer
-CharityAuthority o-- OutreachTeam
+OutreachTeam o-- Volunteer : aggregates
+CharityAuthority o-- OutreachTeam : aggregates
 @enduml

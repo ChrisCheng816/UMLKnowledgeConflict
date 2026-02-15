@@ -1,4 +1,4 @@
 @startuml
-Roof *-- Cabin
-Truss *-- Roof
+Roof *-- Cabin : composes
+Truss *-- Roof : composes
 @enduml

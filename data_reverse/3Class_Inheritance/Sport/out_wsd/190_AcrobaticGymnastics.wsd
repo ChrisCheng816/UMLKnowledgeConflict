@@ -1,4 +1,4 @@
 @startuml
-AcrobaticGymnastics <|-- GymnasticsSport
-GymnasticsSport <|-- Sport
+AcrobaticGymnastics <|-- GymnasticsSport : inherits
+GymnasticsSport <|-- Sport : inherits
 @enduml

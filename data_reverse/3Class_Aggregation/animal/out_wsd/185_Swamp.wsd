@@ -1,4 +1,4 @@
 @startuml
-HerdOfGazelle o-- Swamp
-Gazelle o-- HerdOfGazelle
+HerdOfGazelle o-- Swamp : aggregates
+Gazelle o-- HerdOfGazelle : aggregates
 @enduml

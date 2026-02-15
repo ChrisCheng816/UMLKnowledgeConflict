@@ -1,4 +1,4 @@
 @startuml
-PackOfFox o-- Prairie
-Fox o-- PackOfFox
+PackOfFox o-- Prairie : aggregates
+Fox o-- PackOfFox : aggregates
 @enduml

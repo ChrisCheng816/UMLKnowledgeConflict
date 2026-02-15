@@ -1,3 +1,3 @@
 @startuml
-AthleticsSport <|-- HighJump
+AthleticsSport <|-- HighJump : inherits
 @enduml

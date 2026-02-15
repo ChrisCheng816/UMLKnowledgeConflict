@@ -1,4 +1,4 @@
 @startuml
-DisplayCase o-- Artifact
-MuseumDepot o-- DisplayCase
+DisplayCase o-- Artifact : aggregates
+MuseumDepot o-- DisplayCase : aggregates
 @enduml

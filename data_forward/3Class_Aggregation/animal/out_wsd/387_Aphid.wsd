@@ -1,4 +1,4 @@
 @startuml
-SwarmOfAphid o-- Aphid
-Pasture o-- SwarmOfAphid
+SwarmOfAphid o-- Aphid : aggregates
+Pasture o-- SwarmOfAphid : aggregates
 @enduml

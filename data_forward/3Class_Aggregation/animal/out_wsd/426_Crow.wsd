@@ -1,4 +1,4 @@
 @startuml
-FlockOfCrow o-- Crow
-Shelter o-- FlockOfCrow
+FlockOfCrow o-- Crow : aggregates
+Shelter o-- FlockOfCrow : aggregates
 @enduml

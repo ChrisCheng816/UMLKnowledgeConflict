@@ -1,3 +1,3 @@
 @startuml
-Rim *-- WheelAssembly
+Rim *-- WheelAssembly : composes
 @enduml

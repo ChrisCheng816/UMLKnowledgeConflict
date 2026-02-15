@@ -1,3 +1,3 @@
 @startuml
-MunicipalWaterMain ..> Dishwasher
+MunicipalWaterMain ..> Dishwasher : depends on
 @enduml

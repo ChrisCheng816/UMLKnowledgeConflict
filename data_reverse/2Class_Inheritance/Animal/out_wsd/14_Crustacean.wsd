@@ -1,3 +1,3 @@
 @startuml
-Crustacean <|-- Animal
+Crustacean <|-- Animal : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-EquestrianSport <|-- Polo
+EquestrianSport <|-- Polo : inherits
 @enduml

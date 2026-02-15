@@ -1,3 +1,3 @@
 @startuml
-PintoBean <|-- Legume
+PintoBean <|-- Legume : inherits
 @enduml

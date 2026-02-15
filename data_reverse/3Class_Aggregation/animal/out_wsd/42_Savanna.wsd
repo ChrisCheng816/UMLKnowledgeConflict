@@ -1,4 +1,4 @@
 @startuml
-HerdOfBison o-- Savanna
-Bison o-- HerdOfBison
+HerdOfBison o-- Savanna : aggregates
+Bison o-- HerdOfBison : aggregates
 @enduml

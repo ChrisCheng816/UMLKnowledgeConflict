@@ -1,4 +1,4 @@
 @startuml
-Chhena *-- Milk
-Rasgulla *-- Chhena
+Chhena *-- Milk : composes
+Rasgulla *-- Chhena : composes
 @enduml

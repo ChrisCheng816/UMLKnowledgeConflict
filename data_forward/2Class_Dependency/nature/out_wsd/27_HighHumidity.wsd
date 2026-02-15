@@ -1,3 +1,3 @@
 @startuml
-Fog ..> HighHumidity
+Fog ..> HighHumidity : depends on
 @enduml

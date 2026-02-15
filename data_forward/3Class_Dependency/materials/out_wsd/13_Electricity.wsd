@@ -1,4 +1,4 @@
 @startuml
-AquariumLight ..> Electricity
-Illumination ..> AquariumLight
+AquariumLight ..> Electricity : depends on
+Illumination ..> AquariumLight : depends on
 @enduml

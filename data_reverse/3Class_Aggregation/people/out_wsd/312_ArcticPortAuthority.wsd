@@ -1,4 +1,4 @@
 @startuml
-FlightOpsTeam o-- ArcticPortAuthority
-ComplianceOfficer o-- FlightOpsTeam
+FlightOpsTeam o-- ArcticPortAuthority : aggregates
+ComplianceOfficer o-- FlightOpsTeam : aggregates
 @enduml

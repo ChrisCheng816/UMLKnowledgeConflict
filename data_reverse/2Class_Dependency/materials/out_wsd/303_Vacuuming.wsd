@@ -1,3 +1,3 @@
 @startuml
-VacuumCleaner ..> Vacuuming
+VacuumCleaner ..> Vacuuming : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TVSeries <|-- AnimeSeries
-AnimeSeries <|-- OnePiece
+TVSeries <|-- AnimeSeries : inherits
+AnimeSeries <|-- OnePiece : inherits
 @enduml

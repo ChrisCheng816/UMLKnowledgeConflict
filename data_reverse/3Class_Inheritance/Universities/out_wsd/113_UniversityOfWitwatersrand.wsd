@@ -1,4 +1,4 @@
 @startuml
-UniversityOfWitwatersrand <|-- University
-University <|-- EducationalInstitution
+UniversityOfWitwatersrand <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

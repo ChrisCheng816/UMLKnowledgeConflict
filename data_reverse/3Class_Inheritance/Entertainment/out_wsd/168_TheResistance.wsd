@@ -1,4 +1,4 @@
 @startuml
-TheResistance <|-- BoardGame
-BoardGame <|-- Game
+TheResistance <|-- BoardGame : inherits
+BoardGame <|-- Game : inherits
 @enduml

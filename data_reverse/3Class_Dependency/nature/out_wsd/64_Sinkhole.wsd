@@ -1,4 +1,4 @@
 @startuml
-Limestone ..> Sinkhole
-BedrockDissolution ..> Limestone
+Limestone ..> Sinkhole : depends on
+BedrockDissolution ..> Limestone : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Mayotte <|-- Country
-Country <|-- GeopoliticalEntity
+Mayotte <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

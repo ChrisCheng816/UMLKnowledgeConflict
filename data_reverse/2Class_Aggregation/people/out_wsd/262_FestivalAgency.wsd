@@ -1,3 +1,3 @@
 @startuml
-LogisticsTeam o-- FestivalAgency
+LogisticsTeam o-- FestivalAgency : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-HerdOfZebra o-- Zebra
-Cave o-- HerdOfZebra
+HerdOfZebra o-- Zebra : aggregates
+Cave o-- HerdOfZebra : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SwarmOfAphid o-- Lagoon
-Aphid o-- SwarmOfAphid
+SwarmOfAphid o-- Lagoon : aggregates
+Aphid o-- SwarmOfAphid : aggregates
 @enduml

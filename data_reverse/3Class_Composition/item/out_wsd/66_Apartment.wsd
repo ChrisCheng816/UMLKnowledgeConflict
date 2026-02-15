@@ -1,4 +1,4 @@
 @startuml
-Window *-- Apartment
-GlassPane *-- Window
+Window *-- Apartment : composes
+GlassPane *-- Window : composes
 @enduml

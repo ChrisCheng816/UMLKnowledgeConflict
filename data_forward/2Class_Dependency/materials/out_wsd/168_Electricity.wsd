@@ -1,3 +1,3 @@
 @startuml
-KitchenLight ..> Electricity
+KitchenLight ..> Electricity : depends on
 @enduml

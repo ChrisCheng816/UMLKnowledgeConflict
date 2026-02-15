@@ -1,4 +1,4 @@
 @startuml
-LabTeam o-- LabTechnician
-ScienceAgency o-- LabTeam
+LabTeam o-- LabTechnician : aggregates
+ScienceAgency o-- LabTeam : aggregates
 @enduml

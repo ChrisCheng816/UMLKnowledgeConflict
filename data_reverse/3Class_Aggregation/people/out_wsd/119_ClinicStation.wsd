@@ -1,4 +1,4 @@
 @startuml
-LabTeam o-- ClinicStation
-LabTechnician o-- LabTeam
+LabTeam o-- ClinicStation : aggregates
+LabTechnician o-- LabTeam : aggregates
 @enduml

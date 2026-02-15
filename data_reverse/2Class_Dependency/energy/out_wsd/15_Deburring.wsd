@@ -1,3 +1,3 @@
 @startuml
-AngleGrinder ..> Deburring
+AngleGrinder ..> Deburring : depends on
 @enduml

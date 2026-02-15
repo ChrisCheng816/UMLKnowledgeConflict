@@ -1,4 +1,4 @@
 @startuml
-SwarmOfButterfly o-- Hill
-Butterfly o-- SwarmOfButterfly
+SwarmOfButterfly o-- Hill : aggregates
+Butterfly o-- SwarmOfButterfly : aggregates
 @enduml

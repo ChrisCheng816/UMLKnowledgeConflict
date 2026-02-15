@@ -1,4 +1,4 @@
 @startuml
-EbookReader ..> OperatingSystem
-LibraryManagement ..> EbookReader
+EbookReader ..> OperatingSystem : depends on
+LibraryManagement ..> EbookReader : depends on
 @enduml

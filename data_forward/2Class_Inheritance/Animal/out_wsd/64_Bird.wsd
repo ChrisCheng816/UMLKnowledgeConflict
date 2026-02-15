@@ -1,3 +1,3 @@
 @startuml
-Bird <|-- Flamingo
+Bird <|-- Flamingo : inherits
 @enduml

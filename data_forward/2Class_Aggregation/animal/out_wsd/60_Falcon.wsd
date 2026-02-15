@@ -1,3 +1,3 @@
 @startuml
-FlockOfFalcon o-- Falcon
+FlockOfFalcon o-- Falcon : aggregates
 @enduml

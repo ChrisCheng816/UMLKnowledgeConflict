@@ -1,4 +1,4 @@
 @startuml
-PodcastApp ..> PodcastListening
-InternetConnection ..> PodcastApp
+PodcastApp ..> PodcastListening : depends on
+InternetConnection ..> PodcastApp : depends on
 @enduml

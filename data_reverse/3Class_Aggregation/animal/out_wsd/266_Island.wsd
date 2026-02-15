@@ -1,4 +1,4 @@
 @startuml
-ColonyOfNewt o-- Island
-Newt o-- ColonyOfNewt
+ColonyOfNewt o-- Island : aggregates
+Newt o-- ColonyOfNewt : aggregates
 @enduml

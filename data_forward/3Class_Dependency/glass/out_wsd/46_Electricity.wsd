@@ -1,4 +1,4 @@
 @startuml
-PeritonealDialysisCycler ..> Electricity
-BloodFiltration ..> PeritonealDialysisCycler
+PeritonealDialysisCycler ..> Electricity : depends on
+BloodFiltration ..> PeritonealDialysisCycler : depends on
 @enduml

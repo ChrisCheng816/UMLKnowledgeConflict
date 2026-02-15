@@ -1,4 +1,4 @@
 @startuml
-OnlineCoursePlatform ..> HomeworkSubmission
-InternetConnection ..> OnlineCoursePlatform
+OnlineCoursePlatform ..> HomeworkSubmission : depends on
+InternetConnection ..> OnlineCoursePlatform : depends on
 @enduml

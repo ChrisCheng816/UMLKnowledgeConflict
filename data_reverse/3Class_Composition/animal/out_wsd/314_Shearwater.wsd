@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Shearwater
-Shaft *-- Feather
+Feather *-- Shearwater : composes
+Shaft *-- Feather : composes
 @enduml

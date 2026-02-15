@@ -1,3 +1,3 @@
 @startuml
-EquestrianSport <|-- EnduranceRiding
+EquestrianSport <|-- EnduranceRiding : inherits
 @enduml

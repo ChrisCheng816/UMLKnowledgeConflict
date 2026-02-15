@@ -1,3 +1,3 @@
 @startuml
-TropicalFruit <|-- Banana
+TropicalFruit <|-- Banana : inherits
 @enduml

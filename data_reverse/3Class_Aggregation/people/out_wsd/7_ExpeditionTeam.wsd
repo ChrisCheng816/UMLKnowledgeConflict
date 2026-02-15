@@ -1,4 +1,4 @@
 @startuml
-ExpertGroup o-- ExpeditionTeam
-Advisor o-- ExpertGroup
+ExpertGroup o-- ExpeditionTeam : aggregates
+Advisor o-- ExpertGroup : aggregates
 @enduml

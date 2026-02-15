@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Meerkat
-Root *-- Tooth
+Tooth *-- Meerkat : composes
+Root *-- Tooth : composes
 @enduml

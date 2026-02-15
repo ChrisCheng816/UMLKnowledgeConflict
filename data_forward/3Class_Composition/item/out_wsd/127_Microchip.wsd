@@ -1,4 +1,4 @@
 @startuml
-CircuitBoard *-- Microchip
-Smartphone *-- CircuitBoard
+CircuitBoard *-- Microchip : composes
+Smartphone *-- CircuitBoard : composes
 @enduml

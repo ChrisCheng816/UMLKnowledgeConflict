@@ -1,3 +1,3 @@
 @startuml
-SchoolOfCod o-- Cod
+SchoolOfCod o-- Cod : aggregates
 @enduml

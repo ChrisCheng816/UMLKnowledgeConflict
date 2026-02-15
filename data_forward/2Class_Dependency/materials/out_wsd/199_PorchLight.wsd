@@ -1,3 +1,3 @@
 @startuml
-Illumination ..> PorchLight
+Illumination ..> PorchLight : depends on
 @enduml

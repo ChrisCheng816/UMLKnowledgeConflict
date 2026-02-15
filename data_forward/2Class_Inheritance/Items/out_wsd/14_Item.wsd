@@ -1,3 +1,3 @@
 @startuml
-Item <|-- Drinkware
+Item <|-- Drinkware : inherits
 @enduml

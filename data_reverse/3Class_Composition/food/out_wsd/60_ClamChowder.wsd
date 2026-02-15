@@ -1,4 +1,4 @@
 @startuml
-Cream *-- ClamChowder
-Milk *-- Cream
+Cream *-- ClamChowder : composes
+Milk *-- Cream : composes
 @enduml

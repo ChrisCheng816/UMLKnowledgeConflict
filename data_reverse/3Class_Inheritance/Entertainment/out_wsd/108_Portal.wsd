@@ -1,4 +1,4 @@
 @startuml
-Portal <|-- VideoGame
-VideoGame <|-- Game
+Portal <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

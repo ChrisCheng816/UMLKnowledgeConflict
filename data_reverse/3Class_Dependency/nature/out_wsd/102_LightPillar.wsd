@@ -1,4 +1,4 @@
 @startuml
-IceCrystals ..> LightPillar
-CirrusCloud ..> IceCrystals
+IceCrystals ..> LightPillar : depends on
+CirrusCloud ..> IceCrystals : depends on
 @enduml

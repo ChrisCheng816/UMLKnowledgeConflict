@@ -1,4 +1,4 @@
 @startuml
-Jersey <|-- Country
-Country <|-- GeopoliticalEntity
+Jersey <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PackOfLeopard o-- Leopard
-Inlet o-- PackOfLeopard
+PackOfLeopard o-- Leopard : aggregates
+Inlet o-- PackOfLeopard : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MaintenanceTeam o-- Engineer
-RegionalTechCompany o-- MaintenanceTeam
+MaintenanceTeam o-- Engineer : aggregates
+RegionalTechCompany o-- MaintenanceTeam : aggregates
 @enduml

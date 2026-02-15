@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Roach
-Filament *-- Gill
+Gill *-- Roach : composes
+Filament *-- Gill : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- ArtWarehouse
-Blanket o-- StorageBin
+StorageBin o-- ArtWarehouse : aggregates
+Blanket o-- StorageBin : aggregates
 @enduml

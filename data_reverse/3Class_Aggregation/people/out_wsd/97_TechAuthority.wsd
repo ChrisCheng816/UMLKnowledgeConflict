@@ -1,4 +1,4 @@
 @startuml
-InfraTeam o-- TechAuthority
-SoftwareEngineer o-- InfraTeam
+InfraTeam o-- TechAuthority : aggregates
+SoftwareEngineer o-- InfraTeam : aggregates
 @enduml

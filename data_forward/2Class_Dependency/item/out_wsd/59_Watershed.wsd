@@ -1,3 +1,3 @@
 @startuml
-Reservoir ..> Watershed
+Reservoir ..> Watershed : depends on
 @enduml

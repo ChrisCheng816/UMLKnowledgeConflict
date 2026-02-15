@@ -1,4 +1,4 @@
 @startuml
-ResearchGroup o-- UniversityInstitute
-PhDStudent o-- ResearchGroup
+ResearchGroup o-- UniversityInstitute : aggregates
+PhDStudent o-- ResearchGroup : aggregates
 @enduml

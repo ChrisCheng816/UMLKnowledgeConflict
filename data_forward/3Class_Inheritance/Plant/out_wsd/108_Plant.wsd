@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Grass
-Grass <|-- Bamboo
+Plant <|-- Grass : inherits
+Grass <|-- Bamboo : inherits
 @enduml

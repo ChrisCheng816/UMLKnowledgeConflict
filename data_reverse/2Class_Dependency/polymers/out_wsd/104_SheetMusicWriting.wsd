@@ -1,3 +1,3 @@
 @startuml
-MusicNotationSoftware ..> SheetMusicWriting
+MusicNotationSoftware ..> SheetMusicWriting : depends on
 @enduml

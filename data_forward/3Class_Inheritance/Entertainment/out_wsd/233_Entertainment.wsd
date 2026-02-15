@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- SavingPrivateRyan
+Entertainment <|-- Film : inherits
+Film <|-- SavingPrivateRyan : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Earthquake ..> TectonicPlate
+Earthquake ..> TectonicPlate : depends on
 @enduml

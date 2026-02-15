@@ -1,4 +1,4 @@
 @startuml
-QualityTeam o-- HealthcareFireDepartment
-Drafter o-- QualityTeam
+QualityTeam o-- HealthcareFireDepartment : aggregates
+Drafter o-- QualityTeam : aggregates
 @enduml

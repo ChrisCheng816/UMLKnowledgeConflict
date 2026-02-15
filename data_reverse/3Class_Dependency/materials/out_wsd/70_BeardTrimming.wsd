@@ -1,4 +1,4 @@
 @startuml
-ElectricShaver ..> BeardTrimming
-Electricity ..> ElectricShaver
+ElectricShaver ..> BeardTrimming : depends on
+Electricity ..> ElectricShaver : depends on
 @enduml

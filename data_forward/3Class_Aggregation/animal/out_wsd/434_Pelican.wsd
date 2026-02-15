@@ -1,4 +1,4 @@
 @startuml
-FlockOfPelican o-- Pelican
-Clinic o-- FlockOfPelican
+FlockOfPelican o-- Pelican : aggregates
+Clinic o-- FlockOfPelican : aggregates
 @enduml

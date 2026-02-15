@@ -1,4 +1,4 @@
 @startuml
-Eye *-- LeopardGecko
-Lens *-- Eye
+Eye *-- LeopardGecko : composes
+Lens *-- Eye : composes
 @enduml

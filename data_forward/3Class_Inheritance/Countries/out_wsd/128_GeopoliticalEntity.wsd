@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Malawi
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- Malawi : inherits
 @enduml

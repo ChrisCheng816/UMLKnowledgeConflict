@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Swift
-Shaft *-- Feather
+Feather *-- Swift : composes
+Shaft *-- Feather : composes
 @enduml

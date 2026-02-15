@@ -1,4 +1,4 @@
 @startuml
-Autoclave ..> InstrumentSterilization
-Electricity ..> Autoclave
+Autoclave ..> InstrumentSterilization : depends on
+Electricity ..> Autoclave : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GroupOfJellyfish o-- Jellyfish
-Zoo o-- GroupOfJellyfish
+GroupOfJellyfish o-- Jellyfish : aggregates
+Zoo o-- GroupOfJellyfish : aggregates
 @enduml

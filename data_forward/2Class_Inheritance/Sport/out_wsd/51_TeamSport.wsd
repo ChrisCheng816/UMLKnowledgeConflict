@@ -1,3 +1,3 @@
 @startuml
-TeamSport <|-- RugbyLeague
+TeamSport <|-- RugbyLeague : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Gibraltar <|-- Country
-Country <|-- GeopoliticalEntity
+Gibraltar <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

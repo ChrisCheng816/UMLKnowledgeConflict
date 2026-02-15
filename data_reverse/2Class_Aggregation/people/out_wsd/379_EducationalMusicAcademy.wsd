@@ -1,3 +1,3 @@
 @startuml
-CaseTeam o-- EducationalMusicAcademy
+CaseTeam o-- EducationalMusicAcademy : aggregates
 @enduml

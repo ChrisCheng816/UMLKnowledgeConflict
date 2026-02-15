@@ -1,4 +1,4 @@
 @startuml
-FlockOfDuck o-- Estuary
-Duck o-- FlockOfDuck
+FlockOfDuck o-- Estuary : aggregates
+Duck o-- FlockOfDuck : aggregates
 @enduml

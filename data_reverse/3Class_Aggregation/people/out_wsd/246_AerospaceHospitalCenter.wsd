@@ -1,4 +1,4 @@
 @startuml
-FlightOpsTeam o-- AerospaceHospitalCenter
-ComplianceOfficer o-- FlightOpsTeam
+FlightOpsTeam o-- AerospaceHospitalCenter : aggregates
+ComplianceOfficer o-- FlightOpsTeam : aggregates
 @enduml

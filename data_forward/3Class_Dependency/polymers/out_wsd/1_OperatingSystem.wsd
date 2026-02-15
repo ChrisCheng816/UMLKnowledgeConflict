@@ -1,4 +1,4 @@
 @startuml
-AccountingSoftware ..> OperatingSystem
-Bookkeeping ..> AccountingSoftware
+AccountingSoftware ..> OperatingSystem : depends on
+Bookkeeping ..> AccountingSoftware : depends on
 @enduml

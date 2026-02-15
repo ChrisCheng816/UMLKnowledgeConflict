@@ -1,4 +1,4 @@
 @startuml
-LearningPlatform ..> InternetConnection
-OnlineLearning ..> LearningPlatform
+LearningPlatform ..> InternetConnection : depends on
+OnlineLearning ..> LearningPlatform : depends on
 @enduml

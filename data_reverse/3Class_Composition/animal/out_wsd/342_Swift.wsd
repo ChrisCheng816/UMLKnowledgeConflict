@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Swift
-Nostril *-- Beak
+Beak *-- Swift : composes
+Nostril *-- Beak : composes
 @enduml

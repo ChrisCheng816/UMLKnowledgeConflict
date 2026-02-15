@@ -1,3 +1,3 @@
 @startuml
-SoilMoistureIncrease ..> Rainfall
+SoilMoistureIncrease ..> Rainfall : depends on
 @enduml

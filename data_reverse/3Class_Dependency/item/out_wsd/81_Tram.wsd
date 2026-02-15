@@ -1,4 +1,4 @@
 @startuml
-OverheadLine ..> Tram
-TractionSubstation ..> OverheadLine
+OverheadLine ..> Tram : depends on
+TractionSubstation ..> OverheadLine : depends on
 @enduml

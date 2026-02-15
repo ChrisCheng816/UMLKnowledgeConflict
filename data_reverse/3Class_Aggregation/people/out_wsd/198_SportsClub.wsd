@@ -1,4 +1,4 @@
 @startuml
-CoachingTeam o-- SportsClub
-AssistantCoach o-- CoachingTeam
+CoachingTeam o-- SportsClub : aggregates
+AssistantCoach o-- CoachingTeam : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-OnlineLearning ..> LearningPlatform
+OnlineLearning ..> LearningPlatform : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Spoon <|-- Utensil
-Utensil <|-- Item
+Spoon <|-- Utensil : inherits
+Utensil <|-- Item : inherits
 @enduml

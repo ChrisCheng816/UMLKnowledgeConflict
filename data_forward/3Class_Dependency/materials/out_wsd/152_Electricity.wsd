@@ -1,4 +1,4 @@
 @startuml
-PorchLight ..> Electricity
-Lighting ..> PorchLight
+PorchLight ..> Electricity : depends on
+Lighting ..> PorchLight : depends on
 @enduml

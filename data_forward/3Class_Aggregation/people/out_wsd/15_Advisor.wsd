@@ -1,4 +1,4 @@
 @startuml
-ExpertGroup o-- Advisor
-TrafficControlCenter o-- ExpertGroup
+ExpertGroup o-- Advisor : aggregates
+TrafficControlCenter o-- ExpertGroup : aggregates
 @enduml

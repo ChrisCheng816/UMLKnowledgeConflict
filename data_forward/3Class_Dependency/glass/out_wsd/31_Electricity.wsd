@@ -1,4 +1,4 @@
 @startuml
-HemodialysisMachine ..> Electricity
-BloodFiltration ..> HemodialysisMachine
+HemodialysisMachine ..> Electricity : depends on
+BloodFiltration ..> HemodialysisMachine : depends on
 @enduml

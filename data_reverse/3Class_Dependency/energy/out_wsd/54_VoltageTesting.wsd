@@ -1,4 +1,4 @@
 @startuml
-Oscilloscope ..> VoltageTesting
-Electricity ..> Oscilloscope
+Oscilloscope ..> VoltageTesting : depends on
+Electricity ..> Oscilloscope : depends on
 @enduml

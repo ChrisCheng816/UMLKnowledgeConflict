@@ -1,3 +1,3 @@
 @startuml
-BrowserExtension ..> OperatingSystem
+BrowserExtension ..> OperatingSystem : depends on
 @enduml

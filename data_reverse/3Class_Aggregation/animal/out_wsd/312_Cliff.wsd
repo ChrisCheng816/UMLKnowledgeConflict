@@ -1,4 +1,4 @@
 @startuml
-FlockOfSwift o-- Cliff
-Swift o-- FlockOfSwift
+FlockOfSwift o-- Cliff : aggregates
+Swift o-- FlockOfSwift : aggregates
 @enduml

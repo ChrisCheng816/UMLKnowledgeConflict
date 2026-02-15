@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Filament
-Barracuda *-- Gill
+Gill *-- Filament : composes
+Barracuda *-- Gill : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CompressionTool ..> ArchiveExtraction
-OperatingSystem ..> CompressionTool
+CompressionTool ..> ArchiveExtraction : depends on
+OperatingSystem ..> CompressionTool : depends on
 @enduml

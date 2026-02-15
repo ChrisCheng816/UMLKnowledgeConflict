@@ -1,4 +1,4 @@
 @startuml
-BogaziciUniversity <|-- University
-University <|-- EducationalInstitution
+BogaziciUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

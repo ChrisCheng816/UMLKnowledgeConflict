@@ -1,3 +1,3 @@
 @startuml
-CompressedAir ..> PneumaticNailGun
+CompressedAir ..> PneumaticNailGun : depends on
 @enduml

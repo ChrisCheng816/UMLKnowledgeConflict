@@ -1,3 +1,3 @@
 @startuml
-EnergyCommunityCenter o-- AdmissionsOffice
+EnergyCommunityCenter o-- AdmissionsOffice : aggregates
 @enduml

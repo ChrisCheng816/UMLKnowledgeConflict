@@ -1,4 +1,4 @@
 @startuml
-IceCrystals ..> Halo
-CirrusCloud ..> IceCrystals
+IceCrystals ..> Halo : depends on
+CirrusCloud ..> IceCrystals : depends on
 @enduml

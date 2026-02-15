@@ -1,3 +1,3 @@
 @startuml
-Snout *-- Pig
+Snout *-- Pig : composes
 @enduml

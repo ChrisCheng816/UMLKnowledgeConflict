@@ -1,3 +1,3 @@
 @startuml
-CommitteeMember o-- Board
+CommitteeMember o-- Board : aggregates
 @enduml

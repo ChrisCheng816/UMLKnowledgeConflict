@@ -1,4 +1,4 @@
 @startuml
-Defibrillator ..> BatteryPower
-FirstAid ..> Defibrillator
+Defibrillator ..> BatteryPower : depends on
+FirstAid ..> Defibrillator : depends on
 @enduml

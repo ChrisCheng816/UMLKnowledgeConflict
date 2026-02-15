@@ -1,4 +1,4 @@
 @startuml
-IITKanpur <|-- University
-University <|-- EducationalInstitution
+IITKanpur <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

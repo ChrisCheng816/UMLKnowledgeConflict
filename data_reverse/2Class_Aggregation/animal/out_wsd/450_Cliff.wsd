@@ -1,3 +1,3 @@
 @startuml
-FlockOfWren o-- Cliff
+FlockOfWren o-- Cliff : aggregates
 @enduml

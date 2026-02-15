@@ -1,4 +1,4 @@
 @startuml
-PathfinderRoleplayingGame <|-- TabletopRPG
-TabletopRPG <|-- Game
+PathfinderRoleplayingGame <|-- TabletopRPG : inherits
+TabletopRPG <|-- Game : inherits
 @enduml

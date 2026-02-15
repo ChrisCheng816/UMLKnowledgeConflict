@@ -1,4 +1,4 @@
 @startuml
-ArchivesTeam o-- LibraryFoundation
-Archivist o-- ArchivesTeam
+ArchivesTeam o-- LibraryFoundation : aggregates
+Archivist o-- ArchivesTeam : aggregates
 @enduml

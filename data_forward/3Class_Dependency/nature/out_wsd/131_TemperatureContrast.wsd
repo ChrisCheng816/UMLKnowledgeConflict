@@ -1,4 +1,4 @@
 @startuml
-PressureGradient ..> TemperatureContrast
-StormSystem ..> PressureGradient
+PressureGradient ..> TemperatureContrast : depends on
+StormSystem ..> PressureGradient : depends on
 @enduml

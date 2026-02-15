@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- HaloCombatEvolved
+Game <|-- VideoGame : inherits
+VideoGame <|-- HaloCombatEvolved : inherits
 @enduml

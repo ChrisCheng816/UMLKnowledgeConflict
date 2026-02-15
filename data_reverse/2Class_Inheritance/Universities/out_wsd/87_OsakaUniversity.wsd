@@ -1,3 +1,3 @@
 @startuml
-OsakaUniversity <|-- University
+OsakaUniversity <|-- University : inherits
 @enduml

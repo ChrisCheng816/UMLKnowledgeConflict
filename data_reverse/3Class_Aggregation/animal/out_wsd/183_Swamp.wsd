@@ -1,4 +1,4 @@
 @startuml
-HerdOfGiraffe o-- Swamp
-Giraffe o-- HerdOfGiraffe
+HerdOfGiraffe o-- Swamp : aggregates
+Giraffe o-- HerdOfGiraffe : aggregates
 @enduml

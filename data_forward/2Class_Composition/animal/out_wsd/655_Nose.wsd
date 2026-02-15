@@ -1,3 +1,3 @@
 @startuml
-Beaver *-- Nose
+Beaver *-- Nose : composes
 @enduml

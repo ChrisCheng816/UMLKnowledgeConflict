@@ -1,3 +1,3 @@
 @startuml
-HardSurface ..> SoundWave
+HardSurface ..> SoundWave : depends on
 @enduml

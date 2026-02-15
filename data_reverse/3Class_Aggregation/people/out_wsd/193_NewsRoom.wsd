@@ -1,4 +1,4 @@
 @startuml
-EditorialTeam o-- NewsRoom
-Reporter o-- EditorialTeam
+EditorialTeam o-- NewsRoom : aggregates
+Reporter o-- EditorialTeam : aggregates
 @enduml

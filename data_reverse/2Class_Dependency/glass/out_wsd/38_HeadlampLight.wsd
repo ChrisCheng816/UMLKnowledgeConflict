@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> HeadlampLight
+Electricity ..> HeadlampLight : depends on
 @enduml

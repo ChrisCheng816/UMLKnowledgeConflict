@@ -1,3 +1,3 @@
 @startuml
-Tooth *-- Squirrel
+Tooth *-- Squirrel : composes
 @enduml

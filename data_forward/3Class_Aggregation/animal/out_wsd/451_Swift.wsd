@@ -1,4 +1,4 @@
 @startuml
-FlockOfSwift o-- Swift
-Hatchery o-- FlockOfSwift
+FlockOfSwift o-- Swift : aggregates
+Hatchery o-- FlockOfSwift : aggregates
 @enduml

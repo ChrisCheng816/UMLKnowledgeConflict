@@ -1,3 +1,3 @@
 @startuml
-Roof *-- Rafter
+Roof *-- Rafter : composes
 @enduml

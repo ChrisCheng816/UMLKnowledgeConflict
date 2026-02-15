@@ -1,4 +1,4 @@
 @startuml
-CarManufacturer <|-- Honda
-Honda <|-- HondaCRV
+CarManufacturer <|-- Honda : inherits
+Honda <|-- HondaCRV : inherits
 @enduml

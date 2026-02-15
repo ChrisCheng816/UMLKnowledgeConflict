@@ -1,4 +1,4 @@
 @startuml
-Smartwatch ..> CellularNetwork
-MobileInternet ..> Smartwatch
+Smartwatch ..> CellularNetwork : depends on
+MobileInternet ..> Smartwatch : depends on
 @enduml

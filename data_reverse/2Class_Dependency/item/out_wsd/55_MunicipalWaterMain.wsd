@@ -1,3 +1,3 @@
 @startuml
-WaterTreatmentPlant ..> MunicipalWaterMain
+WaterTreatmentPlant ..> MunicipalWaterMain : depends on
 @enduml

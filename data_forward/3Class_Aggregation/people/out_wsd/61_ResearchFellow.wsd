@@ -1,4 +1,4 @@
 @startuml
-ResearchTeam o-- ResearchFellow
-ScienceAgency o-- ResearchTeam
+ResearchTeam o-- ResearchFellow : aggregates
+ScienceAgency o-- ResearchTeam : aggregates
 @enduml

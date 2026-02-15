@@ -1,4 +1,4 @@
 @startuml
-IssueTracker ..> InternetConnection
-IssueTracking ..> IssueTracker
+IssueTracker ..> InternetConnection : depends on
+IssueTracking ..> IssueTracker : depends on
 @enduml

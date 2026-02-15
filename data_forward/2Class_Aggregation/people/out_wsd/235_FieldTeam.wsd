@@ -1,3 +1,3 @@
 @startuml
-DesertAgency o-- FieldTeam
+DesertAgency o-- FieldTeam : aggregates
 @enduml

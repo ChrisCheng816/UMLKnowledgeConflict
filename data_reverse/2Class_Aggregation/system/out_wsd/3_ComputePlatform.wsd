@@ -1,3 +1,3 @@
 @startuml
-ComputePool o-- ComputePlatform
+ComputePool o-- ComputePlatform : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TroopOfMonkey o-- Inlet
-Monkey o-- TroopOfMonkey
+TroopOfMonkey o-- Inlet : aggregates
+Monkey o-- TroopOfMonkey : aggregates
 @enduml

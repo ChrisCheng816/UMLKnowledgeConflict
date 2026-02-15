@@ -1,3 +1,3 @@
 @startuml
-CNCMachine ..> PartManufacturing
+CNCMachine ..> PartManufacturing : depends on
 @enduml

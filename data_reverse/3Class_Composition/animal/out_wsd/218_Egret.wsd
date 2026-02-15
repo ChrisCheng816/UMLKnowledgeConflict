@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Egret
-Shaft *-- Feather
+Feather *-- Egret : composes
+Shaft *-- Feather : composes
 @enduml

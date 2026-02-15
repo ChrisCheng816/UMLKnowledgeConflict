@@ -1,4 +1,4 @@
 @startuml
-FeaturePhone ..> TextMessaging
-CellularNetwork ..> FeaturePhone
+FeaturePhone ..> TextMessaging : depends on
+CellularNetwork ..> FeaturePhone : depends on
 @enduml

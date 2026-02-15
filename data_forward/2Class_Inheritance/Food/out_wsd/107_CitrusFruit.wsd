@@ -1,3 +1,3 @@
 @startuml
-CitrusFruit <|-- Mandarin
+CitrusFruit <|-- Mandarin : inherits
 @enduml

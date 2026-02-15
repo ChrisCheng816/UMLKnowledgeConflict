@@ -1,3 +1,3 @@
 @startuml
-Song <|-- RollingInTheDeep
+Song <|-- RollingInTheDeep : inherits
 @enduml

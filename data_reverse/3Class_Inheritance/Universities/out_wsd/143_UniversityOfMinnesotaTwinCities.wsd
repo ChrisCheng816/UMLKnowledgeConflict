@@ -1,4 +1,4 @@
 @startuml
-UniversityOfMinnesotaTwinCities <|-- University
-University <|-- EducationalInstitution
+UniversityOfMinnesotaTwinCities <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

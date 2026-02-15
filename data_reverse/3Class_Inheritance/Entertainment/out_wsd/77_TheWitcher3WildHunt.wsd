@@ -1,4 +1,4 @@
 @startuml
-TheWitcher3WildHunt <|-- VideoGame
-VideoGame <|-- Game
+TheWitcher3WildHunt <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfHawk o-- Hawk
-Cliff o-- FlockOfHawk
+FlockOfHawk o-- Hawk : aggregates
+Cliff o-- FlockOfHawk : aggregates
 @enduml

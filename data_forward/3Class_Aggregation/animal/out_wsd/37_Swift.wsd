@@ -1,4 +1,4 @@
 @startuml
-FlockOfSwift o-- Swift
-Wetland o-- FlockOfSwift
+FlockOfSwift o-- Swift : aggregates
+Wetland o-- FlockOfSwift : aggregates
 @enduml

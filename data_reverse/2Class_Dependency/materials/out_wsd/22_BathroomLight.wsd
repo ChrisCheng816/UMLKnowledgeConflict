@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> BathroomLight
+Electricity ..> BathroomLight : depends on
 @enduml

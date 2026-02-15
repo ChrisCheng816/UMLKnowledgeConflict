@@ -1,4 +1,4 @@
 @startuml
-LocalArtAcademy o-- Painter
-ArtAssociation o-- LocalArtAcademy
+LocalArtAcademy o-- Painter : aggregates
+ArtAssociation o-- LocalArtAcademy : aggregates
 @enduml

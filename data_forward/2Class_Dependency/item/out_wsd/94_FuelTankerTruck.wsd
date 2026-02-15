@@ -1,3 +1,3 @@
 @startuml
-AirportFuelFarm ..> FuelTankerTruck
+AirportFuelFarm ..> FuelTankerTruck : depends on
 @enduml

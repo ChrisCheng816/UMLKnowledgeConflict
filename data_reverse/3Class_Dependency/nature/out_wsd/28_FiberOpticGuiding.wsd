@@ -1,4 +1,4 @@
 @startuml
-TotalInternalReflection ..> FiberOpticGuiding
-RefractiveIndexContrast ..> TotalInternalReflection
+TotalInternalReflection ..> FiberOpticGuiding : depends on
+RefractiveIndexContrast ..> TotalInternalReflection : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sicily <|-- Island
-Island <|-- GeographicFeature
+Sicily <|-- Island : inherits
+Island <|-- GeographicFeature : inherits
 @enduml

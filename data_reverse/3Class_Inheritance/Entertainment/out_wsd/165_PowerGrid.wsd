@@ -1,4 +1,4 @@
 @startuml
-PowerGrid <|-- BoardGame
-BoardGame <|-- Game
+PowerGrid <|-- BoardGame : inherits
+BoardGame <|-- Game : inherits
 @enduml

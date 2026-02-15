@@ -1,4 +1,4 @@
 @startuml
-FlockOfDove o-- Dove
-Reserve o-- FlockOfDove
+FlockOfDove o-- Dove : aggregates
+Reserve o-- FlockOfDove : aggregates
 @enduml

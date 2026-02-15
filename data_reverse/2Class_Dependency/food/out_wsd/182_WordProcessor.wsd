@@ -1,3 +1,3 @@
 @startuml
-OperatingSystem ..> WordProcessor
+OperatingSystem ..> WordProcessor : depends on
 @enduml

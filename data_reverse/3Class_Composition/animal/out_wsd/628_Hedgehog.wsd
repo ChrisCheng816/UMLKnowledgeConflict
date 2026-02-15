@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Hedgehog
-Root *-- Tooth
+Tooth *-- Hedgehog : composes
+Root *-- Tooth : composes
 @enduml

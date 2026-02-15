@@ -1,4 +1,4 @@
 @startuml
-GasStove ..> NaturalGas
-Frying ..> GasStove
+GasStove ..> NaturalGas : depends on
+Frying ..> GasStove : depends on
 @enduml

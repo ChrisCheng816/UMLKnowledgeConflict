@@ -1,3 +1,3 @@
 @startuml
-OutreachTeam o-- Volunteer
+OutreachTeam o-- Volunteer : aggregates
 @enduml

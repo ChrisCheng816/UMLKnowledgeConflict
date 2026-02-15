@@ -1,4 +1,4 @@
 @startuml
-Bin o-- FestivalDepot
-DriedHerb o-- Bin
+Bin o-- FestivalDepot : aggregates
+DriedHerb o-- Bin : aggregates
 @enduml

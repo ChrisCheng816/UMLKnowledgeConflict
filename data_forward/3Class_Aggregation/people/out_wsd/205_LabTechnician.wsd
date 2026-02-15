@@ -1,4 +1,4 @@
 @startuml
-OutreachUnit o-- LabTechnician
-EnvironmentalSportsClub o-- OutreachUnit
+OutreachUnit o-- LabTechnician : aggregates
+EnvironmentalSportsClub o-- OutreachUnit : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SchoolOfBass o-- Reef
-Bass o-- SchoolOfBass
+SchoolOfBass o-- Reef : aggregates
+Bass o-- SchoolOfBass : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Meerkat
-Claw *-- Paw
+Paw *-- Meerkat : composes
+Claw *-- Paw : composes
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-SwarmOfMoth o-- Hill
+SwarmOfMoth o-- Hill : aggregates
 @enduml

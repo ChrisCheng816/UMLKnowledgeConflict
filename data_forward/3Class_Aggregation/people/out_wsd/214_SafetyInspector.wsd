@@ -1,4 +1,4 @@
 @startuml
-VolunteerCrew o-- SafetyInspector
-MountainRailwayOperator o-- VolunteerCrew
+VolunteerCrew o-- SafetyInspector : aggregates
+MountainRailwayOperator o-- VolunteerCrew : aggregates
 @enduml

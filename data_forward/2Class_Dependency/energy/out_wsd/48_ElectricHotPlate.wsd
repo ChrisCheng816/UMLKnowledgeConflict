@@ -1,3 +1,3 @@
 @startuml
-ShrinkWrapping ..> ElectricHotPlate
+ShrinkWrapping ..> ElectricHotPlate : depends on
 @enduml

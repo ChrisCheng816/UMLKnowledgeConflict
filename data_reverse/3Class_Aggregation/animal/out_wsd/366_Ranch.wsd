@@ -1,4 +1,4 @@
 @startuml
-SchoolOfCod o-- Ranch
-Cod o-- SchoolOfCod
+SchoolOfCod o-- Ranch : aggregates
+Cod o-- SchoolOfCod : aggregates
 @enduml

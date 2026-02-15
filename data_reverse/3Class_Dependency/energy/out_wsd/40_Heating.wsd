@@ -1,4 +1,4 @@
 @startuml
-HotAirStation ..> Heating
-Electricity ..> HotAirStation
+HotAirStation ..> Heating : depends on
+Electricity ..> HotAirStation : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Building *-- Floor
+Building *-- Floor : composes
 @enduml

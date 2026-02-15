@@ -1,4 +1,4 @@
 @startuml
-TabletWithLTE ..> TextMessaging
-CellularNetwork ..> TabletWithLTE
+TabletWithLTE ..> TextMessaging : depends on
+CellularNetwork ..> TabletWithLTE : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SepakTakraw <|-- TeamSport
-TeamSport <|-- Sport
+SepakTakraw <|-- TeamSport : inherits
+TeamSport <|-- Sport : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-RescueUnit o-- DigitalHospitalCenter
-Paramedic o-- RescueUnit
+RescueUnit o-- DigitalHospitalCenter : aggregates
+Paramedic o-- RescueUnit : aggregates
 @enduml

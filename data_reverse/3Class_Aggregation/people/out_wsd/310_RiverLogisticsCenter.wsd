@@ -1,4 +1,4 @@
 @startuml
-SecurityTeam o-- RiverLogisticsCenter
-SecurityGuard o-- SecurityTeam
+SecurityTeam o-- RiverLogisticsCenter : aggregates
+SecurityGuard o-- SecurityTeam : aggregates
 @enduml

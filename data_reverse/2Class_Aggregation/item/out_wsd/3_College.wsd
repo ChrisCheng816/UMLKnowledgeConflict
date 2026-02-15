@@ -1,3 +1,3 @@
 @startuml
-Library o-- College
+Library o-- College : aggregates
 @enduml

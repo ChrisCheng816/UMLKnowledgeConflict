@@ -1,4 +1,4 @@
 @startuml
-CitationManager ..> ReferenceManagement
-OperatingSystem ..> CitationManager
+CitationManager ..> ReferenceManagement : depends on
+OperatingSystem ..> CitationManager : depends on
 @enduml

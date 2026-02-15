@@ -1,4 +1,4 @@
 @startuml
-3x3Basketball <|-- Basketball
-Basketball <|-- Sport
+3x3Basketball <|-- Basketball : inherits
+Basketball <|-- Sport : inherits
 @enduml

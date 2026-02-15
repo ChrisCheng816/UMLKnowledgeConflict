@@ -1,3 +1,3 @@
 @startuml
-PlayerGroup o-- MurderMysteryShop
+PlayerGroup o-- MurderMysteryShop : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-WorkCrew o-- ConstructionCompany
+WorkCrew o-- ConstructionCompany : aggregates
 @enduml

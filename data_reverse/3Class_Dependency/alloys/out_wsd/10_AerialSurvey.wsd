@@ -1,4 +1,4 @@
 @startuml
-CargoPlane ..> AerialSurvey
-JetFuel ..> CargoPlane
+CargoPlane ..> AerialSurvey : depends on
+JetFuel ..> CargoPlane : depends on
 @enduml

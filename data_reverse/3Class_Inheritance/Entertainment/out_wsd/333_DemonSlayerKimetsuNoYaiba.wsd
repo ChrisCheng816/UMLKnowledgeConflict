@@ -1,4 +1,4 @@
 @startuml
-DemonSlayerKimetsuNoYaiba <|-- AnimeSeries
-AnimeSeries <|-- TVSeries
+DemonSlayerKimetsuNoYaiba <|-- AnimeSeries : inherits
+AnimeSeries <|-- TVSeries : inherits
 @enduml

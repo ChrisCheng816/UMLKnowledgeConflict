@@ -1,3 +1,3 @@
 @startuml
-Fish <|-- Swordfish
+Fish <|-- Swordfish : inherits
 @enduml

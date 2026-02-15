@@ -1,4 +1,4 @@
 @startuml
-Engine *-- Motorcycle
-Camshaft *-- Engine
+Engine *-- Motorcycle : composes
+Camshaft *-- Engine : composes
 @enduml

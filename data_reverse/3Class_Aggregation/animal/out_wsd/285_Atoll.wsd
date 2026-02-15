@@ -1,4 +1,4 @@
 @startuml
-FlockOfGannet o-- Atoll
-Gannet o-- FlockOfGannet
+FlockOfGannet o-- Atoll : aggregates
+Gannet o-- FlockOfGannet : aggregates
 @enduml

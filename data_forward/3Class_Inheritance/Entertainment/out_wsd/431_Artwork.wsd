@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Sculpture
-Sculpture <|-- VenusDeMilo
+Artwork <|-- Sculpture : inherits
+Sculpture <|-- VenusDeMilo : inherits
 @enduml

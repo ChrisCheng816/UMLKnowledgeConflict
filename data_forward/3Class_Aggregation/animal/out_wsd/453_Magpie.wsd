@@ -1,4 +1,4 @@
 @startuml
-FlockOfMagpie o-- Magpie
-Hatchery o-- FlockOfMagpie
+FlockOfMagpie o-- Magpie : aggregates
+Hatchery o-- FlockOfMagpie : aggregates
 @enduml

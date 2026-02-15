@@ -1,4 +1,4 @@
 @startuml
-SynchronizedSwimming <|-- WaterSport
-WaterSport <|-- Sport
+SynchronizedSwimming <|-- WaterSport : inherits
+WaterSport <|-- Sport : inherits
 @enduml

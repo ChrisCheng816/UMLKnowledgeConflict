@@ -1,4 +1,4 @@
 @startuml
-CoriolisEffect ..> HurricaneSpin
-EarthRotation ..> CoriolisEffect
+CoriolisEffect ..> HurricaneSpin : depends on
+EarthRotation ..> CoriolisEffect : depends on
 @enduml

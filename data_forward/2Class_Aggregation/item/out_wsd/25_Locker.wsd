@@ -1,3 +1,3 @@
 @startuml
-SportsShop o-- Locker
+SportsShop o-- Locker : aggregates
 @enduml

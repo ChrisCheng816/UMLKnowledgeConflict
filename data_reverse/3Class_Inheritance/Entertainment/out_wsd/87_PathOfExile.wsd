@@ -1,4 +1,4 @@
 @startuml
-PathOfExile <|-- VideoGame
-VideoGame <|-- Game
+PathOfExile <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

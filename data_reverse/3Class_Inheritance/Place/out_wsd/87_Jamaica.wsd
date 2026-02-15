@@ -1,4 +1,4 @@
 @startuml
-Jamaica <|-- Island
-Island <|-- GeographicFeature
+Jamaica <|-- Island : inherits
+Island <|-- GeographicFeature : inherits
 @enduml

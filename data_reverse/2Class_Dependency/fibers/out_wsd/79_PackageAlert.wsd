@@ -1,3 +1,3 @@
 @startuml
-VideoDoorbell ..> PackageAlert
+VideoDoorbell ..> PackageAlert : depends on
 @enduml

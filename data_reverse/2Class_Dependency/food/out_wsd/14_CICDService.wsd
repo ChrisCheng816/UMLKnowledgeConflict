@@ -1,3 +1,3 @@
 @startuml
-InternetConnection ..> CICDService
+InternetConnection ..> CICDService : depends on
 @enduml

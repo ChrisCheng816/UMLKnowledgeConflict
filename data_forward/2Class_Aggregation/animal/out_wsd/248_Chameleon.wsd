@@ -1,3 +1,3 @@
 @startuml
-NestOfChameleon o-- Chameleon
+NestOfChameleon o-- Chameleon : aggregates
 @enduml

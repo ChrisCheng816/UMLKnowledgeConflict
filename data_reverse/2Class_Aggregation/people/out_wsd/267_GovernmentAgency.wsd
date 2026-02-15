@@ -1,3 +1,3 @@
 @startuml
-AuditTeam o-- GovernmentAgency
+AuditTeam o-- GovernmentAgency : aggregates
 @enduml

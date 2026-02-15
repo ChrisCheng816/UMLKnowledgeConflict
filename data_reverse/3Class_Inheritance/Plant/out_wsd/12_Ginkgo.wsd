@@ -1,4 +1,4 @@
 @startuml
-Ginkgo <|-- Tree
-Tree <|-- Plant
+Ginkgo <|-- Tree : inherits
+Tree <|-- Plant : inherits
 @enduml

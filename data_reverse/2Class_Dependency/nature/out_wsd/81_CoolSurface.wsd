@@ -1,3 +1,3 @@
 @startuml
-NightSky ..> CoolSurface
+NightSky ..> CoolSurface : depends on
 @enduml

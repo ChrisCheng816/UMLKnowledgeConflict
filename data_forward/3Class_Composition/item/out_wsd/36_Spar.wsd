@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Spar
-Glider *-- Wing
+Wing *-- Spar : composes
+Glider *-- Wing : composes
 @enduml

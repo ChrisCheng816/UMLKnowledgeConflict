@@ -1,4 +1,4 @@
 @startuml
-TheGreenMile <|-- Film
-Film <|-- Entertainment
+TheGreenMile <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

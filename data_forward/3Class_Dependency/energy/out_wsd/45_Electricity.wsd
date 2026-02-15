@@ -1,4 +1,4 @@
 @startuml
-LaserCutter ..> Electricity
-SheetCutting ..> LaserCutter
+LaserCutter ..> Electricity : depends on
+SheetCutting ..> LaserCutter : depends on
 @enduml

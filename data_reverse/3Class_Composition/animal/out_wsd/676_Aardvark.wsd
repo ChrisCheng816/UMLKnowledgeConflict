@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Aardvark
-Root *-- Tooth
+Tooth *-- Aardvark : composes
+Root *-- Tooth : composes
 @enduml

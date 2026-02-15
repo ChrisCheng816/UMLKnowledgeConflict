@@ -1,4 +1,4 @@
 @startuml
-IDE ..> OperatingSystem
-Debugging ..> IDE
+IDE ..> OperatingSystem : depends on
+Debugging ..> IDE : depends on
 @enduml

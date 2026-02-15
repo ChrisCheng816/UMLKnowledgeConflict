@@ -1,4 +1,4 @@
 @startuml
-MediaPlayer ..> MusicPlayback
-Electricity ..> MediaPlayer
+MediaPlayer ..> MusicPlayback : depends on
+Electricity ..> MediaPlayer : depends on
 @enduml

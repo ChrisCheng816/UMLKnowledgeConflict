@@ -1,4 +1,4 @@
 @startuml
-HerdOfYak o-- Yak
-Meadow o-- HerdOfYak
+HerdOfYak o-- Yak : aggregates
+Meadow o-- HerdOfYak : aggregates
 @enduml

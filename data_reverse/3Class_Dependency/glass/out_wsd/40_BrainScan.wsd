@@ -1,4 +1,4 @@
 @startuml
-MRIMachine ..> BrainScan
-Electricity ..> MRIMachine
+MRIMachine ..> BrainScan : depends on
+Electricity ..> MRIMachine : depends on
 @enduml

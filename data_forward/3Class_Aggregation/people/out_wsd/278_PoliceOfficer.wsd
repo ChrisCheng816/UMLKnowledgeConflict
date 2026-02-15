@@ -1,4 +1,4 @@
 @startuml
-PatrolTeam o-- PoliceOfficer
-ArcticMetroAuthority o-- PatrolTeam
+PatrolTeam o-- PoliceOfficer : aggregates
+ArcticMetroAuthority o-- PatrolTeam : aggregates
 @enduml

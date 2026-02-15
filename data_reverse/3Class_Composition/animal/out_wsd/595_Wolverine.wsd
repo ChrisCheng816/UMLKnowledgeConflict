@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Wolverine
-Root *-- Tooth
+Tooth *-- Wolverine : composes
+Root *-- Tooth : composes
 @enduml

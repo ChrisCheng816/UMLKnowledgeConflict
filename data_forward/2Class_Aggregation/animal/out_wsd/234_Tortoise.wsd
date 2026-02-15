@@ -1,3 +1,3 @@
 @startuml
-NestOfTortoise o-- Tortoise
+NestOfTortoise o-- Tortoise : aggregates
 @enduml

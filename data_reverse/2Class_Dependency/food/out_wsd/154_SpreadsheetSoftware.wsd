@@ -1,3 +1,3 @@
 @startuml
-OperatingSystem ..> SpreadsheetSoftware
+OperatingSystem ..> SpreadsheetSoftware : depends on
 @enduml

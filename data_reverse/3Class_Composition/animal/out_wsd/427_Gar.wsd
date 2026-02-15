@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Gar
-Filament *-- Gill
+Gill *-- Gar : composes
+Filament *-- Gill : composes
 @enduml

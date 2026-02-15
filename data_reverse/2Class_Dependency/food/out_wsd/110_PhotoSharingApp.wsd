@@ -1,3 +1,3 @@
 @startuml
-InternetConnection ..> PhotoSharingApp
+InternetConnection ..> PhotoSharingApp : depends on
 @enduml

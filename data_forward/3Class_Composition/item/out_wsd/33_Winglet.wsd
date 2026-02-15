@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Winglet
-Airplane *-- Wing
+Wing *-- Winglet : composes
+Airplane *-- Wing : composes
 @enduml

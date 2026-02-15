@@ -1,4 +1,4 @@
 @startuml
-GroupOfShrimp o-- Zoo
-Shrimp o-- GroupOfShrimp
+GroupOfShrimp o-- Zoo : aggregates
+Shrimp o-- GroupOfShrimp : aggregates
 @enduml

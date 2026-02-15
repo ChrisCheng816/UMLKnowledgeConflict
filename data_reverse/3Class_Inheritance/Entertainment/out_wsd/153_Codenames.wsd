@@ -1,4 +1,4 @@
 @startuml
-Codenames <|-- BoardGame
-BoardGame <|-- Game
+Codenames <|-- BoardGame : inherits
+BoardGame <|-- Game : inherits
 @enduml

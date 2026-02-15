@@ -1,3 +1,3 @@
 @startuml
-University <|-- KoreaUniversity
+University <|-- KoreaUniversity : inherits
 @enduml

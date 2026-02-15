@@ -1,3 +1,3 @@
 @startuml
-HerdOfYak o-- Yak
+HerdOfYak o-- Yak : aggregates
 @enduml

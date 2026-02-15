@@ -1,4 +1,4 @@
 @startuml
-XMen <|-- Comic
-Comic <|-- Entertainment
+XMen <|-- Comic : inherits
+Comic <|-- Entertainment : inherits
 @enduml

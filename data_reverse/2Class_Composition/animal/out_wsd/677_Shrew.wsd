@@ -1,3 +1,3 @@
 @startuml
-Tooth *-- Shrew
+Tooth *-- Shrew : composes
 @enduml

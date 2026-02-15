@@ -1,3 +1,3 @@
 @startuml
-WaterSport <|-- Diving
+WaterSport <|-- Diving : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-AuditTeam o-- CountyAgency
-QualityAuditor o-- AuditTeam
+AuditTeam o-- CountyAgency : aggregates
+QualityAuditor o-- AuditTeam : aggregates
 @enduml

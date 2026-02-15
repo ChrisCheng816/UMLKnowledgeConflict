@@ -1,4 +1,4 @@
 @startuml
-BaskOfCrocodile o-- Crocodile
-Delta o-- BaskOfCrocodile
+BaskOfCrocodile o-- Crocodile : aggregates
+Delta o-- BaskOfCrocodile : aggregates
 @enduml

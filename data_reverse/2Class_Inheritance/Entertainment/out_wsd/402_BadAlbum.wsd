@@ -1,3 +1,3 @@
 @startuml
-BadAlbum <|-- Album
+BadAlbum <|-- Album : inherits
 @enduml

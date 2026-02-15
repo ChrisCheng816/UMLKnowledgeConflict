@@ -1,4 +1,4 @@
 @startuml
-Okra <|-- Vegetable
-Vegetable <|-- Food
+Okra <|-- Vegetable : inherits
+Vegetable <|-- Food : inherits
 @enduml

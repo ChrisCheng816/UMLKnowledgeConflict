@@ -1,4 +1,4 @@
 @startuml
-Reflection ..> SmoothSurface
-Echo ..> Reflection
+Reflection ..> SmoothSurface : depends on
+Echo ..> Reflection : depends on
 @enduml

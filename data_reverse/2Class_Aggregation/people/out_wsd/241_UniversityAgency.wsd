@@ -1,3 +1,3 @@
 @startuml
-ResearchGroup o-- UniversityAgency
+ResearchGroup o-- UniversityAgency : aggregates
 @enduml

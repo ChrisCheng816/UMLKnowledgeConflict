@@ -1,4 +1,4 @@
 @startuml
-Hoof *-- Bison
-Sole *-- Hoof
+Hoof *-- Bison : composes
+Sole *-- Hoof : composes
 @enduml

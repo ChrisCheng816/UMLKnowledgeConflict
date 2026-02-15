@@ -1,3 +1,3 @@
 @startuml
-Crate o-- CoffeeStore
+Crate o-- CoffeeStore : aggregates
 @enduml

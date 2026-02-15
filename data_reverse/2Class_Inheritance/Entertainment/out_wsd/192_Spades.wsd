@@ -1,3 +1,3 @@
 @startuml
-Spades <|-- CardGame
+Spades <|-- CardGame : inherits
 @enduml

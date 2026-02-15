@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Kudu
-Root *-- Tooth
+Tooth *-- Kudu : composes
+Root *-- Tooth : composes
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Pouch *-- Kangaroo
+Pouch *-- Kangaroo : composes
 @enduml

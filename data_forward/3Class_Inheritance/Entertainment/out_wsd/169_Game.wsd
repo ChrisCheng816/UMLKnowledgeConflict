@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame
-BoardGame <|-- Avalon
+Game <|-- BoardGame : inherits
+BoardGame <|-- Avalon : inherits
 @enduml

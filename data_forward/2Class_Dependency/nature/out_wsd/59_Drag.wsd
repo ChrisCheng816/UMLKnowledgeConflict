@@ -1,3 +1,3 @@
 @startuml
-TerminalVelocity ..> Drag
+TerminalVelocity ..> Drag : depends on
 @enduml

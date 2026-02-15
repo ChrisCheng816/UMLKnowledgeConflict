@@ -1,3 +1,3 @@
 @startuml
-RadioReceiver ..> AudioStreaming
+RadioReceiver ..> AudioStreaming : depends on
 @enduml

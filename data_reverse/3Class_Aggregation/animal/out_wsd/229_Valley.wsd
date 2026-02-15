@@ -1,4 +1,4 @@
 @startuml
-SchoolOfAnchovy o-- Valley
-Anchovy o-- SchoolOfAnchovy
+SchoolOfAnchovy o-- Valley : aggregates
+Anchovy o-- SchoolOfAnchovy : aggregates
 @enduml

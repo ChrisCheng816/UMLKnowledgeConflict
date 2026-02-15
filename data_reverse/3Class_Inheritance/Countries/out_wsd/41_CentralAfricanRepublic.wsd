@@ -1,4 +1,4 @@
 @startuml
-CentralAfricanRepublic <|-- Country
-Country <|-- GeopoliticalEntity
+CentralAfricanRepublic <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

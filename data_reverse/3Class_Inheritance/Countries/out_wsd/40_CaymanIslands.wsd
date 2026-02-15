@@ -1,4 +1,4 @@
 @startuml
-CaymanIslands <|-- Country
-Country <|-- GeopoliticalEntity
+CaymanIslands <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

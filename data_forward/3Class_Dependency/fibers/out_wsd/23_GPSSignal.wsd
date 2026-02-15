@@ -1,4 +1,4 @@
 @startuml
-GPSNavigator ..> GPSSignal
-Navigation ..> GPSNavigator
+GPSNavigator ..> GPSSignal : depends on
+Navigation ..> GPSNavigator : depends on
 @enduml

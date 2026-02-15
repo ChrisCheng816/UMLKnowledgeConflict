@@ -1,3 +1,3 @@
 @startuml
-Begonia <|-- Flower
+Begonia <|-- Flower : inherits
 @enduml

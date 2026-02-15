@@ -1,3 +1,3 @@
 @startuml
-Country <|-- EquatorialGuinea
+Country <|-- EquatorialGuinea : inherits
 @enduml

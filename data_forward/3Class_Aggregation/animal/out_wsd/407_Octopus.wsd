@@ -1,4 +1,4 @@
 @startuml
-GroupOfOctopus o-- Octopus
-Aquarium o-- GroupOfOctopus
+GroupOfOctopus o-- Octopus : aggregates
+Aquarium o-- GroupOfOctopus : aggregates
 @enduml

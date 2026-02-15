@@ -1,4 +1,4 @@
 @startuml
-CamelliaShrub <|-- Shrub
-Shrub <|-- Plant
+CamelliaShrub <|-- Shrub : inherits
+Shrub <|-- Plant : inherits
 @enduml

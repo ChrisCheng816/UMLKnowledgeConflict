@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- TheSocialNetwork
+Entertainment <|-- Film : inherits
+Film <|-- TheSocialNetwork : inherits
 @enduml

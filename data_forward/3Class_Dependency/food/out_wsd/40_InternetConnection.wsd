@@ -1,4 +1,4 @@
 @startuml
-InstantMessagingApp ..> InternetConnection
-CustomerSupport ..> InstantMessagingApp
+InstantMessagingApp ..> InternetConnection : depends on
+CustomerSupport ..> InstantMessagingApp : depends on
 @enduml

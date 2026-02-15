@@ -1,3 +1,3 @@
 @startuml
-Broadcaster o-- BroadcastTeam
+Broadcaster o-- BroadcastTeam : aggregates
 @enduml

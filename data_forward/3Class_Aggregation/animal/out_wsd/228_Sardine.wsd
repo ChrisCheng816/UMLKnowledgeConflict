@@ -1,4 +1,4 @@
 @startuml
-SchoolOfSardine o-- Sardine
-Valley o-- SchoolOfSardine
+SchoolOfSardine o-- Sardine : aggregates
+Valley o-- SchoolOfSardine : aggregates
 @enduml

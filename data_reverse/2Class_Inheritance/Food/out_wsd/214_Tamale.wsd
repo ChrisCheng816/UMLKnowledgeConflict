@@ -1,3 +1,3 @@
 @startuml
-Tamale <|-- Dish
+Tamale <|-- Dish : inherits
 @enduml

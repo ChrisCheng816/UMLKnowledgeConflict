@@ -1,4 +1,4 @@
 @startuml
-TVSeries <|-- AnimeSeries
-AnimeSeries <|-- HunterXHunter
+TVSeries <|-- AnimeSeries : inherits
+AnimeSeries <|-- HunterXHunter : inherits
 @enduml

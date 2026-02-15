@@ -1,3 +1,3 @@
 @startuml
-BoxTruck <|-- Truck
+BoxTruck <|-- Truck : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Bicycle ..> HumanPower
-ShortCommute ..> Bicycle
+Bicycle ..> HumanPower : depends on
+ShortCommute ..> Bicycle : depends on
 @enduml

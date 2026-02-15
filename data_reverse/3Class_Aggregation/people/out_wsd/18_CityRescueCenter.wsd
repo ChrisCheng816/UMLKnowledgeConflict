@@ -1,4 +1,4 @@
 @startuml
-SearchTeam o-- CityRescueCenter
-Paramedic o-- SearchTeam
+SearchTeam o-- CityRescueCenter : aggregates
+Paramedic o-- SearchTeam : aggregates
 @enduml

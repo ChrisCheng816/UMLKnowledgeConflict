@@ -1,4 +1,4 @@
 @startuml
-MaastrichtUniversity <|-- University
-University <|-- EducationalInstitution
+MaastrichtUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

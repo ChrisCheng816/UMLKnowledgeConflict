@@ -1,3 +1,3 @@
 @startuml
-Cabinet o-- MedicineBottle
+Cabinet o-- MedicineBottle : aggregates
 @enduml

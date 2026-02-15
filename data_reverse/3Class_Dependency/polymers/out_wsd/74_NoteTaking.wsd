@@ -1,4 +1,4 @@
 @startuml
-MindMapTool ..> NoteTaking
-OperatingSystem ..> MindMapTool
+MindMapTool ..> NoteTaking : depends on
+OperatingSystem ..> MindMapTool : depends on
 @enduml

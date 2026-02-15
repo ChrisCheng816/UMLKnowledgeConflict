@@ -1,3 +1,3 @@
 @startuml
-AuditTeam o-- QualityAuditor
+AuditTeam o-- QualityAuditor : aggregates
 @enduml

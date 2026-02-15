@@ -1,3 +1,3 @@
 @startuml
-SafetyTeam o-- HealthcareConstructionCompany
+SafetyTeam o-- HealthcareConstructionCompany : aggregates
 @enduml

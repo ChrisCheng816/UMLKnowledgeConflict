@@ -1,4 +1,4 @@
 @startuml
-ForensicTeam o-- ForensicAnalyst
-MediaPoliceDepartment o-- ForensicTeam
+ForensicTeam o-- ForensicAnalyst : aggregates
+MediaPoliceDepartment o-- ForensicTeam : aggregates
 @enduml

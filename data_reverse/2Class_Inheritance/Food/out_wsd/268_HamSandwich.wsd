@@ -1,3 +1,3 @@
 @startuml
-HamSandwich <|-- Sandwich
+HamSandwich <|-- Sandwich : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-SurveyTeam o-- FieldEngineer
+SurveyTeam o-- FieldEngineer : aggregates
 @enduml

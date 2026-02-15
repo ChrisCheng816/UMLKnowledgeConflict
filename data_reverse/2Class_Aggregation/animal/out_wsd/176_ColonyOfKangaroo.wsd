@@ -1,3 +1,3 @@
 @startuml
-Kangaroo o-- ColonyOfKangaroo
+Kangaroo o-- ColonyOfKangaroo : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CoaxialCable ..> SetTopBox
-WallJack ..> CoaxialCable
+CoaxialCable ..> SetTopBox : depends on
+WallJack ..> CoaxialCable : depends on
 @enduml

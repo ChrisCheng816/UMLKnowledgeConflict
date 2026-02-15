@@ -1,3 +1,3 @@
 @startuml
-HolySeeVaticanCityState <|-- Country
+HolySeeVaticanCityState <|-- Country : inherits
 @enduml

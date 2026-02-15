@@ -1,3 +1,3 @@
 @startuml
-BrownBear <|-- Mammal
+BrownBear <|-- Mammal : inherits
 @enduml

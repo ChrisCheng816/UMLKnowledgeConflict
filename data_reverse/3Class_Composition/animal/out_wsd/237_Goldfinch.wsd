@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Goldfinch
-Nostril *-- Beak
+Beak *-- Goldfinch : composes
+Nostril *-- Beak : composes
 @enduml

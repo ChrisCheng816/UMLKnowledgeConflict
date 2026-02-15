@@ -1,3 +1,3 @@
 @startuml
-VideoGame <|-- DiscoElysium
+VideoGame <|-- DiscoElysium : inherits
 @enduml

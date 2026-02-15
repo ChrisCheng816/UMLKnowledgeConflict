@@ -1,4 +1,4 @@
 @startuml
-SafetyTeam o-- RoboticsCompany
-SecurityGuard o-- SafetyTeam
+SafetyTeam o-- RoboticsCompany : aggregates
+SecurityGuard o-- SafetyTeam : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-PackOfWolf o-- Jungle
+PackOfWolf o-- Jungle : aggregates
 @enduml

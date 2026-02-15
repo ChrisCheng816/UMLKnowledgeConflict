@@ -1,3 +1,3 @@
 @startuml
-FileTransfer ..> InternetConnection
+FileTransfer ..> InternetConnection : depends on
 @enduml

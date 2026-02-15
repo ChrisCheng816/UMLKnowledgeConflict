@@ -1,3 +1,3 @@
 @startuml
-NationalUniversityOfSingapore <|-- University
+NationalUniversityOfSingapore <|-- University : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Music
-Music <|-- MusicGenre
+Entertainment <|-- Music : inherits
+Music <|-- MusicGenre : inherits
 @enduml

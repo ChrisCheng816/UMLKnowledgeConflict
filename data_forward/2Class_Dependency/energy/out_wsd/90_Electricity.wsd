@@ -1,3 +1,3 @@
 @startuml
-TableSaw ..> Electricity
+TableSaw ..> Electricity : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> PeritonealDialysisCycler
+Electricity ..> PeritonealDialysisCycler : depends on
 @enduml

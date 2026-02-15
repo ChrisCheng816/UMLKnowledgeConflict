@@ -1,4 +1,4 @@
 @startuml
-SchoolOfCarp o-- Reef
-Carp o-- SchoolOfCarp
+SchoolOfCarp o-- Reef : aggregates
+Carp o-- SchoolOfCarp : aggregates
 @enduml

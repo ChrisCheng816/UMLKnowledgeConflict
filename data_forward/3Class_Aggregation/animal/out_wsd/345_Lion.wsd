@@ -1,4 +1,4 @@
 @startuml
-PrideOfLion o-- Lion
-Grove o-- PrideOfLion
+PrideOfLion o-- Lion : aggregates
+Grove o-- PrideOfLion : aggregates
 @enduml

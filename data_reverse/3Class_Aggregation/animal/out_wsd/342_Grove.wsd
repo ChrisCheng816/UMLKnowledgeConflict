@@ -1,4 +1,4 @@
 @startuml
-PackOfCheetah o-- Grove
-Cheetah o-- PackOfCheetah
+PackOfCheetah o-- Grove : aggregates
+Cheetah o-- PackOfCheetah : aggregates
 @enduml

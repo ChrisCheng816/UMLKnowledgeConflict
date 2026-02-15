@@ -1,4 +1,4 @@
 @startuml
-FinanceTeam o-- Dispatcher
-CoastalNewsAgency o-- FinanceTeam
+FinanceTeam o-- Dispatcher : aggregates
+CoastalNewsAgency o-- FinanceTeam : aggregates
 @enduml

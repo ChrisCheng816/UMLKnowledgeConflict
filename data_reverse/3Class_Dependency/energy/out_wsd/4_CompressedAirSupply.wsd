@@ -1,4 +1,4 @@
 @startuml
-AirCompressor ..> CompressedAirSupply
-Electricity ..> AirCompressor
+AirCompressor ..> CompressedAirSupply : depends on
+Electricity ..> AirCompressor : depends on
 @enduml

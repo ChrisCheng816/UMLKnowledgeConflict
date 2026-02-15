@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Moss
-Moss <|-- PeatMoss
+Plant <|-- Moss : inherits
+Moss <|-- PeatMoss : inherits
 @enduml

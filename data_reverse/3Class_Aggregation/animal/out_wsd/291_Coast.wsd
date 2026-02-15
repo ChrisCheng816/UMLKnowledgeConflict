@@ -1,4 +1,4 @@
 @startuml
-FlockOfPigeon o-- Coast
-Pigeon o-- FlockOfPigeon
+FlockOfPigeon o-- Coast : aggregates
+Pigeon o-- FlockOfPigeon : aggregates
 @enduml

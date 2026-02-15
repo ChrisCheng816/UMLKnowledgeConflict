@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Reindeer
-Nostril *-- Nose
+Nose *-- Reindeer : composes
+Nostril *-- Nose : composes
 @enduml

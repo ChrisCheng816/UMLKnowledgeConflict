@@ -1,3 +1,3 @@
 @startuml
-WinterSport <|-- Sport
+WinterSport <|-- Sport : inherits
 @enduml

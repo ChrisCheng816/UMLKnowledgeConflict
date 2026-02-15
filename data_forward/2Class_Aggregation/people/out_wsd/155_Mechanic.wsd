@@ -1,3 +1,3 @@
 @startuml
-FerryTeam o-- Mechanic
+FerryTeam o-- Mechanic : aggregates
 @enduml

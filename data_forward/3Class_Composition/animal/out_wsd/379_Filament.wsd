@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Filament
-Anchovy *-- Gill
+Gill *-- Filament : composes
+Anchovy *-- Gill : composes
 @enduml

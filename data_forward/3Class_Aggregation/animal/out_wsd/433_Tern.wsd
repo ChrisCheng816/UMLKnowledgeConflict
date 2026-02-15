@@ -1,4 +1,4 @@
 @startuml
-FlockOfTern o-- Tern
-Clinic o-- FlockOfTern
+FlockOfTern o-- Tern : aggregates
+Clinic o-- FlockOfTern : aggregates
 @enduml

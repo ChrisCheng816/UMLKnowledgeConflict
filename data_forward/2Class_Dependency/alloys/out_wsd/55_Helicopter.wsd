@@ -1,3 +1,3 @@
 @startuml
-AirTravel ..> Helicopter
+AirTravel ..> Helicopter : depends on
 @enduml

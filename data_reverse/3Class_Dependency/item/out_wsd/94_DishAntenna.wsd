@@ -1,4 +1,4 @@
 @startuml
-SatelliteSignal ..> DishAntenna
-CommunicationSatellite ..> SatelliteSignal
+SatelliteSignal ..> DishAntenna : depends on
+CommunicationSatellite ..> SatelliteSignal : depends on
 @enduml

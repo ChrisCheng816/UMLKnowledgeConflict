@@ -1,4 +1,4 @@
 @startuml
-FlockOfStarling o-- Starling
-Shelter o-- FlockOfStarling
+FlockOfStarling o-- Starling : aggregates
+Shelter o-- FlockOfStarling : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GameOfThrones <|-- TVSeries
-TVSeries <|-- Entertainment
+GameOfThrones <|-- TVSeries : inherits
+TVSeries <|-- Entertainment : inherits
 @enduml

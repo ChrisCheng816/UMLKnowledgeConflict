@@ -1,4 +1,4 @@
 @startuml
-FlockOfHeron o-- Atoll
-Heron o-- FlockOfHeron
+FlockOfHeron o-- Atoll : aggregates
+Heron o-- FlockOfHeron : aggregates
 @enduml

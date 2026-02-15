@@ -1,3 +1,3 @@
 @startuml
-Frog *-- Eye
+Frog *-- Eye : composes
 @enduml

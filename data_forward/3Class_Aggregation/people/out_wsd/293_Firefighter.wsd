@@ -1,4 +1,4 @@
 @startuml
-EmergencyTeam o-- Firefighter
-IslandPortAuthority o-- EmergencyTeam
+EmergencyTeam o-- Firefighter : aggregates
+IslandPortAuthority o-- EmergencyTeam : aggregates
 @enduml

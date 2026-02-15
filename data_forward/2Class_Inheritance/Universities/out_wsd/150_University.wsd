@@ -1,3 +1,3 @@
 @startuml
-University <|-- UniversityOfGeorgia
+University <|-- UniversityOfGeorgia : inherits
 @enduml

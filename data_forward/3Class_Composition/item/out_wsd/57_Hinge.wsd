@@ -1,4 +1,4 @@
 @startuml
-Door *-- Hinge
-House *-- Door
+Door *-- Hinge : composes
+House *-- Door : composes
 @enduml

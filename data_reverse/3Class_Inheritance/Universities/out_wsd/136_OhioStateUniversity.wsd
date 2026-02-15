@@ -1,4 +1,4 @@
 @startuml
-OhioStateUniversity <|-- University
-University <|-- EducationalInstitution
+OhioStateUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

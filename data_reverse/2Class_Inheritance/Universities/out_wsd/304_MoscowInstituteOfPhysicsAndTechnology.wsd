@@ -1,3 +1,3 @@
 @startuml
-MoscowInstituteOfPhysicsAndTechnology <|-- University
+MoscowInstituteOfPhysicsAndTechnology <|-- University : inherits
 @enduml

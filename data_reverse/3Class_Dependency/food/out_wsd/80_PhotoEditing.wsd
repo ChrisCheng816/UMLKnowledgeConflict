@@ -1,4 +1,4 @@
 @startuml
-PhotoEditor ..> PhotoEditing
-OperatingSystem ..> PhotoEditor
+PhotoEditor ..> PhotoEditing : depends on
+OperatingSystem ..> PhotoEditor : depends on
 @enduml

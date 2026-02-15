@@ -1,4 +1,4 @@
 @startuml
-TheSilenceOfTheLambs <|-- Film
-Film <|-- Entertainment
+TheSilenceOfTheLambs <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

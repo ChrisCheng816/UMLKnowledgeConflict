@@ -1,3 +1,3 @@
 @startuml
-CoastalTechCompany o-- MentorTeam
+CoastalTechCompany o-- MentorTeam : aggregates
 @enduml

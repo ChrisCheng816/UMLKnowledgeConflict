@@ -1,3 +1,3 @@
 @startuml
-LetItBe <|-- Song
+LetItBe <|-- Song : inherits
 @enduml

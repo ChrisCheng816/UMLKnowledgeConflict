@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- Destiny2
+Game <|-- VideoGame : inherits
+VideoGame <|-- Destiny2 : inherits
 @enduml

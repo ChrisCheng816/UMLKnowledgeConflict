@@ -1,3 +1,3 @@
 @startuml
-Mangosteen <|-- TropicalFruit
+Mangosteen <|-- TropicalFruit : inherits
 @enduml

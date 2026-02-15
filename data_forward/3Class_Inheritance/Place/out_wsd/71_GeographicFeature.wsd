@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Desert
-Desert <|-- GobiDesert
+GeographicFeature <|-- Desert : inherits
+Desert <|-- GobiDesert : inherits
 @enduml

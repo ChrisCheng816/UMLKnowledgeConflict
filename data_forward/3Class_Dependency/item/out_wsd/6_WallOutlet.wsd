@@ -1,4 +1,4 @@
 @startuml
-USBCharger ..> WallOutlet
-HandheldGameConsole ..> USBCharger
+USBCharger ..> WallOutlet : depends on
+HandheldGameConsole ..> USBCharger : depends on
 @enduml

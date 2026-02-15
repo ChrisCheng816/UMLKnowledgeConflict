@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Mouse
-Root *-- Tooth
+Tooth *-- Mouse : composes
+Root *-- Tooth : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Scanner ..> DocumentScanning
-Electricity ..> Scanner
+Scanner ..> DocumentScanning : depends on
+Electricity ..> Scanner : depends on
 @enduml

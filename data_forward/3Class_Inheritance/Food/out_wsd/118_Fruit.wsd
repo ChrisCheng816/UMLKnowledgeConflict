@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- StoneFruit
-StoneFruit <|-- Cherry
+Fruit <|-- StoneFruit : inherits
+StoneFruit <|-- Cherry : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-HerdOfGazelle o-- Cave
+HerdOfGazelle o-- Cave : aggregates
 @enduml

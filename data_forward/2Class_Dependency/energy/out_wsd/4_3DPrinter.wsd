@@ -1,3 +1,3 @@
 @startuml
-RapidPrototyping ..> 3DPrinter
+RapidPrototyping ..> 3DPrinter : depends on
 @enduml

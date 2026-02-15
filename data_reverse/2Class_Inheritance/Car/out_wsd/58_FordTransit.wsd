@@ -1,3 +1,3 @@
 @startuml
-FordTransit <|-- Ford
+FordTransit <|-- Ford : inherits
 @enduml

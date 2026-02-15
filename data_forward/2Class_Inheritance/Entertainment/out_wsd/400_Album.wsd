@@ -1,3 +1,3 @@
 @startuml
-Album <|-- BornToRun
+Album <|-- BornToRun : inherits
 @enduml

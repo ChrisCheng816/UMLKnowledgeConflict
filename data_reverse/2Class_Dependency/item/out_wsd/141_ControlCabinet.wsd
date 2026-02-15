@@ -1,3 +1,3 @@
 @startuml
-UtilityMeter ..> ControlCabinet
+UtilityMeter ..> ControlCabinet : depends on
 @enduml

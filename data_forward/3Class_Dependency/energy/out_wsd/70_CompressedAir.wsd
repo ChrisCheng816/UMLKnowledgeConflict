@@ -1,4 +1,4 @@
 @startuml
-TireInflator ..> CompressedAir
-Fastening ..> TireInflator
+TireInflator ..> CompressedAir : depends on
+Fastening ..> TireInflator : depends on
 @enduml

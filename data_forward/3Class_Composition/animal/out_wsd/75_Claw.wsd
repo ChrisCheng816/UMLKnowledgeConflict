@@ -1,4 +1,4 @@
 @startuml
-Foot *-- Claw
-Camel *-- Foot
+Foot *-- Claw : composes
+Camel *-- Foot : composes
 @enduml

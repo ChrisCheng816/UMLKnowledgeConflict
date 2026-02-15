@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries
-TVSeries <|-- Fargo
+Entertainment <|-- TVSeries : inherits
+TVSeries <|-- Fargo : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfPenguin o-- Shelter
-Penguin o-- FlockOfPenguin
+FlockOfPenguin o-- Shelter : aggregates
+Penguin o-- FlockOfPenguin : aggregates
 @enduml

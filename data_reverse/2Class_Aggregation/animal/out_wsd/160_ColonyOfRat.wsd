@@ -1,3 +1,3 @@
 @startuml
-Rat o-- ColonyOfRat
+Rat o-- ColonyOfRat : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SichuanUniversity <|-- University
-University <|-- EducationalInstitution
+SichuanUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

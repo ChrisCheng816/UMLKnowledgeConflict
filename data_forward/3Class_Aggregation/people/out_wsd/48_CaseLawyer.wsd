@@ -1,4 +1,4 @@
 @startuml
-CaseTeam o-- CaseLawyer
-CountyOffice o-- CaseTeam
+CaseTeam o-- CaseLawyer : aggregates
+CountyOffice o-- CaseTeam : aggregates
 @enduml

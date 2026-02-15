@@ -1,3 +1,3 @@
 @startuml
-LoveLetter <|-- BoardGame
+LoveLetter <|-- BoardGame : inherits
 @enduml

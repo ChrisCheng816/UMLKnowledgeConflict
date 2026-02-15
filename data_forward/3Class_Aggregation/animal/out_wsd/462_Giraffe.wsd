@@ -1,4 +1,4 @@
 @startuml
-HerdOfGiraffe o-- Giraffe
-Rookery o-- HerdOfGiraffe
+HerdOfGiraffe o-- Giraffe : aggregates
+Rookery o-- HerdOfGiraffe : aggregates
 @enduml

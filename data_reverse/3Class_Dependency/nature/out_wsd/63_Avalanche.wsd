@@ -1,4 +1,4 @@
 @startuml
-Snowpack ..> Avalanche
-SteepSlope ..> Snowpack
+Snowpack ..> Avalanche : depends on
+SteepSlope ..> Snowpack : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-DrillingPlatform o-- OilCompany
-DrillBit o-- DrillingPlatform
+DrillingPlatform o-- OilCompany : aggregates
+DrillBit o-- DrillingPlatform : aggregates
 @enduml

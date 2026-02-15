@@ -1,4 +1,4 @@
 @startuml
-HerdOfBison o-- Cave
-Bison o-- HerdOfBison
+HerdOfBison o-- Cave : aggregates
+Bison o-- HerdOfBison : aggregates
 @enduml

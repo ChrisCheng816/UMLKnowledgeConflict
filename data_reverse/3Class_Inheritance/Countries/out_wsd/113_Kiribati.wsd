@@ -1,4 +1,4 @@
 @startuml
-Kiribati <|-- Country
-Country <|-- GeopoliticalEntity
+Kiribati <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

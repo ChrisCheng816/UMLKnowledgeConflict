@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Malaysia
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- Malaysia : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Album o-- PhotoStudio
-Photograph o-- Album
+Album o-- PhotoStudio : aggregates
+Photograph o-- Album : aggregates
 @enduml

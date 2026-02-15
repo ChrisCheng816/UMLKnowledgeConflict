@@ -1,3 +1,3 @@
 @startuml
-BasketballPlayer <|-- Athlete
+BasketballPlayer <|-- Athlete : inherits
 @enduml

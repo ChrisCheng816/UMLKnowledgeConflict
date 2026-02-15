@@ -1,4 +1,4 @@
 @startuml
-FlockOfRook o-- Rook
-Hatchery o-- FlockOfRook
+FlockOfRook o-- Rook : aggregates
+Hatchery o-- FlockOfRook : aggregates
 @enduml

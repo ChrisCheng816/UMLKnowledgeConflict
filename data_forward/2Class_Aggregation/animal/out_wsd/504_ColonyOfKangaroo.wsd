@@ -1,3 +1,3 @@
 @startuml
-Ranch o-- ColonyOfKangaroo
+Ranch o-- ColonyOfKangaroo : aggregates
 @enduml

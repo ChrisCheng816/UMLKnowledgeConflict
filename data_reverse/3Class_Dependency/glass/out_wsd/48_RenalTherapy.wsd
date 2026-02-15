@@ -1,4 +1,4 @@
 @startuml
-PeritonealDialysisCycler ..> RenalTherapy
-Electricity ..> PeritonealDialysisCycler
+PeritonealDialysisCycler ..> RenalTherapy : depends on
+Electricity ..> PeritonealDialysisCycler : depends on
 @enduml

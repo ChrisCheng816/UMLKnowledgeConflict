@@ -1,4 +1,4 @@
 @startuml
-GroupOfOctopus o-- Octopus
-Delta o-- GroupOfOctopus
+GroupOfOctopus o-- Octopus : aggregates
+Delta o-- GroupOfOctopus : aggregates
 @enduml

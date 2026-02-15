@@ -1,3 +1,3 @@
 @startuml
-ResearchTeam o-- HumanitarianSportsClub
+ResearchTeam o-- HumanitarianSportsClub : aggregates
 @enduml

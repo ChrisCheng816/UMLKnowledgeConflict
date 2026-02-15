@@ -1,3 +1,3 @@
 @startuml
-Volkswagen <|-- VolkswagenPassat
+Volkswagen <|-- VolkswagenPassat : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-DisplayModule *-- Monitor
-GlassCover *-- DisplayModule
+DisplayModule *-- Monitor : composes
+GlassCover *-- DisplayModule : composes
 @enduml

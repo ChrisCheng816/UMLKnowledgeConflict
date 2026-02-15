@@ -1,4 +1,4 @@
 @startuml
-StarCraftII <|-- VideoGame
-VideoGame <|-- Game
+StarCraftII <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

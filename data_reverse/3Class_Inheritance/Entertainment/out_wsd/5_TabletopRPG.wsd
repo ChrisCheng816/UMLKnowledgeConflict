@@ -1,4 +1,4 @@
 @startuml
-TabletopRPG <|-- Game
-Game <|-- Entertainment
+TabletopRPG <|-- Game : inherits
+Game <|-- Entertainment : inherits
 @enduml

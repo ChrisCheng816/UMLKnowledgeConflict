@@ -1,4 +1,4 @@
 @startuml
-WildlifeCareUnit o-- OperationsManager
-CyberResearchInstitute o-- WildlifeCareUnit
+WildlifeCareUnit o-- OperationsManager : aggregates
+CyberResearchInstitute o-- WildlifeCareUnit : aggregates
 @enduml

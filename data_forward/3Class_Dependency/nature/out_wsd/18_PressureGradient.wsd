@@ -1,4 +1,4 @@
 @startuml
-WindShear ..> PressureGradient
-Tornado ..> WindShear
+WindShear ..> PressureGradient : depends on
+Tornado ..> WindShear : depends on
 @enduml

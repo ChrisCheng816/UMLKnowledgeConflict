@@ -1,4 +1,4 @@
 @startuml
-MentorTeam o-- DataAnalyst
-CoastalTechCompany o-- MentorTeam
+MentorTeam o-- DataAnalyst : aggregates
+CoastalTechCompany o-- MentorTeam : aggregates
 @enduml

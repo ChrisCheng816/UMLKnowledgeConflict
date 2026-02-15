@@ -1,4 +1,4 @@
 @startuml
-FlockOfPelican o-- Pelican
-Coast o-- FlockOfPelican
+FlockOfPelican o-- Pelican : aggregates
+Coast o-- FlockOfPelican : aggregates
 @enduml

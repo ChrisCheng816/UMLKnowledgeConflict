@@ -1,3 +1,3 @@
 @startuml
-Koala *-- Tooth
+Koala *-- Tooth : composes
 @enduml

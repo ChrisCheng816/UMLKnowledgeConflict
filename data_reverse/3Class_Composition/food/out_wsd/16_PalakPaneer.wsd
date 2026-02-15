@@ -1,4 +1,4 @@
 @startuml
-Paneer *-- PalakPaneer
-Milk *-- Paneer
+Paneer *-- PalakPaneer : composes
+Milk *-- Paneer : composes
 @enduml

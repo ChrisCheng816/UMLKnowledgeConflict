@@ -1,3 +1,3 @@
 @startuml
-TabletopRPG <|-- Game
+TabletopRPG <|-- Game : inherits
 @enduml

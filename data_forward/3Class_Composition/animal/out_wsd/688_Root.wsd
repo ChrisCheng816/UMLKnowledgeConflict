@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root
-Chinchilla *-- Tooth
+Tooth *-- Root : composes
+Chinchilla *-- Tooth : composes
 @enduml

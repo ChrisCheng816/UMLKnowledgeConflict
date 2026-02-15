@@ -1,4 +1,4 @@
 @startuml
-ColonyOfKoala o-- Koala
-Canyon o-- ColonyOfKoala
+ColonyOfKoala o-- Koala : aggregates
+Canyon o-- ColonyOfKoala : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfPigeon o-- Reserve
-Pigeon o-- FlockOfPigeon
+FlockOfPigeon o-- Reserve : aggregates
+Pigeon o-- FlockOfPigeon : aggregates
 @enduml

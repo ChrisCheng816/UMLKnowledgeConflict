@@ -1,3 +1,3 @@
 @startuml
-HowlsMovingCastle <|-- AnimatedFilm
+HowlsMovingCastle <|-- AnimatedFilm : inherits
 @enduml

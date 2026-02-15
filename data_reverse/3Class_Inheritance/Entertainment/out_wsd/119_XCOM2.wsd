@@ -1,4 +1,4 @@
 @startuml
-XCOM2 <|-- VideoGame
-VideoGame <|-- Game
+XCOM2 <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Eye *-- Snake
+Eye *-- Snake : composes
 @enduml

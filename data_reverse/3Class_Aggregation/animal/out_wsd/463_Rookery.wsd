@@ -1,4 +1,4 @@
 @startuml
-HerdOfAntelope o-- Rookery
-Antelope o-- HerdOfAntelope
+HerdOfAntelope o-- Rookery : aggregates
+Antelope o-- HerdOfAntelope : aggregates
 @enduml

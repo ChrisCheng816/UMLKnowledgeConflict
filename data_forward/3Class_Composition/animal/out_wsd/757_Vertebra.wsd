@@ -1,4 +1,4 @@
 @startuml
-Skeleton *-- Vertebra
-HumanBody *-- Skeleton
+Skeleton *-- Vertebra : composes
+HumanBody *-- Skeleton : composes
 @enduml

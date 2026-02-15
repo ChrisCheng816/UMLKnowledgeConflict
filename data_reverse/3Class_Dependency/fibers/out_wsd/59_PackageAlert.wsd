@@ -1,4 +1,4 @@
 @startuml
-VideoDoorbell ..> PackageAlert
-WiFiNetwork ..> VideoDoorbell
+VideoDoorbell ..> PackageAlert : depends on
+WiFiNetwork ..> VideoDoorbell : depends on
 @enduml

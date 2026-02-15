@@ -1,3 +1,3 @@
 @startuml
-PulseOximeter ..> AlarmMonitoring
+PulseOximeter ..> AlarmMonitoring : depends on
 @enduml

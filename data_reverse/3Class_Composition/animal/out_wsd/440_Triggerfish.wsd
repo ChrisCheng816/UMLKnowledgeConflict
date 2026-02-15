@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Triggerfish
-Ray *-- Fin
+Fin *-- Triggerfish : composes
+Ray *-- Fin : composes
 @enduml

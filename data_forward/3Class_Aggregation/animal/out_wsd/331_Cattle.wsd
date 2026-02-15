@@ -1,4 +1,4 @@
 @startuml
-HerdOfCattle o-- Cattle
-Meadow o-- HerdOfCattle
+HerdOfCattle o-- Cattle : aggregates
+Meadow o-- HerdOfCattle : aggregates
 @enduml

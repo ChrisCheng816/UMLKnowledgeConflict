@@ -1,4 +1,4 @@
 @startuml
-PackOfBear o-- Desert
-Bear o-- PackOfBear
+PackOfBear o-- Desert : aggregates
+Bear o-- PackOfBear : aggregates
 @enduml

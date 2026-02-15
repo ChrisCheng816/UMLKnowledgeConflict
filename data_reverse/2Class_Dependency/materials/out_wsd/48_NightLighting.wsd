@@ -1,3 +1,3 @@
 @startuml
-CeilingLight ..> NightLighting
+CeilingLight ..> NightLighting : depends on
 @enduml

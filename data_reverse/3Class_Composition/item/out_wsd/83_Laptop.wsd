@@ -1,4 +1,4 @@
 @startuml
-DisplayModule *-- Laptop
-TouchDigitizer *-- DisplayModule
+DisplayModule *-- Laptop : composes
+TouchDigitizer *-- DisplayModule : composes
 @enduml

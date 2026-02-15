@@ -1,4 +1,4 @@
 @startuml
-Soybean <|-- Legume
-Legume <|-- Vegetable
+Soybean <|-- Legume : inherits
+Legume <|-- Vegetable : inherits
 @enduml

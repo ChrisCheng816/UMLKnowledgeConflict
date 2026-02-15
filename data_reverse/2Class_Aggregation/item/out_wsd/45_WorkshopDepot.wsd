@@ -1,3 +1,3 @@
 @startuml
-ToolBox o-- WorkshopDepot
+ToolBox o-- WorkshopDepot : aggregates
 @enduml

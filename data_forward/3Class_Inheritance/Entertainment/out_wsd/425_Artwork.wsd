@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- TheCreationOfAdam
+Artwork <|-- Painting : inherits
+Painting <|-- TheCreationOfAdam : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Location <|-- GeographicFeature
-GeographicFeature <|-- Volcano
+Location <|-- GeographicFeature : inherits
+GeographicFeature <|-- Volcano : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-DevOpsTeam o-- TechStation
-SoftwareEngineer o-- DevOpsTeam
+DevOpsTeam o-- TechStation : aggregates
+SoftwareEngineer o-- DevOpsTeam : aggregates
 @enduml

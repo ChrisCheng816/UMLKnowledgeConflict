@@ -1,3 +1,3 @@
 @startuml
-GasFurnace ..> HomeHeating
+GasFurnace ..> HomeHeating : depends on
 @enduml

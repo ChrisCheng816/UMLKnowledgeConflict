@@ -1,3 +1,3 @@
 @startuml
-Parmesan *-- Pesto
+Parmesan *-- Pesto : composes
 @enduml

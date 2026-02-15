@@ -1,4 +1,4 @@
 @startuml
-BrakeCaliper *-- Motorcycle
-CaliperBracket *-- BrakeCaliper
+BrakeCaliper *-- Motorcycle : composes
+CaliperBracket *-- BrakeCaliper : composes
 @enduml

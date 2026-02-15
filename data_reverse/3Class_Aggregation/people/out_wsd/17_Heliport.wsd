@@ -1,4 +1,4 @@
 @startuml
-FlightTeam o-- Heliport
-Pilot o-- FlightTeam
+FlightTeam o-- Heliport : aggregates
+Pilot o-- FlightTeam : aggregates
 @enduml

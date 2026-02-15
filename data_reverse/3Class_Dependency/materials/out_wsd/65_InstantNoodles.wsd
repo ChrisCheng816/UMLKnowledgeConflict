@@ -1,4 +1,4 @@
 @startuml
-ElectricKettle ..> InstantNoodles
-Electricity ..> ElectricKettle
+ElectricKettle ..> InstantNoodles : depends on
+Electricity ..> ElectricKettle : depends on
 @enduml

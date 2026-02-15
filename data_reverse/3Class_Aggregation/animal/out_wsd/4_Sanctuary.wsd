@@ -1,4 +1,4 @@
 @startuml
-FlockOfCrane o-- Sanctuary
-Crane o-- FlockOfCrane
+FlockOfCrane o-- Sanctuary : aggregates
+Crane o-- FlockOfCrane : aggregates
 @enduml

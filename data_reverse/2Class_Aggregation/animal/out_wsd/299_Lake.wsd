@@ -1,3 +1,3 @@
 @startuml
-FlockOfOstrich o-- Lake
+FlockOfOstrich o-- Lake : aggregates
 @enduml

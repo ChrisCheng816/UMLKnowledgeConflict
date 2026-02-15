@@ -1,4 +1,4 @@
 @startuml
-BloodRage <|-- BoardGame
-BoardGame <|-- Game
+BloodRage <|-- BoardGame : inherits
+BoardGame <|-- Game : inherits
 @enduml

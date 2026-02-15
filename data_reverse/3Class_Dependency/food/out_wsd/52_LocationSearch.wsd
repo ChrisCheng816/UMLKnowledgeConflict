@@ -1,4 +1,4 @@
 @startuml
-MapService ..> LocationSearch
-InternetConnection ..> MapService
+MapService ..> LocationSearch : depends on
+InternetConnection ..> MapService : depends on
 @enduml

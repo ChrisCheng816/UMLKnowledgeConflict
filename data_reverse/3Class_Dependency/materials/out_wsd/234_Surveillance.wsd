@@ -1,4 +1,4 @@
 @startuml
-VideoDoorbell ..> Surveillance
-Electricity ..> VideoDoorbell
+VideoDoorbell ..> Surveillance : depends on
+Electricity ..> VideoDoorbell : depends on
 @enduml

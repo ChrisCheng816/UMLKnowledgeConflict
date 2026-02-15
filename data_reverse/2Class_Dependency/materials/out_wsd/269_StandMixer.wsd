@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> StandMixer
+Electricity ..> StandMixer : depends on
 @enduml

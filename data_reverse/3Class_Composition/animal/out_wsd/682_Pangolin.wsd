@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Pangolin
-Root *-- Tooth
+Tooth *-- Pangolin : composes
+Root *-- Tooth : composes
 @enduml

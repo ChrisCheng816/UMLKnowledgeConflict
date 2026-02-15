@@ -1,4 +1,4 @@
 @startuml
-InventoryApp ..> OperatingSystem
-StockTracking ..> InventoryApp
+InventoryApp ..> OperatingSystem : depends on
+StockTracking ..> InventoryApp : depends on
 @enduml

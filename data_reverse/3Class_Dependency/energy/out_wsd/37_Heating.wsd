@@ -1,4 +1,4 @@
 @startuml
-HeatGun ..> Heating
-Electricity ..> HeatGun
+HeatGun ..> Heating : depends on
+Electricity ..> HeatGun : depends on
 @enduml

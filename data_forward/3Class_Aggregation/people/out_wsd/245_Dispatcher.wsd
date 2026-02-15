@@ -1,4 +1,4 @@
 @startuml
-FinanceTeam o-- Dispatcher
-MaritimeHorticultureAssociation o-- FinanceTeam
+FinanceTeam o-- Dispatcher : aggregates
+MaritimeHorticultureAssociation o-- FinanceTeam : aggregates
 @enduml

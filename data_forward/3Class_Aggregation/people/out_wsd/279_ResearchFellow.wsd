@@ -1,4 +1,4 @@
 @startuml
-ResearchTeam o-- ResearchFellow
-MaritimeWildlifeCenter o-- ResearchTeam
+ResearchTeam o-- ResearchFellow : aggregates
+MaritimeWildlifeCenter o-- ResearchTeam : aggregates
 @enduml

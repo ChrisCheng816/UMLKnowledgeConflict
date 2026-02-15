@@ -1,4 +1,4 @@
 @startuml
-3DPrinter ..> Electricity
-RapidPrototyping ..> 3DPrinter
+3DPrinter ..> Electricity : depends on
+RapidPrototyping ..> 3DPrinter : depends on
 @enduml

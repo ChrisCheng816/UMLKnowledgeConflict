@@ -1,4 +1,4 @@
 @startuml
-ArchiveTeam o-- Archivist
-MuseumAuthority o-- ArchiveTeam
+ArchiveTeam o-- Archivist : aggregates
+MuseumAuthority o-- ArchiveTeam : aggregates
 @enduml

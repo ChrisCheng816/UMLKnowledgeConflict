@@ -1,3 +1,3 @@
 @startuml
-Snout *-- Crocodile
+Snout *-- Crocodile : composes
 @enduml

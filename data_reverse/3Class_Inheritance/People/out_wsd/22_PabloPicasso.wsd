@@ -1,4 +1,4 @@
 @startuml
-PabloPicasso <|-- Painter
-Painter <|-- Artist
+PabloPicasso <|-- Painter : inherits
+Painter <|-- Artist : inherits
 @enduml

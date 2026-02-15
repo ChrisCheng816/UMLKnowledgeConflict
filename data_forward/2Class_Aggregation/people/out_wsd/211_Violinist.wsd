@@ -1,3 +1,3 @@
 @startuml
-SectionTeam o-- Violinist
+SectionTeam o-- Violinist : aggregates
 @enduml

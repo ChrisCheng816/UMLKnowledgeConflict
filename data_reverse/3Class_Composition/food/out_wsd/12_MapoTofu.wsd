@@ -1,4 +1,4 @@
 @startuml
-Tofu *-- MapoTofu
-Soybeans *-- Tofu
+Tofu *-- MapoTofu : composes
+Soybeans *-- Tofu : composes
 @enduml

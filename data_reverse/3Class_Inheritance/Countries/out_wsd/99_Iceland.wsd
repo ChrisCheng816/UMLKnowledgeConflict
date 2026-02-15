@@ -1,4 +1,4 @@
 @startuml
-Iceland <|-- Country
-Country <|-- GeopoliticalEntity
+Iceland <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

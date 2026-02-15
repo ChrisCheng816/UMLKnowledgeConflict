@@ -1,4 +1,4 @@
 @startuml
-EmergencyTeam o-- FinancialArtMuseum
-Firefighter o-- EmergencyTeam
+EmergencyTeam o-- FinancialArtMuseum : aggregates
+Firefighter o-- EmergencyTeam : aggregates
 @enduml

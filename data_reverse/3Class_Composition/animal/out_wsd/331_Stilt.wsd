@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Stilt
-Feather *-- Wing
+Wing *-- Stilt : composes
+Feather *-- Wing : composes
 @enduml

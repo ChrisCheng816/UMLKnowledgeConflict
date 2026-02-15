@@ -1,4 +1,4 @@
 @startuml
-Martinique <|-- Country
-Country <|-- GeopoliticalEntity
+Martinique <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

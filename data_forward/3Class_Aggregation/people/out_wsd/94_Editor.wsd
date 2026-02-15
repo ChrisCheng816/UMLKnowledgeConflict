@@ -1,4 +1,4 @@
 @startuml
-EditingTeam o-- Editor
-FilmAuthority o-- EditingTeam
+EditingTeam o-- Editor : aggregates
+FilmAuthority o-- EditingTeam : aggregates
 @enduml

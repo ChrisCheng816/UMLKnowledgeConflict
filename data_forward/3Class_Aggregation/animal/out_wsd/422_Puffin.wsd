@@ -1,4 +1,4 @@
 @startuml
-FlockOfPuffin o-- Puffin
-Shelter o-- FlockOfPuffin
+FlockOfPuffin o-- Puffin : aggregates
+Shelter o-- FlockOfPuffin : aggregates
 @enduml

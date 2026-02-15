@@ -1,4 +1,4 @@
 @startuml
-PackOfDog o-- Jungle
-Dog o-- PackOfDog
+PackOfDog o-- Jungle : aggregates
+Dog o-- PackOfDog : aggregates
 @enduml

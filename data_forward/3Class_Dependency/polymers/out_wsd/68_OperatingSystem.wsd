@@ -1,4 +1,4 @@
 @startuml
-JavaRuntime ..> OperatingSystem
-DesktopApp ..> JavaRuntime
+JavaRuntime ..> OperatingSystem : depends on
+DesktopApp ..> JavaRuntime : depends on
 @enduml

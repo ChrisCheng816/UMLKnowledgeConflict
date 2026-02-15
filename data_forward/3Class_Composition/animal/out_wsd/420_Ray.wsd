@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Ray
-Seahorse *-- Fin
+Fin *-- Ray : composes
+Seahorse *-- Fin : composes
 @enduml

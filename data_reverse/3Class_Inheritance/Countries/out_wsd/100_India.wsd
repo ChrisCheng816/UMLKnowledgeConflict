@@ -1,4 +1,4 @@
 @startuml
-India <|-- Country
-Country <|-- GeopoliticalEntity
+India <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

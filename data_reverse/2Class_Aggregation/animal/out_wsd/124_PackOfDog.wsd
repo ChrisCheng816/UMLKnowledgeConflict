@@ -1,3 +1,3 @@
 @startuml
-Dog o-- PackOfDog
+Dog o-- PackOfDog : aggregates
 @enduml

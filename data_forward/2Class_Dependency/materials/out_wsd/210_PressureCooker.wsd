@@ -1,3 +1,3 @@
 @startuml
-Warming ..> PressureCooker
+Warming ..> PressureCooker : depends on
 @enduml

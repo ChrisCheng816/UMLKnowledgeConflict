@@ -1,3 +1,3 @@
 @startuml
-BrakeCaliper *-- GuidePin
+BrakeCaliper *-- GuidePin : composes
 @enduml

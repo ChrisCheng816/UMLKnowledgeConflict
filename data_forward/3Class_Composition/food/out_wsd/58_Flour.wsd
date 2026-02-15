@@ -1,4 +1,4 @@
 @startuml
-PizzaDough *-- Flour
-MargheritaPizza *-- PizzaDough
+PizzaDough *-- Flour : composes
+MargheritaPizza *-- PizzaDough : composes
 @enduml

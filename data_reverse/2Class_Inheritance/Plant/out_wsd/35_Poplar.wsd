@@ -1,3 +1,3 @@
 @startuml
-Poplar <|-- Tree
+Poplar <|-- Tree : inherits
 @enduml

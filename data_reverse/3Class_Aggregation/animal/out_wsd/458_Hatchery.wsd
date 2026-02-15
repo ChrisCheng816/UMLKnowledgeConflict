@@ -1,4 +1,4 @@
 @startuml
-HerdOfElk o-- Hatchery
-Elk o-- HerdOfElk
+HerdOfElk o-- Hatchery : aggregates
+Elk o-- HerdOfElk : aggregates
 @enduml

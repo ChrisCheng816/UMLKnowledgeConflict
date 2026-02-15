@@ -1,4 +1,4 @@
 @startuml
-StudentPortal ..> CourseStreaming
-InternetConnection ..> StudentPortal
+StudentPortal ..> CourseStreaming : depends on
+InternetConnection ..> StudentPortal : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- FrenchGuiana
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- FrenchGuiana : inherits
 @enduml

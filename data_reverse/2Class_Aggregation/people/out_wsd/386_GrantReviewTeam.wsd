@@ -1,3 +1,3 @@
 @startuml
-Surgeon o-- GrantReviewTeam
+Surgeon o-- GrantReviewTeam : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfVulture o-- Park
-Vulture o-- FlockOfVulture
+FlockOfVulture o-- Park : aggregates
+Vulture o-- FlockOfVulture : aggregates
 @enduml

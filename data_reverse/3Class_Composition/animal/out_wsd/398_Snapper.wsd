@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Snapper
-Ray *-- Fin
+Fin *-- Snapper : composes
+Ray *-- Fin : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BaskOfAlligator o-- Alligator
-Delta o-- BaskOfAlligator
+BaskOfAlligator o-- Alligator : aggregates
+Delta o-- BaskOfAlligator : aggregates
 @enduml

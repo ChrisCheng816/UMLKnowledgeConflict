@@ -1,4 +1,4 @@
 @startuml
-NarrowGap ..> Wavefront
-Diffraction ..> NarrowGap
+NarrowGap ..> Wavefront : depends on
+Diffraction ..> NarrowGap : depends on
 @enduml

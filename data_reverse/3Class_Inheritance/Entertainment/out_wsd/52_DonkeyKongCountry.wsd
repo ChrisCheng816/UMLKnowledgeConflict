@@ -1,4 +1,4 @@
 @startuml
-DonkeyKongCountry <|-- VideoGame
-VideoGame <|-- Game
+DonkeyKongCountry <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TeslaModelY <|-- Tesla
-Tesla <|-- CarManufacturer
+TeslaModelY <|-- Tesla : inherits
+Tesla <|-- CarManufacturer : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Mountain
-Mountain <|-- MountFuji
+GeographicFeature <|-- Mountain : inherits
+Mountain <|-- MountFuji : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-WebBrowser ..> InternetConnection
+WebBrowser ..> InternetConnection : depends on
 @enduml

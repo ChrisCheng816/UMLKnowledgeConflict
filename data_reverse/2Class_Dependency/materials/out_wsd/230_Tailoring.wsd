@@ -1,3 +1,3 @@
 @startuml
-SewingMachine ..> Tailoring
+SewingMachine ..> Tailoring : depends on
 @enduml

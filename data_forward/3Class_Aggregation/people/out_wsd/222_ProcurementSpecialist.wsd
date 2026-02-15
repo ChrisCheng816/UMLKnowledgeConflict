@@ -1,4 +1,4 @@
 @startuml
-MentorCommittee o-- ProcurementSpecialist
-EnvironmentalCharityFoundation o-- MentorCommittee
+MentorCommittee o-- ProcurementSpecialist : aggregates
+EnvironmentalCharityFoundation o-- MentorCommittee : aggregates
 @enduml

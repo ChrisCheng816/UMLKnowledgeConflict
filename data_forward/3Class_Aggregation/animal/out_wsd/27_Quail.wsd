@@ -1,4 +1,4 @@
 @startuml
-FlockOfQuail o-- Quail
-Park o-- FlockOfQuail
+FlockOfQuail o-- Quail : aggregates
+Park o-- FlockOfQuail : aggregates
 @enduml

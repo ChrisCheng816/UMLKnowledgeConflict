@@ -1,3 +1,3 @@
 @startuml
-EbookReader ..> Annotation
+EbookReader ..> Annotation : depends on
 @enduml

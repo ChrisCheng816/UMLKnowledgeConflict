@@ -1,4 +1,4 @@
 @startuml
-EncyclopediaSite ..> InternetConnection
-NewsReading ..> EncyclopediaSite
+EncyclopediaSite ..> InternetConnection : depends on
+NewsReading ..> EncyclopediaSite : depends on
 @enduml

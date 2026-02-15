@@ -1,3 +1,3 @@
 @startuml
-Beak *-- Kite
+Beak *-- Kite : composes
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-SuperMarioBros <|-- VideoGame
+SuperMarioBros <|-- VideoGame : inherits
 @enduml

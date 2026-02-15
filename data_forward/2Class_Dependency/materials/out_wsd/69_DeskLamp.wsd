@@ -1,3 +1,3 @@
 @startuml
-Illumination ..> DeskLamp
+Illumination ..> DeskLamp : depends on
 @enduml

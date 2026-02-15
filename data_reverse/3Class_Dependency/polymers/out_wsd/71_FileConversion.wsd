@@ -1,4 +1,4 @@
 @startuml
-MediaEncoder ..> FileConversion
-OperatingSystem ..> MediaEncoder
+MediaEncoder ..> FileConversion : depends on
+OperatingSystem ..> MediaEncoder : depends on
 @enduml

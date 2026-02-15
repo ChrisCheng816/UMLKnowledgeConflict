@@ -1,4 +1,4 @@
 @startuml
-AmericanSamoa <|-- Country
-Country <|-- GeopoliticalEntity
+AmericanSamoa <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-SeismicNetwork o-- ObservationStation
+SeismicNetwork o-- ObservationStation : aggregates
 @enduml

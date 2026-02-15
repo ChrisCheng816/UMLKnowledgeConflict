@@ -1,3 +1,3 @@
 @startuml
-Tooth *-- Rat
+Tooth *-- Rat : composes
 @enduml

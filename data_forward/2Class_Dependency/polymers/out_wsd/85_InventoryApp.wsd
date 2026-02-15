@@ -1,3 +1,3 @@
 @startuml
-OrderPicking ..> InventoryApp
+OrderPicking ..> InventoryApp : depends on
 @enduml

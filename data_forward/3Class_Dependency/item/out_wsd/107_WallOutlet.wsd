@@ -1,4 +1,4 @@
 @startuml
-Amplifier ..> WallOutlet
-PublicAddressSystem ..> Amplifier
+Amplifier ..> WallOutlet : depends on
+PublicAddressSystem ..> Amplifier : depends on
 @enduml

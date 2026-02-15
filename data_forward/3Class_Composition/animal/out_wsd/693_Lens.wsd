@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens
-BeardedDragon *-- Eye
+Eye *-- Lens : composes
+BeardedDragon *-- Eye : composes
 @enduml

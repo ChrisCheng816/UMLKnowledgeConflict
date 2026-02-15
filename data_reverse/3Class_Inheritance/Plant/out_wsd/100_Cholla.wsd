@@ -1,4 +1,4 @@
 @startuml
-Cholla <|-- Cactus
-Cactus <|-- Plant
+Cholla <|-- Cactus : inherits
+Cactus <|-- Plant : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-RenminUniversityOfChina <|-- University
-University <|-- EducationalInstitution
+RenminUniversityOfChina <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

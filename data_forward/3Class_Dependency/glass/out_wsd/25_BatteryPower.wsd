@@ -1,4 +1,4 @@
 @startuml
-GlucoseMeter ..> BatteryPower
-BloodPressureCheck ..> GlucoseMeter
+GlucoseMeter ..> BatteryPower : depends on
+BloodPressureCheck ..> GlucoseMeter : depends on
 @enduml

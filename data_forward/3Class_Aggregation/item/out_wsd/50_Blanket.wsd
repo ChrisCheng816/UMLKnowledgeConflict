@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- Blanket
-CoastalWarehouse o-- StorageBin
+StorageBin o-- Blanket : aggregates
+CoastalWarehouse o-- StorageBin : aggregates
 @enduml

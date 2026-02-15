@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries
-TVSeries <|-- TheSopranos
+Entertainment <|-- TVSeries : inherits
+TVSeries <|-- TheSopranos : inherits
 @enduml

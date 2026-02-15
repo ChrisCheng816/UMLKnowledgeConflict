@@ -1,4 +1,4 @@
 @startuml
-BenchSander ..> Electricity
-Woodworking ..> BenchSander
+BenchSander ..> Electricity : depends on
+Woodworking ..> BenchSander : depends on
 @enduml

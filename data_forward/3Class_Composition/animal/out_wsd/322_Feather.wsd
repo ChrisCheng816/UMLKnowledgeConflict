@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Feather
-Skua *-- Wing
+Wing *-- Feather : composes
+Skua *-- Wing : composes
 @enduml

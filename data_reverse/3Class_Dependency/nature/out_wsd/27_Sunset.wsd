@@ -1,4 +1,4 @@
 @startuml
-EarthRotation ..> Sunset
-Earth ..> EarthRotation
+EarthRotation ..> Sunset : depends on
+Earth ..> EarthRotation : depends on
 @enduml

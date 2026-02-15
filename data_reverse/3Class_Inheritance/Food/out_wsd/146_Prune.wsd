@@ -1,4 +1,4 @@
 @startuml
-Prune <|-- DriedFruit
-DriedFruit <|-- Fruit
+Prune <|-- DriedFruit : inherits
+DriedFruit <|-- Fruit : inherits
 @enduml

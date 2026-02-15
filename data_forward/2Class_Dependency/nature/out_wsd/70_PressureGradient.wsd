@@ -1,3 +1,3 @@
 @startuml
-StormSystem ..> PressureGradient
+StormSystem ..> PressureGradient : depends on
 @enduml

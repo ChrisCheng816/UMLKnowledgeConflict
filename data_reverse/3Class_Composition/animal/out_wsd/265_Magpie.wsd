@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Magpie
-Feather *-- Wing
+Wing *-- Magpie : composes
+Feather *-- Wing : composes
 @enduml

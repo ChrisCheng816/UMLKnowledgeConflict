@@ -1,4 +1,4 @@
 @startuml
-InternetConnection ..> ISP
-WebBrowsing ..> InternetConnection
+InternetConnection ..> ISP : depends on
+WebBrowsing ..> InternetConnection : depends on
 @enduml

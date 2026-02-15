@@ -1,3 +1,3 @@
 @startuml
-Moisture ..> Germination
+Moisture ..> Germination : depends on
 @enduml

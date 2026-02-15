@@ -1,4 +1,4 @@
 @startuml
-SwarmOfLadybug o-- Mountain
-Ladybug o-- SwarmOfLadybug
+SwarmOfLadybug o-- Mountain : aggregates
+Ladybug o-- SwarmOfLadybug : aggregates
 @enduml

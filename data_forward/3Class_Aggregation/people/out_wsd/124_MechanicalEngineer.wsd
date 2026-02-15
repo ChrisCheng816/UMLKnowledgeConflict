@@ -1,4 +1,4 @@
 @startuml
-EngineeringTeam o-- MechanicalEngineer
-RoboticsStation o-- EngineeringTeam
+EngineeringTeam o-- MechanicalEngineer : aggregates
+RoboticsStation o-- EngineeringTeam : aggregates
 @enduml

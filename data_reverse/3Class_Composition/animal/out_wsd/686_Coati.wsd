@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Coati
-Claw *-- Paw
+Paw *-- Coati : composes
+Claw *-- Paw : composes
 @enduml

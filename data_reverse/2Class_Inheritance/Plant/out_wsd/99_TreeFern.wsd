@@ -1,3 +1,3 @@
 @startuml
-TreeFern <|-- Fern
+TreeFern <|-- Fern : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfFalcon o-- Falcon
-Park o-- FlockOfFalcon
+FlockOfFalcon o-- Falcon : aggregates
+Park o-- FlockOfFalcon : aggregates
 @enduml

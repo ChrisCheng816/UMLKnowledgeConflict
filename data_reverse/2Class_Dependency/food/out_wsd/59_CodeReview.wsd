@@ -1,3 +1,3 @@
 @startuml
-IssueTracker ..> CodeReview
+IssueTracker ..> CodeReview : depends on
 @enduml

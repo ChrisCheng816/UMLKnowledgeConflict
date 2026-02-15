@@ -1,4 +1,4 @@
 @startuml
-GasWaterHeater ..> NaturalGas
-HotWater ..> GasWaterHeater
+GasWaterHeater ..> NaturalGas : depends on
+HotWater ..> GasWaterHeater : depends on
 @enduml

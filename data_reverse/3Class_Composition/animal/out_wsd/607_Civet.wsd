@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Civet
-Root *-- Tooth
+Tooth *-- Civet : composes
+Root *-- Tooth : composes
 @enduml

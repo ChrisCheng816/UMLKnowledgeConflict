@@ -1,3 +1,3 @@
 @startuml
-EmergencyWarehouse o-- StorageBin
+EmergencyWarehouse o-- StorageBin : aggregates
 @enduml

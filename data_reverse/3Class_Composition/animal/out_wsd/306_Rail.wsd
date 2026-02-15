@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Rail
-Nostril *-- Beak
+Beak *-- Rail : composes
+Nostril *-- Beak : composes
 @enduml

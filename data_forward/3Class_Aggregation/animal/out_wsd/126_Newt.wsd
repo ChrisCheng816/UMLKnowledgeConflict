@@ -1,4 +1,4 @@
 @startuml
-ColonyOfNewt o-- Newt
-Delta o-- ColonyOfNewt
+ColonyOfNewt o-- Newt : aggregates
+Delta o-- ColonyOfNewt : aggregates
 @enduml

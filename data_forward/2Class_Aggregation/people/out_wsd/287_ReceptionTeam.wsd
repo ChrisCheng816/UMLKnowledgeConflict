@@ -1,3 +1,3 @@
 @startuml
-GovernmentOffice o-- ReceptionTeam
+GovernmentOffice o-- ReceptionTeam : aggregates
 @enduml

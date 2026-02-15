@@ -1,4 +1,4 @@
 @startuml
-Board o-- OrchestraSociety
-CommitteeMember o-- Board
+Board o-- OrchestraSociety : aggregates
+CommitteeMember o-- Board : aggregates
 @enduml

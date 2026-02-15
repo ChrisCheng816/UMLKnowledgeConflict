@@ -1,3 +1,3 @@
 @startuml
-ProjectManager o-- EventTeam
+ProjectManager o-- EventTeam : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-FordMustang <|-- Ford
+FordMustang <|-- Ford : inherits
 @enduml

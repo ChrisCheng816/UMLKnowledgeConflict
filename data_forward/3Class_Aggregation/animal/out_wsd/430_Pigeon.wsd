@@ -1,4 +1,4 @@
 @startuml
-FlockOfPigeon o-- Pigeon
-Clinic o-- FlockOfPigeon
+FlockOfPigeon o-- Pigeon : aggregates
+Clinic o-- FlockOfPigeon : aggregates
 @enduml

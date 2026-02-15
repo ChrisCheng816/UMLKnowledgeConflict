@@ -1,3 +1,3 @@
 @startuml
-Eye *-- BeardedDragon
+Eye *-- BeardedDragon : composes
 @enduml

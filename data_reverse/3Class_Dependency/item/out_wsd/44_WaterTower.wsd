@@ -1,4 +1,4 @@
 @startuml
-PumpStation ..> WaterTower
-WaterTreatmentPlant ..> PumpStation
+PumpStation ..> WaterTower : depends on
+WaterTreatmentPlant ..> PumpStation : depends on
 @enduml

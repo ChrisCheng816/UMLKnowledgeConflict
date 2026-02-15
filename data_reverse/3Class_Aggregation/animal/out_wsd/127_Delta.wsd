@@ -1,4 +1,4 @@
 @startuml
-ColonyOfSalamander o-- Delta
-Salamander o-- ColonyOfSalamander
+ColonyOfSalamander o-- Delta : aggregates
+Salamander o-- ColonyOfSalamander : aggregates
 @enduml

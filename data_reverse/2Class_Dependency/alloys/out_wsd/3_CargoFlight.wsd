@@ -1,3 +1,3 @@
 @startuml
-Airplane ..> CargoFlight
+Airplane ..> CargoFlight : depends on
 @enduml

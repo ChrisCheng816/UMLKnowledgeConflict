@@ -1,4 +1,4 @@
 @startuml
-SwarmOfWasp o-- Wasp
-Pasture o-- SwarmOfWasp
+SwarmOfWasp o-- Wasp : aggregates
+Pasture o-- SwarmOfWasp : aggregates
 @enduml

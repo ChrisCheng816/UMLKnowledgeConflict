@@ -1,4 +1,4 @@
 @startuml
-Theatre <|-- MusicalTheatre
-MusicalTheatre <|-- ThePhantomOfTheOpera
+Theatre <|-- MusicalTheatre : inherits
+MusicalTheatre <|-- ThePhantomOfTheOpera : inherits
 @enduml

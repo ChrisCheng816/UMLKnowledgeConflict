@@ -1,4 +1,4 @@
 @startuml
-ArchiveFolder o-- CityLibrary
-ArchiveDocument o-- ArchiveFolder
+ArchiveFolder o-- CityLibrary : aggregates
+ArchiveDocument o-- ArchiveFolder : aggregates
 @enduml

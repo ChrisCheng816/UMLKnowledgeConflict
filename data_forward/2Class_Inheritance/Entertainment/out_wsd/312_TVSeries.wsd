@@ -1,3 +1,3 @@
 @startuml
-TVSeries <|-- SouthPark
+TVSeries <|-- SouthPark : inherits
 @enduml

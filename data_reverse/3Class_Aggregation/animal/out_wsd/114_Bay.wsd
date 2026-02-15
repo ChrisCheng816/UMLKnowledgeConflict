@@ -1,4 +1,4 @@
 @startuml
-NestOfTortoise o-- Bay
-Tortoise o-- NestOfTortoise
+NestOfTortoise o-- Bay : aggregates
+Tortoise o-- NestOfTortoise : aggregates
 @enduml

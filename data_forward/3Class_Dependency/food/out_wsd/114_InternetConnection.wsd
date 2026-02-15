@@ -1,4 +1,4 @@
 @startuml
-SocialMediaApp ..> InternetConnection
-SocialNetworking ..> SocialMediaApp
+SocialMediaApp ..> InternetConnection : depends on
+SocialNetworking ..> SocialMediaApp : depends on
 @enduml

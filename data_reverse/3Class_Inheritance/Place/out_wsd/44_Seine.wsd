@@ -1,4 +1,4 @@
 @startuml
-Seine <|-- River
-River <|-- GeographicFeature
+Seine <|-- River : inherits
+River <|-- GeographicFeature : inherits
 @enduml

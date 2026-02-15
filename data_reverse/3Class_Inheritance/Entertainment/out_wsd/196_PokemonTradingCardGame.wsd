@@ -1,4 +1,4 @@
 @startuml
-PokemonTradingCardGame <|-- CardGame
-CardGame <|-- Game
+PokemonTradingCardGame <|-- CardGame : inherits
+CardGame <|-- Game : inherits
 @enduml

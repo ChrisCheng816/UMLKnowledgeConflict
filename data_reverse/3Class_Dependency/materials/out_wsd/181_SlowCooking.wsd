@@ -1,4 +1,4 @@
 @startuml
-SlowCooker ..> SlowCooking
-Electricity ..> SlowCooker
+SlowCooker ..> SlowCooking : depends on
+Electricity ..> SlowCooker : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-ArtAgency o-- CuratorialTeam
+ArtAgency o-- CuratorialTeam : aggregates
 @enduml

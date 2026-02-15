@@ -1,4 +1,4 @@
 @startuml
-AntennaMast ..> GroundAnchor
-ReceiverAntenna ..> AntennaMast
+AntennaMast ..> GroundAnchor : depends on
+ReceiverAntenna ..> AntennaMast : depends on
 @enduml

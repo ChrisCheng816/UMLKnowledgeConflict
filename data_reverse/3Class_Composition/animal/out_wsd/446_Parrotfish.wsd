@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Parrotfish
-Ray *-- Fin
+Fin *-- Parrotfish : composes
+Ray *-- Fin : composes
 @enduml

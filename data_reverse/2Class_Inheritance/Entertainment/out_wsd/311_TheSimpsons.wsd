@@ -1,3 +1,3 @@
 @startuml
-TheSimpsons <|-- TVSeries
+TheSimpsons <|-- TVSeries : inherits
 @enduml

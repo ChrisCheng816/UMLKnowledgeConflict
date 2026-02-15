@@ -1,4 +1,4 @@
 @startuml
-Madagascar <|-- Country
-Country <|-- GeopoliticalEntity
+Madagascar <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

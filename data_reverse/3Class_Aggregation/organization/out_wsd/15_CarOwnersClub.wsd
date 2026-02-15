@@ -1,4 +1,4 @@
 @startuml
-Convoy o-- CarOwnersClub
-Driver o-- Convoy
+Convoy o-- CarOwnersClub : aggregates
+Driver o-- Convoy : aggregates
 @enduml

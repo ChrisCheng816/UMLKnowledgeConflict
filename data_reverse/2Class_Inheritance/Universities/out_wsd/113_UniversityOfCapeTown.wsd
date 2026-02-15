@@ -1,3 +1,3 @@
 @startuml
-UniversityOfCapeTown <|-- University
+UniversityOfCapeTown <|-- University : inherits
 @enduml

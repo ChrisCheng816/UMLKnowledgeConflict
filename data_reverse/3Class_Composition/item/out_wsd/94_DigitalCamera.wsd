@@ -1,4 +1,4 @@
 @startuml
-CameraModule *-- DigitalCamera
-IRFilter *-- CameraModule
+CameraModule *-- DigitalCamera : composes
+IRFilter *-- CameraModule : composes
 @enduml

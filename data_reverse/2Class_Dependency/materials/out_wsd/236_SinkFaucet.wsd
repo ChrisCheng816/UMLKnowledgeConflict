@@ -1,3 +1,3 @@
 @startuml
-TapWater ..> SinkFaucet
+TapWater ..> SinkFaucet : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Flycatcher
-Feather *-- Wing
+Wing *-- Flycatcher : composes
+Feather *-- Wing : composes
 @enduml

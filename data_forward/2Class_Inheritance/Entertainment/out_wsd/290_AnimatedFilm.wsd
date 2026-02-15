@@ -1,3 +1,3 @@
 @startuml
-AnimatedFilm <|-- HowToTrainYourDragon
+AnimatedFilm <|-- HowToTrainYourDragon : inherits
 @enduml

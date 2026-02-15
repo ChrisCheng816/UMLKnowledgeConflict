@@ -1,4 +1,4 @@
 @startuml
-RiceCooker ..> Electricity
-Steaming ..> RiceCooker
+RiceCooker ..> Electricity : depends on
+Steaming ..> RiceCooker : depends on
 @enduml

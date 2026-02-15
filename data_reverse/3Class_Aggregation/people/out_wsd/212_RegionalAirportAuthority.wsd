@@ -1,4 +1,4 @@
 @startuml
-FinanceTeam o-- RegionalAirportAuthority
-Dispatcher o-- FinanceTeam
+FinanceTeam o-- RegionalAirportAuthority : aggregates
+Dispatcher o-- FinanceTeam : aggregates
 @enduml

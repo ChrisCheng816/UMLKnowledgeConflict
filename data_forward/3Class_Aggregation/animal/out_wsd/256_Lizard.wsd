@@ -1,4 +1,4 @@
 @startuml
-NestOfLizard o-- Lizard
-Plateau o-- NestOfLizard
+NestOfLizard o-- Lizard : aggregates
+Plateau o-- NestOfLizard : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-AClockworkOrange <|-- Film
-Film <|-- Entertainment
+AClockworkOrange <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

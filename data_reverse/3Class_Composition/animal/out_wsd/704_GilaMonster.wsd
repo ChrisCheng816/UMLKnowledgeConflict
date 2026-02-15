@@ -1,4 +1,4 @@
 @startuml
-Skin *-- GilaMonster
-Scale *-- Skin
+Skin *-- GilaMonster : composes
+Scale *-- Skin : composes
 @enduml

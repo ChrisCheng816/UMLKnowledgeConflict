@@ -1,4 +1,4 @@
 @startuml
-LegalAidCommittee o-- IslandWildlifeCenter
-MechanicalEngineer o-- LegalAidCommittee
+LegalAidCommittee o-- IslandWildlifeCenter : aggregates
+MechanicalEngineer o-- LegalAidCommittee : aggregates
 @enduml

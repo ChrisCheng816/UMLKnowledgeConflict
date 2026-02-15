@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Snowboarding
-Snowboarding <|-- SlopestyleSnowboarding
+Sport <|-- Snowboarding : inherits
+Snowboarding <|-- SlopestyleSnowboarding : inherits
 @enduml

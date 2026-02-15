@@ -1,3 +1,3 @@
 @startuml
-Estuary o-- GroupOfOyster
+Estuary o-- GroupOfOyster : aggregates
 @enduml

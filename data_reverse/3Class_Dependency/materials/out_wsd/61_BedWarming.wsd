@@ -1,4 +1,4 @@
 @startuml
-ElectricBlanket ..> BedWarming
-Electricity ..> ElectricBlanket
+ElectricBlanket ..> BedWarming : depends on
+Electricity ..> ElectricBlanket : depends on
 @enduml

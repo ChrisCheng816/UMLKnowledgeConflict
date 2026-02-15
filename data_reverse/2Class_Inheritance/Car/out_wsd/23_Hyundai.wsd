@@ -1,3 +1,3 @@
 @startuml
-Hyundai <|-- CarManufacturer
+Hyundai <|-- CarManufacturer : inherits
 @enduml

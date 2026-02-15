@@ -1,4 +1,4 @@
 @startuml
-NestOfTortoise o-- Aviary
-Tortoise o-- NestOfTortoise
+NestOfTortoise o-- Aviary : aggregates
+Tortoise o-- NestOfTortoise : aggregates
 @enduml

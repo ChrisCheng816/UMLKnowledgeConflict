@@ -1,4 +1,4 @@
 @startuml
-EncyclopediaSite ..> InternetConnection
-WebSearch ..> EncyclopediaSite
+EncyclopediaSite ..> InternetConnection : depends on
+WebSearch ..> EncyclopediaSite : depends on
 @enduml

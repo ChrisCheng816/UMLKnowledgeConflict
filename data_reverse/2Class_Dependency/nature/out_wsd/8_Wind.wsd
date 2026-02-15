@@ -1,3 +1,3 @@
 @startuml
-PressureDifference ..> Wind
+PressureDifference ..> Wind : depends on
 @enduml

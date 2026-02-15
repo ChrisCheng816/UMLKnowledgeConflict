@@ -1,4 +1,4 @@
 @startuml
-PresentationSoftware ..> OperatingSystem
-SlideEditing ..> PresentationSoftware
+PresentationSoftware ..> OperatingSystem : depends on
+SlideEditing ..> PresentationSoftware : depends on
 @enduml

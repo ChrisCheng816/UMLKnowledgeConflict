@@ -1,3 +1,3 @@
 @startuml
-SchoolOfHerring o-- Ranch
+SchoolOfHerring o-- Ranch : aggregates
 @enduml

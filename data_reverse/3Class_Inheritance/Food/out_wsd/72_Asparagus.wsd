@@ -1,4 +1,4 @@
 @startuml
-Asparagus <|-- StemVegetable
-StemVegetable <|-- Vegetable
+Asparagus <|-- StemVegetable : inherits
+StemVegetable <|-- Vegetable : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Scale
-Axolotl *-- Skin
+Skin *-- Scale : composes
+Axolotl *-- Skin : composes
 @enduml

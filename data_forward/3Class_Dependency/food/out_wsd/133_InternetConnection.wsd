@@ -1,4 +1,4 @@
 @startuml
-WebBrowser ..> InternetConnection
-OnlineBanking ..> WebBrowser
+WebBrowser ..> InternetConnection : depends on
+OnlineBanking ..> WebBrowser : depends on
 @enduml

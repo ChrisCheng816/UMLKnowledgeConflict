@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Rattlesnake
-Lens *-- Eye
+Eye *-- Rattlesnake : composes
+Lens *-- Eye : composes
 @enduml

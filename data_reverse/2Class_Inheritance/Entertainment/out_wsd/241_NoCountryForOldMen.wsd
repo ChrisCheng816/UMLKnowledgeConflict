@@ -1,3 +1,3 @@
 @startuml
-NoCountryForOldMen <|-- Film
+NoCountryForOldMen <|-- Film : inherits
 @enduml

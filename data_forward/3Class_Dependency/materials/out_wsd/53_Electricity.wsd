@@ -1,4 +1,4 @@
 @startuml
-DeskLamp ..> Electricity
-Lighting ..> DeskLamp
+DeskLamp ..> Electricity : depends on
+Lighting ..> DeskLamp : depends on
 @enduml

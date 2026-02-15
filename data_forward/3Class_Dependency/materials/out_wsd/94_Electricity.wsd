@@ -1,4 +1,4 @@
 @startuml
-GameConsole ..> Electricity
-MusicPlayback ..> GameConsole
+GameConsole ..> Electricity : depends on
+MusicPlayback ..> GameConsole : depends on
 @enduml

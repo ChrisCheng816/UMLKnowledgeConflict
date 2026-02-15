@@ -1,4 +1,4 @@
 @startuml
-Snow ..> Blizzard
-LowTemperature ..> Snow
+Snow ..> Blizzard : depends on
+LowTemperature ..> Snow : depends on
 @enduml

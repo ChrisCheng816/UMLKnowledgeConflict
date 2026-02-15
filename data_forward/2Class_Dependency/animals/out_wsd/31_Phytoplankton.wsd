@@ -1,3 +1,3 @@
 @startuml
-Zooplankton ..> Phytoplankton
+Zooplankton ..> Phytoplankton : depends on
 @enduml

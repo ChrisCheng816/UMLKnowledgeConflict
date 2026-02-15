@@ -1,3 +1,3 @@
 @startuml
-Lizard *-- Skin
+Lizard *-- Skin : composes
 @enduml

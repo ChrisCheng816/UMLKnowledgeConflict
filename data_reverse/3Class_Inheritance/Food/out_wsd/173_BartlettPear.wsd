@@ -1,4 +1,4 @@
 @startuml
-BartlettPear <|-- PomeFruit
-PomeFruit <|-- Fruit
+BartlettPear <|-- PomeFruit : inherits
+PomeFruit <|-- Fruit : inherits
 @enduml

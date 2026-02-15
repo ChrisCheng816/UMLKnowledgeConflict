@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Skunk
-Root *-- Tooth
+Tooth *-- Skunk : composes
+Root *-- Tooth : composes
 @enduml

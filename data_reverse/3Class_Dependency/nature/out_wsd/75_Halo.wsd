@@ -1,4 +1,4 @@
 @startuml
-CirrusCloud ..> Halo
-JetStream ..> CirrusCloud
+CirrusCloud ..> Halo : depends on
+JetStream ..> CirrusCloud : depends on
 @enduml

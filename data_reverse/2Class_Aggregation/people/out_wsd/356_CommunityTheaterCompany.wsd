@@ -1,3 +1,3 @@
 @startuml
-NursingBoard o-- CommunityTheaterCompany
+NursingBoard o-- CommunityTheaterCompany : aggregates
 @enduml

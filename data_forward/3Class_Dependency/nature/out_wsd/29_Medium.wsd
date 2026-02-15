@@ -1,4 +1,4 @@
 @startuml
-Refraction ..> Medium
-Caustics ..> Refraction
+Refraction ..> Medium : depends on
+Caustics ..> Refraction : depends on
 @enduml

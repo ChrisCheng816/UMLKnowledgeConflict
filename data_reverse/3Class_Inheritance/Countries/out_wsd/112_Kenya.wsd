@@ -1,4 +1,4 @@
 @startuml
-Kenya <|-- Country
-Country <|-- GeopoliticalEntity
+Kenya <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

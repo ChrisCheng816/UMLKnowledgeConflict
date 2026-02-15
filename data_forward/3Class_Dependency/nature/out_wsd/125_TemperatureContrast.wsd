@@ -1,4 +1,4 @@
 @startuml
-PressureGradient ..> TemperatureContrast
-JetStream ..> PressureGradient
+PressureGradient ..> TemperatureContrast : depends on
+JetStream ..> PressureGradient : depends on
 @enduml

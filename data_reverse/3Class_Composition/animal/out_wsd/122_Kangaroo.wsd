@@ -1,4 +1,4 @@
 @startuml
-Foot *-- Kangaroo
-Claw *-- Foot
+Foot *-- Kangaroo : composes
+Claw *-- Foot : composes
 @enduml

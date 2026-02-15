@@ -1,3 +1,3 @@
 @startuml
-Jellyfish o-- GroupOfJellyfish
+Jellyfish o-- GroupOfJellyfish : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-PSLUniversity <|-- University
+PSLUniversity <|-- University : inherits
 @enduml

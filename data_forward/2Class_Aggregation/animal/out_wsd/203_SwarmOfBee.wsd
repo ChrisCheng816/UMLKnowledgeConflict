@@ -1,3 +1,3 @@
 @startuml
-Lagoon o-- SwarmOfBee
+Lagoon o-- SwarmOfBee : aggregates
 @enduml

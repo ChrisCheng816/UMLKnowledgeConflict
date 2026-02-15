@@ -1,3 +1,3 @@
 @startuml
-TicketBooking ..> PaymentGateway
+TicketBooking ..> PaymentGateway : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-UniversityOfWisconsinMadison <|-- University
-University <|-- EducationalInstitution
+UniversityOfWisconsinMadison <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

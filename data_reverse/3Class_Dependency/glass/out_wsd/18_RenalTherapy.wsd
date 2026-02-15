@@ -1,4 +1,4 @@
 @startuml
-DialysisMachine ..> RenalTherapy
-Electricity ..> DialysisMachine
+DialysisMachine ..> RenalTherapy : depends on
+Electricity ..> DialysisMachine : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Guadeloupe <|-- Country
-Country <|-- GeopoliticalEntity
+Guadeloupe <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

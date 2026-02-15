@@ -1,3 +1,3 @@
 @startuml
-InnovationGroup o-- ResearchConsortium
+InnovationGroup o-- ResearchConsortium : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-EnvironmentalResearchInstitute o-- ResearchTeam
+EnvironmentalResearchInstitute o-- ResearchTeam : aggregates
 @enduml

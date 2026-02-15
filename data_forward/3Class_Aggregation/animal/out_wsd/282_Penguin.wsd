@@ -1,4 +1,4 @@
 @startuml
-FlockOfPenguin o-- Penguin
-Atoll o-- FlockOfPenguin
+FlockOfPenguin o-- Penguin : aggregates
+Atoll o-- FlockOfPenguin : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SpyXFamily <|-- AnimeSeries
-AnimeSeries <|-- TVSeries
+SpyXFamily <|-- AnimeSeries : inherits
+AnimeSeries <|-- TVSeries : inherits
 @enduml

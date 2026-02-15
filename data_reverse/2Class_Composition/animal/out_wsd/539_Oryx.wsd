@@ -1,3 +1,3 @@
 @startuml
-Tooth *-- Oryx
+Tooth *-- Oryx : composes
 @enduml

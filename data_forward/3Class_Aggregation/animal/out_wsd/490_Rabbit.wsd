@@ -1,4 +1,4 @@
 @startuml
-ColonyOfRabbit o-- Rabbit
-Channel o-- ColonyOfRabbit
+ColonyOfRabbit o-- Rabbit : aggregates
+Channel o-- ColonyOfRabbit : aggregates
 @enduml

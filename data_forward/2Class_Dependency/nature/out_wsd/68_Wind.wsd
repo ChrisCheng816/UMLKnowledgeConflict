@@ -1,3 +1,3 @@
 @startuml
-OceanWave ..> Wind
+OceanWave ..> Wind : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CTScanner ..> Electricity
-EmergencyImaging ..> CTScanner
+CTScanner ..> Electricity : depends on
+EmergencyImaging ..> CTScanner : depends on
 @enduml

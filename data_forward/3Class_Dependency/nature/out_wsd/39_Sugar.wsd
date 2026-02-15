@@ -1,4 +1,4 @@
 @startuml
-Yeast ..> Sugar
-FermentationAlcohol ..> Yeast
+Yeast ..> Sugar : depends on
+FermentationAlcohol ..> Yeast : depends on
 @enduml

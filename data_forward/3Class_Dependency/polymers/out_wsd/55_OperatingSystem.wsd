@@ -1,4 +1,4 @@
 @startuml
-FTPClient ..> OperatingSystem
-FileTransfer ..> FTPClient
+FTPClient ..> OperatingSystem : depends on
+FileTransfer ..> FTPClient : depends on
 @enduml

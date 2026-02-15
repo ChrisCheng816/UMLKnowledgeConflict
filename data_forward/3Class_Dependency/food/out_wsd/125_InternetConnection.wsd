@@ -1,4 +1,4 @@
 @startuml
-VideoConferencingApp ..> InternetConnection
-RemoteMeeting ..> VideoConferencingApp
+VideoConferencingApp ..> InternetConnection : depends on
+RemoteMeeting ..> VideoConferencingApp : depends on
 @enduml

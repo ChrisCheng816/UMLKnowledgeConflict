@@ -1,3 +1,3 @@
 @startuml
-TongjiUniversity <|-- University
+TongjiUniversity <|-- University : inherits
 @enduml

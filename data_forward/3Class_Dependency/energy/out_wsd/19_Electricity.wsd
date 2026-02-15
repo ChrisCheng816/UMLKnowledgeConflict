@@ -1,4 +1,4 @@
 @startuml
-BenchSander ..> Electricity
-Sanding ..> BenchSander
+BenchSander ..> Electricity : depends on
+Sanding ..> BenchSander : depends on
 @enduml

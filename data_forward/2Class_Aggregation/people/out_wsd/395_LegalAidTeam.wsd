@@ -1,3 +1,3 @@
 @startuml
-CulturalCharityFoundation o-- LegalAidTeam
+CulturalCharityFoundation o-- LegalAidTeam : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Flower <|-- Orchid
+Flower <|-- Orchid : inherits
 @enduml

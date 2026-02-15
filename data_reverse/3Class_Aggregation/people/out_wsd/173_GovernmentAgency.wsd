@@ -1,4 +1,4 @@
 @startuml
-AuditTeam o-- GovernmentAgency
-QualityAuditor o-- AuditTeam
+AuditTeam o-- GovernmentAgency : aggregates
+QualityAuditor o-- AuditTeam : aggregates
 @enduml

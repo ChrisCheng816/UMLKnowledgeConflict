@@ -1,4 +1,4 @@
 @startuml
-CommunityForum ..> InternetConnection
-GroupChat ..> CommunityForum
+CommunityForum ..> InternetConnection : depends on
+GroupChat ..> CommunityForum : depends on
 @enduml

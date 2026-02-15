@@ -1,4 +1,4 @@
 @startuml
-FireTeam o-- Firefighter
-ForestAgency o-- FireTeam
+FireTeam o-- Firefighter : aggregates
+ForestAgency o-- FireTeam : aggregates
 @enduml

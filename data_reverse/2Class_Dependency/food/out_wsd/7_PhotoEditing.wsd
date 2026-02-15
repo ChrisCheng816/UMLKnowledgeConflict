@@ -1,3 +1,3 @@
 @startuml
-AudioEditor ..> PhotoEditing
+AudioEditor ..> PhotoEditing : depends on
 @enduml

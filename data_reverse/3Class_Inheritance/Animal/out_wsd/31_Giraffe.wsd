@@ -1,4 +1,4 @@
 @startuml
-Giraffe <|-- Mammal
-Mammal <|-- Animal
+Giraffe <|-- Mammal : inherits
+Mammal <|-- Animal : inherits
 @enduml

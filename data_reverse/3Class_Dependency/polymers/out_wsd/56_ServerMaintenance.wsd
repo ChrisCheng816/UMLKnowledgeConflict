@@ -1,4 +1,4 @@
 @startuml
-FTPClient ..> ServerMaintenance
-OperatingSystem ..> FTPClient
+FTPClient ..> ServerMaintenance : depends on
+OperatingSystem ..> FTPClient : depends on
 @enduml

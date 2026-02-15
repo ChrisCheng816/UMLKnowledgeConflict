@@ -1,4 +1,4 @@
 @startuml
-TroopOfOrangutan o-- Steppe
-Orangutan o-- TroopOfOrangutan
+TroopOfOrangutan o-- Steppe : aggregates
+Orangutan o-- TroopOfOrangutan : aggregates
 @enduml

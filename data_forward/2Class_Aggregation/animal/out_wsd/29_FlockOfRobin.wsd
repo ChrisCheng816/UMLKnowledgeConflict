@@ -1,3 +1,3 @@
 @startuml
-Reserve o-- FlockOfRobin
+Reserve o-- FlockOfRobin : aggregates
 @enduml

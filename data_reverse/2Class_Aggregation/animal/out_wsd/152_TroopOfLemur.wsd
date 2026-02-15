@@ -1,3 +1,3 @@
 @startuml
-Lemur o-- TroopOfLemur
+Lemur o-- TroopOfLemur : aggregates
 @enduml

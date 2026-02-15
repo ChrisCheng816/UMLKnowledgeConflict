@@ -1,4 +1,4 @@
 @startuml
-Wonderwall <|-- Song
-Song <|-- MusicWork
+Wonderwall <|-- Song : inherits
+Song <|-- MusicWork : inherits
 @enduml

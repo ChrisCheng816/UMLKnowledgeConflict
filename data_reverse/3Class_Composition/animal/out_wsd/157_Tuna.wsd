@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Tuna
-Ray *-- Fin
+Fin *-- Tuna : composes
+Ray *-- Fin : composes
 @enduml

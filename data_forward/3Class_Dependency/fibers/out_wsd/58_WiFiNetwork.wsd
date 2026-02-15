@@ -1,4 +1,4 @@
 @startuml
-VideoDoorbell ..> WiFiNetwork
-DoorMonitoring ..> VideoDoorbell
+VideoDoorbell ..> WiFiNetwork : depends on
+DoorMonitoring ..> VideoDoorbell : depends on
 @enduml

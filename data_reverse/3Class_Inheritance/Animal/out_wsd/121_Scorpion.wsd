@@ -1,4 +1,4 @@
 @startuml
-Scorpion <|-- Arachnid
-Arachnid <|-- Animal
+Scorpion <|-- Arachnid : inherits
+Arachnid <|-- Animal : inherits
 @enduml

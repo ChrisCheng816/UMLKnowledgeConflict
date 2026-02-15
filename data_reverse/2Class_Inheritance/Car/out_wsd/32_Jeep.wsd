@@ -1,3 +1,3 @@
 @startuml
-Jeep <|-- CarManufacturer
+Jeep <|-- CarManufacturer : inherits
 @enduml

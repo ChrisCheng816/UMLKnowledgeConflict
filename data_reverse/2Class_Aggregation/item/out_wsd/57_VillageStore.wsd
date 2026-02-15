@@ -1,3 +1,3 @@
 @startuml
-Case o-- VillageStore
+Case o-- VillageStore : aggregates
 @enduml

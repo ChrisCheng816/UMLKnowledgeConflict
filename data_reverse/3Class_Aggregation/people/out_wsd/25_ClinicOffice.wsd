@@ -1,4 +1,4 @@
 @startuml
-MedicalTeam o-- ClinicOffice
-ERDoctor o-- MedicalTeam
+MedicalTeam o-- ClinicOffice : aggregates
+ERDoctor o-- MedicalTeam : aggregates
 @enduml

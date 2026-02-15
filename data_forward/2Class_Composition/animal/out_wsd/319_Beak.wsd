@@ -1,3 +1,3 @@
 @startuml
-Plover *-- Beak
+Plover *-- Beak : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Croatia <|-- Country
-Country <|-- GeopoliticalEntity
+Croatia <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

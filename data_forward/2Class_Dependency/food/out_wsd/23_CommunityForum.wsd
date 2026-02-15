@@ -1,3 +1,3 @@
 @startuml
-PhotoSharing ..> CommunityForum
+PhotoSharing ..> CommunityForum : depends on
 @enduml

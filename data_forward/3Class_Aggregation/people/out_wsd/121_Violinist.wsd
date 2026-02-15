@@ -1,4 +1,4 @@
 @startuml
-SectionTeam o-- Violinist
-OrchestraStation o-- SectionTeam
+SectionTeam o-- Violinist : aggregates
+OrchestraStation o-- SectionTeam : aggregates
 @enduml

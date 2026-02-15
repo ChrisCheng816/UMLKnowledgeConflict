@@ -1,4 +1,4 @@
 @startuml
-Chad <|-- Country
-Country <|-- GeopoliticalEntity
+Chad <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

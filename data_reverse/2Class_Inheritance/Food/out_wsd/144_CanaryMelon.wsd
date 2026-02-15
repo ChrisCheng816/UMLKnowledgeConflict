@@ -1,3 +1,3 @@
 @startuml
-CanaryMelon <|-- Melon
+CanaryMelon <|-- Melon : inherits
 @enduml

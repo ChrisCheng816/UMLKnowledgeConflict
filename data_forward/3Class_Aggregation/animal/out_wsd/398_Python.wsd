@@ -1,4 +1,4 @@
 @startuml
-NestOfPython o-- Python
-Aquarium o-- NestOfPython
+NestOfPython o-- Python : aggregates
+Aquarium o-- NestOfPython : aggregates
 @enduml

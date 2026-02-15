@@ -1,4 +1,4 @@
 @startuml
-CADSoftware ..> OperatingSystem
-MechanicalDesign ..> CADSoftware
+CADSoftware ..> OperatingSystem : depends on
+MechanicalDesign ..> CADSoftware : depends on
 @enduml

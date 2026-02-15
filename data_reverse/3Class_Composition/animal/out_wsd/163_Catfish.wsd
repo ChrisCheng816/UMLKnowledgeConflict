@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Catfish
-Ray *-- Fin
+Fin *-- Catfish : composes
+Ray *-- Fin : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MediaPlayer ..> Electricity
-OnlineGaming ..> MediaPlayer
+MediaPlayer ..> Electricity : depends on
+OnlineGaming ..> MediaPlayer : depends on
 @enduml

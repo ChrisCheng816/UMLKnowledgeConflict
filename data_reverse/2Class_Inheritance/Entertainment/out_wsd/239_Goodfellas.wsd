@@ -1,3 +1,3 @@
 @startuml
-Goodfellas <|-- Film
+Goodfellas <|-- Film : inherits
 @enduml

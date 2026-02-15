@@ -1,4 +1,4 @@
 @startuml
-TroopOfChimpanzee o-- Chimpanzee
-Steppe o-- TroopOfChimpanzee
+TroopOfChimpanzee o-- Chimpanzee : aggregates
+Steppe o-- TroopOfChimpanzee : aggregates
 @enduml

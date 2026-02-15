@@ -1,3 +1,3 @@
 @startuml
-House *-- Door
+House *-- Door : composes
 @enduml

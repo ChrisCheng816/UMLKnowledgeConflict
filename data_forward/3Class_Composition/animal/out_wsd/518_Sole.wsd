@@ -1,4 +1,4 @@
 @startuml
-Hoof *-- Sole
-Oryx *-- Hoof
+Hoof *-- Sole : composes
+Oryx *-- Hoof : composes
 @enduml

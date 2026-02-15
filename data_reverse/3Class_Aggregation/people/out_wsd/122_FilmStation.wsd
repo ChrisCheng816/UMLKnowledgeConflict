@@ -1,4 +1,4 @@
 @startuml
-ProductionTeam o-- FilmStation
-FilmDirector o-- ProductionTeam
+ProductionTeam o-- FilmStation : aggregates
+FilmDirector o-- ProductionTeam : aggregates
 @enduml

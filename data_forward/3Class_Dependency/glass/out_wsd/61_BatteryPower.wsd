@@ -1,4 +1,4 @@
 @startuml
-Thermometer ..> BatteryPower
-BloodPressureCheck ..> Thermometer
+Thermometer ..> BatteryPower : depends on
+BloodPressureCheck ..> Thermometer : depends on
 @enduml

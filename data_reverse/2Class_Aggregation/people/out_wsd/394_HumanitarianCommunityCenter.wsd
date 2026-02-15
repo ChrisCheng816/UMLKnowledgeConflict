@@ -1,3 +1,3 @@
 @startuml
-QualityTeam o-- HumanitarianCommunityCenter
+QualityTeam o-- HumanitarianCommunityCenter : aggregates
 @enduml

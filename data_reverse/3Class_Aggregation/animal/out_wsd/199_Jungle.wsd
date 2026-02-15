@@ -1,4 +1,4 @@
 @startuml
-PackOfFox o-- Jungle
-Fox o-- PackOfFox
+PackOfFox o-- Jungle : aggregates
+Fox o-- PackOfFox : aggregates
 @enduml

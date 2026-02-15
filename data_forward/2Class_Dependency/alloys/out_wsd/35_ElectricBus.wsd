@@ -1,3 +1,3 @@
 @startuml
-Commuting ..> ElectricBus
+Commuting ..> ElectricBus : depends on
 @enduml

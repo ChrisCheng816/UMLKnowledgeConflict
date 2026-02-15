@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Haddock
-Filament *-- Gill
+Gill *-- Haddock : composes
+Filament *-- Gill : composes
 @enduml

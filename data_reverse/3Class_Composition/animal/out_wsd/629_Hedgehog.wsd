@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Hedgehog
-Claw *-- Paw
+Paw *-- Hedgehog : composes
+Claw *-- Paw : composes
 @enduml

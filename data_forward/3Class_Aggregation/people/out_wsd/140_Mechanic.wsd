@@ -1,4 +1,4 @@
 @startuml
-DockTeam o-- Mechanic
-CoastalAgency o-- DockTeam
+DockTeam o-- Mechanic : aggregates
+CoastalAgency o-- DockTeam : aggregates
 @enduml

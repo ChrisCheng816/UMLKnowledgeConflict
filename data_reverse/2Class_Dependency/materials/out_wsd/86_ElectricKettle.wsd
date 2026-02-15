@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> ElectricKettle
+Electricity ..> ElectricKettle : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Cactus
-Cactus <|-- ChristmasCactus
+Plant <|-- Cactus : inherits
+Cactus <|-- ChristmasCactus : inherits
 @enduml

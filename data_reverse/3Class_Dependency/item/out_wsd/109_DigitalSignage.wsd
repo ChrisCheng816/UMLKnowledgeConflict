@@ -1,4 +1,4 @@
 @startuml
-MediaPlayer ..> DigitalSignage
-WallOutlet ..> MediaPlayer
+MediaPlayer ..> DigitalSignage : depends on
+WallOutlet ..> MediaPlayer : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SwarmOfWasp o-- Wasp
-Mountain o-- SwarmOfWasp
+SwarmOfWasp o-- Wasp : aggregates
+Mountain o-- SwarmOfWasp : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Combustion ..> Oxygen
+Combustion ..> Oxygen : depends on
 @enduml

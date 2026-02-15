@@ -1,3 +1,3 @@
 @startuml
-BunkeringPort ..> Ferry
+BunkeringPort ..> Ferry : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Farm o-- ColonyOfSquirrel
+Farm o-- ColonyOfSquirrel : aggregates
 @enduml

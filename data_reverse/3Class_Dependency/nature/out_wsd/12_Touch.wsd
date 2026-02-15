@@ -1,4 +1,4 @@
 @startuml
-Pressure ..> Touch
-Force ..> Pressure
+Pressure ..> Touch : depends on
+Force ..> Pressure : depends on
 @enduml

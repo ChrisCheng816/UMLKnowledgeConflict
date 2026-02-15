@@ -1,4 +1,4 @@
 @startuml
-Anemone <|-- Flower
-Flower <|-- Plant
+Anemone <|-- Flower : inherits
+Flower <|-- Plant : inherits
 @enduml

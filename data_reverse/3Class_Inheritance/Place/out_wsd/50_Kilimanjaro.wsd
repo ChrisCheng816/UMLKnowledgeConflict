@@ -1,4 +1,4 @@
 @startuml
-Kilimanjaro <|-- Mountain
-Mountain <|-- GeographicFeature
+Kilimanjaro <|-- Mountain : inherits
+Mountain <|-- GeographicFeature : inherits
 @enduml

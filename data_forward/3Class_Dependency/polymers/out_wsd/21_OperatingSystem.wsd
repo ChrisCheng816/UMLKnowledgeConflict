@@ -1,4 +1,4 @@
 @startuml
-ChatClient ..> OperatingSystem
-TextChat ..> ChatClient
+ChatClient ..> OperatingSystem : depends on
+TextChat ..> ChatClient : depends on
 @enduml

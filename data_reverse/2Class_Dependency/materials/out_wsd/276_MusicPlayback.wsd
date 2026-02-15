@@ -1,3 +1,3 @@
 @startuml
-StreamingBox ..> MusicPlayback
+StreamingBox ..> MusicPlayback : depends on
 @enduml

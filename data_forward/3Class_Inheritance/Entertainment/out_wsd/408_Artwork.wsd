@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- MonaLisa
+Artwork <|-- Painting : inherits
+Painting <|-- MonaLisa : inherits
 @enduml

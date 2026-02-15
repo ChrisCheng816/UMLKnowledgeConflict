@@ -1,3 +1,3 @@
 @startuml
-SearchTeam o-- CityRescueCenter
+SearchTeam o-- CityRescueCenter : aggregates
 @enduml

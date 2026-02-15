@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- AnimalCrossingNewHorizons
+Game <|-- VideoGame : inherits
+VideoGame <|-- AnimalCrossingNewHorizons : inherits
 @enduml

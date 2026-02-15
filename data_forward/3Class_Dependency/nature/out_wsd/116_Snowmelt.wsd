@@ -1,4 +1,4 @@
 @startuml
-RiverFlow ..> Snowmelt
-Erosion ..> RiverFlow
+RiverFlow ..> Snowmelt : depends on
+Erosion ..> RiverFlow : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Goldfinch *-- Feather
+Goldfinch *-- Feather : composes
 @enduml

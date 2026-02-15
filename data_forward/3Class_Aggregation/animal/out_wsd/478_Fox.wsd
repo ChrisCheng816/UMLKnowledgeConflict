@@ -1,4 +1,4 @@
 @startuml
-PackOfFox o-- Fox
-Harbor o-- PackOfFox
+PackOfFox o-- Fox : aggregates
+Harbor o-- PackOfFox : aggregates
 @enduml

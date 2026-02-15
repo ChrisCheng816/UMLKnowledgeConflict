@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Bluegill
-Filament *-- Gill
+Gill *-- Bluegill : composes
+Filament *-- Gill : composes
 @enduml

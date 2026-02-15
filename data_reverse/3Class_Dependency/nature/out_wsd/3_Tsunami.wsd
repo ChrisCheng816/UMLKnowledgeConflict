@@ -1,4 +1,4 @@
 @startuml
-Earthquake ..> Tsunami
-TectonicMovement ..> Earthquake
+Earthquake ..> Tsunami : depends on
+TectonicMovement ..> Earthquake : depends on
 @enduml

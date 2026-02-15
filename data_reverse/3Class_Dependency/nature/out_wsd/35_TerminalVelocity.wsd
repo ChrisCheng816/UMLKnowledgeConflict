@@ -1,4 +1,4 @@
 @startuml
-Drag ..> TerminalVelocity
-AirResistance ..> Drag
+Drag ..> TerminalVelocity : depends on
+AirResistance ..> Drag : depends on
 @enduml

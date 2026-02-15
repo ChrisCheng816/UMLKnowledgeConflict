@@ -1,3 +1,3 @@
 @startuml
-ElectricalEngineer <|-- Engineer
+ElectricalEngineer <|-- Engineer : inherits
 @enduml

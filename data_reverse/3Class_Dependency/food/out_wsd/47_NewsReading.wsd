@@ -1,4 +1,4 @@
 @startuml
-JobPortal ..> NewsReading
-InternetConnection ..> JobPortal
+JobPortal ..> NewsReading : depends on
+InternetConnection ..> JobPortal : depends on
 @enduml

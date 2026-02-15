@@ -1,4 +1,4 @@
 @startuml
-FinanceTeam o-- Dispatcher
-TransportLibrarySystem o-- FinanceTeam
+FinanceTeam o-- Dispatcher : aggregates
+TransportLibrarySystem o-- FinanceTeam : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BrowserExtension ..> OperatingSystem
-PasswordAutofill ..> BrowserExtension
+BrowserExtension ..> OperatingSystem : depends on
+PasswordAutofill ..> BrowserExtension : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-OrchestraSection o-- OrchestraAcademy
-Violinist o-- OrchestraSection
+OrchestraSection o-- OrchestraAcademy : aggregates
+Violinist o-- OrchestraSection : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ObservationGroup o-- AstronomyEnthusiast
-AstronomyClub o-- ObservationGroup
+ObservationGroup o-- AstronomyEnthusiast : aggregates
+AstronomyClub o-- ObservationGroup : aggregates
 @enduml

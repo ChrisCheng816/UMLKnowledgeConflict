@@ -1,4 +1,4 @@
 @startuml
-BudapestUniversityOfTechnologyAndEconomics <|-- University
-University <|-- EducationalInstitution
+BudapestUniversityOfTechnologyAndEconomics <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

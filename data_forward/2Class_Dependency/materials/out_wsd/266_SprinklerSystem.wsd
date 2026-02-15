@@ -1,3 +1,3 @@
 @startuml
-LawnWatering ..> SprinklerSystem
+LawnWatering ..> SprinklerSystem : depends on
 @enduml

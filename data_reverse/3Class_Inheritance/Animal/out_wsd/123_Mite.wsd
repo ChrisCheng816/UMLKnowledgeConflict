@@ -1,4 +1,4 @@
 @startuml
-Mite <|-- Arachnid
-Arachnid <|-- Animal
+Mite <|-- Arachnid : inherits
+Arachnid <|-- Animal : inherits
 @enduml

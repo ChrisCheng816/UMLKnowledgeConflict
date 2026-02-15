@@ -1,4 +1,4 @@
 @startuml
-DisplayModule *-- LCDPanel
-Laptop *-- DisplayModule
+DisplayModule *-- LCDPanel : composes
+Laptop *-- DisplayModule : composes
 @enduml

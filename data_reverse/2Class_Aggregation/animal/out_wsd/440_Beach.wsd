@@ -1,3 +1,3 @@
 @startuml
-FlockOfEmu o-- Beach
+FlockOfEmu o-- Beach : aggregates
 @enduml

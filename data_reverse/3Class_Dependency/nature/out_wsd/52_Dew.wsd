@@ -1,4 +1,4 @@
 @startuml
-CoolSurface ..> Dew
-NightSky ..> CoolSurface
+CoolSurface ..> Dew : depends on
+NightSky ..> CoolSurface : depends on
 @enduml

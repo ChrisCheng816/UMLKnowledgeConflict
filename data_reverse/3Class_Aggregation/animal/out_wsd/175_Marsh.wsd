@@ -1,4 +1,4 @@
 @startuml
-FlockOfJay o-- Marsh
-Jay o-- FlockOfJay
+FlockOfJay o-- Marsh : aggregates
+Jay o-- FlockOfJay : aggregates
 @enduml

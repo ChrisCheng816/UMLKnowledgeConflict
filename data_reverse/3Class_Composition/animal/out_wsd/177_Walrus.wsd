@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Walrus
-Root *-- Tooth
+Tooth *-- Walrus : composes
+Root *-- Tooth : composes
 @enduml

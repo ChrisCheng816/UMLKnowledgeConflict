@@ -1,4 +1,4 @@
 @startuml
-FitnessTracker ..> LocationTracking
-GPSSignal ..> FitnessTracker
+FitnessTracker ..> LocationTracking : depends on
+GPSSignal ..> FitnessTracker : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-StandingWave ..> Seiche
+StandingWave ..> Seiche : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TomatoSauce *-- Tomato
-Shakshuka *-- TomatoSauce
+TomatoSauce *-- Tomato : composes
+Shakshuka *-- TomatoSauce : composes
 @enduml

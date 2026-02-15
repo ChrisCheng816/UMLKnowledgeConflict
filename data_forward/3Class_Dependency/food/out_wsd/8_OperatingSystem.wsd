@@ -1,4 +1,4 @@
 @startuml
-CalendarApp ..> OperatingSystem
-NoteTaking ..> CalendarApp
+CalendarApp ..> OperatingSystem : depends on
+NoteTaking ..> CalendarApp : depends on
 @enduml

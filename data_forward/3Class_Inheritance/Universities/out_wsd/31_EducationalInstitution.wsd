@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University
-University <|-- RiceUniversity
+EducationalInstitution <|-- University : inherits
+University <|-- RiceUniversity : inherits
 @enduml

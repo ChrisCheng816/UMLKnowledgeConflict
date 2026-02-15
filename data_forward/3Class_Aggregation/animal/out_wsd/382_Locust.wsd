@@ -1,4 +1,4 @@
 @startuml
-SwarmOfLocust o-- Locust
-Pasture o-- SwarmOfLocust
+SwarmOfLocust o-- Locust : aggregates
+Pasture o-- SwarmOfLocust : aggregates
 @enduml

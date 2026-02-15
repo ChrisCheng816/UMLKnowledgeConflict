@@ -1,3 +1,3 @@
 @startuml
-Surveillance ..> MotionSensor
+Surveillance ..> MotionSensor : depends on
 @enduml

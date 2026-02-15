@@ -1,4 +1,4 @@
 @startuml
-Latte <|-- Beverage
-Beverage <|-- Food
+Latte <|-- Beverage : inherits
+Beverage <|-- Food : inherits
 @enduml

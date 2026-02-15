@@ -1,3 +1,3 @@
 @startuml
-Electricity ..> LaserCutter
+Electricity ..> LaserCutter : depends on
 @enduml

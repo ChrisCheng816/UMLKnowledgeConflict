@@ -1,3 +1,3 @@
 @startuml
-Scientist <|-- Biologist
+Scientist <|-- Biologist : inherits
 @enduml

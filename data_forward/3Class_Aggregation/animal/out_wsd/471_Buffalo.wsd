@@ -1,4 +1,4 @@
 @startuml
-HerdOfBuffalo o-- Buffalo
-Harbor o-- HerdOfBuffalo
+HerdOfBuffalo o-- Buffalo : aggregates
+Harbor o-- HerdOfBuffalo : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Woodpecker <|-- Bird
-Bird <|-- Animal
+Woodpecker <|-- Bird : inherits
+Bird <|-- Animal : inherits
 @enduml

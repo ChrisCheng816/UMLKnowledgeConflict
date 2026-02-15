@@ -1,3 +1,3 @@
 @startuml
-ElectricScooter ..> Electricity
+ElectricScooter ..> Electricity : depends on
 @enduml

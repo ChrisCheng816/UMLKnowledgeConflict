@@ -1,3 +1,3 @@
 @startuml
-University <|-- McGillUniversity
+University <|-- McGillUniversity : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-CarHandsFree ..> HandsFreeCalling
+CarHandsFree ..> HandsFreeCalling : depends on
 @enduml

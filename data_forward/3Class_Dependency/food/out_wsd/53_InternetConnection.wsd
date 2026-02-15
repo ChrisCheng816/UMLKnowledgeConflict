@@ -1,4 +1,4 @@
 @startuml
-MapService ..> InternetConnection
-Navigation ..> MapService
+MapService ..> InternetConnection : depends on
+Navigation ..> MapService : depends on
 @enduml

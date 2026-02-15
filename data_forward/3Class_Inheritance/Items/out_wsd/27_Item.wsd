@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Electronics
-Electronics <|-- PowerBank
+Item <|-- Electronics : inherits
+Electronics <|-- PowerBank : inherits
 @enduml

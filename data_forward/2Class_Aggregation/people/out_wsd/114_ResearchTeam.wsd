@@ -1,3 +1,3 @@
 @startuml
-ScienceAgency o-- ResearchTeam
+ScienceAgency o-- ResearchTeam : aggregates
 @enduml

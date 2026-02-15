@@ -1,4 +1,4 @@
 @startuml
-Cranberry <|-- Berry
-Berry <|-- Fruit
+Cranberry <|-- Berry : inherits
+Berry <|-- Fruit : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-MonitoringTeam o-- MarineSanctuary
+MonitoringTeam o-- MarineSanctuary : aggregates
 @enduml

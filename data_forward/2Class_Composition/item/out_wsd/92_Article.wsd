@@ -1,3 +1,3 @@
 @startuml
-Section *-- Article
+Section *-- Article : composes
 @enduml

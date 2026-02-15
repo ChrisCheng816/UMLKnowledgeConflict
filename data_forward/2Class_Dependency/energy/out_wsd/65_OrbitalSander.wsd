@@ -1,3 +1,3 @@
 @startuml
-Sanding ..> OrbitalSander
+Sanding ..> OrbitalSander : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TheIncredibles <|-- Film
-Film <|-- Entertainment
+TheIncredibles <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-FieldMedic o-- RapidResponseTeam
+FieldMedic o-- RapidResponseTeam : aggregates
 @enduml

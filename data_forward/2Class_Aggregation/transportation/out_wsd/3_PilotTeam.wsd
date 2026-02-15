@@ -1,3 +1,3 @@
 @startuml
-PortAuthority o-- PilotTeam
+PortAuthority o-- PilotTeam : aggregates
 @enduml

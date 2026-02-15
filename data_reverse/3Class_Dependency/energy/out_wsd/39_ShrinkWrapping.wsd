@@ -1,4 +1,4 @@
 @startuml
-HeatGun ..> ShrinkWrapping
-Electricity ..> HeatGun
+HeatGun ..> ShrinkWrapping : depends on
+Electricity ..> HeatGun : depends on
 @enduml

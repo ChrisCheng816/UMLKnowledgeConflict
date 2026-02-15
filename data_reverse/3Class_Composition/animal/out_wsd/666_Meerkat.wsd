@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Meerkat
-Nostril *-- Nose
+Nose *-- Meerkat : composes
+Nostril *-- Nose : composes
 @enduml

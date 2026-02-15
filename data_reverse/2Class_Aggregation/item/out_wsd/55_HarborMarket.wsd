@@ -1,3 +1,3 @@
 @startuml
-Crate o-- HarborMarket
+Crate o-- HarborMarket : aggregates
 @enduml

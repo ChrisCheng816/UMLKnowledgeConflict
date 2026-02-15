@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Beverage
-Beverage <|-- Kombucha
+Food <|-- Beverage : inherits
+Beverage <|-- Kombucha : inherits
 @enduml

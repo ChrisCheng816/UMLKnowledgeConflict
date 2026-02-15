@@ -1,4 +1,4 @@
 @startuml
-Photocopier ..> CopyingDocuments
-Electricity ..> Photocopier
+Photocopier ..> CopyingDocuments : depends on
+Electricity ..> Photocopier : depends on
 @enduml

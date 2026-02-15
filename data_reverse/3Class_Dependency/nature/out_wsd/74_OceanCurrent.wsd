@@ -1,4 +1,4 @@
 @startuml
-CoriolisEffect ..> OceanCurrent
-EarthRotation ..> CoriolisEffect
+CoriolisEffect ..> OceanCurrent : depends on
+EarthRotation ..> CoriolisEffect : depends on
 @enduml

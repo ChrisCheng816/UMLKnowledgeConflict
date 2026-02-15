@@ -1,4 +1,4 @@
 @startuml
-ArmyOfFrog o-- Frog
-Delta o-- ArmyOfFrog
+ArmyOfFrog o-- Frog : aggregates
+Delta o-- ArmyOfFrog : aggregates
 @enduml

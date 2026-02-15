@@ -1,4 +1,4 @@
 @startuml
-SwarmOfAphid o-- Mountain
-Aphid o-- SwarmOfAphid
+SwarmOfAphid o-- Mountain : aggregates
+Aphid o-- SwarmOfAphid : aggregates
 @enduml

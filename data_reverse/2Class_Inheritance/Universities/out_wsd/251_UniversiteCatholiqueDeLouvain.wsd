@@ -1,3 +1,3 @@
 @startuml
-UniversiteCatholiqueDeLouvain <|-- University
+UniversiteCatholiqueDeLouvain <|-- University : inherits
 @enduml

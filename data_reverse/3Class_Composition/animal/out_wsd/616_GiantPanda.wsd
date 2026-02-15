@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- GiantPanda
-Root *-- Tooth
+Tooth *-- GiantPanda : composes
+Root *-- Tooth : composes
 @enduml

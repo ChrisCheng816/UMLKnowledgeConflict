@@ -1,4 +1,4 @@
 @startuml
-FoodProcessor ..> Electricity
-Slicing ..> FoodProcessor
+FoodProcessor ..> Electricity : depends on
+Slicing ..> FoodProcessor : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Motorcycle ..> Gasoline
-CityCommute ..> Motorcycle
+Motorcycle ..> Gasoline : depends on
+CityCommute ..> Motorcycle : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ParamedicUnit o-- Paramedic
-EmergencyOffice o-- ParamedicUnit
+ParamedicUnit o-- Paramedic : aggregates
+EmergencyOffice o-- ParamedicUnit : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-TeachingTeam o-- EducationStation
+TeachingTeam o-- EducationStation : aggregates
 @enduml

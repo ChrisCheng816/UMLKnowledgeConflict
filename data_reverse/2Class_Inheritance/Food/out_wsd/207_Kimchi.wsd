@@ -1,3 +1,3 @@
 @startuml
-Kimchi <|-- Dish
+Kimchi <|-- Dish : inherits
 @enduml

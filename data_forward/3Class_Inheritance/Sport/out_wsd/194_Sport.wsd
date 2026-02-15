@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- ShootingSport
-ShootingSport <|-- PracticalShooting
+Sport <|-- ShootingSport : inherits
+ShootingSport <|-- PracticalShooting : inherits
 @enduml

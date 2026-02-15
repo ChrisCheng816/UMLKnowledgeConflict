@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Lionfish
-Filament *-- Gill
+Gill *-- Lionfish : composes
+Filament *-- Gill : composes
 @enduml

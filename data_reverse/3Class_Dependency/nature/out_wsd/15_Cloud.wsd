@@ -1,4 +1,4 @@
 @startuml
-Condensation ..> Cloud
-Cooling ..> Condensation
+Condensation ..> Cloud : depends on
+Cooling ..> Condensation : depends on
 @enduml

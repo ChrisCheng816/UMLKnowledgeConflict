@@ -1,3 +1,3 @@
 @startuml
-IntercomPanel ..> WallOutlet
+IntercomPanel ..> WallOutlet : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-DieselTruck ..> ConstructionHauling
+DieselTruck ..> ConstructionHauling : depends on
 @enduml

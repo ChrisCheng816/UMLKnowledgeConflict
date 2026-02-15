@@ -1,4 +1,4 @@
 @startuml
-PatientMonitor ..> Electricity
-PatientMonitoring ..> PatientMonitor
+PatientMonitor ..> Electricity : depends on
+PatientMonitoring ..> PatientMonitor : depends on
 @enduml

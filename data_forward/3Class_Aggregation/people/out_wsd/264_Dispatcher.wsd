@@ -1,4 +1,4 @@
 @startuml
-FinanceTeam o-- Dispatcher
-EnvironmentalUniversityOffice o-- FinanceTeam
+FinanceTeam o-- Dispatcher : aggregates
+EnvironmentalUniversityOffice o-- FinanceTeam : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-BridgeManagementOffice o-- MaintenanceTeam
+BridgeManagementOffice o-- MaintenanceTeam : aggregates
 @enduml

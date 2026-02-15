@@ -1,4 +1,4 @@
 @startuml
-GroupOfLobster o-- Island
-Lobster o-- GroupOfLobster
+GroupOfLobster o-- Island : aggregates
+Lobster o-- GroupOfLobster : aggregates
 @enduml

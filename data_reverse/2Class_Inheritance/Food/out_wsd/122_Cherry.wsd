@@ -1,3 +1,3 @@
 @startuml
-Cherry <|-- StoneFruit
+Cherry <|-- StoneFruit : inherits
 @enduml

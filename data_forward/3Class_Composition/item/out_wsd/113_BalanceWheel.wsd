@@ -1,4 +1,4 @@
 @startuml
-WatchMovement *-- BalanceWheel
-PocketWatch *-- WatchMovement
+WatchMovement *-- BalanceWheel : composes
+PocketWatch *-- WatchMovement : composes
 @enduml

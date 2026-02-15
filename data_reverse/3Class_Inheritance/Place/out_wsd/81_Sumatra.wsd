@@ -1,4 +1,4 @@
 @startuml
-Sumatra <|-- Island
-Island <|-- GeographicFeature
+Sumatra <|-- Island : inherits
+Island <|-- GeographicFeature : inherits
 @enduml

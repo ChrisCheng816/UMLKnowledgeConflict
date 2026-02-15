@@ -1,3 +1,3 @@
 @startuml
-LockerUnit o-- ParcelLocker
+LockerUnit o-- ParcelLocker : aggregates
 @enduml

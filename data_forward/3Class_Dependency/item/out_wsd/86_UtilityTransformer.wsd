@@ -1,4 +1,4 @@
 @startuml
-ChargingStation ..> UtilityTransformer
-ElectricCar ..> ChargingStation
+ChargingStation ..> UtilityTransformer : depends on
+ElectricCar ..> ChargingStation : depends on
 @enduml

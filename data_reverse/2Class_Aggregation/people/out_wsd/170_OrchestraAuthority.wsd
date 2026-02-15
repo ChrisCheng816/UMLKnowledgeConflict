@@ -1,3 +1,3 @@
 @startuml
-RehearsalTeam o-- OrchestraAuthority
+RehearsalTeam o-- OrchestraAuthority : aggregates
 @enduml

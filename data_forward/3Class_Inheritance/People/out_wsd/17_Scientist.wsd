@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- ComputerScientist
-ComputerScientist <|-- TimBernersLee
+Scientist <|-- ComputerScientist : inherits
+ComputerScientist <|-- TimBernersLee : inherits
 @enduml

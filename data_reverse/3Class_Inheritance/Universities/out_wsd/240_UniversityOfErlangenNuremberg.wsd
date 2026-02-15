@@ -1,4 +1,4 @@
 @startuml
-UniversityOfErlangenNuremberg <|-- University
-University <|-- EducationalInstitution
+UniversityOfErlangenNuremberg <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-PresentationSoftware ..> OperatingSystem
+PresentationSoftware ..> OperatingSystem : depends on
 @enduml

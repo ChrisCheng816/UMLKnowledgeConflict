@@ -1,4 +1,4 @@
 @startuml
-VampireTheMasquerade <|-- TabletopRPG
-TabletopRPG <|-- Game
+VampireTheMasquerade <|-- TabletopRPG : inherits
+TabletopRPG <|-- Game : inherits
 @enduml

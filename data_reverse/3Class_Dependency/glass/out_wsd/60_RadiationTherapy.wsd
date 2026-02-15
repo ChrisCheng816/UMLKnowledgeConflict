@@ -1,4 +1,4 @@
 @startuml
-TherapyMachine ..> RadiationTherapy
-Electricity ..> TherapyMachine
+TherapyMachine ..> RadiationTherapy : depends on
+Electricity ..> TherapyMachine : depends on
 @enduml

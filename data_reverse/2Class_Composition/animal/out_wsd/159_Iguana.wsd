@@ -1,3 +1,3 @@
 @startuml
-Skin *-- Iguana
+Skin *-- Iguana : composes
 @enduml

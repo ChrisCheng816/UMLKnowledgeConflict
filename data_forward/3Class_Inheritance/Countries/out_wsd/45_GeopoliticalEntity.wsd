@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- ChristmasIsland
+GeopoliticalEntity <|-- Country : inherits
+Country <|-- ChristmasIsland : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MaintenanceTeam o-- BridgeManagementOffice
-Engineer o-- MaintenanceTeam
+MaintenanceTeam o-- BridgeManagementOffice : aggregates
+Engineer o-- MaintenanceTeam : aggregates
 @enduml

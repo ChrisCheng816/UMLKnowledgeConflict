@@ -1,3 +1,3 @@
 @startuml
-Cactus <|-- Plant
+Cactus <|-- Plant : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Item <|-- Utensil
+Item <|-- Utensil : inherits
 @enduml

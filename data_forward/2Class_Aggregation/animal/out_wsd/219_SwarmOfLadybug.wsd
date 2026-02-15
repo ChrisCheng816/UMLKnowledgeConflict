@@ -1,3 +1,3 @@
 @startuml
-Lagoon o-- SwarmOfLadybug
+Lagoon o-- SwarmOfLadybug : aggregates
 @enduml

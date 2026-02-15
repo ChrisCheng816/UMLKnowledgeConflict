@@ -1,4 +1,4 @@
 @startuml
-MusicStreamingService ..> MusicStreaming
-InternetConnection ..> MusicStreamingService
+MusicStreamingService ..> MusicStreaming : depends on
+InternetConnection ..> MusicStreamingService : depends on
 @enduml

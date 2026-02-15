@@ -1,3 +1,3 @@
 @startuml
-Espresso *-- CoffeeBeans
+Espresso *-- CoffeeBeans : composes
 @enduml

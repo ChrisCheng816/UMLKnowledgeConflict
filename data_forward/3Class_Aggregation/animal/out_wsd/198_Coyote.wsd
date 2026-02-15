@@ -1,4 +1,4 @@
 @startuml
-PackOfCoyote o-- Coyote
-Jungle o-- PackOfCoyote
+PackOfCoyote o-- Coyote : aggregates
+Jungle o-- PackOfCoyote : aggregates
 @enduml

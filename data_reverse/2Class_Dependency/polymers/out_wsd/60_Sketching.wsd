@@ -1,3 +1,3 @@
 @startuml
-DrawingApp ..> Sketching
+DrawingApp ..> Sketching : depends on
 @enduml

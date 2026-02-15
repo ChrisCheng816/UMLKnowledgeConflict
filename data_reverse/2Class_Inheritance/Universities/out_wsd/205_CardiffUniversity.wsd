@@ -1,3 +1,3 @@
 @startuml
-CardiffUniversity <|-- University
+CardiffUniversity <|-- University : inherits
 @enduml

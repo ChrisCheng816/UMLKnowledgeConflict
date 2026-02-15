@@ -1,4 +1,4 @@
 @startuml
-SecurityTeam o-- InfrastructureDesignAgency
-SecurityGuard o-- SecurityTeam
+SecurityTeam o-- InfrastructureDesignAgency : aggregates
+SecurityGuard o-- SecurityTeam : aggregates
 @enduml

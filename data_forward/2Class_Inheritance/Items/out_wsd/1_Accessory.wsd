@@ -1,3 +1,3 @@
 @startuml
-Accessory <|-- Bag
+Accessory <|-- Bag : inherits
 @enduml

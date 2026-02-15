@@ -1,4 +1,4 @@
 @startuml
-Pancakes *-- PekingDuck
-Flour *-- Pancakes
+Pancakes *-- PekingDuck : composes
+Flour *-- Pancakes : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Artist <|-- Musician
-Musician <|-- Composer
+Artist <|-- Musician : inherits
+Musician <|-- Composer : inherits
 @enduml

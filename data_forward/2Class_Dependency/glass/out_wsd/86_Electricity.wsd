@@ -1,3 +1,3 @@
 @startuml
-UltrasoundMachine ..> Electricity
+UltrasoundMachine ..> Electricity : depends on
 @enduml

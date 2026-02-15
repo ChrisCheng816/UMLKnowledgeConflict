@@ -1,3 +1,3 @@
 @startuml
-CoastalAgency o-- MaintenanceTeam
+CoastalAgency o-- MaintenanceTeam : aggregates
 @enduml

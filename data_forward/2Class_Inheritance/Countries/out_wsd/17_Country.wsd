@@ -1,3 +1,3 @@
 @startuml
-Country <|-- Bahamas
+Country <|-- Bahamas : inherits
 @enduml

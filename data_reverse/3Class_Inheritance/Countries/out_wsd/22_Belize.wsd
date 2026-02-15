@@ -1,4 +1,4 @@
 @startuml
-Belize <|-- Country
-Country <|-- GeopoliticalEntity
+Belize <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

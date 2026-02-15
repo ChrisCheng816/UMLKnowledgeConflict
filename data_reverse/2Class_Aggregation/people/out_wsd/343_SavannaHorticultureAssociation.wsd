@@ -1,3 +1,3 @@
 @startuml
-WildlifeCareTeam o-- SavannaHorticultureAssociation
+WildlifeCareTeam o-- SavannaHorticultureAssociation : aggregates
 @enduml

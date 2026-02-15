@@ -1,4 +1,4 @@
 @startuml
-SchoolOfCod o-- Cod
-Valley o-- SchoolOfCod
+SchoolOfCod o-- Cod : aggregates
+Valley o-- SchoolOfCod : aggregates
 @enduml

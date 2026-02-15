@@ -1,4 +1,4 @@
 @startuml
-PrideOfLion o-- Desert
-Lion o-- PrideOfLion
+PrideOfLion o-- Desert : aggregates
+Lion o-- PrideOfLion : aggregates
 @enduml

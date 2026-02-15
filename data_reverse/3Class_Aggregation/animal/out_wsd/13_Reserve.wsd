@@ -1,4 +1,4 @@
 @startuml
-FlockOfRaven o-- Reserve
-Raven o-- FlockOfRaven
+FlockOfRaven o-- Reserve : aggregates
+Raven o-- FlockOfRaven : aggregates
 @enduml

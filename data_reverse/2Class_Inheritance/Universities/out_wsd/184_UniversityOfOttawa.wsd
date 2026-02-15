@@ -1,3 +1,3 @@
 @startuml
-UniversityOfOttawa <|-- University
+UniversityOfOttawa <|-- University : inherits
 @enduml

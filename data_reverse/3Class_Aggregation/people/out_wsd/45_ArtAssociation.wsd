@@ -1,4 +1,4 @@
 @startuml
-DesignTeam o-- ArtAssociation
-Designer o-- DesignTeam
+DesignTeam o-- ArtAssociation : aggregates
+Designer o-- DesignTeam : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Flower ..> Pollinator
-Plant ..> Flower
+Flower ..> Pollinator : depends on
+Plant ..> Flower : depends on
 @enduml

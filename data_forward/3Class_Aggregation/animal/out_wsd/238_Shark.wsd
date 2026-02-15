@@ -1,4 +1,4 @@
 @startuml
-SchoolOfShark o-- Shark
-Hill o-- SchoolOfShark
+SchoolOfShark o-- Shark : aggregates
+Hill o-- SchoolOfShark : aggregates
 @enduml

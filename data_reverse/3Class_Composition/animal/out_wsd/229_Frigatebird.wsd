@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Frigatebird
-Feather *-- Wing
+Wing *-- Frigatebird : composes
+Feather *-- Wing : composes
 @enduml

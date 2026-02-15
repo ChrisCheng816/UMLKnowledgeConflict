@@ -1,4 +1,4 @@
 @startuml
-AirFryer ..> Electricity
-AirFrying ..> AirFryer
+AirFryer ..> Electricity : depends on
+AirFrying ..> AirFryer : depends on
 @enduml

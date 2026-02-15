@@ -1,3 +1,3 @@
 @startuml
-Reindeer *-- Hoof
+Reindeer *-- Hoof : composes
 @enduml

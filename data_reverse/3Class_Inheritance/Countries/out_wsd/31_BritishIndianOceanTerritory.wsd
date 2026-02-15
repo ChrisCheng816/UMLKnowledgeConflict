@@ -1,4 +1,4 @@
 @startuml
-BritishIndianOceanTerritory <|-- Country
-Country <|-- GeopoliticalEntity
+BritishIndianOceanTerritory <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

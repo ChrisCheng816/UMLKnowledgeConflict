@@ -1,3 +1,3 @@
 @startuml
-FlockOfWren o-- Pond
+FlockOfWren o-- Pond : aggregates
 @enduml

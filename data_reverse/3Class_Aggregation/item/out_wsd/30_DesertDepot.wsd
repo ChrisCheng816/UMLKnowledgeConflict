@@ -1,4 +1,4 @@
 @startuml
-Bin o-- DesertDepot
-DriedHerb o-- Bin
+Bin o-- DesertDepot : aggregates
+DriedHerb o-- Bin : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-SearchEngine ..> InformationLookup
+SearchEngine ..> InformationLookup : depends on
 @enduml

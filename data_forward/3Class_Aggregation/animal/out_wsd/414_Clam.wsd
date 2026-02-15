@@ -1,4 +1,4 @@
 @startuml
-GroupOfClam o-- Clam
-Zoo o-- GroupOfClam
+GroupOfClam o-- Clam : aggregates
+Zoo o-- GroupOfClam : aggregates
 @enduml

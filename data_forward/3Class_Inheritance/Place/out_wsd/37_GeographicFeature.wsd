@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- River
-River <|-- MississippiRiver
+GeographicFeature <|-- River : inherits
+River <|-- MississippiRiver : inherits
 @enduml

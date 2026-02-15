@@ -1,3 +1,3 @@
 @startuml
-MusicGenre <|-- Music
+MusicGenre <|-- Music : inherits
 @enduml

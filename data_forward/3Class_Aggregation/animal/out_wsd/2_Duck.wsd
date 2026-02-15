@@ -1,4 +1,4 @@
 @startuml
-FlockOfDuck o-- Duck
-Sanctuary o-- FlockOfDuck
+FlockOfDuck o-- Duck : aggregates
+Sanctuary o-- FlockOfDuck : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MountaineeringTeam o-- TeamLeader
-OutdoorAlliance o-- MountaineeringTeam
+MountaineeringTeam o-- TeamLeader : aggregates
+OutdoorAlliance o-- MountaineeringTeam : aggregates
 @enduml

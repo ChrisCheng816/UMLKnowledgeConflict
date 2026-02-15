@@ -1,3 +1,3 @@
 @startuml
-LearningPlatform ..> CourseStreaming
+LearningPlatform ..> CourseStreaming : depends on
 @enduml

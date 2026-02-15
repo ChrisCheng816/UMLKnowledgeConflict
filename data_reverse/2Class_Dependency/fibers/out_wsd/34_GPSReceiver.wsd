@@ -1,3 +1,3 @@
 @startuml
-GPSSatellite ..> GPSReceiver
+GPSSatellite ..> GPSReceiver : depends on
 @enduml

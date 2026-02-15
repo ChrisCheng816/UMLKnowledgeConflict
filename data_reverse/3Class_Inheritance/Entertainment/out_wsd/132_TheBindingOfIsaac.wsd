@@ -1,4 +1,4 @@
 @startuml
-TheBindingOfIsaac <|-- VideoGame
-VideoGame <|-- Game
+TheBindingOfIsaac <|-- VideoGame : inherits
+VideoGame <|-- Game : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PackOfBear o-- Bear
-Inlet o-- PackOfBear
+PackOfBear o-- Bear : aggregates
+Inlet o-- PackOfBear : aggregates
 @enduml

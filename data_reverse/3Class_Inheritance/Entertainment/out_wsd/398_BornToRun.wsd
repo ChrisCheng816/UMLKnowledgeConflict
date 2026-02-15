@@ -1,4 +1,4 @@
 @startuml
-BornToRun <|-- Album
-Album <|-- MusicWork
+BornToRun <|-- Album : inherits
+Album <|-- MusicWork : inherits
 @enduml

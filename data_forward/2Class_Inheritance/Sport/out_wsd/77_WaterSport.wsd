@@ -1,3 +1,3 @@
 @startuml
-WaterSport <|-- Kayaking
+WaterSport <|-- Kayaking : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tortilla *-- HuevosRancheros
-Cornmeal *-- Tortilla
+Tortilla *-- HuevosRancheros : composes
+Cornmeal *-- Tortilla : composes
 @enduml

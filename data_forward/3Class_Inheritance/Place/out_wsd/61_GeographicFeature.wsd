@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Volcano
-Volcano <|-- MountStHelens
+GeographicFeature <|-- Volcano : inherits
+Volcano <|-- MountStHelens : inherits
 @enduml

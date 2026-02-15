@@ -1,3 +1,3 @@
 @startuml
-OrchestraSociety o-- Board
+OrchestraSociety o-- Board : aggregates
 @enduml

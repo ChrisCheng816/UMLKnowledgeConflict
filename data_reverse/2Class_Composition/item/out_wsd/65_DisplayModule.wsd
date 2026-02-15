@@ -1,3 +1,3 @@
 @startuml
-LCDPanel *-- DisplayModule
+LCDPanel *-- DisplayModule : composes
 @enduml

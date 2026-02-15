@@ -1,3 +1,3 @@
 @startuml
-Tram ..> OverheadLine
+Tram ..> OverheadLine : depends on
 @enduml

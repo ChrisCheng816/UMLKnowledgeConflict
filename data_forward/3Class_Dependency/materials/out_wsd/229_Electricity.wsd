@@ -1,4 +1,4 @@
 @startuml
-VacuumCleaner ..> Electricity
-CarpetCleaning ..> VacuumCleaner
+VacuumCleaner ..> Electricity : depends on
+CarpetCleaning ..> VacuumCleaner : depends on
 @enduml

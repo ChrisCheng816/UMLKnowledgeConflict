@@ -1,4 +1,4 @@
 @startuml
-CoconutMilk *-- Coconut
-GreenCurry *-- CoconutMilk
+CoconutMilk *-- Coconut : composes
+GreenCurry *-- CoconutMilk : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- AlliumVegetable
-AlliumVegetable <|-- Leek
+Vegetable <|-- AlliumVegetable : inherits
+AlliumVegetable <|-- Leek : inherits
 @enduml

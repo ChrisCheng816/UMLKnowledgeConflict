@@ -1,3 +1,3 @@
 @startuml
-Country <|-- Djibouti
+Country <|-- Djibouti : inherits
 @enduml

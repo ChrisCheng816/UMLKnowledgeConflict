@@ -1,4 +1,4 @@
 @startuml
-Rabbit ..> Snake
-Grass ..> Rabbit
+Rabbit ..> Snake : depends on
+Grass ..> Rabbit : depends on
 @enduml

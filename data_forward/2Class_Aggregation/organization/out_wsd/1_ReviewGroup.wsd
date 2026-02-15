@@ -1,3 +1,3 @@
 @startuml
-FilmAssociation o-- ReviewGroup
+FilmAssociation o-- ReviewGroup : aggregates
 @enduml

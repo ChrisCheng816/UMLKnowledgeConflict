@@ -1,4 +1,4 @@
 @startuml
-LetItBe <|-- Song
-Song <|-- MusicWork
+LetItBe <|-- Song : inherits
+Song <|-- MusicWork : inherits
 @enduml

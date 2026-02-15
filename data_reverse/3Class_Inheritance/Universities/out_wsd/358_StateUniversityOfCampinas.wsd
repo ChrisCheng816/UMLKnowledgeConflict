@@ -1,4 +1,4 @@
 @startuml
-StateUniversityOfCampinas <|-- University
-University <|-- EducationalInstitution
+StateUniversityOfCampinas <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

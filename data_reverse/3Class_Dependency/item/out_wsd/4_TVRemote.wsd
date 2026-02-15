@@ -1,4 +1,4 @@
 @startuml
-Battery ..> TVRemote
-ElectrochemicalReaction ..> Battery
+Battery ..> TVRemote : depends on
+ElectrochemicalReaction ..> Battery : depends on
 @enduml

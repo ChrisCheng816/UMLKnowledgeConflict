@@ -1,4 +1,4 @@
 @startuml
-UtilityTransformer ..> TractionSubstation
-DistributionLine ..> UtilityTransformer
+UtilityTransformer ..> TractionSubstation : depends on
+DistributionLine ..> UtilityTransformer : depends on
 @enduml

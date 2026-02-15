@@ -1,4 +1,4 @@
 @startuml
-FileTransfer ..> InternetConnection
-LargeUpload ..> FileTransfer
+FileTransfer ..> InternetConnection : depends on
+LargeUpload ..> FileTransfer : depends on
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Customer ..> Meal
-Restaurant ..> Customer
+Customer ..> Meal : depends on
+Restaurant ..> Customer : depends on
 @enduml

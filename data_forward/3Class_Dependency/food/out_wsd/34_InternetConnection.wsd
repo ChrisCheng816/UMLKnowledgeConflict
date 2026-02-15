@@ -1,4 +1,4 @@
 @startuml
-GitRepositoryHost ..> InternetConnection
-CodeHosting ..> GitRepositoryHost
+GitRepositoryHost ..> InternetConnection : depends on
+CodeHosting ..> GitRepositoryHost : depends on
 @enduml

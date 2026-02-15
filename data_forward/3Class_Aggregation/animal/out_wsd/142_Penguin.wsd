@@ -1,4 +1,4 @@
 @startuml
-FlockOfPenguin o-- Penguin
-River o-- FlockOfPenguin
+FlockOfPenguin o-- Penguin : aggregates
+River o-- FlockOfPenguin : aggregates
 @enduml

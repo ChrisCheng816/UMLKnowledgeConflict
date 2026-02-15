@@ -1,3 +1,3 @@
 @startuml
-Toucan *-- Beak
+Toucan *-- Beak : composes
 @enduml

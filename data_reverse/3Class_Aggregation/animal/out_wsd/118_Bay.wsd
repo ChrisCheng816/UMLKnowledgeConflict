@@ -1,4 +1,4 @@
 @startuml
-NestOfCobra o-- Bay
-Cobra o-- NestOfCobra
+NestOfCobra o-- Bay : aggregates
+Cobra o-- NestOfCobra : aggregates
 @enduml

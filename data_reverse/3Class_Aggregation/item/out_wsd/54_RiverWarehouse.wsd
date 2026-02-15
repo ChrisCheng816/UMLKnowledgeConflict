@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- RiverWarehouse
-Blanket o-- StorageBin
+StorageBin o-- RiverWarehouse : aggregates
+Blanket o-- StorageBin : aggregates
 @enduml

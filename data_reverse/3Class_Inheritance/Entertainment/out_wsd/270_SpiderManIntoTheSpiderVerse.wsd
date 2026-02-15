@@ -1,4 +1,4 @@
 @startuml
-SpiderManIntoTheSpiderVerse <|-- Film
-Film <|-- Entertainment
+SpiderManIntoTheSpiderVerse <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Redfish
-Filament *-- Gill
+Gill *-- Redfish : composes
+Filament *-- Gill : composes
 @enduml

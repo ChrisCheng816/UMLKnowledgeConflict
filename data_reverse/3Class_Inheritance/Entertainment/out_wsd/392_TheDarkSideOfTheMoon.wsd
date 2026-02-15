@@ -1,4 +1,4 @@
 @startuml
-TheDarkSideOfTheMoon <|-- Album
-Album <|-- MusicWork
+TheDarkSideOfTheMoon <|-- Album : inherits
+Album <|-- MusicWork : inherits
 @enduml

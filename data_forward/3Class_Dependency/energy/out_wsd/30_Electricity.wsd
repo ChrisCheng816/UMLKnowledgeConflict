@@ -1,4 +1,4 @@
 @startuml
-CutoffSaw ..> Electricity
-Grinding ..> CutoffSaw
+CutoffSaw ..> Electricity : depends on
+Grinding ..> CutoffSaw : depends on
 @enduml

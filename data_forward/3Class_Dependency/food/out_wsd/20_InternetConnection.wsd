@@ -1,4 +1,4 @@
 @startuml
-EmailServer ..> InternetConnection
-EmailSending ..> EmailServer
+EmailServer ..> InternetConnection : depends on
+EmailSending ..> EmailServer : depends on
 @enduml

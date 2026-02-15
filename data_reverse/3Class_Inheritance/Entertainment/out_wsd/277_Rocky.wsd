@@ -1,4 +1,4 @@
 @startuml
-Rocky <|-- Film
-Film <|-- Entertainment
+Rocky <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

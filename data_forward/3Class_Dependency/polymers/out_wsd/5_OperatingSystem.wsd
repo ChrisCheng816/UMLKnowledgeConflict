@@ -1,4 +1,4 @@
 @startuml
-Antivirus ..> OperatingSystem
-SystemSecurity ..> Antivirus
+Antivirus ..> OperatingSystem : depends on
+SystemSecurity ..> Antivirus : depends on
 @enduml

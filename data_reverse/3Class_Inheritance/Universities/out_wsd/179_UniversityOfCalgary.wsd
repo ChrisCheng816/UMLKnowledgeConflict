@@ -1,4 +1,4 @@
 @startuml
-UniversityOfCalgary <|-- University
-University <|-- EducationalInstitution
+UniversityOfCalgary <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

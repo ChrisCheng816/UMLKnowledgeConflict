@@ -1,4 +1,4 @@
 @startuml
-Toilet ..> RestroomUse
-TapWater ..> Toilet
+Toilet ..> RestroomUse : depends on
+TapWater ..> Toilet : depends on
 @enduml

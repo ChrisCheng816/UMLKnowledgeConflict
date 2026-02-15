@@ -1,4 +1,4 @@
 @startuml
-GroupOfShrimp o-- Estuary
-Shrimp o-- GroupOfShrimp
+GroupOfShrimp o-- Estuary : aggregates
+Shrimp o-- GroupOfShrimp : aggregates
 @enduml

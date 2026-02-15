@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Ray
-Tilapia *-- Fin
+Fin *-- Ray : composes
+Tilapia *-- Fin : composes
 @enduml

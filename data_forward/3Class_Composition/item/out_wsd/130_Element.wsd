@@ -1,4 +1,4 @@
 @startuml
-Lens *-- Element
-Camera *-- Lens
+Lens *-- Element : composes
+Camera *-- Lens : composes
 @enduml

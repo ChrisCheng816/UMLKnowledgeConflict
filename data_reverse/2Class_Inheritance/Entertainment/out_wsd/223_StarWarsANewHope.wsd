@@ -1,3 +1,3 @@
 @startuml
-StarWarsANewHope <|-- Film
+StarWarsANewHope <|-- Film : inherits
 @enduml

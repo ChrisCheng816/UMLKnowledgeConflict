@@ -1,4 +1,4 @@
 @startuml
-CloudSyncClient ..> OperatingSystem
-DeviceSync ..> CloudSyncClient
+CloudSyncClient ..> OperatingSystem : depends on
+DeviceSync ..> CloudSyncClient : depends on
 @enduml

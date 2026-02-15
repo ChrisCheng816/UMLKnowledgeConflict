@@ -1,4 +1,4 @@
 @startuml
-VolcanicAsh ..> Volcano
-AirQualityHazard ..> VolcanicAsh
+VolcanicAsh ..> Volcano : depends on
+AirQualityHazard ..> VolcanicAsh : depends on
 @enduml

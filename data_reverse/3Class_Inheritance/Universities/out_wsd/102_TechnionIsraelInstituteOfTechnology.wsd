@@ -1,4 +1,4 @@
 @startuml
-TechnionIsraelInstituteOfTechnology <|-- University
-University <|-- EducationalInstitution
+TechnionIsraelInstituteOfTechnology <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

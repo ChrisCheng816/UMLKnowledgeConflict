@@ -1,4 +1,4 @@
 @startuml
-Box o-- ChocolateBar
-ArtStore o-- Box
+Box o-- ChocolateBar : aggregates
+ArtStore o-- Box : aggregates
 @enduml

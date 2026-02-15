@@ -1,4 +1,4 @@
 @startuml
-GroupOfOyster o-- Atoll
-Oyster o-- GroupOfOyster
+GroupOfOyster o-- Atoll : aggregates
+Oyster o-- GroupOfOyster : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FlockOfGannet o-- Gannet
-River o-- FlockOfGannet
+FlockOfGannet o-- Gannet : aggregates
+River o-- FlockOfGannet : aggregates
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-FlockOfPheasant o-- Pheasant
+FlockOfPheasant o-- Pheasant : aggregates
 @enduml

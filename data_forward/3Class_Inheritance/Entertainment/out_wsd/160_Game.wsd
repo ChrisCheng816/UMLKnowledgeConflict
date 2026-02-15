@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame
-BoardGame <|-- Gloomhaven
+Game <|-- BoardGame : inherits
+BoardGame <|-- Gloomhaven : inherits
 @enduml

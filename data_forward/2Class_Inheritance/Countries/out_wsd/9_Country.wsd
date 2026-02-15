@@ -1,3 +1,3 @@
 @startuml
-Country <|-- Antarctica
+Country <|-- Antarctica : inherits
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-MacquarieUniversity <|-- University
+MacquarieUniversity <|-- University : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Eswatini <|-- Country
-Country <|-- GeopoliticalEntity
+Eswatini <|-- Country : inherits
+Country <|-- GeopoliticalEntity : inherits
 @enduml

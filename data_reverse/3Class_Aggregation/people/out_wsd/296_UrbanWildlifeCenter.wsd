@@ -1,4 +1,4 @@
 @startuml
-AuditTeam o-- UrbanWildlifeCenter
-QualityAuditor o-- AuditTeam
+AuditTeam o-- UrbanWildlifeCenter : aggregates
+QualityAuditor o-- AuditTeam : aggregates
 @enduml

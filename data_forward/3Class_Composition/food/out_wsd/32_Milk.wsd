@@ -1,4 +1,4 @@
 @startuml
-Butter *-- Milk
-Croissant *-- Butter
+Butter *-- Milk : composes
+Croissant *-- Butter : composes
 @enduml

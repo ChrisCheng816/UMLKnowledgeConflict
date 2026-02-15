@@ -1,3 +1,3 @@
 @startuml
-Fin *-- Whale
+Fin *-- Whale : composes
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-RiverFlow ..> SedimentTransport
+RiverFlow ..> SedimentTransport : depends on
 @enduml

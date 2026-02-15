@@ -1,4 +1,4 @@
 @startuml
-Hoof *-- Alpaca
-Sole *-- Hoof
+Hoof *-- Alpaca : composes
+Sole *-- Hoof : composes
 @enduml

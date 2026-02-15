@@ -1,4 +1,4 @@
 @startuml
-OutreachTeam o-- HumanitarianHospitalCenter
-Volunteer o-- OutreachTeam
+OutreachTeam o-- HumanitarianHospitalCenter : aggregates
+Volunteer o-- OutreachTeam : aggregates
 @enduml

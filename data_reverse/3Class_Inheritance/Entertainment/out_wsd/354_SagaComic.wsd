@@ -1,4 +1,4 @@
 @startuml
-SagaComic <|-- Comic
-Comic <|-- Entertainment
+SagaComic <|-- Comic : inherits
+Comic <|-- Entertainment : inherits
 @enduml

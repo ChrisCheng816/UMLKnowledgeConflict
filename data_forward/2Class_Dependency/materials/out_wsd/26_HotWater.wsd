@@ -1,3 +1,3 @@
 @startuml
-BathTub ..> HotWater
+BathTub ..> HotWater : depends on
 @enduml

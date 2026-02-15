@@ -1,3 +1,3 @@
 @startuml
-WebSearch ..> WebBrowser
+WebSearch ..> WebBrowser : depends on
 @enduml

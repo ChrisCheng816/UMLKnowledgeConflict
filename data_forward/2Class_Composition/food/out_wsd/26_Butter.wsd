@@ -1,3 +1,3 @@
 @startuml
-ButterChicken *-- Butter
+ButterChicken *-- Butter : composes
 @enduml

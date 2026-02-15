@@ -1,3 +1,3 @@
 @startuml
-CivilizationVI <|-- VideoGame
+CivilizationVI <|-- VideoGame : inherits
 @enduml

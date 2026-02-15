@@ -1,4 +1,4 @@
 @startuml
-GroupOfOctopus o-- Island
-Octopus o-- GroupOfOctopus
+GroupOfOctopus o-- Island : aggregates
+Octopus o-- GroupOfOctopus : aggregates
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TurbineEngine *-- TurbopropPlane
-CombustionChamber *-- TurbineEngine
+TurbineEngine *-- TurbopropPlane : composes
+CombustionChamber *-- TurbineEngine : composes
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-AirImpactWrench ..> Stapling
-CompressedAir ..> AirImpactWrench
+AirImpactWrench ..> Stapling : depends on
+CompressedAir ..> AirImpactWrench : depends on
 @enduml

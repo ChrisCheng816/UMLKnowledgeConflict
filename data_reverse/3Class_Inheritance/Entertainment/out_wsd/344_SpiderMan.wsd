@@ -1,4 +1,4 @@
 @startuml
-SpiderMan <|-- Comic
-Comic <|-- Entertainment
+SpiderMan <|-- Comic : inherits
+Comic <|-- Entertainment : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Yak
-Root *-- Tooth
+Tooth *-- Yak : composes
+Root *-- Tooth : composes
 @enduml

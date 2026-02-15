@@ -1,4 +1,4 @@
 @startuml
-SocialMediaApp ..> InternetConnection
-GroupChat ..> SocialMediaApp
+SocialMediaApp ..> InternetConnection : depends on
+GroupChat ..> SocialMediaApp : depends on
 @enduml

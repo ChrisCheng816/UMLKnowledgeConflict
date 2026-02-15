@@ -1,4 +1,4 @@
 @startuml
-WildlifeCareTeam o-- SavannaHorticultureAssociation
-Drafter o-- WildlifeCareTeam
+WildlifeCareTeam o-- SavannaHorticultureAssociation : aggregates
+Drafter o-- WildlifeCareTeam : aggregates
 @enduml

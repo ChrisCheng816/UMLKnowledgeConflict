@@ -1,3 +1,3 @@
 @startuml
-NoteApp ..> NoteTaking
+NoteApp ..> NoteTaking : depends on
 @enduml

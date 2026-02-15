@@ -1,4 +1,4 @@
 @startuml
-Crate o-- CoffeeBean
-HarborMarket o-- Crate
+Crate o-- CoffeeBean : aggregates
+HarborMarket o-- Crate : aggregates
 @enduml

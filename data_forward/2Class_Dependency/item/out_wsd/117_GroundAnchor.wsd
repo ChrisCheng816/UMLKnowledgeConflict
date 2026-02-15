@@ -1,3 +1,3 @@
 @startuml
-AntennaMast ..> GroundAnchor
+AntennaMast ..> GroundAnchor : depends on
 @enduml

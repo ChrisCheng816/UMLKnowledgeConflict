@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Drinkware
-Drinkware <|-- Cup
+Item <|-- Drinkware : inherits
+Drinkware <|-- Cup : inherits
 @enduml

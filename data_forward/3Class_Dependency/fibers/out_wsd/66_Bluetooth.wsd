@@ -1,4 +1,4 @@
 @startuml
-WirelessHeadphones ..> Bluetooth
-MusicStreaming ..> WirelessHeadphones
+WirelessHeadphones ..> Bluetooth : depends on
+MusicStreaming ..> WirelessHeadphones : depends on
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-ElectricShaver ..> ChargingCable
+ElectricShaver ..> ChargingCable : depends on
 @enduml

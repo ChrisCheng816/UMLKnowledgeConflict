@@ -1,3 +1,3 @@
 @startuml
-FlockOfCrane o-- Crane
+FlockOfCrane o-- Crane : aggregates
 @enduml

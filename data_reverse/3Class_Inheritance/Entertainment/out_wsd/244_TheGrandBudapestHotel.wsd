@@ -1,4 +1,4 @@
 @startuml
-TheGrandBudapestHotel <|-- Film
-Film <|-- Entertainment
+TheGrandBudapestHotel <|-- Film : inherits
+Film <|-- Entertainment : inherits
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-StellenboschUniversity <|-- University
-University <|-- EducationalInstitution
+StellenboschUniversity <|-- University : inherits
+University <|-- EducationalInstitution : inherits
 @enduml

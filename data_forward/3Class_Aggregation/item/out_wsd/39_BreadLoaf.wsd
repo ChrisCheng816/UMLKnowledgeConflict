@@ -1,4 +1,4 @@
 @startuml
-Tray o-- BreadLoaf
-ScienceStore o-- Tray
+Tray o-- BreadLoaf : aggregates
+ScienceStore o-- Tray : aggregates
 @enduml

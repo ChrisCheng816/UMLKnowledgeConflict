@@ -1,3 +1,3 @@
 @startuml
-FolderManagement ..> FileManager
+FolderManagement ..> FileManager : depends on
 @enduml
