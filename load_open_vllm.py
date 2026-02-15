@@ -122,6 +122,117 @@ def _build_relation_prompts(nodes, relation="inheritance", query_pair=(0, 1)):
         pairs = [query_pair]
     return [_build_relation_prompt(nodes, relation=relation, query_pair=pair) for pair in pairs]
 
+def _build_class_presence_prompt(expected_count=None, relation="inheritance"):
+    relation = (relation or "inheritance").strip().lower()
+    count_hint = ""
+    if isinstance(expected_count, int) and expected_count > 0:
+        count_hint = f"The diagram contains {expected_count} classes.\n"
+    return (
+        f"The image provided is a UML diagram showing {relation} relationships.\n"
+        f"{count_hint}"
+        "Each class is represented as a box, with the class name at the top.\n"
+        "You must treat the image as the only source of truth.\n"
+        "Answer the question solely from the class names explicitly depicted in the image.\n"
+        "Do not use the model's internal knowledge or prior assumptions to attempt to answer the subsequent question.\n"
+        "The question is:\n"
+        "List all class names that appear in the diagram.\n"
+        "You may reason privately, but do not reveal any reasoning or intermediate steps.\n"
+        "Output only a JSON array of strings, for example: [\"ClassA\", \"ClassB\"].\n"
+        "Output [] if the image is not provided."
+    )
+
+def _build_mm_request(processor, image_path, user_text):
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "image", "image": image_path},
+                {"type": "text", "text": user_text},
+            ],
+        },
+    ]
+    prompt = processor.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True
+    )
+    image_inputs, video_inputs, video_kwargs = process_vision_info(
+        messages,
+        image_patch_size=processor.image_processor.patch_size,
+        return_video_kwargs=True,
+        return_video_metadata=True,
+    )
+    mm = {}
+    if image_inputs is not None:
+        mm["image"] = image_inputs
+    if video_inputs is not None:
+        mm["video"] = video_inputs
+    return {
+        "prompt": prompt,
+        "multi_modal_data": mm,
+        "mm_processor_kwargs": video_kwargs
+    }
+
+def _normalize_class_name(name):
+    return re.sub(r"\s+", " ", str(name).strip()).lower()
+
+def _strip_code_fence(text):
+    text = (text or "").strip()
+    if text.startswith("```") and text.endswith("```"):
+        lines = text.splitlines()
+        if len(lines) >= 3:
+            return "\n".join(lines[1:-1]).strip()
+    return text
+
+def _dedupe_preserve(items):
+    seen = set()
+    out = []
+    for item in items:
+        key = _normalize_class_name(item)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        out.append(str(item).strip())
+    return out
+
+def _extract_class_names_from_text(text):
+    raw = _strip_code_fence(text)
+    if not raw:
+        return []
+
+    data = None
+    try:
+        data = json.loads(raw)
+    except Exception:
+        data = None
+
+    items = []
+    if isinstance(data, list):
+        items = [x for x in data if isinstance(x, (str, int, float))]
+    elif isinstance(data, dict):
+        for key in ("classes", "class_names", "classNames", "names"):
+            value = data.get(key)
+            if isinstance(value, list):
+                items = [x for x in value if isinstance(x, (str, int, float))]
+                break
+    else:
+        parts = re.split(r"[\n,;]+", raw)
+        for part in parts:
+            cleaned = re.sub(r"^\s*[-*0-9.)\s]+", "", part).strip().strip("\"'`")
+            if not cleaned:
+                continue
+            lowered = cleaned.lower()
+            if lowered in {"unknown", "none", "n/a", "true", "false", "[]"}:
+                continue
+            items.append(cleaned)
+
+    return _dedupe_preserve([str(x).strip().strip("\"'`") for x in items if str(x).strip()])
+
+def _validate_class_names_case_insensitive(expected_nodes, predicted_names):
+    expected_set = {_normalize_class_name(n) for n in (expected_nodes or []) if str(n).strip()}
+    predicted_set = {_normalize_class_name(n) for n in (predicted_names or []) if str(n).strip()}
+    return bool(expected_set) and expected_set == predicted_set
+
 
 def _collect_image_map(image_dir):
     image_map = {}
@@ -322,34 +433,7 @@ def load_prompt(
                     triplet_slots.get("query_dst_idx"),
                 )
 
-                messages = [
-                    {
-                        "role": "user",
-                        "content": [
-                            {"type": "image", "image": image_path},
-                            {"type": "text", "text": user_text},
-                        ],
-                    },
-                ]
-                prompt = processor.apply_chat_template(
-                    messages,
-                    tokenize=False,
-                    add_generation_prompt=True
-                )
-
-                # Extract visual features from the same messages payload and wrap into a vLLM request.
-                image_inputs, video_inputs, video_kwargs = process_vision_info(messages, image_patch_size=processor.image_processor.patch_size, return_video_kwargs=True, return_video_metadata=True)
-                mm = {}
-                if image_inputs is not None:
-                    mm["image"] = image_inputs
-                if video_inputs is not None:
-                    mm["video"] = video_inputs
-
-                req = {
-                    "prompt": prompt,
-                    "multi_modal_data": mm,
-                    "mm_processor_kwargs": video_kwargs
-                }
+                req = _build_mm_request(processor, image_path, user_text)
                 requests.append(req)
 
                 row = {
@@ -373,21 +457,84 @@ def load_prompt(
 
     return requests, information
 
-def run_model(requests, information, batch_size, model, out_path = "running_outputs.jsonl"):
+def _run_requests(requests, batch_size, model, progress_label="instances"):
     predictions = []
     counter = 1
     for i in range(0, len(requests), batch_size):
-        batch_prompts = requests[i:i+batch_size]
+        batch_prompts = requests[i:i + batch_size]
         batch_predictions = run_batch(batch_prompts, model)
         predictions.extend(batch_predictions)
-
         if (i // 200) == counter:
-            print(f"\033[1;32m{i}\033[0m instances generated successfully")
+            print(f"\033[1;32m{i}\033[0m {progress_label} generated successfully")
             counter += 1
-
-    print("Starting to compute...")
-    save_outputs(predictions, information, out_path)
     return predictions
+
+def run_model(requests, information, batch_size, model, processor, out_path="running_outputs.jsonl"):
+    gate_records = {}
+    for idx, info in enumerate(information):
+        key = info.get("image_path")
+        if not key:
+            continue
+        if key not in gate_records:
+            nodes = info.get("nodes") or []
+            relation = info.get("template_id") or "inheritance"
+            gate_prompt = _build_class_presence_prompt(
+                expected_count=len(nodes),
+                relation=relation,
+            )
+            gate_records[key] = {
+                "image_path": key,
+                "nodes": nodes,
+                "relation": relation,
+                "request": _build_mm_request(processor, key, gate_prompt),
+                "indices": [],
+            }
+        gate_records[key]["indices"].append(idx)
+
+    gate_keys = list(gate_records.keys())
+    gate_requests = [gate_records[k]["request"] for k in gate_keys]
+    print(f"[INFO] Stage-1 class check: {len(gate_requests)} images")
+    gate_predictions = _run_requests(gate_requests, batch_size, model, progress_label="stage-1")
+
+    gate_result = {}
+    for key, pred in zip(gate_keys, gate_predictions):
+        first_output = pred[0] if pred else ""
+        predicted_names = _extract_class_names_from_text(first_output)
+        expected_nodes = gate_records[key]["nodes"]
+        passed = _validate_class_names_case_insensitive(expected_nodes, predicted_names)
+        gate_result[key] = {
+            "passed": passed,
+            "expected_class_names": expected_nodes,
+            "predicted_class_names": predicted_names,
+            "class_check_output": first_output,
+        }
+
+    stage2_requests = []
+    stage2_indices = []
+    final_predictions = [None] * len(information)
+    for idx, (req, info) in enumerate(zip(requests, information)):
+        key = info.get("image_path")
+        result = gate_result.get(key, {})
+        passed = result.get("passed", False)
+        info["class_check_passed"] = passed
+        info["class_check_expected"] = result.get("expected_class_names", info.get("nodes", []))
+        info["class_check_predicted"] = result.get("predicted_class_names", [])
+        info["class_check_output"] = result.get("class_check_output", "")
+        if passed:
+            stage2_requests.append(req)
+            stage2_indices.append(idx)
+        else:
+            final_predictions[idx] = ["Unknown"]
+
+    print(f"[INFO] Stage-2 relation QA: {len(stage2_requests)} prompts (after class check)")
+    stage2_predictions = _run_requests(stage2_requests, batch_size, model, progress_label="stage-2")
+    for idx, pred in zip(stage2_indices, stage2_predictions):
+        final_predictions[idx] = pred
+
+    final_predictions = [pred if pred is not None else ["Unknown"] for pred in final_predictions]
+    print("Starting to compute...")
+    save_outputs(final_predictions, information, out_path)
+    return final_predictions
 
 def run_batch(batch_prompts, model):
     predictions = []
@@ -417,6 +564,10 @@ def save_outputs(predictions, information, out_path):
                 "triplet_slots": info.get("triplet_slots"),
                 "image_path": info.get("image_path"),
                 "prompt": info.get("prompt"),
+                "class_check_passed": info.get("class_check_passed"),
+                "class_check_expected": info.get("class_check_expected"),
+                "class_check_predicted": info.get("class_check_predicted"),
+                "class_check_output": info.get("class_check_output"),
                 "outputs": pred,
                 "output": first_output
             }
@@ -513,4 +664,4 @@ def generate_outputs(
                 print(f"[INFO] skip empty group {relation_name}_{arity} -> {group_out_path}")
                 continue
             print(f"[INFO] Generating {relation_name}_{arity} -> {group_out_path}")
-            run_model(group_requests, group_information, BATCH_SIZE, llm, group_out_path)
+            run_model(group_requests, group_information, BATCH_SIZE, llm, processor, group_out_path)
