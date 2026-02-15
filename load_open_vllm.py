@@ -10,20 +10,28 @@ from transformers import AutoProcessor, Qwen3VLForConditionalGeneration
 from vllm import LLM, SamplingParams
 from qwen_vl_utils import process_vision_info
 
-BATCH_SIZE = 4
-GPU_PER = 0.65
-N = 1
-LOGGER.setLevel(logging.ERROR)
-logging.getLogger("ultralytics").setLevel(logging.ERROR)
 
-def load_model(model_name):
+BATCH_SIZE = 4
+GPU_PER = 0.9
+N = 1
+TP_SIZE = 4
+DTYPE = "auto"
+
+# os.environ.setdefault("NCCL_DEBUG", "INFO")
+
+def load_model(
+    model_name,
+    tensor_parallel_size=TP_SIZE,
+    dtype=DTYPE,
+    gpu_memory_utilization=GPU_PER,
+):
     processor = AutoProcessor.from_pretrained(model_name)
     llm = LLM(
         model=model_name,
-        tensor_parallel_size=4,   # Use 4 GPUs
-        dtype="auto",
+        tensor_parallel_size=tensor_parallel_size,
+        dtype=dtype,
         trust_remote_code=True,
-        gpu_memory_utilization=GPU_PER      # Automatically choose FP16/BF16
+        gpu_memory_utilization=gpu_memory_utilization
     )
     return llm, processor
 
@@ -86,16 +94,16 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
 
     spec = relation_specs[relation]
     question = (
-        f"This is a UML diagram showing {relation} relationships. "
-        f"The diagram contains {class_prefix} classes: {class_desc}. "
-        "Each class is represented as a box, with the class name at the top. "
-        f"{spec['relation_sentence']} "
-        "You must treat the diagram as the only source of truth. "
-        "Answer the question solely from the relationships explicitly depicted in the image. "
-        "Do not use background knowledge, learned associations, or any “reasonable” assumptions about what the entities usually mean. "
-        "Do not answer based on model priors or what seems likely. "
-        f"The question is:\n {spec['ask_sentence']} "
-        "You may reason privately, but do not reveal any reasoning or intermediate steps. Output only the final binary answer: True or False."
+        f"The image provided is a UML diagram showing {relation} relationships.\n"
+        f"The diagram contains {class_prefix} classes: {class_desc}.\n"
+        "Each class is represented as a box, with the class name at the top.\n"
+        f"{spec['relation_sentence']}\n"
+        "You must treat the image as the only source of truth.\n"
+        "Answer the question solely from the relationships explicitly depicted in the image.\n"
+        "Do not use the model's internal knowledge or prior assumptions to attempt to answer the subsequent question.\n"
+        f"The question is:\n {spec['ask_sentence']}\n"
+        "You may reason privately, but do not reveal any reasoning or intermediate steps. Output only the final binary answer: True or False.\n"
+        "Output 'Unknown' if the image is not provided."
     )
 
     return question, {
@@ -424,6 +432,11 @@ def generate_outputs(
     prepared_out_jsonl=None,
     relation="inheritance",
     query_pair=(0, 1),
+    tensor_parallel_size=TP_SIZE,
+    dtype=DTYPE,
+    gpu_memory_utilization=GPU_PER,
+    llm=None,
+    processor=None,
 ):
     if dataset_root is None:
         dataset_root = os.path.dirname(os.path.abspath(__file__))
@@ -439,7 +452,16 @@ def generate_outputs(
     else:
         dataset_dirs = [dataset_dir]
 
-    llm, processor = load_model(model_path)
+    if llm is None or processor is None:
+        llm, processor = load_model(
+            model_path,
+            tensor_parallel_size=tensor_parallel_size,
+            dtype=dtype,
+            gpu_memory_utilization=gpu_memory_utilization,
+        )
+        print("model loaded")
+    else:
+        print("reuse loaded model")
     grouped_requests = {}
     grouped_information = {}
     valid_relations = {"inheritance", "aggregation", "composition", "dependency"}
