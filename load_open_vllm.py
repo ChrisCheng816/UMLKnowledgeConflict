@@ -362,7 +362,7 @@ def load_prompt(
     processor,
     dataset_dir,
     dataset_root=".",
-    output_image_root="output_image",
+    output_image_root="images",
     prepared_out_jsonl=None,
     relation="inheritance",
     query_pair=(0, 1)
@@ -469,7 +469,16 @@ def _run_requests(requests, batch_size, model, progress_label="instances"):
             counter += 1
     return predictions
 
-def run_model(requests, information, batch_size, model, processor, out_path="running_outputs.jsonl"):
+def run_model(
+    requests,
+    information,
+    batch_size,
+    model,
+    processor,
+    out_path="running_outputs.jsonl",
+    model_name=None,
+    model_path=None,
+):
     gate_records = {}
     for idx, info in enumerate(information):
         key = info.get("image_path")
@@ -533,7 +542,13 @@ def run_model(requests, information, batch_size, model, processor, out_path="run
 
     final_predictions = [pred if pred is not None else ["Unknown"] for pred in final_predictions]
     print("Starting to compute...")
-    save_outputs(final_predictions, information, out_path)
+    save_outputs(
+        final_predictions,
+        information,
+        out_path,
+        model_name=model_name,
+        model_path=model_path,
+    )
     return final_predictions
 
 def run_batch(batch_prompts, model):
@@ -551,11 +566,13 @@ def run_batch(batch_prompts, model):
 
     return predictions
 
-def save_outputs(predictions, information, out_path):
+def save_outputs(predictions, information, out_path, model_name=None, model_path=None):
     with open(out_path, "w", encoding="utf8") as f:
         for pred, info in zip(predictions, information):
             first_output = pred[0] if pred else ""
             obj = {
+                "model_name": model_name,
+                "model_path": model_path,
                 "id": info["id"],
                 "query_id": info.get("query_id"),
                 "query_pair": info.get("query_pair"),
@@ -577,6 +594,7 @@ def save_outputs(predictions, information, out_path):
 def generate_outputs(
     model_path,
     out_path,
+    model_name=None,
     dataset_dir=None,
     dataset_root=None,
     output_image_root=None,
@@ -592,7 +610,7 @@ def generate_outputs(
     if dataset_root is None:
         dataset_root = os.path.dirname(os.path.abspath(__file__))
     if output_image_root is None:
-        output_image_root = os.path.join(dataset_root, "output_image")
+        output_image_root = os.path.join(dataset_root, "images")
 
     if dataset_dir is None:
         dataset_dirs = _discover_dataset_dirs(dataset_root)
@@ -642,7 +660,7 @@ def generate_outputs(
 
     if not grouped_requests:
         raise FileNotFoundError(
-            "No runnable datasets found. Please check output_image/*/<dataset>/out_wsd directories."
+            "No runnable datasets found. Please check images/*/<dataset>/out_wsd directories."
         )
 
     if prepared_out_jsonl is not None:
@@ -664,4 +682,13 @@ def generate_outputs(
                 print(f"[INFO] skip empty group {relation_name}_{arity} -> {group_out_path}")
                 continue
             print(f"[INFO] Generating {relation_name}_{arity} -> {group_out_path}")
-            run_model(group_requests, group_information, BATCH_SIZE, llm, processor, group_out_path)
+            run_model(
+                group_requests,
+                group_information,
+                BATCH_SIZE,
+                llm,
+                processor,
+                group_out_path,
+                model_name=model_name,
+                model_path=model_path,
+            )
