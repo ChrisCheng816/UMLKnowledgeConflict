@@ -1,10 +1,11 @@
 from pathlib import Path
 from collections import defaultdict
+import argparse
+import re
 
-# ====== CONFIG: set your root directory here ======
-ROOT_DIR = Path(r"../")  # <-- change this
-TARGET_NAME = "data.txt"
-# ================================================
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_ROOT_DIR = PROJECT_ROOT
+DEFAULT_TARGET_NAME = "data.txt"
 
 def count_nonempty_lines(path: Path) -> int:
     """Count samples: non-empty lines only (after strip)."""
@@ -15,24 +16,44 @@ def count_nonempty_lines(path: Path) -> int:
                 cnt += 1
     return cnt
 
-def top_level_group(root: Path, file_path: Path) -> str:
+def infer_group(root: Path, file_path: Path) -> str:
     """
-    Return the top-level directory name under root.
-    Example: root/3Class_Inheritance/Food/data.txt -> '3Class_Inheritance'
-    If data.txt is directly under root, return '(root)'.
+    Prefer UML bucket names like 2Class_* / 3Class_* in the relative path.
+    Fallback to top-level directory under root.
     """
     rel = file_path.relative_to(root)
     parts = rel.parts
+    for part in parts:
+        if re.match(r"^[23]Class_", part):
+            return part
     return parts[0] if len(parts) >= 2 else "(root)"
 
 def main() -> None:
-    if not ROOT_DIR.exists() or not ROOT_DIR.is_dir():
-        raise SystemExit(f"ROOT_DIR is not a valid directory: {ROOT_DIR}")
+    parser = argparse.ArgumentParser(
+        description="Count non-empty lines in files named target (default: data.txt)."
+    )
+    parser.add_argument(
+        "--root",
+        default=str(DEFAULT_ROOT_DIR),
+        help="Root directory to search recursively.",
+    )
+    parser.add_argument(
+        "--target",
+        default=DEFAULT_TARGET_NAME,
+        help="Target filename to search for.",
+    )
+    args = parser.parse_args()
 
-    files = sorted([p for p in ROOT_DIR.rglob(TARGET_NAME) if p.is_file()])
+    root_dir = Path(args.root).expanduser().resolve()
+    target_name = args.target
+
+    if not root_dir.exists() or not root_dir.is_dir():
+        raise SystemExit(f"ROOT_DIR is not a valid directory: {root_dir}")
+
+    files = sorted([p for p in root_dir.rglob(target_name) if p.is_file()])
 
     if not files:
-        print(f"No {TARGET_NAME} files found under: {ROOT_DIR}")
+        print(f"No {target_name} files found under: {root_dir}")
         return
 
     per_group_total = defaultdict(int)
@@ -40,15 +61,15 @@ def main() -> None:
 
     for p in files:
         n = count_nonempty_lines(p)
-        rel = p.relative_to(ROOT_DIR)
-        grp = top_level_group(ROOT_DIR, p)
+        rel = p.relative_to(root_dir)
+        grp = infer_group(root_dir, p)
         per_group_total[grp] += n
         per_file.append((grp, n, rel))
 
     grand_total = sum(n for _, n, _ in per_file)
 
-    print(f"Root: {ROOT_DIR}")
-    print(f"Found {len(files)} file(s) named {TARGET_NAME}")
+    print(f"Root: {root_dir}")
+    print(f"Found {len(files)} file(s) named {target_name}")
     print("Note: empty/blank lines are NOT counted as samples.")
     print("=" * 100)
 
@@ -60,9 +81,9 @@ def main() -> None:
     for grp, n, rel in per_file:
         print(f"{n}\t{grp}\t{rel}")
 
-    # -------- Per-top-level-group totals --------
+    # -------- Per-group totals --------
     print("=" * 100)
-    print("Per-top-level directory totals")
+    print("Per-group totals")
     print("-" * 100)
     print("TOTAL\tGroup")
     print("-" * 100)

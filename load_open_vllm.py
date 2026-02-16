@@ -12,8 +12,9 @@ from qwen_vl_utils import process_vision_info
 
 
 BATCH_SIZE = 4
-GPU_PER = 0.9
-N = 1
+GPU_PER = 0.6
+# Number of full pipeline runs for pass@k style evaluation.
+N = 10
 TP_SIZE = 4
 DTYPE = "auto"
 
@@ -151,6 +152,42 @@ def _build_mm_request(processor, image_path, user_text):
             ],
         },
     ]
+    return _build_mm_payload(processor, messages)
+
+
+def _build_mm_followup_request(
+    processor,
+    image_path,
+    task1_user_text,
+    task1_assistant_text,
+    task2_user_text,
+):
+    # Multi-turn context: task-1 (with image) -> assistant answer -> task-2 follow-up.
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "image", "image": image_path},
+                {"type": "text", "text": task1_user_text},
+            ],
+        },
+        {
+            "role": "assistant",
+            "content": [
+                {"type": "text", "text": str(task1_assistant_text or "")},
+            ],
+        },
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": task2_user_text},
+            ],
+        },
+    ]
+    return _build_mm_payload(processor, messages)
+
+
+def _build_mm_payload(processor, messages):
     prompt = processor.apply_chat_template(
         messages,
         tokenize=False,
@@ -172,6 +209,61 @@ def _build_mm_request(processor, image_path, user_text):
         "multi_modal_data": mm,
         "mm_processor_kwargs": video_kwargs
     }
+
+
+def _build_gate_records(run_info, processor):
+    gate_records = {}
+    for idx, info in enumerate(run_info):
+        key = info.get("image_path")
+        if not key:
+            continue
+        if key not in gate_records:
+            nodes = info.get("nodes") or []
+            relation = info.get("template_id") or "inheritance"
+            gate_prompt = _build_class_presence_prompt(
+                expected_count=len(nodes),
+                relation=relation,
+            )
+            gate_records[key] = {
+                "image_path": key,
+                "nodes": nodes,
+                "relation": relation,
+                "prompt": gate_prompt,
+                "request": _build_mm_request(processor, key, gate_prompt),
+                "indices": [],
+            }
+        gate_records[key]["indices"].append(idx)
+    return gate_records
+
+
+def _compute_gate_result(gate_records, gate_keys, gate_predictions):
+    gate_result = {}
+    for key, pred in zip(gate_keys, gate_predictions):
+        first_output = pred[0] if pred else ""
+        predicted_names = _extract_class_names_from_text(first_output)
+        expected_nodes = gate_records[key]["nodes"]
+        passed = _validate_class_names_case_insensitive(expected_nodes, predicted_names)
+        gate_result[key] = {
+            "passed": passed,
+            "expected_class_names": expected_nodes,
+            "predicted_class_names": predicted_names,
+            "class_check_output": first_output,
+            "class_check_prompt": gate_records[key].get("prompt", ""),
+        }
+    return gate_result
+
+
+def _build_stage2_request_from_info(processor, info):
+    return _build_mm_followup_request(
+        processor=processor,
+        image_path=info.get("image_path"),
+        task1_user_text=info.get("class_check_prompt", ""),
+        task1_assistant_text=json.dumps(
+            info.get("class_check_expected", info.get("nodes", [])),
+            ensure_ascii=False,
+        ),
+        task2_user_text=info.get("prompt", ""),
+    )
 
 def _normalize_class_name(name):
     return re.sub(r"\s+", " ", str(name).strip()).lower()
@@ -457,12 +549,12 @@ def load_prompt(
 
     return requests, information
 
-def _run_requests(requests, batch_size, model, progress_label="instances"):
+def _run_requests(requests, batch_size, model, progress_label="instances", seed=None):
     predictions = []
     counter = 1
     for i in range(0, len(requests), batch_size):
         batch_prompts = requests[i:i + batch_size]
-        batch_predictions = run_batch(batch_prompts, model)
+        batch_predictions = run_batch(batch_prompts, model, n=1, seed=seed)
         predictions.extend(batch_predictions)
         if (i // 200) == counter:
             print(f"\033[1;32m{i}\033[0m {progress_label} generated successfully")
@@ -475,73 +567,92 @@ def run_model(
     batch_size,
     model,
     processor,
+    num_runs=1,
     out_path="running_outputs.jsonl",
     model_name=None,
     model_path=None,
 ):
-    gate_records = {}
+    run_count = max(1, int(num_runs))
+    all_run_outputs = []
+    all_run_checks = []
+
+    for run_idx in range(run_count):
+        run_seed = random.randint(1, 2**31 - 1)
+        run_info = [dict(item) for item in information]
+
+        gate_records = _build_gate_records(run_info, processor)
+        gate_keys = list(gate_records.keys())
+        gate_requests = [gate_records[k]["request"] for k in gate_keys]
+        print(f"[INFO][run {run_idx + 1}/{run_count}] Stage-1 class check: {len(gate_requests)} images")
+        gate_predictions = _run_requests(
+            gate_requests,
+            batch_size,
+            model,
+            progress_label=f"run-{run_idx + 1}-stage-1",
+            seed=run_seed,
+        )
+        gate_result = _compute_gate_result(gate_records, gate_keys, gate_predictions)
+
+        stage2_requests = []
+        stage2_indices = []
+        final_predictions = [None] * len(run_info)
+        for idx, (_, info) in enumerate(zip(requests, run_info)):
+            key = info.get("image_path")
+            result = gate_result.get(key, {})
+            passed = result.get("passed", False)
+            info["class_check_passed"] = passed
+            info["class_check_expected"] = result.get("expected_class_names", info.get("nodes", []))
+            info["class_check_predicted"] = result.get("predicted_class_names", [])
+            info["class_check_output"] = result.get("class_check_output", "")
+            info["class_check_prompt"] = result.get("class_check_prompt", "")
+            if passed:
+                stage2_requests.append(_build_stage2_request_from_info(processor, info))
+                stage2_indices.append(idx)
+            else:
+                final_predictions[idx] = ["Unknown"]
+
+        print(
+            f"[INFO][run {run_idx + 1}/{run_count}] "
+            f"Stage-2 relation QA: {len(stage2_requests)} prompts (after class check)"
+        )
+        stage2_predictions = _run_requests(
+            stage2_requests,
+            batch_size,
+            model,
+            progress_label=f"run-{run_idx + 1}-stage-2",
+            seed=run_seed,
+        )
+        for idx, pred in zip(stage2_indices, stage2_predictions):
+            final_predictions[idx] = pred
+
+        final_predictions = [pred if pred is not None else ["Unknown"] for pred in final_predictions]
+        all_run_outputs.append([pred[0] if pred else "Unknown" for pred in final_predictions])
+        all_run_checks.append(
+            [
+                {
+                    "passed": info.get("class_check_passed"),
+                    "expected_class_names": info.get("class_check_expected", []),
+                    "predicted_class_names": info.get("class_check_predicted", []),
+                    "class_check_output": info.get("class_check_output", ""),
+                    "task1_prompt": info.get("class_check_prompt", ""),
+                }
+                for info in run_info
+            ]
+        )
+
+    final_predictions = []
     for idx, info in enumerate(information):
-        key = info.get("image_path")
-        if not key:
-            continue
-        if key not in gate_records:
-            nodes = info.get("nodes") or []
-            relation = info.get("template_id") or "inheritance"
-            gate_prompt = _build_class_presence_prompt(
-                expected_count=len(nodes),
-                relation=relation,
-            )
-            gate_records[key] = {
-                "image_path": key,
-                "nodes": nodes,
-                "relation": relation,
-                "request": _build_mm_request(processor, key, gate_prompt),
-                "indices": [],
-            }
-        gate_records[key]["indices"].append(idx)
+        run_outputs = [all_run_outputs[r][idx] for r in range(run_count)]
+        run_checks = [all_run_checks[r][idx] for r in range(run_count)]
+        info["class_check_runs"] = run_checks
+        info["class_check_passed"] = any(bool(check.get("passed", False)) for check in run_checks)
+        info["class_check_expected"] = run_checks[0]["expected_class_names"] if run_checks else []
+        info["class_check_predicted"] = run_checks[0]["predicted_class_names"] if run_checks else []
+        info["class_check_output"] = run_checks[0]["class_check_output"] if run_checks else ""
+        info["class_check_prompt"] = run_checks[0]["task1_prompt"] if run_checks else ""
+        final_predictions.append(run_outputs)
 
-    gate_keys = list(gate_records.keys())
-    gate_requests = [gate_records[k]["request"] for k in gate_keys]
-    print(f"[INFO] Stage-1 class check: {len(gate_requests)} images")
-    gate_predictions = _run_requests(gate_requests, batch_size, model, progress_label="stage-1")
-
-    gate_result = {}
-    for key, pred in zip(gate_keys, gate_predictions):
-        first_output = pred[0] if pred else ""
-        predicted_names = _extract_class_names_from_text(first_output)
-        expected_nodes = gate_records[key]["nodes"]
-        passed = _validate_class_names_case_insensitive(expected_nodes, predicted_names)
-        gate_result[key] = {
-            "passed": passed,
-            "expected_class_names": expected_nodes,
-            "predicted_class_names": predicted_names,
-            "class_check_output": first_output,
-        }
-
-    stage2_requests = []
-    stage2_indices = []
-    final_predictions = [None] * len(information)
-    for idx, (req, info) in enumerate(zip(requests, information)):
-        key = info.get("image_path")
-        result = gate_result.get(key, {})
-        passed = result.get("passed", False)
-        info["class_check_passed"] = passed
-        info["class_check_expected"] = result.get("expected_class_names", info.get("nodes", []))
-        info["class_check_predicted"] = result.get("predicted_class_names", [])
-        info["class_check_output"] = result.get("class_check_output", "")
-        if passed:
-            stage2_requests.append(req)
-            stage2_indices.append(idx)
-        else:
-            final_predictions[idx] = ["Unknown"]
-
-    print(f"[INFO] Stage-2 relation QA: {len(stage2_requests)} prompts (after class check)")
-    stage2_predictions = _run_requests(stage2_requests, batch_size, model, progress_label="stage-2")
-    for idx, pred in zip(stage2_indices, stage2_predictions):
-        final_predictions[idx] = pred
-
-    final_predictions = [pred if pred is not None else ["Unknown"] for pred in final_predictions]
-    print("Starting to compute...")
+    print(f"Starting to compute... (full-pipeline runs={run_count})")
     save_outputs(
         final_predictions,
         information,
@@ -551,12 +662,13 @@ def run_model(
     )
     return final_predictions
 
-def run_batch(batch_prompts, model):
+def run_batch(batch_prompts, model, n=1, seed=None):
     predictions = []
 
     sampling_params = SamplingParams(
-        max_tokens=1024,
-        n=N,
+        max_tokens=256,
+        n=n,
+        seed=seed,
         stop_token_ids=[]
     )
 
@@ -567,26 +679,62 @@ def run_batch(batch_prompts, model):
     return predictions
 
 def save_outputs(predictions, information, out_path, model_name=None, model_path=None):
+    def _to_bool_true(text):
+        return str(text).strip().lower() == "true"
+
+    def _pass_at_k_from_outputs(run_outputs, k):
+        if not run_outputs:
+            return False
+        k = max(1, min(int(k), len(run_outputs)))
+        return any(_to_bool_true(x) for x in run_outputs[:k])
+
+    def _pass_at_k_from_checks(run_checks, k):
+        if not run_checks:
+            return False
+        k = max(1, min(int(k), len(run_checks)))
+        return any(bool((run_checks[i] or {}).get("passed", False)) for i in range(k))
+
     with open(out_path, "w", encoding="utf8") as f:
         for pred, info in zip(predictions, information):
-            first_output = pred[0] if pred else ""
+            run_outputs = pred or []
+            run_checks = info.get("class_check_runs") or []
+            outputs_task1 = [bool((check or {}).get("passed", False)) for check in run_checks]
+            predicted_class_names = [
+                (check or {}).get("predicted_class_names", [])
+                for check in run_checks
+            ]
+            expected_class_names = info.get("class_check_expected", info.get("nodes", []))
+            task1_prompt = info.get("class_check_prompt")
+
+            end2end_pass1 = _pass_at_k_from_outputs(run_outputs, 1)
+            end2end_pass5 = _pass_at_k_from_outputs(run_outputs, 5)
+            end2end_pass10 = _pass_at_k_from_outputs(run_outputs, 10)
+
+            task1_pass1 = _pass_at_k_from_checks(run_checks, 1)
+            task1_pass5 = _pass_at_k_from_checks(run_checks, 5)
+            task1_pass10 = _pass_at_k_from_checks(run_checks, 10)
+
             obj = {
                 "model_name": model_name,
                 "model_path": model_path,
                 "id": info["id"],
                 "query_id": info.get("query_id"),
-                "query_pair": info.get("query_pair"),
                 "template_id": info.get("template_id"),
                 "nodes": info.get("nodes"),
                 "triplet_slots": info.get("triplet_slots"),
                 "image_path": info.get("image_path"),
-                "prompt": info.get("prompt"),
-                "class_check_passed": info.get("class_check_passed"),
-                "class_check_expected": info.get("class_check_expected"),
-                "class_check_predicted": info.get("class_check_predicted"),
-                "class_check_output": info.get("class_check_output"),
-                "outputs": pred,
-                "output": first_output
+                "task2_prompt": info.get("prompt"),
+                "task1_prompt": task1_prompt,
+                "expected_class_names": expected_class_names,
+                "predicted_class_names": predicted_class_names,
+                "outputs_task1": outputs_task1,
+                "outputs_task2": run_outputs,
+                "pass@1": "True" if end2end_pass1 else "False",
+                "pass@5": "True" if end2end_pass5 else "False",
+                "pass@10": "True" if end2end_pass10 else "False",
+                "task1_pass@1": "True" if task1_pass1 else "False",
+                "task1_pass@5": "True" if task1_pass5 else "False",
+                "task1_pass@10": "True" if task1_pass10 else "False",
             }
             json.dump(obj, f, ensure_ascii=False)
             f.write("\n")
@@ -606,6 +754,7 @@ def generate_outputs(
     gpu_memory_utilization=GPU_PER,
     llm=None,
     processor=None,
+    num_runs=N,
 ):
     if dataset_root is None:
         dataset_root = os.path.dirname(os.path.abspath(__file__))
@@ -688,7 +837,8 @@ def generate_outputs(
                 BATCH_SIZE,
                 llm,
                 processor,
-                group_out_path,
+                num_runs=num_runs,
+                out_path=group_out_path,
                 model_name=model_name,
                 model_path=model_path,
             )

@@ -28,8 +28,8 @@ def parse_args():
     )
     parser.add_argument(
         "--out-prefix",
-        default="result",
-        help="Output prefix. Files are written as <out-prefix>_<model>_<mode>_<relation>_<arity>.jsonl",
+        default="",
+        help="Optional output prefix. Files are written as [<out-prefix>_] <model>_<mode>_<relation>_<arity>.jsonl",
     )
     return parser.parse_args()
 
@@ -51,6 +51,8 @@ def main():
     from model_registry import resolve_models
 
     root = os.path.dirname(os.path.abspath(__file__))
+    results_dir = os.path.join(root, "experiment_results")
+    os.makedirs(results_dir, exist_ok=True)
     runs = build_runs(args.mode, root)
     models = resolve_models(model_names=args.model_name, model_paths=args.model_path)
     if not models:
@@ -60,6 +62,8 @@ def main():
     for model_item in models:
         model_name = model_item["name"]
         model_path = model_item["path"]
+        model_results_dir = os.path.join(results_dir, model_name)
+        os.makedirs(model_results_dir, exist_ok=True)
         llm = None
         processor = None
         try:
@@ -79,10 +83,11 @@ def main():
                     f"[INFO] run model={model_name}, split={tag}: "
                     f"dataset_root={dataset_root}, output_image_root={output_image_root}"
                 )
+                out_stem = f"{model_name}_{tag}" if not args.out_prefix else f"{args.out_prefix}_{model_name}_{tag}"
                 generate_outputs(
                     model_path=model_path,
                     model_name=model_name,
-                    out_path=f"{args.out_prefix}_{model_name}_{tag}.jsonl",
+                    out_path=os.path.join(model_results_dir, f"{out_stem}.jsonl"),
                     dataset_root=dataset_root,
                     output_image_root=output_image_root,
                     llm=llm,
