@@ -1,4 +1,4 @@
 @startuml
-Nebulizer ..> Electricity
-HomeUse ..> Nebulizer
+HeatingPad ..> Electricity
+HomeUse ..> HeatingPad
 @enduml

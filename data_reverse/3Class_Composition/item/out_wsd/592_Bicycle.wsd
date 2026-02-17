@@ -1,0 +1,4 @@
+@startuml
+Pedal *-- Bicycle
+Reflector *-- Pedal
+@enduml

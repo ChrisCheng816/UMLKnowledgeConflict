@@ -1,4 +1,4 @@
 @startuml
-Hinge *-- Pin
-Door *-- Hinge
+Buckle *-- Pin
+Belt *-- Buckle
 @enduml

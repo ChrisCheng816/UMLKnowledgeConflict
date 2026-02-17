@@ -1,4 +1,4 @@
 @startuml
-Committee o-- Company
-Accountant o-- Committee
+StaffOfRunners o-- Company
+Runner o-- StaffOfRunners
 @enduml

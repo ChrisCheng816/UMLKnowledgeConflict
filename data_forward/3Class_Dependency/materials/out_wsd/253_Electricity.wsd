@@ -1,4 +1,4 @@
 @startuml
-HairTrimmer ..> Electricity
-HomeUse ..> HairTrimmer
+Router ..> Electricity
+HomeUse ..> Router
 @enduml

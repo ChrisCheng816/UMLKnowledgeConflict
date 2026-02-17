@@ -1,4 +1,4 @@
 @startuml
-Dryer ..> Electricity
-HomeUse ..> Dryer
+Juicer ..> Electricity
+HomeUse ..> Juicer
 @enduml

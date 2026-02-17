@@ -1,4 +1,4 @@
 @startuml
-StageLight ..> HomeUse
-Electricity ..> StageLight
+Laminator ..> HomeUse
+Electricity ..> Laminator
 @enduml

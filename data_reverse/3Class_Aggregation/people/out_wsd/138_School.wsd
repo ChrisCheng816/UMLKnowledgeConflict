@@ -1,0 +1,4 @@
+@startuml
+ClubOfCampers o-- School
+Camper o-- ClubOfCampers
+@enduml

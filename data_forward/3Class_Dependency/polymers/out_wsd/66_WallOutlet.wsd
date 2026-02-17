@@ -1,0 +1,4 @@
+@startuml
+ExtensionCord ..> WallOutlet
+CeilingFan ..> ExtensionCord
+@enduml

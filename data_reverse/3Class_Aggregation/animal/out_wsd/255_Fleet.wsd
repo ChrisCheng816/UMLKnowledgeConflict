@@ -1,0 +1,4 @@
+@startuml
+Boat o-- Fleet
+Anchor o-- Boat
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Camera *-- Lens
+Phone *-- Camera
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-POSMachine ..> Electricity
-HomeUse ..> POSMachine
+Chopper ..> Electricity
+HomeUse ..> Chopper
 @enduml

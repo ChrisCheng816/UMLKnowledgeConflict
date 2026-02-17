@@ -1,4 +1,4 @@
 @startuml
-WiFiRepeater ..> Electricity
-HomeUse ..> WiFiRepeater
+ChargingStation ..> Electricity
+HomeUse ..> ChargingStation
 @enduml

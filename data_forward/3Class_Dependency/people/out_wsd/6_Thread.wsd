@@ -1,0 +1,4 @@
+@startuml
+Needle ..> Thread
+Tailor ..> Needle
+@enduml

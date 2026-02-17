@@ -1,4 +1,4 @@
 @startuml
-ElectricBlanket ..> Electricity
-BedWarming ..> ElectricBlanket
+ElectricKettle ..> Electricity
+InstantNoodles ..> ElectricKettle
 @enduml

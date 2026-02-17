@@ -1,4 +1,4 @@
 @startuml
-Uber ..> OnlineUse
-Internet ..> Uber
+Lyft ..> OnlineUse
+Internet ..> Lyft
 @enduml

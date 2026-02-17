@@ -1,0 +1,4 @@
+@startuml
+Thread o-- Post
+Forum o-- Thread
+@enduml

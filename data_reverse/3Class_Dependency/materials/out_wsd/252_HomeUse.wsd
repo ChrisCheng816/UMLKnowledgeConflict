@@ -1,4 +1,4 @@
 @startuml
-WaterHeater ..> HomeUse
-Electricity ..> WaterHeater
+Monitor ..> HomeUse
+Electricity ..> Monitor
 @enduml

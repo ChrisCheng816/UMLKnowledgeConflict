@@ -1,4 +1,4 @@
 @startuml
-CapCut ..> OnlineUse
-Internet ..> CapCut
+VSCode ..> OnlineUse
+Internet ..> VSCode
 @enduml

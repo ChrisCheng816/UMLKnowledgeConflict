@@ -1,4 +1,4 @@
 @startuml
-AppleTV ..> OnlineUse
-Internet ..> AppleTV
+Spotify ..> OnlineUse
+Internet ..> Spotify
 @enduml

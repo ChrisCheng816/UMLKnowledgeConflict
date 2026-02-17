@@ -1,0 +1,4 @@
+@startuml
+SmartSpeaker ..> RadioListening
+Electricity ..> SmartSpeaker
+@enduml

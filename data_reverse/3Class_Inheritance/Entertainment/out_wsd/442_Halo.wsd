@@ -1,0 +1,4 @@
+@startuml
+Halo <|-- VideoGame
+VideoGame <|-- Game
+@enduml

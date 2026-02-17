@@ -1,4 +1,4 @@
 @startuml
-GarmentSteamer ..> Electricity
-HomeUse ..> GarmentSteamer
+SandwichMaker ..> Electricity
+HomeUse ..> SandwichMaker
 @enduml

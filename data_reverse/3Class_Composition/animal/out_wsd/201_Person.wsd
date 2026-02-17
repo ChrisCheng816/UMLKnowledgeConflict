@@ -1,4 +1,4 @@
 @startuml
 Shoulder *-- Person
-Collarbone *-- Shoulder
+Tendon *-- Shoulder
 @enduml

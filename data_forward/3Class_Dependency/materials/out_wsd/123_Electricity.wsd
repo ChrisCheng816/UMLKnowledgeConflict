@@ -1,4 +1,4 @@
 @startuml
-Iron ..> Electricity
-ClothesIroning ..> Iron
+LaptopCharger ..> Electricity
+BatteryCharging ..> LaptopCharger
 @enduml

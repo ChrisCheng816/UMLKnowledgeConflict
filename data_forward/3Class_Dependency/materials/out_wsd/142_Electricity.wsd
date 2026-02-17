@@ -1,4 +1,4 @@
 @startuml
-MotionSensor ..> Electricity
-MotionDetection ..> MotionSensor
+PhoneCharger ..> Electricity
+DeviceCharging ..> PhoneCharger
 @enduml

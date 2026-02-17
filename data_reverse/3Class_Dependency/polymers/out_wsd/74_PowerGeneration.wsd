@@ -1,0 +1,4 @@
+@startuml
+NuclearPlant ..> PowerGeneration
+Uranium ..> NuclearPlant
+@enduml

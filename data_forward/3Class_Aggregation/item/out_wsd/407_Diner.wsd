@@ -1,0 +1,4 @@
+@startuml
+Table o-- Diner
+Restaurant o-- Table
+@enduml

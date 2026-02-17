@@ -1,4 +1,4 @@
 @startuml
-Shelf *-- Screw
-Cabinet *-- Shelf
+Bracket *-- Screw
+Shelf *-- Bracket
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+StaffOfHikers o-- Hiker
+Company o-- StaffOfHikers
+@enduml

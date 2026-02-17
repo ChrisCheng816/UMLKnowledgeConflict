@@ -1,4 +1,4 @@
 @startuml
-SnowBlower ..> HomeUse
-Electricity ..> SnowBlower
+BandSaw ..> HomeUse
+Electricity ..> BandSaw
 @enduml

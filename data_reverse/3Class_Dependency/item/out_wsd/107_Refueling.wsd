@@ -1,0 +1,4 @@
+@startuml
+GasPump ..> Refueling
+Gasoline ..> GasPump
+@enduml

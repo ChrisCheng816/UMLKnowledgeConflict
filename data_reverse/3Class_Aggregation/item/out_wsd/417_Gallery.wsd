@@ -1,0 +1,4 @@
+@startuml
+Exhibition o-- Gallery
+Photograph o-- Exhibition
+@enduml

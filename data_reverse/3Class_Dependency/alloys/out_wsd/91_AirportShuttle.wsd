@@ -1,0 +1,4 @@
+@startuml
+ShuttleBus ..> AirportShuttle
+DieselFuel ..> ShuttleBus
+@enduml

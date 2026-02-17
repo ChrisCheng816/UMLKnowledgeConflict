@@ -1,4 +1,4 @@
 @startuml
-Steam ..> Internet
-OnlineUse ..> Steam
+EpicGames ..> Internet
+OnlineUse ..> EpicGames
 @enduml

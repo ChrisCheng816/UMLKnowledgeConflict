@@ -1,0 +1,4 @@
+@startuml
+Bathroom *-- Faucet
+House *-- Bathroom
+@enduml

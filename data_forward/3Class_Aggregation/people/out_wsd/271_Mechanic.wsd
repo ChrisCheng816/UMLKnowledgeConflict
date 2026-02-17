@@ -1,0 +1,4 @@
+@startuml
+Department o-- Mechanic
+Factory o-- Department
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Film <|-- DramaFilm
-DramaFilm <|-- Casablanca
+Film <|-- WesternFilm
+WesternFilm <|-- Unforgiven
 @enduml

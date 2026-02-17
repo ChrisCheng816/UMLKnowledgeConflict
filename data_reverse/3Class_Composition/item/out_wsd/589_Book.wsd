@@ -1,0 +1,4 @@
+@startuml
+Cover *-- Book
+Spine *-- Cover
+@enduml

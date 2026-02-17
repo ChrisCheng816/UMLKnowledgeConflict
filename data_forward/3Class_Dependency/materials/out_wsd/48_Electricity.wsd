@@ -1,4 +1,4 @@
 @startuml
-ConvectionOven ..> Electricity
-Toasting ..> ConvectionOven
+DeskLamp ..> Electricity
+Illumination ..> DeskLamp
 @enduml

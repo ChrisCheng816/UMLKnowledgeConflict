@@ -1,4 +1,4 @@
 @startuml
-Mirror *-- Car
-Glass *-- Mirror
+SunVisor *-- Car
+Clip *-- SunVisor
 @enduml

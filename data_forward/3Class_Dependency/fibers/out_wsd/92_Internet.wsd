@@ -1,4 +1,4 @@
 @startuml
-Quora ..> Internet
-OnlineUse ..> Quora
+Medium ..> Internet
+OnlineUse ..> Medium
 @enduml

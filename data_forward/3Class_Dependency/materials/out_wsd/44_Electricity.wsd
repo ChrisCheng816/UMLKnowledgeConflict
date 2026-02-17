@@ -1,4 +1,4 @@
 @startuml
-CoffeeMaker ..> Electricity
-CoffeePot ..> CoffeeMaker
+ConvectionOven ..> Electricity
+Toasting ..> ConvectionOven
 @enduml

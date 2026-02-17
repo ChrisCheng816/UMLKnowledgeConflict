@@ -1,0 +1,4 @@
+@startuml
+Stub *-- Barcode
+Ticket *-- Stub
+@enduml

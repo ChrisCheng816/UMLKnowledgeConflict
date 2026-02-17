@@ -1,4 +1,4 @@
 @startuml
-Film <|-- ComedyFilm
-ComedyFilm <|-- Airplane
+Film <|-- MysteryFilm
+MysteryFilm <|-- Memento
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Department o-- Company
-Programmer o-- Department
+StaffOfPainters o-- Company
+Painter o-- StaffOfPainters
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BluRayPlayer ..> HomeUse
-Electricity ..> BluRayPlayer
+CPAPMachine ..> HomeUse
+Electricity ..> CPAPMachine
 @enduml

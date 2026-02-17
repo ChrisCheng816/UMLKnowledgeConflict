@@ -1,4 +1,4 @@
 @startuml
-DJController ..> HomeUse
-Electricity ..> DJController
+Plotter ..> HomeUse
+Electricity ..> Plotter
 @enduml

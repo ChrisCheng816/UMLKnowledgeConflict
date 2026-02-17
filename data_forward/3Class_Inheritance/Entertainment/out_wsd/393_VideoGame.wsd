@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- SportsGame
-SportsGame <|-- FIFA
+VideoGame <|-- ShooterGame
+ShooterGame <|-- Doom
 @enduml

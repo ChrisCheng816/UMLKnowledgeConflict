@@ -1,4 +1,4 @@
 @startuml
-PoliceCarEngine ..> Fuel
-TransportUse ..> PoliceCarEngine
+RacingEngine ..> Fuel
+TransportUse ..> RacingEngine
 @enduml

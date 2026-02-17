@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- LivingRoom
-Vase o-- Shelf
+PictureFrame o-- Shelf
 @enduml

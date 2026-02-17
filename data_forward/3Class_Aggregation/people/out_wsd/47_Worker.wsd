@@ -1,0 +1,4 @@
+@startuml
+CrewOfWorkers o-- Worker
+Factory o-- CrewOfWorkers
+@enduml

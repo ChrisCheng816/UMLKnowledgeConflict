@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Company
-Coordinator o-- Staff
+StaffOfArtists o-- Company
+Artist o-- StaffOfArtists
 @enduml

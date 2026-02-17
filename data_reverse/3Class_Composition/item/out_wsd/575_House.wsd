@@ -1,0 +1,4 @@
+@startuml
+Kitchen *-- House
+Cabinet *-- Kitchen
+@enduml

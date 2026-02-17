@@ -1,4 +1,4 @@
 @startuml
-PressureCooker ..> Electricity
-PressureCooking ..> PressureCooker
+Refrigerator ..> Electricity
+Cooling ..> Refrigerator
 @enduml

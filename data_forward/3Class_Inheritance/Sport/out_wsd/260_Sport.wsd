@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Cycling
-Cycling <|-- BMXFreestyle
+Sport <|-- Equestrian
+Equestrian <|-- ShowJumping
 @enduml

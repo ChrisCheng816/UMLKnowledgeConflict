@@ -1,4 +1,4 @@
 @startuml
 Box o-- Pantry
-Oatmeal o-- Box
+Cereal o-- Box
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ClothesDryer ..> Electricity
-LintRemoval ..> ClothesDryer
+CoffeeMaker ..> Electricity
+HotCoffee ..> CoffeeMaker
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+SSD *-- Laptop
+Cache *-- SSD
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-GoogleDrive ..> OnlineUse
-Internet ..> GoogleDrive
+OneDrive ..> OnlineUse
+Internet ..> OneDrive
 @enduml

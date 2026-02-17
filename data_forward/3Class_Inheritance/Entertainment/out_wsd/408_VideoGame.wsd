@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- PartyGame
-PartyGame <|-- AmongUs
+VideoGame <|-- RacingGame
+RacingGame <|-- MarioKart
 @enduml

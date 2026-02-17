@@ -1,4 +1,4 @@
 @startuml
-Swiggy ..> OnlineUse
-Internet ..> Swiggy
+PayPal ..> OnlineUse
+Internet ..> PayPal
 @enduml

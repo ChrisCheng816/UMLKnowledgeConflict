@@ -1,4 +1,4 @@
 @startuml
-BlizzardApp ..> OnlineUse
-Internet ..> BlizzardApp
+Crunchyroll ..> OnlineUse
+Internet ..> Crunchyroll
 @enduml

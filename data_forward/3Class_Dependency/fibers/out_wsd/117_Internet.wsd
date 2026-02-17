@@ -1,4 +1,4 @@
 @startuml
-Gmail ..> Internet
-OnlineUse ..> Gmail
+Outlook ..> Internet
+OnlineUse ..> Outlook
 @enduml

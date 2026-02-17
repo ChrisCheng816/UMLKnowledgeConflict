@@ -1,4 +1,4 @@
 @startuml
-Game <|-- CardGame
-CardGame <|-- Gwent
+Game <|-- TabletopRPG
+TabletopRPG <|-- DungeonsAndDragons
 @enduml

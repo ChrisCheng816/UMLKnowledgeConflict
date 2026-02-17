@@ -1,4 +1,4 @@
 @startuml
-Dashboard *-- Car
-Radio *-- Dashboard
+Door *-- Car
+Hinge *-- Door
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MotorSport
-MotorSport <|-- Supercross
+Sport <|-- MindSport
+MindSport <|-- Bridge
 @enduml

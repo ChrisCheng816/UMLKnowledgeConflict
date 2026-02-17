@@ -1,0 +1,4 @@
+@startuml
+GasGrill ..> Barbecue
+Fuel ..> GasGrill
+@enduml

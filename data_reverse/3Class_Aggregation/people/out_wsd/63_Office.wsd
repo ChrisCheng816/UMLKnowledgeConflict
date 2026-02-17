@@ -1,0 +1,4 @@
+@startuml
+StaffOfClerks o-- Office
+Clerk o-- StaffOfClerks
+@enduml

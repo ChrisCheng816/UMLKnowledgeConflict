@@ -1,4 +1,4 @@
 @startuml
-Basement *-- House
-Wall *-- Basement
+Porch *-- House
+Deck *-- Porch
 @enduml

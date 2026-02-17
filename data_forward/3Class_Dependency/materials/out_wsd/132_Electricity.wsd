@@ -1,4 +1,4 @@
 @startuml
-LEDStrip ..> Electricity
-Illumination ..> LEDStrip
+MicrowaveOven ..> Electricity
+Defrosting ..> MicrowaveOven
 @enduml

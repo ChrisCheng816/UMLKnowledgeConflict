@@ -1,4 +1,4 @@
 @startuml
-Netflix ..> Internet
-OnlineUse ..> Netflix
+Hulu ..> Internet
+OnlineUse ..> Hulu
 @enduml

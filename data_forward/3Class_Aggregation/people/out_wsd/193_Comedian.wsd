@@ -1,0 +1,4 @@
+@startuml
+TeamOfComedians o-- Comedian
+Club o-- TeamOfComedians
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Issue o-- Article
+Magazine o-- Issue
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Tooth *-- Tiger
-Enamel *-- Tooth
+Crown *-- Tooth
 @enduml

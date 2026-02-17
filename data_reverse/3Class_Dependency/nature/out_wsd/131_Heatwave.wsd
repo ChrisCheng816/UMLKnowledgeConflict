@@ -1,0 +1,4 @@
+@startuml
+HighPressure ..> Heatwave
+Sunlight ..> HighPressure
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-MillingMachine ..> Electricity
-HomeUse ..> MillingMachine
+PinballMachine ..> Electricity
+HomeUse ..> PinballMachine
 @enduml

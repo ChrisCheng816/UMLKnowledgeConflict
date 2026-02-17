@@ -1,4 +1,4 @@
 @startuml
-Film <|-- ThrillerFilm
-ThrillerFilm <|-- Jaws
+Film <|-- HorrorFilm
+HorrorFilm <|-- Psycho
 @enduml

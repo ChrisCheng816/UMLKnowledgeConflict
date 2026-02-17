@@ -1,4 +1,4 @@
 @startuml
-Wikipedia ..> OnlineUse
-Internet ..> Wikipedia
+GoogleMaps ..> OnlineUse
+Internet ..> GoogleMaps
 @enduml

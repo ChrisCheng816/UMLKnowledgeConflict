@@ -1,4 +1,4 @@
 @startuml
-RacingEngine ..> Fuel
-TransportUse ..> RacingEngine
+JetEngine ..> Fuel
+TransportUse ..> JetEngine
 @enduml

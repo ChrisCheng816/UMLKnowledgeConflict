@@ -1,4 +1,4 @@
 @startuml
-FloorLamp ..> Electricity
-NightLighting ..> FloorLamp
+Freezer ..> Electricity
+FoodPreservation ..> Freezer
 @enduml

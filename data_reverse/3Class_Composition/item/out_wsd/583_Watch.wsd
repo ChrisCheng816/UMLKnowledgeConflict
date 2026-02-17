@@ -1,0 +1,4 @@
+@startuml
+Face *-- Watch
+Hand *-- Face
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ClubOfGuides o-- Guide
+School o-- ClubOfGuides
+@enduml

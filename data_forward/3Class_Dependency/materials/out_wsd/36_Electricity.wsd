@@ -1,4 +1,4 @@
 @startuml
-CeilingLight ..> Electricity
-NightLighting ..> CeilingLight
+ChargingDock ..> Electricity
+PowerSupply ..> ChargingDock
 @enduml

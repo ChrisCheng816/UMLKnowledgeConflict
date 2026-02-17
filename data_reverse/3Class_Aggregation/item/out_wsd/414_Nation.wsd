@@ -1,0 +1,4 @@
+@startuml
+State o-- Nation
+Citizen o-- State
+@enduml

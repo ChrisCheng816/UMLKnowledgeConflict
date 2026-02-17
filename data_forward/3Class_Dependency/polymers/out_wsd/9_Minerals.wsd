@@ -1,4 +1,4 @@
 @startuml
-Pigment ..> Minerals
-Ink ..> Pigment
+Graphite ..> Minerals
+Pencil ..> Graphite
 @enduml

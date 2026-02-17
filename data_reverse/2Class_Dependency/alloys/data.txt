@@ -16,7 +16,6 @@ PublicTransit CityBus
 SchoolCommute CityBus
 FreightTransport DeliveryVan
 LongDistanceTravel DeliveryVan
-PublicTransit DeliveryVan
 FreightTransport DieselTrain
 LongDistanceTravel DieselTrain
 PublicTransit DieselTrain
@@ -47,7 +46,6 @@ EmergencyTransport MedicalHelicopter
 CityCommute Motorcycle
 RoadTrip Motorcycle
 WeekendRide Motorcycle
-FreightTransport ShuttleBus
 LongDistanceTravel ShuttleBus
 PublicTransit ShuttleBus
 TransportUse CarEngine
@@ -73,10 +71,6 @@ TransportUse PoliceCarEngine
 TransportUse TaxiEngine
 TransportUse RacingEngine
 TransportUse SchoolBusEngine
-TransportUse PowerGenerator
-TransportUse GasStove
-TransportUse CampingStove
-TransportUse GasGrill
 TransportUse JetEngine
 TransportUse TurbineEngine
 TransportUse DieselEngine
@@ -90,3 +84,8 @@ TransportUse LawnTractorEngine
 TransportUse HarvesterEngine
 TransportUse CraneEngine
 TransportUse LoaderEngine
+PowerGeneration Generator
+Barbecue GasGrill
+OutdoorCooking CampingStove
+PackageDelivery DeliveryVan
+AirportShuttle ShuttleBus

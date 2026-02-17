@@ -1,4 +1,4 @@
 @startuml
 FuelTerminal ..> Refinery
-FuelTankerTruck ..> FuelTerminal
+FuelBarge ..> FuelTerminal
 @enduml

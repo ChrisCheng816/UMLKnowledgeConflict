@@ -1,4 +1,4 @@
 @startuml
-PoolPump ..> Electricity
-HomeUse ..> PoolPump
+Compressor ..> Electricity
+HomeUse ..> Compressor
 @enduml

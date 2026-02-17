@@ -1,4 +1,4 @@
 @startuml
-AdobeReader ..> OnlineUse
-Internet ..> AdobeReader
+Photoshop ..> OnlineUse
+Internet ..> Photoshop
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SurgeProtector ..> Electricity
-DeviceCharging ..> SurgeProtector
+ToasterOven ..> Electricity
+Reheating ..> ToasterOven
 @enduml

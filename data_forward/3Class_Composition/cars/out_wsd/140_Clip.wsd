@@ -1,0 +1,4 @@
+@startuml
+SunVisor *-- Clip
+Car *-- SunVisor
+@enduml

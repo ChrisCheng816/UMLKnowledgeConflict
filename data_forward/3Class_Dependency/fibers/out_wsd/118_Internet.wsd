@@ -1,4 +1,4 @@
 @startuml
-Outlook ..> Internet
-OnlineUse ..> Outlook
+YahooMail ..> Internet
+OnlineUse ..> YahooMail
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+TeamOfFriends o-- Friend
+Club o-- TeamOfFriends
+@enduml

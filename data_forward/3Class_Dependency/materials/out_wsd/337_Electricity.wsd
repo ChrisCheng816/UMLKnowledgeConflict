@@ -1,4 +1,4 @@
 @startuml
-Subwoofer ..> Electricity
-HomeUse ..> Subwoofer
+SmartBoard ..> Electricity
+HomeUse ..> SmartBoard
 @enduml

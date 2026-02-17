@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Church
+Priest o-- Staff
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-FuelTankerTruck ..> FuelTerminal
-AirportFuelFarm ..> FuelTankerTruck
+FuelBarge ..> FuelTerminal
+BunkeringPort ..> FuelBarge
 @enduml

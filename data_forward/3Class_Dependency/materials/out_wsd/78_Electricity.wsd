@@ -1,4 +1,4 @@
 @startuml
-ElectricToothbrush ..> Electricity
-TeethBrushing ..> ElectricToothbrush
+FlashlightCharger ..> Electricity
+Illumination ..> FlashlightCharger
 @enduml

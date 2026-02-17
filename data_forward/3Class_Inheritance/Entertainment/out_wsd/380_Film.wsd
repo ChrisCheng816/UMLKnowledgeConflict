@@ -1,4 +1,4 @@
 @startuml
-Film <|-- AnimatedFilm
-AnimatedFilm <|-- Shrek
+Film <|-- FantasyFilm
+FantasyFilm <|-- Avatar
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+ClassOfChildren o-- Child
+School o-- ClassOfChildren
+@enduml

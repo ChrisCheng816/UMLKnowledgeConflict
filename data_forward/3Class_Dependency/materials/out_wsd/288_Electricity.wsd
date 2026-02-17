@@ -1,4 +1,4 @@
 @startuml
-GarageDoorOpener ..> Electricity
-HomeUse ..> GarageDoorOpener
+POSMachine ..> Electricity
+HomeUse ..> POSMachine
 @enduml

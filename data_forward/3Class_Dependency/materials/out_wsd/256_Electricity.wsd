@@ -1,4 +1,4 @@
 @startuml
-LaptopComputer ..> Electricity
-HomeUse ..> LaptopComputer
+NAS ..> Electricity
+HomeUse ..> NAS
 @enduml

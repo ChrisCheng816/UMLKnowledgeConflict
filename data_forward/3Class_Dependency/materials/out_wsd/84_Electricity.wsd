@@ -1,4 +1,4 @@
 @startuml
-FlashlightCharger ..> Electricity
-NightLighting ..> FlashlightCharger
+FoodProcessor ..> Electricity
+Chopping ..> FoodProcessor
 @enduml

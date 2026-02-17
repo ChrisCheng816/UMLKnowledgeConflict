@@ -1,4 +1,4 @@
 @startuml
-TranslateApp ..> Internet
-OnlineUse ..> TranslateApp
+1Password ..> Internet
+OnlineUse ..> 1Password
 @enduml

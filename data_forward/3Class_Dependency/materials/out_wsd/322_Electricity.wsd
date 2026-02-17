@@ -1,4 +1,4 @@
 @startuml
-Welder ..> Electricity
-HomeUse ..> Welder
+StapleGun ..> Electricity
+HomeUse ..> StapleGun
 @enduml

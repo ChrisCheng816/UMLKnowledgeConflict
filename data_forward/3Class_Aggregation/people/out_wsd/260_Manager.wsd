@@ -1,0 +1,4 @@
+@startuml
+Office o-- Manager
+Clinic o-- Office
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Factory
+Supervisor o-- Staff
+@enduml

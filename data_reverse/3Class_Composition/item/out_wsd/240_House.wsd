@@ -1,4 +1,4 @@
 @startuml
-Porch *-- House
-Floorboard *-- Porch
+Wiring *-- House
+Wire *-- Wiring
 @enduml

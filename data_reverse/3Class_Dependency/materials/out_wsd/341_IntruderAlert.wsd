@@ -1,0 +1,4 @@
+@startuml
+Siren ..> IntruderAlert
+Electricity ..> Siren
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Airbnb ..> Internet
-OnlineUse ..> Airbnb
+Booking ..> Internet
+OnlineUse ..> Booking
 @enduml

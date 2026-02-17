@@ -1,0 +1,4 @@
+@startuml
+Musician o-- Orchestra
+Instrument o-- Musician
+@enduml

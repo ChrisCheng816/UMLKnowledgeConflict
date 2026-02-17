@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Person
-Cochlea *-- Ear
+Nose *-- Person
+Bridge *-- Nose
 @enduml

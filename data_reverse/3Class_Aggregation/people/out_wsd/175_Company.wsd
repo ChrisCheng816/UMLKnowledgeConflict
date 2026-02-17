@@ -1,0 +1,4 @@
+@startuml
+StaffOfFarmers o-- Company
+Farmer o-- StaffOfFarmers
+@enduml

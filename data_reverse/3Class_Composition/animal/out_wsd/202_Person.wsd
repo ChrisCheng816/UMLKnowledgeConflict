@@ -1,4 +1,4 @@
 @startuml
 Shoulder *-- Person
-Scapula *-- Shoulder
+Joint *-- Shoulder
 @enduml

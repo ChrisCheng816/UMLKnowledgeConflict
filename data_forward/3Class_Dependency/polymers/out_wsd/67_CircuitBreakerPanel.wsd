@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> CircuitBreakerPanel
+Microwave ..> WallOutlet
+@enduml

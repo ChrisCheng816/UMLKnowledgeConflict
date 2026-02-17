@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- PartyGame
+PartyGame <|-- AmongUs
+@enduml

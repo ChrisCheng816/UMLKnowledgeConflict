@@ -1,4 +1,4 @@
 @startuml
-ElectricToothbrush ..> Electricity
-OralHygiene ..> ElectricToothbrush
+EspressoMachine ..> Electricity
+LatteMaking ..> EspressoMachine
 @enduml

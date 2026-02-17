@@ -1,4 +1,4 @@
 @startuml
-PorchLight ..> Electricity
-NightLighting ..> PorchLight
+PressureCooker ..> Electricity
+Warming ..> PressureCooker
 @enduml

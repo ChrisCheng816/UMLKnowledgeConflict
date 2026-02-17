@@ -1,4 +1,4 @@
 @startuml
 Gear *-- Bicycle
-Chainring *-- Gear
+Cassette *-- Gear
 @enduml

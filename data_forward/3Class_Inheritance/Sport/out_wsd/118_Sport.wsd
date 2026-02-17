@@ -1,4 +1,4 @@
 @startuml
 Sport <|-- TeamSport
-TeamSport <|-- Bandy
+TeamSport <|-- TugOfWar
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-VendingMachine ..> HomeUse
-Electricity ..> VendingMachine
+ElectricCanOpener ..> HomeUse
+Electricity ..> ElectricCanOpener
 @enduml

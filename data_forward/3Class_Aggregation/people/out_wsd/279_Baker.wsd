@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Baker
+Cafe o-- Staff
+@enduml

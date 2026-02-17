@@ -1,4 +1,4 @@
 @startuml
-MediaPlayer ..> Electricity
-VideoStreaming ..> MediaPlayer
+MotionSensor ..> Electricity
+Surveillance ..> MotionSensor
 @enduml

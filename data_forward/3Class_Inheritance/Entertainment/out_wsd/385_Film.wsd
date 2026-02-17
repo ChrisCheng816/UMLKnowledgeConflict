@@ -1,4 +1,4 @@
 @startuml
-Film <|-- MysteryFilm
-MysteryFilm <|-- Memento
+Film <|-- SuperheroFilm
+SuperheroFilm <|-- Logan
 @enduml

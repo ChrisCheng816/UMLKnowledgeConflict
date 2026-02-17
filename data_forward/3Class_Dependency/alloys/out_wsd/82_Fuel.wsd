@@ -1,4 +1,4 @@
 @startuml
-PetrolEngine ..> Fuel
-TransportUse ..> PetrolEngine
+LawnTractorEngine ..> Fuel
+TransportUse ..> LawnTractorEngine
 @enduml

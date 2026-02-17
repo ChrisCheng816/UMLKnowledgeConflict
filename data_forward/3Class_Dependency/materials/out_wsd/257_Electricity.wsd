@@ -1,4 +1,4 @@
 @startuml
-GamingConsole ..> Electricity
-HomeUse ..> GamingConsole
+SmartDisplay ..> Electricity
+HomeUse ..> SmartDisplay
 @enduml

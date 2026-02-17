@@ -1,4 +1,4 @@
 @startuml
 Web *-- Spider
-Hub *-- Web
+Droplet *-- Web
 @enduml

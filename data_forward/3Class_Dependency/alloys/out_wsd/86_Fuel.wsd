@@ -1,4 +1,4 @@
 @startuml
-ATVEngine ..> Fuel
-TransportUse ..> ATVEngine
+Generator ..> Fuel
+PowerGeneration ..> Generator
 @enduml

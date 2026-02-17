@@ -1,4 +1,4 @@
 @startuml
-Team o-- Company
-Receptionist o-- Team
+StaffOfCyclists o-- Company
+Cyclist o-- StaffOfCyclists
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-YouTubeMusic ..> Internet
-OnlineUse ..> YouTubeMusic
+Pandora ..> Internet
+OnlineUse ..> Pandora
 @enduml

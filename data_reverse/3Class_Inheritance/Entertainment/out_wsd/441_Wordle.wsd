@@ -1,0 +1,4 @@
+@startuml
+Wordle <|-- Game
+Game <|-- Entertainment
+@enduml

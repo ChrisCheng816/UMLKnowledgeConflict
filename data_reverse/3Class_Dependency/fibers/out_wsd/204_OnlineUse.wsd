@@ -1,4 +1,4 @@
 @startuml
-BattleNet ..> OnlineUse
-Internet ..> BattleNet
+Origin ..> OnlineUse
+Internet ..> Origin
 @enduml

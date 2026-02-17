@@ -1,4 +1,4 @@
 @startuml
-Shazam ..> Internet
-OnlineUse ..> Shazam
+CalculatorApp ..> Internet
+OnlineUse ..> CalculatorApp
 @enduml

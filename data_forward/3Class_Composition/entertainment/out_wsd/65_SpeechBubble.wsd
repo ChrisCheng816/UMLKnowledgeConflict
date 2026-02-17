@@ -1,0 +1,4 @@
+@startuml
+Panel *-- SpeechBubble
+Comic *-- Panel
+@enduml

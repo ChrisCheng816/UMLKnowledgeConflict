@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Snowplow
+City o-- Fleet
+@enduml

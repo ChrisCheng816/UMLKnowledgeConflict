@@ -1,4 +1,4 @@
 @startuml
-WirelessCharger ..> Electricity
-BatteryCharging ..> WirelessCharger
+WashingMachine ..> Electricity
+HomeUse ..> WashingMachine
 @enduml

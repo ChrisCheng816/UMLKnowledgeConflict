@@ -1,0 +1,4 @@
+@startuml
+CoalPlant ..> PowerGeneration
+Coal ..> CoalPlant
+@enduml

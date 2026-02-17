@@ -1,0 +1,4 @@
+@startuml
+MovingCrew o-- Mover
+MovingCompany o-- MovingCrew
+@enduml

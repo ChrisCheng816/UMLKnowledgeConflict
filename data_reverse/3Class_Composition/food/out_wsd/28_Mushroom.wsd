@@ -1,4 +1,4 @@
 @startuml
-Cap *-- Mushroom
-Gill *-- Cap
+Stem *-- Mushroom
+Base *-- Stem
 @enduml

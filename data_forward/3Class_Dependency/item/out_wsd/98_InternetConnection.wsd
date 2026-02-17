@@ -1,0 +1,4 @@
+@startuml
+GameConsole ..> InternetConnection
+OnlineGaming ..> GameConsole
+@enduml

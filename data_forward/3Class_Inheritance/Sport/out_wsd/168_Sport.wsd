@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport
-IndividualSport <|-- Parkour
+Sport <|-- Swimming
+Swimming <|-- ParaSwimming
 @enduml

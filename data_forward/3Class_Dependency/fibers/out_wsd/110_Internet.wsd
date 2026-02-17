@@ -1,4 +1,4 @@
 @startuml
-Tidal ..> Internet
-OnlineUse ..> Tidal
+SoundCloud ..> Internet
+OnlineUse ..> SoundCloud
 @enduml

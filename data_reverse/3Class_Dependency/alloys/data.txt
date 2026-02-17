@@ -15,7 +15,6 @@ PublicTransit CityBus DieselFuel
 SchoolCommute CityBus DieselFuel
 FreightTransport DeliveryVan DieselFuel
 LongDistanceTravel DeliveryVan DieselFuel
-PublicTransit DeliveryVan DieselFuel
 FreightTransport DieselTrain DieselFuel
 LongDistanceTravel DieselTrain DieselFuel
 PublicTransit DieselTrain DieselFuel
@@ -46,7 +45,6 @@ EmergencyTransport MedicalHelicopter JetFuel
 CityCommute Motorcycle Gasoline
 RoadTrip Motorcycle Gasoline
 WeekendRide Motorcycle Gasoline
-FreightTransport ShuttleBus DieselFuel
 LongDistanceTravel ShuttleBus DieselFuel
 PublicTransit ShuttleBus DieselFuel
 TransportUse CarEngine Fuel
@@ -72,10 +70,6 @@ TransportUse PoliceCarEngine Fuel
 TransportUse TaxiEngine Fuel
 TransportUse RacingEngine Fuel
 TransportUse SchoolBusEngine Fuel
-TransportUse PowerGenerator Fuel
-TransportUse GasStove Fuel
-TransportUse CampingStove Fuel
-TransportUse GasGrill Fuel
 TransportUse JetEngine Fuel
 TransportUse TurbineEngine Fuel
 TransportUse DieselEngine Fuel
@@ -89,3 +83,9 @@ TransportUse LawnTractorEngine Fuel
 TransportUse HarvesterEngine Fuel
 TransportUse CraneEngine Fuel
 TransportUse LoaderEngine Fuel
+PowerGeneration Generator Fuel
+Cooking GasStove Fuel
+Barbecue GasGrill Fuel
+OutdoorCooking CampingStove Fuel
+PackageDelivery DeliveryVan DieselFuel
+AirportShuttle ShuttleBus DieselFuel

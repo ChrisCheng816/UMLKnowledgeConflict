@@ -1,4 +1,4 @@
 @startuml
-BloodPressureMonitor ..> HomeUse
-Electricity ..> BloodPressureMonitor
+AquariumPump ..> HomeUse
+Electricity ..> AquariumPump
 @enduml

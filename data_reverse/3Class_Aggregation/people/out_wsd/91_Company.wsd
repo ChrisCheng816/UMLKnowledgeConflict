@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Company
-Analyst o-- Staff
+StaffOfNeighbors o-- Company
+Neighbor o-- StaffOfNeighbors
 @enduml

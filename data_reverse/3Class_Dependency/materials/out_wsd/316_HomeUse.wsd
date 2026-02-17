@@ -1,4 +1,4 @@
 @startuml
-HedgeTrimmer ..> HomeUse
-Electricity ..> HedgeTrimmer
+Lathe ..> HomeUse
+Electricity ..> Lathe
 @enduml

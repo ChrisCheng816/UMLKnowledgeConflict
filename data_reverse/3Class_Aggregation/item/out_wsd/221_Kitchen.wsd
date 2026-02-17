@@ -1,4 +1,4 @@
 @startuml
 Cabinet o-- Kitchen
-Pot o-- Cabinet
+FryingPan o-- Cabinet
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-InductionCooker ..> Electricity
-HomeUse ..> InductionCooker
+SteamIron ..> Electricity
+HomeUse ..> SteamIron
 @enduml

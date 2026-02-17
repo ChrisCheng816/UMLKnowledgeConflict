@@ -1,0 +1,4 @@
+@startuml
+TeamOfReceptionists o-- Club
+Receptionist o-- TeamOfReceptionists
+@enduml

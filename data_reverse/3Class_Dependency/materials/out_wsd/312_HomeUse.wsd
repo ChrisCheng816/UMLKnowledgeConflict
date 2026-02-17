@@ -1,4 +1,4 @@
 @startuml
-SumpPump ..> HomeUse
-Electricity ..> SumpPump
+Chainsaw ..> HomeUse
+Electricity ..> Chainsaw
 @enduml

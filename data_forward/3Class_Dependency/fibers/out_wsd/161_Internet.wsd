@@ -1,4 +1,4 @@
 @startuml
-AliExpress ..> Internet
-OnlineUse ..> AliExpress
+Temu ..> Internet
+OnlineUse ..> Temu
 @enduml

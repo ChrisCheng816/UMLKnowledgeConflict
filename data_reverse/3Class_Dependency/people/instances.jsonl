@@ -1,0 +1,10 @@
+{"id": "1", "template_id": "dependency", "nodes": ["Driver", "Car", "Fuel"], "edges": ["Car ..> Driver", "Fuel ..> Car"]}
+{"id": "2", "template_id": "dependency", "nodes": ["Chef", "Knife", "Potato"], "edges": ["Knife ..> Chef", "Potato ..> Knife"]}
+{"id": "3", "template_id": "dependency", "nodes": ["Painter", "Brush", "Canvas"], "edges": ["Brush ..> Painter", "Canvas ..> Brush"]}
+{"id": "4", "template_id": "dependency", "nodes": ["Builder", "Hammer", "Nail"], "edges": ["Hammer ..> Builder", "Nail ..> Hammer"]}
+{"id": "5", "template_id": "dependency", "nodes": ["Archer", "Bow", "Arrow"], "edges": ["Bow ..> Archer", "Arrow ..> Bow"]}
+{"id": "6", "template_id": "dependency", "nodes": ["Tailor", "Needle", "Thread"], "edges": ["Needle ..> Tailor", "Thread ..> Needle"]}
+{"id": "7", "template_id": "dependency", "nodes": ["Writer", "Pen", "Ink"], "edges": ["Pen ..> Writer", "Ink ..> Pen"]}
+{"id": "8", "template_id": "dependency", "nodes": ["Reader", "Lens", "Book"], "edges": ["Lens ..> Reader", "Book ..> Lens"]}
+{"id": "9", "template_id": "dependency", "nodes": ["Nurse", "Syringe", "Vein"], "edges": ["Syringe ..> Nurse", "Vein ..> Syringe"]}
+{"id": "10", "template_id": "dependency", "nodes": ["Farmer", "Tractor", "Plow"], "edges": ["Tractor ..> Farmer", "Plow ..> Tractor"]}

@@ -1,4 +1,4 @@
 @startuml
 Paragraph *-- Essay
-Word *-- Paragraph
+Clause *-- Paragraph
 @enduml

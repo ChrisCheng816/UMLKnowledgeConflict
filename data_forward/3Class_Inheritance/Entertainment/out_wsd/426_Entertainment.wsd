@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- SciFiFilm
-SciFiFilm <|-- StarWarsFilm
+Entertainment <|-- Documentary
+Documentary <|-- PlanetEarth
 @enduml

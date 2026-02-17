@@ -1,4 +1,4 @@
 @startuml
-LinkedIn ..> OnlineUse
-Internet ..> LinkedIn
+Threads ..> OnlineUse
+Internet ..> Threads
 @enduml

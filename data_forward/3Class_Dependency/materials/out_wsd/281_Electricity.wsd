@@ -1,4 +1,4 @@
 @startuml
-Massager ..> Electricity
-HomeUse ..> Massager
+GarageDoorOpener ..> Electricity
+HomeUse ..> GarageDoorOpener
 @enduml

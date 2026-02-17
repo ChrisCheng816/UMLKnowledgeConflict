@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Chairperson
+Charity o-- Committee
+@enduml

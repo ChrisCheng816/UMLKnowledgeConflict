@@ -1,4 +1,4 @@
 @startuml
-Foot *-- Person
-Skin *-- Foot
+Eye *-- Person
+Pupil *-- Eye
 @enduml

@@ -1,8 +1,8 @@
+MovingCompany MovingCrew Mover
 ParcelLocker LockerUnit Parcel
 Airline Fleet Airplane
 TrainDepot Fleet Train
 City Fleet Bus
-City Fleet Taxi
 City Fleet Ambulance
 City Fleet FireTruck
 City Fleet PoliceCar
@@ -12,8 +12,6 @@ City Fleet SchoolBus
 City Fleet Tram
 City Fleet Ferry
 City Fleet SubwayCar
-City Fleet Scooter
-City Fleet Bicycle
 City Fleet TowTruck
 Airport Terminal Gate
 Airport Terminal Lounge
@@ -27,10 +25,9 @@ Airport Terminal Signage
 Airport Terminal Escalator
 Airport Terminal Elevator
 Airport Hangar Airplane
+Airport ControlTower Controller
 Airport Runway Light
 Airport Garage Car
-MovingCompany Fleet Truck
-Airport ControlTower Radar
-Metro Line Station
-Airport Hangar Helicopter
-Seaport Pier Berth
+City Fleet Snowplow
+City Fleet Bulldozer
+City Fleet Backhoe

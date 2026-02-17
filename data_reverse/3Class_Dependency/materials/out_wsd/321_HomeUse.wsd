@@ -1,4 +1,4 @@
 @startuml
-AirPump ..> HomeUse
-Electricity ..> AirPump
+NailGun ..> HomeUse
+Electricity ..> NailGun
 @enduml

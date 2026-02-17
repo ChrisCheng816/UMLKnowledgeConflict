@@ -1,4 +1,4 @@
 @startuml
-Tripadvisor ..> Internet
-OnlineUse ..> Tripadvisor
+Amazon ..> Internet
+OnlineUse ..> Amazon
 @enduml

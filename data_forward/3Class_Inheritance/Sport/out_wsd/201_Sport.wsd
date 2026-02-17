@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Karate
+Karate <|-- ShotokanKarate
+@enduml

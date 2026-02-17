@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Studio
+Editor o-- Staff
+@enduml

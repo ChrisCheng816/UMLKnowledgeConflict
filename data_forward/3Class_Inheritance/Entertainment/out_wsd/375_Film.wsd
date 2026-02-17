@@ -1,4 +1,4 @@
 @startuml
-Film <|-- FamilyFilm
-FamilyFilm <|-- Coco
+Film <|-- SportsFilm
+SportsFilm <|-- Rocky
 @enduml

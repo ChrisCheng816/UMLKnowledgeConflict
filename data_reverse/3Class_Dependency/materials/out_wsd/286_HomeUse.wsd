@@ -1,4 +1,4 @@
 @startuml
-LeafBlower ..> HomeUse
-Electricity ..> LeafBlower
+LabelPrinter ..> HomeUse
+Electricity ..> LabelPrinter
 @enduml

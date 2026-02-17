@@ -1,4 +1,4 @@
 @startuml
-ElectricSkillet ..> Electricity
-Sauteing ..> ElectricSkillet
+EspressoMachine ..> Electricity
+CappuccinoMaking ..> EspressoMachine
 @enduml

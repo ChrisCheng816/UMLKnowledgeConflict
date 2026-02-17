@@ -25,9 +25,6 @@ SmoothieMaking Blender Electricity
 AudioStreaming BluetoothSpeaker Electricity
 MusicPlayback BluetoothSpeaker Electricity
 RadioListening BluetoothSpeaker Electricity
-HomeSecurity CarbonMonoxideAlarm Electricity
-MotionDetection CarbonMonoxideAlarm Electricity
-Surveillance CarbonMonoxideAlarm Electricity
 AirCirculation CeilingFan Electricity
 CoolingBreeze CeilingFan Electricity
 Ventilation CeilingFan Electricity
@@ -40,7 +37,6 @@ PowerSupply ChargingDock Electricity
 ClothesDrying ClothesDryer Electricity
 LintRemoval ClothesDryer Electricity
 WrinkleReduction ClothesDryer Electricity
-CoffeeBrewing CoffeeMaker Electricity
 CoffeePot CoffeeMaker Electricity
 HotCoffee CoffeeMaker Electricity
 Baking ConvectionOven Electricity
@@ -92,7 +88,6 @@ FoodPreservation Freezer Electricity
 FrozenStorage Freezer Electricity
 IceMaking Freezer Electricity
 MusicPlayback GameConsole Electricity
-OnlineGaming GameConsole Electricity
 HomeHeating GasFurnace NaturalGas
 SpaceHeating GasFurnace NaturalGas
 WarmAir GasFurnace NaturalGas
@@ -100,7 +95,6 @@ Baking GasOven NaturalGas
 Broiling GasOven NaturalGas
 Roasting GasOven NaturalGas
 Boiling GasStove NaturalGas
-Cooking GasStove NaturalGas
 Frying GasStove NaturalGas
 Dishwashing GasWaterHeater NaturalGas
 HotWater GasWaterHeater NaturalGas
@@ -224,7 +218,6 @@ MusicPlayback Turntable Electricity
 RadioListening Turntable Electricity
 CarpetCleaning VacuumCleaner Electricity
 DustRemoval VacuumCleaner Electricity
-Vacuuming VacuumCleaner Electricity
 HomeSecurity VideoDoorbell Electricity
 MotionDetection VideoDoorbell Electricity
 Surveillance VideoDoorbell Electricity
@@ -343,3 +336,6 @@ HomeUse Laminator Electricity
 HomeUse DocumentCamera Electricity
 HomeUse SmartBoard Electricity
 HomeUse ServerRack Electricity
+FireSafety SmokeDetector BatteryPower
+PowerOutage Flashlight BatteryPower
+IntruderAlert Siren Electricity

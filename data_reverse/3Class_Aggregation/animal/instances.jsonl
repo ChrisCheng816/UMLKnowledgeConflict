@@ -249,5 +249,8 @@
 {"id": "249", "template_id": "aggregation", "nodes": ["Zoo", "Enclosure", "Rhino"], "edges": ["Enclosure o-- Zoo", "Rhino o-- Enclosure"]}
 {"id": "250", "template_id": "aggregation", "nodes": ["Ocean", "PodOfBelugas", "Beluga"], "edges": ["PodOfBelugas o-- Ocean", "Beluga o-- PodOfBelugas"]}
 {"id": "251", "template_id": "aggregation", "nodes": ["Reef", "SchoolOfAngelfish", "Angelfish"], "edges": ["SchoolOfAngelfish o-- Reef", "Angelfish o-- SchoolOfAngelfish"]}
-{"id": "252", "template_id": "aggregation", "nodes": ["Zoo", "Aviary", "Parrot"], "edges": ["Aviary o-- Zoo", "Parrot o-- Aviary"]}
-{"id": "253", "template_id": "aggregation", "nodes": ["Farm", "Pen", "Sheep"], "edges": ["Pen o-- Farm", "Sheep o-- Pen"]}
+{"id": "252", "template_id": "aggregation", "nodes": ["Orchestra", "Musician", "Instrument"], "edges": ["Musician o-- Orchestra", "Instrument o-- Musician"]}
+{"id": "253", "template_id": "aggregation", "nodes": ["Convoy", "Truck", "Cargo"], "edges": ["Truck o-- Convoy", "Cargo o-- Truck"]}
+{"id": "254", "template_id": "aggregation", "nodes": ["Crowd", "Person", "Bag"], "edges": ["Person o-- Crowd", "Bag o-- Person"]}
+{"id": "255", "template_id": "aggregation", "nodes": ["Fleet", "Boat", "Anchor"], "edges": ["Boat o-- Fleet", "Anchor o-- Boat"]}
+{"id": "256", "template_id": "aggregation", "nodes": ["Herd", "Cow", "Bell"], "edges": ["Cow o-- Herd", "Bell o-- Cow"]}

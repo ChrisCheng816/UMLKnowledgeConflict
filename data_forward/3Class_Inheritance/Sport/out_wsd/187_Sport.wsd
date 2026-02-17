@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Equestrian
-Equestrian <|-- Dressage
+Sport <|-- WaterSport
+WaterSport <|-- Sailing
 @enduml

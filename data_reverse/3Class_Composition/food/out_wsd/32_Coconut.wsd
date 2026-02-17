@@ -1,4 +1,4 @@
 @startuml
-Husk *-- Coconut
-Fiber *-- Husk
+Shell *-- Coconut
+Eye *-- Shell
 @enduml

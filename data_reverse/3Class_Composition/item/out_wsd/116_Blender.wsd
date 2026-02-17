@@ -1,4 +1,4 @@
 @startuml
-Jar *-- Blender
-Thread *-- Jar
+Blade *-- Blender
+Curve *-- Blade
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Quidditch <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

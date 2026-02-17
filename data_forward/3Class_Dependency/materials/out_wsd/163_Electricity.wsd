@@ -1,4 +1,4 @@
 @startuml
-Refrigerator ..> Electricity
-FoodPreservation ..> Refrigerator
+SecurityCamera ..> Electricity
+MotionDetection ..> SecurityCamera
 @enduml

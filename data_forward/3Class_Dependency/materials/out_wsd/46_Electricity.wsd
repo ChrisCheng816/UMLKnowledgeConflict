@@ -1,4 +1,4 @@
 @startuml
-ConvectionOven ..> Electricity
-Baking ..> ConvectionOven
+Dehumidifier ..> Electricity
+MoistureRemoval ..> Dehumidifier
 @enduml

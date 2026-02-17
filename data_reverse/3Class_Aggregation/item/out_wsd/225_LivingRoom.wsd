@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- LivingRoom
-Newspaper o-- Shelf
+Magazine o-- Shelf
 @enduml

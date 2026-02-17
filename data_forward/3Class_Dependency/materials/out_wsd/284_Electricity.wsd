@@ -1,4 +1,4 @@
 @startuml
-AquariumHeater ..> Electricity
-HomeUse ..> AquariumHeater
+PaperShredder ..> Electricity
+HomeUse ..> PaperShredder
 @enduml

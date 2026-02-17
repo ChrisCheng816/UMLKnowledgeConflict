@@ -1,4 +1,4 @@
 @startuml
-DoorSensor ..> Electricity
-Surveillance ..> DoorSensor
+ElectricKettle ..> Electricity
+BoilingWater ..> ElectricKettle
 @enduml

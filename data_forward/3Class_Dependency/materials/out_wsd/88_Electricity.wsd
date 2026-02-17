@@ -1,4 +1,4 @@
 @startuml
-FoodProcessor ..> Electricity
-Chopping ..> FoodProcessor
+Freezer ..> Electricity
+FrozenStorage ..> Freezer
 @enduml

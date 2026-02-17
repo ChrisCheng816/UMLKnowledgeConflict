@@ -1,4 +1,4 @@
 @startuml
-SodaMaker ..> Electricity
-HomeUse ..> SodaMaker
+StringTrimmer ..> Electricity
+HomeUse ..> StringTrimmer
 @enduml

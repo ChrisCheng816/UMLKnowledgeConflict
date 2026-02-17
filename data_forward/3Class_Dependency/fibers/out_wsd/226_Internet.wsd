@@ -1,4 +1,4 @@
 @startuml
-NordVPN ..> Internet
-OnlineUse ..> NordVPN
+Minecraft ..> Internet
+OnlineUse ..> Minecraft
 @enduml

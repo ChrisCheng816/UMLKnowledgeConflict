@@ -1,4 +1,4 @@
 @startuml
 Eye *-- Person
-Retina *-- Eye
+Eyelid *-- Eye
 @enduml

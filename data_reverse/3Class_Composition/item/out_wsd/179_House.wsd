@@ -1,4 +1,4 @@
 @startuml
-Ceiling *-- House
-Fixture *-- Ceiling
+Window *-- House
+Shade *-- Window
 @enduml

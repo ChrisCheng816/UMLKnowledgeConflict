@@ -1,4 +1,4 @@
 @startuml
-SSD *-- Laptop
-Connector *-- SSD
+Port *-- Laptop
+Spring *-- Port
 @enduml

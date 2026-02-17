@@ -1,4 +1,4 @@
 @startuml
-LawnTractorEngine ..> Fuel
-TransportUse ..> LawnTractorEngine
+GasGrill ..> Fuel
+Barbecue ..> GasGrill
 @enduml

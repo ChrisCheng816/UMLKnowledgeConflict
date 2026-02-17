@@ -1,0 +1,4 @@
+@startuml
+Hose *-- Nozzle
+Vacuum *-- Hose
+@enduml

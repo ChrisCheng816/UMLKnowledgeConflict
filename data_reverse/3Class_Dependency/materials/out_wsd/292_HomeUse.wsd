@@ -1,4 +1,4 @@
 @startuml
-StaplerMachine ..> HomeUse
-Electricity ..> StaplerMachine
+WaterDispenser ..> HomeUse
+Electricity ..> WaterDispenser
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SmartDisplay ..> HomeUse
-Electricity ..> SmartDisplay
+DroneCharger ..> HomeUse
+Electricity ..> DroneCharger
 @enduml

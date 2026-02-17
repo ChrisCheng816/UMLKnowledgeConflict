@@ -1,4 +1,4 @@
 @startuml
-DoorDash ..> Internet
-OnlineUse ..> DoorDash
+UberEats ..> Internet
+OnlineUse ..> UberEats
 @enduml

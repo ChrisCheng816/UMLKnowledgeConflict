@@ -1,4 +1,4 @@
 @startuml
-Committee o-- Company
-Supervisor o-- Committee
+StaffOfFriends o-- Company
+Friend o-- StaffOfFriends
 @enduml

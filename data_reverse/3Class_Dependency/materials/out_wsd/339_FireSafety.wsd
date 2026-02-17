@@ -1,0 +1,4 @@
+@startuml
+SmokeDetector ..> FireSafety
+BatteryPower ..> SmokeDetector
+@enduml

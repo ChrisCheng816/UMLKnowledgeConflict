@@ -1,4 +1,4 @@
 @startuml
-NightLight ..> Electricity
-Illumination ..> NightLight
+PorchLight ..> Electricity
+Illumination ..> PorchLight
 @enduml

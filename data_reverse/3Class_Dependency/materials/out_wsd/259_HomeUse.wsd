@@ -1,4 +1,4 @@
 @startuml
-Monitor ..> HomeUse
-Electricity ..> Monitor
+DVDPlayer ..> HomeUse
+Electricity ..> DVDPlayer
 @enduml

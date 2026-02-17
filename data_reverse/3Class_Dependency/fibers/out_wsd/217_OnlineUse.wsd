@@ -1,4 +1,4 @@
 @startuml
-WeatherApp ..> OnlineUse
-Internet ..> WeatherApp
+TranslateApp ..> OnlineUse
+Internet ..> TranslateApp
 @enduml

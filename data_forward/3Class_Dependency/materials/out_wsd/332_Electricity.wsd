@@ -1,4 +1,4 @@
 @startuml
-KaraokeMachine ..> Electricity
-HomeUse ..> KaraokeMachine
+Webcam ..> Electricity
+HomeUse ..> Webcam
 @enduml

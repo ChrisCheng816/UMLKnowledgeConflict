@@ -1,0 +1,4 @@
+@startuml
+Generator ..> PowerGeneration
+Fuel ..> Generator
+@enduml

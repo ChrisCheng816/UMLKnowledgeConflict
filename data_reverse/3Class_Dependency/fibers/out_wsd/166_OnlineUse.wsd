@@ -1,4 +1,4 @@
 @startuml
-BestBuy ..> OnlineUse
-Internet ..> BestBuy
+Costco ..> OnlineUse
+Internet ..> Costco
 @enduml

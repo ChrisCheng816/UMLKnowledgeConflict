@@ -1,4 +1,4 @@
 @startuml
-Roof *-- House
-Beam *-- Roof
+Wall *-- House
+Switch *-- Wall
 @enduml

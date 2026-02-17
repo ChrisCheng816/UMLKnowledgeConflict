@@ -1,4 +1,4 @@
 @startuml
-PinballMachine ..> HomeUse
-Electricity ..> PinballMachine
+Microphone ..> HomeUse
+Electricity ..> Microphone
 @enduml

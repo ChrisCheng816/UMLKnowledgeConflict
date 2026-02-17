@@ -1,0 +1,4 @@
+@startuml
+Oven ..> Electricity
+HomeUse ..> Oven
+@enduml

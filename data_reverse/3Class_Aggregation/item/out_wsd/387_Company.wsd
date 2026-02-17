@@ -1,0 +1,4 @@
+@startuml
+Department o-- Company
+Employee o-- Department
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Basement *-- House
-Insulation *-- Basement
+Plumbing *-- House
+Valve *-- Plumbing
 @enduml

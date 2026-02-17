@@ -1,4 +1,4 @@
 @startuml
-ElectricKettle ..> Electricity
-MakingTea ..> ElectricKettle
+ElectricShaver ..> Electricity
+BeardTrimming ..> ElectricShaver
 @enduml

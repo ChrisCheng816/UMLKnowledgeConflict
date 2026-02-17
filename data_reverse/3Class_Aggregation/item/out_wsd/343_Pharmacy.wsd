@@ -1,4 +1,4 @@
 @startuml
 Cabinet o-- Pharmacy
-Syrup o-- Cabinet
+Vitamin o-- Cabinet
 @enduml

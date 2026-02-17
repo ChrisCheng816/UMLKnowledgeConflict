@@ -1,4 +1,4 @@
 @startuml
-HeadphoneAmplifier ..> Electricity
-MusicPlayback ..> HeadphoneAmplifier
+InductionCooktop ..> Electricity
+Frying ..> InductionCooktop
 @enduml

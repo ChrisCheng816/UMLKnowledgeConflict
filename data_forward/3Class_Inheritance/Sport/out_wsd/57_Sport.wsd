@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- Futsal
+Sport <|-- RacquetSport
+RacquetSport <|-- Pickleball
 @enduml

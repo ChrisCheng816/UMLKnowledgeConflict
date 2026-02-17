@@ -1,4 +1,4 @@
 @startuml
-AquariumPump ..> Electricity
-HomeUse ..> AquariumPump
+ElectricSaw ..> Electricity
+HomeUse ..> ElectricSaw
 @enduml

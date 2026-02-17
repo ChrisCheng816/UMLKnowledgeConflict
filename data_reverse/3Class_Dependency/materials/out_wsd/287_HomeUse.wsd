@@ -1,4 +1,4 @@
 @startuml
-PressureWasher ..> HomeUse
-Electricity ..> PressureWasher
+BarcodeScanner ..> HomeUse
+Electricity ..> BarcodeScanner
 @enduml

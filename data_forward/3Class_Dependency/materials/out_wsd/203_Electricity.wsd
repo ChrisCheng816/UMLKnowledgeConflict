@@ -1,4 +1,4 @@
 @startuml
-StandMixer ..> Electricity
-Whisking ..> StandMixer
+StreamingBox ..> Electricity
+VideoStreaming ..> StreamingBox
 @enduml

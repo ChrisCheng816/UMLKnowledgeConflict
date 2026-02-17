@@ -1,4 +1,4 @@
 @startuml
-iCloud ..> Internet
-OnlineUse ..> iCloud
+Box ..> Internet
+OnlineUse ..> Box
 @enduml

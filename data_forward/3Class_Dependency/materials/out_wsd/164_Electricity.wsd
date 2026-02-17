@@ -1,4 +1,4 @@
 @startuml
-Refrigerator ..> Electricity
-IceMaking ..> Refrigerator
+SecurityCamera ..> Electricity
+Surveillance ..> SecurityCamera
 @enduml

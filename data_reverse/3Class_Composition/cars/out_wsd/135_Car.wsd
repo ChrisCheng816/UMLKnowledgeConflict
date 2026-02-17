@@ -1,4 +1,4 @@
 @startuml
-Door *-- Car
-Mirror *-- Door
+Engine *-- Car
+Fan *-- Engine
 @enduml

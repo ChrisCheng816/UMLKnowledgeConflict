@@ -1,4 +1,4 @@
 @startuml
-Iron ..> Electricity
-PressingFabric ..> Iron
+LaptopCharger ..> Electricity
+DeviceCharging ..> LaptopCharger
 @enduml

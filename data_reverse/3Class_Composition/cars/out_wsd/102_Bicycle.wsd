@@ -1,4 +1,4 @@
 @startuml
 Chain *-- Bicycle
-Roller *-- Chain
+Plate *-- Chain
 @enduml

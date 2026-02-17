@@ -1,4 +1,4 @@
 @startuml
-YahooMail ..> Internet
-OnlineUse ..> YahooMail
+ProtonMail ..> Internet
+OnlineUse ..> ProtonMail
 @enduml

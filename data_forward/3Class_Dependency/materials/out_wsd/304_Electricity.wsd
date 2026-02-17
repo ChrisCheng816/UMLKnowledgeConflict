@@ -1,4 +1,4 @@
 @startuml
-ElectricCanOpener ..> Electricity
-HomeUse ..> ElectricCanOpener
+WaterPump ..> Electricity
+HomeUse ..> WaterPump
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- CardGame
-CardGame <|-- PokerGame
+Entertainment <|-- Podcast
+Podcast <|-- DailyPodcast
 @enduml

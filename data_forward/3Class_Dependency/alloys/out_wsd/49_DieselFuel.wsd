@@ -1,4 +1,4 @@
 @startuml
 ShuttleBus ..> DieselFuel
-FreightTransport ..> ShuttleBus
+PublicTransit ..> ShuttleBus
 @enduml

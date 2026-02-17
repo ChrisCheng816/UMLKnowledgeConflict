@@ -1,4 +1,4 @@
 @startuml
-NAS ..> Electricity
-HomeUse ..> NAS
+PowerBankCharger ..> Electricity
+HomeUse ..> PowerBankCharger
 @enduml

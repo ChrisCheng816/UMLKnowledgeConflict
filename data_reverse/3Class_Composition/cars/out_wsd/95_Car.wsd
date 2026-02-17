@@ -1,4 +1,4 @@
 @startuml
 Trunk *-- Car
-Lock *-- Trunk
+Light *-- Trunk
 @enduml

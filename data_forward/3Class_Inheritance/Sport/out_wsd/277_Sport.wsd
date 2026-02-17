@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Athletics
-Athletics <|-- RelayRace
+Sport <|-- MotorSport
+MotorSport <|-- Karting
 @enduml

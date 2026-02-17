@@ -1,4 +1,4 @@
 @startuml
-Stripe ..> Internet
-OnlineUse ..> Stripe
+Alipay ..> Internet
+OnlineUse ..> Alipay
 @enduml

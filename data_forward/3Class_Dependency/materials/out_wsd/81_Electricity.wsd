@@ -1,4 +1,4 @@
 @startuml
-EspressoMachine ..> Electricity
-LatteMaking ..> EspressoMachine
+FloorLamp ..> Electricity
+Illumination ..> FloorLamp
 @enduml

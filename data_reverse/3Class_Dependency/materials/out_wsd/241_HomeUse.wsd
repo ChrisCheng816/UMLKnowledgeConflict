@@ -1,4 +1,4 @@
 @startuml
-WashingMachine ..> HomeUse
-Electricity ..> WashingMachine
+Mixer ..> HomeUse
+Electricity ..> Mixer
 @enduml

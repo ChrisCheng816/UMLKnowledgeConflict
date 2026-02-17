@@ -1,4 +1,4 @@
 @startuml
-FerryEngine ..> TransportUse
-Fuel ..> FerryEngine
+BoatEngine ..> TransportUse
+Fuel ..> BoatEngine
 @enduml

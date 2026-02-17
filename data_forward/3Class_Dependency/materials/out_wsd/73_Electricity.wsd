@@ -1,4 +1,4 @@
 @startuml
-ElectricSkillet ..> Electricity
-Frying ..> ElectricSkillet
+ElectricToothbrush ..> Electricity
+OralHygiene ..> ElectricToothbrush
 @enduml

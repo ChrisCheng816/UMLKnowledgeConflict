@@ -1,0 +1,4 @@
+@startuml
+Masthead *-- Newspaper
+Logo *-- Masthead
+@enduml

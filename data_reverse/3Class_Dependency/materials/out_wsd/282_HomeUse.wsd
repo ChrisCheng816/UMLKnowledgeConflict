@@ -1,4 +1,4 @@
 @startuml
-HeatingPad ..> HomeUse
-Electricity ..> HeatingPad
+DrillCharger ..> HomeUse
+Electricity ..> DrillCharger
 @enduml

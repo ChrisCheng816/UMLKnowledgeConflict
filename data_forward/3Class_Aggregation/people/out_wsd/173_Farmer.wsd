@@ -1,0 +1,4 @@
+@startuml
+TeamOfFarmers o-- Farmer
+Club o-- TeamOfFarmers
+@enduml

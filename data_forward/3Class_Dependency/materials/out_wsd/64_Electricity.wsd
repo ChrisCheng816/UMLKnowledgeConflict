@@ -1,4 +1,4 @@
 @startuml
-ElectricKettle ..> Electricity
-BoilingWater ..> ElectricKettle
+ElectricOven ..> Electricity
+Broiling ..> ElectricOven
 @enduml

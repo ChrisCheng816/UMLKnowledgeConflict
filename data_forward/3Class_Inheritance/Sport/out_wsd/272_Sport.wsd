@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Tennis
-Tennis <|-- ClayCourtTennis
+Sport <|-- Athletics
+Athletics <|-- RelayRace
 @enduml

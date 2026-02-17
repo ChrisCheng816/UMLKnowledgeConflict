@@ -1,0 +1,4 @@
+@startuml
+CampingStove ..> OutdoorCooking
+Fuel ..> CampingStove
+@enduml

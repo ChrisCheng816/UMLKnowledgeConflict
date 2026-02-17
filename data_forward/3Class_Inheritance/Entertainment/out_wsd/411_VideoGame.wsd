@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- SimulationGame
-SimulationGame <|-- SimCity
+VideoGame <|-- FarmingGame
+FarmingGame <|-- StardewValley
 @enduml

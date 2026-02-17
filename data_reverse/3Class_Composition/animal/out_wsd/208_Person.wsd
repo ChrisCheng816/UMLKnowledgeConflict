@@ -1,4 +1,4 @@
 @startuml
-Shoulder *-- Person
-Cartilage *-- Shoulder
+Hair *-- Person
+Tip *-- Hair
 @enduml

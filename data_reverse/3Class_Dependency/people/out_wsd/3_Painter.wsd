@@ -1,0 +1,4 @@
+@startuml
+Brush ..> Painter
+Canvas ..> Brush
+@enduml

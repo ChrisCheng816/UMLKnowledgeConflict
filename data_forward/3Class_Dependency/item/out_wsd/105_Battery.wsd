@@ -1,0 +1,4 @@
+@startuml
+EmergencyRadio ..> Battery
+WeatherAlert ..> EmergencyRadio
+@enduml

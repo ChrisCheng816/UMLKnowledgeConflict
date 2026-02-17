@@ -1,4 +1,4 @@
 @startuml
-LaptopCharger ..> Electricity
-PowerSupply ..> LaptopCharger
+MediaPlayer ..> Electricity
+VideoStreaming ..> MediaPlayer
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-RiceCooker ..> Electricity
-Steaming ..> RiceCooker
+SewingMachine ..> Electricity
+Sewing ..> SewingMachine
 @enduml

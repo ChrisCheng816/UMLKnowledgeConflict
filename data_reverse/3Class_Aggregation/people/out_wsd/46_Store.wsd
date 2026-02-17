@@ -1,0 +1,4 @@
+@startuml
+CrewOfEmployees o-- Store
+Employee o-- CrewOfEmployees
+@enduml

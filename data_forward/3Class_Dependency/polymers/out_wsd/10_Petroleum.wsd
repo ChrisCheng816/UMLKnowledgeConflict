@@ -1,4 +1,4 @@
 @startuml
-Oil ..> Petroleum
-Paraffin ..> Oil
+Asphalt ..> Petroleum
+Road ..> Asphalt
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Regiment o-- Army
+Soldier o-- Regiment
+@enduml

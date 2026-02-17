@@ -1,0 +1,4 @@
+@startuml
+Crew o-- Driver
+FireStation o-- Crew
+@enduml

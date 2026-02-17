@@ -1,4 +1,4 @@
 @startuml
-Crunchyroll ..> Internet
-OnlineUse ..> Crunchyroll
+IMDb ..> Internet
+OnlineUse ..> IMDb
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GlucoseMeter ..> HomeUse
-Electricity ..> GlucoseMeter
+AquariumHeater ..> HomeUse
+Electricity ..> AquariumHeater
 @enduml

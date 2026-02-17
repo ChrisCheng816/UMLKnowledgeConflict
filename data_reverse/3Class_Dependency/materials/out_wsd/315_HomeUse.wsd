@@ -1,4 +1,4 @@
 @startuml
-LeafVacuum ..> HomeUse
-Electricity ..> LeafVacuum
+Welder ..> HomeUse
+Electricity ..> Welder
 @enduml

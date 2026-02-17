@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Nerve
-Person *-- Skin
+Spine *-- Nerve
+Person *-- Spine
 @enduml

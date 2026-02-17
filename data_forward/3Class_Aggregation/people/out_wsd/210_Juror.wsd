@@ -1,0 +1,4 @@
+@startuml
+TeamOfJurors o-- Juror
+Court o-- TeamOfJurors
+@enduml

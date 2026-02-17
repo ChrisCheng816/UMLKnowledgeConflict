@@ -1,4 +1,4 @@
 @startuml
 Binder o-- Backpack
-Handout o-- Binder
+Worksheet o-- Binder
 @enduml

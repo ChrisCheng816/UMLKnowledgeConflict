@@ -1,4 +1,4 @@
 @startuml
-GeneratorEngine ..> TransportUse
-Fuel ..> GeneratorEngine
+JetSkiEngine ..> TransportUse
+Fuel ..> JetSkiEngine
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Notion ..> Internet
-OnlineUse ..> Notion
+Evernote ..> Internet
+OnlineUse ..> Evernote
 @enduml

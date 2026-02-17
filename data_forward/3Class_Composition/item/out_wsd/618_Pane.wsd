@@ -1,0 +1,4 @@
+@startuml
+Frame *-- Pane
+Window *-- Frame
+@enduml

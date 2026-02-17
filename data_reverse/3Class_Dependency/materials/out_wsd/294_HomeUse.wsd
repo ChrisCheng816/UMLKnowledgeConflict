@@ -1,4 +1,4 @@
 @startuml
-BarcodeScanner ..> HomeUse
-Electricity ..> BarcodeScanner
+HandMixer ..> HomeUse
+Electricity ..> HandMixer
 @enduml

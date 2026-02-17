@@ -1,0 +1,4 @@
+@startuml
+EarCup *-- Headphone
+Foam *-- EarCup
+@enduml

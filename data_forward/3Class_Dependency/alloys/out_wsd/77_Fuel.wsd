@@ -1,4 +1,4 @@
 @startuml
-CampingStove ..> Fuel
-TransportUse ..> CampingStove
+OutboardMotor ..> Fuel
+TransportUse ..> OutboardMotor
 @enduml

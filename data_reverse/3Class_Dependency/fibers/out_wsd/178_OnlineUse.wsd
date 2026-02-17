@@ -1,4 +1,4 @@
 @startuml
-CashApp ..> OnlineUse
-Internet ..> CashApp
+Stripe ..> OnlineUse
+Internet ..> Stripe
 @enduml

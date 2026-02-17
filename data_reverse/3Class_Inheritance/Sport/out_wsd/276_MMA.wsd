@@ -1,0 +1,4 @@
+@startuml
+MMA <|-- CombatSport
+CombatSport <|-- Sport
+@enduml

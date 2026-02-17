@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Airline
+Agent o-- Staff
+@enduml

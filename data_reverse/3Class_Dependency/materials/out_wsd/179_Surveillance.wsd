@@ -1,0 +1,4 @@
+@startuml
+SmartLock ..> Surveillance
+Electricity ..> SmartLock
+@enduml

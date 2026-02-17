@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- SunflowersVanGogh
+Artwork <|-- Sculpture
+Sculpture <|-- DavidMichelangelo
 @enduml

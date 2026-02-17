@@ -1,4 +1,4 @@
 @startuml
 Game <|-- BoardGame
-BoardGame <|-- Avalon
+BoardGame <|-- ArkhamHorror
 @enduml

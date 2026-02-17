@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Janitor
+School o-- Staff
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-ExerciseBike ..> HomeUse
-Electricity ..> ExerciseBike
+LeafBlower ..> HomeUse
+Electricity ..> LeafBlower
 @enduml

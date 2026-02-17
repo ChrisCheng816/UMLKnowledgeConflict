@@ -1,0 +1,4 @@
+@startuml
+Lobe *-- Neuron
+Brain *-- Lobe
+@enduml

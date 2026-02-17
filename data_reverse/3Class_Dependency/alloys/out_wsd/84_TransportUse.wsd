@@ -1,4 +1,4 @@
 @startuml
-InboardMotor ..> TransportUse
-Fuel ..> InboardMotor
+CraneEngine ..> TransportUse
+Fuel ..> CraneEngine
 @enduml

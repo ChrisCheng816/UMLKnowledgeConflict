@@ -1,4 +1,4 @@
 @startuml
-BulldozerEngine ..> TransportUse
-Fuel ..> BulldozerEngine
+LocomotiveEngine ..> TransportUse
+Fuel ..> LocomotiveEngine
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Claw *-- Crab
-Pincer *-- Claw
+Joint *-- Claw
 @enduml

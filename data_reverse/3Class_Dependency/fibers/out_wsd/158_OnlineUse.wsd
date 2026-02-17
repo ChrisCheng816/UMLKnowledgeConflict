@@ -1,4 +1,4 @@
 @startuml
-eBay ..> OnlineUse
-Internet ..> eBay
+Etsy ..> OnlineUse
+Internet ..> Etsy
 @enduml

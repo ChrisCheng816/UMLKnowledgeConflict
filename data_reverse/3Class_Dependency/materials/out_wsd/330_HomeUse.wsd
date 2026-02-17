@@ -1,4 +1,4 @@
 @startuml
-ArcadeMachine ..> HomeUse
-Electricity ..> ArcadeMachine
+Subwoofer ..> HomeUse
+Electricity ..> Subwoofer
 @enduml

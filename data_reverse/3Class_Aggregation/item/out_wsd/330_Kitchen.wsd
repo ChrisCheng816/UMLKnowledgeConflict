@@ -1,4 +1,4 @@
 @startuml
 Pantry o-- Kitchen
-Pepper o-- Pantry
+Salt o-- Pantry
 @enduml

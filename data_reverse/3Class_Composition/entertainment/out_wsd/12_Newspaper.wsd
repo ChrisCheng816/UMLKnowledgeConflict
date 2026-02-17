@@ -1,4 +1,4 @@
 @startuml
-Page *-- Newspaper
-Article *-- Page
+Column *-- Newspaper
+Headline *-- Column
 @enduml

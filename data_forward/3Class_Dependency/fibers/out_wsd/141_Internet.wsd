@@ -1,4 +1,4 @@
 @startuml
-Replit ..> Internet
-OnlineUse ..> Replit
+CodeSandbox ..> Internet
+OnlineUse ..> CodeSandbox
 @enduml

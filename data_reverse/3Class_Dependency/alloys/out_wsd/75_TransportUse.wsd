@@ -1,4 +1,4 @@
 @startuml
-PowerGenerator ..> TransportUse
-Fuel ..> PowerGenerator
+DieselEngine ..> TransportUse
+Fuel ..> DieselEngine
 @enduml

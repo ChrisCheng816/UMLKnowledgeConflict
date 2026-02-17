@@ -1,4 +1,4 @@
 @startuml
 Trunk *-- Car
-Seal *-- Trunk
+Handle *-- Trunk
 @enduml

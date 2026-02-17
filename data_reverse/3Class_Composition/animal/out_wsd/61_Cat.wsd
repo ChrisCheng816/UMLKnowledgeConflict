@@ -1,4 +1,4 @@
 @startuml
 Tail *-- Cat
-Vertebra *-- Tail
+Muscle *-- Tail
 @enduml

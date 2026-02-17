@@ -1,0 +1,4 @@
+@startuml
+Face *-- Numeral
+Clock *-- Face
+@enduml

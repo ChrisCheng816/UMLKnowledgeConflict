@@ -1,4 +1,4 @@
 @startuml
-Xcode ..> OnlineUse
-Internet ..> Xcode
+Steam ..> OnlineUse
+Internet ..> Steam
 @enduml

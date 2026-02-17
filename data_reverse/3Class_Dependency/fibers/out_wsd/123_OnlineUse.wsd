@@ -1,4 +1,4 @@
 @startuml
-OneDrive ..> OnlineUse
-Internet ..> OneDrive
+iCloud ..> OnlineUse
+Internet ..> iCloud
 @enduml

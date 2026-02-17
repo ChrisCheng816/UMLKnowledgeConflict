@@ -1,0 +1,4 @@
+@startuml
+GroupOfActors o-- Studio
+Actor o-- GroupOfActors
+@enduml

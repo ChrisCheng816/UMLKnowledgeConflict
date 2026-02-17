@@ -1,4 +1,4 @@
 @startuml
-EllipticalMachine ..> Electricity
-HomeUse ..> EllipticalMachine
+PressureWasher ..> Electricity
+HomeUse ..> PressureWasher
 @enduml

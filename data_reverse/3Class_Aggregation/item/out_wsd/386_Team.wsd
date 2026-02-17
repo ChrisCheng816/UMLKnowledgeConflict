@@ -1,0 +1,4 @@
+@startuml
+Squad o-- Team
+Player o-- Squad
+@enduml

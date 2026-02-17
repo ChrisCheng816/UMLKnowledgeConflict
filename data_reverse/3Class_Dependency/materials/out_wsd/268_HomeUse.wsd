@@ -1,4 +1,4 @@
 @startuml
-SetTopBox ..> HomeUse
-Electricity ..> SetTopBox
+Nebulizer ..> HomeUse
+Electricity ..> Nebulizer
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-WaterPump ..> HomeUse
-Electricity ..> WaterPump
+SnowBlower ..> HomeUse
+Electricity ..> SnowBlower
 @enduml

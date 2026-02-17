@@ -1,4 +1,4 @@
 @startuml
-SoundCloud ..> Internet
-OnlineUse ..> SoundCloud
+Bandcamp ..> Internet
+OnlineUse ..> Bandcamp
 @enduml

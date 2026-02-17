@@ -1,4 +1,4 @@
 @startuml
-Modem ..> HomeUse
-Electricity ..> Modem
+SetTopBox ..> HomeUse
+Electricity ..> SetTopBox
 @enduml

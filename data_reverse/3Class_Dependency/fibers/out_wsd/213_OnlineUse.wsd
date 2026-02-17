@@ -1,4 +1,4 @@
 @startuml
-Kindle ..> OnlineUse
-Internet ..> Kindle
+WeatherApp ..> OnlineUse
+Internet ..> WeatherApp
 @enduml

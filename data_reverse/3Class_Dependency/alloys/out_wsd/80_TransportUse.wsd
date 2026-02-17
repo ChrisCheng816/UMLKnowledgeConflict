@@ -1,4 +1,4 @@
 @startuml
-TurbineEngine ..> TransportUse
-Fuel ..> TurbineEngine
+ATVEngine ..> TransportUse
+Fuel ..> ATVEngine
 @enduml

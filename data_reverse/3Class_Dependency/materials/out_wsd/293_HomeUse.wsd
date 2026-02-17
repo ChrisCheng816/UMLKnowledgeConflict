@@ -1,4 +1,4 @@
 @startuml
-LabelPrinter ..> HomeUse
-Electricity ..> LabelPrinter
+GarmentSteamer ..> HomeUse
+Electricity ..> GarmentSteamer
 @enduml

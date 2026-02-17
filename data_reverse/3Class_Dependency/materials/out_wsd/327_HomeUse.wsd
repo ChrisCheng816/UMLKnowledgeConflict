@@ -1,4 +1,4 @@
 @startuml
-GlueGun ..> HomeUse
-Electricity ..> GlueGun
+MixerBoard ..> HomeUse
+Electricity ..> MixerBoard
 @enduml

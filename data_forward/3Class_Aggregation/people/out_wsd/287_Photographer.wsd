@@ -1,0 +1,4 @@
+@startuml
+Crew o-- Photographer
+Studio o-- Crew
+@enduml

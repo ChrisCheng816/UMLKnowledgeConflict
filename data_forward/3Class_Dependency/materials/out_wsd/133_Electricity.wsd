@@ -1,4 +1,4 @@
 @startuml
-LEDStrip ..> Electricity
-Lighting ..> LEDStrip
+MicrowaveOven ..> Electricity
+PopcornCooking ..> MicrowaveOven
 @enduml

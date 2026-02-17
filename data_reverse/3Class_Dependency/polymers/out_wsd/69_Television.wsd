@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> Television
+CircuitBreakerPanel ..> WallOutlet
+@enduml

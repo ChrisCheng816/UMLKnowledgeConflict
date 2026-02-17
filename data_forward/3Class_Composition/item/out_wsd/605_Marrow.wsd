@@ -1,0 +1,4 @@
+@startuml
+Bone *-- Marrow
+Skeleton *-- Bone
+@enduml

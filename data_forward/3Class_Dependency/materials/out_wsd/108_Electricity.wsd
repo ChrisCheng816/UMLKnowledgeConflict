@@ -1,4 +1,4 @@
 @startuml
-GrowLight ..> Electricity
-Illumination ..> GrowLight
+HeadphoneAmplifier ..> Electricity
+AudioStreaming ..> HeadphoneAmplifier
 @enduml

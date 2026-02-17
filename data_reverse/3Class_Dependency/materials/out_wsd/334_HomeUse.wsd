@@ -1,4 +1,4 @@
 @startuml
-MixerBoard ..> HomeUse
-Electricity ..> MixerBoard
+EmbroideryMachine ..> HomeUse
+Electricity ..> EmbroideryMachine
 @enduml

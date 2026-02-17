@@ -1,4 +1,4 @@
 @startuml
-ElectricSaw ..> HomeUse
-Electricity ..> ElectricSaw
+VendingMachine ..> HomeUse
+Electricity ..> VendingMachine
 @enduml

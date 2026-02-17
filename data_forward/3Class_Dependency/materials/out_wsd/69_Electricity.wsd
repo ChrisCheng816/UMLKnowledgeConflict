@@ -1,4 +1,4 @@
 @startuml
-ElectricOven ..> Electricity
-Roasting ..> ElectricOven
+ElectricSkillet ..> Electricity
+Frying ..> ElectricSkillet
 @enduml

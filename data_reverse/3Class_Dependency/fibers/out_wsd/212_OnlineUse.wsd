@@ -1,4 +1,4 @@
 @startuml
-Audible ..> OnlineUse
-Internet ..> Audible
+Shazam ..> OnlineUse
+Internet ..> Shazam
 @enduml

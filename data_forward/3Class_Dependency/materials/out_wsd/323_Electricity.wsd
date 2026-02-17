@@ -1,4 +1,4 @@
 @startuml
-Lathe ..> Electricity
-HomeUse ..> Lathe
+ArcadeMachine ..> Electricity
+HomeUse ..> ArcadeMachine
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MicrowaveOven ..> Electricity
-Reheating ..> MicrowaveOven
+NightLight ..> Electricity
+NightLighting ..> NightLight
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Web *-- Silk
+Spider *-- Web
+@enduml

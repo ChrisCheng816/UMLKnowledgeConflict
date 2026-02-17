@@ -1,4 +1,4 @@
 @startuml
-Plumbing *-- House
-Pipe *-- Plumbing
+Wiring *-- House
+Switch *-- Wiring
 @enduml

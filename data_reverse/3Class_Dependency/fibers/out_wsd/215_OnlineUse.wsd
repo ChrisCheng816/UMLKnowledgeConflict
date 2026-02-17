@@ -1,4 +1,4 @@
 @startuml
-IMDb ..> OnlineUse
-Internet ..> IMDb
+NotesApp ..> OnlineUse
+Internet ..> NotesApp
 @enduml

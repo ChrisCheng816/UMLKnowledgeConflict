@@ -1,4 +1,4 @@
 @startuml
-TrustWallet ..> Internet
-OnlineUse ..> TrustWallet
+AdobeReader ..> Internet
+OnlineUse ..> AdobeReader
 @enduml

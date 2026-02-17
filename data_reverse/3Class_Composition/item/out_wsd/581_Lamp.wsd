@@ -1,0 +1,4 @@
+@startuml
+Bulb *-- Lamp
+Filament *-- Bulb
+@enduml

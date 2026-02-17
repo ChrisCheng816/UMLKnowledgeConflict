@@ -1,4 +1,4 @@
 @startuml
-LastPass ..> OnlineUse
-Internet ..> LastPass
+Blogger ..> OnlineUse
+Internet ..> Blogger
 @enduml

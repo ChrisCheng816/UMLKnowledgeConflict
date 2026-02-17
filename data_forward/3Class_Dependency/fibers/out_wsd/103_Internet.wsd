@@ -1,4 +1,4 @@
 @startuml
-Peacock ..> Internet
-OnlineUse ..> Peacock
+AppleTV ..> Internet
+OnlineUse ..> AppleTV
 @enduml

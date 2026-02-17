@@ -1,0 +1,4 @@
+@startuml
+GasPlant ..> NaturalGas
+PowerGeneration ..> GasPlant
+@enduml

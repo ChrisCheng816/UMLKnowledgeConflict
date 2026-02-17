@@ -1,4 +1,4 @@
 @startuml
-SlowCooker ..> Electricity
-SlowCooking ..> SlowCooker
+SmartSpeaker ..> Electricity
+AudioStreaming ..> SmartSpeaker
 @enduml

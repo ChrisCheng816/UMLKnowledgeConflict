@@ -1,4 +1,4 @@
 @startuml
-Bricks ..> Clay
-BrickWall ..> Bricks
+Ceramic ..> Clay
+CeramicMug ..> Ceramic
 @enduml

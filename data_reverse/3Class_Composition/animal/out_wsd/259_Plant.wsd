@@ -1,0 +1,4 @@
+@startuml
+Stem *-- Plant
+Thorn *-- Stem
+@enduml

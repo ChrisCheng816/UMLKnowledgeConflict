@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Boxing
-Boxing <|-- ProfessionalBoxing
+Sport <|-- WaterSport
+WaterSport <|-- Wakeboarding
 @enduml

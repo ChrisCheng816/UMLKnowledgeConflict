@@ -1,4 +1,4 @@
 @startuml
 Cooler o-- PicnicArea
-Popsicle o-- Cooler
+IceCream o-- Cooler
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SmartLock ..> MotionDetection
-Electricity ..> SmartLock
+SmokeAlarm ..> MotionDetection
+Electricity ..> SmokeAlarm
 @enduml

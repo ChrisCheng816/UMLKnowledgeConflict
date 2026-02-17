@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- PopSong
-PopSong <|-- ThrillerSong
+Entertainment <|-- TVSeries
+TVSeries <|-- RealityShow
 @enduml

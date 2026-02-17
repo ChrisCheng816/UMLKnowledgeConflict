@@ -1,0 +1,4 @@
+@startuml
+Hand *-- Person
+Finger *-- Hand
+@enduml

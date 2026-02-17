@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- DramaSeries
-DramaSeries <|-- CrownSeries
+Entertainment <|-- ThrillerFilm
+ThrillerFilm <|-- InceptionFilm
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-DisneyPlus ..> OnlineUse
-Internet ..> DisneyPlus
+PrimeVideo ..> OnlineUse
+Internet ..> PrimeVideo
 @enduml

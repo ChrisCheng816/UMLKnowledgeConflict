@@ -1,4 +1,4 @@
 @startuml
-Office o-- Company
-Secretary o-- Office
+StaffOfSkiers o-- Company
+Skier o-- StaffOfSkiers
 @enduml

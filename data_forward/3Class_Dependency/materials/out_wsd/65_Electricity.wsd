@@ -1,4 +1,4 @@
 @startuml
-ElectricKettle ..> Electricity
-InstantNoodles ..> ElectricKettle
+ElectricOven ..> Electricity
+Roasting ..> ElectricOven
 @enduml

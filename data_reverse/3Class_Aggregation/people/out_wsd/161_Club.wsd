@@ -1,0 +1,4 @@
+@startuml
+TeamOfBartenders o-- Club
+Bartender o-- TeamOfBartenders
+@enduml

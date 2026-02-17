@@ -1,0 +1,4 @@
+@startuml
+Staff o-- School
+Counselor o-- Staff
+@enduml

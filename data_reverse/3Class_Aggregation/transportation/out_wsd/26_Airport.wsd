@@ -1,4 +1,4 @@
 @startuml
 Terminal o-- Airport
-Signage o-- Terminal
+Elevator o-- Terminal
 @enduml

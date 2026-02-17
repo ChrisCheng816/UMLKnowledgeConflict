@@ -1,4 +1,4 @@
 @startuml
-DeliveryVanEngine ..> Fuel
-TransportUse ..> DeliveryVanEngine
+FireTruckEngine ..> Fuel
+TransportUse ..> FireTruckEngine
 @enduml

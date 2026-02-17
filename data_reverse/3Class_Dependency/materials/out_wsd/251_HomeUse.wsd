@@ -1,4 +1,4 @@
 @startuml
-ElectricGrill ..> HomeUse
-Electricity ..> ElectricGrill
+Television ..> HomeUse
+Electricity ..> Television
 @enduml

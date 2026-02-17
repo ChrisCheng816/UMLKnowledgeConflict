@@ -1,0 +1,4 @@
+@startuml
+Filter *-- Basket
+CoffeeMaker *-- Filter
+@enduml

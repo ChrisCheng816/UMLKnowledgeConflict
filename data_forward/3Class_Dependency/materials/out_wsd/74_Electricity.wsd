@@ -1,4 +1,4 @@
 @startuml
-ElectricSkillet ..> Electricity
-Grilling ..> ElectricSkillet
+ElectricToothbrush ..> Electricity
+TeethBrushing ..> ElectricToothbrush
 @enduml

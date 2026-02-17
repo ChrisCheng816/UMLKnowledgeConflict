@@ -1,0 +1,4 @@
+@startuml
+Category o-- Catalog
+Product o-- Category
+@enduml

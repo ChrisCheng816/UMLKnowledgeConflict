@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Court
+Bailiff o-- Staff
+@enduml

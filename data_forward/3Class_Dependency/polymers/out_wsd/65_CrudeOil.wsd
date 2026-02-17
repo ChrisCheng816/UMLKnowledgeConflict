@@ -1,0 +1,4 @@
+@startuml
+Asphalt ..> CrudeOil
+Paving ..> Asphalt
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Hanger o-- Closet
-Sweater o-- Hanger
+Jacket o-- Hanger
 @enduml

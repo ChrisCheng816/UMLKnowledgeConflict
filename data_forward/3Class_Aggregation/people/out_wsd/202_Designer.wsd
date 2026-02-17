@@ -1,0 +1,4 @@
+@startuml
+ClubOfDesigners o-- Designer
+School o-- ClubOfDesigners
+@enduml

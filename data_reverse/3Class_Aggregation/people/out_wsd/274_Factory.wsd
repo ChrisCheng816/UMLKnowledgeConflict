@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Factory
+Mechanic o-- Staff
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Sport <|-- TeamSport
-TeamSport <|-- Lacrosse
+TeamSport <|-- Futsal
 @enduml

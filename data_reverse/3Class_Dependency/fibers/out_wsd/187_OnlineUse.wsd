@@ -1,4 +1,4 @@
 @startuml
-Binance ..> OnlineUse
-Internet ..> Binance
+Coinbase ..> OnlineUse
+Internet ..> Coinbase
 @enduml

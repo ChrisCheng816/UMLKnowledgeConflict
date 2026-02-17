@@ -1,4 +1,4 @@
 @startuml
-Authenticator ..> OnlineUse
-Internet ..> Authenticator
+WordPress ..> OnlineUse
+Internet ..> WordPress
 @enduml

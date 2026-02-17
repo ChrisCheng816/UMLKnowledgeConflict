@@ -1,0 +1,4 @@
+@startuml
+TeamOfHikers o-- Club
+Hiker o-- TeamOfHikers
+@enduml

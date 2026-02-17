@@ -1,4 +1,4 @@
 @startuml
 Folder o-- Office
-Document o-- Folder
+IDCard o-- Folder
 @enduml

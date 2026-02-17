@@ -1,4 +1,4 @@
 @startuml
 Cabinet o-- Pharmacy
-EyeDrops o-- Cabinet
+Gauze o-- Cabinet
 @enduml

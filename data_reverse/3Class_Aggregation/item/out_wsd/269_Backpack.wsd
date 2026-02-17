@@ -1,4 +1,4 @@
 @startuml
 Binder o-- Backpack
-Project o-- Binder
+Quiz o-- Binder
 @enduml

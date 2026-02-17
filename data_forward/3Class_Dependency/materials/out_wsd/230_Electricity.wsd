@@ -1,4 +1,4 @@
 @startuml
-VideoDoorbell ..> Electricity
-Surveillance ..> VideoDoorbell
+Microwave ..> Electricity
+HomeUse ..> Microwave
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Team o-- Company
-Mechanic o-- Team
+StaffOfReaders o-- Company
+Reader o-- StaffOfReaders
 @enduml

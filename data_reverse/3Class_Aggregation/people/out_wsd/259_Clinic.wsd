@@ -1,0 +1,4 @@
+@startuml
+Office o-- Clinic
+Clerk o-- Office
+@enduml

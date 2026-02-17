@@ -1,4 +1,4 @@
 @startuml
-Mixer ..> HomeUse
-Electricity ..> Mixer
+DesktopComputer ..> HomeUse
+Electricity ..> DesktopComputer
 @enduml

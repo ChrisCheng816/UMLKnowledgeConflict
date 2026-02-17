@@ -1,4 +1,4 @@
 @startuml
-GasFurnace ..> NaturalGas
-SpaceHeating ..> GasFurnace
+GasStove ..> NaturalGas
+Boiling ..> GasStove
 @enduml

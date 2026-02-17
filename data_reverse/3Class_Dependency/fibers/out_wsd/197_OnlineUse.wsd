@@ -1,4 +1,4 @@
 @startuml
-VSCode ..> OnlineUse
-Internet ..> VSCode
+IntelliJ ..> OnlineUse
+Internet ..> IntelliJ
 @enduml

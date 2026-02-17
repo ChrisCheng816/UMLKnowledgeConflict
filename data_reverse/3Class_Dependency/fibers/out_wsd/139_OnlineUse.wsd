@@ -1,4 +1,4 @@
 @startuml
-Bitbucket ..> OnlineUse
-Internet ..> Bitbucket
+StackOverflow ..> OnlineUse
+Internet ..> StackOverflow
 @enduml

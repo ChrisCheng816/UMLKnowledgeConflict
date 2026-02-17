@@ -1,0 +1,4 @@
+@startuml
+StaffOfCampers o-- Camper
+Company o-- StaffOfCampers
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Motor *-- Vacuum
-Rotor *-- Motor
+Housing *-- Motor
 @enduml

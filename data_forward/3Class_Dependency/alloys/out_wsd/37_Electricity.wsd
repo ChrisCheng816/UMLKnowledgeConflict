@@ -1,4 +1,4 @@
 @startuml
 ElectricTram ..> Electricity
-CityCommute ..> ElectricTram
+Commuting ..> ElectricTram
 @enduml

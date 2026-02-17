@@ -1,0 +1,4 @@
+@startuml
+Track *-- Chorus
+Album *-- Track
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-ElectricBlanket ..> Electricity
-WarmSleep ..> ElectricBlanket
+ElectricOven ..> Electricity
+Baking ..> ElectricOven
 @enduml

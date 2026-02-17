@@ -1,4 +1,4 @@
 @startuml
-FogMachine ..> HomeUse
-Electricity ..> FogMachine
+DocumentCamera ..> HomeUse
+Electricity ..> DocumentCamera
 @enduml

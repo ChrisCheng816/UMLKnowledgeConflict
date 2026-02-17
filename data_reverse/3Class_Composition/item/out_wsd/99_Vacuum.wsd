@@ -1,4 +1,4 @@
 @startuml
-Motor *-- Vacuum
-Shaft *-- Motor
+Canister *-- Vacuum
+Port *-- Canister
 @enduml

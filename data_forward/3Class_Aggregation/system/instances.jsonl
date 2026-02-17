@@ -20,4 +20,4 @@
 {"id": "20", "template_id": "aggregation", "nodes": ["Notebook", "Laboratory", "University"], "edges": ["Laboratory o-- Notebook", "University o-- Laboratory"]}
 {"id": "21", "template_id": "aggregation", "nodes": ["Kiosk", "Station", "TransitSystem"], "edges": ["Station o-- Kiosk", "TransitSystem o-- Station"]}
 {"id": "22", "template_id": "aggregation", "nodes": ["Breaker", "Substation", "PowerGrid"], "edges": ["Substation o-- Breaker", "PowerGrid o-- Substation"]}
-{"id": "23", "template_id": "aggregation", "nodes": ["Gym", "School", "EducationSystem"], "edges": ["School o-- Gym", "EducationSystem o-- School"]}
+{"id": "23", "template_id": "aggregation", "nodes": ["Teacher", "School", "EducationSystem"], "edges": ["School o-- Teacher", "EducationSystem o-- School"]}

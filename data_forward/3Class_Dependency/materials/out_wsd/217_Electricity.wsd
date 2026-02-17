@@ -1,4 +1,4 @@
 @startuml
-ToasterOven ..> Electricity
-Reheating ..> ToasterOven
+Turntable ..> Electricity
+MusicPlayback ..> Turntable
 @enduml

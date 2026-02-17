@@ -1,0 +1,4 @@
+@startuml
+Clause *-- Word
+Sentence *-- Clause
+@enduml

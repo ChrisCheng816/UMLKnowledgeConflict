@@ -1,0 +1,4 @@
+@startuml
+GroupOfChefs o-- Chef
+Hotel o-- GroupOfChefs
+@enduml

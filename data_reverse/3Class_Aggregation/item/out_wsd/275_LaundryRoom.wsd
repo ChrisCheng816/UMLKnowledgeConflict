@@ -1,4 +1,4 @@
 @startuml
 Basket o-- LaundryRoom
-Sheet o-- Basket
+Pillow o-- Basket
 @enduml

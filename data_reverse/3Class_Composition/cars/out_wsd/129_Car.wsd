@@ -1,4 +1,4 @@
 @startuml
-Suspension *-- Car
-Spring *-- Suspension
+Battery *-- Car
+Terminal *-- Battery
 @enduml

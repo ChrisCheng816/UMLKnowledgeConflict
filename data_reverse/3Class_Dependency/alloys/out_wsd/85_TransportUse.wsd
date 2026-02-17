@@ -1,4 +1,4 @@
 @startuml
-SnowmobileEngine ..> TransportUse
-Fuel ..> SnowmobileEngine
+LoaderEngine ..> TransportUse
+Fuel ..> LoaderEngine
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Board o-- Neighborhood
+Member o-- Board
+@enduml

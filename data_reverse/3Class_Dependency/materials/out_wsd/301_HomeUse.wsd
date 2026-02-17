@@ -1,4 +1,4 @@
 @startuml
-HandMixer ..> HomeUse
-Electricity ..> HandMixer
+PopcornMaker ..> HomeUse
+Electricity ..> PopcornMaker
 @enduml

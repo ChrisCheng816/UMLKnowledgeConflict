@@ -1,4 +1,4 @@
 @startuml
-Treadmill ..> HomeUse
-Electricity ..> Treadmill
+LawnMower ..> HomeUse
+Electricity ..> LawnMower
 @enduml

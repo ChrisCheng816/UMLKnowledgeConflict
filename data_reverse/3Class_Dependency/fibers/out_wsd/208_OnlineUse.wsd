@@ -1,4 +1,4 @@
 @startuml
-XboxApp ..> OnlineUse
-Internet ..> XboxApp
+Audible ..> OnlineUse
+Internet ..> Audible
 @enduml

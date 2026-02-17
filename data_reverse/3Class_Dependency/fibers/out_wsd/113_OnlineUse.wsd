@@ -1,4 +1,4 @@
 @startuml
-Twitch ..> OnlineUse
-Internet ..> Twitch
+Kick ..> OnlineUse
+Internet ..> Kick
 @enduml

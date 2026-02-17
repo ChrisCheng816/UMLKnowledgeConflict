@@ -1,4 +1,4 @@
 @startuml
-Router ..> HomeUse
-Electricity ..> Router
+BluRayPlayer ..> HomeUse
+Electricity ..> BluRayPlayer
 @enduml

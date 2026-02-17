@@ -1,4 +1,4 @@
 @startuml
-PrimeVideo ..> OnlineUse
-Internet ..> PrimeVideo
+HBOMax ..> OnlineUse
+Internet ..> HBOMax
 @enduml

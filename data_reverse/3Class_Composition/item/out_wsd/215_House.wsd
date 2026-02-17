@@ -1,4 +1,4 @@
 @startuml
-Foundation *-- House
-Slab *-- Foundation
+Attic *-- House
+Ladder *-- Attic
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Film <|-- RomanceFilm
-RomanceFilm <|-- Titanic
+Film <|-- ComedyFilm
+ComedyFilm <|-- Airplane
 @enduml

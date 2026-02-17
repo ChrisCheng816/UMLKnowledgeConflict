@@ -1,4 +1,4 @@
 @startuml
-Dropbox ..> Internet
-OnlineUse ..> Dropbox
+GoogleDrive ..> Internet
+OnlineUse ..> GoogleDrive
 @enduml

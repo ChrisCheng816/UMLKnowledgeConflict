@@ -1,4 +1,4 @@
 @startuml
 DoorPanel *-- Car
-Speaker *-- DoorPanel
+Switch *-- DoorPanel
 @enduml

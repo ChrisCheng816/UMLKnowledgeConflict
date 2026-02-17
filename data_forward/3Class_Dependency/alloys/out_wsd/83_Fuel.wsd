@@ -1,4 +1,4 @@
 @startuml
-OutboardMotor ..> Fuel
-TransportUse ..> OutboardMotor
+HarvesterEngine ..> Fuel
+TransportUse ..> HarvesterEngine
 @enduml

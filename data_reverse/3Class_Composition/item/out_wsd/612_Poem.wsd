@@ -1,0 +1,4 @@
+@startuml
+Stanza *-- Poem
+Line *-- Stanza
+@enduml

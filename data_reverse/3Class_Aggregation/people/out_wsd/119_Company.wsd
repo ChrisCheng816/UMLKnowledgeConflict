@@ -1,4 +1,4 @@
 @startuml
-Department o-- Company
-Carpenter o-- Department
+StaffOfSwimmers o-- Company
+Swimmer o-- StaffOfSwimmers
 @enduml

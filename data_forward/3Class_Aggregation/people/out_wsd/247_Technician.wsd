@@ -1,0 +1,4 @@
+@startuml
+Department o-- Technician
+University o-- Department
+@enduml

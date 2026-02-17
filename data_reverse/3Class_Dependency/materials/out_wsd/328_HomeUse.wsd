@@ -1,4 +1,4 @@
 @startuml
-NailGun ..> HomeUse
-Electricity ..> NailGun
+StageLight ..> HomeUse
+Electricity ..> StageLight
 @enduml

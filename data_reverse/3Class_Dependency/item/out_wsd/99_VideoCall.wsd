@@ -1,0 +1,4 @@
+@startuml
+Smartphone ..> VideoCall
+CellularNetwork ..> Smartphone
+@enduml

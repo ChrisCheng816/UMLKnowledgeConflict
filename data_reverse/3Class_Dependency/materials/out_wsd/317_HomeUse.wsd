@@ -1,4 +1,4 @@
 @startuml
-StringTrimmer ..> HomeUse
-Electricity ..> StringTrimmer
+MillingMachine ..> HomeUse
+Electricity ..> MillingMachine
 @enduml

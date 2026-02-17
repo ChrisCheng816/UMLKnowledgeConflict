@@ -1,4 +1,4 @@
 @startuml
-ClothesDryer ..> Electricity
-WrinkleReduction ..> ClothesDryer
+ConvectionOven ..> Electricity
+Baking ..> ConvectionOven
 @enduml

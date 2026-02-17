@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Volleyball
-Volleyball <|-- BeachVolleyball
+Sport <|-- Swimming
+Swimming <|-- FreestyleSwimming
 @enduml

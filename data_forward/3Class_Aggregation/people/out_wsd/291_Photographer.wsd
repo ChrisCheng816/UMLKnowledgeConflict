@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Photographer
+Newsroom o-- Staff
+@enduml

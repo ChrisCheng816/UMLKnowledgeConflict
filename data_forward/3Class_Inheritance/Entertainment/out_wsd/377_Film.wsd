@@ -1,4 +1,4 @@
 @startuml
-Film <|-- AdventureFilm
-AdventureFilm <|-- Up
+Film <|-- ThrillerFilm
+ThrillerFilm <|-- Jaws
 @enduml

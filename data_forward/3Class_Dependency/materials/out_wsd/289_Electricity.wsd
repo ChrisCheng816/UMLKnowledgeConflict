@@ -1,4 +1,4 @@
 @startuml
-DrillCharger ..> Electricity
-HomeUse ..> DrillCharger
+ATM ..> Electricity
+HomeUse ..> ATM
 @enduml

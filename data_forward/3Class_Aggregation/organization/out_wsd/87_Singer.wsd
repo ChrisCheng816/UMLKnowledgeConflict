@@ -1,0 +1,4 @@
+@startuml
+Choir o-- Singer
+ConcertHall o-- Choir
+@enduml

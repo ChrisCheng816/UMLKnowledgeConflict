@@ -1,4 +1,4 @@
 @startuml
-ElectricShaver ..> Electricity
-Shaving ..> ElectricShaver
+ElectricToothbrush ..> Electricity
+GumCare ..> ElectricToothbrush
 @enduml

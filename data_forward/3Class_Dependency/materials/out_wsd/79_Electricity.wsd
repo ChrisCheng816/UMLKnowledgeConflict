@@ -1,4 +1,4 @@
 @startuml
-EspressoMachine ..> Electricity
-CappuccinoMaking ..> EspressoMachine
+FlashlightCharger ..> Electricity
+Lighting ..> FlashlightCharger
 @enduml

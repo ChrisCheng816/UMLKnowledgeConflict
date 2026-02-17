@@ -1,4 +1,4 @@
 @startuml
-DoorSensor ..> Electricity
-HomeSecurity ..> DoorSensor
+ElectricBlanket ..> Electricity
+ComfortHeating ..> ElectricBlanket
 @enduml

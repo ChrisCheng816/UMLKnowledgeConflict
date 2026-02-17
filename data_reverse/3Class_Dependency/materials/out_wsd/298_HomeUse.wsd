@@ -1,4 +1,4 @@
 @startuml
-IceMaker ..> HomeUse
-Electricity ..> IceMaker
+RiceWarmer ..> HomeUse
+Electricity ..> RiceWarmer
 @enduml

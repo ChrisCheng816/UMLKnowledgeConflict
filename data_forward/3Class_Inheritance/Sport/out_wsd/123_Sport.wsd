@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- TugOfWar
+Sport <|-- RacquetSport
+RacquetSport <|-- RealTennis
 @enduml

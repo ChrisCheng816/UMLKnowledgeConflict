@@ -1,4 +1,4 @@
 @startuml
-CeilingFan ..> Electricity
-AirCirculation ..> CeilingFan
+CeilingLight ..> Electricity
+Illumination ..> CeilingLight
 @enduml

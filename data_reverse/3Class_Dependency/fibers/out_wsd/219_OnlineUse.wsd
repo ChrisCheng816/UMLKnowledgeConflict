@@ -1,4 +1,4 @@
 @startuml
-NotesApp ..> OnlineUse
-Internet ..> NotesApp
+Authenticator ..> OnlineUse
+Internet ..> Authenticator
 @enduml

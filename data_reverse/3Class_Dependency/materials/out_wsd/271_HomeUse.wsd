@@ -1,4 +1,4 @@
 @startuml
-DroneCharger ..> HomeUse
-Electricity ..> DroneCharger
+Treadmill ..> HomeUse
+Electricity ..> Treadmill
 @enduml

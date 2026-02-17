@@ -1,4 +1,4 @@
 @startuml
-Humidifier ..> HomeUse
-Electricity ..> Humidifier
+HairTrimmer ..> HomeUse
+Electricity ..> HairTrimmer
 @enduml

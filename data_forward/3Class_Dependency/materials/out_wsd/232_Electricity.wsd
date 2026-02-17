@@ -1,0 +1,4 @@
+@startuml
+Toaster ..> Electricity
+HomeUse ..> Toaster
+@enduml

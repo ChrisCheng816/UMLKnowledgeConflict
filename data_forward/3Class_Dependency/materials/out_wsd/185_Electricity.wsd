@@ -1,4 +1,4 @@
 @startuml
-SmartLock ..> Electricity
-Surveillance ..> SmartLock
+SmokeAlarm ..> Electricity
+Surveillance ..> SmokeAlarm
 @enduml

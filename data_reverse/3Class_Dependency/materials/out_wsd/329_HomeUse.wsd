@@ -1,4 +1,4 @@
 @startuml
-StapleGun ..> HomeUse
-Electricity ..> StapleGun
+FogMachine ..> HomeUse
+Electricity ..> FogMachine
 @enduml

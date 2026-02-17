@@ -1,4 +1,4 @@
 @startuml
-BandSaw ..> Electricity
-HomeUse ..> BandSaw
+KaraokeMachine ..> Electricity
+HomeUse ..> KaraokeMachine
 @enduml

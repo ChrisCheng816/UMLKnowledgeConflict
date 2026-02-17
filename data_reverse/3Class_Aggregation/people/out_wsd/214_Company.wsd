@@ -1,0 +1,4 @@
+@startuml
+StaffOfReceptionists o-- Company
+Receptionist o-- StaffOfReceptionists
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-CalculatorApp ..> Internet
-OnlineUse ..> CalculatorApp
+LastPass ..> Internet
+OnlineUse ..> LastPass
 @enduml

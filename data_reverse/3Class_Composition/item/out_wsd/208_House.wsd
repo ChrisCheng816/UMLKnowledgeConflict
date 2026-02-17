@@ -1,4 +1,4 @@
 @startuml
-Chimney *-- House
-Crown *-- Chimney
+Foundation *-- House
+Pier *-- Foundation
 @enduml

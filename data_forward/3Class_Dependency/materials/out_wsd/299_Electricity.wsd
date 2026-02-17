@@ -1,4 +1,4 @@
 @startuml
-WaterDispenser ..> Electricity
-HomeUse ..> WaterDispenser
+WaffleMaker ..> Electricity
+HomeUse ..> WaffleMaker
 @enduml

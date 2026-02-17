@@ -1,4 +1,4 @@
 @startuml
-Television ..> HomeUse
-Electricity ..> Television
+SmartThermostat ..> HomeUse
+Electricity ..> SmartThermostat
 @enduml

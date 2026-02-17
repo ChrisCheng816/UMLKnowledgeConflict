@@ -1,4 +1,4 @@
 @startuml
-SteamIron ..> Electricity
-HomeUse ..> SteamIron
+Modem ..> Electricity
+HomeUse ..> Modem
 @enduml

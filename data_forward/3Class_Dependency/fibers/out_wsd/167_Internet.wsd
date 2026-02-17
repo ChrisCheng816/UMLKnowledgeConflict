@@ -1,4 +1,4 @@
 @startuml
-Costco ..> Internet
-OnlineUse ..> Costco
+Instacart ..> Internet
+OnlineUse ..> Instacart
 @enduml

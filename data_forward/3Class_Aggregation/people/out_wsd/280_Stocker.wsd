@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Stocker
+Store o-- Staff
+@enduml

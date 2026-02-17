@@ -1,4 +1,4 @@
 @startuml
-PayPal ..> Internet
-OnlineUse ..> PayPal
+Venmo ..> Internet
+OnlineUse ..> Venmo
 @enduml

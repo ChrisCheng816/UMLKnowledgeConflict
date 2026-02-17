@@ -1,0 +1,4 @@
+@startuml
+StaffOfJanitors o-- Company
+Janitor o-- StaffOfJanitors
+@enduml

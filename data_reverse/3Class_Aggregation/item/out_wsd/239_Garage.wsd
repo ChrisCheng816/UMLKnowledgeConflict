@@ -1,4 +1,4 @@
 @startuml
 Toolbox o-- Garage
-Wrench o-- Toolbox
+Screwdriver o-- Toolbox
 @enduml

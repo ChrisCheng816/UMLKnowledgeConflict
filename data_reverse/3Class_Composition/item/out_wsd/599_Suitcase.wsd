@@ -1,0 +1,4 @@
+@startuml
+Handle *-- Suitcase
+Button *-- Handle
+@enduml

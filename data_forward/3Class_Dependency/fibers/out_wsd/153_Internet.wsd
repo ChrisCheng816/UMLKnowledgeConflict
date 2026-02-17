@@ -1,4 +1,4 @@
 @startuml
-Booking ..> Internet
-OnlineUse ..> Booking
+Expedia ..> Internet
+OnlineUse ..> Expedia
 @enduml

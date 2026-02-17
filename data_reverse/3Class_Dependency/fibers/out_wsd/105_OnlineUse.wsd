@@ -1,4 +1,4 @@
 @startuml
-Spotify ..> OnlineUse
-Internet ..> Spotify
+AppleMusic ..> OnlineUse
+Internet ..> AppleMusic
 @enduml

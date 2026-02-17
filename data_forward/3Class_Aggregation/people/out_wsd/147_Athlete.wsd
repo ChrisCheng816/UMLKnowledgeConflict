@@ -1,0 +1,4 @@
+@startuml
+StaffOfAthletes o-- Athlete
+Company o-- StaffOfAthletes
+@enduml

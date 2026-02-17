@@ -1,4 +1,4 @@
 @startuml
-PhoneCharger ..> Electricity
-PowerSupply ..> PhoneCharger
+PowerStrip ..> Electricity
+PowerSupply ..> PowerStrip
 @enduml

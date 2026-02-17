@@ -1,0 +1,4 @@
+@startuml
+GroupOfReporters o-- Pressroom
+Reporter o-- GroupOfReporters
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Drawer *-- Table
+Runner *-- Drawer
+@enduml

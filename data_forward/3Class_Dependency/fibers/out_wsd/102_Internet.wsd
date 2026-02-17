@@ -1,4 +1,4 @@
 @startuml
-ParamountPlus ..> Internet
-OnlineUse ..> ParamountPlus
+Peacock ..> Internet
+OnlineUse ..> Peacock
 @enduml

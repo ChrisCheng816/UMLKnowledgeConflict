@@ -1,4 +1,4 @@
 @startuml
-Film <|-- FantasyFilm
-FantasyFilm <|-- Avatar
+Film <|-- WarFilm
+WarFilm <|-- Braveheart
 @enduml

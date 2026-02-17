@@ -1,4 +1,4 @@
 @startuml
-Skyscanner ..> OnlineUse
-Internet ..> Skyscanner
+Tripadvisor ..> OnlineUse
+Internet ..> Tripadvisor
 @enduml

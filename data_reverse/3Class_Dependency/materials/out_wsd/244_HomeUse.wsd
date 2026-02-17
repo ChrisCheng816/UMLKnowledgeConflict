@@ -1,4 +1,4 @@
 @startuml
-TableFan ..> HomeUse
-Electricity ..> TableFan
+ElectricGrill ..> HomeUse
+Electricity ..> ElectricGrill
 @enduml

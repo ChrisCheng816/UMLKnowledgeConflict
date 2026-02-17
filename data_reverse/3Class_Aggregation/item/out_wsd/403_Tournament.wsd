@@ -1,0 +1,4 @@
+@startuml
+Bracket o-- Tournament
+Team o-- Bracket
+@enduml

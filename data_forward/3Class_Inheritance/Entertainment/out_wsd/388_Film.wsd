@@ -1,4 +1,4 @@
 @startuml
-Film <|-- WesternFilm
-WesternFilm <|-- Unforgiven
+Film <|-- HistoricalFilm
+HistoricalFilm <|-- Gladiator
 @enduml

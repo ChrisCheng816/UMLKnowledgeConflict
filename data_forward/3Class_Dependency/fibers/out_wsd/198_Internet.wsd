@@ -1,4 +1,4 @@
 @startuml
-IntelliJ ..> Internet
-OnlineUse ..> IntelliJ
+PyCharm ..> Internet
+OnlineUse ..> PyCharm
 @enduml

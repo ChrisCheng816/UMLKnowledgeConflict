@@ -1,4 +1,4 @@
 @startuml
-PowerStrip ..> Electricity
-DeviceCharging ..> PowerStrip
+RadioReceiver ..> Electricity
+MusicPlayback ..> RadioReceiver
 @enduml

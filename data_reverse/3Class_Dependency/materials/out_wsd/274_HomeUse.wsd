@@ -1,4 +1,4 @@
 @startuml
-CPAPMachine ..> HomeUse
-Electricity ..> CPAPMachine
+Massager ..> HomeUse
+Electricity ..> Massager
 @enduml

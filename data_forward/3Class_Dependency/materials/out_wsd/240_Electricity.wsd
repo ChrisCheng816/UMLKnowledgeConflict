@@ -1,4 +1,4 @@
 @startuml
-Dishwasher ..> Electricity
-HomeUse ..> Dishwasher
+InductionCooker ..> Electricity
+HomeUse ..> InductionCooker
 @enduml

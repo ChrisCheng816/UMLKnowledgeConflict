@@ -1,4 +1,4 @@
 @startuml
-Photoshop ..> OnlineUse
-Internet ..> Photoshop
+Lightroom ..> OnlineUse
+Internet ..> Lightroom
 @enduml

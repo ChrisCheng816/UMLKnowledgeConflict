@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Basketball
-Basketball <|-- StreetBasketball
+Sport <|-- Cycling
+Cycling <|-- RoadCycling
 @enduml

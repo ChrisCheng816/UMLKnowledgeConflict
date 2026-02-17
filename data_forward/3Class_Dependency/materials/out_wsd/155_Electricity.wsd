@@ -1,4 +1,4 @@
 @startuml
-PowerStrip ..> Electricity
-PowerSupply ..> PowerStrip
+RadioReceiver ..> Electricity
+RadioListening ..> RadioReceiver
 @enduml

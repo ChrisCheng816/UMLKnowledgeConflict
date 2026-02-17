@@ -1,4 +1,4 @@
 @startuml
-HBOMax ..> Internet
-OnlineUse ..> HBOMax
+ParamountPlus ..> Internet
+OnlineUse ..> ParamountPlus
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Bulldozer
+City o-- Fleet
+@enduml

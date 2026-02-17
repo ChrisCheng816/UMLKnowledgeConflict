@@ -1,4 +1,4 @@
 @startuml
-Film <|-- CrimeFilm
-CrimeFilm <|-- TheGodfather
+Film <|-- AnimeFilm
+AnimeFilm <|-- SpiritedAway
 @enduml

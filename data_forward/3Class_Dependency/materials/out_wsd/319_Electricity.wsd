@@ -1,4 +1,4 @@
 @startuml
-Chainsaw ..> Electricity
-HomeUse ..> Chainsaw
+TileCutter ..> Electricity
+HomeUse ..> TileCutter
 @enduml

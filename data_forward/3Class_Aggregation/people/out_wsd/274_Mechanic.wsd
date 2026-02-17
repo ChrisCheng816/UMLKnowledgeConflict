@@ -1,4 +1,4 @@
 @startuml
-Squad o-- Mechanic
-PoliceStation o-- Squad
+Staff o-- Mechanic
+Factory o-- Staff
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Carriage o-- Passenger
+Train o-- Carriage
+@enduml

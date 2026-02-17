@@ -1,4 +1,4 @@
 @startuml
-LawnMower ..> Electricity
-HomeUse ..> LawnMower
+StaplerMachine ..> Electricity
+HomeUse ..> StaplerMachine
 @enduml

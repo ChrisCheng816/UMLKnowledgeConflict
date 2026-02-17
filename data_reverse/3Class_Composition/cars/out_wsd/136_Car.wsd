@@ -1,4 +1,4 @@
 @startuml
 Engine *-- Car
-Fan *-- Engine
+Filter *-- Engine
 @enduml

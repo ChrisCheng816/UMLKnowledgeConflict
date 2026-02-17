@@ -1,4 +1,4 @@
 @startuml
-Dehumidifier ..> Electricity
-Dehumidifying ..> Dehumidifier
+DeskLamp ..> Electricity
+Lighting ..> DeskLamp
 @enduml

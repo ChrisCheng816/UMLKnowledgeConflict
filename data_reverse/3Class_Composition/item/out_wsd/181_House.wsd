@@ -1,4 +1,4 @@
 @startuml
-Ceiling *-- House
-Fan *-- Ceiling
+Door *-- House
+Knob *-- Door
 @enduml

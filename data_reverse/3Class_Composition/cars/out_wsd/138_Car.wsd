@@ -1,4 +1,4 @@
 @startuml
-Floor *-- Car
-Mat *-- Floor
+Key *-- Car
+Button *-- Key
 @enduml

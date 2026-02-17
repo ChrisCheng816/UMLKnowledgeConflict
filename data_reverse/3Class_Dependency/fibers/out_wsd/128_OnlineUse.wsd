@@ -1,4 +1,4 @@
 @startuml
-Evernote ..> OnlineUse
-Internet ..> Evernote
+OneNote ..> OnlineUse
+Internet ..> OneNote
 @enduml

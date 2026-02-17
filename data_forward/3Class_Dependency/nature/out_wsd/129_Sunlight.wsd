@@ -1,0 +1,4 @@
+@startuml
+WarmOcean ..> Sunlight
+Hurricane ..> WarmOcean
+@enduml

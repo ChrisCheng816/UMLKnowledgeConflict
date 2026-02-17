@@ -1,4 +1,4 @@
 @startuml
-Chimney *-- House
-Damper *-- Chimney
+Attic *-- House
+Rafter *-- Attic
 @enduml

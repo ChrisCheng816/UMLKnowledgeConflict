@@ -1,0 +1,4 @@
+@startuml
+Ward o-- Hospital
+Radiologist o-- Ward
+@enduml

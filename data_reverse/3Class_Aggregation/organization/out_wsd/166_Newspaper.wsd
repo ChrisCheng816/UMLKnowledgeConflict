@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Newspaper
+Reporter o-- Staff
+@enduml

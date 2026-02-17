@@ -1,4 +1,4 @@
 @startuml
-KnifeSharpener ..> HomeUse
-Electricity ..> KnifeSharpener
+SodaMaker ..> HomeUse
+Electricity ..> SodaMaker
 @enduml

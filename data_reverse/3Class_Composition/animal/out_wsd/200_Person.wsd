@@ -1,4 +1,4 @@
 @startuml
-Knee *-- Person
-Cap *-- Knee
+Shoulder *-- Person
+Muscle *-- Shoulder
 @enduml

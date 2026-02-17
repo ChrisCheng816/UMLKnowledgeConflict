@@ -1,4 +1,4 @@
 @startuml
-CarbonMonoxideAlarm ..> Electricity
-HomeSecurity ..> CarbonMonoxideAlarm
+CeilingFan ..> Electricity
+AirCirculation ..> CeilingFan
 @enduml

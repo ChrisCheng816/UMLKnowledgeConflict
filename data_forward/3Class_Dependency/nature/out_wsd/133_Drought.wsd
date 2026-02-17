@@ -1,0 +1,4 @@
+@startuml
+DryVegetation ..> Drought
+Wildfire ..> DryVegetation
+@enduml

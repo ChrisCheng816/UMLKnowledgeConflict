@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Producer
+Newsroom o-- Staff
+@enduml

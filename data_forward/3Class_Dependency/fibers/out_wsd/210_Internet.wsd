@@ -1,4 +1,4 @@
 @startuml
-NintendoApp ..> Internet
-OnlineUse ..> NintendoApp
+Goodreads ..> Internet
+OnlineUse ..> Goodreads
 @enduml

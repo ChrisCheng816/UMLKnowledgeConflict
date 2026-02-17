@@ -1,4 +1,4 @@
 @startuml
 SteeringSystem *-- Car
-SteeringWheel *-- SteeringSystem
+Column *-- SteeringSystem
 @enduml

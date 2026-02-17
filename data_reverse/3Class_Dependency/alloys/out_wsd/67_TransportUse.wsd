@@ -1,4 +1,4 @@
 @startuml
-ShipEngine ..> TransportUse
-Fuel ..> ShipEngine
+AmbulanceEngine ..> TransportUse
+Fuel ..> AmbulanceEngine
 @enduml

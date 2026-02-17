@@ -1,0 +1,4 @@
+@startuml
+Pong <|-- VideoGame
+VideoGame <|-- Game
+@enduml

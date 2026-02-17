@@ -1,4 +1,4 @@
 @startuml
 Knee *-- Person
-Tendon *-- Knee
+Bone *-- Knee
 @enduml

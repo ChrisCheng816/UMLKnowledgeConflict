@@ -1,0 +1,4 @@
+@startuml
+Department o-- Advisor
+University o-- Department
+@enduml

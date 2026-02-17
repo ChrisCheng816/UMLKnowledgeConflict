@@ -1,0 +1,4 @@
+@startuml
+Truck o-- Convoy
+Cargo o-- Truck
+@enduml

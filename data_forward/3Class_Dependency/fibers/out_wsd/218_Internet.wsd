@@ -1,4 +1,4 @@
 @startuml
-CalendarApp ..> Internet
-OnlineUse ..> CalendarApp
+ScannerApp ..> Internet
+OnlineUse ..> ScannerApp
 @enduml

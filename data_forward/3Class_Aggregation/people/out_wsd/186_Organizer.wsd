@@ -1,0 +1,4 @@
+@startuml
+ClubOfOrganizers o-- Organizer
+School o-- ClubOfOrganizers
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Dishwasher ..> Electricity
+HomeUse ..> Dishwasher
+@enduml

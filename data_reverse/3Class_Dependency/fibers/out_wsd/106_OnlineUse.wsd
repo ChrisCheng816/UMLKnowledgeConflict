@@ -1,4 +1,4 @@
 @startuml
-AppleMusic ..> OnlineUse
-Internet ..> AppleMusic
+YouTubeMusic ..> OnlineUse
+Internet ..> YouTubeMusic
 @enduml

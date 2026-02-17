@@ -1,4 +1,4 @@
 @startuml
-FoodProcessor ..> Electricity
-Slicing ..> FoodProcessor
+GameConsole ..> Electricity
+MusicPlayback ..> GameConsole
 @enduml

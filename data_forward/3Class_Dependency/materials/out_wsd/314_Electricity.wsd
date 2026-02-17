@@ -1,4 +1,4 @@
 @startuml
-PoolHeater ..> Electricity
-HomeUse ..> PoolHeater
+AirPump ..> Electricity
+HomeUse ..> AirPump
 @enduml

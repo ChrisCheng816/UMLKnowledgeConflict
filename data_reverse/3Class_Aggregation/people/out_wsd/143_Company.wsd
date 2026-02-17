@@ -1,0 +1,4 @@
+@startuml
+StaffOfScouts o-- Company
+Scout o-- StaffOfScouts
+@enduml

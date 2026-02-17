@@ -1,4 +1,4 @@
 @startuml
 Folder o-- Office
-Contract o-- Folder
+Invoice o-- Folder
 @enduml

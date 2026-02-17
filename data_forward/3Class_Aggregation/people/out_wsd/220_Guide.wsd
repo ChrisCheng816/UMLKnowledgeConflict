@@ -1,0 +1,4 @@
+@startuml
+TeamOfGuides o-- Guide
+Club o-- TeamOfGuides
+@enduml

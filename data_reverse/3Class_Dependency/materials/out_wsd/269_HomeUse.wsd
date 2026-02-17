@@ -1,4 +1,4 @@
 @startuml
-ChargingStation ..> HomeUse
-Electricity ..> ChargingStation
+BloodPressureMonitor ..> HomeUse
+Electricity ..> BloodPressureMonitor
 @enduml

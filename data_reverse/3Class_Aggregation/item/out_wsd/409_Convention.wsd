@@ -1,0 +1,4 @@
+@startuml
+Booth o-- Convention
+Vendor o-- Booth
+@enduml

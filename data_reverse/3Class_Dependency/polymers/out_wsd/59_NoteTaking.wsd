@@ -1,0 +1,4 @@
+@startuml
+Paper ..> NoteTaking
+Trees ..> Paper
+@enduml

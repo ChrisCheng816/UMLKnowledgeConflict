@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Cleaner
+Restaurant o-- Staff
+@enduml

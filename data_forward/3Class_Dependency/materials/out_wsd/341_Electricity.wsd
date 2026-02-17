@@ -1,4 +1,4 @@
 @startuml
-EmbroideryMachine ..> Electricity
-HomeUse ..> EmbroideryMachine
+Siren ..> Electricity
+IntruderAlert ..> Siren
 @enduml

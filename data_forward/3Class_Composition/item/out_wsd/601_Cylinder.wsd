@@ -1,0 +1,4 @@
+@startuml
+Lock *-- Cylinder
+Door *-- Lock
+@enduml

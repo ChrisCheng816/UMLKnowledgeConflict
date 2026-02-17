@@ -1,0 +1,4 @@
+@startuml
+Thunderstorm ..> WarmAir
+Hail ..> Thunderstorm
+@enduml

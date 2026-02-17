@@ -1,4 +1,4 @@
 @startuml
 Sport <|-- IndividualSport
-IndividualSport <|-- Bowling
+IndividualSport <|-- Orienteering
 @enduml

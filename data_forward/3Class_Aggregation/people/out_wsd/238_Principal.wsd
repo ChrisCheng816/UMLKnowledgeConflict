@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Principal
+School o-- Staff
+@enduml

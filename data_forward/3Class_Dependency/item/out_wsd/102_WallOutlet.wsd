@@ -1,0 +1,4 @@
+@startuml
+VacuumCleaner ..> WallOutlet
+Vacuuming ..> VacuumCleaner
+@enduml

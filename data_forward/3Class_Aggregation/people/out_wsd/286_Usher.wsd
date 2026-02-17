@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Usher
+Theater o-- Staff
+@enduml

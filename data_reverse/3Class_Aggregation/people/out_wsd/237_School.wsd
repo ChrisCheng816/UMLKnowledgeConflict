@@ -1,0 +1,4 @@
+@startuml
+Faculty o-- School
+Counselor o-- Faculty
+@enduml

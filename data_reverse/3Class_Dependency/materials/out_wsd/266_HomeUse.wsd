@@ -1,4 +1,4 @@
 @startuml
-DVDPlayer ..> HomeUse
-Electricity ..> DVDPlayer
+ScooterCharger ..> HomeUse
+Electricity ..> ScooterCharger
 @enduml

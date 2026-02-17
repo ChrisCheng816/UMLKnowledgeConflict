@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- CombatSport
-CombatSport <|-- Jujutsu
+Sport <|-- WaterSport
+WaterSport <|-- ArtisticSwimming
 @enduml

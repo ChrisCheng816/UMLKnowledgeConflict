@@ -1,4 +1,4 @@
 @startuml
-GooglePay ..> Internet
-OnlineUse ..> GooglePay
+SamsungPay ..> Internet
+OnlineUse ..> SamsungPay
 @enduml

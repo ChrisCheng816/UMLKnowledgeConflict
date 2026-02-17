@@ -1,0 +1,4 @@
+@startuml
+Ventricle *-- Heart
+Valve *-- Ventricle
+@enduml

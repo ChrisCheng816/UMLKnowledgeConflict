@@ -1,4 +1,4 @@
 @startuml
-GasOven ..> NaturalGas
-Broiling ..> GasOven
+GasWaterHeater ..> NaturalGas
+HotWater ..> GasWaterHeater
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Poem
-Poem <|-- DaffodilsPoem
+Entertainment <|-- Manga
+Manga <|-- NarutoManga
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- RockSong
-RockSong <|-- BohemianRhapsody
+Entertainment <|-- Film
+Film <|-- Biopic
 @enduml

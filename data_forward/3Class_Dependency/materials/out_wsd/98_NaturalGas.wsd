@@ -1,4 +1,4 @@
 @startuml
-GasFurnace ..> NaturalGas
-WarmAir ..> GasFurnace
+GasStove ..> NaturalGas
+Frying ..> GasStove
 @enduml

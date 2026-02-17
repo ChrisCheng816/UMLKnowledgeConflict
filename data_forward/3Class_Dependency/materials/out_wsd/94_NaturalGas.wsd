@@ -1,0 +1,4 @@
+@startuml
+GasOven ..> NaturalGas
+Baking ..> GasOven
+@enduml

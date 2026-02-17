@@ -1,4 +1,4 @@
 @startuml
-Kick ..> Internet
-OnlineUse ..> Kick
+Vimeo ..> Internet
+OnlineUse ..> Vimeo
 @enduml

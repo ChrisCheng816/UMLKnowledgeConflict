@@ -1,4 +1,4 @@
 @startuml
-WaffleMaker ..> Electricity
-HomeUse ..> WaffleMaker
+PoolPump ..> Electricity
+HomeUse ..> PoolPump
 @enduml

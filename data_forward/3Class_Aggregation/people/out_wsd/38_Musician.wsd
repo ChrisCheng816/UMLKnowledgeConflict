@@ -1,0 +1,4 @@
+@startuml
+TeamOfMusicians o-- Musician
+Club o-- TeamOfMusicians
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-RiceWarmer ..> HomeUse
-Electricity ..> RiceWarmer
+SumpPump ..> HomeUse
+Electricity ..> SumpPump
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Jar *-- Blender
-Gasket *-- Jar
+Blade *-- Blender
+Pitch *-- Blade
 @enduml

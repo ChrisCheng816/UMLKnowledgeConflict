@@ -1,4 +1,4 @@
 @startuml
-IntercomPanel ..> WallOutlet
-HomeIntercom ..> IntercomPanel
+EbikeCharger ..> WallOutlet
+Ebike ..> EbikeCharger
 @enduml

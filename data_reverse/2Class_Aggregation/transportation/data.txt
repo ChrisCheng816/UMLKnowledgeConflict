@@ -2,7 +2,6 @@ LockerUnit Parcel
 Fleet Airplane
 Fleet Train
 Fleet Bus
-Fleet Taxi
 Fleet Ambulance
 Fleet FireTruck
 Fleet PoliceCar
@@ -12,8 +11,6 @@ Fleet SchoolBus
 Fleet Tram
 Fleet Ferry
 Fleet SubwayCar
-Fleet Scooter
-Fleet Bicycle
 Fleet TowTruck
 Terminal Gate
 Terminal Lounge
@@ -29,8 +26,8 @@ Terminal Elevator
 Hangar Airplane
 Runway Light
 Garage Car
-Fleet Truck
-ControlTower Radar
-Line Station
-Hangar Helicopter
-Pier Berth
+MovingCrew Mover
+ControlTower Controller
+Fleet Snowplow
+Fleet Bulldozer
+Fleet Backhoe

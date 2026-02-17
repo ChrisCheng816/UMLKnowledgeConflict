@@ -1,0 +1,4 @@
+@startuml
+Thorax *-- Insect
+Wing *-- Thorax
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Threads ..> Internet
-OnlineUse ..> Threads
+Pinterest ..> Internet
+OnlineUse ..> Pinterest
 @enduml

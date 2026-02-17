@@ -1,4 +1,4 @@
 @startuml
-GoogleMaps ..> Internet
-OnlineUse ..> GoogleMaps
+Waze ..> Internet
+OnlineUse ..> Waze
 @enduml

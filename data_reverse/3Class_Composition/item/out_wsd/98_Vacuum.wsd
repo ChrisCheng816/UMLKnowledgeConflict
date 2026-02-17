@@ -1,4 +1,4 @@
 @startuml
-Motor *-- Vacuum
-Bearing *-- Motor
+Canister *-- Vacuum
+Seal *-- Canister
 @enduml

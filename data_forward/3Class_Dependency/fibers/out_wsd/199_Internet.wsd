@@ -1,4 +1,4 @@
 @startuml
-PyCharm ..> Internet
-OnlineUse ..> PyCharm
+AndroidStudio ..> Internet
+OnlineUse ..> AndroidStudio
 @enduml

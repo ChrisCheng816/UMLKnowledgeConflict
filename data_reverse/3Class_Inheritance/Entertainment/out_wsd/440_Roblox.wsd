@@ -1,0 +1,4 @@
+@startuml
+Roblox <|-- VideoGame
+VideoGame <|-- Game
+@enduml

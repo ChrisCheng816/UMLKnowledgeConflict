@@ -1,4 +1,4 @@
 @startuml
 School o-- EducationSystem
-Gym o-- School
+Teacher o-- School
 @enduml

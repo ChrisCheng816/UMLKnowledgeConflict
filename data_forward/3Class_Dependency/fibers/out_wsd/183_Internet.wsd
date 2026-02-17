@@ -1,4 +1,4 @@
 @startuml
-SamsungPay ..> Internet
-OnlineUse ..> SamsungPay
+Revolut ..> Internet
+OnlineUse ..> Revolut
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Staircase *-- House
-Stringer *-- Staircase
+Foundation *-- House
+Rebar *-- Foundation
 @enduml

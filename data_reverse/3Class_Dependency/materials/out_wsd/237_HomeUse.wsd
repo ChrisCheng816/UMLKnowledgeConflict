@@ -1,4 +1,4 @@
 @startuml
-Microwave ..> HomeUse
-Electricity ..> Microwave
+TableFan ..> HomeUse
+Electricity ..> TableFan
 @enduml

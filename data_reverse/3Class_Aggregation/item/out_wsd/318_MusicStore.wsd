@@ -1,4 +1,4 @@
 @startuml
 InstrumentRack o-- MusicStore
-Ukulele o-- InstrumentRack
+Cello o-- InstrumentRack
 @enduml

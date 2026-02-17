@@ -1,4 +1,4 @@
 @startuml
 Terminal o-- Airport
-Lounge o-- Terminal
+BaggageBelt o-- Terminal
 @enduml

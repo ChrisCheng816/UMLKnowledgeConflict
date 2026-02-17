@@ -1,4 +1,4 @@
 @startuml
 Folder o-- Office
-Pen o-- Folder
+Notebook o-- Folder
 @enduml

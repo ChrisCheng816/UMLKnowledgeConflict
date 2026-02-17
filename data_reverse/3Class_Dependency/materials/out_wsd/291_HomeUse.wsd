@@ -1,4 +1,4 @@
 @startuml
-PaperShredder ..> HomeUse
-Electricity ..> PaperShredder
+IceMaker ..> HomeUse
+Electricity ..> IceMaker
 @enduml

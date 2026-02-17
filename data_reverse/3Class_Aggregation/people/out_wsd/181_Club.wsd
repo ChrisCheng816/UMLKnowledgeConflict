@@ -1,0 +1,4 @@
+@startuml
+TeamOfBaristas o-- Club
+Barista o-- TeamOfBaristas
+@enduml

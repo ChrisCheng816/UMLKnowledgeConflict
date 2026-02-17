@@ -1,0 +1,4 @@
+@startuml
+StaffOfDrivers o-- Driver
+Company o-- StaffOfDrivers
+@enduml

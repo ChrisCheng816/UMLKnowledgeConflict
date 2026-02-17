@@ -1,0 +1,4 @@
+@startuml
+Canopy *-- Umbrella
+Rib *-- Canopy
+@enduml

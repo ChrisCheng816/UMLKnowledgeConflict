@@ -1,4 +1,4 @@
 @startuml
 Hood *-- Car
-Handle *-- Hood
+Seal *-- Hood
 @enduml

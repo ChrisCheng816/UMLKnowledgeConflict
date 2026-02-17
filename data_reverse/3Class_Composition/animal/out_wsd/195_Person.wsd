@@ -1,4 +1,4 @@
 @startuml
 Knee *-- Person
-Ligament *-- Knee
+Joint *-- Knee
 @enduml

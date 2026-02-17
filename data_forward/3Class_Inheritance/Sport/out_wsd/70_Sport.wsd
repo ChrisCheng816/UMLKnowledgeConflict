@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Fencing
-Fencing <|-- SabreFencing
+Sport <|-- WaterSport
+WaterSport <|-- OpenWaterSwimming
 @enduml

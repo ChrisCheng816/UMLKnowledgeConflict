@@ -1,4 +1,4 @@
 @startuml
-Wiring *-- House
-Wire *-- Wiring
+GarageDoor *-- House
+Spring *-- GarageDoor
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- WaterSport
-WaterSport <|-- Kayaking
+Sport <|-- WinterSport
+WinterSport <|-- CrossCountrySkiing
 @enduml

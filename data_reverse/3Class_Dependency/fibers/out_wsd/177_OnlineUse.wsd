@@ -1,4 +1,4 @@
 @startuml
-Venmo ..> OnlineUse
-Internet ..> Venmo
+CashApp ..> OnlineUse
+Internet ..> CashApp
 @enduml

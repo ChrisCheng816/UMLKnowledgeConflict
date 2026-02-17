@@ -1,4 +1,4 @@
 @startuml
-KitchenLight ..> NightLighting
-Electricity ..> KitchenLight
+LEDStrip ..> NightLighting
+Electricity ..> LEDStrip
 @enduml

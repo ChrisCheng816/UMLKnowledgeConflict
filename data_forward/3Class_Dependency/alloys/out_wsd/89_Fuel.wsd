@@ -1,4 +1,4 @@
 @startuml
-HarvesterEngine ..> Fuel
-TransportUse ..> HarvesterEngine
+CampingStove ..> Fuel
+OutdoorCooking ..> CampingStove
 @enduml

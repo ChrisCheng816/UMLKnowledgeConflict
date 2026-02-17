@@ -1,4 +1,4 @@
 @startuml
 Bin o-- Garage
-Lightbulb o-- Bin
+Battery o-- Bin
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-VideoDoorbell ..> Electricity
-HomeSecurity ..> VideoDoorbell
+WirelessCharger ..> Electricity
+DeviceCharging ..> WirelessCharger
 @enduml

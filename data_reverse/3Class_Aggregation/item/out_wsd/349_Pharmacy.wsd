@@ -1,4 +1,4 @@
 @startuml
 Cabinet o-- Pharmacy
-Gauze o-- Cabinet
+Sanitizer o-- Cabinet
 @enduml

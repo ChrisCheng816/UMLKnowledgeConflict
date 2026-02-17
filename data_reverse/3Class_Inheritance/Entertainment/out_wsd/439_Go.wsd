@@ -1,0 +1,4 @@
+@startuml
+Go <|-- BoardGame
+BoardGame <|-- Game
+@enduml

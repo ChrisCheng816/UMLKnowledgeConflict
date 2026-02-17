@@ -1,4 +1,4 @@
 @startuml
 DoorPanel *-- Car
-Latch *-- DoorPanel
+Lock *-- DoorPanel
 @enduml

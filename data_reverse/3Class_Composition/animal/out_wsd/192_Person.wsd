@@ -1,4 +1,4 @@
 @startuml
-Spine *-- Person
-Bone *-- Spine
+Knee *-- Person
+Ligament *-- Knee
 @enduml

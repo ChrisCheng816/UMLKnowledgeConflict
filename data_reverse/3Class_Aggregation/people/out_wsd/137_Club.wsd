@@ -1,0 +1,4 @@
+@startuml
+TeamOfCampers o-- Club
+Camper o-- TeamOfCampers
+@enduml

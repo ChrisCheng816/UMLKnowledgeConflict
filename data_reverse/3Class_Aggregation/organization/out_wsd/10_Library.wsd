@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Library
+Librarian o-- Staff
+@enduml

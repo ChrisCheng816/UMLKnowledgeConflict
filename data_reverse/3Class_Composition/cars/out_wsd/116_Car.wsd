@@ -1,4 +1,4 @@
 @startuml
 Suspension *-- Car
-Mount *-- Suspension
+Knuckle *-- Suspension
 @enduml

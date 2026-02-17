@@ -1,0 +1,4 @@
+@startuml
+TeamOfDrivers o-- Driver
+Club o-- TeamOfDrivers
+@enduml

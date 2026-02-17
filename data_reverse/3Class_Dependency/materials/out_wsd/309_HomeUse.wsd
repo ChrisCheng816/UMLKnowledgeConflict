@@ -1,4 +1,4 @@
 @startuml
-YogurtMaker ..> HomeUse
-Electricity ..> YogurtMaker
+HedgeTrimmer ..> HomeUse
+Electricity ..> HedgeTrimmer
 @enduml

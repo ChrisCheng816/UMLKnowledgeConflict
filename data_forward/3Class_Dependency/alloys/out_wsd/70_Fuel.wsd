@@ -1,4 +1,4 @@
 @startuml
-FireTruckEngine ..> Fuel
-TransportUse ..> FireTruckEngine
+TaxiEngine ..> Fuel
+TransportUse ..> TaxiEngine
 @enduml

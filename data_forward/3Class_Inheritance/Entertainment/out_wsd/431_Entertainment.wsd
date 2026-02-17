@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- AdventureGame
-AdventureGame <|-- ZeldaGame
+Entertainment <|-- RockSong
+RockSong <|-- BohemianRhapsody
 @enduml

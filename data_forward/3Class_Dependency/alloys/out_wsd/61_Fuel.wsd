@@ -1,4 +1,4 @@
 @startuml
-JetSkiEngine ..> Fuel
-TransportUse ..> JetSkiEngine
+ExcavatorEngine ..> Fuel
+TransportUse ..> ExcavatorEngine
 @enduml

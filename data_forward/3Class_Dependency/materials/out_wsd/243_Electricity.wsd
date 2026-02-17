@@ -1,4 +1,4 @@
 @startuml
-RobotVacuum ..> Electricity
-HomeUse ..> RobotVacuum
+BreadMaker ..> Electricity
+HomeUse ..> BreadMaker
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Compressor ..> HomeUse
-Electricity ..> Compressor
+GlueGun ..> HomeUse
+Electricity ..> GlueGun
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+TeamOfAthletes o-- Club
+Athlete o-- TeamOfAthletes
+@enduml

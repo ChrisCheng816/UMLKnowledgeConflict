@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- FarmingGame
-FarmingGame <|-- StardewValley
+VideoGame <|-- FightingGame
+FightingGame <|-- StreetFighter
 @enduml

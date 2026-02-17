@@ -1,4 +1,4 @@
 @startuml
-UberEats ..> OnlineUse
-Internet ..> UberEats
+Grubhub ..> OnlineUse
+Internet ..> Grubhub
 @enduml

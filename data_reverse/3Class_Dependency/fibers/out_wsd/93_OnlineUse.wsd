@@ -1,4 +1,4 @@
 @startuml
-Medium ..> OnlineUse
-Internet ..> Medium
+Substack ..> OnlineUse
+Internet ..> Substack
 @enduml

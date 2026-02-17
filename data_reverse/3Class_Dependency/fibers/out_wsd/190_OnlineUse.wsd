@@ -1,4 +1,4 @@
 @startuml
-MetaMask ..> OnlineUse
-Internet ..> MetaMask
+TrustWallet ..> OnlineUse
+Internet ..> TrustWallet
 @enduml

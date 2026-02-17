@@ -1,0 +1,4 @@
+@startuml
+Tray o-- Hammer
+Toolbox o-- Tray
+@enduml

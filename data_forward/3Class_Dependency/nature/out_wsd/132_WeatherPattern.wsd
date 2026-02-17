@@ -1,0 +1,4 @@
+@startuml
+LowRainfall ..> WeatherPattern
+Drought ..> LowRainfall
+@enduml

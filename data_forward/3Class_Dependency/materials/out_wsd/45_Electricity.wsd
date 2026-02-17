@@ -1,4 +1,4 @@
 @startuml
-CoffeeMaker ..> Electricity
-HotCoffee ..> CoffeeMaker
+Dehumidifier ..> Electricity
+Dehumidifying ..> Dehumidifier
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Oven ..> Electricity
-HomeUse ..> Oven
+AirPurifier ..> Electricity
+HomeUse ..> AirPurifier
 @enduml

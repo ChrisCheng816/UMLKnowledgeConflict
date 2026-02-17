@@ -1,4 +1,4 @@
 @startuml
-ElectricOven ..> Electricity
-Broiling ..> ElectricOven
+ElectricShaver ..> Electricity
+Shaving ..> ElectricShaver
 @enduml

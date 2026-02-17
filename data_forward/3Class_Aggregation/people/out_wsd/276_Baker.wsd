@@ -1,0 +1,4 @@
+@startuml
+Kitchen o-- Baker
+Restaurant o-- Kitchen
+@enduml

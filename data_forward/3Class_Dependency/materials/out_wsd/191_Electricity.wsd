@@ -1,4 +1,4 @@
 @startuml
-SmokeAlarm ..> Electricity
-Surveillance ..> SmokeAlarm
+SpaceHeater ..> Electricity
+WarmAir ..> SpaceHeater
 @enduml

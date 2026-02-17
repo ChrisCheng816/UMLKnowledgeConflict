@@ -1,4 +1,4 @@
 @startuml
 Suspension *-- Car
-ShockAbsorber *-- Suspension
+Bushing *-- Suspension
 @enduml

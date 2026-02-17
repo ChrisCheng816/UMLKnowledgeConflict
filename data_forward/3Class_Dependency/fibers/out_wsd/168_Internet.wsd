@@ -1,4 +1,4 @@
 @startuml
-Instacart ..> Internet
-OnlineUse ..> Instacart
+DoorDash ..> Internet
+OnlineUse ..> DoorDash
 @enduml

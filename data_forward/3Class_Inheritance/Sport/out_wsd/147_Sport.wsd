@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- WinterSport
-WinterSport <|-- SkiMountaineering
+Sport <|-- MindSport
+MindSport <|-- GoGame
 @enduml

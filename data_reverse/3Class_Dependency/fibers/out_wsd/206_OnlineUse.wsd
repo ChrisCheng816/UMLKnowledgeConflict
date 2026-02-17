@@ -1,4 +1,4 @@
 @startuml
-Origin ..> OnlineUse
-Internet ..> Origin
+PlayStationApp ..> OnlineUse
+Internet ..> PlayStationApp
 @enduml

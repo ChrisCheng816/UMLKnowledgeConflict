@@ -1,4 +1,4 @@
 @startuml
-MotorcycleEngine ..> Fuel
-TransportUse ..> MotorcycleEngine
+TruckEngine ..> Fuel
+TransportUse ..> TruckEngine
 @enduml

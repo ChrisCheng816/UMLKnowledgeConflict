@@ -1,4 +1,4 @@
 @startuml
-Division o-- Company
-Clerk o-- Division
+StaffOfSurfers o-- Company
+Surfer o-- StaffOfSurfers
 @enduml

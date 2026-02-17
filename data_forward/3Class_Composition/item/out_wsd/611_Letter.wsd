@@ -1,0 +1,4 @@
+@startuml
+Syllable *-- Letter
+Word *-- Syllable
+@enduml

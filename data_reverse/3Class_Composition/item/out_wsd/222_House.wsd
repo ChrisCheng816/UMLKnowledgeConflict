@@ -1,4 +1,4 @@
 @startuml
-Attic *-- House
-Beam *-- Attic
+Basement *-- House
+Stairs *-- Basement
 @enduml

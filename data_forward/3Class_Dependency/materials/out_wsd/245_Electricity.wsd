@@ -1,4 +1,4 @@
 @startuml
-AirPurifier ..> Electricity
-HomeUse ..> AirPurifier
+WaterHeater ..> Electricity
+HomeUse ..> WaterHeater
 @enduml

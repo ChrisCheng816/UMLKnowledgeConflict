@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Gymnastics
-Gymnastics <|-- AcrobaticGymnastics
+Sport <|-- Shooting
+Shooting <|-- SkeetShooting
 @enduml

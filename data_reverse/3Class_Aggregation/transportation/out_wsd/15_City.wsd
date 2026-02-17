@@ -1,4 +1,4 @@
 @startuml
 Fleet o-- City
-Scooter o-- Fleet
+TowTruck o-- Fleet
 @enduml

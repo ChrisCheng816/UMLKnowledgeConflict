@@ -1,4 +1,4 @@
 @startuml
-KhanAcademy ..> Internet
-OnlineUse ..> KhanAcademy
+Wikipedia ..> Internet
+OnlineUse ..> Wikipedia
 @enduml

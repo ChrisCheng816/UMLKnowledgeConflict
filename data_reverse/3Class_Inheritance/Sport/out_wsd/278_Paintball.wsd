@@ -1,0 +1,4 @@
+@startuml
+Paintball <|-- Sport
+Sport <|-- Activity
+@enduml

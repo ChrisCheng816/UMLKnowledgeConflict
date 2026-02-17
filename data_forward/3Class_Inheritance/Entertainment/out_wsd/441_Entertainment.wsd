@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Manga
-Manga <|-- NarutoManga
+Entertainment <|-- Game
+Game <|-- Wordle
 @enduml

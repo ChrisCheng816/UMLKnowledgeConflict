@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Triathlon
-Triathlon <|-- SprintTriathlon
+Sport <|-- Snowboarding
+Snowboarding <|-- HalfpipeSnowboarding
 @enduml

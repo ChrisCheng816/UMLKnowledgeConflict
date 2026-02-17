@@ -1,4 +1,4 @@
 @startuml
-GroupOfListeners o-- Community
-Listener o-- GroupOfListeners
+GroupOfMembers o-- Community
+Member o-- GroupOfMembers
 @enduml

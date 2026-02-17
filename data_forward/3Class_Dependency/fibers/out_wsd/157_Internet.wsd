@@ -1,4 +1,4 @@
 @startuml
-Amazon ..> Internet
-OnlineUse ..> Amazon
+eBay ..> Internet
+OnlineUse ..> eBay
 @enduml

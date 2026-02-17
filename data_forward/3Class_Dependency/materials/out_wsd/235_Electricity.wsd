@@ -1,4 +1,4 @@
 @startuml
-WirelessCharger ..> Electricity
-DeviceCharging ..> WirelessCharger
+Dryer ..> Electricity
+HomeUse ..> Dryer
 @enduml

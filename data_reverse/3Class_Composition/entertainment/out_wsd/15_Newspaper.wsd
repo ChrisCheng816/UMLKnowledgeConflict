@@ -1,4 +1,4 @@
 @startuml
 Column *-- Newspaper
-Photo *-- Column
+Caption *-- Column
 @enduml

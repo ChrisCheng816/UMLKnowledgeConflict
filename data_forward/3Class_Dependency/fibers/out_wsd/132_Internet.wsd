@@ -1,4 +1,4 @@
 @startuml
-Jira ..> Internet
-OnlineUse ..> Jira
+Confluence ..> Internet
+OnlineUse ..> Confluence
 @enduml

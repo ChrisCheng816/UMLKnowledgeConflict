@@ -1,0 +1,4 @@
+@startuml
+Snowfall ..> Blizzard
+WinterStorm ..> Snowfall
+@enduml

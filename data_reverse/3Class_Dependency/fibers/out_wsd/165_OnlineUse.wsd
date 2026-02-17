@@ -1,4 +1,4 @@
 @startuml
-Target ..> OnlineUse
-Internet ..> Target
+BestBuy ..> OnlineUse
+Internet ..> BestBuy
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Attic *-- House
-Vent *-- Attic
+Basement *-- House
+WindowWell *-- Basement
 @enduml

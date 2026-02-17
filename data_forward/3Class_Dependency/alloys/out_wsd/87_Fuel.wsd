@@ -1,4 +1,4 @@
 @startuml
-GoKartEngine ..> Fuel
-TransportUse ..> GoKartEngine
+GasStove ..> Fuel
+Cooking ..> GasStove
 @enduml

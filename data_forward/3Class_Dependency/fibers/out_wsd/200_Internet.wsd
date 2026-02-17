@@ -1,4 +1,4 @@
 @startuml
-AndroidStudio ..> Internet
-OnlineUse ..> AndroidStudio
+Xcode ..> Internet
+OnlineUse ..> Xcode
 @enduml

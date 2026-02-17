@@ -1,4 +1,4 @@
 @startuml
 Mouth *-- Person
-Jaw *-- Mouth
+Tooth *-- Mouth
 @enduml

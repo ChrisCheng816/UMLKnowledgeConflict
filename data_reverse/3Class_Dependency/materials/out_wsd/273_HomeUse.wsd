@@ -1,4 +1,4 @@
 @startuml
-ScooterCharger ..> HomeUse
-Electricity ..> ScooterCharger
+EllipticalMachine ..> HomeUse
+Electricity ..> EllipticalMachine
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Basket o-- LaundryRoom
-DishSoap o-- Basket
+Sponge o-- Basket
 @enduml

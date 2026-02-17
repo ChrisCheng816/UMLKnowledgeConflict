@@ -1,4 +1,4 @@
 @startuml
-Spine *-- Person
-Canal *-- Spine
+Knee *-- Person
+Cartilage *-- Knee
 @enduml

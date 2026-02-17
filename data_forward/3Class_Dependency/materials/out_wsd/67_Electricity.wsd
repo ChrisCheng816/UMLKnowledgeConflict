@@ -1,4 +1,4 @@
 @startuml
-ElectricOven ..> Electricity
-Baking ..> ElectricOven
+ElectricShaver ..> Electricity
+Grooming ..> ElectricShaver
 @enduml

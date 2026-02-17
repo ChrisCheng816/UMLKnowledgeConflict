@@ -1,5 +1,4 @@
 AirCirculation AirConditioner
-AirConditioner Electricity
 Cooling AirConditioner
 Dehumidifying AirConditioner
 AirFrying AirFryer
@@ -21,17 +20,12 @@ Bathing BathTub
 Hygiene BathTub
 Relaxation BathTub
 MilkshakeMaking Blender
-Blender Electricity
 Pureeing Blender
 SmoothieMaking Blender
 AudioStreaming BluetoothSpeaker
 MusicPlayback BluetoothSpeaker
 RadioListening BluetoothSpeaker
-HomeSecurity CarbonMonoxideAlarm
-MotionDetection CarbonMonoxideAlarm
-Surveillance CarbonMonoxideAlarm
 AirCirculation CeilingFan
-CeilingFan Electricity
 CoolingBreeze CeilingFan
 Ventilation CeilingFan
 Illumination CeilingLight
@@ -53,7 +47,6 @@ Dehumidifying Dehumidifier
 MoistureRemoval Dehumidifier
 MoldPrevention Dehumidifier
 Illumination DeskLamp
-DeskLamp Electricity
 Lighting DeskLamp
 NightLighting DeskLamp
 Dishwashing Dishwasher
@@ -149,7 +142,6 @@ Illumination NightLight
 Lighting NightLight
 NightLighting NightLight
 BatteryCharging PhoneCharger
-PhoneCharger Electricity
 DeviceCharging PhoneCharger
 PowerSupply PhoneCharger
 Illumination PorchLight
@@ -165,7 +157,6 @@ AudioStreaming RadioReceiver
 MusicPlayback RadioReceiver
 RadioListening RadioReceiver
 Cooling Refrigerator
-Refrigerator Electricity
 FoodPreservation Refrigerator
 IceMaking Refrigerator
 RiceCooking RiceCooker
@@ -349,3 +340,6 @@ HomeUse Laminator
 HomeUse DocumentCamera
 HomeUse SmartBoard
 HomeUse ServerRack
+FireSafety SmokeDetector
+PowerOutage Flashlight
+IntruderAlert Siren

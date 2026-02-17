@@ -1,4 +1,4 @@
 @startuml
-BreadMaker ..> Electricity
-HomeUse ..> BreadMaker
+GamingConsole ..> Electricity
+HomeUse ..> GamingConsole
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MotorSport
-MotorSport <|-- Motocross
+Sport <|-- IndividualSport
+IndividualSport <|-- Billiards
 @enduml

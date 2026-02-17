@@ -1,4 +1,4 @@
 @startuml
-SandwichMaker ..> HomeUse
-Electricity ..> SandwichMaker
+PoolHeater ..> HomeUse
+Electricity ..> PoolHeater
 @enduml

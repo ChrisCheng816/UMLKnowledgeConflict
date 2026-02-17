@@ -1,4 +1,4 @@
 @startuml
 Bin o-- Garage
-AluminumCan o-- Bin
+GlassJar o-- Bin
 @enduml

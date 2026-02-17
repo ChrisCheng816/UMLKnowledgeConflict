@@ -1,4 +1,4 @@
 @startuml
-Revolut ..> Internet
-OnlineUse ..> Revolut
+Wise ..> Internet
+OnlineUse ..> Wise
 @enduml

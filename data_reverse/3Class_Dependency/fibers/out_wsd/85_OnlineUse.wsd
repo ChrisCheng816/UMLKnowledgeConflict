@@ -1,4 +1,4 @@
 @startuml
-XApp ..> OnlineUse
-Internet ..> XApp
+TikTok ..> OnlineUse
+Internet ..> TikTok
 @enduml

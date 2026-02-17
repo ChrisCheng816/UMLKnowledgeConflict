@@ -1,0 +1,4 @@
+@startuml
+Bristle *-- Brush
+Tip *-- Bristle
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Toaster ..> HomeUse
-Electricity ..> Toaster
+Humidifier ..> HomeUse
+Electricity ..> Humidifier
 @enduml

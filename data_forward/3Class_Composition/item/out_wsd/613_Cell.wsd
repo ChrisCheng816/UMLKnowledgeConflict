@@ -1,0 +1,4 @@
+@startuml
+Row *-- Cell
+Table *-- Row
+@enduml

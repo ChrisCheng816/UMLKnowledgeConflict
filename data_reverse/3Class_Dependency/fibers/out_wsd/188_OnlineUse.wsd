@@ -1,4 +1,4 @@
 @startuml
-Coinbase ..> OnlineUse
-Internet ..> Coinbase
+Kraken ..> OnlineUse
+Internet ..> Kraken
 @enduml

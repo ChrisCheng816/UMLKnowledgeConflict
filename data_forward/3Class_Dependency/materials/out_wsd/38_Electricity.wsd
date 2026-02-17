@@ -1,4 +1,4 @@
 @startuml
-ChargingDock ..> Electricity
-DeviceCharging ..> ChargingDock
+ClothesDryer ..> Electricity
+LintRemoval ..> ClothesDryer
 @enduml

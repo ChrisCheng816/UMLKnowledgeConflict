@@ -1,4 +1,4 @@
 @startuml
-EpicGames ..> Internet
-OnlineUse ..> EpicGames
+BattleNet ..> Internet
+OnlineUse ..> BattleNet
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+ClubOfJanitors o-- School
+Janitor o-- ClubOfJanitors
+@enduml

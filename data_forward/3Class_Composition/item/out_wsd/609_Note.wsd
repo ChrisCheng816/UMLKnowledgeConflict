@@ -1,0 +1,4 @@
+@startuml
+Melody *-- Note
+Song *-- Melody
+@enduml

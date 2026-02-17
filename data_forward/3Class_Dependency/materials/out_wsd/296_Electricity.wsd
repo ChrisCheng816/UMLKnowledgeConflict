@@ -1,4 +1,4 @@
 @startuml
-ATM ..> Electricity
-HomeUse ..> ATM
+KnifeSharpener ..> Electricity
+HomeUse ..> KnifeSharpener
 @enduml

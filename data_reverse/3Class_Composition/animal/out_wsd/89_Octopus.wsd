@@ -1,4 +1,4 @@
 @startuml
 Tentacle *-- Octopus
-Muscle *-- Tentacle
+Tip *-- Tentacle
 @enduml

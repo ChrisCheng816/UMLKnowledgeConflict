@@ -1,4 +1,4 @@
 @startuml
-EBikeCharger ..> HomeUse
-Electricity ..> EBikeCharger
+ExerciseBike ..> HomeUse
+Electricity ..> ExerciseBike
 @enduml

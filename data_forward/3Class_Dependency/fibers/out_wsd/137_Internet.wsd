@@ -1,4 +1,4 @@
 @startuml
-GitHub ..> Internet
-OnlineUse ..> GitHub
+GitLab ..> Internet
+OnlineUse ..> GitLab
 @enduml

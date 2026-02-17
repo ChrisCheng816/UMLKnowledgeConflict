@@ -1,0 +1,4 @@
+@startuml
+StaffOfDesigners o-- Designer
+Company o-- StaffOfDesigners
+@enduml

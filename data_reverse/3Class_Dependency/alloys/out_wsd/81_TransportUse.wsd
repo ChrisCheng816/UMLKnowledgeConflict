@@ -1,4 +1,4 @@
 @startuml
-DieselEngine ..> TransportUse
-Fuel ..> DieselEngine
+GoKartEngine ..> TransportUse
+Fuel ..> GoKartEngine
 @enduml

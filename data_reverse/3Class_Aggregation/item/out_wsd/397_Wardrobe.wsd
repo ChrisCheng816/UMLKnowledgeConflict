@@ -1,0 +1,4 @@
+@startuml
+Suitcase o-- Wardrobe
+Shirt o-- Suitcase
+@enduml

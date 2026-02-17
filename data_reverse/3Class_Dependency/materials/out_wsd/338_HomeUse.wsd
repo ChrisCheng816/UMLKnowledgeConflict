@@ -1,4 +1,4 @@
 @startuml
-Microphone ..> HomeUse
-Electricity ..> Microphone
+ServerRack ..> HomeUse
+Electricity ..> ServerRack
 @enduml

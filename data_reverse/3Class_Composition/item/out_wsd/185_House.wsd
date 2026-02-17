@@ -1,4 +1,4 @@
 @startuml
-Window *-- House
-Screen *-- Window
+Door *-- House
+Threshold *-- Door
 @enduml

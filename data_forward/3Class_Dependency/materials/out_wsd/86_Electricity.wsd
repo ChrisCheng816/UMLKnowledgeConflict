@@ -1,4 +1,4 @@
 @startuml
-FloorLamp ..> Electricity
-Lighting ..> FloorLamp
+FoodProcessor ..> Electricity
+Slicing ..> FoodProcessor
 @enduml

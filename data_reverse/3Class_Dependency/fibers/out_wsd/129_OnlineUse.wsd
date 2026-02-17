@@ -1,4 +1,4 @@
 @startuml
-OneNote ..> OnlineUse
-Internet ..> OneNote
+Trello ..> OnlineUse
+Internet ..> Trello
 @enduml

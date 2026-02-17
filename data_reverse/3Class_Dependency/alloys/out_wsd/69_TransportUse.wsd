@@ -1,4 +1,4 @@
 @startuml
-AmbulanceEngine ..> TransportUse
-Fuel ..> AmbulanceEngine
+PoliceCarEngine ..> TransportUse
+Fuel ..> PoliceCarEngine
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Class o-- Tutor
+School o-- Class
+@enduml

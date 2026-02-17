@@ -1,4 +1,4 @@
 @startuml
-ApplePay ..> Internet
-OnlineUse ..> ApplePay
+GooglePay ..> Internet
+OnlineUse ..> GooglePay
 @enduml

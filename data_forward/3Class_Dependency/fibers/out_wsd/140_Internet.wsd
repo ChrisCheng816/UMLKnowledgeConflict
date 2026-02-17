@@ -1,4 +1,4 @@
 @startuml
-StackOverflow ..> Internet
-OnlineUse ..> StackOverflow
+Replit ..> Internet
+OnlineUse ..> Replit
 @enduml

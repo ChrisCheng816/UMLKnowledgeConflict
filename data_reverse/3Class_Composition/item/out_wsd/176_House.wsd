@@ -1,4 +1,4 @@
 @startuml
-Ceiling *-- House
-Beam *-- Ceiling
+Window *-- House
+Screen *-- Window
 @enduml

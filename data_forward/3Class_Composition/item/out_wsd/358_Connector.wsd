@@ -1,4 +1,4 @@
 @startuml
-Motherboard *-- Connector
-Desktop *-- Motherboard
+SSD *-- Connector
+Laptop *-- SSD
 @enduml

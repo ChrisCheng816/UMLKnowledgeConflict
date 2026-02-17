@@ -1,4 +1,4 @@
 @startuml
-ScannerApp ..> OnlineUse
-Internet ..> ScannerApp
+NordVPN ..> OnlineUse
+Internet ..> NordVPN
 @enduml

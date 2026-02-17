@@ -1,0 +1,4 @@
+@startuml
+Board o-- Treasurer
+University o-- Board
+@enduml

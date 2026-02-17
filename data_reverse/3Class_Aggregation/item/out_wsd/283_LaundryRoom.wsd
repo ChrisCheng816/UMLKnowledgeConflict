@@ -1,4 +1,4 @@
 @startuml
 Basket o-- LaundryRoom
-Umbrella o-- Basket
+Hanger o-- Basket
 @enduml

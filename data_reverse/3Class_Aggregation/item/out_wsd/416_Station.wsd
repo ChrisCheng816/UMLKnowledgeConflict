@@ -1,0 +1,4 @@
+@startuml
+Track o-- Station
+Train o-- Track
+@enduml

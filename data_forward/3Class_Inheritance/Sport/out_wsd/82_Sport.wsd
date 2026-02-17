@@ -1,4 +1,4 @@
 @startuml
 Sport <|-- WinterSport
-WinterSport <|-- SkiJumping
+WinterSport <|-- Luge
 @enduml

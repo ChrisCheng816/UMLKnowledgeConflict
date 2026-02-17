@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- ThrillerFilm
-ThrillerFilm <|-- InceptionFilm
+Entertainment <|-- ActionFilm
+ActionFilm <|-- AvengersFilm
 @enduml

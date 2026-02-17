@@ -1,4 +1,4 @@
 @startuml
-Door *-- House
-Panel *-- Door
+Staircase *-- House
+Carpet *-- Staircase
 @enduml

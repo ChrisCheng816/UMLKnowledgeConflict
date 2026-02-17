@@ -1,4 +1,4 @@
 @startuml
-Chopper ..> Electricity
-HomeUse ..> Chopper
+YogurtMaker ..> Electricity
+HomeUse ..> YogurtMaker
 @enduml

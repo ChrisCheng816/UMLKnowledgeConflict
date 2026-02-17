@@ -1,0 +1,4 @@
+@startuml
+Collection o-- Game
+GameLibrary o-- Collection
+@enduml

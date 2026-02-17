@@ -1,4 +1,4 @@
 @startuml
-SmartThermostat ..> Electricity
-HomeUse ..> SmartThermostat
+EBikeCharger ..> Electricity
+HomeUse ..> EBikeCharger
 @enduml

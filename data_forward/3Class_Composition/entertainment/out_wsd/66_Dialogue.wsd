@@ -1,0 +1,4 @@
+@startuml
+Scene *-- Dialogue
+Movie *-- Scene
+@enduml

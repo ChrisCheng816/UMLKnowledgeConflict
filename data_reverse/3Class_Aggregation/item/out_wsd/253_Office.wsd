@@ -1,4 +1,4 @@
 @startuml
 Folder o-- Office
-Envelope o-- Folder
+Letter o-- Folder
 @enduml

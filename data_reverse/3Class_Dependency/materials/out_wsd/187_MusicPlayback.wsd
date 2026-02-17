@@ -1,4 +1,4 @@
 @startuml
-SmartSpeaker ..> MusicPlayback
-Electricity ..> SmartSpeaker
+Soundbar ..> MusicPlayback
+Electricity ..> Soundbar
 @enduml

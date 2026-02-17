@@ -1,4 +1,4 @@
 @startuml
-TaxiEngine ..> TransportUse
-Fuel ..> TaxiEngine
+SchoolBusEngine ..> TransportUse
+Fuel ..> SchoolBusEngine
 @enduml

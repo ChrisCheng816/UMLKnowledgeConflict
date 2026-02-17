@@ -1,4 +1,4 @@
 @startuml
-PowerBankCharger ..> HomeUse
-Electricity ..> PowerBankCharger
+GlucoseMeter ..> HomeUse
+Electricity ..> GlucoseMeter
 @enduml

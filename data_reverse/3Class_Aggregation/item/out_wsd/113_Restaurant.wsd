@@ -1,4 +1,4 @@
 @startuml
 Plate o-- Restaurant
-Burger o-- Plate
+Pizza o-- Plate
 @enduml

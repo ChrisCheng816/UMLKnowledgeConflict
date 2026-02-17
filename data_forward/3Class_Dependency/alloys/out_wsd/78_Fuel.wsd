@@ -1,4 +1,4 @@
 @startuml
-GasGrill ..> Fuel
-TransportUse ..> GasGrill
+InboardMotor ..> Fuel
+TransportUse ..> InboardMotor
 @enduml

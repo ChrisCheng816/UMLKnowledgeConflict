@@ -1,4 +1,4 @@
 @startuml
-TileCutter ..> HomeUse
-Electricity ..> TileCutter
+DJController ..> HomeUse
+Electricity ..> DJController
 @enduml

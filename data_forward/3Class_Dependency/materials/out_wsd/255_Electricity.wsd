@@ -1,4 +1,4 @@
 @startuml
-DesktopComputer ..> Electricity
-HomeUse ..> DesktopComputer
+WiFiRepeater ..> Electricity
+HomeUse ..> WiFiRepeater
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Fencing
-Fencing <|-- EpeeFencing
+Sport <|-- WaterSport
+WaterSport <|-- Kitesurfing
 @enduml

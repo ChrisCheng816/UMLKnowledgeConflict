@@ -1,4 +1,4 @@
 @startuml
-TractorEngine ..> TransportUse
-Fuel ..> TractorEngine
+ShipEngine ..> TransportUse
+Fuel ..> ShipEngine
 @enduml

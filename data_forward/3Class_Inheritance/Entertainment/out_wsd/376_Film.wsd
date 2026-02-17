@@ -1,4 +1,4 @@
 @startuml
-Film <|-- SportsFilm
-SportsFilm <|-- Rocky
+Film <|-- AdventureFilm
+AdventureFilm <|-- Up
 @enduml

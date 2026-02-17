@@ -1,4 +1,4 @@
 @startuml
-EAApp ..> Internet
-OnlineUse ..> EAApp
+XboxApp ..> Internet
+OnlineUse ..> XboxApp
 @enduml

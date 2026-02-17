@@ -1,0 +1,4 @@
+@startuml
+Subnet o-- Computer
+Network o-- Subnet
+@enduml

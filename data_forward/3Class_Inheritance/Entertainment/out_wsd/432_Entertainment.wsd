@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- BoardGame
-BoardGame <|-- MonopolyGame
+Entertainment <|-- PopSong
+PopSong <|-- ThrillerSong
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SSD *-- Laptop
-Cache *-- SSD
+Port *-- Laptop
+Housing *-- Port
 @enduml

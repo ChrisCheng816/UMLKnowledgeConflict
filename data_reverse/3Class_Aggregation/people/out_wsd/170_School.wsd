@@ -1,0 +1,4 @@
+@startuml
+ClubOfGardeners o-- School
+Gardener o-- ClubOfGardeners
+@enduml

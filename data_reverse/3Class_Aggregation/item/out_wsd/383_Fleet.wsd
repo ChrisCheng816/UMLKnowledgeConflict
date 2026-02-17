@@ -1,0 +1,4 @@
+@startuml
+Ship o-- Fleet
+Sailor o-- Ship
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Goodreads ..> OnlineUse
-Internet ..> Goodreads
+CalendarApp ..> OnlineUse
+Internet ..> CalendarApp
 @enduml

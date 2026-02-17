@@ -1,4 +1,4 @@
 @startuml
-PlayStationApp ..> OnlineUse
-Internet ..> PlayStationApp
+Kindle ..> OnlineUse
+Internet ..> Kindle
 @enduml
