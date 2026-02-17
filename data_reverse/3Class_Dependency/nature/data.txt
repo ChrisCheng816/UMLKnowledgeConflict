@@ -1,4 +1,3 @@
-Rainbow Refraction Medium
 Thunder Lightning Thundercloud
 Tsunami Earthquake TectonicMovement
 Wave Wind PressureDifference
@@ -8,8 +7,6 @@ Echo Reflection SmoothSurface
 Interference CoherentLight Laser
 Photosynthesis Sunlight Sun
 Fermentation Yeast Sugar
-Rot Microorganisms OrganicMatter
-Touch Pressure Force
 Pollination Pollinator Flower
 Fog HighHumidity CoolAir
 Cloud Condensation Cooling
@@ -26,15 +23,12 @@ HotSpring GeothermalHeat UndergroundWater
 Sunrise EarthRotation Earth
 Sunset EarthRotation Earth
 FiberOpticGuiding TotalInternalReflection RefractiveIndexContrast
-Caustics Refraction Medium
 MoirePattern Interference CoherentLight
 Speckle CoherentLight Laser
 Hologram Interference CoherentLight
 EchoLocation Echo Reflection
 SonarReturn Reflection SmoothSurface
 TerminalVelocity Drag AirResistance
-Decomposition Microorganisms OrganicMatter
-Composting Microorganisms OrganicMatter
 Bioluminescence LuciferinReaction Organism
 FermentationAlcohol Yeast Sugar
 BreadRising Yeast Sugar
@@ -139,3 +133,9 @@ Earthquake TectonicPlate MantleConvection
 PlantGrowth SoilMoisture Rainfall
 FruitSet Pollination Pollinator
 RiverRise Rainfall StormSystem
+Composting Microorganisms Moisture
+Rust Moisture Water
+Rust Oxidation Oxygen
+Touch Pressure Contact
+Caustics Refraction WaterSurface
+Dew Condensation TemperatureDrop

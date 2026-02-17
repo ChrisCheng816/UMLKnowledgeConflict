@@ -1,7 +1,5 @@
 CustomParts 3DPrinter
 3DPrinter Electricity
-ModelPrinting 3DPrinter
-RapidPrototyping 3DPrinter
 CompressedAirSupply AirCompressor
 AirCompressor Electricity
 PneumaticTools AirCompressor
@@ -98,3 +96,7 @@ MetalFabrication WeldingMachine
 WeldingMachine Electricity
 RepairWork WeldingMachine
 Welding WeldingMachine
+Sanding Sander
+Sander Electricity
+HomeRepair Drill
+Drill Electricity

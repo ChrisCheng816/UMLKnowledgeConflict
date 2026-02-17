@@ -43,7 +43,6 @@ WaterTreatmentPlant RawWaterIntake Reservoir
 RawWaterIntake Reservoir Watershed
 WaterTower PumpStation WaterTreatmentPlant
 PumpStation WaterTreatmentPlant RawWaterIntake
-PumpStation ElectricalService WallOutlet
 WaterSoftener MunicipalWaterMain WaterTreatmentPlant
 Humidifier TapWater MunicipalWaterMain
 TapWater MunicipalWaterMain WaterTreatmentPlant
@@ -108,3 +107,4 @@ PublicAddressSystem Amplifier WallOutlet
 TrafficCamera ControlCabinet UtilityMeter
 DigitalSignage MediaPlayer WallOutlet
 Ebike EbikeCharger WallOutlet
+VacuumCleaner PowerCord WallOutlet

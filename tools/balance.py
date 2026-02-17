@@ -1,7 +1,26 @@
 # sync_2class_from_3class.py
+import argparse
 from pathlib import Path
 
-ROOT = Path(r"C:\project\UMLKnowledgeConflict")
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Sync 2Class data.txt from 3Class data.txt inside forward/reverse separately."
+    )
+    parser.add_argument(
+        "--root",
+        type=Path,
+        default=None,
+        help="Project root path. Default: parent directory of this script.",
+    )
+    parser.add_argument(
+        "--splits",
+        nargs="+",
+        choices=["forward", "reverse"],
+        default=["forward", "reverse"],
+        help="Which splits to process. Default: forward reverse",
+    )
+    return parser.parse_args()
 
 
 def build_required_pairs(lines):
@@ -25,61 +44,83 @@ def build_required_pairs(lines):
     return required
 
 
-for three_dir in ROOT.iterdir():
-    if not (three_dir.is_dir() and three_dir.name.startswith("3Class_")):
-        continue
+def sync_split(split_root: Path):
+    if not split_root.exists():
+        print(f"[WARN] split root not found: {split_root}")
+        return
 
-    two_name = three_dir.name.replace("3Class_", "2Class_", 1)
-    two_dir = ROOT / two_name
+    for three_dir in split_root.iterdir():
+        if not (three_dir.is_dir() and three_dir.name.startswith("3Class_")):
+            continue
 
-    # 1) 收集该组所有 3Class 的要求二元组
-    required_all = set()
-    required_by_file = {}
-    for three_file in three_dir.rglob("data.txt"):
-        lines = three_file.read_text(encoding="utf-8").splitlines()
-        required = build_required_pairs(lines)
-        required_by_file[three_file] = required
-        required_all.update(required)
+        two_name = three_dir.name.replace("3Class_", "2Class_", 1)
+        two_dir = split_root / two_name
 
-    # 2) 收集该组 2Class 现有的二元组（跨子目录）
-    existing_all = set()
-    two_files = list(two_dir.rglob("data.txt")) if two_dir.exists() else []
-    for two_file in two_files:
-        for line in two_file.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if not line:
-                continue
-            existing_all.add(line)
+        # 1) Collect all required 2-class pairs from this 3Class group.
+        required_all = set()
+        required_by_file = {}
+        for three_file in three_dir.rglob("data.txt"):
+            lines = three_file.read_text(encoding="utf-8").splitlines()
+            required = build_required_pairs(lines)
+            required_by_file[three_file] = required
+            required_all.update(required)
 
-    # 3) 删除 2Class 中不在 required_all 的多余行（跨子目录删除）
-    for two_file in two_files:
-        kept = []
-        for line in two_file.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if not line:
-                continue
-            if line in required_all:
-                kept.append(line)
-        two_file.write_text("\n".join(kept) + ("\n" if kept else ""), encoding="utf-8")
+        # 2) Collect existing 2Class pairs under this group.
+        existing_all = set()
+        two_files = list(two_dir.rglob("data.txt")) if two_dir.exists() else []
+        for two_file in two_files:
+            for line in two_file.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if not line:
+                    continue
+                existing_all.add(line)
 
-    # 4) 将 3Class 中缺失的二元组添加到对应的 2Class 同名子目录
-    for three_file, required in required_by_file.items():
-        rel = three_file.relative_to(three_dir)
-        two_file = two_dir / rel
-        two_file.parent.mkdir(parents=True, exist_ok=True)
+        # 3) Remove extra lines in 2Class that are not required by current 3Class group.
+        for two_file in two_files:
+            kept = []
+            for line in two_file.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if not line:
+                    continue
+                if line in required_all:
+                    kept.append(line)
+            two_file.write_text("\n".join(kept) + ("\n" if kept else ""), encoding="utf-8")
 
-        # 读取当前（可能已清理过的）内容
-        current = []
-        if two_file.exists():
-            current = two_file.read_text(encoding="utf-8").splitlines()
+        # 4) Add missing required pairs into the corresponding 2Class subfolder.
+        for three_file, required in required_by_file.items():
+            rel = three_file.relative_to(three_dir)
+            two_file = two_dir / rel
+            two_file.parent.mkdir(parents=True, exist_ok=True)
 
-        updated = list(current)
-        for pair in required:
-            if pair not in existing_all:
-                updated.append(pair)
-                existing_all.add(pair)
+            current = []
+            if two_file.exists():
+                current = two_file.read_text(encoding="utf-8").splitlines()
 
-        two_file.write_text("\n".join(updated) + ("\n" if updated else ""), encoding="utf-8")
+            updated = list(current)
+            for pair in required:
+                if pair not in existing_all:
+                    updated.append(pair)
+                    existing_all.add(pair)
+
+            two_file.write_text("\n".join(updated) + ("\n" if updated else ""), encoding="utf-8")
 
 
-print("Sync complete.")
+def main():
+    args = parse_args()
+    root = args.root.resolve() if args.root else Path(__file__).resolve().parent.parent
+
+    split_to_dir = {
+        "forward": root / "data_forward",
+        "reverse": root / "data_reverse",
+    }
+
+    for split in args.splits:
+        split_root = split_to_dir[split]
+        print(f"[INFO] syncing split={split}, root={split_root}")
+        sync_split(split_root)
+
+    print("Sync complete.")
+
+
+if __name__ == "__main__":
+    main()

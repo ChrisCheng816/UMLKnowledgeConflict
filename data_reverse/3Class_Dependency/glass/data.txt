@@ -1,12 +1,6 @@
-InstrumentSterilization Autoclave Electricity
-MedicalSterilization Autoclave Electricity
-SurgicalPrep Autoclave Electricity
 BloodPressureCheck BloodPressureMonitor BatteryPower
 GlucoseCheck BloodPressureMonitor BatteryPower
 TemperatureCheck BloodPressureMonitor BatteryPower
-BloodTest BloodTestAnalyzer Electricity
-LabDiagnostics BloodTestAnalyzer Electricity
-MedicalTesting BloodTestAnalyzer Electricity
 CTImaging CTScanner Electricity
 EmergencyImaging CTScanner Electricity
 TraumaScan CTScanner Electricity
@@ -70,3 +64,9 @@ RespiratorySupport Ventilator Electricity
 BoneScan XRayMachine Electricity
 ChestXRay XRayMachine Electricity
 XRayImaging XRayMachine Electricity
+AllergyTest TestKit Reagent
+GlucoseCheck Glucometer BatteryPower
+PregnancyTest TestStrip Reagent
+TemperatureCheck Thermometer BatteryPower
+HeartRateCheck PulseOximeter BatteryPower
+BloodPressureCheck BloodPressureCuff BatteryPower

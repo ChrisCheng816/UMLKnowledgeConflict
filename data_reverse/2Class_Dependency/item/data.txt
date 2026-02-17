@@ -59,8 +59,6 @@ RawWaterIntake Reservoir
 Reservoir Watershed
 WaterTower PumpStation
 PumpStation WaterTreatmentPlant
-PumpStation ElectricalService
-ElectricalService WallOutlet
 WaterSoftener MunicipalWaterMain
 Humidifier TapWater
 TapWater MunicipalWaterMain
@@ -143,3 +141,4 @@ DigitalSignage MediaPlayer
 MediaPlayer WallOutlet
 Ebike EbikeCharger
 GasPipeline CityGasGateStation
+VacuumCleaner PowerCord
