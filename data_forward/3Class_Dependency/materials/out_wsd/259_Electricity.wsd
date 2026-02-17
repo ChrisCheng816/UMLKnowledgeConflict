@@ -1,0 +1,4 @@
+@startuml
+Monitor ..> Electricity
+HomeUse ..> Monitor
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- TowTruck
+City o-- Fleet
+@enduml

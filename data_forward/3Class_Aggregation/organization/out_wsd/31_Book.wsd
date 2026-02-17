@@ -1,0 +1,4 @@
+@startuml
+ReadingList o-- Book
+BookClub o-- ReadingList
+@enduml

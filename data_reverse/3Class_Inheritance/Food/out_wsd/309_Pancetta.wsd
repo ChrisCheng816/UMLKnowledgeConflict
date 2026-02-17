@@ -1,0 +1,4 @@
+@startuml
+Pancetta <|-- CuredMeat
+CuredMeat <|-- Food
+@enduml

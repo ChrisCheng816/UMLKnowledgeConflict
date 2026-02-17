@@ -1,0 +1,4 @@
+@startuml
+Laminator ..> HomeUse
+Electricity ..> Laminator
+@enduml

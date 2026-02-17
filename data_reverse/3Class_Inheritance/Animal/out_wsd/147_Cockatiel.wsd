@@ -1,0 +1,4 @@
+@startuml
+Cockatiel <|-- Parrot
+Parrot <|-- Bird
+@enduml

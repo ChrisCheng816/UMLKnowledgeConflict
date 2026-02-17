@@ -1,4 +1,4 @@
 @startuml
-State <|-- CityState
-CityState <|-- Singapore
+State <|-- Confederation
+Confederation <|-- Switzerland
 @enduml

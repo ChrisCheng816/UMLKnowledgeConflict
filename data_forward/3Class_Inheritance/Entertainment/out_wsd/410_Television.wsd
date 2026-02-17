@@ -1,0 +1,4 @@
+@startuml
+Television <|-- DocumentarySeries
+DocumentarySeries <|-- PlanetEarth
+@enduml

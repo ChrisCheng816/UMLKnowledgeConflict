@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Pear
+Pear <|-- BartlettPear
+@enduml

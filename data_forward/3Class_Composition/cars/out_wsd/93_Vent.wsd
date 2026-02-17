@@ -1,0 +1,4 @@
+@startuml
+Hood *-- Vent
+Car *-- Hood
+@enduml

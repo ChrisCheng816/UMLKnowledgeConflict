@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Pineapple
+Pineapple <|-- QueenPineapple
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-PartyOfGuests o-- Guest
-Restaurant o-- PartyOfGuests
+TeamOfGuests o-- Guest
+Club o-- TeamOfGuests
 @enduml

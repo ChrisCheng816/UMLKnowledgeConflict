@@ -1,4 +1,4 @@
 @startuml
 RadioReceiver ..> Electricity
-AudioStreaming ..> RadioReceiver
+MusicPlayback ..> RadioReceiver
 @enduml

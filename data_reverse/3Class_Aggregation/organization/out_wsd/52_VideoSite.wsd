@@ -1,0 +1,4 @@
+@startuml
+Channel o-- VideoSite
+Livestream o-- Channel
+@enduml

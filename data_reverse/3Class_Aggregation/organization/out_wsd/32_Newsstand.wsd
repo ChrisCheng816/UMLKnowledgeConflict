@@ -1,0 +1,4 @@
+@startuml
+Issue o-- Newsstand
+Article o-- Issue
+@enduml

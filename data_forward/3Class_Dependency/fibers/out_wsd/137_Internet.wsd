@@ -1,0 +1,4 @@
+@startuml
+GitHub ..> Internet
+OnlineUse ..> GitHub
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Basket o-- GroceryStore
+Lentils o-- Basket
+@enduml

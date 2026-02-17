@@ -1,0 +1,4 @@
+@startuml
+Department o-- Developer
+Company o-- Department
+@enduml

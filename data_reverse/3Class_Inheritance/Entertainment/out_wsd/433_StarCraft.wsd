@@ -1,0 +1,4 @@
+@startuml
+StarCraft <|-- StrategyGame
+StrategyGame <|-- Entertainment
+@enduml

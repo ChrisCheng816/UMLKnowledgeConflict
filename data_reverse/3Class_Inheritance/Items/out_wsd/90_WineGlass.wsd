@@ -1,0 +1,4 @@
+@startuml
+WineGlass <|-- Glass
+Glass <|-- Drinkware
+@enduml

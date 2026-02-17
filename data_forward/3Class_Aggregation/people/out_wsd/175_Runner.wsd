@@ -1,4 +1,4 @@
 @startuml
-ClubOfRunners o-- Runner
-School o-- ClubOfRunners
+CrewOfRunners o-- Runner
+Festival o-- CrewOfRunners
 @enduml

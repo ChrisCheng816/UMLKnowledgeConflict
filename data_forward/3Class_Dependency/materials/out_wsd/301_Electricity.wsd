@@ -1,0 +1,4 @@
+@startuml
+HandMixer ..> Electricity
+HomeUse ..> HandMixer
+@enduml

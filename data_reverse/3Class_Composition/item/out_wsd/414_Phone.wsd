@@ -1,0 +1,4 @@
+@startuml
+Speaker *-- Phone
+Diaphragm *-- Speaker
+@enduml

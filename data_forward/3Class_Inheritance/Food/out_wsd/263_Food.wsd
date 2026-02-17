@@ -1,4 +1,4 @@
 @startuml
 Food <|-- Sandwich
-Sandwich <|-- GrilledCheese
+Sandwich <|-- BLTSandwich
 @enduml

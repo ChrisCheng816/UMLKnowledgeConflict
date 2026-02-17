@@ -1,0 +1,4 @@
+@startuml
+GlobeEggplant <|-- Eggplant
+Eggplant <|-- Vegetable
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Memento <|-- MysteryFilm
+MysteryFilm <|-- Film
+@enduml

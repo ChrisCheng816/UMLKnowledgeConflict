@@ -1,0 +1,4 @@
+@startuml
+Futsal <|-- Soccer
+Soccer <|-- Sport
+@enduml

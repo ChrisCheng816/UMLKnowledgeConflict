@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Lotion
+Bathroom o-- Cabinet
+@enduml

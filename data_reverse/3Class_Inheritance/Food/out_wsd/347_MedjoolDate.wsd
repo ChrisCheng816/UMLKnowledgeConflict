@@ -1,0 +1,4 @@
+@startuml
+MedjoolDate <|-- Date
+Date <|-- Fruit
+@enduml

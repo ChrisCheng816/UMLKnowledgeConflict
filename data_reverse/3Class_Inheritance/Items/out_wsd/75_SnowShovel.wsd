@@ -1,0 +1,4 @@
+@startuml
+SnowShovel <|-- Shovel
+Shovel <|-- Tool
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame
-BoardGame <|-- TheResistance
+Game <|-- CardGame
+CardGame <|-- Uno
 @enduml

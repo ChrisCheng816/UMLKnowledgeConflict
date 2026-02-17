@@ -1,0 +1,4 @@
+@startuml
+Pandora ..> Internet
+OnlineUse ..> Pandora
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Leopard
+Leopard <|-- SnowLeopard
+@enduml

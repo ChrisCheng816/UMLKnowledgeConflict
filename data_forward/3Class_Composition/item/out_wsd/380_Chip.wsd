@@ -1,0 +1,4 @@
+@startuml
+Memory *-- Chip
+Desktop *-- Memory
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-TeamOfPhotographers o-- Photographer
-Club o-- TeamOfPhotographers
+StaffOfPhotographers o-- Photographer
+Company o-- StaffOfPhotographers
 @enduml

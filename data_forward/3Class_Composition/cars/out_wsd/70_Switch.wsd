@@ -1,0 +1,4 @@
+@startuml
+Headlight *-- Switch
+Car *-- Headlight
+@enduml

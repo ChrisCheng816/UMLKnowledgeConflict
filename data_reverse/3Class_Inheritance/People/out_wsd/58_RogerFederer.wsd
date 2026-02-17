@@ -1,0 +1,4 @@
+@startuml
+RogerFederer <|-- TennisPlayer
+TennisPlayer <|-- Athlete
+@enduml

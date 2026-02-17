@@ -1,0 +1,4 @@
+@startuml
+CornSnake <|-- Snake
+Snake <|-- Reptile
+@enduml

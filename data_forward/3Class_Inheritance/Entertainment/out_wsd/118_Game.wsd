@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- CivilizationVI
+Game <|-- BoardGame
+BoardGame <|-- GoGame
 @enduml

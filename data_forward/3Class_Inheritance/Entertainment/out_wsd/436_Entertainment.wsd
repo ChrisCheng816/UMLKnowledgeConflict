@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- CardGame
+CardGame <|-- PokerGame
+@enduml

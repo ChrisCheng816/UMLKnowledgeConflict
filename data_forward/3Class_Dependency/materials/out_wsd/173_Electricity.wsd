@@ -1,4 +1,4 @@
 @startuml
 SewingMachine ..> Electricity
-Sewing ..> SewingMachine
+Tailoring ..> SewingMachine
 @enduml

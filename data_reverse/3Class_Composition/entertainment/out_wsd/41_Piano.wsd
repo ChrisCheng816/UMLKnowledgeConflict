@@ -1,0 +1,4 @@
+@startuml
+Key *-- Piano
+Lever *-- Key
+@enduml

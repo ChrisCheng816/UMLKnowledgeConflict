@@ -1,0 +1,4 @@
+@startuml
+Lizard <|-- Gecko
+Gecko <|-- LeopardGecko
+@enduml

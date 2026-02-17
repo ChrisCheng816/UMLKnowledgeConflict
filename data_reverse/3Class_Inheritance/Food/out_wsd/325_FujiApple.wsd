@@ -1,0 +1,4 @@
+@startuml
+FujiApple <|-- Apple
+Apple <|-- Fruit
+@enduml

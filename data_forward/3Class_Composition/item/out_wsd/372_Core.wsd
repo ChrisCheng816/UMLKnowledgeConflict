@@ -1,0 +1,4 @@
+@startuml
+Processor *-- Core
+Desktop *-- Processor
+@enduml

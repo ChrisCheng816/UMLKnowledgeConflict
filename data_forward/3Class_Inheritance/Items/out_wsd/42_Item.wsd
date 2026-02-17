@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Device
+Device <|-- Calculator
+@enduml

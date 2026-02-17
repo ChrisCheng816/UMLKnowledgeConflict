@@ -1,0 +1,4 @@
+@startuml
+PowerSupply *-- Rectifier
+Desktop *-- PowerSupply
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CPAPMachine ..> HomeUse
+Electricity ..> CPAPMachine
+@enduml

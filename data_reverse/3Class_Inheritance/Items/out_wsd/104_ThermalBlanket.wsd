@@ -1,0 +1,4 @@
+@startuml
+ThermalBlanket <|-- Blanket
+Blanket <|-- Item
+@enduml

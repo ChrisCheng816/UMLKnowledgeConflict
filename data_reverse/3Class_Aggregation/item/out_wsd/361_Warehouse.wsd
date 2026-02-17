@@ -1,0 +1,4 @@
+@startuml
+Crate o-- Warehouse
+Bag o-- Crate
+@enduml

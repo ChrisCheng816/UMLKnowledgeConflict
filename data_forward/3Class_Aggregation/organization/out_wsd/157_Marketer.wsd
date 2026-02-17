@@ -1,0 +1,4 @@
+@startuml
+Department o-- Marketer
+Company o-- Department
+@enduml

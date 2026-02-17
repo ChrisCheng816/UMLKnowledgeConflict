@@ -1,4 +1,4 @@
 @startuml
-TeamOfShoppers o-- Shopper
-Club o-- TeamOfShoppers
+StaffOfShoppers o-- Shopper
+Company o-- StaffOfShoppers
 @enduml

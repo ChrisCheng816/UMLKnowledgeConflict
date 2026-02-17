@@ -1,0 +1,4 @@
+@startuml
+Yosemite <|-- NationalPark
+NationalPark <|-- Park
+@enduml

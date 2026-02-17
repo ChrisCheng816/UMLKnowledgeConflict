@@ -1,0 +1,4 @@
+@startuml
+LoaderEngine ..> TransportUse
+Fuel ..> LoaderEngine
+@enduml

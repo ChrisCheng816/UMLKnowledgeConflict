@@ -1,0 +1,4 @@
+@startuml
+SeedlessWatermelon <|-- Watermelon
+Watermelon <|-- Fruit
+@enduml

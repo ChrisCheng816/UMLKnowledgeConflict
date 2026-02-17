@@ -1,0 +1,4 @@
+@startuml
+EnglishCucumber <|-- Cucumber
+Cucumber <|-- Vegetable
+@enduml

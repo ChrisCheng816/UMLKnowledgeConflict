@@ -1,0 +1,4 @@
+@startuml
+Expedia ..> Internet
+OnlineUse ..> Expedia
+@enduml

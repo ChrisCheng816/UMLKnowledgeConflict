@@ -1,0 +1,4 @@
+@startuml
+Lung *-- Tissue
+Person *-- Lung
+@enduml

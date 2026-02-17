@@ -1,0 +1,4 @@
+@startuml
+Jira ..> OnlineUse
+Internet ..> Jira
+@enduml

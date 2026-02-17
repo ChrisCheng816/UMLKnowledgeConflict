@@ -1,0 +1,4 @@
+@startuml
+Canister *-- Handle
+Vacuum *-- Canister
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Lace *-- Thread
+Shoe *-- Lace
+@enduml

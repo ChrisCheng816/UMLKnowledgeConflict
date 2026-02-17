@@ -1,0 +1,4 @@
+@startuml
+Chimney *-- Screen
+House *-- Chimney
+@enduml

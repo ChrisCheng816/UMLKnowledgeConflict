@@ -1,0 +1,4 @@
+@startuml
+LinkedIn ..> Internet
+OnlineUse ..> LinkedIn
+@enduml

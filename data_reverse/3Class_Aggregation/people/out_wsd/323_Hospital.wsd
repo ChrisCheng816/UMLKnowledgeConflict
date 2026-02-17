@@ -1,0 +1,4 @@
+@startuml
+Ward o-- Hospital
+Therapist o-- Ward
+@enduml

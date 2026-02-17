@@ -1,0 +1,4 @@
+@startuml
+AcousticViolin <|-- Violin
+Violin <|-- Instrument
+@enduml

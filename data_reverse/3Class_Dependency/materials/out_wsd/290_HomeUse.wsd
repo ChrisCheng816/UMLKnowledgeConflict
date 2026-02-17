@@ -1,0 +1,4 @@
+@startuml
+ElectricSaw ..> HomeUse
+Electricity ..> ElectricSaw
+@enduml

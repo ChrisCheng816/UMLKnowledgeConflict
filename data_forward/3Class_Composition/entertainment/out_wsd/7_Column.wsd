@@ -1,0 +1,4 @@
+@startuml
+Page *-- Column
+Newspaper *-- Page
+@enduml

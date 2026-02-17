@@ -1,4 +1,4 @@
 @startuml
-TeamOfHikers o-- Hiker
-Club o-- TeamOfHikers
+StaffOfHikers o-- Hiker
+Company o-- StaffOfHikers
 @enduml

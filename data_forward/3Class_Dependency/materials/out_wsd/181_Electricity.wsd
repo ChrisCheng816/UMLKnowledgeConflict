@@ -1,4 +1,4 @@
 @startuml
 SlowCooker ..> Electricity
-SlowCooking ..> SlowCooker
+Stewing ..> SlowCooker
 @enduml

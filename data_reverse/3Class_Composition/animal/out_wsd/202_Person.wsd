@@ -1,0 +1,4 @@
+@startuml
+Lung *-- Person
+Airway *-- Lung
+@enduml

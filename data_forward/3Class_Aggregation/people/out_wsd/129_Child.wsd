@@ -1,4 +1,4 @@
 @startuml
-ClassOfChildren o-- Child
-School o-- ClassOfChildren
+CrowdOfChildren o-- Child
+Park o-- CrowdOfChildren
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Carton o-- Supermarket
+Juice o-- Carton
+@enduml

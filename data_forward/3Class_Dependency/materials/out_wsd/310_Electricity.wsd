@@ -1,0 +1,4 @@
+@startuml
+SodaMaker ..> Electricity
+HomeUse ..> SodaMaker
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RoadBike <|-- Bicycle
+Bicycle <|-- Vehicle
+@enduml

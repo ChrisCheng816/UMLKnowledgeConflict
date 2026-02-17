@@ -1,0 +1,4 @@
+@startuml
+Seat *-- Spring
+Car *-- Seat
+@enduml

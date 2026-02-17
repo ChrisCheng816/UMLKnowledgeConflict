@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- EyeDrops
+Pharmacy o-- Cabinet
+@enduml

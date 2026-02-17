@@ -1,0 +1,4 @@
+@startuml
+TeamOfGardeners o-- Gardener
+Club o-- TeamOfGardeners
+@enduml

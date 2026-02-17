@@ -1,0 +1,4 @@
+@startuml
+ColoredPencil <|-- Pencil
+Pencil <|-- Stationery
+@enduml

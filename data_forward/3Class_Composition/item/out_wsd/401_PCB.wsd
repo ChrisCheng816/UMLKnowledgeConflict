@@ -1,0 +1,4 @@
+@startuml
+SSD *-- PCB
+Laptop *-- SSD
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-TeamOfDancers o-- Dancer
-Studio o-- TeamOfDancers
+CrewOfDancers o-- Dancer
+Show o-- CrewOfDancers
 @enduml

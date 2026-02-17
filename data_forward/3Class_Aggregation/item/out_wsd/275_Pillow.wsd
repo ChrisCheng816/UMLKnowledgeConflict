@@ -1,0 +1,4 @@
+@startuml
+Basket o-- Pillow
+LaundryRoom o-- Basket
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Pastry
+Pastry <|-- Danish
+@enduml

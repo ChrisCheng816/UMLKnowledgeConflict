@@ -1,0 +1,4 @@
+@startuml
+OlympicTableTennis <|-- TableTennis
+TableTennis <|-- Sport
+@enduml

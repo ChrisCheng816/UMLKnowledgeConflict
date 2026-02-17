@@ -1,0 +1,4 @@
+@startuml
+LeafBlower ..> Electricity
+HomeUse ..> LeafBlower
+@enduml

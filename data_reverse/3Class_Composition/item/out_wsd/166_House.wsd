@@ -1,0 +1,4 @@
+@startuml
+Wall *-- House
+Paint *-- Wall
+@enduml

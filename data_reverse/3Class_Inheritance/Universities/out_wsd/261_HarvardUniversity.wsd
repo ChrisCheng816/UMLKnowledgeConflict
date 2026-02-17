@@ -1,0 +1,4 @@
+@startuml
+HarvardUniversity <|-- PrivateUniversity
+PrivateUniversity <|-- University
+@enduml

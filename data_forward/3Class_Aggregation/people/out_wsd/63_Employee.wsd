@@ -1,4 +1,4 @@
 @startuml
-StaffOfEmployees o-- Employee
-Company o-- StaffOfEmployees
+GroupOfEmployees o-- Employee
+Company o-- GroupOfEmployees
 @enduml

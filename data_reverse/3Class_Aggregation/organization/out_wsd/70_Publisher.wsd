@@ -1,0 +1,4 @@
+@startuml
+Collection o-- Publisher
+Book o-- Collection
+@enduml

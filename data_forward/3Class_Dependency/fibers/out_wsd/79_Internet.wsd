@@ -1,0 +1,4 @@
+@startuml
+Teams ..> Internet
+OnlineUse ..> Teams
+@enduml

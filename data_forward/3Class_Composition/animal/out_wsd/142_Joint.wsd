@@ -1,0 +1,4 @@
+@startuml
+Hand *-- Joint
+Person *-- Hand
+@enduml

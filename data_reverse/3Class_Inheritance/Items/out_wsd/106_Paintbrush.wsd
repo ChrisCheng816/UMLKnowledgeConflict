@@ -1,0 +1,4 @@
+@startuml
+Paintbrush <|-- PaintingTool
+PaintingTool <|-- Tool
+@enduml

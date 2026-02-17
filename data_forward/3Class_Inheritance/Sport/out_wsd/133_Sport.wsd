@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- EquestrianSport
-EquestrianSport <|-- Polo
+Sport <|-- IndividualSport
+IndividualSport <|-- Chess
 @enduml

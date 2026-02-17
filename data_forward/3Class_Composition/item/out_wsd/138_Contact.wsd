@@ -1,0 +1,4 @@
+@startuml
+Switch *-- Contact
+Flashlight *-- Switch
+@enduml

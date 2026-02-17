@@ -1,0 +1,4 @@
+@startuml
+Band o-- Drummer
+MusicFestival o-- Band
+@enduml

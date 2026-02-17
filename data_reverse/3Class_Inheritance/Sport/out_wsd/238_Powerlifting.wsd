@@ -1,0 +1,4 @@
+@startuml
+Powerlifting <|-- Weightlifting
+Weightlifting <|-- Sport
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Box ..> OnlineUse
+Internet ..> Box
+@enduml

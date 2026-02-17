@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- TheBindingOfIsaac
+Game <|-- BoardGame
+BoardGame <|-- Dominion
 @enduml

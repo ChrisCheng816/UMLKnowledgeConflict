@@ -1,0 +1,4 @@
+@startuml
+Headlight *-- Seal
+Car *-- Headlight
+@enduml

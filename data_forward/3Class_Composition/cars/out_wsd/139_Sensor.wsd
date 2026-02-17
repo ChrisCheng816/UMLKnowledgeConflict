@@ -1,0 +1,4 @@
+@startuml
+SteeringSystem *-- Sensor
+Car *-- SteeringSystem
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-StandMixer ..> Electricity
-Kneading ..> StandMixer
+StereoReceiver ..> Electricity
+MusicPlayback ..> StereoReceiver
 @enduml

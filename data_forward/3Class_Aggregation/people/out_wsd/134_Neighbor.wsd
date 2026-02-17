@@ -1,4 +1,4 @@
 @startuml
-TeamOfNeighbors o-- Neighbor
-Club o-- TeamOfNeighbors
+StaffOfNeighbors o-- Neighbor
+Company o-- StaffOfNeighbors
 @enduml

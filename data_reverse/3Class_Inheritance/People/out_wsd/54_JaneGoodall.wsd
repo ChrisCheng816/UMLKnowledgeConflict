@@ -1,0 +1,4 @@
+@startuml
+JaneGoodall <|-- Primatologist
+Primatologist <|-- Scientist
+@enduml

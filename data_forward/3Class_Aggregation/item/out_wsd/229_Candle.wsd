@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Candle
+LivingRoom o-- Shelf
+@enduml

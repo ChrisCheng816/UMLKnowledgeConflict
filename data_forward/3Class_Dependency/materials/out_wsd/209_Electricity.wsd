@@ -1,4 +1,4 @@
 @startuml
-StereoReceiver ..> Electricity
-MusicPlayback ..> StereoReceiver
+StreamingBox ..> Electricity
+VideoStreaming ..> StreamingBox
 @enduml

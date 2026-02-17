@@ -1,0 +1,4 @@
+@startuml
+Film <|-- FamilyFilm
+FamilyFilm <|-- Coco
+@enduml

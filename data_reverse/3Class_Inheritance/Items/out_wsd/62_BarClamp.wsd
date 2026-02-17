@@ -1,0 +1,4 @@
+@startuml
+BarClamp <|-- Clamp
+Clamp <|-- Tool
+@enduml

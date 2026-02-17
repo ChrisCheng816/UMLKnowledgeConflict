@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- PictureFrame
+LivingRoom o-- Shelf
+@enduml

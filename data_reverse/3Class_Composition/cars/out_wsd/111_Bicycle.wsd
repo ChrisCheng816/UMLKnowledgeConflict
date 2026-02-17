@@ -1,0 +1,4 @@
+@startuml
+Chain *-- Bicycle
+Rivet *-- Chain
+@enduml

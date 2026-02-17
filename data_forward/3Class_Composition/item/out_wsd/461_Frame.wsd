@@ -1,0 +1,4 @@
+@startuml
+Backrest *-- Frame
+Chair *-- Backrest
+@enduml

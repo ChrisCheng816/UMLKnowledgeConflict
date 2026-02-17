@@ -1,0 +1,4 @@
+@startuml
+Television <|-- ScienceFictionSeries
+ScienceFictionSeries <|-- StrangerThings
+@enduml

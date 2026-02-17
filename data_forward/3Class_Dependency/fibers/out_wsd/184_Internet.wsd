@@ -1,0 +1,4 @@
+@startuml
+Revolut ..> Internet
+OnlineUse ..> Revolut
+@enduml

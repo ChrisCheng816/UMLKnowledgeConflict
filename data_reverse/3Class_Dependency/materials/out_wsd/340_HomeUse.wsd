@@ -1,0 +1,4 @@
+@startuml
+Plotter ..> HomeUse
+Electricity ..> Plotter
+@enduml

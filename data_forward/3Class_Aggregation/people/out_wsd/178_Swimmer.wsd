@@ -1,4 +1,4 @@
 @startuml
-GroupOfSwimmers o-- Swimmer
-Community o-- GroupOfSwimmers
+ClubOfSwimmers o-- Swimmer
+School o-- ClubOfSwimmers
 @enduml

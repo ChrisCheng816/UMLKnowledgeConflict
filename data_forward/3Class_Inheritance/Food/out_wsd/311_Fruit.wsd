@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Orange
+Orange <|-- NavelOrange
+@enduml

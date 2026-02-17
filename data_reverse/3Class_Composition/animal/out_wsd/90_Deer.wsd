@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Deer
-Root *-- Tooth
+Antler *-- Deer
+Velvet *-- Antler
 @enduml

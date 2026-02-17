@@ -1,0 +1,4 @@
+@startuml
+HondaOdyssey <|-- Minivan
+Minivan <|-- Vehicle
+@enduml

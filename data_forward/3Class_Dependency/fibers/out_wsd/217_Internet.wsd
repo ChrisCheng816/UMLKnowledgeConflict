@@ -1,0 +1,4 @@
+@startuml
+WeatherApp ..> Internet
+OnlineUse ..> WeatherApp
+@enduml

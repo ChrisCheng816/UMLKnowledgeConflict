@@ -1,0 +1,4 @@
+@startuml
+Handbag <|-- Bag
+Bag <|-- Accessory
+@enduml

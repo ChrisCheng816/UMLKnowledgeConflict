@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Bear
+Bear <|-- BrownBear
+@enduml

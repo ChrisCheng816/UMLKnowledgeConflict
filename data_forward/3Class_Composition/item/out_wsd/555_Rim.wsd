@@ -1,0 +1,4 @@
+@startuml
+Lid *-- Rim
+Trashcan *-- Lid
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Grain <|-- Rice
+Rice <|-- BrownRice
+@enduml

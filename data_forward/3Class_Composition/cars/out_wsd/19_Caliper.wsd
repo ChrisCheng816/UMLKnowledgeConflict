@@ -1,0 +1,4 @@
+@startuml
+Brake *-- Caliper
+Car *-- Brake
+@enduml

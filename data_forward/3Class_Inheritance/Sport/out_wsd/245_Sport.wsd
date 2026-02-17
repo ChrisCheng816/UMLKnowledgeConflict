@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Tennis
+Tennis <|-- DoublesTennis
+@enduml

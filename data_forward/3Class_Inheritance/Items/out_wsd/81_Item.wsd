@@ -1,0 +1,4 @@
+@startuml
+Item <|-- OfficeTool
+OfficeTool <|-- Stapler
+@enduml

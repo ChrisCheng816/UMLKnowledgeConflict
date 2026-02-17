@@ -1,0 +1,4 @@
+@startuml
+Spine *-- Disc
+Person *-- Spine
+@enduml

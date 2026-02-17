@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Falcon
+Falcon <|-- PeregrineFalcon
+@enduml

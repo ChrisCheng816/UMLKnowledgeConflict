@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Tomato
+Tomato <|-- RomaTomato
+@enduml

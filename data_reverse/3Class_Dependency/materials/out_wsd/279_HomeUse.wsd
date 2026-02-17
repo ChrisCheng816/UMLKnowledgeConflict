@@ -1,0 +1,4 @@
+@startuml
+ExerciseBike ..> HomeUse
+Electricity ..> ExerciseBike
+@enduml

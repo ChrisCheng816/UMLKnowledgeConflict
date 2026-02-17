@@ -1,0 +1,4 @@
+@startuml
+Ward o-- Paramedic
+Hospital o-- Ward
+@enduml

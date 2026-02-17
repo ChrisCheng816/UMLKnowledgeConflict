@@ -1,4 +1,4 @@
 @startuml
-ClubOfVolunteers o-- Volunteer
-School o-- ClubOfVolunteers
+StaffOfVolunteers o-- Volunteer
+Shelter o-- StaffOfVolunteers
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Chimney *-- Crown
+House *-- Chimney
+@enduml

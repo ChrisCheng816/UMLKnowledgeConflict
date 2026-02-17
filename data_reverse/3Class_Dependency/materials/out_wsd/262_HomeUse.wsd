@@ -1,0 +1,4 @@
+@startuml
+WiFiRepeater ..> HomeUse
+Electricity ..> WiFiRepeater
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GroupOfOrganizers o-- Organizer
+Community o-- GroupOfOrganizers
+@enduml

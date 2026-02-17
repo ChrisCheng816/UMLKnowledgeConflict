@@ -1,0 +1,4 @@
+@startuml
+Physicist <|-- ExperimentalPhysicist
+ExperimentalPhysicist <|-- MarieCurie
+@enduml

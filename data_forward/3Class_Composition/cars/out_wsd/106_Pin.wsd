@@ -1,0 +1,4 @@
+@startuml
+Chain *-- Pin
+Bicycle *-- Chain
+@enduml

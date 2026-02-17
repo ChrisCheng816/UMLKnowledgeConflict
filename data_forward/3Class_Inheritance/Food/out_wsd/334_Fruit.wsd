@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Lime
+Lime <|-- KeyLime
+@enduml

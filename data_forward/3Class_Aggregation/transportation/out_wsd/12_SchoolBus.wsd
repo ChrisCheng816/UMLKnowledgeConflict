@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- SchoolBus
+City o-- Fleet
+@enduml

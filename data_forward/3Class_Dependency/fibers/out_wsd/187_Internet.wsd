@@ -1,0 +1,4 @@
+@startuml
+Binance ..> Internet
+OnlineUse ..> Binance
+@enduml

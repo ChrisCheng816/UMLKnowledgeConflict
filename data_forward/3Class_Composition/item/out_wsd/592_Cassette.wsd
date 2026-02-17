@@ -1,0 +1,4 @@
+@startuml
+Drivetrain *-- Cassette
+Bicycle *-- Drivetrain
+@enduml

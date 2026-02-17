@@ -1,4 +1,4 @@
 @startuml
-ClubOfSwimmers o-- Swimmer
-School o-- ClubOfSwimmers
+CrewOfSwimmers o-- Swimmer
+Festival o-- CrewOfSwimmers
 @enduml

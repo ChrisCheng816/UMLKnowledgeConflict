@@ -1,4 +1,4 @@
 @startuml
-ClubOfPhotographers o-- Photographer
-School o-- ClubOfPhotographers
+CrewOfPhotographers o-- Photographer
+Festival o-- CrewOfPhotographers
 @enduml

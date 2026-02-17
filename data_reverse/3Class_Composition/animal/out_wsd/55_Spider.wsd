@@ -1,0 +1,4 @@
+@startuml
+Web *-- Spider
+Strand *-- Web
+@enduml

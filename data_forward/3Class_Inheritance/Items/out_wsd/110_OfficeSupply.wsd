@@ -1,0 +1,4 @@
+@startuml
+OfficeSupply <|-- Board
+Board <|-- Whiteboard
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GardenStrawberry <|-- Strawberry
+Strawberry <|-- Fruit
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- PryBar
+PryBar <|-- Crowbar
+@enduml

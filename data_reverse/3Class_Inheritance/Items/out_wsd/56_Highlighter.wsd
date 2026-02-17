@@ -1,0 +1,4 @@
+@startuml
+Highlighter <|-- Marker
+Marker <|-- Stationery
+@enduml

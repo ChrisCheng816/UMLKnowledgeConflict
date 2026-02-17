@@ -1,0 +1,4 @@
+@startuml
+GasStove ..> Fuel
+TransportUse ..> GasStove
+@enduml

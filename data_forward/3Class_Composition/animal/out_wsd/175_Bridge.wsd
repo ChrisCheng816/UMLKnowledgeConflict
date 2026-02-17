@@ -1,0 +1,4 @@
+@startuml
+Nose *-- Bridge
+Person *-- Nose
+@enduml

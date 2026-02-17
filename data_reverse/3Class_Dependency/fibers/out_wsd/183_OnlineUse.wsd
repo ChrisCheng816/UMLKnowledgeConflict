@@ -1,0 +1,4 @@
+@startuml
+SamsungPay ..> OnlineUse
+Internet ..> SamsungPay
+@enduml

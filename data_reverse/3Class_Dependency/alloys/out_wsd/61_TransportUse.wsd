@@ -1,0 +1,4 @@
+@startuml
+JetSkiEngine ..> TransportUse
+Fuel ..> JetSkiEngine
+@enduml

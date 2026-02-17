@@ -1,0 +1,4 @@
+@startuml
+StageLight ..> HomeUse
+Electricity ..> StageLight
+@enduml

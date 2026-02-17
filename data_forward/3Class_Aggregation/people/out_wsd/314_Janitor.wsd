@@ -1,4 +1,4 @@
 @startuml
-TeamOfJanitors o-- Janitor
-Club o-- TeamOfJanitors
+StaffOfJanitors o-- Janitor
+Company o-- StaffOfJanitors
 @enduml

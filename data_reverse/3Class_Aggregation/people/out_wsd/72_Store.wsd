@@ -1,4 +1,4 @@
 @startuml
-StaffOfWorkers o-- Store
-Worker o-- StaffOfWorkers
+QueueOfCustomers o-- Store
+Customer o-- QueueOfCustomers
 @enduml

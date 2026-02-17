@@ -1,0 +1,4 @@
+@startuml
+Drawer o-- Socks
+Bedroom o-- Drawer
+@enduml

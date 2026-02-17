@@ -1,4 +1,4 @@
 @startuml
-GroupOfVisitors o-- Visitor
-Museum o-- GroupOfVisitors
+CrowdOfVisitors o-- Visitor
+Park o-- CrowdOfVisitors
 @enduml

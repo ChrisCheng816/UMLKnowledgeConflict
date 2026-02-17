@@ -1,0 +1,4 @@
+@startuml
+Treadmill ..> HomeUse
+Electricity ..> Treadmill
+@enduml

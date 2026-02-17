@@ -1,0 +1,4 @@
+@startuml
+GroupOfPhotographers o-- Photographer
+Community o-- GroupOfPhotographers
+@enduml

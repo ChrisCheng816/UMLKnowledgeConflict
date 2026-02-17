@@ -1,0 +1,4 @@
+@startuml
+FireAnt <|-- Ant
+Ant <|-- Insect
+@enduml

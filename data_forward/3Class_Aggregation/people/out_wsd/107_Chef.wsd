@@ -1,0 +1,4 @@
+@startuml
+TeamOfChefs o-- Chef
+Restaurant o-- TeamOfChefs
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- Aliens
+Entertainment <|-- TVSeries
+TVSeries <|-- TheBoys
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Pigeon
+Pigeon <|-- RockPigeon
+@enduml

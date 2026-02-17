@@ -1,0 +1,4 @@
+@startuml
+Shade *-- Clip
+Lamp *-- Shade
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Motherboard *-- Socket
+Desktop *-- Motherboard
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ArcWelder <|-- Welder
+Welder <|-- PowerTool
+@enduml

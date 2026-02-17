@@ -1,4 +1,4 @@
 @startuml
-GroupOfChefs o-- Chef
-Hotel o-- GroupOfChefs
+CrewOfChefs o-- Chef
+Cafe o-- CrewOfChefs
 @enduml

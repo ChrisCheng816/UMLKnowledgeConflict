@@ -1,0 +1,4 @@
+@startuml
+Floor *-- Carpet
+House *-- Floor
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- Scraper
+Scraper <|-- PuttyKnife
+@enduml

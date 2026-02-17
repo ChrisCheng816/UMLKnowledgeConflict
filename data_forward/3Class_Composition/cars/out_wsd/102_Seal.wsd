@@ -1,0 +1,4 @@
+@startuml
+Trunk *-- Seal
+Car *-- Trunk
+@enduml

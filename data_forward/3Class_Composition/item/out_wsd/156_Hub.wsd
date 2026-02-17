@@ -1,0 +1,4 @@
+@startuml
+Turntable *-- Hub
+Microwave *-- Turntable
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Transmission *-- ValveBody
+Car *-- Transmission
+@enduml

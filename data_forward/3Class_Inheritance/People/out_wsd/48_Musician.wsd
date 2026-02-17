@@ -1,0 +1,4 @@
+@startuml
+Musician <|-- Songwriter
+Songwriter <|-- TaylorSwift
+@enduml

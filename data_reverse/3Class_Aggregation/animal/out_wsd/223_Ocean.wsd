@@ -1,0 +1,4 @@
+@startuml
+SchoolOfSharks o-- Ocean
+Shark o-- SchoolOfSharks
+@enduml

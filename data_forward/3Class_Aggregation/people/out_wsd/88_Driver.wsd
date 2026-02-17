@@ -1,4 +1,4 @@
 @startuml
-GroupOfDrivers o-- Driver
-Community o-- GroupOfDrivers
+ClubOfDrivers o-- Driver
+School o-- ClubOfDrivers
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Physicist <|-- Relativist
+Relativist <|-- KipThorne
+@enduml

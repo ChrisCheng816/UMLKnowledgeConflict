@@ -1,0 +1,4 @@
+@startuml
+Cushion *-- Zipper
+Sofa *-- Cushion
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cart o-- Eggs
+Supermarket o-- Cart
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Instrument <|-- LaboratoryInstrument
+LaboratoryInstrument <|-- Microscope
+@enduml

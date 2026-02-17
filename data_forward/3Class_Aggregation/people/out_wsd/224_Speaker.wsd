@@ -1,4 +1,4 @@
 @startuml
-TeamOfSpeakers o-- Speaker
-Club o-- TeamOfSpeakers
+StaffOfSpeakers o-- Speaker
+Company o-- StaffOfSpeakers
 @enduml

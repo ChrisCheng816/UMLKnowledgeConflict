@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Papaya
+Papaya <|-- SoloPapaya
+@enduml

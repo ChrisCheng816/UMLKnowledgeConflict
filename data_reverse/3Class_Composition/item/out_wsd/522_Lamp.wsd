@@ -1,0 +1,4 @@
+@startuml
+Base *-- Lamp
+Switch *-- Base
+@enduml

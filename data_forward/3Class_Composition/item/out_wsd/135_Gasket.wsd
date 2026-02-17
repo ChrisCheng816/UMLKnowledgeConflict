@@ -1,0 +1,4 @@
+@startuml
+Door *-- Gasket
+Microwave *-- Door
+@enduml

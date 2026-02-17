@@ -1,0 +1,4 @@
+@startuml
+Drum *-- Paddle
+Washer *-- Drum
+@enduml

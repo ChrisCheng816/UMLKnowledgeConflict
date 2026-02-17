@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Frog
+Frog <|-- TreeFrog
+@enduml

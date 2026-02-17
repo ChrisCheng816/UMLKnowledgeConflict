@@ -1,0 +1,4 @@
+@startuml
+GoogleMeet ..> OnlineUse
+Internet ..> GoogleMeet
+@enduml

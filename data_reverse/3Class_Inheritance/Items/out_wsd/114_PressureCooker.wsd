@@ -1,0 +1,4 @@
+@startuml
+PressureCooker <|-- Cooker
+Cooker <|-- Appliance
+@enduml

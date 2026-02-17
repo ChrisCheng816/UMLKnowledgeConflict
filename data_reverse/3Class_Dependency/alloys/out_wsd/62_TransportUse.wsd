@@ -1,0 +1,4 @@
+@startuml
+ForkliftEngine ..> TransportUse
+Fuel ..> ForkliftEngine
+@enduml

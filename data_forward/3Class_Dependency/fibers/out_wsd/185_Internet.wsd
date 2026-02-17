@@ -1,0 +1,4 @@
+@startuml
+Wise ..> Internet
+OnlineUse ..> Wise
+@enduml

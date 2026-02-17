@@ -1,4 +1,4 @@
 @startuml
-WirelessCharger ..> Electricity
-PowerSupply ..> WirelessCharger
+Dishwasher ..> Electricity
+HomeUse ..> Dishwasher
 @enduml

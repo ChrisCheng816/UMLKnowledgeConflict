@@ -1,0 +1,4 @@
+@startuml
+ElectricGrill ..> Electricity
+HomeUse ..> ElectricGrill
+@enduml

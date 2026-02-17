@@ -1,0 +1,4 @@
+@startuml
+PictureFrame <|-- Frame
+Frame <|-- Item
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GrandSlamTennis <|-- Tennis
+Tennis <|-- Sport
+@enduml

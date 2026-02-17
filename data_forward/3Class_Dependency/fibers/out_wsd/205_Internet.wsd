@@ -1,0 +1,4 @@
+@startuml
+EAApp ..> Internet
+OnlineUse ..> EAApp
+@enduml

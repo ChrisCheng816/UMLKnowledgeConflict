@@ -1,0 +1,4 @@
+@startuml
+CarEngine ..> TransportUse
+Fuel ..> CarEngine
+@enduml

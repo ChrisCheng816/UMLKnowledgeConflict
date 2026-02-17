@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Board
+Board <|-- Skateboard
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CampingStove ..> TransportUse
+Fuel ..> CampingStove
+@enduml

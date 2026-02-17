@@ -1,4 +1,4 @@
 @startuml
-CrowdOfStudents o-- School
-Student o-- CrowdOfStudents
+GroupOfTeachers o-- School
+Teacher o-- GroupOfTeachers
 @enduml

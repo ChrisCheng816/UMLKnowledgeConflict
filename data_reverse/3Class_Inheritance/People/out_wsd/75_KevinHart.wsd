@@ -1,0 +1,4 @@
+@startuml
+KevinHart <|-- Comedian
+Comedian <|-- Performer
+@enduml

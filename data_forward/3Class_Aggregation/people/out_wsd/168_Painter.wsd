@@ -1,4 +1,4 @@
 @startuml
-GroupOfPainters o-- Painter
-Community o-- GroupOfPainters
+ClubOfPainters o-- Painter
+School o-- ClubOfPainters
 @enduml

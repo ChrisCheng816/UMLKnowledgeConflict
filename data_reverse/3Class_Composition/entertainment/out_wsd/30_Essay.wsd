@@ -1,0 +1,4 @@
+@startuml
+Sentence *-- Essay
+Verb *-- Sentence
+@enduml

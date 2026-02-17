@@ -1,4 +1,4 @@
 @startuml
-HairDryer ..> Electricity
-WarmAir ..> HairDryer
+HeadphoneAmplifier ..> Electricity
+AudioStreaming ..> HeadphoneAmplifier
 @enduml

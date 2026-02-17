@@ -1,0 +1,4 @@
+@startuml
+Plumbing *-- Seal
+House *-- Plumbing
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PanelOfJurors o-- Court
+Juror o-- PanelOfJurors
+@enduml

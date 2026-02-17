@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- OriAndTheBlindForest
+Game <|-- BoardGame
+BoardGame <|-- Codenames
 @enduml

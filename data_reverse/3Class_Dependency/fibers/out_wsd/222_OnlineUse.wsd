@@ -1,0 +1,4 @@
+@startuml
+ScannerApp ..> OnlineUse
+Internet ..> ScannerApp
+@enduml

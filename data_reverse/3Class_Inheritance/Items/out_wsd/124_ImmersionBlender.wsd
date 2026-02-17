@@ -1,0 +1,4 @@
+@startuml
+ImmersionBlender <|-- Blender
+Blender <|-- Appliance
+@enduml

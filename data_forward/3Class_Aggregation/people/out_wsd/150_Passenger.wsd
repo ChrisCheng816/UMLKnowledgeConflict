@@ -1,4 +1,4 @@
 @startuml
-CrowdOfPassengers o-- Passenger
-Station o-- CrowdOfPassengers
+StaffOfPassengers o-- Passenger
+Airline o-- StaffOfPassengers
 @enduml

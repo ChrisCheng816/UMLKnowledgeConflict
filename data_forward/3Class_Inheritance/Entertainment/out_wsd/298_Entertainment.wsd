@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries
-TVSeries <|-- TheWire
+Entertainment <|-- Comic
+Comic <|-- TheFantasticFour
 @enduml

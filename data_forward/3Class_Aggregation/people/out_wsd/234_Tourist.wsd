@@ -1,4 +1,4 @@
 @startuml
-TeamOfTourists o-- Tourist
-Club o-- TeamOfTourists
+StaffOfTourists o-- Tourist
+Company o-- StaffOfTourists
 @enduml

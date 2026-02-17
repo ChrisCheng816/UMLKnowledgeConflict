@@ -1,0 +1,4 @@
+@startuml
+Spine *-- Cord
+Person *-- Spine
+@enduml

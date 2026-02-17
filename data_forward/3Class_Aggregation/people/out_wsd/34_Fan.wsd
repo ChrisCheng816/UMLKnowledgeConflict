@@ -1,4 +1,4 @@
 @startuml
-AudienceOfFans o-- Fan
-Arena o-- AudienceOfFans
+LineOfFans o-- Fan
+BoxOffice o-- LineOfFans
 @enduml

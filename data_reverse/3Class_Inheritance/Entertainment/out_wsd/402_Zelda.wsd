@@ -1,0 +1,4 @@
+@startuml
+Zelda <|-- AdventureGame
+AdventureGame <|-- VideoGame
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RainbowTrout <|-- Trout
+Trout <|-- Fish
+@enduml

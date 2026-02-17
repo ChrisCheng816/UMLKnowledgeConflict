@@ -1,0 +1,4 @@
+@startuml
+Skyfall <|-- SpyFilm
+SpyFilm <|-- Film
+@enduml

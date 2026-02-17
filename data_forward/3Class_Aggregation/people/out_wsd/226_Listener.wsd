@@ -1,0 +1,4 @@
+@startuml
+GroupOfListeners o-- Listener
+Community o-- GroupOfListeners
+@enduml

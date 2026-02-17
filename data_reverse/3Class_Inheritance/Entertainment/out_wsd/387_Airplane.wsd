@@ -1,0 +1,4 @@
+@startuml
+Airplane <|-- ComedyFilm
+ComedyFilm <|-- Film
+@enduml

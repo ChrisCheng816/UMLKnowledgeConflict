@@ -1,0 +1,4 @@
+@startuml
+FlockOfChickens o-- Chicken
+Farm o-- FlockOfChickens
+@enduml

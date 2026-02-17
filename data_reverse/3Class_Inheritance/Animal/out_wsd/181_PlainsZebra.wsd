@@ -1,0 +1,4 @@
+@startuml
+PlainsZebra <|-- Zebra
+Zebra <|-- Mammal
+@enduml

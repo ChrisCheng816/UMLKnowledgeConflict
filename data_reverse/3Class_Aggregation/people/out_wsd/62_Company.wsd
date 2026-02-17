@@ -1,4 +1,4 @@
 @startuml
-StaffOfDancers o-- Company
-Dancer o-- StaffOfDancers
+TeamOfEmployees o-- Company
+Employee o-- TeamOfEmployees
 @enduml

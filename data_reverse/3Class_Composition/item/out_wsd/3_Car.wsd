@@ -1,4 +1,4 @@
 @startuml
-BrakeCaliper *-- Car
-BrakePad *-- BrakeCaliper
+WheelAssembly *-- Car
+Rim *-- WheelAssembly
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+InstrumentRack o-- Ukulele
+MusicStore o-- InstrumentRack
+@enduml

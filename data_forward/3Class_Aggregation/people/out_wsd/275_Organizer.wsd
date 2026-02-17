@@ -1,4 +1,4 @@
 @startuml
-ClubOfOrganizers o-- Organizer
-School o-- ClubOfOrganizers
+CrewOfOrganizers o-- Organizer
+Festival o-- CrewOfOrganizers
 @enduml

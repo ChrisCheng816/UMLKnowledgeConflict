@@ -1,0 +1,4 @@
+@startuml
+PressureWasher ..> HomeUse
+Electricity ..> PressureWasher
+@enduml

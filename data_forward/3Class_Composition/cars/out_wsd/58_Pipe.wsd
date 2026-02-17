@@ -1,0 +1,4 @@
+@startuml
+Exhaust *-- Pipe
+Car *-- Exhaust
+@enduml

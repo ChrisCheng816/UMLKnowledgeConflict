@@ -1,0 +1,4 @@
+@startuml
+Wiring *-- Ground
+House *-- Wiring
+@enduml

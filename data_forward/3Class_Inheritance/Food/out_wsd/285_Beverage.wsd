@@ -1,0 +1,4 @@
+@startuml
+Beverage <|-- Tea
+Tea <|-- Matcha
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-CrowdOfParents o-- School
-Parent o-- CrowdOfParents
+GroupOfChildren o-- School
+Child o-- GroupOfChildren
 @enduml

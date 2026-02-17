@@ -1,0 +1,4 @@
+@startuml
+PurpleTurnip <|-- Turnip
+Turnip <|-- Vegetable
+@enduml

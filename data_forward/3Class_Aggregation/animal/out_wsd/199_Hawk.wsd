@@ -1,0 +1,4 @@
+@startuml
+FlockOfHawks o-- Hawk
+Cliff o-- FlockOfHawks
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WoodChisel <|-- Chisel
+Chisel <|-- Tool
+@enduml

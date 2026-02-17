@@ -1,0 +1,4 @@
+@startuml
+Siamese <|-- Cat
+Cat <|-- Mammal
+@enduml

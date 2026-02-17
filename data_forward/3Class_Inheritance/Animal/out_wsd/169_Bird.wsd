@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Goose
+Goose <|-- CanadaGoose
+@enduml

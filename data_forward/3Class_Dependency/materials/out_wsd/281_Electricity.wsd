@@ -1,0 +1,4 @@
+@startuml
+Massager ..> Electricity
+HomeUse ..> Massager
+@enduml

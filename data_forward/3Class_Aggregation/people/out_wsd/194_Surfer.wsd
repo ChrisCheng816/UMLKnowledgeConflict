@@ -1,4 +1,4 @@
 @startuml
-TeamOfSurfers o-- Surfer
-Club o-- TeamOfSurfers
+StaffOfSurfers o-- Surfer
+Company o-- StaffOfSurfers
 @enduml

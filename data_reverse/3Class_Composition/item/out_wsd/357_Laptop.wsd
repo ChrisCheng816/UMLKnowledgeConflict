@@ -1,0 +1,4 @@
+@startuml
+Touchpad *-- Laptop
+Sensor *-- Touchpad
+@enduml

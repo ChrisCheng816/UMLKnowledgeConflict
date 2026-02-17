@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- OriAndTheWillOfTheWisps
+Game <|-- BoardGame
+BoardGame <|-- Azul
 @enduml

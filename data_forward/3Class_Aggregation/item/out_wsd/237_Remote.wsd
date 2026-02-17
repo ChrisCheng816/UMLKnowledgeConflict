@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Remote
+LivingRoom o-- Shelf
+@enduml

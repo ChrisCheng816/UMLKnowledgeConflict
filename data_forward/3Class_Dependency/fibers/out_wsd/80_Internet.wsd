@@ -1,0 +1,4 @@
+@startuml
+Slack ..> Internet
+OnlineUse ..> Slack
+@enduml

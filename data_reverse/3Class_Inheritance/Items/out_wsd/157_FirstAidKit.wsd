@@ -1,0 +1,4 @@
+@startuml
+FirstAidKit <|-- MedicalKit
+MedicalKit <|-- Item
+@enduml

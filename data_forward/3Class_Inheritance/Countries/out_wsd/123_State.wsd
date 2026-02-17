@@ -1,4 +1,4 @@
 @startuml
-State <|-- Emirate
-Emirate <|-- Qatar
+State <|-- CityState
+CityState <|-- Singapore
 @enduml

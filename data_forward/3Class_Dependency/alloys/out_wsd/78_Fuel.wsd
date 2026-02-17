@@ -1,0 +1,4 @@
+@startuml
+GasGrill ..> Fuel
+TransportUse ..> GasGrill
+@enduml

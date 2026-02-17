@@ -1,0 +1,4 @@
+@startuml
+Juicer ..> Electricity
+HomeUse ..> Juicer
+@enduml

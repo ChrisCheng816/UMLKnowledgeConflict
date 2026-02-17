@@ -1,0 +1,4 @@
+@startuml
+SteeringWheel *-- Airbag
+Car *-- SteeringWheel
+@enduml

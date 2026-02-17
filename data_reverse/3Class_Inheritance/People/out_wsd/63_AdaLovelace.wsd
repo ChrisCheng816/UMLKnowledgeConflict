@@ -1,0 +1,4 @@
+@startuml
+AdaLovelace <|-- ComputerProgrammer
+ComputerProgrammer <|-- Engineer
+@enduml

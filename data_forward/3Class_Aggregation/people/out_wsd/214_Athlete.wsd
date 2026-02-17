@@ -1,4 +1,4 @@
 @startuml
-TeamOfAthletes o-- Athlete
-Club o-- TeamOfAthletes
+StaffOfAthletes o-- Athlete
+Company o-- StaffOfAthletes
 @enduml

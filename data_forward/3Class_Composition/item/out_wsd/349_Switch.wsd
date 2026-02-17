@@ -1,0 +1,4 @@
+@startuml
+Keyboard *-- Switch
+Laptop *-- Keyboard
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Staircase *-- House
+Carpet *-- Staircase
+@enduml

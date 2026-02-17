@@ -1,4 +1,4 @@
 @startuml
-TeamOfCampers o-- Camper
-Club o-- TeamOfCampers
+StaffOfCampers o-- Camper
+Company o-- StaffOfCampers
 @enduml

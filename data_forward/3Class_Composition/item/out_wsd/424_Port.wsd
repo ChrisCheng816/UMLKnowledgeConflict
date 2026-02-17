@@ -1,0 +1,4 @@
+@startuml
+Microphone *-- Port
+Phone *-- Microphone
+@enduml

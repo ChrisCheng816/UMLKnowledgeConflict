@@ -1,0 +1,4 @@
+@startuml
+Activist <|-- ClimateActivist
+ClimateActivist <|-- GretaThunberg
+@enduml

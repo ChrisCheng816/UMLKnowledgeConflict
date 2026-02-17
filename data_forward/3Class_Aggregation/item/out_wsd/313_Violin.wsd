@@ -1,0 +1,4 @@
+@startuml
+InstrumentRack o-- Violin
+MusicStore o-- InstrumentRack
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Sport <|-- AthleticsSport
-AthleticsSport <|-- PoleVault
+AthleticsSport <|-- ShotPut
 @enduml

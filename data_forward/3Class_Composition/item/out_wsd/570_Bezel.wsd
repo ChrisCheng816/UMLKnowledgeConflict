@@ -1,0 +1,4 @@
+@startuml
+Display *-- Bezel
+Laptop *-- Display
+@enduml

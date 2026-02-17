@@ -1,4 +1,4 @@
 @startuml
-ClubOfGamers o-- Gamer
-School o-- ClubOfGamers
+CrewOfGamers o-- Gamer
+Festival o-- CrewOfGamers
 @enduml

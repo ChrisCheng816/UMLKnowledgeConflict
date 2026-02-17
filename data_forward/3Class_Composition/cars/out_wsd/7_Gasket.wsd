@@ -1,0 +1,4 @@
+@startuml
+Engine *-- Gasket
+Car *-- Engine
+@enduml

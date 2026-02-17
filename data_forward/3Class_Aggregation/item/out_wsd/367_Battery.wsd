@@ -1,0 +1,4 @@
+@startuml
+Crate o-- Battery
+Warehouse o-- Crate
+@enduml

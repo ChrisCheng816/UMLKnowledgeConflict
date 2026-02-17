@@ -1,0 +1,4 @@
+@startuml
+SnowBlower ..> Electricity
+HomeUse ..> SnowBlower
+@enduml

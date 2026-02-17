@@ -1,0 +1,4 @@
+@startuml
+Jackrabbit <|-- Rabbit
+Rabbit <|-- Mammal
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Foundation *-- Slab
+House *-- Foundation
+@enduml

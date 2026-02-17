@@ -1,4 +1,4 @@
 @startuml
-GroupOfReaders o-- Reader
-Library o-- GroupOfReaders
+CircleOfReaders o-- Reader
+Library o-- CircleOfReaders
 @enduml

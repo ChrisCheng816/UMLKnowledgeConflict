@@ -1,0 +1,4 @@
+@startuml
+Headlight *-- Car
+Beam *-- Headlight
+@enduml

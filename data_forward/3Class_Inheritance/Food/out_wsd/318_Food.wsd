@@ -1,0 +1,4 @@
+@startuml
+Food <|-- BreakfastFood
+BreakfastFood <|-- Pancakes
+@enduml

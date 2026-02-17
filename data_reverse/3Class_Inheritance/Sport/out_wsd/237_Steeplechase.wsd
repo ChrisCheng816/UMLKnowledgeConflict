@@ -1,0 +1,4 @@
+@startuml
+Steeplechase <|-- Running
+Running <|-- Sport
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GroupOfComedians o-- Comedian
+Community o-- GroupOfComedians
+@enduml

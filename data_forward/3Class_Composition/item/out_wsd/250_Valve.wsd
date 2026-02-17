@@ -1,0 +1,4 @@
+@startuml
+Plumbing *-- Valve
+House *-- Plumbing
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-TeamOfGamers o-- Gamer
-Club o-- TeamOfGamers
+StaffOfGamers o-- Gamer
+Company o-- StaffOfGamers
 @enduml

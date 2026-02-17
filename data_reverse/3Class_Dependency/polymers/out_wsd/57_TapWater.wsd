@@ -1,4 +1,4 @@
 @startuml
-Aquifer ..> TapWater
-Rain ..> Aquifer
+Reservoir ..> TapWater
+Rain ..> Reservoir
 @enduml

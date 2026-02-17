@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Kiwi
+Kiwi <|-- GreenKiwi
+@enduml

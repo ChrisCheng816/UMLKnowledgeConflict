@@ -1,4 +1,4 @@
 @startuml
-CastOfActors o-- Actor
-Theater o-- CastOfActors
+GroupOfActors o-- Actor
+Studio o-- GroupOfActors
 @enduml

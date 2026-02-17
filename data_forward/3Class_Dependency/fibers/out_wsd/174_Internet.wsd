@@ -1,0 +1,4 @@
+@startuml
+Zomato ..> Internet
+OnlineUse ..> Zomato
+@enduml

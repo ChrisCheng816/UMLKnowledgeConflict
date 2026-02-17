@@ -1,0 +1,4 @@
+@startuml
+Fish <|-- Catfish
+Catfish <|-- ChannelCatfish
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Skype ..> Internet
+OnlineUse ..> Skype
+@enduml

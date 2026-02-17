@@ -1,0 +1,6 @@
+@startuml
+TroopOfGorillas o-- Jungle
+GorillaZoo o-- TroopOfGorillas
+Enclosure o-- GorillaZoo
+Lion o-- Enclosure
+@enduml

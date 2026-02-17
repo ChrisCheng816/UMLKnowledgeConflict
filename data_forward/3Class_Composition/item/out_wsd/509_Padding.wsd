@@ -1,0 +1,4 @@
+@startuml
+Headboard *-- Padding
+Bed *-- Headboard
+@enduml

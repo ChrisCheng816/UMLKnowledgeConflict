@@ -1,0 +1,4 @@
+@startuml
+CavendishBanana <|-- Banana
+Banana <|-- Fruit
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BatteryPack *-- Separator
+Smartphone *-- BatteryPack
+@enduml

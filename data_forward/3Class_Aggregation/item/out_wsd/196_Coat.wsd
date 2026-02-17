@@ -1,0 +1,4 @@
+@startuml
+Hanger o-- Coat
+Closet o-- Hanger
+@enduml

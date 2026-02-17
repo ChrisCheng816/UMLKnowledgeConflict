@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- Terminator2JudgmentDay
+Entertainment <|-- TVSeries
+TVSeries <|-- Succession
 @enduml

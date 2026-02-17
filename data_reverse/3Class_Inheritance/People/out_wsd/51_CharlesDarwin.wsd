@@ -1,0 +1,4 @@
+@startuml
+CharlesDarwin <|-- Naturalist
+Naturalist <|-- Scientist
+@enduml

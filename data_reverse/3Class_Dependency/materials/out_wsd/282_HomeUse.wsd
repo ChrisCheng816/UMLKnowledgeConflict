@@ -1,0 +1,4 @@
+@startuml
+HeatingPad ..> HomeUse
+Electricity ..> HeatingPad
+@enduml

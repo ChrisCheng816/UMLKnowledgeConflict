@@ -1,0 +1,4 @@
+@startuml
+Park <|-- UrbanPark
+UrbanPark <|-- CentralPark
+@enduml

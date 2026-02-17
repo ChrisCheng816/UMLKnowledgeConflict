@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Tool
+Tool <|-- Pickaxe
+@enduml

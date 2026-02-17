@@ -1,4 +1,4 @@
 @startuml
-GroupOfPerformers o-- Performer
-Community o-- GroupOfPerformers
+ClubOfPerformers o-- Performer
+School o-- ClubOfPerformers
 @enduml

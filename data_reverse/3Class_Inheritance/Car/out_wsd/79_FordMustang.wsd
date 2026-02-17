@@ -1,0 +1,4 @@
+@startuml
+FordMustang <|-- Coupe
+Coupe <|-- Vehicle
+@enduml

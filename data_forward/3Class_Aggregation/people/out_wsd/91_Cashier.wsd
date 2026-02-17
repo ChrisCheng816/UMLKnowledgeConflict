@@ -1,0 +1,4 @@
+@startuml
+TeamOfCashiers o-- Cashier
+Store o-- TeamOfCashiers
+@enduml

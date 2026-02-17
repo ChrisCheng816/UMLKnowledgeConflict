@@ -1,0 +1,4 @@
+@startuml
+RubberGloves <|-- Gloves
+Gloves <|-- CleaningSupply
+@enduml

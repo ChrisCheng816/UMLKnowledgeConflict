@@ -1,0 +1,4 @@
+@startuml
+Staircase *-- Stringer
+House *-- Staircase
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Physicist <|-- AtomicPhysicist
+AtomicPhysicist <|-- NielsBohr
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Pharmacy
+Antacid o-- Cabinet
+@enduml

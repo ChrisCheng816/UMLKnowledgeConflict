@@ -1,0 +1,4 @@
+@startuml
+GroupOfTigers o-- Jungle
+Tiger o-- GroupOfTigers
+@enduml

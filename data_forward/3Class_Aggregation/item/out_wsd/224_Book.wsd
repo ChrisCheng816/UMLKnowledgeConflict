@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Book
+LivingRoom o-- Shelf
+@enduml

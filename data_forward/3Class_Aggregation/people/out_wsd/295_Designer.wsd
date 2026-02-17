@@ -1,4 +1,4 @@
 @startuml
-ClubOfDesigners o-- Designer
-School o-- ClubOfDesigners
+CrewOfDesigners o-- Designer
+Festival o-- CrewOfDesigners
 @enduml

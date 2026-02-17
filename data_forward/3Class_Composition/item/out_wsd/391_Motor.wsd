@@ -1,0 +1,4 @@
+@startuml
+Drive *-- Motor
+Desktop *-- Drive
+@enduml

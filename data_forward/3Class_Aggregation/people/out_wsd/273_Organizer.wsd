@@ -1,4 +1,4 @@
 @startuml
-GroupOfOrganizers o-- Organizer
-Community o-- GroupOfOrganizers
+ClubOfOrganizers o-- Organizer
+School o-- ClubOfOrganizers
 @enduml

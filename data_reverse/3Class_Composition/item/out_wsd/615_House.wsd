@@ -1,0 +1,4 @@
+@startuml
+ElectricalSystem *-- House
+Panel *-- ElectricalSystem
+@enduml

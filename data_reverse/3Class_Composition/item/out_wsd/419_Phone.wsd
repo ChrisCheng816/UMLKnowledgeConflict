@@ -1,0 +1,4 @@
+@startuml
+Microphone *-- Phone
+Capsule *-- Microphone
+@enduml

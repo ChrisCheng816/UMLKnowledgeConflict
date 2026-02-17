@@ -1,0 +1,4 @@
+@startuml
+Playlist o-- VideoSite
+Video o-- Playlist
+@enduml

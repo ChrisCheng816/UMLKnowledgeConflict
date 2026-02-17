@@ -1,0 +1,4 @@
+@startuml
+YouTube ..> Internet
+OnlineUse ..> YouTube
+@enduml

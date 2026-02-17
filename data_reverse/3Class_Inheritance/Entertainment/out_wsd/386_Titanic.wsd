@@ -1,0 +1,4 @@
+@startuml
+Titanic <|-- RomanceFilm
+RomanceFilm <|-- Film
+@enduml

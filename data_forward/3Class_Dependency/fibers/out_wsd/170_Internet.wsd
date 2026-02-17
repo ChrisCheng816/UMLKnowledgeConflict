@@ -1,0 +1,4 @@
+@startuml
+UberEats ..> Internet
+OnlineUse ..> UberEats
+@enduml

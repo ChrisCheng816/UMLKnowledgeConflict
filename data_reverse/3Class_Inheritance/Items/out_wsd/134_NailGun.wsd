@@ -1,0 +1,4 @@
+@startuml
+NailGun <|-- FasteningTool
+FasteningTool <|-- Tool
+@enduml

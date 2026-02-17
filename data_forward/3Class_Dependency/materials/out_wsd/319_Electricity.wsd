@@ -1,0 +1,4 @@
+@startuml
+Chainsaw ..> Electricity
+HomeUse ..> Chainsaw
+@enduml

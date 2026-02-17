@@ -1,0 +1,4 @@
+@startuml
+PackOfWolves o-- Wolf
+Forest o-- PackOfWolves
+@enduml

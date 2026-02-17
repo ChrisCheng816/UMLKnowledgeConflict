@@ -1,0 +1,4 @@
+@startuml
+Rod *-- Sleeve
+Closet *-- Rod
+@enduml

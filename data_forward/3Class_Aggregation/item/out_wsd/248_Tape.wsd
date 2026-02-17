@@ -1,0 +1,4 @@
+@startuml
+Toolbox o-- Tape
+Garage o-- Toolbox
+@enduml

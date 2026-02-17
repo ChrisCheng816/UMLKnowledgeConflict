@@ -1,0 +1,4 @@
+@startuml
+EllipticalMachine ..> Electricity
+HomeUse ..> EllipticalMachine
+@enduml

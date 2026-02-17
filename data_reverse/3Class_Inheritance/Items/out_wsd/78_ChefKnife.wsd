@@ -1,0 +1,4 @@
+@startuml
+ChefKnife <|-- Knife
+Knife <|-- Utensil
+@enduml

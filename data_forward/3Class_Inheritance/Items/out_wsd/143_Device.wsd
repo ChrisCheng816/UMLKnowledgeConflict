@@ -1,0 +1,4 @@
+@startuml
+Device <|-- MedicalDevice
+MedicalDevice <|-- HearingAid
+@enduml

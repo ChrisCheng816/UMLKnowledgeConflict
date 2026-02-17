@@ -1,0 +1,4 @@
+@startuml
+Mattress *-- Bed
+Zipper *-- Mattress
+@enduml

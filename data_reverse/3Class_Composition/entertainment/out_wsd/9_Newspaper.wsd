@@ -1,0 +1,4 @@
+@startuml
+Page *-- Newspaper
+Photo *-- Page
+@enduml

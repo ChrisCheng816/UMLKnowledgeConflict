@@ -1,4 +1,4 @@
 @startuml
-SmartLock ..> Electricity
-Surveillance ..> SmartLock
+SmartSpeaker ..> Electricity
+AudioStreaming ..> SmartSpeaker
 @enduml

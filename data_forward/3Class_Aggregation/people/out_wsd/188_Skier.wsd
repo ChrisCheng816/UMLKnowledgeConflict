@@ -1,4 +1,4 @@
 @startuml
-GroupOfSkiers o-- Skier
-Community o-- GroupOfSkiers
+ClubOfSkiers o-- Skier
+School o-- ClubOfSkiers
 @enduml

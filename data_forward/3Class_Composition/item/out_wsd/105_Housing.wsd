@@ -1,0 +1,4 @@
+@startuml
+Motor *-- Housing
+Vacuum *-- Motor
+@enduml

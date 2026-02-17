@@ -1,0 +1,4 @@
+@startuml
+Display o-- Paperback
+Bookstore o-- Display
+@enduml

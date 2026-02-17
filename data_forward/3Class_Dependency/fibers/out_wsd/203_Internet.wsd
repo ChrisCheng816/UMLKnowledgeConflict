@@ -1,0 +1,4 @@
+@startuml
+EpicGames ..> Internet
+OnlineUse ..> EpicGames
+@enduml

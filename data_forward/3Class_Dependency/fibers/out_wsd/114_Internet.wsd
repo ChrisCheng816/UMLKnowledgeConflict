@@ -1,0 +1,4 @@
+@startuml
+Kick ..> Internet
+OnlineUse ..> Kick
+@enduml

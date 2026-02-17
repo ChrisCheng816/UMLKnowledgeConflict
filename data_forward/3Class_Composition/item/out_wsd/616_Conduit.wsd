@@ -1,0 +1,4 @@
+@startuml
+ElectricalSystem *-- Conduit
+House *-- ElectricalSystem
+@enduml

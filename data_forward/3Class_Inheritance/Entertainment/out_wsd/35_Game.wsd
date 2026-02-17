@@ -1,4 +1,4 @@
 @startuml
 Game <|-- VideoGame
-VideoGame <|-- PokemonGold
+VideoGame <|-- PokemonBlack
 @enduml

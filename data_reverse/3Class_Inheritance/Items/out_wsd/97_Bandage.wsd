@@ -1,0 +1,4 @@
+@startuml
+Bandage <|-- MedicalSupply
+MedicalSupply <|-- Item
+@enduml

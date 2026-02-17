@@ -1,0 +1,4 @@
+@startuml
+FIFA <|-- SportsGame
+SportsGame <|-- VideoGame
+@enduml

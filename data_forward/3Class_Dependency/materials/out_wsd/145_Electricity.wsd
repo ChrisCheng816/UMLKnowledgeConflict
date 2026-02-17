@@ -1,4 +1,4 @@
 @startuml
 NightLight ..> Electricity
-Illumination ..> NightLight
+Lighting ..> NightLight
 @enduml

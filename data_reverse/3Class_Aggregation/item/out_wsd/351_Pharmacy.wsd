@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Pharmacy
+Gauze o-- Cabinet
+@enduml

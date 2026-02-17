@@ -1,0 +1,4 @@
+@startuml
+Instagram ..> Internet
+OnlineUse ..> Instagram
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Screen *-- Coating
+Phone *-- Screen
+@enduml

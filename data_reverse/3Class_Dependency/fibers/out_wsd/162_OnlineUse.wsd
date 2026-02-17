@@ -1,0 +1,4 @@
+@startuml
+Temu ..> OnlineUse
+Internet ..> Temu
+@enduml

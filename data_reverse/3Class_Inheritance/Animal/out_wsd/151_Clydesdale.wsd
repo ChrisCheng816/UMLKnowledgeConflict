@@ -1,0 +1,4 @@
+@startuml
+Clydesdale <|-- Horse
+Horse <|-- Mammal
+@enduml

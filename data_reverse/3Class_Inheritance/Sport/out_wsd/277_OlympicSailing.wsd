@@ -1,0 +1,4 @@
+@startuml
+OlympicSailing <|-- Sailing
+Sailing <|-- Sport
+@enduml

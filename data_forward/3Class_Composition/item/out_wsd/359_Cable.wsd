@@ -1,0 +1,4 @@
+@startuml
+Touchpad *-- Cable
+Laptop *-- Touchpad
+@enduml

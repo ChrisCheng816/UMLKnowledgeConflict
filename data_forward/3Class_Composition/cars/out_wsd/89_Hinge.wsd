@@ -1,0 +1,4 @@
+@startuml
+Hood *-- Hinge
+Car *-- Hood
+@enduml

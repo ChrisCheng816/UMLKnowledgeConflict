@@ -1,0 +1,4 @@
+@startuml
+HarryPotterFilm <|-- FantasyFilm
+FantasyFilm <|-- Entertainment
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Iron ..> Electricity
-WrinkleRemoval ..> Iron
+KitchenLight ..> Electricity
+Illumination ..> KitchenLight
 @enduml

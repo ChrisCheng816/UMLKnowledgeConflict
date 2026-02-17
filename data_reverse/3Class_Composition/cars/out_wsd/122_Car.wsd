@@ -1,0 +1,4 @@
+@startuml
+Suspension *-- Car
+ControlArm *-- Suspension
+@enduml

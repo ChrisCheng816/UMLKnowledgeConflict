@@ -1,4 +1,4 @@
 @startuml
 Shower ..> HotWater
-Bathing ..> Shower
+Hygiene ..> Shower
 @enduml

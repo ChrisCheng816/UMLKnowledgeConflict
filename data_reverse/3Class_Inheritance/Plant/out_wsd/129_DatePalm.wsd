@@ -1,0 +1,4 @@
+@startuml
+DatePalm <|-- Palm
+Palm <|-- Plant
+@enduml

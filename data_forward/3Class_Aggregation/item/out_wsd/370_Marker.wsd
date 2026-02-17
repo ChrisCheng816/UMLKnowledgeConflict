@@ -1,0 +1,4 @@
+@startuml
+Crate o-- Marker
+Warehouse o-- Crate
+@enduml

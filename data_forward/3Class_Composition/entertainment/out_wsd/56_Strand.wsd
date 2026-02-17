@@ -1,0 +1,4 @@
+@startuml
+Lace *-- Strand
+BaseballGlove *-- Lace
+@enduml

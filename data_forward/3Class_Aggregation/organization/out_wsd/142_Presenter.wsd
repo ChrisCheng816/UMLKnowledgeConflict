@@ -1,0 +1,4 @@
+@startuml
+Panel o-- Presenter
+Conference o-- Panel
+@enduml

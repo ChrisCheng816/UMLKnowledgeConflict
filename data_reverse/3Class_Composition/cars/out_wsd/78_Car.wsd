@@ -1,0 +1,4 @@
+@startuml
+SteeringWheel *-- Car
+Cover *-- SteeringWheel
+@enduml

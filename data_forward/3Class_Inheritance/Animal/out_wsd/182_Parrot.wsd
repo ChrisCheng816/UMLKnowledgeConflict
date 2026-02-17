@@ -1,0 +1,4 @@
+@startuml
+Parrot <|-- Macaw
+Macaw <|-- ScarletMacaw
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TaylorSwift <|-- Singer
+Singer <|-- Artist
+@enduml

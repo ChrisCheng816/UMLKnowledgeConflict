@@ -1,4 +1,4 @@
 @startuml
-GasStove ..> NaturalGas
-Frying ..> GasStove
+GasWaterHeater ..> NaturalGas
+Dishwashing ..> GasWaterHeater
 @enduml

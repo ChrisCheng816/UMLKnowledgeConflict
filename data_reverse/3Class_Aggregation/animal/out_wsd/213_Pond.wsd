@@ -1,0 +1,4 @@
+@startuml
+GroupOfFrogs o-- Pond
+Frog o-- GroupOfFrogs
+@enduml

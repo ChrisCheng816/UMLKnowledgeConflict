@@ -1,0 +1,4 @@
+@startuml
+InstrumentRack o-- MusicStore
+Flute o-- InstrumentRack
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ElectricalSystem *-- House
+Breaker *-- ElectricalSystem
+@enduml

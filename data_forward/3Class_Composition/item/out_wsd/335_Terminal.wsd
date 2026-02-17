@@ -1,0 +1,4 @@
+@startuml
+Battery *-- Terminal
+Phone *-- Battery
+@enduml

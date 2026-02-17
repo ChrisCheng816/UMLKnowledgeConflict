@@ -1,0 +1,4 @@
+@startuml
+Avatar <|-- FantasyFilm
+FantasyFilm <|-- Film
+@enduml

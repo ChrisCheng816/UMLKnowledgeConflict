@@ -1,0 +1,4 @@
+@startuml
+BlizzardApp ..> Internet
+OnlineUse ..> BlizzardApp
+@enduml

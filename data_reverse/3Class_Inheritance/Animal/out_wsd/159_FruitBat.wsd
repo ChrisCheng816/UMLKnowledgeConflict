@@ -1,0 +1,4 @@
+@startuml
+FruitBat <|-- Bat
+Bat <|-- Mammal
+@enduml

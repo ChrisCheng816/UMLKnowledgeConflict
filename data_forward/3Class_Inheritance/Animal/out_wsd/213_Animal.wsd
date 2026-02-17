@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Rabbit
+Rabbit <|-- AngoraRabbit
+@enduml

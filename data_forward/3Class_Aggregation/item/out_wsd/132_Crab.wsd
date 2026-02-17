@@ -1,0 +1,4 @@
+@startuml
+Cart o-- Crab
+Supermarket o-- Cart
+@enduml

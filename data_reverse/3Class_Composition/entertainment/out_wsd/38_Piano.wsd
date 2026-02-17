@@ -1,0 +1,4 @@
+@startuml
+Key *-- Piano
+Pivot *-- Key
+@enduml

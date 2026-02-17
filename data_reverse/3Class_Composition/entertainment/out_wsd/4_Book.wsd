@@ -1,0 +1,4 @@
+@startuml
+Chapter *-- Book
+Sentence *-- Chapter
+@enduml

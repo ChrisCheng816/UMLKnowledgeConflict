@@ -1,0 +1,4 @@
+@startuml
+WaffleIron <|-- Iron
+Iron <|-- Appliance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Beagle <|-- Dog
+Dog <|-- Mammal
+@enduml

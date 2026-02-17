@@ -1,0 +1,4 @@
+@startuml
+Jaws <|-- ThrillerFilm
+ThrillerFilm <|-- Film
+@enduml

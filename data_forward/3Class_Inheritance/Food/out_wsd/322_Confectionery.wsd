@@ -1,0 +1,4 @@
+@startuml
+Confectionery <|-- Chocolate
+Chocolate <|-- DarkChocolate
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Terminal o-- BoardingBridge
+Airport o-- Terminal
+@enduml

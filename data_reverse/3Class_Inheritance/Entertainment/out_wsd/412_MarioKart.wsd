@@ -1,0 +1,4 @@
+@startuml
+MarioKart <|-- RacingGame
+RacingGame <|-- VideoGame
+@enduml

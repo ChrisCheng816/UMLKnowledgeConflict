@@ -1,0 +1,4 @@
+@startuml
+LeafRake <|-- Rake
+Rake <|-- Tool
+@enduml

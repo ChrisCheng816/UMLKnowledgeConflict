@@ -1,0 +1,4 @@
+@startuml
+Film <|-- ActionFilm
+ActionFilm <|-- DieHard
+@enduml

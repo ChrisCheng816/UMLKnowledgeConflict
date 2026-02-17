@@ -1,0 +1,4 @@
+@startuml
+IndexCard <|-- Card
+Card <|-- Stationery
+@enduml

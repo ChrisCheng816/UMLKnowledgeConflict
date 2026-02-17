@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- Alien
+Entertainment <|-- TVSeries
+TVSeries <|-- BandOfBrothers
 @enduml

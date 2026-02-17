@@ -1,0 +1,4 @@
+@startuml
+PrimeVideo ..> Internet
+OnlineUse ..> PrimeVideo
+@enduml

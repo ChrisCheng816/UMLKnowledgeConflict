@@ -1,0 +1,4 @@
+@startuml
+Pantry o-- Pasta
+Kitchen o-- Pantry
+@enduml

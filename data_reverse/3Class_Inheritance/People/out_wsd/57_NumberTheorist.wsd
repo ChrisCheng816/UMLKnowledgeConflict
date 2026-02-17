@@ -1,0 +1,4 @@
+@startuml
+NumberTheorist <|-- Mathematician
+Mathematician <|-- Scientist
+@enduml

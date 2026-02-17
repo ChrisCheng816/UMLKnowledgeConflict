@@ -1,0 +1,4 @@
+@startuml
+LineOfPassengers o-- Passenger
+Airport o-- LineOfPassengers
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Chapter *-- Book
+Footnote *-- Chapter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Swan
+Swan <|-- MuteSwan
+@enduml

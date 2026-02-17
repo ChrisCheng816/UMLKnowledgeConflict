@@ -1,4 +1,4 @@
 @startuml
-GroupOfArtists o-- Artist
-Community o-- GroupOfArtists
+ClubOfArtists o-- Artist
+School o-- ClubOfArtists
 @enduml

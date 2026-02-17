@@ -1,0 +1,4 @@
+@startuml
+XboxApp ..> OnlineUse
+Internet ..> XboxApp
+@enduml

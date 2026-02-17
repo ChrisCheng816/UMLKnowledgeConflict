@@ -1,0 +1,4 @@
+@startuml
+Ceiling *-- Fan
+House *-- Ceiling
+@enduml

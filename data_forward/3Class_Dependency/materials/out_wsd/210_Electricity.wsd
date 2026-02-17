@@ -1,4 +1,4 @@
 @startuml
-StereoReceiver ..> Electricity
-RadioListening ..> StereoReceiver
+SurgeProtector ..> Electricity
+BatteryCharging ..> SurgeProtector
 @enduml

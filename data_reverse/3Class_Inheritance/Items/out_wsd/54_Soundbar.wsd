@@ -1,0 +1,4 @@
+@startuml
+Soundbar <|-- Speaker
+Speaker <|-- Electronics
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Muesli <|-- Cereal
+Cereal <|-- Food
+@enduml

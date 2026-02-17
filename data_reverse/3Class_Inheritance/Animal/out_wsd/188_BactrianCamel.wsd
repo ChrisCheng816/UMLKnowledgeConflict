@@ -1,0 +1,4 @@
+@startuml
+BactrianCamel <|-- Camel
+Camel <|-- Mammal
+@enduml

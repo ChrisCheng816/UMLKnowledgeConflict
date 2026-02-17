@@ -1,0 +1,4 @@
+@startuml
+Frame *-- Corner
+Mirror *-- Frame
+@enduml

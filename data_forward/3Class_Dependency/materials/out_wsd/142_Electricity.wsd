@@ -1,4 +1,4 @@
 @startuml
 MotionSensor ..> Electricity
-HomeSecurity ..> MotionSensor
+MotionDetection ..> MotionSensor
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Artist <|-- Actor
+Actor <|-- LeonardoDiCaprio
+@enduml

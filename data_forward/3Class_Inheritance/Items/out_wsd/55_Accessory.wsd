@@ -1,0 +1,4 @@
+@startuml
+Accessory <|-- Eyewear
+Eyewear <|-- Sunglasses
+@enduml

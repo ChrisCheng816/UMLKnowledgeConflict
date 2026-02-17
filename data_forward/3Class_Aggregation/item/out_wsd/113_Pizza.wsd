@@ -1,0 +1,4 @@
+@startuml
+Plate o-- Pizza
+Restaurant o-- Plate
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PaperClip <|-- Clip
+Clip <|-- Stationery
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Binder o-- Quiz
+Backpack o-- Binder
+@enduml

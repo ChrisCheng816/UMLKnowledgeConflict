@@ -1,4 +1,4 @@
 @startuml
-GroupOfNeighbors o-- Neighbor
-Community o-- GroupOfNeighbors
+ClubOfNeighbors o-- Neighbor
+School o-- ClubOfNeighbors
 @enduml

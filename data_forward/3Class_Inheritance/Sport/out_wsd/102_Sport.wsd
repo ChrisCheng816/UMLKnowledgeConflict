@@ -1,4 +1,4 @@
 @startuml
 Sport <|-- AthleticsSport
-AthleticsSport <|-- Sprinting
+AthleticsSport <|-- MiddleDistanceRunning
 @enduml

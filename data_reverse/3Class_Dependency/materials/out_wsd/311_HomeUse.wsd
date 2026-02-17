@@ -1,0 +1,4 @@
+@startuml
+WaterPump ..> HomeUse
+Electricity ..> WaterPump
+@enduml

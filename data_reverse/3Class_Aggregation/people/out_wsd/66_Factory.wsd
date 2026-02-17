@@ -1,4 +1,4 @@
 @startuml
-ShiftOfEmployees o-- Factory
-Employee o-- ShiftOfEmployees
+CrewOfWorkers o-- Factory
+Worker o-- CrewOfWorkers
 @enduml

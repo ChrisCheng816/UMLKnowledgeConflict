@@ -1,0 +1,4 @@
+@startuml
+Crate o-- Beans
+FarmersMarket o-- Crate
+@enduml

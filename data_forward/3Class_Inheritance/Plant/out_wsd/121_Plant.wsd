@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Maple
+Maple <|-- SugarMaple
+@enduml

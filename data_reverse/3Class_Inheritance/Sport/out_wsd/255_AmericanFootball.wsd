@@ -1,0 +1,4 @@
+@startuml
+AmericanFootball <|-- Football
+Football <|-- Sport
+@enduml

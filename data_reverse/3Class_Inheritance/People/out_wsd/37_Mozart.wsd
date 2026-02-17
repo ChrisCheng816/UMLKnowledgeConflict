@@ -1,0 +1,4 @@
+@startuml
+Mozart <|-- Composer
+Composer <|-- Musician
+@enduml

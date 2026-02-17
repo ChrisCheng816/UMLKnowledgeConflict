@@ -1,0 +1,4 @@
+@startuml
+RedwoodForest <|-- Forest
+Forest <|-- GeographicFeature
+@enduml

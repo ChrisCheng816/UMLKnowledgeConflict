@@ -1,0 +1,4 @@
+@startuml
+SteeringSystem *-- Car
+Pump *-- SteeringSystem
+@enduml

@@ -75,3 +75,17 @@
 {"id": "75", "template_id": "inheritance", "nodes": ["Automobile", "MidsizeCar", "VolkswagenPassat"], "edges": ["Automobile <|-- MidsizeCar", "MidsizeCar <|-- VolkswagenPassat"]}
 {"id": "76", "template_id": "inheritance", "nodes": ["SUV", "CrossoverSUV", "VolkswagenTiguan"], "edges": ["SUV <|-- CrossoverSUV", "CrossoverSUV <|-- VolkswagenTiguan"]}
 {"id": "77", "template_id": "inheritance", "nodes": ["Car", "ElectricCrossover", "VolkswagenID4"], "edges": ["Car <|-- ElectricCrossover", "ElectricCrossover <|-- VolkswagenID4"]}
+{"id": "78", "template_id": "inheritance", "nodes": ["Vehicle", "Sedan", "ToyotaCorolla"], "edges": ["Vehicle <|-- Sedan", "Sedan <|-- ToyotaCorolla"]}
+{"id": "79", "template_id": "inheritance", "nodes": ["Vehicle", "Coupe", "FordMustang"], "edges": ["Vehicle <|-- Coupe", "Coupe <|-- FordMustang"]}
+{"id": "80", "template_id": "inheritance", "nodes": ["Vehicle", "Convertible", "MazdaMX5"], "edges": ["Vehicle <|-- Convertible", "Convertible <|-- MazdaMX5"]}
+{"id": "81", "template_id": "inheritance", "nodes": ["Vehicle", "Minivan", "HondaOdyssey"], "edges": ["Vehicle <|-- Minivan", "Minivan <|-- HondaOdyssey"]}
+{"id": "82", "template_id": "inheritance", "nodes": ["Vehicle", "Motorcycle", "YamahaR1"], "edges": ["Vehicle <|-- Motorcycle", "Motorcycle <|-- YamahaR1"]}
+{"id": "83", "template_id": "inheritance", "nodes": ["Vehicle", "Bicycle", "TrekRoadBike"], "edges": ["Vehicle <|-- Bicycle", "Bicycle <|-- TrekRoadBike"]}
+{"id": "84", "template_id": "inheritance", "nodes": ["Vehicle", "Scooter", "VespaPrimavera"], "edges": ["Vehicle <|-- Scooter", "Scooter <|-- VespaPrimavera"]}
+{"id": "85", "template_id": "inheritance", "nodes": ["Vehicle", "Bus", "CityBus"], "edges": ["Vehicle <|-- Bus", "Bus <|-- CityBus"]}
+{"id": "86", "template_id": "inheritance", "nodes": ["Vehicle", "Train", "HighSpeedTrain"], "edges": ["Vehicle <|-- Train", "Train <|-- HighSpeedTrain"]}
+{"id": "87", "template_id": "inheritance", "nodes": ["Vehicle", "Airplane", "Boeing737"], "edges": ["Vehicle <|-- Airplane", "Airplane <|-- Boeing737"]}
+{"id": "88", "template_id": "inheritance", "nodes": ["Vehicle", "Helicopter", "BellHelicopter"], "edges": ["Vehicle <|-- Helicopter", "Helicopter <|-- BellHelicopter"]}
+{"id": "89", "template_id": "inheritance", "nodes": ["Vehicle", "Boat", "Sailboat"], "edges": ["Vehicle <|-- Boat", "Boat <|-- Sailboat"]}
+{"id": "90", "template_id": "inheritance", "nodes": ["Vehicle", "Ship", "ContainerShip"], "edges": ["Vehicle <|-- Ship", "Ship <|-- ContainerShip"]}
+{"id": "91", "template_id": "inheritance", "nodes": ["Vehicle", "Submarine", "NuclearSubmarine"], "edges": ["Vehicle <|-- Submarine", "Submarine <|-- NuclearSubmarine"]}

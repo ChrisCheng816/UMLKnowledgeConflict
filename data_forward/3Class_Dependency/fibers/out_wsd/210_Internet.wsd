@@ -1,0 +1,4 @@
+@startuml
+NintendoApp ..> Internet
+OnlineUse ..> NintendoApp
+@enduml

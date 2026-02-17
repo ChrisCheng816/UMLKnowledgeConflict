@@ -1,0 +1,4 @@
+@startuml
+SnowballCauliflower <|-- Cauliflower
+Cauliflower <|-- Vegetable
+@enduml

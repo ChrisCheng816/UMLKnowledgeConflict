@@ -1,0 +1,4 @@
+@startuml
+Sumo <|-- Wrestling
+Wrestling <|-- Sport
+@enduml

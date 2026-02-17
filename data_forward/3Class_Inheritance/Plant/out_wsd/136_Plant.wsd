@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Soybean
+Soybean <|-- EdamameSoybean
+@enduml

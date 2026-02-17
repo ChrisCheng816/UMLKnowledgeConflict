@@ -1,0 +1,4 @@
+@startuml
+Stationery <|-- Pencil
+Pencil <|-- ColoredPencil
+@enduml

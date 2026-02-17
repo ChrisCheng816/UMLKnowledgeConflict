@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- FryingPan
+Kitchen o-- Cabinet
+@enduml

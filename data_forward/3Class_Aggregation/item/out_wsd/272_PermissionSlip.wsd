@@ -1,0 +1,4 @@
+@startuml
+Binder o-- PermissionSlip
+Backpack o-- Binder
+@enduml

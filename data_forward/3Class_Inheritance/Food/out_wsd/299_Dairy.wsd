@@ -1,0 +1,4 @@
+@startuml
+Dairy <|-- Milk
+Milk <|-- WholeMilk
+@enduml

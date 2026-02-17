@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Salesperson
+Company o-- Staff
+@enduml

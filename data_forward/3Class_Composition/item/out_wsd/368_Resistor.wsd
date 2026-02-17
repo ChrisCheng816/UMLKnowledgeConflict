@@ -1,0 +1,4 @@
+@startuml
+Motherboard *-- Resistor
+Desktop *-- Motherboard
+@enduml

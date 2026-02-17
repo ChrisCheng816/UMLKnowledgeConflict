@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Heron
+Heron <|-- GreatBlueHeron
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Foundation *-- Drainage
+House *-- Foundation
+@enduml

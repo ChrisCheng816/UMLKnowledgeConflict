@@ -1,0 +1,4 @@
+@startuml
+Confluence ..> Internet
+OnlineUse ..> Confluence
+@enduml

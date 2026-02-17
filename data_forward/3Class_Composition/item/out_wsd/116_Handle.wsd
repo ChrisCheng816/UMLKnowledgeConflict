@@ -1,0 +1,4 @@
+@startuml
+Jar *-- Handle
+Blender *-- Jar
+@enduml

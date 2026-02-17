@@ -1,0 +1,4 @@
+@startuml
+HouseSparrow <|-- Sparrow
+Sparrow <|-- Bird
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- GrapeVine
+GrapeVine <|-- CabernetVine
+@enduml

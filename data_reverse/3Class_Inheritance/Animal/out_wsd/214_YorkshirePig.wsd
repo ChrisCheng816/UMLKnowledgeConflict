@@ -1,0 +1,4 @@
+@startuml
+YorkshirePig <|-- Pig
+Pig <|-- Animal
+@enduml

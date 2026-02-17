@@ -1,0 +1,4 @@
+@startuml
+LabelPrinter ..> HomeUse
+Electricity ..> LabelPrinter
+@enduml

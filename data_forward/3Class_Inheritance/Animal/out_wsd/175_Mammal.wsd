@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Whale
+Whale <|-- BlueWhale
+@enduml

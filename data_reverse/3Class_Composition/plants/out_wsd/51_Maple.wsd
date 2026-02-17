@@ -1,0 +1,4 @@
+@startuml
+Branch *-- Maple
+Node *-- Branch
+@enduml

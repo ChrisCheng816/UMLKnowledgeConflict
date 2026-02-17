@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- Coco
+Entertainment <|-- TVSeries
+TVSeries <|-- DoctorWho
 @enduml

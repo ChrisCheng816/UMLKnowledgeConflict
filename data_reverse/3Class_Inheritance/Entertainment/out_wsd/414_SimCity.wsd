@@ -1,0 +1,4 @@
+@startuml
+SimCity <|-- SimulationGame
+SimulationGame <|-- VideoGame
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Frame *-- Mirror
+Hook *-- Frame
+@enduml

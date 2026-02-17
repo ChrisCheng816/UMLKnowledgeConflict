@@ -1,0 +1,4 @@
+@startuml
+Display *-- Backlight
+Laptop *-- Display
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Smartphone <|-- Phone
+Phone <|-- Electronics
+@enduml

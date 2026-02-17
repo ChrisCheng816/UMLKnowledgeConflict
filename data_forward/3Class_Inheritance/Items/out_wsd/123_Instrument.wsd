@@ -1,0 +1,4 @@
+@startuml
+Instrument <|-- BrassInstrument
+BrassInstrument <|-- Trumpet
+@enduml

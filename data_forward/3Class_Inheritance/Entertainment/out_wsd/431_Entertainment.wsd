@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- VideoGame
+VideoGame <|-- MinecraftGame
+@enduml

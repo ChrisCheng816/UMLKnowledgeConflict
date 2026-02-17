@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- SlayTheSpire
+Game <|-- BoardGame
+BoardGame <|-- Splendor
 @enduml

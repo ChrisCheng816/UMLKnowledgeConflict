@@ -1,0 +1,4 @@
+@startuml
+Crunchyroll ..> Internet
+OnlineUse ..> Crunchyroll
+@enduml

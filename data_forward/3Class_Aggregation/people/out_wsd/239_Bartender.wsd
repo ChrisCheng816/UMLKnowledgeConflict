@@ -1,4 +1,4 @@
 @startuml
-TeamOfBartenders o-- Bartender
-Club o-- TeamOfBartenders
+StaffOfBartenders o-- Bartender
+Company o-- StaffOfBartenders
 @enduml

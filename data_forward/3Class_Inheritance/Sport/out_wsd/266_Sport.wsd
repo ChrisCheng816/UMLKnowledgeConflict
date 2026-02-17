@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Fencing
+Fencing <|-- OlympicFencing
+@enduml

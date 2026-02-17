@@ -1,0 +1,4 @@
+@startuml
+Display *-- Laptop
+DriverBoard *-- Display
+@enduml

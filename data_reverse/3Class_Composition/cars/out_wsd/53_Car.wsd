@@ -1,0 +1,4 @@
+@startuml
+Radiator *-- Car
+Hose *-- Radiator
+@enduml

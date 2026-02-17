@@ -1,0 +1,4 @@
+@startuml
+Memory *-- PCB
+Desktop *-- Memory
+@enduml

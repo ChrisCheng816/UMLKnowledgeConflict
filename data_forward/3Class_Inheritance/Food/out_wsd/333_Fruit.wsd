@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Blackberry
+Blackberry <|-- MarionBlackberry
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Keyboard *-- Stabilizer
+Laptop *-- Keyboard
+@enduml

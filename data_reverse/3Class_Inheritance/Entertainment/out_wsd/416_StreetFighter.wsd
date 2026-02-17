@@ -1,0 +1,4 @@
+@startuml
+StreetFighter <|-- FightingGame
+FightingGame <|-- VideoGame
+@enduml

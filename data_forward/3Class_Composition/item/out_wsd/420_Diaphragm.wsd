@@ -1,0 +1,4 @@
+@startuml
+Microphone *-- Diaphragm
+Phone *-- Microphone
+@enduml

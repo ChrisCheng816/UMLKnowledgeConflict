@@ -1,0 +1,4 @@
+@startuml
+Shopify ..> OnlineUse
+Internet ..> Shopify
+@enduml

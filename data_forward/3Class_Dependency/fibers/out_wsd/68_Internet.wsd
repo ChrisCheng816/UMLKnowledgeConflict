@@ -1,0 +1,4 @@
+@startuml
+Telegram ..> Internet
+OnlineUse ..> Telegram
+@enduml

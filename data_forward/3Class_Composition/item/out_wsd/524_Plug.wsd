@@ -1,0 +1,4 @@
+@startuml
+Base *-- Plug
+Lamp *-- Base
+@enduml

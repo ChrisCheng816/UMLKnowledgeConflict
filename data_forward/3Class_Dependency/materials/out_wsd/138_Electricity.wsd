@@ -1,4 +1,4 @@
 @startuml
-MediaPlayer ..> Electricity
-VideoStreaming ..> MediaPlayer
+MicrowaveOven ..> Electricity
+Defrosting ..> MicrowaveOven
 @enduml

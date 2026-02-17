@@ -1,0 +1,4 @@
+@startuml
+Window *-- Screen
+House *-- Window
+@enduml

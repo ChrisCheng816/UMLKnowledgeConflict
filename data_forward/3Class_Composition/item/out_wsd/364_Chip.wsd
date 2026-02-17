@@ -1,0 +1,4 @@
+@startuml
+Motherboard *-- Chip
+Desktop *-- Motherboard
+@enduml

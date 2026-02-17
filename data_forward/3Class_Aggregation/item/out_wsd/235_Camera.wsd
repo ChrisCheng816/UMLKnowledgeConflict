@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Camera
+LivingRoom o-- Shelf
+@enduml

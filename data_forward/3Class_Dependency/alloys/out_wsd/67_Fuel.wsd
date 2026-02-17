@@ -1,0 +1,4 @@
+@startuml
+ShipEngine ..> Fuel
+TransportUse ..> ShipEngine
+@enduml

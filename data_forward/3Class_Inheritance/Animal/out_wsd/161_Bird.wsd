@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Eagle
+Eagle <|-- BaldEagle
+@enduml

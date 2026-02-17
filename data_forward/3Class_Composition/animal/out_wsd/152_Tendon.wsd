@@ -1,0 +1,4 @@
+@startuml
+Finger *-- Tendon
+Person *-- Finger
+@enduml

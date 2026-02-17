@@ -1,0 +1,4 @@
+@startuml
+MillingMachine ..> Electricity
+HomeUse ..> MillingMachine
+@enduml

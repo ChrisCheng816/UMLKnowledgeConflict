@@ -1,4 +1,4 @@
 @startuml
-GroupOfGuests o-- Guest
-Hotel o-- GroupOfGuests
+CrowdOfGuests o-- Guest
+Lobby o-- CrowdOfGuests
 @enduml

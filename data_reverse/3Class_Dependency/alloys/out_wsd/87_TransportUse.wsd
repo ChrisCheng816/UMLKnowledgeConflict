@@ -1,0 +1,4 @@
+@startuml
+GoKartEngine ..> TransportUse
+Fuel ..> GoKartEngine
+@enduml

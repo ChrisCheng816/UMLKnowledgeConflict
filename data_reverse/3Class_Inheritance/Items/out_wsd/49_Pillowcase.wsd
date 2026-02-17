@@ -1,0 +1,4 @@
+@startuml
+Pillowcase <|-- Bedding
+Bedding <|-- Linen
+@enduml

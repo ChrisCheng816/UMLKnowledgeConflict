@@ -1,0 +1,4 @@
+@startuml
+BellHelicopter <|-- Helicopter
+Helicopter <|-- Vehicle
+@enduml

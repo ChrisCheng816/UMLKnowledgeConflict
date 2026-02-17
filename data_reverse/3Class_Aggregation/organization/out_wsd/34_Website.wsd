@@ -1,0 +1,4 @@
+@startuml
+Archive o-- Website
+Article o-- Archive
+@enduml

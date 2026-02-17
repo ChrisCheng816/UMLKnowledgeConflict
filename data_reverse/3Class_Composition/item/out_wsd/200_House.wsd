@@ -1,0 +1,4 @@
+@startuml
+Door *-- House
+Peephole *-- Door
+@enduml

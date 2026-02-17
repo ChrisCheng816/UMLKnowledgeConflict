@@ -1,0 +1,4 @@
+@startuml
+Gear *-- Sprocket
+Bicycle *-- Gear
+@enduml

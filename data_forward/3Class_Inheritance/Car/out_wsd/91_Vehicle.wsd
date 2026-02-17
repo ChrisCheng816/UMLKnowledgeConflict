@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Submarine
+Submarine <|-- NuclearSubmarine
+@enduml

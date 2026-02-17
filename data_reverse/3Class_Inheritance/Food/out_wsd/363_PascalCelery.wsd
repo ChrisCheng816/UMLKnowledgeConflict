@@ -1,0 +1,4 @@
+@startuml
+PascalCelery <|-- Celery
+Celery <|-- Vegetable
+@enduml

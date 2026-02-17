@@ -1,4 +1,4 @@
 @startuml
-TeamOfTeachers o-- Teacher
-School o-- TeamOfTeachers
+ClubOfTeachers o-- Teacher
+School o-- ClubOfTeachers
 @enduml

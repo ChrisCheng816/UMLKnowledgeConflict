@@ -1,0 +1,4 @@
+@startuml
+InceptionFilm <|-- ThrillerFilm
+ThrillerFilm <|-- Entertainment
+@enduml

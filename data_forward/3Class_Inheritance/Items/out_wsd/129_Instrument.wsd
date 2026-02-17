@@ -1,0 +1,4 @@
+@startuml
+Instrument <|-- MeasuringInstrument
+MeasuringInstrument <|-- Thermometer
+@enduml

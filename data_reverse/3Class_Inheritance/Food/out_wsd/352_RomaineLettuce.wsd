@@ -1,0 +1,4 @@
+@startuml
+RomaineLettuce <|-- Lettuce
+Lettuce <|-- Vegetable
+@enduml

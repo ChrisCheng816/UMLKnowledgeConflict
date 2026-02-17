@@ -1,0 +1,4 @@
+@startuml
+RobotVacuum <|-- Vacuum
+Vacuum <|-- Appliance
+@enduml

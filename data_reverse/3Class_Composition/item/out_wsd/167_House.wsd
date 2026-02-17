@@ -1,0 +1,4 @@
+@startuml
+Wall *-- House
+Outlet *-- Wall
+@enduml

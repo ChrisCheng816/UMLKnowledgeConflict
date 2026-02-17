@@ -1,0 +1,4 @@
+@startuml
+Bread <|-- Bagel
+Bagel <|-- PlainBagel
+@enduml

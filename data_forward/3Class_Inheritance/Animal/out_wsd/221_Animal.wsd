@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Koala
+Koala <|-- KoalaBear
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Cherry
+Cherry <|-- BingCherry
+@enduml

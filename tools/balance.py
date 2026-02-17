@@ -16,14 +16,14 @@ def parse_args():
     parser.add_argument(
         "--splits",
         nargs="+",
-        choices=["forward", "reverse"],
-        default=["forward", "reverse"],
-        help="Which splits to process. Default: forward reverse",
+        choices=["reverse"],
+        default=["reverse"],
+        help="Which dataset splits to process. Default: reverse",
     )
     return parser.parse_args()
 
 
-def build_required_pairs(lines):
+def build_required_pairs(lines, pair_mode: str = "both"):
     required = []
     seen = set()
     for line in lines:
@@ -35,10 +35,11 @@ def build_required_pairs(lines):
             continue
         ab = f"{parts[0]} {parts[1]}"
         bc = f"{parts[1]} {parts[2]}"
-        if ab not in seen:
+
+        if pair_mode in ("ab", "both") and ab not in seen:
             seen.add(ab)
             required.append(ab)
-        if bc not in seen:
+        if pair_mode in ("bc", "both") and bc not in seen:
             seen.add(bc)
             required.append(bc)
     return required
@@ -56,12 +57,20 @@ def sync_split(split_root: Path):
         two_name = three_dir.name.replace("3Class_", "2Class_", 1)
         two_dir = split_root / two_name
 
+        relation = three_dir.name.casefold()
+        if "inheritance" in relation or "dependency" in relation:
+            pair_mode = "ab"
+        elif "composition" in relation or "aggregation" in relation:
+            pair_mode = "bc"
+        else:
+            pair_mode = "both"
+
         # 1) Collect all required 2-class pairs from this 3Class group.
         required_all = set()
         required_by_file = {}
         for three_file in three_dir.rglob("data.txt"):
             lines = three_file.read_text(encoding="utf-8").splitlines()
-            required = build_required_pairs(lines)
+            required = build_required_pairs(lines, pair_mode=pair_mode)
             required_by_file[three_file] = required
             required_all.update(required)
 
@@ -110,7 +119,6 @@ def main():
     root = args.root.resolve() if args.root else Path(__file__).resolve().parent.parent
 
     split_to_dir = {
-        "forward": root / "data_forward",
         "reverse": root / "data_reverse",
     }
 

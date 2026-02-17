@@ -1,4 +1,4 @@
 @startuml
-KitchenOfChefs o-- Chef
-Restaurant o-- KitchenOfChefs
+GroupOfChefs o-- Chef
+Hotel o-- GroupOfChefs
 @enduml

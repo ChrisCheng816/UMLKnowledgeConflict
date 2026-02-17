@@ -1,0 +1,4 @@
+@startuml
+Container <|-- Bin
+Bin <|-- StorageBin
+@enduml

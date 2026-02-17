@@ -1,0 +1,4 @@
+@startuml
+Trunk *-- Latch
+Car *-- Trunk
+@enduml

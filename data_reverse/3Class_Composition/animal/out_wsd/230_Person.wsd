@@ -1,0 +1,4 @@
+@startuml
+Knee *-- Person
+Patella *-- Knee
+@enduml

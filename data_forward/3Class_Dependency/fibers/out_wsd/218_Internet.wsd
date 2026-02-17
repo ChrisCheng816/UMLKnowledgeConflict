@@ -1,0 +1,4 @@
+@startuml
+CalendarApp ..> Internet
+OnlineUse ..> CalendarApp
+@enduml

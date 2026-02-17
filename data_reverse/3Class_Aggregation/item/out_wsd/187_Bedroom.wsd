@@ -1,0 +1,4 @@
+@startuml
+Drawer o-- Bedroom
+USBDrive o-- Drawer
+@enduml

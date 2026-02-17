@@ -1,4 +1,4 @@
 @startuml
-WirelessCharger ..> Electricity
-BatteryCharging ..> WirelessCharger
+Oven ..> Electricity
+HomeUse ..> Oven
 @enduml

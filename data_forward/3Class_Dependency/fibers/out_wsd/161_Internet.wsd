@@ -1,0 +1,4 @@
+@startuml
+AliExpress ..> Internet
+OnlineUse ..> AliExpress
+@enduml

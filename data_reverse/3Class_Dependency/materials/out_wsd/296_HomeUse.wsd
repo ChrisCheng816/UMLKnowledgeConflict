@@ -1,0 +1,4 @@
+@startuml
+ATM ..> HomeUse
+Electricity ..> ATM
+@enduml

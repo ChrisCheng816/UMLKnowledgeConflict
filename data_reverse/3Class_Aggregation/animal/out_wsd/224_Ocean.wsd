@@ -1,0 +1,4 @@
+@startuml
+PodOfOrcas o-- Ocean
+Orca o-- PodOfOrcas
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Pandemic <|-- CooperativeGame
+CooperativeGame <|-- BoardGame
+@enduml

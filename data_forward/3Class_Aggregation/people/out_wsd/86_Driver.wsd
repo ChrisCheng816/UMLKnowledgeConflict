@@ -1,0 +1,4 @@
+@startuml
+GroupOfDrivers o-- Driver
+Community o-- GroupOfDrivers
+@enduml

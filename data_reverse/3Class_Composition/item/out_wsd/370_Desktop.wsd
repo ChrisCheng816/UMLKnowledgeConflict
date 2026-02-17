@@ -1,0 +1,4 @@
+@startuml
+Motherboard *-- Desktop
+Trace *-- Motherboard
+@enduml

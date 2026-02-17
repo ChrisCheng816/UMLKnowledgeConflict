@@ -1,0 +1,4 @@
+@startuml
+Stationery <|-- Note
+Note <|-- StickyNote
+@enduml

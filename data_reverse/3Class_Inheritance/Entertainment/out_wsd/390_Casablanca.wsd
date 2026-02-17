@@ -1,0 +1,4 @@
+@startuml
+Casablanca <|-- DramaFilm
+DramaFilm <|-- Film
+@enduml

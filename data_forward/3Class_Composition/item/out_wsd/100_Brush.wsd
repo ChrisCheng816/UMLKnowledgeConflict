@@ -1,0 +1,4 @@
+@startuml
+Motor *-- Brush
+Vacuum *-- Motor
+@enduml

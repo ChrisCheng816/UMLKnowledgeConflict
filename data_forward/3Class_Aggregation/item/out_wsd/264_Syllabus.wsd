@@ -1,0 +1,4 @@
+@startuml
+Binder o-- Syllabus
+Backpack o-- Binder
+@enduml

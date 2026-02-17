@@ -1,0 +1,4 @@
+@startuml
+CameraModule *-- Smartphone
+CoverGlass *-- CameraModule
+@enduml

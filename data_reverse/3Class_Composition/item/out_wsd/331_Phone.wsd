@@ -1,0 +1,4 @@
+@startuml
+Screen *-- Phone
+TouchLayer *-- Screen
+@enduml

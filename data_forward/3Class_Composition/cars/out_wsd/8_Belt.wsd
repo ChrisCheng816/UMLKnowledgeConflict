@@ -1,0 +1,4 @@
+@startuml
+Engine *-- Belt
+Car *-- Engine
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Radish
+Radish <|-- DaikonRadish
+@enduml

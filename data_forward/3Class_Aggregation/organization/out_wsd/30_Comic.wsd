@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Comic
+Bookstore o-- Shelf
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Department o-- Salesperson
+Company o-- Department
+@enduml

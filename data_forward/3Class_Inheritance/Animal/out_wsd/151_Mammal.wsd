@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Horse
+Horse <|-- Clydesdale
+@enduml

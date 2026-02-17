@@ -1,4 +1,4 @@
 @startuml
-GroupOfSpeakers o-- Speaker
-Community o-- GroupOfSpeakers
+ClubOfSpeakers o-- Speaker
+School o-- ClubOfSpeakers
 @enduml

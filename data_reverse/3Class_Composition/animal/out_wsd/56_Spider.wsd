@@ -1,0 +1,4 @@
+@startuml
+Web *-- Spider
+Knot *-- Web
+@enduml

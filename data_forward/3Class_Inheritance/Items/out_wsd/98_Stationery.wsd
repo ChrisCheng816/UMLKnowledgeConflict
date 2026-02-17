@@ -1,0 +1,4 @@
+@startuml
+Stationery <|-- Pen
+Pen <|-- FountainPen
+@enduml

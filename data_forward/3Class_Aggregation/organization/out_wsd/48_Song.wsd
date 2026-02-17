@@ -1,0 +1,4 @@
+@startuml
+Library o-- Song
+MusicApp o-- Library
+@enduml

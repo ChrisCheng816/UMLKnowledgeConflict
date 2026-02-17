@@ -1,0 +1,4 @@
+@startuml
+Wheel *-- Spoke
+Car *-- Wheel
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PlumbingSystem *-- Meter
+House *-- PlumbingSystem
+@enduml

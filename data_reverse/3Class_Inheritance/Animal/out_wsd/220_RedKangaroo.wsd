@@ -1,0 +1,4 @@
+@startuml
+RedKangaroo <|-- Kangaroo
+Kangaroo <|-- Animal
+@enduml

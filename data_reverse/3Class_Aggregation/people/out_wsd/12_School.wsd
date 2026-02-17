@@ -1,4 +1,4 @@
 @startuml
-ClubOfTeachers o-- School
-Teacher o-- ClubOfTeachers
+ClubOfTutors o-- School
+Tutor o-- ClubOfTutors
 @enduml

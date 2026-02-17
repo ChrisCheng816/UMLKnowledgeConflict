@@ -1,0 +1,4 @@
+@startuml
+Lid *-- Trashcan
+Latch *-- Lid
+@enduml

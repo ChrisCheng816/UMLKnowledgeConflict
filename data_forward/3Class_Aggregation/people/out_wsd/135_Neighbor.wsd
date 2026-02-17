@@ -1,4 +1,4 @@
 @startuml
-ClubOfNeighbors o-- Neighbor
-School o-- ClubOfNeighbors
+CrewOfNeighbors o-- Neighbor
+Festival o-- CrewOfNeighbors
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- FarmingGame
+FarmingGame <|-- StardewValley
+@enduml

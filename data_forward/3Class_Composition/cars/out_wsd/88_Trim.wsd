@@ -1,0 +1,4 @@
+@startuml
+DoorPanel *-- Trim
+Car *-- DoorPanel
+@enduml

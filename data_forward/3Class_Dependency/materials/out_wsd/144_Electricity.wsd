@@ -1,4 +1,4 @@
 @startuml
-MotionSensor ..> Electricity
-Surveillance ..> MotionSensor
+NightLight ..> Electricity
+Illumination ..> NightLight
 @enduml

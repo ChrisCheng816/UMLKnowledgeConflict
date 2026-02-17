@@ -1,0 +1,4 @@
+@startuml
+Foodpanda ..> OnlineUse
+Internet ..> Foodpanda
+@enduml

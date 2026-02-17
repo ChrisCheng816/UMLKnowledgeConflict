@@ -1,0 +1,4 @@
+@startuml
+Instacart ..> Internet
+OnlineUse ..> Instacart
+@enduml

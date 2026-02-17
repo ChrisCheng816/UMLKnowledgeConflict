@@ -1,4 +1,4 @@
 @startuml
-StreamingBox ..> Electricity
-VideoStreaming ..> StreamingBox
+TabletCharger ..> Electricity
+BatteryCharging ..> TabletCharger
 @enduml

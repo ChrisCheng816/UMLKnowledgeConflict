@@ -1,0 +1,4 @@
+@startuml
+SugarPumpkin <|-- Pumpkin
+Pumpkin <|-- Vegetable
+@enduml

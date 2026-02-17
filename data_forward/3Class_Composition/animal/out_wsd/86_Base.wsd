@@ -1,0 +1,4 @@
+@startuml
+Antler *-- Base
+Deer *-- Antler
+@enduml

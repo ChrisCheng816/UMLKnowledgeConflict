@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Turkey
+Turkey <|-- WildTurkey
+@enduml

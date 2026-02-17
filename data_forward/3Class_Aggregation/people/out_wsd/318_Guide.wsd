@@ -1,4 +1,4 @@
 @startuml
-GroupOfGuides o-- Guide
-Community o-- GroupOfGuides
+ClubOfGuides o-- Guide
+School o-- ClubOfGuides
 @enduml

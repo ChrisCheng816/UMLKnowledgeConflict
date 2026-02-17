@@ -1,4 +1,4 @@
 @startuml
-GroupOfSingers o-- Singer
-Concert o-- GroupOfSingers
+ClubOfSingers o-- Singer
+Club o-- ClubOfSingers
 @enduml

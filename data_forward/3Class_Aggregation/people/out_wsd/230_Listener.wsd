@@ -1,4 +1,4 @@
 @startuml
-ClubOfListeners o-- Listener
-School o-- ClubOfListeners
+CrewOfListeners o-- Listener
+Festival o-- CrewOfListeners
 @enduml

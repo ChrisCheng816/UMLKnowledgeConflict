@@ -1,0 +1,4 @@
+@startuml
+LawnMower ..> Electricity
+HomeUse ..> LawnMower
+@enduml

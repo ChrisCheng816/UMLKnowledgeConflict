@@ -1,4 +1,4 @@
 @startuml
 Sport <|-- WinterSport
-WinterSport <|-- ShortTrackSpeedSkating
+WinterSport <|-- Bobsleigh
 @enduml

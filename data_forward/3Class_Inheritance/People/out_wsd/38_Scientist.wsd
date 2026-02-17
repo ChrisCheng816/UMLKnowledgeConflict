@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- Astronomer
+Astronomer <|-- Galileo
+@enduml

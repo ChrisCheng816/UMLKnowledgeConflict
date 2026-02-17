@@ -1,0 +1,4 @@
+@startuml
+BarackObama <|-- President
+President <|-- Politician
+@enduml

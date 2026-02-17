@@ -1,0 +1,4 @@
+@startuml
+Queue o-- Episode
+StreamingService o-- Queue
+@enduml

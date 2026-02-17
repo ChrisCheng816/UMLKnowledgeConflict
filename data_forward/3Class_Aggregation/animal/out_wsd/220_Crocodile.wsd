@@ -1,0 +1,4 @@
+@startuml
+GroupOfCrocodiles o-- Crocodile
+River o-- GroupOfCrocodiles
+@enduml

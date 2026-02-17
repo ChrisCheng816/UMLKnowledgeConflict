@@ -1,4 +1,4 @@
 @startuml
-PorchLight ..> Electricity
-NightLighting ..> PorchLight
+PowerStrip ..> Electricity
+BatteryCharging ..> PowerStrip
 @enduml

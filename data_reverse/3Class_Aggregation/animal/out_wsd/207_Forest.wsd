@@ -1,0 +1,4 @@
+@startuml
+SwarmOfBees o-- Forest
+Bee o-- SwarmOfBees
+@enduml

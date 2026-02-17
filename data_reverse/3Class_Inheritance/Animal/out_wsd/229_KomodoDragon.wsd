@@ -1,0 +1,4 @@
+@startuml
+KomodoDragon <|-- Lizard
+Lizard <|-- Animal
+@enduml

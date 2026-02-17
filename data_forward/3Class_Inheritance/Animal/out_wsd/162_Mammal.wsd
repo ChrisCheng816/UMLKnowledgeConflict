@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Wolf
+Wolf <|-- GrayWolf
+@enduml

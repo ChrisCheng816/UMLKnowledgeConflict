@@ -1,0 +1,4 @@
+@startuml
+WhiteStork <|-- Stork
+Stork <|-- Bird
+@enduml

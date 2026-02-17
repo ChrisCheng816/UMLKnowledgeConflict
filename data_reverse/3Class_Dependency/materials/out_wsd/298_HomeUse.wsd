@@ -1,0 +1,4 @@
+@startuml
+IceMaker ..> HomeUse
+Electricity ..> IceMaker
+@enduml

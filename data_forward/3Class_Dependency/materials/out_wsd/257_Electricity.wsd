@@ -1,0 +1,4 @@
+@startuml
+GamingConsole ..> Electricity
+HomeUse ..> GamingConsole
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+MaineCoon <|-- Cat
+Cat <|-- Animal
+@enduml

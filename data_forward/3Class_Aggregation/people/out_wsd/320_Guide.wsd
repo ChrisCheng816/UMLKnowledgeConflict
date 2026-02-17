@@ -1,4 +1,4 @@
 @startuml
-ClubOfGuides o-- Guide
-School o-- ClubOfGuides
+CrewOfGuides o-- Guide
+Festival o-- CrewOfGuides
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Mouth *-- Person
+Palate *-- Mouth
+@enduml

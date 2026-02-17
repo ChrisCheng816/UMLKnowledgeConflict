@@ -1,0 +1,4 @@
+@startuml
+AirplaneEngine ..> Fuel
+TransportUse ..> AirplaneEngine
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Door *-- House
+Latch *-- Door
+@enduml

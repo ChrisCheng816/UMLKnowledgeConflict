@@ -1,0 +1,4 @@
+@startuml
+CampingGear <|-- Pad
+Pad <|-- SleepingPad
+@enduml

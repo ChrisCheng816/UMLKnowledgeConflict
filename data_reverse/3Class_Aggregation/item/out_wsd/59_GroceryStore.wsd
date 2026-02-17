@@ -1,0 +1,4 @@
+@startuml
+Basket o-- GroceryStore
+Cauliflower o-- Basket
+@enduml

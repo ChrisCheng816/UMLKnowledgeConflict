@@ -1,0 +1,4 @@
+@startuml
+Processor *-- Pin
+Desktop *-- Processor
+@enduml

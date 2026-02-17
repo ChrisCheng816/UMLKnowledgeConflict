@@ -1,4 +1,4 @@
 @startuml
-ClubOfSpeakers o-- Speaker
-School o-- ClubOfSpeakers
+CrewOfSpeakers o-- Speaker
+Festival o-- CrewOfSpeakers
 @enduml

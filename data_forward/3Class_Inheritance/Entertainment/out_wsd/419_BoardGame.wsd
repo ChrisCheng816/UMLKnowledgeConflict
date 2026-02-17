@@ -1,0 +1,4 @@
+@startuml
+BoardGame <|-- StrategyBoardGame
+StrategyBoardGame <|-- Catan
+@enduml

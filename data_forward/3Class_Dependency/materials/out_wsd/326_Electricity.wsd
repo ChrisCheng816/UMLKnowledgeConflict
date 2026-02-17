@@ -1,0 +1,4 @@
+@startuml
+TileCutter ..> Electricity
+HomeUse ..> TileCutter
+@enduml

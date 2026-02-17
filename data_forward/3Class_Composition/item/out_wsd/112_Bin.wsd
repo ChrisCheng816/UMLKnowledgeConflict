@@ -1,0 +1,4 @@
+@startuml
+Canister *-- Bin
+Vacuum *-- Canister
+@enduml

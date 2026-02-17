@@ -1,0 +1,4 @@
+@startuml
+Ward o-- Pharmacist
+Hospital o-- Ward
+@enduml

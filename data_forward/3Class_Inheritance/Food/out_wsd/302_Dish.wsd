@@ -1,0 +1,4 @@
+@startuml
+Dish <|-- EggDish
+EggDish <|-- Omelette
+@enduml

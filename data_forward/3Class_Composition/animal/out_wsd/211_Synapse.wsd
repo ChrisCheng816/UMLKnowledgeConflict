@@ -1,0 +1,4 @@
+@startuml
+Brain *-- Synapse
+Person *-- Brain
+@enduml

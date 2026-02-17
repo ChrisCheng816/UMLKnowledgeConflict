@@ -1,0 +1,4 @@
+@startuml
+TableFan ..> HomeUse
+Electricity ..> TableFan
+@enduml

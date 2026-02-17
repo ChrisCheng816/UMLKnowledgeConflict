@@ -1,4 +1,4 @@
 @startuml
-ClubOfGardeners o-- Gardener
-School o-- ClubOfGardeners
+CrewOfGardeners o-- Gardener
+Festival o-- CrewOfGardeners
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Furniture <|-- Table
+Table <|-- DiningTable
+@enduml

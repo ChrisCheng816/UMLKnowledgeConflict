@@ -1,0 +1,4 @@
+@startuml
+Laboratory o-- Reagent
+University o-- Laboratory
+@enduml

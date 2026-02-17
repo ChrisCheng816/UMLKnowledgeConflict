@@ -1,0 +1,4 @@
+@startuml
+Microwave ..> Electricity
+HomeUse ..> Microwave
+@enduml

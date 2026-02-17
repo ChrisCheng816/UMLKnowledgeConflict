@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- PoliceCar
+City o-- Fleet
+@enduml

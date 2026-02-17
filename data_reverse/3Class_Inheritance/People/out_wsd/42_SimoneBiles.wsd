@@ -1,0 +1,4 @@
+@startuml
+SimoneBiles <|-- Gymnast
+Gymnast <|-- Athlete
+@enduml

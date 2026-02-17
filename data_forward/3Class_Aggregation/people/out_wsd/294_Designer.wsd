@@ -1,4 +1,4 @@
 @startuml
-TeamOfDesigners o-- Designer
-Club o-- TeamOfDesigners
+StaffOfDesigners o-- Designer
+Company o-- StaffOfDesigners
 @enduml

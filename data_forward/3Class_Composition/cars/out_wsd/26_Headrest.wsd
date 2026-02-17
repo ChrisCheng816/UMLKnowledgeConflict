@@ -1,0 +1,4 @@
+@startuml
+Seat *-- Headrest
+Car *-- Seat
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SmartTV <|-- Television
+Television <|-- Electronics
+@enduml

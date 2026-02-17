@@ -1,0 +1,4 @@
+@startuml
+Suspension *-- Mount
+Car *-- Suspension
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Port *-- Contact
+Laptop *-- Port
+@enduml

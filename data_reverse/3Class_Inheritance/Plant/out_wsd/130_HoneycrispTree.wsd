@@ -1,0 +1,4 @@
+@startuml
+HoneycrispTree <|-- AppleTree
+AppleTree <|-- Plant
+@enduml

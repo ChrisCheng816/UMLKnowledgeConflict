@@ -1,0 +1,4 @@
+@startuml
+Chimney *-- Flue
+House *-- Chimney
+@enduml

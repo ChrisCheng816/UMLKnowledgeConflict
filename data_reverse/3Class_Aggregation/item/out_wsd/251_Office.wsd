@@ -1,0 +1,4 @@
+@startuml
+Folder o-- Office
+Invoice o-- Folder
+@enduml

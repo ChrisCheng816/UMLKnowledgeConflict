@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Monkey
+Monkey <|-- Capuchin
+@enduml

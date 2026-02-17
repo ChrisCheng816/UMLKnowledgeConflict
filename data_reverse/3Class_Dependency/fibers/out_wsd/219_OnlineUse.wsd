@@ -1,0 +1,4 @@
+@startuml
+NotesApp ..> OnlineUse
+Internet ..> NotesApp
+@enduml

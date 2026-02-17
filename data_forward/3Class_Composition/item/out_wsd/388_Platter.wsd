@@ -1,0 +1,4 @@
+@startuml
+Drive *-- Platter
+Desktop *-- Drive
+@enduml

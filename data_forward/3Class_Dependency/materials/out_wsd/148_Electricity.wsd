@@ -1,4 +1,4 @@
 @startuml
 PhoneCharger ..> Electricity
-BatteryCharging ..> PhoneCharger
+DeviceCharging ..> PhoneCharger
 @enduml

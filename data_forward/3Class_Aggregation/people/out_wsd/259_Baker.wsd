@@ -1,4 +1,4 @@
 @startuml
-TeamOfBakers o-- Baker
-Club o-- TeamOfBakers
+StaffOfBakers o-- Baker
+Company o-- StaffOfBakers
 @enduml

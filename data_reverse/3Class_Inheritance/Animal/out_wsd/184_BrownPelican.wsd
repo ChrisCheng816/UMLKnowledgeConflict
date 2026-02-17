@@ -1,0 +1,4 @@
+@startuml
+BrownPelican <|-- Pelican
+Pelican <|-- Bird
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-CrewOfActors o-- Actor
-FilmSet o-- CrewOfActors
+TeamOfActors o-- Actor
+Theater o-- TeamOfActors
 @enduml

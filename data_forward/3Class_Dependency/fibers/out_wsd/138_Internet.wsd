@@ -1,0 +1,4 @@
+@startuml
+GitLab ..> Internet
+OnlineUse ..> GitLab
+@enduml

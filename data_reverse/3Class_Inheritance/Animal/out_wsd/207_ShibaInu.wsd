@@ -1,0 +1,4 @@
+@startuml
+ShibaInu <|-- Dog
+Dog <|-- Animal
+@enduml

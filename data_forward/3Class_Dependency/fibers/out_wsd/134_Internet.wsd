@@ -1,0 +1,4 @@
+@startuml
+Canva ..> Internet
+OnlineUse ..> Canva
+@enduml

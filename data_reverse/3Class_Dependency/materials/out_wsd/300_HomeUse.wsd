@@ -1,0 +1,4 @@
+@startuml
+GarmentSteamer ..> HomeUse
+Electricity ..> GarmentSteamer
+@enduml

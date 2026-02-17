@@ -1,0 +1,4 @@
+@startuml
+Athlete <|-- Swimmer
+Swimmer <|-- KatieLedecky
+@enduml

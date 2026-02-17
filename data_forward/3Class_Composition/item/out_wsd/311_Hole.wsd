@@ -1,0 +1,4 @@
+@startuml
+Band *-- Hole
+Watch *-- Band
+@enduml

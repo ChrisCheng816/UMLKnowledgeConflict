@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Taekwondo
+Taekwondo <|-- OlympicTaekwondo
+@enduml

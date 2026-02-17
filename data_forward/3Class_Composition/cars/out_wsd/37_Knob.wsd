@@ -1,0 +1,4 @@
+@startuml
+Dashboard *-- Knob
+Car *-- Dashboard
+@enduml

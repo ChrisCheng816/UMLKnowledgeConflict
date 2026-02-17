@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Cactus
-Cactus <|-- ChristmasCactus
+Plant <|-- Succulent
+Succulent <|-- AloeVera
 @enduml

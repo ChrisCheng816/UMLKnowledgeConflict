@@ -1,0 +1,4 @@
+@startuml
+HelicopterEngine ..> TransportUse
+Fuel ..> HelicopterEngine
+@enduml

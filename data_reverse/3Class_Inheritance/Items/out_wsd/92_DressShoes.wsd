@@ -1,0 +1,4 @@
+@startuml
+DressShoes <|-- Shoes
+Shoes <|-- Clothing
+@enduml

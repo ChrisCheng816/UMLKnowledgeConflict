@@ -1,0 +1,4 @@
+@startuml
+LifeJacket <|-- Vest
+Vest <|-- SafetyGear
+@enduml

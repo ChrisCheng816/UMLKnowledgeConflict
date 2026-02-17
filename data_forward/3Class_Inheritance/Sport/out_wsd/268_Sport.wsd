@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Badminton
+Badminton <|-- OlympicBadminton
+@enduml

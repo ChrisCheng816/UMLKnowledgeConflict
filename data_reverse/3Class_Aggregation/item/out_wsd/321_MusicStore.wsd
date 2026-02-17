@@ -1,0 +1,4 @@
+@startuml
+InstrumentRack o-- MusicStore
+Harmonica o-- InstrumentRack
+@enduml

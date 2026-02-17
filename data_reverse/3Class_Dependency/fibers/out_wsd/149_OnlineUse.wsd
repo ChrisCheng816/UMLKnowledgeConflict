@@ -1,0 +1,4 @@
+@startuml
+Waze ..> OnlineUse
+Internet ..> Waze
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-GroupOfFriends o-- Friend
-Community o-- GroupOfFriends
+ClubOfFriends o-- Friend
+School o-- ClubOfFriends
 @enduml

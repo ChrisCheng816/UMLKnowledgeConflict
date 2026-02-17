@@ -1,0 +1,4 @@
+@startuml
+ClubOfParents o-- School
+Parent o-- ClubOfParents
+@enduml

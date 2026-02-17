@@ -1,0 +1,4 @@
+@startuml
+SherlockNovel <|-- Novel
+Novel <|-- Entertainment
+@enduml

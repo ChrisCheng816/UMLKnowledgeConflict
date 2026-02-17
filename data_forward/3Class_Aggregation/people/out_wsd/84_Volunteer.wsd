@@ -1,4 +1,4 @@
 @startuml
-TeamOfVolunteers o-- Volunteer
-Charity o-- TeamOfVolunteers
+CrewOfVolunteers o-- Volunteer
+Festival o-- CrewOfVolunteers
 @enduml

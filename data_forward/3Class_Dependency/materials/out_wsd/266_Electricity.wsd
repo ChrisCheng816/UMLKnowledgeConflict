@@ -1,0 +1,4 @@
+@startuml
+DVDPlayer ..> Electricity
+HomeUse ..> DVDPlayer
+@enduml

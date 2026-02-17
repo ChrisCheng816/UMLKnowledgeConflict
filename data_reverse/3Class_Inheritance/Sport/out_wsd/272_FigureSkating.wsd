@@ -1,0 +1,4 @@
+@startuml
+FigureSkating <|-- Skating
+Skating <|-- Sport
+@enduml

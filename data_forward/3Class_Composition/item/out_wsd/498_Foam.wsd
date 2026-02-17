@@ -1,0 +1,4 @@
+@startuml
+Mattress *-- Foam
+Bed *-- Mattress
+@enduml

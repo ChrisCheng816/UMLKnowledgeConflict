@@ -1,0 +1,4 @@
+@startuml
+Schedule o-- Movie
+Cinema o-- Schedule
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GarageDoor *-- Seal
+House *-- GarageDoor
+@enduml

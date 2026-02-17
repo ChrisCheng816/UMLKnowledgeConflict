@@ -1,0 +1,4 @@
+@startuml
+Toolbox o-- Paintbrush
+Garage o-- Toolbox
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- SeaLion
+SeaLion <|-- CaliforniaSeaLion
+@enduml

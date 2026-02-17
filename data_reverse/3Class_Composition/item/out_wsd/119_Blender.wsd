@@ -1,0 +1,4 @@
+@startuml
+Jar *-- Blender
+Thread *-- Jar
+@enduml

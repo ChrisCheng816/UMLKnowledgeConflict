@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Bracket
+Chair *-- Leg
+@enduml

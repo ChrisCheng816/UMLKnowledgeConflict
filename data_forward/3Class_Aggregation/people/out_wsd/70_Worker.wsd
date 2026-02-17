@@ -1,4 +1,4 @@
 @startuml
-TeamOfWorkers o-- Worker
-Company o-- TeamOfWorkers
+StaffOfWorkers o-- Worker
+Store o-- StaffOfWorkers
 @enduml

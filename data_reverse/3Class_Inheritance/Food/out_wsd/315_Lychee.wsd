@@ -1,0 +1,4 @@
+@startuml
+Lychee <|-- TropicalFruit
+TropicalFruit <|-- Fruit
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Pepper
+Pepper <|-- Jalapeno
+@enduml

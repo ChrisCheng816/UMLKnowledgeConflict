@@ -1,4 +1,4 @@
 @startuml
-StaffOfWaiters o-- Waiter
-Restaurant o-- StaffOfWaiters
+GroupOfWaiters o-- Waiter
+Hotel o-- GroupOfWaiters
 @enduml

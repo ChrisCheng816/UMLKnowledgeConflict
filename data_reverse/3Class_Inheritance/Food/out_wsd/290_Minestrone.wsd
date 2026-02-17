@@ -1,0 +1,4 @@
+@startuml
+Minestrone <|-- Soup
+Soup <|-- Dish
+@enduml

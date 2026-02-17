@@ -1,4 +1,4 @@
 @startuml
 GasWaterHeater ..> NaturalGas
-HotWater ..> GasWaterHeater
+Showering ..> GasWaterHeater
 @enduml

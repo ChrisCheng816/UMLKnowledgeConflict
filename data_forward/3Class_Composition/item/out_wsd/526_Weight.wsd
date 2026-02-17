@@ -1,0 +1,4 @@
+@startuml
+Base *-- Weight
+Lamp *-- Base
+@enduml

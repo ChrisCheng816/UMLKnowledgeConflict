@@ -1,0 +1,4 @@
+@startuml
+Microphone *-- Phone
+Mesh *-- Microphone
+@enduml

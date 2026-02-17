@@ -1,0 +1,4 @@
+@startuml
+SaltwaterCrocodile <|-- Crocodile
+Crocodile <|-- Reptile
+@enduml

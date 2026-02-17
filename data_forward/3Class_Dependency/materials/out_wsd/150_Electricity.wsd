@@ -1,4 +1,4 @@
 @startuml
-PhoneCharger ..> Electricity
-PowerSupply ..> PhoneCharger
+PorchLight ..> Electricity
+Illumination ..> PorchLight
 @enduml

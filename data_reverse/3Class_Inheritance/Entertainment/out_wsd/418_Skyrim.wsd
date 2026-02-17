@@ -1,0 +1,4 @@
+@startuml
+Skyrim <|-- RolePlayingGame
+RolePlayingGame <|-- VideoGame
+@enduml

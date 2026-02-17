@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Syrup
+Pharmacy o-- Cabinet
+@enduml

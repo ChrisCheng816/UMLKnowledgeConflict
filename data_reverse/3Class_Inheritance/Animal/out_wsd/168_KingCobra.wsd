@@ -1,0 +1,4 @@
+@startuml
+KingCobra <|-- Cobra
+Cobra <|-- Snake
+@enduml

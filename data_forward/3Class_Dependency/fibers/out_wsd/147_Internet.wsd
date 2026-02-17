@@ -1,0 +1,4 @@
+@startuml
+Wikipedia ..> Internet
+OnlineUse ..> Wikipedia
+@enduml

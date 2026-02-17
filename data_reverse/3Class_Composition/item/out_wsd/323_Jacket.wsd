@@ -1,0 +1,4 @@
+@startuml
+Zipper *-- Jacket
+Slider *-- Zipper
+@enduml

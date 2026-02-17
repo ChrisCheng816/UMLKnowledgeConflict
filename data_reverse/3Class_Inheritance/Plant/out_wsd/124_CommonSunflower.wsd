@@ -1,0 +1,4 @@
+@startuml
+CommonSunflower <|-- Sunflower
+Sunflower <|-- Plant
+@enduml

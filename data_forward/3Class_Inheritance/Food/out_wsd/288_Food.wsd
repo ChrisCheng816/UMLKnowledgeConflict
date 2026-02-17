@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Sausage
+Sausage <|-- Chorizo
+@enduml

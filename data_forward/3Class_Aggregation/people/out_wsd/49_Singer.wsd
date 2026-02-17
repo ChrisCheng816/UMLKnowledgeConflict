@@ -1,4 +1,4 @@
 @startuml
-BandOfSingers o-- Singer
-Festival o-- BandOfSingers
+TeamOfSingers o-- Singer
+School o-- TeamOfSingers
 @enduml

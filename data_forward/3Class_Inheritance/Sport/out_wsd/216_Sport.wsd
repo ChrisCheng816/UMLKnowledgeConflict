@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport
-IndividualSport <|-- Freerunning
+Sport <|-- Handball
+Handball <|-- BeachHandball
 @enduml

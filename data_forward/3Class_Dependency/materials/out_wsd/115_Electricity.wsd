@@ -1,4 +1,4 @@
 @startuml
 HeadphoneAmplifier ..> Electricity
-AudioStreaming ..> HeadphoneAmplifier
+MusicPlayback ..> HeadphoneAmplifier
 @enduml

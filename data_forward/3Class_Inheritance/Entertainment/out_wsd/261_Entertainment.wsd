@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- TheIncredibles
+Entertainment <|-- TVSeries
+TVSeries <|-- TheSimpsons
 @enduml

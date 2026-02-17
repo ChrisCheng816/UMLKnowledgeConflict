@@ -1,0 +1,4 @@
+@startuml
+Turntable *-- Support
+Microwave *-- Turntable
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+YuriGagarin <|-- Cosmonaut
+Cosmonaut <|-- Explorer
+@enduml

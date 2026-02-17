@@ -1,0 +1,4 @@
+@startuml
+Chimney *-- House
+Mortar *-- Chimney
+@enduml

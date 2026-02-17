@@ -1,0 +1,4 @@
+@startuml
+Canister *-- Port
+Vacuum *-- Canister
+@enduml

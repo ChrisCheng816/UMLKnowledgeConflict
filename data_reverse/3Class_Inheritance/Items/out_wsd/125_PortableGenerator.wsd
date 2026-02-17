@@ -1,0 +1,4 @@
+@startuml
+PortableGenerator <|-- Generator
+Generator <|-- Machine
+@enduml

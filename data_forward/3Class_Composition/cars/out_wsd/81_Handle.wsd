@@ -1,0 +1,4 @@
+@startuml
+DoorPanel *-- Handle
+Car *-- DoorPanel
+@enduml

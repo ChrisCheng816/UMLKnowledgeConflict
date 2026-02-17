@@ -1,0 +1,4 @@
+@startuml
+RichardFeynman <|-- QuantumPhysicist
+QuantumPhysicist <|-- Physicist
+@enduml

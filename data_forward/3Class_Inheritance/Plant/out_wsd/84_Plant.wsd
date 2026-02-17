@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Shrub
-Shrub <|-- CamelliaShrub
+Plant <|-- Fern
+Fern <|-- BostonFern
 @enduml

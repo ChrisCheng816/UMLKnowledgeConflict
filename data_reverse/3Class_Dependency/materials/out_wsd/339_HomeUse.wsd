@@ -1,0 +1,4 @@
+@startuml
+Webcam ..> HomeUse
+Electricity ..> Webcam
+@enduml

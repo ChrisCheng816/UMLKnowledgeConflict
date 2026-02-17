@@ -1,0 +1,4 @@
+@startuml
+SwarmOfMosquitoes o-- Porch
+Mosquito o-- SwarmOfMosquitoes
+@enduml

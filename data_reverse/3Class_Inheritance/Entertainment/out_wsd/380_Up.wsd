@@ -1,0 +1,4 @@
+@startuml
+Up <|-- AdventureFilm
+AdventureFilm <|-- Film
+@enduml

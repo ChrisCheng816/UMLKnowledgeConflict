@@ -1,0 +1,4 @@
+@startuml
+Port *-- Connector
+Laptop *-- Port
+@enduml

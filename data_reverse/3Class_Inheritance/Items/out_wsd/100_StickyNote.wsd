@@ -1,0 +1,4 @@
+@startuml
+StickyNote <|-- Note
+Note <|-- Stationery
+@enduml

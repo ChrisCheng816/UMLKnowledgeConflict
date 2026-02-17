@@ -1,0 +1,4 @@
+@startuml
+Rutabaga <|-- RootVegetable
+RootVegetable <|-- Vegetable
+@enduml

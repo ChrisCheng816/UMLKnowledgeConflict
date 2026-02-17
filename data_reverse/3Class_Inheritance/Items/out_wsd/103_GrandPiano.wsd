@@ -1,0 +1,4 @@
+@startuml
+GrandPiano <|-- Piano
+Piano <|-- Instrument
+@enduml

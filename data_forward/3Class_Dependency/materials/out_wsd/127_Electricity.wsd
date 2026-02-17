@@ -1,4 +1,4 @@
 @startuml
 KitchenLight ..> Electricity
-Illumination ..> KitchenLight
+Lighting ..> KitchenLight
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+BathTowel <|-- Towel
+Towel <|-- Linen
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SoyMilk <|-- Milk
+Milk <|-- Beverage
+@enduml

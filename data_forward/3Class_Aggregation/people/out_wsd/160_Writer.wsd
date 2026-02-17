@@ -1,4 +1,4 @@
 @startuml
-CircleOfWriters o-- Writer
-Cafe o-- CircleOfWriters
+StaffOfWriters o-- Writer
+Company o-- StaffOfWriters
 @enduml

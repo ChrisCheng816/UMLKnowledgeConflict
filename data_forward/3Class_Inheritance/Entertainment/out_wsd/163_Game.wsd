@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame
-BoardGame <|-- Scythe
+Game <|-- CardGame
+CardGame <|-- Bridge
 @enduml

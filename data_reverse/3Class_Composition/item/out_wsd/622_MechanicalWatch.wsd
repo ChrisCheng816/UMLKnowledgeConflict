@@ -1,0 +1,4 @@
+@startuml
+Movement *-- MechanicalWatch
+Escapement *-- Movement
+@enduml

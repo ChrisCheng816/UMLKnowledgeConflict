@@ -1,0 +1,4 @@
+@startuml
+NiagaraFalls <|-- Waterfall
+Waterfall <|-- GeographicFeature
+@enduml

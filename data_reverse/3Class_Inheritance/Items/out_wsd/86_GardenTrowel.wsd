@@ -1,0 +1,4 @@
+@startuml
+GardenTrowel <|-- Trowel
+Trowel <|-- Tool
+@enduml

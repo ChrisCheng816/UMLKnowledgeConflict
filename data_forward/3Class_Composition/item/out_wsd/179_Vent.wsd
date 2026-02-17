@@ -1,0 +1,4 @@
+@startuml
+Ceiling *-- Vent
+House *-- Ceiling
+@enduml

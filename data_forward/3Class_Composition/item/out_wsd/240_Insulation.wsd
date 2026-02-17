@@ -1,0 +1,4 @@
+@startuml
+Basement *-- Insulation
+House *-- Basement
+@enduml

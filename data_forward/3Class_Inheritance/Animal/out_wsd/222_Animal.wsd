@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Panda
+Panda <|-- GiantPanda
+@enduml

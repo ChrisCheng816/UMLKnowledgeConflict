@@ -1,0 +1,4 @@
+@startuml
+AlbertEinstein <|-- TheoreticalPhysicist
+TheoreticalPhysicist <|-- Physicist
+@enduml

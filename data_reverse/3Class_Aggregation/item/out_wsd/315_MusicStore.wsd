@@ -1,0 +1,4 @@
+@startuml
+InstrumentRack o-- MusicStore
+Piano o-- InstrumentRack
+@enduml

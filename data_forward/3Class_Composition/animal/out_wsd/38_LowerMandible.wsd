@@ -1,0 +1,4 @@
+@startuml
+Beak *-- LowerMandible
+Eagle *-- Beak
+@enduml

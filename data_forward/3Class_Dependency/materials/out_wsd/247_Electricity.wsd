@@ -1,0 +1,4 @@
+@startuml
+InductionCooker ..> Electricity
+HomeUse ..> InductionCooker
+@enduml

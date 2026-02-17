@@ -1,0 +1,4 @@
+@startuml
+GlueGun ..> Electricity
+HomeUse ..> GlueGun
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BluefinTuna <|-- Tuna
+Tuna <|-- Animal
+@enduml

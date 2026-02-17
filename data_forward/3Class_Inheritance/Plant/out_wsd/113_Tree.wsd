@@ -1,0 +1,4 @@
+@startuml
+Tree <|-- Oak
+Oak <|-- RedOak
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-GroupOfShoppers o-- Shopper
-Community o-- GroupOfShoppers
+ClubOfShoppers o-- Shopper
+School o-- ClubOfShoppers
 @enduml

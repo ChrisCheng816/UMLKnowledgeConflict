@@ -1,4 +1,4 @@
 @startuml
 Food <|-- Sandwich
-Sandwich <|-- TurkeySandwich
+Sandwich <|-- VeggieSandwich
 @enduml

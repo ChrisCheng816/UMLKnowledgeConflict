@@ -1,0 +1,4 @@
+@startuml
+XApp ..> Internet
+OnlineUse ..> XApp
+@enduml

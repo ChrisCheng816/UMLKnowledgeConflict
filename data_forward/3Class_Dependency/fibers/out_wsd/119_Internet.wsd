@@ -1,0 +1,4 @@
+@startuml
+YahooMail ..> Internet
+OnlineUse ..> YahooMail
+@enduml

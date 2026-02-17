@@ -1,0 +1,4 @@
+@startuml
+Shelf *-- Support
+Cabinet *-- Shelf
+@enduml

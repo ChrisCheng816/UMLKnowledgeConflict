@@ -1,0 +1,4 @@
+@startuml
+MourningDove <|-- Dove
+Dove <|-- Bird
+@enduml

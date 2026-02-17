@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- AthleticsSport
-AthleticsSport <|-- MarathonRunning
+Sport <|-- GymnasticsSport
+GymnasticsSport <|-- AcrobaticGymnastics
 @enduml

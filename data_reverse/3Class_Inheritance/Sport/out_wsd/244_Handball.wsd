@@ -1,0 +1,4 @@
+@startuml
+Handball <|-- TeamSport
+TeamSport <|-- Sport
+@enduml

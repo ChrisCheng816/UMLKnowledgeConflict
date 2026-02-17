@@ -1,0 +1,4 @@
+@startuml
+ExerciseEquipment <|-- Weight
+Weight <|-- Dumbbell
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Basket o-- GroceryStore
+Lettuce o-- Basket
+@enduml

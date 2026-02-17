@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Sanitizer
+Pharmacy o-- Cabinet
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+VeiledChameleon <|-- Chameleon
+Chameleon <|-- Lizard
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CommonRaven <|-- Raven
+Raven <|-- Bird
+@enduml

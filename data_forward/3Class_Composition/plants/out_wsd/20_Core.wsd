@@ -1,0 +1,4 @@
+@startuml
+Fruit *-- Core
+Apple *-- Fruit
+@enduml

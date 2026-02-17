@@ -1,0 +1,4 @@
+@startuml
+GroupOfSalamanders o-- Stream
+Salamander o-- GroupOfSalamanders
+@enduml

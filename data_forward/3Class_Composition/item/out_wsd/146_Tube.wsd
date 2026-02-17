@@ -1,0 +1,4 @@
+@startuml
+Pump *-- Tube
+CoffeeMaker *-- Pump
+@enduml

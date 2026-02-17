@@ -1,0 +1,4 @@
+@startuml
+MeyerLemon <|-- Lemon
+Lemon <|-- CitrusFruit
+@enduml

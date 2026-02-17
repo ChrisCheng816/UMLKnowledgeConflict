@@ -1,0 +1,4 @@
+@startuml
+Nebulizer ..> Electricity
+HomeUse ..> Nebulizer
+@enduml

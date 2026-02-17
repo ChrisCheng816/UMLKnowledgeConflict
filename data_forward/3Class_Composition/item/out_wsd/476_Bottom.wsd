@@ -1,0 +1,4 @@
+@startuml
+Drawer *-- Bottom
+Desk *-- Drawer
+@enduml

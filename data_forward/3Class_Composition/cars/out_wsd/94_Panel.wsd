@@ -1,0 +1,4 @@
+@startuml
+Hood *-- Panel
+Car *-- Hood
+@enduml

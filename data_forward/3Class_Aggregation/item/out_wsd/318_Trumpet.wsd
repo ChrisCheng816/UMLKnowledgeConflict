@@ -1,0 +1,4 @@
+@startuml
+InstrumentRack o-- Trumpet
+MusicStore o-- InstrumentRack
+@enduml

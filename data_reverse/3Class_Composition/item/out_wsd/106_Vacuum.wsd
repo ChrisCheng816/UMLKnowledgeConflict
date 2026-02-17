@@ -1,0 +1,4 @@
+@startuml
+Canister *-- Vacuum
+Filter *-- Canister
+@enduml

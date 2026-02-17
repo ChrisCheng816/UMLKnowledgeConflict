@@ -1,0 +1,4 @@
+@startuml
+WaffleMaker ..> Electricity
+HomeUse ..> WaffleMaker
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GeneratorEngine ..> Fuel
+TransportUse ..> GeneratorEngine
+@enduml

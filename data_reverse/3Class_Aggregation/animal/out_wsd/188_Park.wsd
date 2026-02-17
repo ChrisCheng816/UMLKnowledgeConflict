@@ -1,0 +1,4 @@
+@startuml
+GroupOfDogs o-- Park
+Dog o-- GroupOfDogs
+@enduml

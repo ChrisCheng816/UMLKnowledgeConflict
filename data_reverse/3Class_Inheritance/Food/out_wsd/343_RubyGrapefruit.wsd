@@ -1,0 +1,4 @@
+@startuml
+RubyGrapefruit <|-- Grapefruit
+Grapefruit <|-- Fruit
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DJController ..> Electricity
+HomeUse ..> DJController
+@enduml

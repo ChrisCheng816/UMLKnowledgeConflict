@@ -1,4 +1,4 @@
 @startuml
 SecurityCamera ..> Electricity
-HomeSecurity ..> SecurityCamera
+MotionDetection ..> SecurityCamera
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Appliance <|-- Mixer
+Mixer <|-- StandMixer
+@enduml

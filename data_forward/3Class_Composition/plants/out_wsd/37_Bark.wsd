@@ -1,0 +1,4 @@
+@startuml
+Root *-- Bark
+Carrot *-- Root
+@enduml

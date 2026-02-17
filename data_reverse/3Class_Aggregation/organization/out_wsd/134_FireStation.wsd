@@ -1,0 +1,4 @@
+@startuml
+Crew o-- FireStation
+Captain o-- Crew
+@enduml

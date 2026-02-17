@@ -1,0 +1,4 @@
+@startuml
+CommonCarp <|-- Carp
+Carp <|-- Fish
+@enduml

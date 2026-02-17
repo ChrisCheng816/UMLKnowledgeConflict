@@ -1,0 +1,4 @@
+@startuml
+Notion ..> Internet
+OnlineUse ..> Notion
+@enduml

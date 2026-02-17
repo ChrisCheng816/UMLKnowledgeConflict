@@ -1,0 +1,4 @@
+@startuml
+Drive *-- Desktop
+Bearing *-- Drive
+@enduml

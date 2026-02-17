@@ -1,0 +1,4 @@
+@startuml
+GroupOfAlligators o-- River
+Alligator o-- GroupOfAlligators
+@enduml

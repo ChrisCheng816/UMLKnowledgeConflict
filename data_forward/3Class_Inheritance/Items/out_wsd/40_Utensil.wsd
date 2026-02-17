@@ -1,0 +1,4 @@
+@startuml
+Utensil <|-- Spoon
+Spoon <|-- Teaspoon
+@enduml

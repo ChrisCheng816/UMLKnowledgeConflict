@@ -1,0 +1,4 @@
+@startuml
+Compressor *-- Spring
+Refrigerator *-- Compressor
+@enduml

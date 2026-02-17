@@ -1,0 +1,4 @@
+@startuml
+Canister *-- Wheel
+Vacuum *-- Canister
+@enduml

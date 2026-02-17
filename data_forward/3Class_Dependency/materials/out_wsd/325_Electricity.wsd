@@ -1,0 +1,4 @@
+@startuml
+BandSaw ..> Electricity
+HomeUse ..> BandSaw
+@enduml

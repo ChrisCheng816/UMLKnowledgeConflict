@@ -1,0 +1,4 @@
+@startuml
+NBABasketball <|-- Basketball
+Basketball <|-- Sport
+@enduml

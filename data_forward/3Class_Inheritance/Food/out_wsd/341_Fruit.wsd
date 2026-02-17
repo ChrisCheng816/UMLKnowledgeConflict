@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Coconut
+Coconut <|-- YoungCoconut
+@enduml

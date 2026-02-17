@@ -1,0 +1,4 @@
+@startuml
+Andes <|-- MountainRange
+MountainRange <|-- GeographicFeature
+@enduml

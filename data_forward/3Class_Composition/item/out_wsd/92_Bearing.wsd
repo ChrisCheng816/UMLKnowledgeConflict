@@ -1,0 +1,4 @@
+@startuml
+Drum *-- Bearing
+Washer *-- Drum
+@enduml

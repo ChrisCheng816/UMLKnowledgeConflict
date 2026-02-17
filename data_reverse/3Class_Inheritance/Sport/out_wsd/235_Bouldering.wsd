@@ -1,0 +1,4 @@
+@startuml
+Bouldering <|-- Climbing
+Climbing <|-- Sport
+@enduml

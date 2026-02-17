@@ -1,4 +1,4 @@
 @startuml
-ClubOfReceptionists o-- Receptionist
-School o-- ClubOfReceptionists
+CrewOfReceptionists o-- Receptionist
+Festival o-- CrewOfReceptionists
 @enduml

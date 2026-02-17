@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Mug
+Kitchen o-- Cabinet
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ApplePay ..> OnlineUse
+Internet ..> ApplePay
+@enduml

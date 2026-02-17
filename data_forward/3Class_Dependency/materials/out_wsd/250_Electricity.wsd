@@ -1,0 +1,4 @@
+@startuml
+BreadMaker ..> Electricity
+HomeUse ..> BreadMaker
+@enduml

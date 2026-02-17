@@ -1,0 +1,4 @@
+@startuml
+Column *-- Quote
+Newspaper *-- Column
+@enduml

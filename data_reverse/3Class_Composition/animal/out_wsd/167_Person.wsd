@@ -1,0 +1,4 @@
+@startuml
+Eye *-- Person
+TearDuct *-- Eye
+@enduml

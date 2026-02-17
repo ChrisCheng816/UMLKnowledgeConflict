@@ -1,0 +1,4 @@
+@startuml
+BatteryPack *-- ProtectionCircuit
+Smartphone *-- BatteryPack
+@enduml

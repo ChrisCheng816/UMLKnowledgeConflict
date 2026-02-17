@@ -1,0 +1,4 @@
+@startuml
+HerringGull <|-- Gull
+Gull <|-- Bird
+@enduml

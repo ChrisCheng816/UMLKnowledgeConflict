@@ -1,4 +1,4 @@
 @startuml
-ClubOfArtists o-- Artist
-School o-- ClubOfArtists
+CrewOfArtists o-- Artist
+Festival o-- CrewOfArtists
 @enduml

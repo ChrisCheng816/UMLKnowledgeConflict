@@ -1,0 +1,4 @@
+@startuml
+KhanAcademy ..> OnlineUse
+Internet ..> KhanAcademy
+@enduml

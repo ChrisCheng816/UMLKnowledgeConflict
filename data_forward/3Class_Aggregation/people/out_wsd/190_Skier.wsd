@@ -1,4 +1,4 @@
 @startuml
-ClubOfSkiers o-- Skier
-School o-- ClubOfSkiers
+CrewOfSkiers o-- Skier
+Festival o-- CrewOfSkiers
 @enduml

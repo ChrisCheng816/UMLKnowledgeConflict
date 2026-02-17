@@ -1,4 +1,4 @@
 @startuml
-StaffOfDoctors o-- Doctor
-Hospital o-- StaffOfDoctors
+CrewOfDoctors o-- Doctor
+Clinic o-- CrewOfDoctors
 @enduml

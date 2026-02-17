@@ -1,0 +1,4 @@
+@startuml
+SeaSalt <|-- Salt
+Salt <|-- Seasoning
+@enduml

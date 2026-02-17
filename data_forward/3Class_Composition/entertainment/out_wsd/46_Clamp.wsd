@@ -1,0 +1,4 @@
+@startuml
+Hoop *-- Clamp
+Drum *-- Hoop
+@enduml

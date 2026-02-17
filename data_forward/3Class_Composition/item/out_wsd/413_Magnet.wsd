@@ -1,0 +1,4 @@
+@startuml
+Speaker *-- Magnet
+Phone *-- Speaker
+@enduml

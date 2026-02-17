@@ -1,0 +1,4 @@
+@startuml
+NantesCarrot <|-- Carrot
+Carrot <|-- Vegetable
+@enduml

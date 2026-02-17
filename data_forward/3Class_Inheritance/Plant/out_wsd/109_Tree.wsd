@@ -1,0 +1,4 @@
+@startuml
+Tree <|-- Conifer
+Conifer <|-- Cedar
+@enduml

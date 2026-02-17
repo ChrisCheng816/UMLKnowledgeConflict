@@ -1,0 +1,4 @@
+@startuml
+Queue o-- Song
+MusicApp o-- Queue
+@enduml

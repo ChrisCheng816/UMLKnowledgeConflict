@@ -1,0 +1,4 @@
+@startuml
+AirPump ..> Electricity
+HomeUse ..> AirPump
+@enduml

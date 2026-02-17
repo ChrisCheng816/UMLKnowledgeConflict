@@ -1,4 +1,4 @@
 @startuml
-TeamOfSwimmers o-- Swimmer
-Club o-- TeamOfSwimmers
+StaffOfSwimmers o-- Swimmer
+Company o-- StaffOfSwimmers
 @enduml

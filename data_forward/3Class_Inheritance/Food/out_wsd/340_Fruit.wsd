@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Pomegranate
+Pomegranate <|-- WonderfulPomegranate
+@enduml

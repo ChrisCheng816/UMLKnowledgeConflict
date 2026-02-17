@@ -1,0 +1,4 @@
+@startuml
+Tentacle *-- Artery
+Octopus *-- Tentacle
+@enduml

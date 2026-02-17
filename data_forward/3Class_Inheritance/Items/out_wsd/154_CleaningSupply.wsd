@@ -1,0 +1,4 @@
+@startuml
+CleaningSupply <|-- Detergent
+Detergent <|-- LaundryDetergent
+@enduml

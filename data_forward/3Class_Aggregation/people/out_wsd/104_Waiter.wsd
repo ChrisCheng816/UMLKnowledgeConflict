@@ -1,4 +1,4 @@
 @startuml
-TeamOfWaiters o-- Waiter
-Restaurant o-- TeamOfWaiters
+ShiftOfWaiters o-- Waiter
+Cafe o-- ShiftOfWaiters
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Film <|-- HistoricalFilm
+HistoricalFilm <|-- Gladiator
+@enduml

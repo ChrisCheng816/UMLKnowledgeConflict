@@ -1,0 +1,4 @@
+@startuml
+SmartThermostat ..> HomeUse
+Electricity ..> SmartThermostat
+@enduml

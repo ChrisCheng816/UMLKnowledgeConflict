@@ -1,4 +1,4 @@
 @startuml
-GroupOfDoctors o-- Doctor
-Clinic o-- GroupOfDoctors
+PanelOfDoctors o-- Doctor
+Conference o-- PanelOfDoctors
 @enduml

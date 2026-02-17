@@ -1,0 +1,4 @@
+@startuml
+GroupOfSeagulls o-- Coast
+Seagull o-- GroupOfSeagulls
+@enduml

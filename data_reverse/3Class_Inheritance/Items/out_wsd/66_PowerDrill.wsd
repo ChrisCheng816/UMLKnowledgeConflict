@@ -1,0 +1,4 @@
+@startuml
+PowerDrill <|-- Drill
+Drill <|-- Tool
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FamilyOfParents o-- Parent
+Neighborhood o-- FamilyOfParents
+@enduml

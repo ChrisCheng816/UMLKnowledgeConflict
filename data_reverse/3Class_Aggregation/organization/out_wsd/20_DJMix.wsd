@@ -1,0 +1,4 @@
+@startuml
+Playlist o-- DJMix
+Track o-- Playlist
+@enduml

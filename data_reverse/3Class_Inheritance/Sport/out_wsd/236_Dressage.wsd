@@ -1,0 +1,4 @@
+@startuml
+Dressage <|-- Equestrian
+Equestrian <|-- Sport
+@enduml

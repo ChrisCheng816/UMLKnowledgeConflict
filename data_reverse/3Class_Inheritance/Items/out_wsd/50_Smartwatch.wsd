@@ -1,0 +1,4 @@
+@startuml
+Smartwatch <|-- Watch
+Watch <|-- Accessory
+@enduml

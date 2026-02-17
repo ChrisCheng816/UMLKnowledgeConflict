@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Library
+Atlas o-- Shelf
+@enduml

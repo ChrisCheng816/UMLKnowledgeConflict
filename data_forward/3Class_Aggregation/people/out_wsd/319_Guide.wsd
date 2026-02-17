@@ -1,4 +1,4 @@
 @startuml
-TeamOfGuides o-- Guide
-Club o-- TeamOfGuides
+StaffOfGuides o-- Guide
+Company o-- StaffOfGuides
 @enduml

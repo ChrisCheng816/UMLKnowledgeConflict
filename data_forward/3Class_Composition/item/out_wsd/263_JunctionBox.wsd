@@ -1,0 +1,4 @@
+@startuml
+Wiring *-- JunctionBox
+House *-- Wiring
+@enduml

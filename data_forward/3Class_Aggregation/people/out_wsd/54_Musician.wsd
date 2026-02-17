@@ -1,4 +1,4 @@
 @startuml
-OrchestraOfMusicians o-- Musician
-Hall o-- OrchestraOfMusicians
+CrewOfMusicians o-- Musician
+Studio o-- CrewOfMusicians
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Ape
+Ape <|-- Gorilla
+@enduml

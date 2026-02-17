@@ -1,0 +1,4 @@
+@startuml
+Quinoa <|-- Grain
+Grain <|-- Food
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Keyboard *-- Frame
+Laptop *-- Keyboard
+@enduml

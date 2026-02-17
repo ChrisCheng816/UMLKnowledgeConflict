@@ -1,0 +1,4 @@
+@startuml
+Crate o-- Towel
+Warehouse o-- Crate
+@enduml

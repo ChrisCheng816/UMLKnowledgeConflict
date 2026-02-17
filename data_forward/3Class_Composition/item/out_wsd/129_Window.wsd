@@ -1,0 +1,4 @@
+@startuml
+Door *-- Window
+Microwave *-- Door
+@enduml

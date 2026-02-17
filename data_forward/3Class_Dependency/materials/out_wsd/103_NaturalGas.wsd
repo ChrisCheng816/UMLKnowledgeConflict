@@ -1,4 +1,4 @@
 @startuml
 GasStove ..> NaturalGas
-Boiling ..> GasStove
+Cooking ..> GasStove
 @enduml

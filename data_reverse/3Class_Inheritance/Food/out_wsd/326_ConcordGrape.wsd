@@ -1,0 +1,4 @@
+@startuml
+ConcordGrape <|-- Grape
+Grape <|-- Fruit
+@enduml

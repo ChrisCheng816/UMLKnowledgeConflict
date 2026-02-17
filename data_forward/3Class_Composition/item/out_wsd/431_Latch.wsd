@@ -1,0 +1,4 @@
+@startuml
+Port *-- Latch
+Laptop *-- Port
+@enduml

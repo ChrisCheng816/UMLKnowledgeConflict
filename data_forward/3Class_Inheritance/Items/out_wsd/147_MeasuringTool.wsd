@@ -1,0 +1,4 @@
+@startuml
+MeasuringTool <|-- Multimeter
+Multimeter <|-- ClampMeter
+@enduml

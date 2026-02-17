@@ -1,0 +1,4 @@
+@startuml
+Laboratory o-- Microscope
+University o-- Laboratory
+@enduml

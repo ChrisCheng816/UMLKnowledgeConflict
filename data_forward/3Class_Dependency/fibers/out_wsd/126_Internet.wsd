@@ -1,0 +1,4 @@
+@startuml
+Mega ..> Internet
+OnlineUse ..> Mega
+@enduml

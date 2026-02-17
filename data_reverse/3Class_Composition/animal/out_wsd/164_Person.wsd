@@ -1,0 +1,4 @@
+@startuml
+Eye *-- Person
+Cornea *-- Eye
+@enduml

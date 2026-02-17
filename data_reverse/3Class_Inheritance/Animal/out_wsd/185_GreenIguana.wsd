@@ -1,0 +1,4 @@
+@startuml
+GreenIguana <|-- Iguana
+Iguana <|-- Lizard
+@enduml

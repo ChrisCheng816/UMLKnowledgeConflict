@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- ActionFilm
+ActionFilm <|-- AvengersFilm
+@enduml

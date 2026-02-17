@@ -1,0 +1,4 @@
+@startuml
+Seat *-- Recliner
+Car *-- Seat
+@enduml

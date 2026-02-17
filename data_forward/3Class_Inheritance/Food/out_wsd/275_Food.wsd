@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Cheese
+Cheese <|-- Brie
+@enduml

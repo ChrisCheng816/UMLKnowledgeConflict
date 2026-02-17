@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Owl
+Owl <|-- SnowyOwl
+@enduml

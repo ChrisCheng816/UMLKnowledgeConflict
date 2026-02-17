@@ -1,0 +1,4 @@
+@startuml
+Welder ..> Electricity
+HomeUse ..> Welder
+@enduml

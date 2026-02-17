@@ -1,0 +1,4 @@
+@startuml
+Sleeve *-- Lining
+Jacket *-- Sleeve
+@enduml

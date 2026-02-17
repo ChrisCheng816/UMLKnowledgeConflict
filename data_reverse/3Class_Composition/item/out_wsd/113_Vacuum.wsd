@@ -1,0 +1,4 @@
+@startuml
+Canister *-- Vacuum
+Gasket *-- Canister
+@enduml

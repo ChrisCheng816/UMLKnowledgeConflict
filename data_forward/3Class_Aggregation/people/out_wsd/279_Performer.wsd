@@ -1,4 +1,4 @@
 @startuml
-TeamOfPerformers o-- Performer
-Club o-- TeamOfPerformers
+StaffOfPerformers o-- Performer
+Company o-- StaffOfPerformers
 @enduml

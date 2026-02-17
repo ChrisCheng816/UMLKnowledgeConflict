@@ -1,4 +1,4 @@
 @startuml
 SmartLock ..> Electricity
-HomeSecurity ..> SmartLock
+MotionDetection ..> SmartLock
 @enduml

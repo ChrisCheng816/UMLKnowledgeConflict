@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Horse
+Horse <|-- ArabianHorse
+@enduml

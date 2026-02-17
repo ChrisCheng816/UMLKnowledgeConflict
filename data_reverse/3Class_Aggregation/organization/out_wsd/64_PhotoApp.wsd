@@ -1,0 +1,4 @@
+@startuml
+Gallery o-- PhotoApp
+Snapshot o-- Gallery
+@enduml

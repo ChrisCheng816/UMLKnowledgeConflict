@@ -1,4 +1,4 @@
 @startuml
-CrowdOfCustomers o-- Customer
-Market o-- CrowdOfCustomers
+PartyOfCustomers o-- Customer
+Cafe o-- PartyOfCustomers
 @enduml

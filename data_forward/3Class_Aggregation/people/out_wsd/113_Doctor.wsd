@@ -1,4 +1,4 @@
 @startuml
-TeamOfDoctors o-- Doctor
-Hospital o-- TeamOfDoctors
+GroupOfDoctors o-- Doctor
+Clinic o-- GroupOfDoctors
 @enduml

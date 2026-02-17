@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- LivingRoom
+Puzzle o-- Shelf
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-InductionCooktop ..> Electricity
-StirFrying ..> InductionCooktop
+Iron ..> Electricity
+ClothesIroning ..> Iron
 @enduml

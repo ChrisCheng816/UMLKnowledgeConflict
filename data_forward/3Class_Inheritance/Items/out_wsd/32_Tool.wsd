@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- Axe
+Axe <|-- Hatchet
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Boat
+Boat <|-- Sailboat
+@enduml

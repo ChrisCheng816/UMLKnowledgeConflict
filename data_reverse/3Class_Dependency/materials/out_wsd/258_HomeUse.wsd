@@ -1,0 +1,4 @@
+@startuml
+Television ..> HomeUse
+Electricity ..> Television
+@enduml

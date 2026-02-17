@@ -1,0 +1,4 @@
+@startuml
+SweetCorn <|-- Corn
+Corn <|-- Plant
+@enduml

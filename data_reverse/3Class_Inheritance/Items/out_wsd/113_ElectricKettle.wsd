@@ -1,0 +1,4 @@
+@startuml
+ElectricKettle <|-- Kettle
+Kettle <|-- Appliance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Pump *-- CoffeeMaker
+Housing *-- Pump
+@enduml

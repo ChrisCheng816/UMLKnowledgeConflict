@@ -1,0 +1,4 @@
+@startuml
+EbookReader <|-- Tablet
+Tablet <|-- Electronics
+@enduml

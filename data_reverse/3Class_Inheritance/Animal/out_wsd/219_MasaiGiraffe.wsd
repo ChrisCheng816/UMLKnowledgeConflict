@@ -1,0 +1,4 @@
+@startuml
+MasaiGiraffe <|-- Giraffe
+Giraffe <|-- Animal
+@enduml

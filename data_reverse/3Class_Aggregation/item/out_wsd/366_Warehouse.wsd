@@ -1,0 +1,4 @@
+@startuml
+Crate o-- Warehouse
+Cable o-- Crate
+@enduml

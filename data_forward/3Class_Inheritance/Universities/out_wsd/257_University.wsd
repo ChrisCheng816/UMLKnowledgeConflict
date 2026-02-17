@@ -1,0 +1,4 @@
+@startuml
+University <|-- LawSchool
+LawSchool <|-- HarvardLaw
+@enduml

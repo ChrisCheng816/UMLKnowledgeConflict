@@ -1,0 +1,4 @@
+@startuml
+Backrest *-- Stitch
+Chair *-- Backrest
+@enduml

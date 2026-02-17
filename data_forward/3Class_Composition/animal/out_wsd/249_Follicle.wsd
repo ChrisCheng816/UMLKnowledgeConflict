@@ -1,0 +1,4 @@
+@startuml
+Hair *-- Follicle
+Person *-- Hair
+@enduml

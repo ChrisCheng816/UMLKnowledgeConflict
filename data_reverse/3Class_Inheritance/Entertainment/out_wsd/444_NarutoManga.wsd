@@ -1,0 +1,4 @@
+@startuml
+NarutoManga <|-- Manga
+Manga <|-- Entertainment
+@enduml

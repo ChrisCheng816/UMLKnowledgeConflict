@@ -1,0 +1,4 @@
+@startuml
+BigWaveSurfing <|-- Surfing
+Surfing <|-- Sport
+@enduml

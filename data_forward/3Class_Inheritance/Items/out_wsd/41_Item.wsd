@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Stationery
+Stationery <|-- Eraser
+@enduml

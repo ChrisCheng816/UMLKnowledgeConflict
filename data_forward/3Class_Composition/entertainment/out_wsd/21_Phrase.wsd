@@ -1,0 +1,4 @@
+@startuml
+Paragraph *-- Phrase
+Essay *-- Paragraph
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Basket o-- Umbrella
+LaundryRoom o-- Basket
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+LeghornChicken <|-- Chicken
+Chicken <|-- Bird
+@enduml

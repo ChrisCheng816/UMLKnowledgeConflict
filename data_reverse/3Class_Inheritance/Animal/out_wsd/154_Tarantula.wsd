@@ -1,0 +1,4 @@
+@startuml
+Tarantula <|-- Spider
+Spider <|-- Arachnid
+@enduml

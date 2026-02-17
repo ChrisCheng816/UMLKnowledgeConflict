@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Judo
+Judo <|-- OlympicJudo
+@enduml

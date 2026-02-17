@@ -1,0 +1,4 @@
+@startuml
+Basket o-- OvenMitt
+LaundryRoom o-- Basket
+@enduml

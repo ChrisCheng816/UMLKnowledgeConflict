@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- PuzzleGame
+PuzzleGame <|-- Tetris
+@enduml

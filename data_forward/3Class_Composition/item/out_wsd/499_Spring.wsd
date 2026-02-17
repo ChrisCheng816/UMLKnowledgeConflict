@@ -1,0 +1,4 @@
+@startuml
+Mattress *-- Spring
+Bed *-- Mattress
+@enduml

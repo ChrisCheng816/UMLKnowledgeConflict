@@ -1,0 +1,4 @@
+@startuml
+Doom <|-- ShooterGame
+ShooterGame <|-- VideoGame
+@enduml

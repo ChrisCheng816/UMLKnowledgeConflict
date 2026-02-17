@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Airplane
+Airplane <|-- Boeing737
+@enduml

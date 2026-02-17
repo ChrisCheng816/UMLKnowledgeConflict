@@ -1,4 +1,4 @@
 @startuml
-ClubOfSurfers o-- Surfer
-School o-- ClubOfSurfers
+CrewOfSurfers o-- Surfer
+Festival o-- CrewOfSurfers
 @enduml

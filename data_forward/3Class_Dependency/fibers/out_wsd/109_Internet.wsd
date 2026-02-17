@@ -1,0 +1,4 @@
+@startuml
+Deezer ..> Internet
+OnlineUse ..> Deezer
+@enduml

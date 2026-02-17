@@ -1,0 +1,4 @@
+@startuml
+TeamOfNeighbors o-- Neighbor
+Club o-- TeamOfNeighbors
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+University <|-- PublicUniversity
+PublicUniversity <|-- UCBerkeley
+@enduml

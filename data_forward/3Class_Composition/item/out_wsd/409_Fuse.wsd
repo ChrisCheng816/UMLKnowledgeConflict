@@ -1,0 +1,4 @@
+@startuml
+PowerSupply *-- Fuse
+Desktop *-- PowerSupply
+@enduml

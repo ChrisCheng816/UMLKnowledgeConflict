@@ -1,4 +1,4 @@
 @startuml
-FamilyOfParents o-- Parent
-Neighborhood o-- FamilyOfParents
+CircleOfParents o-- Parent
+Community o-- CircleOfParents
 @enduml

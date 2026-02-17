@@ -1,0 +1,4 @@
+@startuml
+SchoolBusEngine ..> TransportUse
+Fuel ..> SchoolBusEngine
+@enduml

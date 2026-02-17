@@ -1,0 +1,4 @@
+@startuml
+AquariumPump ..> Electricity
+HomeUse ..> AquariumPump
+@enduml

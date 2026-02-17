@@ -1,0 +1,4 @@
+@startuml
+BatteryPack *-- Casing
+Smartphone *-- BatteryPack
+@enduml

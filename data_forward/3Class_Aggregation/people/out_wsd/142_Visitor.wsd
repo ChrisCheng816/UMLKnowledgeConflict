@@ -1,0 +1,4 @@
+@startuml
+LineOfVisitors o-- Visitor
+Museum o-- LineOfVisitors
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Base *-- Lamp
+Cord *-- Base
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cooler o-- IceCream
+PicnicArea o-- Cooler
+@enduml

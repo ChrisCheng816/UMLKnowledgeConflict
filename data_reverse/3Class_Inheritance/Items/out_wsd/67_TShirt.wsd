@@ -1,0 +1,4 @@
+@startuml
+TShirt <|-- Shirt
+Shirt <|-- Clothing
+@enduml

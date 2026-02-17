@@ -1,4 +1,4 @@
 @startuml
-GroupOfRunners o-- Runner
-Community o-- GroupOfRunners
+ClubOfRunners o-- Runner
+School o-- ClubOfRunners
 @enduml

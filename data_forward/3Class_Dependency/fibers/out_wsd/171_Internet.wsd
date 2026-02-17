@@ -1,0 +1,4 @@
+@startuml
+Grubhub ..> Internet
+OnlineUse ..> Grubhub
+@enduml

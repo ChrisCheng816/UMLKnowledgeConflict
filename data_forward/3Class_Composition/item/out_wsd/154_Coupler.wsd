@@ -1,0 +1,4 @@
+@startuml
+Turntable *-- Coupler
+Microwave *-- Turntable
+@enduml

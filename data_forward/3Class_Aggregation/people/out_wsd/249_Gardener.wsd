@@ -1,4 +1,4 @@
 @startuml
-TeamOfGardeners o-- Gardener
-Club o-- TeamOfGardeners
+StaffOfGardeners o-- Gardener
+Company o-- StaffOfGardeners
 @enduml

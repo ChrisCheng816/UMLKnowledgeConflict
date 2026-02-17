@@ -1,4 +1,4 @@
 @startuml
-CrowdOfGuests o-- Guest
-Lobby o-- CrowdOfGuests
+ClubOfGuests o-- Guest
+School o-- ClubOfGuests
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- SandboxGame
+SandboxGame <|-- Minecraft
+@enduml

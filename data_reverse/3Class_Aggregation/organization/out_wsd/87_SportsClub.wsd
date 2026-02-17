@@ -1,0 +1,4 @@
+@startuml
+Team o-- SportsClub
+Striker o-- Team
+@enduml

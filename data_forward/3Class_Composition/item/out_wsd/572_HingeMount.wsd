@@ -1,0 +1,4 @@
+@startuml
+Display *-- HingeMount
+Laptop *-- Display
+@enduml

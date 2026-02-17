@@ -1,4 +1,4 @@
 @startuml
-SmartTV ..> Electricity
-VideoStreaming ..> SmartTV
+Soundbar ..> Electricity
+AudioStreaming ..> Soundbar
 @enduml

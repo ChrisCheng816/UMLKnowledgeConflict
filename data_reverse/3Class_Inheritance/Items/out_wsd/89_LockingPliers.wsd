@@ -1,0 +1,4 @@
+@startuml
+LockingPliers <|-- Pliers
+Pliers <|-- Tool
+@enduml

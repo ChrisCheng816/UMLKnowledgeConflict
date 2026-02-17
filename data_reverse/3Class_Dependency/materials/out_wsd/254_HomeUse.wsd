@@ -1,0 +1,4 @@
+@startuml
+SteamIron ..> HomeUse
+Electricity ..> SteamIron
+@enduml

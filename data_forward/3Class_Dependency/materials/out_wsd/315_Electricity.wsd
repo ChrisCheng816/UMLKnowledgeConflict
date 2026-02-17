@@ -1,0 +1,4 @@
+@startuml
+LeafVacuum ..> Electricity
+HomeUse ..> LeafVacuum
+@enduml

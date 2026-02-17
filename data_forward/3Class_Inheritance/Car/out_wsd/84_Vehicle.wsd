@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Scooter
+Scooter <|-- VespaPrimavera
+@enduml

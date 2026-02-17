@@ -1,0 +1,4 @@
+@startuml
+StapleGun ..> HomeUse
+Electricity ..> StapleGun
+@enduml

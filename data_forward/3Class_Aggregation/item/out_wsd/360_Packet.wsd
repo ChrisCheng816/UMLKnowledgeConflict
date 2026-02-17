@@ -1,0 +1,4 @@
+@startuml
+Crate o-- Packet
+Warehouse o-- Crate
+@enduml

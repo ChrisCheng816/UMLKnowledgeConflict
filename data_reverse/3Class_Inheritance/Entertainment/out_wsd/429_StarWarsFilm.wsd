@@ -1,0 +1,4 @@
+@startuml
+StarWarsFilm <|-- SciFiFilm
+SciFiFilm <|-- Entertainment
+@enduml

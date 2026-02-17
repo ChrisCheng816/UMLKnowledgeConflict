@@ -1,4 +1,4 @@
 @startuml
-ClubOfStudents o-- Student
-School o-- ClubOfStudents
+CrowdOfStudents o-- Student
+School o-- CrowdOfStudents
 @enduml

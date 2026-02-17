@@ -1,0 +1,4 @@
+@startuml
+CraterLake <|-- Lake
+Lake <|-- GeographicFeature
+@enduml

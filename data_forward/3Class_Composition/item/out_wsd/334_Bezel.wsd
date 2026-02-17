@@ -1,0 +1,4 @@
+@startuml
+Screen *-- Bezel
+Phone *-- Screen
+@enduml

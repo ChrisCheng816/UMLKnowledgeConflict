@@ -1,4 +1,4 @@
 @startuml
-Soundbar ..> Electricity
-AudioStreaming ..> Soundbar
+SpaceHeater ..> Electricity
+SpaceHeating ..> SpaceHeater
 @enduml

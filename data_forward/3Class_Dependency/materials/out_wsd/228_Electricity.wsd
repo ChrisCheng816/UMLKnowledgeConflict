@@ -1,4 +1,4 @@
 @startuml
-Turntable ..> Electricity
-RadioListening ..> Turntable
+VideoDoorbell ..> Electricity
+HomeSecurity ..> VideoDoorbell
 @enduml

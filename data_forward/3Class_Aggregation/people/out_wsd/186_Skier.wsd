@@ -1,0 +1,4 @@
+@startuml
+GroupOfSkiers o-- Skier
+Community o-- GroupOfSkiers
+@enduml

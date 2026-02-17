@@ -1,0 +1,4 @@
+@startuml
+SafetyGear <|-- Helmet
+Helmet <|-- HardHat
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DurumWheat <|-- Wheat
+Wheat <|-- Plant
+@enduml

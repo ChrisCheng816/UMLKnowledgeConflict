@@ -1,0 +1,4 @@
+@startuml
+Pump *-- Spring
+CoffeeMaker *-- Pump
+@enduml

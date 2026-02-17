@@ -1,4 +1,4 @@
 @startuml
-Engine *-- Car
-Piston *-- Engine
+BrakeCaliper *-- Car
+BrakePad *-- BrakeCaliper
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Door *-- Microwave
+Switch *-- Door
+@enduml

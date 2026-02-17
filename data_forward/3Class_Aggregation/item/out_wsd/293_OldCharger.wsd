@@ -1,0 +1,4 @@
+@startuml
+Bin o-- OldCharger
+Garage o-- Bin
+@enduml

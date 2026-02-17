@@ -1,4 +1,4 @@
 @startuml
-ClubOfHikers o-- Hiker
-School o-- ClubOfHikers
+CrewOfHikers o-- Hiker
+Festival o-- CrewOfHikers
 @enduml

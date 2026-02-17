@@ -1,0 +1,4 @@
+@startuml
+ToyStory <|-- AnimatedFilm
+AnimatedFilm <|-- Entertainment
+@enduml

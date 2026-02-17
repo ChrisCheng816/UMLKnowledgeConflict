@@ -1,0 +1,4 @@
+@startuml
+GroupOfHares o-- Hare
+Meadow o-- GroupOfHares
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-TeamOfFarmers o-- Farmer
-Club o-- TeamOfFarmers
+StaffOfFarmers o-- Farmer
+Company o-- StaffOfFarmers
 @enduml

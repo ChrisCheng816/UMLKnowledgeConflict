@@ -1,0 +1,4 @@
+@startuml
+AfricanLion <|-- Lion
+Lion <|-- Mammal
+@enduml

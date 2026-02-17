@@ -1,4 +1,4 @@
 @startuml
 WheelAssembly *-- Car
-Tire *-- WheelAssembly
+LugNut *-- WheelAssembly
 @enduml

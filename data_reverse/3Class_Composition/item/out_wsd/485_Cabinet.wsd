@@ -1,0 +1,4 @@
+@startuml
+Shelf *-- Cabinet
+Edge *-- Shelf
+@enduml

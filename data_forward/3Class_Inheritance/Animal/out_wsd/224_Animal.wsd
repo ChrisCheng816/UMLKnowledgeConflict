@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Shark
+Shark <|-- GreatWhiteShark
+@enduml

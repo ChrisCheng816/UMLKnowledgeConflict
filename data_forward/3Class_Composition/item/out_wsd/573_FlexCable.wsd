@@ -1,0 +1,4 @@
+@startuml
+Display *-- FlexCable
+Laptop *-- Display
+@enduml

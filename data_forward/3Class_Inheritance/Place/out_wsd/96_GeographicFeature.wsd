@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- Valley
+Valley <|-- NapaValley
+@enduml

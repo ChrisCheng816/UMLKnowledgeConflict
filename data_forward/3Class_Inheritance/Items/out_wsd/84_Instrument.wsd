@@ -1,0 +1,4 @@
+@startuml
+Instrument <|-- Drum
+Drum <|-- BassDrum
+@enduml

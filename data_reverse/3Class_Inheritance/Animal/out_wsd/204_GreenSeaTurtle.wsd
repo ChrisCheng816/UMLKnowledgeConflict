@@ -1,0 +1,4 @@
+@startuml
+GreenSeaTurtle <|-- Turtle
+Turtle <|-- Reptile
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Department o-- Recruiter
+Company o-- Department
+@enduml

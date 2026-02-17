@@ -1,0 +1,4 @@
+@startuml
+Logan <|-- SuperheroFilm
+SuperheroFilm <|-- Film
+@enduml

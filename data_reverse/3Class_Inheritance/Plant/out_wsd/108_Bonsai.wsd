@@ -1,0 +1,4 @@
+@startuml
+Bonsai <|-- Tree
+Tree <|-- Plant
+@enduml

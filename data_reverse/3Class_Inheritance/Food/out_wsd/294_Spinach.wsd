@@ -1,0 +1,4 @@
+@startuml
+Spinach <|-- Vegetable
+Vegetable <|-- Food
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StaplerMachine ..> Electricity
+HomeUse ..> StaplerMachine
+@enduml

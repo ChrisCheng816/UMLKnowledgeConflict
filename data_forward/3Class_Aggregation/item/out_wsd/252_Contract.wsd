@@ -1,0 +1,4 @@
+@startuml
+Folder o-- Contract
+Office o-- Folder
+@enduml

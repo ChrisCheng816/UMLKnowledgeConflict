@@ -1,4 +1,4 @@
 @startuml
-TeamOfLibrarians o-- Librarian
-Club o-- TeamOfLibrarians
+StaffOfLibrarians o-- Librarian
+Company o-- StaffOfLibrarians
 @enduml

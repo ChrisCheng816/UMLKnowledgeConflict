@@ -1,0 +1,4 @@
+@startuml
+Civilization <|-- StrategyGame
+StrategyGame <|-- VideoGame
+@enduml

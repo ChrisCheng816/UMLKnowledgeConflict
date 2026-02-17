@@ -1,0 +1,4 @@
+@startuml
+UsainBolt <|-- Sprinter
+Sprinter <|-- Athlete
+@enduml

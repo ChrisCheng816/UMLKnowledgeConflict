@@ -1,0 +1,4 @@
+@startuml
+Tentacle *-- Nerve
+Octopus *-- Tentacle
+@enduml

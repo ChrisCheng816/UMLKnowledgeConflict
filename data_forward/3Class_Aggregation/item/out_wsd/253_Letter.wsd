@@ -1,0 +1,4 @@
+@startuml
+Folder o-- Letter
+Office o-- Folder
+@enduml

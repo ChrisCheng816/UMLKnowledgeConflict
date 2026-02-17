@@ -1,0 +1,4 @@
+@startuml
+BoltCutter <|-- Cutter
+Cutter <|-- Tool
+@enduml

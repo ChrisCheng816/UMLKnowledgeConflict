@@ -1,0 +1,4 @@
+@startuml
+HeatGun <|-- PowerTool
+PowerTool <|-- Tool
+@enduml

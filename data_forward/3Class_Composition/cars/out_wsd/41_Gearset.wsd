@@ -1,0 +1,4 @@
+@startuml
+Transmission *-- Gearset
+Car *-- Transmission
+@enduml

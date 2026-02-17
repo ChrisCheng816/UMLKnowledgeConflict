@@ -1,0 +1,4 @@
+@startuml
+Ward o-- Dentist
+Hospital o-- Ward
+@enduml

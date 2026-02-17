@@ -1,0 +1,4 @@
+@startuml
+Kindle ..> Internet
+OnlineUse ..> Kindle
+@enduml

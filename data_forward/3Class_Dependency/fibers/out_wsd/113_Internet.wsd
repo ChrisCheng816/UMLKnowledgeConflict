@@ -1,0 +1,4 @@
+@startuml
+Twitch ..> Internet
+OnlineUse ..> Twitch
+@enduml

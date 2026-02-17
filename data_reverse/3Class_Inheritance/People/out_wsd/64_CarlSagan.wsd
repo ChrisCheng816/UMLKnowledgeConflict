@@ -1,0 +1,4 @@
+@startuml
+CarlSagan <|-- ScienceCommunicator
+ScienceCommunicator <|-- Scientist
+@enduml

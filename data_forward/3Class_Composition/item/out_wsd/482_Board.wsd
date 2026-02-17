@@ -1,0 +1,4 @@
+@startuml
+Shelf *-- Board
+Cabinet *-- Shelf
+@enduml

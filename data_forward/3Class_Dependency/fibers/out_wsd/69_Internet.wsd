@@ -1,0 +1,4 @@
+@startuml
+Signal ..> Internet
+OnlineUse ..> Signal
+@enduml

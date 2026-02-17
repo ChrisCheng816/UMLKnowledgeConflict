@@ -1,0 +1,4 @@
+@startuml
+Basket o-- LaundryRoom
+Detergent o-- Basket
+@enduml

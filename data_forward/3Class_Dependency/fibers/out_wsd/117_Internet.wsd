@@ -1,0 +1,4 @@
+@startuml
+Gmail ..> Internet
+OnlineUse ..> Gmail
+@enduml

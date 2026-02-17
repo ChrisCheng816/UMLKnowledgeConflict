@@ -1,0 +1,4 @@
+@startuml
+GarageDoorOpener ..> HomeUse
+Electricity ..> GarageDoorOpener
+@enduml

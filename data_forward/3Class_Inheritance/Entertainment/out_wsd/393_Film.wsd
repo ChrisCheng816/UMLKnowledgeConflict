@@ -1,0 +1,4 @@
+@startuml
+Film <|-- BiographicalFilm
+BiographicalFilm <|-- Amadeus
+@enduml

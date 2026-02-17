@@ -1,4 +1,4 @@
 @startuml
-GroupOfReceptionists o-- Receptionist
-Community o-- GroupOfReceptionists
+ClubOfReceptionists o-- Receptionist
+School o-- ClubOfReceptionists
 @enduml

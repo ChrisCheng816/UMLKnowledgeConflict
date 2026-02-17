@@ -1,0 +1,4 @@
+@startuml
+ArcadeMachine ..> Electricity
+HomeUse ..> ArcadeMachine
+@enduml

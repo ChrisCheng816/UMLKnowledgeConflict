@@ -1,0 +1,4 @@
+@startuml
+Basement *-- Drain
+House *-- Basement
+@enduml

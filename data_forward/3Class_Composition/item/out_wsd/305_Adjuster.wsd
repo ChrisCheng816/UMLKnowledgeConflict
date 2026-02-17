@@ -1,0 +1,4 @@
+@startuml
+Strap *-- Adjuster
+Backpack *-- Strap
+@enduml

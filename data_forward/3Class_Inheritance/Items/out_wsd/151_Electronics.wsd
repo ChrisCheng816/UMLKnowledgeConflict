@@ -1,0 +1,4 @@
+@startuml
+Electronics <|-- MediaPlayer
+MediaPlayer <|-- StreamingStick
+@enduml

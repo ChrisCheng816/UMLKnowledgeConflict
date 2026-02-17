@@ -1,0 +1,4 @@
+@startuml
+Band *-- Link
+Watch *-- Band
+@enduml

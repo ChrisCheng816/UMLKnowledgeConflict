@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Tulip
+Tulip <|-- DarwinTulip
+@enduml

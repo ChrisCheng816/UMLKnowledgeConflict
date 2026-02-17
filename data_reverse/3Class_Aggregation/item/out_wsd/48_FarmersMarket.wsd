@@ -1,0 +1,4 @@
+@startuml
+Crate o-- FarmersMarket
+Avocado o-- Crate
+@enduml

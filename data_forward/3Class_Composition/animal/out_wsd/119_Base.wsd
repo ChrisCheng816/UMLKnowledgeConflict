@@ -1,0 +1,4 @@
+@startuml
+Feather *-- Base
+Penguin *-- Feather
+@enduml

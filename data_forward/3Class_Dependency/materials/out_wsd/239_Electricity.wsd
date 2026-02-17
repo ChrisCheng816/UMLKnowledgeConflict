@@ -1,4 +1,4 @@
 @startuml
-WirelessCharger ..> Electricity
-DeviceCharging ..> WirelessCharger
+Toaster ..> Electricity
+HomeUse ..> Toaster
 @enduml

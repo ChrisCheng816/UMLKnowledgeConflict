@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- FireTruck
+City o-- Fleet
+@enduml

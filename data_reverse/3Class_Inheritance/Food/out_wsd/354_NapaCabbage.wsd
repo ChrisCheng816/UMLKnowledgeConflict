@@ -1,0 +1,4 @@
+@startuml
+NapaCabbage <|-- Cabbage
+Cabbage <|-- Vegetable
+@enduml

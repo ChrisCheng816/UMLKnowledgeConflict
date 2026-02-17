@@ -1,4 +1,4 @@
 @startuml
-ClubOfBartenders o-- Bartender
-School o-- ClubOfBartenders
+CrewOfBartenders o-- Bartender
+Festival o-- CrewOfBartenders
 @enduml

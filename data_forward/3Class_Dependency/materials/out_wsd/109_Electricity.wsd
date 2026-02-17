@@ -1,4 +1,4 @@
 @startuml
 GrowLight ..> Electricity
-Illumination ..> GrowLight
+Lighting ..> GrowLight
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+GroupOfBears o-- Forest
+Bear o-- GroupOfBears
+@enduml

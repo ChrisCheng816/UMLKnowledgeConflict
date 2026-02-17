@@ -1,0 +1,4 @@
+@startuml
+Pilot <|-- Aviator
+Aviator <|-- AmeliaEarhart
+@enduml

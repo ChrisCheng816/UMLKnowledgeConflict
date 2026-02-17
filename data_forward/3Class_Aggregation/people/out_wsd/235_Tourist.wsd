@@ -1,4 +1,4 @@
 @startuml
-ClubOfTourists o-- Tourist
-School o-- ClubOfTourists
+CrewOfTourists o-- Tourist
+Festival o-- CrewOfTourists
 @enduml

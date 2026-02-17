@@ -1,0 +1,4 @@
+@startuml
+GroupOfToads o-- Toad
+Pond o-- GroupOfToads
+@enduml

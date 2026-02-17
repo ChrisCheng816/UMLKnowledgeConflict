@@ -1,0 +1,4 @@
+@startuml
+WestPoint <|-- MilitaryAcademy
+MilitaryAcademy <|-- Academy
+@enduml

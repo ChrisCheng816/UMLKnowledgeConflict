@@ -1,0 +1,4 @@
+@startuml
+MIT <|-- ResearchUniversity
+ResearchUniversity <|-- University
+@enduml

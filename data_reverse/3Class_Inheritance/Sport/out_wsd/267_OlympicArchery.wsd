@@ -1,0 +1,4 @@
+@startuml
+OlympicArchery <|-- Archery
+Archery <|-- Sport
+@enduml

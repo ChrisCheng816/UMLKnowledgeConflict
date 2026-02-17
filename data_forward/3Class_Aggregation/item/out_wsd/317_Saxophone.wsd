@@ -1,0 +1,4 @@
+@startuml
+InstrumentRack o-- Saxophone
+MusicStore o-- InstrumentRack
+@enduml

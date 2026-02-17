@@ -1,0 +1,4 @@
+@startuml
+Web *-- Hub
+Spider *-- Web
+@enduml

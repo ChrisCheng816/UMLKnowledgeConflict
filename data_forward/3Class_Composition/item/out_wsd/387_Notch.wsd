@@ -1,0 +1,4 @@
+@startuml
+Memory *-- Notch
+Desktop *-- Memory
+@enduml

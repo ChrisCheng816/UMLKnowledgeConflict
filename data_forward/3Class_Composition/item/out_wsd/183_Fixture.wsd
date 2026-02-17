@@ -1,0 +1,4 @@
+@startuml
+Ceiling *-- Fixture
+House *-- Ceiling
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+LocomotiveEngine ..> TransportUse
+Fuel ..> LocomotiveEngine
+@enduml

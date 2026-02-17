@@ -1,0 +1,4 @@
+@startuml
+Headboard *-- Bed
+Upholstery *-- Headboard
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Trunk *-- Core
+Pine *-- Trunk
+@enduml

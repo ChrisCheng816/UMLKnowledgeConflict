@@ -1,0 +1,4 @@
+@startuml
+Column *-- Newspaper
+Headline *-- Column
+@enduml

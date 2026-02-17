@@ -1,0 +1,4 @@
+@startuml
+Microphone *-- Circuit
+Phone *-- Microphone
+@enduml

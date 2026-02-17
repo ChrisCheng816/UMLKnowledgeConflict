@@ -1,0 +1,4 @@
+@startuml
+StringTrimmer ..> Electricity
+HomeUse ..> StringTrimmer
+@enduml

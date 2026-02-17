@@ -1,4 +1,4 @@
 @startuml
-Country <|-- AfricanCountry
-AfricanCountry <|-- SouthAfrica
+Country <|-- TranscontinentalCountry
+TranscontinentalCountry <|-- Turkey
 @enduml

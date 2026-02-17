@@ -1,0 +1,4 @@
+@startuml
+SchoolOfClownfish o-- Reef
+Clownfish o-- SchoolOfClownfish
+@enduml

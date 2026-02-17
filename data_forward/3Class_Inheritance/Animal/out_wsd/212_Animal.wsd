@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Goat
+Goat <|-- BoerGoat
+@enduml

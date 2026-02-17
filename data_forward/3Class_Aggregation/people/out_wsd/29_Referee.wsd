@@ -1,4 +1,4 @@
 @startuml
-TeamOfReferees o-- Referee
-League o-- TeamOfReferees
+GroupOfReferees o-- Referee
+Stadium o-- GroupOfReferees
 @enduml

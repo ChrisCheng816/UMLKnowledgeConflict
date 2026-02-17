@@ -1,0 +1,4 @@
+@startuml
+SSD *-- Laptop
+Enclosure *-- SSD
+@enduml

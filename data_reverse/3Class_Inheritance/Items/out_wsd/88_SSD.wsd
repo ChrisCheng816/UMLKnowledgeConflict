@@ -1,0 +1,4 @@
+@startuml
+SSD <|-- StorageDevice
+StorageDevice <|-- Device
+@enduml

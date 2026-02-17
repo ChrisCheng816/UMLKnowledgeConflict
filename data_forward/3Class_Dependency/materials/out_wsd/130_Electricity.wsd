@@ -1,4 +1,4 @@
 @startuml
 LaptopCharger ..> Electricity
-BatteryCharging ..> LaptopCharger
+DeviceCharging ..> LaptopCharger
 @enduml

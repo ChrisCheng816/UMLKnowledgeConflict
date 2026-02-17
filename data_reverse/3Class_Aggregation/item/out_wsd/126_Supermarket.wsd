@@ -1,0 +1,4 @@
+@startuml
+Cart o-- Supermarket
+Chicken o-- Cart
+@enduml

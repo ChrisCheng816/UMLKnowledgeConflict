@@ -1,0 +1,4 @@
+@startuml
+Shade *-- Wire
+Lamp *-- Shade
+@enduml

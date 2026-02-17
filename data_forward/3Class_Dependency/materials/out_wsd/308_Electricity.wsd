@@ -1,0 +1,4 @@
+@startuml
+PopcornMaker ..> Electricity
+HomeUse ..> PopcornMaker
+@enduml

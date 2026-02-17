@@ -1,0 +1,4 @@
+@startuml
+FlockOfSwans o-- Lake
+Swan o-- FlockOfSwans
+@enduml

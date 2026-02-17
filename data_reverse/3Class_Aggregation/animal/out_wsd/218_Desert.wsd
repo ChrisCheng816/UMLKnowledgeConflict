@@ -1,0 +1,4 @@
+@startuml
+GroupOfLizards o-- Desert
+Lizard o-- GroupOfLizards
+@enduml

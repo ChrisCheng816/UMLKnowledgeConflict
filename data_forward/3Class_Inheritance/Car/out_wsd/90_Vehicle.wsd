@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Ship
+Ship <|-- ContainerShip
+@enduml

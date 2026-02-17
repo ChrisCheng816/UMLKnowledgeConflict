@@ -1,0 +1,4 @@
+@startuml
+Collection o-- Library
+Novel o-- Collection
+@enduml

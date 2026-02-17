@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Tripod
+LivingRoom o-- Shelf
+@enduml

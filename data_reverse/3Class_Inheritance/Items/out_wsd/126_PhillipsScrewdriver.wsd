@@ -1,0 +1,4 @@
+@startuml
+PhillipsScrewdriver <|-- Screwdriver
+Screwdriver <|-- Tool
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sentence *-- Essay
+Period *-- Sentence
+@enduml

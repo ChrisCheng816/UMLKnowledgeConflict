@@ -1,0 +1,4 @@
+@startuml
+Handle *-- Tape
+TennisRacket *-- Handle
+@enduml

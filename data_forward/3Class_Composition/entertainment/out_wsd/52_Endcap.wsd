@@ -1,0 +1,4 @@
+@startuml
+Handle *-- Endcap
+TennisRacket *-- Handle
+@enduml

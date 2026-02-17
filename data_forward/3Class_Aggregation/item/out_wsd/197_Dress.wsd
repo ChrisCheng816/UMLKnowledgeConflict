@@ -1,0 +1,4 @@
+@startuml
+Hanger o-- Dress
+Closet o-- Hanger
+@enduml

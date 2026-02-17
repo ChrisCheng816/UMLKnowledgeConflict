@@ -1,0 +1,4 @@
+@startuml
+TeamOfShoppers o-- Shopper
+Club o-- TeamOfShoppers
+@enduml

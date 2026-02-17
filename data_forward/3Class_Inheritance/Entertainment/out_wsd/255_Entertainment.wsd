@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- Up
+Entertainment <|-- TVSeries
+TVSeries <|-- Seinfeld
 @enduml

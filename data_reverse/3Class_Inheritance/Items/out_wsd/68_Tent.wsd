@@ -1,0 +1,4 @@
+@startuml
+Tent <|-- CampingGear
+CampingGear <|-- Gear
+@enduml

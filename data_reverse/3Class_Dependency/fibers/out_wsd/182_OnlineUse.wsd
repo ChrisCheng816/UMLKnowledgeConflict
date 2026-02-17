@@ -1,0 +1,4 @@
+@startuml
+GooglePay ..> OnlineUse
+Internet ..> GooglePay
+@enduml

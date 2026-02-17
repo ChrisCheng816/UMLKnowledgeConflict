@@ -1,0 +1,4 @@
+@startuml
+Furniture <|-- Chair
+Chair <|-- OfficeChair
+@enduml

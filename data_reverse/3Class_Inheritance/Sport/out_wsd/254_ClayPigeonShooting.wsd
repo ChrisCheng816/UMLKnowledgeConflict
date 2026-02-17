@@ -1,0 +1,4 @@
+@startuml
+ClayPigeonShooting <|-- ShootingSport
+ShootingSport <|-- Sport
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SnowboardCross <|-- Snowboarding
+Snowboarding <|-- WinterSport
+@enduml

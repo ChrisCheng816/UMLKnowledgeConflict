@@ -1,0 +1,4 @@
+@startuml
+CityBus <|-- Bus
+Bus <|-- Vehicle
+@enduml

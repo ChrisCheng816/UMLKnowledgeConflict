@@ -1,0 +1,4 @@
+@startuml
+GraySquirrel <|-- Squirrel
+Squirrel <|-- Mammal
+@enduml

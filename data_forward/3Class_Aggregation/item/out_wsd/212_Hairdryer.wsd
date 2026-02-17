@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Hairdryer
+Bathroom o-- Cabinet
+@enduml

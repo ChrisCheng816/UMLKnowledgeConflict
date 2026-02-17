@@ -1,0 +1,4 @@
+@startuml
+TranslateApp ..> OnlineUse
+Internet ..> TranslateApp
+@enduml

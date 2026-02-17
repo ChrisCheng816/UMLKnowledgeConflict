@@ -1,4 +1,4 @@
 @startuml
-CrowdOfFans o-- Fan
-Stadium o-- CrowdOfFans
+GroupOfFans o-- Fan
+Club o-- GroupOfFans
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+LeBronJames <|-- BasketballPlayer
+BasketballPlayer <|-- Athlete
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Seat *-- Frame
+Car *-- Seat
+@enduml

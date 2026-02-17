@@ -1,0 +1,4 @@
+@startuml
+PowerStrip <|-- ElectricalAccessory
+ElectricalAccessory <|-- Accessory
+@enduml

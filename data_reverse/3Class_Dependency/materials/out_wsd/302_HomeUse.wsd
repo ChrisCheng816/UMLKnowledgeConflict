@@ -1,0 +1,4 @@
+@startuml
+Chopper ..> HomeUse
+Electricity ..> Chopper
+@enduml

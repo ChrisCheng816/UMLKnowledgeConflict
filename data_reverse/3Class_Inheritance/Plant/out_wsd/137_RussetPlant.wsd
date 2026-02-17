@@ -1,0 +1,4 @@
+@startuml
+RussetPlant <|-- PotatoPlant
+PotatoPlant <|-- Plant
+@enduml

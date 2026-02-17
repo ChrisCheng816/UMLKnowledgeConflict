@@ -1,0 +1,4 @@
+@startuml
+Motor *-- Bearing
+Vacuum *-- Motor
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Port *-- Laptop
+Housing *-- Port
+@enduml

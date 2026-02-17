@@ -1,4 +1,4 @@
 @startuml
-TeamOfScouts o-- Scout
-Club o-- TeamOfScouts
+StaffOfScouts o-- Scout
+Company o-- StaffOfScouts
 @enduml

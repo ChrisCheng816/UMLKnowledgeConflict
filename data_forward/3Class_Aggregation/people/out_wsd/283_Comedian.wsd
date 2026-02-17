@@ -1,4 +1,4 @@
 @startuml
-GroupOfComedians o-- Comedian
-Community o-- GroupOfComedians
+ClubOfComedians o-- Comedian
+School o-- ClubOfComedians
 @enduml

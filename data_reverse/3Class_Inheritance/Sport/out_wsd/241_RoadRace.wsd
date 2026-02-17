@@ -1,0 +1,4 @@
+@startuml
+RoadRace <|-- Cycling
+Cycling <|-- Sport
+@enduml

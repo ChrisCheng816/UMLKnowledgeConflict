@@ -1,0 +1,4 @@
+@startuml
+CodeSandbox ..> Internet
+OnlineUse ..> CodeSandbox
+@enduml

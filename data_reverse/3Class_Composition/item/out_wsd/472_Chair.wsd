@@ -1,0 +1,4 @@
+@startuml
+Armrest *-- Chair
+Bolt *-- Armrest
+@enduml

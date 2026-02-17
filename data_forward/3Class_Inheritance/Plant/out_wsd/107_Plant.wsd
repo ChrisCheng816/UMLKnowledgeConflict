@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Succulent
-Succulent <|-- Agave
+Plant <|-- Grass
+Grass <|-- Bamboo
 @enduml

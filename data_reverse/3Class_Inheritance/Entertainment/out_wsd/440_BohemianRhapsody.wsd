@@ -1,0 +1,4 @@
+@startuml
+BohemianRhapsody <|-- RockSong
+RockSong <|-- Entertainment
+@enduml

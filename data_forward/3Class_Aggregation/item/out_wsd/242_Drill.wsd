@@ -1,0 +1,4 @@
+@startuml
+Toolbox o-- Drill
+Garage o-- Toolbox
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Caltech <|-- STEMUniversity
+STEMUniversity <|-- University
+@enduml

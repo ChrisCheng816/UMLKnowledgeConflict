@@ -1,0 +1,4 @@
+@startuml
+Playlist o-- PodcastApp
+Episode o-- Playlist
+@enduml

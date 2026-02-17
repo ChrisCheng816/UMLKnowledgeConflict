@@ -1,0 +1,4 @@
+@startuml
+Beak *-- Tip
+Eagle *-- Beak
+@enduml

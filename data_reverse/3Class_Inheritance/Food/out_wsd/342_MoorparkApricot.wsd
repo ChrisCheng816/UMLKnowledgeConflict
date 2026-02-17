@@ -1,0 +1,4 @@
+@startuml
+MoorparkApricot <|-- Apricot
+Apricot <|-- Fruit
+@enduml

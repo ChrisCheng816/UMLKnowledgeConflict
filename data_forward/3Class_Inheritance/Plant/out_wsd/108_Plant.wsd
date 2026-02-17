@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Grass
-Grass <|-- Bamboo
+Plant <|-- Tree
+Tree <|-- Bonsai
 @enduml

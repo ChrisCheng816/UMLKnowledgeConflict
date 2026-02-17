@@ -1,0 +1,4 @@
+@startuml
+Substack ..> OnlineUse
+Internet ..> Substack
+@enduml

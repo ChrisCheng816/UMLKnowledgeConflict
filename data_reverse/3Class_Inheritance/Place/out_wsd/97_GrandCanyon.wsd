@@ -1,0 +1,4 @@
+@startuml
+GrandCanyon <|-- Canyon
+Canyon <|-- GeographicFeature
+@enduml

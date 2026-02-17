@@ -1,0 +1,4 @@
+@startuml
+PowerSupply *-- Housing
+Desktop *-- PowerSupply
+@enduml

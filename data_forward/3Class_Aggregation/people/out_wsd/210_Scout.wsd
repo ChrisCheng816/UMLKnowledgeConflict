@@ -1,4 +1,4 @@
 @startuml
-ClubOfScouts o-- Scout
-School o-- ClubOfScouts
+CrewOfScouts o-- Scout
+Festival o-- CrewOfScouts
 @enduml

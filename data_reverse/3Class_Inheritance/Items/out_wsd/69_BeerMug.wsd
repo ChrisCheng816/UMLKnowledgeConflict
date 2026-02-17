@@ -1,0 +1,4 @@
+@startuml
+BeerMug <|-- Mug
+Mug <|-- Drinkware
+@enduml

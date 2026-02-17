@@ -1,0 +1,4 @@
+@startuml
+Sledgehammer <|-- Hammer
+Hammer <|-- Tool
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Pantry o-- Salt
+Kitchen o-- Pantry
+@enduml

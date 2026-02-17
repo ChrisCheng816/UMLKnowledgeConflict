@@ -1,0 +1,4 @@
+@startuml
+DeskLamp <|-- Lamp
+Lamp <|-- Item
+@enduml

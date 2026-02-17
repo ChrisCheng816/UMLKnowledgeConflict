@@ -1,0 +1,4 @@
+@startuml
+Electronics <|-- Console
+Console <|-- GameConsole
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Hockey
+Hockey <|-- IceHockey
+@enduml

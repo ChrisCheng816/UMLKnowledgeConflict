@@ -1,0 +1,4 @@
+@startuml
+TeamOfSurfers o-- Surfer
+Club o-- TeamOfSurfers
+@enduml

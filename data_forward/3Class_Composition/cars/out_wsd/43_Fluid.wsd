@@ -1,0 +1,4 @@
+@startuml
+Transmission *-- Fluid
+Car *-- Transmission
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Origin ..> Internet
+OnlineUse ..> Origin
+@enduml

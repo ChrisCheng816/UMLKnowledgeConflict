@@ -1,0 +1,4 @@
+@startuml
+ScarletMacaw <|-- Parrot
+Parrot <|-- Animal
+@enduml

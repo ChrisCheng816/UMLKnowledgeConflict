@@ -1,4 +1,4 @@
 @startuml
-TeamOfComedians o-- Comedian
-Club o-- TeamOfComedians
+StaffOfComedians o-- Comedian
+Company o-- StaffOfComedians
 @enduml

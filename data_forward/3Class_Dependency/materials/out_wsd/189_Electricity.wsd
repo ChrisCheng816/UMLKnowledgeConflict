@@ -1,4 +1,4 @@
 @startuml
-SmartSpeaker ..> Electricity
-RadioListening ..> SmartSpeaker
+SmokeAlarm ..> Electricity
+HomeSecurity ..> SmokeAlarm
 @enduml

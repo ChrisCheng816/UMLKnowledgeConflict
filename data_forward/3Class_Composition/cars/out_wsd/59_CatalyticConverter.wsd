@@ -1,0 +1,4 @@
+@startuml
+Exhaust *-- CatalyticConverter
+Car *-- Exhaust
+@enduml

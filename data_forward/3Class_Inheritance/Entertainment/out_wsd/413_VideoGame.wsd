@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- RhythmGame
+RhythmGame <|-- GuitarHero
+@enduml

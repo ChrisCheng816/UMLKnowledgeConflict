@@ -1,0 +1,4 @@
+@startuml
+RedRaspberry <|-- Raspberry
+Raspberry <|-- Fruit
+@enduml

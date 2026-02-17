@@ -1,0 +1,4 @@
+@startuml
+GrannySmithApple <|-- Apple
+Apple <|-- Fruit
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-SmokeAlarm ..> Electricity
-MotionDetection ..> SmokeAlarm
+Soundbar ..> Electricity
+RadioListening ..> Soundbar
 @enduml

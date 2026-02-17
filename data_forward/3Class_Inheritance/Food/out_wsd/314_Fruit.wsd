@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Avocado
+Avocado <|-- HassAvocado
+@enduml

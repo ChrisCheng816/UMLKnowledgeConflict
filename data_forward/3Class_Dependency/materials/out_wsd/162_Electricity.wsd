@@ -1,4 +1,4 @@
 @startuml
-RadioReceiver ..> Electricity
-RadioListening ..> RadioReceiver
+Refrigerator ..> Electricity
+Cooling ..> Refrigerator
 @enduml

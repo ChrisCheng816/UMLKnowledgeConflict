@@ -1,0 +1,4 @@
+@startuml
+SallyRide <|-- Astronaut
+Astronaut <|-- Explorer
+@enduml

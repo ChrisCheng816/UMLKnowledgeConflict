@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- DeliveryVan
+City o-- Fleet
+@enduml

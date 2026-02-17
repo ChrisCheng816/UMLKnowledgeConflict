@@ -1,0 +1,4 @@
+@startuml
+Compressor ..> HomeUse
+Electricity ..> Compressor
+@enduml

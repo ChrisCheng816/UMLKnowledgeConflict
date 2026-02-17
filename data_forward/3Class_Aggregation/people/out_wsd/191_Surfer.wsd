@@ -1,0 +1,4 @@
+@startuml
+GroupOfSurfers o-- Surfer
+Community o-- GroupOfSurfers
+@enduml

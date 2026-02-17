@@ -1,0 +1,4 @@
+@startuml
+GroupOfBeavers o-- River
+Beaver o-- GroupOfBeavers
+@enduml

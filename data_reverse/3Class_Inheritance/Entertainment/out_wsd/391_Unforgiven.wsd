@@ -1,0 +1,4 @@
+@startuml
+Unforgiven <|-- WesternFilm
+WesternFilm <|-- Film
+@enduml

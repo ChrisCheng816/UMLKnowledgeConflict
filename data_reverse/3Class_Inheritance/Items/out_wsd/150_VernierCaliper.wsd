@@ -1,0 +1,4 @@
+@startuml
+VernierCaliper <|-- Caliper
+Caliper <|-- MeasuringTool
+@enduml

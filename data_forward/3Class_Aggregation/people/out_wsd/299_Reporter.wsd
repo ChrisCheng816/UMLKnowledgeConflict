@@ -1,4 +1,4 @@
 @startuml
-TeamOfReporters o-- Reporter
-Studio o-- TeamOfReporters
+CrewOfReporters o-- Reporter
+Studio o-- CrewOfReporters
 @enduml

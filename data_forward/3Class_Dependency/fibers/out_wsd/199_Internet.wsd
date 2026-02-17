@@ -1,0 +1,4 @@
+@startuml
+PyCharm ..> Internet
+OnlineUse ..> PyCharm
+@enduml

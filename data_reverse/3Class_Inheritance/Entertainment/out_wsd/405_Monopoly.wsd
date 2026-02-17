@@ -1,0 +1,4 @@
+@startuml
+Monopoly <|-- EconomicGame
+EconomicGame <|-- BoardGame
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PoliceCarEngine ..> TransportUse
+Fuel ..> PoliceCarEngine
+@enduml

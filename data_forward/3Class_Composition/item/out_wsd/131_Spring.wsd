@@ -1,0 +1,4 @@
+@startuml
+Door *-- Spring
+Microwave *-- Door
+@enduml

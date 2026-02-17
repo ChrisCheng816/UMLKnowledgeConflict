@@ -1,0 +1,4 @@
+@startuml
+Transmission *-- Seal
+Car *-- Transmission
+@enduml

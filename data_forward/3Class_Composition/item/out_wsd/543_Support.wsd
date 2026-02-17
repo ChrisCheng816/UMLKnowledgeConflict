@@ -1,0 +1,4 @@
+@startuml
+Rod *-- Support
+Closet *-- Rod
+@enduml

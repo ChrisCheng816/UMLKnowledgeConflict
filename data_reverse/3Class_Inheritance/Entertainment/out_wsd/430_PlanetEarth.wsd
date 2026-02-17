@@ -1,0 +1,4 @@
+@startuml
+PlanetEarth <|-- Documentary
+Documentary <|-- Entertainment
+@enduml

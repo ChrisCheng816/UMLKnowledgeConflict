@@ -1,0 +1,4 @@
+@startuml
+Wiring *-- House
+Fuse *-- Wiring
+@enduml

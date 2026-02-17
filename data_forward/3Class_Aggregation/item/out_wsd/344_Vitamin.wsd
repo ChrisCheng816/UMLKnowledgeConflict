@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Vitamin
+Pharmacy o-- Cabinet
+@enduml

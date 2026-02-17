@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Potato
+Potato <|-- RussetPotato
+@enduml

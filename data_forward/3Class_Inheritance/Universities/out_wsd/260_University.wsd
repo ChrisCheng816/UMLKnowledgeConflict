@@ -1,0 +1,4 @@
+@startuml
+University <|-- BusinessSchool
+BusinessSchool <|-- WhartonSchool
+@enduml

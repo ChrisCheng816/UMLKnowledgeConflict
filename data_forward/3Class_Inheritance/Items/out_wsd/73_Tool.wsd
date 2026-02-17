@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- Level
+Level <|-- SpiritLevel
+@enduml

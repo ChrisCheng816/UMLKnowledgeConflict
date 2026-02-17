@@ -1,0 +1,4 @@
+@startuml
+GarageDoor *-- House
+Hinge *-- GarageDoor
+@enduml

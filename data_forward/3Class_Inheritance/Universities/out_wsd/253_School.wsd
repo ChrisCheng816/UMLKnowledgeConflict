@@ -1,0 +1,4 @@
+@startuml
+School <|-- Conservatory
+Conservatory <|-- Juilliard
+@enduml

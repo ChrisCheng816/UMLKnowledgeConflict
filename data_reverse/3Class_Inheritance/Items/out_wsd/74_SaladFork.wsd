@@ -1,0 +1,4 @@
+@startuml
+SaladFork <|-- Fork
+Fork <|-- Utensil
+@enduml

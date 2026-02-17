@@ -1,0 +1,4 @@
+@startuml
+SSD *-- Laptop
+Heatspreader *-- SSD
+@enduml

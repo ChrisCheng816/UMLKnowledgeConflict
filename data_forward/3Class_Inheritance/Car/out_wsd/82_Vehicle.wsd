@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Motorcycle
+Motorcycle <|-- YamahaR1
+@enduml

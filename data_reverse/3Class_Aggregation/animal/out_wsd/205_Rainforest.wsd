@@ -1,0 +1,4 @@
+@startuml
+FlockOfParrots o-- Rainforest
+Parrot o-- FlockOfParrots
+@enduml

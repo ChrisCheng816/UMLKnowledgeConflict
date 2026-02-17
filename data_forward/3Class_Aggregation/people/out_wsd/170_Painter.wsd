@@ -1,4 +1,4 @@
 @startuml
-ClubOfPainters o-- Painter
-School o-- ClubOfPainters
+CrewOfPainters o-- Painter
+Festival o-- CrewOfPainters
 @enduml

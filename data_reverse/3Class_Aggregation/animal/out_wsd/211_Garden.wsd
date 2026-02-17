@@ -1,0 +1,4 @@
+@startuml
+SwarmOfBeetles o-- Garden
+Beetle o-- SwarmOfBeetles
+@enduml

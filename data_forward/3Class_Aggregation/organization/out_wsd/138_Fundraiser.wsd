@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Fundraiser
+Charity o-- Committee
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-MicrowaveOven ..> Electricity
-Reheating ..> MicrowaveOven
+MotionSensor ..> Electricity
+HomeSecurity ..> MotionSensor
 @enduml

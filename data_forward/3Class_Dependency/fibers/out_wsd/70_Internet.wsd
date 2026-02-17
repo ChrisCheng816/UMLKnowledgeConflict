@@ -1,0 +1,4 @@
+@startuml
+WeChat ..> Internet
+OnlineUse ..> WeChat
+@enduml

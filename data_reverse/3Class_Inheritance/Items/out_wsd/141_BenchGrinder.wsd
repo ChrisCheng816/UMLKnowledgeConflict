@@ -1,0 +1,4 @@
+@startuml
+BenchGrinder <|-- Grinder
+Grinder <|-- PowerTool
+@enduml

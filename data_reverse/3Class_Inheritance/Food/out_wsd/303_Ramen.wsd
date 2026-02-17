@@ -1,0 +1,4 @@
+@startuml
+Ramen <|-- NoodleSoup
+NoodleSoup <|-- Soup
+@enduml

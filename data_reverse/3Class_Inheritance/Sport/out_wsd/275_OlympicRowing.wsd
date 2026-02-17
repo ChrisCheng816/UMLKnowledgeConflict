@@ -1,0 +1,4 @@
+@startuml
+OlympicRowing <|-- Rowing
+Rowing <|-- Sport
+@enduml

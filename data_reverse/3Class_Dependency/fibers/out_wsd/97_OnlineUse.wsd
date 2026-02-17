@@ -1,0 +1,4 @@
+@startuml
+Netflix ..> OnlineUse
+Internet ..> Netflix
+@enduml

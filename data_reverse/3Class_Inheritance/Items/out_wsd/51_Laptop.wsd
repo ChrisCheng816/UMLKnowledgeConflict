@@ -1,0 +1,4 @@
+@startuml
+Laptop <|-- Computer
+Computer <|-- Electronics
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Alipay ..> Internet
+OnlineUse ..> Alipay
+@enduml

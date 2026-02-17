@@ -1,0 +1,4 @@
+@startuml
+Speaker *-- Amplifier
+Phone *-- Speaker
+@enduml

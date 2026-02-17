@@ -1,0 +1,4 @@
+@startuml
+RedOnion <|-- Onion
+Onion <|-- Vegetable
+@enduml

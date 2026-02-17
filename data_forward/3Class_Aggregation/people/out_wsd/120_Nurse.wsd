@@ -1,4 +1,4 @@
 @startuml
-GroupOfNurses o-- Nurse
-Clinic o-- GroupOfNurses
+ShiftOfNurses o-- Nurse
+Hospital o-- ShiftOfNurses
 @enduml

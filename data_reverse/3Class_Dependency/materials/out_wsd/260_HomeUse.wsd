@@ -1,0 +1,4 @@
+@startuml
+Router ..> HomeUse
+Electricity ..> Router
+@enduml

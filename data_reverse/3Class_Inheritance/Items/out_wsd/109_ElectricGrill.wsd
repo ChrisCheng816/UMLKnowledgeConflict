@@ -1,0 +1,4 @@
+@startuml
+ElectricGrill <|-- Grill
+Grill <|-- Appliance
+@enduml

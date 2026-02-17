@@ -1,0 +1,4 @@
+@startuml
+Crate o-- Notebook
+Warehouse o-- Crate
+@enduml

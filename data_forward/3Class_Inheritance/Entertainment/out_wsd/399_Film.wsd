@@ -1,0 +1,4 @@
+@startuml
+Film <|-- AnimeFilm
+AnimeFilm <|-- SpiritedAway
+@enduml

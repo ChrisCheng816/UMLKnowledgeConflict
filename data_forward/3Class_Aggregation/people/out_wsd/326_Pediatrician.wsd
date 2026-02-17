@@ -1,0 +1,4 @@
+@startuml
+Ward o-- Pediatrician
+Hospital o-- Ward
+@enduml

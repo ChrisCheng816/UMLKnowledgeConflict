@@ -1,0 +1,4 @@
+@startuml
+Costco ..> OnlineUse
+Internet ..> Costco
+@enduml

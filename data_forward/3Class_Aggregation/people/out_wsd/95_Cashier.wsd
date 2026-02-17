@@ -1,4 +1,4 @@
 @startuml
-GroupOfCashiers o-- Cashier
-Market o-- GroupOfCashiers
+CrewOfCashiers o-- Cashier
+Mall o-- CrewOfCashiers
 @enduml

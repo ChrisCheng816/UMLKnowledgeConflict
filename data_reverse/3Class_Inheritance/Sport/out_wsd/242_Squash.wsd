@@ -1,0 +1,4 @@
+@startuml
+Squash <|-- RacketSport
+RacketSport <|-- Sport
+@enduml

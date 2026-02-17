@@ -1,0 +1,4 @@
+@startuml
+Port *-- Shield
+Laptop *-- Port
+@enduml

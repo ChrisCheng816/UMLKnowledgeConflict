@@ -1,0 +1,4 @@
+@startuml
+SprintKayaking <|-- Kayaking
+Kayaking <|-- Sport
+@enduml

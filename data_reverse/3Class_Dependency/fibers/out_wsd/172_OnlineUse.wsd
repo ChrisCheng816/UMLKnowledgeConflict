@@ -1,0 +1,4 @@
+@startuml
+Deliveroo ..> OnlineUse
+Internet ..> Deliveroo
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-TeamOfTutors o-- Tutor
-School o-- TeamOfTutors
+CircleOfTutors o-- Tutor
+Library o-- CircleOfTutors
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+GreaterFlamingo <|-- Flamingo
+Flamingo <|-- Bird
+@enduml

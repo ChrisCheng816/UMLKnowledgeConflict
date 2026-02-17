@@ -1,0 +1,4 @@
+@startuml
+GoogleMaps ..> OnlineUse
+Internet ..> GoogleMaps
+@enduml

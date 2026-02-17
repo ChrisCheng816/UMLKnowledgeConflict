@@ -1,0 +1,4 @@
+@startuml
+FlockOfDucks o-- Duck
+Lake o-- FlockOfDucks
+@enduml

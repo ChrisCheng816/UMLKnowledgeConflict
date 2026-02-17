@@ -1,0 +1,4 @@
+@startuml
+Coinbase ..> Internet
+OnlineUse ..> Coinbase
+@enduml

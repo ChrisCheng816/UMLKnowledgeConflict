@@ -1,0 +1,4 @@
+@startuml
+College <|-- MusicCollege
+MusicCollege <|-- Berklee
+@enduml

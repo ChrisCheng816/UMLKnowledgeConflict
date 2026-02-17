@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Scooter
+Scooter <|-- ElectricScooter
+@enduml

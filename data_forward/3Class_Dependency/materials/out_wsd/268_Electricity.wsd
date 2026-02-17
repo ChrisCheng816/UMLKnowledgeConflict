@@ -1,0 +1,4 @@
+@startuml
+SetTopBox ..> Electricity
+HomeUse ..> SetTopBox
+@enduml

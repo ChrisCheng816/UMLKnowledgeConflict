@@ -1,4 +1,4 @@
 @startuml
-ChoirOfSingers o-- Singer
-Church o-- ChoirOfSingers
+GroupOfSingers o-- Singer
+Concert o-- GroupOfSingers
 @enduml

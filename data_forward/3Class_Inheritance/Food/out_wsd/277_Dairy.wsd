@@ -1,0 +1,4 @@
+@startuml
+Dairy <|-- Yogurt
+Yogurt <|-- Skyr
+@enduml

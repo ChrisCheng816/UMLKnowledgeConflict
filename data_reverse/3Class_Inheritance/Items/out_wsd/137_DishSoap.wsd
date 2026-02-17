@@ -1,0 +1,4 @@
+@startuml
+DishSoap <|-- Soap
+Soap <|-- CleaningSupply
+@enduml

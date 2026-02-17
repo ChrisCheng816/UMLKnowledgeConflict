@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Cycling
+Cycling <|-- RoadCycling
+@enduml

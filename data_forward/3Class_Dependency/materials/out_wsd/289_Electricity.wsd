@@ -1,0 +1,4 @@
+@startuml
+DrillCharger ..> Electricity
+HomeUse ..> DrillCharger
+@enduml

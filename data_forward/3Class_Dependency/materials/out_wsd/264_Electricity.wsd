@@ -1,0 +1,4 @@
+@startuml
+SmartDisplay ..> Electricity
+HomeUse ..> SmartDisplay
+@enduml

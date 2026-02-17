@@ -1,0 +1,4 @@
+@startuml
+BoatEngine ..> TransportUse
+Fuel ..> BoatEngine
+@enduml

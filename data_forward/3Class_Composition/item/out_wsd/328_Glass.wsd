@@ -1,0 +1,4 @@
+@startuml
+Screen *-- Glass
+Phone *-- Screen
+@enduml

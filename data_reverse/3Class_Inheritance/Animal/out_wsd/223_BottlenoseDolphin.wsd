@@ -1,0 +1,4 @@
+@startuml
+BottlenoseDolphin <|-- Dolphin
+Dolphin <|-- Animal
+@enduml

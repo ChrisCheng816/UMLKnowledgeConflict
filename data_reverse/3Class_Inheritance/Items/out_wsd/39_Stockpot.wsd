@@ -1,0 +1,4 @@
+@startuml
+Stockpot <|-- Pot
+Pot <|-- Cookware
+@enduml

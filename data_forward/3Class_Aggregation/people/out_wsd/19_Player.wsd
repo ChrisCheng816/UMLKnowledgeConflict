@@ -1,4 +1,4 @@
 @startuml
-SquadOfPlayers o-- Player
-Club o-- SquadOfPlayers
+GroupOfPlayers o-- Player
+Tournament o-- GroupOfPlayers
 @enduml

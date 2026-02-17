@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Kitchen
+Knife o-- Cabinet
+@enduml

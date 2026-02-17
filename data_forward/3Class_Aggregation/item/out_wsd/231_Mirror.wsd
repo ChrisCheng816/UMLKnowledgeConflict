@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Mirror
+LivingRoom o-- Shelf
+@enduml

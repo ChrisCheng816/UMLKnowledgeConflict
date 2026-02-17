@@ -1,0 +1,4 @@
+@startuml
+Album o-- Track
+MusicApp o-- Album
+@enduml

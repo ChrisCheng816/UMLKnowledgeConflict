@@ -1,4 +1,4 @@
 @startuml
-TeamOfFriends o-- Friend
-Club o-- TeamOfFriends
+StaffOfFriends o-- Friend
+Company o-- StaffOfFriends
 @enduml

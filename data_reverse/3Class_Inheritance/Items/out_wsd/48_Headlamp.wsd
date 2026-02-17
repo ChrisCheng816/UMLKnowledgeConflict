@@ -1,0 +1,4 @@
+@startuml
+Headlamp <|-- Flashlight
+Flashlight <|-- Item
+@enduml

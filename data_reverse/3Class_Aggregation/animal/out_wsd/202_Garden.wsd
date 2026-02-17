@@ -1,0 +1,4 @@
+@startuml
+FlockOfRobins o-- Garden
+Robin o-- FlockOfRobins
+@enduml

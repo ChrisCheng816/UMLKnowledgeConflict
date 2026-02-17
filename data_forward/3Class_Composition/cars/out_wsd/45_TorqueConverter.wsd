@@ -1,0 +1,4 @@
+@startuml
+Transmission *-- TorqueConverter
+Car *-- Transmission
+@enduml

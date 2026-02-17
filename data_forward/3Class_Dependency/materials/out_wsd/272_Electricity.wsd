@@ -1,0 +1,4 @@
+@startuml
+EBikeCharger ..> Electricity
+HomeUse ..> EBikeCharger
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-TeamOfReceptionists o-- Receptionist
-Club o-- TeamOfReceptionists
+StaffOfReceptionists o-- Receptionist
+Company o-- StaffOfReceptionists
 @enduml

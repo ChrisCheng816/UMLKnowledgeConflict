@@ -1,4 +1,4 @@
 @startuml
-GroupOfGardeners o-- Gardener
-Community o-- GroupOfGardeners
+ClubOfGardeners o-- Gardener
+School o-- ClubOfGardeners
 @enduml

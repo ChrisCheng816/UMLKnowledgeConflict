@@ -1,0 +1,4 @@
+@startuml
+RedTailedHawk <|-- Hawk
+Hawk <|-- Bird
+@enduml

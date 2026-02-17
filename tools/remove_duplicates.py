@@ -17,13 +17,18 @@ from pathlib import Path
 from typing import Dict, Iterable, List
 
 
-def _dedup_key(stripped: str) -> str:
+def _dedup_key(stripped: str, pair_mode: str | None = None) -> str:
     parts = stripped.split()
     if len(parts) == 2:
         a, b = parts[0].casefold(), parts[1].casefold()
         if a <= b:
             return f"{a}\t{b}"
         return f"{b}\t{a}"
+    if len(parts) >= 3 and pair_mode in {"ab", "bc"}:
+        a, b, c = parts[0].casefold(), parts[1].casefold(), parts[2].casefold()
+        if pair_mode == "ab":
+            return f"ab\t{a}\t{b}"
+        return f"bc\t{b}\t{c}"
     if len(parts) == 3:
         a, b, c = parts[0].casefold(), parts[1].casefold(), parts[2].casefold()
         a, b, c = sorted([a, b, c])
@@ -31,7 +36,7 @@ def _dedup_key(stripped: str) -> str:
     return stripped.casefold()
 
 
-def dedup_file_in_place(path: Path) -> int:
+def dedup_file_in_place(path: Path, pair_mode: str | None = None) -> int:
     """
     Returns the number of removed lines.
     """
@@ -49,7 +54,7 @@ def dedup_file_in_place(path: Path) -> int:
             continue
 
         # Use unordered pair for 2-token lines; otherwise full line, case-insensitive.
-        key = _dedup_key(stripped)
+        key = _dedup_key(stripped, pair_mode=pair_mode)
 
         if key in seen:
             removed += 1
@@ -75,7 +80,7 @@ def dedup_file_in_place(path: Path) -> int:
     return removed
 
 
-def count_removed(path: Path) -> int:
+def count_removed(path: Path, pair_mode: str | None = None) -> int:
     text = path.read_text(encoding="utf-8", errors="replace")
     lines = text.splitlines()
 
@@ -87,7 +92,7 @@ def count_removed(path: Path) -> int:
             continue
 
         # Same key rule as dedup_file_in_place.
-        key = _dedup_key(stripped)
+        key = _dedup_key(stripped, pair_mode=pair_mode)
 
         if key in seen:
             removed += 1
@@ -96,7 +101,7 @@ def count_removed(path: Path) -> int:
     return removed
 
 
-def dedup_files_in_place(paths: Iterable[Path], seen: set[str]) -> int:
+def dedup_files_in_place(paths: Iterable[Path], seen: set[str], pair_mode: str | None = None) -> int:
     """
     De-duplicate across multiple files using a shared 'seen' set.
     Returns total removed lines across all files.
@@ -115,7 +120,7 @@ def dedup_files_in_place(paths: Iterable[Path], seen: set[str]) -> int:
                 kept.append(line)
                 continue
 
-            key = _dedup_key(stripped)
+            key = _dedup_key(stripped, pair_mode=pair_mode)
             if key in seen:
                 removed += 1
                 continue
@@ -163,6 +168,25 @@ def collect_grouped_data_files(root: Path, splits: List[str]) -> Dict[str, List[
     return groups
 
 
+def pair_mode_for_group(group: str) -> str | None:
+    """
+    For 3Class groups:
+    - Inheritance/Dependency -> ab
+    - Composition/Aggregation -> bc
+    Return None for 2Class or unmatched relations.
+    """
+    _, _, class_name = group.partition("/")
+    if not class_name.startswith("3Class_"):
+        return None
+
+    relation = class_name.casefold()
+    if "inheritance" in relation or "dependency" in relation:
+        return "ab"
+    if "composition" in relation or "aggregation" in relation:
+        return "bc"
+    return None
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -206,6 +230,7 @@ def main() -> int:
         total_files += len(paths)
 
     for group, paths in sorted(groups.items(), key=lambda kv: kv[0].lower()):
+        pair_mode = pair_mode_for_group(group)
         # Dry-run: count removals using a shared seen set across the group.
         if args.dry_run:
             seen: set[str] = set()
@@ -216,7 +241,7 @@ def main() -> int:
                     stripped = line.strip()
                     if not stripped:
                         continue
-                    key = _dedup_key(stripped)
+                    key = _dedup_key(stripped, pair_mode=pair_mode)
                     if key in seen:
                         removed += 1
                     else:
@@ -227,7 +252,7 @@ def main() -> int:
             continue
 
         # In-place: de-duplicate across all files in the group.
-        removed = dedup_files_in_place(paths, seen=set())
+        removed = dedup_files_in_place(paths, seen=set(), pair_mode=pair_mode)
         if removed > 0:
             total_removed += removed
             print(f"DEDUP {group}  removed_lines={removed}")

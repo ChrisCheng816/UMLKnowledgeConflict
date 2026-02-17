@@ -1,0 +1,4 @@
+@startuml
+Tray o-- Waffle
+Bakery o-- Tray
+@enduml

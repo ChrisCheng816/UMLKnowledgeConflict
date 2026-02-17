@@ -1,0 +1,4 @@
+@startuml
+ExerciseEquipment <|-- ExerciseMachine
+ExerciseMachine <|-- Treadmill
+@enduml

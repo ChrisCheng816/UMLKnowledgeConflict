@@ -1,0 +1,4 @@
+@startuml
+BeachVolleyball <|-- Volleyball
+Volleyball <|-- Sport
+@enduml

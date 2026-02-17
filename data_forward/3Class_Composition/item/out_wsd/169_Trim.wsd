@@ -1,0 +1,4 @@
+@startuml
+Wall *-- Trim
+House *-- Wall
+@enduml

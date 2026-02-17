@@ -1,0 +1,4 @@
+@startuml
+Binding *-- Thread
+Book *-- Binding
+@enduml

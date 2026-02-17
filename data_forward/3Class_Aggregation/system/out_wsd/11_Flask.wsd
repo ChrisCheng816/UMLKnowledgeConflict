@@ -1,0 +1,4 @@
+@startuml
+Laboratory o-- Flask
+University o-- Laboratory
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Basket o-- FabricSoftener
+LaundryRoom o-- Basket
+@enduml

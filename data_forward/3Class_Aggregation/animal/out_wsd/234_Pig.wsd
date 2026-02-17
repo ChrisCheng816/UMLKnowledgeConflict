@@ -1,0 +1,4 @@
+@startuml
+HerdOfPigs o-- Pig
+Farm o-- HerdOfPigs
+@enduml

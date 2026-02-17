@@ -1,4 +1,4 @@
 @startuml
-PanelOfReferees o-- Referee
-Tournament o-- PanelOfReferees
+StaffOfReferees o-- Referee
+League o-- StaffOfReferees
 @enduml

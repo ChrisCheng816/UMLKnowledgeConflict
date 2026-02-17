@@ -1,0 +1,4 @@
+@startuml
+SteamMop <|-- Mop
+Mop <|-- CleaningTool
+@enduml

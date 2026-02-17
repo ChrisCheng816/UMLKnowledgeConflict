@@ -1,0 +1,4 @@
+@startuml
+PowerTool <|-- Sander
+Sander <|-- OrbitalSander
+@enduml

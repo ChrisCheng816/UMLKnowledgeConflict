@@ -1,0 +1,4 @@
+@startuml
+GroupOfCampers o-- Camper
+Community o-- GroupOfCampers
+@enduml

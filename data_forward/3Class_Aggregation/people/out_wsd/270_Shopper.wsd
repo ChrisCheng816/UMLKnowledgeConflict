@@ -1,4 +1,4 @@
 @startuml
-ClubOfShoppers o-- Shopper
-School o-- ClubOfShoppers
+CrewOfShoppers o-- Shopper
+Festival o-- CrewOfShoppers
 @enduml

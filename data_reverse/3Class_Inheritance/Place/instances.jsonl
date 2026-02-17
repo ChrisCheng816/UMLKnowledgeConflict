@@ -87,3 +87,15 @@
 {"id": "87", "template_id": "inheritance", "nodes": ["Tasmania", "Island", "GeographicFeature"], "edges": ["Tasmania <|-- Island", "Island <|-- GeographicFeature"]}
 {"id": "88", "template_id": "inheritance", "nodes": ["Hawaii", "Island", "GeographicFeature"], "edges": ["Hawaii <|-- Island", "Island <|-- GeographicFeature"]}
 {"id": "89", "template_id": "inheritance", "nodes": ["Oceania", "Continent", "GeographicFeature"], "edges": ["Oceania <|-- Continent", "Continent <|-- GeographicFeature"]}
+{"id": "90", "template_id": "inheritance", "nodes": ["Yosemite", "NationalPark", "Park"], "edges": ["Yosemite <|-- NationalPark", "NationalPark <|-- Park"]}
+{"id": "91", "template_id": "inheritance", "nodes": ["Gobi", "Desert", "GeographicFeature"], "edges": ["Gobi <|-- Desert", "Desert <|-- GeographicFeature"]}
+{"id": "92", "template_id": "inheritance", "nodes": ["Congo", "Rainforest", "GeographicFeature"], "edges": ["Congo <|-- Rainforest", "Rainforest <|-- GeographicFeature"]}
+{"id": "93", "template_id": "inheritance", "nodes": ["Mississippi", "River", "GeographicFeature"], "edges": ["Mississippi <|-- River", "River <|-- GeographicFeature"]}
+{"id": "94", "template_id": "inheritance", "nodes": ["CentralPark", "UrbanPark", "Park"], "edges": ["CentralPark <|-- UrbanPark", "UrbanPark <|-- Park"]}
+{"id": "95", "template_id": "inheritance", "nodes": ["CraterLake", "Lake", "GeographicFeature"], "edges": ["CraterLake <|-- Lake", "Lake <|-- GeographicFeature"]}
+{"id": "96", "template_id": "inheritance", "nodes": ["NapaValley", "Valley", "GeographicFeature"], "edges": ["NapaValley <|-- Valley", "Valley <|-- GeographicFeature"]}
+{"id": "97", "template_id": "inheritance", "nodes": ["GrandCanyon", "Canyon", "GeographicFeature"], "edges": ["GrandCanyon <|-- Canyon", "Canyon <|-- GeographicFeature"]}
+{"id": "98", "template_id": "inheritance", "nodes": ["Andes", "MountainRange", "GeographicFeature"], "edges": ["Andes <|-- MountainRange", "MountainRange <|-- GeographicFeature"]}
+{"id": "99", "template_id": "inheritance", "nodes": ["RedwoodForest", "Forest", "GeographicFeature"], "edges": ["RedwoodForest <|-- Forest", "Forest <|-- GeographicFeature"]}
+{"id": "100", "template_id": "inheritance", "nodes": ["NiagaraFalls", "Waterfall", "GeographicFeature"], "edges": ["NiagaraFalls <|-- Waterfall", "Waterfall <|-- GeographicFeature"]}
+{"id": "101", "template_id": "inheritance", "nodes": ["GreatBarrierReef", "CoralReef", "GeographicFeature"], "edges": ["GreatBarrierReef <|-- CoralReef", "CoralReef <|-- GeographicFeature"]}

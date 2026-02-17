@@ -1,0 +1,4 @@
+@startuml
+GroupOfOtters o-- River
+Otter o-- GroupOfOtters
+@enduml

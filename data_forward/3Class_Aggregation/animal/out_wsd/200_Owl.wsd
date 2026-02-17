@@ -1,0 +1,4 @@
+@startuml
+FlockOfOwls o-- Owl
+Forest o-- FlockOfOwls
+@enduml

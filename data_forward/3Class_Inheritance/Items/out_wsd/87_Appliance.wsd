@@ -1,0 +1,4 @@
+@startuml
+Appliance <|-- Fryer
+Fryer <|-- AirFryer
+@enduml

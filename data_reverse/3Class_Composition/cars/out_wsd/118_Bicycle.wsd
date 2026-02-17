@@ -1,0 +1,4 @@
+@startuml
+Gear *-- Bicycle
+Cog *-- Gear
+@enduml

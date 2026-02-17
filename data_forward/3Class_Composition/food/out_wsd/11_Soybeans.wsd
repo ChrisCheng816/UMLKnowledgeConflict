@@ -1,4 +1,4 @@
 @startuml
-SoySauce *-- Soybeans
-Ramen *-- SoySauce
+HoisinSauce *-- Soybeans
+PekingDuck *-- HoisinSauce
 @enduml

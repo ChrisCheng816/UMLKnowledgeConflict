@@ -1,0 +1,4 @@
+@startuml
+BellPepper <|-- Pepper
+Pepper <|-- Vegetable
+@enduml

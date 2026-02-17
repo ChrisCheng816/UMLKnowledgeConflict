@@ -1,0 +1,4 @@
+@startuml
+Drivetrain *-- Derailleur
+Bicycle *-- Drivetrain
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Politician <|-- Chancellor
+Chancellor <|-- AngelaMerkel
+@enduml

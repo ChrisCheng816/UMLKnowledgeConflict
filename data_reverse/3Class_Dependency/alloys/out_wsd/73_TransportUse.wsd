@@ -1,0 +1,4 @@
+@startuml
+RacingEngine ..> TransportUse
+Fuel ..> RacingEngine
+@enduml

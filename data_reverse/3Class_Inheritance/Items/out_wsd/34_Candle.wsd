@@ -1,0 +1,4 @@
+@startuml
+Candle <|-- Light
+Light <|-- Item
+@enduml

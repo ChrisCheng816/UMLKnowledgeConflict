@@ -1,0 +1,4 @@
+@startuml
+GroupOfBadgers o-- Forest
+Badger o-- GroupOfBadgers
+@enduml

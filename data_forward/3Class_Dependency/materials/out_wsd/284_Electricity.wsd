@@ -1,0 +1,4 @@
+@startuml
+AquariumHeater ..> Electricity
+HomeUse ..> AquariumHeater
+@enduml

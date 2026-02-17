@@ -1,0 +1,4 @@
+@startuml
+BenchVise <|-- Vise
+Vise <|-- Tool
+@enduml

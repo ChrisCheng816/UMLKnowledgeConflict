@@ -1,4 +1,4 @@
 @startuml
-LineOfVisitors o-- Visitor
-Museum o-- LineOfVisitors
+TeamOfVisitors o-- Visitor
+Club o-- TeamOfVisitors
 @enduml

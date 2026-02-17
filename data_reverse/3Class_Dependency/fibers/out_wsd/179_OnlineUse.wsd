@@ -1,0 +1,4 @@
+@startuml
+Stripe ..> OnlineUse
+Internet ..> Stripe
+@enduml

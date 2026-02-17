@@ -1,0 +1,4 @@
+@startuml
+FogMachine ..> Electricity
+HomeUse ..> FogMachine
+@enduml

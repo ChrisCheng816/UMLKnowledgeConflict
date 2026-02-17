@@ -1,4 +1,4 @@
 @startuml
-GasOven ..> NaturalGas
-Roasting ..> GasOven
+GasStove ..> NaturalGas
+Boiling ..> GasStove
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-KitchenLight ..> Electricity
-NightLighting ..> KitchenLight
+LaptopCharger ..> Electricity
+BatteryCharging ..> LaptopCharger
 @enduml

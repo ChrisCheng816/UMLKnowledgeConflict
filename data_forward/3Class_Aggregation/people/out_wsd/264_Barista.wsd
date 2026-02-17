@@ -1,4 +1,4 @@
 @startuml
-TeamOfBaristas o-- Barista
-Club o-- TeamOfBaristas
+StaffOfBaristas o-- Barista
+Company o-- StaffOfBaristas
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+MonopolyGame <|-- BoardGame
+BoardGame <|-- Entertainment
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-ClubOfCyclists o-- Cyclist
-School o-- ClubOfCyclists
+CrewOfCyclists o-- Cyclist
+Festival o-- CrewOfCyclists
 @enduml

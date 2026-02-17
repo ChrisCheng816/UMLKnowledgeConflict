@@ -1,0 +1,4 @@
+@startuml
+Tree <|-- Maple
+Maple <|-- RedMaple
+@enduml

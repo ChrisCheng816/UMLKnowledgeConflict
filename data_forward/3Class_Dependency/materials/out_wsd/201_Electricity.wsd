@@ -1,4 +1,4 @@
 @startuml
-SpaceHeater ..> Electricity
-WarmAir ..> SpaceHeater
+StandMixer ..> Electricity
+Kneading ..> StandMixer
 @enduml

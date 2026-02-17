@@ -1,0 +1,4 @@
+@startuml
+Heart *-- Vein
+Person *-- Heart
+@enduml

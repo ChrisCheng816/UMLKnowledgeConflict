@@ -1,0 +1,4 @@
+@startuml
+FlockOfGeese o-- Lake
+Goose o-- FlockOfGeese
+@enduml

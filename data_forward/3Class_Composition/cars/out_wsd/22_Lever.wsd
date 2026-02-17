@@ -1,0 +1,4 @@
+@startuml
+Brake *-- Lever
+Car *-- Brake
+@enduml

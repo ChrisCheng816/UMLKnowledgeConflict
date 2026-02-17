@@ -1,4 +1,4 @@
 @startuml
-TeamOfCoaches o-- Coach
-League o-- TeamOfCoaches
+PanelOfCoaches o-- Coach
+Conference o-- PanelOfCoaches
 @enduml

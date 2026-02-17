@@ -1,0 +1,4 @@
+@startuml
+BoardGame <|-- TileGame
+TileGame <|-- Carcassonne
+@enduml

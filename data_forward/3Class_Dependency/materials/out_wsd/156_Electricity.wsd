@@ -1,4 +1,4 @@
 @startuml
-PowerStrip ..> Electricity
-PowerSupply ..> PowerStrip
+PressureCooker ..> Electricity
+PressureCooking ..> PressureCooker
 @enduml

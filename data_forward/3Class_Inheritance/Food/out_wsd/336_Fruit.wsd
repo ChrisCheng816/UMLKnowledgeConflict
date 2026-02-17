@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Cantaloupe
+Cantaloupe <|-- HoneydewMelon
+@enduml

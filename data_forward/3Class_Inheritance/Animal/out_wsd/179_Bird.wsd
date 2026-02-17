@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Robin
+Robin <|-- EuropeanRobin
+@enduml

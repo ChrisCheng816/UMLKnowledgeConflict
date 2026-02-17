@@ -1,4 +1,4 @@
 @startuml
 PressureCooker ..> Electricity
-Steaming ..> PressureCooker
+Warming ..> PressureCooker
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Slalom <|-- Canoeing
+Canoeing <|-- Sport
+@enduml

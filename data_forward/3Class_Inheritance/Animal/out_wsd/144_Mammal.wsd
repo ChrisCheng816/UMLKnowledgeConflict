@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Dolphin
+Dolphin <|-- Orca
+@enduml

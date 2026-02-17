@@ -1,0 +1,4 @@
+@startuml
+Collar *-- Point
+Shirt *-- Collar
+@enduml

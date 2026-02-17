@@ -1,0 +1,4 @@
+@startuml
+LaserPrinter <|-- Printer
+Printer <|-- OfficeEquipment
+@enduml

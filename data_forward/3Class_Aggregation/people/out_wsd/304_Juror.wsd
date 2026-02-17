@@ -1,4 +1,4 @@
 @startuml
-PanelOfJurors o-- Juror
-Court o-- PanelOfJurors
+TeamOfJurors o-- Juror
+Court o-- TeamOfJurors
 @enduml

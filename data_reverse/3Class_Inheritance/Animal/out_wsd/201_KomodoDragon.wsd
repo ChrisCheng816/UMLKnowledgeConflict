@@ -1,0 +1,4 @@
+@startuml
+KomodoDragon <|-- MonitorLizard
+MonitorLizard <|-- Lizard
+@enduml

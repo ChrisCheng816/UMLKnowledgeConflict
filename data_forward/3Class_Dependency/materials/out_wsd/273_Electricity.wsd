@@ -1,0 +1,4 @@
+@startuml
+ScooterCharger ..> Electricity
+HomeUse ..> ScooterCharger
+@enduml

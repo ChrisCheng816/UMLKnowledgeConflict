@@ -1,0 +1,4 @@
+@startuml
+Musician <|-- Rapper
+Rapper <|-- Eminem
+@enduml

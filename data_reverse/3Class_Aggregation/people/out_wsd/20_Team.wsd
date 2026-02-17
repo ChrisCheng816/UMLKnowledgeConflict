@@ -1,4 +1,4 @@
 @startuml
-RosterOfPlayers o-- Team
-Player o-- RosterOfPlayers
+CrewOfPlayers o-- Team
+Player o-- CrewOfPlayers
 @enduml

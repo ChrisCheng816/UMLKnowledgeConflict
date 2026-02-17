@@ -1,0 +1,4 @@
+@startuml
+BusEngine ..> Fuel
+TransportUse ..> BusEngine
+@enduml

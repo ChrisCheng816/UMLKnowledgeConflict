@@ -1,0 +1,4 @@
+@startuml
+PileatedWoodpecker <|-- Woodpecker
+Woodpecker <|-- Bird
+@enduml

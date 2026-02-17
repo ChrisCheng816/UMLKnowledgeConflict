@@ -1,4 +1,4 @@
 @startuml
-GroupOfMusicians o-- Musician
-Festival o-- GroupOfMusicians
+TeamOfMusicians o-- Musician
+Club o-- TeamOfMusicians
 @enduml

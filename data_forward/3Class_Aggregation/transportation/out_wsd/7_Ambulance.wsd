@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Ambulance
+City o-- Fleet
+@enduml

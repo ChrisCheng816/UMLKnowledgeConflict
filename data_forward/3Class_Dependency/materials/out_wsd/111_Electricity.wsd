@@ -1,4 +1,4 @@
 @startuml
-GrowLight ..> Electricity
-NightLighting ..> GrowLight
+HairDryer ..> Electricity
+HairDrying ..> HairDryer
 @enduml

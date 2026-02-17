@@ -1,0 +1,4 @@
+@startuml
+PopcornMaker <|-- Popper
+Popper <|-- Appliance
+@enduml

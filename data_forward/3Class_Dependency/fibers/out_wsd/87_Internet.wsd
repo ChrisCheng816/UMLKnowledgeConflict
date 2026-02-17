@@ -1,0 +1,4 @@
+@startuml
+Reddit ..> Internet
+OnlineUse ..> Reddit
+@enduml

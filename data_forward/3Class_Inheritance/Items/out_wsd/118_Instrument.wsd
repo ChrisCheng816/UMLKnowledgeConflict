@@ -1,0 +1,4 @@
+@startuml
+Instrument <|-- Guitar
+Guitar <|-- ElectricGuitar
+@enduml

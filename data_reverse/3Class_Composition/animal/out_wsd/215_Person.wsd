@@ -1,0 +1,4 @@
+@startuml
+Skin *-- Person
+Follicle *-- Skin
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cookware <|-- Pan
+Pan <|-- Saucepan
+@enduml

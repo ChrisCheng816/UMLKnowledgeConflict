@@ -1,0 +1,4 @@
+@startuml
+Shein ..> Internet
+OnlineUse ..> Shein
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SmokeDetector <|-- SafetyDevice
+SafetyDevice <|-- Device
+@enduml

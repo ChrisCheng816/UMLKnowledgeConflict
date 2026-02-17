@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Pharmacy
+Inhaler o-- Cabinet
+@enduml

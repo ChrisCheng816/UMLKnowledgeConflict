@@ -1,0 +1,4 @@
+@startuml
+GroupOfNewts o-- Newt
+Stream o-- GroupOfNewts
+@enduml

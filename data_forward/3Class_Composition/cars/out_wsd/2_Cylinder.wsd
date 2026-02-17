@@ -1,0 +1,4 @@
+@startuml
+Engine *-- Cylinder
+Car *-- Engine
+@enduml

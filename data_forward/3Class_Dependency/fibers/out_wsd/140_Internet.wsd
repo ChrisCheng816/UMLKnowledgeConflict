@@ -1,0 +1,4 @@
+@startuml
+StackOverflow ..> Internet
+OnlineUse ..> StackOverflow
+@enduml

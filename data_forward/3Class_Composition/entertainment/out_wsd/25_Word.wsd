@@ -1,0 +1,4 @@
+@startuml
+Sentence *-- Word
+Essay *-- Sentence
+@enduml

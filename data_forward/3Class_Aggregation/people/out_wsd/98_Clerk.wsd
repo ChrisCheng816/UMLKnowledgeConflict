@@ -1,4 +1,4 @@
 @startuml
-StaffOfClerks o-- Clerk
-Office o-- StaffOfClerks
+GroupOfClerks o-- Clerk
+Bank o-- GroupOfClerks
 @enduml

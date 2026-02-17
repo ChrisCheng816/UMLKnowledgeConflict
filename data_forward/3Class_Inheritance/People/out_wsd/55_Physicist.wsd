@@ -1,0 +1,4 @@
+@startuml
+Physicist <|-- Cosmologist
+Cosmologist <|-- StephenHawking
+@enduml

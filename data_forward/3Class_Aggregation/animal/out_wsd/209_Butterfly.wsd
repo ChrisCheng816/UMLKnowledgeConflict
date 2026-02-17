@@ -1,0 +1,4 @@
+@startuml
+SwarmOfButterflies o-- Butterfly
+Field o-- SwarmOfButterflies
+@enduml

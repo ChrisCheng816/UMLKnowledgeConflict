@@ -1,0 +1,4 @@
+@startuml
+Hair *-- Root
+Person *-- Hair
+@enduml

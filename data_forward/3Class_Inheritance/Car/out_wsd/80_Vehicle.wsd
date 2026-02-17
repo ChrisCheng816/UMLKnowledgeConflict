@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Convertible
+Convertible <|-- MazdaMX5
+@enduml

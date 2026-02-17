@@ -1,0 +1,4 @@
+@startuml
+Shell *-- Carapace
+Turtle *-- Shell
+@enduml

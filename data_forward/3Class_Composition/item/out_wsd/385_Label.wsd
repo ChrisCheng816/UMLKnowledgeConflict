@@ -1,0 +1,4 @@
+@startuml
+Memory *-- Label
+Desktop *-- Memory
+@enduml

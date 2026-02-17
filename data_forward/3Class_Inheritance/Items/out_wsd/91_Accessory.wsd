@@ -1,0 +1,4 @@
+@startuml
+Accessory <|-- Scarf
+Scarf <|-- WoolScarf
+@enduml

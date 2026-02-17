@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Scooter
+City o-- Fleet
+@enduml

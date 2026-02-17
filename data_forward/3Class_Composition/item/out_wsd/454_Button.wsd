@@ -1,0 +1,4 @@
+@startuml
+Upholstery *-- Button
+Chair *-- Upholstery
+@enduml

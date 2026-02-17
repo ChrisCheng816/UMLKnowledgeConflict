@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Train
+Train <|-- HighSpeedTrain
+@enduml

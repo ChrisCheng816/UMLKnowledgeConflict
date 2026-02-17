@@ -1,0 +1,4 @@
+@startuml
+FountainPen <|-- Pen
+Pen <|-- Stationery
+@enduml

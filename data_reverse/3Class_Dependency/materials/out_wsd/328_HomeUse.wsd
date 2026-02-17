@@ -1,0 +1,4 @@
+@startuml
+NailGun ..> HomeUse
+Electricity ..> NailGun
+@enduml

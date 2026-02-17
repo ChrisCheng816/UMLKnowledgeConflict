@@ -1,4 +1,4 @@
 @startuml
-CrowdOfVisitors o-- Visitor
-Park o-- CrowdOfVisitors
+ClubOfVisitors o-- Visitor
+School o-- ClubOfVisitors
 @enduml

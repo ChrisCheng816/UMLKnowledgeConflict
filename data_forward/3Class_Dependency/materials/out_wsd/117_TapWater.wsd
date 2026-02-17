@@ -1,0 +1,4 @@
+@startuml
+Humidifier ..> TapWater
+DryAirRelief ..> Humidifier
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Chess <|-- AbstractStrategyGame
+AbstractStrategyGame <|-- BoardGame
+@enduml

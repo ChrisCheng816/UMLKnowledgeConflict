@@ -1,0 +1,4 @@
+@startuml
+Touchpad *-- Button
+Laptop *-- Touchpad
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GroupOfCheetahs o-- Grassland
+Cheetah o-- GroupOfCheetahs
+@enduml

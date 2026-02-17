@@ -1,0 +1,4 @@
+@startuml
+NAS ..> HomeUse
+Electricity ..> NAS
+@enduml

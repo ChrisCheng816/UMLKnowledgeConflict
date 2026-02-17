@@ -1,4 +1,4 @@
 @startuml
-SmartTV ..> Electricity
-OnlineGaming ..> SmartTV
+SmokeAlarm ..> Electricity
+Surveillance ..> SmokeAlarm
 @enduml

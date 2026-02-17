@@ -1,0 +1,4 @@
+@startuml
+BatteryPack *-- Smartphone
+BatteryController *-- BatteryPack
+@enduml

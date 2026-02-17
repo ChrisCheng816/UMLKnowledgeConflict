@@ -1,0 +1,4 @@
+@startuml
+Swiggy ..> Internet
+OnlineUse ..> Swiggy
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-ClubOfDrivers o-- Driver
-School o-- ClubOfDrivers
+CrewOfDrivers o-- Driver
+Festival o-- CrewOfDrivers
 @enduml

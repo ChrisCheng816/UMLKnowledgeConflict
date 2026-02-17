@@ -1,0 +1,4 @@
+@startuml
+MerinoSheep <|-- Sheep
+Sheep <|-- Animal
+@enduml

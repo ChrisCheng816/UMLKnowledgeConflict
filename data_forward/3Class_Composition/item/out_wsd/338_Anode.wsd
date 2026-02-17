@@ -1,0 +1,4 @@
+@startuml
+Battery *-- Anode
+Phone *-- Battery
+@enduml

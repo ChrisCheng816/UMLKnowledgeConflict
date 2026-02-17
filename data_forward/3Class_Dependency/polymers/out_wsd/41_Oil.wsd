@@ -1,4 +1,4 @@
 @startuml
-Nylon ..> Oil
-NylonRope ..> Nylon
+PVC ..> Oil
+PVCPipe ..> PVC
 @enduml

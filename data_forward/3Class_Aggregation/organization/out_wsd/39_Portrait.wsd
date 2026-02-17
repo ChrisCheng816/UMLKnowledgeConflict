@@ -1,0 +1,4 @@
+@startuml
+Collection o-- Portrait
+Gallery o-- Collection
+@enduml

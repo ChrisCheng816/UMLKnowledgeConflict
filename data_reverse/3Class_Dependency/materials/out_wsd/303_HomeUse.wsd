@@ -1,0 +1,4 @@
+@startuml
+KnifeSharpener ..> HomeUse
+Electricity ..> KnifeSharpener
+@enduml

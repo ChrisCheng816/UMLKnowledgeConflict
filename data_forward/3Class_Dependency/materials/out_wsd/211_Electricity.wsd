@@ -1,4 +1,4 @@
 @startuml
-StreamingBox ..> Electricity
-MusicPlayback ..> StreamingBox
+SurgeProtector ..> Electricity
+DeviceCharging ..> SurgeProtector
 @enduml

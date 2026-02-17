@@ -1,0 +1,4 @@
+@startuml
+Drivetrain *-- Chainring
+Bicycle *-- Drivetrain
+@enduml

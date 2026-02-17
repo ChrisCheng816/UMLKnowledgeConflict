@@ -1,0 +1,4 @@
+@startuml
+ZebraFinch <|-- Finch
+Finch <|-- Bird
+@enduml

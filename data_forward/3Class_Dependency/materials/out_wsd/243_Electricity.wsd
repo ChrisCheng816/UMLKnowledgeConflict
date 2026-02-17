@@ -1,0 +1,4 @@
+@startuml
+RobotVacuum ..> Electricity
+HomeUse ..> RobotVacuum
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Knee *-- Cap
+Person *-- Knee
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Inception <|-- ScienceFictionFilm
+ScienceFictionFilm <|-- Film
+@enduml

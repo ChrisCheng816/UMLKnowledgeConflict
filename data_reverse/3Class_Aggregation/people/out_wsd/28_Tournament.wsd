@@ -1,4 +1,4 @@
 @startuml
-CrewOfReferees o-- Tournament
-Referee o-- CrewOfReferees
+PanelOfReferees o-- Tournament
+Referee o-- PanelOfReferees
 @enduml

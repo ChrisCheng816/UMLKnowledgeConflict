@@ -1,0 +1,4 @@
+@startuml
+Shoulder *-- Person
+Muscle *-- Shoulder
+@enduml

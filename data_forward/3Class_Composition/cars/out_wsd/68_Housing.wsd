@@ -1,0 +1,4 @@
+@startuml
+Headlight *-- Housing
+Car *-- Headlight
+@enduml

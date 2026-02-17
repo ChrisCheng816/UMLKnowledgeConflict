@@ -1,0 +1,4 @@
+@startuml
+YouTubeMusic ..> Internet
+OnlineUse ..> YouTubeMusic
+@enduml

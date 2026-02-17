@@ -1,0 +1,4 @@
+@startuml
+Spine *-- Vertebra
+Person *-- Spine
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Antenna *-- Router
+Cover *-- Antenna
+@enduml

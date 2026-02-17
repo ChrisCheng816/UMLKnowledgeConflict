@@ -1,4 +1,4 @@
 @startuml
-QueueOfPassengers o-- Passenger
-Terminal o-- QueueOfPassengers
+GroupOfPassengers o-- Passenger
+Terminal o-- GroupOfPassengers
 @enduml

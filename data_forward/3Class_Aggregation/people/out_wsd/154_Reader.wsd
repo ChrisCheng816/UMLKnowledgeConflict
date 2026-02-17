@@ -1,4 +1,4 @@
 @startuml
-ClubOfReaders o-- Reader
-Library o-- ClubOfReaders
+TeamOfReaders o-- Reader
+School o-- TeamOfReaders
 @enduml

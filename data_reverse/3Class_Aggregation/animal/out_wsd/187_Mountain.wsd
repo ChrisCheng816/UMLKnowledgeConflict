@@ -1,0 +1,4 @@
+@startuml
+HerdOfGoats o-- Mountain
+Goat o-- HerdOfGoats
+@enduml

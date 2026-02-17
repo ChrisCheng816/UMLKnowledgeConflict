@@ -1,0 +1,4 @@
+@startuml
+Web *-- Droplet
+Spider *-- Web
+@enduml

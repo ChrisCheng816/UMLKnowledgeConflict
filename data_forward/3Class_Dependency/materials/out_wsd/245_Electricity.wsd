@@ -1,0 +1,4 @@
+@startuml
+AirPurifier ..> Electricity
+HomeUse ..> AirPurifier
+@enduml

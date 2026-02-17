@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Towel
+Bathroom o-- Cabinet
+@enduml

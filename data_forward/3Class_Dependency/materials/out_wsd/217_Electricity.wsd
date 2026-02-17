@@ -1,4 +1,4 @@
 @startuml
-TabletCharger ..> Electricity
-BatteryCharging ..> TabletCharger
+ToasterOven ..> Electricity
+Reheating ..> ToasterOven
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Brake *-- Car
+Sensor *-- Brake
+@enduml

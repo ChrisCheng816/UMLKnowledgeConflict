@@ -1,0 +1,4 @@
+@startuml
+Transmission *-- Clutch
+Car *-- Transmission
+@enduml

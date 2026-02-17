@@ -1,0 +1,4 @@
+@startuml
+SumpPump ..> HomeUse
+Electricity ..> SumpPump
+@enduml

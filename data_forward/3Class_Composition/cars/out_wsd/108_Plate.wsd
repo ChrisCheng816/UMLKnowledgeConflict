@@ -1,0 +1,4 @@
+@startuml
+Chain *-- Plate
+Bicycle *-- Chain
+@enduml

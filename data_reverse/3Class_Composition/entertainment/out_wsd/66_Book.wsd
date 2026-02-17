@@ -1,0 +1,4 @@
+@startuml
+Binding *-- Book
+Board *-- Binding
+@enduml

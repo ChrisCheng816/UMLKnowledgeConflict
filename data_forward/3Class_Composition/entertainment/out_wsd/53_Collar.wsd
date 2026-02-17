@@ -1,0 +1,4 @@
+@startuml
+Handle *-- Collar
+TennisRacket *-- Handle
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PowerTool <|-- Chainsaw
+Chainsaw <|-- ElectricChainsaw
+@enduml

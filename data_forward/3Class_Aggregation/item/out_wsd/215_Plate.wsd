@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Plate
+Kitchen o-- Cabinet
+@enduml

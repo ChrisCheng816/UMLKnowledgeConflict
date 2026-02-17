@@ -1,0 +1,4 @@
+@startuml
+Folder o-- Notebook
+Office o-- Folder
+@enduml

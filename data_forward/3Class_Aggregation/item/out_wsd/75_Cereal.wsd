@@ -1,0 +1,4 @@
+@startuml
+Box o-- Cereal
+Pantry o-- Box
+@enduml

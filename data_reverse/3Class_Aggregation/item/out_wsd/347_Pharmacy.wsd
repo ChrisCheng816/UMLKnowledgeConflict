@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Pharmacy
+Thermometer o-- Cabinet
+@enduml

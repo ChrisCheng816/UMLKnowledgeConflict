@@ -1,4 +1,4 @@
 @startuml
-GroupOfFarmers o-- Farmer
-Community o-- GroupOfFarmers
+ClubOfFarmers o-- Farmer
+School o-- ClubOfFarmers
 @enduml

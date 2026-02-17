@@ -1,0 +1,4 @@
+@startuml
+Fruit *-- Pulp
+Apple *-- Fruit
+@enduml

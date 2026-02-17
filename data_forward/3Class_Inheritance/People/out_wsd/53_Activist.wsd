@@ -1,0 +1,4 @@
+@startuml
+Activist <|-- Humanitarian
+Humanitarian <|-- MotherTeresa
+@enduml

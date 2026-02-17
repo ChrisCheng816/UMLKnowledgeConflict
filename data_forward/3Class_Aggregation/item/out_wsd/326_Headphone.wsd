@@ -1,0 +1,4 @@
+@startuml
+InstrumentRack o-- Headphone
+MusicStore o-- InstrumentRack
+@enduml

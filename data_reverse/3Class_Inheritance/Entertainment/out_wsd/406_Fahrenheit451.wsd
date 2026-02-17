@@ -1,0 +1,4 @@
+@startuml
+Fahrenheit451 <|-- DystopianFilm
+DystopianFilm <|-- Film
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Series o-- Season
+StreamingService o-- Series
+@enduml

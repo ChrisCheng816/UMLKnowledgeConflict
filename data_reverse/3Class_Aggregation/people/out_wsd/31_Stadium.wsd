@@ -1,4 +1,4 @@
 @startuml
-GroupOfReferees o-- Stadium
-Referee o-- GroupOfReferees
+CrowdOfFans o-- Stadium
+Fan o-- CrowdOfFans
 @enduml

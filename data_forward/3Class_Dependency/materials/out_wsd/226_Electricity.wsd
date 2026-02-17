@@ -1,4 +1,4 @@
 @startuml
-Turntable ..> Electricity
-AudioStreaming ..> Turntable
+VacuumCleaner ..> Electricity
+DustRemoval ..> VacuumCleaner
 @enduml

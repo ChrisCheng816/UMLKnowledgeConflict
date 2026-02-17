@@ -1,0 +1,4 @@
+@startuml
+Microwave <|-- Oven
+Oven <|-- Appliance
+@enduml

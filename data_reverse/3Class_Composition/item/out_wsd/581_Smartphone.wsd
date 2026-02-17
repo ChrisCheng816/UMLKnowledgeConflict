@@ -1,0 +1,4 @@
+@startuml
+BatteryPack *-- Smartphone
+Anode *-- BatteryPack
+@enduml

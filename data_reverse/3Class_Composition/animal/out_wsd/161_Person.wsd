@@ -1,0 +1,4 @@
+@startuml
+Eye *-- Person
+Iris *-- Eye
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Antenna *-- Mount
+Router *-- Antenna
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Lung *-- Person
+Bronchus *-- Lung
+@enduml

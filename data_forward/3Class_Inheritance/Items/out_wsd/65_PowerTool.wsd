@@ -1,0 +1,4 @@
+@startuml
+PowerTool <|-- Saw
+Saw <|-- Jigsaw
+@enduml

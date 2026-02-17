@@ -1,0 +1,4 @@
+@startuml
+Pantry o-- Beans
+Kitchen o-- Pantry
+@enduml

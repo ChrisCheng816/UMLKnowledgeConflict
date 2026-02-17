@@ -1,4 +1,4 @@
 @startuml
-LineOfCustomers o-- Customer
-Store o-- LineOfCustomers
+CrowdOfCustomers o-- Customer
+Market o-- CrowdOfCustomers
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Shelf *-- Cabinet
+Screw *-- Shelf
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Terminal o-- ShuttleBus
+Airport o-- Terminal
+@enduml

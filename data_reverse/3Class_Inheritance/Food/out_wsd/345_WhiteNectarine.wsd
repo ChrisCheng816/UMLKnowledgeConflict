@@ -1,0 +1,4 @@
+@startuml
+WhiteNectarine <|-- Nectarine
+Nectarine <|-- Fruit
+@enduml

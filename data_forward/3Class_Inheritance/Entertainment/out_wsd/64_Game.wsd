@@ -1,4 +1,4 @@
 @startuml
 Game <|-- VideoGame
-VideoGame <|-- Overwatch2
+VideoGame <|-- BattlefieldV
 @enduml

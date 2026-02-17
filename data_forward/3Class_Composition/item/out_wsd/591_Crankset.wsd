@@ -1,0 +1,4 @@
+@startuml
+Drivetrain *-- Crankset
+Bicycle *-- Drivetrain
+@enduml

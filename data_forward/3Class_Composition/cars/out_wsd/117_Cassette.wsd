@@ -1,0 +1,4 @@
+@startuml
+Gear *-- Cassette
+Bicycle *-- Gear
+@enduml

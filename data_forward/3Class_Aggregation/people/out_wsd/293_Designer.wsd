@@ -1,4 +1,4 @@
 @startuml
-GroupOfDesigners o-- Designer
-Community o-- GroupOfDesigners
+ClubOfDesigners o-- Designer
+School o-- ClubOfDesigners
 @enduml

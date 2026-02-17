@@ -1,0 +1,4 @@
+@startuml
+WaterHeater ..> HomeUse
+Electricity ..> WaterHeater
+@enduml

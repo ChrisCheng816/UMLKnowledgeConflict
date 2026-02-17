@@ -1,0 +1,4 @@
+@startuml
+Terminal o-- Airport
+Escalator o-- Terminal
+@enduml

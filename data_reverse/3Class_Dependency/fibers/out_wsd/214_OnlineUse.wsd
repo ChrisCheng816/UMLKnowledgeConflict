@@ -1,0 +1,4 @@
+@startuml
+Goodreads ..> OnlineUse
+Internet ..> Goodreads
+@enduml

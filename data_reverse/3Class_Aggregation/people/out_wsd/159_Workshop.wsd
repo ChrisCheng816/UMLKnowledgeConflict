@@ -1,4 +1,4 @@
 @startuml
-ClubOfWriters o-- Workshop
-Writer o-- ClubOfWriters
+TeamOfWriters o-- Workshop
+Writer o-- TeamOfWriters
 @enduml

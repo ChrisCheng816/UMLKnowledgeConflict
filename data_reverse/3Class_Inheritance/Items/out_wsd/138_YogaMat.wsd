@@ -1,0 +1,4 @@
+@startuml
+YogaMat <|-- Mat
+Mat <|-- ExerciseEquipment
+@enduml

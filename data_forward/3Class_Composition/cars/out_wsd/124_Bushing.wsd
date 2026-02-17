@@ -1,0 +1,4 @@
+@startuml
+Suspension *-- Bushing
+Car *-- Suspension
+@enduml

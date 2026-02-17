@@ -1,4 +1,4 @@
 @startuml
-ClubOfJanitors o-- Janitor
-School o-- ClubOfJanitors
+CrewOfJanitors o-- Janitor
+Festival o-- CrewOfJanitors
 @enduml

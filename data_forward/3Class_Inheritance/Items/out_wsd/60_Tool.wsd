@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- Wrench
+Wrench <|-- TorxKey
+@enduml

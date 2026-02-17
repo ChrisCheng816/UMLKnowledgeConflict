@@ -1,0 +1,4 @@
+@startuml
+DSLR <|-- Camera
+Camera <|-- Electronics
+@enduml

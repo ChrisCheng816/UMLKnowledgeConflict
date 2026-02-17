@@ -1,0 +1,4 @@
+@startuml
+Transmission *-- Pan
+Car *-- Transmission
+@enduml

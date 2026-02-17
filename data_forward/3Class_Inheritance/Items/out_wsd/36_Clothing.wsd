@@ -1,0 +1,4 @@
+@startuml
+Clothing <|-- Pants
+Pants <|-- Jeans
+@enduml

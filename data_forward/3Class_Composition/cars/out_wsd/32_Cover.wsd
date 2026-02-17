@@ -1,0 +1,4 @@
+@startuml
+Seat *-- Cover
+Car *-- Seat
+@enduml

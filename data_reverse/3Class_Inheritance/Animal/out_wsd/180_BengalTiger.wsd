@@ -1,0 +1,4 @@
+@startuml
+BengalTiger <|-- Tiger
+Tiger <|-- Mammal
+@enduml

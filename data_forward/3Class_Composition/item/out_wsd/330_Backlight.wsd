@@ -1,0 +1,4 @@
+@startuml
+Screen *-- Backlight
+Phone *-- Screen
+@enduml

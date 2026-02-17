@@ -1,0 +1,4 @@
+@startuml
+Motherboard *-- Heatsink
+Desktop *-- Motherboard
+@enduml

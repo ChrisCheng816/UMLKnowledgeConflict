@@ -1,0 +1,4 @@
+@startuml
+Airbnb ..> OnlineUse
+Internet ..> Airbnb
+@enduml

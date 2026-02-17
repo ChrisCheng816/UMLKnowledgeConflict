@@ -1,0 +1,4 @@
+@startuml
+Queue o-- PodcastApp
+Podcast o-- Queue
+@enduml

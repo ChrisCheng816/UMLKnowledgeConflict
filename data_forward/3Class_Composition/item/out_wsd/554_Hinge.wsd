@@ -1,0 +1,4 @@
+@startuml
+Lid *-- Hinge
+Trashcan *-- Lid
+@enduml

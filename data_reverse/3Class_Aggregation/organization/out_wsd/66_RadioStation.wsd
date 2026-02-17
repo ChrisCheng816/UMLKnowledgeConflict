@@ -1,0 +1,4 @@
+@startuml
+Playlist o-- RadioStation
+Jingle o-- Playlist
+@enduml

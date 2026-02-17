@@ -1,0 +1,4 @@
+@startuml
+OliveOil <|-- Oil
+Oil <|-- Ingredient
+@enduml

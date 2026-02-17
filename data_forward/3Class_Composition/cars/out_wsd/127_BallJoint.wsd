@@ -1,0 +1,4 @@
+@startuml
+Suspension *-- BallJoint
+Car *-- Suspension
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+HerdOfHorses o-- Ranch
+Horse o-- HerdOfHorses
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Hulu ..> Internet
+OnlineUse ..> Hulu
+@enduml

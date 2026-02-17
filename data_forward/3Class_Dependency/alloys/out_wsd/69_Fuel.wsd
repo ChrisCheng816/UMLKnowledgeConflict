@@ -1,0 +1,4 @@
+@startuml
+AmbulanceEngine ..> Fuel
+TransportUse ..> AmbulanceEngine
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Toolbox o-- Scissors
+Garage o-- Toolbox
+@enduml

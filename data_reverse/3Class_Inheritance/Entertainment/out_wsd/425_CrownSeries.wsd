@@ -1,0 +1,4 @@
+@startuml
+CrownSeries <|-- DramaSeries
+DramaSeries <|-- Entertainment
+@enduml

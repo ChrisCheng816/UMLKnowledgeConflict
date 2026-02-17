@@ -1,0 +1,4 @@
+@startuml
+Hacksaw <|-- Saw
+Saw <|-- Tool
+@enduml

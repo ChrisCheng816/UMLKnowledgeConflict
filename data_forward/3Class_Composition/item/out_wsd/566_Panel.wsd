@@ -1,0 +1,4 @@
+@startuml
+Display *-- Panel
+Laptop *-- Display
+@enduml

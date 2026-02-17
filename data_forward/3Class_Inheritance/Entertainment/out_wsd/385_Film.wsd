@@ -1,0 +1,4 @@
+@startuml
+Film <|-- WarFilm
+WarFilm <|-- Braveheart
+@enduml

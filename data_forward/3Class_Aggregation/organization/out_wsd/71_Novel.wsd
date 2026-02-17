@@ -1,0 +1,4 @@
+@startuml
+Catalog o-- Novel
+Publisher o-- Catalog
+@enduml

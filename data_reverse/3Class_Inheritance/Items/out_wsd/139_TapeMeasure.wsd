@@ -1,0 +1,4 @@
+@startuml
+TapeMeasure <|-- MeasuringTool
+MeasuringTool <|-- Tool
+@enduml

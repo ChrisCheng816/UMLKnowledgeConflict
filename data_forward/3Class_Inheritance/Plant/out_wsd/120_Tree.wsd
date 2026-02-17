@@ -1,0 +1,4 @@
+@startuml
+Tree <|-- CherryTree
+CherryTree <|-- YoshinoCherry
+@enduml

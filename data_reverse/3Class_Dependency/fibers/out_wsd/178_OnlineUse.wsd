@@ -1,0 +1,4 @@
+@startuml
+CashApp ..> OnlineUse
+Internet ..> CashApp
+@enduml

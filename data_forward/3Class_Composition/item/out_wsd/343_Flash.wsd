@@ -1,0 +1,4 @@
+@startuml
+CameraModule *-- Flash
+Phone *-- CameraModule
+@enduml

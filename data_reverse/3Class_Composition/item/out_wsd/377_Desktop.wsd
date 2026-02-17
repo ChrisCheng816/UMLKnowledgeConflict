@@ -1,0 +1,4 @@
+@startuml
+Processor *-- Desktop
+Transistor *-- Processor
+@enduml

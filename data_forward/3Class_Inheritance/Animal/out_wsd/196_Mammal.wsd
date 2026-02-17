@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Elephant
+Elephant <|-- AsianElephant
+@enduml

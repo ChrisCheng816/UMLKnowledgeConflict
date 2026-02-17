@@ -1,0 +1,4 @@
+@startuml
+Snake <|-- Anaconda
+Anaconda <|-- GreenAnaconda
+@enduml

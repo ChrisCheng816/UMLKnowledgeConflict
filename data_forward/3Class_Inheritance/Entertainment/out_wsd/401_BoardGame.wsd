@@ -1,0 +1,4 @@
+@startuml
+BoardGame <|-- WordGame
+WordGame <|-- Scrabble
+@enduml

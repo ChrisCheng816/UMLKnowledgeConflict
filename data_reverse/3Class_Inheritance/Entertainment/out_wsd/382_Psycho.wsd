@@ -1,0 +1,4 @@
+@startuml
+Psycho <|-- HorrorFilm
+HorrorFilm <|-- Film
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PacificCod <|-- Cod
+Cod <|-- Fish
+@enduml

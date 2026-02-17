@@ -1,4 +1,4 @@
 @startuml
-GroupOfChildren o-- Child
-School o-- GroupOfChildren
+TeamOfChildren o-- Child
+Camp o-- TeamOfChildren
 @enduml

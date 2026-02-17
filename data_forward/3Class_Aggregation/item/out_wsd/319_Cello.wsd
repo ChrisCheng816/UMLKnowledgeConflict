@@ -1,0 +1,4 @@
+@startuml
+InstrumentRack o-- Cello
+MusicStore o-- InstrumentRack
+@enduml

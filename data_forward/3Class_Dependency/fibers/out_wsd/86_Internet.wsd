@@ -1,0 +1,4 @@
+@startuml
+TikTok ..> Internet
+OnlineUse ..> TikTok
+@enduml

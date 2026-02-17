@@ -1,0 +1,4 @@
+@startuml
+Instrument <|-- WoodwindInstrument
+WoodwindInstrument <|-- Clarinet
+@enduml

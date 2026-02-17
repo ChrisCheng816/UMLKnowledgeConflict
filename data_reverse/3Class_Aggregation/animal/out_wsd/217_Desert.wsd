@@ -1,0 +1,4 @@
+@startuml
+GroupOfSnakes o-- Desert
+Snake o-- GroupOfSnakes
+@enduml

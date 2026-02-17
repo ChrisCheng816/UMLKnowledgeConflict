@@ -1,0 +1,4 @@
+@startuml
+Subwoofer ..> Electricity
+HomeUse ..> Subwoofer
+@enduml

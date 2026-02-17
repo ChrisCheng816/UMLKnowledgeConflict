@@ -1,0 +1,4 @@
+@startuml
+Door *-- Mesh
+Microwave *-- Door
+@enduml

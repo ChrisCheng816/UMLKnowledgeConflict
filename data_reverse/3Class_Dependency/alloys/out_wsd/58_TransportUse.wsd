@@ -1,0 +1,4 @@
+@startuml
+FerryEngine ..> TransportUse
+Fuel ..> FerryEngine
+@enduml

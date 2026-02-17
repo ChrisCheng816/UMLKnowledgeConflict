@@ -1,0 +1,4 @@
+@startuml
+Tidal ..> Internet
+OnlineUse ..> Tidal
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-GroupOfBakers o-- Baker
-Community o-- GroupOfBakers
+ClubOfBakers o-- Baker
+School o-- ClubOfBakers
 @enduml

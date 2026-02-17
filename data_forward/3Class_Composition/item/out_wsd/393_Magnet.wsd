@@ -1,0 +1,4 @@
+@startuml
+Drive *-- Magnet
+Desktop *-- Drive
+@enduml

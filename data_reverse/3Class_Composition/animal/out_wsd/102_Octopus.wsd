@@ -1,0 +1,4 @@
+@startuml
+Tentacle *-- Octopus
+Tip *-- Tentacle
+@enduml

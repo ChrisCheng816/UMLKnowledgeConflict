@@ -1,0 +1,4 @@
+@startuml
+Lace *-- Loop
+BaseballGlove *-- Lace
+@enduml

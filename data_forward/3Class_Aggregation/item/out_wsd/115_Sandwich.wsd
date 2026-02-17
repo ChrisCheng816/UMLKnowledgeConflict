@@ -1,0 +1,4 @@
+@startuml
+Lunchbox o-- Sandwich
+School o-- Lunchbox
+@enduml

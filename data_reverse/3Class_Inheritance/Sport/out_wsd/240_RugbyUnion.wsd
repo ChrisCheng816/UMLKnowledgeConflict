@@ -1,0 +1,4 @@
+@startuml
+RugbyUnion <|-- Rugby
+Rugby <|-- Sport
+@enduml

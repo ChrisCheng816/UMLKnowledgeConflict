@@ -1,0 +1,4 @@
+@startuml
+Motor *-- Stator
+Vacuum *-- Motor
+@enduml

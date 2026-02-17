@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- EquestrianSport
-EquestrianSport <|-- EnduranceRiding
+Sport <|-- MindSport
+MindSport <|-- GoGame
 @enduml

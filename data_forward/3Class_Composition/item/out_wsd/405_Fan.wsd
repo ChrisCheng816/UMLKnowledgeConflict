@@ -1,0 +1,4 @@
+@startuml
+PowerSupply *-- Fan
+Desktop *-- PowerSupply
+@enduml

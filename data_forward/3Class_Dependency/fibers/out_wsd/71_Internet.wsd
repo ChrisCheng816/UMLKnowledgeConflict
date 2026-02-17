@@ -1,0 +1,4 @@
+@startuml
+Messenger ..> Internet
+OnlineUse ..> Messenger
+@enduml

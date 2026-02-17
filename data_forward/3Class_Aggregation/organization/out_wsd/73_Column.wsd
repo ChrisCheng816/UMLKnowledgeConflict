@@ -1,0 +1,4 @@
+@startuml
+Archive o-- Column
+Newspaper o-- Archive
+@enduml

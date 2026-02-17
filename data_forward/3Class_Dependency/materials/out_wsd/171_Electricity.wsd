@@ -1,4 +1,4 @@
 @startuml
-SecurityCamera ..> Electricity
-Surveillance ..> SecurityCamera
+SewingMachine ..> Electricity
+RepairClothing ..> SewingMachine
 @enduml

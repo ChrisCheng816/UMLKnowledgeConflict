@@ -1,0 +1,4 @@
+@startuml
+SweetPotato <|-- Potato
+Potato <|-- Vegetable
+@enduml

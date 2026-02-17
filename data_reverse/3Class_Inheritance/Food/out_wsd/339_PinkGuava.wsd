@@ -1,0 +1,4 @@
+@startuml
+PinkGuava <|-- Guava
+Guava <|-- Fruit
+@enduml

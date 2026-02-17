@@ -1,0 +1,4 @@
+@startuml
+Turntable *-- RollerRing
+Microwave *-- Turntable
+@enduml

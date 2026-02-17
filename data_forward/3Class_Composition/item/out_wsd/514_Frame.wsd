@@ -1,0 +1,4 @@
+@startuml
+Shade *-- Frame
+Lamp *-- Shade
+@enduml

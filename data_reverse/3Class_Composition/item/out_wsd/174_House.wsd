@@ -1,0 +1,4 @@
+@startuml
+Floor *-- House
+Nail *-- Floor
+@enduml

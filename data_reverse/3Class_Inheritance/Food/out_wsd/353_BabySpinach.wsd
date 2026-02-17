@@ -1,0 +1,4 @@
+@startuml
+BabySpinach <|-- Spinach
+Spinach <|-- Vegetable
+@enduml

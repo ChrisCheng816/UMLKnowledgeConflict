@@ -1,0 +1,4 @@
+@startuml
+Dashboard *-- Gauge
+Car *-- Dashboard
+@enduml

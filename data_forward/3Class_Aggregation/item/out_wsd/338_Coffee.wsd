@@ -1,0 +1,4 @@
+@startuml
+Pantry o-- Coffee
+Kitchen o-- Pantry
+@enduml

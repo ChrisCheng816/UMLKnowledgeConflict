@@ -1,0 +1,4 @@
+@startuml
+EuropeanEel <|-- Eel
+Eel <|-- Fish
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Paneer *-- Milk
-PalakPaneer *-- Paneer
+Cheese *-- Milk
+Quesadilla *-- Cheese
 @enduml

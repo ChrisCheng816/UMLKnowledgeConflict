@@ -1,0 +1,4 @@
+@startuml
+Stationery <|-- Clip
+Clip <|-- PaperClip
+@enduml

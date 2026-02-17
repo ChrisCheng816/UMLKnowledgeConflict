@@ -1,0 +1,4 @@
+@startuml
+Lathe ..> Electricity
+HomeUse ..> Lathe
+@enduml

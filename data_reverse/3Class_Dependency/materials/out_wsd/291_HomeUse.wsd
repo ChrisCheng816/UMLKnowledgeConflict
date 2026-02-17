@@ -1,0 +1,4 @@
+@startuml
+PaperShredder ..> HomeUse
+Electricity ..> PaperShredder
+@enduml

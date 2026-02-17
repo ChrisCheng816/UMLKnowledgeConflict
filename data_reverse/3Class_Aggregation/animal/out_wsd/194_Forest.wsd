@@ -1,0 +1,4 @@
+@startuml
+GroupOfPandas o-- Forest
+Panda o-- GroupOfPandas
+@enduml

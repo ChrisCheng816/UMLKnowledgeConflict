@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Magazine
+LivingRoom o-- Shelf
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RiceWarmer ..> HomeUse
+Electricity ..> RiceWarmer
+@enduml

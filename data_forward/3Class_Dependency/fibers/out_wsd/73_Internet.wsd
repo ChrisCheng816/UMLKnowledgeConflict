@@ -1,0 +1,4 @@
+@startuml
+KakaoTalk ..> Internet
+OnlineUse ..> KakaoTalk
+@enduml

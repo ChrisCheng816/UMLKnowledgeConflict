@@ -1,0 +1,4 @@
+@startuml
+Compressor *-- Valve
+Refrigerator *-- Compressor
+@enduml

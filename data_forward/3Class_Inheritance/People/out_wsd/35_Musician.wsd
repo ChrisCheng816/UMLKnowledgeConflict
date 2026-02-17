@@ -1,0 +1,4 @@
+@startuml
+Musician <|-- Singer
+Singer <|-- Adele
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- City
+GarbageTruck o-- Fleet
+@enduml

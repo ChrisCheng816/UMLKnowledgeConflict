@@ -1,0 +1,4 @@
+@startuml
+PowerSupply *-- Desktop
+Switch *-- PowerSupply
+@enduml

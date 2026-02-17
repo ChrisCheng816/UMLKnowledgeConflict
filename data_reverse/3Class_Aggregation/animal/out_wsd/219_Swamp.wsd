@@ -1,0 +1,4 @@
+@startuml
+GroupOfTurtles o-- Swamp
+Turtle o-- GroupOfTurtles
+@enduml

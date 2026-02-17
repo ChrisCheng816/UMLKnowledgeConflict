@@ -1,4 +1,4 @@
 @startuml
-GroupOfReporters o-- Reporter
-Pressroom o-- GroupOfReporters
+PanelOfReporters o-- Reporter
+Conference o-- PanelOfReporters
 @enduml

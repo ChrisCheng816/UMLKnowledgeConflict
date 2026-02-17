@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Salmon
+Salmon <|-- AtlanticSalmon
+@enduml

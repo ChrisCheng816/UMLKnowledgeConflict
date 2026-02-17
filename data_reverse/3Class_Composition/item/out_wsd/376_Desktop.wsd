@@ -1,0 +1,4 @@
+@startuml
+Processor *-- Desktop
+HeatSpreader *-- Processor
+@enduml

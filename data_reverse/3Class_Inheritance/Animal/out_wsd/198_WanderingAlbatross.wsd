@@ -1,0 +1,4 @@
+@startuml
+WanderingAlbatross <|-- Albatross
+Albatross <|-- Bird
+@enduml

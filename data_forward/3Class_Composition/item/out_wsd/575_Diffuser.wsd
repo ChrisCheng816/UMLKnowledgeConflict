@@ -1,0 +1,4 @@
+@startuml
+Display *-- Diffuser
+Laptop *-- Display
+@enduml

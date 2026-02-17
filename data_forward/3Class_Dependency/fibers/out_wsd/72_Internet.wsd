@@ -1,0 +1,4 @@
+@startuml
+Line ..> Internet
+OnlineUse ..> Line
+@enduml

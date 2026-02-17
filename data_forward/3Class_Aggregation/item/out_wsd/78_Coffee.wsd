@@ -1,0 +1,4 @@
+@startuml
+Bottle o-- Coffee
+Cafe o-- Bottle
+@enduml

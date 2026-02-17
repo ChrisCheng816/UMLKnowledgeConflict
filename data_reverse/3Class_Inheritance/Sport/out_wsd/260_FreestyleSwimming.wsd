@@ -1,0 +1,4 @@
+@startuml
+FreestyleSwimming <|-- Swimming
+Swimming <|-- Sport
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Department o-- Lecturer
+University o-- Department
+@enduml

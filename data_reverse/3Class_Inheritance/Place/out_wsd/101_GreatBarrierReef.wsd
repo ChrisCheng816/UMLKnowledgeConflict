@@ -1,0 +1,4 @@
+@startuml
+GreatBarrierReef <|-- CoralReef
+CoralReef <|-- GeographicFeature
+@enduml

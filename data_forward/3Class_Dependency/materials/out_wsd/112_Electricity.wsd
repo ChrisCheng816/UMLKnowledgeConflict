@@ -1,4 +1,4 @@
 @startuml
 HairDryer ..> Electricity
-HairDrying ..> HairDryer
+StylingHair ..> HairDryer
 @enduml
