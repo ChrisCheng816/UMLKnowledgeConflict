@@ -1,4 +1,4 @@
 @startuml
 Department o-- University
-Advisor o-- Department
+Researcher o-- Department
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Floor *-- House
-Joist *-- Floor
+Nail *-- Floor
 @enduml

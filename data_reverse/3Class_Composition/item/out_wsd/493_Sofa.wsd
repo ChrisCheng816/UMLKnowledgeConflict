@@ -1,4 +1,4 @@
 @startuml
 Cushion *-- Sofa
-Stitch *-- Cushion
+Filling *-- Cushion
 @enduml

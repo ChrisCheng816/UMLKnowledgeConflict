@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport
-IndividualSport <|-- TenPinBowling
+Sport <|-- Karate
+Karate <|-- ShotokanKarate
 @enduml

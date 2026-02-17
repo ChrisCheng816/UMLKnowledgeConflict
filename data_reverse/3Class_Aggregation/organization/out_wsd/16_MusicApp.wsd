@@ -1,4 +1,4 @@
 @startuml
-Playlist o-- MusicApp
-Song o-- Playlist
+Album o-- MusicApp
+Track o-- Album
 @enduml

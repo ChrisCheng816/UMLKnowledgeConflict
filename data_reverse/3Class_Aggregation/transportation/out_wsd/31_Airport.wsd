@@ -1,4 +1,4 @@
 @startuml
-Terminal o-- Airport
-Signage o-- Terminal
+ControlTower o-- Airport
+Controller o-- ControlTower
 @enduml

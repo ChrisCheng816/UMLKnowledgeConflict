@@ -1,4 +1,4 @@
 @startuml
 Frame *-- Mirror
-Screw *-- Frame
+Backing *-- Frame
 @enduml

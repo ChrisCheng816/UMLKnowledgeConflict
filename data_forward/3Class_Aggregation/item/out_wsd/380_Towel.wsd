@@ -1,0 +1,4 @@
+@startuml
+Locker o-- Towel
+Gym o-- Locker
+@enduml

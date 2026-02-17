@@ -1,0 +1,4 @@
+@startuml
+Charger ..> Socket
+Smartphone ..> Charger
+@enduml

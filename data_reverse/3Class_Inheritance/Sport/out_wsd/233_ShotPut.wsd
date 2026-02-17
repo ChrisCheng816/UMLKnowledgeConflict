@@ -1,0 +1,4 @@
+@startuml
+ShotPut <|-- Athletics
+Athletics <|-- Sport
+@enduml

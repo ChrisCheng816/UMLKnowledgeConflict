@@ -1,4 +1,4 @@
 @startuml
 Team o-- SportsClub
-Catcher o-- Team
+Runner o-- Team
 @enduml

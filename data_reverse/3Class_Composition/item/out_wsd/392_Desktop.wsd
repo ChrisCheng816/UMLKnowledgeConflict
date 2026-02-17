@@ -1,4 +1,4 @@
 @startuml
 Drive *-- Desktop
-PCB *-- Drive
+Magnet *-- Drive
 @enduml

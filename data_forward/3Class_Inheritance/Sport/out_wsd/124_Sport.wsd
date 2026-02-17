@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- CyclingSport
-CyclingSport <|-- RoadCycling
+Sport <|-- TeamSport
+TeamSport <|-- Kickball
 @enduml

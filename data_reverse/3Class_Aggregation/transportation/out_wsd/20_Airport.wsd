@@ -1,4 +1,4 @@
 @startuml
 Terminal o-- Airport
-Runway o-- Terminal
+Lounge o-- Terminal
 @enduml

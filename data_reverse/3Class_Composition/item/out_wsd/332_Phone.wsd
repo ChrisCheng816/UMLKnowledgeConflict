@@ -1,4 +1,4 @@
 @startuml
 Screen *-- Phone
-Frame *-- Screen
+Coating *-- Screen
 @enduml

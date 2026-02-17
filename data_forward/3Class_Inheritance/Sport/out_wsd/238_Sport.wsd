@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Weightlifting
-Weightlifting <|-- Powerlifting
+Sport <|-- Athletics
+Athletics <|-- Heptathlon
 @enduml

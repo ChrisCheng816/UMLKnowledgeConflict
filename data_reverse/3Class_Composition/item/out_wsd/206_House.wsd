@@ -1,4 +1,4 @@
 @startuml
 Staircase *-- House
-Landing *-- Staircase
+Carpet *-- Staircase
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Pump *-- CoffeeMaker
-Tube *-- Pump
+Seal *-- Pump
 @enduml

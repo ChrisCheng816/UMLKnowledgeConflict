@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- CyclingSport
-CyclingSport <|-- MountainBiking
+Sport <|-- TeamSport
+TeamSport <|-- Hurling
 @enduml

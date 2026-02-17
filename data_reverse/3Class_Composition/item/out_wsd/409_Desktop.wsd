@@ -1,4 +1,4 @@
 @startuml
 PowerSupply *-- Desktop
-Fuse *-- PowerSupply
+Rectifier *-- PowerSupply
 @enduml

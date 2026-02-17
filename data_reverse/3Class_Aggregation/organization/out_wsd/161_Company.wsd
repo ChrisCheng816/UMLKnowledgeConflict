@@ -1,4 +1,4 @@
 @startuml
 Department o-- Company
-Consultant o-- Department
+Tester o-- Department
 @enduml

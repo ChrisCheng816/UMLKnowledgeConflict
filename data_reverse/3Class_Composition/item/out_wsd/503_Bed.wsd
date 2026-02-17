@@ -1,4 +1,4 @@
 @startuml
 Mattress *-- Bed
-Layer *-- Mattress
+Fabric *-- Mattress
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Processor *-- Desktop
-Die *-- Processor
+Pin *-- Processor
 @enduml

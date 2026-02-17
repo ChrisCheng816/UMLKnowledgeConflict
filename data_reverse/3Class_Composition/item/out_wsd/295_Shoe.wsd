@@ -1,4 +1,4 @@
 @startuml
-Sole *-- Shoe
-Grip *-- Sole
+Lace *-- Shoe
+Tip *-- Lace
 @enduml

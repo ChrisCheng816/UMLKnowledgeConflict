@@ -1,4 +1,4 @@
 @startuml
-Attic *-- House
-Floorboard *-- Attic
+Basement *-- House
+Wall *-- Basement
 @enduml

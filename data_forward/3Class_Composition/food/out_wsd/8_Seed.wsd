@@ -1,0 +1,4 @@
+@startuml
+Core *-- Seed
+Apple *-- Core
+@enduml

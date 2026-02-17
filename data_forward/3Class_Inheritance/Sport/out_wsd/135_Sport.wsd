@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport
-IndividualSport <|-- Snooker
+Sport <|-- CombatSport
+CombatSport <|-- Aikido
 @enduml

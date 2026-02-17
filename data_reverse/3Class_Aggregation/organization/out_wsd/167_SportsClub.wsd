@@ -1,4 +1,4 @@
 @startuml
 Team o-- SportsClub
-Defender o-- Team
+Forward o-- Team
 @enduml

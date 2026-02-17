@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Archery
-Archery <|-- OlympicArchery
+Sport <|-- Equestrian
+Equestrian <|-- EnduranceRiding
 @enduml

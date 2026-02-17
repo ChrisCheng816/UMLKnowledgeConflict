@@ -1,4 +1,4 @@
 @startuml
 Class o-- School
-Tutor o-- Class
+Classmate o-- Class
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Staircase *-- House
-Post *-- Staircase
+Tread *-- Staircase
 @enduml

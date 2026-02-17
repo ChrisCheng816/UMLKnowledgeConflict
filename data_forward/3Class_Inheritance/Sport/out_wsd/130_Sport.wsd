@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- EquestrianSport
-EquestrianSport <|-- ShowJumping
+Sport <|-- CombatSport
+CombatSport <|-- Sumo
 @enduml

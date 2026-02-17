@@ -1,4 +1,4 @@
 @startuml
 Drivetrain *-- Bicycle
-Pulley *-- Drivetrain
+Cable *-- Drivetrain
 @enduml

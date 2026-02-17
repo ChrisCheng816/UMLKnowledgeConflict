@@ -1,4 +1,4 @@
 @startuml
 Roof *-- House
-Beam *-- Roof
+Ridge *-- Roof
 @enduml

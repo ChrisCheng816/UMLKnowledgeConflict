@@ -1,4 +1,4 @@
 @startuml
-Mattress *-- Bed
-Zipper *-- Mattress
+Headboard *-- Bed
+Panel *-- Headboard
 @enduml

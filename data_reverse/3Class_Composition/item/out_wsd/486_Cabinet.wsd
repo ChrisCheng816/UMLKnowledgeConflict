@@ -1,4 +1,4 @@
 @startuml
 Shelf *-- Cabinet
-Support *-- Shelf
+Peg *-- Shelf
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Jar *-- Blender
-Seal *-- Jar
+Handle *-- Jar
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 BatteryPack *-- Smartphone
-ProtectionCircuit *-- BatteryPack
+Casing *-- BatteryPack
 @enduml

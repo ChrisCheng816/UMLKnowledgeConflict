@@ -1,4 +1,4 @@
 @startuml
 Switch *-- Flashlight
-Housing *-- Switch
+Wire *-- Switch
 @enduml

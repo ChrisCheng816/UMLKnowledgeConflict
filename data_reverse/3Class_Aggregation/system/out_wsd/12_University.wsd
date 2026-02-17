@@ -1,4 +1,4 @@
 @startuml
 Laboratory o-- University
-Burner o-- Laboratory
+Scale o-- Laboratory
 @enduml

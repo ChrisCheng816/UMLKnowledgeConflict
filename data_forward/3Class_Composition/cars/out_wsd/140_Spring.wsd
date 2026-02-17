@@ -1,0 +1,4 @@
+@startuml
+Suspension *-- Spring
+Car *-- Suspension
+@enduml

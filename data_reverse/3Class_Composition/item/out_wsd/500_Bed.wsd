@@ -1,4 +1,4 @@
 @startuml
 Mattress *-- Bed
-Cover *-- Mattress
+Stitch *-- Mattress
 @enduml

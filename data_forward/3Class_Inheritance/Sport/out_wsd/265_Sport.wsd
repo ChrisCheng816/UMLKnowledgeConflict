@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Taekwondo
-Taekwondo <|-- OlympicTaekwondo
+Sport <|-- Equestrian
+Equestrian <|-- ShowJumping
 @enduml

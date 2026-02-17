@@ -1,4 +1,4 @@
 @startuml
 Team o-- SportsClub
-Goalkeeper o-- Team
+Striker o-- Team
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Rod *-- Closet
-End *-- Rod
+Support *-- Rod
 @enduml

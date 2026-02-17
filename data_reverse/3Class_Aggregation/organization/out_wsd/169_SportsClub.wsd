@@ -1,4 +1,4 @@
 @startuml
 Team o-- SportsClub
-Forward o-- Team
+Trainer o-- Team
 @enduml

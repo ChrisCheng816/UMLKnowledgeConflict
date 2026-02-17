@@ -1,4 +1,4 @@
 @startuml
 CameraModule *-- Smartphone
-Connector *-- CameraModule
+CoverGlass *-- CameraModule
 @enduml

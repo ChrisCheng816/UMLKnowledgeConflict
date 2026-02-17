@@ -1,4 +1,4 @@
 @startuml
 Leg *-- Chair
-FeltPad *-- Leg
+Joint *-- Leg
 @enduml

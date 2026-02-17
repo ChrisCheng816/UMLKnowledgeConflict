@@ -1,4 +1,4 @@
 @startuml
 Branch *-- Maple
-Twig *-- Branch
+Node *-- Branch
 @enduml

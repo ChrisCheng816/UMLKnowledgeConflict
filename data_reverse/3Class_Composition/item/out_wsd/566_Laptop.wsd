@@ -1,4 +1,4 @@
 @startuml
 Display *-- Laptop
-Panel *-- Display
+Polarizer *-- Display
 @enduml

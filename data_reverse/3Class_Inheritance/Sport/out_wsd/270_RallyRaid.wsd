@@ -1,0 +1,4 @@
+@startuml
+RallyRaid <|-- Rallying
+Rallying <|-- MotorSport
+@enduml

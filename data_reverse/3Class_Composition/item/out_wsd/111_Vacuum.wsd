@@ -1,4 +1,4 @@
 @startuml
 Canister *-- Vacuum
-Handle *-- Canister
+Bin *-- Canister
 @enduml

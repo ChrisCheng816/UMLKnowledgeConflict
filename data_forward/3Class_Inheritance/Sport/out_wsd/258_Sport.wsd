@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Tennis
-Tennis <|-- GrandSlamTennis
+Sport <|-- Cycling
+Cycling <|-- BMXRacing
 @enduml

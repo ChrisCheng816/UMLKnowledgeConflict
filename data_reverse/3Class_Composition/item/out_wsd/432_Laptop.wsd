@@ -1,4 +1,4 @@
 @startuml
 Port *-- Laptop
-Spring *-- Port
+Contact *-- Port
 @enduml

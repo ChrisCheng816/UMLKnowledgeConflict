@@ -1,4 +1,4 @@
 @startuml
 Band *-- Watch
-Buckle *-- Band
+Link *-- Band
 @enduml

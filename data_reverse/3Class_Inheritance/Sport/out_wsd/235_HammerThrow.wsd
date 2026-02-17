@@ -1,0 +1,4 @@
+@startuml
+HammerThrow <|-- Athletics
+Athletics <|-- Sport
+@enduml

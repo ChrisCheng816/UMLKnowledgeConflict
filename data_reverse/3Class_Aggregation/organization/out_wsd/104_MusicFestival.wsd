@@ -1,4 +1,4 @@
 @startuml
 Band o-- MusicFestival
-Guitarist o-- Band
+Drummer o-- Band
 @enduml

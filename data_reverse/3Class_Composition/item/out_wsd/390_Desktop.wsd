@@ -1,4 +1,4 @@
 @startuml
 Drive *-- Desktop
-Head *-- Drive
+Motor *-- Drive
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Climbing
-Climbing <|-- Bouldering
+Sport <|-- Athletics
+Athletics <|-- HammerThrow
 @enduml

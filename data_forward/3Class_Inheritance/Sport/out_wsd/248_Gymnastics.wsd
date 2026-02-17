@@ -1,0 +1,4 @@
+@startuml
+Gymnastics <|-- ArtisticGymnastics
+ArtisticGymnastics <|-- BalanceBeam
+@enduml

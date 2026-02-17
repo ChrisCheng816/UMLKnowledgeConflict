@@ -1,0 +1,4 @@
+@startuml
+Stalk *-- String
+Celery *-- Stalk
+@enduml

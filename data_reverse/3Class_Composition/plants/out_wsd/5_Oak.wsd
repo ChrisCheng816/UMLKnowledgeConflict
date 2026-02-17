@@ -1,4 +1,4 @@
 @startuml
 Leaf *-- Oak
-Tip *-- Leaf
+Midrib *-- Leaf
 @enduml

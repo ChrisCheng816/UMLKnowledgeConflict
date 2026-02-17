@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MindSport
-MindSport <|-- Mahjong
+Sport <|-- Cycling
+Cycling <|-- RoadCycling
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Shelf *-- Cabinet
-Board *-- Shelf
+Bracket *-- Shelf
 @enduml

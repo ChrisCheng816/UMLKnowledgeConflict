@@ -1,0 +1,4 @@
+@startuml
+Heptathlon <|-- Athletics
+Athletics <|-- Sport
+@enduml

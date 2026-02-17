@@ -1,4 +1,4 @@
 @startuml
 Terminal o-- Airport
-SecurityLane o-- Terminal
+BoardingBridge o-- Terminal
 @enduml

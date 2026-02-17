@@ -1,0 +1,4 @@
+@startuml
+Pigment ..> Minerals
+Painting ..> Pigment
+@enduml

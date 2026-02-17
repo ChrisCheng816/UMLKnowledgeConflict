@@ -1,0 +1,4 @@
+@startuml
+BiathlonRifleShooting <|-- Shooting
+Shooting <|-- Sport
+@enduml

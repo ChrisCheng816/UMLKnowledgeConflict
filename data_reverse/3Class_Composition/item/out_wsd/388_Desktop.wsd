@@ -1,4 +1,4 @@
 @startuml
 Drive *-- Desktop
-Platter *-- Drive
+Spindle *-- Drive
 @enduml

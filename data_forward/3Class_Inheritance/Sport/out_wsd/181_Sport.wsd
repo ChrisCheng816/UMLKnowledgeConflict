@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MotorSport
-MotorSport <|-- FormulaE
+Sport <|-- Snowboarding
+Snowboarding <|-- SlopestyleSnowboarding
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Floor *-- House
-Subfloor *-- Floor
+Grout *-- Floor
 @enduml

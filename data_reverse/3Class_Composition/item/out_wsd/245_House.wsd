@@ -1,4 +1,4 @@
 @startuml
 Porch *-- House
-Light *-- Porch
+Post *-- Porch
 @enduml

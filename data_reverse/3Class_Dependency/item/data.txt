@@ -47,7 +47,6 @@ WaterSoftener MunicipalWaterMain WaterTreatmentPlant
 Humidifier TapWater MunicipalWaterMain
 TapWater MunicipalWaterMain WaterTreatmentPlant
 GasStove GasMeter GasPipeline
-GasMeter GasPipeline CityGasGateStation
 GasOven GasMeter GasPipeline
 GasFurnace GasMeter GasPipeline
 PropaneGrill PropaneTank PropaneFillingStation
@@ -108,3 +107,4 @@ TrafficCamera ControlCabinet UtilityMeter
 DigitalSignage MediaPlayer WallOutlet
 Ebike EbikeCharger WallOutlet
 VacuumCleaner PowerCord WallOutlet
+Smartphone Charger Socket

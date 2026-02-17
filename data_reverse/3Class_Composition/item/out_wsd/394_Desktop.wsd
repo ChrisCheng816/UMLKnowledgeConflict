@@ -1,4 +1,4 @@
 @startuml
 Drive *-- Desktop
-Bearing *-- Drive
+Actuator *-- Drive
 @enduml

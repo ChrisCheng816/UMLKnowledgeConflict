@@ -1,4 +1,4 @@
 @startuml
 Lace *-- Shoe
-Fiber *-- Lace
+Weave *-- Lace
 @enduml

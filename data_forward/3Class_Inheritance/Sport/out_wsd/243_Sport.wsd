@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- WaterSport
-WaterSport <|-- Sailing
+Sport <|-- Athletics
+Athletics <|-- ParaAthletics
 @enduml

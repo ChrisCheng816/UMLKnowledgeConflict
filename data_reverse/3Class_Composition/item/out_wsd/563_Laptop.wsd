@@ -1,4 +1,4 @@
 @startuml
 Keyboard *-- Laptop
-Connector *-- Keyboard
+Stabilizer *-- Keyboard
 @enduml

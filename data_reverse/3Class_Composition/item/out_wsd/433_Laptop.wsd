@@ -1,4 +1,4 @@
 @startuml
 Port *-- Laptop
-Contact *-- Port
+Label *-- Port
 @enduml

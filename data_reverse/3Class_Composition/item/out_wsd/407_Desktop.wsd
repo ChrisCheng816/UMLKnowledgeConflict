@@ -1,4 +1,4 @@
 @startuml
 PowerSupply *-- Desktop
-Capacitor *-- PowerSupply
+Switch *-- PowerSupply
 @enduml

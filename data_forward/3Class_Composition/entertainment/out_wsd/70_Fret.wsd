@@ -1,0 +1,4 @@
+@startuml
+Neck *-- Fret
+Guitar *-- Neck
+@enduml

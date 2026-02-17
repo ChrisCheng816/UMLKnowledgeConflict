@@ -1,4 +1,4 @@
 @startuml
-Channel o-- Video
-VideoSite o-- Channel
+Playlist o-- Video
+VideoSite o-- Playlist
 @enduml

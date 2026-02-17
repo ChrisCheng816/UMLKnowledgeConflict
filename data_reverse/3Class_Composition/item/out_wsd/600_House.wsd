@@ -1,4 +1,4 @@
 @startuml
 PlumbingSystem *-- House
-Pipe *-- PlumbingSystem
+Faucet *-- PlumbingSystem
 @enduml

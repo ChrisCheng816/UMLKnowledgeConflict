@@ -1,0 +1,4 @@
+@startuml
+TableTennis <|-- RacquetSport
+RacquetSport <|-- Sport
+@enduml

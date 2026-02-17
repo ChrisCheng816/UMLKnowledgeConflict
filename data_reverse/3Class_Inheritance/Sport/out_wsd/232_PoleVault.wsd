@@ -1,0 +1,4 @@
+@startuml
+PoleVault <|-- Athletics
+Athletics <|-- Sport
+@enduml

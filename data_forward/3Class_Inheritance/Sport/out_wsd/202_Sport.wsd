@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MindSport
-MindSport <|-- Poker
+Sport <|-- Football
+Football <|-- AmericanFootball
 @enduml

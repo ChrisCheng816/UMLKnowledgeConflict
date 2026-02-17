@@ -1,0 +1,4 @@
+@startuml
+Kernel *-- PumpkinSeed
+Germ *-- Kernel
+@enduml

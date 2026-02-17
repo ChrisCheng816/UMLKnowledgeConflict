@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- SepakTakraw
+Sport <|-- MindSport
+MindSport <|-- Xiangqi
 @enduml

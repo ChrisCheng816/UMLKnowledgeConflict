@@ -1,4 +1,4 @@
 @startuml
 Armrest *-- Chair
-Pad *-- Armrest
+Cover *-- Armrest
 @enduml

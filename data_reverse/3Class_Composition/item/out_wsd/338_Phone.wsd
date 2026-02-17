@@ -1,4 +1,4 @@
 @startuml
 Battery *-- Phone
-Anode *-- Battery
+Cathode *-- Battery
 @enduml

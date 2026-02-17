@@ -1,4 +1,4 @@
 @startuml
 Flower *-- Rose
-Bud *-- Flower
+Stem *-- Flower
 @enduml

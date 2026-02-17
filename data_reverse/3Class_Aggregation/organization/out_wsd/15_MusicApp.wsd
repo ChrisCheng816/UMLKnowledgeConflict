@@ -1,0 +1,4 @@
+@startuml
+Playlist o-- MusicApp
+Song o-- Playlist
+@enduml

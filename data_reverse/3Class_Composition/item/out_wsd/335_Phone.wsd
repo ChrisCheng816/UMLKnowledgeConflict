@@ -1,4 +1,4 @@
 @startuml
 Battery *-- Phone
-Terminal *-- Battery
+Casing *-- Battery
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Door *-- House
-Panel *-- Door
+Latch *-- Door
 @enduml

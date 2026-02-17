@@ -1,4 +1,4 @@
 @startuml
 Exhibit o-- Museum
-Sculpture o-- Exhibit
+Painting o-- Exhibit
 @enduml

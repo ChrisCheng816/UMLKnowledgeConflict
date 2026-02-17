@@ -1,4 +1,4 @@
 @startuml
 Staff o-- Company
-Receptionist o-- Staff
+Salesperson o-- Staff
 @enduml

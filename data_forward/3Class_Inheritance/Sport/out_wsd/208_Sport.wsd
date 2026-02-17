@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport
-IndividualSport <|-- Bodybuilding
+Sport <|-- Taekwondo
+Taekwondo <|-- OlympicTaekwondo
 @enduml

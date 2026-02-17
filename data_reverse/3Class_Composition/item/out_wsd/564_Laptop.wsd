@@ -1,4 +1,4 @@
 @startuml
-Keyboard *-- Laptop
-RibbonCable *-- Keyboard
+Display *-- Laptop
+Panel *-- Display
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Channel o-- PodcastApp
+Episode o-- Channel
+@enduml

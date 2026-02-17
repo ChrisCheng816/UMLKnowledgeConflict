@@ -1,4 +1,4 @@
 @startuml
 Mattress *-- Bed
-Pad *-- Mattress
+Layer *-- Mattress
 @enduml

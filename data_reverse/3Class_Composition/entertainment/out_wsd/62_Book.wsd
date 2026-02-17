@@ -1,4 +1,4 @@
 @startuml
 Binding *-- Book
-Spine *-- Binding
+Hinge *-- Binding
 @enduml

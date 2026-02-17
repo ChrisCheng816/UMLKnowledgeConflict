@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Baseball
-Baseball <|-- MajorLeagueBaseball
+Sport <|-- Cycling
+Cycling <|-- MountainBiking
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Screen *-- Phone
-Backlight *-- Screen
+TouchLayer *-- Screen
 @enduml

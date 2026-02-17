@@ -1,4 +1,4 @@
 @startuml
 Ward o-- Hospital
-Nurse o-- Ward
+Doctor o-- Ward
 @enduml

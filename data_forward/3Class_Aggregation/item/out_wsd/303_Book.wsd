@@ -1,6 +1,0 @@
-@startuml
-Shelf o-- Book
-WaterBottleLibrary o-- Shelf
-Rack o-- WaterBottleLibrary
-Entryway o-- Rack
-@enduml

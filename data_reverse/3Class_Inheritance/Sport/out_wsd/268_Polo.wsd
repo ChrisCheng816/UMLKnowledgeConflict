@@ -1,0 +1,4 @@
+@startuml
+Polo <|-- Equestrian
+Equestrian <|-- Sport
+@enduml

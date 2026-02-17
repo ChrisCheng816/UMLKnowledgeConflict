@@ -1,4 +1,4 @@
 @startuml
-Terminal o-- Airport
-Elevator o-- Terminal
+Garage o-- Airport
+Car o-- Garage
 @enduml

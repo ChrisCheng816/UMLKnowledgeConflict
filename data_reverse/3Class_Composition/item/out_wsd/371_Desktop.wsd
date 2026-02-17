@@ -1,4 +1,4 @@
 @startuml
-Motherboard *-- Desktop
-Heatsink *-- Motherboard
+Processor *-- Desktop
+Core *-- Processor
 @enduml

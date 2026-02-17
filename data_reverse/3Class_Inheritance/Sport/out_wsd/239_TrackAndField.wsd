@@ -1,0 +1,4 @@
+@startuml
+TrackAndField <|-- Athletics
+Athletics <|-- Sport
+@enduml

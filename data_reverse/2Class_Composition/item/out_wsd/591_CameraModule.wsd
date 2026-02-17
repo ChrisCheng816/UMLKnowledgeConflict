@@ -1,3 +1,3 @@
 @startuml
-Actuator *-- CameraModule
+CoverGlass *-- CameraModule
 @enduml

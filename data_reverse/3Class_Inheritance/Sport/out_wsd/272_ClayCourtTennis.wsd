@@ -1,0 +1,4 @@
+@startuml
+ClayCourtTennis <|-- Tennis
+Tennis <|-- Sport
+@enduml

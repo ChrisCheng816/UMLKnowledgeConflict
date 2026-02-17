@@ -1,4 +1,4 @@
 @startuml
 Drum *-- Washer
-Shaft *-- Drum
+Baffle *-- Drum
 @enduml

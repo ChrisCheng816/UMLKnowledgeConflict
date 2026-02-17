@@ -1,4 +1,4 @@
 @startuml
 Committee o-- Charity
-Coordinator o-- Committee
+Chairperson o-- Committee
 @enduml

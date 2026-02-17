@@ -1,4 +1,4 @@
 @startuml
 Upholstery *-- Chair
-Seam *-- Upholstery
+Button *-- Upholstery
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Compressor *-- Refrigerator
-Oil *-- Compressor
+Seal *-- Compressor
 @enduml

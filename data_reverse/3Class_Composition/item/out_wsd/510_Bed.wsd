@@ -1,4 +1,4 @@
 @startuml
 Headboard *-- Bed
-Stitch *-- Headboard
+Button *-- Headboard
 @enduml

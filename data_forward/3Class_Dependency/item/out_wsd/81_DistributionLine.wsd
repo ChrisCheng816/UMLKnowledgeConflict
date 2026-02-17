@@ -1,4 +1,4 @@
 @startuml
-TractionSubstation ..> DistributionLine
-OverheadLine ..> TractionSubstation
+UtilityTransformer ..> DistributionLine
+TractionSubstation ..> UtilityTransformer
 @enduml

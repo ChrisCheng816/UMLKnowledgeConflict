@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- RacquetSport
-RacquetSport <|-- RealTennis
+Sport <|-- IndividualSport
+IndividualSport <|-- TenPinBowling
 @enduml

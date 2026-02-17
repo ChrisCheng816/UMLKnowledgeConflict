@@ -1,4 +1,4 @@
 @startuml
 Compressor *-- Refrigerator
-Coil *-- Compressor
+Housing *-- Compressor
 @enduml

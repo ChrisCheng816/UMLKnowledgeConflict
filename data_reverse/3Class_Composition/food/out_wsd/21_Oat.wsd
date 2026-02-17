@@ -1,0 +1,4 @@
+@startuml
+Grain *-- Oat
+Hull *-- Grain
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Shade *-- Lamp
-Clip *-- Shade
+Wire *-- Shade
 @enduml

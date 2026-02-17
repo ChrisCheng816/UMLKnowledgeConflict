@@ -1,0 +1,4 @@
+@startuml
+Hull *-- Kernel
+SunflowerSeed *-- Hull
+@enduml

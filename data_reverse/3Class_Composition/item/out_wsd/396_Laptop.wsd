@@ -1,4 +1,4 @@
 @startuml
 SSD *-- Laptop
-Controller *-- SSD
+NAND *-- SSD
 @enduml

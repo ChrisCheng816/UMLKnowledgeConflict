@@ -1,0 +1,4 @@
+@startuml
+Cell *-- Nucleus
+Organism *-- Cell
+@enduml

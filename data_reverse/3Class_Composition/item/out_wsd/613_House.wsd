@@ -1,4 +1,4 @@
 @startuml
 ElectricalSystem *-- House
-Switch *-- ElectricalSystem
+Panel *-- ElectricalSystem
 @enduml

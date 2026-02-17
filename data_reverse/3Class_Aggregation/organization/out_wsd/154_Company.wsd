@@ -1,4 +1,4 @@
 @startuml
 Department o-- Company
-Manager o-- Department
+Accountant o-- Department
 @enduml

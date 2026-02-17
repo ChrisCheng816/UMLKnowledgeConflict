@@ -1,4 +1,4 @@
 @startuml
 Shelf *-- Cabinet
-Screw *-- Shelf
+Edge *-- Shelf
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Department o-- Company
-Planner o-- Department
+Architect o-- Department
 @enduml

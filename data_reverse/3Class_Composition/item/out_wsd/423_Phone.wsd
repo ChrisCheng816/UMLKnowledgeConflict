@@ -1,4 +1,4 @@
 @startuml
 Microphone *-- Phone
-Wire *-- Microphone
+Port *-- Microphone
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- WaterSport
-WaterSport <|-- CanoeSprint
+Sport <|-- Basketball
+Basketball <|-- WheelchairBasketball
 @enduml

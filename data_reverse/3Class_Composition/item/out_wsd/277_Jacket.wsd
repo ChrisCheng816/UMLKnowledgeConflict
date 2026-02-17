@@ -1,4 +1,4 @@
 @startuml
 Sleeve *-- Jacket
-Stitch *-- Sleeve
+Hem *-- Sleeve
 @enduml

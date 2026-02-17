@@ -1,4 +1,4 @@
 @startuml
 Crate o-- Warehouse
-Can o-- Crate
+Box o-- Crate
 @enduml

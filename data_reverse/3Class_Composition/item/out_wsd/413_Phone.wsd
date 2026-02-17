@@ -1,4 +1,4 @@
 @startuml
 Speaker *-- Phone
-Magnet *-- Speaker
+Diaphragm *-- Speaker
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Cast o-- Theater
-Director o-- Cast
+Stagehand o-- Cast
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Cabinet o-- Pharmacy
-Bandage o-- Cabinet
+Aspirin o-- Cabinet
 @enduml

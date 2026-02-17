@@ -1,4 +1,4 @@
 @startuml
 Team o-- SportsClub
-Midfielder o-- Team
+Referee o-- Team
 @enduml

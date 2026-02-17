@@ -1,0 +1,4 @@
+@startuml
+Base *-- Screw
+Lamp *-- Base
+@enduml

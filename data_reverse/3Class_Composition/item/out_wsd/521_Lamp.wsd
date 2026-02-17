@@ -1,4 +1,4 @@
 @startuml
 Base *-- Lamp
-Socket *-- Base
+Switch *-- Base
 @enduml

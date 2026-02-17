@@ -1,4 +1,4 @@
 @startuml
-Kitchen o-- Restaurant
-Chef o-- Kitchen
+Staff o-- Restaurant
+Waiter o-- Staff
 @enduml

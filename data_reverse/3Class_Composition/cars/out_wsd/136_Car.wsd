@@ -1,4 +1,4 @@
 @startuml
 SteeringSystem *-- Car
-Reservoir *-- SteeringSystem
+UJoint *-- SteeringSystem
 @enduml

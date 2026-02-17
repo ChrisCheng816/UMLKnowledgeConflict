@@ -1,4 +1,4 @@
 @startuml
 Bracket *-- Shelf
-Nail *-- Bracket
+Arm *-- Bracket
 @enduml

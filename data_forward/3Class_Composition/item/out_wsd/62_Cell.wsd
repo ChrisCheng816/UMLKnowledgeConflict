@@ -1,0 +1,4 @@
+@startuml
+Lens *-- Cell
+Eye *-- Lens
+@enduml

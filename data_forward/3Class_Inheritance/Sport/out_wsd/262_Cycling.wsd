@@ -1,0 +1,4 @@
+@startuml
+Cycling <|-- TrackCycling
+TrackCycling <|-- Omnium
+@enduml

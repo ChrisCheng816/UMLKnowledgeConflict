@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- GymnasticsSport
-GymnasticsSport <|-- RhythmicGymnastics
+Sport <|-- TeamSport
+TeamSport <|-- Floorball
 @enduml

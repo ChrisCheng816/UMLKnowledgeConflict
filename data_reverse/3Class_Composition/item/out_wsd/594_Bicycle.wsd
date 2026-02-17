@@ -1,4 +1,4 @@
 @startuml
 Drivetrain *-- Bicycle
-Pedal *-- Drivetrain
+BottomBracket *-- Drivetrain
 @enduml

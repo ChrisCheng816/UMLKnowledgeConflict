@@ -1,0 +1,4 @@
+@startuml
+Station o-- Kiosk
+TransitSystem o-- Station
+@enduml

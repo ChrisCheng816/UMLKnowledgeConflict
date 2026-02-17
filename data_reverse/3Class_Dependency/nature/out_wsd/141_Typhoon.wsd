@@ -1,0 +1,4 @@
+@startuml
+WarmWater ..> Typhoon
+Tropics ..> WarmWater
+@enduml

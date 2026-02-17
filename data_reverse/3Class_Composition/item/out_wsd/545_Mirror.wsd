@@ -1,4 +1,4 @@
 @startuml
 Frame *-- Mirror
-Corner *-- Frame
+Screw *-- Frame
 @enduml

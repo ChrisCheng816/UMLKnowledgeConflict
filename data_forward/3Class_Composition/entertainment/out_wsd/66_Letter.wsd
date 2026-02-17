@@ -1,0 +1,4 @@
+@startuml
+Word *-- Letter
+Essay *-- Word
+@enduml

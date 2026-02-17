@@ -1,4 +1,4 @@
 @startuml
 Memory *-- Desktop
-PCB *-- Memory
+Pin *-- Memory
 @enduml

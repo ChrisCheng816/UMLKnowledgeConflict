@@ -1,4 +1,4 @@
 @startuml
 Suspension *-- Car
-LinkRod *-- Suspension
+Subframe *-- Suspension
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+ShowJumping <|-- Equestrian
+Equestrian <|-- Sport
+@enduml

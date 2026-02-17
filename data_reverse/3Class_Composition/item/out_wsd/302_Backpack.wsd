@@ -1,4 +1,4 @@
 @startuml
 Strap *-- Backpack
-Pad *-- Strap
+Stitch *-- Strap
 @enduml

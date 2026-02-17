@@ -1,4 +1,4 @@
 @startuml
 Display o-- Bookstore
-Paperback o-- Display
+Hardcover o-- Display
 @enduml

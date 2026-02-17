@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Library
-Cookbook o-- Shelf
+Collection o-- Library
+Novel o-- Collection
 @enduml

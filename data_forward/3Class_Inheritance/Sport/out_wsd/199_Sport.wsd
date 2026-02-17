@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MindSport
-MindSport <|-- Shogi
+Sport <|-- Basketball
+Basketball <|-- StreetBasketball
 @enduml

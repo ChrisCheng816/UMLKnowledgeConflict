@@ -1,0 +1,4 @@
+@startuml
+TimeTrial <|-- RoadCycling
+RoadCycling <|-- Cycling
+@enduml

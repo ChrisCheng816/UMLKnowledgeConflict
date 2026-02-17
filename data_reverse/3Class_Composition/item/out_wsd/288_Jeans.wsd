@@ -1,4 +1,4 @@
 @startuml
 Pocket *-- Jeans
-Seam *-- Pocket
+Edge *-- Pocket
 @enduml

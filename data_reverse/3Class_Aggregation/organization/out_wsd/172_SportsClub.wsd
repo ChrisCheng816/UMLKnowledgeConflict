@@ -1,4 +1,4 @@
 @startuml
 Team o-- SportsClub
-Physiotherapist o-- Team
+Substitute o-- Team
 @enduml

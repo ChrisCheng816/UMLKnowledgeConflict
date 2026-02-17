@@ -1,4 +1,4 @@
 @startuml
 Bracket *-- Shelf
-Bolt *-- Bracket
+Slot *-- Bracket
 @enduml

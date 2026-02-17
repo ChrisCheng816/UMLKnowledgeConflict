@@ -1,0 +1,4 @@
+@startuml
+Skiing <|-- FreestyleSkiing
+FreestyleSkiing <|-- Moguls
+@enduml

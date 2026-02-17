@@ -1,0 +1,4 @@
+@startuml
+Runway o-- Light
+Airport o-- Runway
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Triathlon
-Triathlon <|-- SprintTriathlon
+Sport <|-- Weightlifting
+Weightlifting <|-- OlympicWeightlifting
 @enduml

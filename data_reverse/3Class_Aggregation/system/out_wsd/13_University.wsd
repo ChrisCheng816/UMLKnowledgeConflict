@@ -1,4 +1,4 @@
 @startuml
 Laboratory o-- University
-Pipette o-- Laboratory
+Thermometer o-- Laboratory
 @enduml

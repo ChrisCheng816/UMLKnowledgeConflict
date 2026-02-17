@@ -1,4 +1,4 @@
 @startuml
 Frame *-- Mirror
-Nail *-- Frame
+Joint *-- Frame
 @enduml

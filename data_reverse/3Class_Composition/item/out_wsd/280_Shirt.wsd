@@ -1,4 +1,4 @@
 @startuml
 Collar *-- Shirt
-Stitch *-- Collar
+Lining *-- Collar
 @enduml

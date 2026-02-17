@@ -1,4 +1,4 @@
 @startuml
 Motherboard *-- Desktop
-Capacitor *-- Motherboard
+Resistor *-- Motherboard
 @enduml

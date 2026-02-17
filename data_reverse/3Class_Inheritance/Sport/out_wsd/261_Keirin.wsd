@@ -1,0 +1,4 @@
+@startuml
+Keirin <|-- TrackCycling
+TrackCycling <|-- Cycling
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Canister *-- Vacuum
-Latch *-- Canister
+Seal *-- Canister
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Team o-- SportsClub
-Striker o-- Team
+Pitcher o-- Team
 @enduml

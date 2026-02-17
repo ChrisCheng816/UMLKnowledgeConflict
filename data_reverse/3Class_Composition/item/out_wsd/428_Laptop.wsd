@@ -1,4 +1,4 @@
 @startuml
 Port *-- Laptop
-Pin *-- Port
+Shield *-- Port
 @enduml

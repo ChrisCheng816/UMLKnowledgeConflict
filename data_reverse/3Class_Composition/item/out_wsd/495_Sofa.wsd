@@ -1,4 +1,4 @@
 @startuml
 Cushion *-- Sofa
-Fabric *-- Cushion
+Button *-- Cushion
 @enduml

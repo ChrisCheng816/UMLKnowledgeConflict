@@ -1,0 +1,4 @@
+@startuml
+DiscusThrow <|-- Athletics
+Athletics <|-- Sport
+@enduml

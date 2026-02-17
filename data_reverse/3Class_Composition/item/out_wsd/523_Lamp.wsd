@@ -1,4 +1,4 @@
 @startuml
 Base *-- Lamp
-Cord *-- Base
+Plug *-- Base
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+ParallelSlalom <|-- Snowboarding
+Snowboarding <|-- WinterSport
+@enduml

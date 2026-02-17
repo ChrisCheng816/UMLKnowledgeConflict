@@ -1,4 +1,4 @@
 @startuml
 Wall *-- House
-Outlet *-- Wall
+Switch *-- Wall
 @enduml

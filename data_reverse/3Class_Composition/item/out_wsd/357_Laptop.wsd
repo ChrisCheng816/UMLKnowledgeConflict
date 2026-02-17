@@ -1,4 +1,4 @@
 @startuml
 Touchpad *-- Laptop
-Sensor *-- Touchpad
+Button *-- Touchpad
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Wrestling
-Wrestling <|-- Sumo
+Sport <|-- Athletics
+Athletics <|-- PoleVault
 @enduml

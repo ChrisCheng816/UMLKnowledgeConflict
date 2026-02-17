@@ -1,4 +1,4 @@
 @startuml
 Suspension *-- Car
-Bushing *-- Suspension
+Mount *-- Suspension
 @enduml

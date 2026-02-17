@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MotorSport
-MotorSport <|-- OffRoadRacing
+Sport <|-- Canoeing
+Canoeing <|-- Slalom
 @enduml

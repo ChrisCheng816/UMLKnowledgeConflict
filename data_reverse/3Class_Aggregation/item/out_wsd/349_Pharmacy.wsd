@@ -1,4 +1,4 @@
 @startuml
 Cabinet o-- Pharmacy
-Gloves o-- Cabinet
+Sanitizer o-- Cabinet
 @enduml

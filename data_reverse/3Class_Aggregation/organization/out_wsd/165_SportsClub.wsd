@@ -1,0 +1,4 @@
+@startuml
+Team o-- SportsClub
+Defender o-- Team
+@enduml

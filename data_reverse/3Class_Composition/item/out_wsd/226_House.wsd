@@ -1,4 +1,4 @@
 @startuml
 Attic *-- House
-Rafter *-- Attic
+Vent *-- Attic
 @enduml

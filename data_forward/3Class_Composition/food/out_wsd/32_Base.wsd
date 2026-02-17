@@ -1,0 +1,4 @@
+@startuml
+Stem *-- Base
+Mushroom *-- Stem
+@enduml

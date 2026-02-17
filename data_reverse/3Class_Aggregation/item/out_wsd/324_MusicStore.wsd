@@ -1,4 +1,4 @@
 @startuml
 InstrumentRack o-- MusicStore
-Amplifier o-- InstrumentRack
+Speaker o-- InstrumentRack
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Verse *-- Song
+Line *-- Verse
+@enduml

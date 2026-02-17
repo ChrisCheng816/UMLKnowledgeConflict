@@ -1,4 +1,4 @@
 @startuml
 Pump *-- CoffeeMaker
-Motor *-- Pump
+Valve *-- Pump
 @enduml

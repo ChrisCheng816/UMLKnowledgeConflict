@@ -1,4 +1,4 @@
 @startuml
 Choir o-- ConcertHall
-Singer o-- Choir
+Soloist o-- Choir
 @enduml

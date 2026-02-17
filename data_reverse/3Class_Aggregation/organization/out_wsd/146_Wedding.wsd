@@ -1,4 +1,4 @@
 @startuml
 Party o-- Wedding
-MaidOfHonor o-- Party
+Guest o-- Party
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Window *-- House
-Frame *-- Window
+Sill *-- Window
 @enduml

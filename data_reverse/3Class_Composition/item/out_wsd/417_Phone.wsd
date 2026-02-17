@@ -1,4 +1,4 @@
 @startuml
 Speaker *-- Phone
-Grille *-- Speaker
+Amplifier *-- Speaker
 @enduml

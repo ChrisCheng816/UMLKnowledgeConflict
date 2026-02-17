@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Swimming
-Swimming <|-- Butterfly
+Sport <|-- Athletics
+Athletics <|-- DiscusThrow
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Gear *-- Spacer
+Bicycle *-- Gear
+@enduml

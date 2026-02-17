@@ -1,4 +1,4 @@
 @startuml
 Ceiling *-- House
-Light *-- Ceiling
+Vent *-- Ceiling
 @enduml

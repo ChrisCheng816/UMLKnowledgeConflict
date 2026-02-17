@@ -1,4 +1,4 @@
 @startuml
-Catalog o-- Episode
-StreamingService o-- Catalog
+Schedule o-- Episode
+TVNetwork o-- Schedule
 @enduml

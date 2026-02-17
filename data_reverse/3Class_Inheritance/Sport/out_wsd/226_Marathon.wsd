@@ -1,0 +1,4 @@
+@startuml
+Marathon <|-- Athletics
+Athletics <|-- Sport
+@enduml

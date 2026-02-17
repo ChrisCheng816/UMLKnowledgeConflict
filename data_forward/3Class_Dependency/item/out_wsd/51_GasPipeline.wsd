@@ -1,4 +1,4 @@
 @startuml
 GasMeter ..> GasPipeline
-GasOven ..> GasMeter
+GasFurnace ..> GasMeter
 @enduml

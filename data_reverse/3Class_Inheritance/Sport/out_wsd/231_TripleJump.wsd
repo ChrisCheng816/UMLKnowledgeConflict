@@ -1,0 +1,4 @@
+@startuml
+TripleJump <|-- Athletics
+Athletics <|-- Sport
+@enduml

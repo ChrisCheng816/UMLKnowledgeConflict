@@ -1,4 +1,4 @@
 @startuml
 Department o-- Company
-Recruiter o-- Department
+Consultant o-- Department
 @enduml

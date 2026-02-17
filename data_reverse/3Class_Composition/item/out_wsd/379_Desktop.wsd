@@ -1,4 +1,4 @@
 @startuml
-Processor *-- Desktop
-Clock *-- Processor
+Memory *-- Desktop
+Chip *-- Memory
 @enduml

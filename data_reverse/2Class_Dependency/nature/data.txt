@@ -50,8 +50,6 @@ Wind PressureSystem
 PressureSystem TemperatureContrast
 TemperatureContrast Sunlight
 Hail Thundercloud
-Hurricane WarmOceanSeaSurface
-Typhoon WarmOceanSeaSurface
 SeaBreeze TemperatureContrast
 Dew CoolSurface
 Frost ColdSurface
@@ -139,3 +137,5 @@ RiverRise Rainfall
 Rust Moisture
 Rust Oxidation
 Dew Condensation
+Hurricane WarmWater
+Typhoon WarmWater

@@ -1,4 +1,4 @@
 @startuml
 InstrumentRack o-- MusicStore
-Harmonica o-- InstrumentRack
+Synthesizer o-- InstrumentRack
 @enduml

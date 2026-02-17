@@ -1,4 +1,4 @@
 @startuml
 SSD *-- Laptop
-Firmware *-- SSD
+Connector *-- SSD
 @enduml

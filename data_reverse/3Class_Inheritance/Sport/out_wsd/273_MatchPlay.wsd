@@ -1,0 +1,4 @@
+@startuml
+MatchPlay <|-- Golf
+Golf <|-- Sport
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Queue o-- Song
-MusicApp o-- Queue
+Library o-- Song
+MusicApp o-- Library
 @enduml

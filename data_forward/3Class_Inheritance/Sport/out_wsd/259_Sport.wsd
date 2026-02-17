@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Golf
-Golf <|-- PGAGolf
+Sport <|-- Cycling
+Cycling <|-- Cyclocross
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Basement *-- House
-SumpPump *-- Basement
+Beam *-- Basement
 @enduml

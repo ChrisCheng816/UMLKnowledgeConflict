@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- ShootingSport
-ShootingSport <|-- SkeetShooting
+Sport <|-- TeamSport
+TeamSport <|-- TugOfWar
 @enduml

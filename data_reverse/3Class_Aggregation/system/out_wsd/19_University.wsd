@@ -1,4 +1,4 @@
 @startuml
 Laboratory o-- University
-Reagent o-- Laboratory
+Specimen o-- Laboratory
 @enduml

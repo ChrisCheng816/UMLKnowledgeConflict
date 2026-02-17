@@ -1,4 +1,4 @@
 @startuml
 Cabinet o-- Pharmacy
-Inhaler o-- Cabinet
+Antacid o-- Cabinet
 @enduml

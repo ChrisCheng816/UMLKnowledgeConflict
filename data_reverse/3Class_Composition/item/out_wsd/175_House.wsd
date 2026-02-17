@@ -1,4 +1,4 @@
 @startuml
 Floor *-- House
-Finish *-- Floor
+Subfloor *-- Floor
 @enduml

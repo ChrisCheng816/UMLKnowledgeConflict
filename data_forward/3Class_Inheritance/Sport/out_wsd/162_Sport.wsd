@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- CombatSport
-CombatSport <|-- Sumo
+Sport <|-- IndividualSport
+IndividualSport <|-- Bodybuilding
 @enduml

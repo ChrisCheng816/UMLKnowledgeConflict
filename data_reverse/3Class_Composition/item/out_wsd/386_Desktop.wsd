@@ -1,4 +1,4 @@
 @startuml
 Memory *-- Desktop
-Capacitor *-- Memory
+Notch *-- Memory
 @enduml

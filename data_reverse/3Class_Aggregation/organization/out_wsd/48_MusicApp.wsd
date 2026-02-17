@@ -1,4 +1,4 @@
 @startuml
-Library o-- MusicApp
-Song o-- Library
+Collection o-- MusicApp
+Podcast o-- Collection
 @enduml

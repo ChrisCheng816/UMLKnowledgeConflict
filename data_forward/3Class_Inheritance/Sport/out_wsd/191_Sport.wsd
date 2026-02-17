@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- ShootingSport
-ShootingSport <|-- AirRifleShooting
+Sport <|-- Cycling
+Cycling <|-- RoadRace
 @enduml

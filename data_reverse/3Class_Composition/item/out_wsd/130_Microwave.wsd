@@ -1,4 +1,4 @@
 @startuml
 Door *-- Microwave
-Seal *-- Door
+Spring *-- Door
 @enduml

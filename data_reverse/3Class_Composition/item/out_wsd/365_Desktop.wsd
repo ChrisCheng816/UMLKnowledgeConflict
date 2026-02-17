@@ -1,4 +1,4 @@
 @startuml
 Motherboard *-- Desktop
-Socket *-- Motherboard
+Slot *-- Motherboard
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Playlist o-- StreamingService
+Movie o-- Playlist
+@enduml

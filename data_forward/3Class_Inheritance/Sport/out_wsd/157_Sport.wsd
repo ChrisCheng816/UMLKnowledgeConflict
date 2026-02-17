@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- Rounders
+Sport <|-- MindSport
+MindSport <|-- Scrabble
 @enduml

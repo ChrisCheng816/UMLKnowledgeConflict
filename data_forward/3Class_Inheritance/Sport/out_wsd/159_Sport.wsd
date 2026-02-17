@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- Camogie
+Sport <|-- IndividualSport
+IndividualSport <|-- MiniGolf
 @enduml

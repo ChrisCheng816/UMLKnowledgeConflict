@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport
-IndividualSport <|-- TableFootball
+Sport <|-- TableTennis
+TableTennis <|-- OlympicTableTennis
 @enduml

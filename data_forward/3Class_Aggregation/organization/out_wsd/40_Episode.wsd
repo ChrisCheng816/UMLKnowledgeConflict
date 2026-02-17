@@ -1,4 +1,4 @@
 @startuml
-Channel o-- Episode
-PodcastApp o-- Channel
+Playlist o-- Episode
+PodcastApp o-- Playlist
 @enduml

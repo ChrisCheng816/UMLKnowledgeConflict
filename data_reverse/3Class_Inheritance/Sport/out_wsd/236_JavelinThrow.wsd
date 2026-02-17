@@ -1,0 +1,4 @@
+@startuml
+JavelinThrow <|-- Athletics
+Athletics <|-- Sport
+@enduml

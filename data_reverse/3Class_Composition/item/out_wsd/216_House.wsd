@@ -1,4 +1,4 @@
 @startuml
-Chimney *-- House
-Screen *-- Chimney
+Foundation *-- House
+Concrete *-- Foundation
 @enduml

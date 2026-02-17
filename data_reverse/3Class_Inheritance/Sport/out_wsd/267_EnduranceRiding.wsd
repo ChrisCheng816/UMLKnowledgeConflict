@@ -1,0 +1,4 @@
+@startuml
+EnduranceRiding <|-- Equestrian
+Equestrian <|-- Sport
+@enduml

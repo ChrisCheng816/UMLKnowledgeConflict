@@ -1,0 +1,4 @@
+@startuml
+Pickup *-- Magnet
+Guitar *-- Pickup
+@enduml

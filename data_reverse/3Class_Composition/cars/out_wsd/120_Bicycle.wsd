@@ -1,6 +1,0 @@
-@startuml
-Gear *-- Bicycle
-SpacerCar *-- Gear
-Suspension *-- SpacerCar
-Spring *-- Suspension
-@enduml

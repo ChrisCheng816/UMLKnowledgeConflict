@@ -1,4 +1,4 @@
 @startuml
 Display *-- Laptop
-Bezel *-- Display
+HingeMount *-- Display
 @enduml

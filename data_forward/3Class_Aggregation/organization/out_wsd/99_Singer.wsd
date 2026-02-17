@@ -1,4 +1,4 @@
 @startuml
-Cast o-- Singer
-Theater o-- Cast
+Choir o-- Singer
+ConcertHall o-- Choir
 @enduml

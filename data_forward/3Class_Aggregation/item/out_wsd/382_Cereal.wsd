@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Cereal
+Pantry o-- Shelf
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RelayRace <|-- Athletics
+Athletics <|-- Sport
+@enduml

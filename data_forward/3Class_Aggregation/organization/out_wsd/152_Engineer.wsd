@@ -1,6 +1,0 @@
-@startuml
-Department o-- Engineer
-StuntPerformerCompany o-- Department
-Crew o-- StuntPerformerCompany
-MovieSet o-- Crew
-@enduml

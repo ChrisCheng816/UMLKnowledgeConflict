@@ -1,4 +1,4 @@
 @startuml
 Staff o-- Restaurant
-Host o-- Staff
+Dishwasher o-- Staff
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Collection o-- Publisher
-Book o-- Collection
+Catalog o-- Publisher
+Novel o-- Catalog
 @enduml

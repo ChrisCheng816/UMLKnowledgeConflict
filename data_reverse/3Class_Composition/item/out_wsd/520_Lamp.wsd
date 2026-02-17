@@ -1,4 +1,4 @@
 @startuml
-Shade *-- Lamp
-Seam *-- Shade
+Base *-- Lamp
+Socket *-- Base
 @enduml

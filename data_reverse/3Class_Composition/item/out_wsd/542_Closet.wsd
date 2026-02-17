@@ -1,4 +1,4 @@
 @startuml
 Rod *-- Closet
-Joint *-- Rod
+Sleeve *-- Rod
 @enduml

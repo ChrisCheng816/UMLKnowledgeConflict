@@ -1,4 +1,4 @@
 @startuml
 Plumbing *-- House
-Joint *-- Plumbing
+Seal *-- Plumbing
 @enduml

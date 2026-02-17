@@ -1,4 +1,4 @@
 @startuml
 Staff o-- Company
-Intern o-- Staff
+Accountant o-- Staff
 @enduml

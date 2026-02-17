@@ -1,4 +1,4 @@
 @startuml
 Buckle *-- Belt
-Bar *-- Buckle
+Screw *-- Buckle
 @enduml

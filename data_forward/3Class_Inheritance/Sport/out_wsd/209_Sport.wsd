@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport
-IndividualSport <|-- Bouldering
+Sport <|-- Fencing
+Fencing <|-- OlympicFencing
 @enduml

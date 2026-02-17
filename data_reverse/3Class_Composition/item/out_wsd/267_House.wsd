@@ -1,4 +1,4 @@
 @startuml
 GarageDoor *-- House
-Roller *-- GarageDoor
+Spring *-- GarageDoor
 @enduml

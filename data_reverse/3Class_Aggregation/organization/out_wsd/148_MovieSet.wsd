@@ -1,4 +1,4 @@
 @startuml
 Crew o-- MovieSet
-Cameraperson o-- Crew
+Producer o-- Crew
 @enduml

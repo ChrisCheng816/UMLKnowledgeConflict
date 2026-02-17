@@ -1,4 +1,4 @@
 @startuml
 Base *-- Lamp
-Plug *-- Base
+Weight *-- Base
 @enduml

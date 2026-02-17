@@ -1,0 +1,4 @@
+@startuml
+Shell *-- Hazelnut
+Layer *-- Shell
+@enduml

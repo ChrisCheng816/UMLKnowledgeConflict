@@ -1,4 +1,4 @@
 @startuml
 Laboratory o-- University
-Beaker o-- Laboratory
+Burner o-- Laboratory
 @enduml

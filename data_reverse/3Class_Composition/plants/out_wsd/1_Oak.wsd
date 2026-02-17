@@ -1,4 +1,4 @@
 @startuml
 Leaf *-- Oak
-Vein *-- Leaf
+Stem *-- Leaf
 @enduml

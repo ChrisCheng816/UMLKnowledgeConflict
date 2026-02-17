@@ -1,4 +1,4 @@
 @startuml
 Turntable *-- Microwave
-Shaft *-- Turntable
+Bushing *-- Turntable
 @enduml

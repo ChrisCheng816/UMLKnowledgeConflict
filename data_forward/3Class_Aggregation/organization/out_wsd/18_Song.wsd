@@ -1,4 +1,4 @@
 @startuml
-Program o-- Song
-RadioStation o-- Program
+Setlist o-- Song
+ConcertHall o-- Setlist
 @enduml

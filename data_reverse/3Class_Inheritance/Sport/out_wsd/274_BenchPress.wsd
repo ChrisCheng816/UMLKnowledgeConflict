@@ -1,0 +1,4 @@
+@startuml
+BenchPress <|-- Powerlifting
+Powerlifting <|-- IndividualSport
+@enduml

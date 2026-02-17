@@ -1,4 +1,4 @@
 @startuml
 Lid *-- Trashcan
-Rim *-- Lid
+Tab *-- Lid
 @enduml

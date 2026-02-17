@@ -1,4 +1,4 @@
 @startuml
 Laboratory o-- University
-Freezer o-- Laboratory
+Reagent o-- Laboratory
 @enduml

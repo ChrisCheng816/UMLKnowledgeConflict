@@ -1,4 +1,4 @@
 @startuml
-Keyboard *-- Laptop
-Membrane *-- Keyboard
+Touchpad *-- Laptop
+Surface *-- Touchpad
 @enduml

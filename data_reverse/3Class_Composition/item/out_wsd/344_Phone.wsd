@@ -1,4 +1,4 @@
 @startuml
 CameraModule *-- Phone
-Shutter *-- CameraModule
+Aperture *-- CameraModule
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Ceiling *-- House
-Drywall *-- Ceiling
+Fan *-- Ceiling
 @enduml

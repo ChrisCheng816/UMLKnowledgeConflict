@@ -1,4 +1,4 @@
 @startuml
 Display *-- Laptop
-HingeMount *-- Display
+Matrix *-- Display
 @enduml

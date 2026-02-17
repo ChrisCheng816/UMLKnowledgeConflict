@@ -1,4 +1,4 @@
 @startuml
 Fruit *-- Apple
-Pulp *-- Fruit
+Juice *-- Fruit
 @enduml

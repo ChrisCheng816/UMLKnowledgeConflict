@@ -1,0 +1,4 @@
+@startuml
+CrossCountryRunning <|-- Athletics
+Athletics <|-- Sport
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Touchpad *-- Laptop
-Controller *-- Touchpad
+Clicker *-- Touchpad
 @enduml

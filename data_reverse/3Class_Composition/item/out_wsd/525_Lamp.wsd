@@ -1,4 +1,4 @@
 @startuml
 Base *-- Lamp
-Stem *-- Base
+Screw *-- Base
 @enduml

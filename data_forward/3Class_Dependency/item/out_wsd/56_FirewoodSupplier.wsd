@@ -1,4 +1,4 @@
 @startuml
 Firewood ..> FirewoodSupplier
-FirePit ..> Firewood
+WoodStove ..> Firewood
 @enduml

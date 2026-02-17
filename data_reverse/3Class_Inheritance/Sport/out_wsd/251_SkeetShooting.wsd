@@ -1,0 +1,4 @@
+@startuml
+SkeetShooting <|-- Shooting
+Shooting <|-- Sport
+@enduml

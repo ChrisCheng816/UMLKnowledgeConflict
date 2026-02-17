@@ -1,4 +1,4 @@
 @startuml
-Playlist o-- StreamingService
-Movie o-- Playlist
+Queue o-- StreamingService
+Episode o-- Queue
 @enduml

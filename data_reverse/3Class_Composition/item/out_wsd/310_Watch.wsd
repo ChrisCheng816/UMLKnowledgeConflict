@@ -1,4 +1,4 @@
 @startuml
 Band *-- Watch
-Clasp *-- Band
+Hole *-- Band
 @enduml

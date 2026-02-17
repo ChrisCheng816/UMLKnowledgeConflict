@@ -1,4 +1,4 @@
 @startuml
 ElectricalSystem *-- House
-Fuse *-- ElectricalSystem
+Conduit *-- ElectricalSystem
 @enduml

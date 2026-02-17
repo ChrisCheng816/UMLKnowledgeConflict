@@ -1,4 +1,4 @@
 @startuml
 Port *-- Laptop
-Connector *-- Port
+Pin *-- Port
 @enduml

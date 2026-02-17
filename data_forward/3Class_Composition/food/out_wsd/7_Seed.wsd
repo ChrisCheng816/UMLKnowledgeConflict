@@ -1,0 +1,4 @@
+@startuml
+Segment *-- Seed
+Lemon *-- Segment
+@enduml

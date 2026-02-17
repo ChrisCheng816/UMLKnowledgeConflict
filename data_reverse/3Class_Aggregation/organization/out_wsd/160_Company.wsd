@@ -1,4 +1,4 @@
 @startuml
 Department o-- Company
-Lawyer o-- Department
+Developer o-- Department
 @enduml

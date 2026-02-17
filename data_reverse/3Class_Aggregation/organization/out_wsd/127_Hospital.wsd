@@ -1,4 +1,4 @@
 @startuml
 Staff o-- Hospital
-Nurse o-- Staff
+Surgeon o-- Staff
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Blade *-- Blender
-Rivet *-- Blade
+Surface *-- Blade
 @enduml

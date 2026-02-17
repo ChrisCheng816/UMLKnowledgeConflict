@@ -1,4 +1,4 @@
 @startuml
 Fruit *-- Apple
-Flesh *-- Fruit
+Seed *-- Fruit
 @enduml

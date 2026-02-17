@@ -1,4 +1,4 @@
 @startuml
 GarageDoor *-- House
-Cable *-- GarageDoor
+Opener *-- GarageDoor
 @enduml

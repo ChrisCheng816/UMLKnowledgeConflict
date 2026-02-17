@@ -1,4 +1,4 @@
 @startuml
 Pump *-- CoffeeMaker
-Spring *-- Pump
+Screw *-- Pump
 @enduml

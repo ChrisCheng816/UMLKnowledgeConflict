@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- ShootingSport
-ShootingSport <|-- PracticalShooting
+Sport <|-- TeamSport
+TeamSport <|-- Handball
 @enduml

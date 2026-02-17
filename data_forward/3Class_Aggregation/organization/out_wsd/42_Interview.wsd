@@ -1,4 +1,4 @@
 @startuml
-Show o-- Interview
-RadioStation o-- Show
+Segment o-- Interview
+RadioShow o-- Segment
 @enduml

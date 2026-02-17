@@ -1,4 +1,4 @@
 @startuml
 Key *-- Piano
-Surface *-- Key
+Weight *-- Key
 @enduml

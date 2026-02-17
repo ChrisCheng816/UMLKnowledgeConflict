@@ -1,4 +1,4 @@
 @startuml
 Screen *-- Phone
-Sensor *-- Screen
+Backlight *-- Screen
 @enduml

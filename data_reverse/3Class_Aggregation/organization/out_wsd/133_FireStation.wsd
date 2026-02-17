@@ -1,4 +1,4 @@
 @startuml
 Crew o-- FireStation
-Driver o-- Crew
+Captain o-- Crew
 @enduml

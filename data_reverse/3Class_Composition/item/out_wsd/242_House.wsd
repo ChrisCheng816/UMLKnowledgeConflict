@@ -1,4 +1,4 @@
 @startuml
 Porch *-- House
-Railing *-- Porch
+Column *-- Porch
 @enduml

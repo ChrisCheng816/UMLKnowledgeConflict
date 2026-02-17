@@ -1,0 +1,4 @@
+@startuml
+Atom *-- Molecule
+Proton *-- Atom
+@enduml

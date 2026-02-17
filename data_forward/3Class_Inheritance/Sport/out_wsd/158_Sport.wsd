@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- Hurling
+Sport <|-- MindSport
+MindSport <|-- Mahjong
 @enduml

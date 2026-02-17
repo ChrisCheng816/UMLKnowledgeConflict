@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- TugOfWar
+Sport <|-- MindSport
+MindSport <|-- Bridge
 @enduml

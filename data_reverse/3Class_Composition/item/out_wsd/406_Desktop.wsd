@@ -1,4 +1,4 @@
 @startuml
 PowerSupply *-- Desktop
-Cable *-- PowerSupply
+Capacitor *-- PowerSupply
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Panel o-- Conference
-Moderator o-- Panel
+Guest o-- Panel
 @enduml

@@ -39,8 +39,6 @@ Wind PressureSystem TemperatureContrast
 PressureSystem TemperatureContrast Sunlight
 Lightning Thundercloud StormSystem
 Hail Thundercloud StormSystem
-Hurricane WarmOceanSeaSurface TropicalOcean
-Typhoon WarmOceanSeaSurface TropicalOcean
 SeaBreeze TemperatureContrast Sunlight
 TemperatureContrast Sunlight Sun
 Dew CoolSurface NightSky
@@ -139,3 +137,5 @@ Rust Oxidation Oxygen
 Touch Pressure Contact
 Caustics Refraction WaterSurface
 Dew Condensation TemperatureDrop
+Hurricane WarmWater Tropics
+Typhoon WarmWater Tropics

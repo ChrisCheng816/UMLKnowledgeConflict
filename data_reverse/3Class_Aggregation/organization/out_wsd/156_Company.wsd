@@ -1,4 +1,4 @@
 @startuml
 Department o-- Company
-Accountant o-- Department
+Salesperson o-- Department
 @enduml

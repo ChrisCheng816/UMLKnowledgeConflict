@@ -1,4 +1,4 @@
 @startuml
 Strap *-- Backpack
-Adjuster *-- Strap
+Seam *-- Strap
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PlumbingSystem *-- House
-Meter *-- PlumbingSystem
+ElectricalSystem *-- House
+Wire *-- ElectricalSystem
 @enduml

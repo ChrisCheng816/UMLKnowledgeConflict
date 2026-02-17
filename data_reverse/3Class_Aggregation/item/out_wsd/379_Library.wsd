@@ -1,4 +1,4 @@
 @startuml
 ArchiveShelf o-- Library
-Biography o-- ArchiveShelf
+Dictionary o-- ArchiveShelf
 @enduml
