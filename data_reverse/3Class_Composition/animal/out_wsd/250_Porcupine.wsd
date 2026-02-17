@@ -1,0 +1,4 @@
+@startuml
+Quill *-- Porcupine
+Tip *-- Quill
+@enduml

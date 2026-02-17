@@ -1,4 +1,4 @@
 @startuml
-HemodialysisMachine ..> Electricity
-RenalTherapy ..> HemodialysisMachine
+MRIMachine ..> Electricity
+BrainScan ..> MRIMachine
 @enduml

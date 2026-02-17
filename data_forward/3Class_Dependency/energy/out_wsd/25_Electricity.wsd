@@ -1,4 +1,4 @@
 @startuml
-CNCMachine ..> Electricity
-PrototypeMaking ..> CNCMachine
+CutoffSaw ..> Electricity
+Deburring ..> CutoffSaw
 @enduml

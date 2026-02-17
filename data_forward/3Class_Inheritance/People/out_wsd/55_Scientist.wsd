@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- Microbiologist
+Microbiologist <|-- LouisPasteur
+@enduml

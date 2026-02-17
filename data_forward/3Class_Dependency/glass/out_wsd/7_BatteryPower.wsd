@@ -1,4 +1,4 @@
 @startuml
 Defibrillator ..> BatteryPower
-CardiacResuscitation ..> Defibrillator
+FirstAid ..> Defibrillator
 @enduml

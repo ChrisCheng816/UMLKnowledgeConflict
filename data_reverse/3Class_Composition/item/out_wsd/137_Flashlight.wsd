@@ -1,4 +1,4 @@
 @startuml
 Switch *-- Flashlight
-Contact *-- Switch
+Housing *-- Switch
 @enduml

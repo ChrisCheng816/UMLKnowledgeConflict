@@ -1,4 +1,4 @@
 @startuml
-Plumbing *-- House
-Seal *-- Plumbing
+Wiring *-- House
+Fuse *-- Wiring
 @enduml

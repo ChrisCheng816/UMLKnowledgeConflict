@@ -1,4 +1,4 @@
 @startuml
 ArchiveShelf o-- Library
-Atlas o-- ArchiveShelf
+Biography o-- ArchiveShelf
 @enduml

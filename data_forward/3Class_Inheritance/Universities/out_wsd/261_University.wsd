@@ -1,4 +1,4 @@
 @startuml
-University <|-- PrivateUniversity
-PrivateUniversity <|-- HarvardUniversity
+University <|-- ResearchUniversity
+ResearchUniversity <|-- Caltech
 @enduml

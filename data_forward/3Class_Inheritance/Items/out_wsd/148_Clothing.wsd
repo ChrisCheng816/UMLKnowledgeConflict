@@ -1,0 +1,4 @@
+@startuml
+Clothing <|-- Gloves
+Gloves <|-- RubberGloves
+@enduml

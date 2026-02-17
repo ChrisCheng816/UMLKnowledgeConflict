@@ -1,0 +1,4 @@
+@startuml
+Roof *-- Tile
+House *-- Roof
+@enduml

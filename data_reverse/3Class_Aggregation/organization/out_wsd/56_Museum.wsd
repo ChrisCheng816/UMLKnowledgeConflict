@@ -1,0 +1,4 @@
+@startuml
+Collection o-- Museum
+Painting o-- Collection
+@enduml

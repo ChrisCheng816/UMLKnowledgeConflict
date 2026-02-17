@@ -1,4 +1,0 @@
-@startuml
-NetworkingDevice <|-- Modem
-Modem <|-- CableModem
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+Board o-- Company
+Manager o-- Board
+@enduml

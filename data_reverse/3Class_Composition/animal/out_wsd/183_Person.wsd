@@ -1,4 +1,4 @@
 @startuml
-Mouth *-- Person
-Lip *-- Mouth
+Skin *-- Person
+Dermis *-- Skin
 @enduml

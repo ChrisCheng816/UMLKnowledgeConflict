@@ -1,4 +1,4 @@
 @startuml
-QuincyJones <|-- Producer
-Producer <|-- Musician
+QuincyJones <|-- Composer
+Composer <|-- Musician
 @enduml

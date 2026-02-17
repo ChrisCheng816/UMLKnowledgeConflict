@@ -1,0 +1,4 @@
+@startuml
+Toaster <|-- Appliance
+Appliance <|-- Item
+@enduml

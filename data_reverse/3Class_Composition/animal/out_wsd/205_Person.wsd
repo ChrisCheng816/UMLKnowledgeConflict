@@ -1,4 +1,4 @@
 @startuml
-Lung *-- Person
-Membrane *-- Lung
+Shoulder *-- Person
+Joint *-- Shoulder
 @enduml

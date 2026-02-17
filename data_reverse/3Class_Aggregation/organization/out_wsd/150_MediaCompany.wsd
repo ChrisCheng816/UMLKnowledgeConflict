@@ -1,0 +1,4 @@
+@startuml
+StreamingService o-- MediaCompany
+Show o-- StreamingService
+@enduml

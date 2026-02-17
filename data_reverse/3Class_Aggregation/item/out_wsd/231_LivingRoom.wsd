@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- LivingRoom
-Mirror o-- Shelf
+Puzzle o-- Shelf
 @enduml

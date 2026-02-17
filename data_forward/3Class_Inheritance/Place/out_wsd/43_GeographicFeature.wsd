@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- River
-River <|-- Seine
+River <|-- CongoRiver
 @enduml

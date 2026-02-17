@@ -1,0 +1,4 @@
+@startuml
+BloodPressureMonitor ..> BatteryPower
+HypertensionScreening ..> BloodPressureMonitor
+@enduml

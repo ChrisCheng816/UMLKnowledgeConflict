@@ -1,0 +1,4 @@
+@startuml
+UltrasoundMachine ..> AbdominalUltrasound
+Electricity ..> UltrasoundMachine
+@enduml

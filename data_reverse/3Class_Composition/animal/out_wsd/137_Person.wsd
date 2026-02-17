@@ -1,4 +1,4 @@
 @startuml
-Hand *-- Person
-Finger *-- Hand
+Finger *-- Person
+Pad *-- Finger
 @enduml

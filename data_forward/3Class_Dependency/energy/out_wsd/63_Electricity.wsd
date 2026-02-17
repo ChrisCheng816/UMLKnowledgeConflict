@@ -1,4 +1,4 @@
 @startuml
-SolderingStation ..> Electricity
-ElectronicsAssembly ..> SolderingStation
+TableSaw ..> Electricity
+FurnitureMaking ..> TableSaw
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Heater <|-- Appliance
+Appliance <|-- Item
+@enduml

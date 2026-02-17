@@ -1,4 +1,4 @@
 @startuml
 Trunk *-- Car
-Latch *-- Trunk
+Strut *-- Trunk
 @enduml

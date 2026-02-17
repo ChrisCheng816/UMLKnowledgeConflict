@@ -1,4 +1,4 @@
 @startuml
 Jar *-- Blender
-Handle *-- Jar
+Spout *-- Jar
 @enduml

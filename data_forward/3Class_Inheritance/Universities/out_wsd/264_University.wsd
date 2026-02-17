@@ -1,4 +1,4 @@
 @startuml
-University <|-- MedicalResearchUniversity
-MedicalResearchUniversity <|-- JohnsHopkins
+University <|-- PrivateUniversity
+PrivateUniversity <|-- NYU
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tool <|-- Wrench
-Wrench <|-- TorxKey
+Tool <|-- PryBar
+PryBar <|-- Crowbar
 @enduml

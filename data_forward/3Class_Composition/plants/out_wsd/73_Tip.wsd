@@ -1,0 +1,4 @@
+@startuml
+Needle *-- Tip
+Pine *-- Needle
+@enduml

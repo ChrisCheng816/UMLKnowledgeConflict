@@ -1,0 +1,4 @@
+@startuml
+Series o-- Library
+Book o-- Series
+@enduml

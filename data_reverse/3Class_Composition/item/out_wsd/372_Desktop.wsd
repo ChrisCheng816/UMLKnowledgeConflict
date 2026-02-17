@@ -1,4 +1,4 @@
 @startuml
-Processor *-- Desktop
-Cache *-- Processor
+Memory *-- Desktop
+Pin *-- Memory
 @enduml

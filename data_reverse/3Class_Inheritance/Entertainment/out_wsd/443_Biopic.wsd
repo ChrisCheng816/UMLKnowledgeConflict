@@ -1,0 +1,4 @@
+@startuml
+Biopic <|-- Film
+Film <|-- Entertainment
+@enduml

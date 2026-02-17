@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Person
-Pupil *-- Eye
+Ear *-- Person
+Cochlea *-- Ear
 @enduml

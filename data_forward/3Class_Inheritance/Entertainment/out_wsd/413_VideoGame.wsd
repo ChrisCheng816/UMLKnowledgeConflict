@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- RhythmGame
-RhythmGame <|-- GuitarHero
+VideoGame <|-- FightingGame
+FightingGame <|-- StreetFighter
 @enduml

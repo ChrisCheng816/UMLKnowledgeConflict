@@ -1,4 +1,4 @@
 @startuml
-Processor *-- Desktop
-Clock *-- Processor
+Drive *-- Desktop
+Head *-- Drive
 @enduml

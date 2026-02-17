@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- Geneticist
-Geneticist <|-- GregorMendel
+Scientist <|-- Naturalist
+Naturalist <|-- CharlesDarwin
 @enduml

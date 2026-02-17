@@ -1,4 +1,4 @@
 @startuml
-Motherboard *-- Desktop
-Connector *-- Motherboard
+Memory *-- Desktop
+Chip *-- Memory
 @enduml

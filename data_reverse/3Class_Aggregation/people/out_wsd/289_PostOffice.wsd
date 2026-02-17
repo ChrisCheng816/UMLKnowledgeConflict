@@ -1,0 +1,4 @@
+@startuml
+Branch o-- PostOffice
+Singer o-- Branch
+@enduml

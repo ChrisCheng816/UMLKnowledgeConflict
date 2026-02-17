@@ -1,4 +1,4 @@
 @startuml
 ECGMonitor ..> Electricity
-AlarmMonitoring ..> ECGMonitor
+VitalSignsMonitoring ..> ECGMonitor
 @enduml

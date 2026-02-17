@@ -1,0 +1,4 @@
+@startuml
+Crew o-- Technician
+Airline o-- Crew
+@enduml

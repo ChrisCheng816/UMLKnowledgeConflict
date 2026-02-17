@@ -1,0 +1,4 @@
+@startuml
+Department o-- Cameraman
+Newspaper o-- Department
+@enduml

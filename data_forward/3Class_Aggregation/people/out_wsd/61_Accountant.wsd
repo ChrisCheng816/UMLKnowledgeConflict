@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Accountant
+Bank o-- Branch
+@enduml

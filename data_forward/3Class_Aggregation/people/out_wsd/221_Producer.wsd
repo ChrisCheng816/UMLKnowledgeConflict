@@ -1,0 +1,4 @@
+@startuml
+Section o-- Producer
+Newspaper o-- Section
+@enduml

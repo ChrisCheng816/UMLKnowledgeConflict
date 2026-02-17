@@ -1,4 +1,4 @@
 @startuml
-Foundation *-- House
-AnchorBolt *-- Foundation
+Attic *-- House
+Vent *-- Attic
 @enduml

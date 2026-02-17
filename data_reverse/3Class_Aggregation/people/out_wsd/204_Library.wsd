@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Library
+Supervisor o-- Branch
+@enduml

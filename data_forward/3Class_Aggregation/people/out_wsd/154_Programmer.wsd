@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Programmer
+Factory o-- Staff
+@enduml

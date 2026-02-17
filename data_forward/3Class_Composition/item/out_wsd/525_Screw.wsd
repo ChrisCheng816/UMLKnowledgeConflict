@@ -1,4 +1,4 @@
 @startuml
-Base *-- Screw
-Lamp *-- Base
+Rod *-- Screw
+Closet *-- Rod
 @enduml

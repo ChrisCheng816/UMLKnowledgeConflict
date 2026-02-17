@@ -1,4 +1,4 @@
 @startuml
-Drive *-- Desktop
-Actuator *-- Drive
+PowerSupply *-- Desktop
+Cable *-- PowerSupply
 @enduml

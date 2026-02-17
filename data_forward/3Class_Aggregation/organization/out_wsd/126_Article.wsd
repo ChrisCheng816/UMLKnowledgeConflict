@@ -1,0 +1,4 @@
+@startuml
+Newspaper o-- Article
+Publisher o-- Newspaper
+@enduml

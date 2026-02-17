@@ -1,0 +1,4 @@
+@startuml
+Feed o-- Article
+Newsroom o-- Feed
+@enduml

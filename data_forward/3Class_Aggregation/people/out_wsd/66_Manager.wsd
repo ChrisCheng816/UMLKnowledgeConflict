@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Manager
+Bank o-- Branch
+@enduml

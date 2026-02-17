@@ -1,0 +1,4 @@
+@startuml
+Collection o-- Podcast
+MusicApp o-- Collection
+@enduml

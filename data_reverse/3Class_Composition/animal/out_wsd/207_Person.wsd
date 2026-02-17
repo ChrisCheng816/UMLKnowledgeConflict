@@ -1,4 +1,4 @@
 @startuml
-Brain *-- Person
-Lobe *-- Brain
+Shoulder *-- Person
+Nerve *-- Shoulder
 @enduml

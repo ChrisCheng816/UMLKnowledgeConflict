@@ -1,4 +1,4 @@
 @startuml
-Garage o-- Airport
-Car o-- Garage
+ControlTower o-- Airport
+Radar o-- ControlTower
 @enduml

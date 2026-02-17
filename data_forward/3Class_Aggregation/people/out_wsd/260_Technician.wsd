@@ -1,0 +1,4 @@
+@startuml
+Unit o-- Technician
+PoliceStation o-- Unit
+@enduml

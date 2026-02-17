@@ -1,4 +1,4 @@
 @startuml
-University <|-- BusinessSchool
-BusinessSchool <|-- WhartonSchool
+University <|-- HistoricUniversity
+HistoricUniversity <|-- SorbonneUniversity
 @enduml

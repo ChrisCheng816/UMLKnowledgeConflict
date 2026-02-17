@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Dancer
+Museum o-- Staff
+@enduml

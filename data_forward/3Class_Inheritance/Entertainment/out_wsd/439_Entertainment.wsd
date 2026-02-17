@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Song
-Song <|-- ImagineSong
+Entertainment <|-- Podcast
+Podcast <|-- DailyPodcast
 @enduml

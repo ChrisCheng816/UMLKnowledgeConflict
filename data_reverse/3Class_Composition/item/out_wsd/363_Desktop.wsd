@@ -1,4 +1,4 @@
 @startuml
-Motherboard *-- Desktop
-Chip *-- Motherboard
+Processor *-- Desktop
+Die *-- Processor
 @enduml

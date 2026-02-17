@@ -1,4 +1,4 @@
 @startuml
-Heart *-- Person
-Muscle *-- Heart
+Knee *-- Person
+Ligament *-- Knee
 @enduml

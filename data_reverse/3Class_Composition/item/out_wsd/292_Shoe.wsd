@@ -1,4 +1,4 @@
 @startuml
-Sole *-- Shoe
-Rubber *-- Sole
+Lace *-- Shoe
+Weave *-- Lace
 @enduml

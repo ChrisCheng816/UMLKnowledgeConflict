@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Store
+Consultant o-- Branch
+@enduml

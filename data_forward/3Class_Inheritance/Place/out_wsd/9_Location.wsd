@@ -1,4 +1,4 @@
 @startuml
 Location <|-- GeographicFeature
-GeographicFeature <|-- Continent
+GeographicFeature <|-- Waterfall
 @enduml

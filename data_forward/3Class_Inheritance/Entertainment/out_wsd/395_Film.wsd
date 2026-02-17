@@ -1,4 +1,4 @@
 @startuml
-Film <|-- SpaceFilm
-SpaceFilm <|-- Apollo13
+Film <|-- CrimeFilm
+CrimeFilm <|-- TheGodfather
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Blender <|-- Appliance
+Appliance <|-- Item
+@enduml

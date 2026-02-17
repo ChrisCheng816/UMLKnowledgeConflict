@@ -1,4 +1,4 @@
 @startuml
 CircuitBoard *-- Smartphone
-Inductor *-- CircuitBoard
+Diode *-- CircuitBoard
 @enduml

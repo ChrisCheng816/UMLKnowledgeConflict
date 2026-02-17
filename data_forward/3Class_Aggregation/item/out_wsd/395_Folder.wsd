@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Folder
+Office o-- Cabinet
+@enduml

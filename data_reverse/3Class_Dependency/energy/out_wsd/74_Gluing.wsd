@@ -1,0 +1,4 @@
+@startuml
+HotGlueGun ..> Gluing
+Electricity ..> HotGlueGun
+@enduml

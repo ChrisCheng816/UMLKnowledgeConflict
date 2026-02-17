@@ -1,4 +1,4 @@
 @startuml
 Key *-- Piano
-Pivot *-- Key
+Spring *-- Key
 @enduml

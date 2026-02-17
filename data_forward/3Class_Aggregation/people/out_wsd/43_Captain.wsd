@@ -1,0 +1,4 @@
+@startuml
+Crew o-- Captain
+Airline o-- Crew
+@enduml

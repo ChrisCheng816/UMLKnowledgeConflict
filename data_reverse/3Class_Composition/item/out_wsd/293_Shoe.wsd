@@ -1,4 +1,4 @@
 @startuml
-Sole *-- Shoe
-Stitch *-- Sole
+Lace *-- Shoe
+Thread *-- Lace
 @enduml

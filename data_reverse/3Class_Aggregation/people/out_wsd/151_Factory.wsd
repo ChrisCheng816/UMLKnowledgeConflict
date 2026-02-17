@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Factory
+Welder o-- Staff
+@enduml

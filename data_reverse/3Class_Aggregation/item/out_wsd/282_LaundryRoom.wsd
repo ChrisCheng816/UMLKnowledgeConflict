@@ -1,4 +1,4 @@
 @startuml
 Basket o-- LaundryRoom
-OvenMitt o-- Basket
+Hanger o-- Basket
 @enduml

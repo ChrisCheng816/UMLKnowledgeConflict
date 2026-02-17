@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Theater
+Librarian o-- Staff
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cupboard o-- Kitchen
+Mug o-- Cupboard
+@enduml

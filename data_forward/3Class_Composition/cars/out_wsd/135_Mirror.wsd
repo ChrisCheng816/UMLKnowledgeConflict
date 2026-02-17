@@ -1,0 +1,4 @@
+@startuml
+Door *-- Mirror
+Car *-- Door
+@enduml

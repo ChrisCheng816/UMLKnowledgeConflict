@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- River
-River <|-- Nile
+River <|-- AmazonRiver
 @enduml

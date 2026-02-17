@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Airport
+Detective o-- Staff
+@enduml

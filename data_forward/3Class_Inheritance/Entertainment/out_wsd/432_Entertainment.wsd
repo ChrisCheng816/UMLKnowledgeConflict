@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- SportsGame
-SportsGame <|-- FIFAGame
+Entertainment <|-- BoardGame
+BoardGame <|-- MonopolyGame
 @enduml

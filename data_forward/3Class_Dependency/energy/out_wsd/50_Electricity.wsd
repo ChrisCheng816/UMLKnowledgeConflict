@@ -1,4 +1,4 @@
 @startuml
 Oscilloscope ..> Electricity
-ContinuityTesting ..> Oscilloscope
+VoltageTesting ..> Oscilloscope
 @enduml

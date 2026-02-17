@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Assistant
+Hospital o-- Staff
+@enduml

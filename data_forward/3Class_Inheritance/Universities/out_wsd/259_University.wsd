@@ -1,4 +1,4 @@
 @startuml
-University <|-- PublicUniversity
-PublicUniversity <|-- UCBerkeley
+University <|-- CollegiateUniversity
+CollegiateUniversity <|-- OxfordUniversity
 @enduml

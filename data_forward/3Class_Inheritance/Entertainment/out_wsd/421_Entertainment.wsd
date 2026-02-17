@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Sitcom
+Sitcom <|-- FriendsSeries
+@enduml

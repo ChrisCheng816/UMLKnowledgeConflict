@@ -1,0 +1,4 @@
+@startuml
+Bookstore o-- Atlas
+Publisher o-- Bookstore
+@enduml

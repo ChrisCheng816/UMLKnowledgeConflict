@@ -1,0 +1,4 @@
+@startuml
+School o-- SchoolDistrict
+Library o-- School
+@enduml

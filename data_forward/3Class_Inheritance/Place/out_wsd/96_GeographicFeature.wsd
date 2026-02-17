@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Valley
-Valley <|-- NapaValley
+GeographicFeature <|-- Waterfall
+Waterfall <|-- NiagaraFalls
 @enduml

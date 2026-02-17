@@ -1,4 +1,4 @@
 @startuml
-RadiationTherapySystem ..> Electricity
-CancerTreatment ..> RadiationTherapySystem
+XRayMachine ..> Electricity
+BoneScan ..> XRayMachine
 @enduml

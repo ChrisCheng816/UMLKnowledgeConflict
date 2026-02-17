@@ -1,4 +1,4 @@
 @startuml
 Fleet o-- City
-Ferry o-- Fleet
+SubwayCar o-- Fleet
 @enduml

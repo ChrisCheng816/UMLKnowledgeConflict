@@ -1,4 +1,4 @@
 @startuml
-Film <|-- HorrorFilm
-HorrorFilm <|-- Psycho
+Film <|-- WarFilm
+WarFilm <|-- Braveheart
 @enduml

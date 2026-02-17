@@ -1,4 +1,4 @@
 @startuml
-BoardGame <|-- EconomicGame
-EconomicGame <|-- Monopoly
+BoardGame <|-- CooperativeGame
+CooperativeGame <|-- Pandemic
 @enduml

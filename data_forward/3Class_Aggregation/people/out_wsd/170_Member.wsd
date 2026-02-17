@@ -1,0 +1,4 @@
+@startuml
+Office o-- Member
+Government o-- Office
+@enduml

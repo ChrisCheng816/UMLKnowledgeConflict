@@ -1,0 +1,4 @@
+@startuml
+Fruit *-- Peach
+Pit *-- Fruit
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Library
+Musician o-- Branch
+@enduml

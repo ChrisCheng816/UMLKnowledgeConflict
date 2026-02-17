@@ -1,0 +1,4 @@
+@startuml
+Unit o-- Receptionist
+PoliceStation o-- Unit
+@enduml

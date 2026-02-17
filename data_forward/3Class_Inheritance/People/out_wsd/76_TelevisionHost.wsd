@@ -1,0 +1,4 @@
+@startuml
+TelevisionHost <|-- TalkShowHost
+TalkShowHost <|-- OprahWinfrey
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- River
-River <|-- IndusRiver
+GeographicFeature <|-- Mountain
+Mountain <|-- MountEverest
 @enduml

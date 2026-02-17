@@ -1,0 +1,4 @@
+@startuml
+Button *-- Spring
+Remote *-- Button
+@enduml

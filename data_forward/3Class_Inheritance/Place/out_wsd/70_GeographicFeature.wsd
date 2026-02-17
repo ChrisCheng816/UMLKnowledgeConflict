@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- Desert
-Desert <|-- GobiDesert
+Desert <|-- KalahariDesert
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+CTScanner ..> AbdominalCT
+Electricity ..> CTScanner
+@enduml

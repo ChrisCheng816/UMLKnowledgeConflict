@@ -1,4 +1,4 @@
 @startuml
-Speaker *-- Phone
-Diaphragm *-- Speaker
+Microphone *-- Phone
+Housing *-- Microphone
 @enduml

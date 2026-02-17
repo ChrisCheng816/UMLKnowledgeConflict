@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Rainforest
-Rainforest <|-- Congo
+GeographicFeature <|-- Valley
+Valley <|-- NapaValley
 @enduml

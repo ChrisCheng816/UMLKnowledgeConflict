@@ -1,4 +1,4 @@
 @startuml
-Finger *-- Person
-Nail *-- Finger
+Foot *-- Person
+Arch *-- Foot
 @enduml

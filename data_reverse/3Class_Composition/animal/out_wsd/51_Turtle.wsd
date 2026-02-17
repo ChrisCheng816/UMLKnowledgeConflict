@@ -1,4 +1,4 @@
 @startuml
 Shell *-- Turtle
-Ridge *-- Shell
+Seam *-- Shell
 @enduml

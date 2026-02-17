@@ -1,4 +1,4 @@
 @startuml
-Screen *-- Phone
-Coating *-- Screen
+CameraModule *-- Phone
+Sensor *-- CameraModule
 @enduml

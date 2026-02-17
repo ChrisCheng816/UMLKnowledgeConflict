@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Company
+Director o-- Cabinet
+@enduml

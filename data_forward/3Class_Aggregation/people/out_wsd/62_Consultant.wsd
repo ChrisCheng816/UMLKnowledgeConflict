@@ -1,0 +1,4 @@
+@startuml
+Office o-- Consultant
+Bank o-- Office
+@enduml

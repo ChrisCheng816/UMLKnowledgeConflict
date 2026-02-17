@@ -1,4 +1,4 @@
 @startuml
-Staircase *-- House
-Landing *-- Staircase
+Chimney *-- House
+Brick *-- Chimney
 @enduml

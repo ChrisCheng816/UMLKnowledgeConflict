@@ -1,4 +1,4 @@
 @startuml
-Stationery <|-- Clip
-Clip <|-- PaperClip
+Stationery <|-- Pen
+Pen <|-- FountainPen
 @enduml

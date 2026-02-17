@@ -1,4 +1,4 @@
 @startuml
-Headlight *-- Car
-Beam *-- Headlight
+SteeringWheel *-- Car
+Hub *-- SteeringWheel
 @enduml

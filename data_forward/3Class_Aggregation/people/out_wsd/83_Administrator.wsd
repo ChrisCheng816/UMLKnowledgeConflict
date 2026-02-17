@@ -1,0 +1,4 @@
+@startuml
+Team o-- Administrator
+Company o-- Team
+@enduml

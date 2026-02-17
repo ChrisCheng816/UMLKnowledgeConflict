@@ -1,4 +1,4 @@
 @startuml
-Multimeter ..> Electricity
-Measuring ..> Multimeter
+OrbitalSander ..> Electricity
+Sanding ..> OrbitalSander
 @enduml

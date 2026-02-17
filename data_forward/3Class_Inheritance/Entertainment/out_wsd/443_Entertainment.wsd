@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- ComicBook
-ComicBook <|-- SpiderManComic
+Entertainment <|-- Film
+Film <|-- Biopic
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Shade *-- Lamp
-Rim *-- Shade
+Base *-- Lamp
+Screw *-- Base
 @enduml

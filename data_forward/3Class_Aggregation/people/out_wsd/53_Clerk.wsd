@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Clerk
+Bank o-- Branch
+@enduml

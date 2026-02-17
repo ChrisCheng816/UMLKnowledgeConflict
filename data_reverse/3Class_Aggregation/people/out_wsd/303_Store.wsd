@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Store
+Concierge o-- Branch
+@enduml

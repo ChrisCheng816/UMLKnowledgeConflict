@@ -1,0 +1,4 @@
+@startuml
+Door *-- Latch
+Car *-- Door
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- River
-River <|-- CongoRiver
+River <|-- Zambezi
 @enduml

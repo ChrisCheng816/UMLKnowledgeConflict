@@ -1,4 +1,4 @@
 @startuml
 Flower *-- Rose
-Stamen *-- Flower
+Pistil *-- Flower
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Drill ..> Electricity
-HomeRepair ..> Drill
+DetailSander ..> Electricity
+Sanding ..> DetailSander
 @enduml

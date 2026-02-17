@@ -1,4 +1,4 @@
 @startuml
 Dashboard *-- Car
-Screen *-- Dashboard
+Button *-- Dashboard
 @enduml

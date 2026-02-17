@@ -1,4 +1,4 @@
 @startuml
-Memory *-- Desktop
-PCB *-- Memory
+Drive *-- Desktop
+Bearing *-- Drive
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Toolbox o-- Garage
-Nails o-- Toolbox
+Screws o-- Toolbox
 @enduml

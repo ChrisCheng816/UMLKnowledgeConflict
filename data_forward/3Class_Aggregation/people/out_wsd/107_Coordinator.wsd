@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Coordinator
+Company o-- Staff
+@enduml

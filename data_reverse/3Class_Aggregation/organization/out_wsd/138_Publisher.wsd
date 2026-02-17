@@ -1,0 +1,4 @@
+@startuml
+Bookstore o-- Publisher
+Dictionary o-- Bookstore
+@enduml

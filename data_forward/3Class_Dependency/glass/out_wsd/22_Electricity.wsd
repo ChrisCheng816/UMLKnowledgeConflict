@@ -1,4 +1,4 @@
 @startuml
-HeadlampLight ..> Electricity
-OperatingRoomLighting ..> HeadlampLight
+HemodialysisMachine ..> Electricity
+KidneyDialysis ..> HemodialysisMachine
 @enduml

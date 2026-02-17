@@ -1,4 +1,4 @@
 @startuml
-Processor *-- Desktop
-Transistor *-- Processor
+Drive *-- Desktop
+Platter *-- Drive
 @enduml

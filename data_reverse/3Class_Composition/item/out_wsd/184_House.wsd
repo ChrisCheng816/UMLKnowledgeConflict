@@ -1,4 +1,4 @@
 @startuml
-Ceiling *-- House
-Fan *-- Ceiling
+Window *-- House
+Sill *-- Window
 @enduml

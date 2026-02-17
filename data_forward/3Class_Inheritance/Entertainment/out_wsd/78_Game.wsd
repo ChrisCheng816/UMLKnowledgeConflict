@@ -1,4 +1,4 @@
 @startuml
 Game <|-- VideoGame
-VideoGame <|-- DarkSouls
+VideoGame <|-- Bloodborne
 @enduml

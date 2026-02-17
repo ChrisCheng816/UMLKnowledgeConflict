@@ -1,4 +1,4 @@
 @startuml
-SafetyGear <|-- Helmet
-Helmet <|-- HardHat
+SafetyGear <|-- Vest
+Vest <|-- LifeJacket
 @enduml

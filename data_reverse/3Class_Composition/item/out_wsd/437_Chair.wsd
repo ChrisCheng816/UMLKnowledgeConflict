@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Chair
+Tip *-- Leg
+@enduml

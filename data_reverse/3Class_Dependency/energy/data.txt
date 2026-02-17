@@ -3,8 +3,6 @@ CompressedAirSupply AirCompressor Electricity
 PneumaticTools AirCompressor Electricity
 SprayPainting AirCompressor Electricity
 Fastening AirImpactWrench CompressedAir
-Inflation AirImpactWrench CompressedAir
-Stapling AirImpactWrench CompressedAir
 Cutting AngleGrinder Electricity
 Deburring AngleGrinder Electricity
 Grinding AngleGrinder Electricity
@@ -57,7 +55,6 @@ Carpentry PneumaticNailGun CompressedAir
 Framing PneumaticNailGun CompressedAir
 Roofing PneumaticNailGun CompressedAir
 Fastening PneumaticStapler CompressedAir
-Inflation PneumaticStapler CompressedAir
 Stapling PneumaticStapler CompressedAir
 CircuitRepair SolderingStation Electricity
 ElectronicsAssembly SolderingStation Electricity
@@ -65,11 +62,14 @@ Soldering SolderingStation Electricity
 Carpentry TableSaw Electricity
 FurnitureMaking TableSaw Electricity
 WoodCutting TableSaw Electricity
-Fastening TireInflator CompressedAir
 Inflation TireInflator CompressedAir
-Stapling TireInflator CompressedAir
 MetalFabrication WeldingMachine Electricity
 RepairWork WeldingMachine Electricity
 Welding WeldingMachine Electricity
 Sanding Sander Electricity
 HomeRepair Drill Electricity
+Cutting Jigsaw Electricity
+Cutting CircularSaw Electricity
+Screwing ElectricScrewdriver Electricity
+Gluing HotGlueGun Electricity
+Sanding DetailSander Electricity

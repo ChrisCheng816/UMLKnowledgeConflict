@@ -1,4 +1,4 @@
 @startuml
-Film <|-- SuperheroFilm
-SuperheroFilm <|-- Logan
+Film <|-- HistoricalFilm
+HistoricalFilm <|-- Gladiator
 @enduml

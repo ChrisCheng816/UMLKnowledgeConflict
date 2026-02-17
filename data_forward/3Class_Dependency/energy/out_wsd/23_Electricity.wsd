@@ -1,4 +1,4 @@
 @startuml
 CNCMachine ..> Electricity
-PartManufacturing ..> CNCMachine
+PrototypeMaking ..> CNCMachine
 @enduml

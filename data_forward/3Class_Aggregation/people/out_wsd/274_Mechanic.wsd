@@ -1,0 +1,4 @@
+@startuml
+Squad o-- Mechanic
+PoliceStation o-- Squad
+@enduml

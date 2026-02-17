@@ -1,0 +1,4 @@
+@startuml
+Section o-- Newspaper
+Reporter o-- Section
+@enduml

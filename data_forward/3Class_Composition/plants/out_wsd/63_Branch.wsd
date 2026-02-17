@@ -1,0 +1,4 @@
+@startuml
+Tree *-- Branch
+Apple *-- Tree
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Wheel *-- Car
-Axle *-- Wheel
+Brake *-- Car
+Pad *-- Brake
 @enduml

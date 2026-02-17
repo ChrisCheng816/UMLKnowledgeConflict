@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- River
-River <|-- Yangtze
+River <|-- MississippiRiver
 @enduml

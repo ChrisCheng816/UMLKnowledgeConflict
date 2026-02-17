@@ -1,0 +1,4 @@
+@startuml
+Earcup *-- Cushion
+Headphone *-- Earcup
+@enduml

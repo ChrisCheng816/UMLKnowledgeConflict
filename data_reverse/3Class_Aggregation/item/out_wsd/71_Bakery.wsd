@@ -1,4 +1,4 @@
 @startuml
 Tray o-- Bakery
-Croissant o-- Tray
+Muffin o-- Tray
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Brain *-- Person
-Brainstem *-- Brain
+Hair *-- Person
+Root *-- Hair
 @enduml

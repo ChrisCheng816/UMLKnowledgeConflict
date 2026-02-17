@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- River
-River <|-- Volga
+River <|-- Rhine
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Game <|-- VideoGame
-VideoGame <|-- BioShock
+VideoGame <|-- Portal
 @enduml

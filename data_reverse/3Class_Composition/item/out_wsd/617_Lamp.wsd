@@ -1,0 +1,4 @@
+@startuml
+Cord *-- Lamp
+Plug *-- Cord
+@enduml

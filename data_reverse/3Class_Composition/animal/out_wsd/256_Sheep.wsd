@@ -1,0 +1,4 @@
+@startuml
+Wool *-- Sheep
+Fiber *-- Wool
+@enduml

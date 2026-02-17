@@ -1,0 +1,4 @@
+@startuml
+Office o-- CityHall
+Senator o-- Office
+@enduml

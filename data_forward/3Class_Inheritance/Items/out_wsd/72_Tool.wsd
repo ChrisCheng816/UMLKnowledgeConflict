@@ -1,4 +1,4 @@
 @startuml
-Tool <|-- Chisel
-Chisel <|-- WoodChisel
+Tool <|-- Shovel
+Shovel <|-- SnowShovel
 @enduml

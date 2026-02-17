@@ -1,0 +1,4 @@
+@startuml
+Catalog o-- Library
+Song o-- Catalog
+@enduml

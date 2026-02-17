@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- LivingRoom
-Candle o-- Shelf
+Clock o-- Shelf
 @enduml

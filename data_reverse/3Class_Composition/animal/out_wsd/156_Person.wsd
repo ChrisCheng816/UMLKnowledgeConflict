@@ -1,4 +1,4 @@
 @startuml
-Foot *-- Person
-Arch *-- Foot
+Eye *-- Person
+TearDuct *-- Eye
 @enduml

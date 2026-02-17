@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Store
+Officer o-- Branch
+@enduml

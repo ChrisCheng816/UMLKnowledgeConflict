@@ -1,4 +1,4 @@
 @startuml
-University <|-- LawSchool
-LawSchool <|-- HarvardLaw
+University <|-- PublicUniversity
+PublicUniversity <|-- UCBerkeley
 @enduml

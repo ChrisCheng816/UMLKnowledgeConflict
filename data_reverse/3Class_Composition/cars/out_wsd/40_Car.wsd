@@ -1,4 +1,4 @@
 @startuml
-Dashboard *-- Car
-Trim *-- Dashboard
+Transmission *-- Car
+Clutch *-- Transmission
 @enduml

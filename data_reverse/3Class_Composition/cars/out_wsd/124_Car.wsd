@@ -1,4 +1,4 @@
 @startuml
-Suspension *-- Car
-Mount *-- Suspension
+SteeringSystem *-- Car
+Reservoir *-- SteeringSystem
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- Mountain
-Mountain <|-- MontBlanc
+Mountain <|-- Matterhorn
 @enduml

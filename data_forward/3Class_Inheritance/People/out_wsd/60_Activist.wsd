@@ -1,4 +1,4 @@
 @startuml
-Activist <|-- FreedomFighter
-FreedomFighter <|-- NelsonMandela
+Activist <|-- ClimateActivist
+ClimateActivist <|-- GretaThunberg
 @enduml

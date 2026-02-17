@@ -1,4 +1,4 @@
 @startuml
 Binding *-- Book
-Cover *-- Binding
+Thread *-- Binding
 @enduml

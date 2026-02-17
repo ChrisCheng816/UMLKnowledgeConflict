@@ -1,0 +1,4 @@
+@startuml
+NYU <|-- PrivateUniversity
+PrivateUniversity <|-- University
+@enduml

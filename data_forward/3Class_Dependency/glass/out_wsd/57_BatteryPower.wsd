@@ -1,4 +1,4 @@
 @startuml
-Thermometer ..> BatteryPower
-TemperatureCheck ..> Thermometer
+GlucoseMeter ..> BatteryPower
+BloodSugarCheck ..> GlucoseMeter
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Library
+Assistant o-- Branch
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Sole *-- Shoe
-Heel *-- Sole
+Lace *-- Shoe
+Eyelet *-- Lace
 @enduml

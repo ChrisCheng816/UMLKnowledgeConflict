@@ -1,4 +1,4 @@
 @startuml
-Attic *-- House
-Truss *-- Attic
+Basement *-- House
+Drain *-- Basement
 @enduml

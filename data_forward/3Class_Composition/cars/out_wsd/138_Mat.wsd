@@ -1,0 +1,4 @@
+@startuml
+Floor *-- Mat
+Car *-- Floor
+@enduml

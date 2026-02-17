@@ -1,4 +1,4 @@
 @startuml
 Binder o-- Backpack
-Syllabus o-- Binder
+Essay o-- Binder
 @enduml

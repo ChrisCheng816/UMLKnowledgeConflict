@@ -1,4 +1,4 @@
 @startuml
-Keyboard *-- Laptop
-Frame *-- Keyboard
+Touchpad *-- Laptop
+Controller *-- Touchpad
 @enduml

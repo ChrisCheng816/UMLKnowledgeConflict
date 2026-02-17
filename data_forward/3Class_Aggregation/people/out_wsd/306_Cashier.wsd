@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Cashier
+Store o-- Branch
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- Continent
-Continent <|-- Asia
+Continent <|-- Europe
 @enduml

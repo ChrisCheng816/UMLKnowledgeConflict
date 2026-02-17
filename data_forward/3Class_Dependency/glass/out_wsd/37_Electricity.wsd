@@ -1,4 +1,4 @@
 @startuml
-PatientMonitor ..> Electricity
-AlarmMonitoring ..> PatientMonitor
+SurgicalLight ..> Electricity
+ProcedureLighting ..> SurgicalLight
 @enduml

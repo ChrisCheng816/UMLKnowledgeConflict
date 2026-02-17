@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Sitcom
-Sitcom <|-- FriendsSeries
+Entertainment <|-- ActionFilm
+ActionFilm <|-- AvengersFilm
 @enduml

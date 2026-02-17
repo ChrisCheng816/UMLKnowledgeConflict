@@ -1,4 +1,4 @@
 @startuml
-Memory *-- Desktop
-Heatspreader *-- Memory
+Drive *-- Desktop
+Magnet *-- Drive
 @enduml

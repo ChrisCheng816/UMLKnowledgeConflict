@@ -1,0 +1,4 @@
+@startuml
+Switch *-- Flashlight
+Spring *-- Switch
+@enduml

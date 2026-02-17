@@ -1,4 +1,4 @@
 @startuml
-Screen *-- Phone
-Frame *-- Screen
+Battery *-- Phone
+Separator *-- Battery
 @enduml

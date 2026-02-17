@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Book
+Book <|-- HardcoverBook
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Upholstery *-- Chair
+Foam *-- Upholstery
+@enduml

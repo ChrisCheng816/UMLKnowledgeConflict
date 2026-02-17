@@ -1,4 +1,4 @@
 @startuml
-GroupOfMembers o-- Community
-Member o-- GroupOfMembers
+GroupOfPhotographers o-- Community
+Photographer o-- GroupOfPhotographers
 @enduml

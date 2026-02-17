@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- BoardGame
-BoardGame <|-- MonopolyGame
+Entertainment <|-- Poem
+Poem <|-- DaffodilsPoem
 @enduml

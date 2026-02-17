@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Truck
+MovingCompany o-- Fleet
+@enduml

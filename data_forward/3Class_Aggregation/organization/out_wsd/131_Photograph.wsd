@@ -1,0 +1,4 @@
+@startuml
+Newspaper o-- Photograph
+Publisher o-- Newspaper
+@enduml

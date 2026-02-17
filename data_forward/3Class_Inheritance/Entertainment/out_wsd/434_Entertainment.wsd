@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- AdventureGame
-AdventureGame <|-- ZeldaGame
+Entertainment <|-- Novel
+Novel <|-- SherlockNovel
 @enduml

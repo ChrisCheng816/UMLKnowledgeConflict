@@ -1,4 +1,4 @@
 @startuml
 Fleet o-- City
-PoliceCar o-- Fleet
+GarbageTruck o-- Fleet
 @enduml

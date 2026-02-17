@@ -1,4 +1,4 @@
 @startuml
-BenchSander ..> Electricity
-Woodworking ..> BenchSander
+ClampMeter ..> Electricity
+Measuring ..> ClampMeter
 @enduml

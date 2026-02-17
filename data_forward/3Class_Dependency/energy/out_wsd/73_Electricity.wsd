@@ -1,4 +1,4 @@
 @startuml
-WeldingMachine ..> Electricity
-Welding ..> WeldingMachine
+ElectricScrewdriver ..> Electricity
+Screwing ..> ElectricScrewdriver
 @enduml

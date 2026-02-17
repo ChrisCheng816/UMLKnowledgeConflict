@@ -1,4 +1,4 @@
 @startuml
-SteeringWheel *-- Car
-Switch *-- SteeringWheel
+DoorPanel *-- Car
+Lock *-- DoorPanel
 @enduml

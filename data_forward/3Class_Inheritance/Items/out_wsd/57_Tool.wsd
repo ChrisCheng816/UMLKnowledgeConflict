@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- Hoe
+Hoe <|-- GardenHoe
+@enduml

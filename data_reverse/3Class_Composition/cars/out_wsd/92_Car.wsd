@@ -1,4 +1,4 @@
 @startuml
-Hood *-- Car
-PropRod *-- Hood
+Trunk *-- Car
+Liner *-- Trunk
 @enduml

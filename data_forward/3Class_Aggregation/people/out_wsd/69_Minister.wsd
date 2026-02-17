@@ -1,0 +1,4 @@
+@startuml
+Office o-- Minister
+CityHall o-- Office
+@enduml

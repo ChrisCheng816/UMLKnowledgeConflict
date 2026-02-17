@@ -1,0 +1,4 @@
+@startuml
+Cinema o-- MediaCompany
+Movie o-- Cinema
+@enduml

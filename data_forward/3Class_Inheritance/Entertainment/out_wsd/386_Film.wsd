@@ -1,4 +1,4 @@
 @startuml
-Film <|-- RomanceFilm
-RomanceFilm <|-- Titanic
+Film <|-- SuperheroFilm
+SuperheroFilm <|-- Logan
 @enduml

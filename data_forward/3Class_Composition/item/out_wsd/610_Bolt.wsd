@@ -1,0 +1,4 @@
+@startuml
+Knob *-- Bolt
+Door *-- Knob
+@enduml

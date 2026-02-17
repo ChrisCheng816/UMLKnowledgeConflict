@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- Mountain
-Mountain <|-- Elbrus
+Mountain <|-- Aconcagua
 @enduml

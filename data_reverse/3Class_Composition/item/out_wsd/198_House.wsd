@@ -1,4 +1,4 @@
 @startuml
-Door *-- House
-Threshold *-- Door
+Staircase *-- House
+Rail *-- Staircase
 @enduml

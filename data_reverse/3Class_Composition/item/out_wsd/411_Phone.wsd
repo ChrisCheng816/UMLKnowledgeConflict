@@ -1,4 +1,4 @@
 @startuml
-Speaker *-- Phone
-Coil *-- Speaker
+Microphone *-- Phone
+Wire *-- Microphone
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Toolbox o-- Garage
-Paintbrush o-- Toolbox
+Sandpaper o-- Toolbox
 @enduml

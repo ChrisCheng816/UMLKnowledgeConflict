@@ -1,4 +1,4 @@
 @startuml
-BenchSander ..> Electricity
-SurfaceFinishing ..> BenchSander
+ClampMeter ..> Electricity
+ContinuityTesting ..> ClampMeter
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- PartyGame
-PartyGame <|-- AmongUs
+VideoGame <|-- SimulationGame
+SimulationGame <|-- SimCity
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Museum
+Musician o-- Staff
+@enduml

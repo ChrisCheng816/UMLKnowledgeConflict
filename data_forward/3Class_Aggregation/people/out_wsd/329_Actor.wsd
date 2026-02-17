@@ -1,0 +1,4 @@
+@startuml
+Section o-- Actor
+Theater o-- Section
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Museum o-- Artifact
+Museum o-- Museum
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Host
+Hotel o-- Staff
+@enduml

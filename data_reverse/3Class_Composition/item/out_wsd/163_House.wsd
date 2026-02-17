@@ -1,4 +1,4 @@
 @startuml
-Roof *-- House
-Vent *-- Roof
+Wall *-- House
+Outlet *-- Wall
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Ventilator ..> Electricity
-RespiratorySupport ..> Ventilator
+PatientMonitor ..> Electricity
+ICUMonitoring ..> PatientMonitor
 @enduml

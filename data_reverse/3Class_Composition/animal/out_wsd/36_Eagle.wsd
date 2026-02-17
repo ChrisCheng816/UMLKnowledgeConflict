@@ -1,4 +1,4 @@
 @startuml
 Beak *-- Eagle
-Ridge *-- Beak
+UpperMandible *-- Beak
 @enduml

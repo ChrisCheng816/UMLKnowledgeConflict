@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Housekeeper
+Hotel o-- Staff
+@enduml

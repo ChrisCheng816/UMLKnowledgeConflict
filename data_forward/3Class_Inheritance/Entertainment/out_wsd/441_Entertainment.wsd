@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- PopSong
-PopSong <|-- ThrillerSong
+Entertainment <|-- Manga
+Manga <|-- NarutoManga
 @enduml

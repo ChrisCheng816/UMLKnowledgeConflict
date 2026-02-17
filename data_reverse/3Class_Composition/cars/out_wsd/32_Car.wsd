@@ -1,4 +1,4 @@
 @startuml
-Seat *-- Car
-Cover *-- Seat
+Dashboard *-- Car
+Screen *-- Dashboard
 @enduml

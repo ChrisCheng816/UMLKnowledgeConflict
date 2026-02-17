@@ -1,4 +1,4 @@
 @startuml
 Chain *-- Bicycle
-Pin *-- Chain
+Tensioner *-- Chain
 @enduml

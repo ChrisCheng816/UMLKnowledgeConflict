@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Person
-Sclera *-- Eye
+Nose *-- Person
+Tip *-- Nose
 @enduml

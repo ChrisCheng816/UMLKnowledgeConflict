@@ -1,0 +1,4 @@
+@startuml
+Cap *-- Thread
+Bottle *-- Cap
+@enduml

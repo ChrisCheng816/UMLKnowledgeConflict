@@ -1,0 +1,4 @@
+@startuml
+Unit o-- Detective
+PoliceStation o-- Unit
+@enduml

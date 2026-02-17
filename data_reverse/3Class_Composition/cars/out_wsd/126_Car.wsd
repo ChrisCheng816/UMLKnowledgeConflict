@@ -1,4 +1,4 @@
 @startuml
-Suspension *-- Car
-BallJoint *-- Suspension
+SteeringSystem *-- Car
+Coupler *-- SteeringSystem
 @enduml

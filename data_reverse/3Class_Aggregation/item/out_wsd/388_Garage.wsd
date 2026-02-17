@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Garage
+Tire o-- Shelf
+@enduml

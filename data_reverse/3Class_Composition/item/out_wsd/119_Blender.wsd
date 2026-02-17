@@ -1,4 +1,4 @@
 @startuml
-Jar *-- Blender
-Rim *-- Jar
+Blade *-- Blender
+Tip *-- Blade
 @enduml

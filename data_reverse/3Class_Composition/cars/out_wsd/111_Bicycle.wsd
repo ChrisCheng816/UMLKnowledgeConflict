@@ -1,4 +1,4 @@
 @startuml
-Chain *-- Bicycle
-Rivet *-- Chain
+Gear *-- Bicycle
+Cassette *-- Gear
 @enduml

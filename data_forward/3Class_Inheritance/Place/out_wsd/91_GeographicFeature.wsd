@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Desert
-Desert <|-- Gobi
+GeographicFeature <|-- Lake
+Lake <|-- CraterLake
 @enduml

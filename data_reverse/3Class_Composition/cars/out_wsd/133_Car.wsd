@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Car
-TieRod *-- SteeringSystem
+Door *-- Car
+Hinge *-- Door
 @enduml

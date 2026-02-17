@@ -1,0 +1,4 @@
+@startuml
+Neck *-- Giraffe
+Vertebra *-- Neck
+@enduml

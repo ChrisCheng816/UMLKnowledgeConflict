@@ -1,4 +1,4 @@
 @startuml
-CameraModule *-- Smartphone
-ImageSensor *-- CameraModule
+CircuitBoard *-- Smartphone
+Resistor *-- CircuitBoard
 @enduml

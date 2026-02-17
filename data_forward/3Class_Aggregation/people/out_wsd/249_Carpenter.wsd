@@ -1,0 +1,4 @@
+@startuml
+Unit o-- Carpenter
+PoliceStation o-- Unit
+@enduml

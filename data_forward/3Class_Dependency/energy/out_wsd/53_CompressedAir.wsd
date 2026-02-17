@@ -1,4 +1,4 @@
 @startuml
 PaintSprayer ..> CompressedAir
-Coating ..> PaintSprayer
+SprayPainting ..> PaintSprayer
 @enduml

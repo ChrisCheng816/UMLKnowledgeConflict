@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Poem
-Poem <|-- DaffodilsPoem
+Entertainment <|-- PopSong
+PopSong <|-- ThrillerSong
 @enduml

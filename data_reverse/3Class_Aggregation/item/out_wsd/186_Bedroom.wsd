@@ -1,4 +1,4 @@
 @startuml
 Drawer o-- Bedroom
-Headphones o-- Drawer
+USBDrive o-- Drawer
 @enduml

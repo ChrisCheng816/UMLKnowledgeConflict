@@ -1,4 +1,4 @@
 @startuml
-WeldingMachine ..> Electricity
-RepairWork ..> WeldingMachine
+CircularSaw ..> Electricity
+Cutting ..> CircularSaw
 @enduml

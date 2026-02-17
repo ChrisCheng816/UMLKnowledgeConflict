@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Thigh
+Frog *-- Leg
+@enduml

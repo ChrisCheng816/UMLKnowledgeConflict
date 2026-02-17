@@ -1,0 +1,4 @@
+@startuml
+Engine *-- Fan
+Car *-- Engine
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Unit o-- Paramedic
+PoliceStation o-- Unit
+@enduml

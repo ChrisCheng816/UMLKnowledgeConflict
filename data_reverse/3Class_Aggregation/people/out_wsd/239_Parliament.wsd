@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Parliament
+Councilor o-- Committee
+@enduml

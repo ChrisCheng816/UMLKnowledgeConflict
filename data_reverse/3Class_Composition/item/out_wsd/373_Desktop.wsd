@@ -1,4 +1,4 @@
 @startuml
-Processor *-- Desktop
-Die *-- Processor
+Memory *-- Desktop
+Label *-- Memory
 @enduml

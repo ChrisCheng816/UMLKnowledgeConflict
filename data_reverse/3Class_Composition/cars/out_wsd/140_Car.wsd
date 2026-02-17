@@ -1,4 +1,4 @@
 @startuml
-Suspension *-- Car
-Spring *-- Suspension
+Mirror *-- Car
+Glass *-- Mirror
 @enduml

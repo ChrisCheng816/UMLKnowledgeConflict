@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- Library
-Manual o-- Shelf
+Guidebook o-- Shelf
 @enduml

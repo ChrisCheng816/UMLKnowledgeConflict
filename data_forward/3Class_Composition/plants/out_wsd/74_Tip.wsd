@@ -1,0 +1,4 @@
+@startuml
+Branch *-- Tip
+Root *-- Branch
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Pharmacy
+Medicine o-- Shelf
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Blade *-- Blender
-Hub *-- Blade
+Surface *-- Blade
 @enduml

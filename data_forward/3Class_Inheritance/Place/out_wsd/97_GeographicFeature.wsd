@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Canyon
-Canyon <|-- GrandCanyon
+GeographicFeature <|-- CoralReef
+CoralReef <|-- GreatBarrierReef
 @enduml

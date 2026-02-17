@@ -1,4 +1,4 @@
 @startuml
-DrillPress ..> Electricity
-WorkshopProduction ..> DrillPress
+ElectricHotPlate ..> Electricity
+PaintStripping ..> ElectricHotPlate
 @enduml

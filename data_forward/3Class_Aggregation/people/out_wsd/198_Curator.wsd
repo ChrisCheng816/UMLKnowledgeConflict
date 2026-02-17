@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Curator
+Library o-- Branch
+@enduml

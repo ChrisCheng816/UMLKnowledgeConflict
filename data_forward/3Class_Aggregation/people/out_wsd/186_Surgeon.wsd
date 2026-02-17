@@ -1,0 +1,4 @@
+@startuml
+Department o-- Surgeon
+Hospital o-- Department
+@enduml

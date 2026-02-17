@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Car
-UJoint *-- SteeringSystem
+Engine *-- Car
+Fan *-- Engine
 @enduml

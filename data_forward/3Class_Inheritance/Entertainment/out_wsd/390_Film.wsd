@@ -1,4 +1,4 @@
 @startuml
-Film <|-- DramaFilm
-DramaFilm <|-- Casablanca
+Film <|-- BiographicalFilm
+BiographicalFilm <|-- Amadeus
 @enduml

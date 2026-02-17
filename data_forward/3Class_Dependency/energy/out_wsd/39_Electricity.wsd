@@ -1,4 +1,4 @@
 @startuml
-HotAirStation ..> Electricity
-PaintStripping ..> HotAirStation
+LaserCutter ..> Electricity
+Engraving ..> LaserCutter
 @enduml

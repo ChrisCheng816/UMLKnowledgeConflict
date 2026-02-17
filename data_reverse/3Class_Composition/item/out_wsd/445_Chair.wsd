@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Chair
-Joint *-- Leg
+Upholstery *-- Chair
+Strap *-- Upholstery
 @enduml

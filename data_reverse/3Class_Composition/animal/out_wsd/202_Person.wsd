@@ -1,4 +1,4 @@
 @startuml
-Lung *-- Person
-Airway *-- Lung
+Shoulder *-- Person
+Scapula *-- Shoulder
 @enduml

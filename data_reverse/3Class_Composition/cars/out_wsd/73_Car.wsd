@@ -1,4 +1,4 @@
 @startuml
 SteeringWheel *-- Car
-Rim *-- SteeringWheel
+Airbag *-- SteeringWheel
 @enduml

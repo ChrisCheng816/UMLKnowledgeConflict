@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Bartender
+Store o-- Staff
+@enduml

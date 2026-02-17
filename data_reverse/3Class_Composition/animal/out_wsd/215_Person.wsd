@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Person
-Follicle *-- Skin
+Hair *-- Person
+Keratin *-- Hair
 @enduml

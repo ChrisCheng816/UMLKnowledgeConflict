@@ -1,4 +1,4 @@
 @startuml
-Mouth *-- Person
-Tooth *-- Mouth
+Spine *-- Person
+Ligament *-- Spine
 @enduml

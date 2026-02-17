@@ -1,4 +1,4 @@
 @startuml
 Fleet o-- City
-Bus o-- Fleet
+Taxi o-- Fleet
 @enduml

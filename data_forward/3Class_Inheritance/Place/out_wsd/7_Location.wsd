@@ -1,4 +1,4 @@
 @startuml
 Location <|-- GeographicFeature
-GeographicFeature <|-- Desert
+GeographicFeature <|-- Island
 @enduml

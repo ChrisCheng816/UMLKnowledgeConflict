@@ -1,4 +1,4 @@
 @startuml
-WeldingMachine ..> Electricity
-MetalFabrication ..> WeldingMachine
+Jigsaw ..> Electricity
+Cutting ..> Jigsaw
 @enduml

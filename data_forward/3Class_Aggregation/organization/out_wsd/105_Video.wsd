@@ -1,0 +1,4 @@
+@startuml
+Queue o-- Video
+RadioStation o-- Queue
+@enduml

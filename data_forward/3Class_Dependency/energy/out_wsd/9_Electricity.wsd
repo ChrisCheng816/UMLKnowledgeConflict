@@ -1,4 +1,4 @@
 @startuml
-AngleGrinder ..> Electricity
-Deburring ..> AngleGrinder
+BeltSander ..> Electricity
+Sanding ..> BeltSander
 @enduml

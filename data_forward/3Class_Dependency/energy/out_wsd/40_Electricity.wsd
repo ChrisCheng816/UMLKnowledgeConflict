@@ -1,4 +1,4 @@
 @startuml
-HotAirStation ..> Electricity
-ShrinkWrapping ..> HotAirStation
+LaserCutter ..> Electricity
+LaserCutting ..> LaserCutter
 @enduml

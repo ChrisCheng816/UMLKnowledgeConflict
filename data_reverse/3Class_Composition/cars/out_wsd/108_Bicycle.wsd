@@ -1,4 +1,4 @@
 @startuml
-Chain *-- Bicycle
-Plate *-- Chain
+Gear *-- Bicycle
+Tooth *-- Gear
 @enduml

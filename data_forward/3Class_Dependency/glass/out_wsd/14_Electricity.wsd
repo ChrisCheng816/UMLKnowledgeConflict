@@ -1,4 +1,4 @@
 @startuml
-ECGMonitor ..> Electricity
-PatientMonitoring ..> ECGMonitor
+ExamLight ..> Electricity
+OperatingRoomLighting ..> ExamLight
 @enduml

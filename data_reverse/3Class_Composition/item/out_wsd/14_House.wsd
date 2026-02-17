@@ -1,4 +1,4 @@
 @startuml
 Door *-- House
-Doorknob *-- Door
+Deadbolt *-- Door
 @enduml

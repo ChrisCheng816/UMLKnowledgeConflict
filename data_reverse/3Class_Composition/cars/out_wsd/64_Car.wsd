@@ -1,4 +1,4 @@
 @startuml
-Exhaust *-- Car
-HeatShield *-- Exhaust
+Headlight *-- Car
+Housing *-- Headlight
 @enduml

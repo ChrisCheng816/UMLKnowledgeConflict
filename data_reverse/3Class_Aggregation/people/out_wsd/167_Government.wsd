@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Government
+Coordinator o-- Committee
+@enduml

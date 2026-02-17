@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Turtle
-Turtle <|-- SeaTurtle
+Animal <|-- Snake
+Snake <|-- KingCobra
 @enduml

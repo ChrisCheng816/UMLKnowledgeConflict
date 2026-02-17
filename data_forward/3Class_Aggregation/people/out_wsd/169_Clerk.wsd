@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Clerk
+Government o-- Committee
+@enduml

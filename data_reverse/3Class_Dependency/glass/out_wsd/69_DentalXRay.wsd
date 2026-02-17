@@ -1,0 +1,4 @@
+@startuml
+XRayMachine ..> DentalXRay
+Electricity ..> XRayMachine
+@enduml

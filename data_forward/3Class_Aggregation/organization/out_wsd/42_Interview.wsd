@@ -1,4 +1,4 @@
 @startuml
-Segment o-- Interview
-RadioShow o-- Segment
+Archive o-- Interview
+NewsSite o-- Archive
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- Volcano
-Volcano <|-- MaunaLoa
+Volcano <|-- MountStHelens
 @enduml

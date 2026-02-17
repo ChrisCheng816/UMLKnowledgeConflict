@@ -1,0 +1,4 @@
+@startuml
+Office o-- Bank
+Teller o-- Office
+@enduml

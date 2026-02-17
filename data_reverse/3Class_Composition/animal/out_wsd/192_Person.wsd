@@ -1,4 +1,4 @@
 @startuml
-Heart *-- Person
-Valve *-- Heart
+Spine *-- Person
+Bone *-- Spine
 @enduml

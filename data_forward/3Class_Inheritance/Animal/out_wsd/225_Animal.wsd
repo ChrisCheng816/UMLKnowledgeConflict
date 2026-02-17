@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Owl
-Owl <|-- BarnOwl
+Animal <|-- Parrot
+Parrot <|-- ScarletMacaw
 @enduml

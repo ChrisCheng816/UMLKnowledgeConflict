@@ -1,0 +1,4 @@
+@startuml
+Schedule o-- TVNetwork
+Film o-- Schedule
+@enduml

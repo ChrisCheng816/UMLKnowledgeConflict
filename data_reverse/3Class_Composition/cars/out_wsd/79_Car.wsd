@@ -1,4 +1,4 @@
 @startuml
-SteeringWheel *-- Car
-Stitch *-- SteeringWheel
+DoorPanel *-- Car
+Latch *-- DoorPanel
 @enduml

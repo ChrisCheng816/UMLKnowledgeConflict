@@ -1,0 +1,4 @@
+@startuml
+Scale *-- Seed
+Cone *-- Scale
+@enduml

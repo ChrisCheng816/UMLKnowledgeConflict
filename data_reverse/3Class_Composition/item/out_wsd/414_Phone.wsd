@@ -1,4 +1,4 @@
 @startuml
-Speaker *-- Phone
-Frame *-- Speaker
+Microphone *-- Phone
+Seal *-- Microphone
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Shell *-- Almond
+Kernel *-- Shell
+@enduml

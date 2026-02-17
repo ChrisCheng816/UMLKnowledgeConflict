@@ -1,0 +1,4 @@
+@startuml
+Pollen *-- Grain
+Flower *-- Pollen
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Finger *-- Person
-Nerve *-- Finger
+Eye *-- Person
+Pupil *-- Eye
 @enduml

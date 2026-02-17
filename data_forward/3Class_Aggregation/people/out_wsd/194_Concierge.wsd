@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Concierge
+Hotel o-- Staff
+@enduml

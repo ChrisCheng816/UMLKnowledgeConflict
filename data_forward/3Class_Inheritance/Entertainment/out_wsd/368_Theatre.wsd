@@ -1,0 +1,4 @@
+@startuml
+Theatre <|-- MusicalTheatre
+MusicalTheatre <|-- WickedMusical
+@enduml

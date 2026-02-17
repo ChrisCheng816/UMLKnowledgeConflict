@@ -1,0 +1,4 @@
+@startuml
+JohnsHopkins <|-- ResearchUniversity
+ResearchUniversity <|-- University
+@enduml

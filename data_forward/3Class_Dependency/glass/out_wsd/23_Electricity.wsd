@@ -1,4 +1,4 @@
 @startuml
-HeadlampLight ..> Electricity
-ProcedureLighting ..> HeadlampLight
+HemodialysisMachine ..> Electricity
+RenalTherapy ..> HemodialysisMachine
 @enduml

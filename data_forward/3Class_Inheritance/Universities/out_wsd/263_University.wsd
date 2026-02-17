@@ -1,4 +1,4 @@
 @startuml
-University <|-- HistoricUniversity
-HistoricUniversity <|-- SorbonneUniversity
+University <|-- PublicUniversity
+PublicUniversity <|-- UCLA
 @enduml

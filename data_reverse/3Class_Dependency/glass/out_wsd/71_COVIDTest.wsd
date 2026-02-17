@@ -1,0 +1,4 @@
+@startuml
+TestKit ..> COVIDTest
+Reagent ..> TestKit
+@enduml

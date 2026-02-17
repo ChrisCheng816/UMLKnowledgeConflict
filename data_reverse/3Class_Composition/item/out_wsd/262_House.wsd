@@ -1,4 +1,4 @@
 @startuml
-Wiring *-- House
-JunctionBox *-- Wiring
+GarageDoor *-- House
+Cable *-- GarageDoor
 @enduml

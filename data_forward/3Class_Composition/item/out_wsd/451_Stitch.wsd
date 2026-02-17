@@ -1,4 +1,4 @@
 @startuml
-Upholstery *-- Stitch
-Chair *-- Upholstery
+Backrest *-- Stitch
+Chair *-- Backrest
 @enduml

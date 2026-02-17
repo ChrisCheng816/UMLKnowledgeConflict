@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Person
-OilGland *-- Skin
+Head *-- Person
+Eye *-- Head
 @enduml

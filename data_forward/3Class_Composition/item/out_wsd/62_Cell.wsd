@@ -1,4 +1,4 @@
 @startuml
-Lens *-- Cell
-Eye *-- Lens
+Battery *-- Cell
+Flashlight *-- Battery
 @enduml

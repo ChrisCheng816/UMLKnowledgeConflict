@@ -1,4 +1,4 @@
 @startuml
-University <|-- CollegiateUniversity
-CollegiateUniversity <|-- OxfordUniversity
+University <|-- ResearchUniversity
+ResearchUniversity <|-- JohnsHopkins
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Hangar o-- Airport
-Airplane o-- Hangar
+Runway o-- Airport
+Light o-- Runway
 @enduml

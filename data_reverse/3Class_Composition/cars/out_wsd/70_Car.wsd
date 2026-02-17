@@ -1,4 +1,4 @@
 @startuml
-Headlight *-- Car
-Switch *-- Headlight
+SteeringWheel *-- Car
+Spoke *-- SteeringWheel
 @enduml

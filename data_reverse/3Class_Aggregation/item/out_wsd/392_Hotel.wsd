@@ -1,0 +1,4 @@
+@startuml
+Floor o-- Hotel
+Suite o-- Floor
+@enduml

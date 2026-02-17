@@ -1,0 +1,4 @@
+@startuml
+Lineup o-- TVNetwork
+Movie o-- Lineup
+@enduml

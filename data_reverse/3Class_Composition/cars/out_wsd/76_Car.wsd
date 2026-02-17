@@ -1,4 +1,4 @@
 @startuml
 SteeringWheel *-- Car
-Button *-- SteeringWheel
+Switch *-- SteeringWheel
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Team o-- Operator
+Company o-- Team
+@enduml

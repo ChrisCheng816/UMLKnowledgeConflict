@@ -1,4 +1,4 @@
 @startuml
 Switch *-- Flashlight
-Wire *-- Switch
+Clip *-- Switch
 @enduml

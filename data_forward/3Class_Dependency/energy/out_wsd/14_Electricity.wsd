@@ -1,4 +1,4 @@
 @startuml
 BenchGrinder ..> Electricity
-Cutting ..> BenchGrinder
+Grinding ..> BenchGrinder
 @enduml

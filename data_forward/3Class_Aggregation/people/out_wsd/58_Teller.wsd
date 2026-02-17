@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Teller
+Bank o-- Branch
+@enduml

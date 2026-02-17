@@ -1,4 +1,4 @@
 @startuml
-Suspension *-- Car
-LinkRod *-- Suspension
+SteeringSystem *-- Car
+Sensor *-- SteeringSystem
 @enduml

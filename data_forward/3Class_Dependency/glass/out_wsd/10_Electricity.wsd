@@ -1,4 +1,4 @@
 @startuml
 DialysisMachine ..> Electricity
-BloodFiltration ..> DialysisMachine
+RenalTherapy ..> DialysisMachine
 @enduml

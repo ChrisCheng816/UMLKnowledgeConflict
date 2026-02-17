@@ -1,0 +1,4 @@
+@startuml
+Wallet <|-- Accessory
+Accessory <|-- Item
+@enduml

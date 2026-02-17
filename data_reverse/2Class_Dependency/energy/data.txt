@@ -3,8 +3,6 @@ CompressedAirSupply AirCompressor
 PneumaticTools AirCompressor
 SprayPainting AirCompressor
 Fastening AirImpactWrench
-Inflation AirImpactWrench
-Stapling AirImpactWrench
 Cutting AngleGrinder
 Deburring AngleGrinder
 Grinding AngleGrinder
@@ -57,7 +55,6 @@ Carpentry PneumaticNailGun
 Framing PneumaticNailGun
 Roofing PneumaticNailGun
 Fastening PneumaticStapler
-Inflation PneumaticStapler
 Stapling PneumaticStapler
 CircuitRepair SolderingStation
 ElectronicsAssembly SolderingStation
@@ -65,11 +62,14 @@ Soldering SolderingStation
 Carpentry TableSaw
 FurnitureMaking TableSaw
 WoodCutting TableSaw
-Fastening TireInflator
 Inflation TireInflator
-Stapling TireInflator
 MetalFabrication WeldingMachine
 RepairWork WeldingMachine
 Welding WeldingMachine
 Sanding Sander
 HomeRepair Drill
+Cutting Jigsaw
+Cutting CircularSaw
+Screwing ElectricScrewdriver
+Gluing HotGlueGun
+Sanding DetailSander

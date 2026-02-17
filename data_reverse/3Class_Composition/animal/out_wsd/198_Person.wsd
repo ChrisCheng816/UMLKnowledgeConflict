@@ -1,4 +1,4 @@
 @startuml
-Lung *-- Person
-Lobe *-- Lung
+Knee *-- Person
+Joint *-- Knee
 @enduml

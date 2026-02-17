@@ -1,4 +1,4 @@
 @startuml
 ElectricHotPlate ..> Electricity
-Heating ..> ElectricHotPlate
+ShrinkWrapping ..> ElectricHotPlate
 @enduml

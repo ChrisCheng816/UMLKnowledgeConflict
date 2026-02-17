@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Company
+Accountant o-- Committee
+@enduml

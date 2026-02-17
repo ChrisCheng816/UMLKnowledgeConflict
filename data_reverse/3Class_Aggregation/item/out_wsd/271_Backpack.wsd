@@ -1,4 +1,4 @@
 @startuml
 Binder o-- Backpack
-Transcript o-- Binder
+PermissionSlip o-- Binder
 @enduml

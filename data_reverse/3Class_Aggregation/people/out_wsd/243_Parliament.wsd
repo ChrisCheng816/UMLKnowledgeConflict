@@ -1,0 +1,4 @@
+@startuml
+Office o-- Parliament
+Chairperson o-- Office
+@enduml

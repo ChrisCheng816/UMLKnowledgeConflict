@@ -1,4 +1,4 @@
 @startuml
-Wall *-- House
-Outlet *-- Wall
+Floor *-- House
+Tile *-- Floor
 @enduml

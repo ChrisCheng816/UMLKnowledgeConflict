@@ -1,0 +1,4 @@
+@startuml
+Spine *-- Glue
+Notebook *-- Spine
+@enduml

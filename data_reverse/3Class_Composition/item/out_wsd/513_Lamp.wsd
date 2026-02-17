@@ -1,4 +1,4 @@
 @startuml
-Shade *-- Lamp
-Frame *-- Shade
+Base *-- Lamp
+Weight *-- Base
 @enduml

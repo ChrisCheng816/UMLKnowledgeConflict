@@ -1,4 +1,4 @@
 @startuml
-LinearAccelerator ..> Electricity
-MedicalTreatment ..> LinearAccelerator
+PatientMonitor ..> Electricity
+VitalSignsMonitoring ..> PatientMonitor
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Lung *-- Person
-Capillary *-- Lung
+Shoulder *-- Person
+Muscle *-- Shoulder
 @enduml

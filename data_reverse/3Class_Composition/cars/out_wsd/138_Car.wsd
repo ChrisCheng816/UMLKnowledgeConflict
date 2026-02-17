@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Car
-Sensor *-- SteeringSystem
+Floor *-- Car
+Mat *-- Floor
 @enduml

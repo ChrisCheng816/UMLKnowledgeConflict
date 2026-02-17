@@ -1,4 +1,4 @@
 @startuml
-Sander ..> Electricity
-Sanding ..> Sander
+HotGlueGun ..> Electricity
+Gluing ..> HotGlueGun
 @enduml

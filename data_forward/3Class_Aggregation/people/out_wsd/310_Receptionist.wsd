@@ -1,4 +1,4 @@
 @startuml
-CrewOfReceptionists o-- Receptionist
-Festival o-- CrewOfReceptionists
+Branch o-- Receptionist
+Store o-- Branch
 @enduml

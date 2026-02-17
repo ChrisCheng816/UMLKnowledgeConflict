@@ -1,4 +1,4 @@
 @startuml
-Trunk *-- Pine
-Cambium *-- Trunk
+Cone *-- Pine
+Seed *-- Cone
 @enduml

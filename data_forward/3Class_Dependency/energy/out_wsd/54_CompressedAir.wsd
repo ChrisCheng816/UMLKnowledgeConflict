@@ -1,4 +1,4 @@
 @startuml
-PaintSprayer ..> CompressedAir
-Finishing ..> PaintSprayer
+PneumaticNailGun ..> CompressedAir
+Carpentry ..> PneumaticNailGun
 @enduml

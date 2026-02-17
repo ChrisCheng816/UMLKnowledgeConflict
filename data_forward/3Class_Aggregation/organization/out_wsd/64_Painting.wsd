@@ -1,0 +1,4 @@
+@startuml
+Gallery o-- Painting
+Museum o-- Gallery
+@enduml

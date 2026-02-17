@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Car
-Rack *-- SteeringSystem
+Brake *-- Car
+Pedal *-- Brake
 @enduml

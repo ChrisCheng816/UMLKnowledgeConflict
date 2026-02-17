@@ -1,0 +1,4 @@
+@startuml
+DetailSander ..> Sanding
+Electricity ..> DetailSander
+@enduml

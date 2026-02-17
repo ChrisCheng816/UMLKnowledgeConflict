@@ -1,4 +1,4 @@
 @startuml
-Collection o-- Podcast
-MusicApp o-- Collection
+Queue o-- Podcast
+PodcastApp o-- Queue
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Screen *-- Phone
-Glass *-- Screen
+Battery *-- Phone
+Connector *-- Battery
 @enduml

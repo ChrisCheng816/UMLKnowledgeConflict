@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Panda
-Panda <|-- GiantPanda
+Animal <|-- Dolphin
+Dolphin <|-- BottlenoseDolphin
 @enduml

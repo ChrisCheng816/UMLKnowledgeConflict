@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Knee
+Goat *-- Leg
+@enduml

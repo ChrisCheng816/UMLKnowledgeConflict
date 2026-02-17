@@ -1,4 +1,4 @@
 @startuml
-Film <|-- WarFilm
-WarFilm <|-- Braveheart
+Film <|-- MysteryFilm
+MysteryFilm <|-- Memento
 @enduml

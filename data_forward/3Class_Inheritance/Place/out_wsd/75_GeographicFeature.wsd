@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Desert
-Desert <|-- ArabianDesert
+GeographicFeature <|-- Island
+Island <|-- Greenland
 @enduml

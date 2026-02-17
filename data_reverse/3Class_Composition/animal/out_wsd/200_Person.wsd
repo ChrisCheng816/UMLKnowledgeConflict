@@ -1,4 +1,4 @@
 @startuml
-Lung *-- Person
-Alveolus *-- Lung
+Knee *-- Person
+Cap *-- Knee
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Heart *-- Person
-Vein *-- Heart
+Knee *-- Person
+Meniscus *-- Knee
 @enduml

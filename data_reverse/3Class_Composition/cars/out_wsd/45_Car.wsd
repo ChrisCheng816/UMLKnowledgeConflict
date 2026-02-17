@@ -1,4 +1,4 @@
 @startuml
-Transmission *-- Car
-TorqueConverter *-- Transmission
+Radiator *-- Car
+Core *-- Radiator
 @enduml

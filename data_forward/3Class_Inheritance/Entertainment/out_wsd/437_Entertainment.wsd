@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Novel
-Novel <|-- SherlockNovel
+Entertainment <|-- RockSong
+RockSong <|-- BohemianRhapsody
 @enduml

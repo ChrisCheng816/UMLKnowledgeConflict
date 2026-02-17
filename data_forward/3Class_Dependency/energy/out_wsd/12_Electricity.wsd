@@ -1,4 +1,4 @@
 @startuml
-BeltSander ..> Electricity
-SurfaceFinishing ..> BeltSander
+BenchGrinder ..> Electricity
+Cutting ..> BenchGrinder
 @enduml

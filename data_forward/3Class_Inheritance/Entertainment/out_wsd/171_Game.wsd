@@ -1,4 +1,4 @@
 @startuml
-Game <|-- CardGame
-CardGame <|-- YuGiOh
+Game <|-- TabletopRPG
+TabletopRPG <|-- DungeonsAndDragons
 @enduml

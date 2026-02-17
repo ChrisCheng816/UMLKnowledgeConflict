@@ -1,0 +1,4 @@
+@startuml
+Aisle o-- Supermarket
+Refrigerator o-- Aisle
+@enduml

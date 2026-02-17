@@ -1,4 +1,4 @@
 @startuml
-Brain *-- Person
-Cerebellum *-- Brain
+Shoulder *-- Person
+Cartilage *-- Shoulder
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Unit o-- Manager
+PoliceStation o-- Unit
+@enduml

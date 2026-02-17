@@ -1,4 +1,4 @@
 @startuml
-Screen *-- Phone
-TouchLayer *-- Screen
+Battery *-- Phone
+Electrolyte *-- Battery
 @enduml

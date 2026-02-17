@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- Continent
-Continent <|-- SouthAmerica
+Continent <|-- Antarctica
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Drawer o-- Bedroom
-Wallet o-- Drawer
+Keys o-- Drawer
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Gallery o-- Museum
-Artifact o-- Gallery
+Exhibit o-- Museum
+Portrait o-- Exhibit
 @enduml

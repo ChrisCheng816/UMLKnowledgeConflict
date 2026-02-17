@@ -1,4 +1,4 @@
 @startuml
 Exhaust *-- Car
-CatalyticConverter *-- Exhaust
+Gasket *-- Exhaust
 @enduml

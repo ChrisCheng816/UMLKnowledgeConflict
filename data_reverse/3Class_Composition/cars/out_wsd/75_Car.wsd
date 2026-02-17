@@ -1,4 +1,4 @@
 @startuml
 SteeringWheel *-- Car
-Hub *-- SteeringWheel
+Stitch *-- SteeringWheel
 @enduml

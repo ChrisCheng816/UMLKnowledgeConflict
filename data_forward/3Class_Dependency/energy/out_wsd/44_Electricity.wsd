@@ -1,4 +1,4 @@
 @startuml
 Multimeter ..> Electricity
-ContinuityTesting ..> Multimeter
+VoltageTesting ..> Multimeter
 @enduml

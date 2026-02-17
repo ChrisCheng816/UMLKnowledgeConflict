@@ -1,4 +1,4 @@
 @startuml
 Wheel *-- Car
-ValveStem *-- Wheel
+Axle *-- Wheel
 @enduml

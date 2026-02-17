@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- Ocean
-Ocean <|-- ArcticOcean
+Ocean <|-- SouthernOcean
 @enduml

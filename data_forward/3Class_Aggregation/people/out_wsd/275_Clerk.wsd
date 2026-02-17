@@ -1,0 +1,4 @@
+@startuml
+Unit o-- Clerk
+PoliceStation o-- Unit
+@enduml

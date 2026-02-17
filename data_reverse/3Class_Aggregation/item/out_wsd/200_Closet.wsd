@@ -1,4 +1,4 @@
 @startuml
 Hanger o-- Closet
-Suit o-- Hanger
+Pajamas o-- Hanger
 @enduml

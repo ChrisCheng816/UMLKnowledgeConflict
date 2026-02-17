@@ -1,4 +1,4 @@
 @startuml
 Gear *-- Bicycle
-Sprocket *-- Gear
+Bolt *-- Gear
 @enduml

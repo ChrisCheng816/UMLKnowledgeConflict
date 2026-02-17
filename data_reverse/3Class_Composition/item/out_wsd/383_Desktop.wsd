@@ -1,4 +1,4 @@
 @startuml
-Memory *-- Desktop
-Pin *-- Memory
+Drive *-- Desktop
+Actuator *-- Drive
 @enduml

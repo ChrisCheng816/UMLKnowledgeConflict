@@ -1,0 +1,4 @@
+@startuml
+Head *-- Fish
+Jaw *-- Head
+@enduml

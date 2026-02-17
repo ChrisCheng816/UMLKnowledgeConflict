@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- LivingRoom
-Tripod o-- Shelf
+Remote o-- Shelf
 @enduml

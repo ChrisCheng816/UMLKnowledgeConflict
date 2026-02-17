@@ -1,4 +1,4 @@
 @startuml
 Fleet o-- City
-FireTruck o-- Fleet
+PoliceCar o-- Fleet
 @enduml

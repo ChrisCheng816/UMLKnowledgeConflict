@@ -1,4 +1,4 @@
 @startuml
-OrbitalSander ..> Electricity
-SurfaceFinishing ..> OrbitalSander
+Oscilloscope ..> Electricity
+ContinuityTesting ..> Oscilloscope
 @enduml

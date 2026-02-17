@@ -1,4 +1,4 @@
 @startuml
-Transmission *-- Car
-Pan *-- Transmission
+Radiator *-- Car
+Cap *-- Radiator
 @enduml

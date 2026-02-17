@@ -1,0 +1,4 @@
+@startuml
+Department o-- Teller
+Bank o-- Department
+@enduml

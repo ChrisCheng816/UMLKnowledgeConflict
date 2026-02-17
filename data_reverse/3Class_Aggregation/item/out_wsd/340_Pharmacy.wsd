@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Pharmacy
+Bandage o-- Cabinet
+@enduml

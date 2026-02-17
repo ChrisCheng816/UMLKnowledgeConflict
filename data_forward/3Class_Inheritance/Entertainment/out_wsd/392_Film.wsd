@@ -1,4 +1,4 @@
 @startuml
-Film <|-- HistoricalFilm
-HistoricalFilm <|-- Gladiator
+Film <|-- SpaceFilm
+SpaceFilm <|-- Apollo13
 @enduml

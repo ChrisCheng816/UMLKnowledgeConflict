@@ -1,0 +1,4 @@
+@startuml
+Theater o-- Play
+MediaCompany o-- Theater
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Salmon
-Salmon <|-- AtlanticSalmon
+Animal <|-- Tuna
+Tuna <|-- BluefinTuna
 @enduml

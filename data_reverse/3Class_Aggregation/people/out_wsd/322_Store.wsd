@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Store
+Bartender o-- Branch
+@enduml

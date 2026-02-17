@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- Island
-Island <|-- Honshu
+Island <|-- Hokkaido
 @enduml

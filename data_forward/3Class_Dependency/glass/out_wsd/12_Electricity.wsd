@@ -1,4 +1,4 @@
 @startuml
-DialysisMachine ..> Electricity
-RenalTherapy ..> DialysisMachine
+ECGMonitor ..> Electricity
+PatientMonitoring ..> ECGMonitor
 @enduml

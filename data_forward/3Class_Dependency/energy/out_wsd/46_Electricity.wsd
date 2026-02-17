@@ -1,4 +1,4 @@
 @startuml
-Multimeter ..> Electricity
-VoltageTesting ..> Multimeter
+OrbitalSander ..> Electricity
+SurfaceFinishing ..> OrbitalSander
 @enduml

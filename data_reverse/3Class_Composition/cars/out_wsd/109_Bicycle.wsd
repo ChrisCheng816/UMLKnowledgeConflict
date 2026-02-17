@@ -1,4 +1,4 @@
 @startuml
-Chain *-- Bicycle
-MasterLink *-- Chain
+Gear *-- Bicycle
+Hub *-- Gear
 @enduml

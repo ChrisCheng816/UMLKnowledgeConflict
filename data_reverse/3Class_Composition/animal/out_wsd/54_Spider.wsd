@@ -1,0 +1,4 @@
+@startuml
+Web *-- Spider
+Anchor *-- Web
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Headlight *-- Car
-Reflector *-- Headlight
+Beam *-- Headlight
 @enduml

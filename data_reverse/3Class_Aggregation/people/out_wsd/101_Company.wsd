@@ -1,0 +1,4 @@
+@startuml
+Office o-- Company
+Receptionist o-- Office
+@enduml

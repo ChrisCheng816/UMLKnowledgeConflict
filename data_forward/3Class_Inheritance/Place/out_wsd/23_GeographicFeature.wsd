@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Ocean
-Ocean <|-- SouthernOcean
+GeographicFeature <|-- Sea
+Sea <|-- MediterraneanSea
 @enduml

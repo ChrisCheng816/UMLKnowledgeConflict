@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame
-BoardGame <|-- CandyLand
+Game <|-- CardGame
+CardGame <|-- Bridge
 @enduml

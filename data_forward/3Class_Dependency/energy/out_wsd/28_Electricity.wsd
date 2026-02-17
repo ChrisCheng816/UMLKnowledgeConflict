@@ -1,4 +1,4 @@
 @startuml
-CutoffSaw ..> Electricity
-Grinding ..> CutoffSaw
+DrillPress ..> Electricity
+HoleMaking ..> DrillPress
 @enduml

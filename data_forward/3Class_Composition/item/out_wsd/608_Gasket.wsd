@@ -1,0 +1,4 @@
+@startuml
+Lid *-- Gasket
+Jar *-- Lid
+@enduml

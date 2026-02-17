@@ -1,4 +1,4 @@
 @startuml
-Lung *-- Person
-Pleura *-- Lung
+Shoulder *-- Person
+Collarbone *-- Shoulder
 @enduml

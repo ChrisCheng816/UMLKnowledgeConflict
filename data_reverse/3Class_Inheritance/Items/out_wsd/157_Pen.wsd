@@ -1,0 +1,4 @@
+@startuml
+Pen <|-- Stationery
+Stationery <|-- Item
+@enduml

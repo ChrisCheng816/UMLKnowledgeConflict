@@ -1,4 +1,4 @@
 @startuml
 Flower *-- Rose
-Pollen *-- Flower
+Sepal *-- Flower
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Thermometer ..> FeverCheck
+BatteryPower ..> Thermometer
+@enduml

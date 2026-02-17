@@ -1,0 +1,4 @@
+@startuml
+PulseOximeter ..> OxygenSaturationCheck
+BatteryPower ..> PulseOximeter
+@enduml

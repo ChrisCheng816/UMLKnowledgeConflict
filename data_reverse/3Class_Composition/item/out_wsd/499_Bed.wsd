@@ -1,4 +1,4 @@
 @startuml
-Mattress *-- Bed
-Cover *-- Mattress
+Headboard *-- Bed
+Button *-- Headboard
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-InfusionPump ..> Electricity
-MedicationInfusion ..> InfusionPump
+PatientMonitor ..> Electricity
+AlarmMonitoring ..> PatientMonitor
 @enduml

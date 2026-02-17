@@ -1,4 +1,4 @@
 @startuml
 Headlight *-- Car
-Housing *-- Headlight
+Wire *-- Headlight
 @enduml

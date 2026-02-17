@@ -1,0 +1,4 @@
+@startuml
+Office o-- Mediator
+Court o-- Office
+@enduml

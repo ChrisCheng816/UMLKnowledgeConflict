@@ -1,4 +1,4 @@
 @startuml
-Finger *-- Person
-Bone *-- Finger
+Foot *-- Person
+Skin *-- Foot
 @enduml

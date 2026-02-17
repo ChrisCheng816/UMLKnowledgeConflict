@@ -1,0 +1,4 @@
+@startuml
+Newspaper o-- Interview
+Publisher o-- Newspaper
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Microwave <|-- Appliance
+Appliance <|-- Item
+@enduml

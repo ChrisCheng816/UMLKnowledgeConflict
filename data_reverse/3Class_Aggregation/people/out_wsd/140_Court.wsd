@@ -1,0 +1,4 @@
+@startuml
+Department o-- Court
+Prosecutor o-- Department
+@enduml

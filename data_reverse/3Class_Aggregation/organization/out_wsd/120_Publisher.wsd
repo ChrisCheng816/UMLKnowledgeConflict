@@ -1,0 +1,4 @@
+@startuml
+Magazine o-- Publisher
+Article o-- Magazine
+@enduml

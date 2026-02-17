@@ -1,4 +1,4 @@
 @startuml
-Shell *-- Turtle
-Scute *-- Shell
+Mouth *-- Turtle
+Beak *-- Mouth
 @enduml

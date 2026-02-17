@@ -1,0 +1,4 @@
+@startuml
+Office o-- Company
+Assistant o-- Office
+@enduml

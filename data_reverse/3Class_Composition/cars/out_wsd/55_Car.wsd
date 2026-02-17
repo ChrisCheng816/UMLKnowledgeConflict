@@ -1,4 +1,4 @@
 @startuml
-Radiator *-- Car
-Coolant *-- Radiator
+Exhaust *-- Car
+CatalyticConverter *-- Exhaust
 @enduml

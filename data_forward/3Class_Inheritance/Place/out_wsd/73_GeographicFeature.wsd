@@ -1,4 +1,4 @@
 @startuml
 GeographicFeature <|-- Desert
-Desert <|-- MojaveDesert
+Desert <|-- SonoranDesert
 @enduml

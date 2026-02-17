@@ -1,0 +1,4 @@
+@startuml
+Magazine o-- Publisher
+Photograph o-- Magazine
+@enduml

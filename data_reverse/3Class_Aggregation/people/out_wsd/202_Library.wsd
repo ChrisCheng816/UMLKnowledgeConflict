@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Library
+Paramedic o-- Branch
+@enduml

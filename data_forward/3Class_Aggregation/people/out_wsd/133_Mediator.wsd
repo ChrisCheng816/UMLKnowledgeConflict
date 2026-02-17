@@ -1,0 +1,4 @@
+@startuml
+Department o-- Mediator
+Court o-- Department
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Transmission *-- Car
-Seal *-- Transmission
+Radiator *-- Car
+Tank *-- Radiator
 @enduml

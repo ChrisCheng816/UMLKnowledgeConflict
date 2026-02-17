@@ -1,4 +1,4 @@
 @startuml
 CutoffSaw ..> Electricity
-Cutting ..> CutoffSaw
+Grinding ..> CutoffSaw
 @enduml

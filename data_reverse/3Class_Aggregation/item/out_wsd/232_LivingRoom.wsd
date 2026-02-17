@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- LivingRoom
-Puzzle o-- Shelf
+BoardGame o-- Shelf
 @enduml

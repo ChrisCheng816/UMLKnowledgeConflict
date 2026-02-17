@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Restaurant
+Bellhop o-- Staff
+@enduml

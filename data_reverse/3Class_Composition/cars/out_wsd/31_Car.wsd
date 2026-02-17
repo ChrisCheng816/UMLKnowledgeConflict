@@ -1,4 +1,4 @@
 @startuml
-Seat *-- Car
-Spring *-- Seat
+Dashboard *-- Car
+Gauge *-- Dashboard
 @enduml

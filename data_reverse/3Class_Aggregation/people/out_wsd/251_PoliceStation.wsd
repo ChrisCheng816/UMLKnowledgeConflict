@@ -1,0 +1,4 @@
+@startuml
+Unit o-- PoliceStation
+Guard o-- Unit
+@enduml

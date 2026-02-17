@@ -1,0 +1,4 @@
+@startuml
+Division o-- Auditor
+Bank o-- Division
+@enduml

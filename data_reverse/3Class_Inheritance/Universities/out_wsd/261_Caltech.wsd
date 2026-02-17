@@ -1,0 +1,4 @@
+@startuml
+Caltech <|-- ResearchUniversity
+ResearchUniversity <|-- University
+@enduml

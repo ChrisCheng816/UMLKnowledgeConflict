@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Person
-Eyelid *-- Eye
+Nose *-- Person
+Septum *-- Nose
 @enduml

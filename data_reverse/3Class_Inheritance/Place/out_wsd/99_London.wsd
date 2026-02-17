@@ -1,0 +1,4 @@
+@startuml
+London <|-- City
+City <|-- Location
+@enduml

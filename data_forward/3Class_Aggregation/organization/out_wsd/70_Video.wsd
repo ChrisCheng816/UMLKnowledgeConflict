@@ -1,0 +1,4 @@
+@startuml
+Catalog o-- Video
+Library o-- Catalog
+@enduml

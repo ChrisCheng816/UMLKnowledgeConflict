@@ -1,4 +1,4 @@
 @startuml
-PneumaticNailGun ..> CompressedAir
-Framing ..> PneumaticNailGun
+PneumaticStapler ..> CompressedAir
+Fastening ..> PneumaticStapler
 @enduml

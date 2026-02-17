@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Airport
+Officer o-- Staff
+@enduml

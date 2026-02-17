@@ -1,4 +1,4 @@
 @startuml
-Battery *-- Phone
-Terminal *-- Battery
+CameraModule *-- Phone
+Shutter *-- CameraModule
 @enduml

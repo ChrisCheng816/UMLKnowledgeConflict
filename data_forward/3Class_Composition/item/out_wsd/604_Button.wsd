@@ -1,0 +1,4 @@
+@startuml
+Body *-- Button
+Camera *-- Body
+@enduml

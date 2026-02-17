@@ -1,0 +1,4 @@
+@startuml
+Mirror *-- Glass
+Car *-- Mirror
+@enduml

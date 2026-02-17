@@ -1,4 +1,4 @@
 @startuml
-Upholstery *-- Chair
-Fabric *-- Upholstery
+Backrest *-- Chair
+Frame *-- Backrest
 @enduml

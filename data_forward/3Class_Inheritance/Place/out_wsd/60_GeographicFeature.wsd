@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Volcano
-Volcano <|-- MountStHelens
+GeographicFeature <|-- Lake
+Lake <|-- LakeSuperior
 @enduml

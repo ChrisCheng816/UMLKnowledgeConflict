@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Administrator
+Company o-- Committee
+@enduml

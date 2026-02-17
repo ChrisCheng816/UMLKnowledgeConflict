@@ -1,0 +1,4 @@
+@startuml
+Unit o-- Designer
+PoliceStation o-- Unit
+@enduml

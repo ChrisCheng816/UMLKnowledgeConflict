@@ -1,4 +1,4 @@
 @startuml
 Turntable *-- Microwave
-Tray *-- Turntable
+Wheel *-- Turntable
 @enduml

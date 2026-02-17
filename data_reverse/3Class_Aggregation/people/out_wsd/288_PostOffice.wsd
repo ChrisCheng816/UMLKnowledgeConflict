@@ -1,0 +1,4 @@
+@startuml
+Branch o-- PostOffice
+Secretary o-- Branch
+@enduml

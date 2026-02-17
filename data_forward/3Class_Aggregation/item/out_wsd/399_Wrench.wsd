@@ -1,0 +1,4 @@
+@startuml
+Drawer o-- Wrench
+Workshop o-- Drawer
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Stove <|-- Appliance
+Appliance <|-- Item
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- RacingGame
-RacingGame <|-- MarioKart
+VideoGame <|-- FarmingGame
+FarmingGame <|-- StardewValley
 @enduml

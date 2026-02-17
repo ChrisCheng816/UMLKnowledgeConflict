@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- StrategyGame
-StrategyGame <|-- Civilization
+VideoGame <|-- RacingGame
+RacingGame <|-- MarioKart
 @enduml

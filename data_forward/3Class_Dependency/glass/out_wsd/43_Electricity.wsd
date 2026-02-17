@@ -1,4 +1,4 @@
 @startuml
-PulseOximeter ..> Electricity
-AlarmMonitoring ..> PulseOximeter
+Ventilator ..> Electricity
+AnesthesiaSupport ..> Ventilator
 @enduml

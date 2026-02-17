@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Library
-Librarian o-- Staff
+Catalog o-- Library
+Book o-- Catalog
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Radiator *-- Car
-Cap *-- Radiator
+Valve *-- Radiator
 @enduml

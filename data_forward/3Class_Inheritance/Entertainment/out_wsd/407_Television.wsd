@@ -1,4 +1,4 @@
 @startuml
-Television <|-- CrimeSeries
-CrimeSeries <|-- BreakingBad
+Television <|-- DocumentarySeries
+DocumentarySeries <|-- PlanetEarth
 @enduml

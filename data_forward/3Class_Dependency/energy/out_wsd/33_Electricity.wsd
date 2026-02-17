@@ -1,4 +1,4 @@
 @startuml
-ElectricHotPlate ..> Electricity
-PaintStripping ..> ElectricHotPlate
+HeatGun ..> Electricity
+Heating ..> HeatGun
 @enduml

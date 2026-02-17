@@ -1,4 +1,4 @@
 @startuml
-Screen *-- Phone
-Sensor *-- Screen
+Battery *-- Phone
+Anode *-- Battery
 @enduml

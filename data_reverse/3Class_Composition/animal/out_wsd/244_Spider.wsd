@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Spider
+Segment *-- Leg
+@enduml

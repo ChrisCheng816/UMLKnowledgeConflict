@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Lake
-Lake <|-- CraterLake
+GeographicFeature <|-- Forest
+Forest <|-- RedwoodForest
 @enduml

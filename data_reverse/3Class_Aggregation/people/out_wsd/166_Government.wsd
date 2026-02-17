@@ -1,0 +1,4 @@
+@startuml
+Office o-- Government
+Councilor o-- Office
+@enduml

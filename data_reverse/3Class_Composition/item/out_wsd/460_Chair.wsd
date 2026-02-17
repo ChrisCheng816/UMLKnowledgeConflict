@@ -1,4 +1,4 @@
 @startuml
-Backrest *-- Chair
-Frame *-- Backrest
+Armrest *-- Chair
+Bolt *-- Armrest
 @enduml

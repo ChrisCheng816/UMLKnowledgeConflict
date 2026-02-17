@@ -1,4 +1,4 @@
 @startuml
 Game <|-- BoardGame
-BoardGame <|-- 7Wonders
+BoardGame <|-- Gloomhaven
 @enduml

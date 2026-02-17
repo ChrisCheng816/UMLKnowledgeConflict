@@ -1,0 +1,4 @@
+@startuml
+Fruit *-- Orange
+Peel *-- Fruit
+@enduml

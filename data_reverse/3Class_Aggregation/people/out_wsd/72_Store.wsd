@@ -1,4 +1,0 @@
-@startuml
-QueueOfCustomers o-- Store
-Customer o-- QueueOfCustomers
-@enduml

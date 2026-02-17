@@ -1,4 +1,4 @@
 @startuml
-Gallery o-- Museum
-Fossil o-- Gallery
+Exhibit o-- Museum
+Photograph o-- Exhibit
 @enduml

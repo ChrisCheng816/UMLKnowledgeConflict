@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Song
-Song <|-- PurpleRain
+MusicWork <|-- Album
+Album <|-- BackInBlack
 @enduml

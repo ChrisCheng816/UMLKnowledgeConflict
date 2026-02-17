@@ -1,4 +1,4 @@
 @startuml
-Mouth *-- Person
-Gum *-- Mouth
+Skin *-- Person
+Nerve *-- Skin
 @enduml

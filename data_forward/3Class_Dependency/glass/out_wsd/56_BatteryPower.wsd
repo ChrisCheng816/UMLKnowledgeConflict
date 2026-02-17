@@ -1,4 +1,4 @@
 @startuml
 Thermometer ..> BatteryPower
-GlucoseCheck ..> Thermometer
+TemperatureScreening ..> Thermometer
 @enduml

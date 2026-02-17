@@ -1,0 +1,4 @@
+@startuml
+Board o-- Chairperson
+Company o-- Board
+@enduml

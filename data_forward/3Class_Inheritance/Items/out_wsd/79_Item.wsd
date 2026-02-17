@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Book
-Book <|-- HardcoverBook
+Item <|-- Frame
+Frame <|-- PictureFrame
 @enduml

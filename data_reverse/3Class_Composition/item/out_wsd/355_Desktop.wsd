@@ -1,0 +1,4 @@
+@startuml
+Motherboard *-- Desktop
+Slot *-- Motherboard
+@enduml

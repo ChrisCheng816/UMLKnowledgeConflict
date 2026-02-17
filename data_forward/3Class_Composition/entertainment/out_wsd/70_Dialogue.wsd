@@ -1,0 +1,4 @@
+@startuml
+Panel *-- Dialogue
+Comic *-- Panel
+@enduml

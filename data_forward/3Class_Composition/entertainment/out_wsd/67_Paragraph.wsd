@@ -1,0 +1,4 @@
+@startuml
+Page *-- Paragraph
+Book *-- Page
+@enduml

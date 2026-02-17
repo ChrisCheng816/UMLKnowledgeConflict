@@ -1,0 +1,4 @@
+@startuml
+Head *-- Rabbit
+Ear *-- Head
+@enduml

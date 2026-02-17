@@ -1,4 +1,4 @@
 @startuml
-BenchGrinder ..> Electricity
-Deburring ..> BenchGrinder
+BenchSander ..> Electricity
+Sanding ..> BenchSander
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ClubOfDesigners o-- School
-Designer o-- ClubOfDesigners
+Faculty o-- School
+Teacher o-- Faculty
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+RealityShow <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

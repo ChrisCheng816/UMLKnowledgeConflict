@@ -1,4 +1,4 @@
 @startuml
-StaffOfDrivers o-- Company
-Driver o-- StaffOfDrivers
+Staff o-- Company
+Secretary o-- Staff
 @enduml

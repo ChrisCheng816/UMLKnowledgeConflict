@@ -1,0 +1,4 @@
+@startuml
+Collection o-- Song
+Museum o-- Collection
+@enduml

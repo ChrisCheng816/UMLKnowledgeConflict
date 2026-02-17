@@ -1,0 +1,4 @@
+@startuml
+Department o-- Newspaper
+Editor o-- Department
+@enduml

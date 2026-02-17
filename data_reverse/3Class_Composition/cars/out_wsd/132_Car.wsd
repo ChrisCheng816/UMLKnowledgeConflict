@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Car
-Pinion *-- SteeringSystem
+Dashboard *-- Car
+Radio *-- Dashboard
 @enduml

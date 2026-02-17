@@ -1,0 +1,4 @@
+@startuml
+Dashboard *-- Radio
+Car *-- Dashboard
+@enduml

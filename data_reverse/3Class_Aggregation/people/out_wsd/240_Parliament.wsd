@@ -1,0 +1,4 @@
+@startuml
+Board o-- Parliament
+Administrator o-- Board
+@enduml

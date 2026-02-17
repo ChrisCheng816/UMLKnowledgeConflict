@@ -1,4 +1,4 @@
 @startuml
 Motor *-- Vacuum
-Brush *-- Motor
+Shaft *-- Motor
 @enduml

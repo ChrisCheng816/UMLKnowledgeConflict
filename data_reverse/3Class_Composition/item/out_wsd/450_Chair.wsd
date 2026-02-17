@@ -1,4 +1,4 @@
 @startuml
-Upholstery *-- Chair
-Foam *-- Upholstery
+Backrest *-- Chair
+Post *-- Backrest
 @enduml

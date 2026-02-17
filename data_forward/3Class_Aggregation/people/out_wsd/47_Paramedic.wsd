@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Paramedic
+Airport o-- Staff
+@enduml

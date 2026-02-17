@@ -1,0 +1,4 @@
+@startuml
+Exhibit o-- Photograph
+Museum o-- Exhibit
+@enduml

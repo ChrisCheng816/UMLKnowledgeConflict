@@ -1,4 +1,4 @@
 @startuml
-Shade *-- Lamp
-Lining *-- Shade
+Base *-- Lamp
+Felt *-- Base
 @enduml

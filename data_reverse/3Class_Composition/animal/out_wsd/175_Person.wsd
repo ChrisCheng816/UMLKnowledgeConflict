@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Person
-Bridge *-- Nose
+Mouth *-- Person
+Jaw *-- Mouth
 @enduml

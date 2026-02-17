@@ -1,4 +1,4 @@
 @startuml
-Queue o-- Episode
-StreamingService o-- Queue
+Schedule o-- Episode
+TVNetwork o-- Schedule
 @enduml

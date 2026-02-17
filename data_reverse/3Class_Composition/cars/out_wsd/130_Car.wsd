@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Car
-Column *-- SteeringSystem
+Battery *-- Car
+Terminal *-- Battery
 @enduml

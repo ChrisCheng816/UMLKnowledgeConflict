@@ -1,4 +1,4 @@
 @startuml
 Bin o-- Garage
-BottleCap o-- Bin
+Cardboard o-- Bin
 @enduml

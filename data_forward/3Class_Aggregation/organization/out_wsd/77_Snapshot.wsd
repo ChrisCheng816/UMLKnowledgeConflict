@@ -1,0 +1,4 @@
+@startuml
+Archive o-- Snapshot
+Library o-- Archive
+@enduml

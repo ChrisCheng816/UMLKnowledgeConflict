@@ -1,4 +1,4 @@
 @startuml
 Game <|-- CardGame
-CardGame <|-- Poker
+CardGame <|-- Hearts
 @enduml

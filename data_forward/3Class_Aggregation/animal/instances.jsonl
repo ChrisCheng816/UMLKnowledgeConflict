@@ -249,3 +249,5 @@
 {"id": "249", "template_id": "aggregation", "nodes": ["Rhino", "Enclosure", "Zoo"], "edges": ["Enclosure o-- Rhino", "Zoo o-- Enclosure"]}
 {"id": "250", "template_id": "aggregation", "nodes": ["Beluga", "PodOfBelugas", "Ocean"], "edges": ["PodOfBelugas o-- Beluga", "Ocean o-- PodOfBelugas"]}
 {"id": "251", "template_id": "aggregation", "nodes": ["Angelfish", "SchoolOfAngelfish", "Reef"], "edges": ["SchoolOfAngelfish o-- Angelfish", "Reef o-- SchoolOfAngelfish"]}
+{"id": "252", "template_id": "aggregation", "nodes": ["Parrot", "Aviary", "Zoo"], "edges": ["Aviary o-- Parrot", "Zoo o-- Aviary"]}
+{"id": "253", "template_id": "aggregation", "nodes": ["Sheep", "Pen", "Farm"], "edges": ["Pen o-- Sheep", "Farm o-- Pen"]}

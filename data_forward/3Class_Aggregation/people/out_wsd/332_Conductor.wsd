@@ -1,0 +1,4 @@
+@startuml
+Crew o-- Conductor
+Train o-- Crew
+@enduml

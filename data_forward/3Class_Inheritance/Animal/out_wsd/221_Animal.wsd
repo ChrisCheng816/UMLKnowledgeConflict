@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Koala
-Koala <|-- KoalaBear
+Animal <|-- Panda
+Panda <|-- GiantPanda
 @enduml

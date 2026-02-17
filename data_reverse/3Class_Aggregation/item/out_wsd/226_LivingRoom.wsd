@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- LivingRoom
-Newspaper o-- Shelf
+PictureFrame o-- Shelf
 @enduml

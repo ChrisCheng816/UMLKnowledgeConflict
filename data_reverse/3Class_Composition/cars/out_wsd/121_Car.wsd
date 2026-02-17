@@ -1,4 +1,4 @@
 @startuml
-Suspension *-- Car
-ControlArm *-- Suspension
+SteeringSystem *-- Car
+Rack *-- SteeringSystem
 @enduml

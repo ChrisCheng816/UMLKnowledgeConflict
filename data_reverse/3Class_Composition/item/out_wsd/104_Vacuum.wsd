@@ -1,4 +1,4 @@
 @startuml
-Motor *-- Vacuum
-Housing *-- Motor
+Canister *-- Vacuum
+Latch *-- Canister
 @enduml

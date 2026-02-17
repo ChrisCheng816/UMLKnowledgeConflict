@@ -1,4 +1,4 @@
 @startuml
-InfusionPump ..> Electricity
-FluidAdministration ..> InfusionPump
+MRIMachine ..> Electricity
+DiagnosticImaging ..> MRIMachine
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Hanger o-- Closet
-Uniform o-- Hanger
+Raincoat o-- Hanger
 @enduml

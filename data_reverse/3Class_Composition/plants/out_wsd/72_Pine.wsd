@@ -1,4 +1,4 @@
 @startuml
-Cone *-- Pine
-Base *-- Cone
+Needle *-- Pine
+Resin *-- Needle
 @enduml

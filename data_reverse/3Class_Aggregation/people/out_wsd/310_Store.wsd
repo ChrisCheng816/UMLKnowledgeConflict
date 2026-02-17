@@ -1,0 +1,4 @@
+@startuml
+Branch o-- Store
+Receptionist o-- Branch
+@enduml
