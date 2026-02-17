@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- MassEffect2 : inherits
+Game <|-- VideoGame
+VideoGame <|-- MassEffect2
 @enduml

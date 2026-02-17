@@ -1,0 +1,4 @@
+@startuml
+TeamOfReaders o-- School
+Reader o-- TeamOfReaders
+@enduml

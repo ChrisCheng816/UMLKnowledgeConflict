@@ -1,4 +1,4 @@
 @startuml
-HotAirStation ..> Electricity : depends on
-Heating ..> HotAirStation : depends on
+HotAirStation ..> Electricity
+ShrinkWrapping ..> HotAirStation
 @enduml

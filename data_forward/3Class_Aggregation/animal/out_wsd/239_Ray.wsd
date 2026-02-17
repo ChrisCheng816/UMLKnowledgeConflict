@@ -1,4 +1,0 @@
-@startuml
-SchoolOfRay o-- Ray : aggregates
-Hill o-- SchoolOfRay : aggregates
-@enduml

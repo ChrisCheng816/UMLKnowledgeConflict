@@ -1,0 +1,4 @@
+@startuml
+Truck <|-- FullSizePickup
+FullSizePickup <|-- ChevroletSilverado
+@enduml

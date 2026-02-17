@@ -1,4 +1,4 @@
 @startuml
-MicrowaveOven ..> PopcornCooking : depends on
-Electricity ..> MicrowaveOven : depends on
+MicrowaveOven ..> PopcornCooking
+Electricity ..> MicrowaveOven
 @enduml

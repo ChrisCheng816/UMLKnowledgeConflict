@@ -1,4 +1,4 @@
 @startuml
-ETTheExtraTerrestrial <|-- Film : inherits
-Film <|-- Entertainment : inherits
+ETTheExtraTerrestrial <|-- Film
+Film <|-- Entertainment
 @enduml

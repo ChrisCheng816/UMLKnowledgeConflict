@@ -1,0 +1,4 @@
+@startuml
+SUV <|-- CompactSUV
+CompactSUV <|-- HondaCRV
+@enduml

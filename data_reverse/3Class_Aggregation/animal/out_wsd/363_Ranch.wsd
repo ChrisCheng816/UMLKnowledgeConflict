@@ -1,4 +1,0 @@
-@startuml
-ColonyOfKangaroo o-- Ranch : aggregates
-Kangaroo o-- ColonyOfKangaroo : aggregates
-@enduml

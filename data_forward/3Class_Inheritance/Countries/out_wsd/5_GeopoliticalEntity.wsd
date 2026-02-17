@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Andorra : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Angola
 @enduml

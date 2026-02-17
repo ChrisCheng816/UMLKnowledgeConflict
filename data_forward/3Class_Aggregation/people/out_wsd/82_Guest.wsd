@@ -1,0 +1,4 @@
+@startuml
+ClubOfGuests o-- Guest
+School o-- ClubOfGuests
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+RiceFlour ..> Rice
+Tempura ..> RiceFlour
+@enduml

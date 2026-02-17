@@ -1,0 +1,4 @@
+@startuml
+ClubOfReaders o-- Library
+Reader o-- ClubOfReaders
+@enduml

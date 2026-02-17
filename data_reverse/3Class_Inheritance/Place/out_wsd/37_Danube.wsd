@@ -1,0 +1,4 @@
+@startuml
+Danube <|-- River
+River <|-- GeographicFeature
+@enduml

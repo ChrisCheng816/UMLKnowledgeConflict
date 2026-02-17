@@ -1,0 +1,4 @@
+@startuml
+CrewOfComedians o-- Comedian
+Festival o-- CrewOfComedians
+@enduml

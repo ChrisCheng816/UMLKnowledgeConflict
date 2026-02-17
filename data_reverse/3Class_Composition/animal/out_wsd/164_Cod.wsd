@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Cod : composes
-Filament *-- Gill : composes
+Gill *-- Cod
+Filament *-- Gill
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens : composes
-FireSalamander *-- Eye : composes
+Eye *-- Lens
+FireSalamander *-- Eye
 @enduml

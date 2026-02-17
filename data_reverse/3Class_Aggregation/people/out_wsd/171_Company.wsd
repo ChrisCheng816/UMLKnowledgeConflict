@@ -1,0 +1,4 @@
+@startuml
+StaffOfPainters o-- Company
+Painter o-- StaffOfPainters
+@enduml

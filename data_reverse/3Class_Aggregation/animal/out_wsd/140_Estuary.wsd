@@ -1,4 +1,0 @@
-@startuml
-FlockOfHeron o-- Estuary : aggregates
-Heron o-- FlockOfHeron : aggregates
-@enduml

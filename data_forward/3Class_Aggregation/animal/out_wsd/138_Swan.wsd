@@ -1,4 +1,0 @@
-@startuml
-FlockOfSwan o-- Swan : aggregates
-Estuary o-- FlockOfSwan : aggregates
-@enduml

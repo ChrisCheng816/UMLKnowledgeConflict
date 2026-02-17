@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film : inherits
-Film <|-- StarWarsANewHope : inherits
+Entertainment <|-- Film
+Film <|-- StarWarsANewHope
 @enduml

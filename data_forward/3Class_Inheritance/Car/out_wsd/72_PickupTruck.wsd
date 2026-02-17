@@ -1,0 +1,4 @@
+@startuml
+PickupTruck <|-- CompactPickup
+CompactPickup <|-- NissanFrontier
+@enduml

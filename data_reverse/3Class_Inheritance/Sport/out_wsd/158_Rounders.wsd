@@ -1,4 +1,4 @@
 @startuml
-Rounders <|-- TeamSport : inherits
-TeamSport <|-- Sport : inherits
+Rounders <|-- TeamSport
+TeamSport <|-- Sport
 @enduml

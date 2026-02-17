@@ -1,4 +1,0 @@
-@startuml
-ChargingDepot ..> UtilityTransformer : depends on
-ElectricBus ..> ChargingDepot : depends on
-@enduml

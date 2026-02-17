@@ -1,0 +1,4 @@
+@startuml
+StaffOfTourists o-- Tourist
+Company o-- StaffOfTourists
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-FlockOfHawk o-- Hawk : aggregates
-Nursery o-- FlockOfHawk : aggregates
-@enduml

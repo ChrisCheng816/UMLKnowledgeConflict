@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- TropicalFruit : inherits
-TropicalFruit <|-- Plantain : inherits
+Fruit <|-- TropicalFruit
+TropicalFruit <|-- Plantain
 @enduml

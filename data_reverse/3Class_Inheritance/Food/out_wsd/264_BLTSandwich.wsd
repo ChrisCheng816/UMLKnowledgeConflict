@@ -1,4 +1,4 @@
 @startuml
-BLTSandwich <|-- Sandwich : inherits
-Sandwich <|-- Food : inherits
+BLTSandwich <|-- Sandwich
+Sandwich <|-- Food
 @enduml

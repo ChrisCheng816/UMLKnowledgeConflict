@@ -1,0 +1,4 @@
+@startuml
+HerdOfAntelopes o-- Antelope
+Park o-- HerdOfAntelopes
+@enduml

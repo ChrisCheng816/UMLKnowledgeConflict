@@ -1,4 +1,4 @@
 @startuml
-Zebra <|-- Mammal : inherits
-Mammal <|-- Animal : inherits
+Zebra <|-- Mammal
+Mammal <|-- Animal
 @enduml

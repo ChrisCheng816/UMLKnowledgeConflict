@@ -1,0 +1,4 @@
+@startuml
+Electricity ..> AirConditioner
+TransmissionLine ..> Electricity
+@enduml

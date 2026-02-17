@@ -1,4 +1,4 @@
 @startuml
-Carnation <|-- Flower : inherits
-Flower <|-- Plant : inherits
+Carnation <|-- Flower
+Flower <|-- Plant
 @enduml

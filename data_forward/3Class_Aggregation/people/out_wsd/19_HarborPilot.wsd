@@ -1,4 +1,0 @@
-@startuml
-HarborPilotTeam o-- HarborPilot : aggregates
-HarborAuthority o-- HarborPilotTeam : aggregates
-@enduml

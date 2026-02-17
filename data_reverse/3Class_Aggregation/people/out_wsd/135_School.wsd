@@ -1,0 +1,4 @@
+@startuml
+ClubOfNeighbors o-- School
+Neighbor o-- ClubOfNeighbors
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-HerdOfBison o-- Bison : aggregates
-Savanna o-- HerdOfBison : aggregates
+HerdOfBison o-- Bison
+Savanna o-- HerdOfBison
 @enduml

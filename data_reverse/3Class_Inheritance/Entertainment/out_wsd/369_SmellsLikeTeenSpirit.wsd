@@ -1,4 +1,4 @@
 @startuml
-SmellsLikeTeenSpirit <|-- Song : inherits
-Song <|-- MusicWork : inherits
+SmellsLikeTeenSpirit <|-- Song
+Song <|-- MusicWork
 @enduml

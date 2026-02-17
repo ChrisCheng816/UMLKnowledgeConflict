@@ -1,4 +1,4 @@
 @startuml
-WashingMachine ..> LaundryWashing : depends on
-TapWater ..> WashingMachine : depends on
+WashingMachine ..> LaundryWashing
+TapWater ..> WashingMachine
 @enduml

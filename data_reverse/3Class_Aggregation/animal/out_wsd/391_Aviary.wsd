@@ -1,4 +1,0 @@
-@startuml
-ColonyOfTermite o-- Aviary : aggregates
-Termite o-- ColonyOfTermite : aggregates
-@enduml

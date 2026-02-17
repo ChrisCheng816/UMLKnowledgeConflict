@@ -1,4 +1,4 @@
 @startuml
-TVSeries <|-- AnimeSeries : inherits
-AnimeSeries <|-- SteinsGate : inherits
+TVSeries <|-- AnimeSeries
+AnimeSeries <|-- SteinsGate
 @enduml

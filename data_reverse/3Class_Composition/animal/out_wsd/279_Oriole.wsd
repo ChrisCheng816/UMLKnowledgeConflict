@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Oriole : composes
-Nostril *-- Beak : composes
+Beak *-- Oriole
+Nostril *-- Beak
 @enduml

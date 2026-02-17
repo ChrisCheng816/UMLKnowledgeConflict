@@ -1,4 +1,4 @@
 @startuml
-BathroomLight ..> Electricity : depends on
-NightLighting ..> BathroomLight : depends on
+BathroomLight ..> Electricity
+NightLighting ..> BathroomLight
 @enduml

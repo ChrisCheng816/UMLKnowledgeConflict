@@ -1,4 +1,0 @@
-@startuml
-PeerReviewCommittee o-- SecurityNewsAgency : aggregates
-TourGuide o-- PeerReviewCommittee : aggregates
-@enduml

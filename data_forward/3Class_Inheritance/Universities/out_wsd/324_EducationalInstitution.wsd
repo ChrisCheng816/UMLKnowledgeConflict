@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inherits
-University <|-- KeioUniversity : inherits
+EducationalInstitution <|-- University
+University <|-- KeioUniversity
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-NewsWebsite ..> InternetConnection : depends on
-WebSearch ..> NewsWebsite : depends on
-@enduml

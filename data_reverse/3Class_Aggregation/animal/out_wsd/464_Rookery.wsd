@@ -1,4 +1,0 @@
-@startuml
-HerdOfGazelle o-- Rookery : aggregates
-Gazelle o-- HerdOfGazelle : aggregates
-@enduml

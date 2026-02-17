@@ -1,4 +1,0 @@
-@startuml
-FlockOfRobin o-- Shelter : aggregates
-Robin o-- FlockOfRobin : aggregates
-@enduml

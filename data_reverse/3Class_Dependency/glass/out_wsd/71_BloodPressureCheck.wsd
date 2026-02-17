@@ -1,0 +1,4 @@
+@startuml
+BloodPressureCuff ..> BloodPressureCheck
+BatteryPower ..> BloodPressureCuff
+@enduml

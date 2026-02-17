@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- TheSims4 : inherits
+Game <|-- VideoGame
+VideoGame <|-- TheSims4
 @enduml

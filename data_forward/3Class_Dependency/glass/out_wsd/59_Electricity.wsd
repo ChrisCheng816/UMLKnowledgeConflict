@@ -1,4 +1,4 @@
 @startuml
-TherapyMachine ..> Electricity : depends on
-MedicalTreatment ..> TherapyMachine : depends on
+UltrasoundMachine ..> Electricity
+PrenatalCheckup ..> UltrasoundMachine
 @enduml

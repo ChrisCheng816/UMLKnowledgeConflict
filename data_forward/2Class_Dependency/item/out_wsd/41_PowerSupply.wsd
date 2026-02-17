@@ -1,3 +1,3 @@
 @startuml
-LEDStrip ..> PowerSupply : depends on
+LEDStrip ..> PowerSupply
 @enduml

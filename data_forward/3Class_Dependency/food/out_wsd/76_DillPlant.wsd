@@ -1,0 +1,4 @@
+@startuml
+Dill ..> DillPlant
+DillSeasoning ..> Dill
+@enduml

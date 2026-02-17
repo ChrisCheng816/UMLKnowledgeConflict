@@ -1,4 +1,4 @@
 @startuml
-TripleJump <|-- AthleticsSport : inherits
-AthleticsSport <|-- Sport : inherits
+TripleJump <|-- AthleticsSport
+AthleticsSport <|-- Sport
 @enduml

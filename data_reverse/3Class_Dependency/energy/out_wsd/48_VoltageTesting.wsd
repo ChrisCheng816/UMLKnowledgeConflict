@@ -1,4 +1,0 @@
-@startuml
-Multimeter ..> VoltageTesting : depends on
-Electricity ..> Multimeter : depends on
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-WildlifeCareTeam o-- Drafter : aggregates
-SavannaHorticultureAssociation o-- WildlifeCareTeam : aggregates
-@enduml

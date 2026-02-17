@@ -1,4 +1,0 @@
-@startuml
-SeaIce ..> FreezingTemperature : depends on
-IceAlbedo ..> SeaIce : depends on
-@enduml

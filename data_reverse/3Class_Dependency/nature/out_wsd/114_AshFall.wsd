@@ -1,4 +1,0 @@
-@startuml
-VolcanicAsh ..> AshFall : depends on
-Volcano ..> VolcanicAsh : depends on
-@enduml

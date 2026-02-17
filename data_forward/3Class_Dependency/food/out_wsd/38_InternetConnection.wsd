@@ -1,4 +1,0 @@
-@startuml
-HotelBooking ..> InternetConnection : depends on
-Reservation ..> HotelBooking : depends on
-@enduml

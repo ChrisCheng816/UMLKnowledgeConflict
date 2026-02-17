@@ -1,0 +1,4 @@
+@startuml
+Finger *-- Tip
+Glove *-- Finger
+@enduml

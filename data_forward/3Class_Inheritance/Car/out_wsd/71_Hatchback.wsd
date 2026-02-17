@@ -1,0 +1,4 @@
+@startuml
+Hatchback <|-- ElectricHatchback
+ElectricHatchback <|-- NissanLeaf
+@enduml

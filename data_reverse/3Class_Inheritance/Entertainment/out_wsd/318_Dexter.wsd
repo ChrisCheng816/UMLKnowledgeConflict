@@ -1,4 +1,4 @@
 @startuml
-Dexter <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+Dexter <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

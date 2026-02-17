@@ -1,4 +1,0 @@
-@startuml
-GroupOfShrimp o-- Shrimp : aggregates
-Island o-- GroupOfShrimp : aggregates
-@enduml

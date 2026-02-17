@@ -1,4 +1,4 @@
 @startuml
-Freezer ..> Electricity : depends on
-FrozenStorage ..> Freezer : depends on
+Freezer ..> Electricity
+FrozenStorage ..> Freezer
 @enduml

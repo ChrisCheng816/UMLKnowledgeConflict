@@ -1,0 +1,4 @@
+@startuml
+Canola ..> CanolaPlant
+CanolaOil ..> Canola
+@enduml

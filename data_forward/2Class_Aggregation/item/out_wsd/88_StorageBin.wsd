@@ -1,3 +1,3 @@
 @startuml
-HospitalWarehouse o-- StorageBin : aggregates
+CharityWarehouse o-- StorageBin
 @enduml

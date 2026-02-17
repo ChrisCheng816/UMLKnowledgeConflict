@@ -1,0 +1,4 @@
+@startuml
+Republic <|-- FederalRepublic
+FederalRepublic <|-- Nigeria
+@enduml

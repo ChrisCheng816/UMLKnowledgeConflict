@@ -1,0 +1,4 @@
+@startuml
+Crossover <|-- CompactCrossover
+CompactCrossover <|-- ChevroletEquinox
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-CameraModule *-- Smartphone : composes
-IRFilter *-- CameraModule : composes
-@enduml

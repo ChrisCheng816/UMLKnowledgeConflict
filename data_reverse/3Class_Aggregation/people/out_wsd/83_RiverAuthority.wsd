@@ -1,4 +1,0 @@
-@startuml
-DamTeam o-- RiverAuthority : aggregates
-ElectricalEngineer o-- DamTeam : aggregates
-@enduml

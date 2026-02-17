@@ -1,0 +1,4 @@
+@startuml
+Haiti <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

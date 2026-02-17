@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Halibut : composes
-Filament *-- Gill : composes
+Gill *-- Halibut
+Filament *-- Gill
 @enduml

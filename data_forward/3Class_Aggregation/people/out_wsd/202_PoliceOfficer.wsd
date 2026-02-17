@@ -1,4 +1,0 @@
-@startuml
-PatrolTeam o-- PoliceOfficer : aggregates
-CyberUniversityOffice o-- PatrolTeam : aggregates
-@enduml

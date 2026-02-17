@@ -1,4 +1,4 @@
 @startuml
-SabanciUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+SabanciUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-AngleGrinder ..> Electricity : depends on
-Grinding ..> AngleGrinder : depends on
+BeltSander ..> Electricity
+SurfaceFinishing ..> BeltSander
 @enduml

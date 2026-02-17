@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Giraffe : composes
-Nostril *-- Nose : composes
+Nose *-- Giraffe
+Nostril *-- Nose
 @enduml

@@ -1,7 +1,7 @@
-{"id": "1", "template_id": "aggregation", "nodes": ["TaskTicket", "ComputePool", "ComputeSystem"], "edges": ["ComputePool o-- TaskTicket", "ComputeSystem o-- ComputePool"]}
-{"id": "2", "template_id": "aggregation", "nodes": ["TaskTicket", "ComputePool", "ComputePlatform"], "edges": ["ComputePool o-- TaskTicket", "ComputePlatform o-- ComputePool"]}
-{"id": "3", "template_id": "aggregation", "nodes": ["CacheFile", "CacheCluster", "StreamingPlatform"], "edges": ["CacheCluster o-- CacheFile", "StreamingPlatform o-- CacheCluster"]}
-{"id": "4", "template_id": "aggregation", "nodes": ["QueueMessage", "MessageQueue", "BookingPlatform"], "edges": ["MessageQueue o-- QueueMessage", "BookingPlatform o-- MessageQueue"]}
-{"id": "5", "template_id": "aggregation", "nodes": ["QueueMessage", "MessageQueue", "PaymentPlatform"], "edges": ["MessageQueue o-- QueueMessage", "PaymentPlatform o-- MessageQueue"]}
-{"id": "6", "template_id": "aggregation", "nodes": ["CacheFile", "CacheCluster", "StreamingNetwork"], "edges": ["CacheCluster o-- CacheFile", "StreamingNetwork o-- CacheCluster"]}
-{"id": "7", "template_id": "aggregation", "nodes": ["QueueMessage", "MessageQueue", "BookingSystemService"], "edges": ["MessageQueue o-- QueueMessage", "BookingSystemService o-- MessageQueue"]}
+{"id": "1", "template_id": "aggregation", "nodes": ["Moon", "Planet", "SolarSystem"], "edges": ["Planet o-- Moon", "SolarSystem o-- Planet"]}
+{"id": "2", "template_id": "aggregation", "nodes": ["Cell", "Organ", "HumanBody"], "edges": ["Organ o-- Cell", "HumanBody o-- Organ"]}
+{"id": "3", "template_id": "aggregation", "nodes": ["Mailbox", "PostOffice", "PostalSystem"], "edges": ["PostOffice o-- Mailbox", "PostalSystem o-- PostOffice"]}
+{"id": "4", "template_id": "aggregation", "nodes": ["Classroom", "School", "EducationSystem"], "edges": ["School o-- Classroom", "EducationSystem o-- School"]}
+{"id": "5", "template_id": "aggregation", "nodes": ["Pump", "Reservoir", "WaterSystem"], "edges": ["Reservoir o-- Pump", "WaterSystem o-- Reservoir"]}
+{"id": "6", "template_id": "aggregation", "nodes": ["Transformer", "Substation", "PowerGrid"], "edges": ["Substation o-- Transformer", "PowerGrid o-- Substation"]}
+{"id": "7", "template_id": "aggregation", "nodes": ["Platform", "Station", "TransitSystem"], "edges": ["Station o-- Platform", "TransitSystem o-- Station"]}

@@ -1,4 +1,4 @@
 @startuml
-Cage o-- WildlifeDepot : aggregates
-Rabbit o-- Cage : aggregates
+Cage o-- WildlifeDepot
+Rabbit o-- Cage
 @enduml

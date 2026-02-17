@@ -1,4 +1,4 @@
 @startuml
-CircuitBreakerPanel ..> BuildingPowerFeed : depends on
-UtilityMeter ..> CircuitBreakerPanel : depends on
+CircuitBreakerPanel ..> BuildingPowerFeed
+UtilityMeter ..> CircuitBreakerPanel
 @enduml

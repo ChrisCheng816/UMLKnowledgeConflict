@@ -1,4 +1,0 @@
-@startuml
-TrainingBoard o-- EducationalArtMuseum : aggregates
-SalesAssistant o-- TrainingBoard : aggregates
-@enduml

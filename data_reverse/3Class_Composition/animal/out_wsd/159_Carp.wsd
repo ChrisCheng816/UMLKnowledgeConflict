@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Carp : composes
-Ray *-- Fin : composes
+Fin *-- Carp
+Ray *-- Fin
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Pollination ..> Pollinator : depends on
-SeedSet ..> Pollination : depends on
+Pollination ..> Pollinator
+FruitSet ..> Pollination
 @enduml

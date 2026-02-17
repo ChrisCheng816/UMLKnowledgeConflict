@@ -1,4 +1,4 @@
 @startuml
-KikisDeliveryService <|-- AnimatedFilm : inherits
-AnimatedFilm <|-- Film : inherits
+KikisDeliveryService <|-- AnimatedFilm
+AnimatedFilm <|-- Film
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Sculpture : inherits
-Sculpture <|-- MountRushmore : inherits
+Artwork <|-- Sculpture
+Sculpture <|-- MountRushmore
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SurgeProtector ..> BatteryCharging : depends on
-Electricity ..> SurgeProtector : depends on
+SurgeProtector ..> BatteryCharging
+Electricity ..> SurgeProtector
 @enduml

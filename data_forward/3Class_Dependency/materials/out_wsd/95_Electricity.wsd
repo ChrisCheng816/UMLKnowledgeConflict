@@ -1,4 +1,4 @@
 @startuml
-GameConsole ..> Electricity : depends on
-OnlineGaming ..> GameConsole : depends on
+GameConsole ..> Electricity
+OnlineGaming ..> GameConsole
 @enduml

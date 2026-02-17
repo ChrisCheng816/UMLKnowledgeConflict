@@ -1,4 +1,0 @@
-@startuml
-FieldTeam o-- DesertStation : aggregates
-FieldEngineer o-- FieldTeam : aggregates
-@enduml

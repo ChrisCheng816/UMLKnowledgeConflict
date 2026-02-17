@@ -1,0 +1,4 @@
+@startuml
+HerdOfReindeer o-- Harbor
+Reindeer o-- HerdOfReindeer
+@enduml

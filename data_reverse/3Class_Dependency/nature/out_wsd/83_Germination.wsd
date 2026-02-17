@@ -1,0 +1,4 @@
+@startuml
+SoilMoisture ..> Germination
+Rainfall ..> SoilMoisture
+@enduml

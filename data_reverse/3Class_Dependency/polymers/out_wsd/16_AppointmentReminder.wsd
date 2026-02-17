@@ -1,4 +1,0 @@
-@startuml
-CalendarClient ..> AppointmentReminder : depends on
-OperatingSystem ..> CalendarClient : depends on
-@enduml

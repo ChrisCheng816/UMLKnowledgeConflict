@@ -1,4 +1,0 @@
-@startuml
-NestOfTortoise o-- Tortoise : aggregates
-Plateau o-- NestOfTortoise : aggregates
-@enduml

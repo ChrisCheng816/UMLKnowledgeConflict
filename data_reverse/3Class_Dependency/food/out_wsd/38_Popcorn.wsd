@@ -1,0 +1,4 @@
+@startuml
+Corn ..> Popcorn
+CornPlant ..> Corn
+@enduml

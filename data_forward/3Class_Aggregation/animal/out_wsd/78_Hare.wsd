@@ -1,4 +1,4 @@
 @startuml
-ColonyOfHare o-- Hare : aggregates
-Tundra o-- ColonyOfHare : aggregates
+ColonyOfHare o-- Hare
+Tundra o-- ColonyOfHare
 @enduml

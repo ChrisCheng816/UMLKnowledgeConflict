@@ -1,4 +1,0 @@
-@startuml
-NoteApp ..> NoteTaking : depends on
-OperatingSystem ..> NoteApp : depends on
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+ClubOfComedians o-- School
+Comedian o-- ClubOfComedians
+@enduml

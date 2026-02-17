@@ -1,0 +1,4 @@
+@startuml
+Thailand <|-- SoutheastAsianCountry
+SoutheastAsianCountry <|-- AsianCountry
+@enduml

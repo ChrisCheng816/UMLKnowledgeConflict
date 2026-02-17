@@ -1,4 +1,0 @@
-@startuml
-StorageBin o-- MarineWarehouse : aggregates
-Blanket o-- StorageBin : aggregates
-@enduml

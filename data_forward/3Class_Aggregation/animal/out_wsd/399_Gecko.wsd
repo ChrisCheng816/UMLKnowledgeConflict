@@ -1,4 +1,0 @@
-@startuml
-NestOfGecko o-- Gecko : aggregates
-Aquarium o-- NestOfGecko : aggregates
-@enduml

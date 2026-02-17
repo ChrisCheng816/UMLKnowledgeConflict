@@ -1,4 +1,0 @@
-@startuml
-HerdOfElephant o-- Rookery : aggregates
-Elephant o-- HerdOfElephant : aggregates
-@enduml

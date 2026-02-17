@@ -1,4 +1,0 @@
-@startuml
-ColonyOfSalamander o-- Island : aggregates
-Salamander o-- ColonyOfSalamander : aggregates
-@enduml

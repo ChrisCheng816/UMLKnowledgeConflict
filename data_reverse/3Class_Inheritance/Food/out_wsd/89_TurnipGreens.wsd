@@ -1,4 +1,4 @@
 @startuml
-TurnipGreens <|-- LeafyVegetable : inherits
-LeafyVegetable <|-- Vegetable : inherits
+TurnipGreens <|-- LeafyVegetable
+LeafyVegetable <|-- Vegetable
 @enduml

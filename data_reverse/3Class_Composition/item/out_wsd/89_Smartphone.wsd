@@ -1,4 +1,0 @@
-@startuml
-CameraModule *-- Smartphone : composes
-Lens *-- CameraModule : composes
-@enduml

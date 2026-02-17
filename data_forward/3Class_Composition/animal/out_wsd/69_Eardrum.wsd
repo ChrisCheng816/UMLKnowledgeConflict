@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Eardrum : composes
-Hippopotamus *-- Ear : composes
+Ear *-- Eardrum
+Hippopotamus *-- Ear
 @enduml

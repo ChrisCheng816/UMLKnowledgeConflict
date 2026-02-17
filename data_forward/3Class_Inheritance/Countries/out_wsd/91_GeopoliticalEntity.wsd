@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Guinea : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- KoreaDemocraticPeoplesRepublicof
 @enduml

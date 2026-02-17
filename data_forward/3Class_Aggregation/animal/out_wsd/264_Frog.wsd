@@ -1,4 +1,0 @@
-@startuml
-ArmyOfFrog o-- Frog : aggregates
-Island o-- ArmyOfFrog : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+CTScanner ..> CTImaging
+Electricity ..> CTScanner
+@enduml

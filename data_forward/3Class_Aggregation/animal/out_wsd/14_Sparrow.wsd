@@ -1,4 +1,4 @@
 @startuml
-FlockOfSparrow o-- Sparrow : aggregates
-Reserve o-- FlockOfSparrow : aggregates
+FlockOfSparrow o-- Sparrow
+Reserve o-- FlockOfSparrow
 @enduml

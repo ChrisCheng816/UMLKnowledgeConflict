@@ -1,0 +1,4 @@
+@startuml
+SwarmOfGnats o-- Gnat
+Harbor o-- SwarmOfGnats
+@enduml

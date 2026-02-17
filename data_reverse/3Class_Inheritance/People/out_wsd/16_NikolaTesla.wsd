@@ -1,4 +1,4 @@
 @startuml
-NikolaTesla <|-- ElectricalEngineer : inherits
-ElectricalEngineer <|-- Engineer : inherits
+NikolaTesla <|-- ElectricalEngineer
+ElectricalEngineer <|-- Engineer
 @enduml

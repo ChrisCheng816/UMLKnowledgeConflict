@@ -1,4 +1,0 @@
-@startuml
-VideoConferencingApp ..> InternetConnection : depends on
-TelehealthCall ..> VideoConferencingApp : depends on
-@enduml

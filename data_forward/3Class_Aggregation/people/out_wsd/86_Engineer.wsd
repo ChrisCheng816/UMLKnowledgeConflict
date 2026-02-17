@@ -1,4 +1,0 @@
-@startuml
-MaintenanceTeam o-- Engineer : aggregates
-RailwayAuthority o-- MaintenanceTeam : aggregates
-@enduml

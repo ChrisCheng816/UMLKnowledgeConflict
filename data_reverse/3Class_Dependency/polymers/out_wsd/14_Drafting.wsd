@@ -1,4 +1,0 @@
-@startuml
-CADSoftware ..> Drafting : depends on
-OperatingSystem ..> CADSoftware : depends on
-@enduml

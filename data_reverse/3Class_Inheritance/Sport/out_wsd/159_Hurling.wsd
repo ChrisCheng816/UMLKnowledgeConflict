@@ -1,4 +1,4 @@
 @startuml
-Hurling <|-- TeamSport : inherits
-TeamSport <|-- Sport : inherits
+Hurling <|-- TeamSport
+TeamSport <|-- Sport
 @enduml

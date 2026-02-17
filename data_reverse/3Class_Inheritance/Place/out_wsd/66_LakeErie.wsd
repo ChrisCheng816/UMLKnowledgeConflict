@@ -1,0 +1,4 @@
+@startuml
+LakeErie <|-- Lake
+Lake <|-- GeographicFeature
+@enduml

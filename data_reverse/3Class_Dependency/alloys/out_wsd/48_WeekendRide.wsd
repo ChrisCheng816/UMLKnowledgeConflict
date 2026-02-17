@@ -1,4 +1,4 @@
 @startuml
-Motorcycle ..> WeekendRide : depends on
-Gasoline ..> Motorcycle : depends on
+Motorcycle ..> WeekendRide
+Gasoline ..> Motorcycle
 @enduml

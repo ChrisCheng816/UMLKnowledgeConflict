@@ -1,3 +1,3 @@
 @startuml
-TherapyMachine ..> Electricity : depends on
+UltrasoundMachine ..> Electricity
 @enduml

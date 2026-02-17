@@ -1,4 +1,0 @@
-@startuml
-PackOfDog o-- Harbor : aggregates
-Dog o-- PackOfDog : aggregates
-@enduml

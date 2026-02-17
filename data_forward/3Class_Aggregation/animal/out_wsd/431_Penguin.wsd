@@ -1,0 +1,4 @@
+@startuml
+ColonyOfPenguins o-- Penguin
+Forest o-- ColonyOfPenguins
+@enduml

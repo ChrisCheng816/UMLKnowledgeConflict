@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Album : inherits
-Album <|-- LemonadeAlbum : inherits
+MusicWork <|-- Album
+Album <|-- LemonadeAlbum
 @enduml

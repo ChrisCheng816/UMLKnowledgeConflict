@@ -1,3 +1,3 @@
 @startuml
-GameConsole ..> MusicPlayback : depends on
+GameConsole ..> MusicPlayback
 @enduml

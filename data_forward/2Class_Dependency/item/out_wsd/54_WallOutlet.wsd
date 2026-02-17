@@ -1,3 +1,3 @@
 @startuml
-ControlPanel ..> WallOutlet : depends on
+ControlPanel ..> WallOutlet
 @enduml

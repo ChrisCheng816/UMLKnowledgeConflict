@@ -1,4 +1,0 @@
-@startuml
-VolunteerGroup o-- CommunityCenter : aggregates
-Investigator o-- VolunteerGroup : aggregates
-@enduml

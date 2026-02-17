@@ -1,4 +1,4 @@
 @startuml
-Dog <|-- Mammal : inherits
-Mammal <|-- Animal : inherits
+Dog <|-- Mammal
+Mammal <|-- Animal
 @enduml

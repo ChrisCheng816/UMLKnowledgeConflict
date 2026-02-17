@@ -1,0 +1,4 @@
+@startuml
+BicycleWheel *-- Bicycle
+Rim *-- BicycleWheel
+@enduml

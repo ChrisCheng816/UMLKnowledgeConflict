@@ -1,4 +1,4 @@
 @startuml
-Mosquito <|-- Insect : inherits
-Insect <|-- Animal : inherits
+Mosquito <|-- Insect
+Insect <|-- Animal
 @enduml

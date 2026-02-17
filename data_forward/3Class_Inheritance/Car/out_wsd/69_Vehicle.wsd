@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- CompactSUV
+CompactSUV <|-- NissanRogue
+@enduml

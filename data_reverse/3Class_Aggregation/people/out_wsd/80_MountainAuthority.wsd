@@ -1,4 +1,0 @@
-@startuml
-RescueTeam o-- MountainAuthority : aggregates
-SearchAndRescueWorker o-- RescueTeam : aggregates
-@enduml

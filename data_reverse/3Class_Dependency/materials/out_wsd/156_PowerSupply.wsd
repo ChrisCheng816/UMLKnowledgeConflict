@@ -1,4 +1,4 @@
 @startuml
-PowerStrip ..> PowerSupply : depends on
-Electricity ..> PowerStrip : depends on
+PowerStrip ..> PowerSupply
+Electricity ..> PowerStrip
 @enduml

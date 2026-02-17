@@ -1,4 +1,0 @@
-@startuml
-DispatchTeam o-- AirTrafficController : aggregates
-IslandAirportAuthority o-- DispatchTeam : aggregates
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-HerdOfYak o-- Yak : aggregates
-Rookery o-- HerdOfYak : aggregates
-@enduml

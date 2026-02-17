@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Uromastyx : composes
-Scale *-- Skin : composes
+Skin *-- Uromastyx
+Scale *-- Skin
 @enduml

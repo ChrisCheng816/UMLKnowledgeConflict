@@ -1,4 +1,4 @@
 @startuml
-MyHeartWillGoOn <|-- Song : inherits
-Song <|-- MusicWork : inherits
+MyHeartWillGoOn <|-- Song
+Song <|-- MusicWork
 @enduml

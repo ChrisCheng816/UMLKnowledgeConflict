@@ -1,4 +1,0 @@
-@startuml
-ColonyOfSalamander o-- Delta : aggregates
-Salamander o-- ColonyOfSalamander : aggregates
-@enduml

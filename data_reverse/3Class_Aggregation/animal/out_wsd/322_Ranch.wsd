@@ -1,0 +1,4 @@
+@startuml
+ColonyOfKangaroo o-- Ranch
+Kangaroo o-- ColonyOfKangaroo
+@enduml

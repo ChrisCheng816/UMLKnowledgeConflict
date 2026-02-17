@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- ForzaHorizon5 : inherits
+Game <|-- VideoGame
+VideoGame <|-- ForzaHorizon5
 @enduml

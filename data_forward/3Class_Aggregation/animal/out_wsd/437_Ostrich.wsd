@@ -1,4 +1,0 @@
-@startuml
-FlockOfOstrich o-- Ostrich : aggregates
-Clinic o-- FlockOfOstrich : aggregates
-@enduml

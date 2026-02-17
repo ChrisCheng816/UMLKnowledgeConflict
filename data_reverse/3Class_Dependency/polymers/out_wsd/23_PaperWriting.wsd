@@ -1,4 +1,0 @@
-@startuml
-CitationManager ..> PaperWriting : depends on
-OperatingSystem ..> CitationManager : depends on
-@enduml

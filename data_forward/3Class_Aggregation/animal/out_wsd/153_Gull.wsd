@@ -1,4 +1,0 @@
-@startuml
-FlockOfGull o-- Gull : aggregates
-Lake o-- FlockOfGull : aggregates
-@enduml

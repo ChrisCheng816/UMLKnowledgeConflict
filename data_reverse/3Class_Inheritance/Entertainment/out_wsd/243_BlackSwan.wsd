@@ -1,4 +1,4 @@
 @startuml
-BlackSwan <|-- Film : inherits
-Film <|-- Entertainment : inherits
+BlackSwan <|-- Film
+Film <|-- Entertainment
 @enduml

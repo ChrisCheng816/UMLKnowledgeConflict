@@ -1,4 +1,0 @@
-@startuml
-ResearchTeam o-- MaritimeWildlifeCenter : aggregates
-ResearchFellow o-- ResearchTeam : aggregates
-@enduml

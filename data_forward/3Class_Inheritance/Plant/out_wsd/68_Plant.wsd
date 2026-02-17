@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Herb : inherits
-Herb <|-- Chamomile : inherits
+Plant <|-- Herb
+Herb <|-- Chamomile
 @enduml

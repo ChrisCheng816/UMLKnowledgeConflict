@@ -1,4 +1,4 @@
 @startuml
-Showcase o-- MuseumShop : aggregates
-Painting o-- Showcase : aggregates
+Showcase o-- MuseumShop
+Painting o-- Showcase
 @enduml

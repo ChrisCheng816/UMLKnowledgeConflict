@@ -1,4 +1,4 @@
 @startuml
-OriAndTheWillOfTheWisps <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+OriAndTheWillOfTheWisps <|-- VideoGame
+VideoGame <|-- Game
 @enduml

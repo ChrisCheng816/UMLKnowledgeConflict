@@ -1,0 +1,4 @@
+@startuml
+TeamOfVolunteers o-- Charity
+Volunteer o-- TeamOfVolunteers
+@enduml

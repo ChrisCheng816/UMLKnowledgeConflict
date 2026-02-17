@@ -1,4 +1,0 @@
-@startuml
-EmailServer ..> EmailReceiving : depends on
-InternetConnection ..> EmailServer : depends on
-@enduml

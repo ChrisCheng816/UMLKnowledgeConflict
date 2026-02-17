@@ -1,0 +1,4 @@
+@startuml
+Slovenia <|-- AlpineCountry
+AlpineCountry <|-- EuropeanCountry
+@enduml

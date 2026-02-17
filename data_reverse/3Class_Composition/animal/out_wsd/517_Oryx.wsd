@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Oryx : composes
-Root *-- Tooth : composes
+Tooth *-- Oryx
+Root *-- Tooth
 @enduml

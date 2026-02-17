@@ -1,0 +1,4 @@
+@startuml
+FlockOfTurkeys o-- Farm
+Turkey o-- FlockOfTurkeys
+@enduml

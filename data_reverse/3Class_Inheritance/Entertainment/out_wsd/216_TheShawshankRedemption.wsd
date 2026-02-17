@@ -1,4 +1,4 @@
 @startuml
-TheShawshankRedemption <|-- Film : inherits
-Film <|-- Entertainment : inherits
+TheShawshankRedemption <|-- Film
+Film <|-- Entertainment
 @enduml

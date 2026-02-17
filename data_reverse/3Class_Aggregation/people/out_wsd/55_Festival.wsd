@@ -1,0 +1,4 @@
+@startuml
+GroupOfMusicians o-- Festival
+Musician o-- GroupOfMusicians
+@enduml

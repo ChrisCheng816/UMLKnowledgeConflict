@@ -1,4 +1,4 @@
 @startuml
-Crate o-- ForestMarket : aggregates
-CoffeeBean o-- Crate : aggregates
+Crate o-- ForestMarket
+CoffeeBean o-- Crate
 @enduml

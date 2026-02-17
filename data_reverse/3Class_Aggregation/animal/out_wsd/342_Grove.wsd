@@ -1,4 +1,0 @@
-@startuml
-PackOfCheetah o-- Grove : aggregates
-Cheetah o-- PackOfCheetah : aggregates
-@enduml

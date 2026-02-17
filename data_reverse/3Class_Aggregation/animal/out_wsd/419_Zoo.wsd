@@ -1,4 +1,0 @@
-@startuml
-FlockOfHeron o-- Zoo : aggregates
-Heron o-- FlockOfHeron : aggregates
-@enduml

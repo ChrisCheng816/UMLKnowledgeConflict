@@ -1,4 +1,4 @@
 @startuml
-RagingBull <|-- Film : inherits
-Film <|-- Entertainment : inherits
+RagingBull <|-- Film
+Film <|-- Entertainment
 @enduml

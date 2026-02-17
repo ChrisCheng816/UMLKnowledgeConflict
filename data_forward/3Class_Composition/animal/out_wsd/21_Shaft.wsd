@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Shaft : composes
-Chicken *-- Feather : composes
+Feather *-- Shaft
+Chicken *-- Feather
 @enduml

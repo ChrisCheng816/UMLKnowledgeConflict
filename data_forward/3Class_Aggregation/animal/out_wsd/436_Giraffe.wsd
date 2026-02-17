@@ -1,0 +1,4 @@
+@startuml
+HerdOfGiraffes o-- Giraffe
+Mountain o-- HerdOfGiraffes
+@enduml

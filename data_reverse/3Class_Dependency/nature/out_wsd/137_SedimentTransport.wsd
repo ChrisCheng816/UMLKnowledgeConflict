@@ -1,4 +1,0 @@
-@startuml
-RiverFlow ..> SedimentTransport : depends on
-Snowmelt ..> RiverFlow : depends on
-@enduml

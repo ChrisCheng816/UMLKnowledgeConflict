@@ -1,4 +1,4 @@
 @startuml
-InfusionPump ..> Electricity : depends on
-FluidAdministration ..> InfusionPump : depends on
+MRIMachine ..> Electricity
+BrainScan ..> MRIMachine
 @enduml

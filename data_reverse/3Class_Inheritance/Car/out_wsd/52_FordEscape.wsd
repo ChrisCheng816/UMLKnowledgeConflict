@@ -1,4 +1,4 @@
 @startuml
-FordEscape <|-- Ford : inherits
-Ford <|-- CarManufacturer : inherits
+FordEscape <|-- Crossover
+Crossover <|-- Car
 @enduml

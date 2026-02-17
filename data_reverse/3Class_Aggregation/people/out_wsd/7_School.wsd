@@ -1,0 +1,4 @@
+@startuml
+CrowdOfStudents o-- School
+Student o-- CrowdOfStudents
+@enduml

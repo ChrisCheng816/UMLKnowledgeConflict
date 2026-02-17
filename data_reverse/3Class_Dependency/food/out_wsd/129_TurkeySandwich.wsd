@@ -1,0 +1,4 @@
+@startuml
+Turkey ..> TurkeySandwich
+TurkeyFarm ..> Turkey
+@enduml

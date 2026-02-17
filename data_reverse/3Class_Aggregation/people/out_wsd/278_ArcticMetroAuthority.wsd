@@ -1,4 +1,0 @@
-@startuml
-PatrolTeam o-- ArcticMetroAuthority : aggregates
-PoliceOfficer o-- PatrolTeam : aggregates
-@enduml

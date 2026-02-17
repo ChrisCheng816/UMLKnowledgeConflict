@@ -1,4 +1,4 @@
 @startuml
-SmartTV ..> MusicPlayback : depends on
-Electricity ..> SmartTV : depends on
+SmartTV ..> MusicPlayback
+Electricity ..> SmartTV
 @enduml

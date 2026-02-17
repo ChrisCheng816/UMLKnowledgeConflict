@@ -1,4 +1,4 @@
 @startuml
-Spirea <|-- Shrub : inherits
-Shrub <|-- Plant : inherits
+Spirea <|-- Shrub
+Shrub <|-- Plant
 @enduml

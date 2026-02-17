@@ -1,4 +1,0 @@
-@startuml
-CaseTeam o-- CaseLawyer : aggregates
-CountyOffice o-- CaseTeam : aggregates
-@enduml

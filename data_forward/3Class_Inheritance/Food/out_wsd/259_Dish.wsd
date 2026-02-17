@@ -1,4 +1,4 @@
 @startuml
-Dish <|-- Soup : inherits
-Soup <|-- ClamChowder : inherits
+Dish <|-- Soup
+Soup <|-- ClamChowder
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-ColonyOfSkunk o-- Skunk : aggregates
-Ranch o-- ColonyOfSkunk : aggregates
-@enduml

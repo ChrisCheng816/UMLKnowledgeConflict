@@ -1,4 +1,4 @@
 @startuml
-UltrasoundMachine ..> Electricity : depends on
-PrenatalCheckup ..> UltrasoundMachine : depends on
+XRayMachine ..> Electricity
+ChestXRay ..> XRayMachine
 @enduml

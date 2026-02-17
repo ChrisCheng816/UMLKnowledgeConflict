@@ -1,0 +1,4 @@
+@startuml
+PackOfCoyotes o-- Coyote
+Zoo o-- PackOfCoyotes
+@enduml

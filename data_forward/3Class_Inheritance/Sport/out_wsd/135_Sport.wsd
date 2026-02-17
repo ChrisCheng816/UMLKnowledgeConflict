@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport : inherits
-IndividualSport <|-- Esports : inherits
+Sport <|-- IndividualSport
+IndividualSport <|-- Esports
 @enduml

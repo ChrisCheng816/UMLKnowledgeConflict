@@ -1,4 +1,4 @@
 @startuml
-UniversityOfAberdeen <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+UniversityOfAberdeen <|-- University
+University <|-- EducationalInstitution
 @enduml

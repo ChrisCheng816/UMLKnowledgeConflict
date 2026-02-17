@@ -1,4 +1,4 @@
 @startuml
-StreamingBox ..> Electricity : depends on
-OnlineGaming ..> StreamingBox : depends on
+StreamingBox ..> Electricity
+OnlineGaming ..> StreamingBox
 @enduml

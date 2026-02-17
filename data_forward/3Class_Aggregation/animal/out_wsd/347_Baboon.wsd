@@ -1,4 +1,0 @@
-@startuml
-TroopOfBaboon o-- Baboon : aggregates
-Orchard o-- TroopOfBaboon : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-SchoolOfTrout o-- Reef : aggregates
-Trout o-- SchoolOfTrout : aggregates
+SchoolOfTrout o-- Reef
+Trout o-- SchoolOfTrout
 @enduml

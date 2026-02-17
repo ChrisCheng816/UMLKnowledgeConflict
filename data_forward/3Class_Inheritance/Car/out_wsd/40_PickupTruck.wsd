@@ -1,0 +1,4 @@
+@startuml
+PickupTruck <|-- FullSizePickup
+FullSizePickup <|-- ToyotaTundra
+@enduml

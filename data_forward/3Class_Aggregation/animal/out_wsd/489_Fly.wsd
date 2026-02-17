@@ -1,0 +1,4 @@
+@startuml
+SwarmOfFly o-- Fly
+Jungle o-- SwarmOfFly
+@enduml

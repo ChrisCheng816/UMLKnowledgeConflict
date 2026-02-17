@@ -1,4 +1,0 @@
-@startuml
-ColonyOfMouse o-- Farm : aggregates
-Mouse o-- ColonyOfMouse : aggregates
-@enduml

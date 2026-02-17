@@ -1,4 +1,0 @@
-@startuml
-TransparentMedium ..> Refraction : depends on
-LightRay ..> TransparentMedium : depends on
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-DieselTruck ..> FreightTransport : depends on
-DieselFuel ..> DieselTruck : depends on
+DieselTruck ..> FreightTransport
+DieselFuel ..> DieselTruck
 @enduml

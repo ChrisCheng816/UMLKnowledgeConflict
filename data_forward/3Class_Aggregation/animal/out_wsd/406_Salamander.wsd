@@ -1,4 +1,0 @@
-@startuml
-ColonyOfSalamander o-- Salamander : aggregates
-Aquarium o-- ColonyOfSalamander : aggregates
-@enduml

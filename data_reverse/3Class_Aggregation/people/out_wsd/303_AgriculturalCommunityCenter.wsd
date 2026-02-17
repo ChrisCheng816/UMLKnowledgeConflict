@@ -1,4 +1,0 @@
-@startuml
-SafetyTeam o-- AgriculturalCommunityCenter : aggregates
-SecurityGuard o-- SafetyTeam : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cap *-- Clip
+Pen *-- Cap
+@enduml

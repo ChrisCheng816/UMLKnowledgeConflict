@@ -1,4 +1,0 @@
-@startuml
-EmergencyTeam o-- Firefighter : aggregates
-FireStation o-- EmergencyTeam : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+TeamOfBakers o-- Club
+Baker o-- TeamOfBakers
+@enduml

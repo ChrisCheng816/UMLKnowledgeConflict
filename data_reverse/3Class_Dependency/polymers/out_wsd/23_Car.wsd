@@ -1,0 +1,4 @@
+@startuml
+Gasoline ..> Car
+CrudeOil ..> Gasoline
+@enduml

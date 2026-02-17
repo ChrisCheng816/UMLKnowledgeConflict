@@ -1,4 +1,4 @@
 @startuml
-InductionCooktop ..> Boiling : depends on
-Electricity ..> InductionCooktop : depends on
+InductionCooktop ..> Boiling
+Electricity ..> InductionCooktop
 @enduml

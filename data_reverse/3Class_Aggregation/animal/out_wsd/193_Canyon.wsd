@@ -1,0 +1,4 @@
+@startuml
+ColonyOfSquirrel o-- Canyon
+Squirrel o-- ColonyOfSquirrel
+@enduml

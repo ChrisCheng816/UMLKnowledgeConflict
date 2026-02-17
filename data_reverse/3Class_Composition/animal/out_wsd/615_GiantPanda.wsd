@@ -1,4 +1,4 @@
 @startuml
-Nose *-- GiantPanda : composes
-Nostril *-- Nose : composes
+Nose *-- GiantPanda
+Nostril *-- Nose
 @enduml

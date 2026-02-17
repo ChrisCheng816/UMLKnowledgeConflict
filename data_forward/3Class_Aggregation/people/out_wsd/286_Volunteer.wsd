@@ -1,4 +1,0 @@
-@startuml
-VolunteerTeam o-- Volunteer : aggregates
-ResearchFireDepartment o-- VolunteerTeam : aggregates
-@enduml

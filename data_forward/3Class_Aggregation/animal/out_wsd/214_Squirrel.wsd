@@ -1,4 +1,0 @@
-@startuml
-ColonyOfSquirrel o-- Squirrel : aggregates
-Canyon o-- ColonyOfSquirrel : aggregates
-@enduml

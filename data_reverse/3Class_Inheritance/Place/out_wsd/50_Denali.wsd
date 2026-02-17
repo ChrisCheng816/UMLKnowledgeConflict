@@ -1,0 +1,4 @@
+@startuml
+Denali <|-- Mountain
+Mountain <|-- GeographicFeature
+@enduml

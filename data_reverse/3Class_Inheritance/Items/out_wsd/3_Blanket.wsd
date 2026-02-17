@@ -1,4 +1,4 @@
 @startuml
-Blanket <|-- Bedding : inherits
-Bedding <|-- Item : inherits
+Blanket <|-- Bedding
+Bedding <|-- Item
 @enduml

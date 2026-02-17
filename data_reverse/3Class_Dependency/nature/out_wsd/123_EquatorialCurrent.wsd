@@ -1,4 +1,0 @@
-@startuml
-TradeWinds ..> EquatorialCurrent : depends on
-CoriolisEffect ..> TradeWinds : depends on
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-LinearAccelerator ..> MedicalTreatment : depends on
-Electricity ..> LinearAccelerator : depends on
-@enduml

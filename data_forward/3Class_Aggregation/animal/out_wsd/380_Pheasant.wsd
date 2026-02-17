@@ -1,0 +1,4 @@
+@startuml
+FlockOfPheasant o-- Pheasant
+Nursery o-- FlockOfPheasant
+@enduml

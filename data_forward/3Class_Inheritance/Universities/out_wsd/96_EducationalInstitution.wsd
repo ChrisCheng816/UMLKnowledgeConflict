@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inherits
-University <|-- IITDelhi : inherits
+EducationalInstitution <|-- University
+University <|-- IITDelhi
 @enduml

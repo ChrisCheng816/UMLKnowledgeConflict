@@ -1,4 +1,0 @@
-@startuml
-Door *-- Deadbolt : composes
-Apartment *-- Door : composes
-@enduml

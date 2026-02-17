@@ -1,4 +1,0 @@
-@startuml
-CRMSoftware ..> OperatingSystem : depends on
-CustomerTracking ..> CRMSoftware : depends on
-@enduml

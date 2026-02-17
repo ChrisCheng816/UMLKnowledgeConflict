@@ -1,4 +1,4 @@
 @startuml
-ThereWillBeBlood <|-- Film : inherits
-Film <|-- Entertainment : inherits
+ThereWillBeBlood <|-- Film
+Film <|-- Entertainment
 @enduml

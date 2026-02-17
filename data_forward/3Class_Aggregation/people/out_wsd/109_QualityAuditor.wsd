@@ -1,4 +1,0 @@
-@startuml
-ReviewTeam o-- QualityAuditor : aggregates
-ResearchAuthority o-- ReviewTeam : aggregates
-@enduml

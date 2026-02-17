@@ -1,0 +1,4 @@
+@startuml
+StaffOfSwimmers o-- Swimmer
+Company o-- StaffOfSwimmers
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Oregano <|-- Herb : inherits
-Herb <|-- Plant : inherits
+Oregano <|-- Herb
+Herb <|-- Plant
 @enduml

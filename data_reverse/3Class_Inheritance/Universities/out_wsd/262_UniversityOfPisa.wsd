@@ -1,4 +1,4 @@
 @startuml
-UniversityOfPisa <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+UniversityOfPisa <|-- University
+University <|-- EducationalInstitution
 @enduml

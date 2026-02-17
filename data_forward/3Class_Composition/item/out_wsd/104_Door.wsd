@@ -1,0 +1,4 @@
+@startuml
+Room *-- Door
+Floor *-- Room
+@enduml

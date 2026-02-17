@@ -1,0 +1,4 @@
+@startuml
+JetStream ..> PressureGradient
+ClearAirTurbulence ..> JetStream
+@enduml

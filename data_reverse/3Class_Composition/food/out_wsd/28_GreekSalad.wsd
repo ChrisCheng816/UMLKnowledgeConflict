@@ -1,4 +1,4 @@
 @startuml
-Feta *-- GreekSalad : composes
-Milk *-- Feta : composes
+Feta *-- GreekSalad
+Milk *-- Feta
 @enduml

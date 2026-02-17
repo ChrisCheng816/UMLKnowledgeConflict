@@ -1,4 +1,0 @@
-@startuml
-HotelBooking ..> ScheduleCheck : depends on
-InternetConnection ..> HotelBooking : depends on
-@enduml

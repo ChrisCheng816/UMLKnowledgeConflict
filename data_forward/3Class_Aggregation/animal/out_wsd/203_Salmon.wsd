@@ -1,0 +1,4 @@
+@startuml
+SchoolOfSalmon o-- Salmon
+Valley o-- SchoolOfSalmon
+@enduml

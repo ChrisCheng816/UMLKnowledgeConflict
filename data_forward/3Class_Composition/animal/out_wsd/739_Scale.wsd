@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Scale : composes
-FireSalamander *-- Skin : composes
+Skin *-- Scale
+FireSalamander *-- Skin
 @enduml

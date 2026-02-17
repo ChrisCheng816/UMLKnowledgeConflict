@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film : inherits
-Film <|-- TheMatrix : inherits
+Entertainment <|-- Film
+Film <|-- TheMatrix
 @enduml

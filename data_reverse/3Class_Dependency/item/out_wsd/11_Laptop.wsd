@@ -1,4 +1,4 @@
 @startuml
-PowerAdapter ..> Laptop : depends on
-WallOutlet ..> PowerAdapter : depends on
+PowerAdapter ..> Laptop
+WallOutlet ..> PowerAdapter
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+ColonyOfSquirrels o-- Zoo
+Squirrel o-- ColonyOfSquirrels
+@enduml

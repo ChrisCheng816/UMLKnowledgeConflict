@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Toiletry : inherits
-Toiletry <|-- Brush : inherits
+Item <|-- Toiletry
+Toiletry <|-- Brush
 @enduml

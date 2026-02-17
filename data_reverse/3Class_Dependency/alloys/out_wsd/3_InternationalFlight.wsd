@@ -1,4 +1,4 @@
 @startuml
-Airplane ..> InternationalFlight : depends on
-JetFuel ..> Airplane : depends on
+Airplane ..> InternationalFlight
+JetFuel ..> Airplane
 @enduml

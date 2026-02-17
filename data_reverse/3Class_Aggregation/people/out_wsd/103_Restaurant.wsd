@@ -1,0 +1,4 @@
+@startuml
+StaffOfWaiters o-- Restaurant
+Waiter o-- StaffOfWaiters
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-StorageBin o-- AirportWarehouse : aggregates
-Blanket o-- StorageBin : aggregates
-@enduml

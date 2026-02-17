@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Ray : composes
-Flounder *-- Fin : composes
+Fin *-- Ray
+Flounder *-- Fin
 @enduml

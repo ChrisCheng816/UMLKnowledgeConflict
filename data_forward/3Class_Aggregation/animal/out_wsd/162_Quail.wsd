@@ -1,4 +1,0 @@
-@startuml
-FlockOfQuail o-- Quail : aggregates
-Pond o-- FlockOfQuail : aggregates
-@enduml

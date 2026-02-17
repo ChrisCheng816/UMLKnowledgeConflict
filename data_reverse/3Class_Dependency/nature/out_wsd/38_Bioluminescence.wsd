@@ -1,4 +1,0 @@
-@startuml
-LuciferinReaction ..> Bioluminescence : depends on
-Organism ..> LuciferinReaction : depends on
-@enduml

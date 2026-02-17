@@ -1,0 +1,4 @@
+@startuml
+PartyOfCustomers o-- Cafe
+Customer o-- PartyOfCustomers
+@enduml

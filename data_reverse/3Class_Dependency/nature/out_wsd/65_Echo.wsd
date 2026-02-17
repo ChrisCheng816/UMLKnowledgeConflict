@@ -1,4 +1,0 @@
-@startuml
-HardSurface ..> Echo : depends on
-SoundWave ..> HardSurface : depends on
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-FalloutNewVegas <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+FalloutNewVegas <|-- VideoGame
+VideoGame <|-- Game
 @enduml

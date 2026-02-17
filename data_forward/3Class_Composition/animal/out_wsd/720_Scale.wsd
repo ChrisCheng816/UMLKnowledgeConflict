@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Scale : composes
-AlligatorSnappingTurtle *-- Skin : composes
+Skin *-- Scale
+AlligatorSnappingTurtle *-- Skin
 @enduml

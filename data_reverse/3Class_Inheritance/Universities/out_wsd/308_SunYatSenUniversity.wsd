@@ -1,4 +1,4 @@
 @startuml
-SunYatSenUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+SunYatSenUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

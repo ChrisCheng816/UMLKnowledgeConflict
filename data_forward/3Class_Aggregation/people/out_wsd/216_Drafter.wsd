@@ -1,4 +1,0 @@
-@startuml
-QualityTeam o-- Drafter : aggregates
-RiverMountainRescueCenter o-- QualityTeam : aggregates
-@enduml

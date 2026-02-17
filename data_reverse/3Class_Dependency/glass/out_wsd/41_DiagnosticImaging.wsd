@@ -1,4 +1,0 @@
-@startuml
-MRIMachine ..> DiagnosticImaging : depends on
-Electricity ..> MRIMachine : depends on
-@enduml

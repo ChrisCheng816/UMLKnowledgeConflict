@@ -1,4 +1,0 @@
-@startuml
-NursingTeam o-- Hospital : aggregates
-Nurse o-- NursingTeam : aggregates
-@enduml

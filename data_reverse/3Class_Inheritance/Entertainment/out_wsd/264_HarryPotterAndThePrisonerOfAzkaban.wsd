@@ -1,4 +1,4 @@
 @startuml
-HarryPotterAndThePrisonerOfAzkaban <|-- Film : inherits
-Film <|-- Entertainment : inherits
+HarryPotterAndThePrisonerOfAzkaban <|-- Film
+Film <|-- Entertainment
 @enduml

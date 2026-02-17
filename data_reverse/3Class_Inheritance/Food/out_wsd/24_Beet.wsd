@@ -1,4 +1,4 @@
 @startuml
-Beet <|-- RootVegetable : inherits
-RootVegetable <|-- Vegetable : inherits
+Beet <|-- RootVegetable
+RootVegetable <|-- Vegetable
 @enduml

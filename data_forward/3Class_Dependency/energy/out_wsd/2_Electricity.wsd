@@ -1,4 +1,4 @@
 @startuml
-3DPrinter ..> Electricity : depends on
-ModelPrinting ..> 3DPrinter : depends on
+AirCompressor ..> Electricity
+CompressedAirSupply ..> AirCompressor
 @enduml

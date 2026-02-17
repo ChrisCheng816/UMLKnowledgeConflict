@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Container : inherits
-Container <|-- Bottle : inherits
+Item <|-- Container
+Container <|-- Bottle
 @enduml

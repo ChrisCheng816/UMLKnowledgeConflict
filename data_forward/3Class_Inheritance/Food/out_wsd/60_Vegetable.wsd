@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- SquashVegetable : inherits
-SquashVegetable <|-- SpaghettiSquash : inherits
+Vegetable <|-- SquashVegetable
+SquashVegetable <|-- SpaghettiSquash
 @enduml

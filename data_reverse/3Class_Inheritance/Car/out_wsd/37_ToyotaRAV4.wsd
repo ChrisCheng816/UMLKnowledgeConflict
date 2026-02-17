@@ -1,4 +1,4 @@
 @startuml
-ToyotaRAV4 <|-- Toyota : inherits
-Toyota <|-- CarManufacturer : inherits
+ToyotaRAV4 <|-- SUV
+SUV <|-- Car
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-StandingWave ..> BoundaryConditions : depends on
-Seiche ..> StandingWave : depends on
-@enduml

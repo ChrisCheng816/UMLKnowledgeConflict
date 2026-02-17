@@ -1,4 +1,0 @@
-@startuml
-FlockOfFlamingo o-- Flamingo : aggregates
-Shelter o-- FlockOfFlamingo : aggregates
-@enduml

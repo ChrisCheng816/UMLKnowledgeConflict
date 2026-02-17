@@ -1,4 +1,0 @@
-@startuml
-ColonyOfAnt o-- Aviary : aggregates
-Ant o-- ColonyOfAnt : aggregates
-@enduml

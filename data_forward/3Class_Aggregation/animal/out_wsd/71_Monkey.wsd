@@ -1,4 +1,4 @@
 @startuml
-TroopOfMonkey o-- Monkey : aggregates
-Steppe o-- TroopOfMonkey : aggregates
+TroopOfMonkey o-- Monkey
+Steppe o-- TroopOfMonkey
 @enduml

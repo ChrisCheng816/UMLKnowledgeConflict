@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens : composes
-Giraffe *-- Eye : composes
+Eye *-- Lens
+Giraffe *-- Eye
 @enduml

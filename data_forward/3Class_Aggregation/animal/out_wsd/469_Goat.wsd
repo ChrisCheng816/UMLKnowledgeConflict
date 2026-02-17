@@ -1,4 +1,0 @@
-@startuml
-HerdOfGoat o-- Goat : aggregates
-Rookery o-- HerdOfGoat : aggregates
-@enduml

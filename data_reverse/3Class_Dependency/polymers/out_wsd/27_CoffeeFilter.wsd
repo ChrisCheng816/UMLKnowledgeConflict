@@ -1,0 +1,4 @@
+@startuml
+Paper ..> CoffeeFilter
+Trees ..> Paper
+@enduml

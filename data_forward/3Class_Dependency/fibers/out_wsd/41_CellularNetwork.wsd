@@ -1,4 +1,4 @@
 @startuml
-Smartphone ..> CellularNetwork : depends on
-TextMessaging ..> Smartphone : depends on
+Smartphone ..> CellularNetwork
+TextMessaging ..> Smartphone
 @enduml

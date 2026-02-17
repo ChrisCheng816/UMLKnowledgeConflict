@@ -1,4 +1,0 @@
-@startuml
-ColonyOfPanda o-- Panda : aggregates
-Ranch o-- ColonyOfPanda : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-Cream *-- Milk : composes
-QuicheLorraine *-- Cream : composes
+Cream *-- Milk
+QuicheLorraine *-- Cream
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Window *-- Sash
+House *-- Window
+@enduml

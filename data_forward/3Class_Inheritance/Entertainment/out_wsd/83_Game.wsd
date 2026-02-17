@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- DragonAgeOrigins : inherits
+Game <|-- VideoGame
+VideoGame <|-- DragonAgeOrigins
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+TectonicPlate ..> MantleConvection
+Subduction ..> TectonicPlate
+@enduml

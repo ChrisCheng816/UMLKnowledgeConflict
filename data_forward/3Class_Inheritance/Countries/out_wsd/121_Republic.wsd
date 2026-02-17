@@ -1,0 +1,4 @@
+@startuml
+Republic <|-- ParliamentaryRepublic
+ParliamentaryRepublic <|-- Poland
+@enduml

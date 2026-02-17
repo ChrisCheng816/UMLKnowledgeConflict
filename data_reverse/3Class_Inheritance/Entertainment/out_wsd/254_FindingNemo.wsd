@@ -1,4 +1,4 @@
 @startuml
-FindingNemo <|-- Film : inherits
-Film <|-- Entertainment : inherits
+FindingNemo <|-- Film
+Film <|-- Entertainment
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Siren : composes
-Scale *-- Skin : composes
+Skin *-- Siren
+Scale *-- Skin
 @enduml

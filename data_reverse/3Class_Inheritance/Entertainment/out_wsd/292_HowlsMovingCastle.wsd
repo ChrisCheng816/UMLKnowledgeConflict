@@ -1,4 +1,4 @@
 @startuml
-HowlsMovingCastle <|-- AnimatedFilm : inherits
-AnimatedFilm <|-- Film : inherits
+HowlsMovingCastle <|-- AnimatedFilm
+AnimatedFilm <|-- Film
 @enduml

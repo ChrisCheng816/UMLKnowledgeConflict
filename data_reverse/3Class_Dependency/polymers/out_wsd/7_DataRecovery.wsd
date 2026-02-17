@@ -1,4 +1,0 @@
-@startuml
-BackupSoftware ..> DataRecovery : depends on
-OperatingSystem ..> BackupSoftware : depends on
-@enduml

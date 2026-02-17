@@ -1,0 +1,4 @@
+@startuml
+DieselDepot ..> Train
+FuelDeliveryTruck ..> DieselDepot
+@enduml

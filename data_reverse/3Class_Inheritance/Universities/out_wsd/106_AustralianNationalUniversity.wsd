@@ -1,4 +1,4 @@
 @startuml
-AustralianNationalUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+AustralianNationalUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-ElectricHotPlate ..> Heating : depends on
-Electricity ..> ElectricHotPlate : depends on
-@enduml

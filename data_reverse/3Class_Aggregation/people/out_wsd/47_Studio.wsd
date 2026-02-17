@@ -1,0 +1,4 @@
+@startuml
+ClubOfActors o-- Studio
+Actor o-- ClubOfActors
+@enduml

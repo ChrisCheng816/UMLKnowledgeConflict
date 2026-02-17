@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Guernsey : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Kiribati
 @enduml

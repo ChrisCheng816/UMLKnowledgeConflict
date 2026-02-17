@@ -1,4 +1,0 @@
-@startuml
-Convection ..> Thunderstorm : depends on
-WarmAir ..> Convection : depends on
-@enduml

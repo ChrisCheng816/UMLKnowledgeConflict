@@ -1,4 +1,0 @@
-@startuml
-PaintSprayer ..> Coating : depends on
-CompressedAir ..> PaintSprayer : depends on
-@enduml

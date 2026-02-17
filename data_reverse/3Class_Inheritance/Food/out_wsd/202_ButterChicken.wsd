@@ -1,4 +1,4 @@
 @startuml
-ButterChicken <|-- Dish : inherits
-Dish <|-- Food : inherits
+ButterChicken <|-- Dish
+Dish <|-- Food
 @enduml

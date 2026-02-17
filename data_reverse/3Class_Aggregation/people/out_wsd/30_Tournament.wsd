@@ -1,0 +1,4 @@
+@startuml
+PanelOfReferees o-- Tournament
+Referee o-- PanelOfReferees
+@enduml

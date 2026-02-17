@@ -1,4 +1,0 @@
-@startuml
-NoteApp ..> TaskManagement : depends on
-OperatingSystem ..> NoteApp : depends on
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-EarthHeat ..> Magma : depends on
-EarthCore ..> EarthHeat : depends on
-@enduml

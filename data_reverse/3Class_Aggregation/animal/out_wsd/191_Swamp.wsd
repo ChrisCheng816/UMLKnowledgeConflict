@@ -1,4 +1,0 @@
-@startuml
-HerdOfCattle o-- Swamp : aggregates
-Cattle o-- HerdOfCattle : aggregates
-@enduml

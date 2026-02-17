@@ -1,0 +1,4 @@
+@startuml
+BreadFlour ..> Bread
+Wheat ..> BreadFlour
+@enduml

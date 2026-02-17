@@ -1,0 +1,4 @@
+@startuml
+Country <|-- Kingdom
+Kingdom <|-- Sweden
+@enduml

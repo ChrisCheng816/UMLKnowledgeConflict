@@ -1,4 +1,0 @@
-@startuml
-SpreadsheetSoftware ..> OperatingSystem : depends on
-DocumentEditing ..> SpreadsheetSoftware : depends on
-@enduml

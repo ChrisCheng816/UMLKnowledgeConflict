@@ -1,4 +1,4 @@
 @startuml
-PaintSprayer ..> CompressedAir : depends on
-Finishing ..> PaintSprayer : depends on
+PneumaticNailGun ..> CompressedAir
+Carpentry ..> PneumaticNailGun
 @enduml

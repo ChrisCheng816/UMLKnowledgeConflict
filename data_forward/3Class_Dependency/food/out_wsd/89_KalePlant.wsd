@@ -1,0 +1,4 @@
+@startuml
+Kale ..> KalePlant
+KaleSalad ..> Kale
+@enduml

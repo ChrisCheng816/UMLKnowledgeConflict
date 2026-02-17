@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Bass : composes
-Ray *-- Fin : composes
+Fin *-- Bass
+Ray *-- Fin
 @enduml

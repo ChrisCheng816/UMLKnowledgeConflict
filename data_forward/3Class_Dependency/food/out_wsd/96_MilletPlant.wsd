@@ -1,0 +1,4 @@
+@startuml
+Millet ..> MilletPlant
+MilletPorridge ..> Millet
+@enduml

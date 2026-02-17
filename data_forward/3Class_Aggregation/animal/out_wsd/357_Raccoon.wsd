@@ -1,4 +1,0 @@
-@startuml
-ColonyOfRaccoon o-- Raccoon : aggregates
-Farm o-- ColonyOfRaccoon : aggregates
-@enduml

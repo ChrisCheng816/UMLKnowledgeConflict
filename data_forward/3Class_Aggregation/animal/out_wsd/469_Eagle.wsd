@@ -1,0 +1,4 @@
+@startuml
+FlockOfEagle o-- Eagle
+Park o-- FlockOfEagle
+@enduml

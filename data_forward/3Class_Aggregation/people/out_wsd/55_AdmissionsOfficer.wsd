@@ -1,4 +1,0 @@
-@startuml
-AdmissionsTeam o-- AdmissionsOfficer : aggregates
-UniversityFoundation o-- AdmissionsTeam : aggregates
-@enduml

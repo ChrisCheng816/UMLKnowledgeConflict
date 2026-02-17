@@ -1,4 +1,4 @@
 @startuml
-Frozen <|-- Film : inherits
-Film <|-- Entertainment : inherits
+Frozen <|-- Film
+Film <|-- Entertainment
 @enduml

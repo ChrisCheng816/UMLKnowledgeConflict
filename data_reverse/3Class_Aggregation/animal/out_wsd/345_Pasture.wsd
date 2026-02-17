@@ -1,0 +1,4 @@
+@startuml
+SwarmOfLadybug o-- Pasture
+Ladybug o-- SwarmOfLadybug
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-XRayMachine ..> Electricity : depends on
-BoneScan ..> XRayMachine : depends on
-@enduml

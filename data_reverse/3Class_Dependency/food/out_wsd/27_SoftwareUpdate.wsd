@@ -1,4 +1,0 @@
-@startuml
-FileTransfer ..> SoftwareUpdate : depends on
-InternetConnection ..> FileTransfer : depends on
-@enduml

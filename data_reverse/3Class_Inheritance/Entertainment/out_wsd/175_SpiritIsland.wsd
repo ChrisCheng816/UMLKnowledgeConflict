@@ -1,4 +1,4 @@
 @startuml
-SpiritIsland <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+SpiritIsland <|-- BoardGame
+BoardGame <|-- Game
 @enduml

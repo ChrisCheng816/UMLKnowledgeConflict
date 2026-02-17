@@ -1,4 +1,0 @@
-@startuml
-GeothermalHeat ..> Geyser : depends on
-UndergroundWater ..> GeothermalHeat : depends on
-@enduml

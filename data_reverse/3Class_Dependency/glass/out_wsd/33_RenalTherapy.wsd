@@ -1,4 +1,0 @@
-@startuml
-HemodialysisMachine ..> RenalTherapy : depends on
-Electricity ..> HemodialysisMachine : depends on
-@enduml

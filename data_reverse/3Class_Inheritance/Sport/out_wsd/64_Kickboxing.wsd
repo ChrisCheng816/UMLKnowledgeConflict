@@ -1,4 +1,4 @@
 @startuml
-Kickboxing <|-- CombatSport : inherits
-CombatSport <|-- Sport : inherits
+Kickboxing <|-- CombatSport
+CombatSport <|-- Sport
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-NestOfIguana o-- Aviary : aggregates
-Iguana o-- NestOfIguana : aggregates
-@enduml

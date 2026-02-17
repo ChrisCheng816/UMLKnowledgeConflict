@@ -1,0 +1,4 @@
+@startuml
+Papaya ..> PapayaTree
+PapayaSmoothie ..> Papaya
+@enduml

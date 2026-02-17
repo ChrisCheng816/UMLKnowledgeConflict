@@ -1,0 +1,4 @@
+@startuml
+GroupOfNeighbors o-- Community
+Neighbor o-- GroupOfNeighbors
+@enduml

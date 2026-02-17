@@ -1,0 +1,4 @@
+@startuml
+Sink *-- Basin
+Apartment *-- Sink
+@enduml

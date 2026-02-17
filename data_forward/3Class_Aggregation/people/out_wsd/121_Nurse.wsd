@@ -1,0 +1,4 @@
+@startuml
+CrewOfNurses o-- Nurse
+Clinic o-- CrewOfNurses
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-FlockOfRobin o-- River : aggregates
-Robin o-- FlockOfRobin : aggregates
-@enduml

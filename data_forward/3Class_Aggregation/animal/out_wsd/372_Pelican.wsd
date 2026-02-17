@@ -1,0 +1,4 @@
+@startuml
+FlockOfPelican o-- Pelican
+Clinic o-- FlockOfPelican
+@enduml

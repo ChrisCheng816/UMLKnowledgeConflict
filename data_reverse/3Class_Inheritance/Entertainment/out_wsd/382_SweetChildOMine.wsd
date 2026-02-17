@@ -1,4 +1,4 @@
 @startuml
-SweetChildOMine <|-- Song : inherits
-Song <|-- MusicWork : inherits
+SweetChildOMine <|-- Song
+Song <|-- MusicWork
 @enduml

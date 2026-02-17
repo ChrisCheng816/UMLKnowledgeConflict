@@ -1,4 +1,0 @@
-@startuml
-DisplayModule *-- Polarizer : composes
-Monitor *-- DisplayModule : composes
-@enduml

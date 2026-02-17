@@ -1,0 +1,4 @@
+@startuml
+SwarmOfFirefly o-- Mountain
+Firefly o-- SwarmOfFirefly
+@enduml

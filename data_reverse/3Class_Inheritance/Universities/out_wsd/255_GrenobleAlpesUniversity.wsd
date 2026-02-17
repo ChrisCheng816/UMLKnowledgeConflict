@@ -1,4 +1,4 @@
 @startuml
-GrenobleAlpesUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+GrenobleAlpesUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

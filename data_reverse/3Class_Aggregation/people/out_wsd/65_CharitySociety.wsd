@@ -1,4 +1,0 @@
-@startuml
-DonationTeam o-- CharitySociety : aggregates
-Volunteer o-- DonationTeam : aggregates
-@enduml

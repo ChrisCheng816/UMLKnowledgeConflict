@@ -1,4 +1,4 @@
 @startuml
-Baguette *-- BanhMi : composes
-Flour *-- Baguette : composes
+Baguette *-- BanhMi
+Flour *-- Baguette
 @enduml

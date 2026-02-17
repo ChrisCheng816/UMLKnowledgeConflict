@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Muscle : composes
-Axolotl *-- Leg : composes
+Leg *-- Muscle
+Axolotl *-- Leg
 @enduml

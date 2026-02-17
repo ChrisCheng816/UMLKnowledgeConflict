@@ -1,0 +1,4 @@
+@startuml
+Room *-- House
+Wall *-- Room
+@enduml

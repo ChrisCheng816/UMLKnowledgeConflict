@@ -1,0 +1,4 @@
+@startuml
+Echo ..> Reflection
+EchoLocation ..> Echo
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GroupOfScouts o-- Scout
+Community o-- GroupOfScouts
+@enduml

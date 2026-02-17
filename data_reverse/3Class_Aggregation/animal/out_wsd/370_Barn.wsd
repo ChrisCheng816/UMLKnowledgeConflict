@@ -1,4 +1,0 @@
-@startuml
-SchoolOfMackerel o-- Barn : aggregates
-Mackerel o-- SchoolOfMackerel : aggregates
-@enduml

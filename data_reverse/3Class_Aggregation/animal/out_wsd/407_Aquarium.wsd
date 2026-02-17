@@ -1,4 +1,0 @@
-@startuml
-GroupOfOctopus o-- Aquarium : aggregates
-Octopus o-- GroupOfOctopus : aggregates
-@enduml

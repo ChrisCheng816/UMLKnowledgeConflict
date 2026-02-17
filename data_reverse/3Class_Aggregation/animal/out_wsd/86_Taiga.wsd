@@ -1,4 +1,4 @@
 @startuml
-ColonyOfPanda o-- Taiga : aggregates
-Panda o-- ColonyOfPanda : aggregates
+ColonyOfPanda o-- Taiga
+Panda o-- ColonyOfPanda
 @enduml

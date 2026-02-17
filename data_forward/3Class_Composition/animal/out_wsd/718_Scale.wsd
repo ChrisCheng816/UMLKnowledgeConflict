@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Scale : composes
-Terrapin *-- Skin : composes
+Skin *-- Scale
+Terrapin *-- Skin
 @enduml

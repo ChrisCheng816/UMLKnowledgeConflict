@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Succulent : inherits
-Succulent <|-- Agave : inherits
+Plant <|-- Succulent
+Succulent <|-- Agave
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+ClubOfSingers o-- Club
+Singer o-- ClubOfSingers
+@enduml

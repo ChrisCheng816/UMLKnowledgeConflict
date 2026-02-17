@@ -1,4 +1,4 @@
 @startuml
-Door *-- Apartment : composes
-Deadbolt *-- Door : composes
+Sink *-- Apartment
+Basin *-- Sink
 @enduml

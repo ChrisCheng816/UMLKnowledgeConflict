@@ -1,0 +1,4 @@
+@startuml
+BlackPepper ..> PepperPlant
+PepperSauce ..> BlackPepper
+@enduml

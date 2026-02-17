@@ -1,4 +1,4 @@
 @startuml
-UniversityOfTheAndesColombia <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+UniversityOfTheAndesColombia <|-- University
+University <|-- EducationalInstitution
 @enduml

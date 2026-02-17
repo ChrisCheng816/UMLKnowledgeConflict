@@ -1,4 +1,0 @@
-@startuml
-Roof *-- RidgeBeam : composes
-Cabin *-- Roof : composes
-@enduml

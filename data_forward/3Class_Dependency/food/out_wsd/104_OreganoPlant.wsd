@@ -1,0 +1,4 @@
+@startuml
+Oregano ..> OreganoPlant
+OreganoSeasoning ..> Oregano
+@enduml

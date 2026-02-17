@@ -1,3 +1,3 @@
 @startuml
-WildlifeWarehouse o-- StorageBin : aggregates
+AquariumWarehouse o-- StorageBin
 @enduml

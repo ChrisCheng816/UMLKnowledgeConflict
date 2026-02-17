@@ -1,0 +1,4 @@
+@startuml
+PotatoStarch ..> Potatoes
+PotatoBread ..> PotatoStarch
+@enduml

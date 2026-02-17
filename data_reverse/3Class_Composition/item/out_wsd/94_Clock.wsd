@@ -1,0 +1,4 @@
+@startuml
+Hand *-- Clock
+Shaft *-- Hand
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sedan <|-- MidsizeSedan
+MidsizeSedan <|-- HondaAccord
+@enduml

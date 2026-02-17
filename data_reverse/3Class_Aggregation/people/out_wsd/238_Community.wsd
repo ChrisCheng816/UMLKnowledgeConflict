@@ -1,0 +1,4 @@
+@startuml
+GroupOfBartenders o-- Community
+Bartender o-- GroupOfBartenders
+@enduml

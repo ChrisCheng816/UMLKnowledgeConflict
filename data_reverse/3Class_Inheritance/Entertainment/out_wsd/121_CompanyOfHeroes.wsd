@@ -1,4 +1,4 @@
 @startuml
-CompanyOfHeroes <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+CompanyOfHeroes <|-- VideoGame
+VideoGame <|-- Game
 @enduml

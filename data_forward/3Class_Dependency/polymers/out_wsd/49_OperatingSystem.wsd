@@ -1,4 +1,0 @@
-@startuml
-EmailClient ..> OperatingSystem : depends on
-EmailReading ..> EmailClient : depends on
-@enduml

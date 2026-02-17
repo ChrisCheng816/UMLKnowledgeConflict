@@ -1,4 +1,4 @@
 @startuml
-DivinityOriginalSin2 <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+DivinityOriginalSin2 <|-- VideoGame
+VideoGame <|-- Game
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Friends <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+Friends <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

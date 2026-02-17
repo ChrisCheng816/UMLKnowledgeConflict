@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Civet : composes
-Nostril *-- Nose : composes
+Nose *-- Civet
+Nostril *-- Nose
 @enduml

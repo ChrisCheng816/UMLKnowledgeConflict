@@ -1,4 +1,0 @@
-@startuml
-GroupOfSquid o-- Delta : aggregates
-Squid o-- GroupOfSquid : aggregates
-@enduml

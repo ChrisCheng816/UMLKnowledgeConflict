@@ -1,4 +1,4 @@
 @startuml
-Hydrangea <|-- Flower : inherits
-Flower <|-- Plant : inherits
+Hydrangea <|-- Flower
+Flower <|-- Plant
 @enduml

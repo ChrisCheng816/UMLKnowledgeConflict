@@ -1,4 +1,0 @@
-@startuml
-BicycleWheel *-- Spoke : composes
-Bicycle *-- BicycleWheel : composes
-@enduml

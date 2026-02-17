@@ -1,4 +1,0 @@
-@startuml
-StorageBin o-- SportsWarehouse : aggregates
-Blanket o-- StorageBin : aggregates
-@enduml

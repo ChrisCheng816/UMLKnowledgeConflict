@@ -1,0 +1,4 @@
+@startuml
+Beets ..> BeetPlant
+BeetSalad ..> Beets
+@enduml

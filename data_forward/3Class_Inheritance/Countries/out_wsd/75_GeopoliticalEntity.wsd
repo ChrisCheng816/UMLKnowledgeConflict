@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- FrenchGuiana : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Honduras
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-TelephoneLine ..> LandlineModem : depends on
-WallJack ..> TelephoneLine : depends on
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Coati : composes
-Root *-- Tooth : composes
+Tooth *-- Coati
+Root *-- Tooth
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-ColonyOfTermite o-- Mountain : aggregates
-Termite o-- ColonyOfTermite : aggregates
-@enduml

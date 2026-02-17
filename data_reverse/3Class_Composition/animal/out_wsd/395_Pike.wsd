@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Pike : composes
-Filament *-- Gill : composes
+Gill *-- Pike
+Filament *-- Gill
 @enduml

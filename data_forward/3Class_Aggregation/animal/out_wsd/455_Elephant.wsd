@@ -1,0 +1,4 @@
+@startuml
+HerdOfElephants o-- Elephant
+Desert o-- HerdOfElephants
+@enduml

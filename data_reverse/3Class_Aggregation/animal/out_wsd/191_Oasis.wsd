@@ -1,0 +1,4 @@
+@startuml
+ColonyOfRabbit o-- Oasis
+Rabbit o-- ColonyOfRabbit
+@enduml

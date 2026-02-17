@@ -1,0 +1,4 @@
+@startuml
+ShiftOfNurses o-- Hospital
+Nurse o-- ShiftOfNurses
+@enduml

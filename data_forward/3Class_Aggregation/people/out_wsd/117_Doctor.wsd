@@ -1,0 +1,4 @@
+@startuml
+PanelOfDoctors o-- Doctor
+Conference o-- PanelOfDoctors
+@enduml

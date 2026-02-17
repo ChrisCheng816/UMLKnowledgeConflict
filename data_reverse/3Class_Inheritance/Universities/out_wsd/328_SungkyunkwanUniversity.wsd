@@ -1,4 +1,4 @@
 @startuml
-SungkyunkwanUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+SungkyunkwanUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

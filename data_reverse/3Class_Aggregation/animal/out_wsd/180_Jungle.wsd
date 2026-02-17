@@ -1,0 +1,4 @@
+@startuml
+PackOfLeopard o-- Jungle
+Leopard o-- PackOfLeopard
+@enduml

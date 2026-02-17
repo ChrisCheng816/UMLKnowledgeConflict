@@ -1,0 +1,4 @@
+@startuml
+CrewOfReceptionists o-- Festival
+Receptionist o-- CrewOfReceptionists
+@enduml

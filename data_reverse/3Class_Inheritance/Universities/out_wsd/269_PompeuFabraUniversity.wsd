@@ -1,4 +1,4 @@
 @startuml
-PompeuFabraUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+PompeuFabraUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

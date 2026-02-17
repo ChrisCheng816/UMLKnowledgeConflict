@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Giraffe : composes
-Root *-- Tooth : composes
+Tooth *-- Giraffe
+Root *-- Tooth
 @enduml

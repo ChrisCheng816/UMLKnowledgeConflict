@@ -1,4 +1,4 @@
 @startuml
-DieselTrain ..> LongDistanceTravel : depends on
-DieselFuel ..> DieselTrain : depends on
+DieselTrain ..> LongDistanceTravel
+DieselFuel ..> DieselTrain
 @enduml

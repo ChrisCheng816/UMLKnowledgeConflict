@@ -1,4 +1,0 @@
-@startuml
-EnsembleTeam o-- Cellist : aggregates
-MusicStation o-- EnsembleTeam : aggregates
-@enduml

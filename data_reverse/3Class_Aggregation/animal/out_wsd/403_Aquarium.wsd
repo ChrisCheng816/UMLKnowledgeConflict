@@ -1,4 +1,0 @@
-@startuml
-ArmyOfFrog o-- Aquarium : aggregates
-Frog o-- ArmyOfFrog : aggregates
-@enduml

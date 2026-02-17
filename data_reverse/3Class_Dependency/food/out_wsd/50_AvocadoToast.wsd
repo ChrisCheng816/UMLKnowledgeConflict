@@ -1,0 +1,4 @@
+@startuml
+Avocados ..> AvocadoToast
+AvocadoTree ..> Avocados
+@enduml

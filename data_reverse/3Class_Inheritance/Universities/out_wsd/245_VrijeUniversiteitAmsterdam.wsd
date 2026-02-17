@@ -1,4 +1,4 @@
 @startuml
-VrijeUniversiteitAmsterdam <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+VrijeUniversiteitAmsterdam <|-- University
+University <|-- EducationalInstitution
 @enduml

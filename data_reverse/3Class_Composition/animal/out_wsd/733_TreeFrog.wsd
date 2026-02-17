@@ -1,4 +1,4 @@
 @startuml
-Eye *-- TreeFrog : composes
-Lens *-- Eye : composes
+Eye *-- TreeFrog
+Lens *-- Eye
 @enduml

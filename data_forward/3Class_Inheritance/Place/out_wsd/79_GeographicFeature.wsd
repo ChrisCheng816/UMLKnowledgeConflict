@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Island : inherits
-Island <|-- Madagascar : inherits
+GeographicFeature <|-- Island
+Island <|-- Borneo
 @enduml

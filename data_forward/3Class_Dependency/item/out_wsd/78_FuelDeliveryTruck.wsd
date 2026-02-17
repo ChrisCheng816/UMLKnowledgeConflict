@@ -1,4 +1,0 @@
-@startuml
-DieselDepot ..> FuelDeliveryTruck : depends on
-Train ..> DieselDepot : depends on
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+TireInflator ..> CompressedAir
+Inflation ..> TireInflator
+@enduml

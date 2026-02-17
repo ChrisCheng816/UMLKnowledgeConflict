@@ -1,4 +1,4 @@
 @startuml
-Slalom <|-- AlpineSkiing : inherits
-AlpineSkiing <|-- WinterSport : inherits
+Slalom <|-- AlpineSkiing
+AlpineSkiing <|-- WinterSport
 @enduml

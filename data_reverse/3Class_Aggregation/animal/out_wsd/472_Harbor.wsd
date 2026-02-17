@@ -1,4 +1,0 @@
-@startuml
-HerdOfWildebeest o-- Harbor : aggregates
-Wildebeest o-- HerdOfWildebeest : aggregates
-@enduml

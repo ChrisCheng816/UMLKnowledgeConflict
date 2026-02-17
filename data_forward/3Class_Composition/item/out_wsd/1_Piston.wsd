@@ -1,4 +1,4 @@
 @startuml
-Engine *-- Piston : composes
-Car *-- Engine : composes
+Engine *-- Piston
+Car *-- Engine
 @enduml

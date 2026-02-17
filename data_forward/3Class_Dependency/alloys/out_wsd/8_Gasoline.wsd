@@ -1,4 +1,4 @@
 @startuml
-Car ..> Gasoline : depends on
-ErrandRunning ..> Car : depends on
+Car ..> Gasoline
+ErrandRunning ..> Car
 @enduml

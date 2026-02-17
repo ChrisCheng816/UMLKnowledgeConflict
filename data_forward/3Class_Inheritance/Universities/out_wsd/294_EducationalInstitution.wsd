@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inherits
-University <|-- NationalAndKapodistrianUniversityOfAthens : inherits
+EducationalInstitution <|-- University
+University <|-- NationalAndKapodistrianUniversityOfAthens
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-BirdwatchPlatform o-- WetlandProtectionCenter : aggregates
-Visitor o-- BirdwatchPlatform : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+Porcelain ..> PorcelainPlate
+Clay ..> Porcelain
+@enduml

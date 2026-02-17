@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Feather : composes
-Nuthatch *-- Wing : composes
+Wing *-- Feather
+Nuthatch *-- Wing
 @enduml

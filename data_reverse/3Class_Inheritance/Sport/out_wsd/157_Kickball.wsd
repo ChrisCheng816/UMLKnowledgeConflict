@@ -1,4 +1,4 @@
 @startuml
-Kickball <|-- TeamSport : inherits
-TeamSport <|-- Sport : inherits
+Kickball <|-- TeamSport
+TeamSport <|-- Sport
 @enduml

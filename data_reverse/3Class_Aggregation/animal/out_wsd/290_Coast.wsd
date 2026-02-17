@@ -1,4 +1,0 @@
-@startuml
-FlockOfRobin o-- Coast : aggregates
-Robin o-- FlockOfRobin : aggregates
-@enduml

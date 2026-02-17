@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Goldfinch : composes
-Feather *-- Wing : composes
+Wing *-- Goldfinch
+Feather *-- Wing
 @enduml

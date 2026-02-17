@@ -1,4 +1,0 @@
-@startuml
-SchoolOfCatfish o-- Catfish : aggregates
-Valley o-- SchoolOfCatfish : aggregates
-@enduml

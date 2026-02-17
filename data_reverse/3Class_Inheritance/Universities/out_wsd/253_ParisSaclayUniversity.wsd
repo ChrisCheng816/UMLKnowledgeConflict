@@ -1,4 +1,4 @@
 @startuml
-ParisSaclayUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+ParisSaclayUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

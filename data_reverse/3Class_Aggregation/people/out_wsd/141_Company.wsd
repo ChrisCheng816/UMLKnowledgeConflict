@@ -1,0 +1,4 @@
+@startuml
+StaffOfFriends o-- Company
+Friend o-- StaffOfFriends
+@enduml

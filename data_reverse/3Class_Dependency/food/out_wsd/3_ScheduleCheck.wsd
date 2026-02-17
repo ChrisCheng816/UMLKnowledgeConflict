@@ -1,4 +1,0 @@
-@startuml
-AppointmentBooking ..> ScheduleCheck : depends on
-InternetConnection ..> AppointmentBooking : depends on
-@enduml

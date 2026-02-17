@@ -1,0 +1,4 @@
+@startuml
+CrewOfCampers o-- Camper
+Festival o-- CrewOfCampers
+@enduml

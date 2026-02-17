@@ -1,4 +1,4 @@
 @startuml
-WeizmannInstituteOfScience <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+WeizmannInstituteOfScience <|-- University
+University <|-- EducationalInstitution
 @enduml

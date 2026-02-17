@@ -1,4 +1,4 @@
 @startuml
-WickedMusical <|-- MusicalTheatre : inherits
-MusicalTheatre <|-- Theatre : inherits
+WickedMusical <|-- MusicalTheatre
+MusicalTheatre <|-- Theatre
 @enduml

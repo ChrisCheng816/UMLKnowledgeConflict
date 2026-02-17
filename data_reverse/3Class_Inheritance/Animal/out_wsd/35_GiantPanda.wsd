@@ -1,4 +1,4 @@
 @startuml
-GiantPanda <|-- Mammal : inherits
-Mammal <|-- Animal : inherits
+GiantPanda <|-- Mammal
+Mammal <|-- Animal
 @enduml

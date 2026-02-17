@@ -1,4 +1,4 @@
 @startuml
-SnowWhiteAndTheSevenDwarfs <|-- AnimatedFilm : inherits
-AnimatedFilm <|-- Film : inherits
+SnowWhiteAndTheSevenDwarfs <|-- AnimatedFilm
+AnimatedFilm <|-- Film
 @enduml

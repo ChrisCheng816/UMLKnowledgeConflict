@@ -1,4 +1,4 @@
 @startuml
-IceClimbing <|-- WinterSport : inherits
-WinterSport <|-- Sport : inherits
+IceClimbing <|-- WinterSport
+WinterSport <|-- Sport
 @enduml

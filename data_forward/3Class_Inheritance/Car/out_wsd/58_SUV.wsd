@@ -1,0 +1,4 @@
+@startuml
+SUV <|-- ExtendedSUV
+ExtendedSUV <|-- ChevroletSuburban
+@enduml

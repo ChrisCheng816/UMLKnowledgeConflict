@@ -1,4 +1,4 @@
 @startuml
-NissanLeaf <|-- Nissan : inherits
-Nissan <|-- CarManufacturer : inherits
+NissanLeaf <|-- ElectricHatchback
+ElectricHatchback <|-- Hatchback
 @enduml

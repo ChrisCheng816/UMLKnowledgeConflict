@@ -1,4 +1,0 @@
-@startuml
-Section *-- Article : composes
-Newspaper *-- Section : composes
-@enduml

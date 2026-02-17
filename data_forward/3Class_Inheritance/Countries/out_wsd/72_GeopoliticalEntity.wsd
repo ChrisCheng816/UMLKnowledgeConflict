@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Fiji : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Guyana
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Kiribati : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Mexico
 @enduml

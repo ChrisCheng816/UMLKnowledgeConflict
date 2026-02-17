@@ -1,4 +1,0 @@
-@startuml
-FlockOfMagpie o-- Marsh : aggregates
-Magpie o-- FlockOfMagpie : aggregates
-@enduml

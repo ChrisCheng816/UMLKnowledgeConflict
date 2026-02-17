@@ -1,0 +1,4 @@
+@startuml
+Cotton ..> CottonShirt
+CottonPlant ..> Cotton
+@enduml

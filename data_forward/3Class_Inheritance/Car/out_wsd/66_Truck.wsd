@@ -1,0 +1,4 @@
+@startuml
+Truck <|-- ElectricPickup
+ElectricPickup <|-- TeslaCybertruck
+@enduml

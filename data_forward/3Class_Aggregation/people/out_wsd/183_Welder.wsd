@@ -1,4 +1,0 @@
-@startuml
-WorkCrew o-- Welder : aggregates
-ConstructionSite o-- WorkCrew : aggregates
-@enduml

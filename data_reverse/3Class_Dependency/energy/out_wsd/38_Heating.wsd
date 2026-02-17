@@ -1,0 +1,4 @@
+@startuml
+HotAirStation ..> Heating
+Electricity ..> HotAirStation
+@enduml

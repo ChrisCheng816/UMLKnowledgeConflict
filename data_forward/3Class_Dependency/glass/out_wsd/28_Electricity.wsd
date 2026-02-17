@@ -1,4 +1,4 @@
 @startuml
-HeadlampLight ..> Electricity : depends on
-OperatingRoomLighting ..> HeadlampLight : depends on
+InfusionPump ..> Electricity
+FluidAdministration ..> InfusionPump
 @enduml

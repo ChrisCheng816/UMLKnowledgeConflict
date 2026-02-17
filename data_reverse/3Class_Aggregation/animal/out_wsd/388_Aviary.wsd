@@ -1,4 +1,0 @@
-@startuml
-SwarmOfDragonfly o-- Aviary : aggregates
-Dragonfly o-- SwarmOfDragonfly : aggregates
-@enduml

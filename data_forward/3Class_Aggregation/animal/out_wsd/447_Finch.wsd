@@ -1,4 +1,0 @@
-@startuml
-FlockOfFinch o-- Finch : aggregates
-Nursery o-- FlockOfFinch : aggregates
-@enduml

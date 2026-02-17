@@ -1,0 +1,4 @@
+@startuml
+SwarmOfFlies o-- Fly
+Farm o-- SwarmOfFlies
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sedan <|-- ElectricSedan
+ElectricSedan <|-- TeslaModelS
+@enduml

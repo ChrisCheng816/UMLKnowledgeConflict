@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- RootVegetable : inherits
-RootVegetable <|-- LotusRoot : inherits
+Vegetable <|-- RootVegetable
+RootVegetable <|-- LotusRoot
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-ColonyOfRabbit o-- Oasis : aggregates
-Rabbit o-- ColonyOfRabbit : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-AccessController ..> WallOutlet : depends on
-DoorAccessReader ..> AccessController : depends on
+Amplifier ..> WallOutlet
+PublicAddressSystem ..> Amplifier
 @enduml

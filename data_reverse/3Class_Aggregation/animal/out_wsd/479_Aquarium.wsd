@@ -1,0 +1,4 @@
+@startuml
+SchoolOfTrouts o-- Aquarium
+Trout o-- SchoolOfTrouts
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-BeachSoccer <|-- AssociationFootball : inherits
-AssociationFootball <|-- TeamSport : inherits
+BeachSoccer <|-- AssociationFootball
+AssociationFootball <|-- TeamSport
 @enduml

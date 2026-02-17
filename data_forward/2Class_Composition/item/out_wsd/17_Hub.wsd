@@ -1,3 +1,3 @@
 @startuml
-WheelAssembly *-- Hub : composes
+BicycleWheel *-- Hub
 @enduml

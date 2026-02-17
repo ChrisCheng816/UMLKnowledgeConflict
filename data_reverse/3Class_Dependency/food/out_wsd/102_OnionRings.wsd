@@ -1,0 +1,4 @@
+@startuml
+Onion ..> OnionRings
+OnionPlant ..> Onion
+@enduml

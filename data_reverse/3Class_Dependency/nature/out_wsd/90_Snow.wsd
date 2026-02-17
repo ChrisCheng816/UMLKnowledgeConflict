@@ -1,4 +1,0 @@
-@startuml
-ColdAirMass ..> Snow : depends on
-PolarAir ..> ColdAirMass : depends on
-@enduml

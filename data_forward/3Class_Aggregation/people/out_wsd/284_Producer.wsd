@@ -1,4 +1,0 @@
-@startuml
-ProcurementTeam o-- Producer : aggregates
-MediaArtMuseum o-- ProcurementTeam : aggregates
-@enduml

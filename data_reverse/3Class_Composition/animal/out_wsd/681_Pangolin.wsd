@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Pangolin : composes
-Nostril *-- Nose : composes
+Nose *-- Pangolin
+Nostril *-- Nose
 @enduml

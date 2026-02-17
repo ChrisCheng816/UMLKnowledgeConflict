@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- ComputerScientist : inherits
-ComputerScientist <|-- DonaldKnuth : inherits
+Scientist <|-- ComputerScientist
+ComputerScientist <|-- DonaldKnuth
 @enduml

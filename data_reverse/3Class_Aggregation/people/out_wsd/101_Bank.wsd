@@ -1,0 +1,4 @@
+@startuml
+ShiftOfClerks o-- Bank
+Clerk o-- ShiftOfClerks
+@enduml

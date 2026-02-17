@@ -1,4 +1,0 @@
-@startuml
-MessageQueue o-- QueueMessage : aggregates
-BookingSystemService o-- MessageQueue : aggregates
-@enduml

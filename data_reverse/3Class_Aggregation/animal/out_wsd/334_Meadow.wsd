@@ -1,4 +1,0 @@
-@startuml
-HerdOfReindeer o-- Meadow : aggregates
-Reindeer o-- HerdOfReindeer : aggregates
-@enduml

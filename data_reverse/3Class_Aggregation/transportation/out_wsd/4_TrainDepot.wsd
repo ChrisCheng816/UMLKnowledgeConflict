@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- TrainDepot
+Train o-- Fleet
+@enduml

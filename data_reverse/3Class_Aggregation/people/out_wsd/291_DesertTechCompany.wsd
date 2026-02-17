@@ -1,4 +1,0 @@
-@startuml
-LegalAidTeam o-- DesertTechCompany : aggregates
-PeerReviewer o-- LegalAidTeam : aggregates
-@enduml

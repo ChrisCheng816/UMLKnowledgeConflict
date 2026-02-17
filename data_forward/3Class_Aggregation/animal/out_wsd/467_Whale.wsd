@@ -1,0 +1,4 @@
+@startuml
+PodOfWhales o-- Whale
+Lagoon o-- PodOfWhales
+@enduml

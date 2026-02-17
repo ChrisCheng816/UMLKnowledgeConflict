@@ -1,3 +1,3 @@
 @startuml
-CableModem ..> PowerAdapter : depends on
+CableModem ..> PowerAdapter
 @enduml

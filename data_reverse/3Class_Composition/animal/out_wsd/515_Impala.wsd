@@ -1,4 +1,4 @@
 @startuml
-Hoof *-- Impala : composes
-Sole *-- Hoof : composes
+Hoof *-- Impala
+Sole *-- Hoof
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Brazil : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Cambodia
 @enduml

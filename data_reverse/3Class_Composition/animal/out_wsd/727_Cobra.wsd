@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Cobra : composes
-Lens *-- Eye : composes
+Eye *-- Cobra
+Lens *-- Eye
 @enduml

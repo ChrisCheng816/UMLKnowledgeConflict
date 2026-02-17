@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- StemVegetable : inherits
-StemVegetable <|-- Fennel : inherits
+Vegetable <|-- StemVegetable
+StemVegetable <|-- Fennel
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Alligator : composes
-Scale *-- Skin : composes
+Skin *-- Alligator
+Scale *-- Skin
 @enduml

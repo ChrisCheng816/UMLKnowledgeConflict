@@ -1,4 +1,0 @@
-@startuml
-Compiler ..> OperatingSystem : depends on
-Optimization ..> Compiler : depends on
-@enduml

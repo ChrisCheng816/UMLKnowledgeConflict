@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Mammal : inherits
-Mammal <|-- Elephant : inherits
+Animal <|-- Mammal
+Mammal <|-- Elephant
 @enduml

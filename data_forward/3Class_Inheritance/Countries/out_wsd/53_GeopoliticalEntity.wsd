@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Croatia : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- ElSalvador
 @enduml

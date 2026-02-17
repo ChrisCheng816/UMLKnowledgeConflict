@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Cat : composes
-Eardrum *-- Ear : composes
+Ear *-- Cat
+Eardrum *-- Ear
 @enduml

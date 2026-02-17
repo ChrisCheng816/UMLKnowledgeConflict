@@ -1,4 +1,4 @@
 @startuml
-WallE <|-- Film : inherits
-Film <|-- Entertainment : inherits
+WallE <|-- Film
+Film <|-- Entertainment
 @enduml

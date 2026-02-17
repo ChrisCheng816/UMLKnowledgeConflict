@@ -1,4 +1,0 @@
-@startuml
-Rainfall ..> StormSystem : depends on
-SoilMoisture ..> Rainfall : depends on
-@enduml

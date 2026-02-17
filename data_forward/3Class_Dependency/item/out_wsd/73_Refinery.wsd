@@ -1,4 +1,0 @@
-@startuml
-FuelTerminal ..> Refinery : depends on
-FuelTankerTruck ..> FuelTerminal : depends on
-@enduml

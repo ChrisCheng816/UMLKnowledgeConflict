@@ -1,4 +1,0 @@
-@startuml
-TreePlantingSite o-- Sapling : aggregates
-DesertRestorationArea o-- TreePlantingSite : aggregates
-@enduml

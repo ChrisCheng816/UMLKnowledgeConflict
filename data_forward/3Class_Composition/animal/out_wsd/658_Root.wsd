@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root : composes
-PrairieDog *-- Tooth : composes
+Tooth *-- Root
+PrairieDog *-- Tooth
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-WallSwitch ..> WallOutlet : depends on
-CeilingFan ..> WallSwitch : depends on
+WallSwitch ..> WallOutlet
+CeilingFan ..> WallSwitch
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GasOven ..> Baking : depends on
-NaturalGas ..> GasOven : depends on
+GasOven ..> Baking
+NaturalGas ..> GasOven
 @enduml

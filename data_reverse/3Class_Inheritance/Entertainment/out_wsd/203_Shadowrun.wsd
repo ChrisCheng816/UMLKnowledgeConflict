@@ -1,4 +1,4 @@
 @startuml
-Shadowrun <|-- TabletopRPG : inherits
-TabletopRPG <|-- Game : inherits
+Shadowrun <|-- TabletopRPG
+TabletopRPG <|-- Game
 @enduml

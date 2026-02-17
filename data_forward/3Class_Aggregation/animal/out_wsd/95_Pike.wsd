@@ -1,4 +1,4 @@
 @startuml
-SchoolOfPike o-- Pike : aggregates
-Reef o-- SchoolOfPike : aggregates
+SchoolOfPike o-- Pike
+Reef o-- SchoolOfPike
 @enduml

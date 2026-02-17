@@ -1,4 +1,0 @@
-@startuml
-Committee o-- ProfessionalSociety : aggregates
-Secretary o-- Committee : aggregates
-@enduml

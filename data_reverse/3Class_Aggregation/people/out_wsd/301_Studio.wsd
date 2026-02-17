@@ -1,0 +1,4 @@
+@startuml
+CrewOfReporters o-- Studio
+Reporter o-- CrewOfReporters
+@enduml

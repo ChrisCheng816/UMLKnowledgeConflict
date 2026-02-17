@@ -1,0 +1,4 @@
+@startuml
+SwarmOfAnts o-- Reef
+Ant o-- SwarmOfAnts
+@enduml

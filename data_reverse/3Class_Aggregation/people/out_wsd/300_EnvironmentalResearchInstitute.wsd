@@ -1,4 +1,0 @@
-@startuml
-ResearchTeam o-- EnvironmentalResearchInstitute : aggregates
-ResearchFellow o-- ResearchTeam : aggregates
-@enduml

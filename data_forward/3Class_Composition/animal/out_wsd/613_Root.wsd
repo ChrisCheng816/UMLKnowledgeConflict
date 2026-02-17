@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root : composes
-RedPanda *-- Tooth : composes
+Tooth *-- Root
+RedPanda *-- Tooth
 @enduml

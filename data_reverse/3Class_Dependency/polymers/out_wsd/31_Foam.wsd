@@ -1,0 +1,4 @@
+@startuml
+Oil ..> Foam
+CrudeOil ..> Oil
+@enduml

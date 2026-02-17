@@ -1,4 +1,0 @@
-@startuml
-MusicNotationSoftware ..> MusicComposition : depends on
-OperatingSystem ..> MusicNotationSoftware : depends on
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-NorwegianUniversityOfScienceAndTechnology <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+NorwegianUniversityOfScienceAndTechnology <|-- University
+University <|-- EducationalInstitution
 @enduml

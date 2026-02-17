@@ -1,0 +1,4 @@
+@startuml
+StaffOfSpeakers o-- Speaker
+Company o-- StaffOfSpeakers
+@enduml

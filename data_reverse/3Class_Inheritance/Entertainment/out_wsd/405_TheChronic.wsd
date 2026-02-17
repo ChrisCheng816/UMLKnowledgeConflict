@@ -1,4 +1,4 @@
 @startuml
-TheChronic <|-- Album : inherits
-Album <|-- MusicWork : inherits
+TheChronic <|-- Album
+Album <|-- MusicWork
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+FlockOfCrow o-- Shelter
+Crow o-- FlockOfCrow
+@enduml

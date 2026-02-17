@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Ray : composes
-Pufferfish *-- Fin : composes
+Fin *-- Ray
+Pufferfish *-- Fin
 @enduml

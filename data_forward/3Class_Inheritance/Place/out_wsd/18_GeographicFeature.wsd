@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Continent : inherits
-Continent <|-- AustraliaContinent : inherits
+GeographicFeature <|-- Continent
+Continent <|-- Antarctica
 @enduml

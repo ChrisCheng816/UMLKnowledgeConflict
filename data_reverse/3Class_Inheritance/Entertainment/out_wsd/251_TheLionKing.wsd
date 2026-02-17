@@ -1,4 +1,4 @@
 @startuml
-TheLionKing <|-- Film : inherits
-Film <|-- Entertainment : inherits
+TheLionKing <|-- Film
+Film <|-- Entertainment
 @enduml

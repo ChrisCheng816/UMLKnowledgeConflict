@@ -1,0 +1,4 @@
+@startuml
+Substation o-- Transformer
+PowerGrid o-- Substation
+@enduml

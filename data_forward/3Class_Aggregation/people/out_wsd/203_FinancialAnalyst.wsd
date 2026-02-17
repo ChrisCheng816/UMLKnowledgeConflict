@@ -1,4 +1,0 @@
-@startuml
-AdmissionsCommittee o-- FinancialAnalyst : aggregates
-ClinicalCityCouncil o-- AdmissionsCommittee : aggregates
-@enduml

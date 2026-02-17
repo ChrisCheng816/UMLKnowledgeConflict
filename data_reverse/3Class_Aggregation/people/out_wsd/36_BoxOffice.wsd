@@ -1,0 +1,4 @@
+@startuml
+LineOfFans o-- BoxOffice
+Fan o-- LineOfFans
+@enduml

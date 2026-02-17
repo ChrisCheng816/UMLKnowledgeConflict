@@ -1,0 +1,4 @@
+@startuml
+EarthHeat ..> EarthCore
+MantleConvection ..> EarthHeat
+@enduml

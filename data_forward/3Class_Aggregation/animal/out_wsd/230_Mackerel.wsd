@@ -1,4 +1,0 @@
-@startuml
-SchoolOfMackerel o-- Mackerel : aggregates
-Valley o-- SchoolOfMackerel : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+CrewOfClerks o-- Clerk
+Library o-- CrewOfClerks
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Lake : inherits
-Lake <|-- LakeTahoe : inherits
+GeographicFeature <|-- Desert
+Desert <|-- Sahara
 @enduml

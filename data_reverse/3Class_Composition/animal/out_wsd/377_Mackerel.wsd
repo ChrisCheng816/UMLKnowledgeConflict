@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Mackerel : composes
-Filament *-- Gill : composes
+Gill *-- Mackerel
+Filament *-- Gill
 @enduml

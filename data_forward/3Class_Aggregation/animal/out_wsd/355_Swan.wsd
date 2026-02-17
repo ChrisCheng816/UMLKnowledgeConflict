@@ -1,0 +1,4 @@
+@startuml
+FlockOfSwan o-- Swan
+Zoo o-- FlockOfSwan
+@enduml

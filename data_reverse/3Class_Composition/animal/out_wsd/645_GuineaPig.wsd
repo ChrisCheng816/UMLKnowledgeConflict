@@ -1,4 +1,4 @@
 @startuml
-Nose *-- GuineaPig : composes
-Nostril *-- Nose : composes
+Nose *-- GuineaPig
+Nostril *-- Nose
 @enduml

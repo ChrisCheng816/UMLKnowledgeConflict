@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inherits
-University <|-- UniversityOfSouthFlorida : inherits
+EducationalInstitution <|-- University
+University <|-- UniversityOfSouthFlorida
 @enduml

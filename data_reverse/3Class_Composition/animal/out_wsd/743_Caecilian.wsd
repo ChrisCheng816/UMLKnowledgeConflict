@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Caecilian : composes
-Muscle *-- Leg : composes
+Leg *-- Caecilian
+Muscle *-- Leg
 @enduml

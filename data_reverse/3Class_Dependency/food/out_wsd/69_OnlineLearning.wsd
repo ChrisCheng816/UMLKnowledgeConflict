@@ -1,4 +1,0 @@
-@startuml
-OnlineCoursePlatform ..> OnlineLearning : depends on
-InternetConnection ..> OnlineCoursePlatform : depends on
-@enduml

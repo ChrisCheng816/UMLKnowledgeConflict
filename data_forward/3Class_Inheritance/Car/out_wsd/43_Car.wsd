@@ -1,0 +1,4 @@
+@startuml
+Car <|-- CompactCar
+CompactCar <|-- HondaCivic
+@enduml

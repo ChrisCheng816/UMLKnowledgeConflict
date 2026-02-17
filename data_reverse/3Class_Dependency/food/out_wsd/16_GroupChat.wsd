@@ -1,4 +1,0 @@
-@startuml
-CommunityForum ..> GroupChat : depends on
-InternetConnection ..> CommunityForum : depends on
-@enduml

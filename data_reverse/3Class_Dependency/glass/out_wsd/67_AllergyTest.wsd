@@ -1,0 +1,4 @@
+@startuml
+TestKit ..> AllergyTest
+Reagent ..> TestKit
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-Window *-- Apartment : composes
-WindowLatch *-- Window : composes
-@enduml

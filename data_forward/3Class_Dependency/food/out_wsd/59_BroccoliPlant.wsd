@@ -1,0 +1,4 @@
+@startuml
+Broccoli ..> BroccoliPlant
+BroccoliSoup ..> Broccoli
+@enduml

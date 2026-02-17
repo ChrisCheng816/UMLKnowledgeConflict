@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Bahamas : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Belarus
 @enduml

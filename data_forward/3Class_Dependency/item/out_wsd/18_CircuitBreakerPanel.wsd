@@ -1,4 +1,4 @@
 @startuml
-WallOutlet ..> CircuitBreakerPanel : depends on
-BatteryCharger ..> WallOutlet : depends on
+WallOutlet ..> CircuitBreakerPanel
+BatteryCharger ..> WallOutlet
 @enduml

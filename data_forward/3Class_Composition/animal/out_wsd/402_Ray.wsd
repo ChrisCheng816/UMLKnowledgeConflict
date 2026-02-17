@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Ray : composes
-Barracuda *-- Fin : composes
+Fin *-- Ray
+Barracuda *-- Fin
 @enduml

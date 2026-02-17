@@ -1,4 +1,0 @@
-@startuml
-SwarmOfLocust o-- Mountain : aggregates
-Locust o-- SwarmOfLocust : aggregates
-@enduml

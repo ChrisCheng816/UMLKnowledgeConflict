@@ -1,4 +1,0 @@
-@startuml
-EthernetCable ..> BroadbandModem : depends on
-Router ..> EthernetCable : depends on
-@enduml

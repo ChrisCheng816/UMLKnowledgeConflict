@@ -1,4 +1,4 @@
 @startuml
-StarWarsTheEmpireStrikesBack <|-- Film : inherits
-Film <|-- Entertainment : inherits
+StarWarsTheEmpireStrikesBack <|-- Film
+Film <|-- Entertainment
 @enduml

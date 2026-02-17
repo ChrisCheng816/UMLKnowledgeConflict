@@ -1,4 +1,4 @@
 @startuml
-SwarmOfMosquito o-- Lagoon : aggregates
-Mosquito o-- SwarmOfMosquito : aggregates
+SwarmOfMosquito o-- Lagoon
+Mosquito o-- SwarmOfMosquito
 @enduml

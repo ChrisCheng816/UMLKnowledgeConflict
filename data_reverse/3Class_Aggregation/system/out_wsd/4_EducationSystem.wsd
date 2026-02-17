@@ -1,0 +1,4 @@
+@startuml
+School o-- EducationSystem
+Classroom o-- School
+@enduml

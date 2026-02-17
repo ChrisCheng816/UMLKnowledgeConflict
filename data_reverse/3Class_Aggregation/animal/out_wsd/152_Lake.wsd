@@ -1,4 +1,0 @@
-@startuml
-FlockOfDove o-- Lake : aggregates
-Dove o-- FlockOfDove : aggregates
-@enduml

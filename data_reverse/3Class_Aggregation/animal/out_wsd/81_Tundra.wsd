@@ -1,4 +1,4 @@
 @startuml
-ColonyOfMouse o-- Tundra : aggregates
-Mouse o-- ColonyOfMouse : aggregates
+ColonyOfMouse o-- Tundra
+Mouse o-- ColonyOfMouse
 @enduml

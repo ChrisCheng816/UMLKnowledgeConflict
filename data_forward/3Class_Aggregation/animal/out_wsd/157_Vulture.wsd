@@ -1,4 +1,0 @@
-@startuml
-FlockOfVulture o-- Vulture : aggregates
-Lake o-- FlockOfVulture : aggregates
-@enduml

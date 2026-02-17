@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- River : inherits
-River <|-- Thames : inherits
+GeographicFeature <|-- River
+River <|-- Seine
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-WeatherWebsite ..> InternetConnection : depends on
-InformationLookup ..> WeatherWebsite : depends on
-@enduml

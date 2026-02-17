@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Nuthatch : composes
-Nostril *-- Beak : composes
+Beak *-- Nuthatch
+Nostril *-- Beak
 @enduml

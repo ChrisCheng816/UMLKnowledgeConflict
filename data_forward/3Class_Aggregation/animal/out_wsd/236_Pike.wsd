@@ -1,4 +1,0 @@
-@startuml
-SchoolOfPike o-- Pike : aggregates
-Hill o-- SchoolOfPike : aggregates
-@enduml

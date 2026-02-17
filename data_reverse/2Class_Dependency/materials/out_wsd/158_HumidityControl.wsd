@@ -1,3 +1,3 @@
 @startuml
-Humidifier ..> HumidityControl : depends on
+Humidifier ..> HumidityControl
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MetroidPrime <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+MetroidPrime <|-- VideoGame
+VideoGame <|-- Game
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-HerdOfElephant o-- Cave : aggregates
-Elephant o-- HerdOfElephant : aggregates
-@enduml

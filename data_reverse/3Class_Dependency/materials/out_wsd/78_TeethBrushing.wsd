@@ -1,4 +1,4 @@
 @startuml
-ElectricToothbrush ..> TeethBrushing : depends on
-Electricity ..> ElectricToothbrush : depends on
+ElectricToothbrush ..> TeethBrushing
+Electricity ..> ElectricToothbrush
 @enduml

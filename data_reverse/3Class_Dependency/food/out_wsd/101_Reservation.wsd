@@ -1,4 +1,0 @@
-@startuml
-RestaurantReservation ..> Reservation : depends on
-InternetConnection ..> RestaurantReservation : depends on
-@enduml

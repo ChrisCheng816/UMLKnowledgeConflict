@@ -1,4 +1,4 @@
 @startuml
-Kohlrabi <|-- CruciferousVegetable : inherits
-CruciferousVegetable <|-- Vegetable : inherits
+Kohlrabi <|-- CruciferousVegetable
+CruciferousVegetable <|-- Vegetable
 @enduml

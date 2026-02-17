@@ -1,4 +1,0 @@
-@startuml
-TruckStop ..> DieselTruck : depends on
-FuelDeliveryTruck ..> TruckStop : depends on
-@enduml

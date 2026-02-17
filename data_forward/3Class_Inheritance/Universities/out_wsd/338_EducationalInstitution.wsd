@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inherits
-University <|-- BenGurionUniversityOfTheNegev : inherits
+EducationalInstitution <|-- University
+University <|-- BenGurionUniversityOfTheNegev
 @enduml

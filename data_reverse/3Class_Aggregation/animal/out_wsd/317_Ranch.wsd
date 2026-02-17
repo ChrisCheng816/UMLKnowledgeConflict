@@ -1,0 +1,4 @@
+@startuml
+ColonyOfSkunk o-- Ranch
+Skunk o-- ColonyOfSkunk
+@enduml

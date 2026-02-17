@@ -1,4 +1,0 @@
-@startuml
-HerdOfHorse o-- Horse : aggregates
-Cave o-- HerdOfHorse : aggregates
-@enduml

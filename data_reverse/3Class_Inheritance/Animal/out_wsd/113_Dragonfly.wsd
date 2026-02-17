@@ -1,4 +1,4 @@
 @startuml
-Dragonfly <|-- Insect : inherits
-Insect <|-- Animal : inherits
+Dragonfly <|-- Insect
+Insect <|-- Animal
 @enduml

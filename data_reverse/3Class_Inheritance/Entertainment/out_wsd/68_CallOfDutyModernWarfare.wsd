@@ -1,4 +1,4 @@
 @startuml
-CallOfDutyModernWarfare <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+CallOfDutyModernWarfare <|-- VideoGame
+VideoGame <|-- Game
 @enduml

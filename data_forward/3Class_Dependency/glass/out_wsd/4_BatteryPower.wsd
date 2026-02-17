@@ -1,4 +1,0 @@
-@startuml
-BloodPressureMonitor ..> BatteryPower : depends on
-BloodPressureCheck ..> BloodPressureMonitor : depends on
-@enduml

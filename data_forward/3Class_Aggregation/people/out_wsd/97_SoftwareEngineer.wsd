@@ -1,4 +1,0 @@
-@startuml
-InfraTeam o-- SoftwareEngineer : aggregates
-TechAuthority o-- InfraTeam : aggregates
-@enduml

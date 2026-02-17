@@ -1,4 +1,4 @@
 @startuml
-CosmicEncounter <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+CosmicEncounter <|-- BoardGame
+BoardGame <|-- Game
 @enduml

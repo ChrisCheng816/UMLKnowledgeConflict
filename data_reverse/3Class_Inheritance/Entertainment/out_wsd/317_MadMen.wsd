@@ -1,4 +1,4 @@
 @startuml
-MadMen <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+MadMen <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

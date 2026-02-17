@@ -1,4 +1,4 @@
 @startuml
-Battleship <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+Battleship <|-- BoardGame
+BoardGame <|-- Game
 @enduml

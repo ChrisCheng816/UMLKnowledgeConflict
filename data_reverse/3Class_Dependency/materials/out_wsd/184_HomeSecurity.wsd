@@ -1,4 +1,4 @@
 @startuml
-SmartLock ..> HomeSecurity : depends on
-Electricity ..> SmartLock : depends on
+SmartLock ..> HomeSecurity
+Electricity ..> SmartLock
 @enduml

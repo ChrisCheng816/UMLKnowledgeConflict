@@ -1,4 +1,0 @@
-@startuml
-TroopOfGorilla o-- Gorilla : aggregates
-Inlet o-- TroopOfGorilla : aggregates
-@enduml

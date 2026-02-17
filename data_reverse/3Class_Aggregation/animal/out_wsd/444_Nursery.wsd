@@ -1,4 +1,0 @@
-@startuml
-FlockOfFalcon o-- Nursery : aggregates
-Falcon o-- FlockOfFalcon : aggregates
-@enduml

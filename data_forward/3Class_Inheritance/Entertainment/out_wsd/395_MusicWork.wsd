@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Album : inherits
-Album <|-- Nevermind : inherits
+MusicWork <|-- Album
+Album <|-- Nevermind
 @enduml

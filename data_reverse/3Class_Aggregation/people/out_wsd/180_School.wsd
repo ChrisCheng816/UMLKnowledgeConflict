@@ -1,0 +1,4 @@
+@startuml
+ClubOfSwimmers o-- School
+Swimmer o-- ClubOfSwimmers
+@enduml

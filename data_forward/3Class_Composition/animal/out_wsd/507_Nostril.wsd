@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Nostril : composes
-Wildebeest *-- Nose : composes
+Nose *-- Nostril
+Wildebeest *-- Nose
 @enduml

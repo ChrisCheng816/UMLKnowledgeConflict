@@ -1,0 +1,4 @@
+@startuml
+SUV <|-- ThreeRowSUV
+ThreeRowSUV <|-- NissanPathfinder
+@enduml

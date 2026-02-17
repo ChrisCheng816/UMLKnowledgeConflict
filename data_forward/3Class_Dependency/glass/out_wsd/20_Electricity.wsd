@@ -1,4 +1,0 @@
-@startuml
-ECGMonitor ..> Electricity : depends on
-PatientMonitoring ..> ECGMonitor : depends on
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-Privet <|-- Shrub : inherits
-Shrub <|-- Plant : inherits
+Privet <|-- Shrub
+Shrub <|-- Plant
 @enduml

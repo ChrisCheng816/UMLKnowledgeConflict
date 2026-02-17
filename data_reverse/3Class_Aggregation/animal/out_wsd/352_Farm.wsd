@@ -1,4 +1,0 @@
-@startuml
-ColonyOfRabbit o-- Farm : aggregates
-Rabbit o-- ColonyOfRabbit : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-GalileoGalilei <|-- Astronomer : inherits
-Astronomer <|-- Scientist : inherits
+GalileoGalilei <|-- Astronomer
+Astronomer <|-- Scientist
 @enduml

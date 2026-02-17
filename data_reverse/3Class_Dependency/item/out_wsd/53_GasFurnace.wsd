@@ -1,4 +1,0 @@
-@startuml
-GasMeter ..> GasFurnace : depends on
-GasPipeline ..> GasMeter : depends on
-@enduml

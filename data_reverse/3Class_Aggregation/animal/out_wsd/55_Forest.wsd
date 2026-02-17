@@ -1,4 +1,4 @@
 @startuml
-HerdOfGoat o-- Forest : aggregates
-Goat o-- HerdOfGoat : aggregates
+HerdOfGoat o-- Forest
+Goat o-- HerdOfGoat
 @enduml

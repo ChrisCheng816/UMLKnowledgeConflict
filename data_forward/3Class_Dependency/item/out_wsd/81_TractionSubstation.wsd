@@ -1,4 +1,0 @@
-@startuml
-OverheadLine ..> TractionSubstation : depends on
-Tram ..> OverheadLine : depends on
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+Projector ..> ClassroomLecture
+Electricity ..> Projector
+@enduml

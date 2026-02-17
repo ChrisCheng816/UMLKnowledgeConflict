@@ -1,4 +1,0 @@
-@startuml
-JavaRuntime ..> OperatingSystem : depends on
-BuildTool ..> JavaRuntime : depends on
-@enduml

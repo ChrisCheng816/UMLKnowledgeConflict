@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- EquestrianSport : inherits
-EquestrianSport <|-- Dressage : inherits
+Sport <|-- EquestrianSport
+EquestrianSport <|-- Dressage
 @enduml

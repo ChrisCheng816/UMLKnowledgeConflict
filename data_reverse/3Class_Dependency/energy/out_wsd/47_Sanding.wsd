@@ -1,0 +1,4 @@
+@startuml
+OrbitalSander ..> Sanding
+Electricity ..> OrbitalSander
+@enduml

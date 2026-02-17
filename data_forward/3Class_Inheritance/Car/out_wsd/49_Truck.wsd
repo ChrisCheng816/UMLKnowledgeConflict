@@ -1,0 +1,4 @@
+@startuml
+Truck <|-- PickupTruck
+PickupTruck <|-- FordF150
+@enduml

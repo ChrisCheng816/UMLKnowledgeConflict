@@ -1,4 +1,4 @@
 @startuml
-LinusTorvalds <|-- SoftwareEngineer : inherits
-SoftwareEngineer <|-- Engineer : inherits
+LinusTorvalds <|-- SoftwareEngineer
+SoftwareEngineer <|-- Engineer
 @enduml

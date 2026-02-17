@@ -1,0 +1,4 @@
+@startuml
+ClubOfLibrarians o-- School
+Librarian o-- ClubOfLibrarians
+@enduml

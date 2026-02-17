@@ -1,4 +1,4 @@
 @startuml
-Patchwork <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+Patchwork <|-- BoardGame
+BoardGame <|-- Game
 @enduml

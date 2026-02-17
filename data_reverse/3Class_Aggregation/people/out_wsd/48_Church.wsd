@@ -1,0 +1,4 @@
+@startuml
+ChoirOfSingers o-- Church
+Singer o-- ChoirOfSingers
+@enduml

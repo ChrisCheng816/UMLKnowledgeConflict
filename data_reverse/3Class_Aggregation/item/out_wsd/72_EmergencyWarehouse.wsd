@@ -1,4 +1,0 @@
-@startuml
-StorageBin o-- EmergencyWarehouse : aggregates
-Blanket o-- StorageBin : aggregates
-@enduml

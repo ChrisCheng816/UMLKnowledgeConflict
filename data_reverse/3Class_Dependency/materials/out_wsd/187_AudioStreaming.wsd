@@ -1,4 +1,4 @@
 @startuml
-SmartSpeaker ..> AudioStreaming : depends on
-Electricity ..> SmartSpeaker : depends on
+SmartSpeaker ..> AudioStreaming
+Electricity ..> SmartSpeaker
 @enduml

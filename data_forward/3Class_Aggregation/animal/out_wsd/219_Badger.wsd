@@ -1,4 +1,0 @@
-@startuml
-ColonyOfBadger o-- Badger : aggregates
-Canyon o-- ColonyOfBadger : aggregates
-@enduml

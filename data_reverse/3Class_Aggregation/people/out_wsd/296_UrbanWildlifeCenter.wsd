@@ -1,4 +1,0 @@
-@startuml
-AuditTeam o-- UrbanWildlifeCenter : aggregates
-QualityAuditor o-- AuditTeam : aggregates
-@enduml

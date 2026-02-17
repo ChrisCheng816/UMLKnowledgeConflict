@@ -1,4 +1,0 @@
-@startuml
-SolderingStation ..> ElectronicsAssembly : depends on
-Electricity ..> SolderingStation : depends on
-@enduml

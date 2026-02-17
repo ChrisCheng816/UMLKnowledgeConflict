@@ -1,4 +1,4 @@
 @startuml
-UniversityOfSaoPaulo <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+UniversityOfSaoPaulo <|-- University
+University <|-- EducationalInstitution
 @enduml

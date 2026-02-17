@@ -1,4 +1,0 @@
-@startuml
-CirrusCloud ..> CloudStreak : depends on
-JetStream ..> CirrusCloud : depends on
-@enduml

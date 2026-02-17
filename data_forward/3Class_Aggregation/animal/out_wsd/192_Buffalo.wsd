@@ -1,4 +1,0 @@
-@startuml
-HerdOfBuffalo o-- Buffalo : aggregates
-Jungle o-- HerdOfBuffalo : aggregates
-@enduml

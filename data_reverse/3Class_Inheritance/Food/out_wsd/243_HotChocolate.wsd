@@ -1,4 +1,4 @@
 @startuml
-HotChocolate <|-- Beverage : inherits
-Beverage <|-- Food : inherits
+HotChocolate <|-- Beverage
+Beverage <|-- Food
 @enduml

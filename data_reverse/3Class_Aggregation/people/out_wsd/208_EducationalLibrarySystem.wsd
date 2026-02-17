@@ -1,4 +1,0 @@
-@startuml
-SafetyCrew o-- EducationalLibrarySystem : aggregates
-TeachingAssistant o-- SafetyCrew : aggregates
-@enduml

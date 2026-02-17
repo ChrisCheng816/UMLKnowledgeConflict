@@ -1,0 +1,4 @@
+@startuml
+HerdOfWildebeest o-- Jungle
+Wildebeest o-- HerdOfWildebeest
+@enduml

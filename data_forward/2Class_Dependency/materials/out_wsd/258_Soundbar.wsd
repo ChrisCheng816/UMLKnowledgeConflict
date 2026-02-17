@@ -1,3 +1,3 @@
 @startuml
-MusicPlayback ..> Soundbar : depends on
+MusicPlayback ..> Soundbar
 @enduml

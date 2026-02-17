@@ -1,0 +1,4 @@
+@startuml
+GroupOfTourists o-- Tourist
+Community o-- GroupOfTourists
+@enduml

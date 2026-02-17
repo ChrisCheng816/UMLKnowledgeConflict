@@ -1,0 +1,4 @@
+@startuml
+StaffOfMembers o-- Member
+Company o-- StaffOfMembers
+@enduml

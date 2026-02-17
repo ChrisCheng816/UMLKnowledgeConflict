@@ -1,4 +1,4 @@
 @startuml
-JawaharlalNehruUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+JawaharlalNehruUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

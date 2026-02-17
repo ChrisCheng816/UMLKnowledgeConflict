@@ -1,4 +1,0 @@
-@startuml
-QualityTeam o-- Drafter : aggregates
-MountainTheaterCompany o-- QualityTeam : aggregates
-@enduml

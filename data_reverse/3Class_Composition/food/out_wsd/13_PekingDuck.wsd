@@ -1,4 +1,4 @@
 @startuml
-HoisinSauce *-- PekingDuck : composes
-Soybeans *-- HoisinSauce : composes
+HoisinSauce *-- PekingDuck
+Soybeans *-- HoisinSauce
 @enduml

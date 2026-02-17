@@ -1,0 +1,4 @@
+@startuml
+GroupOfReferees o-- Referee
+Stadium o-- GroupOfReferees
+@enduml

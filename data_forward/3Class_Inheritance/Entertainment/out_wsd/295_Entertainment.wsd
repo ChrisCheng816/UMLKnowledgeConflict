@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries : inherits
-TVSeries <|-- BreakingBad : inherits
+Entertainment <|-- TVSeries
+TVSeries <|-- BreakingBad
 @enduml

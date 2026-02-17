@@ -1,4 +1,4 @@
 @startuml
-Overwatch <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+Overwatch <|-- VideoGame
+VideoGame <|-- Game
 @enduml

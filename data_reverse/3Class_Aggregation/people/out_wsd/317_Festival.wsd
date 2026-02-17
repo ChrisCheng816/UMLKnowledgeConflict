@@ -1,0 +1,4 @@
+@startuml
+CrewOfJanitors o-- Festival
+Janitor o-- CrewOfJanitors
+@enduml

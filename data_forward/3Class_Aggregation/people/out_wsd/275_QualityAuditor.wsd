@@ -1,4 +1,0 @@
-@startuml
-AuditTeam o-- QualityAuditor : aggregates
-DesertLogisticsCenter o-- AuditTeam : aggregates
-@enduml

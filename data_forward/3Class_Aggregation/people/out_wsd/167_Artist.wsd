@@ -1,0 +1,4 @@
+@startuml
+CrewOfArtists o-- Artist
+Festival o-- CrewOfArtists
+@enduml

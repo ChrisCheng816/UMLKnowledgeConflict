@@ -1,4 +1,4 @@
 @startuml
-Jaw *-- Tooth : composes
-Eel *-- Jaw : composes
+Jaw *-- Tooth
+Eel *-- Jaw
 @enduml

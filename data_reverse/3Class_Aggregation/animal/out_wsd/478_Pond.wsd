@@ -1,0 +1,4 @@
+@startuml
+HerdOfHippos o-- Pond
+Hippo o-- HerdOfHippos
+@enduml

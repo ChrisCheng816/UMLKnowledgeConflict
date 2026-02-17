@@ -1,4 +1,0 @@
-@startuml
-DockOpsTeam o-- RegionalNewsAgency : aggregates
-OperationsManager o-- DockOpsTeam : aggregates
-@enduml

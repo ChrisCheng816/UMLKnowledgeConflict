@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Salmon : composes
-Filament *-- Gill : composes
+Gill *-- Salmon
+Filament *-- Gill
 @enduml

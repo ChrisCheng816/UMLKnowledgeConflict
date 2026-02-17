@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Filament : composes
-Butterflyfish *-- Gill : composes
+Gill *-- Filament
+Butterflyfish *-- Gill
 @enduml

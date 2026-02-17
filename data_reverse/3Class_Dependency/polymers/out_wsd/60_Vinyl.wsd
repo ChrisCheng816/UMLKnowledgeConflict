@@ -1,0 +1,4 @@
+@startuml
+PVC ..> Vinyl
+CrudeOil ..> PVC
+@enduml

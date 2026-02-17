@@ -1,4 +1,4 @@
 @startuml
-Terraria <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+Terraria <|-- VideoGame
+VideoGame <|-- Game
 @enduml

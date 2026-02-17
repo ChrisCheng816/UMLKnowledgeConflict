@@ -1,0 +1,4 @@
+@startuml
+StaffOfBaristas o-- Company
+Barista o-- StaffOfBaristas
+@enduml

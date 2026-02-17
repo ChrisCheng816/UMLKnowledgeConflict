@@ -1,4 +1,0 @@
-@startuml
-CircuitBoard *-- Smartphone : composes
-Inductor *-- CircuitBoard : composes
-@enduml

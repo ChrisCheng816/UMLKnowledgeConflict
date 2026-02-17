@@ -1,3 +1,3 @@
 @startuml
-Locust o-- SwarmOfLocust : aggregates
+Locust o-- SwarmOfLocust
 @enduml

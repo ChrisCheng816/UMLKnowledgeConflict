@@ -1,0 +1,4 @@
+@startuml
+CrowdOfCustomers o-- Market
+Customer o-- CrowdOfCustomers
+@enduml

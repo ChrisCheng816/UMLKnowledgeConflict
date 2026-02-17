@@ -1,4 +1,0 @@
-@startuml
-DatabaseServer ..> CustomerDatabase : depends on
-OperatingSystem ..> DatabaseServer : depends on
-@enduml

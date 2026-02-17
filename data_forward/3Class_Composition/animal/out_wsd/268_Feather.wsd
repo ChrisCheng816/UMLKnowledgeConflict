@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Feather : composes
-Mockingbird *-- Wing : composes
+Wing *-- Feather
+Mockingbird *-- Wing
 @enduml

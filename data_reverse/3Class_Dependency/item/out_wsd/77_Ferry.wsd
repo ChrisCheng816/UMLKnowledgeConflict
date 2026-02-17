@@ -1,4 +1,0 @@
-@startuml
-BunkeringPort ..> Ferry : depends on
-FuelBarge ..> BunkeringPort : depends on
-@enduml

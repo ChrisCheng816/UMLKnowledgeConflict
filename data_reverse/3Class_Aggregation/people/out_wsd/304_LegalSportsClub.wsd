@@ -1,4 +1,0 @@
-@startuml
-MaintenanceTeam o-- LegalSportsClub : aggregates
-Engineer o-- MaintenanceTeam : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-McMasterUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+McMasterUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MyHeroAcademiaManga <|-- Manga : inherits
-Manga <|-- Comic : inherits
+MyHeroAcademiaManga <|-- Manga
+Manga <|-- Comic
 @enduml

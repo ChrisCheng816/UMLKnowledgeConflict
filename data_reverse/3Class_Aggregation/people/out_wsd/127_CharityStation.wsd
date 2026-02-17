@@ -1,4 +1,0 @@
-@startuml
-OutreachTeam o-- CharityStation : aggregates
-Volunteer o-- OutreachTeam : aggregates
-@enduml

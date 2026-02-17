@@ -1,4 +1,4 @@
 @startuml
-AirConditioner ..> Electricity : depends on
-AirCirculation ..> AirConditioner : depends on
+AirConditioner ..> Electricity
+AirCirculation ..> AirConditioner
 @enduml

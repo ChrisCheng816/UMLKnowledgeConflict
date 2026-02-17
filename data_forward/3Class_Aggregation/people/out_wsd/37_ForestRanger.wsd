@@ -1,4 +1,0 @@
-@startuml
-RangerTeam o-- ForestRanger : aggregates
-GardenClub o-- RangerTeam : aggregates
-@enduml

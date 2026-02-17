@@ -1,0 +1,4 @@
+@startuml
+Wall *-- Brick
+Room *-- Wall
+@enduml

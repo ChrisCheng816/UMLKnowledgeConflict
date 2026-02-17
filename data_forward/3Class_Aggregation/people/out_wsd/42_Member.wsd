@@ -1,0 +1,4 @@
+@startuml
+CrewOfMembers o-- Member
+Festival o-- CrewOfMembers
+@enduml

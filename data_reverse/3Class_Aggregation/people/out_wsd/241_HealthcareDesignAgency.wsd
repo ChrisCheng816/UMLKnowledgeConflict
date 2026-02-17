@@ -1,4 +1,0 @@
-@startuml
-ResearchTeam o-- HealthcareDesignAgency : aggregates
-ResearchFellow o-- ResearchTeam : aggregates
-@enduml

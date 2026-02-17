@@ -1,4 +1,0 @@
-@startuml
-CatalogTeam o-- Librarian : aggregates
-LibraryAuthority o-- CatalogTeam : aggregates
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-BeltSander ..> SurfaceFinishing : depends on
-Electricity ..> BeltSander : depends on
-@enduml

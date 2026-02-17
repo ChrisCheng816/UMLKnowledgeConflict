@@ -1,4 +1,0 @@
-@startuml
-Thundercloud ..> Lightning : depends on
-StormSystem ..> Thundercloud : depends on
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-Potato <|-- NightshadeVegetable : inherits
-NightshadeVegetable <|-- Vegetable : inherits
+Potato <|-- NightshadeVegetable
+NightshadeVegetable <|-- Vegetable
 @enduml

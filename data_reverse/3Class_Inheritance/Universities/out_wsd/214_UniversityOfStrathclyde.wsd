@@ -1,4 +1,4 @@
 @startuml
-UniversityOfStrathclyde <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+UniversityOfStrathclyde <|-- University
+University <|-- EducationalInstitution
 @enduml

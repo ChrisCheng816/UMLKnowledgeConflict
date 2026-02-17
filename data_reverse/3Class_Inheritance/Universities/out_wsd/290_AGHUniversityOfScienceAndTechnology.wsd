@@ -1,4 +1,4 @@
 @startuml
-AGHUniversityOfScienceAndTechnology <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+AGHUniversityOfScienceAndTechnology <|-- University
+University <|-- EducationalInstitution
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+HemodialysisMachine ..> Electricity
+BloodFiltration ..> HemodialysisMachine
+@enduml

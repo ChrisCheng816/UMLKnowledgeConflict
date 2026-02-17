@@ -1,4 +1,0 @@
-@startuml
-NestOfChameleon o-- Aquarium : aggregates
-Chameleon o-- NestOfChameleon : aggregates
-@enduml

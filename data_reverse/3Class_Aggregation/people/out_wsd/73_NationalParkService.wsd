@@ -1,4 +1,0 @@
-@startuml
-RangerTeam o-- NationalParkService : aggregates
-ForestRanger o-- RangerTeam : aggregates
-@enduml

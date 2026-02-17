@@ -1,4 +1,0 @@
-@startuml
-TrainingTeam o-- HumanitarianMusicAcademy : aggregates
-Professor o-- TrainingTeam : aggregates
-@enduml

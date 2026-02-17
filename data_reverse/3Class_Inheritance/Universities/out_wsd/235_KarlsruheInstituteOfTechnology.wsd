@@ -1,4 +1,4 @@
 @startuml
-KarlsruheInstituteOfTechnology <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+KarlsruheInstituteOfTechnology <|-- University
+University <|-- EducationalInstitution
 @enduml

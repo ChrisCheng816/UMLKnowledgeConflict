@@ -1,4 +1,0 @@
-@startuml
-GroupOfShrimp o-- Zoo : aggregates
-Shrimp o-- GroupOfShrimp : aggregates
-@enduml

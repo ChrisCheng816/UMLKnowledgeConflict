@@ -1,0 +1,4 @@
+@startuml
+FlockOfDove o-- Coast
+Dove o-- FlockOfDove
+@enduml

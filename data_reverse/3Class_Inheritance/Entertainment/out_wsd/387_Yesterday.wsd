@@ -1,4 +1,4 @@
 @startuml
-Yesterday <|-- Song : inherits
-Song <|-- MusicWork : inherits
+Yesterday <|-- Song
+Song <|-- MusicWork
 @enduml

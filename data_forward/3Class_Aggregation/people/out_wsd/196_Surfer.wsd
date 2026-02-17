@@ -1,0 +1,4 @@
+@startuml
+StaffOfSurfers o-- Surfer
+Company o-- StaffOfSurfers
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Tortoise : composes
-Lens *-- Eye : composes
+Eye *-- Tortoise
+Lens *-- Eye
 @enduml

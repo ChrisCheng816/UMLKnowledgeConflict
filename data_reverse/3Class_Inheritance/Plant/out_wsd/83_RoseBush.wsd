@@ -1,4 +1,4 @@
 @startuml
-RoseBush <|-- Shrub : inherits
-Shrub <|-- Plant : inherits
+RoseBush <|-- Shrub
+Shrub <|-- Plant
 @enduml

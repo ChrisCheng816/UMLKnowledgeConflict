@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- SquashVegetable : inherits
-SquashVegetable <|-- Kabocha : inherits
+Vegetable <|-- SquashVegetable
+SquashVegetable <|-- Kabocha
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+CrowdOfChildren o-- Child
+Park o-- CrowdOfChildren
+@enduml

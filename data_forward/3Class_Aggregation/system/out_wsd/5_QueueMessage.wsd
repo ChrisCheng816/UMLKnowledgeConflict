@@ -1,4 +1,0 @@
-@startuml
-MessageQueue o-- QueueMessage : aggregates
-PaymentPlatform o-- MessageQueue : aggregates
-@enduml

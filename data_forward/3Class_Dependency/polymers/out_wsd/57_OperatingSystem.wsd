@@ -1,4 +1,0 @@
-@startuml
-FTPClient ..> OperatingSystem : depends on
-WebsiteUpload ..> FTPClient : depends on
-@enduml

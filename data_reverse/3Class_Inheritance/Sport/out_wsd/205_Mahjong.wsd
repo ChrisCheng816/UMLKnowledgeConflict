@@ -1,4 +1,4 @@
 @startuml
-Mahjong <|-- MindSport : inherits
-MindSport <|-- Sport : inherits
+Mahjong <|-- MindSport
+MindSport <|-- Sport
 @enduml

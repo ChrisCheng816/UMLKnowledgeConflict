@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inherits
-University <|-- UniversityOfTsukuba : inherits
+EducationalInstitution <|-- University
+University <|-- UniversityOfTsukuba
 @enduml

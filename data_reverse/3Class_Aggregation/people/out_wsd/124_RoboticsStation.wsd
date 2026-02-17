@@ -1,4 +1,0 @@
-@startuml
-EngineeringTeam o-- RoboticsStation : aggregates
-MechanicalEngineer o-- EngineeringTeam : aggregates
-@enduml

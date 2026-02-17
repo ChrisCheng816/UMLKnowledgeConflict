@@ -1,4 +1,0 @@
-@startuml
-PharmacyTeam o-- LabTechnician : aggregates
-ClinicAssociation o-- PharmacyTeam : aggregates
-@enduml

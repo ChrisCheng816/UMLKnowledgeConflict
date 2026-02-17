@@ -1,4 +1,4 @@
 @startuml
-AngleGrinder ..> Electricity : depends on
-Deburring ..> AngleGrinder : depends on
+BeltSander ..> Electricity
+Sanding ..> BeltSander
 @enduml

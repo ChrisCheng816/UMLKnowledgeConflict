@@ -1,0 +1,4 @@
+@startuml
+GroupOfCyclists o-- Community
+Cyclist o-- GroupOfCyclists
+@enduml

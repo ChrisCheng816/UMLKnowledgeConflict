@@ -1,0 +1,4 @@
+@startuml
+FlockOfPigeon o-- River
+Pigeon o-- FlockOfPigeon
+@enduml

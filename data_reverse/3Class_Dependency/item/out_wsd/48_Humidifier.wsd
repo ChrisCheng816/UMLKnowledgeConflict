@@ -1,4 +1,0 @@
-@startuml
-TapWater ..> Humidifier : depends on
-MunicipalWaterMain ..> TapWater : depends on
-@enduml

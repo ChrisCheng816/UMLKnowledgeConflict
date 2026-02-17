@@ -1,0 +1,4 @@
+@startuml
+OrchestraOfMusicians o-- Hall
+Musician o-- OrchestraOfMusicians
+@enduml

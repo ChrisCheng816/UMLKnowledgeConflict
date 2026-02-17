@@ -1,4 +1,0 @@
-@startuml
-NestOfChameleon o-- Plateau : aggregates
-Chameleon o-- NestOfChameleon : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-HairDryer ..> Electricity : depends on
-HairDrying ..> HairDryer : depends on
+HairDryer ..> Electricity
+HairDrying ..> HairDryer
 @enduml

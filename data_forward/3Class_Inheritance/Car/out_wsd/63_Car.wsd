@@ -1,0 +1,4 @@
+@startuml
+Car <|-- Sedan
+Sedan <|-- TeslaModel3
+@enduml

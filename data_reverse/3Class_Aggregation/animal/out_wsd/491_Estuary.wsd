@@ -1,0 +1,4 @@
+@startuml
+SwarmOfCrickets o-- Estuary
+Cricket o-- SwarmOfCrickets
+@enduml

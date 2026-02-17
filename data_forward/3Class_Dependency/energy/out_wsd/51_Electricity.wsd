@@ -1,4 +1,4 @@
 @startuml
-OrbitalSander ..> Electricity : depends on
-Woodworking ..> OrbitalSander : depends on
+Oscilloscope ..> Electricity
+Measuring ..> Oscilloscope
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Walleye : composes
-Ray *-- Fin : composes
+Fin *-- Walleye
+Ray *-- Fin
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MedicalHelicopter ..> AerialSurvey : depends on
-JetFuel ..> MedicalHelicopter : depends on
+MedicalHelicopter ..> AerialSurvey
+JetFuel ..> MedicalHelicopter
 @enduml

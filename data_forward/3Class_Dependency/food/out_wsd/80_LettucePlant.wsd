@@ -1,0 +1,4 @@
+@startuml
+Lettuce ..> LettucePlant
+GardenSalad ..> Lettuce
+@enduml

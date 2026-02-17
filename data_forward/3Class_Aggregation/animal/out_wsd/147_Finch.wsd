@@ -1,0 +1,4 @@
+@startuml
+FlockOfFinch o-- Finch
+Pond o-- FlockOfFinch
+@enduml

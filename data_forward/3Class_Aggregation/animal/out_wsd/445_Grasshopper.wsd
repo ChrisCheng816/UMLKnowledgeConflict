@@ -1,0 +1,4 @@
+@startuml
+SwarmOfGrasshoppers o-- Grasshopper
+Bay o-- SwarmOfGrasshoppers
+@enduml

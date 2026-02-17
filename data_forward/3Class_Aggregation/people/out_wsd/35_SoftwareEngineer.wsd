@@ -1,4 +1,0 @@
-@startuml
-DevOpsTeam o-- SoftwareEngineer : aggregates
-TechCompany o-- DevOpsTeam : aggregates
-@enduml

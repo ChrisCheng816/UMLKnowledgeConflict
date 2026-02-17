@@ -1,4 +1,4 @@
 @startuml
-UniversityOfPretoria <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+UniversityOfPretoria <|-- University
+University <|-- EducationalInstitution
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Afghanistan <|-- Country : inherits
-Country <|-- GeopoliticalEntity : inherits
+Afghanistan <|-- Country
+Country <|-- GeopoliticalEntity
 @enduml

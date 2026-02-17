@@ -1,0 +1,4 @@
+@startuml
+CrewOfTourists o-- Tourist
+Festival o-- CrewOfTourists
+@enduml

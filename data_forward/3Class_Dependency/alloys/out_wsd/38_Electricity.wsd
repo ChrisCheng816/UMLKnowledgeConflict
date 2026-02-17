@@ -1,4 +1,4 @@
 @startuml
-ElectricTram ..> Electricity : depends on
-Commuting ..> ElectricTram : depends on
+ElectricTram ..> Electricity
+Commuting ..> ElectricTram
 @enduml

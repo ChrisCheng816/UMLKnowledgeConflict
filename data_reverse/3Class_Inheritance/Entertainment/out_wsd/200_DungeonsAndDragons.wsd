@@ -1,4 +1,4 @@
 @startuml
-DungeonsAndDragons <|-- TabletopRPG : inherits
-TabletopRPG <|-- Game : inherits
+DungeonsAndDragons <|-- TabletopRPG
+TabletopRPG <|-- Game
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport : inherits
-IndividualSport <|-- Powerlifting : inherits
+Sport <|-- IndividualSport
+IndividualSport <|-- Powerlifting
 @enduml

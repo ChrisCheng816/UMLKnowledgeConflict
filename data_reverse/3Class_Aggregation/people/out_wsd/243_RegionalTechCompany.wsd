@@ -1,4 +1,0 @@
-@startuml
-MaintenanceTeam o-- RegionalTechCompany : aggregates
-Engineer o-- MaintenanceTeam : aggregates
-@enduml

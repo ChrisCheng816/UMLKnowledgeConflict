@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Triathlon : inherits
-Triathlon <|-- RoadTriathlon : inherits
+Sport <|-- Triathlon
+Triathlon <|-- RoadTriathlon
 @enduml

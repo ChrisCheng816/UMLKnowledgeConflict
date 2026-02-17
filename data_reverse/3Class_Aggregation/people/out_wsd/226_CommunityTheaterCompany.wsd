@@ -1,4 +1,0 @@
-@startuml
-NursingBoard o-- CommunityTheaterCompany : aggregates
-Physiotherapist o-- NursingBoard : aggregates
-@enduml

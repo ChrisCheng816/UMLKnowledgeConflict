@@ -1,4 +1,0 @@
-@startuml
-TemperatureContrast ..> SeaBreeze : depends on
-Sunlight ..> TemperatureContrast : depends on
-@enduml

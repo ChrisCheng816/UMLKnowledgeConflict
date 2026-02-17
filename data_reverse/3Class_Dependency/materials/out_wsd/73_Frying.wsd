@@ -1,4 +1,4 @@
 @startuml
-ElectricSkillet ..> Frying : depends on
-Electricity ..> ElectricSkillet : depends on
+ElectricSkillet ..> Frying
+Electricity ..> ElectricSkillet
 @enduml

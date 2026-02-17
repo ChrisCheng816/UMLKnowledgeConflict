@@ -1,4 +1,4 @@
 @startuml
-RedDeadRedemption2 <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+RedDeadRedemption2 <|-- VideoGame
+VideoGame <|-- Game
 @enduml

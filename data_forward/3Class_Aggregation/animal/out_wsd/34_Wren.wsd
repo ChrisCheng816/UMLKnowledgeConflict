@@ -1,4 +1,4 @@
 @startuml
-FlockOfWren o-- Wren : aggregates
-Wetland o-- FlockOfWren : aggregates
+FlockOfWren o-- Wren
+Wetland o-- FlockOfWren
 @enduml

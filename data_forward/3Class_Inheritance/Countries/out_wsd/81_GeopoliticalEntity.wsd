@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Germany : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Iraq
 @enduml

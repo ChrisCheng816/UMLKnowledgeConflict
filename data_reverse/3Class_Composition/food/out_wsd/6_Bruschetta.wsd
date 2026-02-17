@@ -1,4 +1,4 @@
 @startuml
-Bread *-- Bruschetta : composes
-Flour *-- Bread : composes
+Bread *-- Bruschetta
+Flour *-- Bread
 @enduml

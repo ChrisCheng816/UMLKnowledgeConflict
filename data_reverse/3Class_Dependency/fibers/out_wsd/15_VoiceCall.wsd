@@ -1,4 +1,4 @@
 @startuml
-FeaturePhone ..> VoiceCall : depends on
-CellularNetwork ..> FeaturePhone : depends on
+FeaturePhone ..> VoiceCall
+CellularNetwork ..> FeaturePhone
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-DataWorkingGroup o-- ForestCoastalAgency : aggregates
-CivilEngineer o-- DataWorkingGroup : aggregates
-@enduml

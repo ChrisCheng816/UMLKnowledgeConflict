@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Indonesia : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Liechtenstein
 @enduml

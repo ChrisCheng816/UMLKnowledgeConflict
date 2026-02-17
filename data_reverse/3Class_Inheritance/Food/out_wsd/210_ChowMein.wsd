@@ -1,4 +1,4 @@
 @startuml
-ChowMein <|-- Dish : inherits
-Dish <|-- Food : inherits
+ChowMein <|-- Dish
+Dish <|-- Food
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-VideoDoorbell ..> VisitorNotification : depends on
+VideoDoorbell ..> VisitorNotification
 @enduml

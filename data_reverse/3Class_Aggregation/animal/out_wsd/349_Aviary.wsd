@@ -1,0 +1,4 @@
+@startuml
+ColonyOfAnt o-- Aviary
+Ant o-- ColonyOfAnt
+@enduml

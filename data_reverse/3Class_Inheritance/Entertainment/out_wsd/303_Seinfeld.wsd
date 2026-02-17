@@ -1,4 +1,4 @@
 @startuml
-Seinfeld <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+Seinfeld <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-Projector ..> Electricity : depends on
-MovieNight ..> Projector : depends on
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-Printer ..> PhotoPrinting : depends on
-Electricity ..> Printer : depends on
-@enduml

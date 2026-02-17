@@ -1,4 +1,4 @@
 @startuml
-ShapeOfYou <|-- Song : inherits
-Song <|-- MusicWork : inherits
+ShapeOfYou <|-- Song
+Song <|-- MusicWork
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Petrel : composes
-Shaft *-- Feather : composes
+Feather *-- Petrel
+Shaft *-- Feather
 @enduml

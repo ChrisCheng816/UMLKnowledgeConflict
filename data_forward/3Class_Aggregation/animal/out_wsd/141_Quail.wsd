@@ -1,0 +1,4 @@
+@startuml
+FlockOfQuail o-- Quail
+Pond o-- FlockOfQuail
+@enduml

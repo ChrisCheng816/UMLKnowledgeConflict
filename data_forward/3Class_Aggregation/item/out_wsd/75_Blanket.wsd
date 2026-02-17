@@ -1,4 +1,0 @@
-@startuml
-StorageBin o-- Blanket : aggregates
-ResearchWarehouse o-- StorageBin : aggregates
-@enduml

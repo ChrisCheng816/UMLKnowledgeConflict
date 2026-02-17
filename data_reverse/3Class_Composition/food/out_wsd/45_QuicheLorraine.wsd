@@ -1,4 +1,4 @@
 @startuml
-Bacon *-- QuicheLorraine : composes
-Pork *-- Bacon : composes
+Bacon *-- QuicheLorraine
+Pork *-- Bacon
 @enduml

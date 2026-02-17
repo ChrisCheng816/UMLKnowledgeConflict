@@ -1,4 +1,4 @@
 @startuml
-Berserk <|-- Manga : inherits
-Manga <|-- Comic : inherits
+Berserk <|-- Manga
+Manga <|-- Comic
 @enduml

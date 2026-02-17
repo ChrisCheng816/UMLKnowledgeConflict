@@ -1,3 +1,3 @@
 @startuml
-MotionDetection ..> DoorSensor : depends on
+MotionDetection ..> DoorSensor
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-LomonosovMoscowStateUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+LomonosovMoscowStateUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

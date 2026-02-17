@@ -1,4 +1,0 @@
-@startuml
-FinanceTeam o-- CoastalNewsAgency : aggregates
-Dispatcher o-- FinanceTeam : aggregates
-@enduml

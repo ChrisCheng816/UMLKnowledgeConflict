@@ -1,4 +1,0 @@
-@startuml
-CalendarApp ..> TaskManagement : depends on
-OperatingSystem ..> CalendarApp : depends on
-@enduml

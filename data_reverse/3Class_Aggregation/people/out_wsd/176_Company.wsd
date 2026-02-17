@@ -1,0 +1,4 @@
+@startuml
+StaffOfRunners o-- Company
+Runner o-- StaffOfRunners
+@enduml

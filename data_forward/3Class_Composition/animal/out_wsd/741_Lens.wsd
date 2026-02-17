@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens : composes
-Caecilian *-- Eye : composes
+Eye *-- Lens
+Caecilian *-- Eye
 @enduml

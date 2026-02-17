@@ -1,0 +1,4 @@
+@startuml
+Photocopier ..> OfficeCopying
+Electricity ..> Photocopier
+@enduml

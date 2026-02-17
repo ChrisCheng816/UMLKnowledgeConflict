@@ -1,4 +1,0 @@
-@startuml
-ReviewGroup o-- Critic : aggregates
-FilmAssociation o-- ReviewGroup : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-ChargingStand ..> HairTrimmer : depends on
-WallOutlet ..> ChargingStand : depends on
+ChargingStand ..> HairTrimmer
+WallOutlet ..> ChargingStand
 @enduml

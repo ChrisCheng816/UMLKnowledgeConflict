@@ -1,4 +1,4 @@
 @startuml
-BetrayalAtHouseOnTheHill <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+BetrayalAtHouseOnTheHill <|-- BoardGame
+BoardGame <|-- Game
 @enduml

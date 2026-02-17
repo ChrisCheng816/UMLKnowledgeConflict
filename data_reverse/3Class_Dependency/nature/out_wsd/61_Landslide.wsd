@@ -1,4 +1,0 @@
-@startuml
-SaturatedSoil ..> Landslide : depends on
-HeavyRain ..> SaturatedSoil : depends on
-@enduml

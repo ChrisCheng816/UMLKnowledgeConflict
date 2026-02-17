@@ -1,4 +1,0 @@
-@startuml
-StorageBin o-- MusicWarehouse : aggregates
-Blanket o-- StorageBin : aggregates
-@enduml

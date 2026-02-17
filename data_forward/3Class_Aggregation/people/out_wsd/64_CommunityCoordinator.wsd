@@ -1,4 +1,0 @@
-@startuml
-NeighborhoodTeam o-- CommunityCoordinator : aggregates
-CommunityUnion o-- NeighborhoodTeam : aggregates
-@enduml

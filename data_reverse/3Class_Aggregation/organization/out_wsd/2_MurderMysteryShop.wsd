@@ -1,4 +1,0 @@
-@startuml
-PlayerGroup o-- MurderMysteryShop : aggregates
-GameMaster o-- PlayerGroup : aggregates
-@enduml

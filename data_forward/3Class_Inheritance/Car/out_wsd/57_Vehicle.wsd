@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- SUV
+SUV <|-- ChevroletTahoe
+@enduml

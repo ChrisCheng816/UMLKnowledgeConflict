@@ -1,4 +1,0 @@
-@startuml
-SchoolOfBass o-- Bass : aggregates
-Hill o-- SchoolOfBass : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-Blender ..> Pureeing : depends on
-Electricity ..> Blender : depends on
+Blender ..> Pureeing
+Electricity ..> Blender
 @enduml

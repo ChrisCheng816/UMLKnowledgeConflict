@@ -1,0 +1,4 @@
+@startuml
+ColonyOfPanda o-- Ranch
+Panda o-- ColonyOfPanda
+@enduml

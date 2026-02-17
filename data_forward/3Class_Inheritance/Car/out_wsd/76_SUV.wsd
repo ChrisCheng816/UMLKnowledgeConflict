@@ -1,0 +1,4 @@
+@startuml
+SUV <|-- CrossoverSUV
+CrossoverSUV <|-- VolkswagenTiguan
+@enduml

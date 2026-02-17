@@ -1,4 +1,0 @@
-@startuml
-GroupOfCrab o-- Zoo : aggregates
-Crab o-- GroupOfCrab : aggregates
-@enduml

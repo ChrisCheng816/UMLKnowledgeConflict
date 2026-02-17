@@ -1,4 +1,0 @@
-@startuml
-HerdOfBuffalo o-- Harbor : aggregates
-Buffalo o-- HerdOfBuffalo : aggregates
-@enduml

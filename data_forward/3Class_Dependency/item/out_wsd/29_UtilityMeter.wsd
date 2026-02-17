@@ -1,4 +1,4 @@
 @startuml
-CircuitBreakerPanel ..> UtilityMeter : depends on
-WallOutlet ..> CircuitBreakerPanel : depends on
+CircuitBreakerPanel ..> UtilityMeter
+WallOutlet ..> CircuitBreakerPanel
 @enduml

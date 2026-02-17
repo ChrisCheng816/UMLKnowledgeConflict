@@ -1,0 +1,4 @@
+@startuml
+CoherentLight ..> Interference
+Laser ..> CoherentLight
+@enduml

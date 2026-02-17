@@ -1,0 +1,4 @@
+@startuml
+CrewOfSwimmers o-- Festival
+Swimmer o-- CrewOfSwimmers
+@enduml

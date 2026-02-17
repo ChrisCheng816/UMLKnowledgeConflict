@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Tilapia : composes
-Ray *-- Fin : composes
+Fin *-- Tilapia
+Ray *-- Fin
 @enduml

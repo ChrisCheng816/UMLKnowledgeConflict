@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Pelican : composes
-Shaft *-- Feather : composes
+Feather *-- Pelican
+Shaft *-- Feather
 @enduml

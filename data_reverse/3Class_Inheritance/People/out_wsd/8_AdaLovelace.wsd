@@ -1,4 +1,4 @@
 @startuml
-AdaLovelace <|-- Mathematician : inherits
-Mathematician <|-- Scientist : inherits
+AdaLovelace <|-- Mathematician
+Mathematician <|-- Scientist
 @enduml

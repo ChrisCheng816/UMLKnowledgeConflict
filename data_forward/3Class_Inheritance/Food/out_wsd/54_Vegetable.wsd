@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Legume : inherits
-Legume <|-- FavaBean : inherits
+Vegetable <|-- Legume
+Legume <|-- FavaBean
 @enduml

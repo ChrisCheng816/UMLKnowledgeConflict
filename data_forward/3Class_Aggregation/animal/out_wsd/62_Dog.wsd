@@ -1,4 +1,4 @@
 @startuml
-PackOfDog o-- Dog : aggregates
-Prairie o-- PackOfDog : aggregates
+PackOfDog o-- Dog
+Prairie o-- PackOfDog
 @enduml

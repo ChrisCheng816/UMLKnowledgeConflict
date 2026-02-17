@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Shark : composes
-Filament *-- Gill : composes
+Gill *-- Shark
+Filament *-- Gill
 @enduml

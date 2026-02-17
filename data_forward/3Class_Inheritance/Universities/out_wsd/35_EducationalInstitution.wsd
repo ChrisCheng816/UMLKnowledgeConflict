@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inherits
-University <|-- LondonSchoolOfEconomics : inherits
+EducationalInstitution <|-- University
+University <|-- LondonSchoolOfEconomics
 @enduml

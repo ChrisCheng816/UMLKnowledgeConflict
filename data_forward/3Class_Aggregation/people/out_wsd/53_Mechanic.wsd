@@ -1,4 +1,0 @@
-@startuml
-DockCrew o-- Mechanic : aggregates
-HarborOffice o-- DockCrew : aggregates
-@enduml

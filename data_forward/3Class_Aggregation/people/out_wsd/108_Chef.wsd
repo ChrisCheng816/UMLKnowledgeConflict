@@ -1,0 +1,4 @@
+@startuml
+KitchenOfChefs o-- Chef
+Restaurant o-- KitchenOfChefs
+@enduml

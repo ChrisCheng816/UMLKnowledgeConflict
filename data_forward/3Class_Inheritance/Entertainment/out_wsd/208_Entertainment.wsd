@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film : inherits
-Film <|-- TheGodfather : inherits
+Entertainment <|-- Film
+Film <|-- TheGodfather
 @enduml

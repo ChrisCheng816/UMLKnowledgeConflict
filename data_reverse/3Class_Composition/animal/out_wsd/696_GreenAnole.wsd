@@ -1,4 +1,4 @@
 @startuml
-Skin *-- GreenAnole : composes
-Scale *-- Skin : composes
+Skin *-- GreenAnole
+Scale *-- Skin
 @enduml

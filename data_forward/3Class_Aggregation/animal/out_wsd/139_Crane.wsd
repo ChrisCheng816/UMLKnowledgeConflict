@@ -1,4 +1,0 @@
-@startuml
-FlockOfCrane o-- Crane : aggregates
-Estuary o-- FlockOfCrane : aggregates
-@enduml

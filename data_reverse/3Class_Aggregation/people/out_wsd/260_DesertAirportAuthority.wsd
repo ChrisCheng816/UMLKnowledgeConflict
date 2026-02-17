@@ -1,4 +1,0 @@
-@startuml
-OutreachTeam o-- DesertAirportAuthority : aggregates
-Volunteer o-- OutreachTeam : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-ClampMeter ..> Electricity : depends on
-Measuring ..> ClampMeter : depends on
+CNCMachine ..> Electricity
+PartManufacturing ..> CNCMachine
 @enduml

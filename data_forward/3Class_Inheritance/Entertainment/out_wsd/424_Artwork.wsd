@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting : inherits
-Painting <|-- LibertyLeadingThePeople : inherits
+Artwork <|-- Painting
+Painting <|-- LibertyLeadingThePeople
 @enduml

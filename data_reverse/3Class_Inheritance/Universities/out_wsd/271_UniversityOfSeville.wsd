@@ -1,4 +1,4 @@
 @startuml
-UniversityOfSeville <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+UniversityOfSeville <|-- University
+University <|-- EducationalInstitution
 @enduml

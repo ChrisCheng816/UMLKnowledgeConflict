@@ -1,0 +1,4 @@
+@startuml
+GroupOfRunners o-- Community
+Runner o-- GroupOfRunners
+@enduml

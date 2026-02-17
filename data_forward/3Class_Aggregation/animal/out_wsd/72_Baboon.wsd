@@ -1,4 +1,4 @@
 @startuml
-TroopOfBaboon o-- Baboon : aggregates
-Steppe o-- TroopOfBaboon : aggregates
+TroopOfBaboon o-- Baboon
+Steppe o-- TroopOfBaboon
 @enduml

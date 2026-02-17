@@ -1,4 +1,4 @@
 @startuml
-ShuttleBus ..> PublicTransit : depends on
-DieselFuel ..> ShuttleBus : depends on
+ShuttleBus ..> PublicTransit
+DieselFuel ..> ShuttleBus
 @enduml

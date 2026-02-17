@@ -1,4 +1,0 @@
-@startuml
-FlockOfDove o-- Clinic : aggregates
-Dove o-- FlockOfDove : aggregates
-@enduml

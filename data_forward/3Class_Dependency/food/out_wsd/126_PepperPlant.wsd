@@ -1,0 +1,4 @@
+@startuml
+Peppers ..> PepperPlant
+StuffedPeppers ..> Peppers
+@enduml

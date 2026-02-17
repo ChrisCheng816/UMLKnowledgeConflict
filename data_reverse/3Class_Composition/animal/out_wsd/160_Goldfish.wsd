@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Goldfish : composes
-Filament *-- Gill : composes
+Gill *-- Goldfish
+Filament *-- Gill
 @enduml

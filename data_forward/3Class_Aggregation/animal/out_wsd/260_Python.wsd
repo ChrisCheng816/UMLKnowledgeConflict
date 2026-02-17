@@ -1,4 +1,0 @@
-@startuml
-NestOfPython o-- Python : aggregates
-Plateau o-- NestOfPython : aggregates
-@enduml

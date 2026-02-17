@@ -1,4 +1,0 @@
-@startuml
-WheelAssembly *-- Tire : composes
-Car *-- WheelAssembly : composes
-@enduml

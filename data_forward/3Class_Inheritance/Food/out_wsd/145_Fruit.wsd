@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- DriedFruit : inherits
-DriedFruit <|-- Date : inherits
+Fruit <|-- DriedFruit
+DriedFruit <|-- Date
 @enduml

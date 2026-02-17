@@ -1,0 +1,4 @@
+@startuml
+BeringSea <|-- Sea
+Sea <|-- GeographicFeature
+@enduml

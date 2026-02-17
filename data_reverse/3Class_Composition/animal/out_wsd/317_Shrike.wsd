@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Shrike : composes
-Shaft *-- Feather : composes
+Feather *-- Shrike
+Shaft *-- Feather
 @enduml

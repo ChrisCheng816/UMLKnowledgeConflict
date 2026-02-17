@@ -1,4 +1,4 @@
 @startuml
-YourName <|-- AnimatedFilm : inherits
-AnimatedFilm <|-- Film : inherits
+YourName <|-- AnimatedFilm
+AnimatedFilm <|-- Film
 @enduml

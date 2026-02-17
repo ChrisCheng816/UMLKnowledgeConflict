@@ -1,4 +1,0 @@
-@startuml
-FlightTeam o-- AirportStation : aggregates
-Pilot o-- FlightTeam : aggregates
-@enduml

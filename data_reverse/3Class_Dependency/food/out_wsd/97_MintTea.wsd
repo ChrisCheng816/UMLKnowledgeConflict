@@ -1,0 +1,4 @@
+@startuml
+Mint ..> MintTea
+MintPlant ..> Mint
+@enduml

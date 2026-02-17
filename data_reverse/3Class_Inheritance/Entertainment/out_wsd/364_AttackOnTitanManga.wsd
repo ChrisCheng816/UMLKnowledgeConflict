@@ -1,4 +1,4 @@
 @startuml
-AttackOnTitanManga <|-- Manga : inherits
-Manga <|-- Comic : inherits
+AttackOnTitanManga <|-- Manga
+Manga <|-- Comic
 @enduml

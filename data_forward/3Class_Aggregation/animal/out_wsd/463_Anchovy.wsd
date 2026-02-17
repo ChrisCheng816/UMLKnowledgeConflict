@@ -1,0 +1,4 @@
+@startuml
+SchoolOfAnchovies o-- Anchovy
+Aquarium o-- SchoolOfAnchovies
+@enduml

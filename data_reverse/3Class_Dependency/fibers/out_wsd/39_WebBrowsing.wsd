@@ -1,4 +1,4 @@
 @startuml
-SmartDisplay ..> WebBrowsing : depends on
-WiFiNetwork ..> SmartDisplay : depends on
+SmartDisplay ..> WebBrowsing
+WiFiNetwork ..> SmartDisplay
 @enduml

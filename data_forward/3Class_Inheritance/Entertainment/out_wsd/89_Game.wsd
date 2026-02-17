@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- DarkSouls : inherits
+Game <|-- VideoGame
+VideoGame <|-- DarkSouls
 @enduml

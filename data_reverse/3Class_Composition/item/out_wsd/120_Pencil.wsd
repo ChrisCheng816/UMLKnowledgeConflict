@@ -1,0 +1,4 @@
+@startuml
+Eraser *-- Pencil
+Rubber *-- Eraser
+@enduml

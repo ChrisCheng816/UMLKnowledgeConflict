@@ -1,4 +1,0 @@
-@startuml
-FlockOfStork o-- Stork : aggregates
-Lake o-- FlockOfStork : aggregates
-@enduml

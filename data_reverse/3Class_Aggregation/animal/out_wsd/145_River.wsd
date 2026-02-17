@@ -1,4 +1,0 @@
-@startuml
-FlockOfGannet o-- River : aggregates
-Gannet o-- FlockOfGannet : aggregates
-@enduml

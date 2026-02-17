@@ -1,4 +1,0 @@
-@startuml
-CacheCluster o-- CacheFile : aggregates
-StreamingNetwork o-- CacheCluster : aggregates
-@enduml

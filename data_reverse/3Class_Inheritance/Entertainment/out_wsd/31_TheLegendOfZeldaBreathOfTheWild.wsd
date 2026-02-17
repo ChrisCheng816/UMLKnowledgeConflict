@@ -1,4 +1,4 @@
 @startuml
-TheLegendOfZeldaBreathOfTheWild <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+TheLegendOfZeldaBreathOfTheWild <|-- VideoGame
+VideoGame <|-- Game
 @enduml

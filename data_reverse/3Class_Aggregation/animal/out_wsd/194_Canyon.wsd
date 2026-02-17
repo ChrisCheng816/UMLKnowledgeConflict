@@ -1,0 +1,4 @@
+@startuml
+ColonyOfRat o-- Canyon
+Rat o-- ColonyOfRat
+@enduml

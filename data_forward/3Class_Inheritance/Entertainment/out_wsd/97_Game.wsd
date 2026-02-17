@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- Persona5 : inherits
+Game <|-- VideoGame
+VideoGame <|-- Persona5
 @enduml

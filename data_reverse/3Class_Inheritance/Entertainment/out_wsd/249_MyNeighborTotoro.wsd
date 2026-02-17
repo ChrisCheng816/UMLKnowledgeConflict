@@ -1,4 +1,4 @@
 @startuml
-MyNeighborTotoro <|-- Film : inherits
-Film <|-- Entertainment : inherits
+MyNeighborTotoro <|-- Film
+Film <|-- Entertainment
 @enduml

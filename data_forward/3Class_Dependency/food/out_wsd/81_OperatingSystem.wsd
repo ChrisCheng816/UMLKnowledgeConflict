@@ -1,4 +1,0 @@
-@startuml
-PhotoEditor ..> OperatingSystem : depends on
-VideoEditing ..> PhotoEditor : depends on
-@enduml

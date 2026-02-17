@@ -1,4 +1,0 @@
-@startuml
-SearchEngine ..> InternetConnection : depends on
-NewsReading ..> SearchEngine : depends on
-@enduml

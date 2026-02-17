@@ -1,4 +1,0 @@
-@startuml
-DisplayModule *-- Laptop : composes
-LCDPanel *-- DisplayModule : composes
-@enduml

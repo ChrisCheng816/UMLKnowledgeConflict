@@ -1,0 +1,4 @@
+@startuml
+ClubOfHikers o-- School
+Hiker o-- ClubOfHikers
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-GrandTheftAutoSanAndreas <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+GrandTheftAutoSanAndreas <|-- VideoGame
+VideoGame <|-- Game
 @enduml

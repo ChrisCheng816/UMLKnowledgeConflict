@@ -1,4 +1,0 @@
-@startuml
-SurveyTeam o-- FieldEngineer : aggregates
-DesertAuthority o-- SurveyTeam : aggregates
-@enduml

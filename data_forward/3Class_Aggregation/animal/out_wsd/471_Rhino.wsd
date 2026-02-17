@@ -1,0 +1,4 @@
+@startuml
+HerdOfRhino o-- Rhino
+Mountain o-- HerdOfRhino
+@enduml

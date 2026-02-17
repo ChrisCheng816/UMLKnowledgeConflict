@@ -1,4 +1,0 @@
-@startuml
-PatrolStation o-- NatureReserve : aggregates
-Ranger o-- PatrolStation : aggregates
-@enduml

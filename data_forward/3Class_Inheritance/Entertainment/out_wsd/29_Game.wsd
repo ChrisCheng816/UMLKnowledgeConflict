@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- TheLegendOfZeldaOcarinaOfTime : inherits
+Game <|-- VideoGame
+VideoGame <|-- TheLegendOfZeldaOcarinaOfTime
 @enduml

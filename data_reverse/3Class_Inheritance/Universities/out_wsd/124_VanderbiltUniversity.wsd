@@ -1,4 +1,4 @@
 @startuml
-VanderbiltUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+VanderbiltUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

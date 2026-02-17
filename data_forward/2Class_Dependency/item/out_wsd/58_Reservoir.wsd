@@ -1,3 +1,3 @@
 @startuml
-RawWaterIntake ..> Reservoir : depends on
+RawWaterIntake ..> Reservoir
 @enduml

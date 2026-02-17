@@ -1,4 +1,0 @@
-@startuml
-WeldingMachine ..> RepairWork : depends on
-Electricity ..> WeldingMachine : depends on
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-WarmOceanSeaSurface ..> TropicalOcean : depends on
-Hurricane ..> WarmOceanSeaSurface : depends on
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-NestOfIguana o-- Iguana : aggregates
-Plateau o-- NestOfIguana : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+Barley ..> BarleyPorridge
+BarleyPlant ..> Barley
+@enduml

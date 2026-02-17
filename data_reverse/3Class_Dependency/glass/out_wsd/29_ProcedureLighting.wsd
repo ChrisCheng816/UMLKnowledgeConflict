@@ -1,4 +1,0 @@
-@startuml
-HeadlampLight ..> ProcedureLighting : depends on
-Electricity ..> HeadlampLight : depends on
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-StorageBin o-- ResearchWarehouse : aggregates
-Blanket o-- StorageBin : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+Bricks ..> Clay
+BrickWall ..> Bricks
+@enduml

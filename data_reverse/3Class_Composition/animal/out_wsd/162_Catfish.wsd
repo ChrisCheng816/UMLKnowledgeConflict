@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Catfish : composes
-Filament *-- Gill : composes
+Gill *-- Catfish
+Filament *-- Gill
 @enduml

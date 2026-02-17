@@ -1,4 +1,4 @@
 @startuml
-Antler *-- Deer : composes
-Bone *-- Antler : composes
+Antler *-- Deer
+Bone *-- Antler
 @enduml

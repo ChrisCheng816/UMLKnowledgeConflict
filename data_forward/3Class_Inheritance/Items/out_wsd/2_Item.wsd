@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Accessory : inherits
-Accessory <|-- Belt : inherits
+Item <|-- Accessory
+Accessory <|-- Belt
 @enduml

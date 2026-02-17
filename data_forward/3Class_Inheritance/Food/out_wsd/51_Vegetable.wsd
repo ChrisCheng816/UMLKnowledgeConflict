@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Legume : inherits
-Legume <|-- BlackBean : inherits
+Vegetable <|-- Legume
+Legume <|-- BlackBean
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Rosemary ..> RosemarySeasoning
+RosemaryPlant ..> Rosemary
+@enduml

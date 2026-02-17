@@ -1,4 +1,0 @@
-@startuml
-Compiler ..> CodeCompilation : depends on
-OperatingSystem ..> Compiler : depends on
-@enduml

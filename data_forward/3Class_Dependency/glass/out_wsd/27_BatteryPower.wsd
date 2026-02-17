@@ -1,4 +1,0 @@
-@startuml
-GlucoseMeter ..> BatteryPower : depends on
-TemperatureCheck ..> GlucoseMeter : depends on
-@enduml

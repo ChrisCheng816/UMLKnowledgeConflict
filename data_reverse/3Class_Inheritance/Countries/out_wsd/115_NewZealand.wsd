@@ -1,0 +1,4 @@
+@startuml
+NewZealand <|-- IslandNation
+IslandNation <|-- State
+@enduml

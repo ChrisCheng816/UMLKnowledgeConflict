@@ -1,0 +1,4 @@
+@startuml
+Entry *-- Dictionary
+Definition *-- Entry
+@enduml

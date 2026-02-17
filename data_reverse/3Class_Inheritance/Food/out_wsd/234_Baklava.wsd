@@ -1,4 +1,4 @@
 @startuml
-Baklava <|-- Dessert : inherits
-Dessert <|-- Food : inherits
+Baklava <|-- Dessert
+Dessert <|-- Food
 @enduml

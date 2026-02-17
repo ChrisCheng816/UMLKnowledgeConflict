@@ -1,4 +1,4 @@
 @startuml
-ChargingDock ..> Electricity : depends on
-PowerSupply ..> ChargingDock : depends on
+ChargingDock ..> Electricity
+PowerSupply ..> ChargingDock
 @enduml

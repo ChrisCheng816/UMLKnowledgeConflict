@@ -1,4 +1,4 @@
 @startuml
-FlockOfKite o-- Kite : aggregates
-Wetland o-- FlockOfKite : aggregates
+FlockOfKite o-- Kite
+Wetland o-- FlockOfKite
 @enduml

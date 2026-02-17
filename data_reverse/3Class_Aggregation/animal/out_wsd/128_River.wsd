@@ -1,0 +1,4 @@
+@startuml
+FlockOfSparrow o-- River
+Sparrow o-- FlockOfSparrow
+@enduml

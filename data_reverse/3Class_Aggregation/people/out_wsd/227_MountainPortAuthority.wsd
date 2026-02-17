@@ -1,4 +1,0 @@
-@startuml
-FinanceUnit o-- MountainPortAuthority : aggregates
-SoundEngineer o-- FinanceUnit : aggregates
-@enduml

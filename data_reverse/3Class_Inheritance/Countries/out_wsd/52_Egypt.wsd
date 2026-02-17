@@ -1,0 +1,4 @@
+@startuml
+Egypt <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

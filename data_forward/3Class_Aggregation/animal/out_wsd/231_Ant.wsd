@@ -1,0 +1,4 @@
+@startuml
+ColonyOfAnt o-- Ant
+Mountain o-- ColonyOfAnt
+@enduml

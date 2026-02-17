@@ -1,4 +1,0 @@
-@startuml
-PolarAir ..> ArcticOcean : depends on
-ColdAirMass ..> PolarAir : depends on
-@enduml

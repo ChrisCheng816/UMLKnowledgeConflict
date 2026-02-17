@@ -1,4 +1,0 @@
-@startuml
-FlockOfCrane o-- Zoo : aggregates
-Crane o-- FlockOfCrane : aggregates
-@enduml

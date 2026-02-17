@@ -1,4 +1,4 @@
 @startuml
-TheMiseducationOfLaurynHill <|-- Album : inherits
-Album <|-- MusicWork : inherits
+TheMiseducationOfLaurynHill <|-- Album
+Album <|-- MusicWork
 @enduml

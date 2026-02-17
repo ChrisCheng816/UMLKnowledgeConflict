@@ -1,0 +1,4 @@
+@startuml
+Sicily <|-- Island
+Island <|-- GeographicFeature
+@enduml

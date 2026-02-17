@@ -1,0 +1,4 @@
+@startuml
+TestStrip ..> Reagent
+PregnancyTest ..> TestStrip
+@enduml

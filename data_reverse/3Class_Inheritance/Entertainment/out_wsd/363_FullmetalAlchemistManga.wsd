@@ -1,4 +1,4 @@
 @startuml
-FullmetalAlchemistManga <|-- Manga : inherits
-Manga <|-- Comic : inherits
+FullmetalAlchemistManga <|-- Manga
+Manga <|-- Comic
 @enduml

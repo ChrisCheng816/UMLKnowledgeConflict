@@ -1,4 +1,4 @@
 @startuml
-GrecoRomanWrestling <|-- Wrestling : inherits
-Wrestling <|-- Sport : inherits
+GrecoRomanWrestling <|-- Wrestling
+Wrestling <|-- Sport
 @enduml

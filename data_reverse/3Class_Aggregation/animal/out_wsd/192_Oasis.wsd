@@ -1,0 +1,4 @@
+@startuml
+ColonyOfHare o-- Oasis
+Hare o-- ColonyOfHare
+@enduml

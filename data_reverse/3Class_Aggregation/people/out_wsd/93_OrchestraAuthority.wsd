@@ -1,4 +1,0 @@
-@startuml
-RehearsalTeam o-- OrchestraAuthority : aggregates
-Violinist o-- RehearsalTeam : aggregates
-@enduml

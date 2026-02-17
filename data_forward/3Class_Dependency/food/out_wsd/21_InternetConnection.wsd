@@ -1,4 +1,0 @@
-@startuml
-EmailServer ..> InternetConnection : depends on
-PasswordReset ..> EmailServer : depends on
-@enduml

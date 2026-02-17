@@ -1,4 +1,0 @@
-@startuml
-FlockOfPelican o-- Pelican : aggregates
-Lake o-- FlockOfPelican : aggregates
-@enduml

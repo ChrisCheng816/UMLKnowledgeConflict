@@ -1,4 +1,0 @@
-@startuml
-HerdOfAntelope o-- Antelope : aggregates
-Swamp o-- HerdOfAntelope : aggregates
-@enduml

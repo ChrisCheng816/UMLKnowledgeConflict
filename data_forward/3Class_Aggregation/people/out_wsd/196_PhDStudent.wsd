@@ -1,4 +1,0 @@
-@startuml
-ResearchGroup o-- PhDStudent : aggregates
-ResearchInstitute o-- ResearchGroup : aggregates
-@enduml

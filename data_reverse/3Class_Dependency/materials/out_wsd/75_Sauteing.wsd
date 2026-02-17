@@ -1,4 +1,4 @@
 @startuml
-ElectricSkillet ..> Sauteing : depends on
-Electricity ..> ElectricSkillet : depends on
+ElectricSkillet ..> Sauteing
+Electricity ..> ElectricSkillet
 @enduml

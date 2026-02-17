@@ -1,4 +1,0 @@
-@startuml
-ColonyOfSkunk o-- Skunk : aggregates
-Canyon o-- ColonyOfSkunk : aggregates
-@enduml

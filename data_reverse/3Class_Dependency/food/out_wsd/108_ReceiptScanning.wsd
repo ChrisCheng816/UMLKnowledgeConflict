@@ -1,4 +1,0 @@
-@startuml
-Scanner ..> ReceiptScanning : depends on
-Electricity ..> Scanner : depends on
-@enduml

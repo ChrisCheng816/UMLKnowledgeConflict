@@ -1,4 +1,0 @@
-@startuml
-NestOfChameleon o-- Delta : aggregates
-Chameleon o-- NestOfChameleon : aggregates
-@enduml

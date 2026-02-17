@@ -1,0 +1,4 @@
+@startuml
+Lentils ..> LentilPlant
+LentilSoup ..> Lentils
+@enduml

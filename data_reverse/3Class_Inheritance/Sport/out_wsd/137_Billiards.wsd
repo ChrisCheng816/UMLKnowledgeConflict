@@ -1,4 +1,4 @@
 @startuml
-Billiards <|-- IndividualSport : inherits
-IndividualSport <|-- Sport : inherits
+Billiards <|-- IndividualSport
+IndividualSport <|-- Sport
 @enduml

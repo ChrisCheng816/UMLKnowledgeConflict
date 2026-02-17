@@ -1,4 +1,0 @@
-@startuml
-Engine *-- Crankshaft : composes
-Motorcycle *-- Engine : composes
-@enduml

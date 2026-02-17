@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Shrub : inherits
-Shrub <|-- Boxwood : inherits
+Plant <|-- Shrub
+Shrub <|-- Boxwood
 @enduml

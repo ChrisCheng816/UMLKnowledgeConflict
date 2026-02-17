@@ -1,0 +1,4 @@
+@startuml
+BunkeringPort ..> CargoShip
+FuelBarge ..> BunkeringPort
+@enduml

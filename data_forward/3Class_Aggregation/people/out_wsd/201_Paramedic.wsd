@@ -1,4 +1,0 @@
-@startuml
-RescueUnit o-- Paramedic : aggregates
-DigitalHospitalCenter o-- RescueUnit : aggregates
-@enduml

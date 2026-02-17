@@ -1,4 +1,4 @@
 @startuml
-Avatar <|-- Film : inherits
-Film <|-- Entertainment : inherits
+Avatar <|-- Film
+Film <|-- Entertainment
 @enduml

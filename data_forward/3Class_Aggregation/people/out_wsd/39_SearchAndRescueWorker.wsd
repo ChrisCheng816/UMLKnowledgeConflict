@@ -1,4 +1,0 @@
-@startuml
-RescueTeam o-- SearchAndRescueWorker : aggregates
-MarinePark o-- RescueTeam : aggregates
-@enduml

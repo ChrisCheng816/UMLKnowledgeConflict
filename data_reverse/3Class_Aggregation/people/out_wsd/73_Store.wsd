@@ -1,0 +1,4 @@
+@startuml
+LineOfCustomers o-- Store
+Customer o-- LineOfCustomers
+@enduml

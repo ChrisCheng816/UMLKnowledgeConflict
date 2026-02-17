@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Sculpture : inherits
-Sculpture <|-- TheThinker : inherits
+Artwork <|-- Sculpture
+Sculpture <|-- TheThinker
 @enduml

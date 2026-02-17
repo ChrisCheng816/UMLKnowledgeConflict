@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame : inherits
-BoardGame <|-- Root : inherits
+Game <|-- BoardGame
+BoardGame <|-- Root
 @enduml

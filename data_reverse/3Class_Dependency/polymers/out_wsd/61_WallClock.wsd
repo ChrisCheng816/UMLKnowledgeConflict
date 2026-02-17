@@ -1,0 +1,4 @@
+@startuml
+Battery ..> WallClock
+Lithium ..> Battery
+@enduml

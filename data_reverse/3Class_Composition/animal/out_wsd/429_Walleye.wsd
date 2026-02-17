@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Walleye : composes
-Filament *-- Gill : composes
+Gill *-- Walleye
+Filament *-- Gill
 @enduml

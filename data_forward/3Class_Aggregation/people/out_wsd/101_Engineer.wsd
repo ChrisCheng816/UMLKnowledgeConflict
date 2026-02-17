@@ -1,4 +1,0 @@
-@startuml
-MaintenanceTeam o-- Engineer : aggregates
-GardenAuthority o-- MaintenanceTeam : aggregates
-@enduml

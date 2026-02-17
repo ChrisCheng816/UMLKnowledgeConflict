@@ -1,4 +1,0 @@
-@startuml
-NestOfSnake o-- Snake : aggregates
-Bay o-- NestOfSnake : aggregates
-@enduml

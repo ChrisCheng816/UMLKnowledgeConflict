@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film : inherits
-Film <|-- NoCountryForOldMen : inherits
+Entertainment <|-- Film
+Film <|-- NoCountryForOldMen
 @enduml

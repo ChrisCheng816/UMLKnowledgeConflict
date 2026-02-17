@@ -1,0 +1,4 @@
+@startuml
+OverheadLine ..> TractionSubstation
+Tram ..> OverheadLine
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-FlockOfCrow o-- River : aggregates
-Crow o-- FlockOfCrow : aggregates
-@enduml

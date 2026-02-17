@@ -1,4 +1,0 @@
-@startuml
-Ventilator ..> AnesthesiaSupport : depends on
-Electricity ..> Ventilator : depends on
-@enduml

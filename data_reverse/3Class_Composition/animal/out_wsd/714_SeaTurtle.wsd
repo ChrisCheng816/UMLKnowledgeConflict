@@ -1,4 +1,4 @@
 @startuml
-Skin *-- SeaTurtle : composes
-Scale *-- Skin : composes
+Skin *-- SeaTurtle
+Scale *-- Skin
 @enduml

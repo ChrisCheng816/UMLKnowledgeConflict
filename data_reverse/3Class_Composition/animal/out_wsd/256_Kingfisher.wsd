@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Kingfisher : composes
-Feather *-- Wing : composes
+Wing *-- Kingfisher
+Feather *-- Wing
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+SchoolOfGoldfishes o-- Park
+Goldfish o-- SchoolOfGoldfishes
+@enduml

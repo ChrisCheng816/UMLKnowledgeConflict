@@ -1,4 +1,4 @@
 @startuml
-IndianInstituteOfScience <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+IndianInstituteOfScience <|-- University
+University <|-- EducationalInstitution
 @enduml

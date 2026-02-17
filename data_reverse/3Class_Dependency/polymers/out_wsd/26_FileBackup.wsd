@@ -1,4 +1,0 @@
-@startuml
-CloudSyncClient ..> FileBackup : depends on
-OperatingSystem ..> CloudSyncClient : depends on
-@enduml

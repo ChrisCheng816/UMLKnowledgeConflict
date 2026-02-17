@@ -1,4 +1,0 @@
-@startuml
-ThirdRail ..> TractionSubstation : depends on
-MetroTrain ..> ThirdRail : depends on
-@enduml

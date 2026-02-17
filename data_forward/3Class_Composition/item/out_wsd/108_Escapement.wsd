@@ -1,4 +1,0 @@
-@startuml
-WatchMovement *-- Escapement : composes
-Wristwatch *-- WatchMovement : composes
-@enduml

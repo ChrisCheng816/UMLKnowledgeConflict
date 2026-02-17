@@ -1,4 +1,0 @@
-@startuml
-LogisticsTeam o-- ProjectManager : aggregates
-LegalMusicAcademy o-- LogisticsTeam : aggregates
-@enduml

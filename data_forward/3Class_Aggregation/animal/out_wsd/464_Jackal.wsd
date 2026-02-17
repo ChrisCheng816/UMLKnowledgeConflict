@@ -1,0 +1,4 @@
+@startuml
+PackOfJackals o-- Jackal
+Garden o-- PackOfJackals
+@enduml

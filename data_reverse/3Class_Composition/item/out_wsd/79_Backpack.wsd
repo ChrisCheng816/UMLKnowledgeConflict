@@ -1,0 +1,4 @@
+@startuml
+Strap *-- Backpack
+Buckle *-- Strap
+@enduml

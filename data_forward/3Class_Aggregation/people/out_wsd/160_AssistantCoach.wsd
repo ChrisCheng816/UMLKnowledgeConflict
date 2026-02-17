@@ -1,4 +1,0 @@
-@startuml
-CoachingTeam o-- AssistantCoach : aggregates
-SportsAgency o-- CoachingTeam : aggregates
-@enduml

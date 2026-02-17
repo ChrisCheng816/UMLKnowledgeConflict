@@ -1,0 +1,4 @@
+@startuml
+CameraModule *-- DigitalCamera
+ImageSensor *-- CameraModule
+@enduml

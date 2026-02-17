@@ -1,4 +1,4 @@
 @startuml
-SwarmOfHornet o-- Lagoon : aggregates
-Hornet o-- SwarmOfHornet : aggregates
+SwarmOfHornet o-- Lagoon
+Hornet o-- SwarmOfHornet
 @enduml

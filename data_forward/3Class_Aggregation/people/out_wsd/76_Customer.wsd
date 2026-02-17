@@ -1,0 +1,4 @@
+@startuml
+GroupOfCustomers o-- Customer
+Mall o-- GroupOfCustomers
+@enduml

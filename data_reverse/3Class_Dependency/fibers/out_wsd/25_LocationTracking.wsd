@@ -1,4 +1,4 @@
 @startuml
-GPSReceiver ..> LocationTracking : depends on
-GPSSatellite ..> GPSReceiver : depends on
+GPSReceiver ..> LocationTracking
+GPSSatellite ..> GPSReceiver
 @enduml

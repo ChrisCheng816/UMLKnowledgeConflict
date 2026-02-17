@@ -1,4 +1,0 @@
-@startuml
-ColonyOfRabbit o-- Channel : aggregates
-Rabbit o-- ColonyOfRabbit : aggregates
-@enduml

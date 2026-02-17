@@ -1,4 +1,4 @@
 @startuml
-Skin *-- BlueTongueSkink : composes
-Scale *-- Skin : composes
+Skin *-- BlueTongueSkink
+Scale *-- Skin
 @enduml

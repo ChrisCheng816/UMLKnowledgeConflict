@@ -1,4 +1,4 @@
 @startuml
-Dehumidifier ..> MoldPrevention : depends on
-Electricity ..> Dehumidifier : depends on
+Dehumidifier ..> MoldPrevention
+Electricity ..> Dehumidifier
 @enduml

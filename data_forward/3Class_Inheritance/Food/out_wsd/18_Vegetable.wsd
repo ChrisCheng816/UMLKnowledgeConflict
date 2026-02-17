@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- LeafyVegetable : inherits
-LeafyVegetable <|-- SwissChard : inherits
+Vegetable <|-- LeafyVegetable
+LeafyVegetable <|-- SwissChard
 @enduml

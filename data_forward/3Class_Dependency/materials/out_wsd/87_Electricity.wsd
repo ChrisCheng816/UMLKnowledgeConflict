@@ -1,4 +1,4 @@
 @startuml
-FloorLamp ..> Electricity : depends on
-NightLighting ..> FloorLamp : depends on
+FloorLamp ..> Electricity
+NightLighting ..> FloorLamp
 @enduml

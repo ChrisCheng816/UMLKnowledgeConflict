@@ -1,0 +1,4 @@
+@startuml
+PlayerGroup o-- MurderMysteryShop
+GameMaster o-- PlayerGroup
+@enduml

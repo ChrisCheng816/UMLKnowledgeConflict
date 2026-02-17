@@ -1,4 +1,0 @@
-@startuml
-EmergencyTeam o-- TunnelAuthority : aggregates
-Firefighter o-- EmergencyTeam : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Japan : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Mali
 @enduml

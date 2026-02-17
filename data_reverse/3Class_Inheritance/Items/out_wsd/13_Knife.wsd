@@ -1,4 +1,4 @@
 @startuml
-Knife <|-- Utensil : inherits
-Utensil <|-- Item : inherits
+Knife <|-- Utensil
+Utensil <|-- Item
 @enduml

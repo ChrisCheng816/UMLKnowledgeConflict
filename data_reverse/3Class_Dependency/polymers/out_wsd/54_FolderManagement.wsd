@@ -1,4 +1,0 @@
-@startuml
-FileManager ..> FolderManagement : depends on
-OperatingSystem ..> FileManager : depends on
-@enduml

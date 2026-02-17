@@ -1,4 +1,0 @@
-@startuml
-FlockOfStarling o-- River : aggregates
-Starling o-- FlockOfStarling : aggregates
-@enduml

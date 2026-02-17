@@ -1,4 +1,0 @@
-@startuml
-CustomerSupportTeam o-- Surgeon : aggregates
-EnvironmentalHospitalCenter o-- CustomerSupportTeam : aggregates
-@enduml

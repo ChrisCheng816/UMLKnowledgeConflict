@@ -1,4 +1,0 @@
-@startuml
-MediationGroup o-- Mediator : aggregates
-AutonomousOrganization o-- MediationGroup : aggregates
-@enduml

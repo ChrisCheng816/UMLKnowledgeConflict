@@ -1,0 +1,4 @@
+@startuml
+CoriolisEffect ..> OceanCurrent
+EarthRotation ..> CoriolisEffect
+@enduml

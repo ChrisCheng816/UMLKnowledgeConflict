@@ -1,0 +1,4 @@
+@startuml
+GroupOfGuests o-- Hotel
+Guest o-- GroupOfGuests
+@enduml

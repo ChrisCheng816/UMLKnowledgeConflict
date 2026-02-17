@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- Physicist : inherits
-Physicist <|-- AlbertEinstein : inherits
+Scientist <|-- Physicist
+Physicist <|-- AlbertEinstein
 @enduml

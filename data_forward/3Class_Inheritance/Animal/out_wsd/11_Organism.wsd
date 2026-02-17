@@ -1,4 +1,4 @@
 @startuml
-Organism <|-- Animal : inherits
-Animal <|-- Mollusk : inherits
+Organism <|-- Animal
+Animal <|-- Mollusk
 @enduml

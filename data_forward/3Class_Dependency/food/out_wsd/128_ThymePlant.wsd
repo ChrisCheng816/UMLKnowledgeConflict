@@ -1,0 +1,4 @@
+@startuml
+Thyme ..> ThymePlant
+ThymeSeasoning ..> Thyme
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-UniversityOfWarwick <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+UniversityOfWarwick <|-- University
+University <|-- EducationalInstitution
 @enduml

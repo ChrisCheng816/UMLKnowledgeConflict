@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Saiga : composes
-Nostril *-- Nose : composes
+Nose *-- Saiga
+Nostril *-- Nose
 @enduml

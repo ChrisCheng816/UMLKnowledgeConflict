@@ -1,4 +1,4 @@
 @startuml
-ElectricHotPlate ..> Electricity : depends on
-ShrinkWrapping ..> ElectricHotPlate : depends on
+HeatGun ..> Electricity
+PaintStripping ..> HeatGun
 @enduml

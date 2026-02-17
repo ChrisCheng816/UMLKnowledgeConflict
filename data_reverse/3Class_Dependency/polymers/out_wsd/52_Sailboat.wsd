@@ -1,0 +1,4 @@
+@startuml
+Wind ..> Sailboat
+PressureDifference ..> Wind
+@enduml

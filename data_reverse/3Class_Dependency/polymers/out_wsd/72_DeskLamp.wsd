@@ -1,0 +1,4 @@
+@startuml
+Electricity ..> DeskLamp
+PowerGrid ..> Electricity
+@enduml

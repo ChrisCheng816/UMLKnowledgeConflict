@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- ChronoTrigger : inherits
+Game <|-- VideoGame
+VideoGame <|-- ChronoTrigger
 @enduml

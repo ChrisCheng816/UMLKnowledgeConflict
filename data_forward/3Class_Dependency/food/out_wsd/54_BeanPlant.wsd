@@ -1,0 +1,4 @@
+@startuml
+Beans ..> BeanPlant
+BeanChili ..> Beans
+@enduml

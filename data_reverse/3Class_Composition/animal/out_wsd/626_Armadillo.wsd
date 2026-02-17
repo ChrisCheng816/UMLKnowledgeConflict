@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Armadillo : composes
-Claw *-- Paw : composes
+Paw *-- Armadillo
+Claw *-- Paw
 @enduml

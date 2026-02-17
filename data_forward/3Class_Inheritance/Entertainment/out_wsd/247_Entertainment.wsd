@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film : inherits
-Film <|-- SpiritedAway : inherits
+Entertainment <|-- Film
+Film <|-- SpiritedAway
 @enduml

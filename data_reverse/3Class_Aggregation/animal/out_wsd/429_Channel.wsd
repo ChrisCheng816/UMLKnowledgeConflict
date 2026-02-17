@@ -1,0 +1,4 @@
+@startuml
+ColonyOfHare o-- Channel
+Hare o-- ColonyOfHare
+@enduml

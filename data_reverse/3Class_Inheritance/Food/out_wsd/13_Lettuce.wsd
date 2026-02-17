@@ -1,4 +1,4 @@
 @startuml
-Lettuce <|-- LeafyVegetable : inherits
-LeafyVegetable <|-- Vegetable : inherits
+Lettuce <|-- LeafyVegetable
+LeafyVegetable <|-- Vegetable
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-TurbineEngine *-- TurbopropPlane : composes
-FuelNozzle *-- TurbineEngine : composes
-@enduml

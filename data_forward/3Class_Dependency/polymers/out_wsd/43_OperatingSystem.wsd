@@ -1,4 +1,0 @@
-@startuml
-DrawingApp ..> OperatingSystem : depends on
-DigitalDrawing ..> DrawingApp : depends on
-@enduml

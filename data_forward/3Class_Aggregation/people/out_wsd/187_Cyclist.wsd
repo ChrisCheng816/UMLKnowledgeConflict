@@ -1,0 +1,4 @@
+@startuml
+CrewOfCyclists o-- Cyclist
+Festival o-- CrewOfCyclists
+@enduml

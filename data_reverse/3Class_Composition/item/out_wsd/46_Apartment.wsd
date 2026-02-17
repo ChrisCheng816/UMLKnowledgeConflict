@@ -1,4 +1,4 @@
 @startuml
-Roof *-- Apartment : composes
-Rafter *-- Roof : composes
+Wall *-- Apartment
+Insulation *-- Wall
 @enduml

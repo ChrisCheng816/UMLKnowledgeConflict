@@ -1,0 +1,4 @@
+@startuml
+Electricity ..> Refrigerator
+SolarPanel ..> Electricity
+@enduml

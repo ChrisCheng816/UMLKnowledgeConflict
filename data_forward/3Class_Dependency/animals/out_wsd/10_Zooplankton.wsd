@@ -1,4 +1,4 @@
 @startuml
-Anchovy ..> Zooplankton : depends on
-Seal ..> Anchovy : depends on
+Anchovy ..> Zooplankton
+Tuna ..> Anchovy
 @enduml

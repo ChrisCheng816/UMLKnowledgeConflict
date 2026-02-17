@@ -1,0 +1,4 @@
+@startuml
+Turkey <|-- TranscontinentalCountry
+TranscontinentalCountry <|-- Country
+@enduml

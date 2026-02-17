@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Jordan : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- MarshallIslands
 @enduml

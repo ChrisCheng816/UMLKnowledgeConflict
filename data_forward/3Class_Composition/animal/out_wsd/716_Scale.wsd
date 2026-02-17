@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Scale : composes
-BoxTurtle *-- Skin : composes
+Skin *-- Scale
+BoxTurtle *-- Skin
 @enduml

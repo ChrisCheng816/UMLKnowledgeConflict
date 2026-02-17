@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inherits
-University <|-- NagoyaUniversity : inherits
+EducationalInstitution <|-- University
+University <|-- NagoyaUniversity
 @enduml

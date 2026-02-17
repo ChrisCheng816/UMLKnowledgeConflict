@@ -1,4 +1,0 @@
-@startuml
-ArchiveFolder o-- CountyLibrary : aggregates
-ArchiveDocument o-- ArchiveFolder : aggregates
-@enduml

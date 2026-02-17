@@ -1,0 +1,4 @@
+@startuml
+GroupOfPainters o-- Painter
+Community o-- GroupOfPainters
+@enduml

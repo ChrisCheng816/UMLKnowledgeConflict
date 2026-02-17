@@ -1,4 +1,4 @@
 @startuml
-Artist <|-- Sculptor : inherits
-Sculptor <|-- Michelangelo : inherits
+Artist <|-- Sculptor
+Sculptor <|-- Michelangelo
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-TroopOfBaboon o-- Baboon : aggregates
-Inlet o-- TroopOfBaboon : aggregates
-@enduml

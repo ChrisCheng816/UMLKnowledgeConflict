@@ -1,4 +1,4 @@
 @startuml
-SouthAmerica <|-- Continent : inherits
-Continent <|-- GeographicFeature : inherits
+SouthAmerica <|-- Continent
+Continent <|-- GeographicFeature
 @enduml

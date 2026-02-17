@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- DeadCells : inherits
+Game <|-- VideoGame
+VideoGame <|-- DeadCells
 @enduml

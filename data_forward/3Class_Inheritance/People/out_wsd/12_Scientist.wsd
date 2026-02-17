@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- Mathematician : inherits
-Mathematician <|-- KatherineJohnson : inherits
+Scientist <|-- Mathematician
+Mathematician <|-- KatherineJohnson
 @enduml

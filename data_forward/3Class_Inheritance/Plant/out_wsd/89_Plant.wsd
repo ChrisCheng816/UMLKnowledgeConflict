@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Fern : inherits
-Fern <|-- BrackenFern : inherits
+Plant <|-- Fern
+Fern <|-- BrackenFern
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GranTurismo7 <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+GranTurismo7 <|-- VideoGame
+VideoGame <|-- Game
 @enduml

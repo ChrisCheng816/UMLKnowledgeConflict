@@ -1,4 +1,0 @@
-@startuml
-HeadlampLight ..> SurgicalLighting : depends on
-Electricity ..> HeadlampLight : depends on
-@enduml

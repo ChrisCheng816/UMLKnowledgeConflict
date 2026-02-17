@@ -1,0 +1,4 @@
+@startuml
+DrillPress ..> Drilling
+Electricity ..> DrillPress
+@enduml

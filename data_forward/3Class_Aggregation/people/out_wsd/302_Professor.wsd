@@ -1,4 +1,0 @@
-@startuml
-TrainingTeam o-- Professor : aggregates
-CulturalUniversityOffice o-- TrainingTeam : aggregates
-@enduml

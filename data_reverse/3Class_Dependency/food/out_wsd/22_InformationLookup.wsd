@@ -1,4 +1,0 @@
-@startuml
-EncyclopediaSite ..> InformationLookup : depends on
-InternetConnection ..> EncyclopediaSite : depends on
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-Sequoia <|-- Tree : inherits
-Tree <|-- Plant : inherits
+Sequoia <|-- Tree
+Tree <|-- Plant
 @enduml

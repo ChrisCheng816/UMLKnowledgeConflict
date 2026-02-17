@@ -1,4 +1,4 @@
 @startuml
-Scrabble <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+Scrabble <|-- BoardGame
+BoardGame <|-- Game
 @enduml

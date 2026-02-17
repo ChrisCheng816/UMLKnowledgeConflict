@@ -1,4 +1,0 @@
-@startuml
-PackOfHyena o-- Hyena : aggregates
-Harbor o-- PackOfHyena : aggregates
-@enduml

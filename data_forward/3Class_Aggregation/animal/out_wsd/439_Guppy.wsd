@@ -1,0 +1,4 @@
+@startuml
+SchoolOfGuppy o-- Guppy
+Savanna o-- SchoolOfGuppy
+@enduml

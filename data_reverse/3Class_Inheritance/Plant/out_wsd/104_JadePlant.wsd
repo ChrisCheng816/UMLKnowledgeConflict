@@ -1,4 +1,4 @@
 @startuml
-JadePlant <|-- Succulent : inherits
-Succulent <|-- Plant : inherits
+JadePlant <|-- Succulent
+Succulent <|-- Plant
 @enduml

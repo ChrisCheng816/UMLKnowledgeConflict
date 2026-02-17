@@ -1,0 +1,4 @@
+@startuml
+StaffOfReaders o-- Reader
+Company o-- StaffOfReaders
+@enduml

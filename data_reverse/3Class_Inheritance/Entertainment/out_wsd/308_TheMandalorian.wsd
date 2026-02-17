@@ -1,4 +1,4 @@
 @startuml
-TheMandalorian <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+TheMandalorian <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

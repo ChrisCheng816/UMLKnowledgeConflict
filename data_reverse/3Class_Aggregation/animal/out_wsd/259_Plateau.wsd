@@ -1,4 +1,0 @@
-@startuml
-NestOfCobra o-- Plateau : aggregates
-Cobra o-- NestOfCobra : aggregates
-@enduml

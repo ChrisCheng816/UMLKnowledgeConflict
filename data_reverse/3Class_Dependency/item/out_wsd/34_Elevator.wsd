@@ -1,4 +1,4 @@
 @startuml
-BuildingPowerFeed ..> Elevator : depends on
-CircuitBreakerPanel ..> BuildingPowerFeed : depends on
+BuildingPowerFeed ..> Elevator
+CircuitBreakerPanel ..> BuildingPowerFeed
 @enduml

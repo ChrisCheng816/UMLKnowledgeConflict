@@ -1,4 +1,0 @@
-@startuml
-ForensicTeam o-- EnergyCityCouncil : aggregates
-ForensicAnalyst o-- ForensicTeam : aggregates
-@enduml

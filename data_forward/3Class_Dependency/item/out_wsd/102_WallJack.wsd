@@ -1,0 +1,4 @@
+@startuml
+CoaxialCable ..> WallJack
+BroadbandModem ..> CoaxialCable
+@enduml

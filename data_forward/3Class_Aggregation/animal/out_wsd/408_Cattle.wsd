@@ -1,0 +1,4 @@
+@startuml
+HerdOfCattle o-- Cattle
+Harbor o-- HerdOfCattle
+@enduml

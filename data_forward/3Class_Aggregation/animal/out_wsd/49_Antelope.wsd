@@ -1,4 +1,4 @@
 @startuml
-HerdOfAntelope o-- Antelope : aggregates
-Savanna o-- HerdOfAntelope : aggregates
+HerdOfAntelope o-- Antelope
+Savanna o-- HerdOfAntelope
 @enduml

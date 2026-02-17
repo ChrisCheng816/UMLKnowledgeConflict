@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Groundhog : composes
-Claw *-- Paw : composes
+Paw *-- Groundhog
+Claw *-- Paw
 @enduml

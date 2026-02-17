@@ -1,4 +1,4 @@
 @startuml
-CarNavigationSystem ..> LocationTracking : depends on
-GPSSignal ..> CarNavigationSystem : depends on
+CarNavigationSystem ..> LocationTracking
+GPSSignal ..> CarNavigationSystem
 @enduml

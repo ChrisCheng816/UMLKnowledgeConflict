@@ -1,4 +1,0 @@
-@startuml
-DisplayModule *-- TouchDigitizer : composes
-Monitor *-- DisplayModule : composes
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+SwarmOfBeetle o-- Pasture
+Beetle o-- SwarmOfBeetle
+@enduml

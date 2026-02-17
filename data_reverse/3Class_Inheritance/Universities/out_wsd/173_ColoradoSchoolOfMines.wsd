@@ -1,4 +1,4 @@
 @startuml
-ColoradoSchoolOfMines <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+ColoradoSchoolOfMines <|-- University
+University <|-- EducationalInstitution
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-DockOpsUnit o-- CommunityCoordinator : aggregates
-WetlandHorticultureAssociation o-- DockOpsUnit : aggregates
-@enduml

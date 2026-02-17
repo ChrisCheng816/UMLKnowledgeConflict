@@ -1,0 +1,4 @@
+@startuml
+SchoolOfCatfish o-- Barn
+Catfish o-- SchoolOfCatfish
+@enduml

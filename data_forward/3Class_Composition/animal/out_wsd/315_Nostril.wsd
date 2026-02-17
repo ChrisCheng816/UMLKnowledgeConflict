@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Nostril : composes
-Shearwater *-- Beak : composes
+Beak *-- Nostril
+Shearwater *-- Beak
 @enduml

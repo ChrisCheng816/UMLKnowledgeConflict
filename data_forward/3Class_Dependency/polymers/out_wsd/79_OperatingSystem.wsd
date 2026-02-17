@@ -1,4 +1,0 @@
-@startuml
-MusicPlayer ..> OperatingSystem : depends on
-AudioPlayback ..> MusicPlayer : depends on
-@enduml

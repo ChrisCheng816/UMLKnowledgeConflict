@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Cheetah : composes
-Root *-- Tooth : composes
+Tooth *-- Cheetah
+Root *-- Tooth
 @enduml

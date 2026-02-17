@@ -1,4 +1,0 @@
-@startuml
-HerdOfReindeer o-- Harbor : aggregates
-Reindeer o-- HerdOfReindeer : aggregates
-@enduml

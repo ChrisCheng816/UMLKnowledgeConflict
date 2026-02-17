@@ -1,4 +1,0 @@
-@startuml
-Board o-- CommitteeMember : aggregates
-OrchestraSociety o-- Board : aggregates
-@enduml

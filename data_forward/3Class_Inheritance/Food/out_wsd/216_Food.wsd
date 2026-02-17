@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Snack : inherits
-Snack <|-- GranolaBar : inherits
+Food <|-- Snack
+Snack <|-- GranolaBar
 @enduml

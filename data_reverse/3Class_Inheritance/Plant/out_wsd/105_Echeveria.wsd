@@ -1,4 +1,4 @@
 @startuml
-Echeveria <|-- Succulent : inherits
-Succulent <|-- Plant : inherits
+Echeveria <|-- Succulent
+Succulent <|-- Plant
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-RescueTeam o-- IslandRailwayOperator : aggregates
-SearchAndRescueWorker o-- RescueTeam : aggregates
-@enduml

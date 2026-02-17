@@ -1,4 +1,0 @@
-@startuml
-NoteApp ..> CalendarManagement : depends on
-OperatingSystem ..> NoteApp : depends on
-@enduml

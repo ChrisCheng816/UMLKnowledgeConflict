@@ -1,4 +1,4 @@
 @startuml
-HemodialysisMachine ..> Electricity : depends on
-BloodFiltration ..> HemodialysisMachine : depends on
+LinearAccelerator ..> Electricity
+CancerTreatment ..> LinearAccelerator
 @enduml

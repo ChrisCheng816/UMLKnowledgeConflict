@@ -1,4 +1,4 @@
 @startuml
-Clue <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+Clue <|-- BoardGame
+BoardGame <|-- Game
 @enduml

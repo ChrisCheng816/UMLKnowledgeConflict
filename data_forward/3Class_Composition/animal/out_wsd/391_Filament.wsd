@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Filament : composes
-Bass *-- Gill : composes
+Gill *-- Filament
+Bass *-- Gill
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Ireland : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Madagascar
 @enduml

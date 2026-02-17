@@ -1,4 +1,4 @@
 @startuml
-TeslaCybertruck <|-- Tesla : inherits
-Tesla <|-- CarManufacturer : inherits
+TeslaCybertruck <|-- ElectricPickup
+ElectricPickup <|-- Truck
 @enduml

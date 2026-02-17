@@ -1,4 +1,4 @@
 @startuml
-JaneAusten <|-- Author : inherits
-Author <|-- Artist : inherits
+JaneAusten <|-- Author
+Author <|-- Artist
 @enduml

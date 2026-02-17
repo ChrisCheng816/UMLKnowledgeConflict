@@ -1,0 +1,4 @@
+@startuml
+Republic <|-- SemiPresidentialRepublic
+SemiPresidentialRepublic <|-- Romania
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-PackOfTiger o-- Tiger : aggregates
-Grove o-- PackOfTiger : aggregates
-@enduml

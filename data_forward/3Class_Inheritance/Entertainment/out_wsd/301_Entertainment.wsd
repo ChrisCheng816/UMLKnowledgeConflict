@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries : inherits
-TVSeries <|-- TheOfficeUS : inherits
+Entertainment <|-- TVSeries
+TVSeries <|-- TheOfficeUS
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-Oscilloscope ..> ContinuityTesting : depends on
-Electricity ..> Oscilloscope : depends on
-@enduml

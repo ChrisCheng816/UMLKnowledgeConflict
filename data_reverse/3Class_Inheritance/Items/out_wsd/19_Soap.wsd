@@ -1,4 +1,4 @@
 @startuml
-Soap <|-- Toiletry : inherits
-Toiletry <|-- Item : inherits
+Soap <|-- Toiletry
+Toiletry <|-- Item
 @enduml

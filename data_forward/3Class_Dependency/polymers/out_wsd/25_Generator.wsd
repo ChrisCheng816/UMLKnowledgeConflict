@@ -1,0 +1,4 @@
+@startuml
+Electricity ..> Generator
+CeilingFan ..> Electricity
+@enduml

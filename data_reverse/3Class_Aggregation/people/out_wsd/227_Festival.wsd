@@ -1,0 +1,4 @@
+@startuml
+CrewOfSpeakers o-- Festival
+Speaker o-- CrewOfSpeakers
+@enduml

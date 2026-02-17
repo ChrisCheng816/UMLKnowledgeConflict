@@ -1,0 +1,4 @@
+@startuml
+ColonyOfKoala o-- Koala
+Canyon o-- ColonyOfKoala
+@enduml

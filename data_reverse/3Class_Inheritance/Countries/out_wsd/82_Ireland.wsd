@@ -1,0 +1,4 @@
+@startuml
+Ireland <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

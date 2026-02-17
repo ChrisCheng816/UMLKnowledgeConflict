@@ -1,0 +1,4 @@
+@startuml
+GroupOfVisitors o-- Museum
+Visitor o-- GroupOfVisitors
+@enduml

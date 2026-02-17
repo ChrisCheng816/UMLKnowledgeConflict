@@ -1,4 +1,0 @@
-@startuml
-EditingTeam o-- Editor : aggregates
-FilmAuthority o-- EditingTeam : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Gerbil : composes
-Root *-- Tooth : composes
+Tooth *-- Gerbil
+Root *-- Tooth
 @enduml

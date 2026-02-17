@@ -1,4 +1,0 @@
-@startuml
-BuildTeam o-- RoboticsAuthority : aggregates
-MechanicalEngineer o-- BuildTeam : aggregates
-@enduml

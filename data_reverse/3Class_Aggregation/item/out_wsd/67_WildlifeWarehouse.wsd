@@ -1,0 +1,4 @@
+@startuml
+StorageBin o-- WildlifeWarehouse
+Blanket o-- StorageBin
+@enduml

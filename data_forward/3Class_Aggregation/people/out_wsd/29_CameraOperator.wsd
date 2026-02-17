@@ -1,4 +1,0 @@
-@startuml
-CameraCrew o-- CameraOperator : aggregates
-FilmAgency o-- CameraCrew : aggregates
-@enduml

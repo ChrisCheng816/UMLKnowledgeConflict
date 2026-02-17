@@ -1,4 +1,4 @@
 @startuml
-VForVendetta <|-- Comic : inherits
-Comic <|-- Entertainment : inherits
+VForVendetta <|-- Comic
+Comic <|-- Entertainment
 @enduml

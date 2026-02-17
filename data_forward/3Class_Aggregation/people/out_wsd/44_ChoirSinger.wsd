@@ -1,4 +1,0 @@
-@startuml
-ChoirGroup o-- ChoirSinger : aggregates
-MusicSociety o-- ChoirGroup : aggregates
-@enduml

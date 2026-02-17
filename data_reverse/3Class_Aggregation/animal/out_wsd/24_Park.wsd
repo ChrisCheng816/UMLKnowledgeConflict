@@ -1,4 +1,4 @@
 @startuml
-FlockOfEmu o-- Park : aggregates
-Emu o-- FlockOfEmu : aggregates
+FlockOfEmu o-- Park
+Emu o-- FlockOfEmu
 @enduml

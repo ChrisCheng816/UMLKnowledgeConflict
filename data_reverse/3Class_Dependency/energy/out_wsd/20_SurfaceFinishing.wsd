@@ -1,4 +1,0 @@
-@startuml
-BenchSander ..> SurfaceFinishing : depends on
-Electricity ..> BenchSander : depends on
-@enduml

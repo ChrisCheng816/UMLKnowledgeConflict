@@ -1,0 +1,4 @@
+@startuml
+HerdOfCamel o-- Camel
+Meadow o-- HerdOfCamel
+@enduml

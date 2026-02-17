@@ -1,4 +1,4 @@
 @startuml
-HeatGun ..> Electricity : depends on
-Heating ..> HeatGun : depends on
+HeatGun ..> Electricity
+ShrinkWrapping ..> HeatGun
 @enduml

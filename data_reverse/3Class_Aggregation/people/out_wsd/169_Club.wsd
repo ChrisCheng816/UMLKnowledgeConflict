@@ -1,0 +1,4 @@
+@startuml
+TeamOfPainters o-- Club
+Painter o-- TeamOfPainters
+@enduml

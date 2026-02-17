@@ -1,4 +1,0 @@
-@startuml
-SwarmOfBeetle o-- Pasture : aggregates
-Beetle o-- SwarmOfBeetle : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-PumpkinSoup <|-- Soup : inherits
-Soup <|-- Dish : inherits
+PumpkinSoup <|-- Soup
+Soup <|-- Dish
 @enduml

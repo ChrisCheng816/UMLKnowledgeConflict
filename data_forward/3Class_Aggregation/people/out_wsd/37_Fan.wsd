@@ -1,0 +1,4 @@
+@startuml
+SeaOfFans o-- Fan
+Stadium o-- SeaOfFans
+@enduml

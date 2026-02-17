@@ -1,4 +1,0 @@
-@startuml
-Department o-- AffiliatedHospital : aggregates
-Doctor o-- Department : aggregates
-@enduml

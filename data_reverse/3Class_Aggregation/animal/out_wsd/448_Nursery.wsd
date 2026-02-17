@@ -1,4 +1,0 @@
-@startuml
-FlockOfWren o-- Nursery : aggregates
-Wren o-- FlockOfWren : aggregates
-@enduml

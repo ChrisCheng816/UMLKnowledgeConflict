@@ -1,4 +1,4 @@
 @startuml
-Airplane ..> CargoFlight : depends on
-JetFuel ..> Airplane : depends on
+Airplane ..> CargoFlight
+JetFuel ..> Airplane
 @enduml

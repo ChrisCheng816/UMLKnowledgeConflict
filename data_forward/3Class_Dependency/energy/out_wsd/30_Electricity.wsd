@@ -1,4 +1,4 @@
 @startuml
-CutoffSaw ..> Electricity : depends on
-Grinding ..> CutoffSaw : depends on
+DrillPress ..> Electricity
+HoleMaking ..> DrillPress
 @enduml

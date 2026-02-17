@@ -1,4 +1,4 @@
 @startuml
-NissanAltima <|-- Nissan : inherits
-Nissan <|-- CarManufacturer : inherits
+NissanAltima <|-- FullSizeSedan
+FullSizeSedan <|-- Sedan
 @enduml

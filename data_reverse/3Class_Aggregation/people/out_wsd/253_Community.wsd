@@ -1,0 +1,4 @@
+@startuml
+GroupOfFarmers o-- Community
+Farmer o-- GroupOfFarmers
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CaribbeanSea <|-- Sea
+Sea <|-- GeographicFeature
+@enduml

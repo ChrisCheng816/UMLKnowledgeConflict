@@ -1,4 +1,4 @@
 @startuml
-Succession <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+Succession <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+FlockOfAlbatross o-- River
+Albatross o-- FlockOfAlbatross
+@enduml

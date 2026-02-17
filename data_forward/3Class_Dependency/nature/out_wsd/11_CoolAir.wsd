@@ -1,0 +1,4 @@
+@startuml
+HighHumidity ..> CoolAir
+Fog ..> HighHumidity
+@enduml

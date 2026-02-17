@@ -1,4 +1,4 @@
 @startuml
-CandyLand <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+CandyLand <|-- BoardGame
+BoardGame <|-- Game
 @enduml

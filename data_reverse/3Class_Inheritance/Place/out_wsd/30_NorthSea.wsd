@@ -1,0 +1,4 @@
+@startuml
+NorthSea <|-- Sea
+Sea <|-- GeographicFeature
+@enduml

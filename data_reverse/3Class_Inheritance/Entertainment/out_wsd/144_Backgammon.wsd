@@ -1,4 +1,4 @@
 @startuml
-Backgammon <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+Backgammon <|-- BoardGame
+BoardGame <|-- Game
 @enduml

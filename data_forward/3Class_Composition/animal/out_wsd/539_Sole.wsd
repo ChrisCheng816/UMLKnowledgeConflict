@@ -1,4 +1,4 @@
 @startuml
-Hoof *-- Sole : composes
-Caribou *-- Hoof : composes
+Hoof *-- Sole
+Caribou *-- Hoof
 @enduml

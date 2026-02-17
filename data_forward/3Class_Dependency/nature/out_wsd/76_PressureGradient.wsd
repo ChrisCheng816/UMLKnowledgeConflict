@@ -1,4 +1,0 @@
-@startuml
-JetStream ..> PressureGradient : depends on
-CirrusCloud ..> JetStream : depends on
-@enduml

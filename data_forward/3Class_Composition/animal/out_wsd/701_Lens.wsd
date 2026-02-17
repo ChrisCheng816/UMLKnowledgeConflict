@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens : composes
-TokayGecko *-- Eye : composes
+Eye *-- Lens
+TokayGecko *-- Eye
 @enduml

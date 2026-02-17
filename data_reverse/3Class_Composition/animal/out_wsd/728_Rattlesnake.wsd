@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Rattlesnake : composes
-Scale *-- Skin : composes
+Skin *-- Rattlesnake
+Scale *-- Skin
 @enduml

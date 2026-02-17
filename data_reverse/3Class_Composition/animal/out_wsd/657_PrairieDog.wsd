@@ -1,4 +1,4 @@
 @startuml
-Nose *-- PrairieDog : composes
-Nostril *-- Nose : composes
+Nose *-- PrairieDog
+Nostril *-- Nose
 @enduml

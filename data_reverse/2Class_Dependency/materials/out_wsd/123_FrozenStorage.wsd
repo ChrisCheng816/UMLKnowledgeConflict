@@ -1,3 +1,3 @@
 @startuml
-Freezer ..> FrozenStorage : depends on
+Freezer ..> FrozenStorage
 @enduml

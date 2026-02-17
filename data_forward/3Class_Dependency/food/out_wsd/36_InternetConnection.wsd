@@ -1,4 +1,0 @@
-@startuml
-GitRepositoryHost ..> InternetConnection : depends on
-IssueTracking ..> GitRepositoryHost : depends on
-@enduml

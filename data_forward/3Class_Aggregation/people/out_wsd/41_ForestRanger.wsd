@@ -1,4 +1,0 @@
-@startuml
-PatrolUnit o-- ForestRanger : aggregates
-NationalPark o-- PatrolUnit : aggregates
-@enduml

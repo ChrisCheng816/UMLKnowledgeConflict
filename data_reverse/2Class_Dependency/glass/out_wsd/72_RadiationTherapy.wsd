@@ -1,3 +1,3 @@
 @startuml
-RadiationTherapySystem ..> RadiationTherapy : depends on
+TherapyMachine ..> RadiationTherapy
 @enduml

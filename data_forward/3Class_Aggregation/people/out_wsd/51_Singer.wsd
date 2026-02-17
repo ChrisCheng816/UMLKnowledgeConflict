@@ -1,0 +1,4 @@
+@startuml
+TeamOfSingers o-- Singer
+School o-- TeamOfSingers
+@enduml

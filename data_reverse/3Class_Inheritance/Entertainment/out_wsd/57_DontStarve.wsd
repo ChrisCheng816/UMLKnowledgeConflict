@@ -1,4 +1,4 @@
 @startuml
-DontStarve <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+DontStarve <|-- VideoGame
+VideoGame <|-- Game
 @enduml

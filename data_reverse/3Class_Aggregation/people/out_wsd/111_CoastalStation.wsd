@@ -1,4 +1,0 @@
-@startuml
-MaintenanceTeam o-- CoastalStation : aggregates
-Engineer o-- MaintenanceTeam : aggregates
-@enduml

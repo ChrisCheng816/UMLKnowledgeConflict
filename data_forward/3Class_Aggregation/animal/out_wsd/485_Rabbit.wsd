@@ -1,0 +1,4 @@
+@startuml
+ColonyOfRabbits o-- Rabbit
+Aviary o-- ColonyOfRabbits
+@enduml

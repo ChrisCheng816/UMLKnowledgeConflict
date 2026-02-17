@@ -1,4 +1,4 @@
 @startuml
-ElectricShaver ..> Electricity : depends on
-Grooming ..> ElectricShaver : depends on
+ElectricShaver ..> Electricity
+Grooming ..> ElectricShaver
 @enduml

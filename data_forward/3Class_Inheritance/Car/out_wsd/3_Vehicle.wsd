@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Car : inherits
-Car <|-- Hatchback : inherits
+Vehicle <|-- Car
+Car <|-- Hatchback
 @enduml

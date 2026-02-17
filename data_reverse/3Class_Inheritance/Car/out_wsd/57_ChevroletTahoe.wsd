@@ -1,4 +1,4 @@
 @startuml
-ChevroletTahoe <|-- Chevrolet : inherits
-Chevrolet <|-- CarManufacturer : inherits
+ChevroletTahoe <|-- SUV
+SUV <|-- Vehicle
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-CompressionTool ..> OperatingSystem : depends on
-FileCompression ..> CompressionTool : depends on
-@enduml

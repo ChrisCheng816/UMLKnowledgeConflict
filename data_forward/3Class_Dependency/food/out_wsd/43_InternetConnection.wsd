@@ -1,4 +1,0 @@
-@startuml
-IssueTracker ..> InternetConnection : depends on
-CodeHosting ..> IssueTracker : depends on
-@enduml

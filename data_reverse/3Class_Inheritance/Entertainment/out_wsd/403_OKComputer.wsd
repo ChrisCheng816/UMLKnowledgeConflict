@@ -1,4 +1,4 @@
 @startuml
-OKComputer <|-- Album : inherits
-Album <|-- MusicWork : inherits
+OKComputer <|-- Album
+Album <|-- MusicWork
 @enduml

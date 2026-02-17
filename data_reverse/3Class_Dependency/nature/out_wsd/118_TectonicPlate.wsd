@@ -1,4 +1,0 @@
-@startuml
-MantleConvection ..> TectonicPlate : depends on
-EarthHeat ..> MantleConvection : depends on
-@enduml

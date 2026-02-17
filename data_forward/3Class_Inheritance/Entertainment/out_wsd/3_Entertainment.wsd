@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Game : inherits
-Game <|-- BoardGame : inherits
+Entertainment <|-- Game
+Game <|-- BoardGame
 @enduml

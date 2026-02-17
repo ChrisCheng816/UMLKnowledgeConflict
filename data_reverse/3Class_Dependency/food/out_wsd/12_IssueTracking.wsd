@@ -1,4 +1,0 @@
-@startuml
-CICDService ..> IssueTracking : depends on
-InternetConnection ..> CICDService : depends on
-@enduml

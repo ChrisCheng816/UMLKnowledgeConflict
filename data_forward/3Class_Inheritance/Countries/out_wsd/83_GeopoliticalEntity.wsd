@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Gibraltar : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Israel
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Leg *-- FireSalamander : composes
-Muscle *-- Leg : composes
+Leg *-- FireSalamander
+Muscle *-- Leg
 @enduml

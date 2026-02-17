@@ -1,0 +1,4 @@
+@startuml
+CowMilk ..> Cow
+Cheddar ..> CowMilk
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Gambia <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

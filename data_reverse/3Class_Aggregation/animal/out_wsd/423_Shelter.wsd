@@ -1,4 +1,0 @@
-@startuml
-FlockOfAlbatross o-- Shelter : aggregates
-Albatross o-- FlockOfAlbatross : aggregates
-@enduml

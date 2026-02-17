@@ -1,4 +1,0 @@
-@startuml
-BrakeCaliper *-- BrakePad : composes
-Motorcycle *-- BrakeCaliper : composes
-@enduml

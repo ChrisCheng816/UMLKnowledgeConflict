@@ -1,4 +1,4 @@
 @startuml
-BenchGrinder ..> Electricity : depends on
-Grinding ..> BenchGrinder : depends on
+BenchSander ..> Electricity
+SurfaceFinishing ..> BenchSander
 @enduml

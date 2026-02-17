@@ -1,0 +1,4 @@
+@startuml
+StaffOfShoppers o-- Company
+Shopper o-- StaffOfShoppers
+@enduml

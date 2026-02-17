@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Flounder : composes
-Filament *-- Gill : composes
+Gill *-- Flounder
+Filament *-- Gill
 @enduml

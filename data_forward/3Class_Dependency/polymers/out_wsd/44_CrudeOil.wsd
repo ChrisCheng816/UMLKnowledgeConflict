@@ -1,0 +1,4 @@
+@startuml
+Refinery ..> CrudeOil
+Plastic ..> Refinery
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PVC ..> PVCPipe
+Oil ..> PVC
+@enduml

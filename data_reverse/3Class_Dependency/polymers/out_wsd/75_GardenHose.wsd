@@ -1,0 +1,4 @@
+@startuml
+TapWater ..> GardenHose
+Well ..> TapWater
+@enduml

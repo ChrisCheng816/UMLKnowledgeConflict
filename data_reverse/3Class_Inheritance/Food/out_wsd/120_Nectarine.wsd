@@ -1,4 +1,4 @@
 @startuml
-Nectarine <|-- StoneFruit : inherits
-StoneFruit <|-- Fruit : inherits
+Nectarine <|-- StoneFruit
+StoneFruit <|-- Fruit
 @enduml

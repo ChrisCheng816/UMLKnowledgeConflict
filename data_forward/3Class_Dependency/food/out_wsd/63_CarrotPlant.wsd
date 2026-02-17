@@ -1,0 +1,4 @@
+@startuml
+Carrots ..> CarrotPlant
+CarrotCake ..> Carrots
+@enduml

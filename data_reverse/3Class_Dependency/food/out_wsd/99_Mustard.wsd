@@ -1,0 +1,4 @@
+@startuml
+MustardSeeds ..> Mustard
+MustardPlant ..> MustardSeeds
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Hurdling <|-- AthleticsSport : inherits
-AthleticsSport <|-- Sport : inherits
+Hurdling <|-- AthleticsSport
+AthleticsSport <|-- Sport
 @enduml

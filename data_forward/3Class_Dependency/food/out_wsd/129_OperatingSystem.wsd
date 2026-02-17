@@ -1,4 +1,0 @@
-@startuml
-VideoEditor ..> OperatingSystem : depends on
-VideoEditing ..> VideoEditor : depends on
-@enduml

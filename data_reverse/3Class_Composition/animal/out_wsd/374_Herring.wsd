@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Herring : composes
-Ray *-- Fin : composes
+Fin *-- Herring
+Ray *-- Fin
 @enduml

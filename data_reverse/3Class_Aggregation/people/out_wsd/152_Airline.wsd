@@ -1,0 +1,4 @@
+@startuml
+StaffOfPassengers o-- Airline
+Passenger o-- StaffOfPassengers
+@enduml

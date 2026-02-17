@@ -1,4 +1,4 @@
 @startuml
-Chickpea <|-- Legume : inherits
-Legume <|-- Vegetable : inherits
+Chickpea <|-- Legume
+Legume <|-- Vegetable
 @enduml

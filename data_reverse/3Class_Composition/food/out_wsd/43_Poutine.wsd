@@ -1,4 +1,4 @@
 @startuml
-FrenchFries *-- Poutine : composes
-Potato *-- FrenchFries : composes
+FrenchFries *-- Poutine
+Potato *-- FrenchFries
 @enduml

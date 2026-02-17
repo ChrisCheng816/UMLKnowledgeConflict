@@ -1,0 +1,4 @@
+@startuml
+Electricity ..> Transformer
+Toaster ..> Electricity
+@enduml

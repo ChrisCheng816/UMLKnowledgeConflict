@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- BosniaandHerzegovina : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- BurkinaFaso
 @enduml

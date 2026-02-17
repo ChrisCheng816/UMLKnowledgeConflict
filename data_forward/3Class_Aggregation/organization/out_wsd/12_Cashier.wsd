@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Cashier
+Store o-- Staff
+@enduml

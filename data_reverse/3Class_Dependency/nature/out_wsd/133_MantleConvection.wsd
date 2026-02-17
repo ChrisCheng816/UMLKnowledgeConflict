@@ -1,4 +1,0 @@
-@startuml
-EarthHeat ..> MantleConvection : depends on
-EarthCore ..> EarthHeat : depends on
-@enduml

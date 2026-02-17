@@ -1,4 +1,0 @@
-@startuml
-GroupOfSquid o-- Aquarium : aggregates
-Squid o-- GroupOfSquid : aggregates
-@enduml

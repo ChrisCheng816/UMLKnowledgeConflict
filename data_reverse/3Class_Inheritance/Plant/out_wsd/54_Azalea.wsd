@@ -1,4 +1,4 @@
 @startuml
-Azalea <|-- Flower : inherits
-Flower <|-- Plant : inherits
+Azalea <|-- Flower
+Flower <|-- Plant
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-NestOfTurtle o-- Turtle : aggregates
-Aviary o-- NestOfTurtle : aggregates
-@enduml

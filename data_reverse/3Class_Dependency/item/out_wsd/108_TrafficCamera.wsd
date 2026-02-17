@@ -1,4 +1,0 @@
-@startuml
-ControlCabinet ..> TrafficCamera : depends on
-UtilityMeter ..> ControlCabinet : depends on
-@enduml

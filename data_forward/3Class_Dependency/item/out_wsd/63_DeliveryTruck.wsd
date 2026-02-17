@@ -1,4 +1,0 @@
-@startuml
-InventoryShipment ..> DeliveryTruck : depends on
-WeldingSupplyStore ..> InventoryShipment : depends on
-@enduml

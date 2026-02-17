@@ -1,4 +1,4 @@
 @startuml
-Waterfall <|-- GeographicFeature : inherits
-GeographicFeature <|-- Location : inherits
+Waterfall <|-- GeographicFeature
+GeographicFeature <|-- Location
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+GroupOfSpeakers o-- Speaker
+Community o-- GroupOfSpeakers
+@enduml

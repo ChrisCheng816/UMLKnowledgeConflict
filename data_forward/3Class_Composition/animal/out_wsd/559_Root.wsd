@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root : composes
-Ocelot *-- Tooth : composes
+Tooth *-- Root
+Ocelot *-- Tooth
 @enduml

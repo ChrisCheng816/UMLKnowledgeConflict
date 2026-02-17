@@ -1,4 +1,4 @@
 @startuml
-Film <|-- AnimatedFilm : inherits
-AnimatedFilm <|-- TheIronGiant : inherits
+Film <|-- AnimatedFilm
+AnimatedFilm <|-- TheIronGiant
 @enduml

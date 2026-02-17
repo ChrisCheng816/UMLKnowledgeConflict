@@ -1,0 +1,4 @@
+@startuml
+SouthAfrica <|-- AfricanCountry
+AfricanCountry <|-- Country
+@enduml

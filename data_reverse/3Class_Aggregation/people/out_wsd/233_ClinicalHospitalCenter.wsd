@@ -1,4 +1,0 @@
-@startuml
-EmergencyTeam o-- ClinicalHospitalCenter : aggregates
-Firefighter o-- EmergencyTeam : aggregates
-@enduml

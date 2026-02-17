@@ -1,4 +1,0 @@
-@startuml
-HorticultureTeam o-- LabTechnician : aggregates
-GardenSociety o-- HorticultureTeam : aggregates
-@enduml

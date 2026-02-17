@@ -1,4 +1,4 @@
 @startuml
-Gnocchi <|-- Dish : inherits
-Dish <|-- Food : inherits
+Gnocchi <|-- Dish
+Dish <|-- Food
 @enduml

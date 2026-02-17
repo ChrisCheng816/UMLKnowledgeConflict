@@ -1,0 +1,4 @@
+@startuml
+LitterOfKittens o-- Kitten
+Reserve o-- LitterOfKittens
+@enduml

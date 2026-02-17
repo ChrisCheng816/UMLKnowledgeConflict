@@ -1,4 +1,4 @@
 @startuml
-Albatross <|-- Bird : inherits
-Bird <|-- Animal : inherits
+Albatross <|-- Bird
+Bird <|-- Animal
 @enduml

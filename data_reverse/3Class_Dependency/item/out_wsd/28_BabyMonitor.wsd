@@ -1,4 +1,4 @@
 @startuml
-PowerAdapter ..> BabyMonitor : depends on
-WallOutlet ..> PowerAdapter : depends on
+PowerAdapter ..> BabyMonitor
+WallOutlet ..> PowerAdapter
 @enduml

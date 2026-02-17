@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Shearwater : composes
-Feather *-- Wing : composes
+Wing *-- Shearwater
+Feather *-- Wing
 @enduml

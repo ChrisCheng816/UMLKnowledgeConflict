@@ -1,4 +1,4 @@
 @startuml
-Soundbar ..> AudioStreaming : depends on
-Electricity ..> Soundbar : depends on
+Soundbar ..> AudioStreaming
+Electricity ..> Soundbar
 @enduml

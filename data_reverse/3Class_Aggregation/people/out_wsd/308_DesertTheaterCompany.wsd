@@ -1,4 +1,0 @@
-@startuml
-VolunteerTeam o-- DesertTheaterCompany : aggregates
-Volunteer o-- VolunteerTeam : aggregates
-@enduml

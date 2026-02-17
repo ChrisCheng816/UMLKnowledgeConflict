@@ -1,4 +1,0 @@
-@startuml
-FieldTeam o-- InternationalNewsAgency : aggregates
-FieldEngineer o-- FieldTeam : aggregates
-@enduml

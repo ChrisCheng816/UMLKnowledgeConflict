@@ -1,4 +1,4 @@
 @startuml
-DalhousieUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+DalhousieUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

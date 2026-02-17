@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Weasel : composes
-Claw *-- Paw : composes
+Paw *-- Weasel
+Claw *-- Paw
 @enduml

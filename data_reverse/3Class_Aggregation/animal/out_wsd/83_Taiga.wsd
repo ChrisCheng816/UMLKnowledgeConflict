@@ -1,4 +1,4 @@
 @startuml
-ColonyOfSkunk o-- Taiga : aggregates
-Skunk o-- ColonyOfSkunk : aggregates
+ColonyOfSkunk o-- Taiga
+Skunk o-- ColonyOfSkunk
 @enduml

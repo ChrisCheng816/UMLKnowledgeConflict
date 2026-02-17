@@ -1,0 +1,4 @@
+@startuml
+PackOfHyenas o-- Hyena
+Lake o-- PackOfHyenas
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Wind ..> OceanWave
+PressureDifference ..> Wind
+@enduml

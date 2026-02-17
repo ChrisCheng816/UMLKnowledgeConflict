@@ -1,0 +1,4 @@
+@startuml
+GroupOfHikers o-- Hiker
+Community o-- GroupOfHikers
+@enduml

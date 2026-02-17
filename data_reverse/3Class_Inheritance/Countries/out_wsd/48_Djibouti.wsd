@@ -1,0 +1,4 @@
+@startuml
+Djibouti <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

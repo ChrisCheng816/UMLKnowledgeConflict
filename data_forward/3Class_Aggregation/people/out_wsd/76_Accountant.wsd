@@ -1,4 +1,0 @@
-@startuml
-GrantTeam o-- Accountant : aggregates
-ResearchAgency o-- GrantTeam : aggregates
-@enduml

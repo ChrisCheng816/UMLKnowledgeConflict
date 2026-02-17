@@ -1,0 +1,4 @@
+@startuml
+Ecuador <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

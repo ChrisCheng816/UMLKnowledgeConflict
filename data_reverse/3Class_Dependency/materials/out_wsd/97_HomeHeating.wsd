@@ -1,4 +1,4 @@
 @startuml
-GasFurnace ..> HomeHeating : depends on
-NaturalGas ..> GasFurnace : depends on
+GasFurnace ..> HomeHeating
+NaturalGas ..> GasFurnace
 @enduml

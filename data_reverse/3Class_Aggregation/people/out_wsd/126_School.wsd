@@ -1,0 +1,4 @@
+@startuml
+CrowdOfParents o-- School
+Parent o-- CrowdOfParents
+@enduml

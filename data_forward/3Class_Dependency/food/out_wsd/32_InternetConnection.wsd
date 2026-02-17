@@ -1,4 +1,0 @@
-@startuml
-FoodDeliveryApp ..> InternetConnection : depends on
-LateNightSnack ..> FoodDeliveryApp : depends on
-@enduml

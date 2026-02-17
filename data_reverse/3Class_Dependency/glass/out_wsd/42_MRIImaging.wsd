@@ -1,4 +1,0 @@
-@startuml
-MRIMachine ..> MRIImaging : depends on
-Electricity ..> MRIMachine : depends on
-@enduml

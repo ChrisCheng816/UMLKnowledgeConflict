@@ -1,4 +1,0 @@
-@startuml
-ForensicTeam o-- SavannaMetroAuthority : aggregates
-ForensicAnalyst o-- ForensicTeam : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-ChargingStand ..> WallOutlet : depends on
-ElectricToothbrush ..> ChargingStand : depends on
+ChargingStand ..> WallOutlet
+ElectricToothbrush ..> ChargingStand
 @enduml

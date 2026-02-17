@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame : inherits
-BoardGame <|-- 7Wonders : inherits
+Game <|-- BoardGame
+BoardGame <|-- 7Wonders
 @enduml

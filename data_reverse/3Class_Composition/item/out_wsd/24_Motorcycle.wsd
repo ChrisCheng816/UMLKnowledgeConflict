@@ -1,4 +1,0 @@
-@startuml
-WheelAssembly *-- Motorcycle : composes
-LugNut *-- WheelAssembly : composes
-@enduml

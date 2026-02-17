@@ -1,4 +1,0 @@
-@startuml
-OceanCurrent ..> ElNino : depends on
-CoriolisEffect ..> OceanCurrent : depends on
-@enduml

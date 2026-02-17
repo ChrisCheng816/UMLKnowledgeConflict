@@ -1,4 +1,0 @@
-@startuml
-SchoolOfTrout o-- Trout : aggregates
-Barn o-- SchoolOfTrout : aggregates
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-PodcastApp ..> MusicStreaming : depends on
-InternetConnection ..> PodcastApp : depends on
-@enduml

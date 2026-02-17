@@ -1,4 +1,0 @@
-@startuml
-RangerTeam o-- ForestRanger : aggregates
-WildlifeAuthority o-- RangerTeam : aggregates
-@enduml

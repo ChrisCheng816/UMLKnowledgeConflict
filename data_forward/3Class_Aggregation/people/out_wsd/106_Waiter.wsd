@@ -1,0 +1,4 @@
+@startuml
+ShiftOfWaiters o-- Waiter
+Cafe o-- ShiftOfWaiters
+@enduml

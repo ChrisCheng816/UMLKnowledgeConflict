@@ -1,4 +1,0 @@
-@startuml
-IncidentResponseTeam o-- MediaMusicAcademy : aggregates
-Registrar o-- IncidentResponseTeam : aggregates
-@enduml

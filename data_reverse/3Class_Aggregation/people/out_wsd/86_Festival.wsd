@@ -1,0 +1,4 @@
+@startuml
+CrewOfVolunteers o-- Festival
+Volunteer o-- CrewOfVolunteers
+@enduml

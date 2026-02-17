@@ -1,4 +1,4 @@
 @startuml
-BlackMirror <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+BlackMirror <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

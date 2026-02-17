@@ -1,0 +1,4 @@
+@startuml
+CrowdOfFans o-- Stadium
+Fan o-- CrowdOfFans
+@enduml

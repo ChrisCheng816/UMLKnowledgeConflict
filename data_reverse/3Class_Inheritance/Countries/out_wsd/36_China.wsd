@@ -1,0 +1,4 @@
+@startuml
+China <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

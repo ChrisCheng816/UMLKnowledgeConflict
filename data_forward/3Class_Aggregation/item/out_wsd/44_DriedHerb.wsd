@@ -1,4 +1,4 @@
 @startuml
-Bin o-- DriedHerb : aggregates
-GardenStore o-- Bin : aggregates
+Bin o-- DriedHerb
+GardenStore o-- Bin
 @enduml

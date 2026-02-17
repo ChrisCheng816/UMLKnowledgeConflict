@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Alligator : composes
-Root *-- Tooth : composes
+Tooth *-- Alligator
+Root *-- Tooth
 @enduml

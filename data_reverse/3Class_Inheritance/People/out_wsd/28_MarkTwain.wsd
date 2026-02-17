@@ -1,4 +1,4 @@
 @startuml
-MarkTwain <|-- Author : inherits
-Author <|-- Artist : inherits
+MarkTwain <|-- Author
+Author <|-- Artist
 @enduml

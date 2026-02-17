@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Canary : composes
-Shaft *-- Feather : composes
+Feather *-- Canary
+Shaft *-- Feather
 @enduml

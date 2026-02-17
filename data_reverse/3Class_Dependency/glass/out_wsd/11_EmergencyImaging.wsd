@@ -1,4 +1,0 @@
-@startuml
-CTScanner ..> EmergencyImaging : depends on
-Electricity ..> CTScanner : depends on
-@enduml

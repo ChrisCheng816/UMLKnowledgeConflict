@@ -1,4 +1,0 @@
-@startuml
-SafetyTeam o-- SecurityGuard : aggregates
-IslandMetroAuthority o-- SafetyTeam : aggregates
-@enduml

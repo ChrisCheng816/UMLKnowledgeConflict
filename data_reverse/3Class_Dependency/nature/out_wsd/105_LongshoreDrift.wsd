@@ -1,4 +1,0 @@
-@startuml
-WaveEnergy ..> LongshoreDrift : depends on
-Wind ..> WaveEnergy : depends on
-@enduml

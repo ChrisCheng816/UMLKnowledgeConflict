@@ -1,4 +1,4 @@
 @startuml
-GrowLight ..> Illumination : depends on
-Electricity ..> GrowLight : depends on
+GrowLight ..> Illumination
+Electricity ..> GrowLight
 @enduml

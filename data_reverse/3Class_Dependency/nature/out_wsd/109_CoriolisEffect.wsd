@@ -1,4 +1,0 @@
-@startuml
-EarthRotation ..> CoriolisEffect : depends on
-Earth ..> EarthRotation : depends on
-@enduml

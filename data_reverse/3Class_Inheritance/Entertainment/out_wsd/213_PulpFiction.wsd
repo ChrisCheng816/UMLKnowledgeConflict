@@ -1,4 +1,4 @@
 @startuml
-PulpFiction <|-- Film : inherits
-Film <|-- Entertainment : inherits
+PulpFiction <|-- Film
+Film <|-- Entertainment
 @enduml

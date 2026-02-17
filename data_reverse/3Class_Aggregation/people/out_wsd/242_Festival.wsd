@@ -1,0 +1,4 @@
+@startuml
+CrewOfBartenders o-- Festival
+Bartender o-- CrewOfBartenders
+@enduml

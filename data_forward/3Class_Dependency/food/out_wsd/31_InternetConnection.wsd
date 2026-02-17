@@ -1,4 +1,0 @@
-@startuml
-FoodDeliveryApp ..> InternetConnection : depends on
-GroceryDelivery ..> FoodDeliveryApp : depends on
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+ClubOfArtists o-- School
+Artist o-- ClubOfArtists
+@enduml

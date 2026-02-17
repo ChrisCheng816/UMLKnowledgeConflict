@@ -1,0 +1,4 @@
+@startuml
+GroupOfSingers o-- Singer
+Concert o-- GroupOfSingers
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CrewOfPhotographers o-- Photographer
+Festival o-- CrewOfPhotographers
+@enduml

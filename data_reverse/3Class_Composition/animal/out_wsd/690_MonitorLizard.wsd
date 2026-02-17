@@ -1,4 +1,4 @@
 @startuml
-Skin *-- MonitorLizard : composes
-Scale *-- Skin : composes
+Skin *-- MonitorLizard
+Scale *-- Skin
 @enduml

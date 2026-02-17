@@ -1,4 +1,0 @@
-@startuml
-DishAntenna ..> SatelliteTV : depends on
-SatelliteSignal ..> DishAntenna : depends on
-@enduml

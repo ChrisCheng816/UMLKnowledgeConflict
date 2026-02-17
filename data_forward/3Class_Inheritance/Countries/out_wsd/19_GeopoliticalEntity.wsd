@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Barbados : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Benin
 @enduml

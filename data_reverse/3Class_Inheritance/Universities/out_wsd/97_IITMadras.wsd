@@ -1,4 +1,4 @@
 @startuml
-IITMadras <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+IITMadras <|-- University
+University <|-- EducationalInstitution
 @enduml

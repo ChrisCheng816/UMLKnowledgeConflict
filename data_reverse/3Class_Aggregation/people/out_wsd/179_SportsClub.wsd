@@ -1,4 +1,0 @@
-@startuml
-PlayerGroup o-- SportsClub : aggregates
-GameMaster o-- PlayerGroup : aggregates
-@enduml

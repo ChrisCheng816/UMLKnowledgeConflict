@@ -1,4 +1,4 @@
 @startuml
-HerdOfHorse o-- Savanna : aggregates
-Horse o-- HerdOfHorse : aggregates
+HerdOfHorse o-- Savanna
+Horse o-- HerdOfHorse
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+SchoolOfMackerel o-- Barn
+Mackerel o-- SchoolOfMackerel
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Springbok : composes
-Nostril *-- Nose : composes
+Nose *-- Springbok
+Nostril *-- Nose
 @enduml

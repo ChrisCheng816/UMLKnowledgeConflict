@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- ElectricCrossover
+ElectricCrossover <|-- TeslaModelY
+@enduml

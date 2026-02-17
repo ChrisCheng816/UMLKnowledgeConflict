@@ -1,4 +1,0 @@
-@startuml
-MediaEncoder ..> OperatingSystem : depends on
-VideoEncoding ..> MediaEncoder : depends on
-@enduml

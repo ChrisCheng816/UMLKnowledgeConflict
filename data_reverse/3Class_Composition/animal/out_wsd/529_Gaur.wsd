@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Gaur : composes
-Root *-- Tooth : composes
+Tooth *-- Gaur
+Root *-- Tooth
 @enduml

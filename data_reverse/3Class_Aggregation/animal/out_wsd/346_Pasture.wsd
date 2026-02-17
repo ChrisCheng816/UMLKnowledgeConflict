@@ -1,0 +1,4 @@
+@startuml
+SwarmOfAphid o-- Pasture
+Aphid o-- SwarmOfAphid
+@enduml

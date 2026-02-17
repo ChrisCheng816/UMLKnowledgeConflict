@@ -1,0 +1,4 @@
+@startuml
+CrewOfBaristas o-- Festival
+Barista o-- CrewOfBaristas
+@enduml

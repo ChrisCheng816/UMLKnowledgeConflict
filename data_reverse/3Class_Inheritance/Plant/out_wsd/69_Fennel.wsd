@@ -1,4 +1,4 @@
 @startuml
-Fennel <|-- Herb : inherits
-Herb <|-- Plant : inherits
+Fennel <|-- Herb
+Herb <|-- Plant
 @enduml

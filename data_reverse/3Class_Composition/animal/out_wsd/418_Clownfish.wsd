@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Clownfish : composes
-Ray *-- Fin : composes
+Fin *-- Clownfish
+Ray *-- Fin
 @enduml

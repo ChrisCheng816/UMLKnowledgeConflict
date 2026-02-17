@@ -1,0 +1,4 @@
+@startuml
+FlockOfGull o-- Lake
+Gull o-- FlockOfGull
+@enduml

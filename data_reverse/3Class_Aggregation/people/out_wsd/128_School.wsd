@@ -1,0 +1,4 @@
+@startuml
+GroupOfChildren o-- School
+Child o-- GroupOfChildren
+@enduml

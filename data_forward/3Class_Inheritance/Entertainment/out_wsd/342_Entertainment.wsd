@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Comic : inherits
-Comic <|-- Batman : inherits
+Entertainment <|-- Comic
+Comic <|-- Batman
 @enduml

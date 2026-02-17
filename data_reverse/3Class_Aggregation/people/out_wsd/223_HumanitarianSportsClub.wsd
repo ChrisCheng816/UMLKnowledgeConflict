@@ -1,4 +1,0 @@
-@startuml
-ResearchTeam o-- HumanitarianSportsClub : aggregates
-ResearchFellow o-- ResearchTeam : aggregates
-@enduml

@@ -1,3 +1,3 @@
 @startuml
-InfusionPump ..> Electricity : depends on
+MRIMachine ..> Electricity
 @enduml

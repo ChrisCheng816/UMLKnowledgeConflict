@@ -1,4 +1,4 @@
 @startuml
-Dulse <|-- SeaVegetable : inherits
-SeaVegetable <|-- Vegetable : inherits
+Dulse <|-- SeaVegetable
+SeaVegetable <|-- Vegetable
 @enduml

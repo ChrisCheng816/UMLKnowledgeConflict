@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Perch : composes
-Filament *-- Gill : composes
+Gill *-- Perch
+Filament *-- Gill
 @enduml

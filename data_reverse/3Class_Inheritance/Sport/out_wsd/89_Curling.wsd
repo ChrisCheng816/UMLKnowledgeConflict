@@ -1,4 +1,4 @@
 @startuml
-Curling <|-- WinterSport : inherits
-WinterSport <|-- Sport : inherits
+Curling <|-- WinterSport
+WinterSport <|-- Sport
 @enduml

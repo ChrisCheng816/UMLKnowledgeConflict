@@ -1,4 +1,0 @@
-@startuml
-WildlifeCareTeam o-- RiverAirportAuthority : aggregates
-Drafter o-- WildlifeCareTeam : aggregates
-@enduml

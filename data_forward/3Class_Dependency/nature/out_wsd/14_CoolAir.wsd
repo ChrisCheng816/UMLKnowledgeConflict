@@ -1,4 +1,0 @@
-@startuml
-HighHumidity ..> CoolAir : depends on
-Fog ..> HighHumidity : depends on
-@enduml

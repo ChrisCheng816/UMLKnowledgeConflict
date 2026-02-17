@@ -1,0 +1,4 @@
+@startuml
+SwarmOfTermite o-- Termite
+River o-- SwarmOfTermite
+@enduml

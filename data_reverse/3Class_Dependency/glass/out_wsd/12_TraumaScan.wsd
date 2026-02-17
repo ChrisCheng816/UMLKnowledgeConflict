@@ -1,4 +1,0 @@
-@startuml
-CTScanner ..> TraumaScan : depends on
-Electricity ..> CTScanner : depends on
-@enduml

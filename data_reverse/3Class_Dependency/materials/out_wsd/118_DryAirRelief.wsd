@@ -1,4 +1,4 @@
 @startuml
-Humidifier ..> DryAirRelief : depends on
-TapWater ..> Humidifier : depends on
+Humidifier ..> DryAirRelief
+TapWater ..> Humidifier
 @enduml

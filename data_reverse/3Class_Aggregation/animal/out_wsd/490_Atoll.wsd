@@ -1,0 +1,4 @@
+@startuml
+SchoolOfGuppies o-- Atoll
+Guppy o-- SchoolOfGuppies
+@enduml

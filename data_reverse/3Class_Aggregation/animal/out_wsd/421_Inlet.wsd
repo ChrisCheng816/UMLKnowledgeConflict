@@ -1,0 +1,4 @@
+@startuml
+PackOfBear o-- Inlet
+Bear o-- PackOfBear
+@enduml

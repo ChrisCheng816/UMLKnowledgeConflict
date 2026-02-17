@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Triggerfish : composes
-Filament *-- Gill : composes
+Gill *-- Triggerfish
+Filament *-- Gill
 @enduml

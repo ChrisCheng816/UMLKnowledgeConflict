@@ -1,4 +1,4 @@
 @startuml
-VolkswagenGolf <|-- Volkswagen : inherits
-Volkswagen <|-- CarManufacturer : inherits
+VolkswagenGolf <|-- Hatchback
+Hatchback <|-- Car
 @enduml

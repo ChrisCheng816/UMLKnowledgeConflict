@@ -1,4 +1,0 @@
-@startuml
-AirImpactWrench ..> CompressedAir : depends on
-Inflation ..> AirImpactWrench : depends on
-@enduml

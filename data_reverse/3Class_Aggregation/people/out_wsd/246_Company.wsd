@@ -1,0 +1,4 @@
+@startuml
+StaffOfLibrarians o-- Company
+Librarian o-- StaffOfLibrarians
+@enduml

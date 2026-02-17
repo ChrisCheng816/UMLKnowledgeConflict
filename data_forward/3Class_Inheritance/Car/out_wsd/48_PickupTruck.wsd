@@ -1,0 +1,4 @@
+@startuml
+PickupTruck <|-- CrewCabPickup
+CrewCabPickup <|-- HondaRidgeline
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Republic <|-- PresidentialRepublic
+PresidentialRepublic <|-- Rwanda
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ShiftOfCashiers o-- Cashier
+Market o-- ShiftOfCashiers
+@enduml

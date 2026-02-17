@@ -1,0 +1,4 @@
+@startuml
+Latvia <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

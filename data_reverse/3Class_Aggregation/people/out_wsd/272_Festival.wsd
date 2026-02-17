@@ -1,0 +1,4 @@
+@startuml
+CrewOfShoppers o-- Festival
+Shopper o-- CrewOfShoppers
+@enduml

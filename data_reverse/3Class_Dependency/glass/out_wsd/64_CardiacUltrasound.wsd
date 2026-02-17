@@ -1,4 +1,0 @@
-@startuml
-UltrasoundMachine ..> CardiacUltrasound : depends on
-Electricity ..> UltrasoundMachine : depends on
-@enduml

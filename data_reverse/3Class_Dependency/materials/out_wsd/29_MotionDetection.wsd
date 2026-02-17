@@ -1,4 +1,4 @@
 @startuml
-CarbonMonoxideAlarm ..> MotionDetection : depends on
-Electricity ..> CarbonMonoxideAlarm : depends on
+CarbonMonoxideAlarm ..> MotionDetection
+Electricity ..> CarbonMonoxideAlarm
 @enduml

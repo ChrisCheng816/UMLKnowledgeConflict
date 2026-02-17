@@ -1,0 +1,4 @@
+@startuml
+Car <|-- SUV
+SUV <|-- ToyotaRAV4
+@enduml

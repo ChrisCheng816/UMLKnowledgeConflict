@@ -1,0 +1,4 @@
+@startuml
+ClubOfDancers o-- Studio
+Dancer o-- ClubOfDancers
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Espresso *-- Latte : composes
-CoffeeBeans *-- Espresso : composes
+Espresso *-- Latte
+CoffeeBeans *-- Espresso
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Laptop ..> WiFiNetwork : depends on
-WebBrowsing ..> Laptop : depends on
+Laptop ..> WiFiNetwork
+WebBrowsing ..> Laptop
 @enduml

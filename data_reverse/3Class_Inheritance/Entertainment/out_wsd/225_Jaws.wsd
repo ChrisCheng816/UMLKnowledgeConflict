@@ -1,4 +1,4 @@
 @startuml
-Jaws <|-- Film : inherits
-Film <|-- Entertainment : inherits
+Jaws <|-- Film
+Film <|-- Entertainment
 @enduml

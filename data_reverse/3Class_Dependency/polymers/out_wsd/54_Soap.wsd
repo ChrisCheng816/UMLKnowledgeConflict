@@ -1,0 +1,4 @@
+@startuml
+Water ..> Soap
+TapWater ..> Water
+@enduml

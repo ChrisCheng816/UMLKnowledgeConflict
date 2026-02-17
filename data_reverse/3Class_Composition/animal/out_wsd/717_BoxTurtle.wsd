@@ -1,4 +1,4 @@
 @startuml
-Eye *-- BoxTurtle : composes
-Lens *-- Eye : composes
+Eye *-- BoxTurtle
+Lens *-- Eye
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Springbok : composes
-Root *-- Tooth : composes
+Tooth *-- Springbok
+Root *-- Tooth
 @enduml

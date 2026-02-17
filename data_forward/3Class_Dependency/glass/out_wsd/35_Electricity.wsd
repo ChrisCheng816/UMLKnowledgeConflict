@@ -1,4 +1,4 @@
 @startuml
-InfusionPump ..> Electricity : depends on
-IVTherapy ..> InfusionPump : depends on
+MRIMachine ..> Electricity
+DiagnosticImaging ..> MRIMachine
 @enduml

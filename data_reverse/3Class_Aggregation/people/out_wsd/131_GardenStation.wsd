@@ -1,4 +1,0 @@
-@startuml
-MaintenanceTeam o-- GardenStation : aggregates
-Engineer o-- MaintenanceTeam : aggregates
-@enduml

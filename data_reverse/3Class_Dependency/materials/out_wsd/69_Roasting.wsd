@@ -1,4 +1,4 @@
 @startuml
-ElectricOven ..> Roasting : depends on
-Electricity ..> ElectricOven : depends on
+ElectricOven ..> Roasting
+Electricity ..> ElectricOven
 @enduml

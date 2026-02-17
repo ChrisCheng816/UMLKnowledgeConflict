@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- CocosKeelingIslands : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- CotedIvoire
 @enduml

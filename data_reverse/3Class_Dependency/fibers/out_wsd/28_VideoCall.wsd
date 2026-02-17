@@ -1,4 +1,4 @@
 @startuml
-InternetConnection ..> VideoCall : depends on
-ISP ..> InternetConnection : depends on
+InternetConnection ..> VideoCall
+ISP ..> InternetConnection
 @enduml

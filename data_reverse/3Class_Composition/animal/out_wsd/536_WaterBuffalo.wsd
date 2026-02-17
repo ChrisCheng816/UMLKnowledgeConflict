@@ -1,4 +1,4 @@
 @startuml
-Hoof *-- WaterBuffalo : composes
-Sole *-- Hoof : composes
+Hoof *-- WaterBuffalo
+Sole *-- Hoof
 @enduml

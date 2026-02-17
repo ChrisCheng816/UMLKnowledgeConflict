@@ -1,4 +1,4 @@
 @startuml
-Rallycross <|-- MotorSport : inherits
-MotorSport <|-- Sport : inherits
+Rallycross <|-- MotorSport
+MotorSport <|-- Sport
 @enduml

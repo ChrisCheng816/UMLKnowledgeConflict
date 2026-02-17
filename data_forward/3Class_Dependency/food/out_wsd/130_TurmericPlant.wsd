@@ -1,0 +1,4 @@
+@startuml
+Turmeric ..> TurmericPlant
+TurmericTea ..> Turmeric
+@enduml

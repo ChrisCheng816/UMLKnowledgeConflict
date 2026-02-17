@@ -1,0 +1,4 @@
+@startuml
+GroupOfMembers o-- Member
+Community o-- GroupOfMembers
+@enduml

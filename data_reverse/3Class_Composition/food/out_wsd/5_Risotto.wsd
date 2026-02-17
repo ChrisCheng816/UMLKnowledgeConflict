@@ -1,4 +1,4 @@
 @startuml
-Parmesan *-- Risotto : composes
-Milk *-- Parmesan : composes
+Parmesan *-- Risotto
+Milk *-- Parmesan
 @enduml

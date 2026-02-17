@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Boa : composes
-Scale *-- Skin : composes
+Skin *-- Boa
+Scale *-- Skin
 @enduml

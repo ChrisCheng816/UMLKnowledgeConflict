@@ -1,0 +1,4 @@
+@startuml
+Dominica <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

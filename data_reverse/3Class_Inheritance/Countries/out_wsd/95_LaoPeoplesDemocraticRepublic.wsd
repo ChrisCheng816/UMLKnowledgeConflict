@@ -1,0 +1,4 @@
+@startuml
+LaoPeoplesDemocraticRepublic <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ClubOfScouts o-- School
+Scout o-- ClubOfScouts
+@enduml

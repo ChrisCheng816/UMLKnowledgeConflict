@@ -1,0 +1,4 @@
+@startuml
+Car <|-- ElectricCrossover
+ElectricCrossover <|-- VolkswagenID4
+@enduml

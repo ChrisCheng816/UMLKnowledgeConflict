@@ -1,0 +1,4 @@
+@startuml
+StaffOfGamers o-- Gamer
+Company o-- StaffOfGamers
+@enduml

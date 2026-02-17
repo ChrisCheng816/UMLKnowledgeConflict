@@ -1,4 +1,4 @@
 @startuml
-HotAirStation ..> Electricity : depends on
-ShrinkWrapping ..> HotAirStation : depends on
+LaserCutter ..> Electricity
+LaserCutting ..> LaserCutter
 @enduml

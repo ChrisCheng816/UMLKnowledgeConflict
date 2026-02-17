@@ -1,4 +1,0 @@
-@startuml
-Door *-- House : composes
-Doorknob *-- Door : composes
-@enduml

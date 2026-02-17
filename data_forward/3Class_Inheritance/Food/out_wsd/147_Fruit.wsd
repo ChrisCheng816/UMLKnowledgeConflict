@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- DriedFruit : inherits
-DriedFruit <|-- DriedApricot : inherits
+Fruit <|-- DriedFruit
+DriedFruit <|-- DriedApricot
 @enduml

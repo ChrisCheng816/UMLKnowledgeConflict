@@ -1,0 +1,4 @@
+@startuml
+Banana ..> BananaSmoothie
+BananaPlant ..> Banana
+@enduml

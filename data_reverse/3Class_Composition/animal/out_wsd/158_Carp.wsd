@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Carp : composes
-Filament *-- Gill : composes
+Gill *-- Carp
+Filament *-- Gill
 @enduml

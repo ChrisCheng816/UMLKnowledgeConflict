@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Arowana : composes
-Filament *-- Gill : composes
+Gill *-- Arowana
+Filament *-- Gill
 @enduml

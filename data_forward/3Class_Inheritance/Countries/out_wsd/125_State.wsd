@@ -1,0 +1,4 @@
+@startuml
+State <|-- Federation
+Federation <|-- Russia
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CircuitBoard *-- Microchip
+Smartphone *-- CircuitBoard
+@enduml

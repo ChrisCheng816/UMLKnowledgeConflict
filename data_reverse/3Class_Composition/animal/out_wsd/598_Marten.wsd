@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Marten : composes
-Root *-- Tooth : composes
+Tooth *-- Marten
+Root *-- Tooth
 @enduml

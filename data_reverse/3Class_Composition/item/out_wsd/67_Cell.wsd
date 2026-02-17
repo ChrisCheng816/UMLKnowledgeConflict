@@ -1,0 +1,4 @@
+@startuml
+Nucleus *-- Cell
+Chromosome *-- Nucleus
+@enduml

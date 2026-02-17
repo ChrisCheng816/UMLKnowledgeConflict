@@ -1,0 +1,4 @@
+@startuml
+Oscilloscope ..> VoltageTesting
+Electricity ..> Oscilloscope
+@enduml

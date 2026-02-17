@@ -1,4 +1,0 @@
-@startuml
-LegalAidTeam o-- PeerReviewer : aggregates
-CulturalCharityFoundation o-- LegalAidTeam : aggregates
-@enduml

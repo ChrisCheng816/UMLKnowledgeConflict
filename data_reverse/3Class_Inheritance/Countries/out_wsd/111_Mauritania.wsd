@@ -1,0 +1,4 @@
+@startuml
+Mauritania <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

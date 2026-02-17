@@ -1,4 +1,0 @@
-@startuml
-GasPipeline ..> CityGasGateStation : depends on
-GasMeter ..> GasPipeline : depends on
-@enduml

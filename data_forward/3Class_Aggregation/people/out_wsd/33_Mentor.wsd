@@ -1,4 +1,0 @@
-@startuml
-MentorGroup o-- Mentor : aggregates
-EducationCommittee o-- MentorGroup : aggregates
-@enduml

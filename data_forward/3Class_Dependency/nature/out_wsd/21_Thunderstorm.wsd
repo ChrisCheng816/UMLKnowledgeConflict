@@ -1,4 +1,0 @@
-@startuml
-HeavyRain ..> Thunderstorm : depends on
-Flood ..> HeavyRain : depends on
-@enduml

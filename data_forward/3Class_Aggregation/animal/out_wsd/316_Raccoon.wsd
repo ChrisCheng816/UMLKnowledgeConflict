@@ -1,0 +1,4 @@
+@startuml
+ColonyOfRaccoon o-- Raccoon
+Farm o-- ColonyOfRaccoon
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-SecurityTeam o-- SecurityGuard : aggregates
-CountyStation o-- SecurityTeam : aggregates
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-SchoolOfSalmon o-- Salmon : aggregates
-Ranch o-- SchoolOfSalmon : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+SouthChinaSea <|-- Sea
+Sea <|-- GeographicFeature
+@enduml

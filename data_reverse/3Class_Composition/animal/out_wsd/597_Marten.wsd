@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Marten : composes
-Nostril *-- Nose : composes
+Nose *-- Marten
+Nostril *-- Nose
 @enduml

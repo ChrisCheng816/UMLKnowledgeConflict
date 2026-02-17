@@ -1,0 +1,4 @@
+@startuml
+River ..> Rain
+Hydropower ..> River
+@enduml

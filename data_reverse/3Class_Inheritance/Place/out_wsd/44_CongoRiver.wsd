@@ -1,0 +1,4 @@
+@startuml
+CongoRiver <|-- River
+River <|-- GeographicFeature
+@enduml

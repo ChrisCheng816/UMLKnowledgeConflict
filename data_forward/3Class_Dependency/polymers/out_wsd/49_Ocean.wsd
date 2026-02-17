@@ -1,0 +1,4 @@
+@startuml
+WaterVapor ..> Ocean
+Rain ..> WaterVapor
+@enduml

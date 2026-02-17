@@ -1,0 +1,4 @@
+@startuml
+GroupOfWriters o-- Workshop
+Writer o-- GroupOfWriters
+@enduml

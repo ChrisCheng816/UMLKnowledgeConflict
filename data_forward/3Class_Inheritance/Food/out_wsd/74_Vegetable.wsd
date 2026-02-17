@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- StemVegetable : inherits
-StemVegetable <|-- BambooShoot : inherits
+Vegetable <|-- StemVegetable
+StemVegetable <|-- BambooShoot
 @enduml

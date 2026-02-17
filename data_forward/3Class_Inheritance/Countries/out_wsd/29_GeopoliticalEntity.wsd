@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- BouvetIsland : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- CaboVerde
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-ObservationStation o-- Sensor : aggregates
-SeismicNetwork o-- ObservationStation : aggregates
-@enduml

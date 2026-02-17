@@ -1,0 +1,4 @@
+@startuml
+Page *-- Catalog
+Entry *-- Page
+@enduml

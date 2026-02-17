@@ -1,4 +1,0 @@
-@startuml
-FlockOfPenguin o-- River : aggregates
-Penguin o-- FlockOfPenguin : aggregates
-@enduml

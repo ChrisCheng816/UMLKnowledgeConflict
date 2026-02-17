@@ -1,0 +1,4 @@
+@startuml
+Van <|-- CargoVan
+CargoVan <|-- FordTransit
+@enduml

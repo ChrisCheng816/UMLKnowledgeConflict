@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Gavial : composes
-Lens *-- Eye : composes
+Eye *-- Gavial
+Lens *-- Eye
 @enduml

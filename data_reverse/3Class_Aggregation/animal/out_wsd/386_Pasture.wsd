@@ -1,4 +1,0 @@
-@startuml
-SwarmOfLadybug o-- Pasture : aggregates
-Ladybug o-- SwarmOfLadybug : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-PropaneTank ..> PropaneFillingStation : depends on
-PropaneGrill ..> PropaneTank : depends on
+PropaneTank ..> PropaneFillingStation
+PropaneHeater ..> PropaneTank
 @enduml

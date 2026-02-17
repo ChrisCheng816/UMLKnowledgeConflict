@@ -1,4 +1,4 @@
 @startuml
-TheHungerGames <|-- Film : inherits
-Film <|-- Entertainment : inherits
+TheHungerGames <|-- Film
+Film <|-- Entertainment
 @enduml

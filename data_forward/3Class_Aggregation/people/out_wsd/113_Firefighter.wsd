@@ -1,4 +1,0 @@
-@startuml
-FireTeam o-- Firefighter : aggregates
-ForestStation o-- FireTeam : aggregates
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-PaymentGateway ..> InternetConnection : depends on
-SubscriptionPayment ..> PaymentGateway : depends on
-@enduml

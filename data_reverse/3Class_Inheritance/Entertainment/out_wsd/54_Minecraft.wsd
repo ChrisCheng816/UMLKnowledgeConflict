@@ -1,4 +1,4 @@
 @startuml
-Minecraft <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+Minecraft <|-- VideoGame
+VideoGame <|-- Game
 @enduml

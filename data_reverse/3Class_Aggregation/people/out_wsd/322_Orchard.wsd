@@ -1,4 +1,0 @@
-@startuml
-PickingTeam o-- Orchard : aggregates
-PickingBasket o-- PickingTeam : aggregates
-@enduml

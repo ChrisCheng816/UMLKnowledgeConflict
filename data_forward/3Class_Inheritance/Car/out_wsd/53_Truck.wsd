@@ -1,0 +1,4 @@
+@startuml
+Truck <|-- LightTruck
+LightTruck <|-- FordRanger
+@enduml

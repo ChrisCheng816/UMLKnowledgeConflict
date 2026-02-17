@@ -1,0 +1,4 @@
+@startuml
+SwarmOfMosquitos o-- Mosquito
+Ocean o-- SwarmOfMosquitos
+@enduml

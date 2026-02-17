@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Peacock : composes
-Lens *-- Eye : composes
+Eye *-- Peacock
+Lens *-- Eye
 @enduml

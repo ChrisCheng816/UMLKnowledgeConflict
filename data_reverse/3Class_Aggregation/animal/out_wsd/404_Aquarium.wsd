@@ -1,4 +1,0 @@
-@startuml
-ArmyOfToad o-- Aquarium : aggregates
-Toad o-- ArmyOfToad : aggregates
-@enduml

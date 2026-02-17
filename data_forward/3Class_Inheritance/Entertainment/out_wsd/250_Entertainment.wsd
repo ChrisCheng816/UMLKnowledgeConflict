@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film : inherits
-Film <|-- Akira : inherits
+Entertainment <|-- Film
+Film <|-- Akira
 @enduml

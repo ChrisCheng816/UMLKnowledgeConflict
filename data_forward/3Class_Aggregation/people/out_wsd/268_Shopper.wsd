@@ -1,0 +1,4 @@
+@startuml
+GroupOfShoppers o-- Shopper
+Community o-- GroupOfShoppers
+@enduml

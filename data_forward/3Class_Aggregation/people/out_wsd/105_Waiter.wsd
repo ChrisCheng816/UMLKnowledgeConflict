@@ -1,0 +1,4 @@
+@startuml
+GroupOfWaiters o-- Waiter
+Hotel o-- GroupOfWaiters
+@enduml

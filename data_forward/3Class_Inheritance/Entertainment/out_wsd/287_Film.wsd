@@ -1,4 +1,4 @@
 @startuml
-Film <|-- AnimatedFilm : inherits
-AnimatedFilm <|-- SleepingBeauty : inherits
+Film <|-- AnimatedFilm
+AnimatedFilm <|-- SleepingBeauty
 @enduml

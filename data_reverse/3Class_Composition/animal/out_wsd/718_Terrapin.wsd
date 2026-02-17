@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Terrapin : composes
-Scale *-- Skin : composes
+Skin *-- Terrapin
+Scale *-- Skin
 @enduml

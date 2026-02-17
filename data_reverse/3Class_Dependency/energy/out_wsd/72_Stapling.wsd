@@ -1,4 +1,0 @@
-@startuml
-TireInflator ..> Stapling : depends on
-CompressedAir ..> TireInflator : depends on
-@enduml

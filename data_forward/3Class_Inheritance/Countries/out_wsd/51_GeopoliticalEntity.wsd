@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- CookIslands : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Ecuador
 @enduml

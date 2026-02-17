@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries : inherits
-TVSeries <|-- Sherlock : inherits
+Entertainment <|-- TVSeries
+TVSeries <|-- Sherlock
 @enduml

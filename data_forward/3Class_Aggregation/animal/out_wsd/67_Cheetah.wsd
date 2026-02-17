@@ -1,4 +1,4 @@
 @startuml
-PackOfCheetah o-- Cheetah : aggregates
-Prairie o-- PackOfCheetah : aggregates
+PackOfCheetah o-- Cheetah
+Prairie o-- PackOfCheetah
 @enduml

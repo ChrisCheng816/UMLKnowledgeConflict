@@ -1,4 +1,4 @@
 @startuml
-HondaRidgeline <|-- Honda : inherits
-Honda <|-- CarManufacturer : inherits
+HondaRidgeline <|-- CrewCabPickup
+CrewCabPickup <|-- PickupTruck
 @enduml

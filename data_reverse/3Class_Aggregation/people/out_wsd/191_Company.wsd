@@ -1,0 +1,4 @@
+@startuml
+StaffOfSkiers o-- Company
+Skier o-- StaffOfSkiers
+@enduml

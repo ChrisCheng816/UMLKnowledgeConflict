@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Terrapin : composes
-Lens *-- Eye : composes
+Eye *-- Terrapin
+Lens *-- Eye
 @enduml

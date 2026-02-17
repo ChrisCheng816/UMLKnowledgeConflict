@@ -1,4 +1,4 @@
 @startuml
-Xiangqi <|-- MindSport : inherits
-MindSport <|-- Sport : inherits
+Xiangqi <|-- MindSport
+MindSport <|-- Sport
 @enduml

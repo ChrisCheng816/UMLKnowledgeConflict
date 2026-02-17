@@ -1,0 +1,4 @@
+@startuml
+Diesel ..> CrudeOil
+DieselTruck ..> Diesel
+@enduml

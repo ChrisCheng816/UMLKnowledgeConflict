@@ -1,0 +1,4 @@
+@startuml
+Sunlight ..> Sun
+SolarPower ..> Sunlight
+@enduml

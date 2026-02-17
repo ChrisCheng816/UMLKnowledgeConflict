@@ -1,0 +1,4 @@
+@startuml
+TroopOfBaboons o-- Ocean
+Baboon o-- TroopOfBaboons
+@enduml

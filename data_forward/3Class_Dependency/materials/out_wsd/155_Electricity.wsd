@@ -1,4 +1,4 @@
 @startuml
-PowerStrip ..> Electricity : depends on
-DeviceCharging ..> PowerStrip : depends on
+PowerStrip ..> Electricity
+DeviceCharging ..> PowerStrip
 @enduml

@@ -1,4 +1,4 @@
-{"id": "1", "template_id": "aggregation", "nodes": ["SmartParkingSystem", "MonitoringCenter", "Inspector"], "edges": ["MonitoringCenter o-- SmartParkingSystem", "Inspector o-- MonitoringCenter"]}
-{"id": "2", "template_id": "aggregation", "nodes": ["PortAuthority", "PilotTeam", "HarborPilot"], "edges": ["PilotTeam o-- PortAuthority", "HarborPilot o-- PilotTeam"]}
-{"id": "3", "template_id": "aggregation", "nodes": ["MovingCompany", "MovingCrew", "Mover"], "edges": ["MovingCrew o-- MovingCompany", "Mover o-- MovingCrew"]}
-{"id": "4", "template_id": "aggregation", "nodes": ["ParcelLocker", "LockerUnit", "Parcel"], "edges": ["LockerUnit o-- ParcelLocker", "Parcel o-- LockerUnit"]}
+{"id": "1", "template_id": "aggregation", "nodes": ["MovingCompany", "MovingCrew", "Mover"], "edges": ["MovingCrew o-- MovingCompany", "Mover o-- MovingCrew"]}
+{"id": "2", "template_id": "aggregation", "nodes": ["ParcelLocker", "LockerUnit", "Parcel"], "edges": ["LockerUnit o-- ParcelLocker", "Parcel o-- LockerUnit"]}
+{"id": "3", "template_id": "aggregation", "nodes": ["Airline", "Fleet", "Airplane"], "edges": ["Fleet o-- Airline", "Airplane o-- Fleet"]}
+{"id": "4", "template_id": "aggregation", "nodes": ["TrainDepot", "Fleet", "Train"], "edges": ["Fleet o-- TrainDepot", "Train o-- Fleet"]}

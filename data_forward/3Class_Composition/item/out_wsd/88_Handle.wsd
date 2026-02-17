@@ -1,0 +1,4 @@
+@startuml
+Door *-- Handle
+Car *-- Door
+@enduml

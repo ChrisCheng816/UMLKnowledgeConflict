@@ -1,4 +1,0 @@
-@startuml
-WatchMovement *-- Mainspring : composes
-MechanicalWatch *-- WatchMovement : composes
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-GermanShepherd <|-- Dog : inherits
-Dog <|-- Mammal : inherits
+GermanShepherd <|-- Dog
+Dog <|-- Mammal
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-InventoryApp ..> OperatingSystem : depends on
-WarehouseManagement ..> InventoryApp : depends on
-@enduml

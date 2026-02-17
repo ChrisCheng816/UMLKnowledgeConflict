@@ -1,4 +1,0 @@
-@startuml
-FlockOfPheasant o-- Pheasant : aggregates
-Nursery o-- FlockOfPheasant : aggregates
-@enduml

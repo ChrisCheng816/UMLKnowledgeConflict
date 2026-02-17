@@ -1,4 +1,4 @@
 @startuml
-Eye *-- AlligatorSnappingTurtle : composes
-Lens *-- Eye : composes
+Eye *-- AlligatorSnappingTurtle
+Lens *-- Eye
 @enduml

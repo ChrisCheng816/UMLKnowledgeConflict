@@ -1,0 +1,4 @@
+@startuml
+PickupTruck <|-- MidSizePickup
+MidSizePickup <|-- ToyotaTacoma
+@enduml

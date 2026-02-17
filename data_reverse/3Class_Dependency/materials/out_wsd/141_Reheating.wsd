@@ -1,4 +1,4 @@
 @startuml
-MicrowaveOven ..> Reheating : depends on
-Electricity ..> MicrowaveOven : depends on
+MicrowaveOven ..> Reheating
+Electricity ..> MicrowaveOven
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Agricola <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+Agricola <|-- BoardGame
+BoardGame <|-- Game
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Fish : inherits
-Fish <|-- Sardine : inherits
+Animal <|-- Fish
+Fish <|-- Sardine
 @enduml

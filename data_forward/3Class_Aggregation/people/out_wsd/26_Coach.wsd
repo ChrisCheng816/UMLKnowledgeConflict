@@ -1,0 +1,4 @@
+@startuml
+PanelOfCoaches o-- Coach
+Conference o-- PanelOfCoaches
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-MonitoringSite o-- WeatherRadar : aggregates
-WeatherStation o-- MonitoringSite : aggregates
-@enduml

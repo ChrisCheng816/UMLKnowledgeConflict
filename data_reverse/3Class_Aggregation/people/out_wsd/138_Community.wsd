@@ -1,0 +1,4 @@
+@startuml
+GroupOfFriends o-- Community
+Friend o-- GroupOfFriends
+@enduml

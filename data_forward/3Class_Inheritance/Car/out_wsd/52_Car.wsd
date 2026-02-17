@@ -1,0 +1,4 @@
+@startuml
+Car <|-- Crossover
+Crossover <|-- FordEscape
+@enduml

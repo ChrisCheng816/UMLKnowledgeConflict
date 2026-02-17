@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Mollusk : inherits
-Mollusk <|-- Oyster : inherits
+Animal <|-- Mollusk
+Mollusk <|-- Oyster
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Axolotl : composes
-Lens *-- Eye : composes
+Eye *-- Axolotl
+Lens *-- Eye
 @enduml

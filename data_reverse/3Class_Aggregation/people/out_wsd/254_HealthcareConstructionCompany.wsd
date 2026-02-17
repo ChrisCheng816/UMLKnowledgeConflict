@@ -1,4 +1,0 @@
-@startuml
-SafetyTeam o-- HealthcareConstructionCompany : aggregates
-SecurityGuard o-- SafetyTeam : aggregates
-@enduml

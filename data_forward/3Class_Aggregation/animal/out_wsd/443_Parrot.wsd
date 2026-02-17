@@ -1,4 +1,0 @@
-@startuml
-FlockOfParrot o-- Parrot : aggregates
-Nursery o-- FlockOfParrot : aggregates
-@enduml

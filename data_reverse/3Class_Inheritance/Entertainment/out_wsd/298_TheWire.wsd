@@ -1,4 +1,4 @@
 @startuml
-TheWire <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+TheWire <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

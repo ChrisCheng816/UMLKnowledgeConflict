@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Filament : composes
-Pollock *-- Gill : composes
+Gill *-- Filament
+Pollock *-- Gill
 @enduml

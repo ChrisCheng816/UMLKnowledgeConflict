@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film : inherits
-Film <|-- JurassicPark : inherits
+Entertainment <|-- Film
+Film <|-- JurassicPark
 @enduml

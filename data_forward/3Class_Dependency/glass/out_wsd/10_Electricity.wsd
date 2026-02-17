@@ -1,4 +1,4 @@
 @startuml
-CTScanner ..> Electricity : depends on
-CTImaging ..> CTScanner : depends on
+DialysisMachine ..> Electricity
+BloodFiltration ..> DialysisMachine
 @enduml

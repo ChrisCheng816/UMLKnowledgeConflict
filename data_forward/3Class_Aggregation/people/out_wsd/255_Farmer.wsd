@@ -1,0 +1,4 @@
+@startuml
+ClubOfFarmers o-- Farmer
+School o-- ClubOfFarmers
+@enduml

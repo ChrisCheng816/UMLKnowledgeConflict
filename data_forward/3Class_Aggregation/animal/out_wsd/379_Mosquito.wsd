@@ -1,4 +1,0 @@
-@startuml
-SwarmOfMosquito o-- Mosquito : aggregates
-Pasture o-- SwarmOfMosquito : aggregates
-@enduml

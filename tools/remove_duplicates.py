@@ -14,7 +14,7 @@ from __future__ import annotations
 import argparse
 import os
 from pathlib import Path
-from typing import Dict, Iterable, List, Tuple
+from typing import Dict, Iterable, List
 
 
 def _dedup_key(stripped: str) -> str:
@@ -137,13 +137,46 @@ def dedup_files_in_place(paths: Iterable[Path], seen: set[str]) -> int:
     return removed_total
 
 
+def collect_grouped_data_files(root: Path, splits: List[str]) -> Dict[str, List[Path]]:
+    """
+    Collect data.txt files grouped by split and class folder, e.g.:
+    - forward/2Class_Aggregation
+    - reverse/3Class_Dependency
+    """
+    groups: Dict[str, List[Path]] = {}
+
+    for split in splits:
+        split_root = root / f"data_{split}"
+        if not split_root.exists() or not split_root.is_dir():
+            continue
+
+        class_dirs = [
+            p
+            for p in split_root.iterdir()
+            if p.is_dir() and (p.name.startswith("2Class_") or p.name.startswith("3Class_"))
+        ]
+        for class_dir in sorted(class_dirs, key=lambda p: p.name.lower()):
+            files = [p for p in sorted(class_dir.rglob("data.txt")) if p.is_file()]
+            if files:
+                groups[f"{split}/{class_dir.name}"] = files
+
+    return groups
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "root",
         nargs="?",
-        default="../",
-        help="Root directory to scan recursively. If omitted, scans all 2Class_* and 3Class_* folders under CWD.",
+        default=None,
+        help="Project root directory. Default: parent directory of this script.",
+    )
+    parser.add_argument(
+        "--splits",
+        nargs="+",
+        choices=["forward", "reverse"],
+        default=["forward", "reverse"],
+        help="Which dataset splits to process. Default: forward reverse",
     )
     parser.add_argument(
         "--dry-run",
@@ -152,43 +185,25 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    if args.root:
-        root = Path(args.root).expanduser().resolve()
-        if not root.exists() or not root.is_dir():
-            raise SystemExit(f"Not a directory: {root}")
-        roots = [root]
-    else:
-        cwd = Path.cwd().resolve()
-        roots = [
-            p
-            for p in cwd.iterdir()
-            if p.is_dir() and (p.name.startswith("2Class_") or p.name.startswith("3Class_"))
-        ]
-        if not roots:
-            raise SystemExit(f"No 2Class_* or 3Class_* folders found under: {cwd}")
+    root = (
+        Path(args.root).expanduser().resolve()
+        if args.root
+        else Path(__file__).resolve().parent.parent
+    )
+    if not root.exists() or not root.is_dir():
+        raise SystemExit(f"Not a directory: {root}")
+
+    groups = collect_grouped_data_files(root, args.splits)
+    if not groups:
+        raise SystemExit(
+            f"No matching data.txt found under: {root} "
+            f"(splits={','.join(args.splits)}, class dirs=2Class_*/3Class_*)"
+        )
 
     total_files = 0
     total_removed = 0
-
-    # Grouping:
-    # - If a single root is provided, group by top-level folder under that root.
-    # - If roots are auto-discovered (2Class_*/3Class_*), group by the root itself.
-    groups: Dict[str, List[Path]] = {}
-    single_root = args.root is not None
-    for root in roots:
-        for path in sorted(root.rglob("data.txt")):
-            if not path.is_file():
-                continue
-            total_files += 1
-            if single_root:
-                try:
-                    rel = path.relative_to(root)
-                    group = rel.parts[0] if rel.parts else ""
-                except ValueError:
-                    group = ""
-            else:
-                group = root.name
-            groups.setdefault(group, []).append(path)
+    for paths in groups.values():
+        total_files += len(paths)
 
     for group, paths in sorted(groups.items(), key=lambda kv: kv[0].lower()):
         # Dry-run: count removals using a shared seen set across the group.

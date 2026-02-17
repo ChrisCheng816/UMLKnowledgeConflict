@@ -1,4 +1,4 @@
 @startuml
-CloudStorage ..> InternetConnection : depends on
-DeviceSync ..> CloudStorage : depends on
+WebBrowser ..> InternetConnection
+OnlineBanking ..> WebBrowser
 @enduml

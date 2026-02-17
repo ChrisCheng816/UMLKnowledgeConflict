@@ -1,4 +1,4 @@
 @startuml
-AmericanGothic <|-- Painting : inherits
-Painting <|-- Artwork : inherits
+AmericanGothic <|-- Painting
+Painting <|-- Artwork
 @enduml

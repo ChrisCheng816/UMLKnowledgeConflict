@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Wrasse : composes
-Ray *-- Fin : composes
+Fin *-- Wrasse
+Ray *-- Fin
 @enduml

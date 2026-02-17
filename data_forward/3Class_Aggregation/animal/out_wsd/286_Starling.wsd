@@ -1,4 +1,0 @@
-@startuml
-FlockOfStarling o-- Starling : aggregates
-Coast o-- FlockOfStarling : aggregates
-@enduml

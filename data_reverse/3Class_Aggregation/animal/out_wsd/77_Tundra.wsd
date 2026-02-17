@@ -1,4 +1,4 @@
 @startuml
-ColonyOfRabbit o-- Tundra : aggregates
-Rabbit o-- ColonyOfRabbit : aggregates
+ColonyOfRabbit o-- Tundra
+Rabbit o-- ColonyOfRabbit
 @enduml

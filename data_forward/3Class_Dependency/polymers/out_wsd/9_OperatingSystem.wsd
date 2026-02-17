@@ -1,4 +1,0 @@
-@startuml
-BackupSoftware ..> OperatingSystem : depends on
-SystemBackup ..> BackupSoftware : depends on
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-ResearchTeam o-- MountainLogisticsCenter : aggregates
-ResearchFellow o-- ResearchTeam : aggregates
-@enduml

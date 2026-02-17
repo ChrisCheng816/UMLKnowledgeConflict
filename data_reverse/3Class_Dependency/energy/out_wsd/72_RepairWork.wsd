@@ -1,0 +1,4 @@
+@startuml
+WeldingMachine ..> RepairWork
+Electricity ..> WeldingMachine
+@enduml

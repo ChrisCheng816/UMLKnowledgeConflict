@@ -1,4 +1,4 @@
 @startuml
-UsainBolt <|-- Runner : inherits
-Runner <|-- Athlete : inherits
+UsainBolt <|-- Runner
+Runner <|-- Athlete
 @enduml

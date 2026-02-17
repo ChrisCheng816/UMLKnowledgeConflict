@@ -1,0 +1,4 @@
+@startuml
+FlockOfWrens o-- Delta
+Wren o-- FlockOfWrens
+@enduml

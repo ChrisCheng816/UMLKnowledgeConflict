@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Grouper : composes
-Filament *-- Gill : composes
+Gill *-- Grouper
+Filament *-- Gill
 @enduml

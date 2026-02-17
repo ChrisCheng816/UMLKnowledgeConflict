@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Eland : composes
-Root *-- Tooth : composes
+Tooth *-- Eland
+Root *-- Tooth
 @enduml

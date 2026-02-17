@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Ray : composes
-Pollock *-- Fin : composes
+Fin *-- Ray
+Pollock *-- Fin
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- SuperMetroid : inherits
+Game <|-- VideoGame
+VideoGame <|-- SuperMetroid
 @enduml

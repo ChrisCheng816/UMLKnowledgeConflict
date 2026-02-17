@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Shrub : inherits
-Shrub <|-- Forsythia : inherits
+Plant <|-- Shrub
+Shrub <|-- Forsythia
 @enduml

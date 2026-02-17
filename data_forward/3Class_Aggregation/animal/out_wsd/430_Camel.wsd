@@ -1,0 +1,4 @@
+@startuml
+HerdOfCamels o-- Camel
+Aquarium o-- HerdOfCamels
+@enduml

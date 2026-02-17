@@ -1,4 +1,4 @@
 @startuml
-StandMixer ..> Whisking : depends on
-Electricity ..> StandMixer : depends on
+StandMixer ..> Whisking
+Electricity ..> StandMixer
 @enduml

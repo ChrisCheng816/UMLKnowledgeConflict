@@ -1,4 +1,0 @@
-@startuml
-FlockOfTurkey o-- Nursery : aggregates
-Turkey o-- FlockOfTurkey : aggregates
-@enduml

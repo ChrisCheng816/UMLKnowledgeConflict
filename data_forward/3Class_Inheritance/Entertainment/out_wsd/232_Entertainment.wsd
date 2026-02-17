@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film : inherits
-Film <|-- Braveheart : inherits
+Entertainment <|-- Film
+Film <|-- Braveheart
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries : inherits
-TVSeries <|-- Narcos : inherits
+Entertainment <|-- TVSeries
+TVSeries <|-- Narcos
 @enduml

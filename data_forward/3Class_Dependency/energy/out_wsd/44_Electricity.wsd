@@ -1,4 +1,4 @@
 @startuml
-LaserCutter ..> Electricity : depends on
-LaserCutting ..> LaserCutter : depends on
+Multimeter ..> Electricity
+ContinuityTesting ..> Multimeter
 @enduml

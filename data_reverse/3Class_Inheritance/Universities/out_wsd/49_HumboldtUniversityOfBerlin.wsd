@@ -1,4 +1,4 @@
 @startuml
-HumboldtUniversityOfBerlin <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+HumboldtUniversityOfBerlin <|-- University
+University <|-- EducationalInstitution
 @enduml

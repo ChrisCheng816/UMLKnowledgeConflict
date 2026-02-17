@@ -1,4 +1,0 @@
-@startuml
-TelephoneLine ..> DeskPhoneBase : depends on
-WallJack ..> TelephoneLine : depends on
-@enduml

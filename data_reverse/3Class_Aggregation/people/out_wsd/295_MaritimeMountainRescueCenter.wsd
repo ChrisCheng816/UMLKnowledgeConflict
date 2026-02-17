@@ -1,4 +1,0 @@
-@startuml
-SafetyTeam o-- MaritimeMountainRescueCenter : aggregates
-SecurityGuard o-- SafetyTeam : aggregates
-@enduml

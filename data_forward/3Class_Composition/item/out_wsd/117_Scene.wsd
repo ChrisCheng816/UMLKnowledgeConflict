@@ -1,0 +1,4 @@
+@startuml
+Chapter *-- Scene
+Novel *-- Chapter
+@enduml

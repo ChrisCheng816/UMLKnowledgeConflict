@@ -1,4 +1,4 @@
 @startuml
-Film <|-- AnimatedFilm : inherits
-AnimatedFilm <|-- Bambi : inherits
+Film <|-- AnimatedFilm
+AnimatedFilm <|-- Bambi
 @enduml

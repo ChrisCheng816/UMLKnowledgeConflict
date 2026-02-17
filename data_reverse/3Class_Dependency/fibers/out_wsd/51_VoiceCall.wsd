@@ -1,4 +1,4 @@
 @startuml
-Smartwatch ..> VoiceCall : depends on
-CellularNetwork ..> Smartwatch : depends on
+Smartwatch ..> VoiceCall
+CellularNetwork ..> Smartwatch
 @enduml

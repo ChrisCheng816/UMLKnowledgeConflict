@@ -1,4 +1,4 @@
 @startuml
-SchoolOfEel o-- Reef : aggregates
-Eel o-- SchoolOfEel : aggregates
+SchoolOfEel o-- Reef
+Eel o-- SchoolOfEel
 @enduml

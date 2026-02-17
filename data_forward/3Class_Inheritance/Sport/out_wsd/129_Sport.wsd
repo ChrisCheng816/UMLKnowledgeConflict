@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- CyclingSport : inherits
-CyclingSport <|-- Cyclocross : inherits
+Sport <|-- CyclingSport
+CyclingSport <|-- Cyclocross
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Slovakia <|-- CentralEuropeanCountry
+CentralEuropeanCountry <|-- EuropeanCountry
+@enduml

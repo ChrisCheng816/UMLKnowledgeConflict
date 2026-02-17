@@ -1,0 +1,4 @@
+@startuml
+HerdOfElks o-- Elk
+Grove o-- HerdOfElks
+@enduml

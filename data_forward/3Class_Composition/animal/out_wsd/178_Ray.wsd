@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Ray : composes
-Walrus *-- Fin : composes
+Fin *-- Ray
+Walrus *-- Fin
 @enduml

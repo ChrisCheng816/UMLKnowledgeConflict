@@ -1,4 +1,4 @@
 @startuml
-BeltSander ..> Electricity : depends on
-Woodworking ..> BeltSander : depends on
+BenchGrinder ..> Electricity
+Deburring ..> BenchGrinder
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting : inherits
-Painting <|-- WhistlersMother : inherits
+Artwork <|-- Painting
+Painting <|-- WhistlersMother
 @enduml

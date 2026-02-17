@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Jaguar : composes
-Root *-- Tooth : composes
+Tooth *-- Jaguar
+Root *-- Tooth
 @enduml

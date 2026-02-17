@@ -1,0 +1,4 @@
+@startuml
+Car <|-- HybridCar
+HybridCar <|-- ToyotaPrius
+@enduml

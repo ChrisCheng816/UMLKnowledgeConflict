@@ -1,4 +1,4 @@
 @startuml
-SwarmOfDragonfly o-- Bay : aggregates
-Dragonfly o-- SwarmOfDragonfly : aggregates
+SwarmOfDragonfly o-- Bay
+Dragonfly o-- SwarmOfDragonfly
 @enduml

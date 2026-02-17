@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Leopard : composes
-Nostril *-- Nose : composes
+Nose *-- Leopard
+Nostril *-- Nose
 @enduml

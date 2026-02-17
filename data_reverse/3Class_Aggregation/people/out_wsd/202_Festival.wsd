@@ -1,0 +1,4 @@
+@startuml
+CrewOfHikers o-- Festival
+Hiker o-- CrewOfHikers
+@enduml

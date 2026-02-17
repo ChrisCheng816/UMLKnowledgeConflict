@@ -1,4 +1,4 @@
 @startuml
-TVSeries <|-- AnimeSeries : inherits
-AnimeSeries <|-- DeathNote : inherits
+TVSeries <|-- AnimeSeries
+AnimeSeries <|-- DeathNote
 @enduml

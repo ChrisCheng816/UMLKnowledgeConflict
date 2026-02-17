@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Bullfrog : composes
-Scale *-- Skin : composes
+Skin *-- Bullfrog
+Scale *-- Skin
 @enduml

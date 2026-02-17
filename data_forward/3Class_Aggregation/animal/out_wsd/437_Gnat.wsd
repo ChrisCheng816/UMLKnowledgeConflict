@@ -1,0 +1,4 @@
+@startuml
+SwarmOfGnat o-- Gnat
+Zoo o-- SwarmOfGnat
+@enduml

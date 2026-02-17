@@ -1,4 +1,4 @@
 @startuml
-Radio ..> RadioNetwork : depends on
-WeatherUpdate ..> Radio : depends on
+Radio ..> RadioNetwork
+WeatherUpdate ..> Radio
 @enduml

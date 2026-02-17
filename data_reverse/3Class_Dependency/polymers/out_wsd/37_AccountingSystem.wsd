@@ -1,4 +1,0 @@
-@startuml
-DatabaseServer ..> AccountingSystem : depends on
-OperatingSystem ..> DatabaseServer : depends on
-@enduml

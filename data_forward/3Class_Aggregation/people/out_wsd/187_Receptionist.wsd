@@ -1,4 +1,0 @@
-@startuml
-ReceptionTeam o-- Receptionist : aggregates
-GovernmentOffice o-- ReceptionTeam : aggregates
-@enduml

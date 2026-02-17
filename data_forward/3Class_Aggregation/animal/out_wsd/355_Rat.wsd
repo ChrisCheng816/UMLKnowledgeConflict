@@ -1,4 +1,0 @@
-@startuml
-ColonyOfRat o-- Rat : aggregates
-Farm o-- ColonyOfRat : aggregates
-@enduml

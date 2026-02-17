@@ -1,4 +1,0 @@
-@startuml
-IntercomPanel ..> HomeIntercom : depends on
-WallOutlet ..> IntercomPanel : depends on
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+PackOfFoxes o-- Fox
+Savanna o-- PackOfFoxes
+@enduml

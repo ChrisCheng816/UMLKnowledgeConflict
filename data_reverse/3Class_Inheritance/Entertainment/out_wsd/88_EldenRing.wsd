@@ -1,4 +1,4 @@
 @startuml
-EldenRing <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+EldenRing <|-- VideoGame
+VideoGame <|-- Game
 @enduml

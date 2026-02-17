@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens : composes
-Frog *-- Eye : composes
+Eye *-- Lens
+Frog *-- Eye
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+State <|-- Kingdom
+Kingdom <|-- Netherlands
+@enduml

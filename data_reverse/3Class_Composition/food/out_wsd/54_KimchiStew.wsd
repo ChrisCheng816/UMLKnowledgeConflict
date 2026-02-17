@@ -1,4 +1,4 @@
 @startuml
-Kimchi *-- KimchiStew : composes
-NapaCabbage *-- Kimchi : composes
+Kimchi *-- KimchiStew
+NapaCabbage *-- Kimchi
 @enduml

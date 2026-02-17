@@ -1,4 +1,4 @@
 @startuml
-HondaCivic <|-- Honda : inherits
-Honda <|-- CarManufacturer : inherits
+HondaCivic <|-- CompactCar
+CompactCar <|-- Car
 @enduml

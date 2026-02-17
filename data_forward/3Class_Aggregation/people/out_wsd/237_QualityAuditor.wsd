@@ -1,4 +1,0 @@
-@startuml
-AuditTeam o-- QualityAuditor : aggregates
-CulturalSportsClub o-- AuditTeam : aggregates
-@enduml

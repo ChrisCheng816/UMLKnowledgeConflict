@@ -1,0 +1,4 @@
+@startuml
+Mushrooms ..> MushroomRisotto
+MushroomFarm ..> Mushrooms
+@enduml

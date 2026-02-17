@@ -1,4 +1,4 @@
 @startuml
-Team o-- Tournament : aggregates
-Player o-- Team : aggregates
+Team o-- Tournament
+Player o-- Team
 @enduml

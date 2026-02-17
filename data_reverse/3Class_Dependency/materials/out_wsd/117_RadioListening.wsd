@@ -1,4 +1,4 @@
 @startuml
-HeadphoneAmplifier ..> RadioListening : depends on
-Electricity ..> HeadphoneAmplifier : depends on
+HeadphoneAmplifier ..> RadioListening
+Electricity ..> HeadphoneAmplifier
 @enduml

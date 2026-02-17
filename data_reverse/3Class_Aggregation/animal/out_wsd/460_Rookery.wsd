@@ -1,4 +1,0 @@
-@startuml
-HerdOfZebra o-- Rookery : aggregates
-Zebra o-- HerdOfZebra : aggregates
-@enduml

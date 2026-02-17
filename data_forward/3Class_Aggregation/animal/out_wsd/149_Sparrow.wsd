@@ -1,4 +1,0 @@
-@startuml
-FlockOfSparrow o-- Sparrow : aggregates
-River o-- FlockOfSparrow : aggregates
-@enduml

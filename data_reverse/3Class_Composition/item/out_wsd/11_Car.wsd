@@ -1,4 +1,4 @@
 @startuml
-BrakeCaliper *-- Car : composes
-GuidePin *-- BrakeCaliper : composes
+WheelAssembly *-- Car
+LugNut *-- WheelAssembly
 @enduml

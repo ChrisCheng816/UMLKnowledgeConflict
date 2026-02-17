@@ -1,0 +1,4 @@
+@startuml
+HerdOfGazelle o-- Swamp
+Gazelle o-- HerdOfGazelle
+@enduml

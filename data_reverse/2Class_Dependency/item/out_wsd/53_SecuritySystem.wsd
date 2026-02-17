@@ -1,3 +1,3 @@
 @startuml
-ControlPanel ..> SecuritySystem : depends on
+ControlPanel ..> SecuritySystem
 @enduml

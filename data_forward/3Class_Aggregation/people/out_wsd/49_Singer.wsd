@@ -1,0 +1,4 @@
+@startuml
+BandOfSingers o-- Singer
+Festival o-- BandOfSingers
+@enduml

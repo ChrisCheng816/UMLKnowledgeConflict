@@ -1,4 +1,0 @@
-@startuml
-SchoolOfCarp o-- Carp : aggregates
-Barn o-- SchoolOfCarp : aggregates
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-CTScanner ..> CTImaging : depends on
-Electricity ..> CTScanner : depends on
-@enduml

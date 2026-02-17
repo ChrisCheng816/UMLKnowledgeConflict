@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Tilapia : composes
-Filament *-- Gill : composes
+Gill *-- Tilapia
+Filament *-- Gill
 @enduml

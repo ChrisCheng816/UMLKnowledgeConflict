@@ -1,4 +1,0 @@
-@startuml
-RideHailingApp ..> RideBooking : depends on
-InternetConnection ..> RideHailingApp : depends on
-@enduml

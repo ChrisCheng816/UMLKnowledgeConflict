@@ -1,4 +1,0 @@
-@startuml
-SchoolOfPerch o-- Barn : aggregates
-Perch o-- SchoolOfPerch : aggregates
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-HerdOfBoar o-- Meadow : aggregates
-Boar o-- HerdOfBoar : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+Organ o-- HumanBody
+Cell o-- Organ
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+StaffOfReferees o-- League
+Referee o-- StaffOfReferees
+@enduml

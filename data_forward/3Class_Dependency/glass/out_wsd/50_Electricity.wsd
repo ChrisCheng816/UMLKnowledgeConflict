@@ -1,4 +1,4 @@
 @startuml
-PulseOximeter ..> Electricity : depends on
-PatientMonitoring ..> PulseOximeter : depends on
+SurgicalLight ..> Electricity
+ProcedureLighting ..> SurgicalLight
 @enduml

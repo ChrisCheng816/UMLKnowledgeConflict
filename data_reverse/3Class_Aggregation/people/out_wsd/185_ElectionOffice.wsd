@@ -1,4 +1,0 @@
-@startuml
-CountingTeam o-- ElectionOffice : aggregates
-VoteCounter o-- CountingTeam : aggregates
-@enduml

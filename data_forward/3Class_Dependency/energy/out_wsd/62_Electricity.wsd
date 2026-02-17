@@ -1,0 +1,4 @@
+@startuml
+SolderingStation ..> Electricity
+CircuitRepair ..> SolderingStation
+@enduml

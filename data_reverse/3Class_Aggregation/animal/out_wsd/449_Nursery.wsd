@@ -1,4 +1,0 @@
-@startuml
-FlockOfLark o-- Nursery : aggregates
-Lark o-- FlockOfLark : aggregates
-@enduml

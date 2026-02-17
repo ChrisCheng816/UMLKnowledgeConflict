@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Ferret : composes
-Claw *-- Paw : composes
+Paw *-- Ferret
+Claw *-- Paw
 @enduml

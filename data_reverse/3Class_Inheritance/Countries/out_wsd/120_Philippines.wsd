@@ -1,0 +1,4 @@
+@startuml
+Philippines <|-- ArchipelagoNation
+ArchipelagoNation <|-- State
+@enduml

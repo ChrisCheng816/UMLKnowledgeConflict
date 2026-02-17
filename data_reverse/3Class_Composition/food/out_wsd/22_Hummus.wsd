@@ -1,4 +1,4 @@
 @startuml
-Tahini *-- Hummus : composes
-Sesame *-- Tahini : composes
+Tahini *-- Hummus
+Sesame *-- Tahini
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SwarmOfLadybug o-- Lagoon : aggregates
-Ladybug o-- SwarmOfLadybug : aggregates
+SwarmOfLadybug o-- Lagoon
+Ladybug o-- SwarmOfLadybug
 @enduml

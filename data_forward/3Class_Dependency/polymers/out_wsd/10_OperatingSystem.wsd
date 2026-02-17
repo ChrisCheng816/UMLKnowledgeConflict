@@ -1,4 +1,0 @@
-@startuml
-BrowserExtension ..> OperatingSystem : depends on
-AdBlocking ..> BrowserExtension : depends on
-@enduml

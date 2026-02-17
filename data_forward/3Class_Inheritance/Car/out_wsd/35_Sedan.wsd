@@ -1,0 +1,4 @@
+@startuml
+Sedan <|-- CompactSedan
+CompactSedan <|-- ToyotaCorolla
+@enduml

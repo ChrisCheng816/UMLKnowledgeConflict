@@ -1,4 +1,4 @@
 @startuml
-MadMaxFuryRoad <|-- Film : inherits
-Film <|-- Entertainment : inherits
+MadMaxFuryRoad <|-- Film
+Film <|-- Entertainment
 @enduml

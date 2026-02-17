@@ -1,4 +1,0 @@
-@startuml
-UltrasoundMachine ..> PrenatalCheckup : depends on
-Electricity ..> UltrasoundMachine : depends on
-@enduml

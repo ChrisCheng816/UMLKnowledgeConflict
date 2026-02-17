@@ -1,4 +1,0 @@
-@startuml
-CRMSoftware ..> LeadManagement : depends on
-OperatingSystem ..> CRMSoftware : depends on
-@enduml

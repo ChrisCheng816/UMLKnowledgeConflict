@@ -1,4 +1,4 @@
 @startuml
-TomatoSauce *-- Lasagna : composes
-Tomato *-- TomatoSauce : composes
+TomatoSauce *-- Lasagna
+Tomato *-- TomatoSauce
 @enduml

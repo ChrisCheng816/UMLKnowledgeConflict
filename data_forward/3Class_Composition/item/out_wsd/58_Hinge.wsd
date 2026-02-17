@@ -1,4 +1,0 @@
-@startuml
-Door *-- Hinge : composes
-Apartment *-- Door : composes
-@enduml

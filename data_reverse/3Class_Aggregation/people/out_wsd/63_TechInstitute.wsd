@@ -1,4 +1,0 @@
-@startuml
-AnalyticsTeam o-- TechInstitute : aggregates
-DataAnalyst o-- AnalyticsTeam : aggregates
-@enduml

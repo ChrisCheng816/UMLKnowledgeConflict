@@ -1,0 +1,4 @@
+@startuml
+FlockOfParrot o-- Beach
+Parrot o-- FlockOfParrot
+@enduml

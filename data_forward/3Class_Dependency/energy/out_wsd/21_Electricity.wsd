@@ -1,4 +1,4 @@
 @startuml
-BenchSander ..> Electricity : depends on
-Woodworking ..> BenchSander : depends on
+ClampMeter ..> Electricity
+Measuring ..> ClampMeter
 @enduml

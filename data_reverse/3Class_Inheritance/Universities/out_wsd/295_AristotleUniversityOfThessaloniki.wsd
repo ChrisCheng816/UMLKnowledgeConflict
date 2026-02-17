@@ -1,4 +1,4 @@
 @startuml
-AristotleUniversityOfThessaloniki <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+AristotleUniversityOfThessaloniki <|-- University
+University <|-- EducationalInstitution
 @enduml

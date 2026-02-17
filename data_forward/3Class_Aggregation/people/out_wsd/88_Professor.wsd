@@ -1,4 +1,0 @@
-@startuml
-FacultyTeam o-- Professor : aggregates
-UniversityAuthority o-- FacultyTeam : aggregates
-@enduml

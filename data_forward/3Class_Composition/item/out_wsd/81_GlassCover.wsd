@@ -1,4 +1,0 @@
-@startuml
-DisplayModule *-- GlassCover : composes
-Laptop *-- DisplayModule : composes
-@enduml

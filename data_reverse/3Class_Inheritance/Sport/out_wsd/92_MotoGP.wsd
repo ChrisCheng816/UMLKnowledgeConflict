@@ -1,4 +1,4 @@
 @startuml
-MotoGP <|-- MotorSport : inherits
-MotorSport <|-- Sport : inherits
+MotoGP <|-- MotorSport
+MotorSport <|-- Sport
 @enduml

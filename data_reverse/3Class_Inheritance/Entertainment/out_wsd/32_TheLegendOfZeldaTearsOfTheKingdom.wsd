@@ -1,4 +1,4 @@
 @startuml
-TheLegendOfZeldaTearsOfTheKingdom <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+TheLegendOfZeldaTearsOfTheKingdom <|-- VideoGame
+VideoGame <|-- Game
 @enduml

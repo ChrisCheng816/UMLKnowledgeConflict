@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inherits
-University <|-- VictoriaUniversityOfWellington : inherits
+EducationalInstitution <|-- University
+University <|-- VictoriaUniversityOfWellington
 @enduml

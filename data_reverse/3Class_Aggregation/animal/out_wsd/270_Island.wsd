@@ -1,4 +1,0 @@
-@startuml
-GroupOfJellyfish o-- Island : aggregates
-Jellyfish o-- GroupOfJellyfish : aggregates
-@enduml

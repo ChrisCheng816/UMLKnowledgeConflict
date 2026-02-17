@@ -1,4 +1,4 @@
 @startuml
-Monopoly <|-- BoardGame : inherits
-BoardGame <|-- Game : inherits
+Monopoly <|-- BoardGame
+BoardGame <|-- Game
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inherits
-University <|-- IITBombay : inherits
+EducationalInstitution <|-- University
+University <|-- IITBombay
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ChargingCable ..> WallOutlet : depends on
-ElectricShaver ..> ChargingCable : depends on
+ChargingCable ..> WallOutlet
+ElectricShaver ..> ChargingCable
 @enduml

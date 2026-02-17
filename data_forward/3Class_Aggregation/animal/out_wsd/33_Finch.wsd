@@ -1,4 +1,4 @@
 @startuml
-FlockOfFinch o-- Finch : aggregates
-Wetland o-- FlockOfFinch : aggregates
+FlockOfFinch o-- Finch
+Wetland o-- FlockOfFinch
 @enduml

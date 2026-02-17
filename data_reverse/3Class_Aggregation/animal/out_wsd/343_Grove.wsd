@@ -1,4 +1,0 @@
-@startuml
-PackOfTiger o-- Grove : aggregates
-Tiger o-- PackOfTiger : aggregates
-@enduml

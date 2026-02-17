@@ -1,4 +1,0 @@
-@startuml
-DatabaseServer ..> OperatingSystem : depends on
-InventorySystem ..> DatabaseServer : depends on
-@enduml

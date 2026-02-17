@@ -1,4 +1,4 @@
 @startuml
-BathTub ..> Relaxation : depends on
-HotWater ..> BathTub : depends on
+BathTub ..> Relaxation
+HotWater ..> BathTub
 @enduml

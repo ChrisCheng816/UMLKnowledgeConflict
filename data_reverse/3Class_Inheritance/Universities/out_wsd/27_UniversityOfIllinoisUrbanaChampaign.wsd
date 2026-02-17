@@ -1,4 +1,4 @@
 @startuml
-UniversityOfIllinoisUrbanaChampaign <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+UniversityOfIllinoisUrbanaChampaign <|-- University
+University <|-- EducationalInstitution
 @enduml

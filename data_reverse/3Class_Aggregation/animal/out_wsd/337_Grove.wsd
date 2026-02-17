@@ -1,4 +1,0 @@
-@startuml
-PackOfDog o-- Grove : aggregates
-Dog o-- PackOfDog : aggregates
-@enduml

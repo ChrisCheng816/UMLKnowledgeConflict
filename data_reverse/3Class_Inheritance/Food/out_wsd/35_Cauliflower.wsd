@@ -1,4 +1,4 @@
 @startuml
-Cauliflower <|-- CruciferousVegetable : inherits
-CruciferousVegetable <|-- Vegetable : inherits
+Cauliflower <|-- CruciferousVegetable
+CruciferousVegetable <|-- Vegetable
 @enduml

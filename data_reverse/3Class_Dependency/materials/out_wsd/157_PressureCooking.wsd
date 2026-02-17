@@ -1,4 +1,4 @@
 @startuml
-PressureCooker ..> PressureCooking : depends on
-Electricity ..> PressureCooker : depends on
+PressureCooker ..> PressureCooking
+Electricity ..> PressureCooker
 @enduml

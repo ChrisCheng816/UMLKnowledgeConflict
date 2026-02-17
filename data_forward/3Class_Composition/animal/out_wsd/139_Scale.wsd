@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Scale : composes
-Iguana *-- Skin : composes
+Skin *-- Scale
+Iguana *-- Skin
 @enduml

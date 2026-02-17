@@ -1,4 +1,4 @@
 @startuml
-Eye *-- MonitorLizard : composes
-Lens *-- Eye : composes
+Eye *-- MonitorLizard
+Lens *-- Eye
 @enduml

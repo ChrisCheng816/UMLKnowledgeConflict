@@ -1,4 +1,0 @@
-@startuml
-IDE ..> CodeEditing : depends on
-OperatingSystem ..> IDE : depends on
-@enduml

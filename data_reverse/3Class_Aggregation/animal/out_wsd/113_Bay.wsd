@@ -1,4 +1,0 @@
-@startuml
-NestOfTurtle o-- Bay : aggregates
-Turtle o-- NestOfTurtle : aggregates
-@enduml

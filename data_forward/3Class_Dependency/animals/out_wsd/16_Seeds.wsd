@@ -1,4 +1,4 @@
 @startuml
-Mouse ..> Seeds : depends on
-Owl ..> Mouse : depends on
+Mouse ..> Seeds
+Snake ..> Mouse
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Car <|-- Hatchback
+Hatchback <|-- VolkswagenGolf
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Anguilla : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Argentina
 @enduml

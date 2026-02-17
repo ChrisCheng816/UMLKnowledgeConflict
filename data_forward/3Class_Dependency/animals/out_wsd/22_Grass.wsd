@@ -1,4 +1,4 @@
 @startuml
-Zebra ..> Grass : depends on
-Hyena ..> Zebra : depends on
+Zebra ..> Grass
+Lion ..> Zebra
 @enduml

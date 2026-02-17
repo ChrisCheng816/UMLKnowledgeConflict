@@ -1,0 +1,4 @@
+@startuml
+DeskPhoneBase ..> TelephoneLine
+OfficePhone ..> DeskPhoneBase
+@enduml

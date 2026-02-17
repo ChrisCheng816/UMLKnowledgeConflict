@@ -1,4 +1,4 @@
 @startuml
-Engine *-- Motorcycle : composes
-Crankshaft *-- Engine : composes
+BrakeCaliper *-- Motorcycle
+BrakePad *-- BrakeCaliper
 @enduml

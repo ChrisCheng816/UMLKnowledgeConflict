@@ -1,4 +1,4 @@
 @startuml
-ColonyOfTermite o-- Bay : aggregates
-Termite o-- ColonyOfTermite : aggregates
+ColonyOfTermite o-- Bay
+Termite o-- ColonyOfTermite
 @enduml

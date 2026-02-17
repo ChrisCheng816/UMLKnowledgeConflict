@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Honduras : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Lebanon
 @enduml

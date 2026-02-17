@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Leopard : composes
-Claw *-- Paw : composes
+Paw *-- Leopard
+Claw *-- Paw
 @enduml

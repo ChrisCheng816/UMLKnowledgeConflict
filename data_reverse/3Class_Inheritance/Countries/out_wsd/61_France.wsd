@@ -1,0 +1,4 @@
+@startuml
+France <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-EbookReader ..> Annotation : depends on
-OperatingSystem ..> EbookReader : depends on
-@enduml

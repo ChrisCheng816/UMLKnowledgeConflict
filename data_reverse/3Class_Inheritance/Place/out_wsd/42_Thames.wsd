@@ -1,0 +1,4 @@
+@startuml
+Thames <|-- River
+River <|-- GeographicFeature
+@enduml

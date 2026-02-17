@@ -1,0 +1,4 @@
+@startuml
+ChiliPeppers ..> PepperPlant
+HotSauce ..> ChiliPeppers
+@enduml

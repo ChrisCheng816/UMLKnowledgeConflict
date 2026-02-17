@@ -1,4 +1,4 @@
 @startuml
-Pierogi <|-- Dish : inherits
-Dish <|-- Food : inherits
+Pierogi <|-- Dish
+Dish <|-- Food
 @enduml

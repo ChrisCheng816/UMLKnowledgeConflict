@@ -1,0 +1,4 @@
+@startuml
+Vanilla ..> VanillaBean
+VanillaIceCream ..> Vanilla
+@enduml

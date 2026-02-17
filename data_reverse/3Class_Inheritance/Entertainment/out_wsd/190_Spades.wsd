@@ -1,4 +1,4 @@
 @startuml
-Spades <|-- CardGame : inherits
-CardGame <|-- Game : inherits
+Spades <|-- CardGame
+CardGame <|-- Game
 @enduml

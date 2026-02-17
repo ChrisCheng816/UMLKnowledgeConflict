@@ -1,4 +1,4 @@
 @startuml
-CanadianFootball <|-- TeamSport : inherits
-TeamSport <|-- Sport : inherits
+CanadianFootball <|-- TeamSport
+TeamSport <|-- Sport
 @enduml

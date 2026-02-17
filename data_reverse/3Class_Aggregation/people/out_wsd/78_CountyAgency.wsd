@@ -1,4 +1,0 @@
-@startuml
-PatrolTeam o-- CountyAgency : aggregates
-PoliceOfficer o-- PatrolTeam : aggregates
-@enduml

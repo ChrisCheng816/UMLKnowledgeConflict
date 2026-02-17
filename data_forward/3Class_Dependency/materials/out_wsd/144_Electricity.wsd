@@ -1,4 +1,4 @@
 @startuml
-MotionSensor ..> Electricity : depends on
-Surveillance ..> MotionSensor : depends on
+MotionSensor ..> Electricity
+Surveillance ..> MotionSensor
 @enduml

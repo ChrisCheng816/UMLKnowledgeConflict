@@ -1,4 +1,4 @@
 @startuml
-TheDarkKnight <|-- Film : inherits
-Film <|-- Entertainment : inherits
+TheDarkKnight <|-- Film
+Film <|-- Entertainment
 @enduml

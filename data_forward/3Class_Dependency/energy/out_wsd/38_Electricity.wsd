@@ -1,4 +1,4 @@
 @startuml
-HeatGun ..> Electricity : depends on
-PaintStripping ..> HeatGun : depends on
+HotAirStation ..> Electricity
+Heating ..> HotAirStation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-RadioListening ..> RadioReceiver : depends on
+RadioListening ..> RadioReceiver
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Cameroon : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Comoros
 @enduml

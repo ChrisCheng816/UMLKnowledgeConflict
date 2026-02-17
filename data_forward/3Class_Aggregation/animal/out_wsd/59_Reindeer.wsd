@@ -1,4 +1,4 @@
 @startuml
-HerdOfReindeer o-- Reindeer : aggregates
-Forest o-- HerdOfReindeer : aggregates
+HerdOfReindeer o-- Reindeer
+Forest o-- HerdOfReindeer
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Zipper *-- Tooth
+Jacket *-- Zipper
+@enduml

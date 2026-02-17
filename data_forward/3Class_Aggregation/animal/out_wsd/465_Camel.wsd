@@ -1,4 +1,0 @@
-@startuml
-HerdOfCamel o-- Camel : aggregates
-Rookery o-- HerdOfCamel : aggregates
-@enduml

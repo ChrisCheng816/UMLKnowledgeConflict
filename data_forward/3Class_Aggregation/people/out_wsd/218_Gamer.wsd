@@ -1,0 +1,4 @@
+@startuml
+GroupOfGamers o-- Gamer
+Community o-- GroupOfGamers
+@enduml

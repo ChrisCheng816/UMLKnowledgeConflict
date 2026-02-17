@@ -1,4 +1,4 @@
 @startuml
-HarryPotterAndTheSorcerersStone <|-- Film : inherits
-Film <|-- Entertainment : inherits
+HarryPotterAndTheSorcerersStone <|-- Film
+Film <|-- Entertainment
 @enduml

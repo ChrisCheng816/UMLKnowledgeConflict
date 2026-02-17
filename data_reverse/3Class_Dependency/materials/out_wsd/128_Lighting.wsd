@@ -1,4 +1,4 @@
 @startuml
-KitchenLight ..> Lighting : depends on
-Electricity ..> KitchenLight : depends on
+KitchenLight ..> Lighting
+Electricity ..> KitchenLight
 @enduml

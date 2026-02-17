@@ -1,4 +1,4 @@
 @startuml
-MediaPlayer ..> WallOutlet : depends on
-DigitalSignage ..> MediaPlayer : depends on
+EbikeCharger ..> WallOutlet
+Ebike ..> EbikeCharger
 @enduml

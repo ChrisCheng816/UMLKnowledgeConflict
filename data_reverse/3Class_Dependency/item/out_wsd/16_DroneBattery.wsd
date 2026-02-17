@@ -1,4 +1,4 @@
 @startuml
-BalanceCharger ..> DroneBattery : depends on
-WallOutlet ..> BalanceCharger : depends on
+BalanceCharger ..> DroneBattery
+WallOutlet ..> BalanceCharger
 @enduml

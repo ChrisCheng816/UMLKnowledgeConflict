@@ -1,4 +1,0 @@
-@startuml
-TradingCompany o-- TradeAlliance : aggregates
-Agent o-- TradingCompany : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+WaveEnergy ..> Wind
+LongshoreDrift ..> WaveEnergy
+@enduml

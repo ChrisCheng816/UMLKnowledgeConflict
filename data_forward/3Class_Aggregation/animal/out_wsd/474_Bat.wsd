@@ -1,0 +1,4 @@
+@startuml
+ColonyOfBat o-- Bat
+Atoll o-- ColonyOfBat
+@enduml

@@ -1,3 +1,3 @@
 @startuml
-ScooterCharger ..> ScooterBattery : depends on
+ScooterCharger ..> ScooterBattery
 @enduml

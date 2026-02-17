@@ -1,0 +1,4 @@
+@startuml
+PressureGradient ..> TemperatureContrast
+JetStream ..> PressureGradient
+@enduml

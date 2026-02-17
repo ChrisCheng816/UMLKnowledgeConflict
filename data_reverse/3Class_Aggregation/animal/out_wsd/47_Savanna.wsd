@@ -1,4 +1,4 @@
 @startuml
-HerdOfElephant o-- Savanna : aggregates
-Elephant o-- HerdOfElephant : aggregates
+HerdOfElephant o-- Savanna
+Elephant o-- HerdOfElephant
 @enduml

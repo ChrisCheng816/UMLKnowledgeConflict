@@ -1,4 +1,4 @@
 @startuml
-Bleach <|-- AnimeSeries : inherits
-AnimeSeries <|-- TVSeries : inherits
+Bleach <|-- AnimeSeries
+AnimeSeries <|-- TVSeries
 @enduml

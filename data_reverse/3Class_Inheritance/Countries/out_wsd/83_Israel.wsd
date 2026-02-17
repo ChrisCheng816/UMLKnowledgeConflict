@@ -1,0 +1,4 @@
+@startuml
+Israel <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

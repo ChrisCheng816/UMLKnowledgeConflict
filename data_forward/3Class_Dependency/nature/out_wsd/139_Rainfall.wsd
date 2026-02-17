@@ -1,4 +1,0 @@
-@startuml
-SoilMoisture ..> Rainfall : depends on
-PlantGrowth ..> SoilMoisture : depends on
-@enduml

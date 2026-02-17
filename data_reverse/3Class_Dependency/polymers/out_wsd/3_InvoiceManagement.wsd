@@ -1,4 +1,0 @@
-@startuml
-AccountingSoftware ..> InvoiceManagement : depends on
-OperatingSystem ..> AccountingSoftware : depends on
-@enduml

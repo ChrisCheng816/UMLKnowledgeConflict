@@ -1,4 +1,0 @@
-@startuml
-ChatClient ..> OperatingSystem : depends on
-TeamChat ..> ChatClient : depends on
-@enduml

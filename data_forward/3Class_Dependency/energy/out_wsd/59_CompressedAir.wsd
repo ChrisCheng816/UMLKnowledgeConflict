@@ -1,4 +1,4 @@
 @startuml
-PneumaticNailGun ..> CompressedAir : depends on
-Framing ..> PneumaticNailGun : depends on
+PneumaticStapler ..> CompressedAir
+Fastening ..> PneumaticStapler
 @enduml

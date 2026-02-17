@@ -1,4 +1,0 @@
-@startuml
-GroupOfOyster o-- Oyster : aggregates
-Zoo o-- GroupOfOyster : aggregates
-@enduml

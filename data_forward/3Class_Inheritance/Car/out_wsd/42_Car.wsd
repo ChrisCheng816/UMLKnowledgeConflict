@@ -1,0 +1,4 @@
+@startuml
+Car <|-- SportsCar
+SportsCar <|-- ToyotaSupra
+@enduml

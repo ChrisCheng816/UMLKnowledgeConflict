@@ -1,0 +1,4 @@
+@startuml
+PolarAir ..> ColdAirMass
+ArcticOcean ..> PolarAir
+@enduml

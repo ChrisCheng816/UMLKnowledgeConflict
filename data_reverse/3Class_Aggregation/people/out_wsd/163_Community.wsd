@@ -1,0 +1,4 @@
+@startuml
+GroupOfArtists o-- Community
+Artist o-- GroupOfArtists
+@enduml

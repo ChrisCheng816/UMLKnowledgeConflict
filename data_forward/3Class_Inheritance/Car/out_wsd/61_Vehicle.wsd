@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- ElectricCar
+ElectricCar <|-- ChevroletBolt
+@enduml

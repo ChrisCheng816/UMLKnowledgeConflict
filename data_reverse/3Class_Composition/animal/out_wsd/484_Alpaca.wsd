@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Alpaca : composes
-Root *-- Tooth : composes
+Tooth *-- Alpaca
+Root *-- Tooth
 @enduml

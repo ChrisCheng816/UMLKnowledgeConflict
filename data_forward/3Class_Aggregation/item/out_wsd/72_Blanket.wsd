@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- Blanket : aggregates
-EmergencyWarehouse o-- StorageBin : aggregates
+StorageBin o-- Blanket
+FestivalWarehouse o-- StorageBin
 @enduml

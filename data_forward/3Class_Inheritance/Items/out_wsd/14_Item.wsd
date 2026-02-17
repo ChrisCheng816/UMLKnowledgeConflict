@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Household : inherits
-Household <|-- Mirror : inherits
+Item <|-- Household
+Household <|-- Mirror
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+WarmAir ..> Sunlight
+Convection ..> WarmAir
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-WheelchairBasketball <|-- Basketball : inherits
-Basketball <|-- Sport : inherits
+WheelchairBasketball <|-- Basketball
+Basketball <|-- Sport
 @enduml

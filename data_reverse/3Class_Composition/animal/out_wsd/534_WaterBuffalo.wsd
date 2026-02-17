@@ -1,4 +1,4 @@
 @startuml
-Nose *-- WaterBuffalo : composes
-Nostril *-- Nose : composes
+Nose *-- WaterBuffalo
+Nostril *-- Nose
 @enduml

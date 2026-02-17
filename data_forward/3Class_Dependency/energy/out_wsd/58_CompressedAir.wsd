@@ -1,4 +1,4 @@
 @startuml
-PneumaticNailGun ..> CompressedAir : depends on
-Carpentry ..> PneumaticNailGun : depends on
+PneumaticNailGun ..> CompressedAir
+Roofing ..> PneumaticNailGun
 @enduml

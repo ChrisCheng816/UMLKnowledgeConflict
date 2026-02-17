@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Hellbender : composes
-Muscle *-- Leg : composes
+Leg *-- Hellbender
+Muscle *-- Leg
 @enduml

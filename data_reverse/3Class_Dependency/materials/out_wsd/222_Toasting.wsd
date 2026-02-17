@@ -1,4 +1,4 @@
 @startuml
-ToasterOven ..> Toasting : depends on
-Electricity ..> ToasterOven : depends on
+ToasterOven ..> Toasting
+Electricity ..> ToasterOven
 @enduml

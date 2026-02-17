@@ -1,0 +1,4 @@
+@startuml
+PowerCord ..> VacuumCleaner
+WallOutlet ..> PowerCord
+@enduml

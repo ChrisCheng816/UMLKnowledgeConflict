@@ -1,4 +1,4 @@
 @startuml
-WirelessHeadphones ..> Bluetooth : depends on
-HandsFreeCalling ..> WirelessHeadphones : depends on
+WirelessHeadphones ..> Bluetooth
+HandsFreeCalling ..> WirelessHeadphones
 @enduml

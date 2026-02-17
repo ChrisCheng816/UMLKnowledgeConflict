@@ -1,4 +1,4 @@
 @startuml
-Moai <|-- Sculpture : inherits
-Sculpture <|-- Artwork : inherits
+Moai <|-- Sculpture
+Sculpture <|-- Artwork
 @enduml

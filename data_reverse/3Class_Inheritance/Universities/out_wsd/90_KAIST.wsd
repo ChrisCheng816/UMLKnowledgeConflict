@@ -1,4 +1,4 @@
 @startuml
-KAIST <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+KAIST <|-- University
+University <|-- EducationalInstitution
 @enduml

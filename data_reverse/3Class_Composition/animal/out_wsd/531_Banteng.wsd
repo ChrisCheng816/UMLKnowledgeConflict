@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Banteng : composes
-Nostril *-- Nose : composes
+Nose *-- Banteng
+Nostril *-- Nose
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-ColonyOfKoala o-- Canyon : aggregates
-Koala o-- ColonyOfKoala : aggregates
-@enduml

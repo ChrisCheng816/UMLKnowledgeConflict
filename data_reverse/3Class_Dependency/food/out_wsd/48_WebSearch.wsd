@@ -1,4 +1,0 @@
-@startuml
-JobPortal ..> WebSearch : depends on
-InternetConnection ..> JobPortal : depends on
-@enduml

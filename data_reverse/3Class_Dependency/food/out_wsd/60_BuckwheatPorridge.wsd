@@ -1,0 +1,4 @@
+@startuml
+Buckwheat ..> BuckwheatPorridge
+BuckwheatPlant ..> Buckwheat
+@enduml

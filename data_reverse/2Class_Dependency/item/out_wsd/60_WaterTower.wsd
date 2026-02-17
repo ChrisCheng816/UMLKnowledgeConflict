@@ -1,3 +1,3 @@
 @startuml
-PumpStation ..> WaterTower : depends on
+PumpStation ..> WaterTower
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-TectonicPlate ..> SeafloorQuake : depends on
-MantleConvection ..> TectonicPlate : depends on
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-FlockOfWren o-- Cliff : aggregates
-Wren o-- FlockOfWren : aggregates
-@enduml

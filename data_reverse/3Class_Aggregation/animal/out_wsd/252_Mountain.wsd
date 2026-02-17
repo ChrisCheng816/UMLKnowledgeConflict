@@ -1,4 +1,0 @@
-@startuml
-ColonyOfAnt o-- Mountain : aggregates
-Ant o-- ColonyOfAnt : aggregates
-@enduml

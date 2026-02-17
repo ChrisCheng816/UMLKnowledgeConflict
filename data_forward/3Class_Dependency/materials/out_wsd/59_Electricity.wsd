@@ -1,4 +1,4 @@
 @startuml
-DoorSensor ..> Electricity : depends on
-MotionDetection ..> DoorSensor : depends on
+DoorSensor ..> Electricity
+MotionDetection ..> DoorSensor
 @enduml

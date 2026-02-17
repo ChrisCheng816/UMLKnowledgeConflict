@@ -1,4 +1,0 @@
-@startuml
-ElectricalService ..> WallOutlet : depends on
-PumpStation ..> ElectricalService : depends on
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Sculpture : inherits
-Sculpture <|-- Discobolus : inherits
+Artwork <|-- Sculpture
+Sculpture <|-- Discobolus
 @enduml

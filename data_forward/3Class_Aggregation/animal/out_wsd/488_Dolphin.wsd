@@ -1,0 +1,4 @@
+@startuml
+PodOfDolphins o-- Dolphin
+Ranch o-- PodOfDolphins
+@enduml

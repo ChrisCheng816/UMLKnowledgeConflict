@@ -1,0 +1,4 @@
+@startuml
+CrewOfGardeners o-- Festival
+Gardener o-- CrewOfGardeners
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-WarmAir ..> Sunlight : depends on
-HeatWave ..> WarmAir : depends on
-@enduml

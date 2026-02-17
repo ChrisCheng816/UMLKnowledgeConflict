@@ -1,4 +1,0 @@
-@startuml
-ColonyOfBadger o-- Ranch : aggregates
-Badger o-- ColonyOfBadger : aggregates
-@enduml

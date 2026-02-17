@@ -1,4 +1,4 @@
 @startuml
-Turntable ..> MusicPlayback : depends on
-Electricity ..> Turntable : depends on
+Turntable ..> MusicPlayback
+Electricity ..> Turntable
 @enduml

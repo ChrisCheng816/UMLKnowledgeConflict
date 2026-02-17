@@ -1,0 +1,4 @@
+@startuml
+TeamOfLibrarians o-- Club
+Librarian o-- TeamOfLibrarians
+@enduml

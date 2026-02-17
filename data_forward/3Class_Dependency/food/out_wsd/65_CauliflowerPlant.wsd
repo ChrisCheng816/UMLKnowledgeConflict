@@ -1,0 +1,4 @@
+@startuml
+Cauliflower ..> CauliflowerPlant
+CauliflowerRice ..> Cauliflower
+@enduml

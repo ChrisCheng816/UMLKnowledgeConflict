@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Tuna : composes
-Filament *-- Gill : composes
+Gill *-- Tuna
+Filament *-- Gill
 @enduml

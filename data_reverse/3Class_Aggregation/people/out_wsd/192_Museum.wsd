@@ -1,4 +1,0 @@
-@startuml
-TourTeam o-- Museum : aggregates
-TourGuide o-- TourTeam : aggregates
-@enduml

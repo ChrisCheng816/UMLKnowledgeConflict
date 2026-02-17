@@ -1,0 +1,4 @@
+@startuml
+Electricity ..> HydroelectricDam
+Microwave ..> Electricity
+@enduml

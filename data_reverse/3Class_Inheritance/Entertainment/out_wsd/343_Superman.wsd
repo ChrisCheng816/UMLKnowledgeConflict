@@ -1,4 +1,4 @@
 @startuml
-Superman <|-- Comic : inherits
-Comic <|-- Entertainment : inherits
+Superman <|-- Comic
+Comic <|-- Entertainment
 @enduml

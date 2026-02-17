@@ -1,4 +1,0 @@
-@startuml
-HerdOfWildebeest o-- Wildebeest : aggregates
-Jungle o-- HerdOfWildebeest : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+CrowdOfGuests o-- Guest
+Lobby o-- CrowdOfGuests
+@enduml

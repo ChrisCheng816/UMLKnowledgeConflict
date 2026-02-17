@@ -1,4 +1,0 @@
-@startuml
-TaskManager ..> NoteTaking : depends on
-OperatingSystem ..> TaskManager : depends on
-@enduml

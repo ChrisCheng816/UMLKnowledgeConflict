@@ -1,4 +1,4 @@
 @startuml
-Butter *-- Brioche : composes
-Milk *-- Butter : composes
+Butter *-- Brioche
+Milk *-- Butter
 @enduml

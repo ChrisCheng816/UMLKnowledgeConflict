@@ -1,4 +1,0 @@
-@startuml
-FlockOfEmu o-- Emu : aggregates
-Lake o-- FlockOfEmu : aggregates
-@enduml

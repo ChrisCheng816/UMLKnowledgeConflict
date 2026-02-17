@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Chipmunk : composes
-Root *-- Tooth : composes
+Tooth *-- Chipmunk
+Root *-- Tooth
 @enduml

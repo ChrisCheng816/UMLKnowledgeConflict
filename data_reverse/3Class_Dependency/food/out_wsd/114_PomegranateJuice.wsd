@@ -1,0 +1,4 @@
+@startuml
+Pomegranate ..> PomegranateJuice
+PomegranateTree ..> Pomegranate
+@enduml

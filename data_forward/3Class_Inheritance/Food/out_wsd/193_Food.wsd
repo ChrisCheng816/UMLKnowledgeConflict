@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dish : inherits
-Dish <|-- Hotpot : inherits
+Food <|-- Dish
+Dish <|-- Hotpot
 @enduml

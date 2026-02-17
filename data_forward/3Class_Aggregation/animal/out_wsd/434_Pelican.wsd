@@ -1,4 +1,0 @@
-@startuml
-FlockOfPelican o-- Pelican : aggregates
-Clinic o-- FlockOfPelican : aggregates
-@enduml

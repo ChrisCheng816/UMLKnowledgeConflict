@@ -1,4 +1,4 @@
 @startuml
-Gill *-- MahiMahi : composes
-Filament *-- Gill : composes
+Gill *-- MahiMahi
+Filament *-- Gill
 @enduml

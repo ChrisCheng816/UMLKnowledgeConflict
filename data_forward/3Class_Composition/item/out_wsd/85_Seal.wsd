@@ -1,0 +1,4 @@
+@startuml
+Cap *-- Seal
+Bottle *-- Cap
+@enduml

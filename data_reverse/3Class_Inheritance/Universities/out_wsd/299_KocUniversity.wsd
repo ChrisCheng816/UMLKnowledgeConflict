@@ -1,4 +1,4 @@
 @startuml
-KocUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+KocUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

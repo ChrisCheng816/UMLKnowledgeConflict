@@ -1,4 +1,0 @@
-@startuml
-FlockOfSwift o-- Hatchery : aggregates
-Swift o-- FlockOfSwift : aggregates
-@enduml

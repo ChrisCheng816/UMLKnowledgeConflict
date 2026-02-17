@@ -1,4 +1,4 @@
 @startuml
-Donut <|-- Dessert : inherits
-Dessert <|-- Food : inherits
+Donut <|-- Dessert
+Dessert <|-- Food
 @enduml

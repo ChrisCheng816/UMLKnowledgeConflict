@@ -1,0 +1,4 @@
+@startuml
+Door *-- Bus
+Hinge *-- Door
+@enduml

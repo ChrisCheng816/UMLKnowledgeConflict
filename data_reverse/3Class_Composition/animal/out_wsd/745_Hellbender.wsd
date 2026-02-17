@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Hellbender : composes
-Scale *-- Skin : composes
+Skin *-- Hellbender
+Scale *-- Skin
 @enduml

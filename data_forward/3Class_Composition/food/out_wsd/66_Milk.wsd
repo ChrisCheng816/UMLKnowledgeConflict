@@ -1,4 +1,4 @@
 @startuml
-Parmesan *-- Milk : composes
-PastaAlfredo *-- Parmesan : composes
+Parmesan *-- Milk
+PastaAlfredo *-- Parmesan
 @enduml

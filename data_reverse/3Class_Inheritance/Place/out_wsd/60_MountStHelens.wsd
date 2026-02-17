@@ -1,0 +1,4 @@
+@startuml
+MountStHelens <|-- Volcano
+Volcano <|-- GeographicFeature
+@enduml

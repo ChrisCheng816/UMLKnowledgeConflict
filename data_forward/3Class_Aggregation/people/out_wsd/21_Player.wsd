@@ -1,0 +1,4 @@
+@startuml
+GroupOfPlayers o-- Player
+Tournament o-- GroupOfPlayers
+@enduml

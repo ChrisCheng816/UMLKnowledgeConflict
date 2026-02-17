@@ -1,0 +1,4 @@
+@startuml
+Cherry ..> CherryJam
+CherryTree ..> Cherry
+@enduml

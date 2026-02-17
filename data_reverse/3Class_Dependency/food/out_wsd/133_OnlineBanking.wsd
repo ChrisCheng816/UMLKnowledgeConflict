@@ -1,4 +1,0 @@
-@startuml
-WebBrowser ..> OnlineBanking : depends on
-InternetConnection ..> WebBrowser : depends on
-@enduml

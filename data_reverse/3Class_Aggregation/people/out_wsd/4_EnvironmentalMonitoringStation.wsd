@@ -1,4 +1,0 @@
-@startuml
-SamplingTeam o-- EnvironmentalMonitoringStation : aggregates
-LabTechnician o-- SamplingTeam : aggregates
-@enduml

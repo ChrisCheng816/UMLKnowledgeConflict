@@ -1,4 +1,0 @@
-@startuml
-GroupOfClam o-- Estuary : aggregates
-Clam o-- GroupOfClam : aggregates
-@enduml

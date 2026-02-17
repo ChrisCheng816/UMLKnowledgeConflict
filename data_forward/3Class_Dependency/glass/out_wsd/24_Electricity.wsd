@@ -1,4 +1,4 @@
 @startuml
-ExamLight ..> Electricity : depends on
-SurgicalLighting ..> ExamLight : depends on
+HeadlampLight ..> Electricity
+SurgicalLighting ..> HeadlampLight
 @enduml

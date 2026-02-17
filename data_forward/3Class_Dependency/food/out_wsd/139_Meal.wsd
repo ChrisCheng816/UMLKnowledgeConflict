@@ -1,4 +1,0 @@
-@startuml
-Customer ..> Meal : depends on
-Restaurant ..> Customer : depends on
-@enduml

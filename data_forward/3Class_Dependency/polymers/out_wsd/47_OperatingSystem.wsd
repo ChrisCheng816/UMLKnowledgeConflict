@@ -1,4 +1,0 @@
-@startuml
-EbookReader ..> OperatingSystem : depends on
-EbookReading ..> EbookReader : depends on
-@enduml

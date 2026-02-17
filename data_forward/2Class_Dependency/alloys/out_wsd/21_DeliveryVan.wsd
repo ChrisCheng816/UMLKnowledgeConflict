@@ -1,3 +1,3 @@
 @startuml
-FreightTransport ..> DeliveryVan : depends on
+FreightTransport ..> DeliveryVan
 @enduml

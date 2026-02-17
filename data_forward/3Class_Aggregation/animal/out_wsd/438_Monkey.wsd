@@ -1,0 +1,4 @@
+@startuml
+TroopOfMonkeys o-- Monkey
+Aviary o-- TroopOfMonkeys
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CornFlour ..> CornTortilla
+Corn ..> CornFlour
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Multimeter ..> Electricity : depends on
-VoltageTesting ..> Multimeter : depends on
+OrbitalSander ..> Electricity
+SurfaceFinishing ..> OrbitalSander
 @enduml

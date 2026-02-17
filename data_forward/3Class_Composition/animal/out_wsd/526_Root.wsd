@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root : composes
-Saiga *-- Tooth : composes
+Tooth *-- Root
+Saiga *-- Tooth
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-RescueSquad o-- MountainGuide : aggregates
-MountainRescueCenter o-- RescueSquad : aggregates
-@enduml

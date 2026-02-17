@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Wagtail : composes
-Shaft *-- Feather : composes
+Feather *-- Wagtail
+Shaft *-- Feather
 @enduml

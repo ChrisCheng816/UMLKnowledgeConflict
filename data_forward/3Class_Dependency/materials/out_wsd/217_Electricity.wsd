@@ -1,4 +1,4 @@
 @startuml
-TabletCharger ..> Electricity : depends on
-BatteryCharging ..> TabletCharger : depends on
+TabletCharger ..> Electricity
+BatteryCharging ..> TabletCharger
 @enduml

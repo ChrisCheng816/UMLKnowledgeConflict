@@ -1,3 +1,3 @@
 @startuml
-CoffeeMaker ..> CoffeeBrewing : depends on
+CoffeeMaker ..> CoffeeBrewing
 @enduml

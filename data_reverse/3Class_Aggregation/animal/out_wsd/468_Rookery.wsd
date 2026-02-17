@@ -1,4 +1,0 @@
-@startuml
-HerdOfSheep o-- Rookery : aggregates
-Sheep o-- HerdOfSheep : aggregates
-@enduml

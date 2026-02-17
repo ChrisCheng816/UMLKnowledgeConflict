@@ -1,4 +1,0 @@
-@startuml
-FieldCrew o-- AerospaceUniversityOffice : aggregates
-FieldEngineer o-- FieldCrew : aggregates
-@enduml

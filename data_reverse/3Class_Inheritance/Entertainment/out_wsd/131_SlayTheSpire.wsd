@@ -1,4 +1,4 @@
 @startuml
-SlayTheSpire <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+SlayTheSpire <|-- VideoGame
+VideoGame <|-- Game
 @enduml

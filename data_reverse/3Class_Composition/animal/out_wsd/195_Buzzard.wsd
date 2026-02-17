@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Buzzard : composes
-Nostril *-- Beak : composes
+Beak *-- Buzzard
+Nostril *-- Beak
 @enduml

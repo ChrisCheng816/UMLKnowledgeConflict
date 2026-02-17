@@ -1,4 +1,0 @@
-@startuml
-CuratorTeam o-- Curator : aggregates
-Museum o-- CuratorTeam : aggregates
-@enduml

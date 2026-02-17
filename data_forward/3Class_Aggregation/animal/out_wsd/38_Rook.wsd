@@ -1,4 +1,4 @@
 @startuml
-FlockOfRook o-- Rook : aggregates
-Wetland o-- FlockOfRook : aggregates
+FlockOfRook o-- Rook
+Wetland o-- FlockOfRook
 @enduml

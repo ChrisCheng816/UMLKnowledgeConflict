@@ -1,4 +1,4 @@
 @startuml
-AbbeyRoad <|-- Album : inherits
-Album <|-- MusicWork : inherits
+AbbeyRoad <|-- Album
+Album <|-- MusicWork
 @enduml

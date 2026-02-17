@@ -1,4 +1,0 @@
-@startuml
-AdmissionsOffice o-- WarehouseSupervisor : aggregates
-EnergyCommunityCenter o-- AdmissionsOffice : aggregates
-@enduml

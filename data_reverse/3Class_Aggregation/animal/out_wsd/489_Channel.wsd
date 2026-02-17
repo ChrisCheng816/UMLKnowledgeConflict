@@ -1,4 +1,0 @@
-@startuml
-TroopOfLemur o-- Channel : aggregates
-Lemur o-- TroopOfLemur : aggregates
-@enduml

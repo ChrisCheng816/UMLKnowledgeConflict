@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Ecuador : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Gabon
 @enduml

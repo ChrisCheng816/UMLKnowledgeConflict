@@ -1,4 +1,4 @@
 @startuml
-Tick <|-- Arachnid : inherits
-Arachnid <|-- Animal : inherits
+Tick <|-- Arachnid
+Arachnid <|-- Animal
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Cactus : inherits
-Cactus <|-- PricklyPear : inherits
+Plant <|-- Cactus
+Cactus <|-- PricklyPear
 @enduml

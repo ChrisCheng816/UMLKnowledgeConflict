@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Pig : composes
-Root *-- Tooth : composes
+Tooth *-- Pig
+Root *-- Tooth
 @enduml

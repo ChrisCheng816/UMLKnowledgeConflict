@@ -1,4 +1,4 @@
 @startuml
-MarioKart8Deluxe <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+MarioKart8Deluxe <|-- VideoGame
+VideoGame <|-- Game
 @enduml

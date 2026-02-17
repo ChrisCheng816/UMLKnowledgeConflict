@@ -1,0 +1,4 @@
+@startuml
+LuciferinReaction ..> Organism
+Bioluminescence ..> LuciferinReaction
+@enduml

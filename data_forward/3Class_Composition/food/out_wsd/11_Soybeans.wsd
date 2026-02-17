@@ -1,4 +1,4 @@
 @startuml
-SoySauce *-- Soybeans : composes
-Ramen *-- SoySauce : composes
+SoySauce *-- Soybeans
+Ramen *-- SoySauce
 @enduml

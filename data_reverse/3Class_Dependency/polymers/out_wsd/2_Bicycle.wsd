@@ -1,0 +1,4 @@
+@startuml
+Tire ..> Bicycle
+Rubber ..> Tire
+@enduml

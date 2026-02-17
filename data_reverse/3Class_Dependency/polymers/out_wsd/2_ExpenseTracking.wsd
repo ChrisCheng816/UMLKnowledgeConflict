@@ -1,4 +1,0 @@
-@startuml
-AccountingSoftware ..> ExpenseTracking : depends on
-OperatingSystem ..> AccountingSoftware : depends on
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-CaseTeam o-- ForestAirportAuthority : aggregates
-CaseLawyer o-- CaseTeam : aggregates
-@enduml

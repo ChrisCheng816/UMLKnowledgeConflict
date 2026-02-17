@@ -1,4 +1,0 @@
-@startuml
-MaintenanceTeam o-- SavannaMountainRescueCenter : aggregates
-Engineer o-- MaintenanceTeam : aggregates
-@enduml

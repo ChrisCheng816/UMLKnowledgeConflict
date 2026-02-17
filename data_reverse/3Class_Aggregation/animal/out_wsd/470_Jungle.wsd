@@ -1,0 +1,4 @@
+@startuml
+TroopOfMacaque o-- Jungle
+Macaque o-- TroopOfMacaque
+@enduml

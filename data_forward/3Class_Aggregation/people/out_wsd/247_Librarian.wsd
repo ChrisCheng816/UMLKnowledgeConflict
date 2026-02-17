@@ -1,0 +1,4 @@
+@startuml
+CrewOfLibrarians o-- Librarian
+Festival o-- CrewOfLibrarians
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-StorageBin o-- FestivalWarehouse : aggregates
-Blanket o-- StorageBin : aggregates
-@enduml

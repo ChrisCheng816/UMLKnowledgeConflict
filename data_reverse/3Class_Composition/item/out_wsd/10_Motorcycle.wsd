@@ -1,4 +1,4 @@
 @startuml
-BrakeCaliper *-- Motorcycle : composes
-BrakePad *-- BrakeCaliper : composes
+WheelAssembly *-- Motorcycle
+Hub *-- WheelAssembly
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+FlockOfSparrows o-- Sparrow
+Grove o-- FlockOfSparrows
+@enduml

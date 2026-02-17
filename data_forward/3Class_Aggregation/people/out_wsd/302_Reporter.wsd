@@ -1,0 +1,4 @@
+@startuml
+PanelOfReporters o-- Reporter
+Conference o-- PanelOfReporters
+@enduml

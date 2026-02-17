@@ -1,4 +1,0 @@
-@startuml
-ComputePool o-- TaskTicket : aggregates
-ComputeSystem o-- ComputePool : aggregates
-@enduml

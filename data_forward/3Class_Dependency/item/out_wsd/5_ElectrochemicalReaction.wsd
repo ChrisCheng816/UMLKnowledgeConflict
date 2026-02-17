@@ -1,4 +1,4 @@
 @startuml
-Battery ..> ElectrochemicalReaction : depends on
-WallClock ..> Battery : depends on
+Battery ..> ElectrochemicalReaction
+WallClock ..> Battery
 @enduml

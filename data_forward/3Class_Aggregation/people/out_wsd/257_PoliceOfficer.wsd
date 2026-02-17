@@ -1,4 +1,0 @@
-@startuml
-PatrolTeam o-- PoliceOfficer : aggregates
-InternationalFilmStudio o-- PatrolTeam : aggregates
-@enduml

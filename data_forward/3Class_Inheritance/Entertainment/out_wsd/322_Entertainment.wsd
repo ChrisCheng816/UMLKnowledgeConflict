@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries : inherits
-TVSeries <|-- BandOfBrothers : inherits
+Entertainment <|-- TVSeries
+TVSeries <|-- BandOfBrothers
 @enduml

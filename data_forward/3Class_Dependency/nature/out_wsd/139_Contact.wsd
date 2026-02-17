@@ -1,0 +1,4 @@
+@startuml
+Pressure ..> Contact
+Touch ..> Pressure
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BeltSander ..> SurfaceFinishing
+Electricity ..> BeltSander
+@enduml

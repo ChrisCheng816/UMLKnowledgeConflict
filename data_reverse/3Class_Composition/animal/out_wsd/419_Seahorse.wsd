@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Seahorse : composes
-Filament *-- Gill : composes
+Gill *-- Seahorse
+Filament *-- Gill
 @enduml

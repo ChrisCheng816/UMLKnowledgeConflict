@@ -1,4 +1,0 @@
-@startuml
-OnlinePayment ..> TipPayment : depends on
-InternetConnection ..> OnlinePayment : depends on
-@enduml

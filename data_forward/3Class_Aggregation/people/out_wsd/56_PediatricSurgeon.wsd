@@ -1,4 +1,0 @@
-@startuml
-SurgeryTeam o-- PediatricSurgeon : aggregates
-HospitalAuthority o-- SurgeryTeam : aggregates
-@enduml

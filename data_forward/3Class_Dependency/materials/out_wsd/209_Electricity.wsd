@@ -1,4 +1,4 @@
 @startuml
-StereoReceiver ..> Electricity : depends on
-MusicPlayback ..> StereoReceiver : depends on
+StereoReceiver ..> Electricity
+MusicPlayback ..> StereoReceiver
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Beaver : composes
-Root *-- Tooth : composes
+Tooth *-- Beaver
+Root *-- Tooth
 @enduml

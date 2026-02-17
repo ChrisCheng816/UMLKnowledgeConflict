@@ -1,4 +1,4 @@
 @startuml
-Iron ..> Electricity : depends on
-WrinkleRemoval ..> Iron : depends on
+Iron ..> Electricity
+WrinkleRemoval ..> Iron
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Caecilian : composes
-Scale *-- Skin : composes
+Skin *-- Caecilian
+Scale *-- Skin
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-RiverFlow ..> DeltaFormation : depends on
-Snowmelt ..> RiverFlow : depends on
-@enduml

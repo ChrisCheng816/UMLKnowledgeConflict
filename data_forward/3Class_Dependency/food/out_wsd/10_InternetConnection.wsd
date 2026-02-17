@@ -1,4 +1,0 @@
-@startuml
-CICDService ..> InternetConnection : depends on
-CodeHosting ..> CICDService : depends on
-@enduml

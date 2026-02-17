@@ -1,4 +1,0 @@
-@startuml
-ArmyOfToad o-- Toad : aggregates
-Island o-- ArmyOfToad : aggregates
-@enduml

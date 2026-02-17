@@ -1,3 +1,3 @@
 @startuml
-AirConditioner ..> AirCirculation : depends on
+AirConditioner ..> AirCirculation
 @enduml

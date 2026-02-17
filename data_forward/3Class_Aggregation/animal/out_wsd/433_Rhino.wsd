@@ -1,0 +1,4 @@
+@startuml
+HerdOfRhinos o-- Rhino
+Garden o-- HerdOfRhinos
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Mouth *-- Beak : composes
-Whale *-- Mouth : composes
+Mouth *-- Beak
+Whale *-- Mouth
 @enduml

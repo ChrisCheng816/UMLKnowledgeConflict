@@ -1,0 +1,4 @@
+@startuml
+ColonyOfNewt o-- Newt
+Aquarium o-- ColonyOfNewt
+@enduml

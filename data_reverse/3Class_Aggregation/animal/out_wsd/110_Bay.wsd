@@ -1,4 +1,4 @@
 @startuml
-SwarmOfFirefly o-- Bay : aggregates
-Firefly o-- SwarmOfFirefly : aggregates
+SwarmOfFirefly o-- Bay
+Firefly o-- SwarmOfFirefly
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-ExpertCommittee o-- Physicist : aggregates
-SpaceCenter o-- ExpertCommittee : aggregates
-@enduml

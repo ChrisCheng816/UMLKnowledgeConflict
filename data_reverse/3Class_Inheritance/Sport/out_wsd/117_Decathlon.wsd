@@ -1,4 +1,4 @@
 @startuml
-Decathlon <|-- AthleticsSport : inherits
-AthleticsSport <|-- Sport : inherits
+Decathlon <|-- AthleticsSport
+AthleticsSport <|-- Sport
 @enduml

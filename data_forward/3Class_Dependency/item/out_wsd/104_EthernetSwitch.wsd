@@ -1,4 +1,0 @@
-@startuml
-NetworkRecorder ..> EthernetSwitch : depends on
-SecurityCamera ..> NetworkRecorder : depends on
-@enduml

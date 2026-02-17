@@ -1,4 +1,0 @@
-@startuml
-HerdOfCamel o-- Meadow : aggregates
-Camel o-- HerdOfCamel : aggregates
-@enduml

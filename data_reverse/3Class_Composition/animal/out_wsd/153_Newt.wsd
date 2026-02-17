@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Newt : composes
-Muscle *-- Leg : composes
+Leg *-- Newt
+Muscle *-- Leg
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BluetoothEarbuds ..> Bluetooth : depends on
-MusicStreaming ..> BluetoothEarbuds : depends on
+BluetoothEarbuds ..> Bluetooth
+MusicStreaming ..> BluetoothEarbuds
 @enduml

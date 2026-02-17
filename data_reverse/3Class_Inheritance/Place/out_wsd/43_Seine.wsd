@@ -1,0 +1,4 @@
+@startuml
+Seine <|-- River
+River <|-- GeographicFeature
+@enduml

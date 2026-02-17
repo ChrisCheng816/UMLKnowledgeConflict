@@ -1,4 +1,4 @@
 @startuml
-BluetoothEarbuds ..> Bluetooth : depends on
-HandsFreeCalling ..> BluetoothEarbuds : depends on
+BluetoothEarbuds ..> Bluetooth
+HandsFreeCalling ..> BluetoothEarbuds
 @enduml

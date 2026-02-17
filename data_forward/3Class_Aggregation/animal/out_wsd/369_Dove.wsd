@@ -1,0 +1,4 @@
+@startuml
+FlockOfDove o-- Dove
+Clinic o-- FlockOfDove
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Laptop ..> WiFiNetwork : depends on
-VideoCall ..> Laptop : depends on
+Laptop ..> WiFiNetwork
+VideoCall ..> Laptop
 @enduml

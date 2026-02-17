@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Nostril : composes
-Pronghorn *-- Nose : composes
+Nose *-- Nostril
+Pronghorn *-- Nose
 @enduml

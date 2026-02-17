@@ -1,4 +1,0 @@
-@startuml
-ColonyOfMouse o-- Mouse : aggregates
-Canyon o-- ColonyOfMouse : aggregates
-@enduml

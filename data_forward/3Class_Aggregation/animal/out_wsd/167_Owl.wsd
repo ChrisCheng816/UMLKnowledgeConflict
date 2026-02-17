@@ -1,4 +1,0 @@
-@startuml
-FlockOfOwl o-- Owl : aggregates
-Pond o-- FlockOfOwl : aggregates
-@enduml

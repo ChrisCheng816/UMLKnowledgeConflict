@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Ray : composes
-Sturgeon *-- Fin : composes
+Fin *-- Ray
+Sturgeon *-- Fin
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+AirCompressor ..> PneumaticTools
+Electricity ..> AirCompressor
+@enduml

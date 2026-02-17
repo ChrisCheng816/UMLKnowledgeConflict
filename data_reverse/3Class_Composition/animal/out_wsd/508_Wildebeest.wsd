@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Wildebeest : composes
-Root *-- Tooth : composes
+Tooth *-- Wildebeest
+Root *-- Tooth
 @enduml

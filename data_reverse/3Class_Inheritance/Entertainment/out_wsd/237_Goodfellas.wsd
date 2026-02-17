@@ -1,4 +1,4 @@
 @startuml
-Goodfellas <|-- Film : inherits
-Film <|-- Entertainment : inherits
+Goodfellas <|-- Film
+Film <|-- Entertainment
 @enduml

@@ -1,4 +1,0 @@
-@startuml
-ParticipatingCrew o-- FilmFestival : aggregates
-Actor o-- ParticipatingCrew : aggregates
-@enduml

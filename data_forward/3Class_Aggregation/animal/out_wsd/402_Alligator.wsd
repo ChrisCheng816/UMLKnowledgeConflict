@@ -1,4 +1,0 @@
-@startuml
-BaskOfAlligator o-- Alligator : aggregates
-Aquarium o-- BaskOfAlligator : aggregates
-@enduml

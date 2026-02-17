@@ -1,4 +1,0 @@
-@startuml
-FlockOfParrot o-- Pond : aggregates
-Parrot o-- FlockOfParrot : aggregates
-@enduml

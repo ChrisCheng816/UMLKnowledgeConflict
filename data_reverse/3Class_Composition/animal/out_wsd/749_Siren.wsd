@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Siren : composes
-Muscle *-- Leg : composes
+Leg *-- Siren
+Muscle *-- Leg
 @enduml

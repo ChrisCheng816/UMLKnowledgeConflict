@@ -1,4 +1,4 @@
 @startuml
-Oblivion <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+Oblivion <|-- VideoGame
+VideoGame <|-- Game
 @enduml

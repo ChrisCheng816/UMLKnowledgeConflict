@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Lens : composes
-Python *-- Eye : composes
+Eye *-- Lens
+Python *-- Eye
 @enduml

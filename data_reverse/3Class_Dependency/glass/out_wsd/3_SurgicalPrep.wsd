@@ -1,4 +1,0 @@
-@startuml
-Autoclave ..> SurgicalPrep : depends on
-Electricity ..> Autoclave : depends on
-@enduml

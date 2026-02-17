@@ -1,4 +1,4 @@
 @startuml
-KyushuUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+KyushuUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

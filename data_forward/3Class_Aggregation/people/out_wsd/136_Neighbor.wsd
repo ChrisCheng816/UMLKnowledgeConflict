@@ -1,0 +1,4 @@
+@startuml
+StaffOfNeighbors o-- Neighbor
+Company o-- StaffOfNeighbors
+@enduml

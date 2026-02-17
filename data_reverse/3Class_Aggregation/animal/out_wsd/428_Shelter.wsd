@@ -1,4 +1,0 @@
-@startuml
-FlockOfSparrow o-- Shelter : aggregates
-Sparrow o-- FlockOfSparrow : aggregates
-@enduml

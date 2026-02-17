@@ -1,4 +1,0 @@
-@startuml
-ReadingClub o-- Librarian : aggregates
-LibraryAssociation o-- ReadingClub : aggregates
-@enduml

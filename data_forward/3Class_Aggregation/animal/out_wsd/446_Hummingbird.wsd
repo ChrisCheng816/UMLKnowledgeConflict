@@ -1,0 +1,4 @@
+@startuml
+FlockOfHummingbird o-- Hummingbird
+Reef o-- FlockOfHummingbird
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-EnsembleTeam o-- MusicAgency : aggregates
-Cellist o-- EnsembleTeam : aggregates
-@enduml

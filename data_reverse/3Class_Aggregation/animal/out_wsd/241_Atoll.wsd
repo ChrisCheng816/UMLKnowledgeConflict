@@ -1,0 +1,4 @@
+@startuml
+FlockOfPenguin o-- Atoll
+Penguin o-- FlockOfPenguin
+@enduml

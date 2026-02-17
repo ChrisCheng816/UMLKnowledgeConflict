@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Lizard : composes
-Scale *-- Skin : composes
+Skin *-- Lizard
+Scale *-- Skin
 @enduml

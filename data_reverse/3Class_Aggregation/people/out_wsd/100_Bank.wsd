@@ -1,0 +1,4 @@
+@startuml
+GroupOfClerks o-- Bank
+Clerk o-- GroupOfClerks
+@enduml

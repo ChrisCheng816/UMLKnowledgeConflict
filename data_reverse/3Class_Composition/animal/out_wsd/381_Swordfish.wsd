@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Swordfish : composes
-Filament *-- Gill : composes
+Gill *-- Swordfish
+Filament *-- Gill
 @enduml

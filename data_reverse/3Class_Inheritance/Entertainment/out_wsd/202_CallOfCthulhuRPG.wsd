@@ -1,4 +1,4 @@
 @startuml
-CallOfCthulhuRPG <|-- TabletopRPG : inherits
-TabletopRPG <|-- Game : inherits
+CallOfCthulhuRPG <|-- TabletopRPG
+TabletopRPG <|-- Game
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PUBG <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+PUBG <|-- VideoGame
+VideoGame <|-- Game
 @enduml

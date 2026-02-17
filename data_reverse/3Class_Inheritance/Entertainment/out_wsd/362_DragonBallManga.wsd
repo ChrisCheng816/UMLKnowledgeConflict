@@ -1,4 +1,4 @@
 @startuml
-DragonBallManga <|-- Manga : inherits
-Manga <|-- Comic : inherits
+DragonBallManga <|-- Manga
+Manga <|-- Comic
 @enduml

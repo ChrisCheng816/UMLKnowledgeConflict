@@ -1,4 +1,0 @@
-@startuml
-SecuritySquad o-- IslandMountainRescueCenter : aggregates
-QAEngineer o-- SecuritySquad : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Utensil : inherits
-Utensil <|-- Fork : inherits
+Item <|-- Utensil
+Utensil <|-- Fork
 @enduml

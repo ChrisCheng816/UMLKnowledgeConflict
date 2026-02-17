@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Tree : inherits
-Tree <|-- PearTree : inherits
+Plant <|-- Tree
+Tree <|-- PearTree
 @enduml

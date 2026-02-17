@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting : inherits
-Painting <|-- TheArnolfiniPortrait : inherits
+Artwork <|-- Painting
+Painting <|-- TheArnolfiniPortrait
 @enduml

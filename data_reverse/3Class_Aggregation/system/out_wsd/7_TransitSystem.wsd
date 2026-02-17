@@ -1,0 +1,4 @@
+@startuml
+Station o-- TransitSystem
+Platform o-- Station
+@enduml

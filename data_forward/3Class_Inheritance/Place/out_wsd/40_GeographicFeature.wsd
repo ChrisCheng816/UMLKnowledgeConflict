@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- River : inherits
-River <|-- Mekong : inherits
+GeographicFeature <|-- River
+River <|-- Volga
 @enduml

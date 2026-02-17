@@ -1,4 +1,4 @@
 @startuml
-Nori <|-- SeaVegetable : inherits
-SeaVegetable <|-- Vegetable : inherits
+Nori <|-- SeaVegetable
+SeaVegetable <|-- Vegetable
 @enduml

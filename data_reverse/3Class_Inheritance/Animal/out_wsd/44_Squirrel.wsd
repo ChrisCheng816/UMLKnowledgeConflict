@@ -1,4 +1,4 @@
 @startuml
-Squirrel <|-- Mammal : inherits
-Mammal <|-- Animal : inherits
+Squirrel <|-- Mammal
+Mammal <|-- Animal
 @enduml

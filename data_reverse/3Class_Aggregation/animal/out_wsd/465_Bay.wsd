@@ -1,0 +1,4 @@
+@startuml
+ColonyOfSeals o-- Bay
+Seal o-- ColonyOfSeals
+@enduml

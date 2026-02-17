@@ -1,0 +1,4 @@
+@startuml
+CircleOfWriters o-- Cafe
+Writer o-- CircleOfWriters
+@enduml

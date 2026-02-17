@@ -1,0 +1,4 @@
+@startuml
+Singapore <|-- CityState
+CityState <|-- State
+@enduml

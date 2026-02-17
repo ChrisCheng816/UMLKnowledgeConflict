@@ -1,4 +1,0 @@
-@startuml
-ResponseTeam o-- EmergencyStation : aggregates
-FieldMedic o-- ResponseTeam : aggregates
-@enduml

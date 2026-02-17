@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Giraffe : composes
-Lens *-- Eye : composes
+Eye *-- Giraffe
+Lens *-- Eye
 @enduml

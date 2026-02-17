@@ -1,4 +1,4 @@
 @startuml
-AirConditioner ..> Dehumidifying : depends on
-Electricity ..> AirConditioner : depends on
+AirConditioner ..> Dehumidifying
+Electricity ..> AirConditioner
 @enduml

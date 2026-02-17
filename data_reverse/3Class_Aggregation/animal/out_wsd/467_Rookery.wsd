@@ -1,4 +1,0 @@
-@startuml
-HerdOfYak o-- Rookery : aggregates
-Yak o-- HerdOfYak : aggregates
-@enduml

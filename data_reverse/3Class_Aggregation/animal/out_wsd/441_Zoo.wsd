@@ -1,0 +1,4 @@
+@startuml
+HerdOfHippo o-- Zoo
+Hippo o-- HerdOfHippo
+@enduml

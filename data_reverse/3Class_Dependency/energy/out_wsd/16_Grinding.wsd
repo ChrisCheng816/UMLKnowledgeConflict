@@ -1,0 +1,4 @@
+@startuml
+BenchGrinder ..> Grinding
+Electricity ..> BenchGrinder
+@enduml

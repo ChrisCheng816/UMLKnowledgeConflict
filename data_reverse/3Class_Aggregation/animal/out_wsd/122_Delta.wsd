@@ -1,4 +1,0 @@
-@startuml
-BaskOfCrocodile o-- Delta : aggregates
-Crocodile o-- BaskOfCrocodile : aggregates
-@enduml

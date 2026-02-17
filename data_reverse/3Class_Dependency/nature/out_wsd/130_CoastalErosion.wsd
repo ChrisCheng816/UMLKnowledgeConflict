@@ -1,0 +1,4 @@
+@startuml
+WaveEnergy ..> CoastalErosion
+Wind ..> WaveEnergy
+@enduml

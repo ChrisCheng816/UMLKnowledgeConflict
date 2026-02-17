@@ -1,4 +1,4 @@
 @startuml
-StereoReceiver ..> Electricity : depends on
-AudioStreaming ..> StereoReceiver : depends on
+StereoReceiver ..> Electricity
+AudioStreaming ..> StereoReceiver
 @enduml

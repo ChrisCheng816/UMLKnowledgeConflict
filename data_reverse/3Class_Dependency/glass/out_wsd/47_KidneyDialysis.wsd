@@ -1,4 +1,0 @@
-@startuml
-PeritonealDialysisCycler ..> KidneyDialysis : depends on
-Electricity ..> PeritonealDialysisCycler : depends on
-@enduml

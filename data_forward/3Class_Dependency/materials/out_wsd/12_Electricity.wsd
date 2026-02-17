@@ -1,4 +1,4 @@
 @startuml
-Amplifier ..> Electricity : depends on
-RadioListening ..> Amplifier : depends on
+Amplifier ..> Electricity
+RadioListening ..> Amplifier
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Root : composes
-Iguana *-- Tooth : composes
+Tooth *-- Root
+Iguana *-- Tooth
 @enduml

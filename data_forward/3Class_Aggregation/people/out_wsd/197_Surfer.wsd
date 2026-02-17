@@ -1,0 +1,4 @@
+@startuml
+CrewOfSurfers o-- Surfer
+Festival o-- CrewOfSurfers
+@enduml

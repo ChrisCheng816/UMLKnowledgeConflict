@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Okapi : composes
-Root *-- Tooth : composes
+Tooth *-- Okapi
+Root *-- Tooth
 @enduml

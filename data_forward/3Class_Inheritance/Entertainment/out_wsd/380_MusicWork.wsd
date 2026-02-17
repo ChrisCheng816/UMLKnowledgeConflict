@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Song : inherits
-Song <|-- BlindingLights : inherits
+MusicWork <|-- Song
+Song <|-- BlindingLights
 @enduml

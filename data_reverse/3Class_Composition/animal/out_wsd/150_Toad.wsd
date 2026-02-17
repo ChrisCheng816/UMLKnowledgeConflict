@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Toad : composes
-Lens *-- Eye : composes
+Eye *-- Toad
+Lens *-- Eye
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Scale : composes
-BeardedDragon *-- Skin : composes
+Skin *-- Scale
+BeardedDragon *-- Skin
 @enduml

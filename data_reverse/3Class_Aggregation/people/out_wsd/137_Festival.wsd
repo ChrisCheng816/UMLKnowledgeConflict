@@ -1,0 +1,4 @@
+@startuml
+CrewOfNeighbors o-- Festival
+Neighbor o-- CrewOfNeighbors
+@enduml

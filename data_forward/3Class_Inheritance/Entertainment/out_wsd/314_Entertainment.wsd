@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries : inherits
-TVSeries <|-- Westworld : inherits
+Entertainment <|-- TVSeries
+TVSeries <|-- Westworld
 @enduml

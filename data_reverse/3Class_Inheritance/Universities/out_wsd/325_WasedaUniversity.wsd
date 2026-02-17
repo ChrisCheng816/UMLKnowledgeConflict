@@ -1,4 +1,4 @@
 @startuml
-WasedaUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+WasedaUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Jersey : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Malta
 @enduml

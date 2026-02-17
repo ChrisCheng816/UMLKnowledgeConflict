@@ -1,0 +1,4 @@
+@startuml
+ClubOfVisitors o-- Visitor
+School o-- ClubOfVisitors
+@enduml

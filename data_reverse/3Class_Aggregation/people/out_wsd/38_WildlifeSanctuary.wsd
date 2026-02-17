@@ -1,4 +1,0 @@
-@startuml
-VeterinaryTeam o-- WildlifeSanctuary : aggregates
-ResearchFellow o-- VeterinaryTeam : aggregates
-@enduml

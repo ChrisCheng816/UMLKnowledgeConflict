@@ -1,4 +1,4 @@
 @startuml
-FlockOfPelican o-- Reserve : aggregates
-Pelican o-- FlockOfPelican : aggregates
+FlockOfPelican o-- Reserve
+Pelican o-- FlockOfPelican
 @enduml

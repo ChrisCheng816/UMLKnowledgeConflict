@@ -1,4 +1,4 @@
 @startuml
-TrueDetective <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+TrueDetective <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

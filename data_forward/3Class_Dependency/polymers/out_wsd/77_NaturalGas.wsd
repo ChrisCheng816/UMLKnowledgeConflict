@@ -1,0 +1,4 @@
+@startuml
+Propane ..> NaturalGas
+GasGrill ..> Propane
+@enduml

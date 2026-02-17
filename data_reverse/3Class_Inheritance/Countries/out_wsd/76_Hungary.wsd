@@ -1,0 +1,4 @@
+@startuml
+Hungary <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

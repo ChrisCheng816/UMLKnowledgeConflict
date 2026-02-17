@@ -1,4 +1,4 @@
 @startuml
-Chocolate *-- CocoaBeans : composes
-Brownie *-- Chocolate : composes
+Chocolate *-- CocoaBeans
+Brownie *-- Chocolate
 @enduml

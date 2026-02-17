@@ -1,0 +1,4 @@
+@startuml
+SUV <|-- MidsizeSUV
+MidsizeSUV <|-- ToyotaHighlander
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GroupOfSwimmers o-- Community
+Swimmer o-- GroupOfSwimmers
+@enduml

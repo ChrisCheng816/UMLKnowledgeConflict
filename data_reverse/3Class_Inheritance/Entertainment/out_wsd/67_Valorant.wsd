@@ -1,4 +1,4 @@
 @startuml
-Valorant <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+Valorant <|-- VideoGame
+VideoGame <|-- Game
 @enduml

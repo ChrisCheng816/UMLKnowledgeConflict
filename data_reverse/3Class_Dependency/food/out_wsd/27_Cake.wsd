@@ -1,0 +1,4 @@
+@startuml
+CakeFlour ..> Cake
+Wheat ..> CakeFlour
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-CNCMachine ..> PrecisionMachining : depends on
-Electricity ..> CNCMachine : depends on
-@enduml

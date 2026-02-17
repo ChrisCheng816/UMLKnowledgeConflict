@@ -1,4 +1,0 @@
-@startuml
-IncidentResponseTeam o-- EnergyResearchInstitute : aggregates
-Registrar o-- IncidentResponseTeam : aggregates
-@enduml

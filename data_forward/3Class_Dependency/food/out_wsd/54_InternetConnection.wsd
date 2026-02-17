@@ -1,4 +1,0 @@
-@startuml
-MapService ..> InternetConnection : depends on
-RoutePlanning ..> MapService : depends on
-@enduml

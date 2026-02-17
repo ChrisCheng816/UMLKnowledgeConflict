@@ -1,4 +1,0 @@
-@startuml
-CareTeam o-- LabTechnician : aggregates
-AquariumAgency o-- CareTeam : aggregates
-@enduml

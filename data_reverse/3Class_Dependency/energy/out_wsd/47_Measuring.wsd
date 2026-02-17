@@ -1,4 +1,0 @@
-@startuml
-Multimeter ..> Measuring : depends on
-Electricity ..> Multimeter : depends on
-@enduml

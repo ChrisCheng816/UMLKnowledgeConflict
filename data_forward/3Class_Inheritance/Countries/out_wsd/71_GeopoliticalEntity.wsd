@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- FaroeIslands : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- GuineaBissau
 @enduml

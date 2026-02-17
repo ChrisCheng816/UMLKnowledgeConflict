@@ -1,4 +1,4 @@
 @startuml
-KoreaUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+KoreaUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

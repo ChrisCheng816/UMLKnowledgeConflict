@@ -1,4 +1,0 @@
-@startuml
-MemberCompany o-- Liaison : aggregates
-IndustryAssociation o-- MemberCompany : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-BatteryCharger ..> WallOutlet : depends on
-RadioBattery ..> BatteryCharger : depends on
+BatteryCharger ..> WallOutlet
+RadioBattery ..> BatteryCharger
 @enduml

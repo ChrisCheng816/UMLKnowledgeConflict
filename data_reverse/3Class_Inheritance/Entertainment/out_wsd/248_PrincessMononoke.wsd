@@ -1,4 +1,4 @@
 @startuml
-PrincessMononoke <|-- Film : inherits
-Film <|-- Entertainment : inherits
+PrincessMononoke <|-- Film
+Film <|-- Entertainment
 @enduml

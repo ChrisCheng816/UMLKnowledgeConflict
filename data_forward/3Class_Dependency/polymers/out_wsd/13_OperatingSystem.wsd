@@ -1,4 +1,0 @@
-@startuml
-CADSoftware ..> OperatingSystem : depends on
-3DModeling ..> CADSoftware : depends on
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+SesameSeeds ..> Sesame
+SesameOil ..> SesameSeeds
+@enduml

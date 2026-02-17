@@ -1,4 +1,0 @@
-@startuml
-FlightBooking ..> OnlineBooking : depends on
-InternetConnection ..> FlightBooking : depends on
-@enduml

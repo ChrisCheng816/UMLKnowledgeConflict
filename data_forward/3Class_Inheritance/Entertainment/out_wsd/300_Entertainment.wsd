@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries : inherits
-TVSeries <|-- StrangerThings : inherits
+Entertainment <|-- TVSeries
+TVSeries <|-- StrangerThings
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+ClubOfDrivers o-- Driver
+School o-- ClubOfDrivers
+@enduml

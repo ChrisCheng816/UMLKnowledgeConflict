@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Crustacean : inherits
-Crustacean <|-- Lobster : inherits
+Animal <|-- Crustacean
+Crustacean <|-- Lobster
 @enduml

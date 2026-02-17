@@ -1,4 +1,0 @@
-@startuml
-Organ *-- HumanBody : composes
-Tissue *-- Organ : composes
-@enduml

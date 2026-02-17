@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Leopard : composes
-Root *-- Tooth : composes
+Tooth *-- Leopard
+Root *-- Tooth
 @enduml

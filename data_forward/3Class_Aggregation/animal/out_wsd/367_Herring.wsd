@@ -1,4 +1,0 @@
-@startuml
-SchoolOfHerring o-- Herring : aggregates
-Ranch o-- SchoolOfHerring : aggregates
-@enduml

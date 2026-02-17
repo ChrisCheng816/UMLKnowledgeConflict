@@ -1,3 +1,3 @@
 @startuml
-ClothesDrying ..> ClothesDryer : depends on
+ClothesDrying ..> ClothesDryer
 @enduml

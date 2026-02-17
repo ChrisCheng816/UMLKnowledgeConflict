@@ -1,0 +1,4 @@
+@startuml
+MRIMachine ..> DiagnosticImaging
+Electricity ..> MRIMachine
+@enduml

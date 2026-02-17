@@ -1,4 +1,0 @@
-@startuml
-FlockOfKite o-- Hatchery : aggregates
-Kite o-- FlockOfKite : aggregates
-@enduml

@@ -1,4 +1,4 @@
 @startuml
-RMITUniversity <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+RMITUniversity <|-- University
+University <|-- EducationalInstitution
 @enduml

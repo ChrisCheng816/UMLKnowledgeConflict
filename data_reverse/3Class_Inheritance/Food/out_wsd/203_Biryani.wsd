@@ -1,4 +1,4 @@
 @startuml
-Biryani <|-- Dish : inherits
-Dish <|-- Food : inherits
+Biryani <|-- Dish
+Dish <|-- Food
 @enduml

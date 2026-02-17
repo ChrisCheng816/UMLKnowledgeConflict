@@ -1,0 +1,4 @@
+@startuml
+TroopOfMonkey o-- Inlet
+Monkey o-- TroopOfMonkey
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ClubOfPerformers o-- School
+Performer o-- ClubOfPerformers
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Valheim <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+Valheim <|-- VideoGame
+VideoGame <|-- Game
 @enduml

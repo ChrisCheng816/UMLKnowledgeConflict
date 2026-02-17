@@ -1,0 +1,4 @@
+@startuml
+Sedan <|-- EconomySedan
+EconomySedan <|-- NissanSentra
+@enduml

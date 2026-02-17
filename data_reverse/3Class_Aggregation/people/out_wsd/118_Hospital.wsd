@@ -1,0 +1,4 @@
+@startuml
+TeamOfNurses o-- Hospital
+Nurse o-- TeamOfNurses
+@enduml

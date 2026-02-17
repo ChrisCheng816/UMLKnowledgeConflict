@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Dolphin : composes
-Root *-- Tooth : composes
+Tooth *-- Dolphin
+Root *-- Tooth
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+MunicipalWaterMain ..> WaterTreatmentPlant
+TapWater ..> MunicipalWaterMain
+@enduml

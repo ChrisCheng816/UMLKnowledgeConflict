@@ -1,0 +1,4 @@
+@startuml
+Beef ..> CattleRanch
+BeefStew ..> Beef
+@enduml

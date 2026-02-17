@@ -1,4 +1,0 @@
-@startuml
-SledTeam o-- PolarStation : aggregates
-SledDog o-- SledTeam : aggregates
-@enduml

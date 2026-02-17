@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Frigatebird : composes
-Nostril *-- Beak : composes
+Beak *-- Frigatebird
+Nostril *-- Beak
 @enduml

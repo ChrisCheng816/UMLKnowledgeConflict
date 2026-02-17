@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Volcano : inherits
-Volcano <|-- Krakatoa : inherits
+GeographicFeature <|-- Volcano
+Volcano <|-- MaunaLoa
 @enduml

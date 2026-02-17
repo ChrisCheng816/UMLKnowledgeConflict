@@ -1,4 +1,4 @@
 @startuml
-PowerSupply ..> WallOutlet : depends on
-NeonSign ..> PowerSupply : depends on
+PowerSupply ..> WallOutlet
+NeonSign ..> PowerSupply
 @enduml

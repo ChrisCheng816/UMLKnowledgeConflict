@@ -1,0 +1,4 @@
+@startuml
+PackOfHyena o-- Jungle
+Hyena o-- PackOfHyena
+@enduml

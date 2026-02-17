@@ -1,4 +1,0 @@
-@startuml
-JetStream ..> ClearAirTurbulence : depends on
-PressureGradient ..> JetStream : depends on
-@enduml

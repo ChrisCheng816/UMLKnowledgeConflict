@@ -1,0 +1,4 @@
+@startuml
+PackOfFox o-- Harbor
+Fox o-- PackOfFox
+@enduml

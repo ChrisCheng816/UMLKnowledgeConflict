@@ -1,0 +1,4 @@
+@startuml
+TeamOfArtists o-- Club
+Artist o-- TeamOfArtists
+@enduml

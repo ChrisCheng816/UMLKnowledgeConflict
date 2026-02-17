@@ -1,4 +1,4 @@
 @startuml
-ToyStory3 <|-- Film : inherits
-Film <|-- Entertainment : inherits
+ToyStory3 <|-- Film
+Film <|-- Entertainment
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+TroopOfBaboon o-- Baboon
+Orchard o-- TroopOfBaboon
+@enduml

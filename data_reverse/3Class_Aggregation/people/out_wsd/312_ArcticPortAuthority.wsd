@@ -1,4 +1,0 @@
-@startuml
-FlightOpsTeam o-- ArcticPortAuthority : aggregates
-ComplianceOfficer o-- FlightOpsTeam : aggregates
-@enduml

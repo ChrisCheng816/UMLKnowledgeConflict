@@ -1,4 +1,0 @@
-@startuml
-OnsiteTeam o-- SupervisionCompany : aggregates
-Inspector o-- OnsiteTeam : aggregates
-@enduml

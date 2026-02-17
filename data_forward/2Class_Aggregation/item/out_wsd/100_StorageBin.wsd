@@ -1,3 +1,3 @@
 @startuml
-FestivalWarehouse o-- StorageBin : aggregates
+ResearchWarehouse o-- StorageBin
 @enduml

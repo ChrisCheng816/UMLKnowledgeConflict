@@ -1,4 +1,4 @@
 @startuml
-SolderingStation ..> Electricity : depends on
-Soldering ..> SolderingStation : depends on
+TableSaw ..> Electricity
+FurnitureMaking ..> TableSaw
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Miso *-- SapporoMisoRamen : composes
-Soybeans *-- Miso : composes
+Miso *-- SapporoMisoRamen
+Soybeans *-- Miso
 @enduml

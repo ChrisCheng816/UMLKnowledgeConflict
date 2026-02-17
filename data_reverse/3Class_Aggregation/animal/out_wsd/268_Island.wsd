@@ -1,4 +1,0 @@
-@startuml
-GroupOfOctopus o-- Island : aggregates
-Octopus o-- GroupOfOctopus : aggregates
-@enduml

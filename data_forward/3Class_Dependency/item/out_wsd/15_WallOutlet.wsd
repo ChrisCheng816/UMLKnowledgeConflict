@@ -1,4 +1,4 @@
 @startuml
-PowerAdapter ..> WallOutlet : depends on
-CableModem ..> PowerAdapter : depends on
+PowerAdapter ..> WallOutlet
+CableModem ..> PowerAdapter
 @enduml

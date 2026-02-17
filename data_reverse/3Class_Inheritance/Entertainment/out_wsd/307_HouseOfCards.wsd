@@ -1,4 +1,4 @@
 @startuml
-HouseOfCards <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+HouseOfCards <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

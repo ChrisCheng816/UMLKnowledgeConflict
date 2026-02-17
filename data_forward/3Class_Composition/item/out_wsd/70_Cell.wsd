@@ -1,0 +1,4 @@
+@startuml
+Petal *-- Cell
+Flower *-- Petal
+@enduml

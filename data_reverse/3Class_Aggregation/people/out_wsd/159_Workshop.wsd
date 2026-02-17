@@ -1,0 +1,4 @@
+@startuml
+ClubOfWriters o-- Workshop
+Writer o-- ClubOfWriters
+@enduml

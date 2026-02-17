@@ -1,0 +1,4 @@
+@startuml
+Switzerland <|-- Confederation
+Confederation <|-- State
+@enduml

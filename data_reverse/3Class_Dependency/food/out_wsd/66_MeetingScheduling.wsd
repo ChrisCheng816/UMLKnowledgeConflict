@@ -1,4 +1,0 @@
-@startuml
-OnlineCalendar ..> MeetingScheduling : depends on
-InternetConnection ..> OnlineCalendar : depends on
-@enduml

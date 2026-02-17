@@ -1,4 +1,0 @@
-@startuml
-LearningPlatform ..> InternetConnection : depends on
-HomeworkSubmission ..> LearningPlatform : depends on
-@enduml

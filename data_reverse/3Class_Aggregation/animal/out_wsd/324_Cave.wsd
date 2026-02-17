@@ -1,4 +1,0 @@
-@startuml
-HerdOfAntelope o-- Cave : aggregates
-Antelope o-- HerdOfAntelope : aggregates
-@enduml

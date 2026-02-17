@@ -1,4 +1,0 @@
-@startuml
-FlockOfPeacock o-- Peacock : aggregates
-Clinic o-- FlockOfPeacock : aggregates
-@enduml

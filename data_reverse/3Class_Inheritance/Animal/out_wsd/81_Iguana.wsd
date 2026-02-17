@@ -1,4 +1,4 @@
 @startuml
-Iguana <|-- Reptile : inherits
-Reptile <|-- Animal : inherits
+Iguana <|-- Reptile
+Reptile <|-- Animal
 @enduml

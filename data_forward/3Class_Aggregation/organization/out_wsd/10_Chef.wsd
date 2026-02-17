@@ -1,0 +1,4 @@
+@startuml
+Kitchen o-- Chef
+Restaurant o-- Kitchen
+@enduml

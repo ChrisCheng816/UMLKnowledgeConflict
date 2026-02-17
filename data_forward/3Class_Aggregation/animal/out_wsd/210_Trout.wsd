@@ -1,0 +1,4 @@
+@startuml
+SchoolOfTrout o-- Trout
+Valley o-- SchoolOfTrout
+@enduml

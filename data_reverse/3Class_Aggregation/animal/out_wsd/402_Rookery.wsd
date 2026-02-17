@@ -1,0 +1,4 @@
+@startuml
+HerdOfGazelle o-- Rookery
+Gazelle o-- HerdOfGazelle
+@enduml

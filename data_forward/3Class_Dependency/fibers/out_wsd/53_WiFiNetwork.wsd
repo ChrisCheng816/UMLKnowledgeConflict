@@ -1,4 +1,4 @@
 @startuml
-Tablet ..> WiFiNetwork : depends on
-VideoStreaming ..> Tablet : depends on
+Tablet ..> WiFiNetwork
+VideoStreaming ..> Tablet
 @enduml

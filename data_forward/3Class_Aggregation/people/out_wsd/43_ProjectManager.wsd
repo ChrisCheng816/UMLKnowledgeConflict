@@ -1,4 +1,0 @@
-@startuml
-EventTeam o-- ProjectManager : aggregates
-FestivalCommittee o-- EventTeam : aggregates
-@enduml

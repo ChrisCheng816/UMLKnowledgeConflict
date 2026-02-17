@@ -1,4 +1,4 @@
 @startuml
-Snout *-- Pig : composes
-Nostril *-- Snout : composes
+Snout *-- Pig
+Nostril *-- Snout
 @enduml

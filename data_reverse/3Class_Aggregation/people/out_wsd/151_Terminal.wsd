@@ -1,0 +1,4 @@
+@startuml
+GroupOfPassengers o-- Terminal
+Passenger o-- GroupOfPassengers
+@enduml

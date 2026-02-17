@@ -1,4 +1,0 @@
-@startuml
-FlockOfGoose o-- Goose : aggregates
-Zoo o-- FlockOfGoose : aggregates
-@enduml

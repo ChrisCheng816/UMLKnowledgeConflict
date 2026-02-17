@@ -1,4 +1,4 @@
 @startuml
-EbikeCharger ..> WallOutlet : depends on
-Ebike ..> EbikeCharger : depends on
+PowerCord ..> WallOutlet
+VacuumCleaner ..> PowerCord
 @enduml

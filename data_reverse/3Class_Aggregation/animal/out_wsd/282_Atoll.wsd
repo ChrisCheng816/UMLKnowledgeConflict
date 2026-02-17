@@ -1,4 +1,0 @@
-@startuml
-FlockOfPenguin o-- Atoll : aggregates
-Penguin o-- FlockOfPenguin : aggregates
-@enduml

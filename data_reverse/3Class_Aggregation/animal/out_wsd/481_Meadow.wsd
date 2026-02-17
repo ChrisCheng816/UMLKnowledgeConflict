@@ -1,0 +1,4 @@
+@startuml
+SchoolOfSardines o-- Meadow
+Sardine o-- SchoolOfSardines
+@enduml

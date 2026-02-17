@@ -1,4 +1,4 @@
 @startuml
-ArcticHare <|-- Hare : inherits
-Hare <|-- Mammal : inherits
+ArcticHare <|-- Hare
+Hare <|-- Mammal
 @enduml

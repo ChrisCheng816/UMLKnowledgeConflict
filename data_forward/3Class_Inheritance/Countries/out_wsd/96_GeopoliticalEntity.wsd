@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- HolySeeVaticanCityState : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Latvia
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Monarchy <|-- ParliamentaryMonarchy
+ParliamentaryMonarchy <|-- Spain
+@enduml

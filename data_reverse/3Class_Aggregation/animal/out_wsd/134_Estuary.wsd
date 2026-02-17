@@ -1,4 +1,0 @@
-@startuml
-GroupOfOyster o-- Estuary : aggregates
-Oyster o-- GroupOfOyster : aggregates
-@enduml

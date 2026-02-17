@@ -1,4 +1,4 @@
 @startuml
-GeorgiaInstituteOfTechnology <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+GeorgiaInstituteOfTechnology <|-- University
+University <|-- EducationalInstitution
 @enduml

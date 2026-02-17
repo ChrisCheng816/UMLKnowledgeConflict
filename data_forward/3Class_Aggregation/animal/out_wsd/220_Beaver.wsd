@@ -1,4 +1,0 @@
-@startuml
-ColonyOfBeaver o-- Beaver : aggregates
-Canyon o-- ColonyOfBeaver : aggregates
-@enduml

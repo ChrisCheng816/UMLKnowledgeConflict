@@ -1,4 +1,4 @@
 @startuml
-FrenchOnionSoup <|-- Soup : inherits
-Soup <|-- Dish : inherits
+FrenchOnionSoup <|-- Soup
+Soup <|-- Dish
 @enduml

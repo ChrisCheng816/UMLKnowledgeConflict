@@ -1,0 +1,4 @@
+@startuml
+TroopOfOrangutan o-- Inlet
+Orangutan o-- TroopOfOrangutan
+@enduml

@@ -1,4 +1,0 @@
-@startuml
-CommunityTeam o-- EducationalCharityFoundation : aggregates
-SafetyInspector o-- CommunityTeam : aggregates
-@enduml

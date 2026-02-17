@@ -1,0 +1,4 @@
+@startuml
+Frame *-- Slat
+Bed *-- Frame
+@enduml

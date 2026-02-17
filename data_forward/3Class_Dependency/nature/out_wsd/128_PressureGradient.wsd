@@ -1,4 +1,0 @@
-@startuml
-JetStream ..> PressureGradient : depends on
-StormTrack ..> JetStream : depends on
-@enduml

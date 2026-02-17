@@ -1,4 +1,0 @@
-@startuml
-EditorialTeam o-- Reporter : aggregates
-NewsRoom o-- EditorialTeam : aggregates
-@enduml

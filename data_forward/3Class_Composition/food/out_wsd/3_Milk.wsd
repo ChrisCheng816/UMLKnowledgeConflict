@@ -1,4 +1,4 @@
 @startuml
-Ricotta *-- Milk : composes
-Lasagna *-- Ricotta : composes
+Ricotta *-- Milk
+Lasagna *-- Ricotta
 @enduml

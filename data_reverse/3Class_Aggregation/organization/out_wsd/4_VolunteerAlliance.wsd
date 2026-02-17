@@ -1,4 +1,0 @@
-@startuml
-RescueTeam o-- VolunteerAlliance : aggregates
-SearchAndRescueWorker o-- RescueTeam : aggregates
-@enduml

@@ -1,4 +1,0 @@
-@startuml
-DiveTeam o-- MarineAuthority : aggregates
-RescueDiver o-- DiveTeam : aggregates
-@enduml

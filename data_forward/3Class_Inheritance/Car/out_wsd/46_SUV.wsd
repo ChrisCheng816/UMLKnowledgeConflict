@@ -1,0 +1,4 @@
+@startuml
+SUV <|-- FullSizeSUV
+FullSizeSUV <|-- HondaPilot
+@enduml

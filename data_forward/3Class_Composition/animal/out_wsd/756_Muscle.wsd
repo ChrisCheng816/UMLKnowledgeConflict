@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Muscle : composes
-TigerSalamander *-- Leg : composes
+Leg *-- Muscle
+TigerSalamander *-- Leg
 @enduml

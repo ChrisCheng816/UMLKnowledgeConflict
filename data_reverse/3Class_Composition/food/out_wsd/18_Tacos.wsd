@@ -1,4 +1,4 @@
 @startuml
-Salsa *-- Tacos : composes
-Tomato *-- Salsa : composes
+Salsa *-- Tacos
+Tomato *-- Salsa
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inherits
-Country <|-- Eritrea : inherits
+GeopoliticalEntity <|-- Country
+Country <|-- Ghana
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+SeafloorQuake ..> Aftershock
+TectonicPlate ..> SeafloorQuake
+@enduml

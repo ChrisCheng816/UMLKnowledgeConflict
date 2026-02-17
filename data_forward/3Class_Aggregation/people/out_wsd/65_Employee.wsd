@@ -1,0 +1,4 @@
+@startuml
+GroupOfEmployees o-- Employee
+Company o-- GroupOfEmployees
+@enduml

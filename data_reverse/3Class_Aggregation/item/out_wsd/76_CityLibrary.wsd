@@ -1,4 +1,0 @@
-@startuml
-ArchiveFolder o-- CityLibrary : aggregates
-ArchiveDocument o-- ArchiveFolder : aggregates
-@enduml

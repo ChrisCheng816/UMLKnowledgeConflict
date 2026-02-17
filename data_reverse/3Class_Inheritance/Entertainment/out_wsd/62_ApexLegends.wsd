@@ -1,4 +1,4 @@
 @startuml
-ApexLegends <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+ApexLegends <|-- VideoGame
+VideoGame <|-- Game
 @enduml

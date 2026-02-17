@@ -1,4 +1,4 @@
 @startuml
-SmartTV ..> OnlineGaming : depends on
-Electricity ..> SmartTV : depends on
+SmartTV ..> OnlineGaming
+Electricity ..> SmartTV
 @enduml

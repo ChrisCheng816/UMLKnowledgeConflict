@@ -1,4 +1,0 @@
-@startuml
-BrakeCaliper *-- BleederScrew : composes
-Car *-- BrakeCaliper : composes
-@enduml

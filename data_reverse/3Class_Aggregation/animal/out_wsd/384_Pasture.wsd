@@ -1,4 +1,0 @@
-@startuml
-SwarmOfHornet o-- Pasture : aggregates
-Hornet o-- SwarmOfHornet : aggregates
-@enduml

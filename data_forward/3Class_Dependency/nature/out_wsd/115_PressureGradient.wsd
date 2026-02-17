@@ -1,0 +1,4 @@
+@startuml
+StormSystem ..> PressureGradient
+Rainfall ..> StormSystem
+@enduml

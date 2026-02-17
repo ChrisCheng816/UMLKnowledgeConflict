@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Trout : composes
-Ray *-- Fin : composes
+Fin *-- Trout
+Ray *-- Fin
 @enduml

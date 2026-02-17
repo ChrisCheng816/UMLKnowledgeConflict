@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Sturgeon : composes
-Ray *-- Fin : composes
+Fin *-- Sturgeon
+Ray *-- Fin
 @enduml

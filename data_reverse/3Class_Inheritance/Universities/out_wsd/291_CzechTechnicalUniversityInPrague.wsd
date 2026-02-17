@@ -1,4 +1,4 @@
 @startuml
-CzechTechnicalUniversityInPrague <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+CzechTechnicalUniversityInPrague <|-- University
+University <|-- EducationalInstitution
 @enduml

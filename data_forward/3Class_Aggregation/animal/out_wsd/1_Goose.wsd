@@ -1,4 +1,4 @@
 @startuml
-FlockOfGoose o-- Goose : aggregates
-Sanctuary o-- FlockOfGoose : aggregates
+FlockOfGoose o-- Goose
+Sanctuary o-- FlockOfGoose
 @enduml

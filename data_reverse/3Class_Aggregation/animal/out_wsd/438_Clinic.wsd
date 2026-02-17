@@ -1,4 +1,0 @@
-@startuml
-FlockOfEmu o-- Clinic : aggregates
-Emu o-- FlockOfEmu : aggregates
-@enduml

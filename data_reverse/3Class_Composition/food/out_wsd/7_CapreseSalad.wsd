@@ -1,4 +1,4 @@
 @startuml
-Mozzarella *-- CapreseSalad : composes
-Milk *-- Mozzarella : composes
+Mozzarella *-- CapreseSalad
+Milk *-- Mozzarella
 @enduml

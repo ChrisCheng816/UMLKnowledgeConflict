@@ -1,4 +1,0 @@
-@startuml
-CircuitBoard *-- Router : composes
-Resistor *-- CircuitBoard : composes
-@enduml

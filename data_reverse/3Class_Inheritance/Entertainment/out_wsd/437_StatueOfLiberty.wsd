@@ -1,4 +1,4 @@
 @startuml
-StatueOfLiberty <|-- Sculpture : inherits
-Sculpture <|-- Artwork : inherits
+StatueOfLiberty <|-- Sculpture
+Sculpture <|-- Artwork
 @enduml

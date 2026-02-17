@@ -1,4 +1,0 @@
-@startuml
-WebBrowser ..> WebMail : depends on
-InternetConnection ..> WebBrowser : depends on
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+Pork ..> PigFarm
+PorkBacon ..> Pork
+@enduml

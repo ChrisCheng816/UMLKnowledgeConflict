@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting : inherits
-Painting <|-- Guernica : inherits
+Artwork <|-- Painting
+Painting <|-- Guernica
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-AgeOfEmpiresII <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+AgeOfEmpiresII <|-- VideoGame
+VideoGame <|-- Game
 @enduml

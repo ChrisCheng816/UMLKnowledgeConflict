@@ -1,4 +1,4 @@
 @startuml
-Paella <|-- Dish : inherits
-Dish <|-- Food : inherits
+Paella <|-- Dish
+Dish <|-- Food
 @enduml

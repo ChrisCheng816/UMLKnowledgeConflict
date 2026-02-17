@@ -1,4 +1,4 @@
 @startuml
-FlockOfPheasant o-- Park : aggregates
-Pheasant o-- FlockOfPheasant : aggregates
+FlockOfPheasant o-- Park
+Pheasant o-- FlockOfPheasant
 @enduml

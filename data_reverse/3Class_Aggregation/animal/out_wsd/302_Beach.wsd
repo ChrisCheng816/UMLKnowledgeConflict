@@ -1,4 +1,0 @@
-@startuml
-FlockOfQuail o-- Beach : aggregates
-Quail o-- FlockOfQuail : aggregates
-@enduml

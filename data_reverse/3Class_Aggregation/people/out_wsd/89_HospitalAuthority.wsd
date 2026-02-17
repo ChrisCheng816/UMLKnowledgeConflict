@@ -1,4 +1,0 @@
-@startuml
-WardTeam o-- HospitalAuthority : aggregates
-ICUNurse o-- WardTeam : aggregates
-@enduml

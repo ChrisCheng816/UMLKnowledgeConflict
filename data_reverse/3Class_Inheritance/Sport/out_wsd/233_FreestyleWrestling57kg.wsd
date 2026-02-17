@@ -1,4 +1,4 @@
 @startuml
-FreestyleWrestling57kg <|-- FreestyleWrestling : inherits
-FreestyleWrestling <|-- Wrestling : inherits
+FreestyleWrestling57kg <|-- FreestyleWrestling
+FreestyleWrestling <|-- Wrestling
 @enduml

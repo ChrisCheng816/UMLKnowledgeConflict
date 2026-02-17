@@ -1,4 +1,4 @@
 @startuml
-Cyberpunk2020 <|-- TabletopRPG : inherits
-TabletopRPG <|-- Game : inherits
+Cyberpunk2020 <|-- TabletopRPG
+TabletopRPG <|-- Game
 @enduml

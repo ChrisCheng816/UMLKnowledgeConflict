@@ -1,4 +1,0 @@
-@startuml
-HotAirStation ..> PaintStripping : depends on
-Electricity ..> HotAirStation : depends on
-@enduml

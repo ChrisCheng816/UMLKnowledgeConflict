@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Butterflyfish : composes
-Ray *-- Fin : composes
+Fin *-- Butterflyfish
+Ray *-- Fin
 @enduml

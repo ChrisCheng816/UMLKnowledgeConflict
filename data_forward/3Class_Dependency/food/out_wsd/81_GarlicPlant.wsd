@@ -1,0 +1,4 @@
+@startuml
+Garlic ..> GarlicPlant
+GarlicBread ..> Garlic
+@enduml

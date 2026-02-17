@@ -1,4 +1,4 @@
 @startuml
-HollowKnight <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+HollowKnight <|-- VideoGame
+VideoGame <|-- Game
 @enduml

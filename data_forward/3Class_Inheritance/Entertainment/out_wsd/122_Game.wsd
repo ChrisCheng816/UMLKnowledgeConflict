@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inherits
-VideoGame <|-- HeroesOfMightAndMagicIII : inherits
+Game <|-- VideoGame
+VideoGame <|-- HeroesOfMightAndMagicIII
 @enduml

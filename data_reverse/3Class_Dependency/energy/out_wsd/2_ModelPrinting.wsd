@@ -1,4 +1,0 @@
-@startuml
-3DPrinter ..> ModelPrinting : depends on
-Electricity ..> 3DPrinter : depends on
-@enduml

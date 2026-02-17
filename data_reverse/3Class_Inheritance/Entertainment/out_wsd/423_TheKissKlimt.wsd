@@ -1,4 +1,4 @@
 @startuml
-TheKissKlimt <|-- Painting : inherits
-Painting <|-- Artwork : inherits
+TheKissKlimt <|-- Painting
+Painting <|-- Artwork
 @enduml

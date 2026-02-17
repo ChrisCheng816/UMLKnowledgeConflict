@@ -1,4 +1,4 @@
 @startuml
-FlockOfSwan o-- Sanctuary : aggregates
-Swan o-- FlockOfSwan : aggregates
+FlockOfSwan o-- Sanctuary
+Swan o-- FlockOfSwan
 @enduml

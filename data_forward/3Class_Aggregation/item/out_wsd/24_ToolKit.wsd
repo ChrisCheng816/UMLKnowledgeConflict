@@ -1,4 +1,4 @@
 @startuml
-ToolBox o-- ToolKit : aggregates
-WorkshopDepot o-- ToolBox : aggregates
+ToolBox o-- ToolKit
+WorkshopDepot o-- ToolBox
 @enduml

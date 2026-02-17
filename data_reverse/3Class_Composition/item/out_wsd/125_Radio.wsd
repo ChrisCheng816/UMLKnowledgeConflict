@@ -1,0 +1,4 @@
+@startuml
+Speaker *-- Radio
+Cone *-- Speaker
+@enduml

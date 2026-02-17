@@ -1,4 +1,0 @@
-@startuml
-StudentPortal ..> InternetConnection : depends on
-OnlineLearning ..> StudentPortal : depends on
-@enduml

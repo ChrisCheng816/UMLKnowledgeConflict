@@ -1,4 +1,0 @@
-@startuml
-FlockOfFinch o-- Finch : aggregates
-Pond o-- FlockOfFinch : aggregates
-@enduml

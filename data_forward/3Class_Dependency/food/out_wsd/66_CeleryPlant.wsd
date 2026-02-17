@@ -1,0 +1,4 @@
+@startuml
+Celery ..> CeleryPlant
+CelerySoup ..> Celery
+@enduml

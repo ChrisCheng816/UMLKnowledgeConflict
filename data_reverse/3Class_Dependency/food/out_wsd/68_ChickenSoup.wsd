@@ -1,0 +1,4 @@
+@startuml
+Chicken ..> ChickenSoup
+PoultryFarm ..> Chicken
+@enduml

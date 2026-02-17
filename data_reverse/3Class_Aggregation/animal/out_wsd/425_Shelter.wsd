@@ -1,4 +1,0 @@
-@startuml
-FlockOfStarling o-- Shelter : aggregates
-Starling o-- FlockOfStarling : aggregates
-@enduml

@@ -1,0 +1,4 @@
+@startuml
+Grapefruit ..> GrapefruitJuice
+GrapefruitTree ..> Grapefruit
+@enduml

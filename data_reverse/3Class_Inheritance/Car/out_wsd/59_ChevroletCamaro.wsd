@@ -1,4 +1,4 @@
 @startuml
-ChevroletCamaro <|-- Chevrolet : inherits
-Chevrolet <|-- CarManufacturer : inherits
+ChevroletCamaro <|-- Coupe
+Coupe <|-- Car
 @enduml

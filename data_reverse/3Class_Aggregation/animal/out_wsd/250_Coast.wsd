@@ -1,0 +1,4 @@
+@startuml
+FlockOfPigeon o-- Coast
+Pigeon o-- FlockOfPigeon
+@enduml

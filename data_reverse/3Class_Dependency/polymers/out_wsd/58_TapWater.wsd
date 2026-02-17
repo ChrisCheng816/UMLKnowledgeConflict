@@ -1,0 +1,4 @@
+@startuml
+Reservoir ..> TapWater
+Rain ..> Reservoir
+@enduml

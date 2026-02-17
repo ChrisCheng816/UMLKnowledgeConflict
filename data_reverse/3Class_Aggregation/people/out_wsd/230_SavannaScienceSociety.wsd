@@ -1,4 +1,0 @@
-@startuml
-FlightOpsCrew o-- SavannaScienceSociety : aggregates
-ProjectManager o-- FlightOpsCrew : aggregates
-@enduml

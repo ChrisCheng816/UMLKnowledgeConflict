@@ -1,4 +1,4 @@
 @startuml
-AnimeSeries <|-- TVSeries : inherits
-TVSeries <|-- Entertainment : inherits
+AnimeSeries <|-- TVSeries
+TVSeries <|-- Entertainment
 @enduml

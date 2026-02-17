@@ -1,4 +1,4 @@
 @startuml
-MustardGreens <|-- LeafyVegetable : inherits
-LeafyVegetable <|-- Vegetable : inherits
+MustardGreens <|-- LeafyVegetable
+LeafyVegetable <|-- Vegetable
 @enduml

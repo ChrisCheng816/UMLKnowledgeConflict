@@ -1,0 +1,4 @@
+@startuml
+ClubOfTourists o-- Tourist
+School o-- ClubOfTourists
+@enduml

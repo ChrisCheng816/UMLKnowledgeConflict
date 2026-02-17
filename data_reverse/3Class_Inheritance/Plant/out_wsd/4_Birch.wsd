@@ -1,4 +1,4 @@
 @startuml
-Birch <|-- Tree : inherits
-Tree <|-- Plant : inherits
+Birch <|-- Tree
+Tree <|-- Plant
 @enduml

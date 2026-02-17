@@ -1,4 +1,4 @@
 @startuml
-RensselaerPolytechnicInstitute <|-- University : inherits
-University <|-- EducationalInstitution : inherits
+RensselaerPolytechnicInstitute <|-- University
+University <|-- EducationalInstitution
 @enduml

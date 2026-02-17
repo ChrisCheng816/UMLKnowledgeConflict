@@ -1,4 +1,4 @@
 @startuml
-Paw *-- Claw : composes
-PrairieDog *-- Paw : composes
+Paw *-- Claw
+PrairieDog *-- Paw
 @enduml

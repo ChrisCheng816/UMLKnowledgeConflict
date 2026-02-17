@@ -1,0 +1,4 @@
+@startuml
+StaffOfListeners o-- Listener
+Company o-- StaffOfListeners
+@enduml

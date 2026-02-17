@@ -1,4 +1,0 @@
-@startuml
-EditorialCrew o-- RuralResearchInstitute : aggregates
-Accountant o-- EditorialCrew : aggregates
-@enduml

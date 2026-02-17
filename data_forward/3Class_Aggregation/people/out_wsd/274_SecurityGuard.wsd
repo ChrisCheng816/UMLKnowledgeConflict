@@ -1,4 +1,0 @@
-@startuml
-SafetyTeam o-- SecurityGuard : aggregates
-MountainTechCompany o-- SafetyTeam : aggregates
-@enduml

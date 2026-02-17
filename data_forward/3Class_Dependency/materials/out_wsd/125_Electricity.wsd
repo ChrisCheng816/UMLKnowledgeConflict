@@ -1,4 +1,4 @@
 @startuml
-Iron ..> Electricity : depends on
-PressingFabric ..> Iron : depends on
+Iron ..> Electricity
+PressingFabric ..> Iron
 @enduml

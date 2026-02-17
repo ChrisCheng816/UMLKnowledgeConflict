@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Swift : composes
-Feather *-- Wing : composes
+Wing *-- Swift
+Feather *-- Wing
 @enduml

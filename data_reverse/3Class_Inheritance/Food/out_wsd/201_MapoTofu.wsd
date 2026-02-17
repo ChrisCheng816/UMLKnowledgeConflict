@@ -1,4 +1,4 @@
 @startuml
-MapoTofu <|-- Dish : inherits
-Dish <|-- Food : inherits
+MapoTofu <|-- Dish
+Dish <|-- Food
 @enduml

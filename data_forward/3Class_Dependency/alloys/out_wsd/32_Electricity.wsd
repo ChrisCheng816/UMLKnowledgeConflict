@@ -1,4 +1,4 @@
 @startuml
-ElectricScooter ..> Electricity : depends on
-Commuting ..> ElectricScooter : depends on
+ElectricScooter ..> Electricity
+Commuting ..> ElectricScooter
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Melon : inherits
-Melon <|-- CasabaMelon : inherits
+Fruit <|-- Melon
+Melon <|-- CasabaMelon
 @enduml

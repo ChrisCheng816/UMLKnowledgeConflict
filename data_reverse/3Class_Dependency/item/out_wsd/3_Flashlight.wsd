@@ -1,4 +1,4 @@
 @startuml
-Battery ..> Flashlight : depends on
-ElectrochemicalReaction ..> Battery : depends on
+Battery ..> Flashlight
+ElectrochemicalReaction ..> Battery
 @enduml

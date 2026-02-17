@@ -1,0 +1,4 @@
+@startuml
+FlockOfFalcon o-- Nursery
+Falcon o-- FlockOfFalcon
+@enduml

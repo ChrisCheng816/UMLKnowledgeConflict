@@ -1,4 +1,0 @@
-@startuml
-GroupOfClam o-- Atoll : aggregates
-Clam o-- GroupOfClam : aggregates
-@enduml

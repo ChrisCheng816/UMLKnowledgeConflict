@@ -1,0 +1,4 @@
+@startuml
+ElectricHotPlate ..> PaintStripping
+Electricity ..> ElectricHotPlate
+@enduml

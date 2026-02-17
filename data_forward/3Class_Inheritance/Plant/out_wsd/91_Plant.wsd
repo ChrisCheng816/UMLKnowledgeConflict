@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Fern : inherits
-Fern <|-- BirdsNestFern : inherits
+Plant <|-- Fern
+Fern <|-- BirdsNestFern
 @enduml

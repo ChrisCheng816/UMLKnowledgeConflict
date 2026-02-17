@@ -1,4 +1,4 @@
 @startuml
-Bicycle ..> HumanPower : depends on
-FitnessRide ..> Bicycle : depends on
+Bicycle ..> HumanPower
+FitnessRide ..> Bicycle
 @enduml

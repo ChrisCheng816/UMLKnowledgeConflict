@@ -1,4 +1,0 @@
-@startuml
-CreativeTeam o-- MarketingAgency : aggregates
-Illustrator o-- CreativeTeam : aggregates
-@enduml

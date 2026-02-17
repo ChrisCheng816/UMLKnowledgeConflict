@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Song : inherits
-Song <|-- LoseYourself : inherits
+MusicWork <|-- Song
+Song <|-- LoseYourself
 @enduml

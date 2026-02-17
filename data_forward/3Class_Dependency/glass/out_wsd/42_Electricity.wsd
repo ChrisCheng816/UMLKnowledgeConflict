@@ -1,4 +1,4 @@
 @startuml
-MRIMachine ..> Electricity : depends on
-MRIImaging ..> MRIMachine : depends on
+PeritonealDialysisCycler ..> Electricity
+RenalTherapy ..> PeritonealDialysisCycler
 @enduml

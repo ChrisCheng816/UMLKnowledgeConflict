@@ -1,4 +1,0 @@
-@startuml
-ColonyOfHare o-- Oasis : aggregates
-Hare o-- ColonyOfHare : aggregates
-@enduml

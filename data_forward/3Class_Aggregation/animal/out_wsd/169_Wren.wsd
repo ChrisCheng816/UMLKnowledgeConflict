@@ -1,4 +1,0 @@
-@startuml
-FlockOfWren o-- Wren : aggregates
-Pond o-- FlockOfWren : aggregates
-@enduml

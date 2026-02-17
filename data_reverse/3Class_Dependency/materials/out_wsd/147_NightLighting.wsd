@@ -1,4 +1,4 @@
 @startuml
-NightLight ..> NightLighting : depends on
-Electricity ..> NightLight : depends on
+NightLight ..> NightLighting
+Electricity ..> NightLight
 @enduml

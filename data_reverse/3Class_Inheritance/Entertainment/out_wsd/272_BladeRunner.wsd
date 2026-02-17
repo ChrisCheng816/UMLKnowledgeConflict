@@ -1,4 +1,4 @@
 @startuml
-BladeRunner <|-- Film : inherits
-Film <|-- Entertainment : inherits
+BladeRunner <|-- Film
+Film <|-- Entertainment
 @enduml

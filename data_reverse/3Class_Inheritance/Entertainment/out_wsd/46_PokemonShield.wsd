@@ -1,4 +1,4 @@
 @startuml
-PokemonShield <|-- VideoGame : inherits
-VideoGame <|-- Game : inherits
+PokemonShield <|-- VideoGame
+VideoGame <|-- Game
 @enduml

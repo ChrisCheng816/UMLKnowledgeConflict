@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- River : inherits
-River <|-- CongoRiver : inherits
+GeographicFeature <|-- River
+River <|-- Zambezi
 @enduml
