@@ -1,0 +1,4 @@
+@startuml
+Somalia <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

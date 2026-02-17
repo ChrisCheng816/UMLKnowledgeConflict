@@ -1,4 +1,4 @@
 @startuml
 Stem *-- Bamboo
-Internode *-- Stem
+Bud *-- Stem
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Togo <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

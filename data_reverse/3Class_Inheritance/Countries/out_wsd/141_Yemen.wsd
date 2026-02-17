@@ -1,0 +1,4 @@
+@startuml
+Yemen <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

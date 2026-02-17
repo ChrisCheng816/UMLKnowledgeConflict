@@ -75,3 +75,17 @@
 {"id": "75", "template_id": "inheritance", "nodes": ["NissanPathfinder", "ThreeRowSUV"], "edges": ["NissanPathfinder <|-- ThreeRowSUV"]}
 {"id": "76", "template_id": "inheritance", "nodes": ["NissanLeaf", "ElectricHatchback"], "edges": ["NissanLeaf <|-- ElectricHatchback"]}
 {"id": "77", "template_id": "inheritance", "nodes": ["NissanFrontier", "CompactPickup"], "edges": ["NissanFrontier <|-- CompactPickup"]}
+{"id": "78", "template_id": "inheritance", "nodes": ["ToyotaCorolla", "Sedan"], "edges": ["ToyotaCorolla <|-- Sedan"]}
+{"id": "79", "template_id": "inheritance", "nodes": ["FordMustang", "Coupe"], "edges": ["FordMustang <|-- Coupe"]}
+{"id": "80", "template_id": "inheritance", "nodes": ["MazdaMX5", "Convertible"], "edges": ["MazdaMX5 <|-- Convertible"]}
+{"id": "81", "template_id": "inheritance", "nodes": ["HondaOdyssey", "Minivan"], "edges": ["HondaOdyssey <|-- Minivan"]}
+{"id": "82", "template_id": "inheritance", "nodes": ["YamahaR1", "Motorcycle"], "edges": ["YamahaR1 <|-- Motorcycle"]}
+{"id": "83", "template_id": "inheritance", "nodes": ["TrekRoadBike", "Bicycle"], "edges": ["TrekRoadBike <|-- Bicycle"]}
+{"id": "84", "template_id": "inheritance", "nodes": ["VespaPrimavera", "Scooter"], "edges": ["VespaPrimavera <|-- Scooter"]}
+{"id": "85", "template_id": "inheritance", "nodes": ["CityBus", "Bus"], "edges": ["CityBus <|-- Bus"]}
+{"id": "86", "template_id": "inheritance", "nodes": ["HighSpeedTrain", "Train"], "edges": ["HighSpeedTrain <|-- Train"]}
+{"id": "87", "template_id": "inheritance", "nodes": ["Boeing737", "Airplane"], "edges": ["Boeing737 <|-- Airplane"]}
+{"id": "88", "template_id": "inheritance", "nodes": ["BellHelicopter", "Helicopter"], "edges": ["BellHelicopter <|-- Helicopter"]}
+{"id": "89", "template_id": "inheritance", "nodes": ["Sailboat", "Boat"], "edges": ["Sailboat <|-- Boat"]}
+{"id": "90", "template_id": "inheritance", "nodes": ["ContainerShip", "Ship"], "edges": ["ContainerShip <|-- Ship"]}
+{"id": "91", "template_id": "inheritance", "nodes": ["NuclearSubmarine", "Submarine"], "edges": ["NuclearSubmarine <|-- Submarine"]}

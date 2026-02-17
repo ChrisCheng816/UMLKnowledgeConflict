@@ -1,0 +1,4 @@
+@startuml
+Syria <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

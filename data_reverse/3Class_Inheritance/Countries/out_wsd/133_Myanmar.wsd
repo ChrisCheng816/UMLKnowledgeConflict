@@ -1,0 +1,4 @@
+@startuml
+Myanmar <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

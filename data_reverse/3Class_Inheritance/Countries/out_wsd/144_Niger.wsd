@@ -1,0 +1,4 @@
+@startuml
+Niger <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

@@ -4,9 +4,9 @@ import re
 # Maintain your commonly used models here.
 # "name" is used in output filenames and JSONL metadata.
 MODEL_SPECS = [
+    {"name": "qwen3-2b", "path": "Qwen/Qwen3-VL-2B-Instruct"},
     {"name": "qwen3-8b", "path": "Qwen/Qwen3-VL-8B-Instruct"},
     {"name": "qwen3-4b", "path": "Qwen/Qwen3-VL-4B-Instruct"},
-    {"name": "qwen3-2b", "path": "Qwen/Qwen3-VL-2B-Instruct"},
 ]
 
 

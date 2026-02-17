@@ -1,0 +1,4 @@
+@startuml
+Sudan <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

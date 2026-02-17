@@ -51,3 +51,13 @@
 {"id": "51", "template_id": "composition", "nodes": ["Loop", "Lace"], "edges": ["Lace *-- Loop"]}
 {"id": "52", "template_id": "composition", "nodes": ["End", "Lace"], "edges": ["Lace *-- End"]}
 {"id": "53", "template_id": "composition", "nodes": ["BowKnot", "Lace"], "edges": ["Lace *-- BowKnot"]}
+{"id": "54", "template_id": "composition", "nodes": ["Cover", "Binding"], "edges": ["Binding *-- Cover"]}
+{"id": "55", "template_id": "composition", "nodes": ["Spine", "Binding"], "edges": ["Binding *-- Spine"]}
+{"id": "56", "template_id": "composition", "nodes": ["Glue", "Binding"], "edges": ["Binding *-- Glue"]}
+{"id": "57", "template_id": "composition", "nodes": ["Thread", "Binding"], "edges": ["Binding *-- Thread"]}
+{"id": "58", "template_id": "composition", "nodes": ["Endpaper", "Binding"], "edges": ["Binding *-- Endpaper"]}
+{"id": "59", "template_id": "composition", "nodes": ["Board", "Binding"], "edges": ["Binding *-- Board"]}
+{"id": "60", "template_id": "composition", "nodes": ["Hinge", "Binding"], "edges": ["Binding *-- Hinge"]}
+{"id": "61", "template_id": "composition", "nodes": ["Headband", "Binding"], "edges": ["Binding *-- Headband"]}
+{"id": "62", "template_id": "composition", "nodes": ["Tailband", "Binding"], "edges": ["Binding *-- Tailband"]}
+{"id": "63", "template_id": "composition", "nodes": ["Cloth", "Binding"], "edges": ["Binding *-- Cloth"]}

@@ -1,0 +1,4 @@
+@startuml
+Uganda <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

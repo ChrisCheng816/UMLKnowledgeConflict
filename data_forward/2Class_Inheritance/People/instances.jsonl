@@ -69,3 +69,9 @@
 {"id": "69", "template_id": "inheritance", "nodes": ["TheoreticalPhysicist", "AlbertEinstein"], "edges": ["TheoreticalPhysicist <|-- AlbertEinstein"]}
 {"id": "70", "template_id": "inheritance", "nodes": ["TalkShowHost", "OprahWinfrey"], "edges": ["TalkShowHost <|-- OprahWinfrey"]}
 {"id": "71", "template_id": "inheritance", "nodes": ["BasketballPlayer", "LeBronJames"], "edges": ["BasketballPlayer <|-- LeBronJames"]}
+{"id": "72", "template_id": "inheritance", "nodes": ["Actor", "LeonardoDiCaprio"], "edges": ["Actor <|-- LeonardoDiCaprio"]}
+{"id": "73", "template_id": "inheritance", "nodes": ["Singer", "TaylorSwift"], "edges": ["Singer <|-- TaylorSwift"]}
+{"id": "74", "template_id": "inheritance", "nodes": ["Rapper", "Eminem"], "edges": ["Rapper <|-- Eminem"]}
+{"id": "75", "template_id": "inheritance", "nodes": ["Comedian", "KevinHart"], "edges": ["Comedian <|-- KevinHart"]}
+{"id": "76", "template_id": "inheritance", "nodes": ["Director", "ChristopherNolan"], "edges": ["Director <|-- ChristopherNolan"]}
+{"id": "77", "template_id": "inheritance", "nodes": ["Producer", "QuincyJones"], "edges": ["Producer <|-- QuincyJones"]}

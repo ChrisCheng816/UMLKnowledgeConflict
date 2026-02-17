@@ -319,3 +319,16 @@
 {"id": "319", "template_id": "aggregation", "nodes": ["Guide", "ClubOfGuides"], "edges": ["ClubOfGuides o-- Guide"]}
 {"id": "320", "template_id": "aggregation", "nodes": ["Guide", "StaffOfGuides"], "edges": ["StaffOfGuides o-- Guide"]}
 {"id": "321", "template_id": "aggregation", "nodes": ["Guide", "CrewOfGuides"], "edges": ["CrewOfGuides o-- Guide"]}
+{"id": "322", "template_id": "aggregation", "nodes": ["Patient", "Ward"], "edges": ["Ward o-- Patient"]}
+{"id": "323", "template_id": "aggregation", "nodes": ["Surgeon", "Ward"], "edges": ["Ward o-- Surgeon"]}
+{"id": "324", "template_id": "aggregation", "nodes": ["Therapist", "Ward"], "edges": ["Ward o-- Therapist"]}
+{"id": "325", "template_id": "aggregation", "nodes": ["Pharmacist", "Ward"], "edges": ["Ward o-- Pharmacist"]}
+{"id": "326", "template_id": "aggregation", "nodes": ["Radiologist", "Ward"], "edges": ["Ward o-- Radiologist"]}
+{"id": "327", "template_id": "aggregation", "nodes": ["Pediatrician", "Ward"], "edges": ["Ward o-- Pediatrician"]}
+{"id": "328", "template_id": "aggregation", "nodes": ["Dentist", "Ward"], "edges": ["Ward o-- Dentist"]}
+{"id": "329", "template_id": "aggregation", "nodes": ["Paramedic", "Ward"], "edges": ["Ward o-- Paramedic"]}
+{"id": "330", "template_id": "aggregation", "nodes": ["Technician", "Ward"], "edges": ["Ward o-- Technician"]}
+{"id": "331", "template_id": "aggregation", "nodes": ["Caregiver", "Ward"], "edges": ["Ward o-- Caregiver"]}
+{"id": "332", "template_id": "aggregation", "nodes": ["Intern", "Ward"], "edges": ["Ward o-- Intern"]}
+{"id": "333", "template_id": "aggregation", "nodes": ["Resident", "Ward"], "edges": ["Ward o-- Resident"]}
+{"id": "334", "template_id": "aggregation", "nodes": ["Specialist", "Ward"], "edges": ["Ward o-- Specialist"]}

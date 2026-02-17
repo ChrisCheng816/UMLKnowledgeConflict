@@ -1,0 +1,4 @@
+@startuml
+Vietnam <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

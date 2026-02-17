@@ -1,4 +1,4 @@
 @startuml
 Branch *-- Maple
-Fork *-- Branch
+Joint *-- Branch
 @enduml

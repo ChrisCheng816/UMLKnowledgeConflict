@@ -1,0 +1,4 @@
+@startuml
+Zimbabwe <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Oman <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

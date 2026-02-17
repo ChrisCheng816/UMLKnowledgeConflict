@@ -1,4 +1,4 @@
 @startuml
 Root *-- Carrot
-Branch *-- Root
+Cortex *-- Root
 @enduml

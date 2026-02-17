@@ -12,9 +12,9 @@ from qwen_vl_utils import process_vision_info
 
 
 BATCH_SIZE = 4
-GPU_PER = 0.6
+GPU_PER = 0.3
 # Number of full pipeline runs for pass@k style evaluation.
-N = 10
+N = 1
 TP_SIZE = 4
 DTYPE = "auto"
 
@@ -32,6 +32,7 @@ def load_model(
         tensor_parallel_size=tensor_parallel_size,
         dtype=dtype,
         trust_remote_code=True,
+        max_model_len=10240,
         gpu_memory_utilization=gpu_memory_utilization
     )
     return llm, processor

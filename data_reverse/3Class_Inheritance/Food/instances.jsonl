@@ -364,3 +364,4 @@
 {"id": "364", "template_id": "inheritance", "nodes": ["GlobeEggplant", "Eggplant", "Vegetable"], "edges": ["GlobeEggplant <|-- Eggplant", "Eggplant <|-- Vegetable"]}
 {"id": "365", "template_id": "inheritance", "nodes": ["GreenZucchini", "Zucchini", "Vegetable"], "edges": ["GreenZucchini <|-- Zucchini", "Zucchini <|-- Vegetable"]}
 {"id": "366", "template_id": "inheritance", "nodes": ["BellPepper", "Pepper", "Vegetable"], "edges": ["BellPepper <|-- Pepper", "Pepper <|-- Vegetable"]}
+{"id": "367", "template_id": "inheritance", "nodes": ["ApplePie", "Dessert", "Food"], "edges": ["ApplePie <|-- Dessert", "Dessert <|-- Food"]}

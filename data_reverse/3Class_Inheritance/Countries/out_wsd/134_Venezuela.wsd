@@ -1,0 +1,4 @@
+@startuml
+Venezuela <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

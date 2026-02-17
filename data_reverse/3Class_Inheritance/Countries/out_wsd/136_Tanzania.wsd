@@ -1,0 +1,4 @@
+@startuml
+Tanzania <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

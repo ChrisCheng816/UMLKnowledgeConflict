@@ -1,0 +1,4 @@
+@startuml
+Iran <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml

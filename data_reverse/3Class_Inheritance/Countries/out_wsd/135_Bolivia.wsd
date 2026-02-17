@@ -1,0 +1,4 @@
+@startuml
+Bolivia <|-- Country
+Country <|-- GeopoliticalEntity
+@enduml
