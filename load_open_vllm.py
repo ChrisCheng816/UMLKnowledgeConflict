@@ -115,13 +115,41 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
         "query_dst_idx": dst_idx,
     }
 
+def _coerce_single_query_pair(query_pair):
+    if query_pair is None:
+        return (0, 1)
+    if (
+        isinstance(query_pair, (list, tuple))
+        and len(query_pair) == 2
+        and all(isinstance(item, (list, tuple)) for item in query_pair)
+    ):
+        return tuple(query_pair[0])
+    return tuple(query_pair)
+
 def _build_relation_prompts(nodes, relation="inheritance", query_pair=(0, 1)):
-    # If nodes form a chain with 3+ classes, generate one prompt for each adjacent pair.
-    if len(nodes) >= 3:
-        pairs = [(i, i + 1) for i in range(len(nodes) - 1)]
+    query_pair = _coerce_single_query_pair(query_pair)
+    return [_build_relation_prompt(nodes, relation=relation, query_pair=query_pair)]
+
+def _is_reverse_dataset(dataset_root):
+    if not dataset_root:
+        return False
+    normalized = os.path.normpath(os.path.abspath(dataset_root)).lower()
+    parts = [p for p in normalized.split(os.sep) if p]
+    return "data_reverse" in parts or "reverse" in parts
+
+def _select_query_pair_for_task2(relation, is_reverse):
+    relation = (relation or "").strip().lower()
+    if is_reverse:
+        if relation in {"inheritance", "dependency"}:
+            return (0, 1)
+        if relation in {"composition", "aggregation"}:
+            return (1, 2)
     else:
-        pairs = [query_pair]
-    return [_build_relation_prompt(nodes, relation=relation, query_pair=pair) for pair in pairs]
+        if relation in {"inheritance", "dependency"}:
+            return (1, 2)
+        if relation in {"composition", "aggregation"}:
+            return (0, 1)
+    return (0, 1)
 
 def _build_class_presence_prompt(expected_count=None, relation="inheritance"):
     relation = (relation or "inheritance").strip().lower()
@@ -464,6 +492,7 @@ def load_prompt(
 
     instances_path = _resolve_instances_path(dataset_root, dataset_dir)
     image_map_cache = {}
+    is_reverse_dataset = _is_reverse_dataset(dataset_root)
 
     prepared_rows = []
     with open(instances_path, "r", encoding="utf8") as f:
@@ -517,7 +546,11 @@ def load_prompt(
             prompt_items = _build_relation_prompts(
                 nodes,
                 relation=relation_for_row,
-                query_pair=query_pair,
+                query_pair=(
+                    _select_query_pair_for_task2(relation_for_row, is_reverse_dataset)
+                    if len(nodes) >= 3
+                    else query_pair
+                ),
             )
             for q_idx, (user_text, triplet_slots) in enumerate(prompt_items, start=1):
                 q_pair = (
@@ -718,7 +751,6 @@ def save_outputs(predictions, information, out_path, model_name=None, model_path
                 "model_name": model_name,
                 "model_path": model_path,
                 "id": info["id"],
-                "query_id": info.get("query_id"),
                 "template_id": info.get("template_id"),
                 "nodes": info.get("nodes"),
                 "triplet_slots": info.get("triplet_slots"),
