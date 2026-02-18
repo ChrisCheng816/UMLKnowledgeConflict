@@ -365,3 +365,4 @@
 {"id": "365", "template_id": "inheritance", "nodes": ["Food", "Bread", "Croissant"], "edges": ["Food <|-- Bread", "Bread <|-- Croissant"]}
 {"id": "366", "template_id": "inheritance", "nodes": ["Food", "Dessert", "ChocolateCake"], "edges": ["Food <|-- Dessert", "Dessert <|-- ChocolateCake"]}
 {"id": "367", "template_id": "inheritance", "nodes": ["Food", "Ingredient", "Mushroom"], "edges": ["Food <|-- Ingredient", "Ingredient <|-- Mushroom"]}
+{"id": "368", "template_id": "inheritance", "nodes": ["Dish", "Burger", "Cheeseburger"], "edges": ["Dish <|-- Burger", "Burger <|-- Cheeseburger"]}

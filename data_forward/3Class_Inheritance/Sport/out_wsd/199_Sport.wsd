@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Judo
-Judo <|-- OlympicJudo
+Sport <|-- Archery
+Archery <|-- OlympicArchery
 @enduml

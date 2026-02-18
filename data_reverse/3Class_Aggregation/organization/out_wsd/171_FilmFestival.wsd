@@ -1,4 +1,4 @@
 @startuml
 Program o-- FilmFestival
-Screening o-- Program
+ShortFilm o-- Program
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Skating
-Skating <|-- FigureSkating
+Sport <|-- Rowing
+Rowing <|-- OlympicRowing
 @enduml

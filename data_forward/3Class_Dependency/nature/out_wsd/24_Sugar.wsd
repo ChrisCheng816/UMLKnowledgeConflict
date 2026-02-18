@@ -1,4 +1,4 @@
 @startuml
 Yeast ..> Sugar
-FermentationAlcohol ..> Yeast
+BreadRising ..> Yeast
 @enduml

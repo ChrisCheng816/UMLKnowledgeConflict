@@ -21,7 +21,6 @@ Sunrise EarthRotation Earth
 Sunset EarthRotation Earth
 EchoLocation Echo Reflection
 SonarReturn Reflection SmoothSurface
-FermentationAlcohol Yeast Sugar
 BreadRising Yeast Sugar
 Rainbow Sunlight Sun
 OceanWave Wind PressureDifference
@@ -44,7 +43,6 @@ SaturatedSoil HeavyRain Thunderstorm
 Avalanche Snowpack SteepSlope
 Echo HardSurface SoundWave
 Pollinator Flower Plant
-Germination Water SeedCoat
 Pollination Pollen Stamen
 Sunburn UVRadiation Sun
 GeomagneticStorm SolarWind Sun
@@ -78,7 +76,6 @@ GeothermalEnergy EarthHeat EarthCore
 AshFall VolcanicAsh Volcano
 Erosion RiverFlow Snowmelt
 SoilMoisture Rainfall StormSystem
-SoilMoistureIncrease Rainfall StormSystem
 PlantGrowth Germination Moisture
 Thundercloud Thunderstorm Convection
 SeedSet Pollination Pollinator
@@ -90,7 +87,6 @@ RiverRise Rainfall StormSystem
 Composting Microorganisms Moisture
 Rust Moisture Water
 Rust Oxidation Oxygen
-Touch Pressure Contact
 Dew Condensation TemperatureDrop
 Hurricane WarmWater Tropics
 Typhoon WarmWater Tropics
@@ -124,7 +120,6 @@ Dewdrop Condensation Cooling
 LightningStrike Lightning Thundercloud
 RiverFlood HeavyRain Thunderstorm
 PowerOutage Lightning Thundercloud
-Interference Laser Electricity
 Hologram Laser Electricity
 Wind StormSystem PressureDifference
 CirrusCloud JetStream TemperatureContrast
@@ -135,3 +130,5 @@ JetStream PressureDifference TemperatureContrast
 StormTrack JetStream PressureDifference
 HeavyRain StormSystem PressureDifference
 StormSystem PressureDifference TemperatureContrast
+Tide Moon Gravity
+Orbit Gravity Mass

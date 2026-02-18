@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- Quidditch
+Sport <|-- Cycling
+Cycling <|-- BMXCycling
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Microwave ..> WallOutlet
-MicrowaveCooking ..> Microwave
+Refrigerator ..> WallOutlet
+Refrigeration ..> Refrigerator
 @enduml

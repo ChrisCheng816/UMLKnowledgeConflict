@@ -1,4 +1,4 @@
 @startuml
 Staff o-- Factory
-Plumber o-- Staff
+Painter o-- Staff
 @enduml

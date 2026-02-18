@@ -1,0 +1,4 @@
+@startuml
+Dock o-- Ship
+Harbor o-- Dock
+@enduml

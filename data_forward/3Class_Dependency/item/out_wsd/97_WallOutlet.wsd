@@ -1,4 +1,4 @@
 @startuml
-WashingMachine ..> WallOutlet
-WashingCycle ..> WashingMachine
+ClothesDryer ..> WallOutlet
+DryerCycle ..> ClothesDryer
 @enduml

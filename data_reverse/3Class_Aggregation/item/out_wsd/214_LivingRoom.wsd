@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- LivingRoom
-PictureFrame o-- Shelf
+Clock o-- Shelf
 @enduml

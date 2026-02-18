@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- WinterSport
-WinterSport <|-- IceClimbing
+Sport <|-- MotorSport
+MotorSport <|-- OffRoadRacing
 @enduml

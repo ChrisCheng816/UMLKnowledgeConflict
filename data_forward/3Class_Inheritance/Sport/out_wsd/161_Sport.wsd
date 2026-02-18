@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport
-IndividualSport <|-- Freerunning
+Sport <|-- Basketball
+Basketball <|-- WheelchairBasketball
 @enduml

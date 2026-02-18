@@ -1,0 +1,42 @@
+3Class_Inheritance filtering & augmentation report
+Generated on: 2026-02-18 09:48:59.342258
+
+Input ZIP: 3Class_Inheritance.zip
+Original total triples across all data.txt: 2299
+
+Filtering criteria applied:
+1) Must be a strict inheritance chain: a is-a b, and b is-a c.
+2) Terms must be real and commonly known; overly niche/professional terms are filtered.
+3) Avoid synthetic concatenations where they are not established/common.
+
+Filtered (removed) triples:
+- Sport/data.txt line 112: Bandy TeamSport Sport
+  Reason: niche sport term (not widely familiar).
+- Sport/data.txt line 118: Rounders TeamSport Sport
+  Reason: niche sport term (not widely familiar).
+- Sport/data.txt line 137: NordicCombined WinterSport Sport
+  Reason: niche sport term (not widely familiar).
+
+Added (generated) triples to reach 2300 total:
+- Animal:
+  + Chihuahua Dog Mammal
+  + Dalmatian Dog Mammal
+  + Corgi Dog Mammal
+- Food:
+  + Cheeseburger Burger Dish
+
+Generated (a,b) pairs unique: True (count=4)
+
+Final counts per category:
+- Animal: 235
+- Car: 91
+- Countries: 148
+- Entertainment: 446
+- Food: 368
+- Items: 158
+- People: 77
+- Place: 101
+- Plant: 135
+- Sport: 277
+- Universities: 264
+Final total triples: 2300

@@ -1,4 +1,4 @@
 @startuml
-Box o-- Pantry
-Brownie o-- Box
+Jar o-- Pantry
+Honey o-- Jar
 @enduml

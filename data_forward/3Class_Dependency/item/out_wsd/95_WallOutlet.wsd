@@ -1,4 +1,4 @@
 @startuml
-PhoneCharger ..> WallOutlet
-PhoneCharging ..> PhoneCharger
+Dishwasher ..> WallOutlet
+DishwasherCycle ..> Dishwasher
 @enduml

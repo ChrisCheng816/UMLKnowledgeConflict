@@ -1,7 +1,7 @@
-{"id": "1", "template_id": "composition", "nodes": ["Thread", "Button", "Shirt"], "edges": ["Button *-- Thread", "Shirt *-- Button"]}
-{"id": "2", "template_id": "composition", "nodes": ["Stitch", "Sole", "Shoe"], "edges": ["Sole *-- Stitch", "Shoe *-- Sole"]}
-{"id": "3", "template_id": "composition", "nodes": ["Foam", "Liner", "Helmet"], "edges": ["Liner *-- Foam", "Helmet *-- Liner"]}
-{"id": "4", "template_id": "composition", "nodes": ["Seam", "Finger", "Glove"], "edges": ["Finger *-- Seam", "Glove *-- Finger"]}
-{"id": "5", "template_id": "composition", "nodes": ["Tape", "Grip", "Racket"], "edges": ["Grip *-- Tape", "Racket *-- Grip"]}
-{"id": "6", "template_id": "composition", "nodes": ["Stitch", "Panel", "Ball"], "edges": ["Panel *-- Stitch", "Ball *-- Panel"]}
-{"id": "7", "template_id": "composition", "nodes": ["Lace", "Boot", "Skate"], "edges": ["Boot *-- Lace", "Skate *-- Boot"]}
+{"id": "1", "template_id": "composition", "nodes": ["Foam", "Liner", "Helmet"], "edges": ["Liner *-- Foam", "Helmet *-- Liner"]}
+{"id": "2", "template_id": "composition", "nodes": ["Tape", "Grip", "Racket"], "edges": ["Grip *-- Tape", "Racket *-- Grip"]}
+{"id": "3", "template_id": "composition", "nodes": ["Lace", "Boot", "Skate"], "edges": ["Boot *-- Lace", "Skate *-- Boot"]}
+{"id": "4", "template_id": "composition", "nodes": ["Stitch", "Seam", "Baseball"], "edges": ["Seam *-- Stitch", "Baseball *-- Seam"]}
+{"id": "5", "template_id": "composition", "nodes": ["Valve", "Bladder", "Soccerball"], "edges": ["Bladder *-- Valve", "Soccerball *-- Bladder"]}
+{"id": "6", "template_id": "composition", "nodes": ["Toe", "Blade", "HockeyStick"], "edges": ["Blade *-- Toe", "HockeyStick *-- Blade"]}
+{"id": "7", "template_id": "composition", "nodes": ["Rubber", "Core", "Tennisball"], "edges": ["Core *-- Rubber", "Tennisball *-- Core"]}

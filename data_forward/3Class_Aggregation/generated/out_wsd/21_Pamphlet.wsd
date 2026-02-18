@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Pamphlet
+Library o-- Shelf
+@enduml

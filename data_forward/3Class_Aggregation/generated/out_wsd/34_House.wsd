@@ -1,0 +1,4 @@
+@startuml
+Block o-- House
+Neighborhood o-- Block
+@enduml

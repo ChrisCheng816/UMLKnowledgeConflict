@@ -230,3 +230,6 @@
 {"id": "230", "template_id": "inheritance", "nodes": ["AtlanticSalmon", "Salmon"], "edges": ["AtlanticSalmon <|-- Salmon"]}
 {"id": "231", "template_id": "inheritance", "nodes": ["BluefinTuna", "Tuna"], "edges": ["BluefinTuna <|-- Tuna"]}
 {"id": "232", "template_id": "inheritance", "nodes": ["Poodle", "Dog"], "edges": ["Poodle <|-- Dog"]}
+{"id": "233", "template_id": "inheritance", "nodes": ["Chihuahua", "Dog"], "edges": ["Chihuahua <|-- Dog"]}
+{"id": "234", "template_id": "inheritance", "nodes": ["Dalmatian", "Dog"], "edges": ["Dalmatian <|-- Dog"]}
+{"id": "235", "template_id": "inheritance", "nodes": ["Corgi", "Dog"], "edges": ["Corgi <|-- Dog"]}

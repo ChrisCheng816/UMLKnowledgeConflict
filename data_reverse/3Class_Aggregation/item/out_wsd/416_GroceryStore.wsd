@@ -1,4 +1,4 @@
 @startuml
-Cart o-- GroceryStore
-Milk o-- Cart
+Bin o-- GroceryStore
+Apples o-- Bin
 @enduml

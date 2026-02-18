@@ -1,4 +1,4 @@
 @startuml
-Plastic ..> Petroleum
-PlasticRecycling ..> Plastic
+Polyester ..> Petroleum
+PolyesterClothing ..> Polyester
 @enduml

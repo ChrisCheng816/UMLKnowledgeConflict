@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Helmet
+Garage o-- Shelf
+@enduml

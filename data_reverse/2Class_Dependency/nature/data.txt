@@ -7,7 +7,6 @@ Smoke Combustion
 Echo Reflection
 Photosynthesis Sunlight
 Fermentation Yeast
-Touch Pressure
 Pollination Pollinator
 Pollinator Flower
 Fog HighHumidity
@@ -29,7 +28,6 @@ Sunset EarthRotation
 EchoLocation Echo
 SonarReturn Reflection
 Composting Microorganisms
-FermentationAlcohol Yeast
 BreadRising Yeast
 Rainbow Sunlight
 OceanWave Wind
@@ -50,7 +48,6 @@ Aftershock SeafloorQuake
 Landslide SaturatedSoil
 Avalanche Snowpack
 Echo HardSurface
-Germination Water
 Pollination Pollen
 Sunburn UVRadiation
 GeomagneticStorm SolarWind
@@ -83,7 +80,6 @@ GeothermalEnergy EarthHeat
 AshFall VolcanicAsh
 Erosion RiverFlow
 Rainfall StormSystem
-SoilMoistureIncrease Rainfall
 PlantGrowth Germination
 Thundercloud Thunderstorm
 StormTrack JetStream
@@ -129,9 +125,10 @@ Dewdrop Condensation
 LightningStrike Lightning
 RiverFlood HeavyRain
 PowerOutage Lightning
-Interference Laser
 Hologram Laser
 WindGust PressureDifference
 PressureDifference TemperatureContrast
 JetStream PressureDifference
 StormSystem PressureDifference
+Tide Moon
+Orbit Gravity

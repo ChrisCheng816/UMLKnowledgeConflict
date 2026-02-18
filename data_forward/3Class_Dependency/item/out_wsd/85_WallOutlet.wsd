@@ -1,4 +1,4 @@
 @startuml
-AccessController ..> WallOutlet
-DoorAccessReader ..> AccessController
+Amplifier ..> WallOutlet
+PublicAddressSystem ..> Amplifier
 @enduml

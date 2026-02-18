@@ -1,0 +1,4 @@
+@startuml
+Moon ..> Gravity
+Tide ..> Moon
+@enduml

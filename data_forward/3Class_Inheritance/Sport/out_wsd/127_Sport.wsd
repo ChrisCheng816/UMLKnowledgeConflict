@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- CombatSport
-CombatSport <|-- Aikido
+Sport <|-- Boxing
+Boxing <|-- OlympicBoxing
 @enduml

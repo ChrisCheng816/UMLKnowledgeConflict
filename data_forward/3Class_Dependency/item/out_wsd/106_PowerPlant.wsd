@@ -1,4 +1,4 @@
 @startuml
 PowerGrid ..> PowerPlant
-StreetLight ..> PowerGrid
+TrafficLight ..> PowerGrid
 @enduml

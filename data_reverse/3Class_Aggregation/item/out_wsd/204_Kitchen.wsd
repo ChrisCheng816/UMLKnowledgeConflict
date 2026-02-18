@@ -1,4 +1,4 @@
 @startuml
 Cabinet o-- Kitchen
-Fork o-- Cabinet
+CuttingBoard o-- Cabinet
 @enduml

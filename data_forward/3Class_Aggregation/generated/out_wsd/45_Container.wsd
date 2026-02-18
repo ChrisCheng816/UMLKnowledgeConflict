@@ -1,0 +1,4 @@
+@startuml
+Dock o-- Container
+Port o-- Dock
+@enduml

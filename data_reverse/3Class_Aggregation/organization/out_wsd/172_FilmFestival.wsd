@@ -1,4 +1,4 @@
 @startuml
-Program o-- FilmFestival
-ShortFilm o-- Program
+Schedule o-- FilmFestival
+Premiere o-- Schedule
 @enduml

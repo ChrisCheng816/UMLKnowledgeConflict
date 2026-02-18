@@ -223,3 +223,6 @@
 {"id": "223", "template_id": "dependency", "nodes": ["VideoCall", "InternetConnection", "Modem"], "edges": ["InternetConnection ..> VideoCall", "Modem ..> InternetConnection"]}
 {"id": "224", "template_id": "dependency", "nodes": ["VideoStreaming", "InternetConnection", "Modem"], "edges": ["InternetConnection ..> VideoStreaming", "Modem ..> InternetConnection"]}
 {"id": "225", "template_id": "dependency", "nodes": ["WebBrowsing", "InternetConnection", "Modem"], "edges": ["InternetConnection ..> WebBrowsing", "Modem ..> InternetConnection"]}
+{"id": "226", "template_id": "dependency", "nodes": ["Browsing", "Internet", "Electricity"], "edges": ["Internet ..> Browsing", "Electricity ..> Internet"]}
+{"id": "227", "template_id": "dependency", "nodes": ["Searching", "Internet", "Electricity"], "edges": ["Internet ..> Searching", "Electricity ..> Internet"]}
+{"id": "228", "template_id": "dependency", "nodes": ["Email", "Internet", "Electricity"], "edges": ["Internet ..> Email", "Electricity ..> Internet"]}

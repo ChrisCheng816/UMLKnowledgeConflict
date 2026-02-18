@@ -73,3 +73,4 @@
 {"id": "73", "template_id": "dependency", "nodes": ["CampingCooking", "ElectricHotPlate"], "edges": ["ElectricHotPlate ..> CampingCooking"]}
 {"id": "74", "template_id": "dependency", "nodes": ["ModelMaking", "3DPrinter"], "edges": ["3DPrinter ..> ModelMaking"]}
 {"id": "75", "template_id": "dependency", "nodes": ["AngleGrinding", "AngleGrinder"], "edges": ["AngleGrinder ..> AngleGrinding"]}
+{"id": "76", "template_id": "dependency", "nodes": ["Thawing", "Microwave"], "edges": ["Microwave ..> Thawing"]}

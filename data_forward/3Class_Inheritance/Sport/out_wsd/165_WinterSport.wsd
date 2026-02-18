@@ -1,0 +1,4 @@
+@startuml
+WinterSport <|-- AlpineSkiing
+AlpineSkiing <|-- GiantSlalom
+@enduml

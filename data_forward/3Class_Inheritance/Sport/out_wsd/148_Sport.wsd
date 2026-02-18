@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MindSport
-MindSport <|-- Poker
+Sport <|-- IndividualSport
+IndividualSport <|-- MiniGolf
 @enduml

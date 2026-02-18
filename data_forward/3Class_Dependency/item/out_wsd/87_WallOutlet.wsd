@@ -1,4 +1,4 @@
 @startuml
-MediaPlayer ..> WallOutlet
-DigitalSignage ..> MediaPlayer
+EbikeCharger ..> WallOutlet
+Ebike ..> EbikeCharger
 @enduml

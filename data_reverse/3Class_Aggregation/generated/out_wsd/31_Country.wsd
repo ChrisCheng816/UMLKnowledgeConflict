@@ -1,0 +1,4 @@
+@startuml
+State o-- Country
+City o-- State
+@enduml

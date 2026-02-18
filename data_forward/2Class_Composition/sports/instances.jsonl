@@ -1,6 +1,7 @@
-{"id": "1", "template_id": "composition", "nodes": ["Stitch", "Sole"], "edges": ["Sole *-- Stitch"]}
-{"id": "2", "template_id": "composition", "nodes": ["Foam", "Liner"], "edges": ["Liner *-- Foam"]}
-{"id": "3", "template_id": "composition", "nodes": ["Seam", "Finger"], "edges": ["Finger *-- Seam"]}
-{"id": "4", "template_id": "composition", "nodes": ["Tape", "Grip"], "edges": ["Grip *-- Tape"]}
-{"id": "5", "template_id": "composition", "nodes": ["Stitch", "Panel"], "edges": ["Panel *-- Stitch"]}
-{"id": "6", "template_id": "composition", "nodes": ["Lace", "Boot"], "edges": ["Boot *-- Lace"]}
+{"id": "1", "template_id": "composition", "nodes": ["Foam", "Liner"], "edges": ["Liner *-- Foam"]}
+{"id": "2", "template_id": "composition", "nodes": ["Tape", "Grip"], "edges": ["Grip *-- Tape"]}
+{"id": "3", "template_id": "composition", "nodes": ["Lace", "Boot"], "edges": ["Boot *-- Lace"]}
+{"id": "4", "template_id": "composition", "nodes": ["Stitch", "Seam"], "edges": ["Seam *-- Stitch"]}
+{"id": "5", "template_id": "composition", "nodes": ["Valve", "Bladder"], "edges": ["Bladder *-- Valve"]}
+{"id": "6", "template_id": "composition", "nodes": ["Toe", "Blade"], "edges": ["Blade *-- Toe"]}
+{"id": "7", "template_id": "composition", "nodes": ["Rubber", "Core"], "edges": ["Core *-- Rubber"]}

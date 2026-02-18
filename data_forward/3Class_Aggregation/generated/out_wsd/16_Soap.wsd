@@ -1,0 +1,4 @@
+@startuml
+Aisle o-- Soap
+Supermarket o-- Aisle
+@enduml

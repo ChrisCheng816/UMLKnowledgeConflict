@@ -1,4 +1,4 @@
 @startuml
-Plastic ..> Petroleum
-WaterBottle ..> Plastic
+Polyester ..> Petroleum
+Raincoat ..> Polyester
 @enduml

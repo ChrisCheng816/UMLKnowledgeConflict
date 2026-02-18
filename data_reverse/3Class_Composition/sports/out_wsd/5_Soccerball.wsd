@@ -1,0 +1,4 @@
+@startuml
+Bladder *-- Soccerball
+Valve *-- Bladder
+@enduml

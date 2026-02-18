@@ -1,0 +1,4 @@
+@startuml
+County o-- State
+Town o-- County
+@enduml

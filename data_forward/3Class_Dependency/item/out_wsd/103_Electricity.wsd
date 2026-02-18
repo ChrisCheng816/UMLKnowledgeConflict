@@ -1,4 +1,4 @@
 @startuml
-WaterTreatmentPlant ..> Electricity
-WaterPurification ..> WaterTreatmentPlant
+WaterPump ..> Electricity
+PumpingWater ..> WaterPump
 @enduml

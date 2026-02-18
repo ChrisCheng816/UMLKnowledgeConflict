@@ -1,0 +1,4 @@
+@startuml
+Gravity ..> Orbit
+Mass ..> Gravity
+@enduml

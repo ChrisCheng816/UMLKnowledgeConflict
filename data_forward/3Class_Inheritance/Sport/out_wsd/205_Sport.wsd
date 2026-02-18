@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Cricket
-Cricket <|-- TestCricket
+Sport <|-- Skiing
+Skiing <|-- AlpineSkiing
 @enduml

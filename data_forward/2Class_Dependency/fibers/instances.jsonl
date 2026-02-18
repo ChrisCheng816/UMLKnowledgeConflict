@@ -223,3 +223,6 @@
 {"id": "223", "template_id": "dependency", "nodes": ["Smartphone", "PhotoUpload"], "edges": ["PhotoUpload ..> Smartphone"]}
 {"id": "224", "template_id": "dependency", "nodes": ["Smartphone", "OnlineShopping"], "edges": ["OnlineShopping ..> Smartphone"]}
 {"id": "225", "template_id": "dependency", "nodes": ["Smartphone", "Messaging"], "edges": ["Messaging ..> Smartphone"]}
+{"id": "226", "template_id": "dependency", "nodes": ["Internet", "Browsing"], "edges": ["Browsing ..> Internet"]}
+{"id": "227", "template_id": "dependency", "nodes": ["Internet", "Searching"], "edges": ["Searching ..> Internet"]}
+{"id": "228", "template_id": "dependency", "nodes": ["Internet", "Email"], "edges": ["Email ..> Internet"]}

@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Pharmacy
+Aspirin o-- Cabinet
+@enduml

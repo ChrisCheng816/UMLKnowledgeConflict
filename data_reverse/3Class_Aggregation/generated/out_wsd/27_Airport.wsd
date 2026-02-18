@@ -1,0 +1,4 @@
+@startuml
+Terminal o-- Airport
+Shop o-- Terminal
+@enduml

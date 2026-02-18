@@ -1,4 +1,4 @@
 @startuml
 Toolbox o-- Garage
-Saw o-- Toolbox
+Paintbrush o-- Toolbox
 @enduml

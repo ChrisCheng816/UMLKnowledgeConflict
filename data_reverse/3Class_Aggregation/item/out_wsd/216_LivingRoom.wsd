@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- LivingRoom
-Candle o-- Shelf
+Puzzle o-- Shelf
 @enduml

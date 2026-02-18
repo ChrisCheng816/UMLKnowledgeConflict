@@ -24,3 +24,6 @@
 {"id": "24", "template_id": "dependency", "nodes": ["PeregrineFalcon", "Pigeon"], "edges": ["Pigeon ..> PeregrineFalcon"]}
 {"id": "25", "template_id": "dependency", "nodes": ["Cat", "CatFood"], "edges": ["CatFood ..> Cat"]}
 {"id": "26", "template_id": "dependency", "nodes": ["Camel", "DesertPlants"], "edges": ["DesertPlants ..> Camel"]}
+{"id": "27", "template_id": "dependency", "nodes": ["Fox", "Rabbit"], "edges": ["Rabbit ..> Fox"]}
+{"id": "28", "template_id": "dependency", "nodes": ["Lion", "Zebra"], "edges": ["Zebra ..> Lion"]}
+{"id": "29", "template_id": "dependency", "nodes": ["Zebra", "Grass"], "edges": ["Grass ..> Zebra"]}

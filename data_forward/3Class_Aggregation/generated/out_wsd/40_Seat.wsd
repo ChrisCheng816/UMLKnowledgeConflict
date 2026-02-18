@@ -1,0 +1,4 @@
+@startuml
+Balcony o-- Seat
+Theater o-- Balcony
+@enduml

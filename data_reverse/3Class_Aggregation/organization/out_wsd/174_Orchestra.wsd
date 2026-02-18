@@ -1,4 +1,4 @@
 @startuml
-StringSection o-- Orchestra
-Violinist o-- StringSection
+BrassSection o-- Orchestra
+Trumpeter o-- BrassSection
 @enduml

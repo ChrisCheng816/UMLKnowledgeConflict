@@ -1,4 +1,4 @@
 @startuml
-ClothesDryer ..> WallOutlet
-DryerCycle ..> ClothesDryer
+Microwave ..> WallOutlet
+MicrowaveCooking ..> Microwave
 @enduml

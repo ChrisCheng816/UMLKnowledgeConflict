@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- MotorSport
+MotorSport <|-- Karting
+@enduml

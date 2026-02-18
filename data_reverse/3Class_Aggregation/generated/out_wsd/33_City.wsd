@@ -1,0 +1,4 @@
+@startuml
+District o-- City
+Neighborhood o-- District
+@enduml

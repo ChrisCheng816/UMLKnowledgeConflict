@@ -1,4 +1,4 @@
 @startuml
 Binder o-- Backpack
-Homework o-- Binder
+Transcript o-- Binder
 @enduml

@@ -1,4 +1,4 @@
 @startuml
 Crate o-- Warehouse
-Pillow o-- Crate
+Battery o-- Crate
 @enduml

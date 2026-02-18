@@ -1191,10 +1191,10 @@
 {"id": "1191", "template_id": "composition", "nodes": ["RootHair", "Root", "Tree"], "edges": ["Root *-- RootHair", "Tree *-- Root"], "source_subset": "plants", "source_id": "58"}
 {"id": "1192", "template_id": "composition", "nodes": ["Tip", "Root", "Tree"], "edges": ["Root *-- Tip", "Tree *-- Root"], "source_subset": "plants", "source_id": "59"}
 {"id": "1193", "template_id": "composition", "nodes": ["Sheath", "Needle", "Pine"], "edges": ["Needle *-- Sheath", "Pine *-- Needle"], "source_subset": "plants", "source_id": "60"}
-{"id": "1194", "template_id": "composition", "nodes": ["Thread", "Button", "Shirt"], "edges": ["Button *-- Thread", "Shirt *-- Button"], "source_subset": "sports", "source_id": "1"}
-{"id": "1195", "template_id": "composition", "nodes": ["Stitch", "Sole", "Shoe"], "edges": ["Sole *-- Stitch", "Shoe *-- Sole"], "source_subset": "sports", "source_id": "2"}
-{"id": "1196", "template_id": "composition", "nodes": ["Foam", "Liner", "Helmet"], "edges": ["Liner *-- Foam", "Helmet *-- Liner"], "source_subset": "sports", "source_id": "3"}
-{"id": "1197", "template_id": "composition", "nodes": ["Seam", "Finger", "Glove"], "edges": ["Finger *-- Seam", "Glove *-- Finger"], "source_subset": "sports", "source_id": "4"}
-{"id": "1198", "template_id": "composition", "nodes": ["Tape", "Grip", "Racket"], "edges": ["Grip *-- Tape", "Racket *-- Grip"], "source_subset": "sports", "source_id": "5"}
-{"id": "1199", "template_id": "composition", "nodes": ["Stitch", "Panel", "Ball"], "edges": ["Panel *-- Stitch", "Ball *-- Panel"], "source_subset": "sports", "source_id": "6"}
-{"id": "1200", "template_id": "composition", "nodes": ["Lace", "Boot", "Skate"], "edges": ["Boot *-- Lace", "Skate *-- Boot"], "source_subset": "sports", "source_id": "7"}
+{"id": "1194", "template_id": "composition", "nodes": ["Foam", "Liner", "Helmet"], "edges": ["Liner *-- Foam", "Helmet *-- Liner"], "source_subset": "sports", "source_id": "1"}
+{"id": "1195", "template_id": "composition", "nodes": ["Tape", "Grip", "Racket"], "edges": ["Grip *-- Tape", "Racket *-- Grip"], "source_subset": "sports", "source_id": "2"}
+{"id": "1196", "template_id": "composition", "nodes": ["Lace", "Boot", "Skate"], "edges": ["Boot *-- Lace", "Skate *-- Boot"], "source_subset": "sports", "source_id": "3"}
+{"id": "1197", "template_id": "composition", "nodes": ["Stitch", "Seam", "Baseball"], "edges": ["Seam *-- Stitch", "Baseball *-- Seam"], "source_subset": "sports", "source_id": "4"}
+{"id": "1198", "template_id": "composition", "nodes": ["Valve", "Bladder", "Soccerball"], "edges": ["Bladder *-- Valve", "Soccerball *-- Bladder"], "source_subset": "sports", "source_id": "5"}
+{"id": "1199", "template_id": "composition", "nodes": ["Toe", "Blade", "HockeyStick"], "edges": ["Blade *-- Toe", "HockeyStick *-- Blade"], "source_subset": "sports", "source_id": "6"}
+{"id": "1200", "template_id": "composition", "nodes": ["Rubber", "Core", "Tennisball"], "edges": ["Core *-- Rubber", "Tennisball *-- Core"], "source_subset": "sports", "source_id": "7"}

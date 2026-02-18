@@ -1,4 +1,4 @@
 @startuml
 Cabinet o-- Pharmacy
-EyeDrops o-- Cabinet
+Patch o-- Cabinet
 @enduml

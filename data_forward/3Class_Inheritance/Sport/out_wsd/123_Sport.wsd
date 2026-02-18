@@ -1,4 +1,4 @@
 @startuml
 Sport <|-- CombatSport
-CombatSport <|-- Sambo
+CombatSport <|-- Wushu
 @enduml

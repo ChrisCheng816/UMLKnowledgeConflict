@@ -1,4 +1,4 @@
 @startuml
 Staff o-- Company
-Analyst o-- Staff
+Driver o-- Staff
 @enduml

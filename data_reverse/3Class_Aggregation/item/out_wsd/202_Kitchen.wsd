@@ -1,4 +1,4 @@
 @startuml
 Cabinet o-- Kitchen
-Plate o-- Cabinet
+Spoon o-- Cabinet
 @enduml

@@ -175,6 +175,34 @@ def safe_filename(name: str) -> str:
     return s or "unnamed"
 
 
+def pick_name_node(nodes: List[str], template_id: str, direction: str) -> str:
+    """
+    Pick which node text should be used in output filename.
+
+    Direction rules
+    - forward:
+      aggregation/composition -> first node
+      inheritance/dependency -> last node
+    - reverse:
+      aggregation/composition -> last node
+      inheritance/dependency -> first node
+    """
+    if not nodes:
+        return "unnamed"
+
+    if direction not in {"forward", "reverse"}:
+        raise ValueError(f"Unsupported direction: {direction}")
+
+    if template_id in {"aggregation", "composition"}:
+        index = 0 if direction == "forward" else -1
+    elif template_id in {"inheritance", "dependency"}:
+        index = -1 if direction == "forward" else 0
+    else:
+        index = 0
+
+    return safe_filename(nodes[index])
+
+
 def safe_unlink(path: Path) -> bool:
     """
     Best-effort delete for files that may be read-only on Windows.
@@ -206,14 +234,17 @@ def clear_wsd_files(out_dir: Path) -> None:
         print(f"[WARN] failed to remove {failed} stale .wsd files under {out_dir}")
 
 
-def write_wsd_files(instances: List[Instance], out_dir: Path, overwrite: bool) -> None:
+def write_wsd_files(
+    instances: List[Instance],
+    out_dir: Path,
+    overwrite: bool,
+    direction: str = "forward",
+) -> None:
     """
     Generate one .wsd file per instance.
 
-    Naming rule change
-    - Output filename is the "largest parent class" of the instance,
-      which is the first token in nodes, for example:
-      Coupe Car -> Coupe.wsd
+    Naming rule
+    - Use pick_name_node based on template_id and direction.
 
     Content rule
     - File content is still:
@@ -229,7 +260,7 @@ def write_wsd_files(instances: List[Instance], out_dir: Path, overwrite: bool) -
         if not inst.nodes:
             continue
 
-        root_name = safe_filename(inst.nodes[0])
+        root_name = pick_name_node(inst.nodes, inst.template_id, direction=direction)
         out_path = out_dir / f"{i+1}_{root_name}.wsd"
 
         if out_path.exists() and not overwrite:
@@ -252,7 +283,7 @@ def write_reverse_wsd_files(
 
     Reverse rule
     - Reverse node order first, then reuse the same edge-building logic.
-    - Filename remains indexed and rooted by the original first node to match forward.
+    - Filename node follows reverse naming rules.
     """
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -263,7 +294,7 @@ def write_reverse_wsd_files(
         reverse_nodes = list(reversed(inst.nodes))
         reverse_edges = build_edges_from_nodes(reverse_nodes, inst.template_id)
 
-        root_name = safe_filename(inst.nodes[0])
+        root_name = pick_name_node(reverse_nodes, inst.template_id, direction="reverse")
         out_path = out_dir / f"{start_index + i}_{root_name}.wsd"
 
         if out_path.exists() and not overwrite:
@@ -295,7 +326,7 @@ def run_pipeline(
     write_jsonl(instances, jsonl_path)
 
     if wsd_dir is not None:
-        write_wsd_files(instances, wsd_dir, overwrite=overwrite_wsd)
+        write_wsd_files(instances, wsd_dir, overwrite=overwrite_wsd, direction="forward")
     return instances
 
 
@@ -438,7 +469,12 @@ def run_for_root(
                 if overwrite_wsd and reverse_wsd_dir.exists():
                     shutil.rmtree(reverse_wsd_dir, ignore_errors=True)
                 write_jsonl(reverse_local_instances, reverse_jsonl_path)
-                write_wsd_files(reverse_local_instances, reverse_wsd_dir, overwrite=overwrite_wsd)
+                write_wsd_files(
+                    reverse_local_instances,
+                    reverse_wsd_dir,
+                    overwrite=overwrite_wsd,
+                    direction="reverse",
+                )
             else:
                 # Backward-compatible layout:
                 # reverse/<Dataset>/out_wsd/<global_id>_*.wsd and only forward-style merged jsonl.

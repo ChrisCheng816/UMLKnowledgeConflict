@@ -1,4 +1,4 @@
 @startuml
-Choir o-- University
-Singer o-- Choir
+Club o-- University
+Coder o-- Club
 @enduml

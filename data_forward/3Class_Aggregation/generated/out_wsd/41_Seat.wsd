@@ -1,0 +1,4 @@
+@startuml
+Section o-- Seat
+Stadium o-- Section
+@enduml

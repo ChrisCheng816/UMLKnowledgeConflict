@@ -1,0 +1,4 @@
+@startuml
+Aisle o-- Cereal
+Supermarket o-- Aisle
+@enduml

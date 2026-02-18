@@ -1,4 +1,4 @@
 @startuml
 Pantry o-- Kitchen
-Pasta o-- Pantry
+Salt o-- Pantry
 @enduml

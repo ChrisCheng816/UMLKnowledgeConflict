@@ -1,0 +1,4 @@
+@startuml
+Clipboard o-- Checklist
+Office o-- Clipboard
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Dishwasher ..> WallOutlet
-DishwasherCycle ..> Dishwasher
+WashingMachine ..> WallOutlet
+WashingCycle ..> WashingMachine
 @enduml

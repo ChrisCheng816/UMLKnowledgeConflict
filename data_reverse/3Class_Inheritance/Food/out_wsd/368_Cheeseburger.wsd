@@ -1,0 +1,4 @@
+@startuml
+Cheeseburger <|-- Burger
+Burger <|-- Dish
+@enduml

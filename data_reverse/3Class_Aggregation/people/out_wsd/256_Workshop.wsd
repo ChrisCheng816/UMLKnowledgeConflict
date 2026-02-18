@@ -1,4 +1,4 @@
 @startuml
 Staff o-- Workshop
-Electrician o-- Staff
+Carpenter o-- Staff
 @enduml

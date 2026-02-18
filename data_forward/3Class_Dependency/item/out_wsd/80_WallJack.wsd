@@ -1,4 +1,4 @@
 @startuml
 TelephoneLine ..> WallJack
-DeskPhoneBase ..> TelephoneLine
+LandlineModem ..> TelephoneLine
 @enduml

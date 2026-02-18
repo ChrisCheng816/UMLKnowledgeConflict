@@ -1,0 +1,4 @@
+@startuml
+Classroom o-- Desk
+School o-- Classroom
+@enduml

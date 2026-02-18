@@ -1,4 +1,4 @@
 @startuml
 InstrumentRack o-- MusicStore
-Piano o-- InstrumentRack
+Trumpet o-- InstrumentRack
 @enduml

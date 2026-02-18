@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Album
+Library o-- Shelf
+@enduml

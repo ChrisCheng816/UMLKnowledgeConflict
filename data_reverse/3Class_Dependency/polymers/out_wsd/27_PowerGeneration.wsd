@@ -1,4 +1,4 @@
 @startuml
-CoalPlant ..> PowerGeneration
-Coal ..> CoalPlant
+GasPlant ..> PowerGeneration
+NaturalGas ..> GasPlant
 @enduml

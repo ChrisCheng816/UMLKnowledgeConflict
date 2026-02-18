@@ -1,4 +1,4 @@
 @startuml
 Plastic ..> Petroleum
-PlasticInjection ..> Plastic
+WaterBottle ..> Plastic
 @enduml
