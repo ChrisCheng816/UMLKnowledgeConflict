@@ -203,6 +203,30 @@ def pick_name_node(nodes: List[str], template_id: str, direction: str) -> str:
     return safe_filename(nodes[index])
 
 
+def infer_direction_from_path(path: Path, default: str = "forward") -> str:
+    """
+    Infer naming direction from path semantics.
+
+    Priority
+    - any path segment equals data_forward => forward
+    - any path segment equals data_reverse => reverse
+    - basename equals forward/reverse => forward/reverse
+    - fallback to provided default
+    """
+    lowered_parts = {part.lower() for part in path.parts}
+    if "data_forward" in lowered_parts:
+        return "forward"
+    if "data_reverse" in lowered_parts:
+        return "reverse"
+
+    base = path.name.lower()
+    if base == "forward":
+        return "forward"
+    if base == "reverse":
+        return "reverse"
+    return default
+
+
 def safe_unlink(path: Path) -> bool:
     """
     Best-effort delete for files that may be read-only on Windows.
@@ -311,6 +335,7 @@ def run_pipeline(
     template_id: str,
     wsd_dir: Optional[Path],
     overwrite_wsd: bool,
+    direction: str = "forward",
 ) -> List[Instance]:
     """
     Pipeline entry for one data.txt.
@@ -326,7 +351,7 @@ def run_pipeline(
     write_jsonl(instances, jsonl_path)
 
     if wsd_dir is not None:
-        write_wsd_files(instances, wsd_dir, overwrite=overwrite_wsd, direction="forward")
+        write_wsd_files(instances, wsd_dir, overwrite=overwrite_wsd, direction=direction)
     return instances
 
 
@@ -424,9 +449,14 @@ def run_for_root(
 
     reverse_dataset_root: Optional[Path] = None
     reverse_flat_wsd_dir: Optional[Path] = None
+    source_direction = infer_direction_from_path(root_dir, default="forward")
+    mirror_direction = source_direction
     if reverse_root is not None:
         reverse_dataset_root = reverse_root / root_dir.name
         reverse_dataset_root.mkdir(parents=True, exist_ok=True)
+        mirror_direction = infer_direction_from_path(
+            reverse_dataset_root, default=("reverse" if source_direction == "forward" else "forward")
+        )
 
         if reverse_layout == "flat":
             reverse_flat_wsd_dir = reverse_dataset_root / wsd_subdir_name
@@ -453,6 +483,7 @@ def run_for_root(
             template_id=template_id,
             wsd_dir=wsd_dir,
             overwrite_wsd=overwrite_wsd,
+            direction=source_direction,
         )
 
         source_subset = folder.relative_to(root_dir).as_posix()
@@ -473,7 +504,7 @@ def run_for_root(
                     reverse_local_instances,
                     reverse_wsd_dir,
                     overwrite=overwrite_wsd,
-                    direction="reverse",
+                    direction=mirror_direction,
                 )
             else:
                 # Backward-compatible layout:
