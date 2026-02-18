@@ -1,4 +1,4 @@
 @startuml
-Suspension *-- Car
-Subframe *-- Suspension
+Engine *-- Car
+Fan *-- Engine
 @enduml

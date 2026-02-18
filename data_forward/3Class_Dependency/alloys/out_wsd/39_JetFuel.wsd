@@ -1,4 +1,4 @@
 @startuml
-Helicopter ..> JetFuel
-AerialSurvey ..> Helicopter
+MedicalHelicopter ..> JetFuel
+AirTravel ..> MedicalHelicopter
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Coriander <|-- Herb
+Herb <|-- Plant
+@enduml

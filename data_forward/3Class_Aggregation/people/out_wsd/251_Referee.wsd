@@ -1,0 +1,4 @@
+@startuml
+Team o-- Referee
+League o-- Team
+@enduml

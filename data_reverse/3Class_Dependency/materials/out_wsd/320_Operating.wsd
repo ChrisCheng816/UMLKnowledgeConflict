@@ -1,0 +1,4 @@
+@startuml
+PinballMachine ..> Operating
+Electricity ..> PinballMachine
+@enduml

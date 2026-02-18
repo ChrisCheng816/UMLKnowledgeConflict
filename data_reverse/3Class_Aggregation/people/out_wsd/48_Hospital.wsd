@@ -1,0 +1,4 @@
+@startuml
+Team o-- Hospital
+Therapist o-- Team
+@enduml

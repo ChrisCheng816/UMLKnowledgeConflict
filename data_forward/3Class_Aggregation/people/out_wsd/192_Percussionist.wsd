@@ -1,0 +1,4 @@
+@startuml
+Orchestra o-- Percussionist
+Studio o-- Orchestra
+@enduml

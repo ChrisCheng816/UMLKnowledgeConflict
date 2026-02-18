@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Pantry
+Pasta o-- Shelf
+@enduml

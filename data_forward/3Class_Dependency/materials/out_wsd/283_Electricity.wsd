@@ -1,4 +1,4 @@
 @startuml
-ElectricSaw ..> Electricity
-HomeUse ..> ElectricSaw
+LabelPrinter ..> Electricity
+Printing ..> LabelPrinter
 @enduml

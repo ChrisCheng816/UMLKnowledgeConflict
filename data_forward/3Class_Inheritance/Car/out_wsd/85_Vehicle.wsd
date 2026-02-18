@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Bus
-Bus <|-- CityBus
+Vehicle <|-- Train
+Train <|-- HighSpeedTrain
 @enduml

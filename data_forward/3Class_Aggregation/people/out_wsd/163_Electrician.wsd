@@ -1,0 +1,4 @@
+@startuml
+Department o-- Electrician
+Workshop o-- Department
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Tile *-- Roof
+Nail *-- Tile
+@enduml

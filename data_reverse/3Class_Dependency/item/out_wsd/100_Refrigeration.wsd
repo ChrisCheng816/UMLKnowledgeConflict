@@ -1,0 +1,4 @@
+@startuml
+Refrigerator ..> Refrigeration
+WallOutlet ..> Refrigerator
+@enduml

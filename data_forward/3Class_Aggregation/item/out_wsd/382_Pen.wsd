@@ -1,0 +1,4 @@
+@startuml
+Drawer o-- Pen
+Office o-- Drawer
+@enduml

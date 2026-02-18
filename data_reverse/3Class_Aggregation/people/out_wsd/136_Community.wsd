@@ -1,4 +1,4 @@
 @startuml
-GroupOfCampers o-- Community
-Camper o-- GroupOfCampers
+Club o-- Community
+Speaker o-- Club
 @enduml

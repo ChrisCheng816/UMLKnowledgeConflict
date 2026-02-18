@@ -1,0 +1,4 @@
+@startuml
+Stand *-- Screw
+Monitor *-- Stand
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+3DPrinter ..> ToyMaking
+Electricity ..> 3DPrinter
+@enduml

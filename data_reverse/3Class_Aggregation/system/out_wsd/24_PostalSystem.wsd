@@ -1,0 +1,4 @@
+@startuml
+Depot o-- PostalSystem
+Truck o-- Depot
+@enduml

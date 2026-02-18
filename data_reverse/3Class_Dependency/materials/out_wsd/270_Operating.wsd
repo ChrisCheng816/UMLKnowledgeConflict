@@ -1,0 +1,4 @@
+@startuml
+EllipticalMachine ..> Operating
+Electricity ..> EllipticalMachine
+@enduml

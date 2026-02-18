@@ -1,0 +1,4 @@
+@startuml
+CallCenter o-- EmergencySystem
+Operator o-- CallCenter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+VendingMachine ..> Operating
+Electricity ..> VendingMachine
+@enduml

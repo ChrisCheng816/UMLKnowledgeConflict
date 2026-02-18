@@ -1,4 +1,4 @@
 @startuml
-Patreon ..> Internet
-OnlineUse ..> Patreon
+Messenger ..> Internet
+Chatting ..> Messenger
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Department o-- Painter
+Factory o-- Department
+@enduml

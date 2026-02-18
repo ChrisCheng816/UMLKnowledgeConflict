@@ -1,0 +1,4 @@
+@startuml
+Office o-- Manager
+Company o-- Office
+@enduml

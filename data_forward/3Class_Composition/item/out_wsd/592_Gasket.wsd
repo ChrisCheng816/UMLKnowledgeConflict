@@ -1,0 +1,4 @@
+@startuml
+Cap *-- Gasket
+Bottle *-- Cap
+@enduml

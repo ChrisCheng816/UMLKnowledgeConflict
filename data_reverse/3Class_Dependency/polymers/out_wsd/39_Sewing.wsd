@@ -1,0 +1,4 @@
+@startuml
+CottonThread ..> Sewing
+Cotton ..> CottonThread
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Ear *-- Person
+Pinna *-- Ear
+@enduml

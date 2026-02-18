@@ -1,0 +1,4 @@
+@startuml
+WashingMachine ..> Washing
+Electricity ..> WashingMachine
+@enduml

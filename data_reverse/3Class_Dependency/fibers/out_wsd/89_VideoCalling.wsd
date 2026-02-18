@@ -1,0 +1,4 @@
+@startuml
+GoogleMeet ..> VideoCalling
+Internet ..> GoogleMeet
+@enduml

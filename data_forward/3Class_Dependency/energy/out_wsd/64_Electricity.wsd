@@ -1,4 +1,4 @@
 @startuml
-TableSaw ..> Electricity
-WoodCutting ..> TableSaw
+WeldingMachine ..> Electricity
+MetalRepair ..> WeldingMachine
 @enduml

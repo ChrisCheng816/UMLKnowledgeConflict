@@ -1,4 +1,4 @@
 @startuml
-HemodialysisMachine ..> Electricity
-BloodFiltration ..> HemodialysisMachine
+XRayMachine ..> Electricity
+XRayImaging ..> XRayMachine
 @enduml

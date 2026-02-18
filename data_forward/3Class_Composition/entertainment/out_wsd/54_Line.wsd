@@ -1,4 +1,4 @@
 @startuml
-Page *-- Line
-Book *-- Page
+Verse *-- Line
+Song *-- Verse
 @enduml

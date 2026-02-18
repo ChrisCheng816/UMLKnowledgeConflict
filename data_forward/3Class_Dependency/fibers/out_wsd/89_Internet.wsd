@@ -1,4 +1,4 @@
 @startuml
-Pinterest ..> Internet
-OnlineUse ..> Pinterest
+GoogleMeet ..> Internet
+VideoCalling ..> GoogleMeet
 @enduml

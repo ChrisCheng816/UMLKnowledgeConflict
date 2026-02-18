@@ -1,0 +1,4 @@
+@startuml
+Hotdog <|-- Sausage
+Sausage <|-- Food
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Squad o-- Pilot
+Shelter o-- Squad
+@enduml

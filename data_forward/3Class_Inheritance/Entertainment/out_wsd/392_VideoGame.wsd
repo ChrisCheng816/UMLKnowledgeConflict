@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- SportsGame
-SportsGame <|-- FIFA
+VideoGame <|-- RhythmGame
+RhythmGame <|-- GuitarHero
 @enduml

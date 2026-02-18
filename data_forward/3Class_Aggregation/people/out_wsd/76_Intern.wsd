@@ -1,0 +1,4 @@
+@startuml
+Department o-- Intern
+Company o-- Department
+@enduml

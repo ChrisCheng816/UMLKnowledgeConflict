@@ -1,0 +1,4 @@
+@startuml
+HairTrimmer ..> Trimming
+Electricity ..> HairTrimmer
+@enduml

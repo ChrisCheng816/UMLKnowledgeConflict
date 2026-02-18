@@ -1,0 +1,4 @@
+@startuml
+BicycleWheel *-- ValveStem
+Bicycle *-- BicycleWheel
+@enduml

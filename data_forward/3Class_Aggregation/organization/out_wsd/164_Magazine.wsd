@@ -1,0 +1,4 @@
+@startuml
+Collection o-- Magazine
+Publisher o-- Collection
+@enduml

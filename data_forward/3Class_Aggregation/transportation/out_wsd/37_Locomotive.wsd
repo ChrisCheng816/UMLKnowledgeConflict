@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Locomotive
+TrainDepot o-- Fleet
+@enduml

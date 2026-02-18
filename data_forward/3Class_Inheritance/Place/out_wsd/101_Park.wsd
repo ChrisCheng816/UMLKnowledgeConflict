@@ -1,0 +1,4 @@
+@startuml
+Park <|-- NationalPark
+NationalPark <|-- Yellowstone
+@enduml

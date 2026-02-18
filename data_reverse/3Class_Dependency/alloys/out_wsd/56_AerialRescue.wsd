@@ -1,0 +1,4 @@
+@startuml
+Helicopter ..> AerialRescue
+JetFuel ..> Helicopter
+@enduml

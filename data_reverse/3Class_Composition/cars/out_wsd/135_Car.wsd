@@ -1,4 +1,4 @@
 @startuml
-Engine *-- Car
-Fan *-- Engine
+Glovebox *-- Car
+Hinge *-- Glovebox
 @enduml

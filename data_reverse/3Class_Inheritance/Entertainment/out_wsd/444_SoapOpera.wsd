@@ -1,0 +1,4 @@
+@startuml
+SoapOpera <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

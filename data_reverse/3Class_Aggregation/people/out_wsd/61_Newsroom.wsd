@@ -1,0 +1,4 @@
+@startuml
+Team o-- Newsroom
+Editor o-- Team
+@enduml

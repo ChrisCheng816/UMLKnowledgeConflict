@@ -1,4 +1,4 @@
 @startuml
-Bitbucket ..> Internet
-OnlineUse ..> Bitbucket
+HBOMax ..> Internet
+Watching ..> HBOMax
 @enduml

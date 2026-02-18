@@ -1,0 +1,4 @@
+@startuml
+ScubaTank ..> ScubaDiver
+Oxygen ..> ScubaTank
+@enduml

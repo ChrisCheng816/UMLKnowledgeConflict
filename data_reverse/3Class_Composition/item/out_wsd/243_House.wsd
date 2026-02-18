@@ -1,4 +1,4 @@
 @startuml
-Wiring *-- House
-Breaker *-- Wiring
+GarageDoor *-- House
+Cable *-- GarageDoor
 @enduml

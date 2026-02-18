@@ -1,4 +1,4 @@
 @startuml
-AppleMusic ..> Internet
-OnlineUse ..> AppleMusic
+Teams ..> Internet
+Meeting ..> Teams
 @enduml

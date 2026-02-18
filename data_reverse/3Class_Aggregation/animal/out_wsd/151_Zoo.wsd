@@ -1,4 +1,4 @@
 @startuml
-ColonyOfSquirrels o-- Zoo
-Squirrel o-- ColonyOfSquirrels
+Habitat o-- Zoo
+Hare o-- Habitat
 @enduml

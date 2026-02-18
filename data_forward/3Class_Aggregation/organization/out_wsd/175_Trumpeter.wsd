@@ -1,0 +1,4 @@
+@startuml
+BrassSection o-- Trumpeter
+Orchestra o-- BrassSection
+@enduml

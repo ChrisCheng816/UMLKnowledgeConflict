@@ -1,0 +1,4 @@
+@startuml
+AngleGrinder ..> RustRemoval
+Electricity ..> AngleGrinder
+@enduml

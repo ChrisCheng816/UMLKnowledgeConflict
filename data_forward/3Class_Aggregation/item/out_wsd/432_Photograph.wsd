@@ -1,0 +1,4 @@
+@startuml
+Folder o-- Photograph
+Office o-- Folder
+@enduml

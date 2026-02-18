@@ -1,0 +1,4 @@
+@startuml
+PoolHeater ..> Heating
+Electricity ..> PoolHeater
+@enduml

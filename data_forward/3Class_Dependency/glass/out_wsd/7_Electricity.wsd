@@ -1,0 +1,4 @@
+@startuml
+PulseOximeter ..> Electricity
+AlarmMonitoring ..> PulseOximeter
+@enduml

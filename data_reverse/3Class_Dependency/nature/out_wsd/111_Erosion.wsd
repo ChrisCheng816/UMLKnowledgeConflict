@@ -1,0 +1,4 @@
+@startuml
+Wind ..> Erosion
+PressureDifference ..> Wind
+@enduml

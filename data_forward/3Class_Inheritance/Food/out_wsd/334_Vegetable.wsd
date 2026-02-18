@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Carrot
+Carrot <|-- NantesCarrot
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TeaLeaves ..> Tea
+TeaPlant ..> TeaLeaves
+@enduml

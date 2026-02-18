@@ -1,0 +1,4 @@
+@startuml
+Department o-- Seminar
+Hospital o-- Department
+@enduml

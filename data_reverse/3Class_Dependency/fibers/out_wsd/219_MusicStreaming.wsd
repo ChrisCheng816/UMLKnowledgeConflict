@@ -1,0 +1,4 @@
+@startuml
+Smartphone ..> MusicStreaming
+CellularNetwork ..> Smartphone
+@enduml

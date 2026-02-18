@@ -1,4 +1,4 @@
 @startuml
-Hood *-- Car
-Insulation *-- Hood
+Trunk *-- Car
+Seal *-- Trunk
 @enduml

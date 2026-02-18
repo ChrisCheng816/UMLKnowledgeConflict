@@ -1,4 +1,4 @@
 @startuml
-SolderingStation ..> Electricity
-CircuitRepair ..> SolderingStation
+AngleGrinder ..> Electricity
+Sharpening ..> AngleGrinder
 @enduml

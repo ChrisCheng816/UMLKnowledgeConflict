@@ -1,4 +1,4 @@
 @startuml
-Plotter ..> Electricity
-HomeUse ..> Plotter
+SmartBoard ..> Electricity
+Presenting ..> SmartBoard
 @enduml

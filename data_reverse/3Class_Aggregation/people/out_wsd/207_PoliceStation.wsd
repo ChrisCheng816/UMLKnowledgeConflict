@@ -1,0 +1,4 @@
+@startuml
+Squad o-- PoliceStation
+Officer o-- Squad
+@enduml

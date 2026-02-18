@@ -1,4 +1,4 @@
 @startuml
-WirelessCharger ..> Electricity
-DeviceCharging ..> WirelessCharger
+Siren ..> Electricity
+IntruderAlert ..> Siren
 @enduml

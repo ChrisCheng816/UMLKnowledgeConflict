@@ -1,4 +1,4 @@
 @startuml
-Ventilator ..> Electricity
-ICUCare ..> Ventilator
+CTScanner ..> Electricity
+HeadCTScan ..> CTScanner
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Keycap *-- Keyboard
+Legend *-- Keycap
+@enduml

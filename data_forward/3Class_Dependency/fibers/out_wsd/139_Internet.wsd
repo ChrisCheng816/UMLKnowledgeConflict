@@ -1,4 +1,4 @@
 @startuml
-StackOverflow ..> Internet
-OnlineUse ..> StackOverflow
+Spotify ..> Internet
+Downloading ..> Spotify
 @enduml

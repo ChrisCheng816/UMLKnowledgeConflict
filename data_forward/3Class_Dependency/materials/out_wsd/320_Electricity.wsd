@@ -1,4 +1,4 @@
 @startuml
-GlueGun ..> Electricity
-HomeUse ..> GlueGun
+PinballMachine ..> Electricity
+Operating ..> PinballMachine
 @enduml

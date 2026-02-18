@@ -1,4 +1,4 @@
 @startuml
-BenchSander ..> Electricity
-SurfaceFinishing ..> BenchSander
+SolderingStation ..> Electricity
+ElectronicsAssembly ..> SolderingStation
 @enduml

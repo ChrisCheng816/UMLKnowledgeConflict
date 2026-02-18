@@ -1,0 +1,4 @@
+@startuml
+Glovebox *-- Hinge
+Car *-- Glovebox
+@enduml

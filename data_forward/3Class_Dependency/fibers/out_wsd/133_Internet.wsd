@@ -1,4 +1,4 @@
 @startuml
-Canva ..> Internet
-OnlineUse ..> Canva
+Facebook ..> Internet
+Sharing ..> Facebook
 @enduml

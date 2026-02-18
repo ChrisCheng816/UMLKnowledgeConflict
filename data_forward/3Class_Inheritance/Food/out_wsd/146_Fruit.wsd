@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- DriedFruit
-DriedFruit <|-- Prune
+Fruit <|-- Berry
+Berry <|-- Blackcurrant
 @enduml

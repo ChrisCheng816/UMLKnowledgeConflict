@@ -1,0 +1,4 @@
+@startuml
+Internet ..> PlayStationNetwork
+Electricity ..> Internet
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Drill ..> Electricity
+FurnitureAssembly ..> Drill
+@enduml

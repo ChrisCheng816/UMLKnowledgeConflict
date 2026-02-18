@@ -1,0 +1,4 @@
+@startuml
+Orchestra o-- Conductor
+Theater o-- Orchestra
+@enduml

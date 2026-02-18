@@ -1,4 +1,4 @@
 @startuml
-Massager ..> Electricity
-HomeUse ..> Massager
+AquariumHeater ..> Electricity
+Heating ..> AquariumHeater
 @enduml

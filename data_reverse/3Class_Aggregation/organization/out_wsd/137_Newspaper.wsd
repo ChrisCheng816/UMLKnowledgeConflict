@@ -1,0 +1,4 @@
+@startuml
+Editorial o-- Newspaper
+Columnist o-- Editorial
+@enduml

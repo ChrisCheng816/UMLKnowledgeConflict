@@ -1,4 +1,4 @@
 @startuml
 Shelf o-- LivingRoom
-Book o-- Shelf
+Remote o-- Shelf
 @enduml

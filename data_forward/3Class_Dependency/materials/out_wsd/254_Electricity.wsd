@@ -1,4 +1,4 @@
 @startuml
-Modem ..> Electricity
-HomeUse ..> Modem
+SmartDisplay ..> Electricity
+Operating ..> SmartDisplay
 @enduml

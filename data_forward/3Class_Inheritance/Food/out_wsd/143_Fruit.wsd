@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- DriedFruit
-DriedFruit <|-- Raisin
+Fruit <|-- CitrusFruit
+CitrusFruit <|-- Clementine
 @enduml

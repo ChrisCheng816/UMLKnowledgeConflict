@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- MonaLisa
+Artwork <|-- Sculpture
+Sculpture <|-- VenusDeMilo
 @enduml

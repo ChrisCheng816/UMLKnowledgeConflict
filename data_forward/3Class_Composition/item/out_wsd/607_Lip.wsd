@@ -1,0 +1,4 @@
+@startuml
+Shelf *-- Lip
+Refrigerator *-- Shelf
+@enduml

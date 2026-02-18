@@ -1,4 +1,4 @@
 @startuml
-PopcornMaker ..> Electricity
-HomeUse ..> PopcornMaker
+SumpPump ..> Electricity
+Operating ..> SumpPump
 @enduml

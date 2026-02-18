@@ -1,0 +1,4 @@
+@startuml
+Smartphone ..> Charging
+Electricity ..> Smartphone
+@enduml

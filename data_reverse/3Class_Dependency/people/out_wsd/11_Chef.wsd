@@ -1,0 +1,4 @@
+@startuml
+Stove ..> Chef
+NaturalGas ..> Stove
+@enduml

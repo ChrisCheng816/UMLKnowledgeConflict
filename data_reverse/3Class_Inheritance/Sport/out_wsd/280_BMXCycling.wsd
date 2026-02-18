@@ -1,0 +1,4 @@
+@startuml
+BMXCycling <|-- Cycling
+Cycling <|-- Sport
+@enduml

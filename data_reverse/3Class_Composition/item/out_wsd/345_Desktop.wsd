@@ -1,4 +1,4 @@
 @startuml
-Memory *-- Desktop
-Pin *-- Memory
+PowerSupply *-- Desktop
+Rectifier *-- PowerSupply
 @enduml

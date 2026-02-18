@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- Guernica
+Artwork <|-- Sculpture
+Sculpture <|-- ChristTheRedeemer
 @enduml

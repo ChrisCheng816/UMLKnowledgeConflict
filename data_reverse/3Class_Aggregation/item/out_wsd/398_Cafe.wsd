@@ -1,0 +1,4 @@
+@startuml
+Menu o-- Cafe
+Tea o-- Menu
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Box o-- Library
+Newspaper o-- Box
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-DoorPanel *-- Car
-Hinge *-- DoorPanel
+Hood *-- Car
+Insulation *-- Hood
 @enduml

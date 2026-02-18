@@ -1,0 +1,4 @@
+@startuml
+GoogleDrive ..> Uploading
+Internet ..> GoogleDrive
+@enduml

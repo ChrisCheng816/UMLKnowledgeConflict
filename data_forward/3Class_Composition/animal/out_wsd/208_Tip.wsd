@@ -1,4 +1,4 @@
 @startuml
-Hair *-- Tip
-Person *-- Hair
+Fang *-- Tip
+Snake *-- Fang
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Smartphone ..> PhotoUpload
+CellularNetwork ..> Smartphone
+@enduml

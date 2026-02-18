@@ -1,4 +1,4 @@
 @startuml
-PrimeVideo ..> Internet
-OnlineUse ..> PrimeVideo
+Telegram ..> Internet
+Chatting ..> Telegram
 @enduml

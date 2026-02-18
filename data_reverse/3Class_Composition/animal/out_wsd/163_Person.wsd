@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Person
-Tip *-- Nose
+Heart *-- Person
+Valve *-- Heart
 @enduml

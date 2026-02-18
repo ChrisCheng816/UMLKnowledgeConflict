@@ -1,4 +1,4 @@
 @startuml
 Brake *-- Car
-Rotor *-- Brake
+Caliper *-- Brake
 @enduml

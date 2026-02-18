@@ -1,4 +1,4 @@
 @startuml
-Sander ..> Electricity
-Sanding ..> Sander
+Drill ..> Electricity
+ShelfAssembly ..> Drill
 @enduml

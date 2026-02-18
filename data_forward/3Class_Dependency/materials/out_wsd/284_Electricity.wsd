@@ -1,4 +1,4 @@
 @startuml
-PaperShredder ..> Electricity
-HomeUse ..> PaperShredder
+BarcodeScanner ..> Electricity
+Scanning ..> BarcodeScanner
 @enduml

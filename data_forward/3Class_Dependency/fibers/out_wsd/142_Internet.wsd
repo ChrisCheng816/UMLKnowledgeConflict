@@ -1,4 +1,4 @@
 @startuml
-Coursera ..> Internet
-OnlineUse ..> Coursera
+Dropbox ..> Internet
+Downloading ..> Dropbox
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+AirPump ..> Operating
+Electricity ..> AirPump
+@enduml

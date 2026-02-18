@@ -1,4 +1,4 @@
 @startuml
 SolderingStation ..> Electricity
-ElectronicsAssembly ..> SolderingStation
+ElectronicsRepair ..> SolderingStation
 @enduml

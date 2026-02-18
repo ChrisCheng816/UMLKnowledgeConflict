@@ -1,4 +1,4 @@
 @startuml
-Welder ..> Electricity
-HomeUse ..> Welder
+TileCutter ..> Electricity
+Operating ..> TileCutter
 @enduml

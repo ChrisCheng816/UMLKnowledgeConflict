@@ -1,4 +1,4 @@
 @startuml
-MillingMachine ..> Electricity
-HomeUse ..> MillingMachine
+NailGun ..> Electricity
+Operating ..> NailGun
 @enduml

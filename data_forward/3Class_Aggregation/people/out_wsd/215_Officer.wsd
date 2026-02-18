@@ -1,0 +1,4 @@
+@startuml
+Unit o-- Officer
+Hospital o-- Unit
+@enduml

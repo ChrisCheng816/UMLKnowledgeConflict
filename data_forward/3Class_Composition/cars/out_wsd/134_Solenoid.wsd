@@ -1,0 +1,4 @@
+@startuml
+Starter *-- Solenoid
+Car *-- Starter
+@enduml

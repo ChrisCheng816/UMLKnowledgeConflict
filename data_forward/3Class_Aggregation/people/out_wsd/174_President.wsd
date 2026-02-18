@@ -1,0 +1,4 @@
+@startuml
+Board o-- President
+Hospital o-- Board
+@enduml

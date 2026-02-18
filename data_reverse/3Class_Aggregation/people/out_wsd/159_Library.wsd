@@ -1,0 +1,4 @@
+@startuml
+Department o-- Library
+Librarian o-- Department
+@enduml

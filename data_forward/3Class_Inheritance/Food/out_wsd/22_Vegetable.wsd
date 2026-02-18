@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- LeafyVegetable
-LeafyVegetable <|-- Watercress
+Vegetable <|-- RootVegetable
+RootVegetable <|-- Carrot
 @enduml

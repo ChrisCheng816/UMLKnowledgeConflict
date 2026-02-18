@@ -1,0 +1,4 @@
+@startuml
+Roof *-- Skylight
+House *-- Roof
+@enduml

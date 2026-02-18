@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Bamboo
-Bamboo <|-- MosoBamboo
+Plant <|-- Tree
+Tree <|-- OrangeTree
 @enduml

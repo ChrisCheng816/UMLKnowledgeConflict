@@ -1,0 +1,4 @@
+@startuml
+LemonTree <|-- Tree
+Tree <|-- Plant
+@enduml

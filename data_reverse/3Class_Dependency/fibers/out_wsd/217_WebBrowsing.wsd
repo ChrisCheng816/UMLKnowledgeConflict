@@ -1,0 +1,4 @@
+@startuml
+Smartphone ..> WebBrowsing
+CellularNetwork ..> Smartphone
+@enduml

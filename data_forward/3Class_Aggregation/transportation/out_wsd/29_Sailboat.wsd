@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Sailboat
+Marina o-- Fleet
+@enduml

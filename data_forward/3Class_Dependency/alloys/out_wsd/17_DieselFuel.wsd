@@ -1,4 +1,4 @@
 @startuml
-DeliveryVan ..> DieselFuel
-LongDistanceTravel ..> DeliveryVan
+DieselTruck ..> DieselFuel
+ConstructionHauling ..> DieselTruck
 @enduml

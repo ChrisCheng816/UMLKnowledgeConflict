@@ -1,0 +1,4 @@
+@startuml
+SmartSpeaker ..> WiFiNetwork
+Email ..> SmartSpeaker
+@enduml

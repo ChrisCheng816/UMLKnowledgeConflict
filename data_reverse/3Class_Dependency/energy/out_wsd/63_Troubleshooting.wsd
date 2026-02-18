@@ -1,0 +1,4 @@
+@startuml
+Multimeter ..> Troubleshooting
+Electricity ..> Multimeter
+@enduml

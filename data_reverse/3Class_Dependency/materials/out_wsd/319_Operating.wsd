@@ -1,0 +1,4 @@
+@startuml
+ArcadeMachine ..> Operating
+Electricity ..> ArcadeMachine
+@enduml

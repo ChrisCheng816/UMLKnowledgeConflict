@@ -1,4 +1,4 @@
 @startuml
-HedgeTrimmer ..> Electricity
-HomeUse ..> HedgeTrimmer
+Compressor ..> Electricity
+Operating ..> Compressor
 @enduml

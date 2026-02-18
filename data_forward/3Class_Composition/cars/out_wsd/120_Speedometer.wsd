@@ -1,0 +1,4 @@
+@startuml
+Dashboard *-- Speedometer
+Car *-- Dashboard
+@enduml

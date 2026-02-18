@@ -1,4 +1,4 @@
 @startuml
-Chopper ..> Electricity
-HomeUse ..> Chopper
+WaffleMaker ..> Electricity
+Operating ..> WaffleMaker
 @enduml

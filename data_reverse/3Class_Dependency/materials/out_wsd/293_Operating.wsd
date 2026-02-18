@@ -1,0 +1,4 @@
+@startuml
+ElectricCanOpener ..> Operating
+Electricity ..> ElectricCanOpener
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-HotAirStation ..> Electricity
-PaintStripping ..> HotAirStation
+CircularSaw ..> Electricity
+FenceBuilding ..> CircularSaw
 @enduml

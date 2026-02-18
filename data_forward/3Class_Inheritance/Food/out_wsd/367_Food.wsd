@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dessert
-Dessert <|-- ApplePie
+Food <|-- Ingredient
+Ingredient <|-- Mushroom
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-XRayMachine ..> Electricity
-DentalXRay ..> XRayMachine
+UltrasoundMachine ..> Electricity
+KidneyUltrasound ..> UltrasoundMachine
 @enduml

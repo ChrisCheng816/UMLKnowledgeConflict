@@ -1,4 +1,4 @@
 @startuml
-PackOfCoyotes o-- Zoo
-Coyote o-- PackOfCoyotes
+Terrarium o-- Zoo
+Salamander o-- Terrarium
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Tulip
-Tulip <|-- DarwinTulip
+Plant <|-- Sunflower
+Sunflower <|-- CommonSunflower
 @enduml

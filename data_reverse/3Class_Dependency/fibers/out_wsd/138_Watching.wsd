@@ -1,0 +1,4 @@
+@startuml
+HBOMax ..> Watching
+Internet ..> HBOMax
+@enduml

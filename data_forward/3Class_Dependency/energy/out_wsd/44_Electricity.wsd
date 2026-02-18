@@ -1,4 +1,4 @@
 @startuml
-Multimeter ..> Electricity
-VoltageTesting ..> Multimeter
+CircularSaw ..> Electricity
+DeckBuilding ..> CircularSaw
 @enduml

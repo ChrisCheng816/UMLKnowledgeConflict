@@ -1,0 +1,4 @@
+@startuml
+Microwave ..> Reheating
+Electricity ..> Microwave
+@enduml

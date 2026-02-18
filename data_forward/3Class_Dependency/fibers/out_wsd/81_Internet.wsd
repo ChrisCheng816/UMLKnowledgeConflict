@@ -1,4 +1,4 @@
 @startuml
-FaceTime ..> Internet
-OnlineUse ..> FaceTime
+Dropbox ..> Internet
+Sharing ..> Dropbox
 @enduml

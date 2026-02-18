@@ -1,4 +1,4 @@
 @startuml
-EmbroideryMachine ..> Electricity
-HomeUse ..> EmbroideryMachine
+ServerRack ..> Electricity
+Hosting ..> ServerRack
 @enduml

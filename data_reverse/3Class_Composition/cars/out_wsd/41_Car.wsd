@@ -1,4 +1,4 @@
 @startuml
 Transmission *-- Car
-Shaft *-- Transmission
+Seal *-- Transmission
 @enduml

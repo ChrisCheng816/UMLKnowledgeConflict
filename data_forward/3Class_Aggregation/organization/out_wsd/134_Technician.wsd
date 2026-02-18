@@ -1,0 +1,4 @@
+@startuml
+Department o-- Technician
+Hospital o-- Department
+@enduml

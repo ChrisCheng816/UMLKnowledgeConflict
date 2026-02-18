@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Celery
-Celery <|-- PascalCelery
+Vegetable <|-- CruciferousVegetable
+CruciferousVegetable <|-- Broccoli
 @enduml

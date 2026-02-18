@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Workshop
+Electrician o-- Staff
+@enduml

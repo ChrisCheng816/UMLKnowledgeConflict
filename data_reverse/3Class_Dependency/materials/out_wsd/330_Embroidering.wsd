@@ -1,0 +1,4 @@
+@startuml
+EmbroideryMachine ..> Embroidering
+Electricity ..> EmbroideryMachine
+@enduml

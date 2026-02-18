@@ -1,0 +1,4 @@
+@startuml
+SpeakerList o-- Speaker
+Conference o-- SpeakerList
+@enduml

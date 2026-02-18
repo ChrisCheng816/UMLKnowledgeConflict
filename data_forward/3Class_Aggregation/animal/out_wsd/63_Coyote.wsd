@@ -1,4 +1,4 @@
 @startuml
-PackOfCoyote o-- Coyote
-Prairie o-- PackOfCoyote
+Enclosure o-- Coyote
+Reserve o-- Enclosure
 @enduml

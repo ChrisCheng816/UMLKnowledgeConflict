@@ -1,0 +1,4 @@
+@startuml
+Button *-- Thread
+Shirt *-- Button
+@enduml

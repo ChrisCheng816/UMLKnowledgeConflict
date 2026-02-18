@@ -1,4 +1,4 @@
 @startuml
-Webcam ..> Electricity
-HomeUse ..> Webcam
+DocumentCamera ..> Electricity
+Recording ..> DocumentCamera
 @enduml

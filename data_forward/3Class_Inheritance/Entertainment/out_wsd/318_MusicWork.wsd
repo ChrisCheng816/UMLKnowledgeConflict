@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Song
-Song <|-- BlindingLights
+MusicWork <|-- Album
+Album <|-- Rumours
 @enduml

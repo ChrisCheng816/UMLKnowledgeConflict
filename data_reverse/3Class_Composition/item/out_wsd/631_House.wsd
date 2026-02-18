@@ -1,0 +1,4 @@
+@startuml
+Stair *-- House
+Step *-- Stair
+@enduml

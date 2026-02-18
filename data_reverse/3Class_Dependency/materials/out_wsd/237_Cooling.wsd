@@ -1,0 +1,4 @@
+@startuml
+TableFan ..> Cooling
+Electricity ..> TableFan
+@enduml

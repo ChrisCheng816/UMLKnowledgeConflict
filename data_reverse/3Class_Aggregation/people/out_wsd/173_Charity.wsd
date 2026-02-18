@@ -1,0 +1,4 @@
+@startuml
+Board o-- Charity
+Governor o-- Board
+@enduml

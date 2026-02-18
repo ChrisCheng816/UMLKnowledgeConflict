@@ -1,0 +1,4 @@
+@startuml
+Airplane ..> DomesticFlight
+JetFuel ..> Airplane
+@enduml

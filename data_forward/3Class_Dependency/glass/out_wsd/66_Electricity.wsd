@@ -1,4 +1,4 @@
 @startuml
-MRIMachine ..> Electricity
-KneeMRI ..> MRIMachine
+UltrasoundMachine ..> Electricity
+PregnancyUltrasound ..> UltrasoundMachine
 @enduml

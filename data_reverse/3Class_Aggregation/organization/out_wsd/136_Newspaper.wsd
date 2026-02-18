@@ -1,0 +1,4 @@
+@startuml
+Editorial o-- Newspaper
+Photographer o-- Editorial
+@enduml

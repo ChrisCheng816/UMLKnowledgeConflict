@@ -1,0 +1,4 @@
+@startuml
+Nebulizer ..> Operating
+Electricity ..> Nebulizer
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- StoneFruit
-StoneFruit <|-- Apricot
+Fruit <|-- TropicalFruit
+TropicalFruit <|-- Starfruit
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Shift o-- Factory
+Worker o-- Shift
+@enduml

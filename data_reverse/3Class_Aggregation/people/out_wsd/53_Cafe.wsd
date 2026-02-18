@@ -1,0 +1,4 @@
+@startuml
+Team o-- Cafe
+Barista o-- Team
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Climbing
-Climbing <|-- Bouldering
+Sport <|-- CombatSport
+CombatSport <|-- Judo
 @enduml

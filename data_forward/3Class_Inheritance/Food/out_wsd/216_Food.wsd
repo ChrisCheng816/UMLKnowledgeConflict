@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Snack
-Snack <|-- GranolaBar
+Food <|-- Dessert
+Dessert <|-- Donut
 @enduml

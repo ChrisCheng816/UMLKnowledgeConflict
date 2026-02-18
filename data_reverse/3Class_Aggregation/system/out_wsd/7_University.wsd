@@ -1,4 +1,4 @@
 @startuml
 Laboratory o-- University
-Centrifuge o-- Laboratory
+Thermometer o-- Laboratory
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+ChargingStand ..> WallOutlet
+ElectricRazor ..> ChargingStand
+@enduml

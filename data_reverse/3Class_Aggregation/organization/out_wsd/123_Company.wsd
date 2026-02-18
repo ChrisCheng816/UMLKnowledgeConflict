@@ -1,0 +1,4 @@
+@startuml
+Office o-- Company
+Clerk o-- Office
+@enduml

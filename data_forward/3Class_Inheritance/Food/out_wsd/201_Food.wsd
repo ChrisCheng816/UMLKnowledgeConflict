@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dish
-Dish <|-- MapoTofu
+Food <|-- Snack
+Snack <|-- Pretzel
 @enduml

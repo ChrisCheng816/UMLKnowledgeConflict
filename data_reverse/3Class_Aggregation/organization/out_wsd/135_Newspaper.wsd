@@ -1,0 +1,4 @@
+@startuml
+Editorial o-- Newspaper
+Reporter o-- Editorial
+@enduml

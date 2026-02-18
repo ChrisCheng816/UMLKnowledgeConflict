@@ -1,4 +1,4 @@
 @startuml
-AirCompressor ..> Electricity
-SprayPainting ..> AirCompressor
+ElectricHotPlate ..> Electricity
+PaintStripping ..> ElectricHotPlate
 @enduml

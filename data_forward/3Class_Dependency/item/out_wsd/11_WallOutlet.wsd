@@ -1,4 +1,4 @@
 @startuml
-PowerAdapter ..> WallOutlet
-Laptop ..> PowerAdapter
+PowerCord ..> WallOutlet
+Scanner ..> PowerCord
 @enduml

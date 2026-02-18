@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Motorcycle
-Motorcycle <|-- YamahaR1
+Vehicle <|-- Bicycle
+Bicycle <|-- TrekRoadBike
 @enduml

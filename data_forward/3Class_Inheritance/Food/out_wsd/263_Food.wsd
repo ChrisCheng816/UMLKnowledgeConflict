@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Sandwich
-Sandwich <|-- BLTSandwich
+Food <|-- Grain
+Grain <|-- Quinoa
 @enduml

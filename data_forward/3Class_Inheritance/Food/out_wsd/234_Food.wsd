@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dessert
-Dessert <|-- Baklava
+Food <|-- Beverage
+Beverage <|-- Cappuccino
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Smartphone ..> Email
+CellularNetwork ..> Smartphone
+@enduml

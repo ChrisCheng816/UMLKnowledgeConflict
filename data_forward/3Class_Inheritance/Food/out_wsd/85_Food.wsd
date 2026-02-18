@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Vegetable
-Vegetable <|-- Artichoke
+Food <|-- Fruit
+Fruit <|-- DriedFruit
 @enduml

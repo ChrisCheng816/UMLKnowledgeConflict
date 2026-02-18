@@ -1,0 +1,4 @@
+@startuml
+Crew o-- Restaurant
+Waiter o-- Crew
+@enduml

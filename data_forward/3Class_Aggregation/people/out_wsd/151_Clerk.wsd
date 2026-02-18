@@ -1,0 +1,4 @@
+@startuml
+Department o-- Clerk
+Factory o-- Department
+@enduml

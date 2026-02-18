@@ -1,0 +1,4 @@
+@startuml
+Episode *-- Podcast
+Segment *-- Episode
+@enduml

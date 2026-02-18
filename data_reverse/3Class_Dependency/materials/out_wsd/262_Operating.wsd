@@ -1,0 +1,4 @@
+@startuml
+EBikeCharger ..> Operating
+Electricity ..> EBikeCharger
+@enduml

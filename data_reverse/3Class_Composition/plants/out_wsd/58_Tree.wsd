@@ -1,0 +1,4 @@
+@startuml
+Root *-- Tree
+RootHair *-- Root
+@enduml

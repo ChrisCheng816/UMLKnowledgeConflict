@@ -1,4 +1,4 @@
 @startuml
-BeltSander ..> Electricity
-Woodworking ..> BeltSander
+Multimeter ..> Electricity
+VoltageTesting ..> Multimeter
 @enduml

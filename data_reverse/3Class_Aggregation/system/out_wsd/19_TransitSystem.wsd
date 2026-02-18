@@ -1,0 +1,4 @@
+@startuml
+Schedule o-- TransitSystem
+Route o-- Schedule
+@enduml

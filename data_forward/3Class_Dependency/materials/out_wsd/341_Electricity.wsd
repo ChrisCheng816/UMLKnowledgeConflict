@@ -1,4 +1,4 @@
 @startuml
-Siren ..> Electricity
-IntruderAlert ..> Siren
+Router ..> Electricity
+Networking ..> Router
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+GoogleDrive ..> Syncing
+Internet ..> GoogleDrive
+@enduml

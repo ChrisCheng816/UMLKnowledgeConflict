@@ -1,4 +1,4 @@
 @startuml
-GroupOfCyclists o-- Community
-Cyclist o-- GroupOfCyclists
+Club o-- Community
+Artist o-- Club
 @enduml

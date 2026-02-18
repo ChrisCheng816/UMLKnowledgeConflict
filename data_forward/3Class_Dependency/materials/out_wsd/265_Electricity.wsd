@@ -1,4 +1,4 @@
 @startuml
-EBikeCharger ..> Electricity
-HomeUse ..> EBikeCharger
+Nebulizer ..> Electricity
+Operating ..> Nebulizer
 @enduml

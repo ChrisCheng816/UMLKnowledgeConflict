@@ -1,0 +1,4 @@
+@startuml
+OceanCurrent ..> Whirlpool
+Wind ..> OceanCurrent
+@enduml

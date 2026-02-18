@@ -1,0 +1,4 @@
+@startuml
+CTScanner ..> Electricity
+DentalCTScan ..> CTScanner
+@enduml

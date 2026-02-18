@@ -1,0 +1,4 @@
+@startuml
+ArchiveBox o-- Photograph
+Museum o-- ArchiveBox
+@enduml

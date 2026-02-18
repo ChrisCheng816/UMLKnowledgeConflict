@@ -1,4 +1,4 @@
 @startuml
-BreadMaker ..> Electricity
-HomeUse ..> BreadMaker
+ElectricGrill ..> Electricity
+Grilling ..> ElectricGrill
 @enduml

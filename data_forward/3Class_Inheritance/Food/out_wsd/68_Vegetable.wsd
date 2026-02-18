@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- NightshadeVegetable
-NightshadeVegetable <|-- Jalapeno
+Vegetable <|-- SeaVegetable
+SeaVegetable <|-- Kombu
 @enduml

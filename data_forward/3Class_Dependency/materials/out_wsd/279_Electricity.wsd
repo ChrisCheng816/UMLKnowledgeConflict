@@ -1,4 +1,4 @@
 @startuml
-LeafBlower ..> Electricity
-HomeUse ..> LeafBlower
+DrillCharger ..> Electricity
+Operating ..> DrillCharger
 @enduml

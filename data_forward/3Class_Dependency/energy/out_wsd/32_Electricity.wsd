@@ -1,4 +1,4 @@
 @startuml
-ElectricHotPlate ..> Electricity
-ShrinkWrapping ..> ElectricHotPlate
+3DPrinter ..> Electricity
+ToyMaking ..> 3DPrinter
 @enduml

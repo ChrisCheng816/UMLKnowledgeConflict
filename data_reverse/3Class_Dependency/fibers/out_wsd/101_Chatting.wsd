@@ -1,0 +1,4 @@
+@startuml
+Signal ..> Chatting
+Internet ..> Signal
+@enduml

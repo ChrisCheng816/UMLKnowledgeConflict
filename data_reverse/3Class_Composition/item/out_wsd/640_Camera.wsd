@@ -1,0 +1,4 @@
+@startuml
+Sensor *-- Camera
+Pixel *-- Sensor
+@enduml

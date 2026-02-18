@@ -1,4 +1,4 @@
 @startuml
 Toilet ..> TapWater
-RestroomUse ..> Toilet
+Sanitation ..> Toilet
 @enduml

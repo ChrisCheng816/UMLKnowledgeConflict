@@ -1,4 +1,4 @@
 @startuml
 Sport <|-- WinterSport
-WinterSport <|-- Skeleton
+WinterSport <|-- Luge
 @enduml

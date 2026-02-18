@@ -1,4 +1,4 @@
 @startuml
-Subwoofer ..> Electricity
-HomeUse ..> Subwoofer
+EmbroideryMachine ..> Electricity
+Embroidering ..> EmbroideryMachine
 @enduml

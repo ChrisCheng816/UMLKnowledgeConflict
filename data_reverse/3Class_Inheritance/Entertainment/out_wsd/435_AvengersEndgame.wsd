@@ -1,0 +1,4 @@
+@startuml
+AvengersEndgame <|-- SuperheroFilm
+SuperheroFilm <|-- Film
+@enduml

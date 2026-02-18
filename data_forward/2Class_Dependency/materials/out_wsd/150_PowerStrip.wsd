@@ -1,3 +1,3 @@
 @startuml
-BatteryCharging ..> PowerStrip
+PowerSupply ..> PowerStrip
 @enduml

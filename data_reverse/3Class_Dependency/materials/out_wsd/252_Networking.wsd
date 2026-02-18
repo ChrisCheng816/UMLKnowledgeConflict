@@ -1,0 +1,4 @@
+@startuml
+Modem ..> Networking
+Electricity ..> Modem
+@enduml

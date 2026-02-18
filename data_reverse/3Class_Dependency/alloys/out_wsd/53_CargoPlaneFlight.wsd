@@ -1,0 +1,4 @@
+@startuml
+CargoPlane ..> CargoPlaneFlight
+JetFuel ..> CargoPlane
+@enduml

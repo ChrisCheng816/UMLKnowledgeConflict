@@ -1,0 +1,4 @@
+@startuml
+HandMixer ..> Mixing
+Electricity ..> HandMixer
+@enduml

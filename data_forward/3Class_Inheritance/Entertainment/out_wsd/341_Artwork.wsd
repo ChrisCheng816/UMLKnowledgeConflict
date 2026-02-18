@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- TheLastSupper
+Artwork <|-- Sculpture
+Sculpture <|-- TheKissRodin
 @enduml

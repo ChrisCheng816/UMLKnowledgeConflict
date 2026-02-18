@@ -1,0 +1,4 @@
+@startuml
+Serial <|-- Podcast
+Podcast <|-- Entertainment
+@enduml

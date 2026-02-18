@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Femur
+Person *-- Leg
+@enduml

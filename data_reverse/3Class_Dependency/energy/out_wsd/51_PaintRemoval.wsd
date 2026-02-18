@@ -1,0 +1,4 @@
+@startuml
+Sander ..> PaintRemoval
+Electricity ..> Sander
+@enduml

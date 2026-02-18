@@ -1,4 +1,4 @@
 @startuml
-Lock *-- Pin
-Door *-- Lock
+Jack *-- Pin
+Headphone *-- Jack
 @enduml

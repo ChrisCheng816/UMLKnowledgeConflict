@@ -1,0 +1,4 @@
+@startuml
+Department o-- Driver
+Company o-- Department
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Window *-- House
-Sash *-- Window
+WindowLatch *-- Window
 @enduml

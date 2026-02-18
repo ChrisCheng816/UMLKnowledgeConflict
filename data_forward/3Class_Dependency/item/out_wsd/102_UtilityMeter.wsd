@@ -1,0 +1,4 @@
+@startuml
+CircuitBreakerPanel ..> UtilityMeter
+BreakerProtection ..> CircuitBreakerPanel
+@enduml

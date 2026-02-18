@@ -1,4 +1,4 @@
 @startuml
-ClubOfStudents o-- School
-Student o-- ClubOfStudents
+Staff o-- School
+Principal o-- Staff
 @enduml

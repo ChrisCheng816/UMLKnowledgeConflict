@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- TropicalFruit
-TropicalFruit <|-- Starfruit
+Fruit <|-- DriedFruit
+DriedFruit <|-- Date
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CodeSandbox ..> Internet
-OnlineUse ..> CodeSandbox
+Gmail ..> Internet
+Writing ..> Gmail
 @enduml

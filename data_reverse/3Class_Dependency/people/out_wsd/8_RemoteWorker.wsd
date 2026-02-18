@@ -1,0 +1,4 @@
+@startuml
+Laptop ..> RemoteWorker
+WiFiNetwork ..> Laptop
+@enduml

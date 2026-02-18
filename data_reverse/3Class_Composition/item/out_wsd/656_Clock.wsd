@@ -1,0 +1,4 @@
+@startuml
+Dial *-- Clock
+Hand *-- Dial
+@enduml

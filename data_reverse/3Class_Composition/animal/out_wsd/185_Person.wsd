@@ -1,4 +1,4 @@
 @startuml
-Spine *-- Person
-Cord *-- Spine
+Arm *-- Person
+Radius *-- Arm
 @enduml

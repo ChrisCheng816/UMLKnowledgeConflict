@@ -1,0 +1,4 @@
+@startuml
+StudentCouncil o-- School
+Representative o-- StudentCouncil
+@enduml

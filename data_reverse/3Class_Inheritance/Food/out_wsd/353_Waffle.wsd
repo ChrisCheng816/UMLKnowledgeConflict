@@ -1,0 +1,4 @@
+@startuml
+Waffle <|-- Dessert
+Dessert <|-- Food
+@enduml

@@ -1,3 +1,3 @@
 @startuml
-DryAirRelief ..> Humidifier
+HumidityControl ..> Humidifier
 @enduml

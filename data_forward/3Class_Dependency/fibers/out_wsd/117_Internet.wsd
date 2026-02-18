@@ -1,4 +1,4 @@
 @startuml
-Outlook ..> Internet
-OnlineUse ..> Outlook
+GoogleMeet ..> Internet
+Meeting ..> GoogleMeet
 @enduml

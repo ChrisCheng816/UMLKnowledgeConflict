@@ -1,0 +1,4 @@
+@startuml
+Squad o-- Paramedic
+Camp o-- Squad
+@enduml

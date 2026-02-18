@@ -1,4 +1,4 @@
 @startuml
-StaffOfJanitors o-- Company
-Janitor o-- StaffOfJanitors
+Unit o-- Company
+Operator o-- Unit
 @enduml

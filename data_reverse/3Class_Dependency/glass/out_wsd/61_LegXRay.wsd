@@ -1,0 +1,4 @@
+@startuml
+XRayMachine ..> LegXRay
+Electricity ..> XRayMachine
+@enduml

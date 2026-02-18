@@ -1,0 +1,4 @@
+@startuml
+SnowBlower ..> Operating
+Electricity ..> SnowBlower
+@enduml

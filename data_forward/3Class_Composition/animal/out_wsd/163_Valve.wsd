@@ -1,0 +1,4 @@
+@startuml
+Heart *-- Valve
+Person *-- Heart
+@enduml

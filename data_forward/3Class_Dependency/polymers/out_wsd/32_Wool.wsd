@@ -1,0 +1,4 @@
+@startuml
+WoolYarn ..> Wool
+Knitting ..> WoolYarn
+@enduml

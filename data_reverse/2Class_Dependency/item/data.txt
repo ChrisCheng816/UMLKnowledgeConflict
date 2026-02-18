@@ -1,9 +1,6 @@
 WallOutlet CircuitBreakerPanel
 Tablet USBCharger
 PowerBank USBCharger
-Flashlight Battery
-TVRemote Battery
-WallClock Battery
 HandheldGameConsole USBCharger
 ElectricToothbrush ChargingStand
 ElectricRazor ChargingStand
@@ -33,8 +30,6 @@ CeilingFan WallSwitch
 Escalator BuildingPowerFeed
 BuildingPowerFeed CircuitBreakerPanel
 Elevator BuildingPowerFeed
-StreetLight UtilityMeter
-TrafficLight UtilityMeter
 SecuritySystem ControlPanel
 ControlPanel WallOutlet
 MunicipalWaterMain WaterTreatmentPlant
@@ -85,7 +80,6 @@ OfficePhone DeskPhoneBase
 DeskPhoneBase TelephoneLine
 LandlineModem TelephoneLine
 Router EthernetCable
-EthernetCable BroadbandModem
 BroadbandModem CoaxialCable
 SecurityCamera NetworkRecorder
 DoorAccessReader AccessController
@@ -96,9 +90,17 @@ Ebike EbikeCharger
 VacuumCleaner PowerCord
 Smartphone Charger
 VideoCall Smartphone
-MusicStreaming SmartSpeaker
 NightLighting TableLamp
-Laundry WashingMachine
 WeatherAlert EmergencyRadio
 PhoneCharging PhoneCharger
-Refueling GasPump
+DishwasherCycle Dishwasher
+WashingCycle WashingMachine
+DryerCycle ClothesDryer
+MicrowaveCooking Microwave
+Refrigeration Refrigerator
+PoweringOutlet WallOutlet
+BreakerProtection CircuitBreakerPanel
+WaterPurification WaterTreatmentPlant
+PumpingWater WaterPump
+StreetLight PowerGrid
+TrafficLight PowerGrid

@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- RootVegetable
-RootVegetable <|-- Taro
+Vegetable <|-- CruciferousVegetable
+CruciferousVegetable <|-- Cauliflower
 @enduml

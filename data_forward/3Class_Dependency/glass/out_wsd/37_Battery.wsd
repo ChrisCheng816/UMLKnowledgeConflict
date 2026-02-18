@@ -1,0 +1,4 @@
+@startuml
+GlucoseMeter ..> Battery
+GlucoseReading ..> GlucoseMeter
+@enduml

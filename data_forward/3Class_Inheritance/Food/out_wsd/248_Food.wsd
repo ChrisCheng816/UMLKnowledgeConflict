@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Beverage
-Beverage <|-- Matcha
+Food <|-- Sandwich
+Sandwich <|-- VeggieSandwich
 @enduml

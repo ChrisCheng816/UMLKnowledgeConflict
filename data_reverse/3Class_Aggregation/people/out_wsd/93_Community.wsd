@@ -1,0 +1,4 @@
+@startuml
+NeighborhoodAssociation o-- Community
+Resident o-- NeighborhoodAssociation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Notebook ..> Paper
+NoteTaking ..> Notebook
+@enduml

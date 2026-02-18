@@ -1,0 +1,4 @@
+@startuml
+Azalea <|-- Shrub
+Shrub <|-- Plant
+@enduml

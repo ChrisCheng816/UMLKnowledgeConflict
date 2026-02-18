@@ -1,0 +1,4 @@
+@startuml
+SandwichMaker ..> Operating
+Electricity ..> SandwichMaker
+@enduml

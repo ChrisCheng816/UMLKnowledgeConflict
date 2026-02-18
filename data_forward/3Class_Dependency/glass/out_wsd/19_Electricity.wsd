@@ -1,4 +1,4 @@
 @startuml
-HeadlampLight ..> Electricity
-ProcedureLighting ..> HeadlampLight
+XRayMachine ..> Electricity
+BoneScan ..> XRayMachine
 @enduml

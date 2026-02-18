@@ -1,4 +1,4 @@
 @startuml
-StaffOfFarmers o-- Company
-Farmer o-- StaffOfFarmers
+Board o-- Company
+Deputy o-- Board
 @enduml

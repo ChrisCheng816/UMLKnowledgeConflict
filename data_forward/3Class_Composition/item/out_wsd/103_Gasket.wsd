@@ -1,4 +1,4 @@
 @startuml
-Canister *-- Gasket
-Vacuum *-- Canister
+Jar *-- Gasket
+Blender *-- Jar
 @enduml

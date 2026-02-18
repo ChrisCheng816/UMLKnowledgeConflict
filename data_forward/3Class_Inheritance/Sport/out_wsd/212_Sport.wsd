@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Surfing
-Surfing <|-- BigWaveSurfing
+Sport <|-- Sailing
+Sailing <|-- OlympicSailing
 @enduml

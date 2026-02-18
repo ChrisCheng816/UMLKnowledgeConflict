@@ -1,4 +1,4 @@
 @startuml
-Processor *-- Desktop
-Clock *-- Processor
+PowerSupply *-- Desktop
+Fan *-- PowerSupply
 @enduml

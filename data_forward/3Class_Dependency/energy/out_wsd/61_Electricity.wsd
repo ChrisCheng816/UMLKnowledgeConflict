@@ -1,4 +1,4 @@
 @startuml
-SolderingStation ..> Electricity
-Soldering ..> SolderingStation
+Sander ..> Electricity
+Refinishing ..> Sander
 @enduml

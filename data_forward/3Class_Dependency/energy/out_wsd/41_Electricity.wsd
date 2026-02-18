@@ -1,4 +1,4 @@
 @startuml
-LaserCutter ..> Electricity
-SheetCutting ..> LaserCutter
+Multimeter ..> Electricity
+BatteryTesting ..> Multimeter
 @enduml

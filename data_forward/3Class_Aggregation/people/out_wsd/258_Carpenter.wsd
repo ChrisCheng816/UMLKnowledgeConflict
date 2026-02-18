@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Carpenter
+Workshop o-- Staff
+@enduml

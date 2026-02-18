@@ -1,4 +1,4 @@
 @startuml
-Trello ..> Internet
-OnlineUse ..> Trello
+GoogleMeet ..> Internet
+Calling ..> GoogleMeet
 @enduml

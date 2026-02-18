@@ -1,4 +1,4 @@
 @startuml
-KhanAcademy ..> Internet
-OnlineUse ..> KhanAcademy
+Lyft ..> Internet
+Traveling ..> Lyft
 @enduml

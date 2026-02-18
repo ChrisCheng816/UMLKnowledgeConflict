@@ -1,4 +1,4 @@
 @startuml
-KaraokeMachine ..> Electricity
-HomeUse ..> KaraokeMachine
+FogMachine ..> Electricity
+Fogging ..> FogMachine
 @enduml

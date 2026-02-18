@@ -1,4 +1,4 @@
 @startuml
-Mouth *-- Person
-Lip *-- Mouth
+Brain *-- Person
+Lobe *-- Brain
 @enduml

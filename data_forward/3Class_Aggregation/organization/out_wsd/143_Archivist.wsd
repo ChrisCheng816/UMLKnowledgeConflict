@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Archivist
+Library o-- Staff
+@enduml

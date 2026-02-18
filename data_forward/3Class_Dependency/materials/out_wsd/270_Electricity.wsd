@@ -1,4 +1,4 @@
 @startuml
-GlucoseMeter ..> Electricity
-HomeUse ..> GlucoseMeter
+EllipticalMachine ..> Electricity
+Operating ..> EllipticalMachine
 @enduml

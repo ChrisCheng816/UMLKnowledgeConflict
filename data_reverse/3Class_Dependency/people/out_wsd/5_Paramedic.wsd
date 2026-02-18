@@ -1,0 +1,4 @@
+@startuml
+Ambulance ..> Paramedic
+Gasoline ..> Ambulance
+@enduml

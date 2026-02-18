@@ -1,4 +1,4 @@
 @startuml
-PulseOximeter ..> Electricity
-AlarmMonitoring ..> PulseOximeter
+MRIMachine ..> Electricity
+MRIScan ..> MRIMachine
 @enduml

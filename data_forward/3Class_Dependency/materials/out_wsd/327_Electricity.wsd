@@ -1,4 +1,4 @@
 @startuml
-MixerBoard ..> Electricity
-HomeUse ..> MixerBoard
+Microphone ..> Electricity
+Recording ..> Microphone
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-VendingMachine ..> Electricity
-HomeUse ..> VendingMachine
+HandMixer ..> Electricity
+Mixing ..> HandMixer
 @enduml

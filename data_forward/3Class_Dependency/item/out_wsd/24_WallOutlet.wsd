@@ -1,4 +1,4 @@
 @startuml
-BatteryCharger ..> WallOutlet
-ElectricVehicle ..> BatteryCharger
+PowerSupply ..> WallOutlet
+LEDStrip ..> PowerSupply
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+PressureDifference ..> JetStream
+TemperatureContrast ..> PressureDifference
+@enduml

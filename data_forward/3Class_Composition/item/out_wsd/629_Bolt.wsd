@@ -1,0 +1,4 @@
+@startuml
+Handle *-- Bolt
+Suitcase *-- Handle
+@enduml

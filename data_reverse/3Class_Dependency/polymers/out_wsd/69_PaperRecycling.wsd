@@ -1,0 +1,4 @@
+@startuml
+Paper ..> PaperRecycling
+Trees ..> Paper
+@enduml

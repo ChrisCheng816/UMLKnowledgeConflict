@@ -1,4 +1,4 @@
 @startuml
-Line ..> Internet
-OnlineUse ..> Line
+GoogleDrive ..> Internet
+Uploading ..> GoogleDrive
 @enduml

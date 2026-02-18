@@ -1,0 +1,4 @@
+@startuml
+Shift o-- Factory
+Supervisor o-- Shift
+@enduml

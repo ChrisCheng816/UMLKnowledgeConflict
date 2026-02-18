@@ -1,0 +1,4 @@
+@startuml
+DocumentCamera ..> Recording
+Electricity ..> DocumentCamera
+@enduml

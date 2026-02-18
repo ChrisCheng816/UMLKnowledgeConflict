@@ -1,0 +1,4 @@
+@startuml
+Stomach *-- Lining
+Person *-- Stomach
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 TableFan ..> Electricity
-HomeUse ..> TableFan
+Cooling ..> TableFan
 @enduml

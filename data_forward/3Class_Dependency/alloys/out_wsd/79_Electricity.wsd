@@ -1,0 +1,4 @@
+@startuml
+ElectricCar ..> Electricity
+ElectricCarTrip ..> ElectricCar
+@enduml

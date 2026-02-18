@@ -1,0 +1,4 @@
+@startuml
+MillingMachine ..> Operating
+Electricity ..> MillingMachine
+@enduml

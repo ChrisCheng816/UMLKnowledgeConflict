@@ -1,0 +1,4 @@
+@startuml
+ECGMonitor ..> HeartRhythmCheck
+Electricity ..> ECGMonitor
+@enduml

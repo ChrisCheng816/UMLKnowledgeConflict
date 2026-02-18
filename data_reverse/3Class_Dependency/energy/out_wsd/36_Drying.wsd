@@ -1,0 +1,4 @@
+@startuml
+HeatGun ..> Drying
+Electricity ..> HeatGun
+@enduml

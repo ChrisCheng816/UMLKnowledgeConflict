@@ -1,4 +1,4 @@
 @startuml
-Floor *-- House
-Grout *-- Floor
+Window *-- House
+Frame *-- Window
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Spine *-- Person
-Disc *-- Spine
+Leg *-- Person
+Tibia *-- Leg
 @enduml

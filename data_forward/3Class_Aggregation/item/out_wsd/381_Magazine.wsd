@@ -1,0 +1,4 @@
+@startuml
+Catalog o-- Magazine
+Library o-- Catalog
+@enduml

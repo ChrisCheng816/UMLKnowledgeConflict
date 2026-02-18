@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- TropicalFruit
-TropicalFruit <|-- Mangosteen
+Fruit <|-- PomeFruit
+PomeFruit <|-- GoldenDeliciousApple
 @enduml

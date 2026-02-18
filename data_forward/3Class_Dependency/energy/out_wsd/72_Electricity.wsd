@@ -1,4 +1,4 @@
 @startuml
-CircularSaw ..> Electricity
-Cutting ..> CircularSaw
+HotGlueGun ..> Electricity
+Repairing ..> HotGlueGun
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Box o-- Archive
+Letter o-- Box
+@enduml

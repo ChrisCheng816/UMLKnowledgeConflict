@@ -1,4 +1,4 @@
 @startuml
-Floor *-- House
-Finish *-- Floor
+Ceiling *-- House
+Drywall *-- Ceiling
 @enduml

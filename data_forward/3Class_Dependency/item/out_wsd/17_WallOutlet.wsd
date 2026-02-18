@@ -1,4 +1,4 @@
 @startuml
-BatteryCharger ..> WallOutlet
-CameraBattery ..> BatteryCharger
+EbikeCharger ..> WallOutlet
+EbikeBattery ..> EbikeCharger
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Index *-- Entry
+Book *-- Index
+@enduml

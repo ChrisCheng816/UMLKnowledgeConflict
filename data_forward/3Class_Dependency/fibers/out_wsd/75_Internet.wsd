@@ -1,4 +1,4 @@
 @startuml
-Discord ..> Internet
-OnlineUse ..> Discord
+Facebook ..> Internet
+Posting ..> Facebook
 @enduml

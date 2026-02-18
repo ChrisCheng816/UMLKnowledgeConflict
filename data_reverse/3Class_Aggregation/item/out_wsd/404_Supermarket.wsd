@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Supermarket
+CannedSoup o-- Shelf
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Box o-- Bookstore
+ComicBook o-- Box
+@enduml

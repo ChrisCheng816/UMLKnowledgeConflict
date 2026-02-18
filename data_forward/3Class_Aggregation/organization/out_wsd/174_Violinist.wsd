@@ -1,0 +1,4 @@
+@startuml
+StringSection o-- Violinist
+Orchestra o-- StringSection
+@enduml

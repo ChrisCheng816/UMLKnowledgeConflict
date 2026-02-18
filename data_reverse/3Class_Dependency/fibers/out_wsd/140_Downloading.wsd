@@ -1,0 +1,4 @@
+@startuml
+AppleMusic ..> Downloading
+Internet ..> AppleMusic
+@enduml

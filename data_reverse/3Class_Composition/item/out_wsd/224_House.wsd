@@ -1,4 +1,4 @@
 @startuml
-Porch *-- House
-Step *-- Porch
+Plumbing *-- House
+Valve *-- Plumbing
 @enduml

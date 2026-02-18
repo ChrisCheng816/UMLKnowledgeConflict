@@ -1,0 +1,4 @@
+@startuml
+Audience o-- Listener
+Conference o-- Audience
+@enduml

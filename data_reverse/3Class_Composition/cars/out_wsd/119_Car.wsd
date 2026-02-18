@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Car
-Column *-- SteeringSystem
+SunVisor *-- Car
+Clip *-- SunVisor
 @enduml

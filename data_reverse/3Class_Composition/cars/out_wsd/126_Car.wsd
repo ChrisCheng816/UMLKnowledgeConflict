@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Car
-Sensor *-- SteeringSystem
+Exhaust *-- Car
+OxygenSensor *-- Exhaust
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PowerBankCharger ..> Electricity
-HomeUse ..> PowerBankCharger
+ScooterCharger ..> Electricity
+Operating ..> ScooterCharger
 @enduml

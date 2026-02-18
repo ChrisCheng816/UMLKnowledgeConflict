@@ -1,0 +1,4 @@
+@startuml
+University o-- Department
+EducationSystem o-- University
+@enduml

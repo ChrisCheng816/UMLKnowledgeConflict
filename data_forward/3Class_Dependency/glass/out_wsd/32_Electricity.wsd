@@ -1,4 +1,4 @@
 @startuml
-PatientMonitor ..> Electricity
-VitalSignsMonitoring ..> PatientMonitor
+CTScanner ..> Electricity
+CTScan ..> CTScanner
 @enduml

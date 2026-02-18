@@ -1,0 +1,4 @@
+@startuml
+Tail *-- Rattlesnake
+Rattle *-- Tail
+@enduml

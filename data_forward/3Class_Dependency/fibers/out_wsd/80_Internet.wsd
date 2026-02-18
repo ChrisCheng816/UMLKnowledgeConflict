@@ -1,4 +1,4 @@
 @startuml
-Slack ..> Internet
-OnlineUse ..> Slack
+FaceTime ..> Internet
+VideoCalling ..> FaceTime
 @enduml

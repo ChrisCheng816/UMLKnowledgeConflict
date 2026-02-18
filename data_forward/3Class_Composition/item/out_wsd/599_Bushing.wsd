@@ -1,0 +1,4 @@
+@startuml
+Truck *-- Bushing
+Skateboard *-- Truck
+@enduml

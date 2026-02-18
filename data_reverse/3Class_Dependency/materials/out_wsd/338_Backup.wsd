@@ -1,0 +1,4 @@
+@startuml
+Server ..> Backup
+Electricity ..> Server
+@enduml

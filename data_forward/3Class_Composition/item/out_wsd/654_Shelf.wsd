@@ -1,0 +1,4 @@
+@startuml
+Door *-- Shelf
+Refrigerator *-- Door
+@enduml

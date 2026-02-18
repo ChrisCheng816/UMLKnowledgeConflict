@@ -1,4 +1,4 @@
 @startuml
-RiceWarmer ..> Electricity
-HomeUse ..> RiceWarmer
+YogurtMaker ..> Electricity
+Operating ..> YogurtMaker
 @enduml

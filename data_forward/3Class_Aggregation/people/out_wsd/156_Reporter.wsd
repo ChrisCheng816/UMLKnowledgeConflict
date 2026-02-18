@@ -1,0 +1,4 @@
+@startuml
+Department o-- Reporter
+Studio o-- Department
+@enduml

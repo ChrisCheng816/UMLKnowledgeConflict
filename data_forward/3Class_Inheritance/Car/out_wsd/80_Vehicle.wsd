@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Convertible
-Convertible <|-- MazdaMX5
+Vehicle <|-- Minivan
+Minivan <|-- HondaOdyssey
 @enduml

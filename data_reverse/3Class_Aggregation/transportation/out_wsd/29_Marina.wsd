@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Marina
+Sailboat o-- Fleet
+@enduml

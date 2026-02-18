@@ -1,4 +1,4 @@
 @startuml
-CityBus ..> DieselFuel
-CityRoute ..> CityBus
+DeliveryVan ..> DieselFuel
+LongDistanceTravel ..> DeliveryVan
 @enduml

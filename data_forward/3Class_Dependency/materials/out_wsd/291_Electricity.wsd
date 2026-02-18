@@ -1,4 +1,4 @@
 @startuml
-IceMaker ..> Electricity
-HomeUse ..> IceMaker
+Chopper ..> Electricity
+Operating ..> Chopper
 @enduml

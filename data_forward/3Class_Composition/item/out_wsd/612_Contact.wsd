@@ -1,0 +1,4 @@
+@startuml
+Button *-- Contact
+Remote *-- Button
+@enduml

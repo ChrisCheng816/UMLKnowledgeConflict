@@ -1,0 +1,4 @@
+@startuml
+CottonFabric ..> Weaving
+Cotton ..> CottonFabric
+@enduml

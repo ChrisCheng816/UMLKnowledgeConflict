@@ -1,4 +1,4 @@
 @startuml
-Drill ..> Electricity
-HomeRepair ..> Drill
+HeatGun ..> Electricity
+HeatShrinking ..> HeatGun
 @enduml

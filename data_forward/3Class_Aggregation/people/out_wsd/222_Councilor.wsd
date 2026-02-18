@@ -1,0 +1,4 @@
+@startuml
+Council o-- Councilor
+City o-- Council
+@enduml

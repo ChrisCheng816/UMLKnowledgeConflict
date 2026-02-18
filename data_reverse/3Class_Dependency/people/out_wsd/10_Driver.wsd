@@ -1,0 +1,4 @@
+@startuml
+Car ..> Driver
+Gasoline ..> Car
+@enduml

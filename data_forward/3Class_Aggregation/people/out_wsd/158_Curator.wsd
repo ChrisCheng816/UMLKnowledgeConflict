@@ -1,0 +1,4 @@
+@startuml
+Department o-- Curator
+Museum o-- Department
+@enduml

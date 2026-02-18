@@ -1,0 +1,4 @@
+@startuml
+Tongue *-- TasteBud
+Human *-- Tongue
+@enduml

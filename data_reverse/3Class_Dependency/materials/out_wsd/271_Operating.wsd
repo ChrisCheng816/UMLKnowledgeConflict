@@ -1,0 +1,4 @@
+@startuml
+Massager ..> Operating
+Electricity ..> Massager
+@enduml

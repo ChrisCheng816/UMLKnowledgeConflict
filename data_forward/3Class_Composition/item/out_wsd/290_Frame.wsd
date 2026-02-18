@@ -1,4 +1,4 @@
 @startuml
-Buckle *-- Frame
-Belt *-- Buckle
+Screen *-- Frame
+Phone *-- Screen
 @enduml

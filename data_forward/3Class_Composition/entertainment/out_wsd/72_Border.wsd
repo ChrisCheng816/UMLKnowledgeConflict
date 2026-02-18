@@ -1,0 +1,4 @@
+@startuml
+Panel *-- Border
+Comic *-- Panel
+@enduml

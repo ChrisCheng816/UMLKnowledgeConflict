@@ -1,4 +1,4 @@
 @startuml
-Wikipedia ..> Internet
-OnlineUse ..> Wikipedia
+Expedia ..> Internet
+Booking ..> Expedia
 @enduml

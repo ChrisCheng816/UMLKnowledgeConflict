@@ -1,0 +1,4 @@
+@startuml
+SetTopBox ..> Operating
+Electricity ..> SetTopBox
+@enduml

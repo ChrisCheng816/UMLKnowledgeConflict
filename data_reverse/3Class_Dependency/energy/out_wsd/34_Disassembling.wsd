@@ -1,0 +1,4 @@
+@startuml
+ElectricScrewdriver ..> Disassembling
+Electricity ..> ElectricScrewdriver
+@enduml

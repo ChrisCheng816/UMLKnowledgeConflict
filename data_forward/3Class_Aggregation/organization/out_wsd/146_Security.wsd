@@ -1,0 +1,4 @@
+@startuml
+Staff o-- Security
+Museum o-- Staff
+@enduml

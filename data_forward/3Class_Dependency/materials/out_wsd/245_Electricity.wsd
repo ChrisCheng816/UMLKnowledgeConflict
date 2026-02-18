@@ -1,4 +1,4 @@
 @startuml
-WaterHeater ..> Electricity
-HomeUse ..> WaterHeater
+HairTrimmer ..> Electricity
+Trimming ..> HairTrimmer
 @enduml

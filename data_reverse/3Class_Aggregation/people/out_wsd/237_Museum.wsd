@@ -1,0 +1,4 @@
+@startuml
+Audience o-- Museum
+Spectator o-- Audience
+@enduml

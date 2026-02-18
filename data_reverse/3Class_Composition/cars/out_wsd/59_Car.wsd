@@ -1,4 +1,4 @@
 @startuml
-Exhaust *-- Car
-Gasket *-- Exhaust
+Headlight *-- Car
+Bulb *-- Headlight
 @enduml

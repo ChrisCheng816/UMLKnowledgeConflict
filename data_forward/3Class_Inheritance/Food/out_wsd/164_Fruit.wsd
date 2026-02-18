@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- TropicalFruit
-TropicalFruit <|-- Rambutan
+Fruit <|-- CitrusFruit
+CitrusFruit <|-- KeyLime
 @enduml

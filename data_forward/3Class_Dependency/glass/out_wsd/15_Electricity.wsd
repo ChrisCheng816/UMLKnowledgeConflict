@@ -1,4 +1,4 @@
 @startuml
-ExamLight ..> Electricity
-ProcedureLighting ..> ExamLight
+UltrasoundMachine ..> Electricity
+UltrasoundImaging ..> UltrasoundMachine
 @enduml

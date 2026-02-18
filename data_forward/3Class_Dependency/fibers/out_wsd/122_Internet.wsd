@@ -1,4 +1,4 @@
 @startuml
-OneDrive ..> Internet
-OnlineUse ..> OneDrive
+Telegram ..> Internet
+Texting ..> Telegram
 @enduml

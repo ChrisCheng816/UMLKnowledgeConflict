@@ -1,4 +1,4 @@
 @startuml
-CNCMachine ..> Electricity
-PrecisionMachining ..> CNCMachine
+Drill ..> Electricity
+HomeRepair ..> Drill
 @enduml

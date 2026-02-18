@@ -1,0 +1,4 @@
+@startuml
+IceMaker ..> Operating
+Electricity ..> IceMaker
+@enduml

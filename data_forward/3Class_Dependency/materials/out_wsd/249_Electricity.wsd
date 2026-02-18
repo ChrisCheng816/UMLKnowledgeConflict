@@ -1,4 +1,4 @@
 @startuml
-LaptopComputer ..> Electricity
-HomeUse ..> LaptopComputer
+GamingConsole ..> Electricity
+Gaming ..> GamingConsole
 @enduml

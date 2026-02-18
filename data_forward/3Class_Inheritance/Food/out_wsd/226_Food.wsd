@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dessert
-Dessert <|-- Cookie
+Food <|-- Beverage
+Beverage <|-- Juice
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Editorial o-- Magazine
+Writer o-- Editorial
+@enduml

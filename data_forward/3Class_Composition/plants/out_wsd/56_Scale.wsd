@@ -1,0 +1,4 @@
+@startuml
+Bulb *-- Scale
+Tulip *-- Bulb
+@enduml

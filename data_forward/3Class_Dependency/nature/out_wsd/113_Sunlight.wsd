@@ -1,0 +1,4 @@
+@startuml
+Heatwave ..> Sunlight
+HeatStroke ..> Heatwave
+@enduml

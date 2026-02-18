@@ -1,4 +1,4 @@
 @startuml
-PoolHeater ..> Electricity
-HomeUse ..> PoolHeater
+SnowBlower ..> Electricity
+Operating ..> SnowBlower
 @enduml

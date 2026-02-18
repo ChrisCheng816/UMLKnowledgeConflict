@@ -1,4 +1,4 @@
 @startuml
-GamingConsole ..> Electricity
-HomeUse ..> GamingConsole
+Television ..> Electricity
+Watching ..> Television
 @enduml

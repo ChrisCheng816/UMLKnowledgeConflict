@@ -1,0 +1,4 @@
+@startuml
+Squad o-- FireStation
+Guard o-- Squad
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Lever *-- Spring
+Toaster *-- Lever
+@enduml

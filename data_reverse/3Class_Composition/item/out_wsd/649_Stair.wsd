@@ -1,0 +1,4 @@
+@startuml
+Railing *-- Stair
+Post *-- Railing
+@enduml

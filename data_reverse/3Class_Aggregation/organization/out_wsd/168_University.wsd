@@ -1,0 +1,4 @@
+@startuml
+Department o-- University
+ResearchGroup o-- Department
+@enduml

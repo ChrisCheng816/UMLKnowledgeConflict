@@ -1,4 +1,4 @@
 @startuml
-WaterDispenser ..> Electricity
-HomeUse ..> WaterDispenser
+KnifeSharpener ..> Electricity
+Operating ..> KnifeSharpener
 @enduml

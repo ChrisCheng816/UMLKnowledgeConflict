@@ -1,0 +1,4 @@
+@startuml
+Handle *-- Loop
+Scissors *-- Handle
+@enduml

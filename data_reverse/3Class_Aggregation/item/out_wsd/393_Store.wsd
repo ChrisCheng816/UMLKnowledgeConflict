@@ -1,0 +1,4 @@
+@startuml
+Box o-- Store
+Puzzle o-- Box
+@enduml

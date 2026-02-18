@@ -1,0 +1,4 @@
+@startuml
+App ..> TicketBooking
+Internet ..> App
+@enduml

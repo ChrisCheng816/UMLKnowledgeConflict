@@ -1,0 +1,4 @@
+@startuml
+PurpleRain <|-- Album
+Album <|-- MusicWork
+@enduml

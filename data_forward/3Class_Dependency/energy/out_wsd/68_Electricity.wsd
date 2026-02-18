@@ -1,4 +1,4 @@
 @startuml
-WeldingMachine ..> Electricity
-Welding ..> WeldingMachine
+Drill ..> Electricity
+HoleMaking ..> Drill
 @enduml

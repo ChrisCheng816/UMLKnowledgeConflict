@@ -1,0 +1,4 @@
+@startuml
+Dishwasher ..> DishwasherCycle
+WallOutlet ..> Dishwasher
+@enduml

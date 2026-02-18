@@ -1,4 +1,4 @@
 @startuml
-GarmentSteamer ..> Electricity
-HomeUse ..> GarmentSteamer
+ElectricCanOpener ..> Electricity
+Operating ..> ElectricCanOpener
 @enduml

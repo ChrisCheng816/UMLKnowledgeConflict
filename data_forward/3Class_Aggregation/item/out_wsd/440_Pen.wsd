@@ -1,0 +1,4 @@
+@startuml
+Organizer o-- Pen
+Desk o-- Organizer
+@enduml

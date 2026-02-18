@@ -1,0 +1,4 @@
+@startuml
+Unit o-- FireStation
+Technician o-- Unit
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Skiing
-Skiing <|-- AlpineSkiing
+Sport <|-- Kayaking
+Kayaking <|-- SlalomKayaking
 @enduml

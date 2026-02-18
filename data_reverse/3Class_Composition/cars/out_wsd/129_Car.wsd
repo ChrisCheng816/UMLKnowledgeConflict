@@ -1,4 +1,4 @@
 @startuml
-Battery *-- Car
-Terminal *-- Battery
+FuelTank *-- Car
+Cap *-- FuelTank
 @enduml

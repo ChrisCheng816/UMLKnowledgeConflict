@@ -1,0 +1,4 @@
+@startuml
+BarcodeScanner ..> Scanning
+Electricity ..> BarcodeScanner
+@enduml

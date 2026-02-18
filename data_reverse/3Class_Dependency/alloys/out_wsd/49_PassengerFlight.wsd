@@ -1,0 +1,4 @@
+@startuml
+Airplane ..> PassengerFlight
+JetFuel ..> Airplane
+@enduml

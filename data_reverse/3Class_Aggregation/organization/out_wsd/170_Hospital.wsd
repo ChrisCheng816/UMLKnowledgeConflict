@@ -1,0 +1,4 @@
+@startuml
+Department o-- Hospital
+Clinic o-- Department
+@enduml

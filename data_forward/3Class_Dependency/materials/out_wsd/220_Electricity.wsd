@@ -1,4 +1,4 @@
 @startuml
-VacuumCleaner ..> Electricity
-DustRemoval ..> VacuumCleaner
+VideoDoorbell ..> Electricity
+MotionDetection ..> VideoDoorbell
 @enduml

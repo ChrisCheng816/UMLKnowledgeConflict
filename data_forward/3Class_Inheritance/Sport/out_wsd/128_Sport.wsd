@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- CombatSport
-CombatSport <|-- Wushu
+Sport <|-- Wrestling
+Wrestling <|-- CatchWrestling
 @enduml

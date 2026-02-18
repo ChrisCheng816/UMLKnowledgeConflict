@@ -1,0 +1,4 @@
+@startuml
+Paint ..> PaintMixing
+Pigment ..> Paint
+@enduml

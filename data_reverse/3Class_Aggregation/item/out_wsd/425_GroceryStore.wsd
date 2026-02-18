@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- GroceryStore
+Rice o-- Shelf
+@enduml

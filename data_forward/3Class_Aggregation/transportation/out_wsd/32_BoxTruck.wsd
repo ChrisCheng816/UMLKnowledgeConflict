@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- BoxTruck
+MovingCompany o-- Fleet
+@enduml

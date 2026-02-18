@@ -1,4 +1,4 @@
 @startuml
-FogMachine ..> Electricity
-HomeUse ..> FogMachine
+Plotter ..> Electricity
+Printing ..> Plotter
 @enduml

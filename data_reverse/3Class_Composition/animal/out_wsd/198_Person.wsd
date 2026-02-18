@@ -1,4 +1,4 @@
 @startuml
-Shoulder *-- Person
-Collarbone *-- Shoulder
+Leg *-- Person
+Calf *-- Leg
 @enduml

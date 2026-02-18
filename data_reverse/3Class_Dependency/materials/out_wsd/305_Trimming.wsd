@@ -1,0 +1,4 @@
+@startuml
+HedgeTrimmer ..> Trimming
+Electricity ..> HedgeTrimmer
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+NylonTent ..> Nylon
+Camping ..> NylonTent
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Door *-- Car
-Mirror *-- Door
+Starter *-- Car
+Solenoid *-- Starter
 @enduml

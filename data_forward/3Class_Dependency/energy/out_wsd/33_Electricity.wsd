@@ -1,4 +1,4 @@
 @startuml
-HeatGun ..> Electricity
-Heating ..> HeatGun
+Jigsaw ..> Electricity
+CurvedCutting ..> Jigsaw
 @enduml

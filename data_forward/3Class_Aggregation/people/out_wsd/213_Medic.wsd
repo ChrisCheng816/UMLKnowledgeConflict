@@ -1,0 +1,4 @@
+@startuml
+Squad o-- Medic
+Camp o-- Squad
+@enduml

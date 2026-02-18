@@ -1,0 +1,4 @@
+@startuml
+GameShow <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Department o-- Janitor
+Company o-- Department
+@enduml

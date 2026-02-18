@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- PomeFruit
-PomeFruit <|-- Pear
+Fruit <|-- DriedFruit
+DriedFruit <|-- DriedApricot
 @enduml

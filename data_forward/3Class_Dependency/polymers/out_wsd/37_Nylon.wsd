@@ -1,0 +1,4 @@
+@startuml
+NylonRope ..> Nylon
+Climbing ..> NylonRope
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Root *-- Ginger
+Skin *-- Root
+@enduml

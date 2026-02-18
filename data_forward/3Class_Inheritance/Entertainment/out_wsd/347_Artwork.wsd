@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- LasMeninas
+Artwork <|-- Sculpture
+Sculpture <|-- Moai
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Car
-Pinion *-- SteeringSystem
+Battery *-- Car
+Cell *-- Battery
 @enduml

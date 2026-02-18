@@ -1,0 +1,4 @@
+@startuml
+Couscous <|-- Dish
+Dish <|-- Food
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+InternetConnection ..> Modem
+WebBrowsing ..> InternetConnection
+@enduml

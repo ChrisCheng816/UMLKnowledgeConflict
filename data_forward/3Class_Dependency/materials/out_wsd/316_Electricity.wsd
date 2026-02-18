@@ -1,4 +1,4 @@
 @startuml
-Lathe ..> Electricity
-HomeUse ..> Lathe
+GlueGun ..> Electricity
+Operating ..> GlueGun
 @enduml

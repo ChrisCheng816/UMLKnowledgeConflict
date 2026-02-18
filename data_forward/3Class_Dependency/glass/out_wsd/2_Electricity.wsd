@@ -1,4 +1,4 @@
 @startuml
 CTScanner ..> Electricity
-CTImaging ..> CTScanner
+EmergencyImaging ..> CTScanner
 @enduml

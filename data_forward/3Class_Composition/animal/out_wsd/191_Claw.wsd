@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Claw
+Crab *-- Leg
+@enduml

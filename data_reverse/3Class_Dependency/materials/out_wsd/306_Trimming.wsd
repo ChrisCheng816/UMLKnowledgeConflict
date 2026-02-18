@@ -1,0 +1,4 @@
+@startuml
+StringTrimmer ..> Trimming
+Electricity ..> StringTrimmer
+@enduml

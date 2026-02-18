@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Screw
-Chair *-- Leg
+Handle *-- Screw
+Drawer *-- Handle
 @enduml

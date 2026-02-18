@@ -1,0 +1,4 @@
+@startuml
+Coil *-- Speaker
+Wire *-- Coil
+@enduml

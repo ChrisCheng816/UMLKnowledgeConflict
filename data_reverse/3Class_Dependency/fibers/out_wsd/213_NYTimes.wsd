@@ -1,0 +1,4 @@
+@startuml
+Internet ..> NYTimes
+Electricity ..> Internet
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TemperatureContrast ..> PressureDifference
+Sunlight ..> TemperatureContrast
+@enduml

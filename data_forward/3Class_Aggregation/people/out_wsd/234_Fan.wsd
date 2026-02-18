@@ -1,0 +1,4 @@
+@startuml
+Audience o-- Fan
+Theater o-- Audience
+@enduml

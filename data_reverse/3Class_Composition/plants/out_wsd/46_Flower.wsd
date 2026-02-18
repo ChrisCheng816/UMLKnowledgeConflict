@@ -1,0 +1,4 @@
+@startuml
+Stamen *-- Flower
+Anther *-- Stamen
+@enduml

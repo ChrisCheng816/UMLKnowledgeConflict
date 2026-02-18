@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Airline
+Jet o-- Fleet
+@enduml

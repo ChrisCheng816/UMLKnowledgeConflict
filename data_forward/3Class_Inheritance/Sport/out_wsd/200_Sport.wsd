@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Running
-Running <|-- MarathonRunning
+Sport <|-- Taekwondo
+Taekwondo <|-- OlympicTaekwondo
 @enduml

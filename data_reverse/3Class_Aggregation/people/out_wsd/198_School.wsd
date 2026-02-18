@@ -1,4 +1,4 @@
 @startuml
-ClubOfPhotographers o-- School
-Photographer o-- ClubOfPhotographers
+Choir o-- School
+Alto o-- Choir
 @enduml

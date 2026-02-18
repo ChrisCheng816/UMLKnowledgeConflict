@@ -1,4 +1,4 @@
 @startuml
 Hoop *-- Drum
-Rim *-- Hoop
+Clamp *-- Hoop
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Paper ..> PaperPrinting
+Trees ..> Paper
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Film <|-- HorrorFilm
-HorrorFilm <|-- Psycho
+Film <|-- AnimeFilm
+AnimeFilm <|-- SpiritedAway
 @enduml

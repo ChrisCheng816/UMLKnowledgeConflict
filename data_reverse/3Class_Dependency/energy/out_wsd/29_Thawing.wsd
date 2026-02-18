@@ -1,0 +1,4 @@
+@startuml
+HeatGun ..> Thawing
+Electricity ..> HeatGun
+@enduml

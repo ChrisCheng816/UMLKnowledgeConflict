@@ -1,0 +1,4 @@
+@startuml
+Airbnb ..> Booking
+Internet ..> Airbnb
+@enduml

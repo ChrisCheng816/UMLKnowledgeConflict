@@ -1,4 +1,4 @@
 @startuml
-DetailSander ..> Electricity
-Sanding ..> DetailSander
+AngleGrinder ..> Electricity
+AngleGrinding ..> AngleGrinder
 @enduml

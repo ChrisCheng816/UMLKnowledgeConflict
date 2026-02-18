@@ -1,0 +1,4 @@
+@startuml
+LabelPrinter ..> Printing
+Electricity ..> LabelPrinter
+@enduml

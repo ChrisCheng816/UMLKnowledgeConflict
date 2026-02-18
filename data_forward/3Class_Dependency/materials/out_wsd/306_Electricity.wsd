@@ -1,4 +1,4 @@
 @startuml
-PoolPump ..> Electricity
-HomeUse ..> PoolPump
+StringTrimmer ..> Electricity
+Trimming ..> StringTrimmer
 @enduml

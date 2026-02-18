@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- GrapeVine
-GrapeVine <|-- CabernetVine
+Plant <|-- Shrub
+Shrub <|-- Azalea
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Camera ..> Battery
+Photographer ..> Camera
+@enduml

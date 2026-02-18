@@ -1,4 +1,4 @@
 @startuml
-Humidifier ..> Electricity
-HomeUse ..> Humidifier
+InductionCooker ..> Electricity
+Cooking ..> InductionCooker
 @enduml

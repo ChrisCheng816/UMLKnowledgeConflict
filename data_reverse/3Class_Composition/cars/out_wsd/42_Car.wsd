@@ -1,4 +1,4 @@
 @startuml
 Transmission *-- Car
-ValveBody *-- Transmission
+Pan *-- Transmission
 @enduml

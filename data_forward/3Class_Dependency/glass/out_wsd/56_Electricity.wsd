@@ -1,0 +1,4 @@
+@startuml
+MRIMachine ..> Electricity
+AbdominalMRIScan ..> MRIMachine
+@enduml

@@ -4,6 +4,7 @@ Recursively find every data.txt under a root folder, and in-place de-duplicate l
 based on the full line content (all whitespace-separated tokens), case-insensitively.
 
 Rule:
+- If a line contains any repeated token (case-insensitive), remove that line.
 - 2 tokens: unordered pair key (A B == B A), case-insensitive.
 - 3+ tokens in 3Class relation groups: use relation-specific unordered pair.
   - Inheritance/Dependency -> unordered (a,b)
@@ -43,6 +44,11 @@ def _dedup_key(stripped: str, pair_mode: str | None = None) -> str:
     return stripped.casefold()
 
 
+def _has_repeated_token(stripped: str) -> bool:
+    parts = [p.casefold() for p in stripped.split()]
+    return len(parts) != len(set(parts))
+
+
 def dedup_file_in_place(path: Path, pair_mode: str | None = None) -> int:
     """
     Returns the number of removed lines.
@@ -58,6 +64,10 @@ def dedup_file_in_place(path: Path, pair_mode: str | None = None) -> int:
         stripped = line.strip()
         if not stripped:
             kept.append(line)
+            continue
+
+        if _has_repeated_token(stripped):
+            removed += 1
             continue
 
         # Use unordered pair for 2-token lines; otherwise full line, case-insensitive.
@@ -98,6 +108,10 @@ def count_removed(path: Path, pair_mode: str | None = None) -> int:
         if not stripped:
             continue
 
+        if _has_repeated_token(stripped):
+            removed += 1
+            continue
+
         # Same key rule as dedup_file_in_place.
         key = _dedup_key(stripped, pair_mode=pair_mode)
 
@@ -108,7 +122,15 @@ def count_removed(path: Path, pair_mode: str | None = None) -> int:
     return removed
 
 
-RemovedDetail = Tuple[Path, int, str, Path, int, str]
+RemovedDetail = Tuple[
+    Path,
+    int,
+    str,
+    str,
+    Path | None,
+    int | None,
+    str | None,
+]
 
 
 def dedup_files_in_place(
@@ -136,12 +158,35 @@ def dedup_files_in_place(
                 kept.append(line)
                 continue
 
+            if _has_repeated_token(stripped):
+                removed += 1
+                removed_details.append(
+                    (
+                        path,
+                        line_num,
+                        stripped,
+                        "duplicate-token-in-line",
+                        None,
+                        None,
+                        None,
+                    )
+                )
+                continue
+
             key = _dedup_key(stripped, pair_mode=pair_mode)
             if key in seen:
                 removed += 1
                 first_path, first_line_num, first_stripped = seen[key]
                 removed_details.append(
-                    (path, line_num, stripped, first_path, first_line_num, first_stripped)
+                    (
+                        path,
+                        line_num,
+                        stripped,
+                        "duplicate-key",
+                        first_path,
+                        first_line_num,
+                        first_stripped,
+                    )
                 )
                 continue
 
@@ -270,16 +315,20 @@ def main() -> int:
                     path,
                     line_num,
                     stripped,
+                    reason,
                     first_path,
                     first_line_num,
                     first_stripped,
                 ) in removed_details:
                     path_rel = path.relative_to(root)
-                    first_path_rel = first_path.relative_to(root)
                     print(f"  REMOVED {path_rel}:{line_num} :: {stripped}")
-                    print(
-                        f"    FIRST  {first_path_rel}:{first_line_num} :: {first_stripped}"
-                    )
+                    if reason == "duplicate-token-in-line":
+                        print("    REASON duplicate token appears within the same line")
+                    else:
+                        first_path_rel = first_path.relative_to(root)  # type: ignore[union-attr]
+                        print(
+                            f"    FIRST  {first_path_rel}:{first_line_num} :: {first_stripped}"
+                        )
 
     print(f"Scanned_files={total_files}  removed_lines_total={total_removed}")
     return 0

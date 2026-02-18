@@ -1,0 +1,4 @@
+@startuml
+Cart o-- Pasta
+GroceryStore o-- Cart
+@enduml

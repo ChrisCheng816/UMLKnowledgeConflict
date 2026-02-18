@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Pharmacy
+Thermometer o-- Shelf
+@enduml

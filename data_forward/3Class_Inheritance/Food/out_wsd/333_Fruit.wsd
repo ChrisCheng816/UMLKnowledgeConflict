@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Blackberry
-Blackberry <|-- MarionBlackberry
+Fruit <|-- Date
+Date <|-- MedjoolDate
 @enduml

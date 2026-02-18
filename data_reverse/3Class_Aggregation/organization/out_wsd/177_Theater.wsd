@@ -1,0 +1,4 @@
+@startuml
+Schedule o-- Theater
+Performance o-- Schedule
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Hose *-- Valve
+BicyclePump *-- Hose
+@enduml

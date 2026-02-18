@@ -1,0 +1,4 @@
+@startuml
+Audience o-- Stadium
+Viewer o-- Audience
+@enduml

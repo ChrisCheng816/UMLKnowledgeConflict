@@ -1,4 +1,4 @@
 @startuml
-HotAirStation ..> Electricity
-ShrinkWrapping ..> HotAirStation
+CircularSaw ..> Electricity
+LumberCutting ..> CircularSaw
 @enduml

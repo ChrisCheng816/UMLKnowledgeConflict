@@ -1,4 +1,4 @@
 @startuml
-Window *-- House
-Latch *-- Window
+Door *-- House
+Peephole *-- Door
 @enduml

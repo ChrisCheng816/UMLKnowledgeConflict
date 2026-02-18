@@ -1,4 +1,4 @@
 @startuml
-OrbitalSander ..> Electricity
-Woodworking ..> OrbitalSander
+ElectricHotPlate ..> Electricity
+Simmering ..> ElectricHotPlate
 @enduml

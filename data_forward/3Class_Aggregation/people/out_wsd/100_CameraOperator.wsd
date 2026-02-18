@@ -1,0 +1,4 @@
+@startuml
+CameraCrew o-- CameraOperator
+MovieSet o-- CameraCrew
+@enduml

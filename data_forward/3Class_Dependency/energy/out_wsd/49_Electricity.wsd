@@ -1,4 +1,4 @@
 @startuml
-Oscilloscope ..> Electricity
-Measuring ..> Oscilloscope
+WeldingMachine ..> Electricity
+GateRepair ..> WeldingMachine
 @enduml

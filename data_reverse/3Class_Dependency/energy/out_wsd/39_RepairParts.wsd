@@ -1,0 +1,4 @@
+@startuml
+3DPrinter ..> RepairParts
+Electricity ..> 3DPrinter
+@enduml

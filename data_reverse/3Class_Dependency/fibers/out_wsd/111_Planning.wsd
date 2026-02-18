@@ -1,0 +1,4 @@
+@startuml
+Booking ..> Planning
+Internet ..> Booking
+@enduml

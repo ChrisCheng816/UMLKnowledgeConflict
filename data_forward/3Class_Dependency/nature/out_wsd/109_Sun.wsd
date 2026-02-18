@@ -1,0 +1,4 @@
+@startuml
+Sunlight ..> Sun
+PlantGrowth ..> Sunlight
+@enduml

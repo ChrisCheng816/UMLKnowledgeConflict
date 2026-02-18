@@ -1,4 +1,4 @@
 @startuml
 Seat *-- Car
-Recliner *-- Seat
+Spring *-- Seat
 @enduml

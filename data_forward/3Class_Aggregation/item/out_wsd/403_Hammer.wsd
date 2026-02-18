@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Hammer
+Garage o-- Shelf
+@enduml

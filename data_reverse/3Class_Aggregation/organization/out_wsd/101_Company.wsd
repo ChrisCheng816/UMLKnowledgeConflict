@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Company
-Engineer o-- Staff
+Department o-- Company
+Architect o-- Department
 @enduml

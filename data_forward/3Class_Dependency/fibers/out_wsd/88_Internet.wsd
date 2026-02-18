@@ -1,4 +1,4 @@
 @startuml
-Threads ..> Internet
-OnlineUse ..> Threads
+Telegram ..> Internet
+Sharing ..> Telegram
 @enduml

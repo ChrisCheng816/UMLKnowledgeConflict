@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- TropicalFruit
-TropicalFruit <|-- Jackfruit
+Fruit <|-- DriedFruit
+DriedFruit <|-- Fig
 @enduml

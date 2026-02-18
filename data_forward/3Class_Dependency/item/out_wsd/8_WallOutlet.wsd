@@ -1,4 +1,4 @@
 @startuml
-ChargingStand ..> WallOutlet
-ElectricRazor ..> ChargingStand
+PowerAdapter ..> WallOutlet
+Laptop ..> PowerAdapter
 @enduml

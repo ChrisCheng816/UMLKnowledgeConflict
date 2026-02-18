@@ -1,0 +1,4 @@
+@startuml
+HeavyRain ..> RiverFlood
+Thunderstorm ..> HeavyRain
+@enduml

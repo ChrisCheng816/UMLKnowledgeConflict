@@ -1,0 +1,4 @@
+@startuml
+FaceTime ..> VideoCalling
+Internet ..> FaceTime
+@enduml

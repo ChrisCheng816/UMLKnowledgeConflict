@@ -1,0 +1,4 @@
+@startuml
+Drawer o-- Kitchen
+Knife o-- Drawer
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Teams ..> Internet
-OnlineUse ..> Teams
+Discord ..> Internet
+Calling ..> Discord
 @enduml

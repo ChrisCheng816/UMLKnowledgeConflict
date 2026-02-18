@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Ladder
+Garage o-- Shelf
+@enduml

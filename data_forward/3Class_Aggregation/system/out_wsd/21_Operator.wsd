@@ -1,0 +1,4 @@
+@startuml
+Hotline o-- Operator
+EmergencySystem o-- Hotline
+@enduml

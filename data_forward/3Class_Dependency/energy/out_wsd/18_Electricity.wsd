@@ -1,4 +1,4 @@
 @startuml
-ClampMeter ..> Electricity
-ContinuityTesting ..> ClampMeter
+WeldingMachine ..> Electricity
+MetalFabrication ..> WeldingMachine
 @enduml

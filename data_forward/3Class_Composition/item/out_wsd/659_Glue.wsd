@@ -1,0 +1,4 @@
+@startuml
+Flap *-- Glue
+Envelope *-- Flap
+@enduml

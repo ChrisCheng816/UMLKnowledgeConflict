@@ -1,0 +1,4 @@
+@startuml
+Basket o-- Supermarket
+Potato o-- Basket
+@enduml

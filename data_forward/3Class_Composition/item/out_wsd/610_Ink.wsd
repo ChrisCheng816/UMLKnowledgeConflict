@@ -1,0 +1,4 @@
+@startuml
+Cartridge *-- Ink
+Printer *-- Cartridge
+@enduml

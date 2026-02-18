@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Person
-Pinna *-- Ear
+Arm *-- Person
+Elbow *-- Arm
 @enduml

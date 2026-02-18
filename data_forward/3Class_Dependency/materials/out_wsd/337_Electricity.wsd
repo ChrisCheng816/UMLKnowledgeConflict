@@ -1,4 +1,4 @@
 @startuml
-SmartBoard ..> Electricity
-HomeUse ..> SmartBoard
+Turntable ..> Electricity
+AudioPlayback ..> Turntable
 @enduml

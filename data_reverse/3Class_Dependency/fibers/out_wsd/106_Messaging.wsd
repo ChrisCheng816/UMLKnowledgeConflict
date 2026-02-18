@@ -1,0 +1,4 @@
+@startuml
+WhatsApp ..> Messaging
+Internet ..> WhatsApp
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- TropicalFruit
-TropicalFruit <|-- Lychee
+Fruit <|-- Pineapple
+Pineapple <|-- QueenPineapple
 @enduml

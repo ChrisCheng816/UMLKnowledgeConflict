@@ -1,4 +1,4 @@
 @startuml
 Hoop *-- Drum
-Rod *-- Hoop
+Washer *-- Hoop
 @enduml

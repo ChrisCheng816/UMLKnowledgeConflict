@@ -1,0 +1,4 @@
+@startuml
+Bin o-- GroceryStore
+Apples o-- Bin
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Roster o-- RadioStation
+Host o-- Roster
+@enduml

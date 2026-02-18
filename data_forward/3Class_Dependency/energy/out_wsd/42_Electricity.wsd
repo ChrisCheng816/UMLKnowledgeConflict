@@ -1,4 +1,4 @@
 @startuml
-Multimeter ..> Electricity
-ContinuityTesting ..> Multimeter
+3DPrinter ..> Electricity
+CustomParts ..> 3DPrinter
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Forest
-Forest <|-- RedwoodForest
+GeographicFeature <|-- Waterfall
+Waterfall <|-- NiagaraFalls
 @enduml

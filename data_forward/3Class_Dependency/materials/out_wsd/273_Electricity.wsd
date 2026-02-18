@@ -1,4 +1,4 @@
 @startuml
-EllipticalMachine ..> Electricity
-HomeUse ..> EllipticalMachine
+AquariumPump ..> Electricity
+Operating ..> AquariumPump
 @enduml

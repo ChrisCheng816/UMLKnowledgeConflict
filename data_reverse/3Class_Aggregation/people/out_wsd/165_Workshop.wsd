@@ -1,0 +1,4 @@
+@startuml
+Department o-- Workshop
+Carpenter o-- Department
+@enduml

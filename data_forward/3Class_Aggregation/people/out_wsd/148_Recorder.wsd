@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Recorder
+Community o-- Committee
+@enduml

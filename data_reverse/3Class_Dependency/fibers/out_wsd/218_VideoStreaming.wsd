@@ -1,0 +1,4 @@
+@startuml
+Smartphone ..> VideoStreaming
+CellularNetwork ..> Smartphone
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Battery *-- Cell
+Car *-- Battery
+@enduml

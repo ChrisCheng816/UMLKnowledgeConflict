@@ -1,4 +1,4 @@
 @startuml
-EbikeCharger ..> WallOutlet
-Ebike ..> EbikeCharger
+PhoneCharger ..> WallOutlet
+PhoneCharging ..> PhoneCharger
 @enduml

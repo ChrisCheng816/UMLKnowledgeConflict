@@ -1,4 +1,4 @@
 @startuml
-SmartSpeaker ..> WiFiNetwork
-WebBrowsing ..> SmartSpeaker
+SmartTV ..> WiFiNetwork
+VideoStreaming ..> SmartTV
 @enduml

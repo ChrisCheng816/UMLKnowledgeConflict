@@ -1,4 +1,4 @@
 @startuml
-RapidCharger ..> WallOutlet
-PowerToolBattery ..> RapidCharger
+BatteryCharger ..> WallOutlet
+RadioBattery ..> BatteryCharger
 @enduml

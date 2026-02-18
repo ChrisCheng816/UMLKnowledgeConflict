@@ -1,4 +1,4 @@
 @startuml
-Messenger ..> Internet
-OnlineUse ..> Messenger
+Instagram ..> Internet
+Posting ..> Instagram
 @enduml

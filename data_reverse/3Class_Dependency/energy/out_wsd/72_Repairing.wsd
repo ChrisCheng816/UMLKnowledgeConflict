@@ -1,0 +1,4 @@
+@startuml
+HotGlueGun ..> Repairing
+Electricity ..> HotGlueGun
+@enduml

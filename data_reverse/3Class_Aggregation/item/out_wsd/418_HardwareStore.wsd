@@ -1,0 +1,4 @@
+@startuml
+Box o-- HardwareStore
+Screwdriver o-- Box
+@enduml

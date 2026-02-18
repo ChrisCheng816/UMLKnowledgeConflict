@@ -1,4 +1,4 @@
 @startuml
 Panel *-- Comic
-Caption *-- Panel
+Dialogue *-- Panel
 @enduml

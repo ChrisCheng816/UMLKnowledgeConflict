@@ -1,0 +1,4 @@
+@startuml
+Threads ..> Posting
+Internet ..> Threads
+@enduml

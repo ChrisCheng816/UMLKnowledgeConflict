@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Wheat
-Wheat <|-- DurumWheat
+Plant <|-- Herb
+Herb <|-- Coriander
 @enduml

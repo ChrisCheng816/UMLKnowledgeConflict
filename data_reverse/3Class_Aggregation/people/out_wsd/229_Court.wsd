@@ -1,0 +1,4 @@
+@startuml
+Panel o-- Court
+Moderator o-- Panel
+@enduml

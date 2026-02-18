@@ -1,4 +1,4 @@
 @startuml
-Gmail ..> Internet
-OnlineUse ..> Gmail
+GoogleDrive ..> Internet
+Sharing ..> GoogleDrive
 @enduml

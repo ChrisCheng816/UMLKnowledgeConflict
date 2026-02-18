@@ -1,0 +1,4 @@
+@startuml
+GlucoseMeter ..> Operating
+Electricity ..> GlucoseMeter
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- MountainRange
-MountainRange <|-- Andes
+GeographicFeature <|-- Forest
+Forest <|-- RedwoodForest
 @enduml

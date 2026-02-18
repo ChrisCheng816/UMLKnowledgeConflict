@@ -1,0 +1,4 @@
+@startuml
+Panel o-- Workshop
+Expert o-- Panel
+@enduml

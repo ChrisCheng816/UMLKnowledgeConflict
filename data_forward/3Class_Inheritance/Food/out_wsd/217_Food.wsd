@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Snack
-Snack <|-- TrailMix
+Food <|-- Dessert
+Dessert <|-- Macaron
 @enduml

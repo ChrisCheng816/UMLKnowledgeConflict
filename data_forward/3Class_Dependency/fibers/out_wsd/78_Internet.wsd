@@ -1,4 +1,4 @@
 @startuml
-GoogleMeet ..> Internet
-OnlineUse ..> GoogleMeet
+Messenger ..> Internet
+Messaging ..> Messenger
 @enduml

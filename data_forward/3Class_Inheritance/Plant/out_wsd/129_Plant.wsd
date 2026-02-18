@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Palm
-Palm <|-- DatePalm
+Plant <|-- Tree
+Tree <|-- MangoTree
 @enduml

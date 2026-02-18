@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- StemVegetable
-StemVegetable <|-- Rhubarb
+Vegetable <|-- SquashVegetable
+SquashVegetable <|-- Chayote
 @enduml

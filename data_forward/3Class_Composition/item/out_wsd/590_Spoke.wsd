@@ -1,0 +1,4 @@
+@startuml
+Rib *-- Spoke
+Umbrella *-- Rib
+@enduml

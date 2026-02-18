@@ -1,0 +1,4 @@
+@startuml
+GoogleDrive ..> Sharing
+Internet ..> GoogleDrive
+@enduml

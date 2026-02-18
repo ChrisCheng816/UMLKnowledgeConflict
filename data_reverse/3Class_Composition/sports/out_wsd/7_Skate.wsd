@@ -1,0 +1,4 @@
+@startuml
+Boot *-- Skate
+Lace *-- Boot
+@enduml

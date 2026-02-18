@@ -1,4 +1,4 @@
 @startuml
-Trunk *-- Car
-Strut *-- Trunk
+Suspension *-- Car
+Bushing *-- Suspension
 @enduml

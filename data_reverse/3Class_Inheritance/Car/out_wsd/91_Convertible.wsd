@@ -1,0 +1,4 @@
+@startuml
+Convertible <|-- Car
+Car <|-- Vehicle
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Turntable ..> Electricity
-MusicPlayback ..> Turntable
+VacuumCleaner ..> Electricity
+CarpetCleaning ..> VacuumCleaner
 @enduml

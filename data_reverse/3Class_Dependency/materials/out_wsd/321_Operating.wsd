@@ -1,0 +1,4 @@
+@startuml
+KaraokeMachine ..> Operating
+Electricity ..> KaraokeMachine
+@enduml

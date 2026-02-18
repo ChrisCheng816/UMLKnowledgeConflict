@@ -1,0 +1,4 @@
+@startuml
+AngleGrinder ..> Sharpening
+Electricity ..> AngleGrinder
+@enduml

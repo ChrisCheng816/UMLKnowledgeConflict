@@ -1,0 +1,4 @@
+@startuml
+Catalog o-- Series
+StreamingService o-- Catalog
+@enduml

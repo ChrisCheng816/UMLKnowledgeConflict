@@ -1,4 +1,4 @@
 @startuml
-CTScanner ..> Electricity
-TraumaScan ..> CTScanner
+MRIMachine ..> Electricity
+BrainScan ..> MRIMachine
 @enduml

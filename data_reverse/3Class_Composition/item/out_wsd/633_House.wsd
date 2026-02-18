@@ -1,0 +1,4 @@
+@startuml
+Fireplace *-- House
+Mantel *-- Fireplace
+@enduml

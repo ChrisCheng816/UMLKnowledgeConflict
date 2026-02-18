@@ -1,0 +1,4 @@
+@startuml
+Folder o-- Office
+Certificate o-- Folder
+@enduml

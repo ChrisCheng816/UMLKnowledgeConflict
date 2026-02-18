@@ -1,0 +1,4 @@
+@startuml
+Cable *-- Headphone
+Wire *-- Cable
+@enduml

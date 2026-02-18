@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Cycling
-Cycling <|-- RoadCycling
+Sport <|-- Judo
+Judo <|-- OlympicJudo
 @enduml

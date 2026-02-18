@@ -1,0 +1,4 @@
+@startuml
+Shot *-- Movie
+Frame *-- Shot
+@enduml

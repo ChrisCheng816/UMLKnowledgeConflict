@@ -1,0 +1,4 @@
+@startuml
+Jury o-- Foreperson
+Court o-- Jury
+@enduml

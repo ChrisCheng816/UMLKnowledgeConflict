@@ -1,0 +1,4 @@
+@startuml
+Flipper *-- Seal
+Claw *-- Flipper
+@enduml

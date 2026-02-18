@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Cereal
+Cereal <|-- Granola
+@enduml

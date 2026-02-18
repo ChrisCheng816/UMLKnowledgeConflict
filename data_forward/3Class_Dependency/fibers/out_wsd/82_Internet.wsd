@@ -1,4 +1,4 @@
 @startuml
-Snapchat ..> Internet
-OnlineUse ..> Snapchat
+GoogleDrive ..> Internet
+Downloading ..> GoogleDrive
 @enduml

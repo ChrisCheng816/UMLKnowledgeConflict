@@ -1,4 +1,4 @@
 @startuml
-GasStation ..> FuelDeliveryTruck
-Car ..> GasStation
+DepotFuelPump ..> FuelDeliveryTruck
+DieselBus ..> DepotFuelPump
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SumpPump ..> Electricity
-HomeUse ..> SumpPump
+HedgeTrimmer ..> Electricity
+Trimming ..> HedgeTrimmer
 @enduml

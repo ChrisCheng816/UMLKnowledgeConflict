@@ -1,0 +1,4 @@
+@startuml
+RobotVacuum ..> Vacuuming
+Electricity ..> RobotVacuum
+@enduml

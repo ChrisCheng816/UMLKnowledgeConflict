@@ -1,4 +1,4 @@
 @startuml
-Peacock ..> Internet
-OnlineUse ..> Peacock
+Signal ..> Internet
+Calling ..> Signal
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Window *-- Frame
+House *-- Window
+@enduml

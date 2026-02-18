@@ -1,0 +1,4 @@
+@startuml
+ClothesDryer ..> WallOutlet
+DryerCycle ..> ClothesDryer
+@enduml

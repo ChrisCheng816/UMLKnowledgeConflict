@@ -1,0 +1,4 @@
+@startuml
+Lightning ..> Thundercloud
+LightningStrike ..> Lightning
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Paddock o-- Farm
+Horse o-- Paddock
+@enduml

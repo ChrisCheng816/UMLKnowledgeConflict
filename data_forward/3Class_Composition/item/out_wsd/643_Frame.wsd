@@ -1,0 +1,4 @@
+@startuml
+Back *-- Frame
+Chair *-- Back
+@enduml

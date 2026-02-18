@@ -1,4 +1,4 @@
 @startuml
-Head *-- Person
-Eye *-- Head
+Eye *-- Person
+Muscle *-- Eye
 @enduml

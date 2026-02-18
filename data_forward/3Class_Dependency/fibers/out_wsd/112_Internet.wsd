@@ -1,4 +1,4 @@
 @startuml
-Twitch ..> Internet
-OnlineUse ..> Twitch
+Expedia ..> Internet
+Planning ..> Expedia
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Tree <|-- Palm
+Palm <|-- CoconutPalm
+@enduml

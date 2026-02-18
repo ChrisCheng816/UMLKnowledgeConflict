@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- TeaBags
+GroceryStore o-- Shelf
+@enduml

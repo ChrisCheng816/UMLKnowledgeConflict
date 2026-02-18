@@ -1,0 +1,4 @@
+@startuml
+Desk o-- Reporter
+Newsroom o-- Desk
+@enduml

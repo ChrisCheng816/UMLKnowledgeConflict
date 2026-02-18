@@ -1,0 +1,4 @@
+@startuml
+Roof *-- House
+Flashing *-- Roof
+@enduml

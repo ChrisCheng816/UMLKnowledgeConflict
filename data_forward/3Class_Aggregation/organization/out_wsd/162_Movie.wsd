@@ -1,0 +1,4 @@
+@startuml
+Queue o-- Movie
+StreamingService o-- Queue
+@enduml

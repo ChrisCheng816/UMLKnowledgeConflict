@@ -1,0 +1,4 @@
+@startuml
+Department o-- Cleaner
+Company o-- Department
+@enduml

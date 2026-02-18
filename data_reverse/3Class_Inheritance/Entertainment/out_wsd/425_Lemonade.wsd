@@ -1,0 +1,4 @@
+@startuml
+Lemonade <|-- Album
+Album <|-- MusicWork
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Department o-- Scientist
+Company o-- Department
+@enduml

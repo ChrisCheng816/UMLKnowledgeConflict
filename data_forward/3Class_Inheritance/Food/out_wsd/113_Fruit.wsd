@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Berry
-Berry <|-- GojiBerry
+Fruit <|-- TropicalFruit
+TropicalFruit <|-- Papaya
 @enduml

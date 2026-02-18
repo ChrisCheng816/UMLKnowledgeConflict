@@ -1,0 +1,4 @@
+@startuml
+Thriller <|-- PopSong
+PopSong <|-- Song
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-StapleGun ..> Electricity
-HomeUse ..> StapleGun
+DJController ..> Electricity
+Operating ..> DJController
 @enduml

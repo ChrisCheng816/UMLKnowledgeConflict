@@ -1,0 +1,4 @@
+@startuml
+Freezer *-- Refrigerator
+Drawer *-- Freezer
+@enduml

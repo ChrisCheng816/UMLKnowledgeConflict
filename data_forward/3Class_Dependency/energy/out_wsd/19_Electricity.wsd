@@ -1,4 +1,4 @@
 @startuml
-ClampMeter ..> Electricity
-Measuring ..> ClampMeter
+WeldingMachine ..> Electricity
+RepairWork ..> WeldingMachine
 @enduml

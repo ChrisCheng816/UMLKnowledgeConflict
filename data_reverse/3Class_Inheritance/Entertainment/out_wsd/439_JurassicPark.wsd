@@ -1,0 +1,4 @@
+@startuml
+JurassicPark <|-- AdventureFilm
+AdventureFilm <|-- Film
+@enduml

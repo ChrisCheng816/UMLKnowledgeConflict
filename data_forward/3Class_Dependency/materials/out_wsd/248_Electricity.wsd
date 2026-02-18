@@ -1,4 +1,4 @@
 @startuml
-DesktopComputer ..> Electricity
-HomeUse ..> DesktopComputer
+LaptopComputer ..> Electricity
+Computing ..> LaptopComputer
 @enduml

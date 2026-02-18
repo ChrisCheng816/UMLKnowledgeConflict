@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- NightshadeVegetable
-NightshadeVegetable <|-- Habanero
+Vegetable <|-- SeaVegetable
+SeaVegetable <|-- SeaLettuce
 @enduml

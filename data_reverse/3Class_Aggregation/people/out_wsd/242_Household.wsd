@@ -1,0 +1,4 @@
+@startuml
+Family o-- Household
+Aunt o-- Family
+@enduml

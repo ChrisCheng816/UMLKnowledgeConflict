@@ -1,0 +1,4 @@
+@startuml
+Aquarium o-- PetStore
+Crab o-- Aquarium
+@enduml

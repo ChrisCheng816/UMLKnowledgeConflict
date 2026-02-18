@@ -1,0 +1,4 @@
+@startuml
+TalkShow <|-- TVSeries
+TVSeries <|-- Entertainment
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Radiator *-- Car
-Fan *-- Radiator
+Exhaust *-- Car
+Muffler *-- Exhaust
 @enduml

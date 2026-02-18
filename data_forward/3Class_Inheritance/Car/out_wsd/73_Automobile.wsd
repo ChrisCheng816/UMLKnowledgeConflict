@@ -1,0 +1,4 @@
+@startuml
+Automobile <|-- Sedan
+Sedan <|-- VolkswagenJetta
+@enduml

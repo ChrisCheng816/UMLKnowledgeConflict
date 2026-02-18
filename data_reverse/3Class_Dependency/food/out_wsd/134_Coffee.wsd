@@ -1,0 +1,4 @@
+@startuml
+CoffeeBeans ..> Coffee
+CoffeePlant ..> CoffeeBeans
+@enduml

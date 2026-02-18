@@ -1,4 +1,4 @@
 @startuml
-InfusionPump ..> Electricity
-MedicationInfusion ..> InfusionPump
+MRIMachine ..> Electricity
+KneeMRI ..> MRIMachine
 @enduml

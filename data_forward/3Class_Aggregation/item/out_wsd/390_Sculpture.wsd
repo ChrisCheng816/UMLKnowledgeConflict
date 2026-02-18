@@ -1,0 +1,4 @@
+@startuml
+Catalog o-- Sculpture
+Museum o-- Catalog
+@enduml

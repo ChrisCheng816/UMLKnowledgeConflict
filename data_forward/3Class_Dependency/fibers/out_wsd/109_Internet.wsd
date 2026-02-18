@@ -1,4 +1,4 @@
 @startuml
-Tidal ..> Internet
-OnlineUse ..> Tidal
+Messenger ..> Internet
+Calling ..> Messenger
 @enduml

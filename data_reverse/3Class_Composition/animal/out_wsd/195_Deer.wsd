@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Deer
+Hoof *-- Leg
+@enduml

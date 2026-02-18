@@ -1,4 +1,4 @@
 @startuml
-Floor *-- House
-Plank *-- Floor
+Ceiling *-- House
+Vent *-- Ceiling
 @enduml

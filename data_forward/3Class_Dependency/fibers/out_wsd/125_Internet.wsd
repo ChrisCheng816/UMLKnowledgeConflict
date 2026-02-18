@@ -1,4 +1,4 @@
 @startuml
-Mega ..> Internet
-OnlineUse ..> Mega
+Messenger ..> Internet
+Texting ..> Messenger
 @enduml

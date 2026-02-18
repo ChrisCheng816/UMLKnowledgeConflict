@@ -1,4 +1,4 @@
 @startuml
-Jira ..> Internet
-OnlineUse ..> Jira
+FaceTime ..> Internet
+Calling ..> FaceTime
 @enduml

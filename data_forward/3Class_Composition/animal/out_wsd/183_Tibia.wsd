@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Tibia
+Person *-- Leg
+@enduml

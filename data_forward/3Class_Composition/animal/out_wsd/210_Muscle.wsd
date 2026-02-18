@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Muscle
+Horse *-- Leg
+@enduml

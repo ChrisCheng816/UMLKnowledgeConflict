@@ -1,0 +1,4 @@
+@startuml
+Choir o-- Chorister
+School o-- Choir
+@enduml

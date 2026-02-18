@@ -1,4 +1,4 @@
 @startuml
-Porch *-- House
-Post *-- Porch
+Plumbing *-- House
+Seal *-- Plumbing
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Medium ..> Internet
-OnlineUse ..> Medium
+Dropbox ..> Internet
+Uploading ..> Dropbox
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-StringTrimmer ..> Electricity
-HomeUse ..> StringTrimmer
+AirPump ..> Electricity
+Operating ..> AirPump
 @enduml

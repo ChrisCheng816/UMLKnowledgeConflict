@@ -1,0 +1,4 @@
+@startuml
+Grip *-- Tape
+Racket *-- Grip
+@enduml

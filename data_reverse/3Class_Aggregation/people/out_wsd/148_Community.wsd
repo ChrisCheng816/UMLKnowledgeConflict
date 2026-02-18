@@ -1,4 +1,4 @@
 @startuml
-GroupOfGamers o-- Community
-Gamer o-- GroupOfGamers
+Committee o-- Community
+Recorder o-- Committee
 @enduml

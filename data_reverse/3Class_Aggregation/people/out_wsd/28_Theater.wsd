@@ -1,4 +1,4 @@
 @startuml
-CastOfActors o-- Theater
-Actor o-- CastOfActors
+Staff o-- Theater
+Usher o-- Staff
 @enduml

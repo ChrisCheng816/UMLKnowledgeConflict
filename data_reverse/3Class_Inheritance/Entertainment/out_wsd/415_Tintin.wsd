@@ -1,0 +1,4 @@
+@startuml
+Tintin <|-- Comic
+Comic <|-- Entertainment
+@enduml

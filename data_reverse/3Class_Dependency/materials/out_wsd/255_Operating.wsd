@@ -1,0 +1,4 @@
+@startuml
+SmartThermostat ..> Operating
+Electricity ..> SmartThermostat
+@enduml

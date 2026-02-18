@@ -1,0 +1,4 @@
+@startuml
+Company o-- Dancer
+Theater o-- Company
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Cycling <|-- TrackCycling
-TrackCycling <|-- Keirin
+Cycling <|-- RoadCycling
+RoadCycling <|-- TimeTrial
 @enduml

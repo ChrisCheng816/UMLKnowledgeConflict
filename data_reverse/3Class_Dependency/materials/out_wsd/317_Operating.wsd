@@ -1,0 +1,4 @@
+@startuml
+NailGun ..> Operating
+Electricity ..> NailGun
+@enduml

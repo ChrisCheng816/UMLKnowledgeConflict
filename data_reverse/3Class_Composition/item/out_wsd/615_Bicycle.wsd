@@ -1,0 +1,4 @@
+@startuml
+Brake *-- Bicycle
+Cable *-- Brake
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+FishingLine ..> Nylon
+Fishing ..> FishingLine
+@enduml

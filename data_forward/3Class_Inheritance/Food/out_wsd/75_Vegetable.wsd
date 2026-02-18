@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- StemVegetable
-StemVegetable <|-- Fennel
+Vegetable <|-- AlliumVegetable
+AlliumVegetable <|-- GreenOnion
 @enduml

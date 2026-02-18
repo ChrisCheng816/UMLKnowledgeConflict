@@ -1,0 +1,4 @@
+@startuml
+Hamburger <|-- Sandwich
+Sandwich <|-- Food
+@enduml

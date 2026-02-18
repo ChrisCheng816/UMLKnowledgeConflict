@@ -1,4 +1,4 @@
 @startuml
-UltrasoundMachine ..> Electricity
-CardiacUltrasound ..> UltrasoundMachine
+ECGMonitor ..> Electricity
+EKGTest ..> ECGMonitor
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+LaptopComputer ..> Computing
+Electricity ..> LaptopComputer
+@enduml

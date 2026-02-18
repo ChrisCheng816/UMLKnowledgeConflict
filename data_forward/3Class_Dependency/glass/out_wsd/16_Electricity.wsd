@@ -1,4 +1,4 @@
 @startuml
-ExamLight ..> Electricity
-SurgicalLighting ..> ExamLight
+Ventilator ..> Electricity
+AnesthesiaSupport ..> Ventilator
 @enduml

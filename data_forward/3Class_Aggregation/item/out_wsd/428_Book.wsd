@@ -1,0 +1,4 @@
+@startuml
+Cart o-- Book
+Library o-- Cart
+@enduml

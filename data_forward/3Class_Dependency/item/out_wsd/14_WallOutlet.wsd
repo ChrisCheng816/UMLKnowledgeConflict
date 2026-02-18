@@ -1,4 +1,4 @@
 @startuml
-PowerCord ..> WallOutlet
-Scanner ..> PowerCord
+BatteryCharger ..> WallOutlet
+CameraBattery ..> BatteryCharger
 @enduml

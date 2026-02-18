@@ -1,4 +1,4 @@
 @startuml
-Substack ..> Internet
-OnlineUse ..> Substack
+Snapchat ..> Internet
+Posting ..> Snapchat
 @enduml

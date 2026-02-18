@@ -1,4 +1,4 @@
 @startuml
-Spine *-- Person
-Nerve *-- Spine
+Arm *-- Person
+Humerus *-- Arm
 @enduml

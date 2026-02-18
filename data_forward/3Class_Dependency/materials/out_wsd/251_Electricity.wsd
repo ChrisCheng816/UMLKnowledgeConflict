@@ -1,4 +1,4 @@
 @startuml
-Television ..> Electricity
-HomeUse ..> Television
+Monitor ..> Electricity
+Displaying ..> Monitor
 @enduml

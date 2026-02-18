@@ -1,4 +1,4 @@
 @startuml
-Floor *-- House
-Carpet *-- Floor
+Ceiling *-- House
+Beam *-- Ceiling
 @enduml

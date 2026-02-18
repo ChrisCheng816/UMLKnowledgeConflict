@@ -1,4 +1,4 @@
 @startuml
-Roof *-- House
-Flashing *-- Roof
+Floor *-- House
+Carpet *-- Floor
 @enduml

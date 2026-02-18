@@ -1,0 +1,4 @@
+@startuml
+Basket o-- Apple
+Supermarket o-- Basket
+@enduml

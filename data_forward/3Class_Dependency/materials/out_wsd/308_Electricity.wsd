@@ -1,4 +1,4 @@
 @startuml
-LeafVacuum ..> Electricity
-HomeUse ..> LeafVacuum
+Chainsaw ..> Electricity
+Operating ..> Chainsaw
 @enduml

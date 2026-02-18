@@ -1,4 +1,4 @@
 @startuml
-GroupOfStudents o-- School
-Student o-- GroupOfStudents
+Faculty o-- School
+Counselor o-- Faculty
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+CopperWire ..> Wiring
+Copper ..> CopperWire
+@enduml

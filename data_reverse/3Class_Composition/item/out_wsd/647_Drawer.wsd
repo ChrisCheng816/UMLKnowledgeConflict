@@ -1,0 +1,4 @@
+@startuml
+Rail *-- Drawer
+Wheel *-- Rail
+@enduml

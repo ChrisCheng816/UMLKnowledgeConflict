@@ -1,0 +1,4 @@
+@startuml
+PressureDifference ..> StormSystem
+TemperatureContrast ..> PressureDifference
+@enduml

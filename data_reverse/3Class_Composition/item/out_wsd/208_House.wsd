@@ -1,4 +1,4 @@
 @startuml
-Foundation *-- House
-Pier *-- Foundation
+Basement *-- House
+Wall *-- Basement
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Spacesuit ..> Oxygen
+Astronaut ..> Spacesuit
+@enduml

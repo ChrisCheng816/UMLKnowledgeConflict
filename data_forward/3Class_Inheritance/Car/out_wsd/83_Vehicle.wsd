@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Bicycle
-Bicycle <|-- TrekRoadBike
+Vehicle <|-- Scooter
+Scooter <|-- VespaPrimavera
 @enduml

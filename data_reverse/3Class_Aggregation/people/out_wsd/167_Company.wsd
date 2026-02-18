@@ -1,4 +1,4 @@
 @startuml
-StaffOfLibrarians o-- Company
-Librarian o-- StaffOfLibrarians
+Department o-- Company
+Guard o-- Department
 @enduml

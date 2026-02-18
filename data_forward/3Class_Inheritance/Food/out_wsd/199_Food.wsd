@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dish
-Dish <|-- Kimchi
+Food <|-- Snack
+Snack <|-- Chips
 @enduml

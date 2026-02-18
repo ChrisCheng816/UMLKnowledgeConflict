@@ -1,4 +1,4 @@
 @startuml
-DrillPress ..> Electricity
-Drilling ..> DrillPress
+Jigsaw ..> Electricity
+CraftCutting ..> Jigsaw
 @enduml

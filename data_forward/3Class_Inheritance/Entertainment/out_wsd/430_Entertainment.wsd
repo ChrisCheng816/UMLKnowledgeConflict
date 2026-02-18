@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Song
-Song <|-- ImagineSong
+Entertainment <|-- Comic
+Comic <|-- ComicBook
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Laminator ..> Laminating
+Electricity ..> Laminator
+@enduml

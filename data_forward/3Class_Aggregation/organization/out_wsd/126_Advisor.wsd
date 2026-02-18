@@ -1,0 +1,4 @@
+@startuml
+Faculty o-- Advisor
+University o-- Faculty
+@enduml

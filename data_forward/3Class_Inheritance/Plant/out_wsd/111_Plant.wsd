@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Flower
-Flower <|-- Zinnia
+Plant <|-- Succulent
+Succulent <|-- Aloe
 @enduml

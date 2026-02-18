@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dish
-Dish <|-- Shawarma
+Food <|-- Snack
+Snack <|-- TrailMix
 @enduml

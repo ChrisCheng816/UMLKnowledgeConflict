@@ -1,4 +1,4 @@
 @startuml
-ChargingCable ..> WallOutlet
-ElectricShaver ..> ChargingCable
+PowerCord ..> WallOutlet
+Printer ..> PowerCord
 @enduml

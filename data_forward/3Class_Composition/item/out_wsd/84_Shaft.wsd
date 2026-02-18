@@ -1,4 +1,4 @@
 @startuml
-Drum *-- Shaft
-Washer *-- Drum
+Motor *-- Shaft
+Vacuum *-- Motor
 @enduml

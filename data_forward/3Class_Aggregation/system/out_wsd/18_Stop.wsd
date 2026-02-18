@@ -1,0 +1,4 @@
+@startuml
+Route o-- Stop
+TransitSystem o-- Route
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Team o-- Cashier
+Cafe o-- Team
+@enduml

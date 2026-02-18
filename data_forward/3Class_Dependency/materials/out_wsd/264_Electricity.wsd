@@ -1,4 +1,4 @@
 @startuml
-DroneCharger ..> Electricity
-HomeUse ..> DroneCharger
+CPAPMachine ..> Electricity
+Operating ..> CPAPMachine
 @enduml

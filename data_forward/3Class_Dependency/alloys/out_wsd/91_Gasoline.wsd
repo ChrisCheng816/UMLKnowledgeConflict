@@ -1,0 +1,4 @@
+@startuml
+Motorcycle ..> Gasoline
+MotorcycleTour ..> Motorcycle
+@enduml

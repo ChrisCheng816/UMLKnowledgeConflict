@@ -1,0 +1,4 @@
+@startuml
+Team o-- Paramedic
+Hospital o-- Team
+@enduml

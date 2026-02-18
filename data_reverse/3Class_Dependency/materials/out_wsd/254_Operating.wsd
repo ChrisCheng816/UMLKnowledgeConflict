@@ -1,0 +1,4 @@
+@startuml
+SmartDisplay ..> Operating
+Electricity ..> SmartDisplay
+@enduml

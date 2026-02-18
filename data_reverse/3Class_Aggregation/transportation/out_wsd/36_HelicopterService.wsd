@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- HelicopterService
+Helicopter o-- Fleet
+@enduml

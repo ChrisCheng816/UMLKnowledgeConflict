@@ -1,0 +1,4 @@
+@startuml
+Dishwasher ..> Washing
+Electricity ..> Dishwasher
+@enduml

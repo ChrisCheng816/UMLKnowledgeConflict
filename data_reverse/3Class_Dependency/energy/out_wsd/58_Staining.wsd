@@ -1,0 +1,4 @@
+@startuml
+PaintSprayer ..> Staining
+Electricity ..> PaintSprayer
+@enduml

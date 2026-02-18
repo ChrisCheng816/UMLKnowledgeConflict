@@ -1,0 +1,4 @@
+@startuml
+ColdAir ..> Ice
+LowTemperature ..> ColdAir
+@enduml

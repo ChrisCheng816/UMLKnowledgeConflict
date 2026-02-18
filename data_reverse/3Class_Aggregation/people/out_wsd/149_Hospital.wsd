@@ -1,0 +1,4 @@
+@startuml
+Department o-- Hospital
+Supervisor o-- Department
+@enduml

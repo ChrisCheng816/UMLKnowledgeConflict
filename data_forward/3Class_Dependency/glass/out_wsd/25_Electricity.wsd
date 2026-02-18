@@ -1,4 +1,4 @@
 @startuml
-InfusionPump ..> Electricity
-IVTherapy ..> InfusionPump
+CTScanner ..> Electricity
+AbdominalCT ..> CTScanner
 @enduml

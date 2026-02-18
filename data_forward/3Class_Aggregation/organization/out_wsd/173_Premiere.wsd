@@ -1,0 +1,4 @@
+@startuml
+Schedule o-- Premiere
+FilmFestival o-- Schedule
+@enduml

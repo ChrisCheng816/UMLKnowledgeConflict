@@ -1,0 +1,4 @@
+@startuml
+LeafVacuum ..> Vacuuming
+Electricity ..> LeafVacuum
+@enduml

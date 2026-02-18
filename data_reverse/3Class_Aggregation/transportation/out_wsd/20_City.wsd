@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- City
+Subway o-- Fleet
+@enduml

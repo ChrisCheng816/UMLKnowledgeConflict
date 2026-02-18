@@ -1,0 +1,4 @@
+@startuml
+Enclosure o-- Zoo
+Lizard o-- Enclosure
+@enduml

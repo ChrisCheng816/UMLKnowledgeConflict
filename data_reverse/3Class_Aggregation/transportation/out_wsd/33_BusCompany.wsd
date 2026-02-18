@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- BusCompany
+CoachBus o-- Fleet
+@enduml

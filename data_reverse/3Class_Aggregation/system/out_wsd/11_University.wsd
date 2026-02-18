@@ -1,4 +1,4 @@
 @startuml
 Laboratory o-- University
-Pipette o-- Laboratory
+Notebook o-- Laboratory
 @enduml

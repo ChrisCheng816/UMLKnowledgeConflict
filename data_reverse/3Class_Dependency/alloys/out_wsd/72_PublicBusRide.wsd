@@ -1,0 +1,4 @@
+@startuml
+CityBus ..> PublicBusRide
+DieselFuel ..> CityBus
+@enduml

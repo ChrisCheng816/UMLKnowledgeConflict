@@ -1,0 +1,4 @@
+@startuml
+Department o-- Trainer
+Company o-- Department
+@enduml

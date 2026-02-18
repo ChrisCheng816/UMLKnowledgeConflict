@@ -1,0 +1,4 @@
+@startuml
+ElectricBus ..> ElectricBusRoute
+Electricity ..> ElectricBus
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Battery *-- Flashlight
+Contact *-- Battery
+@enduml

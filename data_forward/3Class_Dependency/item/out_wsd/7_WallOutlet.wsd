@@ -1,4 +1,4 @@
 @startuml
-ChargingStand ..> WallOutlet
-ElectricToothbrush ..> ChargingStand
+ChargingCable ..> WallOutlet
+ElectricShaver ..> ChargingCable
 @enduml

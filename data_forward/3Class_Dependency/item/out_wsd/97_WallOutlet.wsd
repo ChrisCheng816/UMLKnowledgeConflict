@@ -1,0 +1,4 @@
+@startuml
+WashingMachine ..> WallOutlet
+WashingCycle ..> WashingMachine
+@enduml

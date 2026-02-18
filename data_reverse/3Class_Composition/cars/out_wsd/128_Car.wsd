@@ -1,4 +1,4 @@
 @startuml
-Suspension *-- Car
-Spring *-- Suspension
+Door *-- Car
+Speaker *-- Door
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Chair
-Cap *-- Leg
+Armrest *-- Chair
+Bracket *-- Armrest
 @enduml

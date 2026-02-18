@@ -1,4 +1,4 @@
 @startuml
-Anchovy ..> Dolphin
-Zooplankton ..> Anchovy
+Fish ..> Dolphin
+Plankton ..> Fish
 @enduml

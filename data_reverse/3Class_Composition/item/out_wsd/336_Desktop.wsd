@@ -1,4 +1,4 @@
 @startuml
-Processor *-- Desktop
-Core *-- Processor
+Drive *-- Desktop
+Motor *-- Drive
 @enduml

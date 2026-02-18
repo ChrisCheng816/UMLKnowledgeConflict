@@ -1,0 +1,4 @@
+@startuml
+Microwave ..> MicrowaveCooking
+WallOutlet ..> Microwave
+@enduml

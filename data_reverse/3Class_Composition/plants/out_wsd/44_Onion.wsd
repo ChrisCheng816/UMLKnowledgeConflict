@@ -1,0 +1,4 @@
+@startuml
+Bulb *-- Onion
+Layer *-- Bulb
+@enduml

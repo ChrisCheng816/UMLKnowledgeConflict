@@ -1,0 +1,4 @@
+@startuml
+Leg *-- Tendon
+Dog *-- Leg
+@enduml

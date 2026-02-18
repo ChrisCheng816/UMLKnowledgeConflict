@@ -1,0 +1,4 @@
+@startuml
+Paper ..> BookBinding
+Trees ..> Paper
+@enduml

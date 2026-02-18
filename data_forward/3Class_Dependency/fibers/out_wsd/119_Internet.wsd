@@ -1,4 +1,4 @@
 @startuml
-ProtonMail ..> Internet
-OnlineUse ..> ProtonMail
+Uber ..> Internet
+Booking ..> Uber
 @enduml

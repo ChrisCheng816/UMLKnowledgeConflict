@@ -1,0 +1,4 @@
+@startuml
+Frame *-- Sill
+Window *-- Frame
+@enduml

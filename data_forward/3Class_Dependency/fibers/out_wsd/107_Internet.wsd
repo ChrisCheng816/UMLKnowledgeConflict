@@ -1,4 +1,4 @@
 @startuml
-Pandora ..> Internet
-OnlineUse ..> Pandora
+GoogleMeet ..> Internet
+Learning ..> GoogleMeet
 @enduml

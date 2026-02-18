@@ -1,4 +1,4 @@
 @startuml
-YouTubeMusic ..> Internet
-OnlineUse ..> YouTubeMusic
+WhatsApp ..> Internet
+Messaging ..> WhatsApp
 @enduml

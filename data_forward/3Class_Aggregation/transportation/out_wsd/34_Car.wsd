@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Car
+CarRental o-- Fleet
+@enduml

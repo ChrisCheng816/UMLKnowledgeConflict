@@ -1,0 +1,4 @@
+@startuml
+Arm *-- Radius
+Person *-- Arm
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Orchestra o-- Theater
+Harpist o-- Orchestra
+@enduml

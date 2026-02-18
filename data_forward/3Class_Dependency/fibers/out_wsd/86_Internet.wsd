@@ -1,4 +1,4 @@
 @startuml
-Reddit ..> Internet
-OnlineUse ..> Reddit
+Skype ..> Internet
+Chatting ..> Skype
 @enduml

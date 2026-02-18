@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- Hurling
+Sport <|-- RacquetSport
+RacquetSport <|-- SoftTennis
 @enduml

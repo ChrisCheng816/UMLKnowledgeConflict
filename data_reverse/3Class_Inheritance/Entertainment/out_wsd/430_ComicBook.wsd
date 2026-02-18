@@ -1,0 +1,4 @@
+@startuml
+ComicBook <|-- Comic
+Comic <|-- Entertainment
+@enduml

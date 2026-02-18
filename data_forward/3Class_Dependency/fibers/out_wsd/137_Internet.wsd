@@ -1,4 +1,4 @@
 @startuml
-GitLab ..> Internet
-OnlineUse ..> GitLab
+Hulu ..> Internet
+Watching ..> Hulu
 @enduml

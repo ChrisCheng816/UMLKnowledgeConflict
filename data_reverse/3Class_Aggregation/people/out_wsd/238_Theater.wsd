@@ -1,0 +1,4 @@
+@startuml
+Audience o-- Theater
+Guest o-- Audience
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Depot o-- Package
+PostalSystem o-- Depot
+@enduml

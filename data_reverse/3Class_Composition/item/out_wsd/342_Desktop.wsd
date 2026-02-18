@@ -1,4 +1,4 @@
 @startuml
-Memory *-- Desktop
-Chip *-- Memory
+PowerSupply *-- Desktop
+Cable *-- PowerSupply
 @enduml

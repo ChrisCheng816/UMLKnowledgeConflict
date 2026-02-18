@@ -1,0 +1,4 @@
+@startuml
+Wiper *-- Blade
+Car *-- Wiper
+@enduml

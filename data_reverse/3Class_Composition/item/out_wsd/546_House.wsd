@@ -1,4 +1,4 @@
 @startuml
-ElectricalSystem *-- House
-Wire *-- ElectricalSystem
+Kitchen *-- House
+Cabinet *-- Kitchen
 @enduml

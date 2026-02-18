@@ -1,0 +1,4 @@
+@startuml
+Aviary o-- Canary
+Reserve o-- Aviary
+@enduml

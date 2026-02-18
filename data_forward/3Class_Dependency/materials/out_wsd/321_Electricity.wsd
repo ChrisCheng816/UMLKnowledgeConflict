@@ -1,4 +1,4 @@
 @startuml
-NailGun ..> Electricity
-HomeUse ..> NailGun
+KaraokeMachine ..> Electricity
+Operating ..> KaraokeMachine
 @enduml

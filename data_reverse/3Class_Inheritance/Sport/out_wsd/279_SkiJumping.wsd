@@ -1,0 +1,4 @@
+@startuml
+SkiJumping <|-- Skiing
+Skiing <|-- Sport
+@enduml

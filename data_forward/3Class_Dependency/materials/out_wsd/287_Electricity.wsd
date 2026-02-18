@@ -1,4 +1,4 @@
 @startuml
-BarcodeScanner ..> Electricity
-HomeUse ..> BarcodeScanner
+IceMaker ..> Electricity
+Operating ..> IceMaker
 @enduml

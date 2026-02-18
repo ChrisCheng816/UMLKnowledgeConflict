@@ -1,0 +1,4 @@
+@startuml
+FogMachine ..> Fogging
+Electricity ..> FogMachine
+@enduml

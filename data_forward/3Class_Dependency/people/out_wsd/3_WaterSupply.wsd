@@ -1,0 +1,4 @@
+@startuml
+FireHose ..> WaterSupply
+Firefighter ..> FireHose
+@enduml

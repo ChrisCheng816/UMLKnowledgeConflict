@@ -1,4 +1,4 @@
 @startuml
-PinballMachine ..> Electricity
-HomeUse ..> PinballMachine
+StageLight ..> Electricity
+Operating ..> StageLight
 @enduml

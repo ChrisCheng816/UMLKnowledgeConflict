@@ -1,4 +1,4 @@
 @startuml
 Microwave ..> Electricity
-HomeUse ..> Microwave
+Reheating ..> Microwave
 @enduml

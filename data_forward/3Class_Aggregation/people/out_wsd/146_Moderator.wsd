@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Moderator
+Conference o-- Committee
+@enduml

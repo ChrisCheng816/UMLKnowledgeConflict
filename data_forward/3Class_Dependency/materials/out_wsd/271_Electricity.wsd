@@ -1,4 +1,4 @@
 @startuml
-Treadmill ..> Electricity
-HomeUse ..> Treadmill
+Massager ..> Electricity
+Operating ..> Massager
 @enduml

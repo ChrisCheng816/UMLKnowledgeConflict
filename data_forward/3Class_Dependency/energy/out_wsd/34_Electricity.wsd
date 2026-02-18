@@ -1,4 +1,4 @@
 @startuml
-HeatGun ..> Electricity
-PaintStripping ..> HeatGun
+ElectricScrewdriver ..> Electricity
+Disassembling ..> ElectricScrewdriver
 @enduml

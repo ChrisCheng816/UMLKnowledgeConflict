@@ -1,0 +1,4 @@
+@startuml
+ServerRack ..> Hosting
+Electricity ..> ServerRack
+@enduml

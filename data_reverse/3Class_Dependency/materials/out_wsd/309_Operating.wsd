@@ -1,0 +1,4 @@
+@startuml
+Compressor ..> Operating
+Electricity ..> Compressor
+@enduml

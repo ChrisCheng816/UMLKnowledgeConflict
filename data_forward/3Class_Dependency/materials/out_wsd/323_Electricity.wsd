@@ -1,4 +1,4 @@
 @startuml
-ArcadeMachine ..> Electricity
-HomeUse ..> ArcadeMachine
+MixerBoard ..> Electricity
+Mixing ..> MixerBoard
 @enduml

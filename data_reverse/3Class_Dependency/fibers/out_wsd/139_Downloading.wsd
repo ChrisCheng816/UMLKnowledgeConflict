@@ -1,0 +1,4 @@
+@startuml
+Spotify ..> Downloading
+Internet ..> Spotify
+@enduml

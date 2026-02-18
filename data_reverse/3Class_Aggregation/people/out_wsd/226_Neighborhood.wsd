@@ -1,0 +1,4 @@
+@startuml
+Council o-- Neighborhood
+Treasurer o-- Council
+@enduml

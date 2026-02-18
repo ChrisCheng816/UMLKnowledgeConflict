@@ -1,4 +1,4 @@
 @startuml
-OneNote ..> Internet
-OnlineUse ..> OneNote
+Zoom ..> Internet
+Calling ..> Zoom
 @enduml

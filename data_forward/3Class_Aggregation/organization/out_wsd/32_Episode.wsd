@@ -1,4 +1,4 @@
 @startuml
-Playlist o-- Episode
-PodcastApp o-- Playlist
+Queue o-- Episode
+StreamingService o-- Queue
 @enduml

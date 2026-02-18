@@ -1,0 +1,4 @@
+@startuml
+Screen *-- Sensor
+Phone *-- Screen
+@enduml

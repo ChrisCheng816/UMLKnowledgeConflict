@@ -1,0 +1,4 @@
+@startuml
+Antenna *-- Segment
+Ant *-- Antenna
+@enduml

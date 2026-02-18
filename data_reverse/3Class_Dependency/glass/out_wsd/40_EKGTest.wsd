@@ -1,0 +1,4 @@
+@startuml
+ECGMonitor ..> EKGTest
+Electricity ..> ECGMonitor
+@enduml

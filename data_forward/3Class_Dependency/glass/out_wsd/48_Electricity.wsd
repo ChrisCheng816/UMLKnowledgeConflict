@@ -1,4 +1,4 @@
 @startuml
-XRayMachine ..> Electricity
-XRayImaging ..> XRayMachine
+CTScanner ..> Electricity
+SinusCTScan ..> CTScanner
 @enduml

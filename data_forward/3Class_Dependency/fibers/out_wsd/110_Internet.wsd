@@ -1,4 +1,4 @@
 @startuml
-SoundCloud ..> Internet
-OnlineUse ..> SoundCloud
+Reddit ..> Internet
+Posting ..> Reddit
 @enduml

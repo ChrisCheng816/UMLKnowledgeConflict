@@ -1,4 +1,4 @@
 @startuml
-UltrasoundMachine ..> Electricity
-PrenatalCheckup ..> UltrasoundMachine
+ECGMonitor ..> Electricity
+HeartRhythmCheck ..> ECGMonitor
 @enduml

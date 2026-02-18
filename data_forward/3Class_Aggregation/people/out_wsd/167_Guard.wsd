@@ -1,0 +1,4 @@
+@startuml
+Department o-- Guard
+Company o-- Department
+@enduml

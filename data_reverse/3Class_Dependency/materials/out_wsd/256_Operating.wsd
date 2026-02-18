@@ -1,0 +1,4 @@
+@startuml
+DVDPlayer ..> Operating
+Electricity ..> DVDPlayer
+@enduml

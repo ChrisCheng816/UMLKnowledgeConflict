@@ -1,4 +1,4 @@
 @startuml
-LawnMower ..> Electricity
-HomeUse ..> LawnMower
+GarageDoorOpener ..> Electricity
+Operating ..> GarageDoorOpener
 @enduml

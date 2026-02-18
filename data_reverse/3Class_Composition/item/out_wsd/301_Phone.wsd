@@ -1,4 +1,4 @@
 @startuml
-Screen *-- Phone
-Frame *-- Screen
+CameraModule *-- Phone
+Shutter *-- CameraModule
 @enduml

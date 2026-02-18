@@ -1,0 +1,4 @@
+@startuml
+Film <|-- FantasyFilm
+FantasyFilm <|-- HarryPotterAndTheSorcerersStone
+@enduml

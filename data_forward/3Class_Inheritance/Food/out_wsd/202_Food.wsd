@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dish
-Dish <|-- ButterChicken
+Food <|-- Snack
+Snack <|-- Nachos
 @enduml

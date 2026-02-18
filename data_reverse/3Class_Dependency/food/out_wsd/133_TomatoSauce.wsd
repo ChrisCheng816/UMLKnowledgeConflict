@@ -1,0 +1,4 @@
+@startuml
+Tomato ..> TomatoSauce
+TomatoPlant ..> Tomato
+@enduml

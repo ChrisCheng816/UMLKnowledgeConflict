@@ -1,4 +1,4 @@
 @startuml
-Kick ..> Internet
-OnlineUse ..> Kick
+YouTube ..> Internet
+Learning ..> YouTube
 @enduml

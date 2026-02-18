@@ -1,0 +1,4 @@
+@startuml
+University o-- Student
+EducationSystem o-- University
+@enduml

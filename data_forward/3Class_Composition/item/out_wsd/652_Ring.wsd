@@ -1,0 +1,4 @@
+@startuml
+Neck *-- Ring
+Bottle *-- Neck
+@enduml

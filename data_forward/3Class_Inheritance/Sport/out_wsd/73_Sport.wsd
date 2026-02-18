@@ -1,4 +1,4 @@
 @startuml
 Sport <|-- WaterSport
-WaterSport <|-- Windsurfing
+WaterSport <|-- StandUpPaddleboarding
 @enduml

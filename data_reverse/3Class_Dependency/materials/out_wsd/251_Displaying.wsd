@@ -1,0 +1,4 @@
+@startuml
+Monitor ..> Displaying
+Electricity ..> Monitor
+@enduml

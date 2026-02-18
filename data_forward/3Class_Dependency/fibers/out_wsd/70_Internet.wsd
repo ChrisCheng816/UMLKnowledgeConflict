@@ -1,4 +1,4 @@
 @startuml
-WeChat ..> Internet
-OnlineUse ..> WeChat
+WhatsApp ..> Internet
+Calling ..> WhatsApp
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-AngleGrinder ..> Electricity
-Grinding ..> AngleGrinder
+HeatGun ..> Electricity
+ShrinkWrapping ..> HeatGun
 @enduml

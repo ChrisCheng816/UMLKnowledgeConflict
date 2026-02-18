@@ -1,0 +1,4 @@
+@startuml
+Internet ..> Bloomberg
+Electricity ..> Internet
+@enduml

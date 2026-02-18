@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- SeaVegetable
-SeaVegetable <|-- Nori
+Vegetable <|-- LeafyVegetable
+LeafyVegetable <|-- TurnipGreens
 @enduml

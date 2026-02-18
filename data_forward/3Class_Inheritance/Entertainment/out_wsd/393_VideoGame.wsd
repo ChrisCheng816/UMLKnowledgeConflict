@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- ShooterGame
-ShooterGame <|-- Doom
+VideoGame <|-- SimulationGame
+SimulationGame <|-- SimCity
 @enduml

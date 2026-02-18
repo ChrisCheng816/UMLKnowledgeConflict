@@ -1,4 +1,4 @@
 @startuml
-Amplifier ..> WallOutlet
-PublicAddressSystem ..> Amplifier
+TableLamp ..> WallOutlet
+NightLighting ..> TableLamp
 @enduml

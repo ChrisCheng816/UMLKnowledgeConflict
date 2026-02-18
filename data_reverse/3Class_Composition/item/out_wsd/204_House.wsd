@@ -1,4 +1,4 @@
 @startuml
-Foundation *-- House
-Footing *-- Foundation
+Attic *-- House
+Joist *-- Attic
 @enduml

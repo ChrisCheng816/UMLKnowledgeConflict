@@ -1,4 +1,4 @@
 @startuml
-Shoulder *-- Person
-Scapula *-- Shoulder
+Arm *-- Person
+Bicep *-- Arm
 @enduml

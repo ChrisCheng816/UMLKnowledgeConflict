@@ -1,4 +1,4 @@
 @startuml
-LaserCutter ..> Electricity
-LaserCutting ..> LaserCutter
+Sander ..> Electricity
+SurfaceFinishing ..> Sander
 @enduml

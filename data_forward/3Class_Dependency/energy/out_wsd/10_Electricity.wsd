@@ -1,4 +1,4 @@
 @startuml
-BeltSander ..> Electricity
-SurfaceFinishing ..> BeltSander
+Multimeter ..> Electricity
+Measuring ..> Multimeter
 @enduml

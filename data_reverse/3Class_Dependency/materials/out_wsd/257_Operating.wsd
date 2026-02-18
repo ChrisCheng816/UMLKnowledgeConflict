@@ -1,0 +1,4 @@
+@startuml
+BluRayPlayer ..> Operating
+Electricity ..> BluRayPlayer
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Advisor
+Community o-- Committee
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dish
-Dish <|-- Udon
+Food <|-- Snack
+Snack <|-- Onigiri
 @enduml

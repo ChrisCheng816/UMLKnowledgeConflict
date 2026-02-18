@@ -1,4 +1,4 @@
 @startuml
-SandwichMaker ..> Electricity
-HomeUse ..> SandwichMaker
+WaterPump ..> Electricity
+Operating ..> WaterPump
 @enduml

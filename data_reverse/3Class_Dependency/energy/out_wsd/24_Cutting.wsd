@@ -1,4 +1,4 @@
 @startuml
-CutoffSaw ..> Cutting
-Electricity ..> CutoffSaw
+CircularSaw ..> Cutting
+Electricity ..> CircularSaw
 @enduml

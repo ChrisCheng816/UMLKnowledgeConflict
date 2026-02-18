@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Pantry
+Can o-- Shelf
+@enduml

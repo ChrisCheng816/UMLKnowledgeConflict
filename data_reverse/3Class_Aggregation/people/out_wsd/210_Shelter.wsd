@@ -1,0 +1,4 @@
+@startuml
+Squad o-- Shelter
+Rescuer o-- Squad
+@enduml

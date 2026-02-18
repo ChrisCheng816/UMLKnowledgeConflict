@@ -1,4 +1,4 @@
 @startuml
-ECGMonitor ..> Electricity
-HeartMonitoring ..> ECGMonitor
+XRayMachine ..> Electricity
+HandXRay ..> XRayMachine
 @enduml

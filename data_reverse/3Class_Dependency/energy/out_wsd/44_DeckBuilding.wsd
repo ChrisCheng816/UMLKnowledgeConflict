@@ -1,0 +1,4 @@
+@startuml
+CircularSaw ..> DeckBuilding
+Electricity ..> CircularSaw
+@enduml

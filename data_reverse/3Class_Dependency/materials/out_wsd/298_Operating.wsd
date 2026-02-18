@@ -1,0 +1,4 @@
+@startuml
+YogurtMaker ..> Operating
+Electricity ..> YogurtMaker
+@enduml

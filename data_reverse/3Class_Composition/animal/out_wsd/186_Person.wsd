@@ -1,4 +1,4 @@
 @startuml
-Spine *-- Person
-Ligament *-- Spine
+Chest *-- Person
+Rib *-- Chest
 @enduml

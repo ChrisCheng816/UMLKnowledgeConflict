@@ -1,4 +1,4 @@
 @startuml
 Food <|-- Dish
-Dish <|-- PadThai
+Dish <|-- FriedRice
 @enduml

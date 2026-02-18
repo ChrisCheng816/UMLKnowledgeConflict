@@ -1,0 +1,4 @@
+@startuml
+Planet o-- Satellite
+SolarSystem o-- Planet
+@enduml

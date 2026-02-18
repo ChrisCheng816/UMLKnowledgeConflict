@@ -1,0 +1,4 @@
+@startuml
+ColdAir ..> LowTemperature
+Frostbite ..> ColdAir
+@enduml

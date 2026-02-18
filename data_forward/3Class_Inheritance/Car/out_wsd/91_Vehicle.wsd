@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Submarine
-Submarine <|-- NuclearSubmarine
+Vehicle <|-- Car
+Car <|-- Convertible
 @enduml

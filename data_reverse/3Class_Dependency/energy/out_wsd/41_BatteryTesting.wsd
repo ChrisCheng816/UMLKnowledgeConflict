@@ -1,0 +1,4 @@
+@startuml
+Multimeter ..> BatteryTesting
+Electricity ..> Multimeter
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Vegetable
-Vegetable <|-- Okra
+Food <|-- Fruit
+Fruit <|-- PomeFruit
 @enduml

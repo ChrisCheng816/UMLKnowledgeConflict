@@ -1,4 +1,4 @@
 @startuml
-Jar *-- Blender
-Seal *-- Jar
+Blade *-- Blender
+Hub *-- Blade
 @enduml

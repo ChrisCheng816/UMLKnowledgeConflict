@@ -1,4 +1,4 @@
 @startuml
-DoorPanel *-- Car
-Lock *-- DoorPanel
+Hood *-- Car
+Panel *-- Hood
 @enduml

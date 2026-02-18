@@ -1,0 +1,4 @@
+@startuml
+CircularSaw ..> Electricity
+PlankCutting ..> CircularSaw
+@enduml

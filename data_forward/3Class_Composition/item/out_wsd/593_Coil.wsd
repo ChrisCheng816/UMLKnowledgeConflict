@@ -1,0 +1,4 @@
+@startuml
+HeatingElement *-- Coil
+Toaster *-- HeatingElement
+@enduml

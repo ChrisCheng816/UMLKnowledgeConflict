@@ -1,0 +1,4 @@
+@startuml
+SolderingStation ..> WireSplicing
+Electricity ..> SolderingStation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Family o-- Grandparent
+Household o-- Family
+@enduml

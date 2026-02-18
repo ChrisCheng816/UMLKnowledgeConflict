@@ -1,4 +1,4 @@
 @startuml
-Skype ..> Internet
-OnlineUse ..> Skype
+DisneyPlus ..> Internet
+Watching ..> DisneyPlus
 @enduml

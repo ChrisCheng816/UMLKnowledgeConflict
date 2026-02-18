@@ -1,4 +1,4 @@
 @startuml
-Juicer ..> Electricity
-HomeUse ..> Juicer
+BreadMaker ..> Electricity
+Baking ..> BreadMaker
 @enduml

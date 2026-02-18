@@ -1,4 +1,4 @@
 @startuml
-ATM ..> Electricity
-HomeUse ..> ATM
+GarmentSteamer ..> Electricity
+Operating ..> GarmentSteamer
 @enduml

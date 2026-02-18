@@ -1,0 +1,4 @@
+@startuml
+TheDarkKnight <|-- SuperheroFilm
+SuperheroFilm <|-- Film
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Crowd o-- Stadium
+Spectator o-- Crowd
+@enduml

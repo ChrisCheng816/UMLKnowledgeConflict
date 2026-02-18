@@ -1,0 +1,4 @@
+@startuml
+ElectricCar ..> Electricity
+EVCharging ..> ElectricCar
+@enduml

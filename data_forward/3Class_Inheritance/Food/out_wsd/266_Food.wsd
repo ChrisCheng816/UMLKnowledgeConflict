@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Sandwich
-Sandwich <|-- TunaMelt
+Food <|-- Fruit
+Fruit <|-- Coconut
 @enduml

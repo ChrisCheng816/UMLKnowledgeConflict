@@ -1,0 +1,4 @@
+@startuml
+Internet ..> IMDb
+Electricity ..> Internet
+@enduml

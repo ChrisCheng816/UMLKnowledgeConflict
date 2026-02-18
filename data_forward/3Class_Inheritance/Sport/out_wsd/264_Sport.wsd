@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Equestrian
-Equestrian <|-- HorseRacing
+Sport <|-- Tennis
+Tennis <|-- ClayCourtTennis
 @enduml

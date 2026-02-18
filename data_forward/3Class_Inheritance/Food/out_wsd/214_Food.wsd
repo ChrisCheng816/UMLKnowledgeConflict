@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Snack
-Snack <|-- Pretzel
+Food <|-- Dessert
+Dessert <|-- Pie
 @enduml

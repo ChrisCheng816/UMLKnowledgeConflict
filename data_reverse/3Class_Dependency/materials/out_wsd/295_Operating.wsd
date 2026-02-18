@@ -1,0 +1,4 @@
+@startuml
+WaffleMaker ..> Operating
+Electricity ..> WaffleMaker
+@enduml

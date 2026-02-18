@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Raspberry
-Raspberry <|-- RedRaspberry
+Fruit <|-- Fig
+Fig <|-- BlackMissionFig
 @enduml

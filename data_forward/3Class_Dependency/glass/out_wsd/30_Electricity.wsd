@@ -1,4 +1,4 @@
 @startuml
-PatientMonitor ..> Electricity
-AlarmMonitoring ..> PatientMonitor
+XRayMachine ..> Electricity
+FractureCheck ..> XRayMachine
 @enduml

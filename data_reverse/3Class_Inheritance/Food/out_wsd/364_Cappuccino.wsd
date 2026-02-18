@@ -1,0 +1,4 @@
+@startuml
+Cappuccino <|-- Coffee
+Coffee <|-- Beverage
+@enduml

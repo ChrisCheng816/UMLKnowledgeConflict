@@ -1,4 +1,4 @@
 @startuml
-ClubOfBakers o-- School
-Baker o-- ClubOfBakers
+Band o-- School
+Bassist o-- Band
 @enduml

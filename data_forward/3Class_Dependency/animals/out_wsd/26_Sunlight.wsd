@@ -1,0 +1,4 @@
+@startuml
+DesertPlants ..> Sunlight
+Camel ..> DesertPlants
+@enduml

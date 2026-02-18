@@ -1,4 +1,4 @@
 @startuml
-Tree <|-- Willow
-Willow <|-- WeepingWillow
+Tree <|-- CherryTree
+CherryTree <|-- YoshinoCherry
 @enduml

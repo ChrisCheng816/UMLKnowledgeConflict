@@ -1,0 +1,4 @@
+@startuml
+Page *-- Comic
+Gutter *-- Page
+@enduml

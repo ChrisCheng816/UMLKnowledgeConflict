@@ -1,0 +1,4 @@
+@startuml
+Team o-- Firefighter
+FireStation o-- Team
+@enduml

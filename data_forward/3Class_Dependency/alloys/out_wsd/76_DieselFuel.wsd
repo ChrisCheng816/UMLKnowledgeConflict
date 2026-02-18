@@ -1,0 +1,4 @@
+@startuml
+DieselTrain ..> DieselFuel
+TrainService ..> DieselTrain
+@enduml

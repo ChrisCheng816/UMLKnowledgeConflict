@@ -1,0 +1,4 @@
+@startuml
+Canopy *-- Panel
+Umbrella *-- Canopy
+@enduml

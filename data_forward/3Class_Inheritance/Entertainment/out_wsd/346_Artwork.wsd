@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- AmericanGothic
+Artwork <|-- Sculpture
+Sculpture <|-- MountRushmore
 @enduml

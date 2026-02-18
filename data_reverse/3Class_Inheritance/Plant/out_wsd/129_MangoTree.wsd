@@ -1,0 +1,4 @@
+@startuml
+MangoTree <|-- Tree
+Tree <|-- Plant
+@enduml

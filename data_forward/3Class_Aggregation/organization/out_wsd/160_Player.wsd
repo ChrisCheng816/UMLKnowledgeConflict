@@ -1,0 +1,4 @@
+@startuml
+Roster o-- Player
+SportsClub o-- Roster
+@enduml

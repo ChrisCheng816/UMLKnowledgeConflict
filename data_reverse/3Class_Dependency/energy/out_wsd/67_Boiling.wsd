@@ -1,0 +1,4 @@
+@startuml
+ElectricHotPlate ..> Boiling
+Electricity ..> ElectricHotPlate
+@enduml

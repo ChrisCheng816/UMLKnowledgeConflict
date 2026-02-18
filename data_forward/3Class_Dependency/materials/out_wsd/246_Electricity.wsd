@@ -1,4 +1,4 @@
 @startuml
-HairTrimmer ..> Electricity
-HomeUse ..> HairTrimmer
+SteamIron ..> Electricity
+Ironing ..> SteamIron
 @enduml

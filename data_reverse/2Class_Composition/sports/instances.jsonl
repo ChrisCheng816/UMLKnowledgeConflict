@@ -1,0 +1,6 @@
+{"id": "1", "template_id": "composition", "nodes": ["Sole", "Stitch"], "edges": ["Stitch *-- Sole"]}
+{"id": "2", "template_id": "composition", "nodes": ["Liner", "Foam"], "edges": ["Foam *-- Liner"]}
+{"id": "3", "template_id": "composition", "nodes": ["Finger", "Seam"], "edges": ["Seam *-- Finger"]}
+{"id": "4", "template_id": "composition", "nodes": ["Grip", "Tape"], "edges": ["Tape *-- Grip"]}
+{"id": "5", "template_id": "composition", "nodes": ["Panel", "Stitch"], "edges": ["Stitch *-- Panel"]}
+{"id": "6", "template_id": "composition", "nodes": ["Boot", "Lace"], "edges": ["Lace *-- Boot"]}

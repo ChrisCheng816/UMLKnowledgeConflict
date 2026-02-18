@@ -1,0 +1,4 @@
+@startuml
+PowerBankCharger ..> Operating
+Electricity ..> PowerBankCharger
+@enduml

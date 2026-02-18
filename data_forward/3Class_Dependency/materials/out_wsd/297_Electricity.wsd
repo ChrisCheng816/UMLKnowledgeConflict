@@ -1,4 +1,4 @@
 @startuml
-ElectricCanOpener ..> Electricity
-HomeUse ..> ElectricCanOpener
+PopcornMaker ..> Electricity
+Operating ..> PopcornMaker
 @enduml

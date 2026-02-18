@@ -1,0 +1,4 @@
+@startuml
+Freezer *-- Drawer
+Refrigerator *-- Freezer
+@enduml

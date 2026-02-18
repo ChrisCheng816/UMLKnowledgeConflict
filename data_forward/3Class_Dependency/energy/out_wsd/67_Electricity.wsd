@@ -1,4 +1,4 @@
 @startuml
-WeldingMachine ..> Electricity
-RepairWork ..> WeldingMachine
+ElectricHotPlate ..> Electricity
+Boiling ..> ElectricHotPlate
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MRIMachine ..> Electricity
-MRIImaging ..> MRIMachine
+XRayMachine ..> Electricity
+DentalXRay ..> XRayMachine
 @enduml

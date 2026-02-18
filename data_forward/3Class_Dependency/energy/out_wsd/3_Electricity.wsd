@@ -1,4 +1,4 @@
 @startuml
-AirCompressor ..> Electricity
-PneumaticTools ..> AirCompressor
+ElectricHotPlate ..> Electricity
+Heating ..> ElectricHotPlate
 @enduml

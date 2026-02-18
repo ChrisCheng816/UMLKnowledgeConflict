@@ -1,4 +1,4 @@
 @startuml
-PatientMonitor ..> Electricity
-ICUMonitoring ..> PatientMonitor
+XRayMachine ..> Electricity
+FootXRay ..> XRayMachine
 @enduml

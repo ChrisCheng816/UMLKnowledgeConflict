@@ -1,0 +1,4 @@
+@startuml
+Smartphone ..> OnlineShopping
+CellularNetwork ..> Smartphone
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Wrestling
-Wrestling <|-- CatchWrestling
+Sport <|-- WaterSport
+WaterSport <|-- ArtisticSwimming
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Node *-- Bamboo
+Bud *-- Node
+@enduml

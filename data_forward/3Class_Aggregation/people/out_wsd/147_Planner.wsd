@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Planner
+Charity o-- Committee
+@enduml

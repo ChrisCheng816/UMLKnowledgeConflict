@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Person
-Tragus *-- Ear
+Nose *-- Person
+Septum *-- Nose
 @enduml

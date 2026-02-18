@@ -1,4 +1,4 @@
 @startuml
-Plumbing *-- House
-Vent *-- Plumbing
+GarageDoor *-- House
+Hinge *-- GarageDoor
 @enduml

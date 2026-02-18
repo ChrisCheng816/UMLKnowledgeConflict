@@ -1,4 +1,4 @@
 @startuml
-CPAPMachine ..> Electricity
-HomeUse ..> CPAPMachine
+GlucoseMeter ..> Electricity
+Operating ..> GlucoseMeter
 @enduml

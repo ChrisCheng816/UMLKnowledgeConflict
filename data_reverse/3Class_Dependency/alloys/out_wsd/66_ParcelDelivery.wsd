@@ -1,0 +1,4 @@
+@startuml
+DeliveryVan ..> ParcelDelivery
+DieselFuel ..> DeliveryVan
+@enduml

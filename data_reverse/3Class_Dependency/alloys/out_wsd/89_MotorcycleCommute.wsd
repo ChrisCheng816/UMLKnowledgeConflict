@@ -1,0 +1,4 @@
+@startuml
+Motorcycle ..> MotorcycleCommute
+Gasoline ..> Motorcycle
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Orchid
-Orchid <|-- MothOrchid
+Plant <|-- Rice
+Rice <|-- JasmineRice
 @enduml

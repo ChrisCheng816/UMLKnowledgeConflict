@@ -1,4 +1,4 @@
 @startuml
-DrillPress ..> Electricity
-HoleMaking ..> DrillPress
+SolderingStation ..> Electricity
+WireSplicing ..> SolderingStation
 @enduml

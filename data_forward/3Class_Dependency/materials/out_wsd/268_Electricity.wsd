@@ -1,4 +1,4 @@
 @startuml
-Nebulizer ..> Electricity
-HomeUse ..> Nebulizer
+Treadmill ..> Electricity
+Operating ..> Treadmill
 @enduml

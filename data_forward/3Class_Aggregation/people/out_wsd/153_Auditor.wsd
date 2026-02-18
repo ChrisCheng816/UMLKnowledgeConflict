@@ -1,0 +1,4 @@
+@startuml
+Department o-- Auditor
+Bank o-- Department
+@enduml

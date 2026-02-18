@@ -1,4 +1,4 @@
 @startuml
-Mixer ..> Electricity
-HomeUse ..> Mixer
+Juicer ..> Electricity
+Juicing ..> Juicer
 @enduml

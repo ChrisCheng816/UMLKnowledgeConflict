@@ -1,0 +1,4 @@
+@startuml
+Internet ..> WeatherChannel
+Electricity ..> Internet
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Jaw *-- Person
+Muscle *-- Jaw
+@enduml

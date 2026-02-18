@@ -1,0 +1,4 @@
+@startuml
+Dryer ..> Drying
+Electricity ..> Dryer
+@enduml

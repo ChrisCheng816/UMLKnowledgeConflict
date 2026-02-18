@@ -1,0 +1,4 @@
+@startuml
+Tire *-- Tread
+Bicycle *-- Tire
+@enduml

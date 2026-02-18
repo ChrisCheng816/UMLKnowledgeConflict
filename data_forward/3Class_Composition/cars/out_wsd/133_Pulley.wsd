@@ -1,0 +1,4 @@
+@startuml
+Alternator *-- Pulley
+Car *-- Alternator
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Committee o-- City
+Mediator o-- Committee
+@enduml

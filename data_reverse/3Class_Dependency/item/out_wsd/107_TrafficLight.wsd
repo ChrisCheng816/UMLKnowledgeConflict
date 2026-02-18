@@ -1,0 +1,4 @@
+@startuml
+PowerGrid ..> TrafficLight
+PowerPlant ..> PowerGrid
+@enduml

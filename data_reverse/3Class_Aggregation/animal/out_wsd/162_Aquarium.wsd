@@ -1,0 +1,4 @@
+@startuml
+Pool o-- Aquarium
+Dolphin o-- Pool
+@enduml

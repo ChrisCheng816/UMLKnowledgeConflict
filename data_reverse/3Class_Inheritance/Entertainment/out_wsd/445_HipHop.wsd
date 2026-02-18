@@ -1,0 +1,4 @@
+@startuml
+HipHop <|-- Song
+Song <|-- MusicWork
+@enduml

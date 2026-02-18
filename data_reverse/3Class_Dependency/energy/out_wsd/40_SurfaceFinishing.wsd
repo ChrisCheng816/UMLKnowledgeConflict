@@ -1,0 +1,4 @@
+@startuml
+Sander ..> SurfaceFinishing
+Electricity ..> Sander
+@enduml

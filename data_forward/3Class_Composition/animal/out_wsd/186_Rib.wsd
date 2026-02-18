@@ -1,0 +1,4 @@
+@startuml
+Chest *-- Rib
+Person *-- Chest
+@enduml

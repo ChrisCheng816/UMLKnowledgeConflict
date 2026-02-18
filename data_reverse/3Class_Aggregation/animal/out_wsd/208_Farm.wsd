@@ -1,0 +1,4 @@
+@startuml
+Flock o-- Farm
+Chicken o-- Flock
+@enduml

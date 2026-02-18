@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Orange
-Orange <|-- NavelOrange
+Fruit <|-- Apple
+Apple <|-- FujiApple
 @enduml

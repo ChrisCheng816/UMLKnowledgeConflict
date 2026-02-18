@@ -1,4 +1,4 @@
 @startuml
-YahooMail ..> Internet
-OnlineUse ..> YahooMail
+Netflix ..> Internet
+Watching ..> Netflix
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BandSaw ..> Electricity
-HomeUse ..> BandSaw
+StapleGun ..> Electricity
+Operating ..> StapleGun
 @enduml

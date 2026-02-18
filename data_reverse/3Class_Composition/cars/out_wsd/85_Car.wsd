@@ -1,4 +1,4 @@
 @startuml
-Hood *-- Car
-Latch *-- Hood
+Trunk *-- Car
+Light *-- Trunk
 @enduml

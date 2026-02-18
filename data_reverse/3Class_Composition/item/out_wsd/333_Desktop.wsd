@@ -1,4 +1,4 @@
 @startuml
-Motherboard *-- Desktop
-Slot *-- Motherboard
+Drive *-- Desktop
+Platter *-- Drive
 @enduml

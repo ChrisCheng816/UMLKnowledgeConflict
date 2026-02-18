@@ -1,4 +1,4 @@
 @startuml
-Processor *-- Desktop
-Cache *-- Processor
+Drive *-- Desktop
+Magnet *-- Drive
 @enduml

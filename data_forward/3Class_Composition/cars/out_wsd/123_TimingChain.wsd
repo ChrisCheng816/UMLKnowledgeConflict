@@ -1,0 +1,4 @@
+@startuml
+Engine *-- TimingChain
+Car *-- Engine
+@enduml

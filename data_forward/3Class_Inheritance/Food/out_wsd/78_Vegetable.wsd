@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- SeaVegetable
-SeaVegetable <|-- Wakame
+Vegetable <|-- RootVegetable
+RootVegetable <|-- LotusRoot
 @enduml

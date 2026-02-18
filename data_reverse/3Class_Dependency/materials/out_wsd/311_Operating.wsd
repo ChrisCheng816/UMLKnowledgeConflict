@@ -1,0 +1,4 @@
+@startuml
+Welder ..> Operating
+Electricity ..> Welder
+@enduml

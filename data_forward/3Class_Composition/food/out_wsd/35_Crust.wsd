@@ -1,0 +1,4 @@
+@startuml
+Slice *-- Crust
+Pizza *-- Slice
+@enduml

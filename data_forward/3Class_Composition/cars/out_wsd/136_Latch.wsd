@@ -1,0 +1,4 @@
+@startuml
+Glovebox *-- Latch
+Car *-- Glovebox
+@enduml

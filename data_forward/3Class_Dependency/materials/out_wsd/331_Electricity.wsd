@@ -1,4 +1,4 @@
 @startuml
-Microphone ..> Electricity
-HomeUse ..> Microphone
+Laminator ..> Electricity
+Laminating ..> Laminator
 @enduml

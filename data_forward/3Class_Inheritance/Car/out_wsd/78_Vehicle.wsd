@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Sedan
-Sedan <|-- ToyotaCorolla
+Vehicle <|-- Coupe
+Coupe <|-- FordMustang
 @enduml

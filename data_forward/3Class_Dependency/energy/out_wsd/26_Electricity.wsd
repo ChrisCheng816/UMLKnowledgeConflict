@@ -1,4 +1,4 @@
 @startuml
-CutoffSaw ..> Electricity
-Grinding ..> CutoffSaw
+HotGlueGun ..> Electricity
+Gluing ..> HotGlueGun
 @enduml

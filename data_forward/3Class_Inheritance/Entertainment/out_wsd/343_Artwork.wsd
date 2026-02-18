@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- TheScream
+Artwork <|-- Sculpture
+Sculpture <|-- TerracottaArmy
 @enduml

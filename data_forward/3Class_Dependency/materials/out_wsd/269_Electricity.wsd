@@ -1,4 +1,4 @@
 @startuml
-BloodPressureMonitor ..> Electricity
-HomeUse ..> BloodPressureMonitor
+ExerciseBike ..> Electricity
+Operating ..> ExerciseBike
 @enduml

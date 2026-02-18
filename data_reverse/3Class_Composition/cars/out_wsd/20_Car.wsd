@@ -1,4 +1,4 @@
 @startuml
 Brake *-- Car
-Lever *-- Brake
+Disc *-- Brake
 @enduml

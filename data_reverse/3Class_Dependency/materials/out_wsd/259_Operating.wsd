@@ -1,0 +1,4 @@
+@startuml
+ChargingStation ..> Operating
+Electricity ..> ChargingStation
+@enduml

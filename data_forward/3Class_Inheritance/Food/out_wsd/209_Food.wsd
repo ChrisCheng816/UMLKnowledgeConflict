@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dish
-Dish <|-- Soba
+Food <|-- Snack
+Snack <|-- RiceCracker
 @enduml

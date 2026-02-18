@@ -1,4 +1,4 @@
 @startuml
-ElectricHotPlate ..> Electricity
-Heating ..> ElectricHotPlate
+Sander ..> Electricity
+Smoothing ..> Sander
 @enduml

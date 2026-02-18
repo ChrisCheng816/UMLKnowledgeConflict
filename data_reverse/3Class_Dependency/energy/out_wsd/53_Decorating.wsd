@@ -1,0 +1,4 @@
+@startuml
+HotGlueGun ..> Decorating
+Electricity ..> HotGlueGun
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Documentary <|-- Film
+Film <|-- Entertainment
+@enduml

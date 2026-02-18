@@ -1,4 +1,4 @@
 @startuml
-TableSaw ..> Electricity
-Carpentry ..> TableSaw
+ElectricHotPlate ..> Electricity
+Warming ..> ElectricHotPlate
 @enduml

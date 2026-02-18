@@ -1,0 +1,4 @@
+@startuml
+BandSaw ..> Operating
+Electricity ..> BandSaw
+@enduml

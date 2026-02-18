@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Sandwich
-Sandwich <|-- Panini
+Food <|-- Dairy
+Dairy <|-- Butter
 @enduml

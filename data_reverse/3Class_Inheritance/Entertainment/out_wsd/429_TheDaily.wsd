@@ -1,0 +1,4 @@
+@startuml
+TheDaily <|-- Podcast
+Podcast <|-- Entertainment
+@enduml

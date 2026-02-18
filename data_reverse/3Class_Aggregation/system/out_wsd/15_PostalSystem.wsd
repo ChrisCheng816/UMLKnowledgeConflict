@@ -1,0 +1,4 @@
+@startuml
+PostOffice o-- PostalSystem
+Letter o-- PostOffice
+@enduml

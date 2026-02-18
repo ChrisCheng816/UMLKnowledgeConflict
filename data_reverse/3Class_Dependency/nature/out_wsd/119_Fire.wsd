@@ -1,0 +1,4 @@
+@startuml
+Combustion ..> Fire
+Oxygen ..> Combustion
+@enduml

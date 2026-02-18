@@ -1,0 +1,4 @@
+@startuml
+Multimeter ..> OutletTesting
+Electricity ..> Multimeter
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-ClubOfBaristas o-- School
-Barista o-- ClubOfBaristas
+Band o-- School
+Rapper o-- Band
 @enduml

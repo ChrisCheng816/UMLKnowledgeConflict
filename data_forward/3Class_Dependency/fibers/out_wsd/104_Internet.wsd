@@ -1,4 +1,4 @@
 @startuml
-Spotify ..> Internet
-OnlineUse ..> Spotify
+Airbnb ..> Internet
+Booking ..> Airbnb
 @enduml

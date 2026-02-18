@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Airplane
-Airplane <|-- Boeing737
+Vehicle <|-- Helicopter
+Helicopter <|-- BellHelicopter
 @enduml

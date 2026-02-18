@@ -1,0 +1,4 @@
+@startuml
+Box o-- Document
+Archive o-- Box
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Dashboard *-- Car
-Light *-- Dashboard
+Trim *-- Dashboard
 @enduml

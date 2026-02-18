@@ -1,0 +1,4 @@
+@startuml
+Jury o-- Alternate
+Court o-- Jury
+@enduml

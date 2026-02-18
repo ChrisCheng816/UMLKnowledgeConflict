@@ -1,0 +1,4 @@
+@startuml
+Lathe ..> Operating
+Electricity ..> Lathe
+@enduml

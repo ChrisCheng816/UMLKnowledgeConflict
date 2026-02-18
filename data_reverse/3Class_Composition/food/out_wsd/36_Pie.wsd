@@ -1,0 +1,4 @@
+@startuml
+Slice *-- Pie
+Filling *-- Slice
+@enduml

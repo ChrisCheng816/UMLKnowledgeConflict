@@ -1,0 +1,4 @@
+@startuml
+Unit o-- FireStation
+Dispatcher o-- Unit
+@enduml

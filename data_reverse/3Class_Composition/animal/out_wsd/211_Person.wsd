@@ -1,4 +1,4 @@
 @startuml
-Hair *-- Person
-Pigment *-- Hair
+Arm *-- Person
+Muscle *-- Arm
 @enduml

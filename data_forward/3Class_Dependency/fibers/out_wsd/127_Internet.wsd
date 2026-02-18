@@ -1,4 +1,4 @@
 @startuml
-Evernote ..> Internet
-OnlineUse ..> Evernote
+Skype ..> Internet
+Meeting ..> Skype
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TableSaw ..> Electricity
-FurnitureMaking ..> TableSaw
+Multimeter ..> Electricity
+Troubleshooting ..> Multimeter
 @enduml

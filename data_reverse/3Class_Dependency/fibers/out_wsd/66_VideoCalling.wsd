@@ -1,0 +1,4 @@
+@startuml
+Zoom ..> VideoCalling
+Internet ..> Zoom
+@enduml

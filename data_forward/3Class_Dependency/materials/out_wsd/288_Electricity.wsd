@@ -1,4 +1,4 @@
 @startuml
-POSMachine ..> Electricity
-HomeUse ..> POSMachine
+WaterDispenser ..> Electricity
+Operating ..> WaterDispenser
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+PopSong <|-- Song
+Song <|-- MusicWork
+@enduml

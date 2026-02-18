@@ -1,0 +1,4 @@
+@startuml
+Group o-- Choir
+Singer o-- Group
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Class o-- School
+Sophomore o-- Class
+@enduml

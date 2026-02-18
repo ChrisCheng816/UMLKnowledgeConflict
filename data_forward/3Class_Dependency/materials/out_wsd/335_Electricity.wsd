@@ -1,4 +1,4 @@
 @startuml
-Laminator ..> Electricity
-HomeUse ..> Laminator
+3DPrinter ..> Electricity
+3DPrinting ..> 3DPrinter
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Neck *-- Guitar
-Fret *-- Neck
+Pickup *-- Guitar
+Magnet *-- Pickup
 @enduml

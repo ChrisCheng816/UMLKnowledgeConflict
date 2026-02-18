@@ -1,0 +1,4 @@
+@startuml
+Croissant <|-- Bread
+Bread <|-- Food
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-InductionCooker ..> Electricity
-HomeUse ..> InductionCooker
+Mixer ..> Electricity
+Mixing ..> Mixer
 @enduml

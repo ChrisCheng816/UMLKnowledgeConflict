@@ -1,0 +1,4 @@
+@startuml
+Crew o-- Director
+Studio o-- Crew
+@enduml

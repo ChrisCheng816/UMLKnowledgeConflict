@@ -1,4 +1,4 @@
 @startuml
-SodaMaker ..> Electricity
-HomeUse ..> SodaMaker
+PoolHeater ..> Electricity
+Heating ..> PoolHeater
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+PoolPump ..> Operating
+Electricity ..> PoolPump
+@enduml

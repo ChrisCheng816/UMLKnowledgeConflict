@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- Tugboat
+Marina o-- Fleet
+@enduml

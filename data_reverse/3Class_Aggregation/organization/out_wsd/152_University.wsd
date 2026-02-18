@@ -1,0 +1,4 @@
+@startuml
+Department o-- University
+Course o-- Department
+@enduml

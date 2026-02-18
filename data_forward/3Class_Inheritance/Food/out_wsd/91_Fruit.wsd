@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- CitrusFruit
+CitrusFruit <|-- Tangerine
+@enduml

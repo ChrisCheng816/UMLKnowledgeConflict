@@ -1,0 +1,4 @@
+@startuml
+Sedan <|-- FullSizeSedan
+FullSizeSedan <|-- NissanAltima
+@enduml

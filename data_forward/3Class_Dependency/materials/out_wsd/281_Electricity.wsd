@@ -1,4 +1,4 @@
 @startuml
-GarageDoorOpener ..> Electricity
-HomeUse ..> GarageDoorOpener
+PaperShredder ..> Electricity
+Operating ..> PaperShredder
 @enduml

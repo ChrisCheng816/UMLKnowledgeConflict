@@ -1,0 +1,4 @@
+@startuml
+Teams ..> VideoCalling
+Internet ..> Teams
+@enduml

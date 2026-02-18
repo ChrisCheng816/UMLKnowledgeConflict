@@ -1,0 +1,4 @@
+@startuml
+Bin o-- HardwareStore
+Nails o-- Bin
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-DialysisMachine ..> Electricity
-BloodFiltration ..> DialysisMachine
+PulseOximeter ..> Electricity
+PatientMonitoring ..> PulseOximeter
 @enduml

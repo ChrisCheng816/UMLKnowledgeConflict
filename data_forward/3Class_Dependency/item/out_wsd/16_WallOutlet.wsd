@@ -1,4 +1,4 @@
 @startuml
-BalanceCharger ..> WallOutlet
-DroneBattery ..> BalanceCharger
+RapidCharger ..> WallOutlet
+PowerToolBattery ..> RapidCharger
 @enduml

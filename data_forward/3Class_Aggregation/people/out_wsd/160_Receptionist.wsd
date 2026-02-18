@@ -1,0 +1,4 @@
+@startuml
+Department o-- Receptionist
+Company o-- Department
+@enduml

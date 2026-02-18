@@ -1,4 +1,4 @@
 @startuml
-HBOMax ..> Internet
-OnlineUse ..> HBOMax
+Lyft ..> Internet
+Booking ..> Lyft
 @enduml

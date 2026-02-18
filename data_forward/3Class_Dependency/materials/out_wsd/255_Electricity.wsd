@@ -1,4 +1,4 @@
 @startuml
-WiFiRepeater ..> Electricity
-HomeUse ..> WiFiRepeater
+SmartThermostat ..> Electricity
+Operating ..> SmartThermostat
 @enduml

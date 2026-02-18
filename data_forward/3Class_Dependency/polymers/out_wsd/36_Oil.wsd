@@ -1,0 +1,4 @@
+@startuml
+PlasticFoam ..> Oil
+Insulation ..> PlasticFoam
+@enduml

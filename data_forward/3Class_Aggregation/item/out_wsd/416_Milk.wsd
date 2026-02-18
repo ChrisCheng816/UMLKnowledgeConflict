@@ -1,0 +1,4 @@
+@startuml
+Cart o-- Milk
+GroceryStore o-- Cart
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Classroom
+Calculator o-- Cabinet
+@enduml

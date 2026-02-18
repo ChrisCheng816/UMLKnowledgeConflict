@@ -1,4 +1,4 @@
 @startuml
-Floor *-- House
-Nail *-- Floor
+Ceiling *-- House
+Fixture *-- Ceiling
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Department o-- Library
+Editor o-- Department
+@enduml

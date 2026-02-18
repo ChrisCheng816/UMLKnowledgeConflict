@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Daisy
-Daisy <|-- ShastaDaisy
+Plant <|-- Corn
+Corn <|-- SweetCorn
 @enduml

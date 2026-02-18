@@ -1,0 +1,4 @@
+@startuml
+Rack *-- Rail
+Oven *-- Rack
+@enduml

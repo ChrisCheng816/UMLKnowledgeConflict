@@ -1,0 +1,4 @@
+@startuml
+Jet ..> JetFuel
+BusinessJetFlight ..> Jet
+@enduml

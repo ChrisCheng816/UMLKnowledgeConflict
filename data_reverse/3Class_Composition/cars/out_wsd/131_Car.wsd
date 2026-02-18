@@ -1,4 +1,4 @@
 @startuml
-Dashboard *-- Car
-Radio *-- Dashboard
+Wiper *-- Car
+Blade *-- Wiper
 @enduml

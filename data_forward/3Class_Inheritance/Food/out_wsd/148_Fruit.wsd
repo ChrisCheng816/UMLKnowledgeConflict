@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- DriedFruit
-DriedFruit <|-- DriedMango
+Fruit <|-- Berry
+Berry <|-- Gooseberry
 @enduml

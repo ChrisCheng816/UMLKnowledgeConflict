@@ -1,4 +1,4 @@
 @startuml
-ParamountPlus ..> Internet
-OnlineUse ..> ParamountPlus
+Signal ..> Internet
+Chatting ..> Signal
 @enduml

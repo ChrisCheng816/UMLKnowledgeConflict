@@ -1,4 +1,4 @@
 @startuml
-HeadlampLight ..> Electricity
-OperatingRoomLighting ..> HeadlampLight
+Ventilator ..> Electricity
+RespiratorySupport ..> Ventilator
 @enduml

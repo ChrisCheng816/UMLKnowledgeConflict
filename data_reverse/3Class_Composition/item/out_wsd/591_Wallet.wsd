@@ -1,0 +1,4 @@
+@startuml
+Pocket *-- Wallet
+Stitch *-- Pocket
+@enduml

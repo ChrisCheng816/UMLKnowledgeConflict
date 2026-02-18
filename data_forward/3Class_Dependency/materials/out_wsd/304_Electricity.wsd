@@ -1,4 +1,4 @@
 @startuml
-WaterPump ..> Electricity
-HomeUse ..> WaterPump
+LeafVacuum ..> Electricity
+Vacuuming ..> LeafVacuum
 @enduml

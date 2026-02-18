@@ -1,0 +1,4 @@
+@startuml
+Bagel <|-- Bread
+Bread <|-- Food
+@enduml

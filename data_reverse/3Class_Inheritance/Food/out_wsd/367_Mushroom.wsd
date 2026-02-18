@@ -1,0 +1,4 @@
+@startuml
+Mushroom <|-- Ingredient
+Ingredient <|-- Food
+@enduml

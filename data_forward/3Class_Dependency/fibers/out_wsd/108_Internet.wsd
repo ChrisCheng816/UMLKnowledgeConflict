@@ -1,4 +1,4 @@
 @startuml
-Deezer ..> Internet
-OnlineUse ..> Deezer
+Teams ..> Internet
+VideoCalling ..> Teams
 @enduml

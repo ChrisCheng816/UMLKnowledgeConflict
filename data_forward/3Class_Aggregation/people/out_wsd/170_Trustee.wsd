@@ -1,0 +1,4 @@
+@startuml
+Board o-- Trustee
+Company o-- Board
+@enduml

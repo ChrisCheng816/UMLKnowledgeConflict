@@ -1,0 +1,4 @@
+@startuml
+TikTok ..> Posting
+Internet ..> TikTok
+@enduml

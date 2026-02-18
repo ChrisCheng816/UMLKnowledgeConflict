@@ -1,0 +1,4 @@
+@startuml
+Plotter ..> Printing
+Electricity ..> Plotter
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Wind ..> SandDune
+PressureDifference ..> Wind
+@enduml

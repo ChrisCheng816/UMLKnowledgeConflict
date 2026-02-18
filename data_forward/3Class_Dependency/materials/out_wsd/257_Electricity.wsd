@@ -1,4 +1,4 @@
 @startuml
-SmartDisplay ..> Electricity
-HomeUse ..> SmartDisplay
+BluRayPlayer ..> Electricity
+Operating ..> BluRayPlayer
 @enduml

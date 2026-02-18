@@ -1,0 +1,4 @@
+@startuml
+Pea <|-- Vegetable
+Vegetable <|-- Food
+@enduml

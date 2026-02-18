@@ -1,4 +1,4 @@
 @startuml
-Oscilloscope ..> Electricity
-VoltageTesting ..> Oscilloscope
+3DPrinter ..> Electricity
+Prototyping ..> 3DPrinter
 @enduml

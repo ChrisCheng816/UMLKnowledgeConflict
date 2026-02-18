@@ -1,0 +1,4 @@
+@startuml
+Humidifier ..> Electricity
+Humidification ..> Humidifier
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Brake *-- Car
-Caliper *-- Brake
+Line *-- Brake
 @enduml

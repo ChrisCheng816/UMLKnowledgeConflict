@@ -1,4 +1,4 @@
 @startuml
-SteeringWheel *-- Car
-Switch *-- SteeringWheel
+Hood *-- Car
+Hinge *-- Hood
 @enduml

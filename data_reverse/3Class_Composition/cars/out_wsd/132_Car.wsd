@@ -1,4 +1,4 @@
 @startuml
-Door *-- Car
-Hinge *-- Door
+Mirror *-- Car
+Glass *-- Mirror
 @enduml

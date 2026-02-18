@@ -1,4 +1,4 @@
 @startuml
-HotAirStation ..> Electricity
-Heating ..> HotAirStation
+HeatGun ..> Electricity
+Drying ..> HeatGun
 @enduml

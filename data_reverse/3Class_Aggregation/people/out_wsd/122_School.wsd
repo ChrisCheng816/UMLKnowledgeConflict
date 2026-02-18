@@ -1,4 +1,4 @@
 @startuml
-ClubOfCyclists o-- School
-Cyclist o-- ClubOfCyclists
+Club o-- School
+Dancer o-- Club
 @enduml

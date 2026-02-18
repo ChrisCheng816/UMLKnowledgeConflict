@@ -1,4 +1,4 @@
 @startuml
-DisneyPlus ..> Internet
-OnlineUse ..> DisneyPlus
+Facebook ..> Internet
+Messaging ..> Facebook
 @enduml

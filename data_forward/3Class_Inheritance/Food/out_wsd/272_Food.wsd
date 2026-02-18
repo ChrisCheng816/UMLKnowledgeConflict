@@ -1,4 +1,4 @@
 @startuml
-Food <|-- PastaDish
-PastaDish <|-- AlfredoPasta
+Food <|-- Dish
+Dish <|-- Casserole
 @enduml

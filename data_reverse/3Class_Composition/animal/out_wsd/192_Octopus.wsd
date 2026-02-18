@@ -1,0 +1,4 @@
+@startuml
+Sucker *-- Octopus
+Ring *-- Sucker
+@enduml

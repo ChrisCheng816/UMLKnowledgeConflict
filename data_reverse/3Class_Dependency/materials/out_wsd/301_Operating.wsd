@@ -1,0 +1,4 @@
+@startuml
+SumpPump ..> Operating
+Electricity ..> SumpPump
+@enduml

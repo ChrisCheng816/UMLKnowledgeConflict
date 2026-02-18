@@ -1,4 +1,4 @@
 @startuml
-ChargingStand ..> WallOutlet
-HairTrimmer ..> ChargingStand
+PowerCord ..> WallOutlet
+Monitor ..> PowerCord
 @enduml

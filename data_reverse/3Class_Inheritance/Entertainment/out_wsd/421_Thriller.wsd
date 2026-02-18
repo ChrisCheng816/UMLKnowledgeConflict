@@ -1,0 +1,4 @@
+@startuml
+Thriller <|-- Album
+Album <|-- MusicWork
+@enduml

@@ -1,4 +1,4 @@
 @startuml
-ElectricScrewdriver ..> Electricity
-Screwing ..> ElectricScrewdriver
+ElectricHotPlate ..> Electricity
+CampingCooking ..> ElectricHotPlate
 @enduml

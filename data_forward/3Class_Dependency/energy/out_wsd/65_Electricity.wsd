@@ -1,0 +1,4 @@
+@startuml
+WeldingMachine ..> Electricity
+FrameBuilding ..> WeldingMachine
+@enduml

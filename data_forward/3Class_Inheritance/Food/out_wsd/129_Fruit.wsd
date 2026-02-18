@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- TropicalFruit
-TropicalFruit <|-- DragonFruit
+Fruit <|-- Melon
+Melon <|-- CasabaMelon
 @enduml

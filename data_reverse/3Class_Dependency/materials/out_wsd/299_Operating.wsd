@@ -1,0 +1,4 @@
+@startuml
+SodaMaker ..> Operating
+Electricity ..> SodaMaker
+@enduml

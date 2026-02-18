@@ -1,0 +1,4 @@
+@startuml
+Pickup *-- Guitar
+Coil *-- Pickup
+@enduml

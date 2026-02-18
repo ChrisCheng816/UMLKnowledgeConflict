@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- RacquetSport
-RacquetSport <|-- Pickleball
+Sport <|-- CombatSport
+CombatSport <|-- Karate
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+Fleet o-- CargoShip
+ShippingCompany o-- Fleet
+@enduml

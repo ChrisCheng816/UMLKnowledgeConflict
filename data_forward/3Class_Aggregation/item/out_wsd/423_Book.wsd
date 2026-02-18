@@ -1,0 +1,4 @@
+@startuml
+Box o-- Book
+Library o-- Box
+@enduml

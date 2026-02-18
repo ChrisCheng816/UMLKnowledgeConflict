@@ -1,0 +1,4 @@
+@startuml
+Spine *-- Book
+Thread *-- Spine
+@enduml

@@ -1,4 +1,4 @@
 @startuml
 Game <|-- VideoGame
-VideoGame <|-- Persona5
+VideoGame <|-- ChronoTrigger
 @enduml

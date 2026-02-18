@@ -1,0 +1,4 @@
+@startuml
+CabinCrew o-- FlightAttendant
+Airline o-- CabinCrew
+@enduml

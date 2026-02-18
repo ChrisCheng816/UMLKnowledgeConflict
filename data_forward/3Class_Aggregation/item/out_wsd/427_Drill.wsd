@@ -1,0 +1,4 @@
+@startuml
+Shelf o-- Drill
+HardwareStore o-- Shelf
+@enduml

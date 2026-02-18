@@ -1,0 +1,4 @@
+@startuml
+Herd o-- Reserve
+Camel o-- Herd
+@enduml

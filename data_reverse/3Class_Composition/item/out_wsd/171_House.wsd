@@ -1,4 +1,4 @@
 @startuml
-Ceiling *-- House
-Drywall *-- Ceiling
+Window *-- House
+Seal *-- Window
 @enduml

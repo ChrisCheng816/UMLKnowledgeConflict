@@ -1,0 +1,4 @@
+@startuml
+Cone *-- Surround
+Speaker *-- Cone
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Defibrillator ..> Defibrillation
+Battery ..> Defibrillator
+@enduml

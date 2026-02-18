@@ -1,4 +1,4 @@
 @startuml
-LaptopCharger ..> WallOutlet
-LaptopBattery ..> LaptopCharger
+PowerSupply ..> WallOutlet
+NeonSign ..> PowerSupply
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Floor *-- Car
-Mat *-- Floor
+Tire *-- Car
+Sidewall *-- Tire
 @enduml

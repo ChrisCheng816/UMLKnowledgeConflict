@@ -1,0 +1,4 @@
+@startuml
+Cardboard ..> CardboardBox
+Paper ..> Cardboard
+@enduml

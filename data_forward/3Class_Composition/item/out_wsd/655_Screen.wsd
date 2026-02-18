@@ -1,0 +1,4 @@
+@startuml
+Spout *-- Screen
+Kettle *-- Spout
+@enduml

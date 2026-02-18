@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Snack
-Snack <|-- Nachos
+Food <|-- Dessert
+Dessert <|-- Pudding
 @enduml

@@ -1,0 +1,4 @@
+@startuml
+PopcornMaker ..> Operating
+Electricity ..> PopcornMaker
+@enduml

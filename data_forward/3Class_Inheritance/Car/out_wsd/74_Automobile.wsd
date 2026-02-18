@@ -1,4 +1,4 @@
 @startuml
-Automobile <|-- Sedan
-Sedan <|-- VolkswagenJetta
+Automobile <|-- MidsizeCar
+MidsizeCar <|-- VolkswagenPassat
 @enduml

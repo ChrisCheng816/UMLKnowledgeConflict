@@ -1,0 +1,4 @@
+@startuml
+KitchenStaff o-- Chef
+Restaurant o-- KitchenStaff
+@enduml

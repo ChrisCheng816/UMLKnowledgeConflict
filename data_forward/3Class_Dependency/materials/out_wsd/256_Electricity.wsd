@@ -1,4 +1,4 @@
 @startuml
-NAS ..> Electricity
-HomeUse ..> NAS
+DVDPlayer ..> Electricity
+Operating ..> DVDPlayer
 @enduml

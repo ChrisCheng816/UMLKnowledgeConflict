@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Cactus
-Cactus <|-- SaguaroCactus
+Plant <|-- Tree
+Tree <|-- LemonTree
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-DieselTrain ..> FreightTransport
-DieselFuel ..> DieselTrain
+DieselTruck ..> FreightTransport
+DieselFuel ..> DieselTruck
 @enduml

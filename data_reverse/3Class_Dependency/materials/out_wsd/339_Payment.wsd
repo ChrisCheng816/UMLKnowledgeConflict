@@ -1,0 +1,4 @@
+@startuml
+Kiosk ..> Payment
+Electricity ..> Kiosk
+@enduml

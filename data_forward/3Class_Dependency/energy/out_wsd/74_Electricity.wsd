@@ -1,4 +1,4 @@
 @startuml
-HotGlueGun ..> Electricity
-Gluing ..> HotGlueGun
+3DPrinter ..> Electricity
+ModelMaking ..> 3DPrinter
 @enduml

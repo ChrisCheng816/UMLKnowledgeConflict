@@ -1,4 +1,4 @@
 @startuml
-DVDPlayer ..> Electricity
-HomeUse ..> DVDPlayer
+ChargingStation ..> Electricity
+Operating ..> ChargingStation
 @enduml

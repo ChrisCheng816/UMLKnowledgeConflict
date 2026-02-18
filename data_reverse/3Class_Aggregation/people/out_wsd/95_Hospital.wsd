@@ -1,0 +1,4 @@
+@startuml
+NursingStaff o-- Hospital
+Nurse o-- NursingStaff
+@enduml

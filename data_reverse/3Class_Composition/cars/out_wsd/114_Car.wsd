@@ -1,4 +1,4 @@
 @startuml
-Suspension *-- Car
-Bushing *-- Suspension
+Door *-- Car
+Hinge *-- Door
 @enduml

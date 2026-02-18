@@ -1,0 +1,4 @@
+@startuml
+BreadMaker ..> Baking
+Electricity ..> BreadMaker
+@enduml

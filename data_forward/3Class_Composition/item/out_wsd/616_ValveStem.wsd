@@ -1,0 +1,4 @@
+@startuml
+Tire *-- ValveStem
+Car *-- Tire
+@enduml

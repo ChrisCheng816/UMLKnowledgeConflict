@@ -1,0 +1,4 @@
+@startuml
+PulpFiction <|-- CrimeFilm
+CrimeFilm <|-- Film
+@enduml

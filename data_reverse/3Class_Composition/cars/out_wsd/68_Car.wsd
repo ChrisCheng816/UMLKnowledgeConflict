@@ -1,4 +1,4 @@
 @startuml
-Headlight *-- Car
-Wire *-- Headlight
+SteeringWheel *-- Car
+Airbag *-- SteeringWheel
 @enduml

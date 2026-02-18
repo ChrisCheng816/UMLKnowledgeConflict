@@ -1,0 +1,4 @@
+@startuml
+Fiber *-- Thread
+Strand *-- Fiber
+@enduml

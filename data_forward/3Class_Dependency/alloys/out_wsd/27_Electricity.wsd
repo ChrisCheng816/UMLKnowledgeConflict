@@ -1,4 +1,4 @@
 @startuml
-ElectricCar ..> Electricity
-CityCommute ..> ElectricCar
+ElectricScooter ..> Electricity
+Commuting ..> ElectricScooter
 @enduml

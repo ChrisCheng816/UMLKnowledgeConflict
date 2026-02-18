@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dessert
-Dessert <|-- Pudding
+Food <|-- Beverage
+Beverage <|-- Milkshake
 @enduml

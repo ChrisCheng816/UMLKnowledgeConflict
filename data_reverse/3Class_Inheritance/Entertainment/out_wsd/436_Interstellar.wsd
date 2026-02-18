@@ -1,0 +1,4 @@
+@startuml
+Interstellar <|-- ScienceFictionFilm
+ScienceFictionFilm <|-- Film
+@enduml

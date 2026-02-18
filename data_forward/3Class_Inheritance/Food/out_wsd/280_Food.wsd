@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Pastry
-Pastry <|-- Danish
+Food <|-- Vegetable
+Vegetable <|-- Spinach
 @enduml

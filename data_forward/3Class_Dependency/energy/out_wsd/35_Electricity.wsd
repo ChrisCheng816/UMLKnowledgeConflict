@@ -1,4 +1,4 @@
 @startuml
-HeatGun ..> Electricity
-ShrinkWrapping ..> HeatGun
+HotGlueGun ..> Electricity
+Crafting ..> HotGlueGun
 @enduml

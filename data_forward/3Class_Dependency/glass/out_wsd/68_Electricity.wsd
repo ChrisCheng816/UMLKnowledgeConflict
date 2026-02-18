@@ -1,4 +1,4 @@
 @startuml
 UltrasoundMachine ..> Electricity
-AbdominalUltrasound ..> UltrasoundMachine
+ThyroidUltrasound ..> UltrasoundMachine
 @enduml

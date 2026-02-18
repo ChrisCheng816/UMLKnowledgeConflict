@@ -1,4 +1,4 @@
 @startuml
-CNCMachine ..> Electricity
-PrototypeMaking ..> CNCMachine
+Jigsaw ..> Electricity
+Cutting ..> Jigsaw
 @enduml

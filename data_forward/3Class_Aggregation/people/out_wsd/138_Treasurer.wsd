@@ -1,0 +1,4 @@
+@startuml
+Committee o-- Treasurer
+City o-- Committee
+@enduml

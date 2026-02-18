@@ -1,4 +1,4 @@
 @startuml
 Exhaust *-- Car
-Clamp *-- Exhaust
+HeatShield *-- Exhaust
 @enduml

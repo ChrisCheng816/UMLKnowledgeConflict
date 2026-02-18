@@ -1,0 +1,4 @@
+@startuml
+ElectricScrewdriver ..> CabinetAssembly
+Electricity ..> ElectricScrewdriver
+@enduml

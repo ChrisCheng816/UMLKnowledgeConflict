@@ -1,0 +1,4 @@
+@startuml
+MixerBoard ..> Mixing
+Electricity ..> MixerBoard
+@enduml

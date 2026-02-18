@@ -1,4 +1,4 @@
 @startuml
-Film <|-- SpyFilm
-SpyFilm <|-- Skyfall
+Film <|-- ActionFilm
+ActionFilm <|-- DieHard
 @enduml

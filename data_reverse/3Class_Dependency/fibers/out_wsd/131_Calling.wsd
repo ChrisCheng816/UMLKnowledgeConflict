@@ -1,0 +1,4 @@
+@startuml
+FaceTime ..> Calling
+Internet ..> FaceTime
+@enduml

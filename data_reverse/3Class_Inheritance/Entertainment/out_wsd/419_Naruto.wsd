@@ -1,0 +1,4 @@
+@startuml
+Naruto <|-- Manga
+Manga <|-- Comic
+@enduml

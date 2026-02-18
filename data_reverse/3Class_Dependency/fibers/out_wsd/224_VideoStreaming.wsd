@@ -1,0 +1,4 @@
+@startuml
+InternetConnection ..> VideoStreaming
+Modem ..> InternetConnection
+@enduml

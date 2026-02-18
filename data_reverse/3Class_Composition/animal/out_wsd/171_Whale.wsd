@@ -1,0 +1,4 @@
+@startuml
+Flipper *-- Whale
+Fin *-- Flipper
+@enduml

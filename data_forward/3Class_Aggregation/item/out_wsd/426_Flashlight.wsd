@@ -1,0 +1,4 @@
+@startuml
+Cabinet o-- Flashlight
+Garage o-- Cabinet
+@enduml
