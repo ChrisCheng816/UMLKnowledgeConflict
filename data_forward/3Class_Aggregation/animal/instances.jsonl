@@ -207,3 +207,15 @@
 {"id": "207", "template_id": "aggregation", "nodes": ["Bison", "Herd", "Ranch"], "edges": ["Herd o-- Bison", "Ranch o-- Herd"]}
 {"id": "208", "template_id": "aggregation", "nodes": ["Chicken", "Flock", "Farm"], "edges": ["Flock o-- Chicken", "Farm o-- Flock"]}
 {"id": "209", "template_id": "aggregation", "nodes": ["Pig", "Herd", "Farm"], "edges": ["Herd o-- Pig", "Farm o-- Herd"]}
+{"id": "210", "template_id": "aggregation", "nodes": ["Seagull", "Flock", "Sanctuary"], "edges": ["Flock o-- Seagull", "Sanctuary o-- Flock"]}
+{"id": "211", "template_id": "aggregation", "nodes": ["Starling", "Flock", "Reserve"], "edges": ["Flock o-- Starling", "Reserve o-- Flock"]}
+{"id": "212", "template_id": "aggregation", "nodes": ["Meerkat", "Enclosure", "Zoo"], "edges": ["Enclosure o-- Meerkat", "Zoo o-- Enclosure"]}
+{"id": "213", "template_id": "aggregation", "nodes": ["Armadillo", "Enclosure", "Zoo"], "edges": ["Enclosure o-- Armadillo", "Zoo o-- Enclosure"]}
+{"id": "214", "template_id": "aggregation", "nodes": ["Porcupine", "Enclosure", "Zoo"], "edges": ["Enclosure o-- Porcupine", "Zoo o-- Enclosure"]}
+{"id": "215", "template_id": "aggregation", "nodes": ["Mongoose", "Enclosure", "Zoo"], "edges": ["Enclosure o-- Mongoose", "Zoo o-- Enclosure"]}
+{"id": "216", "template_id": "aggregation", "nodes": ["Deer", "Herd", "Sanctuary"], "edges": ["Herd o-- Deer", "Sanctuary o-- Herd"]}
+{"id": "217", "template_id": "aggregation", "nodes": ["Elephant", "Herd", "Reserve"], "edges": ["Herd o-- Elephant", "Reserve o-- Herd"]}
+{"id": "218", "template_id": "aggregation", "nodes": ["Yak", "Herd", "Ranch"], "edges": ["Herd o-- Yak", "Ranch o-- Herd"]}
+{"id": "219", "template_id": "aggregation", "nodes": ["Antelope", "Herd", "Reserve"], "edges": ["Herd o-- Antelope", "Reserve o-- Herd"]}
+{"id": "220", "template_id": "aggregation", "nodes": ["Wolf", "Pack", "Zoo"], "edges": ["Pack o-- Wolf", "Zoo o-- Pack"]}
+{"id": "221", "template_id": "aggregation", "nodes": ["Hyena", "Pack", "Zoo"], "edges": ["Pack o-- Hyena", "Zoo o-- Pack"]}

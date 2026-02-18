@@ -10,7 +10,6 @@ VitalSignsMonitoring PulseOximeter
 OperatingRoomLighting SurgicalLight
 ProcedureLighting SurgicalLight
 SurgicalLighting SurgicalLight
-TemperatureCheck Thermometer
 CardiacUltrasound UltrasoundMachine
 PrenatalCheckup UltrasoundMachine
 UltrasoundImaging UltrasoundMachine
@@ -36,6 +35,7 @@ XRayScan XRayMachine
 UltrasoundScan UltrasoundMachine
 BloodPressureReading BloodPressureMonitor
 GlucoseReading GlucoseMeter
+TemperatureCheck Thermometer
 PulseOximetry PulseOximeter
 EKGTest ECGMonitor
 HeartRhythmCheck ECGMonitor

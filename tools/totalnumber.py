@@ -28,32 +28,22 @@ def infer_group(root: Path, file_path: Path) -> str:
             return part
     return parts[0] if len(parts) >= 2 else "(root)"
 
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Count non-empty lines in files named target (default: data.txt)."
-    )
-    parser.add_argument(
-        "--root",
-        default=str(DEFAULT_ROOT_DIR),
-        help="Root directory to search recursively.",
-    )
-    parser.add_argument(
-        "--target",
-        default=DEFAULT_TARGET_NAME,
-        help="Target filename to search for.",
-    )
-    args = parser.parse_args()
+def resolve_split_root(base_root: Path, split: str) -> Path:
+    split_dir_name = f"data_{split}"
+    if base_root.name == split_dir_name:
+        return base_root
+    return base_root / split_dir_name
 
-    root_dir = Path(args.root).expanduser().resolve()
-    target_name = args.target
 
+def print_counts_for_root(root_dir: Path, target_name: str, split_label: str) -> None:
     if not root_dir.exists() or not root_dir.is_dir():
-        raise SystemExit(f"ROOT_DIR is not a valid directory: {root_dir}")
+        print(f"[WARN] split root not found: {root_dir}")
+        return
 
     files = sorted([p for p in root_dir.rglob(target_name) if p.is_file()])
 
     if not files:
-        print(f"No {target_name} files found under: {root_dir}")
+        print(f"[WARN] No {target_name} files found under: {root_dir}")
         return
 
     per_group_total = defaultdict(int)
@@ -68,6 +58,8 @@ def main() -> None:
 
     grand_total = sum(n for _, n, _ in per_file)
 
+    print("=" * 100)
+    print(f"Split: {split_label}")
     print(f"Root: {root_dir}")
     print(f"Found {len(files)} file(s) named {target_name}")
     print("Note: empty/blank lines are NOT counted as samples.")
@@ -93,6 +85,37 @@ def main() -> None:
     # -------- Grand total --------
     print("=" * 100)
     print(f"GRAND_TOTAL\t{grand_total}")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Count non-empty lines in files named target (default: data.txt)."
+    )
+    parser.add_argument(
+        "--root",
+        default=str(DEFAULT_ROOT_DIR),
+        help="Project root or a split root directory.",
+    )
+    parser.add_argument(
+        "--target",
+        default=DEFAULT_TARGET_NAME,
+        help="Target filename to search for.",
+    )
+    parser.add_argument(
+        "--splits",
+        nargs="+",
+        choices=["forward", "reverse"],
+        default=["reverse", "forward"],
+        help="Dataset splits to print. Default: reverse forward",
+    )
+    args = parser.parse_args()
+
+    base_root = Path(args.root).expanduser().resolve()
+    target_name = args.target
+
+    for split in args.splits:
+        split_root = resolve_split_root(base_root, split)
+        print_counts_for_root(split_root, target_name, split_label=split)
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,3 @@
-WallOutlet CircuitBreakerPanel
 Tablet USBCharger
 PowerBank USBCharger
 HandheldGameConsole USBCharger
@@ -24,16 +23,17 @@ ChargingStation UtilityTransformer
 NeonSign PowerSupply
 LEDStrip PowerSupply
 BabyMonitor PowerAdapter
-CircuitBreakerPanel UtilityMeter
+WallOutlet CircuitBreakerPanel
 Dishwasher WallOutlet
 Escalator BuildingPowerFeed
 BuildingPowerFeed CircuitBreakerPanel
 Elevator BuildingPowerFeed
+CircuitBreakerPanel UtilityMeter
 SecuritySystem ControlPanel
 ControlPanel WallOutlet
 MunicipalWaterMain WaterTreatmentPlant
-WaterTreatmentPlant RawWaterIntake
 Dishwasher MunicipalWaterMain
+WaterTreatmentPlant RawWaterIntake
 RawWaterIntake Reservoir
 WaterTower PumpStation
 PumpStation WaterTreatmentPlant
@@ -83,13 +83,13 @@ BroadbandModem CoaxialCable
 SecurityCamera NetworkRecorder
 DoorAccessReader AccessController
 PublicAddressSystem Amplifier
-TrafficCamera ControlCabinet
 DigitalSignage MediaPlayer
 Ebike EbikeCharger
 VacuumCleaner PowerCord
 Smartphone Charger
 VideoCall Smartphone
 NightLighting TableLamp
+CoffeeBrewing CoffeeMaker
 WeatherAlert EmergencyRadio
 PhoneCharging PhoneCharger
 DishwasherCycle Dishwasher
@@ -101,5 +101,6 @@ PoweringOutlet WallOutlet
 BreakerProtection CircuitBreakerPanel
 WaterPurification WaterTreatmentPlant
 PumpingWater WaterPump
+TrafficCamera ControlCabinet
 StreetLight PowerGrid
 TrafficLight PowerGrid

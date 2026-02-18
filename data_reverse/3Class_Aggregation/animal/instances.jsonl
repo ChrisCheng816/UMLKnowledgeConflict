@@ -207,3 +207,15 @@
 {"id": "207", "template_id": "aggregation", "nodes": ["Ranch", "Herd", "Bison"], "edges": ["Herd o-- Ranch", "Bison o-- Herd"]}
 {"id": "208", "template_id": "aggregation", "nodes": ["Farm", "Flock", "Chicken"], "edges": ["Flock o-- Farm", "Chicken o-- Flock"]}
 {"id": "209", "template_id": "aggregation", "nodes": ["Farm", "Herd", "Pig"], "edges": ["Herd o-- Farm", "Pig o-- Herd"]}
+{"id": "210", "template_id": "aggregation", "nodes": ["Sanctuary", "Flock", "Seagull"], "edges": ["Flock o-- Sanctuary", "Seagull o-- Flock"]}
+{"id": "211", "template_id": "aggregation", "nodes": ["Reserve", "Flock", "Starling"], "edges": ["Flock o-- Reserve", "Starling o-- Flock"]}
+{"id": "212", "template_id": "aggregation", "nodes": ["Zoo", "Enclosure", "Meerkat"], "edges": ["Enclosure o-- Zoo", "Meerkat o-- Enclosure"]}
+{"id": "213", "template_id": "aggregation", "nodes": ["Zoo", "Enclosure", "Armadillo"], "edges": ["Enclosure o-- Zoo", "Armadillo o-- Enclosure"]}
+{"id": "214", "template_id": "aggregation", "nodes": ["Zoo", "Enclosure", "Porcupine"], "edges": ["Enclosure o-- Zoo", "Porcupine o-- Enclosure"]}
+{"id": "215", "template_id": "aggregation", "nodes": ["Zoo", "Enclosure", "Mongoose"], "edges": ["Enclosure o-- Zoo", "Mongoose o-- Enclosure"]}
+{"id": "216", "template_id": "aggregation", "nodes": ["Sanctuary", "Herd", "Deer"], "edges": ["Herd o-- Sanctuary", "Deer o-- Herd"]}
+{"id": "217", "template_id": "aggregation", "nodes": ["Reserve", "Herd", "Elephant"], "edges": ["Herd o-- Reserve", "Elephant o-- Herd"]}
+{"id": "218", "template_id": "aggregation", "nodes": ["Ranch", "Herd", "Yak"], "edges": ["Herd o-- Ranch", "Yak o-- Herd"]}
+{"id": "219", "template_id": "aggregation", "nodes": ["Reserve", "Herd", "Antelope"], "edges": ["Herd o-- Reserve", "Antelope o-- Herd"]}
+{"id": "220", "template_id": "aggregation", "nodes": ["Zoo", "Pack", "Wolf"], "edges": ["Pack o-- Zoo", "Wolf o-- Pack"]}
+{"id": "221", "template_id": "aggregation", "nodes": ["Zoo", "Pack", "Hyena"], "edges": ["Pack o-- Zoo", "Hyena o-- Pack"]}

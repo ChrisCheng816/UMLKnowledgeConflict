@@ -1,5 +1,7 @@
 # sync_2class_from_3class.py
 import argparse
+import os
+import shutil
 from pathlib import Path
 
 
@@ -45,6 +47,60 @@ def build_required_pairs(lines, pair_mode: str = "both"):
     return required
 
 
+def remove_empty_parents(start_dir: Path, stop_dir: Path):
+    """
+    Remove empty parents from start_dir upwards until stop_dir (exclusive).
+    """
+    cur = start_dir
+    while cur != stop_dir and cur.exists():
+        try:
+            next(cur.iterdir())
+            break
+        except StopIteration:
+            cur.rmdir()
+            cur = cur.parent
+
+
+def safe_unlink(path: Path):
+    """
+    Best-effort unlink for read-only files on Windows.
+    """
+    try:
+        path.unlink()
+        return True
+    except FileNotFoundError:
+        return True
+    except PermissionError:
+        try:
+            os.chmod(path, 0o666)
+            path.unlink()
+            return True
+        except OSError:
+            return False
+    return False
+
+
+def _handle_remove_readonly(func, path, exc_info):
+    """
+    rmtree callback: retry after making path writable.
+    """
+    try:
+        os.chmod(path, 0o777)
+        func(path)
+    except OSError:
+        pass
+
+
+def safe_rmtree(path: Path):
+    """
+    Best-effort recursive delete for read-only trees on Windows.
+    """
+    if not path.exists():
+        return True
+    shutil.rmtree(path, onerror=_handle_remove_readonly)
+    return not path.exists()
+
+
 def sync_split(split_root: Path):
     if not split_root.exists():
         print(f"[WARN] split root not found: {split_root}")
@@ -66,51 +122,52 @@ def sync_split(split_root: Path):
             pair_mode = "both"
 
         # 1) Collect all required 2-class pairs from this 3Class group.
+        # Also track expected data.txt layout relative to 3Class root.
         required_all = set()
         required_by_file = {}
-        for three_file in three_dir.rglob("data.txt"):
+        expected_rel_data_files = set()
+        expected_rel_dirs = {Path(".")}
+        for three_file in sorted(three_dir.rglob("data.txt")):
             lines = three_file.read_text(encoding="utf-8").splitlines()
             required = build_required_pairs(lines, pair_mode=pair_mode)
             required_by_file[three_file] = required
             required_all.update(required)
+            rel_data = three_file.relative_to(three_dir)
+            expected_rel_data_files.add(rel_data)
+            parent = rel_data.parent
+            expected_rel_dirs.add(parent)
+            while parent != Path("."):
+                parent = parent.parent
+                expected_rel_dirs.add(parent)
 
-        # 2) Collect existing 2Class pairs under this group.
-        existing_all = set()
-        two_files = list(two_dir.rglob("data.txt")) if two_dir.exists() else []
-        for two_file in two_files:
-            for line in two_file.read_text(encoding="utf-8").splitlines():
-                line = line.strip()
-                if not line:
-                    continue
-                existing_all.add(line)
+        # 2) Align 2Class directory/file layout to 3Class layout.
+        # Delete any extra 2Class data.txt not present in the 3Class tree.
+        if two_dir.exists():
+            for two_file in sorted(two_dir.rglob("data.txt")):
+                rel = two_file.relative_to(two_dir)
+                if rel not in expected_rel_data_files:
+                    if not safe_unlink(two_file):
+                        print(f"[WARN] cannot remove extra file: {two_file}")
+                    remove_empty_parents(two_file.parent, two_dir)
+            # Remove extra directories that are not present in 3Class tree.
+            for two_subdir in sorted(
+                (p for p in two_dir.rglob("*") if p.is_dir()),
+                key=lambda p: len(p.parts),
+                reverse=True,
+            ):
+                rel_dir = two_subdir.relative_to(two_dir)
+                if rel_dir not in expected_rel_dirs:
+                    if not safe_rmtree(two_subdir):
+                        print(f"[WARN] cannot remove extra directory: {two_subdir}")
+                    remove_empty_parents(two_subdir.parent, two_dir)
 
-        # 3) Remove extra lines in 2Class that are not required by current 3Class group.
-        for two_file in two_files:
-            kept = []
-            for line in two_file.read_text(encoding="utf-8").splitlines():
-                line = line.strip()
-                if not line:
-                    continue
-                if line in required_all:
-                    kept.append(line)
-            two_file.write_text("\n".join(kept) + ("\n" if kept else ""), encoding="utf-8")
-
-        # 4) Add missing required pairs into the corresponding 2Class subfolder.
+        # 3) Rewrite each corresponding 2Class data.txt with ordered pairs.
+        # Order is aligned to the source 3Class data.txt order.
         for three_file, required in required_by_file.items():
             rel = three_file.relative_to(three_dir)
             two_file = two_dir / rel
             two_file.parent.mkdir(parents=True, exist_ok=True)
-
-            current = []
-            if two_file.exists():
-                current = two_file.read_text(encoding="utf-8").splitlines()
-
-            updated = list(current)
-            for pair in required:
-                if pair not in existing_all:
-                    updated.append(pair)
-                    existing_all.add(pair)
-
+            updated = list(required)
             two_file.write_text("\n".join(updated) + ("\n" if updated else ""), encoding="utf-8")
 
 

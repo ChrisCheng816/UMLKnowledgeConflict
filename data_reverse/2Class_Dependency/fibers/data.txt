@@ -25,9 +25,6 @@ RouteGuidance GPSNavigator
 LocationTracking GPSReceiver
 Navigation GPSReceiver
 RouteGuidance GPSReceiver
-VideoCall InternetConnection
-VideoStreaming InternetConnection
-WebBrowsing InternetConnection
 Email Laptop
 VideoCall Laptop
 WebBrowsing Laptop
@@ -223,6 +220,9 @@ MusicStreaming Smartphone
 PhotoUpload Smartphone
 OnlineShopping Smartphone
 Messaging Smartphone
+VideoCall InternetConnection
+VideoStreaming InternetConnection
+WebBrowsing InternetConnection
 Browsing Internet
 Searching Internet
 Email Internet
