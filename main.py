@@ -118,6 +118,19 @@ def main():
         model_path = model_item["path"]
         model_results_dir = os.path.join(results_dir, model_name)
         os.makedirs(model_results_dir, exist_ok=True)
+        valid_runs = []
+        for tag, dataset_root, output_image_root in runs:
+            if not os.path.isdir(dataset_root):
+                print(f"[WARN] skip {tag}: dataset_root not found -> {dataset_root}")
+                continue
+            if not os.path.isdir(output_image_root):
+                print(f"[WARN] skip {tag}: output_image_root not found -> {output_image_root}")
+                continue
+            valid_runs.append((tag, dataset_root, output_image_root))
+
+        if not valid_runs:
+            print(f"[WARN] no runnable splits for model={model_name}, backend={backend}; skip model")
+            continue
 
         if backend == "open_vllm":
             from load_open_vllm import generate_outputs, load_model
@@ -129,14 +142,7 @@ def main():
                 llm, processor = load_model(model_path)
                 print(f"[INFO] model initialized: name={model_name}, path={model_path}, backend={backend}")
 
-                for tag, dataset_root, output_image_root in runs:
-                    if not os.path.isdir(dataset_root):
-                        print(f"[WARN] skip {tag}: dataset_root not found -> {dataset_root}")
-                        continue
-                    if not os.path.isdir(output_image_root):
-                        print(f"[WARN] skip {tag}: output_image_root not found -> {output_image_root}")
-                        continue
-
+                for tag, dataset_root, output_image_root in valid_runs:
                     print(
                         f"[INFO] run model={model_name}, split={tag}, backend={backend}: "
                         f"dataset_root={dataset_root}, output_image_root={output_image_root}"
@@ -165,14 +171,7 @@ def main():
             from load_closed_llm import generate_outputs
 
             print(f"[INFO] model initialized: name={model_name}, path={model_path}, backend={backend}")
-            for tag, dataset_root, output_image_root in runs:
-                if not os.path.isdir(dataset_root):
-                    print(f"[WARN] skip {tag}: dataset_root not found -> {dataset_root}")
-                    continue
-                if not os.path.isdir(output_image_root):
-                    print(f"[WARN] skip {tag}: output_image_root not found -> {output_image_root}")
-                    continue
-
+            for tag, dataset_root, output_image_root in valid_runs:
                 print(
                     f"[INFO] run model={model_name}, split={tag}, backend={backend}: "
                     f"dataset_root={dataset_root}, output_image_root={output_image_root}"

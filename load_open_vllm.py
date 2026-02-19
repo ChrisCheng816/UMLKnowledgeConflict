@@ -1,14 +1,16 @@
 import json
-import math
-import numpy as np
 import os
 import re
 import random
-import logging
-from ultralytics.utils import LOGGER
-from transformers import AutoProcessor, Qwen3VLForConditionalGeneration
+from transformers import AutoProcessor
 from vllm import LLM, SamplingParams
-from qwen_vl_utils import process_vision_info
+from prompt_templates import (
+    build_class_presence_prompt,
+    build_relation_prompt,
+    build_stage1_messages,
+    build_stage2_messages,
+    build_unified_system_prompt,
+)
 
 
 BATCH_SIZE = 4
@@ -52,68 +54,7 @@ def _format_class_desc(nodes):
     return f"{', '.join(nodes[:-1])}, and {nodes[-1]}"
 
 def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
-    # Supports 2-node and 3-node inputs.
-    # query_pair controls which two nodes are asked about, defaulting to (node1, node2).
-    if len(nodes) < 2:
-        raise ValueError(f"nodes must contain at least 2 elements, got: {nodes}")
-
-    if len(query_pair) != 2:
-        raise ValueError(f"query_pair must contain exactly 2 indices, got: {query_pair}")
-    src_idx, dst_idx = query_pair
-    if src_idx < 0 or dst_idx < 0 or src_idx >= len(nodes) or dst_idx >= len(nodes):
-        raise ValueError(
-            f"query_pair indices out of range for nodes length {len(nodes)}: {query_pair}"
-        )
-
-    node1 = nodes[src_idx]
-    node2 = nodes[dst_idx]
-
-    relation = (relation or "inheritance").strip().lower()
-    class_desc = _format_class_desc(nodes)
-    class_prefix = "two" if len(nodes) == 2 else "three"
-
-    relation_specs = {
-        "inheritance": {
-            "relation_sentence": "An arrow with a hollow triangle head points from the subclass to the superclass, indicating the inheritance relationship.",
-            "ask_sentence": f"Does class {node2} inherit from class {node1}?",
-        },
-        "aggregation": {
-            "relation_sentence": "A line with a hollow diamond at the whole side points from the part to the whole, indicating the aggregation relationship.",
-            "ask_sentence": f"Does class {node2} aggregate class {node1}?",
-        },
-        "composition": {
-            "relation_sentence": "A line with a filled diamond at the whole side points from the part to the whole, indicating the composition relationship.",
-            "ask_sentence": f"Is class {node2} composed of class {node1}?",
-        },
-        "dependency": {
-            "relation_sentence": "A dashed arrow points from the dependent class to the class it depends on, indicating the dependency relationship.",
-            "ask_sentence": f"Does class {node2} depend on class {node1}?",
-        },
-    }
-    if relation not in relation_specs:
-        raise ValueError(f"Unsupported relation type: {relation}")
-
-    spec = relation_specs[relation]
-    question = (
-        f"The image provided is a UML diagram showing {relation} relationships.\n"
-        f"The diagram contains {class_prefix} classes: {class_desc}.\n"
-        "Each class is represented as a box, with the class name at the top.\n"
-        f"{spec['relation_sentence']}\n"
-        "Carefully verify the direction of every arrow or line in the UML diagram. Treat arrow direction as authoritative and do not assume it.\n"
-        "You must treat the image as the only source of truth for the question.\n"
-        "Do not use the model's internal knowledge or prior assumptions to attempt to answer the question.\n"
-        "Answer the following question solely from the relationships explicitly depicted in the image.\n"
-        f"The question is:\n {spec['ask_sentence']}\n\n"
-        "You may reason privately, but do not reveal any reasoning or intermediate steps. Output only one of: True, False, or Unknown.\n"
-        "Output 'Unknown' if the image is missing, unreadable, or the relation direction is unclear."
-    )
-
-    return question, {
-        "node1": node1,
-        "node2": node2,
-        "query_src_idx": src_idx,
-        "query_dst_idx": dst_idx,
-    }
+    return build_relation_prompt(nodes, relation=relation, query_pair=query_pair)
 
 def _coerce_single_query_pair(query_pair):
     if query_pair is None:
@@ -152,48 +93,13 @@ def _select_query_pair_for_task2(relation, is_reverse):
     return (0, 1)
 
 def _build_class_presence_prompt(expected_count=None, relation="inheritance"):
-    relation = (relation or "inheritance").strip().lower()
-    count_hint = ""
-    if isinstance(expected_count, int) and expected_count > 0:
-        count_hint = f"The UML diagram contains {expected_count} classes.\n"
-    return (
-        f"The image provided is a UML diagram showing {relation} relationships.\n"
-        f"{count_hint}"
-        "Each class is represented as a box, with the class name at the top.\n"
-        "You must treat the image as the only source of truth for the task.\n"
-        "Do not infer, guess, or invent any names. Complete the following task using only the class names that are visibly and explicitly depicted in the UML diagram.\n"+
-        "The task is:\n"
-        "List all class names that appear in the UML diagram.\n\n"
-        "Each class name in your final output must match the UML diagram text exactly, character by character.\n"
-        "You may reason privately, but do not reveal any reasoning or intermediate steps.\n"
-        "Output only a JSON array of strings, for example: [\"ClassA\", \"ClassB\"].\n"
-        "Do not output any text before or after the JSON array.\n"
-        "Output [] if the image is missing or unreadable."
-    )
+    return build_class_presence_prompt(expected_count=expected_count, relation=relation)
 
 def _build_unified_system_prompt():
-    return (
-        "You are an accurate UML diagram reasoning assistant.\n"
-        "You will be asked to complete a question or task.\n"
-        "Treat the provided image as the only source of truth.\n"
-        "Do not use the model's internal knowledge, assumptions, and guesses.\n"
-        "Follow the requested output format exactly, without extra explanation.\n"
-    )
+    return build_unified_system_prompt()
 
 def _build_mm_request(processor, image_path, user_text):
-    messages = [
-        {
-            "role": "system",
-            "content": [{"type": "text", "text": _build_unified_system_prompt()}],
-        },
-        {
-            "role": "user",
-            "content": [
-                {"type": "image", "image": image_path},
-                {"type": "text", "text": user_text},
-            ],
-        },
-    ]
+    messages = build_stage1_messages(image_path=image_path, user_text=user_text)
     return _build_mm_payload(processor, messages)
 
 
@@ -204,32 +110,12 @@ def _build_mm_followup_request(
     task1_assistant_text,
     task2_user_text,
 ):
-    # Multi-turn context: task-1 (with image) -> assistant answer -> task-2 follow-up.
-    messages = [
-        {
-            "role": "system",
-            "content": [{"type": "text", "text": _build_unified_system_prompt()}],
-        },
-        {
-            "role": "user",
-            "content": [
-                {"type": "image", "image": image_path},
-                {"type": "text", "text": task1_user_text},
-            ],
-        },
-        {
-            "role": "assistant",
-            "content": [
-                {"type": "text", "text": str(task1_assistant_text or "")},
-            ],
-        },
-        {
-            "role": "user",
-            "content": [
-                {"type": "text", "text": task2_user_text},
-            ],
-        },
-    ]
+    messages = build_stage2_messages(
+        image_path=image_path,
+        task1_user_text=task1_user_text,
+        task1_assistant_text=task1_assistant_text,
+        task2_user_text=task2_user_text,
+    )
     return _build_mm_payload(processor, messages)
 
 
@@ -239,22 +125,30 @@ def _build_mm_payload(processor, messages):
         tokenize=False,
         add_generation_prompt=True
     )
-    image_inputs, video_inputs, video_kwargs = process_vision_info(
-        messages,
-        image_patch_size=processor.image_processor.patch_size,
-        return_video_kwargs=True,
-        return_video_metadata=True,
-    )
+    image_inputs = _extract_image_inputs(messages)
     mm = {}
-    if image_inputs is not None:
-        mm["image"] = image_inputs
-    if video_inputs is not None:
-        mm["video"] = video_inputs
+    if image_inputs:
+        mm["image"] = image_inputs if len(image_inputs) > 1 else image_inputs[0]
     return {
         "prompt": prompt,
         "multi_modal_data": mm,
-        "mm_processor_kwargs": video_kwargs
     }
+
+
+def _extract_image_inputs(messages):
+    images = []
+    for message in messages or []:
+        content = message.get("content", [])
+        if not isinstance(content, list):
+            continue
+        for item in content:
+            if not isinstance(item, dict) or item.get("type") != "image":
+                continue
+            image_obj = item.get("image")
+            if image_obj is None:
+                continue
+            images.append(image_obj)
+    return images
 
 
 def _build_gate_records(run_info, processor):
@@ -741,13 +635,19 @@ def save_outputs(predictions, information, out_path, model_name=None, model_path
     def _pass_at_k_from_outputs(run_outputs, k):
         if not run_outputs:
             return None
-        k = max(1, min(int(k), len(run_outputs)))
+        k = int(k)
+        if len(run_outputs) < k:
+            return None
+        k = max(1, k)
         return any(_to_bool_true(x) for x in run_outputs[:k])
 
     def _pass_at_k_from_checks(run_checks, k):
         if not run_checks:
             return None
-        k = max(1, min(int(k), len(run_checks)))
+        k = int(k)
+        if len(run_checks) < k:
+            return None
+        k = max(1, k)
         return any(bool((run_checks[i] or {}).get("passed", False)) for i in range(k))
 
     def _label(value):

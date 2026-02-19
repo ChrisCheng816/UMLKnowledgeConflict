@@ -6,6 +6,13 @@ import re
 from typing import Any, Dict, List, Tuple
 
 from apis import API_KEYS
+from prompt_templates import (
+    build_class_presence_prompt,
+    build_relation_prompt,
+    build_stage1_messages,
+    build_stage2_messages_from_info,
+    build_unified_system_prompt,
+)
 
 api_keys = API_KEYS()
 
@@ -42,66 +49,7 @@ def _format_class_desc(nodes):
 
 
 def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
-    if len(nodes) < 2:
-        raise ValueError(f"nodes must contain at least 2 elements, got: {nodes}")
-
-    if len(query_pair) != 2:
-        raise ValueError(f"query_pair must contain exactly 2 indices, got: {query_pair}")
-    src_idx, dst_idx = query_pair
-    if src_idx < 0 or dst_idx < 0 or src_idx >= len(nodes) or dst_idx >= len(nodes):
-        raise ValueError(
-            f"query_pair indices out of range for nodes length {len(nodes)}: {query_pair}"
-        )
-
-    node1 = nodes[src_idx]
-    node2 = nodes[dst_idx]
-
-    relation = (relation or "inheritance").strip().lower()
-    class_desc = _format_class_desc(nodes)
-    class_prefix = "two" if len(nodes) == 2 else "three"
-
-    relation_specs = {
-        "inheritance": {
-            "relation_sentence": "An arrow with a hollow triangle head points from the subclass to the superclass, indicating the inheritance relationship.",
-            "ask_sentence": f"Does class {node2} inherit from class {node1}?",
-        },
-        "aggregation": {
-            "relation_sentence": "A line with a hollow diamond at the whole side points from the part to the whole, indicating the aggregation relationship.",
-            "ask_sentence": f"Does class {node2} aggregate class {node1}?",
-        },
-        "composition": {
-            "relation_sentence": "A line with a filled diamond at the whole side points from the part to the whole, indicating the composition relationship.",
-            "ask_sentence": f"Is class {node2} composed of class {node1}?",
-        },
-        "dependency": {
-            "relation_sentence": "A dashed arrow points from the dependent class to the class it depends on, indicating the dependency relationship.",
-            "ask_sentence": f"Does class {node2} depend on class {node1}?",
-        },
-    }
-    if relation not in relation_specs:
-        raise ValueError(f"Unsupported relation type: {relation}")
-
-    spec = relation_specs[relation]
-    question = (
-        f"The image provided is a UML diagram showing {relation} relationships.\n"
-        f"The diagram contains {class_prefix} classes: {class_desc}.\n"
-        "Each class is represented as a box, with the class name at the top.\n"
-        f"{spec['relation_sentence']}\n"
-        "Carefully verify the direction of every arrow or line in the UML diagram. Treat arrow direction as authoritative and do not assume it.\n"
-        "You must treat the image as the only source of truth for the question.\n"
-        "Do not use the model's internal knowledge or prior assumptions to attempt to answer the question.\n"
-        "Answer the following question solely from the relationships explicitly depicted in the image.\n"
-        f"The question is:\n {spec['ask_sentence']}\n\n"
-        "You may reason privately, but do not reveal any reasoning or intermediate steps. Output only one of: True, False, or Unknown.\n"
-        "Output 'Unknown' if the image is missing, unreadable, or the relation direction is unclear."
-    )
-
-    return question, {
-        "node1": node1,
-        "node2": node2,
-        "query_src_idx": src_idx,
-        "query_dst_idx": dst_idx,
-    }
+    return build_relation_prompt(nodes, relation=relation, query_pair=query_pair)
 
 
 def _coerce_single_query_pair(query_pair):
@@ -145,24 +93,15 @@ def _select_query_pair_for_task2(relation, is_reverse):
 
 
 def _build_class_presence_prompt(expected_count=None, relation="inheritance"):
-    relation = (relation or "inheritance").strip().lower()
-    count_hint = ""
-    if isinstance(expected_count, int) and expected_count > 0:
-        count_hint = f"The UML diagram contains {expected_count} classes.\n"
-    return (
-        f"The image provided is a UML diagram showing {relation} relationships.\n"
-        f"{count_hint}"
-        "Each class is represented as a box, with the class name at the top.\n"
-        "You must treat the image as the only source of truth for the task.\n"
-        "Do not infer, guess, or invent any names. Complete the following task using only the class names that are visibly and explicitly depicted in the UML diagram.\n"
-        "The task is:\n"
-        "List all class names that appear in the UML diagram.\n\n"
-        "Each class name in your final output must match the UML diagram text exactly, character by character.\n"
-        "You may reason privately, but do not reveal any reasoning or intermediate steps.\n"
-        "Output only a JSON array of strings, for example: [\"ClassA\", \"ClassB\"].\n"
-        "Do not output any text before or after the JSON array.\n"
-        "Output [] if the image is missing or unreadable."
-    )
+    return build_class_presence_prompt(expected_count=expected_count, relation=relation)
+
+
+def _build_unified_system_prompt():
+    return build_unified_system_prompt()
+
+
+def _build_stage2_chat_messages(info):
+    return build_stage2_messages_from_info(info)
 
 
 def _normalize_class_name(name):
@@ -372,7 +311,75 @@ def build_relation_prompt(
     return _build_relation_prompt(nodes, relation=relation, query_pair=query_pair)
 
 
-def run_vqa(model, prompt, image_path):
+def _build_chat_messages_for_client(prompt, image_path):
+    base64_image = encode_image_to_base64(image_path)
+    return [
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": prompt},
+                {
+                    "type": "image_url",
+                    "image_url": {"url": f"data:image/png;base64,{base64_image}"},
+                },
+            ],
+        }
+    ]
+
+
+def _to_chat_completions_messages(messages):
+    converted = []
+    for msg in messages or []:
+        role = msg.get("role", "user")
+        content_items = []
+        for item in msg.get("content", []):
+            if not isinstance(item, dict):
+                continue
+            item_type = item.get("type")
+            if item_type == "text":
+                content_items.append({"type": "text", "text": str(item.get("text", ""))})
+            elif item_type == "image":
+                image_path = item.get("image")
+                if not image_path:
+                    continue
+                base64_image = encode_image_to_base64(str(image_path))
+                content_items.append(
+                    {
+                        "type": "image_url",
+                        "image_url": {"url": f"data:image/png;base64,{base64_image}"},
+                    }
+                )
+        converted.append({"role": role, "content": content_items})
+    return converted
+
+
+def _to_responses_input(messages):
+    converted = []
+    for msg in messages or []:
+        role = msg.get("role", "user")
+        content_items = []
+        for item in msg.get("content", []):
+            if not isinstance(item, dict):
+                continue
+            item_type = item.get("type")
+            if item_type == "text":
+                content_items.append({"type": "input_text", "text": str(item.get("text", ""))})
+            elif item_type == "image":
+                image_path = item.get("image")
+                if not image_path:
+                    continue
+                base64_image = encode_image_to_base64(str(image_path))
+                content_items.append(
+                    {
+                        "type": "input_image",
+                        "image_url": f"data:image/png;base64,{base64_image}",
+                    }
+                )
+        converted.append({"role": role, "content": content_items})
+    return converted
+
+
+def run_vqa(model, prompt, image_path, messages=None):
     from openai import OpenAI
 
     api_key, base_url = get_info(model)
@@ -385,43 +392,21 @@ def run_vqa(model, prompt, image_path):
         client = OpenAI(
             api_key=api_key,
         )
-    base64_image = encode_image_to_base64(image_path)
+
+    if messages is None:
+        messages = _build_chat_messages_for_client(prompt, image_path)
 
     if "codex" in model:
         response = client.responses.create(
             model=model,
-            input=[
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "input_text", "text": prompt},
-                        {
-                            "type": "input_image",
-                            "image_url": f"data:image/png;base64,{base64_image}",
-                        },
-                    ],
-                }
-            ],
+            input=_to_responses_input(messages),
         )
 
         answer = response.output_text
     else:
         response = client.chat.completions.create(
             model=model,
-            messages=[
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": prompt},
-                        {
-                            "type": "image_url",
-                            "image_url": {
-                                "url": f"data:image/png;base64,{base64_image}"
-                            },
-                        },
-                    ],
-                }
-            ],
+            messages=_to_chat_completions_messages(messages),
         )
 
         answer = response.choices[0].message.content
@@ -568,7 +553,14 @@ def _build_gate_records(run_info):
                 "nodes": nodes,
                 "relation": relation,
                 "prompt": gate_prompt,
-                "request": {"image_path": key, "prompt": gate_prompt},
+                "request": {
+                    "image_path": key,
+                    "prompt": gate_prompt,
+                    "messages": build_stage1_messages(
+                        image_path=key,
+                        user_text=gate_prompt,
+                    ),
+                },
                 "indices": [],
             }
         gate_records[key]["indices"].append(idx)
@@ -593,22 +585,22 @@ def _compute_gate_result(gate_records, gate_keys, gate_predictions):
 
 
 def _build_stage2_request_from_info(info):
-    verified_names = json.dumps(
-        info.get("class_check_expected", info.get("nodes", [])),
-        ensure_ascii=False,
-    )
-    stage2_user_text = (
-        f"Verified class names in this UML diagram: {verified_names}\n"
-        "Now answer the following relation question.\n"
-        f"{info.get('prompt', '')}"
-    )
-    return {"image_path": info.get("image_path"), "prompt": stage2_user_text}
+    return {
+        "image_path": info.get("image_path"),
+        "prompt": info.get("prompt", ""),
+        "messages": _build_stage2_chat_messages(info),
+    }
 
 
 def _run_requests(requests, model, progress_label="instances"):
     predictions = []
     for i, req in enumerate(requests):
-        answer = run_vqa(model, req["prompt"], req["image_path"])
+        answer = run_vqa(
+            model,
+            req.get("prompt", ""),
+            req.get("image_path"),
+            messages=req.get("messages"),
+        )
         predictions.append([str(answer).strip()])
         if i > 0 and (i % 200) == 0:
             print(f"\033[1;32m{i}\033[0m {progress_label} generated successfully")
@@ -718,13 +710,19 @@ def save_outputs(predictions, information, out_path, model_name=None, model_path
     def _pass_at_k_from_outputs(run_outputs, k):
         if not run_outputs:
             return None
-        k = max(1, min(int(k), len(run_outputs)))
+        k = int(k)
+        if len(run_outputs) < k:
+            return None
+        k = max(1, k)
         return any(_to_bool_true(x) for x in run_outputs[:k])
 
     def _pass_at_k_from_checks(run_checks, k):
         if not run_checks:
             return None
-        k = max(1, min(int(k), len(run_checks)))
+        k = int(k)
+        if len(run_checks) < k:
+            return None
+        k = max(1, k)
         return any(bool((run_checks[i] or {}).get("passed", False)) for i in range(k))
 
     def _label(value):
@@ -768,10 +766,10 @@ def save_outputs(predictions, information, out_path, model_name=None, model_path
                 "outputs_task2": run_outputs,
                 "pass@1": _label(end2end_pass1),
                 "pass@5": _label(end2end_pass5),
-                "pass@10": "Unknown",
+                "pass@10": _label(end2end_pass10),
                 "task1_pass@1": _label(task1_pass1),
                 "task1_pass@5": _label(task1_pass5),
-                "task1_pass@10": "Unknown",
+                "task1_pass@10": _label(task1_pass10),
             }
             json.dump(obj, f, ensure_ascii=False)
             f.write("\n")
