@@ -1,0 +1,3 @@
+@startuml
+Soundbar ..> MusicPlayback : dependency
+@enduml

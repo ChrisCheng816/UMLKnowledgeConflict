@@ -1,0 +1,3 @@
+@startuml
+Mailbox o-- PostOffice : aggregation
+@enduml

@@ -1,0 +1,3 @@
+@startuml
+GPSReceiver ..> Navigation : dependency
+@enduml

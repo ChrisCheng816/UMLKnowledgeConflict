@@ -1,0 +1,3 @@
+@startuml
+LaptopCharger ..> DeviceCharging : dependency
+@enduml

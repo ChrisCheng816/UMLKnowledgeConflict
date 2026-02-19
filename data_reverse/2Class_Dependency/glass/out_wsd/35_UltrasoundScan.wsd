@@ -1,0 +1,3 @@
+@startuml
+UltrasoundMachine ..> UltrasoundScan : dependency
+@enduml

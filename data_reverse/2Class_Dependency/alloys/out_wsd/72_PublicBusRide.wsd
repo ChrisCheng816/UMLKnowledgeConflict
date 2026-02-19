@@ -1,0 +1,3 @@
+@startuml
+CityBus ..> PublicBusRide : dependency
+@enduml

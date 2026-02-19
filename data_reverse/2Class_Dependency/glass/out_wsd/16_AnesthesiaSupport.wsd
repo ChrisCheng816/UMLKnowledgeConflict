@@ -1,0 +1,3 @@
+@startuml
+Ventilator ..> AnesthesiaSupport : dependency
+@enduml

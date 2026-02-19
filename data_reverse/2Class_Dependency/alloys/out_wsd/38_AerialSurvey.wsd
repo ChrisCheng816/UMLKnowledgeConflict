@@ -1,0 +1,3 @@
+@startuml
+MedicalHelicopter ..> AerialSurvey : dependency
+@enduml

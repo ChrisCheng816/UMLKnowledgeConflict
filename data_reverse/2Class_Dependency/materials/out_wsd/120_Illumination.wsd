@@ -1,0 +1,3 @@
+@startuml
+KitchenLight ..> Illumination : dependency
+@enduml

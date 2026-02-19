@@ -1,0 +1,3 @@
+@startuml
+Multimeter ..> VoltageTesting : dependency
+@enduml

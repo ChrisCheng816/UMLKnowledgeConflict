@@ -1,0 +1,3 @@
+@startuml
+AquariumLight ..> NightLighting : dependency
+@enduml

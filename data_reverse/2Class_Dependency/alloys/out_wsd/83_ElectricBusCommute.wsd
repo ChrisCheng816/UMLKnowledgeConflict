@@ -1,0 +1,3 @@
+@startuml
+ElectricBus ..> ElectricBusCommute : dependency
+@enduml

@@ -28,7 +28,7 @@ def load_model(
     dtype=DTYPE,
     gpu_memory_utilization=GPU_PER,
 ):
-    processor = AutoProcessor.from_pretrained(model_name)
+    processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
     llm = LLM(
         model=model_name,
         tensor_parallel_size=tensor_parallel_size,

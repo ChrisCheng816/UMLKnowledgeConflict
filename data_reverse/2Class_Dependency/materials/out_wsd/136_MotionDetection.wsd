@@ -1,0 +1,3 @@
+@startuml
+MotionSensor ..> MotionDetection : dependency
+@enduml

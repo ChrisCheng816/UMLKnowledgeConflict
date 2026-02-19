@@ -1,0 +1,3 @@
+@startuml
+DepotFuelPump ..> DieselBus : dependency
+@enduml

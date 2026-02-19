@@ -1,0 +1,3 @@
+@startuml
+ElectricScrewdriver ..> CabinetAssembly : dependency
+@enduml

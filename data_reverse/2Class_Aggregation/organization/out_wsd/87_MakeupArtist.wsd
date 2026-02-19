@@ -1,0 +1,3 @@
+@startuml
+MakeupArtist o-- Crew : aggregation
+@enduml

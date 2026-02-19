@@ -1,0 +1,3 @@
+@startuml
+XRayMachine ..> XRayScan : dependency
+@enduml

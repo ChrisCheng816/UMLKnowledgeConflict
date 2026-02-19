@@ -1,0 +1,3 @@
+@startuml
+GasMeter ..> GasFurnace : dependency
+@enduml

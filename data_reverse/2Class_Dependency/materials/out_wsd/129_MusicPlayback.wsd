@@ -1,0 +1,3 @@
+@startuml
+MediaPlayer ..> MusicPlayback : dependency
+@enduml

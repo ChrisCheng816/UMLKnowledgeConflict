@@ -1,0 +1,3 @@
+@startuml
+CargoPlane ..> CargoFlight : dependency
+@enduml

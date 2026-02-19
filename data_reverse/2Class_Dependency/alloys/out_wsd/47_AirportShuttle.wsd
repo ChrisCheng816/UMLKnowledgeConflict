@@ -1,0 +1,3 @@
+@startuml
+ShuttleBus ..> AirportShuttle : dependency
+@enduml
