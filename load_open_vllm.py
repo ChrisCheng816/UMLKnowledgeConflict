@@ -12,9 +12,9 @@ from qwen_vl_utils import process_vision_info
 
 
 BATCH_SIZE = 4
-GPU_PER = 0.3
+GPU_PER = 0.7
 # Number of full pipeline runs for pass@k style evaluation.
-N = 1
+N = 10
 TP_SIZE = 4
 DTYPE = "auto"
 
@@ -67,7 +67,6 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
 
     node1 = nodes[src_idx]
     node2 = nodes[dst_idx]
-    node3 = nodes[2] if len(nodes) >= 3 else None
 
     relation = (relation or "inheritance").strip().lower()
     class_desc = _format_class_desc(nodes)
@@ -100,10 +99,11 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
         f"The diagram contains {class_prefix} classes: {class_desc}.\n"
         "Each class is represented as a box, with the class name at the top.\n"
         f"{spec['relation_sentence']}\n"
-        "You must treat the image as the only source of truth.\n"
-        "Answer the question solely from the relationships explicitly depicted in the image.\n"
-        "Do not use the model's internal knowledge or prior assumptions to attempt to answer the subsequent question.\n"
-        f"The question is:\n {spec['ask_sentence']}\n"
+        "Carefully verify the direction of every arrow or line in the UML diagram. Treat arrow direction as authoritative and do not assume it.\n"
+        "You must treat the image as the only source of truth for the question.\n"
+        "Do not use the model's internal knowledge or prior assumptions to attempt to answer the question.\n"
+        "Answer the following question solely from the relationships explicitly depicted in the image.\n"
+        f"The question is:\n {spec['ask_sentence']}\n\n"
         "You may reason privately, but do not reveal any reasoning or intermediate steps. Output only the final binary answer: True or False.\n"
         "Output 'Unknown' if the image is not provided."
     )
@@ -111,7 +111,6 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
     return question, {
         "node1": node1,
         "node2": node2,
-        "node3": node3,
         "query_src_idx": src_idx,
         "query_dst_idx": dst_idx,
     }
@@ -156,23 +155,34 @@ def _build_class_presence_prompt(expected_count=None, relation="inheritance"):
     relation = (relation or "inheritance").strip().lower()
     count_hint = ""
     if isinstance(expected_count, int) and expected_count > 0:
-        count_hint = f"The diagram contains {expected_count} classes.\n"
+        count_hint = f"The UML diagram contains {expected_count} classes.\n"
     return (
         f"The image provided is a UML diagram showing {relation} relationships.\n"
         f"{count_hint}"
         "Each class is represented as a box, with the class name at the top.\n"
-        "You must treat the image as the only source of truth.\n"
-        "Answer the question solely from the class names explicitly depicted in the image.\n"
-        "Do not use the model's internal knowledge or prior assumptions to attempt to answer the subsequent question.\n"
-        "The question is:\n"
-        "List all class names that appear in the diagram.\n"
+        "You must treat the image as the only source of truth for the task.\n"
+        "Do not infer, guess, or invent any names. Complete the following task using only the class names that are visibly and explicitly depicted in the UML diagram.\n"+
+        "The task is:\n"
+        "List all class names that appear in the UML diagram.\n\n"
+        "After listing all class names, verify each listed class name against the UML diagram in the image letter by letter to ensure it is perfectly accurate. Repeat the task until every class name matches exactly."
         "You may reason privately, but do not reveal any reasoning or intermediate steps.\n"
         "Output only a JSON array of strings, for example: [\"ClassA\", \"ClassB\"].\n"
         "Output [] if the image is not provided."
     )
 
+def _build_unified_system_prompt():
+    return (
+        "You are an accurate UML diagram reasoning assistant.\n"
+        "You will be asked to complete a question or task.\n"
+        "Follow the requested output format exactly, without extra explanation.\n"
+    )
+
 def _build_mm_request(processor, image_path, user_text):
     messages = [
+        {
+            "role": "system",
+            "content": [{"type": "text", "text": _build_unified_system_prompt()}],
+        },
         {
             "role": "user",
             "content": [
@@ -193,6 +203,10 @@ def _build_mm_followup_request(
 ):
     # Multi-turn context: task-1 (with image) -> assistant answer -> task-2 follow-up.
     messages = [
+        {
+            "role": "system",
+            "content": [{"type": "text", "text": _build_unified_system_prompt()}],
+        },
         {
             "role": "user",
             "content": [
