@@ -1,3 +1,3 @@
 @startuml
-Club o-- Hiker
+Club o-- Hiker : aggregation
 @enduml

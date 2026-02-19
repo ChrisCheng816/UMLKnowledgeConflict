@@ -1,4 +1,4 @@
 @startuml
-Cart o-- Library
-Book o-- Cart
+Cart o-- Library : aggregation
+Book o-- Cart : aggregation
 @enduml

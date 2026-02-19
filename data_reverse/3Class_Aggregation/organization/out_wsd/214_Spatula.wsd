@@ -1,4 +1,4 @@
 @startuml
-Drawer o-- Kitchen
-Spatula o-- Drawer
+Drawer o-- Kitchen : aggregation
+Spatula o-- Drawer : aggregation
 @enduml

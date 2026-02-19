@@ -1,3 +1,3 @@
 @startuml
-Tank o-- Jellyfish
+Tank o-- Jellyfish : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Headphone o-- InstrumentRack
+Headphone o-- InstrumentRack : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Folder
-Office o-- Cabinet
+Cabinet o-- Folder : aggregation
+Office o-- Cabinet : aggregation
 @enduml

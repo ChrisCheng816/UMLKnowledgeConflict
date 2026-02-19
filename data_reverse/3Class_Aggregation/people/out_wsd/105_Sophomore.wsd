@@ -1,4 +1,4 @@
 @startuml
-Class o-- School
-Sophomore o-- Class
+Class o-- School : aggregation
+Sophomore o-- Class : aggregation
 @enduml

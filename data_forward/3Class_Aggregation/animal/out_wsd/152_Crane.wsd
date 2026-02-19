@@ -1,4 +1,4 @@
 @startuml
-Aviary o-- Crane
-Sanctuary o-- Aviary
+Aviary o-- Crane : aggregation
+Sanctuary o-- Aviary : aggregation
 @enduml

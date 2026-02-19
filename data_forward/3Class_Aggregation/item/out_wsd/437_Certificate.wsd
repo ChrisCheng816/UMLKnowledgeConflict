@@ -1,4 +1,4 @@
 @startuml
-Folder o-- Certificate
-Office o-- Folder
+Folder o-- Certificate : aggregation
+Office o-- Folder : aggregation
 @enduml

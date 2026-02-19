@@ -1,4 +1,4 @@
 @startuml
-OfficeEquipment <|-- Printer
-Printer <|-- LaserPrinter
+OfficeEquipment <|-- Printer : inheritance
+Printer <|-- LaserPrinter : inheritance
 @enduml

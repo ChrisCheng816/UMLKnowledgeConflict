@@ -1,4 +1,4 @@
 @startuml
-Cap *-- Pen
-Clip *-- Cap
+Cap *-- Pen : composition
+Clip *-- Cap : composition
 @enduml

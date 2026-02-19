@@ -1,4 +1,4 @@
 @startuml
-Cumin <|-- Spice
-Spice <|-- Seasoning
+Cumin <|-- Spice : inheritance
+Spice <|-- Seasoning : inheritance
 @enduml

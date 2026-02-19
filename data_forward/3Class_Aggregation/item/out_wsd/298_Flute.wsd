@@ -1,4 +1,4 @@
 @startuml
-InstrumentRack o-- Flute
-MusicStore o-- InstrumentRack
+InstrumentRack o-- Flute : aggregation
+MusicStore o-- InstrumentRack : aggregation
 @enduml

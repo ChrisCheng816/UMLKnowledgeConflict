@@ -1,4 +1,4 @@
 @startuml
-NuclearPlant ..> Uranium
-PowerGeneration ..> NuclearPlant
+NuclearPlant ..> Uranium : dependency
+PowerGeneration ..> NuclearPlant : dependency
 @enduml

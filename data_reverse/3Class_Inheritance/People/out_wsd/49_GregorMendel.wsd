@@ -1,4 +1,4 @@
 @startuml
-GregorMendel <|-- Geneticist
-Geneticist <|-- Scientist
+GregorMendel <|-- Geneticist : inheritance
+Geneticist <|-- Scientist : inheritance
 @enduml

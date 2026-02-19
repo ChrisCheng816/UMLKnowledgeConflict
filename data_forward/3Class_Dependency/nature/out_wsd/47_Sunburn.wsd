@@ -1,4 +1,4 @@
 @startuml
-UVRadiation ..> Sun
-Sunburn ..> UVRadiation
+UVRadiation ..> Sun : dependency
+Sunburn ..> UVRadiation : dependency
 @enduml

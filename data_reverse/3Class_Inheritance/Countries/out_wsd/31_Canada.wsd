@@ -1,4 +1,4 @@
 @startuml
-Canada <|-- Country
-Country <|-- GeopoliticalEntity
+Canada <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

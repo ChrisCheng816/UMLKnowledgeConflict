@@ -1,4 +1,4 @@
 @startuml
-ToyotaHighlander <|-- MidsizeSUV
-MidsizeSUV <|-- SUV
+ToyotaHighlander <|-- MidsizeSUV : inheritance
+MidsizeSUV <|-- SUV : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MediaPlayer ..> WallOutlet
-DigitalSignage ..> MediaPlayer
+MediaPlayer ..> WallOutlet : dependency
+DigitalSignage ..> MediaPlayer : dependency
 @enduml

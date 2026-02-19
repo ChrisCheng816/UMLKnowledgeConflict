@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Eye
-Pineapple *-- Skin
+Skin *-- Eye : composition
+Pineapple *-- Skin : composition
 @enduml

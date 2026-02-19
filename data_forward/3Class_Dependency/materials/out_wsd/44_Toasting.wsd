@@ -1,4 +1,4 @@
 @startuml
-ConvectionOven ..> Electricity
-Toasting ..> ConvectionOven
+ConvectionOven ..> Electricity : dependency
+Toasting ..> ConvectionOven : dependency
 @enduml

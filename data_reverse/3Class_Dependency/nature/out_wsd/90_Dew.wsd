@@ -1,4 +1,4 @@
 @startuml
-Condensation ..> Dew
-TemperatureDrop ..> Condensation
+Condensation ..> Dew : dependency
+TemperatureDrop ..> Condensation : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Team o-- Pitcher
+Team o-- Pitcher : aggregation
 @enduml

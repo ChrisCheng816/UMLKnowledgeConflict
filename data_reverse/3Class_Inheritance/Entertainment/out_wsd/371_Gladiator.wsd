@@ -1,4 +1,4 @@
 @startuml
-Gladiator <|-- HistoricalFilm
-HistoricalFilm <|-- Film
+Gladiator <|-- HistoricalFilm : inheritance
+HistoricalFilm <|-- Film : inheritance
 @enduml

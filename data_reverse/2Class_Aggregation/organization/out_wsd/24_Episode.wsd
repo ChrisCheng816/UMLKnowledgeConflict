@@ -1,3 +1,3 @@
 @startuml
-Episode o-- Playlist
+Episode o-- Playlist : aggregation
 @enduml

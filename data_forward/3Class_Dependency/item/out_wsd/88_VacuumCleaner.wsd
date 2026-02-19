@@ -1,4 +1,4 @@
 @startuml
-PowerCord ..> WallOutlet
-VacuumCleaner ..> PowerCord
+PowerCord ..> WallOutlet : dependency
+VacuumCleaner ..> PowerCord : dependency
 @enduml

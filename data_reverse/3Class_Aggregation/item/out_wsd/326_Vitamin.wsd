@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Pharmacy
-Vitamin o-- Cabinet
+Cabinet o-- Pharmacy : aggregation
+Vitamin o-- Cabinet : aggregation
 @enduml

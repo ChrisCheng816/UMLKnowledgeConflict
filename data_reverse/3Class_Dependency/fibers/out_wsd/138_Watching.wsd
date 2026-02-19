@@ -1,4 +1,4 @@
 @startuml
-HBOMax ..> Watching
-Internet ..> HBOMax
+HBOMax ..> Watching : dependency
+Internet ..> HBOMax : dependency
 @enduml

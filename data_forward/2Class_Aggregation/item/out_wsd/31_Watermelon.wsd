@@ -1,3 +1,3 @@
 @startuml
-Basket o-- Watermelon
+Basket o-- Watermelon : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Smartphone ..> OnlineShopping
-CellularNetwork ..> Smartphone
+Smartphone ..> OnlineShopping : dependency
+CellularNetwork ..> Smartphone : dependency
 @enduml

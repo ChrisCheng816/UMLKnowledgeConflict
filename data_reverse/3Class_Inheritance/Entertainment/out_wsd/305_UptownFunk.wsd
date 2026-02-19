@@ -1,4 +1,4 @@
 @startuml
-UptownFunk <|-- Song
-Song <|-- MusicWork
+UptownFunk <|-- Song : inheritance
+Song <|-- MusicWork : inheritance
 @enduml

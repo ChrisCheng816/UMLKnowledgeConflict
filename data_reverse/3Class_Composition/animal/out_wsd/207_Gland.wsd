@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Frog
-Gland *-- Skin
+Skin *-- Frog : composition
+Gland *-- Skin : composition
 @enduml

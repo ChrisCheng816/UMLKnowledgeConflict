@@ -1,3 +1,3 @@
 @startuml
-Sculpture <|-- TerracottaArmy
+Sculpture <|-- TerracottaArmy : inheritance
 @enduml

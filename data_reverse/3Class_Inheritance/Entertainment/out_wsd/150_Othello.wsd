@@ -1,4 +1,4 @@
 @startuml
-Othello <|-- BoardGame
-BoardGame <|-- Game
+Othello <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

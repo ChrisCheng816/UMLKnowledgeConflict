@@ -1,4 +1,4 @@
 @startuml
-Jury o-- Court
-Alternate o-- Jury
+Jury o-- Court : aggregation
+Alternate o-- Jury : aggregation
 @enduml

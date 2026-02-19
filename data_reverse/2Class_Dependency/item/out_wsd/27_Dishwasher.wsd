@@ -1,3 +1,3 @@
 @startuml
-WallOutlet ..> Dishwasher
+WallOutlet ..> Dishwasher : dependency
 @enduml

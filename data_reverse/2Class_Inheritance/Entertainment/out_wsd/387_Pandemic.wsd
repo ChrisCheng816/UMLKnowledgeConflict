@@ -1,3 +1,3 @@
 @startuml
-Pandemic <|-- CooperativeGame
+Pandemic <|-- CooperativeGame : inheritance
 @enduml

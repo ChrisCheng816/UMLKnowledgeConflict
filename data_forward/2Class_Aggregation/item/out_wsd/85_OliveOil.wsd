@@ -1,3 +1,3 @@
 @startuml
-Bottle o-- OliveOil
+Bottle o-- OliveOil : aggregation
 @enduml

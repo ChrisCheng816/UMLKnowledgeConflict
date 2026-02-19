@@ -1,3 +1,3 @@
 @startuml
-PlumbingSystem *-- Meter
+PlumbingSystem *-- Meter : composition
 @enduml

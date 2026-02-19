@@ -1,4 +1,4 @@
 @startuml
-MonashUniversity <|-- University
-University <|-- EducationalInstitution
+MonashUniversity <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

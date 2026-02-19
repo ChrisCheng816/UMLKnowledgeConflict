@@ -1,4 +1,4 @@
 @startuml
-PowerBank <|-- Electronics
-Electronics <|-- Item
+PowerBank <|-- Electronics : inheritance
+Electronics <|-- Item : inheritance
 @enduml

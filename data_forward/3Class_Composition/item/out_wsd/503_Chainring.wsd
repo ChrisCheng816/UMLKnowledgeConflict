@@ -1,4 +1,4 @@
 @startuml
-Drivetrain *-- Chainring
-Bicycle *-- Drivetrain
+Drivetrain *-- Chainring : composition
+Bicycle *-- Drivetrain : composition
 @enduml

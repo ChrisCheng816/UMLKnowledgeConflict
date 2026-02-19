@@ -1,4 +1,4 @@
 @startuml
-Crate o-- Raspberry
-FarmersMarket o-- Crate
+Crate o-- Raspberry : aggregation
+FarmersMarket o-- Crate : aggregation
 @enduml

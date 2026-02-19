@@ -1,3 +1,3 @@
 @startuml
-EducationalInstitution <|-- University
+EducationalInstitution <|-- University : inheritance
 @enduml

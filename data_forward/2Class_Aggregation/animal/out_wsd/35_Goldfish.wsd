@@ -1,3 +1,3 @@
 @startuml
-Tank o-- Goldfish
+Tank o-- Goldfish : aggregation
 @enduml

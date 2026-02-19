@@ -1,4 +1,4 @@
 @startuml
-Facebook ..> Internet
-Messaging ..> Facebook
+Facebook ..> Internet : dependency
+Messaging ..> Facebook : dependency
 @enduml

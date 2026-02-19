@@ -1,4 +1,4 @@
 @startuml
-Microphone *-- Capsule
-Phone *-- Microphone
+Microphone *-- Capsule : composition
+Phone *-- Microphone : composition
 @enduml

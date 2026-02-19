@@ -1,3 +1,3 @@
 @startuml
-Stork o-- Cage
+Stork o-- Cage : aggregation
 @enduml

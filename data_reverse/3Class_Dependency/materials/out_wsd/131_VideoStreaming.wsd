@@ -1,4 +1,4 @@
 @startuml
-MediaPlayer ..> VideoStreaming
-Electricity ..> MediaPlayer
+MediaPlayer ..> VideoStreaming : dependency
+Electricity ..> MediaPlayer : dependency
 @enduml

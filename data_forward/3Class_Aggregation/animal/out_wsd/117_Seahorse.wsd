@@ -1,4 +1,4 @@
 @startuml
-Tank o-- Seahorse
-Zoo o-- Tank
+Tank o-- Seahorse : aggregation
+Zoo o-- Tank : aggregation
 @enduml

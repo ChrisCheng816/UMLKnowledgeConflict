@@ -1,3 +1,3 @@
 @startuml
-Unit o-- Medic
+Unit o-- Medic : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Scythe <|-- BoardGame
-BoardGame <|-- Game
+Scythe <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

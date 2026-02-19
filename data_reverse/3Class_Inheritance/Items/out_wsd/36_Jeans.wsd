@@ -1,4 +1,4 @@
 @startuml
-Jeans <|-- Pants
-Pants <|-- Clothing
+Jeans <|-- Pants : inheritance
+Pants <|-- Clothing : inheritance
 @enduml

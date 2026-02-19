@@ -1,3 +1,3 @@
 @startuml
-Volunteer o-- NeighborhoodWatch
+Volunteer o-- NeighborhoodWatch : aggregation
 @enduml

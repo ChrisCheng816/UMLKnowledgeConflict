@@ -1,4 +1,4 @@
 @startuml
-Comoros <|-- Country
-Country <|-- GeopoliticalEntity
+Comoros <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

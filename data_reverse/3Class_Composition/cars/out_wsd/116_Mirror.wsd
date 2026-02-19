@@ -1,4 +1,4 @@
 @startuml
-Door *-- Car
-Mirror *-- Door
+Door *-- Car : composition
+Mirror *-- Door : composition
 @enduml

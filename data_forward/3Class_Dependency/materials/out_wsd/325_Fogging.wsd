@@ -1,4 +1,4 @@
 @startuml
-FogMachine ..> Electricity
-Fogging ..> FogMachine
+FogMachine ..> Electricity : dependency
+Fogging ..> FogMachine : dependency
 @enduml

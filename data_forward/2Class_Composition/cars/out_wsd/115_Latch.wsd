@@ -1,3 +1,3 @@
 @startuml
-Door *-- Latch
+Door *-- Latch : composition
 @enduml

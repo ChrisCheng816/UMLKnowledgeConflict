@@ -1,4 +1,4 @@
 @startuml
-BathTowel <|-- Towel
-Towel <|-- Linen
+BathTowel <|-- Towel : inheritance
+Towel <|-- Linen : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Bolt *-- Leg
+Bolt *-- Leg : composition
 @enduml

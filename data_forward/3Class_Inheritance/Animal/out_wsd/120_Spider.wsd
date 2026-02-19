@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Arachnid
-Arachnid <|-- Spider
+Animal <|-- Arachnid : inheritance
+Arachnid <|-- Spider : inheritance
 @enduml

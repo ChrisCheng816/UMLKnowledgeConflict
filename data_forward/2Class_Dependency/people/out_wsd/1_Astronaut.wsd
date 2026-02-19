@@ -1,3 +1,3 @@
 @startuml
-Astronaut ..> Spacesuit
+Astronaut ..> Spacesuit : dependency
 @enduml

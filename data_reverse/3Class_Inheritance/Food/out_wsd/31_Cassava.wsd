@@ -1,4 +1,4 @@
 @startuml
-Cassava <|-- RootVegetable
-RootVegetable <|-- Vegetable
+Cassava <|-- RootVegetable : inheritance
+RootVegetable <|-- Vegetable : inheritance
 @enduml

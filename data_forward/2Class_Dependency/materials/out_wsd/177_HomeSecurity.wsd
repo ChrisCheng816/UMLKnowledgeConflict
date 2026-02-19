@@ -1,3 +1,3 @@
 @startuml
-HomeSecurity ..> SmartLock
+HomeSecurity ..> SmartLock : dependency
 @enduml

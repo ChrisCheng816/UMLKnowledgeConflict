@@ -1,3 +1,3 @@
 @startuml
-Committee o-- Delegate
+Committee o-- Delegate : aggregation
 @enduml

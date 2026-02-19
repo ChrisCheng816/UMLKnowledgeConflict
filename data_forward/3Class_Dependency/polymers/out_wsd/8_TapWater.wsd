@@ -1,4 +1,4 @@
 @startuml
-Reservoir ..> Rain
-TapWater ..> Reservoir
+Reservoir ..> Rain : dependency
+TapWater ..> Reservoir : dependency
 @enduml

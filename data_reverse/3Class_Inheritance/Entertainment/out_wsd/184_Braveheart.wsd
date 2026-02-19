@@ -1,4 +1,4 @@
 @startuml
-Braveheart <|-- Film
-Film <|-- Entertainment
+Braveheart <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

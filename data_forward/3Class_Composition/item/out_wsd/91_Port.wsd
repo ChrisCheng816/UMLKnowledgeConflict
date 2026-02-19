@@ -1,4 +1,4 @@
 @startuml
-Canister *-- Port
-Vacuum *-- Canister
+Canister *-- Port : composition
+Vacuum *-- Canister : composition
 @enduml

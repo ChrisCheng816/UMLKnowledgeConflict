@@ -1,4 +1,4 @@
 @startuml
-LeidenUniversity <|-- University
-University <|-- EducationalInstitution
+LeidenUniversity <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

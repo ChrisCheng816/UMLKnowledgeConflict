@@ -1,4 +1,4 @@
 @startuml
-Electronics <|-- Television
-Television <|-- SmartTV
+Electronics <|-- Television : inheritance
+Television <|-- SmartTV : inheritance
 @enduml

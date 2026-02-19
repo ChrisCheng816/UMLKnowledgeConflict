@@ -1,4 +1,4 @@
 @startuml
-HotGlueGun ..> Repairing
-Electricity ..> HotGlueGun
+HotGlueGun ..> Repairing : dependency
+Electricity ..> HotGlueGun : dependency
 @enduml

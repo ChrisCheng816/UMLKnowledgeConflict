@@ -1,4 +1,4 @@
 @startuml
-LoveLetter <|-- BoardGame
-BoardGame <|-- Game
+LoveLetter <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

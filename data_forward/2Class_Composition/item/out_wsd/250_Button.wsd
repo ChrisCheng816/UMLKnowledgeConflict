@@ -1,3 +1,3 @@
 @startuml
-Collar *-- Button
+Collar *-- Button : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-LongHaulTrucking ..> DieselTruck
+LongHaulTrucking ..> DieselTruck : dependency
 @enduml

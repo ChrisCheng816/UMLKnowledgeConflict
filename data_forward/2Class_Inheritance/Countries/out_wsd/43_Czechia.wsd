@@ -1,3 +1,3 @@
 @startuml
-Country <|-- Czechia
+Country <|-- Czechia : inheritance
 @enduml

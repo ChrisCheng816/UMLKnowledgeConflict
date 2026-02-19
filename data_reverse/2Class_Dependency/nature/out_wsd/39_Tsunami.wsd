@@ -1,3 +1,3 @@
 @startuml
-SeafloorQuake ..> Tsunami
+SeafloorQuake ..> Tsunami : dependency
 @enduml

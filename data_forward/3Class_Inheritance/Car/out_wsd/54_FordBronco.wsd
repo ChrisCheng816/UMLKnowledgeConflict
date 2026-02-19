@@ -1,4 +1,4 @@
 @startuml
-SUV <|-- OffRoadSUV
-OffRoadSUV <|-- FordBronco
+SUV <|-- OffRoadSUV : inheritance
+OffRoadSUV <|-- FordBronco : inheritance
 @enduml

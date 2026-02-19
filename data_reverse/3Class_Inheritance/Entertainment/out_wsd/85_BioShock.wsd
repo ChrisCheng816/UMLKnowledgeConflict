@@ -1,4 +1,4 @@
 @startuml
-BioShock <|-- VideoGame
-VideoGame <|-- Game
+BioShock <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

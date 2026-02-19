@@ -1,4 +1,4 @@
 @startuml
-Lightning ..> LightningStrike
-Thundercloud ..> Lightning
+Lightning ..> LightningStrike : dependency
+Thundercloud ..> Lightning : dependency
 @enduml

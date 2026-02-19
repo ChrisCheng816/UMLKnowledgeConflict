@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Book
-LivingRoom o-- Shelf
+Shelf o-- Book : aggregation
+LivingRoom o-- Shelf : aggregation
 @enduml

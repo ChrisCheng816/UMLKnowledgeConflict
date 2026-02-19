@@ -1,4 +1,4 @@
 @startuml
-AirPurifier <|-- HomeAppliance
-HomeAppliance <|-- Item
+AirPurifier <|-- HomeAppliance : inheritance
+HomeAppliance <|-- Item : inheritance
 @enduml

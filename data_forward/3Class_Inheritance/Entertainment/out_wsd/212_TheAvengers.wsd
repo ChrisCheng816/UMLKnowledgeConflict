@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- TheAvengers
+Entertainment <|-- Film : inheritance
+Film <|-- TheAvengers : inheritance
 @enduml

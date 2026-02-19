@@ -1,3 +1,3 @@
 @startuml
-TVSeries <|-- AnimeSeries
+TVSeries <|-- AnimeSeries : inheritance
 @enduml

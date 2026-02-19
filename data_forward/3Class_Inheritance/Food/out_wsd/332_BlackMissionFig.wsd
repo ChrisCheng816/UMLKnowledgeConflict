@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Fig
-Fig <|-- BlackMissionFig
+Fruit <|-- Fig : inheritance
+Fig <|-- BlackMissionFig : inheritance
 @enduml

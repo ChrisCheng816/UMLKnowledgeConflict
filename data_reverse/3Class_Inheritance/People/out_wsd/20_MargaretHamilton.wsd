@@ -1,4 +1,4 @@
 @startuml
-MargaretHamilton <|-- SoftwareEngineer
-SoftwareEngineer <|-- Engineer
+MargaretHamilton <|-- SoftwareEngineer : inheritance
+SoftwareEngineer <|-- Engineer : inheritance
 @enduml

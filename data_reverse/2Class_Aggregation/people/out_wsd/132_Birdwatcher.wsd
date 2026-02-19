@@ -1,3 +1,3 @@
 @startuml
-Birdwatcher o-- Club
+Birdwatcher o-- Club : aggregation
 @enduml

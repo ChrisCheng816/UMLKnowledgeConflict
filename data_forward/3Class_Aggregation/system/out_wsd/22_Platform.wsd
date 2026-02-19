@@ -1,4 +1,4 @@
 @startuml
-Station o-- Platform
-TransitSystem o-- Station
+Station o-- Platform : aggregation
+TransitSystem o-- Station : aggregation
 @enduml

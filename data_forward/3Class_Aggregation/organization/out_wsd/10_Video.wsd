@@ -1,4 +1,4 @@
 @startuml
-Channel o-- Video
-VideoSite o-- Channel
+Channel o-- Video : aggregation
+VideoSite o-- Channel : aggregation
 @enduml

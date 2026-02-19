@@ -1,4 +1,4 @@
 @startuml
-Attic *-- Ladder
-House *-- Attic
+Attic *-- Ladder : composition
+House *-- Attic : composition
 @enduml

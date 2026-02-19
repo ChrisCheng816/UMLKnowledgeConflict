@@ -1,4 +1,4 @@
 @startuml
-BlackPlum <|-- Plum
-Plum <|-- Fruit
+BlackPlum <|-- Plum : inheritance
+Plum <|-- Fruit : inheritance
 @enduml

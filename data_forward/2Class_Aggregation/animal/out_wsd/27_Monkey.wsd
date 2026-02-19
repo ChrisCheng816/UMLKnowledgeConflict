@@ -1,3 +1,3 @@
 @startuml
-Enclosure o-- Monkey
+Enclosure o-- Monkey : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Plate o-- Kimchi
-Restaurant o-- Plate
+Plate o-- Kimchi : aggregation
+Restaurant o-- Plate : aggregation
 @enduml

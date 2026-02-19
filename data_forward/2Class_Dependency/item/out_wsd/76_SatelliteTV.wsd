@@ -1,3 +1,3 @@
 @startuml
-SatelliteTV ..> DishAntenna
+SatelliteTV ..> DishAntenna : dependency
 @enduml

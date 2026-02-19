@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Vane
-Penguin *-- Feather
+Feather *-- Vane : composition
+Penguin *-- Feather : composition
 @enduml

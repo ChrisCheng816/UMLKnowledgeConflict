@@ -1,4 +1,4 @@
 @startuml
-Tool <|-- Rake
-Rake <|-- LeafRake
+Tool <|-- Rake : inheritance
+Rake <|-- LeafRake : inheritance
 @enduml

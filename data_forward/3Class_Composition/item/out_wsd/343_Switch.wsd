@@ -1,4 +1,4 @@
 @startuml
-PowerSupply *-- Switch
-Desktop *-- PowerSupply
+PowerSupply *-- Switch : composition
+Desktop *-- PowerSupply : composition
 @enduml

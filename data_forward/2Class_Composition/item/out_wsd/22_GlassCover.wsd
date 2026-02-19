@@ -1,3 +1,3 @@
 @startuml
-DisplayModule *-- GlassCover
+DisplayModule *-- GlassCover : composition
 @enduml

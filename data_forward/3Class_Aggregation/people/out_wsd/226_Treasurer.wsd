@@ -1,4 +1,4 @@
 @startuml
-Council o-- Treasurer
-Neighborhood o-- Council
+Council o-- Treasurer : aggregation
+Neighborhood o-- Council : aggregation
 @enduml

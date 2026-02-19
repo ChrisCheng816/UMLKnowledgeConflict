@@ -1,4 +1,4 @@
 @startuml
-SurgeProtector ..> PowerSupply
-Electricity ..> SurgeProtector
+SurgeProtector ..> PowerSupply : dependency
+Electricity ..> SurgeProtector : dependency
 @enduml

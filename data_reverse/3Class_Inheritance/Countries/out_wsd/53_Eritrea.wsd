@@ -1,4 +1,4 @@
 @startuml
-Eritrea <|-- Country
-Country <|-- GeopoliticalEntity
+Eritrea <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

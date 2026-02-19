@@ -1,4 +1,4 @@
 @startuml
-Petal *-- Flower
-Vein *-- Petal
+Petal *-- Flower : composition
+Vein *-- Petal : composition
 @enduml

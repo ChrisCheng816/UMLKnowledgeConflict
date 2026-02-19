@@ -1,4 +1,4 @@
 @startuml
-Lock *-- Pin
-Door *-- Lock
+Lock *-- Pin : composition
+Door *-- Lock : composition
 @enduml

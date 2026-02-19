@@ -1,4 +1,4 @@
 @startuml
-Tunisia <|-- NorthAfricanCountry
-NorthAfricanCountry <|-- AfricanCountry
+Tunisia <|-- NorthAfricanCountry : inheritance
+NorthAfricanCountry <|-- AfricanCountry : inheritance
 @enduml

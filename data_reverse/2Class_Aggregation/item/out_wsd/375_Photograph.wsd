@@ -1,3 +1,3 @@
 @startuml
-Photograph o-- Exhibition
+Photograph o-- Exhibition : aggregation
 @enduml

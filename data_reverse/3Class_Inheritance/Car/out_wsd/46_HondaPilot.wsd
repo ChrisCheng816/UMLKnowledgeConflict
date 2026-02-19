@@ -1,4 +1,4 @@
 @startuml
-HondaPilot <|-- FullSizeSUV
-FullSizeSUV <|-- SUV
+HondaPilot <|-- FullSizeSUV : inheritance
+FullSizeSUV <|-- SUV : inheritance
 @enduml

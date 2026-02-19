@@ -1,4 +1,4 @@
 @startuml
-EpicGames ..> Internet
-Downloading ..> EpicGames
+EpicGames ..> Internet : dependency
+Downloading ..> EpicGames : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Keychain <|-- Accessory
-Accessory <|-- Item
+Keychain <|-- Accessory : inheritance
+Accessory <|-- Item : inheritance
 @enduml

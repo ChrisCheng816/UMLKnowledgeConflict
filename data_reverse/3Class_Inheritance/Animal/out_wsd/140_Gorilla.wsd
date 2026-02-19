@@ -1,4 +1,4 @@
 @startuml
-Gorilla <|-- Ape
-Ape <|-- Mammal
+Gorilla <|-- Ape : inheritance
+Ape <|-- Mammal : inheritance
 @enduml

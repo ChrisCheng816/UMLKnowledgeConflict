@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-PayPal ..> Internet
+Internet ..> Electricity : dependency
+PayPal ..> Internet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Gazelle
-Reserve o-- Enclosure
+Enclosure o-- Gazelle : aggregation
+Reserve o-- Enclosure : aggregation
 @enduml

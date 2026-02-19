@@ -1,4 +1,4 @@
 @startuml
-JaneGoodall <|-- Primatologist
-Primatologist <|-- Scientist
+JaneGoodall <|-- Primatologist : inheritance
+Primatologist <|-- Scientist : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-IndividualSport <|-- Darts
+IndividualSport <|-- Darts : inheritance
 @enduml

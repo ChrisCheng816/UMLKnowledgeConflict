@@ -1,4 +1,4 @@
 @startuml
-Flock o-- Penguin
-Sanctuary o-- Flock
+Flock o-- Penguin : aggregation
+Sanctuary o-- Flock : aggregation
 @enduml

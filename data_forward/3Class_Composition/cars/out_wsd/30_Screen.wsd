@@ -1,4 +1,4 @@
 @startuml
-Dashboard *-- Screen
-Car *-- Dashboard
+Dashboard *-- Screen : composition
+Car *-- Dashboard : composition
 @enduml

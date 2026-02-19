@@ -1,4 +1,4 @@
 @startuml
-WonderfulPomegranate <|-- Pomegranate
-Pomegranate <|-- Fruit
+WonderfulPomegranate <|-- Pomegranate : inheritance
+Pomegranate <|-- Fruit : inheritance
 @enduml

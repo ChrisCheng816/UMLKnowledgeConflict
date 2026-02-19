@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Bhutan
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Bhutan : inheritance
 @enduml

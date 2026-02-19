@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Gauze
-Pharmacy o-- Cabinet
+Cabinet o-- Gauze : aggregation
+Pharmacy o-- Cabinet : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cast o-- Actor
-Theater o-- Cast
+Cast o-- Actor : aggregation
+Theater o-- Cast : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SpringRoll <|-- Snack
-Snack <|-- Food
+SpringRoll <|-- Snack : inheritance
+Snack <|-- Food : inheritance
 @enduml

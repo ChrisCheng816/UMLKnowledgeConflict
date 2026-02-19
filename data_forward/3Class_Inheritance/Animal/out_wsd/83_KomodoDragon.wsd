@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Reptile
-Reptile <|-- KomodoDragon
+Animal <|-- Reptile : inheritance
+Reptile <|-- KomodoDragon : inheritance
 @enduml

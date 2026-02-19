@@ -1,4 +1,4 @@
 @startuml
-Dolphin <|-- Mammal
-Mammal <|-- Animal
+Dolphin <|-- Mammal : inheritance
+Mammal <|-- Animal : inheritance
 @enduml

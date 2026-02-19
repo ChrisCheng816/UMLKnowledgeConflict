@@ -1,4 +1,4 @@
 @startuml
-TikTok ..> Internet
-Posting ..> TikTok
+TikTok ..> Internet : dependency
+Posting ..> TikTok : dependency
 @enduml

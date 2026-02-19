@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Sanitizer
-Pharmacy o-- Cabinet
+Cabinet o-- Sanitizer : aggregation
+Pharmacy o-- Cabinet : aggregation
 @enduml

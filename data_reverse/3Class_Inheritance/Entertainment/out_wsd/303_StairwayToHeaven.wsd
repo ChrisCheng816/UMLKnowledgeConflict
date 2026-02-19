@@ -1,4 +1,4 @@
 @startuml
-StairwayToHeaven <|-- Song
-Song <|-- MusicWork
+StairwayToHeaven <|-- Song : inheritance
+Song <|-- MusicWork : inheritance
 @enduml

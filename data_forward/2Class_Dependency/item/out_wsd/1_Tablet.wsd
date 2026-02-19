@@ -1,3 +1,3 @@
 @startuml
-Tablet ..> USBCharger
+Tablet ..> USBCharger : dependency
 @enduml

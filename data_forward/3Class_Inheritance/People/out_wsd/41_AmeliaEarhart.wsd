@@ -1,4 +1,4 @@
 @startuml
-Pilot <|-- Aviator
-Aviator <|-- AmeliaEarhart
+Pilot <|-- Aviator : inheritance
+Aviator <|-- AmeliaEarhart : inheritance
 @enduml

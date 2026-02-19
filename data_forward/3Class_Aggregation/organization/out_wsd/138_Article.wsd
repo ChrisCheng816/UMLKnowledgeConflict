@@ -1,4 +1,4 @@
 @startuml
-Issue o-- Article
-Magazine o-- Issue
+Issue o-- Article : aggregation
+Magazine o-- Issue : aggregation
 @enduml

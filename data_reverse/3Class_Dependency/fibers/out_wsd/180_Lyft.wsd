@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Lyft
-Electricity ..> Internet
+Internet ..> Lyft : dependency
+Electricity ..> Internet : dependency
 @enduml

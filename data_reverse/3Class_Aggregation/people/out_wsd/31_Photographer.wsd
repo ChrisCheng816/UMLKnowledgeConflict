@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Newsroom
-Photographer o-- Staff
+Staff o-- Newsroom : aggregation
+Photographer o-- Staff : aggregation
 @enduml

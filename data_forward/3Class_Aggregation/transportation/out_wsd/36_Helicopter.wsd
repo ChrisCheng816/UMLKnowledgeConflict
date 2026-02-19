@@ -1,4 +1,4 @@
 @startuml
-Fleet o-- Helicopter
-HelicopterService o-- Fleet
+Fleet o-- Helicopter : aggregation
+HelicopterService o-- Fleet : aggregation
 @enduml

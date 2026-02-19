@@ -1,4 +1,4 @@
 @startuml
-Arm *-- Person
-Bicep *-- Arm
+Arm *-- Person : composition
+Bicep *-- Arm : composition
 @enduml

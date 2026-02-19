@@ -1,3 +1,3 @@
 @startuml
-Rib *-- Spoke
+Rib *-- Spoke : composition
 @enduml

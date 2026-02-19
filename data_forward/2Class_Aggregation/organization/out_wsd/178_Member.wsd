@@ -1,3 +1,3 @@
 @startuml
-Roster o-- Member
+Roster o-- Member : aggregation
 @enduml

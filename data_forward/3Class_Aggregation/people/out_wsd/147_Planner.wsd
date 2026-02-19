@@ -1,4 +1,4 @@
 @startuml
-Committee o-- Planner
-Charity o-- Committee
+Committee o-- Planner : aggregation
+Charity o-- Committee : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- FinalFantasyXIV
+Game <|-- VideoGame : inheritance
+VideoGame <|-- FinalFantasyXIV : inheritance
 @enduml

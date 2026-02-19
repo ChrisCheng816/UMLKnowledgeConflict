@@ -1,3 +1,3 @@
 @startuml
-Photographer ..> Camera
+Photographer ..> Camera : dependency
 @enduml

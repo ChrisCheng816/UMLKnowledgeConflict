@@ -1,4 +1,4 @@
 @startuml
-SpiritedAway <|-- Film
-Film <|-- Entertainment
+SpiritedAway <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fingernail *-- Cuticle
-Human *-- Fingernail
+Fingernail *-- Cuticle : composition
+Human *-- Fingernail : composition
 @enduml

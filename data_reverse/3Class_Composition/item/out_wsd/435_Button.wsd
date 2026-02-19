@@ -1,4 +1,4 @@
 @startuml
-Headboard *-- Bed
-Button *-- Headboard
+Headboard *-- Bed : composition
+Button *-- Headboard : composition
 @enduml

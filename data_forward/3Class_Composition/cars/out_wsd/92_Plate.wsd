@@ -1,4 +1,4 @@
 @startuml
-Chain *-- Plate
-Bicycle *-- Chain
+Chain *-- Plate : composition
+Bicycle *-- Chain : composition
 @enduml

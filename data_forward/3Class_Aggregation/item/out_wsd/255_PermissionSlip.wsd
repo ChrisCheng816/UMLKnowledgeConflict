@@ -1,4 +1,4 @@
 @startuml
-Binder o-- PermissionSlip
-Backpack o-- Binder
+Binder o-- PermissionSlip : aggregation
+Backpack o-- Binder : aggregation
 @enduml

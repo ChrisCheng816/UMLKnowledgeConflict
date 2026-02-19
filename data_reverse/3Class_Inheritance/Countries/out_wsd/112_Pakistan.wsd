@@ -1,4 +1,4 @@
 @startuml
-Pakistan <|-- IslamicRepublic
-IslamicRepublic <|-- Republic
+Pakistan <|-- IslamicRepublic : inheritance
+IslamicRepublic <|-- Republic : inheritance
 @enduml

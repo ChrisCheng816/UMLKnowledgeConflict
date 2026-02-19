@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Blanket
-Blanket <|-- ThermalBlanket
+Item <|-- Blanket : inheritance
+Blanket <|-- ThermalBlanket : inheritance
 @enduml

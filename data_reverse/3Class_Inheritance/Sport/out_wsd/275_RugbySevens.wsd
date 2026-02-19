@@ -1,4 +1,4 @@
 @startuml
-RugbySevens <|-- Rugby
-Rugby <|-- Sport
+RugbySevens <|-- Rugby : inheritance
+Rugby <|-- Sport : inheritance
 @enduml

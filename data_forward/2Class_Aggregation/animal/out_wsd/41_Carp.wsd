@@ -1,3 +1,3 @@
 @startuml
-Tank o-- Carp
+Tank o-- Carp : aggregation
 @enduml

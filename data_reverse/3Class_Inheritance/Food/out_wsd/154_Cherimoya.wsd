@@ -1,4 +1,4 @@
 @startuml
-Cherimoya <|-- TropicalFruit
-TropicalFruit <|-- Fruit
+Cherimoya <|-- TropicalFruit : inheritance
+TropicalFruit <|-- Fruit : inheritance
 @enduml

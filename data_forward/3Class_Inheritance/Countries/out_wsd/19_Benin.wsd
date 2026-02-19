@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Benin
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Benin : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-HeatStroke ..> Heatwave
+HeatStroke ..> Heatwave : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-UltrasoundMachine ..> KidneyUltrasound
+UltrasoundMachine ..> KidneyUltrasound : dependency
 @enduml

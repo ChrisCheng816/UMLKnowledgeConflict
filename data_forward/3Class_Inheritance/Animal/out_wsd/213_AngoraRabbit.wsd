@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Rabbit
-Rabbit <|-- AngoraRabbit
+Animal <|-- Rabbit : inheritance
+Rabbit <|-- AngoraRabbit : inheritance
 @enduml

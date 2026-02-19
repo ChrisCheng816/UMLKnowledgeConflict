@@ -1,4 +1,4 @@
 @startuml
-Malawi <|-- Country
-Country <|-- GeopoliticalEntity
+Malawi <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

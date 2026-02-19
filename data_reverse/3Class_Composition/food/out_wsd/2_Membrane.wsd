@@ -1,4 +1,4 @@
 @startuml
-Yolk *-- Egg
-Membrane *-- Yolk
+Yolk *-- Egg : composition
+Membrane *-- Yolk : composition
 @enduml

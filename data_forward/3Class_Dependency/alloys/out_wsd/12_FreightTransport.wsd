@@ -1,4 +1,4 @@
 @startuml
-DeliveryVan ..> DieselFuel
-FreightTransport ..> DeliveryVan
+DeliveryVan ..> DieselFuel : dependency
+FreightTransport ..> DeliveryVan : dependency
 @enduml

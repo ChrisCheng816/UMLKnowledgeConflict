@@ -1,4 +1,4 @@
 @startuml
-Tank o-- Ray
-Zoo o-- Tank
+Tank o-- Ray : aggregation
+Zoo o-- Tank : aggregation
 @enduml

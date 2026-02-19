@@ -1,4 +1,4 @@
 @startuml
-RiceFlour ..> Tempura
-Rice ..> RiceFlour
+RiceFlour ..> Tempura : dependency
+Rice ..> RiceFlour : dependency
 @enduml

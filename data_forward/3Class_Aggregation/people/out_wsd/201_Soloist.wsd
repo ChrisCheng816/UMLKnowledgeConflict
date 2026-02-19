@@ -1,4 +1,4 @@
 @startuml
-Choir o-- Soloist
-Church o-- Choir
+Choir o-- Soloist : aggregation
+Church o-- Choir : aggregation
 @enduml

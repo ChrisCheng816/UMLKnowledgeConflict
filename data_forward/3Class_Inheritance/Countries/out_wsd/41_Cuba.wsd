@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Cuba
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Cuba : inheritance
 @enduml

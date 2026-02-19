@@ -1,4 +1,4 @@
 @startuml
-Strap *-- Clip
-Backpack *-- Strap
+Strap *-- Clip : composition
+Backpack *-- Strap : composition
 @enduml

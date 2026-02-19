@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Kiwi
-Hair *-- Skin
+Skin *-- Kiwi : composition
+Hair *-- Skin : composition
 @enduml

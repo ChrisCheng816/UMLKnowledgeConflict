@@ -1,4 +1,4 @@
 @startuml
-Gmail ..> Internet
-Messaging ..> Gmail
+Gmail ..> Internet : dependency
+Messaging ..> Gmail : dependency
 @enduml

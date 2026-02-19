@@ -1,4 +1,4 @@
 @startuml
-PowerSupply ..> LEDStrip
-WallOutlet ..> PowerSupply
+PowerSupply ..> LEDStrip : dependency
+WallOutlet ..> PowerSupply : dependency
 @enduml

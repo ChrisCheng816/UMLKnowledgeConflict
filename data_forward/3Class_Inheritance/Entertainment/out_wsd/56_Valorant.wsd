@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- Valorant
+Game <|-- VideoGame : inheritance
+VideoGame <|-- Valorant : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Team o-- Restaurant
-Chef o-- Team
+Team o-- Restaurant : aggregation
+Chef o-- Team : aggregation
 @enduml

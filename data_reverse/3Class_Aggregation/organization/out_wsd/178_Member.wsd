@@ -1,4 +1,4 @@
 @startuml
-Roster o-- Club
-Member o-- Roster
+Roster o-- Club : aggregation
+Member o-- Roster : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Aviary o-- Reserve
-Heron o-- Aviary
+Aviary o-- Reserve : aggregation
+Heron o-- Aviary : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cap *-- Thread
-Bottle *-- Cap
+Cap *-- Thread : composition
+Bottle *-- Cap : composition
 @enduml

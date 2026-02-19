@@ -1,3 +1,3 @@
 @startuml
-Fan *-- Motor
+Fan *-- Motor : composition
 @enduml

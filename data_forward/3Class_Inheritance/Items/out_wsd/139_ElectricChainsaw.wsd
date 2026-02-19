@@ -1,4 +1,4 @@
 @startuml
-PowerTool <|-- Chainsaw
-Chainsaw <|-- ElectricChainsaw
+PowerTool <|-- Chainsaw : inheritance
+Chainsaw <|-- ElectricChainsaw : inheritance
 @enduml

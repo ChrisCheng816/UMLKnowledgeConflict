@@ -1,4 +1,4 @@
 @startuml
-AmongUs <|-- PartyGame
-PartyGame <|-- VideoGame
+AmongUs <|-- PartyGame : inheritance
+PartyGame <|-- VideoGame : inheritance
 @enduml

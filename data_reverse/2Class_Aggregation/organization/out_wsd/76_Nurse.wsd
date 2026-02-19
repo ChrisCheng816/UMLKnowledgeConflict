@@ -1,3 +1,3 @@
 @startuml
-Nurse o-- Staff
+Nurse o-- Staff : aggregation
 @enduml

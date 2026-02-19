@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Cat
-Cat <|-- Siamese
+Mammal <|-- Cat : inheritance
+Cat <|-- Siamese : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Film <|-- DystopianFilm
-DystopianFilm <|-- Fahrenheit451
+Film <|-- DystopianFilm : inheritance
+DystopianFilm <|-- Fahrenheit451 : inheritance
 @enduml

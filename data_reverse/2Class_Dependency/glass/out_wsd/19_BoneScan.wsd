@@ -1,3 +1,3 @@
 @startuml
-XRayMachine ..> BoneScan
+XRayMachine ..> BoneScan : dependency
 @enduml

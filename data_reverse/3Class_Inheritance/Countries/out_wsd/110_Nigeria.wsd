@@ -1,4 +1,4 @@
 @startuml
-Nigeria <|-- FederalRepublic
-FederalRepublic <|-- Republic
+Nigeria <|-- FederalRepublic : inheritance
+FederalRepublic <|-- Republic : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Clementine <|-- Tangerine
-Tangerine <|-- Fruit
+Clementine <|-- Tangerine : inheritance
+Tangerine <|-- Fruit : inheritance
 @enduml

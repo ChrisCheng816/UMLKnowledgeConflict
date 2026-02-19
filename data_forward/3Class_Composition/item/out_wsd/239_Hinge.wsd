@@ -1,4 +1,4 @@
 @startuml
-GarageDoor *-- Hinge
-House *-- GarageDoor
+GarageDoor *-- Hinge : composition
+House *-- GarageDoor : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Core *-- Fruit
+Core *-- Fruit : composition
 @enduml

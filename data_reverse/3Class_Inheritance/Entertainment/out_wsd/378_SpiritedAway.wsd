@@ -1,4 +1,4 @@
 @startuml
-SpiritedAway <|-- AnimeFilm
-AnimeFilm <|-- Film
+SpiritedAway <|-- AnimeFilm : inheritance
+AnimeFilm <|-- Film : inheritance
 @enduml

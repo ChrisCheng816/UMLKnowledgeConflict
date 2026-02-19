@@ -1,4 +1,4 @@
 @startuml
-Soursop <|-- TropicalFruit
-TropicalFruit <|-- Fruit
+Soursop <|-- TropicalFruit : inheritance
+TropicalFruit <|-- Fruit : inheritance
 @enduml

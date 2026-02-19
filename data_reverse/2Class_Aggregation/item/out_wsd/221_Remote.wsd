@@ -1,3 +1,3 @@
 @startuml
-Remote o-- Shelf
+Remote o-- Shelf : aggregation
 @enduml

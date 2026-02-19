@@ -1,4 +1,4 @@
 @startuml
-App ..> Internet
-TicketBooking ..> App
+App ..> Internet : dependency
+TicketBooking ..> App : dependency
 @enduml

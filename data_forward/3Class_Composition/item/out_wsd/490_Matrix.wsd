@@ -1,4 +1,4 @@
 @startuml
-Display *-- Matrix
-Laptop *-- Display
+Display *-- Matrix : composition
+Laptop *-- Display : composition
 @enduml

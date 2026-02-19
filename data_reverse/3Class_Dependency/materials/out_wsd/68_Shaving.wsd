@@ -1,4 +1,4 @@
 @startuml
-ElectricShaver ..> Shaving
-Electricity ..> ElectricShaver
+ElectricShaver ..> Shaving : dependency
+Electricity ..> ElectricShaver : dependency
 @enduml

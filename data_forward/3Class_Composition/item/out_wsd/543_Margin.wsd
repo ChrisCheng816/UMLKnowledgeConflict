@@ -1,4 +1,4 @@
 @startuml
-Page *-- Margin
-Notebook *-- Page
+Page *-- Margin : composition
+Notebook *-- Page : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Back *-- Person
-Spine *-- Back
+Back *-- Person : composition
+Spine *-- Back : composition
 @enduml

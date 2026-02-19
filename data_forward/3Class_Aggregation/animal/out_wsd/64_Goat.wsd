@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Goat
-Reserve o-- Enclosure
+Enclosure o-- Goat : aggregation
+Reserve o-- Enclosure : aggregation
 @enduml

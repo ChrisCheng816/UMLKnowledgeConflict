@@ -1,3 +1,3 @@
 @startuml
-ShortTrip ..> ElectricCar
+ShortTrip ..> ElectricCar : dependency
 @enduml

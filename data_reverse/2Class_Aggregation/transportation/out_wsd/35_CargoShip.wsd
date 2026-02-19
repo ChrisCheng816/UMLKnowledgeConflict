@@ -1,3 +1,3 @@
 @startuml
-CargoShip o-- Fleet
+CargoShip o-- Fleet : aggregation
 @enduml

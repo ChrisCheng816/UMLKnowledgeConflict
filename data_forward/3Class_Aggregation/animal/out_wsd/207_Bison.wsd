@@ -1,4 +1,4 @@
 @startuml
-Herd o-- Bison
-Ranch o-- Herd
+Herd o-- Bison : aggregation
+Ranch o-- Herd : aggregation
 @enduml

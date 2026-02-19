@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Karate
-Karate <|-- ShotokanKarate
+Sport <|-- Karate : inheritance
+Karate <|-- ShotokanKarate : inheritance
 @enduml

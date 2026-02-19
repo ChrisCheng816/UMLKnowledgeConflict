@@ -1,3 +1,3 @@
 @startuml
-Border *-- Panel
+Border *-- Panel : composition
 @enduml

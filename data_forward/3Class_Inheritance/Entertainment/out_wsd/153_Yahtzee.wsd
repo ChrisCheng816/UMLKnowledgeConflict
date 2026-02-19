@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame
-BoardGame <|-- Yahtzee
+Game <|-- BoardGame : inheritance
+BoardGame <|-- Yahtzee : inheritance
 @enduml

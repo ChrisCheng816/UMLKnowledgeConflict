@@ -1,4 +1,4 @@
 @startuml
-Paper ..> NoteTaking
-Trees ..> Paper
+Paper ..> NoteTaking : dependency
+Trees ..> Paper : dependency
 @enduml

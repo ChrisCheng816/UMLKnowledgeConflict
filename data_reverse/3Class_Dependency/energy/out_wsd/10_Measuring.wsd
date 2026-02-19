@@ -1,4 +1,4 @@
 @startuml
-Multimeter ..> Measuring
-Electricity ..> Multimeter
+Multimeter ..> Measuring : dependency
+Electricity ..> Multimeter : dependency
 @enduml

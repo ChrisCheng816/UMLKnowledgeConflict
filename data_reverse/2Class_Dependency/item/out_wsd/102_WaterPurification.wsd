@@ -1,3 +1,3 @@
 @startuml
-WaterTreatmentPlant ..> WaterPurification
+WaterTreatmentPlant ..> WaterPurification : dependency
 @enduml

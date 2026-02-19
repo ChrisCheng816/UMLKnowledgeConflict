@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Library
-Archivist o-- Staff
+Staff o-- Library : aggregation
+Archivist o-- Staff : aggregation
 @enduml

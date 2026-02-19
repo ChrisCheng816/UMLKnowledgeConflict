@@ -1,4 +1,4 @@
 @startuml
-Crate o-- Pineapple
-FarmersMarket o-- Crate
+Crate o-- Pineapple : aggregation
+FarmersMarket o-- Crate : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Attic *-- Rafter
-House *-- Attic
+Attic *-- Rafter : composition
+House *-- Attic : composition
 @enduml

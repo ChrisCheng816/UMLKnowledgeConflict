@@ -1,4 +1,4 @@
 @startuml
-Ship o-- Sailor
-Fleet o-- Ship
+Ship o-- Sailor : aggregation
+Fleet o-- Ship : aggregation
 @enduml

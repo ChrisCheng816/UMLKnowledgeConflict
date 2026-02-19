@@ -1,4 +1,4 @@
 @startuml
-Section o-- Orchestra
-Trumpeter o-- Section
+Section o-- Orchestra : aggregation
+Trumpeter o-- Section : aggregation
 @enduml

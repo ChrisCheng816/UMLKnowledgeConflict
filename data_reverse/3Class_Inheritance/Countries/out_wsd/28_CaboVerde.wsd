@@ -1,4 +1,4 @@
 @startuml
-CaboVerde <|-- Country
-Country <|-- GeopoliticalEntity
+CaboVerde <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

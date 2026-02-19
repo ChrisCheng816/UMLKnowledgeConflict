@@ -1,4 +1,4 @@
 @startuml
-Cord *-- Lamp
-Plug *-- Cord
+Cord *-- Lamp : composition
+Plug *-- Cord : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Mongoose
-Zoo o-- Enclosure
+Enclosure o-- Mongoose : aggregation
+Zoo o-- Enclosure : aggregation
 @enduml

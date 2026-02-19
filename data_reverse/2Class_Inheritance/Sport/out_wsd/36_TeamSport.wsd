@@ -1,3 +1,3 @@
 @startuml
-TeamSport <|-- Sport
+TeamSport <|-- Sport : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- BoardGame
-LivingRoom o-- Shelf
+Shelf o-- BoardGame : aggregation
+LivingRoom o-- Shelf : aggregation
 @enduml

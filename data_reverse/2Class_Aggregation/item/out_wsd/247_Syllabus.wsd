@@ -1,3 +1,3 @@
 @startuml
-Syllabus o-- Binder
+Syllabus o-- Binder : aggregation
 @enduml

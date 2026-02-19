@@ -1,4 +1,4 @@
 @startuml
-Pantry o-- Kitchen
-Oil o-- Pantry
+Pantry o-- Kitchen : aggregation
+Oil o-- Pantry : aggregation
 @enduml

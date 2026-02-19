@@ -1,4 +1,4 @@
 @startuml
-PoolHeater ..> Heating
-Electricity ..> PoolHeater
+PoolHeater ..> Heating : dependency
+Electricity ..> PoolHeater : dependency
 @enduml

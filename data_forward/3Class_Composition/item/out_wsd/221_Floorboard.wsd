@@ -1,4 +1,4 @@
 @startuml
-Porch *-- Floorboard
-House *-- Porch
+Porch *-- Floorboard : composition
+House *-- Porch : composition
 @enduml

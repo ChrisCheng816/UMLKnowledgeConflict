@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Cabbage
-Cabbage <|-- NapaCabbage
+Vegetable <|-- Cabbage : inheritance
+Cabbage <|-- NapaCabbage : inheritance
 @enduml

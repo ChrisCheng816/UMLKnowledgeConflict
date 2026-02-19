@@ -1,4 +1,4 @@
 @startuml
-Memory *-- Connector
-Desktop *-- Memory
+Memory *-- Connector : composition
+Desktop *-- Memory : composition
 @enduml

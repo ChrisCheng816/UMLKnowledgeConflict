@@ -1,4 +1,4 @@
 @startuml
-Class o-- Senior
-School o-- Class
+Class o-- Senior : aggregation
+School o-- Class : aggregation
 @enduml

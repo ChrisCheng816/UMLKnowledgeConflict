@@ -1,4 +1,4 @@
 @startuml
-Internet ..> SoundCloud
-Electricity ..> Internet
+Internet ..> SoundCloud : dependency
+Electricity ..> Internet : dependency
 @enduml

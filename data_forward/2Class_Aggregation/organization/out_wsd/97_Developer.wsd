@@ -1,3 +1,3 @@
 @startuml
-Department o-- Developer
+Department o-- Developer : aggregation
 @enduml

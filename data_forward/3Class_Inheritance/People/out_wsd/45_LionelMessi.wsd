@@ -1,4 +1,4 @@
 @startuml
-Athlete <|-- Footballer
-Footballer <|-- LionelMessi
+Athlete <|-- Footballer : inheritance
+Footballer <|-- LionelMessi : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Barn o-- Ranch
-Horse o-- Barn
+Barn o-- Ranch : aggregation
+Horse o-- Barn : aggregation
 @enduml

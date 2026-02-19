@@ -1,4 +1,4 @@
 @startuml
-Pit *-- Kernel
-Peach *-- Pit
+Pit *-- Kernel : composition
+Peach *-- Pit : composition
 @enduml

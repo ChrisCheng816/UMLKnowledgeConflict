@@ -1,3 +1,3 @@
 @startuml
-Animal o-- Enclosure
+Animal o-- Enclosure : aggregation
 @enduml

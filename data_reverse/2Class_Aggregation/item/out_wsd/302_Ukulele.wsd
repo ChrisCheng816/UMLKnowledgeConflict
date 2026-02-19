@@ -1,3 +1,3 @@
 @startuml
-Ukulele o-- InstrumentRack
+Ukulele o-- InstrumentRack : aggregation
 @enduml

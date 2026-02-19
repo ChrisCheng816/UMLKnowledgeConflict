@@ -1,4 +1,4 @@
 @startuml
-WalnutTree <|-- Tree
-Tree <|-- Plant
+WalnutTree <|-- Tree : inheritance
+Tree <|-- Plant : inheritance
 @enduml

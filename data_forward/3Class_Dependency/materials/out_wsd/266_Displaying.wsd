@@ -1,4 +1,4 @@
 @startuml
-BloodPressureMonitor ..> Electricity
-Displaying ..> BloodPressureMonitor
+BloodPressureMonitor ..> Electricity : dependency
+Displaying ..> BloodPressureMonitor : dependency
 @enduml

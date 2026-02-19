@@ -1,4 +1,4 @@
 @startuml
-Azul <|-- BoardGame
-BoardGame <|-- Game
+Azul <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

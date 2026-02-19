@@ -1,4 +1,4 @@
 @startuml
-Cream ..> CowMilk
-Butter ..> Cream
+Cream ..> CowMilk : dependency
+Butter ..> Cream : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Club o-- Speaker
-Community o-- Club
+Club o-- Speaker : aggregation
+Community o-- Club : aggregation
 @enduml

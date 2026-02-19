@@ -1,4 +1,4 @@
 @startuml
-Drive *-- Actuator
-Desktop *-- Drive
+Drive *-- Actuator : composition
+Desktop *-- Drive : composition
 @enduml

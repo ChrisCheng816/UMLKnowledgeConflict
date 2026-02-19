@@ -1,4 +1,4 @@
 @startuml
-ElectricGrill ..> Electricity
-Grilling ..> ElectricGrill
+ElectricGrill ..> Electricity : dependency
+Grilling ..> ElectricGrill : dependency
 @enduml

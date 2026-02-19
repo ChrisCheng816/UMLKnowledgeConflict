@@ -1,4 +1,4 @@
 @startuml
-Dill ..> DillSeasoning
-DillPlant ..> Dill
+Dill ..> DillSeasoning : dependency
+DillPlant ..> Dill : dependency
 @enduml

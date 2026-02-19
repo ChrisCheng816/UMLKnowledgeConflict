@@ -1,4 +1,4 @@
 @startuml
-Nachos <|-- Snack
-Snack <|-- Food
+Nachos <|-- Snack : inheritance
+Snack <|-- Food : inheritance
 @enduml

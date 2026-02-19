@@ -1,4 +1,4 @@
 @startuml
-BMXCycling <|-- Cycling
-Cycling <|-- Sport
+BMXCycling <|-- Cycling : inheritance
+Cycling <|-- Sport : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-SecurityCamera ..> Surveillance
+SecurityCamera ..> Surveillance : dependency
 @enduml

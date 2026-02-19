@@ -1,3 +1,3 @@
 @startuml
-Class o-- Teenager
+Class o-- Teenager : aggregation
 @enduml

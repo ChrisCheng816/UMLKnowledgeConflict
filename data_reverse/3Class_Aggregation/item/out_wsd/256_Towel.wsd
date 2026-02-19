@@ -1,4 +1,4 @@
 @startuml
-Basket o-- LaundryRoom
-Towel o-- Basket
+Basket o-- LaundryRoom : aggregation
+Towel o-- Basket : aggregation
 @enduml

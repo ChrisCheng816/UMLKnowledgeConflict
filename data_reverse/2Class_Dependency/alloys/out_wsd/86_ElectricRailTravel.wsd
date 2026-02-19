@@ -1,3 +1,3 @@
 @startuml
-ElectricTrain ..> ElectricRailTravel
+ElectricTrain ..> ElectricRailTravel : dependency
 @enduml

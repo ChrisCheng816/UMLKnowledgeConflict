@@ -1,4 +1,4 @@
 @startuml
-Teams ..> Meeting
-Internet ..> Teams
+Teams ..> Meeting : dependency
+Internet ..> Teams : dependency
 @enduml

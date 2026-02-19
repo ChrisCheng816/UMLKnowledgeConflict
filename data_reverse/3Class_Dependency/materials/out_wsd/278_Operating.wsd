@@ -1,4 +1,4 @@
 @startuml
-GarageDoorOpener ..> Operating
-Electricity ..> GarageDoorOpener
+GarageDoorOpener ..> Operating : dependency
+Electricity ..> GarageDoorOpener : dependency
 @enduml

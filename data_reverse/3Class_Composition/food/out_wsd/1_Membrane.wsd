@@ -1,4 +1,4 @@
 @startuml
-Shell *-- Egg
-Membrane *-- Shell
+Shell *-- Egg : composition
+Membrane *-- Shell : composition
 @enduml

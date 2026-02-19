@@ -1,4 +1,4 @@
 @startuml
-Orchestra o-- Studio
-Percussionist o-- Orchestra
+Orchestra o-- Studio : aggregation
+Percussionist o-- Orchestra : aggregation
 @enduml

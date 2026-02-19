@@ -1,4 +1,4 @@
 @startuml
-DesktopComputer ..> WiFiNetwork
-Email ..> DesktopComputer
+DesktopComputer ..> WiFiNetwork : dependency
+Email ..> DesktopComputer : dependency
 @enduml

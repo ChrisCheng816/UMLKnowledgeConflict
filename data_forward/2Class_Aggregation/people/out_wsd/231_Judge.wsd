@@ -1,3 +1,3 @@
 @startuml
-Panel o-- Judge
+Panel o-- Judge : aggregation
 @enduml

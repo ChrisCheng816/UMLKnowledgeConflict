@@ -1,4 +1,4 @@
 @startuml
-Nose *-- Person
-Sinus *-- Nose
+Nose *-- Person : composition
+Sinus *-- Nose : composition
 @enduml

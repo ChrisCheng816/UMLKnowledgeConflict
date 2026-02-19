@@ -1,4 +1,4 @@
 @startuml
-Department o-- Company
-Recruiter o-- Department
+Department o-- Company : aggregation
+Recruiter o-- Department : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-RhythmGame <|-- GuitarHero
+RhythmGame <|-- GuitarHero : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Signal ..> Internet
-Chatting ..> Signal
+Signal ..> Internet : dependency
+Chatting ..> Signal : dependency
 @enduml

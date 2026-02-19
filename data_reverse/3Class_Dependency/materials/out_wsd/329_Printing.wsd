@@ -1,4 +1,4 @@
 @startuml
-Plotter ..> Printing
-Electricity ..> Plotter
+Plotter ..> Printing : dependency
+Electricity ..> Plotter : dependency
 @enduml

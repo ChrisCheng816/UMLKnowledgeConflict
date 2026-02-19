@@ -1,3 +1,3 @@
 @startuml
-Valve *-- Engine
+Valve *-- Engine : composition
 @enduml

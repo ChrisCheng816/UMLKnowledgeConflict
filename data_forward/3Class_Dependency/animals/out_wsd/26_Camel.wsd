@@ -1,4 +1,4 @@
 @startuml
-DesertPlants ..> Sunlight
-Camel ..> DesertPlants
+DesertPlants ..> Sunlight : dependency
+Camel ..> DesertPlants : dependency
 @enduml

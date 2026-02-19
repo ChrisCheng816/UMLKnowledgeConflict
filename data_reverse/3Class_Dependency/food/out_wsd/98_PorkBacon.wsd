@@ -1,4 +1,4 @@
 @startuml
-Pork ..> PorkBacon
-PigFarm ..> Pork
+Pork ..> PorkBacon : dependency
+PigFarm ..> Pork : dependency
 @enduml

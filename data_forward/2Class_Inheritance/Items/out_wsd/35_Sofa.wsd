@@ -1,3 +1,3 @@
 @startuml
-Furniture <|-- Sofa
+Furniture <|-- Sofa : inheritance
 @enduml

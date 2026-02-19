@@ -1,4 +1,4 @@
 @startuml
-Zambia <|-- Country
-Country <|-- GeopoliticalEntity
+Zambia <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

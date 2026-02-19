@@ -1,3 +1,3 @@
 @startuml
-Producer o-- Department
+Producer o-- Department : aggregation
 @enduml

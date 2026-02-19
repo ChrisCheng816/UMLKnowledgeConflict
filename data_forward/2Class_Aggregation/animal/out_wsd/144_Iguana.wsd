@@ -1,3 +1,3 @@
 @startuml
-Terrarium o-- Iguana
+Terrarium o-- Iguana : aggregation
 @enduml

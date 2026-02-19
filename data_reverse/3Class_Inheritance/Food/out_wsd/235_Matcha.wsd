@@ -1,4 +1,4 @@
 @startuml
-Matcha <|-- Beverage
-Beverage <|-- Food
+Matcha <|-- Beverage : inheritance
+Beverage <|-- Food : inheritance
 @enduml

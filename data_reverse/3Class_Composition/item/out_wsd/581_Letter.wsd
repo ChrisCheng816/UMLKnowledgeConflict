@@ -1,4 +1,4 @@
 @startuml
-Syllable *-- Word
-Letter *-- Syllable
+Syllable *-- Word : composition
+Letter *-- Syllable : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Department o-- Researcher
+Department o-- Researcher : aggregation
 @enduml

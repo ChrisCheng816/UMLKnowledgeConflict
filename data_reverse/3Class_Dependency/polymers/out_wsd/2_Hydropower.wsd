@@ -1,4 +1,4 @@
 @startuml
-River ..> Hydropower
-Rain ..> River
+River ..> Hydropower : dependency
+Rain ..> River : dependency
 @enduml

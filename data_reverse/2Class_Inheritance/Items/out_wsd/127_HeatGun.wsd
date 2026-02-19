@@ -1,3 +1,3 @@
 @startuml
-HeatGun <|-- PowerTool
+HeatGun <|-- PowerTool : inheritance
 @enduml

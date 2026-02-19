@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Gabon
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Gabon : inheritance
 @enduml

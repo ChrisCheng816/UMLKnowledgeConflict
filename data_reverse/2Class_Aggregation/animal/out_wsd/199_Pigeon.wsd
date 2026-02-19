@@ -1,3 +1,3 @@
 @startuml
-Pigeon o-- Flock
+Pigeon o-- Flock : aggregation
 @enduml

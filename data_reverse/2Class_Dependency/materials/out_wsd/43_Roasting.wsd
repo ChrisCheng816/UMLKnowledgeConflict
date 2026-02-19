@@ -1,3 +1,3 @@
 @startuml
-ConvectionOven ..> Roasting
+ConvectionOven ..> Roasting : dependency
 @enduml

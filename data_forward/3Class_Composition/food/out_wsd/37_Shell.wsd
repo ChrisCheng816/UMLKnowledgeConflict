@@ -1,4 +1,4 @@
 @startuml
-Husk *-- Shell
-Walnut *-- Husk
+Husk *-- Shell : composition
+Walnut *-- Husk : composition
 @enduml

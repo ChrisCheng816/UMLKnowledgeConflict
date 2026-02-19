@@ -1,3 +1,3 @@
 @startuml
-Drawer o-- Socks
+Drawer o-- Socks : aggregation
 @enduml

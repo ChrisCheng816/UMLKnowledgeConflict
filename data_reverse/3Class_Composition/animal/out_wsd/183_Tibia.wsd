@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Person
-Tibia *-- Leg
+Leg *-- Person : composition
+Tibia *-- Leg : composition
 @enduml

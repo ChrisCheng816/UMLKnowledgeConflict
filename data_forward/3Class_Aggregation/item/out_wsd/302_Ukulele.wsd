@@ -1,4 +1,4 @@
 @startuml
-InstrumentRack o-- Ukulele
-MusicStore o-- InstrumentRack
+InstrumentRack o-- Ukulele : aggregation
+MusicStore o-- InstrumentRack : aggregation
 @enduml

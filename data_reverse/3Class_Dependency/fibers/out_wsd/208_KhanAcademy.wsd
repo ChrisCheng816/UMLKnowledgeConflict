@@ -1,4 +1,4 @@
 @startuml
-Internet ..> KhanAcademy
-Electricity ..> Internet
+Internet ..> KhanAcademy : dependency
+Electricity ..> Internet : dependency
 @enduml

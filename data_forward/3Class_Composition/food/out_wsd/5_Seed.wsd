@@ -1,4 +1,4 @@
 @startuml
-Segment *-- Seed
-Lemon *-- Segment
+Segment *-- Seed : composition
+Lemon *-- Segment : composition
 @enduml

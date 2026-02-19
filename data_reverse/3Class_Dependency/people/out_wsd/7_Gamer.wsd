@@ -1,4 +1,4 @@
 @startuml
-GameConsole ..> Gamer
-Electricity ..> GameConsole
+GameConsole ..> Gamer : dependency
+Electricity ..> GameConsole : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Internet ..> DisneyPlus
-Electricity ..> Internet
+Internet ..> DisneyPlus : dependency
+Electricity ..> Internet : dependency
 @enduml

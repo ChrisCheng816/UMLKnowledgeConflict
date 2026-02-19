@@ -1,4 +1,4 @@
 @startuml
-Hydrangea <|-- Shrub
-Shrub <|-- Plant
+Hydrangea <|-- Shrub : inheritance
+Shrub <|-- Plant : inheritance
 @enduml

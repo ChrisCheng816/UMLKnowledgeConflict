@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Dog
-Dog <|-- ShibaInu
+Animal <|-- Dog : inheritance
+Dog <|-- ShibaInu : inheritance
 @enduml

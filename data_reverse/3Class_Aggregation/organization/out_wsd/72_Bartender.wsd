@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Restaurant
-Bartender o-- Staff
+Staff o-- Restaurant : aggregation
+Bartender o-- Staff : aggregation
 @enduml

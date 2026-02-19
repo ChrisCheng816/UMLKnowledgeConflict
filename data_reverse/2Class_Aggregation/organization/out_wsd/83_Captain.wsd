@@ -1,3 +1,3 @@
 @startuml
-Captain o-- Crew
+Captain o-- Crew : aggregation
 @enduml

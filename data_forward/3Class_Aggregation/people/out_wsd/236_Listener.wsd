@@ -1,4 +1,4 @@
 @startuml
-Audience o-- Listener
-Conference o-- Audience
+Audience o-- Listener : aggregation
+Conference o-- Audience : aggregation
 @enduml

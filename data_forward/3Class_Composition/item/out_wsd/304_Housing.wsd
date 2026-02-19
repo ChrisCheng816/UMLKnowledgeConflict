@@ -1,4 +1,4 @@
 @startuml
-CameraModule *-- Housing
-Phone *-- CameraModule
+CameraModule *-- Housing : composition
+Phone *-- CameraModule : composition
 @enduml

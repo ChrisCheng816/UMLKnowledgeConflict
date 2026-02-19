@@ -1,4 +1,4 @@
 @startuml
-GretaThunberg <|-- ClimateActivist
-ClimateActivist <|-- Activist
+GretaThunberg <|-- ClimateActivist : inheritance
+ClimateActivist <|-- Activist : inheritance
 @enduml

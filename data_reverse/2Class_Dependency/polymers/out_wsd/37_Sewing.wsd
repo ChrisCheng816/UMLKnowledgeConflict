@@ -1,3 +1,3 @@
 @startuml
-CottonThread ..> Sewing
+CottonThread ..> Sewing : dependency
 @enduml

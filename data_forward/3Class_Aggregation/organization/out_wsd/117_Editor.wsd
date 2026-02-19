@@ -1,4 +1,4 @@
 @startuml
-Editorial o-- Editor
-Newspaper o-- Editorial
+Editorial o-- Editor : aggregation
+Newspaper o-- Editorial : aggregation
 @enduml

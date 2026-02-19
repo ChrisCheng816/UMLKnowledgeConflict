@@ -1,4 +1,4 @@
 @startuml
-Wax ..> Petroleum
-CandleMaking ..> Wax
+Wax ..> Petroleum : dependency
+CandleMaking ..> Wax : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cocoa ..> Chocolate
-Cacao ..> Cocoa
+Cocoa ..> Chocolate : dependency
+Cacao ..> Cocoa : dependency
 @enduml

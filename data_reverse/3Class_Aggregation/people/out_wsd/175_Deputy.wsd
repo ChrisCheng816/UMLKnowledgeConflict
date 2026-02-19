@@ -1,4 +1,4 @@
 @startuml
-Board o-- Company
-Deputy o-- Board
+Board o-- Company : aggregation
+Deputy o-- Board : aggregation
 @enduml

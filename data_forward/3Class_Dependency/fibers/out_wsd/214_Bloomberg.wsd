@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Bloomberg ..> Internet
+Internet ..> Electricity : dependency
+Bloomberg ..> Internet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BrownRice <|-- Rice
-Rice <|-- Grain
+BrownRice <|-- Rice : inheritance
+Rice <|-- Grain : inheritance
 @enduml

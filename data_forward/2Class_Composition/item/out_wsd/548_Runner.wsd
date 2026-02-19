@@ -1,3 +1,3 @@
 @startuml
-Drawer *-- Runner
+Drawer *-- Runner : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Committee o-- Recorder
+Committee o-- Recorder : aggregation
 @enduml

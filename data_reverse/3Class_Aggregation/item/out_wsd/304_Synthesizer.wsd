@@ -1,4 +1,4 @@
 @startuml
-InstrumentRack o-- MusicStore
-Synthesizer o-- InstrumentRack
+InstrumentRack o-- MusicStore : aggregation
+Synthesizer o-- InstrumentRack : aggregation
 @enduml

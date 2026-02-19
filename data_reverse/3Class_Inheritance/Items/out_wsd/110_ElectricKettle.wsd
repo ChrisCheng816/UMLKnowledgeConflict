@@ -1,4 +1,4 @@
 @startuml
-ElectricKettle <|-- Kettle
-Kettle <|-- Appliance
+ElectricKettle <|-- Kettle : inheritance
+Kettle <|-- Appliance : inheritance
 @enduml

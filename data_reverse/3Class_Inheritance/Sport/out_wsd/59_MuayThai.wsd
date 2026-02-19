@@ -1,4 +1,4 @@
 @startuml
-MuayThai <|-- CombatSport
-CombatSport <|-- Sport
+MuayThai <|-- CombatSport : inheritance
+CombatSport <|-- Sport : inheritance
 @enduml

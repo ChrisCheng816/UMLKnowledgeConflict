@@ -1,3 +1,3 @@
 @startuml
-Pump *-- PlumbingSystem
+Pump *-- PlumbingSystem : composition
 @enduml

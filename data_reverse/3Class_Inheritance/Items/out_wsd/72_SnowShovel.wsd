@@ -1,4 +1,4 @@
 @startuml
-SnowShovel <|-- Shovel
-Shovel <|-- Tool
+SnowShovel <|-- Shovel : inheritance
+Shovel <|-- Tool : inheritance
 @enduml

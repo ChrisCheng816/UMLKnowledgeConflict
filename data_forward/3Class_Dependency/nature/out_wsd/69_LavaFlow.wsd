@@ -1,4 +1,4 @@
 @startuml
-Magma ..> EarthHeat
-LavaFlow ..> Magma
+Magma ..> EarthHeat : dependency
+LavaFlow ..> Magma : dependency
 @enduml

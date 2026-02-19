@@ -1,4 +1,4 @@
 @startuml
-Rabbit ..> Grass
-Fox ..> Rabbit
+Rabbit ..> Grass : dependency
+Fox ..> Rabbit : dependency
 @enduml

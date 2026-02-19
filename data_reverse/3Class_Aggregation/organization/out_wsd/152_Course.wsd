@@ -1,4 +1,4 @@
 @startuml
-Department o-- University
-Course o-- Department
+Department o-- University : aggregation
+Course o-- Department : aggregation
 @enduml

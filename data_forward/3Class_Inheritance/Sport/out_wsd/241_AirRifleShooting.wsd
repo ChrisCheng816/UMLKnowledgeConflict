@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Shooting
-Shooting <|-- AirRifleShooting
+Sport <|-- Shooting : inheritance
+Shooting <|-- AirRifleShooting : inheritance
 @enduml

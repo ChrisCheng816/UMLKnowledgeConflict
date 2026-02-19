@@ -1,3 +1,3 @@
 @startuml
-Carpenter o-- Staff
+Carpenter o-- Staff : aggregation
 @enduml

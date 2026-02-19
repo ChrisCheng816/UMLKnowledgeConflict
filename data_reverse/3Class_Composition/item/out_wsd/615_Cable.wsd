@@ -1,4 +1,4 @@
 @startuml
-Brake *-- Bicycle
-Cable *-- Brake
+Brake *-- Bicycle : composition
+Cable *-- Brake : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sunlight ..> Sun
-TemperatureContrast ..> Sunlight
+Sunlight ..> Sun : dependency
+TemperatureContrast ..> Sunlight : dependency
 @enduml

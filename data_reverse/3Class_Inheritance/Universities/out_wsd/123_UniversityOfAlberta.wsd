@@ -1,4 +1,4 @@
 @startuml
-UniversityOfAlberta <|-- University
-University <|-- EducationalInstitution
+UniversityOfAlberta <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

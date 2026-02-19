@@ -1,3 +1,3 @@
 @startuml
-Stairs *-- Basement
+Stairs *-- Basement : composition
 @enduml

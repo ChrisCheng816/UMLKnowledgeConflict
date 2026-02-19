@@ -1,4 +1,4 @@
 @startuml
-GPSReceiver ..> GPSSatellite
-RouteGuidance ..> GPSReceiver
+GPSReceiver ..> GPSSatellite : dependency
+RouteGuidance ..> GPSReceiver : dependency
 @enduml

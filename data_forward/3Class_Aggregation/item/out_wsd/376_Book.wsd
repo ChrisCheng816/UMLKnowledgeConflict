@@ -1,4 +1,4 @@
 @startuml
-Catalog o-- Book
-Library o-- Catalog
+Catalog o-- Book : aggregation
+Library o-- Catalog : aggregation
 @enduml

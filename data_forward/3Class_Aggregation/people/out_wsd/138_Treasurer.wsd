@@ -1,4 +1,4 @@
 @startuml
-Committee o-- Treasurer
-City o-- Committee
+Committee o-- Treasurer : aggregation
+City o-- Committee : aggregation
 @enduml

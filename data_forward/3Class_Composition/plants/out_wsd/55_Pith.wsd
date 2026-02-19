@@ -1,4 +1,4 @@
 @startuml
-Trunk *-- Pith
-Pine *-- Trunk
+Trunk *-- Pith : composition
+Pine *-- Trunk : composition
 @enduml

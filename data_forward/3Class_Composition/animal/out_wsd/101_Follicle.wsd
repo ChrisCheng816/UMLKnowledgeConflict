@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Follicle
-Person *-- Skin
+Skin *-- Follicle : composition
+Person *-- Skin : composition
 @enduml

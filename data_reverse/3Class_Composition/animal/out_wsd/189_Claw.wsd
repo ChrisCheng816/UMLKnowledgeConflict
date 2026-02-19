@@ -1,4 +1,4 @@
 @startuml
-Flipper *-- Seal
-Claw *-- Flipper
+Flipper *-- Seal : composition
+Claw *-- Flipper : composition
 @enduml

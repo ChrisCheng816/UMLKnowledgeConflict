@@ -1,4 +1,4 @@
 @startuml
-ClothesDryer ..> WrinkleReduction
-Electricity ..> ClothesDryer
+ClothesDryer ..> WrinkleReduction : dependency
+Electricity ..> ClothesDryer : dependency
 @enduml

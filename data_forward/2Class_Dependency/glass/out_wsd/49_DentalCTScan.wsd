@@ -1,3 +1,3 @@
 @startuml
-DentalCTScan ..> CTScanner
+DentalCTScan ..> CTScanner : dependency
 @enduml

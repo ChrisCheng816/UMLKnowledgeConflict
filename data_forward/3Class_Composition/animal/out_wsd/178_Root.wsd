@@ -1,4 +1,4 @@
 @startuml
-Fang *-- Root
-Snake *-- Fang
+Fang *-- Root : composition
+Snake *-- Fang : composition
 @enduml

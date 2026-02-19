@@ -1,4 +1,4 @@
 @startuml
-Snowfall ..> Blizzard
-WinterStorm ..> Snowfall
+Snowfall ..> Blizzard : dependency
+WinterStorm ..> Snowfall : dependency
 @enduml

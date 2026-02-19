@@ -1,4 +1,4 @@
 @startuml
-Team o-- Nurse
-Hospital o-- Team
+Team o-- Nurse : aggregation
+Hospital o-- Team : aggregation
 @enduml

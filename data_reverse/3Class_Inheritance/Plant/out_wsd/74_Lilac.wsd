@@ -1,4 +1,4 @@
 @startuml
-Lilac <|-- Shrub
-Shrub <|-- Plant
+Lilac <|-- Shrub : inheritance
+Shrub <|-- Plant : inheritance
 @enduml

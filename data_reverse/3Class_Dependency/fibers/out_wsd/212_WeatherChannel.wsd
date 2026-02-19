@@ -1,4 +1,4 @@
 @startuml
-Internet ..> WeatherChannel
-Electricity ..> Internet
+Internet ..> WeatherChannel : dependency
+Electricity ..> Internet : dependency
 @enduml

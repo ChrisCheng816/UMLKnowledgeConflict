@@ -1,4 +1,4 @@
 @startuml
-Laptop ..> WiFiNetwork
-RemoteWorker ..> Laptop
+Laptop ..> WiFiNetwork : dependency
+RemoteWorker ..> Laptop : dependency
 @enduml

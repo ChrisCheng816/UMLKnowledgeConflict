@@ -1,3 +1,3 @@
 @startuml
-Book o-- Cart
+Book o-- Cart : aggregation
 @enduml

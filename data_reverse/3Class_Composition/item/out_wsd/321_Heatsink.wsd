@@ -1,4 +1,4 @@
 @startuml
-Motherboard *-- Desktop
-Heatsink *-- Motherboard
+Motherboard *-- Desktop : composition
+Heatsink *-- Motherboard : composition
 @enduml

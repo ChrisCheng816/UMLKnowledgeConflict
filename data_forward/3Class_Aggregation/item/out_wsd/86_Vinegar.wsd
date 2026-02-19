@@ -1,4 +1,4 @@
 @startuml
-Bottle o-- Vinegar
-Cafe o-- Bottle
+Bottle o-- Vinegar : aggregation
+Cafe o-- Bottle : aggregation
 @enduml

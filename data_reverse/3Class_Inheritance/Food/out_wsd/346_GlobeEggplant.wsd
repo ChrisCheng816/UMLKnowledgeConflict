@@ -1,4 +1,4 @@
 @startuml
-GlobeEggplant <|-- Eggplant
-Eggplant <|-- Vegetable
+GlobeEggplant <|-- Eggplant : inheritance
+Eggplant <|-- Vegetable : inheritance
 @enduml

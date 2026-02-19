@@ -1,4 +1,4 @@
 @startuml
-PlanetEarth <|-- Documentary
-Documentary <|-- Entertainment
+PlanetEarth <|-- Documentary : inheritance
+Documentary <|-- Entertainment : inheritance
 @enduml

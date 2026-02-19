@@ -1,3 +1,3 @@
 @startuml
-Multimeter ..> ContinuityTesting
+Multimeter ..> ContinuityTesting : dependency
 @enduml

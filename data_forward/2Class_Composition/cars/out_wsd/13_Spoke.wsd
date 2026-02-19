@@ -1,3 +1,3 @@
 @startuml
-Wheel *-- Spoke
+Wheel *-- Spoke : composition
 @enduml

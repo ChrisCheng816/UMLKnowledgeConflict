@@ -1,3 +1,3 @@
 @startuml
-Defibrillation ..> Defibrillator
+Defibrillation ..> Defibrillator : dependency
 @enduml

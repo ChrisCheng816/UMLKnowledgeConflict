@@ -1,4 +1,4 @@
 @startuml
-Frame *-- Bicycle
-Tube *-- Frame
+Frame *-- Bicycle : composition
+Tube *-- Frame : composition
 @enduml

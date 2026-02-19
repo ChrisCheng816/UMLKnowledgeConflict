@@ -1,4 +1,4 @@
 @startuml
-SpiritLevel <|-- Level
-Level <|-- Tool
+SpiritLevel <|-- Level : inheritance
+Level <|-- Tool : inheritance
 @enduml

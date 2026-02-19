@@ -1,4 +1,4 @@
 @startuml
-SUV <|-- CompactSUV
-CompactSUV <|-- HondaCRV
+SUV <|-- CompactSUV : inheritance
+CompactSUV <|-- HondaCRV : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Paddock o-- Horse
-Farm o-- Paddock
+Paddock o-- Horse : aggregation
+Farm o-- Paddock : aggregation
 @enduml

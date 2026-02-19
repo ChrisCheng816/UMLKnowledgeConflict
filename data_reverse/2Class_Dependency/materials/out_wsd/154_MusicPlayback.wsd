@@ -1,3 +1,3 @@
 @startuml
-RadioReceiver ..> MusicPlayback
+RadioReceiver ..> MusicPlayback : dependency
 @enduml

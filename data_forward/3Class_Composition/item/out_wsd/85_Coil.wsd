@@ -1,4 +1,4 @@
 @startuml
-Motor *-- Coil
-Vacuum *-- Motor
+Motor *-- Coil : composition
+Vacuum *-- Motor : composition
 @enduml

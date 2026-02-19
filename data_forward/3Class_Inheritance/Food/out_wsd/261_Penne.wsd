@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Pasta
-Pasta <|-- Penne
+Food <|-- Pasta : inheritance
+Pasta <|-- Penne : inheritance
 @enduml

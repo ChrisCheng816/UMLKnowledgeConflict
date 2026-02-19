@@ -1,4 +1,4 @@
 @startuml
-Handle *-- TennisRacket
-Collar *-- Handle
+Handle *-- TennisRacket : composition
+Collar *-- Handle : composition
 @enduml

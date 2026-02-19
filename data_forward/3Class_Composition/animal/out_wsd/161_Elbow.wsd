@@ -1,4 +1,4 @@
 @startuml
-Arm *-- Elbow
-Person *-- Arm
+Arm *-- Elbow : composition
+Person *-- Arm : composition
 @enduml

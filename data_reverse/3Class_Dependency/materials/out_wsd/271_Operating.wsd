@@ -1,4 +1,4 @@
 @startuml
-Massager ..> Operating
-Electricity ..> Massager
+Massager ..> Operating : dependency
+Electricity ..> Massager : dependency
 @enduml

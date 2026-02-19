@@ -1,4 +1,4 @@
 @startuml
-3DPrinter ..> Electricity
-ModelMaking ..> 3DPrinter
+3DPrinter ..> Electricity : dependency
+ModelMaking ..> 3DPrinter : dependency
 @enduml

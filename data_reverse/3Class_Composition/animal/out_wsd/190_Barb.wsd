@@ -1,4 +1,4 @@
 @startuml
-Quill *-- Porcupine
-Barb *-- Quill
+Quill *-- Porcupine : composition
+Barb *-- Quill : composition
 @enduml

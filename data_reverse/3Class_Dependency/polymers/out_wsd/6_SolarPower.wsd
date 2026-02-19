@@ -1,4 +1,4 @@
 @startuml
-Sunlight ..> SolarPower
-Sun ..> Sunlight
+Sunlight ..> SolarPower : dependency
+Sun ..> Sunlight : dependency
 @enduml

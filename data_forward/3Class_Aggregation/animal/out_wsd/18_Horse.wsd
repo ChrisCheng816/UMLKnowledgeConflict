@@ -1,4 +1,4 @@
 @startuml
-Herd o-- Horse
-Farm o-- Herd
+Herd o-- Horse : aggregation
+Farm o-- Herd : aggregation
 @enduml

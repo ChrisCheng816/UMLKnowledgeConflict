@@ -1,4 +1,4 @@
 @startuml
-Truck *-- Bushing
-Skateboard *-- Truck
+Truck *-- Bushing : composition
+Skateboard *-- Truck : composition
 @enduml

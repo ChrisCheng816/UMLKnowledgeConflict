@@ -1,4 +1,4 @@
 @startuml
-Lizard <|-- MonitorLizard
-MonitorLizard <|-- KomodoDragon
+Lizard <|-- MonitorLizard : inheritance
+MonitorLizard <|-- KomodoDragon : inheritance
 @enduml

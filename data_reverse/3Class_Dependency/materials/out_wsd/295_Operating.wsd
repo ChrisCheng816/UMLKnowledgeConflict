@@ -1,4 +1,4 @@
 @startuml
-WaffleMaker ..> Operating
-Electricity ..> WaffleMaker
+WaffleMaker ..> Operating : dependency
+Electricity ..> WaffleMaker : dependency
 @enduml

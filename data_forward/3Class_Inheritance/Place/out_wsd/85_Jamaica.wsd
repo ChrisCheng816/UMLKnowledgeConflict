@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Island
-Island <|-- Jamaica
+GeographicFeature <|-- Island : inheritance
+Island <|-- Jamaica : inheritance
 @enduml

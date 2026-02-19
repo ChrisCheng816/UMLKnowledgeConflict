@@ -1,3 +1,3 @@
 @startuml
-Binder o-- Essay
+Binder o-- Essay : aggregation
 @enduml

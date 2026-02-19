@@ -1,3 +1,3 @@
 @startuml
-Locomotive o-- Fleet
+Locomotive o-- Fleet : aggregation
 @enduml

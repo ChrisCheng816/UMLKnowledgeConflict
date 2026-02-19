@@ -1,4 +1,4 @@
 @startuml
-XRayMachine ..> XRayScan
-Electricity ..> XRayMachine
+XRayMachine ..> XRayScan : dependency
+Electricity ..> XRayMachine : dependency
 @enduml

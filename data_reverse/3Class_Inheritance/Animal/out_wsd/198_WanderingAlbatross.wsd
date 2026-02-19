@@ -1,4 +1,4 @@
 @startuml
-WanderingAlbatross <|-- Albatross
-Albatross <|-- Bird
+WanderingAlbatross <|-- Albatross : inheritance
+Albatross <|-- Bird : inheritance
 @enduml

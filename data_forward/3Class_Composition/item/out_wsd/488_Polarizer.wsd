@@ -1,4 +1,4 @@
 @startuml
-Display *-- Polarizer
-Laptop *-- Display
+Display *-- Polarizer : composition
+Laptop *-- Display : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TVSeries <|-- AnimeSeries
-AnimeSeries <|-- NeonGenesisEvangelion
+TVSeries <|-- AnimeSeries : inheritance
+AnimeSeries <|-- NeonGenesisEvangelion : inheritance
 @enduml

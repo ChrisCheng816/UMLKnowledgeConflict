@@ -1,4 +1,4 @@
 @startuml
-ColoredPencil <|-- Pencil
-Pencil <|-- Stationery
+ColoredPencil <|-- Pencil : inheritance
+Pencil <|-- Stationery : inheritance
 @enduml

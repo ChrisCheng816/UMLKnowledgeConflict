@@ -1,4 +1,4 @@
 @startuml
-Bin o-- Garage
-AluminumCan o-- Bin
+Bin o-- Garage : aggregation
+AluminumCan o-- Bin : aggregation
 @enduml

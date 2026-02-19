@@ -1,4 +1,4 @@
 @startuml
-Lizard <|-- Gecko
-Gecko <|-- LeopardGecko
+Lizard <|-- Gecko : inheritance
+Gecko <|-- LeopardGecko : inheritance
 @enduml

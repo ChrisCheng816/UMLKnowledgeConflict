@@ -1,4 +1,4 @@
 @startuml
-Motherboard *-- Desktop
-Chip *-- Motherboard
+Motherboard *-- Desktop : composition
+Chip *-- Motherboard : composition
 @enduml

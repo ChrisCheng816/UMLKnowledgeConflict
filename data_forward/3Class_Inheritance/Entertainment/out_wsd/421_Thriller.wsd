@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Album
-Album <|-- Thriller
+MusicWork <|-- Album : inheritance
+Album <|-- Thriller : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Unforgiven <|-- WesternFilm
-WesternFilm <|-- Film
+Unforgiven <|-- WesternFilm : inheritance
+WesternFilm <|-- Film : inheritance
 @enduml

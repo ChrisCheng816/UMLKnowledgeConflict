@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Waze ..> Internet
+Internet ..> Electricity : dependency
+Waze ..> Internet : dependency
 @enduml

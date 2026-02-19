@@ -1,3 +1,3 @@
 @startuml
-Pencil o-- Drawer
+Pencil o-- Drawer : aggregation
 @enduml

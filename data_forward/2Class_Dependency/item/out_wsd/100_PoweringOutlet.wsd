@@ -1,3 +1,3 @@
 @startuml
-PoweringOutlet ..> WallOutlet
+PoweringOutlet ..> WallOutlet : dependency
 @enduml

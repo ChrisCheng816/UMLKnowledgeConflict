@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Panda
-Zoo o-- Enclosure
+Enclosure o-- Panda : aggregation
+Zoo o-- Enclosure : aggregation
 @enduml

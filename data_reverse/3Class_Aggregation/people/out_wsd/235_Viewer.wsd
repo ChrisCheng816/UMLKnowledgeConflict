@@ -1,4 +1,4 @@
 @startuml
-Audience o-- Stadium
-Viewer o-- Audience
+Audience o-- Stadium : aggregation
+Viewer o-- Audience : aggregation
 @enduml

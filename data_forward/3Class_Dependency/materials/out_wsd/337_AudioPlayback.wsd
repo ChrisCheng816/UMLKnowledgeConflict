@@ -1,4 +1,4 @@
 @startuml
-Turntable ..> Electricity
-AudioPlayback ..> Turntable
+Turntable ..> Electricity : dependency
+AudioPlayback ..> Turntable : dependency
 @enduml

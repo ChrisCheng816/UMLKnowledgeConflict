@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Bandage
-Pharmacy o-- Shelf
+Shelf o-- Bandage : aggregation
+Pharmacy o-- Shelf : aggregation
 @enduml

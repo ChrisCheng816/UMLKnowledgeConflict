@@ -1,4 +1,4 @@
 @startuml
-Teaspoon <|-- Spoon
-Spoon <|-- Utensil
+Teaspoon <|-- Spoon : inheritance
+Spoon <|-- Utensil : inheritance
 @enduml

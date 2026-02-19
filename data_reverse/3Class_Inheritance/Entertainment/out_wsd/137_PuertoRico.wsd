@@ -1,4 +1,4 @@
 @startuml
-PuertoRico <|-- BoardGame
-BoardGame <|-- Game
+PuertoRico <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

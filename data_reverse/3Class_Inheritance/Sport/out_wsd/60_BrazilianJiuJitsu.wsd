@@ -1,4 +1,4 @@
 @startuml
-BrazilianJiuJitsu <|-- CombatSport
-CombatSport <|-- Sport
+BrazilianJiuJitsu <|-- CombatSport : inheritance
+CombatSport <|-- Sport : inheritance
 @enduml

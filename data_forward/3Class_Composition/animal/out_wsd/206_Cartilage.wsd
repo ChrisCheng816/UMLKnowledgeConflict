@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Cartilage
-Dog *-- Ear
+Ear *-- Cartilage : composition
+Dog *-- Ear : composition
 @enduml

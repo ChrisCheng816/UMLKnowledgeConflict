@@ -1,3 +1,3 @@
 @startuml
-Council o-- Treasurer
+Council o-- Treasurer : aggregation
 @enduml

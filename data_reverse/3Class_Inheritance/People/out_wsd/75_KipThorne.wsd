@@ -1,4 +1,4 @@
 @startuml
-KipThorne <|-- Physicist
-Physicist <|-- Scientist
+KipThorne <|-- Physicist : inheritance
+Physicist <|-- Scientist : inheritance
 @enduml

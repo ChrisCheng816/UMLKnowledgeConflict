@@ -1,4 +1,4 @@
 @startuml
-Balcony o-- Theater
-Seat o-- Balcony
+Balcony o-- Theater : aggregation
+Seat o-- Balcony : aggregation
 @enduml

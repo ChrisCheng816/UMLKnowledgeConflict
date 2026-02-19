@@ -1,4 +1,4 @@
 @startuml
-Whisker *-- Root
-Tiger *-- Whisker
+Whisker *-- Root : composition
+Tiger *-- Whisker : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-WashingMachine ..> WallOutlet
-WashingCycle ..> WashingMachine
+WashingMachine ..> WallOutlet : dependency
+WashingCycle ..> WashingMachine : dependency
 @enduml

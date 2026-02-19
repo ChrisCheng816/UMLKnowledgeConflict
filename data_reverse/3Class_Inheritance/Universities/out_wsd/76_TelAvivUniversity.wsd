@@ -1,4 +1,4 @@
 @startuml
-TelAvivUniversity <|-- University
-University <|-- EducationalInstitution
+TelAvivUniversity <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

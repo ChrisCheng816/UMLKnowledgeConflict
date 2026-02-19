@@ -1,4 +1,4 @@
 @startuml
-Album o-- MusicApp
-Track o-- Album
+Album o-- MusicApp : aggregation
+Track o-- Album : aggregation
 @enduml

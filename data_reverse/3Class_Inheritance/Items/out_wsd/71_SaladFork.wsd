@@ -1,4 +1,4 @@
 @startuml
-SaladFork <|-- Fork
-Fork <|-- Utensil
+SaladFork <|-- Fork : inheritance
+Fork <|-- Utensil : inheritance
 @enduml

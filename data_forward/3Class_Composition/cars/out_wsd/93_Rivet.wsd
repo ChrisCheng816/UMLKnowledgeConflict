@@ -1,4 +1,4 @@
 @startuml
-Chain *-- Rivet
-Bicycle *-- Chain
+Chain *-- Rivet : composition
+Bicycle *-- Chain : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-WoolYarn ..> Knitting
-Wool ..> WoolYarn
+WoolYarn ..> Knitting : dependency
+Wool ..> WoolYarn : dependency
 @enduml

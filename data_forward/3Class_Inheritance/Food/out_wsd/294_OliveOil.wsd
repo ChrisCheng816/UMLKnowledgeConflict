@@ -1,4 +1,4 @@
 @startuml
-Ingredient <|-- Oil
-Oil <|-- OliveOil
+Ingredient <|-- Oil : inheritance
+Oil <|-- OliveOil : inheritance
 @enduml

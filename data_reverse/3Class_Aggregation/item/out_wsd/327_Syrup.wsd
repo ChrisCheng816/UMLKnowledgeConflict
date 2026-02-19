@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Pharmacy
-Syrup o-- Cabinet
+Cabinet o-- Pharmacy : aggregation
+Syrup o-- Cabinet : aggregation
 @enduml

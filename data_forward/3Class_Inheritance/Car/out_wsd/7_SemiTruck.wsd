@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Truck
-Truck <|-- SemiTruck
+Vehicle <|-- Truck : inheritance
+Truck <|-- SemiTruck : inheritance
 @enduml

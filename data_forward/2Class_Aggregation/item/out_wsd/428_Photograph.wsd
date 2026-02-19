@@ -1,3 +1,3 @@
 @startuml
-Folder o-- Photograph
+Folder o-- Photograph : aggregation
 @enduml

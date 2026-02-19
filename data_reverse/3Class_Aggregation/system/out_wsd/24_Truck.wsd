@@ -1,4 +1,4 @@
 @startuml
-Depot o-- PostalSystem
-Truck o-- Depot
+Depot o-- PostalSystem : aggregation
+Truck o-- Depot : aggregation
 @enduml

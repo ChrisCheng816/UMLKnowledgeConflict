@@ -1,4 +1,4 @@
 @startuml
-Treadmill ..> Electricity
-Operating ..> Treadmill
+Treadmill ..> Electricity : dependency
+Operating ..> Treadmill : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sensor *-- Camera
-Pixel *-- Sensor
+Sensor *-- Camera : composition
+Pixel *-- Sensor : composition
 @enduml

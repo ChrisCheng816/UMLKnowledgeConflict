@@ -1,4 +1,4 @@
 @startuml
-Country <|-- TranscontinentalCountry
-TranscontinentalCountry <|-- Turkey
+Country <|-- TranscontinentalCountry : inheritance
+TranscontinentalCountry <|-- Turkey : inheritance
 @enduml

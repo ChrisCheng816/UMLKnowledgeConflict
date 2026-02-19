@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-DoorDash ..> Internet
+Internet ..> Electricity : dependency
+DoorDash ..> Internet : dependency
 @enduml

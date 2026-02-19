@@ -1,3 +1,3 @@
 @startuml
-Locker o-- Towel
+Locker o-- Towel : aggregation
 @enduml

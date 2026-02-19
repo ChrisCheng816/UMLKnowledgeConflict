@@ -1,4 +1,4 @@
 @startuml
-Radish <|-- RootVegetable
-RootVegetable <|-- Vegetable
+Radish <|-- RootVegetable : inheritance
+RootVegetable <|-- Vegetable : inheritance
 @enduml

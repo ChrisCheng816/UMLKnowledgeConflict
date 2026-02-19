@@ -1,4 +1,4 @@
 @startuml
-Finger *-- Person
-Pad *-- Finger
+Finger *-- Person : composition
+Pad *-- Finger : composition
 @enduml

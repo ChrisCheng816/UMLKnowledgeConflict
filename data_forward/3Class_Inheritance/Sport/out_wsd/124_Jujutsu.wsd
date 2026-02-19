@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- CombatSport
-CombatSport <|-- Jujutsu
+Sport <|-- CombatSport : inheritance
+CombatSport <|-- Jujutsu : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-DryVegetation ..> Drought
-Wildfire ..> DryVegetation
+DryVegetation ..> Drought : dependency
+Wildfire ..> DryVegetation : dependency
 @enduml

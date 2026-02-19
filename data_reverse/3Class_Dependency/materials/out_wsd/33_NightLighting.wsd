@@ -1,4 +1,4 @@
 @startuml
-CeilingLight ..> NightLighting
-Electricity ..> CeilingLight
+CeilingLight ..> NightLighting : dependency
+Electricity ..> CeilingLight : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Performer <|-- Comedian
-Comedian <|-- KevinHart
+Performer <|-- Comedian : inheritance
+Comedian <|-- KevinHart : inheritance
 @enduml

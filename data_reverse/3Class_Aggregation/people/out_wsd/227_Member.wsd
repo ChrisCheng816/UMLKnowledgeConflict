@@ -1,4 +1,4 @@
 @startuml
-Council o-- City
-Member o-- Council
+Council o-- City : aggregation
+Member o-- Council : aggregation
 @enduml

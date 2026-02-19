@@ -1,4 +1,4 @@
 @startuml
-ContainerShip <|-- Ship
-Ship <|-- Vehicle
+ContainerShip <|-- Ship : inheritance
+Ship <|-- Vehicle : inheritance
 @enduml

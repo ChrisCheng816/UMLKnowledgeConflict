@@ -1,3 +1,3 @@
 @startuml
-Wallet <|-- Accessory
+Wallet <|-- Accessory : inheritance
 @enduml

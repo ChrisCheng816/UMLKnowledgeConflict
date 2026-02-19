@@ -1,3 +1,3 @@
 @startuml
-Zipper *-- Tooth
+Zipper *-- Tooth : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Dashboard *-- Screen
+Dashboard *-- Screen : composition
 @enduml

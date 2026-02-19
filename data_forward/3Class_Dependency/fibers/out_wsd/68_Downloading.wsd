@@ -1,4 +1,4 @@
 @startuml
-Steam ..> Internet
-Downloading ..> Steam
+Steam ..> Internet : dependency
+Downloading ..> Steam : dependency
 @enduml

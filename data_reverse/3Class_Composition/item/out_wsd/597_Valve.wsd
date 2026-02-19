@@ -1,4 +1,4 @@
 @startuml
-Hose *-- BicyclePump
-Valve *-- Hose
+Hose *-- BicyclePump : composition
+Valve *-- Hose : composition
 @enduml

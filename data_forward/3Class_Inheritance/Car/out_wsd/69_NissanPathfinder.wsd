@@ -1,4 +1,4 @@
 @startuml
-SUV <|-- ThreeRowSUV
-ThreeRowSUV <|-- NissanPathfinder
+SUV <|-- ThreeRowSUV : inheritance
+ThreeRowSUV <|-- NissanPathfinder : inheritance
 @enduml

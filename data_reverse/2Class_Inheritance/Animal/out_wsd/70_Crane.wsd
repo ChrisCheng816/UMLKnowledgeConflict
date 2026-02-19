@@ -1,3 +1,3 @@
 @startuml
-Crane <|-- Bird
+Crane <|-- Bird : inheritance
 @enduml

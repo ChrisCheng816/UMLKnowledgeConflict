@@ -1,4 +1,4 @@
 @startuml
-SodaMaker ..> Operating
-Electricity ..> SodaMaker
+SodaMaker ..> Operating : dependency
+Electricity ..> SodaMaker : dependency
 @enduml

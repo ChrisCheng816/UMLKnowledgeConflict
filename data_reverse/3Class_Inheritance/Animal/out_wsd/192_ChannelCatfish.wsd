@@ -1,4 +1,4 @@
 @startuml
-ChannelCatfish <|-- Catfish
-Catfish <|-- Fish
+ChannelCatfish <|-- Catfish : inheritance
+Catfish <|-- Fish : inheritance
 @enduml

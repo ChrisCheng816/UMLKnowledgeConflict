@@ -1,3 +1,3 @@
 @startuml
-Enclosure o-- Rhino
+Enclosure o-- Rhino : aggregation
 @enduml

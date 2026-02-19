@@ -1,4 +1,4 @@
 @startuml
-Exhibit o-- Leopard
-Zoo o-- Exhibit
+Exhibit o-- Leopard : aggregation
+Zoo o-- Exhibit : aggregation
 @enduml

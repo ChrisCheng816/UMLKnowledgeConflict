@@ -1,3 +1,3 @@
 @startuml
-Staff o-- Guard
+Staff o-- Guard : aggregation
 @enduml

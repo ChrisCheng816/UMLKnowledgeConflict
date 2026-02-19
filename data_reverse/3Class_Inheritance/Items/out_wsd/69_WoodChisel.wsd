@@ -1,4 +1,4 @@
 @startuml
-WoodChisel <|-- Chisel
-Chisel <|-- Tool
+WoodChisel <|-- Chisel : inheritance
+Chisel <|-- Tool : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Camel
-Reserve o-- Enclosure
+Enclosure o-- Camel : aggregation
+Reserve o-- Enclosure : aggregation
 @enduml

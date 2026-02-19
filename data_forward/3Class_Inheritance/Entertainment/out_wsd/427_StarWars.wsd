@@ -1,4 +1,4 @@
 @startuml
-Film <|-- SciFiFilm
-SciFiFilm <|-- StarWars
+Film <|-- SciFiFilm : inheritance
+SciFiFilm <|-- StarWars : inheritance
 @enduml

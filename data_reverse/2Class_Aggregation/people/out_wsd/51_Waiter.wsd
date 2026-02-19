@@ -1,3 +1,3 @@
 @startuml
-Waiter o-- Team
+Waiter o-- Team : aggregation
 @enduml

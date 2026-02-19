@@ -1,3 +1,3 @@
 @startuml
-Battery *-- Casing
+Battery *-- Casing : composition
 @enduml

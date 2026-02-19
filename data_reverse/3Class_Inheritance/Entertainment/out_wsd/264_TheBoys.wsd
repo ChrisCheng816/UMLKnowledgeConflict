@@ -1,4 +1,4 @@
 @startuml
-TheBoys <|-- TVSeries
-TVSeries <|-- Entertainment
+TheBoys <|-- TVSeries : inheritance
+TVSeries <|-- Entertainment : inheritance
 @enduml

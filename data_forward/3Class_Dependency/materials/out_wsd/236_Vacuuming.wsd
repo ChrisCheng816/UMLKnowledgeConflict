@@ -1,4 +1,4 @@
 @startuml
-RobotVacuum ..> Electricity
-Vacuuming ..> RobotVacuum
+RobotVacuum ..> Electricity : dependency
+Vacuuming ..> RobotVacuum : dependency
 @enduml

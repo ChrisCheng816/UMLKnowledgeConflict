@@ -1,3 +1,3 @@
 @startuml
-ElectricGrill ..> Grilling
+ElectricGrill ..> Grilling : dependency
 @enduml

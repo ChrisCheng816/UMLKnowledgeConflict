@@ -1,3 +1,3 @@
 @startuml
-Queue o-- Song
+Queue o-- Song : aggregation
 @enduml

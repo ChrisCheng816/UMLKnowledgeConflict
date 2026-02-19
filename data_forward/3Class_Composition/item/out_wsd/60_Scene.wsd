@@ -1,4 +1,4 @@
 @startuml
-Chapter *-- Scene
-Novel *-- Chapter
+Chapter *-- Scene : composition
+Novel *-- Chapter : composition
 @enduml

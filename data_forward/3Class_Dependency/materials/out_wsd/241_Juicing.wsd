@@ -1,4 +1,4 @@
 @startuml
-Juicer ..> Electricity
-Juicing ..> Juicer
+Juicer ..> Electricity : dependency
+Juicing ..> Juicer : dependency
 @enduml

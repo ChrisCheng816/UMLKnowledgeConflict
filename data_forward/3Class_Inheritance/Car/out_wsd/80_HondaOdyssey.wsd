@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Minivan
-Minivan <|-- HondaOdyssey
+Vehicle <|-- Minivan : inheritance
+Minivan <|-- HondaOdyssey : inheritance
 @enduml

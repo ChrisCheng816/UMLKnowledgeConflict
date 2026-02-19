@@ -1,3 +1,3 @@
 @startuml
-Hanger o-- Jacket
+Hanger o-- Jacket : aggregation
 @enduml

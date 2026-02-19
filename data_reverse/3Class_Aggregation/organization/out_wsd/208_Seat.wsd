@@ -1,4 +1,4 @@
 @startuml
-Section o-- Stadium
-Seat o-- Section
+Section o-- Stadium : aggregation
+Seat o-- Section : aggregation
 @enduml

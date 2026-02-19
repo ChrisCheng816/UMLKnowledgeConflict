@@ -1,4 +1,4 @@
 @startuml
-Eggs ..> Omelet
-Chicken ..> Eggs
+Eggs ..> Omelet : dependency
+Chicken ..> Eggs : dependency
 @enduml

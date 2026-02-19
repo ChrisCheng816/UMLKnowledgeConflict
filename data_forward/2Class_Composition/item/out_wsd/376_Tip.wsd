@@ -1,3 +1,3 @@
 @startuml
-Antenna *-- Tip
+Antenna *-- Tip : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Slice *-- Filling
-Pie *-- Slice
+Slice *-- Filling : composition
+Pie *-- Slice : composition
 @enduml

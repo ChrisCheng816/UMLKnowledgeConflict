@@ -1,4 +1,4 @@
 @startuml
-Item <|-- MedicalKit
-MedicalKit <|-- FirstAidKit
+Item <|-- MedicalKit : inheritance
+MedicalKit <|-- FirstAidKit : inheritance
 @enduml

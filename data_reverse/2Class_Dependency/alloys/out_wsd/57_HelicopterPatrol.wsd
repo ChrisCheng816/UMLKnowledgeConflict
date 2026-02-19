@@ -1,3 +1,3 @@
 @startuml
-Helicopter ..> HelicopterPatrol
+Helicopter ..> HelicopterPatrol : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Squad o-- Medic
+Squad o-- Medic : aggregation
 @enduml

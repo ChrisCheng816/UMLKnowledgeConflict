@@ -1,3 +1,3 @@
 @startuml
-Accountant o-- Department
+Accountant o-- Department : aggregation
 @enduml

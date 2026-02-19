@@ -1,4 +1,4 @@
 @startuml
-Melody *-- Note
-Song *-- Melody
+Melody *-- Note : composition
+Song *-- Melody : composition
 @enduml

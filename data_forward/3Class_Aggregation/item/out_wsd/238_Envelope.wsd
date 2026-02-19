@@ -1,4 +1,4 @@
 @startuml
-Folder o-- Envelope
-Office o-- Folder
+Folder o-- Envelope : aggregation
+Office o-- Folder : aggregation
 @enduml

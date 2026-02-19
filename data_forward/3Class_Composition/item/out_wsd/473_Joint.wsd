@@ -1,4 +1,4 @@
 @startuml
-Frame *-- Joint
-Mirror *-- Frame
+Frame *-- Joint : composition
+Mirror *-- Frame : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Deck *-- Porch
+Deck *-- Porch : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Backpack <|-- Bag
+Backpack <|-- Bag : inheritance
 @enduml

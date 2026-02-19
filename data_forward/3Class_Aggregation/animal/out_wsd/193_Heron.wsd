@@ -1,4 +1,4 @@
 @startuml
-Flock o-- Heron
-Sanctuary o-- Flock
+Flock o-- Heron : aggregation
+Sanctuary o-- Flock : aggregation
 @enduml

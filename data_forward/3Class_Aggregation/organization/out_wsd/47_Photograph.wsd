@@ -1,4 +1,4 @@
 @startuml
-Collection o-- Photograph
-PhotoAlbum o-- Collection
+Collection o-- Photograph : aggregation
+PhotoAlbum o-- Collection : aggregation
 @enduml

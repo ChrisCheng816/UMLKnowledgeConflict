@@ -1,4 +1,4 @@
 @startuml
-FIFA23 <|-- VideoGame
-VideoGame <|-- Game
+FIFA23 <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

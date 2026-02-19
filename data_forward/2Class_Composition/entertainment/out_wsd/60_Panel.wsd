@@ -1,3 +1,3 @@
 @startuml
-Page *-- Panel
+Page *-- Panel : composition
 @enduml

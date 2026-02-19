@@ -1,4 +1,4 @@
 @startuml
-Cookware <|-- Pot
-Pot <|-- Stockpot
+Cookware <|-- Pot : inheritance
+Pot <|-- Stockpot : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Family o-- Child
-Household o-- Family
+Family o-- Child : aggregation
+Household o-- Family : aggregation
 @enduml

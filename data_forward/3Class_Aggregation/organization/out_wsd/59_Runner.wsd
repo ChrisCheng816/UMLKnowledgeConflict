@@ -1,4 +1,4 @@
 @startuml
-Team o-- Runner
-SportsClub o-- Team
+Team o-- Runner : aggregation
+SportsClub o-- Team : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-NetworkingDevice <|-- Router
-Router <|-- WiFiRouter
+NetworkingDevice <|-- Router : inheritance
+Router <|-- WiFiRouter : inheritance
 @enduml

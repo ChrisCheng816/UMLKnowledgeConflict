@@ -1,4 +1,4 @@
 @startuml
-PowerTool <|-- Saw
-Saw <|-- Jigsaw
+PowerTool <|-- Saw : inheritance
+Saw <|-- Jigsaw : inheritance
 @enduml

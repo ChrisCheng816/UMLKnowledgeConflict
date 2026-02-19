@@ -1,3 +1,3 @@
 @startuml
-Turntable *-- Shaft
+Turntable *-- Shaft : composition
 @enduml

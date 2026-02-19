@@ -1,4 +1,4 @@
 @startuml
-CardiffUniversity <|-- University
-University <|-- EducationalInstitution
+CardiffUniversity <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Section o-- Dish
-Menu o-- Section
+Section o-- Dish : aggregation
+Menu o-- Section : aggregation
 @enduml

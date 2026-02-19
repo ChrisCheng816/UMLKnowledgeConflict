@@ -1,4 +1,4 @@
 @startuml
-Drinkware <|-- Glass
-Glass <|-- WineGlass
+Drinkware <|-- Glass : inheritance
+Glass <|-- WineGlass : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Microphone ..> Recording
-Electricity ..> Microphone
+Microphone ..> Recording : dependency
+Electricity ..> Microphone : dependency
 @enduml

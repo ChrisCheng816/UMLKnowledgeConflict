@@ -1,4 +1,4 @@
 @startuml
-FishingLine ..> Fishing
-Nylon ..> FishingLine
+FishingLine ..> Fishing : dependency
+Nylon ..> FishingLine : dependency
 @enduml

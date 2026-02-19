@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Succulent
-Succulent <|-- Sedum
+Plant <|-- Succulent : inheritance
+Succulent <|-- Sedum : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Gecko
-Reserve o-- Enclosure
+Enclosure o-- Gecko : aggregation
+Reserve o-- Enclosure : aggregation
 @enduml

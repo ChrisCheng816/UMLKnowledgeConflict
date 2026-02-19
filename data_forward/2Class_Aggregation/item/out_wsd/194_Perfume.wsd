@@ -1,3 +1,3 @@
 @startuml
-Cabinet o-- Perfume
+Cabinet o-- Perfume : aggregation
 @enduml

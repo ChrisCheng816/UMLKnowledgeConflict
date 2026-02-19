@@ -1,3 +1,3 @@
 @startuml
-GlassPane *-- Window
+GlassPane *-- Window : composition
 @enduml

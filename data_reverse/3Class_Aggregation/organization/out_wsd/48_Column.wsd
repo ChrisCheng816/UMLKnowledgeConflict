@@ -1,4 +1,4 @@
 @startuml
-Archive o-- Newspaper
-Column o-- Archive
+Archive o-- Newspaper : aggregation
+Column o-- Archive : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-HighHumidity ..> Fog
-CoolAir ..> HighHumidity
+HighHumidity ..> Fog : dependency
+CoolAir ..> HighHumidity : dependency
 @enduml

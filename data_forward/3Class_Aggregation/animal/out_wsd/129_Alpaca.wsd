@@ -1,4 +1,4 @@
 @startuml
-Pen o-- Alpaca
-Sanctuary o-- Pen
+Pen o-- Alpaca : aggregation
+Sanctuary o-- Pen : aggregation
 @enduml

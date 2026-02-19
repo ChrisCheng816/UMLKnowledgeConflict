@@ -1,4 +1,4 @@
 @startuml
-Audience o-- Spectator
-Museum o-- Audience
+Audience o-- Spectator : aggregation
+Museum o-- Audience : aggregation
 @enduml

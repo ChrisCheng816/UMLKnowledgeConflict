@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Patch
-Pharmacy o-- Cabinet
+Cabinet o-- Patch : aggregation
+Pharmacy o-- Cabinet : aggregation
 @enduml

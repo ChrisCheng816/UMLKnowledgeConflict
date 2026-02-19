@@ -1,4 +1,4 @@
 @startuml
-LowRainfall ..> Drought
-WeatherPattern ..> LowRainfall
+LowRainfall ..> Drought : dependency
+WeatherPattern ..> LowRainfall : dependency
 @enduml

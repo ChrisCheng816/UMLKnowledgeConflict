@@ -1,4 +1,4 @@
 @startuml
-HotGlueGun ..> Decorating
-Electricity ..> HotGlueGun
+HotGlueGun ..> Decorating : dependency
+Electricity ..> HotGlueGun : dependency
 @enduml

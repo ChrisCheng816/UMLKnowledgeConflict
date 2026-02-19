@@ -1,3 +1,3 @@
 @startuml
-Floor *-- Subfloor
+Floor *-- Subfloor : composition
 @enduml

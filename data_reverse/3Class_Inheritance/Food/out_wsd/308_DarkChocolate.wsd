@@ -1,4 +1,4 @@
 @startuml
-DarkChocolate <|-- Chocolate
-Chocolate <|-- Confectionery
+DarkChocolate <|-- Chocolate : inheritance
+Chocolate <|-- Confectionery : inheritance
 @enduml

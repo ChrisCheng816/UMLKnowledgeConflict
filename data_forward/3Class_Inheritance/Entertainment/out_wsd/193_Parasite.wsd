@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- Parasite
+Entertainment <|-- Film : inheritance
+Film <|-- Parasite : inheritance
 @enduml

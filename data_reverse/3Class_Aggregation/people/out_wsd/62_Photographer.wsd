@@ -1,4 +1,4 @@
 @startuml
-Team o-- Newsroom
-Photographer o-- Team
+Team o-- Newsroom : aggregation
+Photographer o-- Team : aggregation
 @enduml

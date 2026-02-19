@@ -1,4 +1,4 @@
 @startuml
-Salmon ..> SalmonSushi
-Ocean ..> Salmon
+Salmon ..> SalmonSushi : dependency
+Ocean ..> Salmon : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Drum *-- Bearing
-Washer *-- Drum
+Drum *-- Bearing : composition
+Washer *-- Drum : composition
 @enduml

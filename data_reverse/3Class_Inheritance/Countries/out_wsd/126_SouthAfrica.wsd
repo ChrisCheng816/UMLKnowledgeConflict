@@ -1,4 +1,4 @@
 @startuml
-SouthAfrica <|-- AfricanCountry
-AfricanCountry <|-- Country
+SouthAfrica <|-- AfricanCountry : inheritance
+AfricanCountry <|-- Country : inheritance
 @enduml

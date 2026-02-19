@@ -1,4 +1,4 @@
 @startuml
-Rice ..> Water
-Sushi ..> Rice
+Rice ..> Water : dependency
+Sushi ..> Rice : dependency
 @enduml

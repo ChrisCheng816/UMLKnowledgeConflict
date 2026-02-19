@@ -1,3 +1,3 @@
 @startuml
-Speaker *-- Grille
+Speaker *-- Grille : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Port *-- Connector
-Laptop *-- Port
+Port *-- Connector : composition
+Laptop *-- Port : composition
 @enduml

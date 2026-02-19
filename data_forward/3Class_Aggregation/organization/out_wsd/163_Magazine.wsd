@@ -1,4 +1,4 @@
 @startuml
-Collection o-- Magazine
-Publisher o-- Collection
+Collection o-- Magazine : aggregation
+Publisher o-- Collection : aggregation
 @enduml

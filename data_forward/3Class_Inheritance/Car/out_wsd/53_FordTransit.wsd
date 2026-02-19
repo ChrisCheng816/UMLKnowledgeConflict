@@ -1,4 +1,4 @@
 @startuml
-Van <|-- CargoVan
-CargoVan <|-- FordTransit
+Van <|-- CargoVan : inheritance
+CargoVan <|-- FordTransit : inheritance
 @enduml

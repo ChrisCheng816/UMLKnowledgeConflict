@@ -1,4 +1,4 @@
 @startuml
-Rosemary ..> RosemaryPlant
-RosemarySeasoning ..> Rosemary
+Rosemary ..> RosemaryPlant : dependency
+RosemarySeasoning ..> Rosemary : dependency
 @enduml

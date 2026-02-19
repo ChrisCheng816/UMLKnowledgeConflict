@@ -1,4 +1,4 @@
 @startuml
-Key *-- Piano
-Felt *-- Key
+Key *-- Piano : composition
+Felt *-- Key : composition
 @enduml

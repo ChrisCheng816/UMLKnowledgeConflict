@@ -1,4 +1,4 @@
 @startuml
-Macadamias ..> MacadamiaTree
-MacadamiasCookies ..> Macadamias
+Macadamias ..> MacadamiaTree : dependency
+MacadamiasCookies ..> Macadamias : dependency
 @enduml

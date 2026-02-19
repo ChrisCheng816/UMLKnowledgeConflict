@@ -1,3 +1,3 @@
 @startuml
-Staff o-- Electrician
+Staff o-- Electrician : aggregation
 @enduml

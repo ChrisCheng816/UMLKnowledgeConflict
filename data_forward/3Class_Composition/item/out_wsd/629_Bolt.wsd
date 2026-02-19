@@ -1,4 +1,4 @@
 @startuml
-Handle *-- Bolt
-Suitcase *-- Handle
+Handle *-- Bolt : composition
+Suitcase *-- Handle : composition
 @enduml

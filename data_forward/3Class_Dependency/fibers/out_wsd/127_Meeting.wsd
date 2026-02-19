@@ -1,4 +1,4 @@
 @startuml
-Skype ..> Internet
-Meeting ..> Skype
+Skype ..> Internet : dependency
+Meeting ..> Skype : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Succulent <|-- Aloe
-Aloe <|-- AloeVera
+Succulent <|-- Aloe : inheritance
+Aloe <|-- AloeVera : inheritance
 @enduml

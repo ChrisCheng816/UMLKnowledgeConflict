@@ -1,4 +1,4 @@
 @startuml
-CabinCrew o-- FlightAttendant
-Airline o-- CabinCrew
+CabinCrew o-- FlightAttendant : aggregation
+Airline o-- CabinCrew : aggregation
 @enduml

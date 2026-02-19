@@ -1,4 +1,4 @@
 @startuml
-BabySpinach <|-- Spinach
-Spinach <|-- Vegetable
+BabySpinach <|-- Spinach : inheritance
+Spinach <|-- Vegetable : inheritance
 @enduml

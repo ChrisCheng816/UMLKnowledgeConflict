@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Hospital
-Paramedic o-- Staff
+Staff o-- Hospital : aggregation
+Paramedic o-- Staff : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BanarasHinduUniversity <|-- University
-University <|-- EducationalInstitution
+BanarasHinduUniversity <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PaintSprayer ..> SprayPainting
-CompressedAir ..> PaintSprayer
+PaintSprayer ..> SprayPainting : dependency
+CompressedAir ..> PaintSprayer : dependency
 @enduml

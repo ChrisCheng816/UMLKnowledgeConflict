@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Rice
-GroceryStore o-- Shelf
+Shelf o-- Rice : aggregation
+GroceryStore o-- Shelf : aggregation
 @enduml

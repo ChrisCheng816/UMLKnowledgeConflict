@@ -1,4 +1,4 @@
 @startuml
-RedOnion <|-- Onion
-Onion <|-- Vegetable
+RedOnion <|-- Onion : inheritance
+Onion <|-- Vegetable : inheritance
 @enduml

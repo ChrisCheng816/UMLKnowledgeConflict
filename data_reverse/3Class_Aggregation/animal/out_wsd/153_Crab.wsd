@@ -1,4 +1,4 @@
 @startuml
-Aquarium o-- PetStore
-Crab o-- Aquarium
+Aquarium o-- PetStore : aggregation
+Crab o-- Aquarium : aggregation
 @enduml

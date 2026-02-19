@@ -1,3 +1,3 @@
 @startuml
-Screws o-- Toolbox
+Screws o-- Toolbox : aggregation
 @enduml

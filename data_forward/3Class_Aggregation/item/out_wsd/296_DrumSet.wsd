@@ -1,4 +1,4 @@
 @startuml
-InstrumentRack o-- DrumSet
-MusicStore o-- InstrumentRack
+InstrumentRack o-- DrumSet : aggregation
+MusicStore o-- InstrumentRack : aggregation
 @enduml

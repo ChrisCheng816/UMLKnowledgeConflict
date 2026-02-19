@@ -1,3 +1,3 @@
 @startuml
-Turntable *-- Hub
+Turntable *-- Hub : composition
 @enduml

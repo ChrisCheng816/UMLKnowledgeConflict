@@ -1,4 +1,4 @@
 @startuml
-Smartwatch ..> TextMessaging
-CellularNetwork ..> Smartwatch
+Smartwatch ..> TextMessaging : dependency
+CellularNetwork ..> Smartwatch : dependency
 @enduml

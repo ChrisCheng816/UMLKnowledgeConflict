@@ -1,4 +1,4 @@
 @startuml
-Basil <|-- Herb
-Herb <|-- Seasoning
+Basil <|-- Herb : inheritance
+Herb <|-- Seasoning : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Exhibit o-- Giraffe
-Zoo o-- Exhibit
+Exhibit o-- Giraffe : aggregation
+Zoo o-- Exhibit : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Aquifer ..> Rain
-TapWater ..> Aquifer
+Aquifer ..> Rain : dependency
+TapWater ..> Aquifer : dependency
 @enduml

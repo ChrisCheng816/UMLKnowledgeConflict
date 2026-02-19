@@ -1,4 +1,4 @@
 @startuml
-Film <|-- RomanceFilm
-RomanceFilm <|-- Titanic
+Film <|-- RomanceFilm : inheritance
+RomanceFilm <|-- Titanic : inheritance
 @enduml

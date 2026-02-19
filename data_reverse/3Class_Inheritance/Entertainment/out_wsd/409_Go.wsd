@@ -1,4 +1,4 @@
 @startuml
-Go <|-- BoardGame
-BoardGame <|-- Game
+Go <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

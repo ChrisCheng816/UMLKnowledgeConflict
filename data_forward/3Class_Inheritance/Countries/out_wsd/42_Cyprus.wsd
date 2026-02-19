@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Cyprus
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Cyprus : inheritance
 @enduml

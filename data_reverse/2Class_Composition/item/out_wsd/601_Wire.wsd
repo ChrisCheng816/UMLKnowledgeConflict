@@ -1,3 +1,3 @@
 @startuml
-Wire *-- Cable
+Wire *-- Cable : composition
 @enduml

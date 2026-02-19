@@ -1,3 +1,3 @@
 @startuml
-Breaker *-- ElectricalSystem
+Breaker *-- ElectricalSystem : composition
 @enduml

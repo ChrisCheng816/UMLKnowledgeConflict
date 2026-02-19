@@ -1,4 +1,4 @@
 @startuml
-Page *-- Article
-Newspaper *-- Page
+Page *-- Article : composition
+Newspaper *-- Page : composition
 @enduml

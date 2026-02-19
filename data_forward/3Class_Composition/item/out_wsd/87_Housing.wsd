@@ -1,4 +1,4 @@
 @startuml
-Motor *-- Housing
-Vacuum *-- Motor
+Motor *-- Housing : composition
+Vacuum *-- Motor : composition
 @enduml

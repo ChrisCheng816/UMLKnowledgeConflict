@@ -1,4 +1,4 @@
 @startuml
-Tray o-- Cake
-Bakery o-- Tray
+Tray o-- Cake : aggregation
+Bakery o-- Tray : aggregation
 @enduml

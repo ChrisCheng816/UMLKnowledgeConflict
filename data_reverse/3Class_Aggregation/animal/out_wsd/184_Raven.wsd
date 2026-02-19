@@ -1,4 +1,4 @@
 @startuml
-Habitat o-- Aviary
-Raven o-- Habitat
+Habitat o-- Aviary : aggregation
+Raven o-- Habitat : aggregation
 @enduml

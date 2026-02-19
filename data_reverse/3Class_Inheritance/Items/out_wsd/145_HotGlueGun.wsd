@@ -1,4 +1,4 @@
 @startuml
-HotGlueGun <|-- GlueGun
-GlueGun <|-- Tool
+HotGlueGun <|-- GlueGun : inheritance
+GlueGun <|-- Tool : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Electronics <|-- Phone
-Phone <|-- Smartphone
+Electronics <|-- Phone : inheritance
+Phone <|-- Smartphone : inheritance
 @enduml

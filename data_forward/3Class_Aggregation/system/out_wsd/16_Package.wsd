@@ -1,4 +1,4 @@
 @startuml
-Depot o-- Package
-PostalSystem o-- Depot
+Depot o-- Package : aggregation
+PostalSystem o-- Depot : aggregation
 @enduml

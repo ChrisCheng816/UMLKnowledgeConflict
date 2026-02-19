@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Papaya
-Papaya <|-- SoloPapaya
+Fruit <|-- Papaya : inheritance
+Papaya <|-- SoloPapaya : inheritance
 @enduml

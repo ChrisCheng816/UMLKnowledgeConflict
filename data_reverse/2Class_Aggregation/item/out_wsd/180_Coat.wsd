@@ -1,3 +1,3 @@
 @startuml
-Coat o-- Hanger
+Coat o-- Hanger : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Gallery o-- Sculpture
+Gallery o-- Sculpture : aggregation
 @enduml

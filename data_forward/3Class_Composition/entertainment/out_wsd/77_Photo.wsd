@@ -1,4 +1,4 @@
 @startuml
-Cover *-- Photo
-Magazine *-- Cover
+Cover *-- Photo : composition
+Magazine *-- Cover : composition
 @enduml

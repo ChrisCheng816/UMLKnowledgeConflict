@@ -1,4 +1,4 @@
 @startuml
-ElectricToothbrush ..> GumCare
-Electricity ..> ElectricToothbrush
+ElectricToothbrush ..> GumCare : dependency
+Electricity ..> ElectricToothbrush : dependency
 @enduml

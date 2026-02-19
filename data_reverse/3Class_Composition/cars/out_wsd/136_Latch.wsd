@@ -1,4 +1,4 @@
 @startuml
-Glovebox *-- Car
-Latch *-- Glovebox
+Glovebox *-- Car : composition
+Latch *-- Glovebox : composition
 @enduml

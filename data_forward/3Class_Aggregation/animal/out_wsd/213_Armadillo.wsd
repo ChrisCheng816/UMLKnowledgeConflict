@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Armadillo
-Zoo o-- Enclosure
+Enclosure o-- Armadillo : aggregation
+Zoo o-- Enclosure : aggregation
 @enduml

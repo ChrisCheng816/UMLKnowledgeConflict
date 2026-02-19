@@ -1,4 +1,4 @@
 @startuml
-Fleet o-- Shuttle
-City o-- Fleet
+Fleet o-- Shuttle : aggregation
+City o-- Fleet : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- TheBigLebowski
+Entertainment <|-- Film : inheritance
+Film <|-- TheBigLebowski : inheritance
 @enduml

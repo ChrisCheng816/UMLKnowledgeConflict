@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Radius
-Bird *-- Wing
+Wing *-- Radius : composition
+Bird *-- Wing : composition
 @enduml

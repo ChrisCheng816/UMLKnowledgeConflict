@@ -1,4 +1,4 @@
 @startuml
-MarieCurie <|-- Chemist
-Chemist <|-- Scientist
+MarieCurie <|-- Chemist : inheritance
+Chemist <|-- Scientist : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Vine *-- Flower
-Pumpkin *-- Vine
+Vine *-- Flower : composition
+Pumpkin *-- Vine : composition
 @enduml

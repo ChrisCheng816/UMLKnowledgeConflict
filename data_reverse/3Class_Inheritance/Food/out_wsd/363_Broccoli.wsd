@@ -1,4 +1,4 @@
 @startuml
-Broccoli <|-- CruciferousVegetable
-CruciferousVegetable <|-- Vegetable
+Broccoli <|-- CruciferousVegetable : inheritance
+CruciferousVegetable <|-- Vegetable : inheritance
 @enduml

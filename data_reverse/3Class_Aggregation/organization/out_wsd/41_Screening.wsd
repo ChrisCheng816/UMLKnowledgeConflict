@@ -1,4 +1,4 @@
 @startuml
-Schedule o-- FilmFestival
-Screening o-- Schedule
+Schedule o-- FilmFestival : aggregation
+Screening o-- Schedule : aggregation
 @enduml

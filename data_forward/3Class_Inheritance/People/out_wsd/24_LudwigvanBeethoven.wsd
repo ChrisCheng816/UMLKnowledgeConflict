@@ -1,4 +1,4 @@
 @startuml
-Musician <|-- Composer
-Composer <|-- LudwigvanBeethoven
+Musician <|-- Composer : inheritance
+Composer <|-- LudwigvanBeethoven : inheritance
 @enduml

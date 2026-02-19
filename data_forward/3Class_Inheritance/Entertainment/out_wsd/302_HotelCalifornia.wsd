@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Song
-Song <|-- HotelCalifornia
+MusicWork <|-- Song : inheritance
+Song <|-- HotelCalifornia : inheritance
 @enduml

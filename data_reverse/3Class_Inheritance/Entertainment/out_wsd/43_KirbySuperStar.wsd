@@ -1,4 +1,4 @@
 @startuml
-KirbySuperStar <|-- VideoGame
-VideoGame <|-- Game
+KirbySuperStar <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

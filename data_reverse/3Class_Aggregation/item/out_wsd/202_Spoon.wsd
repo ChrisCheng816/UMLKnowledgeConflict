@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Kitchen
-Spoon o-- Cabinet
+Cabinet o-- Kitchen : aggregation
+Spoon o-- Cabinet : aggregation
 @enduml

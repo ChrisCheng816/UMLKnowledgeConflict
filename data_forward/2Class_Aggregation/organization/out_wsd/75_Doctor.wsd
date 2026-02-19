@@ -1,3 +1,3 @@
 @startuml
-Staff o-- Doctor
+Staff o-- Doctor : aggregation
 @enduml

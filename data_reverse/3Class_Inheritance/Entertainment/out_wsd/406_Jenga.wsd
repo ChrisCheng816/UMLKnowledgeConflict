@@ -1,4 +1,4 @@
 @startuml
-Jenga <|-- BoardGame
-BoardGame <|-- Game
+Jenga <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

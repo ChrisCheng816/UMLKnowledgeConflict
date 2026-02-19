@@ -1,3 +1,3 @@
 @startuml
-ExerciseMachine <|-- Treadmill
+ExerciseMachine <|-- Treadmill : inheritance
 @enduml

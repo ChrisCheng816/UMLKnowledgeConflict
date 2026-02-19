@@ -1,4 +1,4 @@
 @startuml
-Defibrillator ..> Battery
-EmergencyDefibrillation ..> Defibrillator
+Defibrillator ..> Battery : dependency
+EmergencyDefibrillation ..> Defibrillator : dependency
 @enduml

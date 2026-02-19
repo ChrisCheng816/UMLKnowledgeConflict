@@ -1,4 +1,4 @@
 @startuml
-Upholstery *-- Padding
-Chair *-- Upholstery
+Upholstery *-- Padding : composition
+Chair *-- Upholstery : composition
 @enduml

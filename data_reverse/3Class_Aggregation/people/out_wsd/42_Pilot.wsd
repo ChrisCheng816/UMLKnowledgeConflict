@@ -1,4 +1,4 @@
 @startuml
-Crew o-- Airline
-Pilot o-- Crew
+Crew o-- Airline : aggregation
+Pilot o-- Crew : aggregation
 @enduml

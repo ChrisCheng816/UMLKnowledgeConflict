@@ -1,4 +1,4 @@
 @startuml
-Band o-- School
-Bassist o-- Band
+Band o-- School : aggregation
+Bassist o-- Band : aggregation
 @enduml

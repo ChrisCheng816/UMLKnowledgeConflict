@@ -1,4 +1,4 @@
 @startuml
-Telegram ..> Internet
-Chatting ..> Telegram
+Telegram ..> Internet : dependency
+Chatting ..> Telegram : dependency
 @enduml

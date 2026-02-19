@@ -1,4 +1,4 @@
 @startuml
-Durian <|-- TropicalFruit
-TropicalFruit <|-- Fruit
+Durian <|-- TropicalFruit : inheritance
+TropicalFruit <|-- Fruit : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Shell *-- Eye
-Coconut *-- Shell
+Shell *-- Eye : composition
+Coconut *-- Shell : composition
 @enduml

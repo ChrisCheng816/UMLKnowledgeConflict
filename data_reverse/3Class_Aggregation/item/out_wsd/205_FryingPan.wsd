@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Kitchen
-FryingPan o-- Cabinet
+Cabinet o-- Kitchen : aggregation
+FryingPan o-- Cabinet : aggregation
 @enduml

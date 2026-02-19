@@ -1,4 +1,4 @@
 @startuml
-LakeMichigan <|-- Lake
-Lake <|-- GeographicFeature
+LakeMichigan <|-- Lake : inheritance
+Lake <|-- GeographicFeature : inheritance
 @enduml

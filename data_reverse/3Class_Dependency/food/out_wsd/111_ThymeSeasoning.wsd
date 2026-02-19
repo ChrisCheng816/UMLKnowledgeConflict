@@ -1,4 +1,4 @@
 @startuml
-Thyme ..> ThymeSeasoning
-ThymePlant ..> Thyme
+Thyme ..> ThymeSeasoning : dependency
+ThymePlant ..> Thyme : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Latex ..> RubberTree
-LatexGloves ..> Latex
+Latex ..> RubberTree : dependency
+LatexGloves ..> Latex : dependency
 @enduml

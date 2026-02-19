@@ -1,4 +1,4 @@
 @startuml
-Plate o-- Sausage
-Restaurant o-- Plate
+Plate o-- Sausage : aggregation
+Restaurant o-- Plate : aggregation
 @enduml

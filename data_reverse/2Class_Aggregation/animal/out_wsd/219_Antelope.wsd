@@ -1,3 +1,3 @@
 @startuml
-Antelope o-- Herd
+Antelope o-- Herd : aggregation
 @enduml

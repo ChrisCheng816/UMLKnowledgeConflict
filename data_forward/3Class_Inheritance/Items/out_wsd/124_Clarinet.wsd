@@ -1,4 +1,4 @@
 @startuml
-Instrument <|-- WoodwindInstrument
-WoodwindInstrument <|-- Clarinet
+Instrument <|-- WoodwindInstrument : inheritance
+WoodwindInstrument <|-- Clarinet : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Editorial o-- Magazine
-Writer o-- Editorial
+Editorial o-- Magazine : aggregation
+Writer o-- Editorial : aggregation
 @enduml

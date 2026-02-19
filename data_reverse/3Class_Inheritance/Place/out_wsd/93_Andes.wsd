@@ -1,4 +1,4 @@
 @startuml
-Andes <|-- MountainRange
-MountainRange <|-- GeographicFeature
+Andes <|-- MountainRange : inheritance
+MountainRange <|-- GeographicFeature : inheritance
 @enduml

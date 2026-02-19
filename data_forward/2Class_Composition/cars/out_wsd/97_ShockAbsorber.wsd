@@ -1,3 +1,3 @@
 @startuml
-Suspension *-- ShockAbsorber
+Suspension *-- ShockAbsorber : composition
 @enduml

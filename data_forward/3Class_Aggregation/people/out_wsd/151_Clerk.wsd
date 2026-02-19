@@ -1,4 +1,4 @@
 @startuml
-Department o-- Clerk
-Factory o-- Department
+Department o-- Clerk : aggregation
+Factory o-- Department : aggregation
 @enduml

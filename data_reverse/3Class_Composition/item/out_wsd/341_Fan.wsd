@@ -1,4 +1,4 @@
 @startuml
-PowerSupply *-- Desktop
-Fan *-- PowerSupply
+PowerSupply *-- Desktop : composition
+Fan *-- PowerSupply : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Folder o-- Resume
+Folder o-- Resume : aggregation
 @enduml

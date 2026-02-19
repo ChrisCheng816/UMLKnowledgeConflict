@@ -1,3 +1,3 @@
 @startuml
-Trustee o-- Board
+Trustee o-- Board : aggregation
 @enduml

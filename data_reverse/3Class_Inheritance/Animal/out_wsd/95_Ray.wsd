@@ -1,4 +1,4 @@
 @startuml
-Ray <|-- Fish
-Fish <|-- Animal
+Ray <|-- Fish : inheritance
+Fish <|-- Animal : inheritance
 @enduml

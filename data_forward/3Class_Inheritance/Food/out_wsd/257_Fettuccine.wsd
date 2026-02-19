@@ -1,4 +1,4 @@
 @startuml
-Food <|-- PastaDish
-PastaDish <|-- Fettuccine
+Food <|-- PastaDish : inheritance
+PastaDish <|-- Fettuccine : inheritance
 @enduml

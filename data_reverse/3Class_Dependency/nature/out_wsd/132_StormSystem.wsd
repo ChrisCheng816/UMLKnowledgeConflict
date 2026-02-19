@@ -1,4 +1,4 @@
 @startuml
-PressureDifference ..> StormSystem
-TemperatureContrast ..> PressureDifference
+PressureDifference ..> StormSystem : dependency
+TemperatureContrast ..> PressureDifference : dependency
 @enduml

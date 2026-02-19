@@ -1,4 +1,4 @@
 @startuml
-Rocky <|-- SportsFilm
-SportsFilm <|-- Film
+Rocky <|-- SportsFilm : inheritance
+SportsFilm <|-- Film : inheritance
 @enduml

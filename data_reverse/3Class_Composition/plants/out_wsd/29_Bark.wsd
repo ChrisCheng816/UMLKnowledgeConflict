@@ -1,4 +1,4 @@
 @startuml
-Trunk *-- Pine
-Bark *-- Trunk
+Trunk *-- Pine : composition
+Bark *-- Trunk : composition
 @enduml

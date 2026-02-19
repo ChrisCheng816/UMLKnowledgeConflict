@@ -1,4 +1,4 @@
 @startuml
-Router ..> Networking
-Electricity ..> Router
+Router ..> Networking : dependency
+Electricity ..> Router : dependency
 @enduml

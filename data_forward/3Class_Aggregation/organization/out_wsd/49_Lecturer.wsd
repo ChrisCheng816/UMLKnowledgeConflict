@@ -1,4 +1,4 @@
 @startuml
-Department o-- Lecturer
-University o-- Department
+Department o-- Lecturer : aggregation
+University o-- Department : aggregation
 @enduml

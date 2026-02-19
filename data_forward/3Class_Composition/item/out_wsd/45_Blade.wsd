@@ -1,4 +1,4 @@
 @startuml
-Fan *-- Blade
-Computer *-- Fan
+Fan *-- Blade : composition
+Computer *-- Fan : composition
 @enduml

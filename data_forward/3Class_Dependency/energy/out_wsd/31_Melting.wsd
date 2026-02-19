@@ -1,4 +1,4 @@
 @startuml
-ElectricHotPlate ..> Electricity
-Melting ..> ElectricHotPlate
+ElectricHotPlate ..> Electricity : dependency
+Melting ..> ElectricHotPlate : dependency
 @enduml

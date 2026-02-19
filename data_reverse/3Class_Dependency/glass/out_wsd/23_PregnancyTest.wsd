@@ -1,4 +1,4 @@
 @startuml
-TestStrip ..> PregnancyTest
-Reagent ..> TestStrip
+TestStrip ..> PregnancyTest : dependency
+Reagent ..> TestStrip : dependency
 @enduml

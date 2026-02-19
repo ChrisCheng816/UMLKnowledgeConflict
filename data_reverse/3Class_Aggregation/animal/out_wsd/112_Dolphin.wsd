@@ -1,4 +1,4 @@
 @startuml
-Tank o-- Aquarium
-Dolphin o-- Tank
+Tank o-- Aquarium : aggregation
+Dolphin o-- Tank : aggregation
 @enduml

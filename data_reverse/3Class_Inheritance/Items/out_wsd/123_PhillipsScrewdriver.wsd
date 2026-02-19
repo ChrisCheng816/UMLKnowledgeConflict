@@ -1,4 +1,4 @@
 @startuml
-PhillipsScrewdriver <|-- Screwdriver
-Screwdriver <|-- Tool
+PhillipsScrewdriver <|-- Screwdriver : inheritance
+Screwdriver <|-- Tool : inheritance
 @enduml

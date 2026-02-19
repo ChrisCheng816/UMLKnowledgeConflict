@@ -1,3 +1,3 @@
 @startuml
-Wire *-- ElectricalSystem
+Wire *-- ElectricalSystem : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-UniversityOfTubingen <|-- University
-University <|-- EducationalInstitution
+UniversityOfTubingen <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

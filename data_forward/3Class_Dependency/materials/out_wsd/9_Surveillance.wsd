@@ -1,4 +1,4 @@
 @startuml
-AlarmSystem ..> Electricity
-Surveillance ..> AlarmSystem
+AlarmSystem ..> Electricity : dependency
+Surveillance ..> AlarmSystem : dependency
 @enduml

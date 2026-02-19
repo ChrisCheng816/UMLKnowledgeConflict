@@ -1,4 +1,4 @@
 @startuml
-OlympicArchery <|-- Archery
-Archery <|-- Sport
+OlympicArchery <|-- Archery : inheritance
+Archery <|-- Sport : inheritance
 @enduml

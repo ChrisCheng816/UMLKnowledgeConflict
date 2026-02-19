@@ -1,4 +1,4 @@
 @startuml
-Board o-- Bank
-Chair o-- Board
+Board o-- Bank : aggregation
+Chair o-- Board : aggregation
 @enduml

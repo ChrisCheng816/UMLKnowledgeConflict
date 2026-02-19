@@ -1,4 +1,4 @@
 @startuml
-Port *-- Spring
-Laptop *-- Port
+Port *-- Spring : composition
+Laptop *-- Port : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Maple
-Maple <|-- SugarMaple
+Plant <|-- Maple : inheritance
+Maple <|-- SugarMaple : inheritance
 @enduml

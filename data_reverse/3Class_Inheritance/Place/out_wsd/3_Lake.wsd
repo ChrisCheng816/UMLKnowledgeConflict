@@ -1,4 +1,4 @@
 @startuml
-Lake <|-- GeographicFeature
-GeographicFeature <|-- Location
+Lake <|-- GeographicFeature : inheritance
+GeographicFeature <|-- Location : inheritance
 @enduml

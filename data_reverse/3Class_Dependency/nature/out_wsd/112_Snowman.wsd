@@ -1,4 +1,4 @@
 @startuml
-Snow ..> Snowman
-ColdAir ..> Snow
+Snow ..> Snowman : dependency
+ColdAir ..> Snow : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Cabinet o-- CuttingBoard
+Cabinet o-- CuttingBoard : aggregation
 @enduml

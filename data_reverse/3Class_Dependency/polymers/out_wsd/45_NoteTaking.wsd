@@ -1,4 +1,4 @@
 @startuml
-Notebook ..> NoteTaking
-Paper ..> Notebook
+Notebook ..> NoteTaking : dependency
+Paper ..> Notebook : dependency
 @enduml

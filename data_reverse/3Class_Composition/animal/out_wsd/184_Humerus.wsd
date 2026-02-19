@@ -1,4 +1,4 @@
 @startuml
-Arm *-- Person
-Humerus *-- Arm
+Arm *-- Person : composition
+Humerus *-- Arm : composition
 @enduml

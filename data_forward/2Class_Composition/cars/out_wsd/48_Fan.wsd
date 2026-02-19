@@ -1,3 +1,3 @@
 @startuml
-Radiator *-- Fan
+Radiator *-- Fan : composition
 @enduml

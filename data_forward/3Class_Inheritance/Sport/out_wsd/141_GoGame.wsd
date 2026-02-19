@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MindSport
-MindSport <|-- GoGame
+Sport <|-- MindSport : inheritance
+MindSport <|-- GoGame : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Sandwich <|-- SubSandwich
+Sandwich <|-- SubSandwich : inheritance
 @enduml

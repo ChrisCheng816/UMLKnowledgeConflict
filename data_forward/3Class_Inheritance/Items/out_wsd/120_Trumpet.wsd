@@ -1,4 +1,4 @@
 @startuml
-Instrument <|-- BrassInstrument
-BrassInstrument <|-- Trumpet
+Instrument <|-- BrassInstrument : inheritance
+BrassInstrument <|-- Trumpet : inheritance
 @enduml

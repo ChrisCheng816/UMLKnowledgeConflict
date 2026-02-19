@@ -1,4 +1,4 @@
 @startuml
-Switch *-- Flashlight
-Housing *-- Switch
+Switch *-- Flashlight : composition
+Housing *-- Switch : composition
 @enduml

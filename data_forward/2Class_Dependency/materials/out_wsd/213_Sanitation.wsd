@@ -1,3 +1,3 @@
 @startuml
-Sanitation ..> Toilet
+Sanitation ..> Toilet : dependency
 @enduml

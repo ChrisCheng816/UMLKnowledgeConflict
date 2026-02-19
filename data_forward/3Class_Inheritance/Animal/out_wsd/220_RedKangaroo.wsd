@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Kangaroo
-Kangaroo <|-- RedKangaroo
+Animal <|-- Kangaroo : inheritance
+Kangaroo <|-- RedKangaroo : inheritance
 @enduml

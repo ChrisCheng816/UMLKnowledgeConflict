@@ -1,4 +1,4 @@
 @startuml
-Smartphone ..> MobileInternet
-CellularNetwork ..> Smartphone
+Smartphone ..> MobileInternet : dependency
+CellularNetwork ..> Smartphone : dependency
 @enduml

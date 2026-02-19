@@ -1,3 +1,3 @@
 @startuml
-Rice o-- Bag
+Rice o-- Bag : aggregation
 @enduml

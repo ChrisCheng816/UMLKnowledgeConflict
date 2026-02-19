@@ -1,4 +1,4 @@
 @startuml
-Keirin <|-- TrackCycling
-TrackCycling <|-- Cycling
+Keirin <|-- TrackCycling : inheritance
+TrackCycling <|-- Cycling : inheritance
 @enduml

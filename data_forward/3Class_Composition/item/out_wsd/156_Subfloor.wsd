@@ -1,4 +1,4 @@
 @startuml
-Floor *-- Subfloor
-House *-- Floor
+Floor *-- Subfloor : composition
+House *-- Floor : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CollardGreens <|-- LeafyVegetable
-LeafyVegetable <|-- Vegetable
+CollardGreens <|-- LeafyVegetable : inheritance
+LeafyVegetable <|-- Vegetable : inheritance
 @enduml

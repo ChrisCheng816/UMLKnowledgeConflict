@@ -1,4 +1,4 @@
 @startuml
-RedFox <|-- Fox
-Fox <|-- Mammal
+RedFox <|-- Fox : inheritance
+Fox <|-- Mammal : inheritance
 @enduml

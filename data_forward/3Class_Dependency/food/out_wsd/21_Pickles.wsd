@@ -1,4 +1,4 @@
 @startuml
-PicklingBrine ..> Salt
-Pickles ..> PicklingBrine
+PicklingBrine ..> Salt : dependency
+Pickles ..> PicklingBrine : dependency
 @enduml

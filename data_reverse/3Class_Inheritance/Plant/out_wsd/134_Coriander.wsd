@@ -1,4 +1,4 @@
 @startuml
-Coriander <|-- Herb
-Herb <|-- Plant
+Coriander <|-- Herb : inheritance
+Herb <|-- Plant : inheritance
 @enduml

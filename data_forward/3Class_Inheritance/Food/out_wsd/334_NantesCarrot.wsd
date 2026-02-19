@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Carrot
-Carrot <|-- NantesCarrot
+Vegetable <|-- Carrot : inheritance
+Carrot <|-- NantesCarrot : inheritance
 @enduml

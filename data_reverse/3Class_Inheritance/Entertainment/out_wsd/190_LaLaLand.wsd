@@ -1,4 +1,4 @@
 @startuml
-LaLaLand <|-- Film
-Film <|-- Entertainment
+LaLaLand <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

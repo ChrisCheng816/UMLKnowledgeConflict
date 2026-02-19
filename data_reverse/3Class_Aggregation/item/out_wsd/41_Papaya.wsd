@@ -1,4 +1,4 @@
 @startuml
-Basket o-- GroceryStore
-Papaya o-- Basket
+Basket o-- GroceryStore : aggregation
+Papaya o-- Basket : aggregation
 @enduml

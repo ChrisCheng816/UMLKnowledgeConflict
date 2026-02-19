@@ -1,4 +1,4 @@
 @startuml
-AmericanFootball <|-- Football
-Football <|-- Sport
+AmericanFootball <|-- Football : inheritance
+Football <|-- Sport : inheritance
 @enduml

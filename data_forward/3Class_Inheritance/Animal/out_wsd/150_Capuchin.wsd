@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Monkey
-Monkey <|-- Capuchin
+Mammal <|-- Monkey : inheritance
+Monkey <|-- Capuchin : inheritance
 @enduml

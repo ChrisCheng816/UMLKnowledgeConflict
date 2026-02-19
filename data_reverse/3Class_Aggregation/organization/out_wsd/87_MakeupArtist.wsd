@@ -1,4 +1,4 @@
 @startuml
-Crew o-- MovieSet
-MakeupArtist o-- Crew
+Crew o-- MovieSet : aggregation
+MakeupArtist o-- Crew : aggregation
 @enduml

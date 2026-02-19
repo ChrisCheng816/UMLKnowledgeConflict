@@ -1,3 +1,3 @@
 @startuml
-Floor *-- Grout
+Floor *-- Grout : composition
 @enduml

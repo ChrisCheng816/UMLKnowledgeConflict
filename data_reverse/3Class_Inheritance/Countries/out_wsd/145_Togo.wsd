@@ -1,4 +1,4 @@
 @startuml
-Togo <|-- Country
-Country <|-- GeopoliticalEntity
+Togo <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

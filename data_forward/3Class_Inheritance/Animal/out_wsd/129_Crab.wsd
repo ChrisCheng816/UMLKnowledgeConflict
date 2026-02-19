@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Crustacean
-Crustacean <|-- Crab
+Animal <|-- Crustacean : inheritance
+Crustacean <|-- Crab : inheritance
 @enduml

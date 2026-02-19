@@ -1,4 +1,4 @@
 @startuml
-Hokkaido <|-- Island
-Island <|-- GeographicFeature
+Hokkaido <|-- Island : inheritance
+Island <|-- GeographicFeature : inheritance
 @enduml

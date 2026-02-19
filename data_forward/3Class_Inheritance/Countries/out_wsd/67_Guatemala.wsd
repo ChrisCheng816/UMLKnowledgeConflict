@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Guatemala
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Guatemala : inheritance
 @enduml

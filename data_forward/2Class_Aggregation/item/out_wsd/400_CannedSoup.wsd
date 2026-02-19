@@ -1,3 +1,3 @@
 @startuml
-Shelf o-- CannedSoup
+Shelf o-- CannedSoup : aggregation
 @enduml

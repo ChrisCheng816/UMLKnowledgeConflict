@@ -1,4 +1,4 @@
 @startuml
-Soundbar <|-- Speaker
-Speaker <|-- Electronics
+Soundbar <|-- Speaker : inheritance
+Speaker <|-- Electronics : inheritance
 @enduml

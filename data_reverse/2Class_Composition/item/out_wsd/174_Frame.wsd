@@ -1,3 +1,3 @@
 @startuml
-Frame *-- Door
+Frame *-- Door : composition
 @enduml

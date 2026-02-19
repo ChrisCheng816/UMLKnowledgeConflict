@@ -1,4 +1,4 @@
 @startuml
-Handle *-- Cap
-Chisel *-- Handle
+Handle *-- Cap : composition
+Chisel *-- Handle : composition
 @enduml

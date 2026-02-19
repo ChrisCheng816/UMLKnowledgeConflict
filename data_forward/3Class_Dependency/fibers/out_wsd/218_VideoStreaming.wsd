@@ -1,4 +1,4 @@
 @startuml
-Smartphone ..> CellularNetwork
-VideoStreaming ..> Smartphone
+Smartphone ..> CellularNetwork : dependency
+VideoStreaming ..> Smartphone : dependency
 @enduml

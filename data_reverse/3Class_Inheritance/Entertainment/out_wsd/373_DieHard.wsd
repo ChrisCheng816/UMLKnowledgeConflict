@@ -1,4 +1,4 @@
 @startuml
-DieHard <|-- ActionFilm
-ActionFilm <|-- Film
+DieHard <|-- ActionFilm : inheritance
+ActionFilm <|-- Film : inheritance
 @enduml

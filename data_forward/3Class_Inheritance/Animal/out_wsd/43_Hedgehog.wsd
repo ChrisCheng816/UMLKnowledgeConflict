@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Mammal
-Mammal <|-- Hedgehog
+Animal <|-- Mammal : inheritance
+Mammal <|-- Hedgehog : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-EPFL <|-- University
-University <|-- EducationalInstitution
+EPFL <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

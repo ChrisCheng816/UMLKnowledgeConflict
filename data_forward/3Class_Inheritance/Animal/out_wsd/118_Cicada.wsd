@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Insect
-Insect <|-- Cicada
+Animal <|-- Insect : inheritance
+Insect <|-- Cicada : inheritance
 @enduml

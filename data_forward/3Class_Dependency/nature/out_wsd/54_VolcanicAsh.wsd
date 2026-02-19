@@ -1,4 +1,4 @@
 @startuml
-Volcano ..> Magma
-VolcanicAsh ..> Volcano
+Volcano ..> Magma : dependency
+VolcanicAsh ..> Volcano : dependency
 @enduml

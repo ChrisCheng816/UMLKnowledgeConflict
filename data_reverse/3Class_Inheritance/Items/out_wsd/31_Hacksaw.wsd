@@ -1,4 +1,4 @@
 @startuml
-Hacksaw <|-- Saw
-Saw <|-- Tool
+Hacksaw <|-- Saw : inheritance
+Saw <|-- Tool : inheritance
 @enduml

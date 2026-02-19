@@ -1,4 +1,4 @@
 @startuml
-Staff o-- University
-Professor o-- Staff
+Staff o-- University : aggregation
+Professor o-- Staff : aggregation
 @enduml

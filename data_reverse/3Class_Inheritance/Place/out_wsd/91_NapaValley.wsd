@@ -1,4 +1,4 @@
 @startuml
-NapaValley <|-- Valley
-Valley <|-- GeographicFeature
+NapaValley <|-- Valley : inheritance
+Valley <|-- GeographicFeature : inheritance
 @enduml

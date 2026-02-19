@@ -1,3 +1,3 @@
 @startuml
-University <|-- StanfordUniversity
+University <|-- StanfordUniversity : inheritance
 @enduml

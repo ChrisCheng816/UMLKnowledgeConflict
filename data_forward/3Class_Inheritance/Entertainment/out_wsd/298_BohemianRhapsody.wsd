@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Song
-Song <|-- BohemianRhapsody
+MusicWork <|-- Song : inheritance
+Song <|-- BohemianRhapsody : inheritance
 @enduml

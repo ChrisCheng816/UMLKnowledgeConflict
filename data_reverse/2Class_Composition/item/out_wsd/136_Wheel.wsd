@@ -1,3 +1,3 @@
 @startuml
-Wheel *-- Turntable
+Wheel *-- Turntable : composition
 @enduml

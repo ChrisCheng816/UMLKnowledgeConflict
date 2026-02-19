@@ -1,4 +1,4 @@
 @startuml
-Tank o-- Crab
-Zoo o-- Tank
+Tank o-- Crab : aggregation
+Zoo o-- Tank : aggregation
 @enduml

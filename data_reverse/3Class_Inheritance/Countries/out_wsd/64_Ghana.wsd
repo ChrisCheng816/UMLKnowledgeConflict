@@ -1,4 +1,4 @@
 @startuml
-Ghana <|-- Country
-Country <|-- GeopoliticalEntity
+Ghana <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

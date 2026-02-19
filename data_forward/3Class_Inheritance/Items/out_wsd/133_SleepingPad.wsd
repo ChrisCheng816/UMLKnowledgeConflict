@@ -1,4 +1,4 @@
 @startuml
-CampingGear <|-- Pad
-Pad <|-- SleepingPad
+CampingGear <|-- Pad : inheritance
+Pad <|-- SleepingPad : inheritance
 @enduml

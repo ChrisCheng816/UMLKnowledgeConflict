@@ -1,4 +1,4 @@
 @startuml
-Clipboard o-- Checklist
-Office o-- Clipboard
+Clipboard o-- Checklist : aggregation
+Office o-- Clipboard : aggregation
 @enduml

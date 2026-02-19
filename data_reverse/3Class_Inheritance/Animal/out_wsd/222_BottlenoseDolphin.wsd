@@ -1,4 +1,4 @@
 @startuml
-BottlenoseDolphin <|-- Dolphin
-Dolphin <|-- Animal
+BottlenoseDolphin <|-- Dolphin : inheritance
+Dolphin <|-- Animal : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Muzzle *-- Nose
+Muzzle *-- Nose : composition
 @enduml

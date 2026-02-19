@@ -1,3 +1,3 @@
 @startuml
-Circuit *-- Keyboard
+Circuit *-- Keyboard : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Foot *-- Sole
-Person *-- Foot
+Foot *-- Sole : composition
+Person *-- Foot : composition
 @enduml

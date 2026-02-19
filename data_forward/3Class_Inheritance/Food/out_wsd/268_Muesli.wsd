@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Cereal
-Cereal <|-- Muesli
+Food <|-- Cereal : inheritance
+Cereal <|-- Muesli : inheritance
 @enduml

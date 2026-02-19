@@ -1,4 +1,4 @@
 @startuml
-GrilledCheese <|-- Sandwich
-Sandwich <|-- Food
+GrilledCheese <|-- Sandwich : inheritance
+Sandwich <|-- Food : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Cabinet o-- Kettle
+Cabinet o-- Kettle : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-InstrumentRack o-- DrumSet
+InstrumentRack o-- DrumSet : aggregation
 @enduml

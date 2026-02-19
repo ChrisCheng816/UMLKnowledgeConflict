@@ -1,4 +1,4 @@
 @startuml
-EmergencyRadio ..> Battery
-WeatherAlert ..> EmergencyRadio
+EmergencyRadio ..> Battery : dependency
+WeatherAlert ..> EmergencyRadio : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Airbnb ..> Internet
+Internet ..> Electricity : dependency
+Airbnb ..> Internet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- RootVegetable
-RootVegetable <|-- Taro
+Vegetable <|-- RootVegetable : inheritance
+RootVegetable <|-- Taro : inheritance
 @enduml

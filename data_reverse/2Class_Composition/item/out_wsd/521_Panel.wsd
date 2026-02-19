@@ -1,3 +1,3 @@
 @startuml
-Panel *-- ElectricalSystem
+Panel *-- ElectricalSystem : composition
 @enduml

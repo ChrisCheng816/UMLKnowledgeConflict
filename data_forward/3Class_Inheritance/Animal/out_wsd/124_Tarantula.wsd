@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Arachnid
-Arachnid <|-- Tarantula
+Animal <|-- Arachnid : inheritance
+Arachnid <|-- Tarantula : inheritance
 @enduml

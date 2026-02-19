@@ -1,4 +1,4 @@
 @startuml
-Coat *-- Layer
-Seed *-- Coat
+Coat *-- Layer : composition
+Seed *-- Coat : composition
 @enduml

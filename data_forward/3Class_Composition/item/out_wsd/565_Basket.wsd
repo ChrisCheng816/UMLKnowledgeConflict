@@ -1,4 +1,4 @@
 @startuml
-Filter *-- Basket
-CoffeeMaker *-- Filter
+Filter *-- Basket : composition
+CoffeeMaker *-- Filter : composition
 @enduml

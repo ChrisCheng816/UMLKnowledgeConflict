@@ -1,4 +1,4 @@
 @startuml
-GoogleDrive ..> Internet
-Syncing ..> GoogleDrive
+GoogleDrive ..> Internet : dependency
+Syncing ..> GoogleDrive : dependency
 @enduml

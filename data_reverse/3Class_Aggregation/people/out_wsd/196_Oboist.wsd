@@ -1,4 +1,4 @@
 @startuml
-Orchestra o-- Studio
-Oboist o-- Orchestra
+Orchestra o-- Studio : aggregation
+Oboist o-- Orchestra : aggregation
 @enduml

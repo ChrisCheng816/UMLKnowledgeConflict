@@ -1,4 +1,4 @@
 @startuml
-Club o-- Library
-Writer o-- Club
+Club o-- Library : aggregation
+Writer o-- Club : aggregation
 @enduml

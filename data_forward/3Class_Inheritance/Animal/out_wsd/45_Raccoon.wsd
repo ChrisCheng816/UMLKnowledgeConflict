@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Mammal
-Mammal <|-- Raccoon
+Animal <|-- Mammal : inheritance
+Mammal <|-- Raccoon : inheritance
 @enduml

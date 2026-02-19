@@ -1,4 +1,4 @@
 @startuml
-DarkSoulsIII <|-- VideoGame
-VideoGame <|-- Game
+DarkSoulsIII <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

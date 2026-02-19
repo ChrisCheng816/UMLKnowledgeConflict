@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Panda
-Panda <|-- GiantPanda
+Animal <|-- Panda : inheritance
+Panda <|-- GiantPanda : inheritance
 @enduml

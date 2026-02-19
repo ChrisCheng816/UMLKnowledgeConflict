@@ -1,4 +1,4 @@
 @startuml
-Mane *-- Horse
-Hair *-- Mane
+Mane *-- Horse : composition
+Hair *-- Mane : composition
 @enduml

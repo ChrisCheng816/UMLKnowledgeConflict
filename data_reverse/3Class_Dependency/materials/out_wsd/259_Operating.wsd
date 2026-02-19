@@ -1,4 +1,4 @@
 @startuml
-ChargingStation ..> Operating
-Electricity ..> ChargingStation
+ChargingStation ..> Operating : dependency
+Electricity ..> ChargingStation : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Vegetable
-Vegetable <|-- Cucumber
+Food <|-- Vegetable : inheritance
+Vegetable <|-- Cucumber : inheritance
 @enduml

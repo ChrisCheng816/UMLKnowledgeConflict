@@ -1,4 +1,4 @@
 @startuml
-Collection o-- Library
-Novel o-- Collection
+Collection o-- Library : aggregation
+Novel o-- Collection : aggregation
 @enduml

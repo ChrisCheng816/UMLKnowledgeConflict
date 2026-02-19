@@ -1,4 +1,4 @@
 @startuml
-Hotline o-- EmergencySystem
-Operator o-- Hotline
+Hotline o-- EmergencySystem : aggregation
+Operator o-- Hotline : aggregation
 @enduml

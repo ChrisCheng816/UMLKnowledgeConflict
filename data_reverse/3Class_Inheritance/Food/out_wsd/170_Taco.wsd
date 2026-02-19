@@ -1,4 +1,4 @@
 @startuml
-Taco <|-- Dish
-Dish <|-- Food
+Taco <|-- Dish : inheritance
+Dish <|-- Food : inheritance
 @enduml

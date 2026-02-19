@@ -1,4 +1,4 @@
 @startuml
-Organizer o-- Pen
-Desk o-- Organizer
+Organizer o-- Pen : aggregation
+Desk o-- Organizer : aggregation
 @enduml

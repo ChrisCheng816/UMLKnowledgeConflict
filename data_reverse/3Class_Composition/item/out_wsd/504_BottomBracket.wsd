@@ -1,4 +1,4 @@
 @startuml
-Drivetrain *-- Bicycle
-BottomBracket *-- Drivetrain
+Drivetrain *-- Bicycle : composition
+BottomBracket *-- Drivetrain : composition
 @enduml

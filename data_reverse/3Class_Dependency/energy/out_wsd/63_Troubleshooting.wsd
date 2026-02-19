@@ -1,4 +1,4 @@
 @startuml
-Multimeter ..> Troubleshooting
-Electricity ..> Multimeter
+Multimeter ..> Troubleshooting : dependency
+Electricity ..> Multimeter : dependency
 @enduml

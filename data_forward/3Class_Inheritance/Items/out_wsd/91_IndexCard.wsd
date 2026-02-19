@@ -1,4 +1,4 @@
 @startuml
-Stationery <|-- Card
-Card <|-- IndexCard
+Stationery <|-- Card : inheritance
+Card <|-- IndexCard : inheritance
 @enduml

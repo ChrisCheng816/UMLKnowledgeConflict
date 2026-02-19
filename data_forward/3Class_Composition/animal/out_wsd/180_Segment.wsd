@@ -1,4 +1,4 @@
 @startuml
-Antenna *-- Segment
-Ant *-- Antenna
+Antenna *-- Segment : composition
+Ant *-- Antenna : composition
 @enduml

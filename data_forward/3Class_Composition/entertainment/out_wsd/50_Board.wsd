@@ -1,4 +1,4 @@
 @startuml
-Binding *-- Board
-Book *-- Binding
+Binding *-- Board : composition
+Book *-- Binding : composition
 @enduml

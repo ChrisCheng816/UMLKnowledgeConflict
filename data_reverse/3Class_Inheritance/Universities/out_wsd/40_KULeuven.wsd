@@ -1,4 +1,4 @@
 @startuml
-KULeuven <|-- University
-University <|-- EducationalInstitution
+KULeuven <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

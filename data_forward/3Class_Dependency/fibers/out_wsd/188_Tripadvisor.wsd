@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Tripadvisor ..> Internet
+Internet ..> Electricity : dependency
+Tripadvisor ..> Internet : dependency
 @enduml

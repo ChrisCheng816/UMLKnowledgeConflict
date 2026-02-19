@@ -1,4 +1,4 @@
 @startuml
-Aviary o-- Reserve
-Canary o-- Aviary
+Aviary o-- Reserve : aggregation
+Canary o-- Aviary : aggregation
 @enduml

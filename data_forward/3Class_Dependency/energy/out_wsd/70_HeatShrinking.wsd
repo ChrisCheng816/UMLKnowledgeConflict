@@ -1,4 +1,4 @@
 @startuml
-HeatGun ..> Electricity
-HeatShrinking ..> HeatGun
+HeatGun ..> Electricity : dependency
+HeatShrinking ..> HeatGun : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- SUV
-SUV <|-- ChevroletTahoe
+Vehicle <|-- SUV : inheritance
+SUV <|-- ChevroletTahoe : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Flesh *-- Strawberry
-Seed *-- Flesh
+Flesh *-- Strawberry : composition
+Seed *-- Flesh : composition
 @enduml

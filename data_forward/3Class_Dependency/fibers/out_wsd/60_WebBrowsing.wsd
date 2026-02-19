@@ -1,4 +1,4 @@
 @startuml
-WiFiNetwork ..> InternetConnection
-WebBrowsing ..> WiFiNetwork
+WiFiNetwork ..> InternetConnection : dependency
+WebBrowsing ..> WiFiNetwork : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Pore
-Person *-- Skin
+Skin *-- Pore : composition
+Person *-- Skin : composition
 @enduml

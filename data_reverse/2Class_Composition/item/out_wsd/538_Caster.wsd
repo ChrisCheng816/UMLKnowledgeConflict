@@ -1,3 +1,3 @@
 @startuml
-Caster *-- Leg
+Caster *-- Leg : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Gloves
-Pharmacy o-- Cabinet
+Cabinet o-- Gloves : aggregation
+Pharmacy o-- Cabinet : aggregation
 @enduml

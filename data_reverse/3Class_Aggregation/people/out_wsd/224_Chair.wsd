@@ -1,4 +1,4 @@
 @startuml
-Council o-- University
-Chair o-- Council
+Council o-- University : aggregation
+Chair o-- Council : aggregation
 @enduml

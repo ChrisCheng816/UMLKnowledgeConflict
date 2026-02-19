@@ -1,3 +1,3 @@
 @startuml
-PickupTruck <|-- FordF150
+PickupTruck <|-- FordF150 : inheritance
 @enduml

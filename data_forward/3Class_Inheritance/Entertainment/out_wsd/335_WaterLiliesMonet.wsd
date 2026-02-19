@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- WaterLiliesMonet
+Artwork <|-- Painting : inheritance
+Painting <|-- WaterLiliesMonet : inheritance
 @enduml

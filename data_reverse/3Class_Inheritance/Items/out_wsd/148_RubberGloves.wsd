@@ -1,4 +1,4 @@
 @startuml
-RubberGloves <|-- Gloves
-Gloves <|-- Clothing
+RubberGloves <|-- Gloves : inheritance
+Gloves <|-- Clothing : inheritance
 @enduml

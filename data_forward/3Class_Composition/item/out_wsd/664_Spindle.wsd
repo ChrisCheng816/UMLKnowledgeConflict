@@ -1,4 +1,4 @@
 @startuml
-Pedal *-- Spindle
-Bicycle *-- Pedal
+Pedal *-- Spindle : composition
+Bicycle *-- Pedal : composition
 @enduml

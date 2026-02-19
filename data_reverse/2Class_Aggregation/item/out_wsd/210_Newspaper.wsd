@@ -1,3 +1,3 @@
 @startuml
-Newspaper o-- Shelf
+Newspaper o-- Shelf : aggregation
 @enduml

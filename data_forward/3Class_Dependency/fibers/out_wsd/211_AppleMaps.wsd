@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-AppleMaps ..> Internet
+Internet ..> Electricity : dependency
+AppleMaps ..> Internet : dependency
 @enduml

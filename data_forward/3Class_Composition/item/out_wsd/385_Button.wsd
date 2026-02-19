@@ -1,4 +1,4 @@
 @startuml
-Upholstery *-- Button
-Chair *-- Upholstery
+Upholstery *-- Button : composition
+Chair *-- Upholstery : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-YuriGagarin <|-- Cosmonaut
-Cosmonaut <|-- Explorer
+YuriGagarin <|-- Cosmonaut : inheritance
+Cosmonaut <|-- Explorer : inheritance
 @enduml

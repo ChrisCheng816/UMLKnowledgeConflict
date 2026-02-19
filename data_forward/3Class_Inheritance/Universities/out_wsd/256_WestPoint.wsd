@@ -1,4 +1,4 @@
 @startuml
-Academy <|-- MilitaryAcademy
-MilitaryAcademy <|-- WestPoint
+Academy <|-- MilitaryAcademy : inheritance
+MilitaryAcademy <|-- WestPoint : inheritance
 @enduml

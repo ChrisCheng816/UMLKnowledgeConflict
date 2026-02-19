@@ -1,3 +1,3 @@
 @startuml
-InstrumentRack o-- Violin
+InstrumentRack o-- Violin : aggregation
 @enduml

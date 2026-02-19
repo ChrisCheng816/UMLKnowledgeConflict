@@ -1,4 +1,4 @@
 @startuml
-Sunglasses <|-- Eyewear
-Eyewear <|-- Accessory
+Sunglasses <|-- Eyewear : inheritance
+Eyewear <|-- Accessory : inheritance
 @enduml

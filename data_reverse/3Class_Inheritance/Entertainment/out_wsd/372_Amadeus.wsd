@@ -1,4 +1,4 @@
 @startuml
-Amadeus <|-- BiographicalFilm
-BiographicalFilm <|-- Film
+Amadeus <|-- BiographicalFilm : inheritance
+BiographicalFilm <|-- Film : inheritance
 @enduml

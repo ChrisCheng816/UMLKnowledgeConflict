@@ -1,4 +1,4 @@
 @startuml
-Base *-- Felt
-Lamp *-- Base
+Base *-- Felt : composition
+Lamp *-- Base : composition
 @enduml

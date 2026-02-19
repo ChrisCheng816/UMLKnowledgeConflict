@@ -1,3 +1,3 @@
 @startuml
-Binder o-- Worksheet
+Binder o-- Worksheet : aggregation
 @enduml

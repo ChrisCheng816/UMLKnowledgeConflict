@@ -1,4 +1,4 @@
 @startuml
-TexasAMUniversity <|-- University
-University <|-- EducationalInstitution
+TexasAMUniversity <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

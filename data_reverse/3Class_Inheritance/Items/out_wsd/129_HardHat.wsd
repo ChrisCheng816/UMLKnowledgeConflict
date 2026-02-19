@@ -1,4 +1,4 @@
 @startuml
-HardHat <|-- Helmet
-Helmet <|-- SafetyGear
+HardHat <|-- Helmet : inheritance
+Helmet <|-- SafetyGear : inheritance
 @enduml

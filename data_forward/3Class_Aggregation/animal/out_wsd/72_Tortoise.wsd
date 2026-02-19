@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Tortoise
-Reserve o-- Enclosure
+Enclosure o-- Tortoise : aggregation
+Reserve o-- Enclosure : aggregation
 @enduml

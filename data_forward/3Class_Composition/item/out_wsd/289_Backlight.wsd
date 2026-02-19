@@ -1,4 +1,4 @@
 @startuml
-Screen *-- Backlight
-Phone *-- Screen
+Screen *-- Backlight : composition
+Phone *-- Screen : composition
 @enduml

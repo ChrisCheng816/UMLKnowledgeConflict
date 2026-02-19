@@ -1,4 +1,4 @@
 @startuml
-Zinnia <|-- Flower
-Flower <|-- Plant
+Zinnia <|-- Flower : inheritance
+Flower <|-- Plant : inheritance
 @enduml

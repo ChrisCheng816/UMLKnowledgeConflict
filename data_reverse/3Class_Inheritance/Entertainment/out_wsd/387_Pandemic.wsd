@@ -1,4 +1,4 @@
 @startuml
-Pandemic <|-- CooperativeGame
-CooperativeGame <|-- BoardGame
+Pandemic <|-- CooperativeGame : inheritance
+CooperativeGame <|-- BoardGame : inheritance
 @enduml

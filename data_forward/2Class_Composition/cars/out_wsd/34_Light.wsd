@@ -1,3 +1,3 @@
 @startuml
-Dashboard *-- Light
+Dashboard *-- Light : composition
 @enduml

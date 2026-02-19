@@ -1,3 +1,3 @@
 @startuml
-Cage o-- Parrot
+Cage o-- Parrot : aggregation
 @enduml

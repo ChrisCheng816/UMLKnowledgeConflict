@@ -1,4 +1,4 @@
 @startuml
-PacificCod <|-- Cod
-Cod <|-- Fish
+PacificCod <|-- Cod : inheritance
+Cod <|-- Fish : inheritance
 @enduml

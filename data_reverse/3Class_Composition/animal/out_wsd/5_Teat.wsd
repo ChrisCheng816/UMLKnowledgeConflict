@@ -1,4 +1,4 @@
 @startuml
-Udder *-- Cow
-Teat *-- Udder
+Udder *-- Cow : composition
+Teat *-- Udder : composition
 @enduml

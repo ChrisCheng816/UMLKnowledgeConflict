@@ -1,4 +1,4 @@
 @startuml
-MerinoSheep <|-- Sheep
-Sheep <|-- Animal
+MerinoSheep <|-- Sheep : inheritance
+Sheep <|-- Animal : inheritance
 @enduml

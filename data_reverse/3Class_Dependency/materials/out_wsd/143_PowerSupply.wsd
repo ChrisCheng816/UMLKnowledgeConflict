@@ -1,4 +1,4 @@
 @startuml
-PhoneCharger ..> PowerSupply
-Electricity ..> PhoneCharger
+PhoneCharger ..> PowerSupply : dependency
+Electricity ..> PhoneCharger : dependency
 @enduml

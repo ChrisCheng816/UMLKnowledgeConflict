@@ -1,4 +1,4 @@
 @startuml
-Button *-- Shirt
-Hole *-- Button
+Button *-- Shirt : composition
+Hole *-- Button : composition
 @enduml

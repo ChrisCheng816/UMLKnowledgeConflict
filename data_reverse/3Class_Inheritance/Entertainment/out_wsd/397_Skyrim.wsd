@@ -1,4 +1,4 @@
 @startuml
-Skyrim <|-- RolePlayingGame
-RolePlayingGame <|-- VideoGame
+Skyrim <|-- RolePlayingGame : inheritance
+RolePlayingGame <|-- VideoGame : inheritance
 @enduml

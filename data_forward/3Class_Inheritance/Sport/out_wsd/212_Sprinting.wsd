@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Athletics
-Athletics <|-- Sprinting
+Sport <|-- Athletics : inheritance
+Athletics <|-- Sprinting : inheritance
 @enduml

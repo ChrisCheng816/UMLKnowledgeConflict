@@ -1,4 +1,4 @@
 @startuml
-Transmission *-- Pan
-Car *-- Transmission
+Transmission *-- Pan : composition
+Car *-- Transmission : composition
 @enduml

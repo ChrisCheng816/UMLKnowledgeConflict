@@ -1,4 +1,4 @@
 @startuml
-Blade *-- Blender
-Surface *-- Blade
+Blade *-- Blender : composition
+Surface *-- Blade : composition
 @enduml

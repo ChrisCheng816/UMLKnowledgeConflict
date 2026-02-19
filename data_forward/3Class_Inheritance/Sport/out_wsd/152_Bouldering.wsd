@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport
-IndividualSport <|-- Bouldering
+Sport <|-- IndividualSport : inheritance
+IndividualSport <|-- Bouldering : inheritance
 @enduml

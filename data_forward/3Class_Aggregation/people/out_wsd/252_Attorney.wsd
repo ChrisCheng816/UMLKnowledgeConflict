@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Attorney
-Company o-- Staff
+Staff o-- Attorney : aggregation
+Company o-- Staff : aggregation
 @enduml

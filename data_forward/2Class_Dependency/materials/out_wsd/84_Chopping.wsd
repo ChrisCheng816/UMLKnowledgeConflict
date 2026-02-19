@@ -1,3 +1,3 @@
 @startuml
-Chopping ..> FoodProcessor
+Chopping ..> FoodProcessor : dependency
 @enduml

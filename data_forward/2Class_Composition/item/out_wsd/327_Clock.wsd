@@ -1,3 +1,3 @@
 @startuml
-Processor *-- Clock
+Processor *-- Clock : composition
 @enduml

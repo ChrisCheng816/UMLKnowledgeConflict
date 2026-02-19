@@ -1,3 +1,3 @@
 @startuml
-Tank o-- Dolphin
+Tank o-- Dolphin : aggregation
 @enduml

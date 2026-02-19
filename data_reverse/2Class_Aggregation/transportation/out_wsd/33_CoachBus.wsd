@@ -1,3 +1,3 @@
 @startuml
-CoachBus o-- Fleet
+CoachBus o-- Fleet : aggregation
 @enduml

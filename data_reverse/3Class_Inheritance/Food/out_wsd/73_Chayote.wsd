@@ -1,4 +1,4 @@
 @startuml
-Chayote <|-- SquashVegetable
-SquashVegetable <|-- Vegetable
+Chayote <|-- SquashVegetable : inheritance
+SquashVegetable <|-- Vegetable : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FireHose ..> WaterSupply
-Firefighter ..> FireHose
+FireHose ..> WaterSupply : dependency
+Firefighter ..> FireHose : dependency
 @enduml

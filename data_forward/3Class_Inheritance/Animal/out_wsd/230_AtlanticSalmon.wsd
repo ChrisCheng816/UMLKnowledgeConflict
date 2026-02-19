@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Salmon
-Salmon <|-- AtlanticSalmon
+Animal <|-- Salmon : inheritance
+Salmon <|-- AtlanticSalmon : inheritance
 @enduml

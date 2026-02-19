@@ -1,4 +1,4 @@
 @startuml
-Thread o-- Forum
-Post o-- Thread
+Thread o-- Forum : aggregation
+Post o-- Thread : aggregation
 @enduml

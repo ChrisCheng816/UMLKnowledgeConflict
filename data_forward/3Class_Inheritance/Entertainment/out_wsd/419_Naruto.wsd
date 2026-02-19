@@ -1,4 +1,4 @@
 @startuml
-Comic <|-- Manga
-Manga <|-- Naruto
+Comic <|-- Manga : inheritance
+Manga <|-- Naruto : inheritance
 @enduml

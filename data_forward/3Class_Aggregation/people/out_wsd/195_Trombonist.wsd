@@ -1,4 +1,4 @@
 @startuml
-Orchestra o-- Trombonist
-School o-- Orchestra
+Orchestra o-- Trombonist : aggregation
+School o-- Orchestra : aggregation
 @enduml

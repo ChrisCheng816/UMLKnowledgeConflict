@@ -1,4 +1,4 @@
 @startuml
-Lightning ..> Thundercloud
-PowerOutage ..> Lightning
+Lightning ..> Thundercloud : dependency
+PowerOutage ..> Lightning : dependency
 @enduml

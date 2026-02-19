@@ -1,4 +1,4 @@
 @startuml
-Department o-- Trainer
-Company o-- Department
+Department o-- Trainer : aggregation
+Company o-- Department : aggregation
 @enduml

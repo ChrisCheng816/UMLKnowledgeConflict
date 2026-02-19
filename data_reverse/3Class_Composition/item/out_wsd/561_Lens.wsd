@@ -1,4 +1,4 @@
 @startuml
-Camera *-- Phone
-Lens *-- Camera
+Camera *-- Phone : composition
+Lens *-- Camera : composition
 @enduml

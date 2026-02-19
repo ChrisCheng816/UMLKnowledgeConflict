@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Tiger
-Crown *-- Tooth
+Tooth *-- Tiger : composition
+Crown *-- Tooth : composition
 @enduml

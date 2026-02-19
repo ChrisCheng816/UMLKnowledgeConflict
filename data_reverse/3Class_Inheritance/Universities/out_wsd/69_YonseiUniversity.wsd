@@ -1,4 +1,4 @@
 @startuml
-YonseiUniversity <|-- University
-University <|-- EducationalInstitution
+YonseiUniversity <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-NailGun <|-- FasteningTool
-FasteningTool <|-- Tool
+NailGun <|-- FasteningTool : inheritance
+FasteningTool <|-- Tool : inheritance
 @enduml

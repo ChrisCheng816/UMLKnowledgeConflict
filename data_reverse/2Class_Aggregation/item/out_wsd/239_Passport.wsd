@@ -1,3 +1,3 @@
 @startuml
-Passport o-- Folder
+Passport o-- Folder : aggregation
 @enduml

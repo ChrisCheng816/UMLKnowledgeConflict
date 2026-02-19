@@ -1,4 +1,4 @@
 @startuml
-Community o-- Volunteer
-Neighborhood o-- Community
+Community o-- Volunteer : aggregation
+Neighborhood o-- Community : aggregation
 @enduml

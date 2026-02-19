@@ -1,4 +1,4 @@
 @startuml
-Choir o-- Alto
-School o-- Choir
+Choir o-- Alto : aggregation
+School o-- Choir : aggregation
 @enduml

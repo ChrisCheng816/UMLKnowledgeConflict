@@ -1,3 +1,3 @@
 @startuml
-Penguin o-- Flock
+Penguin o-- Flock : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Exhaust *-- CatalyticConverter
-Car *-- Exhaust
+Exhaust *-- CatalyticConverter : composition
+Car *-- Exhaust : composition
 @enduml

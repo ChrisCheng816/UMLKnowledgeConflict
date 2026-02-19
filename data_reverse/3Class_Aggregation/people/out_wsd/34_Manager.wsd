@@ -1,4 +1,4 @@
 @startuml
-Branch o-- Bank
-Manager o-- Branch
+Branch o-- Bank : aggregation
+Manager o-- Branch : aggregation
 @enduml

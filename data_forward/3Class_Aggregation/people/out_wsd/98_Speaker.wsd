@@ -1,4 +1,4 @@
 @startuml
-SpeakerList o-- Speaker
-Conference o-- SpeakerList
+SpeakerList o-- Speaker : aggregation
+Conference o-- SpeakerList : aggregation
 @enduml

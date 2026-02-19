@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Niger
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Niger : inheritance
 @enduml

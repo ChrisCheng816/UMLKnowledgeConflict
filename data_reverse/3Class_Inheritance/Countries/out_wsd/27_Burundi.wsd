@@ -1,4 +1,4 @@
 @startuml
-Burundi <|-- Country
-Country <|-- GeopoliticalEntity
+Burundi <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Desk o-- Newsroom
-Reporter o-- Desk
+Desk o-- Newsroom : aggregation
+Reporter o-- Desk : aggregation
 @enduml

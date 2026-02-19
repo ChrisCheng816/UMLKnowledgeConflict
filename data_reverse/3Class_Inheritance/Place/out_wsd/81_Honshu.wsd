@@ -1,4 +1,4 @@
 @startuml
-Honshu <|-- Island
-Island <|-- GeographicFeature
+Honshu <|-- Island : inheritance
+Island <|-- GeographicFeature : inheritance
 @enduml

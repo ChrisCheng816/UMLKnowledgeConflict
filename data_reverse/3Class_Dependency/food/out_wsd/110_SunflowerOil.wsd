@@ -1,4 +1,4 @@
 @startuml
-SunflowerSeeds ..> SunflowerOil
-Sunflower ..> SunflowerSeeds
+SunflowerSeeds ..> SunflowerOil : dependency
+Sunflower ..> SunflowerSeeds : dependency
 @enduml

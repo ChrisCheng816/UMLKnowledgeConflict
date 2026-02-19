@@ -1,4 +1,4 @@
 @startuml
-Department o-- Therapist
-Hospital o-- Department
+Department o-- Therapist : aggregation
+Hospital o-- Department : aggregation
 @enduml

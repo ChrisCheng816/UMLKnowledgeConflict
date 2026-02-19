@@ -1,4 +1,4 @@
 @startuml
-Poland <|-- ParliamentaryRepublic
-ParliamentaryRepublic <|-- Republic
+Poland <|-- ParliamentaryRepublic : inheritance
+ParliamentaryRepublic <|-- Republic : inheritance
 @enduml

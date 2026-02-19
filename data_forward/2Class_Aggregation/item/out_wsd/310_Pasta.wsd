@@ -1,3 +1,3 @@
 @startuml
-Pantry o-- Pasta
+Pantry o-- Pasta : aggregation
 @enduml

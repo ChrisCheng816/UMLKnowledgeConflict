@@ -1,4 +1,4 @@
 @startuml
-Terrarium o-- Zoo
-Salamander o-- Terrarium
+Terrarium o-- Zoo : aggregation
+Salamander o-- Terrarium : aggregation
 @enduml

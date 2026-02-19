@@ -1,4 +1,4 @@
 @startuml
-Tank o-- Shark
-Aquarium o-- Tank
+Tank o-- Shark : aggregation
+Aquarium o-- Tank : aggregation
 @enduml

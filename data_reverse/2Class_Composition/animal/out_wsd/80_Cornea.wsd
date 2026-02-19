@@ -1,3 +1,3 @@
 @startuml
-Cornea *-- Eye
+Cornea *-- Eye : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BluetoothSpeaker ..> AudioStreaming
-Electricity ..> BluetoothSpeaker
+BluetoothSpeaker ..> AudioStreaming : dependency
+Electricity ..> BluetoothSpeaker : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Roller *-- GarageDoor
+Roller *-- GarageDoor : composition
 @enduml

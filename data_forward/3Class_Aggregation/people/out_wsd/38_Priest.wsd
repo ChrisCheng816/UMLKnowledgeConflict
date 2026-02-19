@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Priest
-Church o-- Staff
+Staff o-- Priest : aggregation
+Church o-- Staff : aggregation
 @enduml

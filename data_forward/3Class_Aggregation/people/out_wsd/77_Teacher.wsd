@@ -1,4 +1,4 @@
 @startuml
-Team o-- Teacher
-School o-- Team
+Team o-- Teacher : aggregation
+School o-- Team : aggregation
 @enduml

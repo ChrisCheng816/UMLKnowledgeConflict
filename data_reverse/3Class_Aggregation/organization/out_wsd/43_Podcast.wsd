@@ -1,4 +1,4 @@
 @startuml
-Queue o-- PodcastApp
-Podcast o-- Queue
+Queue o-- PodcastApp : aggregation
+Podcast o-- Queue : aggregation
 @enduml

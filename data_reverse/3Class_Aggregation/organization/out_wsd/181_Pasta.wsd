@@ -1,4 +1,4 @@
 @startuml
-Aisle o-- Supermarket
-Pasta o-- Aisle
+Aisle o-- Supermarket : aggregation
+Pasta o-- Aisle : aggregation
 @enduml

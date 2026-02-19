@@ -1,3 +1,3 @@
 @startuml
-StaplerMachine ..> Operating
+StaplerMachine ..> Operating : dependency
 @enduml

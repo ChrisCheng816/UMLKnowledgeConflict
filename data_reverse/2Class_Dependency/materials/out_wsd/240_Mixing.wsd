@@ -1,3 +1,3 @@
 @startuml
-Mixer ..> Mixing
+Mixer ..> Mixing : dependency
 @enduml

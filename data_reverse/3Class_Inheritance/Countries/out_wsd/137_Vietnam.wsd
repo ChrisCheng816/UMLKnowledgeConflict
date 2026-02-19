@@ -1,4 +1,4 @@
 @startuml
-Vietnam <|-- Country
-Country <|-- GeopoliticalEntity
+Vietnam <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Toaster ..> Electricity
-Toasting ..> Toaster
+Toaster ..> Electricity : dependency
+Toasting ..> Toaster : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Sparrow o-- Aviary
+Sparrow o-- Aviary : aggregation
 @enduml

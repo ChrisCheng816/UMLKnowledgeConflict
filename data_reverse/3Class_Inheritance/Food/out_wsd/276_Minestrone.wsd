@@ -1,4 +1,4 @@
 @startuml
-Minestrone <|-- Soup
-Soup <|-- Dish
+Minestrone <|-- Soup : inheritance
+Soup <|-- Dish : inheritance
 @enduml

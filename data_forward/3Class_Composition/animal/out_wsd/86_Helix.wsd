@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Helix
-Person *-- Ear
+Ear *-- Helix : composition
+Person *-- Ear : composition
 @enduml

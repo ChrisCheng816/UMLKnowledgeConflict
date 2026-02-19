@@ -1,4 +1,4 @@
 @startuml
-ArchiveFolder o-- ArchiveDocument
-LibraryWarehouse o-- ArchiveFolder
+ArchiveFolder o-- ArchiveDocument : aggregation
+LibraryWarehouse o-- ArchiveFolder : aggregation
 @enduml

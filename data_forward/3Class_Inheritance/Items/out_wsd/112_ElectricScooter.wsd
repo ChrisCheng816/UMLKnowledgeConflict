@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Scooter
-Scooter <|-- ElectricScooter
+Vehicle <|-- Scooter : inheritance
+Scooter <|-- ElectricScooter : inheritance
 @enduml

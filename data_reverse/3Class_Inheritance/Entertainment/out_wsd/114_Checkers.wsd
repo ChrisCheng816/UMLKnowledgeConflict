@@ -1,4 +1,4 @@
 @startuml
-Checkers <|-- BoardGame
-BoardGame <|-- Game
+Checkers <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

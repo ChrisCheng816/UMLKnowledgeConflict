@@ -1,4 +1,4 @@
 @startuml
-Film <|-- AdventureFilm
-AdventureFilm <|-- JurassicPark
+Film <|-- AdventureFilm : inheritance
+AdventureFilm <|-- JurassicPark : inheritance
 @enduml

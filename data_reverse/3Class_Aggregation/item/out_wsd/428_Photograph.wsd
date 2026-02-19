@@ -1,4 +1,4 @@
 @startuml
-Folder o-- Office
-Photograph o-- Folder
+Folder o-- Office : aggregation
+Photograph o-- Folder : aggregation
 @enduml

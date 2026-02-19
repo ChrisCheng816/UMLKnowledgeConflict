@@ -1,3 +1,3 @@
 @startuml
-Toolbox o-- Tape
+Toolbox o-- Tape : aggregation
 @enduml

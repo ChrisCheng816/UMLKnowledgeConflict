@@ -1,4 +1,4 @@
 @startuml
-Music <|-- MusicWork
-MusicWork <|-- Album
+Music <|-- MusicWork : inheritance
+MusicWork <|-- Album : inheritance
 @enduml

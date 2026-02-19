@@ -1,4 +1,4 @@
 @startuml
-Aisle o-- Cereal
-Supermarket o-- Aisle
+Aisle o-- Cereal : aggregation
+Supermarket o-- Aisle : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- Roblox
+Game <|-- VideoGame : inheritance
+VideoGame <|-- Roblox : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Transmission *-- Seal
-Car *-- Transmission
+Transmission *-- Seal : composition
+Car *-- Transmission : composition
 @enduml

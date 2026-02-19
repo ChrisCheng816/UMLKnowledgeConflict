@@ -1,4 +1,4 @@
 @startuml
-Display *-- Laptop
-Bezel *-- Display
+Display *-- Laptop : composition
+Bezel *-- Display : composition
 @enduml

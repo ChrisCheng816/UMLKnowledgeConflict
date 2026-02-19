@@ -1,3 +1,3 @@
 @startuml
-Kernel *-- Pit
+Kernel *-- Pit : composition
 @enduml

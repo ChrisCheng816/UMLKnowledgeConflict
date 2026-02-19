@@ -1,4 +1,4 @@
 @startuml
-Dropbox ..> Uploading
-Internet ..> Dropbox
+Dropbox ..> Uploading : dependency
+Internet ..> Dropbox : dependency
 @enduml

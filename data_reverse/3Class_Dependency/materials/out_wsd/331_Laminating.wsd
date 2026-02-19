@@ -1,4 +1,4 @@
 @startuml
-Laminator ..> Laminating
-Electricity ..> Laminator
+Laminator ..> Laminating : dependency
+Electricity ..> Laminator : dependency
 @enduml

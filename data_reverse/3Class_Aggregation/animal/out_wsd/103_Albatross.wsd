@@ -1,4 +1,4 @@
 @startuml
-Aviary o-- Sanctuary
-Albatross o-- Aviary
+Aviary o-- Sanctuary : aggregation
+Albatross o-- Aviary : aggregation
 @enduml

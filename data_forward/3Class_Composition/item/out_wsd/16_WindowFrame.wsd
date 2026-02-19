@@ -1,4 +1,4 @@
 @startuml
-Window *-- WindowFrame
-House *-- Window
+Window *-- WindowFrame : composition
+House *-- Window : composition
 @enduml

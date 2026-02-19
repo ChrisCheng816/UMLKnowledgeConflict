@@ -1,4 +1,4 @@
 @startuml
-Etna <|-- Volcano
-Volcano <|-- GeographicFeature
+Etna <|-- Volcano : inheritance
+Volcano <|-- GeographicFeature : inheritance
 @enduml

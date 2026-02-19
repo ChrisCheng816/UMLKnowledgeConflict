@@ -1,4 +1,4 @@
 @startuml
-Leaves ..> Tree
-Sloth ..> Leaves
+Leaves ..> Tree : dependency
+Sloth ..> Leaves : dependency
 @enduml

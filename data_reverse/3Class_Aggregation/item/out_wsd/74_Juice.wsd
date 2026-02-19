@@ -1,4 +1,4 @@
 @startuml
-Carton o-- Supermarket
-Juice o-- Carton
+Carton o-- Supermarket : aggregation
+Juice o-- Carton : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Gland *-- Skin
+Gland *-- Skin : composition
 @enduml

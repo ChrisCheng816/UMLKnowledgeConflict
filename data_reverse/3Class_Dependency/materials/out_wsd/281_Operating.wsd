@@ -1,4 +1,4 @@
 @startuml
-PaperShredder ..> Operating
-Electricity ..> PaperShredder
+PaperShredder ..> Operating : dependency
+Electricity ..> PaperShredder : dependency
 @enduml

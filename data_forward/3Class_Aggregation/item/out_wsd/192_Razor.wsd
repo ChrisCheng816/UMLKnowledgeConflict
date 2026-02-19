@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Razor
-Bathroom o-- Cabinet
+Cabinet o-- Razor : aggregation
+Bathroom o-- Cabinet : aggregation
 @enduml

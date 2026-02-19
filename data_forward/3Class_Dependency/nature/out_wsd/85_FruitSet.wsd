@@ -1,4 +1,4 @@
 @startuml
-Pollination ..> Pollinator
-FruitSet ..> Pollination
+Pollination ..> Pollinator : dependency
+FruitSet ..> Pollination : dependency
 @enduml

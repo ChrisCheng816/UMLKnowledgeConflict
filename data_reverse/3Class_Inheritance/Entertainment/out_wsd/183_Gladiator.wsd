@@ -1,4 +1,4 @@
 @startuml
-Gladiator <|-- Film
-Film <|-- Entertainment
+Gladiator <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

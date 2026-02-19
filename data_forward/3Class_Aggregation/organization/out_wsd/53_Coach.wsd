@@ -1,4 +1,4 @@
 @startuml
-Team o-- Coach
-SportsClub o-- Team
+Team o-- Coach : aggregation
+SportsClub o-- Team : aggregation
 @enduml

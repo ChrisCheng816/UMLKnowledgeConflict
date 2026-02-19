@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Grape
-Grape <|-- Concord
+Fruit <|-- Grape : inheritance
+Grape <|-- Concord : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Pharmacy
-Antacid o-- Cabinet
+Cabinet o-- Pharmacy : aggregation
+Antacid o-- Cabinet : aggregation
 @enduml

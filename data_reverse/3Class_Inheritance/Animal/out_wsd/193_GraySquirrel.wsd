@@ -1,4 +1,4 @@
 @startuml
-GraySquirrel <|-- Squirrel
-Squirrel <|-- Mammal
+GraySquirrel <|-- Squirrel : inheritance
+Squirrel <|-- Mammal : inheritance
 @enduml

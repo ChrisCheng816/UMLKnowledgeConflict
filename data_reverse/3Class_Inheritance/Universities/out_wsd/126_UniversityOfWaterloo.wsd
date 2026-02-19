@@ -1,4 +1,4 @@
 @startuml
-UniversityOfWaterloo <|-- University
-University <|-- EducationalInstitution
+UniversityOfWaterloo <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

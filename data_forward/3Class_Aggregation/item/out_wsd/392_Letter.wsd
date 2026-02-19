@@ -1,4 +1,4 @@
 @startuml
-Box o-- Letter
-Archive o-- Box
+Box o-- Letter : aggregation
+Archive o-- Box : aggregation
 @enduml

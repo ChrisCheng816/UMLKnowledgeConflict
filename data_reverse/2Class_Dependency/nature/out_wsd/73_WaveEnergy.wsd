@@ -1,3 +1,3 @@
 @startuml
-Wind ..> WaveEnergy
+Wind ..> WaveEnergy : dependency
 @enduml

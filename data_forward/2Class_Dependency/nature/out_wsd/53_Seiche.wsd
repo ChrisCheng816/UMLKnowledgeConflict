@@ -1,3 +1,3 @@
 @startuml
-Seiche ..> SeafloorQuake
+Seiche ..> SeafloorQuake : dependency
 @enduml

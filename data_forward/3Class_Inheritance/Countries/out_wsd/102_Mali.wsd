@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Mali
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Mali : inheritance
 @enduml

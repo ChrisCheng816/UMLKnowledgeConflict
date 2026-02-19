@@ -1,4 +1,4 @@
 @startuml
-Athlete <|-- Swimmer
-Swimmer <|-- KatieLedecky
+Athlete <|-- Swimmer : inheritance
+Swimmer <|-- KatieLedecky : inheritance
 @enduml

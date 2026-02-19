@@ -1,4 +1,4 @@
 @startuml
-PoolPump ..> Operating
-Electricity ..> PoolPump
+PoolPump ..> Operating : dependency
+Electricity ..> PoolPump : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Court
-Bailiff o-- Staff
+Staff o-- Court : aggregation
+Bailiff o-- Staff : aggregation
 @enduml

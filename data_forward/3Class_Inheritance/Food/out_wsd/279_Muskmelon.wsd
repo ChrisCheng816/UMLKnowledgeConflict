@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Melon
-Melon <|-- Muskmelon
+Fruit <|-- Melon : inheritance
+Melon <|-- Muskmelon : inheritance
 @enduml

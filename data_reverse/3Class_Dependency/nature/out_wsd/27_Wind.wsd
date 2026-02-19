@@ -1,4 +1,4 @@
 @startuml
-PressureSystem ..> Wind
-TemperatureContrast ..> PressureSystem
+PressureSystem ..> Wind : dependency
+TemperatureContrast ..> PressureSystem : dependency
 @enduml

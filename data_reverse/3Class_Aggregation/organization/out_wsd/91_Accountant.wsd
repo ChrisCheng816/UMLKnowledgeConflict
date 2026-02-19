@@ -1,4 +1,4 @@
 @startuml
-Department o-- Company
-Accountant o-- Department
+Department o-- Company : aggregation
+Accountant o-- Department : aggregation
 @enduml

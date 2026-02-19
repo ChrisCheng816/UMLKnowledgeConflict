@@ -1,4 +1,4 @@
 @startuml
-Multimeter ..> Electricity
-ContinuityTesting ..> Multimeter
+Multimeter ..> Electricity : dependency
+ContinuityTesting ..> Multimeter : dependency
 @enduml

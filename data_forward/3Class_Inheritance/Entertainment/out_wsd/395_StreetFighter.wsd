@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- FightingGame
-FightingGame <|-- StreetFighter
+VideoGame <|-- FightingGame : inheritance
+FightingGame <|-- StreetFighter : inheritance
 @enduml

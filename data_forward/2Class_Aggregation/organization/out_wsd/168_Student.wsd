@@ -1,3 +1,3 @@
 @startuml
-Club o-- Student
+Club o-- Student : aggregation
 @enduml

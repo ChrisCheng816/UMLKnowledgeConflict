@@ -1,3 +1,3 @@
 @startuml
-Hook *-- Frame
+Hook *-- Frame : composition
 @enduml

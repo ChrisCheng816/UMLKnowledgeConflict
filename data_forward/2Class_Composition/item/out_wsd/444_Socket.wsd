@@ -1,3 +1,3 @@
 @startuml
-Base *-- Socket
+Base *-- Socket : composition
 @enduml

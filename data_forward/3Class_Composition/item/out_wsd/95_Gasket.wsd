@@ -1,4 +1,4 @@
 @startuml
-Canister *-- Gasket
-Vacuum *-- Canister
+Canister *-- Gasket : composition
+Vacuum *-- Canister : composition
 @enduml

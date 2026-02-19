@@ -1,4 +1,4 @@
 @startuml
-Cap *-- Gasket
-Bottle *-- Cap
+Cap *-- Gasket : composition
+Bottle *-- Cap : composition
 @enduml

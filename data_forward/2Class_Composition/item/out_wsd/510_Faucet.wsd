@@ -1,3 +1,3 @@
 @startuml
-PlumbingSystem *-- Faucet
+PlumbingSystem *-- Faucet : composition
 @enduml

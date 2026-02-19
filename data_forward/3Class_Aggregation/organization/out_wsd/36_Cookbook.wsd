@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Cookbook
-Library o-- Shelf
+Shelf o-- Cookbook : aggregation
+Library o-- Shelf : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Liechtenstein <|-- Country
-Country <|-- GeopoliticalEntity
+Liechtenstein <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

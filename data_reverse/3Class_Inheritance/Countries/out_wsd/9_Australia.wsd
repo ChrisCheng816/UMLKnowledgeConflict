@@ -1,4 +1,4 @@
 @startuml
-Australia <|-- Country
-Country <|-- GeopoliticalEntity
+Australia <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

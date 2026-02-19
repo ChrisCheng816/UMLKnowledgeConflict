@@ -1,4 +1,4 @@
 @startuml
-Drawer o-- Fork
-Kitchen o-- Drawer
+Drawer o-- Fork : aggregation
+Kitchen o-- Drawer : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Detective o-- Squad
+Detective o-- Squad : aggregation
 @enduml

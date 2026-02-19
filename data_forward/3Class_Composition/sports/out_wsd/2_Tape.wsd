@@ -1,4 +1,4 @@
 @startuml
-Grip *-- Tape
-Racket *-- Grip
+Grip *-- Tape : composition
+Racket *-- Grip : composition
 @enduml

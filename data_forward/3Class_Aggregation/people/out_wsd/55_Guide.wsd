@@ -1,4 +1,4 @@
 @startuml
-Team o-- Guide
-Museum o-- Team
+Team o-- Guide : aggregation
+Museum o-- Team : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Encyclopedia
-Library o-- Shelf
+Shelf o-- Encyclopedia : aggregation
+Library o-- Shelf : aggregation
 @enduml

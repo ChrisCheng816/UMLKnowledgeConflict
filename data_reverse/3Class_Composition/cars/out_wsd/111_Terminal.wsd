@@ -1,4 +1,4 @@
 @startuml
-Battery *-- Car
-Terminal *-- Battery
+Battery *-- Car : composition
+Terminal *-- Battery : composition
 @enduml

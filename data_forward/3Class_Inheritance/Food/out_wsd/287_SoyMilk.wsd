@@ -1,4 +1,4 @@
 @startuml
-Beverage <|-- Milk
-Milk <|-- SoyMilk
+Beverage <|-- Milk : inheritance
+Milk <|-- SoyMilk : inheritance
 @enduml

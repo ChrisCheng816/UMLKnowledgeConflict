@@ -1,4 +1,4 @@
 @startuml
-BandSaw ..> Operating
-Electricity ..> BandSaw
+BandSaw ..> Operating : dependency
+Electricity ..> BandSaw : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Pocket *-- Lining
-Jeans *-- Pocket
+Pocket *-- Lining : composition
+Jeans *-- Pocket : composition
 @enduml

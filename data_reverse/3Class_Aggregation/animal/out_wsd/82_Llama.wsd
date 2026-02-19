@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Reserve
-Llama o-- Enclosure
+Enclosure o-- Reserve : aggregation
+Llama o-- Enclosure : aggregation
 @enduml

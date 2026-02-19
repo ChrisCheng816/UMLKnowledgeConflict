@@ -1,4 +1,4 @@
 @startuml
-Drill ..> Electricity
-HomeRepair ..> Drill
+Drill ..> Electricity : dependency
+HomeRepair ..> Drill : dependency
 @enduml

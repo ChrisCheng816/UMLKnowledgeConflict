@@ -1,4 +1,4 @@
 @startuml
-Head *-- Brain
-Dog *-- Head
+Head *-- Brain : composition
+Dog *-- Head : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Mountain
-Mountain <|-- Aconcagua
+GeographicFeature <|-- Mountain : inheritance
+Mountain <|-- Aconcagua : inheritance
 @enduml

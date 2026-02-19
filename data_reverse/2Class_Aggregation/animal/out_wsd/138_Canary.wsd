@@ -1,3 +1,3 @@
 @startuml
-Canary o-- Cage
+Canary o-- Cage : aggregation
 @enduml

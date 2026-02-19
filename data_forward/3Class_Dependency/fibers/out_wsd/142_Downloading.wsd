@@ -1,4 +1,4 @@
 @startuml
-Dropbox ..> Internet
-Downloading ..> Dropbox
+Dropbox ..> Internet : dependency
+Downloading ..> Dropbox : dependency
 @enduml

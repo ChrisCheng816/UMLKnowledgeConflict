@@ -1,4 +1,4 @@
 @startuml
-Hoop *-- Drum
-Rod *-- Hoop
+Hoop *-- Drum : composition
+Rod *-- Hoop : composition
 @enduml

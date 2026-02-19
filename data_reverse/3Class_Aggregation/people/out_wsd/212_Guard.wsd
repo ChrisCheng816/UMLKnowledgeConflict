@@ -1,4 +1,4 @@
 @startuml
-Squad o-- FireStation
-Guard o-- Squad
+Squad o-- FireStation : aggregation
+Guard o-- Squad : aggregation
 @enduml

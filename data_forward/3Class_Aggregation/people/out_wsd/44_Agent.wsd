@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Agent
-Airline o-- Staff
+Staff o-- Agent : aggregation
+Airline o-- Staff : aggregation
 @enduml

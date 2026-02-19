@@ -1,4 +1,4 @@
 @startuml
-CirrusCloud ..> IceCrystals
-JetStream ..> CirrusCloud
+CirrusCloud ..> IceCrystals : dependency
+JetStream ..> CirrusCloud : dependency
 @enduml

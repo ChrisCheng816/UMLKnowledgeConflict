@@ -1,4 +1,4 @@
 @startuml
-Monitor ..> Displaying
-Electricity ..> Monitor
+Monitor ..> Displaying : dependency
+Electricity ..> Monitor : dependency
 @enduml

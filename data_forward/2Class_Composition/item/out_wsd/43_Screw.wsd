@@ -1,3 +1,3 @@
 @startuml
-Leg *-- Screw
+Leg *-- Screw : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TapeMeasure <|-- MeasuringTool
-MeasuringTool <|-- Tool
+TapeMeasure <|-- MeasuringTool : inheritance
+MeasuringTool <|-- Tool : inheritance
 @enduml

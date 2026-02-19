@@ -1,4 +1,4 @@
 @startuml
-Interstellar <|-- ScienceFictionFilm
-ScienceFictionFilm <|-- Film
+Interstellar <|-- ScienceFictionFilm : inheritance
+ScienceFictionFilm <|-- Film : inheritance
 @enduml

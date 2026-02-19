@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- Shrek2
+Entertainment <|-- Film : inheritance
+Film <|-- Shrek2 : inheritance
 @enduml

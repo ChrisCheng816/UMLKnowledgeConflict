@@ -1,3 +1,3 @@
 @startuml
-Airbag *-- SteeringWheel
+Airbag *-- SteeringWheel : composition
 @enduml

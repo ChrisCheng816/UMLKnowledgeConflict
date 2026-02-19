@@ -1,4 +1,4 @@
 @startuml
-Bark *-- Layer
-Tree *-- Bark
+Bark *-- Layer : composition
+Tree *-- Bark : composition
 @enduml

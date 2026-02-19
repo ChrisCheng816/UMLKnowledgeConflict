@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Shampoo
-Bathroom o-- Cabinet
+Cabinet o-- Shampoo : aggregation
+Bathroom o-- Cabinet : aggregation
 @enduml

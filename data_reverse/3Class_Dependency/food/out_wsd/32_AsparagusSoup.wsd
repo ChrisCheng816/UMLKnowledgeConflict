@@ -1,4 +1,4 @@
 @startuml
-Asparagus ..> AsparagusSoup
-AsparagusPlant ..> Asparagus
+Asparagus ..> AsparagusSoup : dependency
+AsparagusPlant ..> Asparagus : dependency
 @enduml

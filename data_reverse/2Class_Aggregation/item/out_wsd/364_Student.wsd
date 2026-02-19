@@ -1,3 +1,3 @@
 @startuml
-Student o-- Class
+Student o-- Class : aggregation
 @enduml

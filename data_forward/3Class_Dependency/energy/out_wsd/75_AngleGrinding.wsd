@@ -1,4 +1,4 @@
 @startuml
-AngleGrinder ..> Electricity
-AngleGrinding ..> AngleGrinder
+AngleGrinder ..> Electricity : dependency
+AngleGrinding ..> AngleGrinder : dependency
 @enduml

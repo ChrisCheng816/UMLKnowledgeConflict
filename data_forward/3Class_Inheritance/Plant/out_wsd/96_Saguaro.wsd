@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Cactus
-Cactus <|-- Saguaro
+Plant <|-- Cactus : inheritance
+Cactus <|-- Saguaro : inheritance
 @enduml

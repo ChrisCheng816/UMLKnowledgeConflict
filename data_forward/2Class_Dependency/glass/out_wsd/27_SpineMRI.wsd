@@ -1,3 +1,3 @@
 @startuml
-SpineMRI ..> MRIMachine
+SpineMRI ..> MRIMachine : dependency
 @enduml

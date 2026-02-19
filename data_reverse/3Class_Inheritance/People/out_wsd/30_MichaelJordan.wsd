@@ -1,4 +1,4 @@
 @startuml
-MichaelJordan <|-- BasketballPlayer
-BasketballPlayer <|-- Athlete
+MichaelJordan <|-- BasketballPlayer : inheritance
+BasketballPlayer <|-- Athlete : inheritance
 @enduml

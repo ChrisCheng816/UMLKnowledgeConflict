@@ -1,4 +1,4 @@
 @startuml
-Threads ..> Posting
-Internet ..> Threads
+Threads ..> Posting : dependency
+Internet ..> Threads : dependency
 @enduml

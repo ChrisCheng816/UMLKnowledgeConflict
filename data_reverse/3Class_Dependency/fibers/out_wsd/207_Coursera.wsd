@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Coursera
-Electricity ..> Internet
+Internet ..> Coursera : dependency
+Electricity ..> Internet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Squad o-- Paramedic
-Camp o-- Squad
+Squad o-- Paramedic : aggregation
+Camp o-- Squad : aggregation
 @enduml

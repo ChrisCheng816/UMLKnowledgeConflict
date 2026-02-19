@@ -1,4 +1,4 @@
 @startuml
-Container <|-- Bag
-Bag <|-- TrashBag
+Container <|-- Bag : inheritance
+Bag <|-- TrashBag : inheritance
 @enduml

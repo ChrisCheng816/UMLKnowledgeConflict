@@ -1,4 +1,4 @@
 @startuml
-AfricanLion <|-- Lion
-Lion <|-- Mammal
+AfricanLion <|-- Lion : inheritance
+Lion <|-- Mammal : inheritance
 @enduml

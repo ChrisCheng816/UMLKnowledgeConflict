@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- Coco
+Entertainment <|-- Film : inheritance
+Film <|-- Coco : inheritance
 @enduml

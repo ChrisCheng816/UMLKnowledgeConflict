@@ -1,4 +1,4 @@
 @startuml
-Folder o-- Receipt
-Office o-- Folder
+Folder o-- Receipt : aggregation
+Office o-- Folder : aggregation
 @enduml

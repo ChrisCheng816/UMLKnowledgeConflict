@@ -1,4 +1,4 @@
 @startuml
-Catalog o-- Publisher
-Novel o-- Catalog
+Catalog o-- Publisher : aggregation
+Novel o-- Catalog : aggregation
 @enduml

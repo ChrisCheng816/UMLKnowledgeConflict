@@ -1,4 +1,4 @@
 @startuml
-Chopper ..> Operating
-Electricity ..> Chopper
+Chopper ..> Operating : dependency
+Electricity ..> Chopper : dependency
 @enduml

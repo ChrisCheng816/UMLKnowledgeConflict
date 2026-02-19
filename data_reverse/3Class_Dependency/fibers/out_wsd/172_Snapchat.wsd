@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Snapchat
-Electricity ..> Internet
+Internet ..> Snapchat : dependency
+Electricity ..> Internet : dependency
 @enduml

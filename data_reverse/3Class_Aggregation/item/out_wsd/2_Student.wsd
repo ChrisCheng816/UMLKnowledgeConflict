@@ -1,4 +1,4 @@
 @startuml
-School o-- SchoolDistrict
-Student o-- School
+School o-- SchoolDistrict : aggregation
+Student o-- School : aggregation
 @enduml

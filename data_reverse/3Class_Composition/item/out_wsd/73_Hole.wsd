@@ -1,4 +1,4 @@
 @startuml
-Drum *-- Washer
-Hole *-- Drum
+Drum *-- Washer : composition
+Hole *-- Drum : composition
 @enduml

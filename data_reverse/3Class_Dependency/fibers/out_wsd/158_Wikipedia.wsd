@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Wikipedia
-Electricity ..> Internet
+Internet ..> Wikipedia : dependency
+Electricity ..> Internet : dependency
 @enduml

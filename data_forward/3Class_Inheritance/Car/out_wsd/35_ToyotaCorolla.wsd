@@ -1,4 +1,4 @@
 @startuml
-Sedan <|-- CompactSedan
-CompactSedan <|-- ToyotaCorolla
+Sedan <|-- CompactSedan : inheritance
+CompactSedan <|-- ToyotaCorolla : inheritance
 @enduml

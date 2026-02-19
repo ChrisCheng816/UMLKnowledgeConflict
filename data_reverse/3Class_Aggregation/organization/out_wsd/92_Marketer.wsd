@@ -1,4 +1,4 @@
 @startuml
-Department o-- Company
-Marketer o-- Department
+Department o-- Company : aggregation
+Marketer o-- Department : aggregation
 @enduml

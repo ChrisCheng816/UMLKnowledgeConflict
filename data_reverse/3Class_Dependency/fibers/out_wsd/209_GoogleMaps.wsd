@@ -1,4 +1,4 @@
 @startuml
-Internet ..> GoogleMaps
-Electricity ..> Internet
+Internet ..> GoogleMaps : dependency
+Electricity ..> Internet : dependency
 @enduml

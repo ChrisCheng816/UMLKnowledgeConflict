@@ -1,3 +1,3 @@
 @startuml
-Receptionist o-- Office
+Receptionist o-- Office : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cappuccino <|-- Coffee
-Coffee <|-- Beverage
+Cappuccino <|-- Coffee : inheritance
+Coffee <|-- Beverage : inheritance
 @enduml

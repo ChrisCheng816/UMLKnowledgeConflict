@@ -1,3 +1,3 @@
 @startuml
-CardGame <|-- Hearts
+CardGame <|-- Hearts : inheritance
 @enduml

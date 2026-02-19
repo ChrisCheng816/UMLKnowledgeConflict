@@ -1,4 +1,4 @@
 @startuml
-Box o-- ComicBook
-Bookstore o-- Box
+Box o-- ComicBook : aggregation
+Bookstore o-- Box : aggregation
 @enduml

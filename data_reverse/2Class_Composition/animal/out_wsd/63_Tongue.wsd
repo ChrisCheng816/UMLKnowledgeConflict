@@ -1,3 +1,3 @@
 @startuml
-Tongue *-- Muzzle
+Tongue *-- Muzzle : composition
 @enduml

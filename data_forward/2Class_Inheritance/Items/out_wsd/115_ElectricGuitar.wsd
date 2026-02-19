@@ -1,3 +1,3 @@
 @startuml
-Guitar <|-- ElectricGuitar
+Guitar <|-- ElectricGuitar : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Email ..> Internet
+Internet ..> Electricity : dependency
+Email ..> Internet : dependency
 @enduml

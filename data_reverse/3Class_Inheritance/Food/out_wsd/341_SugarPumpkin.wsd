@@ -1,4 +1,4 @@
 @startuml
-SugarPumpkin <|-- Pumpkin
-Pumpkin <|-- Vegetable
+SugarPumpkin <|-- Pumpkin : inheritance
+Pumpkin <|-- Vegetable : inheritance
 @enduml

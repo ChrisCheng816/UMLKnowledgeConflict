@@ -1,4 +1,4 @@
 @startuml
-Stub *-- Barcode
-Ticket *-- Stub
+Stub *-- Barcode : composition
+Ticket *-- Stub : composition
 @enduml

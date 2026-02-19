@@ -1,4 +1,4 @@
 @startuml
-LentilSoup <|-- Soup
-Soup <|-- Dish
+LentilSoup <|-- Soup : inheritance
+Soup <|-- Dish : inheritance
 @enduml

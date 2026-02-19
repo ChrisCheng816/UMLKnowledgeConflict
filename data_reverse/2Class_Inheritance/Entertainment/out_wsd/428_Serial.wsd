@@ -1,3 +1,3 @@
 @startuml
-Serial <|-- Podcast
+Serial <|-- Podcast : inheritance
 @enduml

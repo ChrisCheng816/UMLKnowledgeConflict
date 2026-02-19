@@ -1,4 +1,4 @@
 @startuml
-Railing *-- Post
-Stair *-- Railing
+Railing *-- Post : composition
+Stair *-- Railing : composition
 @enduml

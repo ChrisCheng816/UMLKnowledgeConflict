@@ -1,4 +1,4 @@
 @startuml
-Cauliflower ..> CauliflowerPlant
-CauliflowerRice ..> Cauliflower
+Cauliflower ..> CauliflowerPlant : dependency
+CauliflowerRice ..> Cauliflower : dependency
 @enduml

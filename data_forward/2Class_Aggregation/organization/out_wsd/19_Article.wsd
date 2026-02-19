@@ -1,3 +1,3 @@
 @startuml
-Archive o-- Article
+Archive o-- Article : aggregation
 @enduml

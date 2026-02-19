@@ -1,4 +1,4 @@
 @startuml
-Skyr <|-- Yogurt
-Yogurt <|-- Dairy
+Skyr <|-- Yogurt : inheritance
+Yogurt <|-- Dairy : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GardenTrowel <|-- Trowel
-Trowel <|-- Tool
+GardenTrowel <|-- Trowel : inheritance
+Trowel <|-- Tool : inheritance
 @enduml

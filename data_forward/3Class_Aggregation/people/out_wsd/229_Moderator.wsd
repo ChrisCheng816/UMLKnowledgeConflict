@@ -1,4 +1,4 @@
 @startuml
-Panel o-- Moderator
-Court o-- Panel
+Panel o-- Moderator : aggregation
+Court o-- Panel : aggregation
 @enduml

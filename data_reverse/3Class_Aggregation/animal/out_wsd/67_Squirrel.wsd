@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Sanctuary
-Squirrel o-- Enclosure
+Enclosure o-- Sanctuary : aggregation
+Squirrel o-- Enclosure : aggregation
 @enduml

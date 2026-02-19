@@ -1,4 +1,4 @@
 @startuml
-XRayMachine ..> FractureCheck
-Electricity ..> XRayMachine
+XRayMachine ..> FractureCheck : dependency
+Electricity ..> XRayMachine : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Library o-- Atlas
-School o-- Library
+Library o-- Atlas : aggregation
+School o-- Library : aggregation
 @enduml

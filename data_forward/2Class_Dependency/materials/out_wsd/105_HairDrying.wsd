@@ -1,3 +1,3 @@
 @startuml
-HairDrying ..> HairDryer
+HairDrying ..> HairDryer : dependency
 @enduml

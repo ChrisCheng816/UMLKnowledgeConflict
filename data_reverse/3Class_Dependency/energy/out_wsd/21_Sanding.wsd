@@ -1,4 +1,4 @@
 @startuml
-Sander ..> Sanding
-Electricity ..> Sander
+Sander ..> Sanding : dependency
+Electricity ..> Sander : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Barista o-- Staff
+Barista o-- Staff : aggregation
 @enduml

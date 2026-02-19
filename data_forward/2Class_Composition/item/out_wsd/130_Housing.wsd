@@ -1,3 +1,3 @@
 @startuml
-Pump *-- Housing
+Pump *-- Housing : composition
 @enduml

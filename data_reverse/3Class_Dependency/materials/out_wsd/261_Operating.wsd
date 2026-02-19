@@ -1,4 +1,4 @@
 @startuml
-DroneCharger ..> Operating
-Electricity ..> DroneCharger
+DroneCharger ..> Operating : dependency
+Electricity ..> DroneCharger : dependency
 @enduml

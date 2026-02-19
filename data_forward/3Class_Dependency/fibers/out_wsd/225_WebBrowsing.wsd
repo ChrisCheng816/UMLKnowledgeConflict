@@ -1,4 +1,4 @@
 @startuml
-InternetConnection ..> Modem
-WebBrowsing ..> InternetConnection
+InternetConnection ..> Modem : dependency
+WebBrowsing ..> InternetConnection : dependency
 @enduml

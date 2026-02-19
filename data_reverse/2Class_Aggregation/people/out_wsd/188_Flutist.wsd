@@ -1,3 +1,3 @@
 @startuml
-Flutist o-- Orchestra
+Flutist o-- Orchestra : aggregation
 @enduml

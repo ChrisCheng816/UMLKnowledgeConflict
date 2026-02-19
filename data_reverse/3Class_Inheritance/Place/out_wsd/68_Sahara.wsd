@@ -1,4 +1,4 @@
 @startuml
-Sahara <|-- Desert
-Desert <|-- GeographicFeature
+Sahara <|-- Desert : inheritance
+Desert <|-- GeographicFeature : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-VideoStreaming ..> SmartTV
+VideoStreaming ..> SmartTV : dependency
 @enduml

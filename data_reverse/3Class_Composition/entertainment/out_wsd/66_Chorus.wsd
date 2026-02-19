@@ -1,4 +1,4 @@
 @startuml
-Track *-- Album
-Chorus *-- Track
+Track *-- Album : composition
+Chorus *-- Track : composition
 @enduml

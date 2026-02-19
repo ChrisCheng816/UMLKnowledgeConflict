@@ -1,4 +1,4 @@
 @startuml
-SecurityCamera ..> Electricity
-HomeSecurity ..> SecurityCamera
+SecurityCamera ..> Electricity : dependency
+HomeSecurity ..> SecurityCamera : dependency
 @enduml

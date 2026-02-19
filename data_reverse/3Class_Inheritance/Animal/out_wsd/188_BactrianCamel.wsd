@@ -1,4 +1,4 @@
 @startuml
-BactrianCamel <|-- Camel
-Camel <|-- Mammal
+BactrianCamel <|-- Camel : inheritance
+Camel <|-- Mammal : inheritance
 @enduml

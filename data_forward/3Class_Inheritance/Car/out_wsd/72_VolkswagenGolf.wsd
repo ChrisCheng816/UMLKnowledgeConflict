@@ -1,4 +1,4 @@
 @startuml
-Car <|-- Hatchback
-Hatchback <|-- VolkswagenGolf
+Car <|-- Hatchback : inheritance
+Hatchback <|-- VolkswagenGolf : inheritance
 @enduml

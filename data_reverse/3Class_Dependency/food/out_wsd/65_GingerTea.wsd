@@ -1,4 +1,4 @@
 @startuml
-Ginger ..> GingerTea
-GingerPlant ..> Ginger
+Ginger ..> GingerTea : dependency
+GingerPlant ..> Ginger : dependency
 @enduml

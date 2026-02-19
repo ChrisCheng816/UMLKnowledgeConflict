@@ -1,4 +1,4 @@
 @startuml
-DeskLamp <|-- Lamp
-Lamp <|-- Item
+DeskLamp <|-- Lamp : inheritance
+Lamp <|-- Item : inheritance
 @enduml

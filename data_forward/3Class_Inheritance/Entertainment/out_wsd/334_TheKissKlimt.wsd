@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- TheKissKlimt
+Artwork <|-- Painting : inheritance
+Painting <|-- TheKissKlimt : inheritance
 @enduml

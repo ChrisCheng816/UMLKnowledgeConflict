@@ -1,3 +1,3 @@
 @startuml
-SteeringSystem *-- Pump
+SteeringSystem *-- Pump : composition
 @enduml

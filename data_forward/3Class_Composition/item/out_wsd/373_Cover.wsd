@@ -1,4 +1,4 @@
 @startuml
-Antenna *-- Cover
-Router *-- Antenna
+Antenna *-- Cover : composition
+Router *-- Antenna : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Frame *-- Mirror
-Molding *-- Frame
+Frame *-- Mirror : composition
+Molding *-- Frame : composition
 @enduml

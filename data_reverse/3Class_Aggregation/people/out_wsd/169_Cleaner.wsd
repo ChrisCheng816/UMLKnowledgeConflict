@@ -1,4 +1,4 @@
 @startuml
-Department o-- Company
-Cleaner o-- Department
+Department o-- Company : aggregation
+Cleaner o-- Department : aggregation
 @enduml

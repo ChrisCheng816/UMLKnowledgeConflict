@@ -1,4 +1,4 @@
 @startuml
-Netflix ..> Watching
-Internet ..> Netflix
+Netflix ..> Watching : dependency
+Internet ..> Netflix : dependency
 @enduml

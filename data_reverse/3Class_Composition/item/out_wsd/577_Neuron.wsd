@@ -1,4 +1,4 @@
 @startuml
-Lobe *-- Brain
-Neuron *-- Lobe
+Lobe *-- Brain : composition
+Neuron *-- Lobe : composition
 @enduml

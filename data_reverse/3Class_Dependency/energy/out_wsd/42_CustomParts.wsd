@@ -1,4 +1,4 @@
 @startuml
-3DPrinter ..> CustomParts
-Electricity ..> 3DPrinter
+3DPrinter ..> CustomParts : dependency
+Electricity ..> 3DPrinter : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Instacart ..> Internet
+Internet ..> Electricity : dependency
+Instacart ..> Internet : dependency
 @enduml

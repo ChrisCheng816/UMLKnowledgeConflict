@@ -1,4 +1,4 @@
 @startuml
-Jeep <|-- CarManufacturer
-CarManufacturer <|-- Manufacturer
+Jeep <|-- CarManufacturer : inheritance
+CarManufacturer <|-- Manufacturer : inheritance
 @enduml

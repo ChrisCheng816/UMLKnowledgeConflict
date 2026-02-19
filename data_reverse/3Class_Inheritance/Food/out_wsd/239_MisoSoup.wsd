@@ -1,4 +1,4 @@
 @startuml
-MisoSoup <|-- Soup
-Soup <|-- Dish
+MisoSoup <|-- Soup : inheritance
+Soup <|-- Dish : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Bird <|-- Owl
-Owl <|-- SnowyOwl
+Bird <|-- Owl : inheritance
+Owl <|-- SnowyOwl : inheritance
 @enduml

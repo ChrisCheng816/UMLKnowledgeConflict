@@ -1,4 +1,4 @@
 @startuml
-Minivan <|-- Van
-Van <|-- Vehicle
+Minivan <|-- Van : inheritance
+Van <|-- Vehicle : inheritance
 @enduml

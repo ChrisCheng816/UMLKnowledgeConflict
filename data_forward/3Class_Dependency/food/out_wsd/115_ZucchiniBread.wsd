@@ -1,4 +1,4 @@
 @startuml
-Zucchini ..> ZucchiniPlant
-ZucchiniBread ..> Zucchini
+Zucchini ..> ZucchiniPlant : dependency
+ZucchiniBread ..> Zucchini : dependency
 @enduml

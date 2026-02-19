@@ -1,4 +1,4 @@
 @startuml
-Club o-- University
-Hiker o-- Club
+Club o-- University : aggregation
+Hiker o-- Club : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-EpicGames ..> Internet
+Internet ..> Electricity : dependency
+EpicGames ..> Internet : dependency
 @enduml

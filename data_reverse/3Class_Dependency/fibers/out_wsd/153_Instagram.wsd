@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Instagram
-Electricity ..> Internet
+Internet ..> Instagram : dependency
+Electricity ..> Internet : dependency
 @enduml

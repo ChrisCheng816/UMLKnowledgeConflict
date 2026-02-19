@@ -1,4 +1,4 @@
 @startuml
-EuropeanCountry <|-- CentralEuropeanCountry
-CentralEuropeanCountry <|-- Slovakia
+EuropeanCountry <|-- CentralEuropeanCountry : inheritance
+CentralEuropeanCountry <|-- Slovakia : inheritance
 @enduml

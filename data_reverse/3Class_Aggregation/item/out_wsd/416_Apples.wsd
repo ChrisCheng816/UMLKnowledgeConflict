@@ -1,4 +1,4 @@
 @startuml
-Bin o-- GroceryStore
-Apples o-- Bin
+Bin o-- GroceryStore : aggregation
+Apples o-- Bin : aggregation
 @enduml

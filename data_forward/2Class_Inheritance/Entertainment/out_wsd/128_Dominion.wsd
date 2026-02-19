@@ -1,3 +1,3 @@
 @startuml
-BoardGame <|-- Dominion
+BoardGame <|-- Dominion : inheritance
 @enduml

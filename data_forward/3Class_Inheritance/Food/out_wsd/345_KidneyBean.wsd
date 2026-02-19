@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Bean
-Bean <|-- KidneyBean
+Vegetable <|-- Bean : inheritance
+Bean <|-- KidneyBean : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Gymnastics <|-- ArtisticGymnastics
-ArtisticGymnastics <|-- BalanceBeam
+Gymnastics <|-- ArtisticGymnastics : inheritance
+ArtisticGymnastics <|-- BalanceBeam : inheritance
 @enduml

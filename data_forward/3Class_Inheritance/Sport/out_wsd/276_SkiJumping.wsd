@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Skiing
-Skiing <|-- SkiJumping
+Sport <|-- Skiing : inheritance
+Skiing <|-- SkiJumping : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Kitchen *-- House
-Cabinet *-- Kitchen
+Kitchen *-- House : composition
+Cabinet *-- Kitchen : composition
 @enduml

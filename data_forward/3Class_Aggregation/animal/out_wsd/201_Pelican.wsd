@@ -1,4 +1,4 @@
 @startuml
-Flock o-- Pelican
-Reserve o-- Flock
+Flock o-- Pelican : aggregation
+Reserve o-- Flock : aggregation
 @enduml

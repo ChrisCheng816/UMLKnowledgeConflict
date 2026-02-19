@@ -1,3 +1,3 @@
 @startuml
-Herd o-- Deer
+Herd o-- Deer : aggregation
 @enduml

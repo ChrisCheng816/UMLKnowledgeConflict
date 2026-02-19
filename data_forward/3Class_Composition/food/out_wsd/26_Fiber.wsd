@@ -1,4 +1,4 @@
 @startuml
-Peel *-- Fiber
-Banana *-- Peel
+Peel *-- Fiber : composition
+Banana *-- Peel : composition
 @enduml

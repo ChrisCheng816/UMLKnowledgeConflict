@@ -1,4 +1,4 @@
 @startuml
-Wingspan <|-- BoardGame
-BoardGame <|-- Game
+Wingspan <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

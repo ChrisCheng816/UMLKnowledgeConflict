@@ -1,4 +1,4 @@
 @startuml
-Paper ..> PaperPrinting
-Trees ..> Paper
+Paper ..> PaperPrinting : dependency
+Trees ..> Paper : dependency
 @enduml

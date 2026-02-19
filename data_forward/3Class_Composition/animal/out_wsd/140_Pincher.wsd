@@ -1,4 +1,4 @@
 @startuml
-Claw *-- Pincher
-Lobster *-- Claw
+Claw *-- Pincher : composition
+Lobster *-- Claw : composition
 @enduml

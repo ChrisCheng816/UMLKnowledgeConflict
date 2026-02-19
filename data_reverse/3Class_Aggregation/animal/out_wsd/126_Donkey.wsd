@@ -1,4 +1,4 @@
 @startuml
-Pen o-- Ranch
-Donkey o-- Pen
+Pen o-- Ranch : aggregation
+Donkey o-- Pen : aggregation
 @enduml

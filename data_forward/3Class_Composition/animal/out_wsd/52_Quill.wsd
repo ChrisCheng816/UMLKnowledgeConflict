@@ -1,4 +1,4 @@
 @startuml
-Feather *-- Quill
-Penguin *-- Feather
+Feather *-- Quill : composition
+Penguin *-- Feather : composition
 @enduml

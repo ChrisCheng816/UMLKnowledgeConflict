@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Person
-Tragus *-- Ear
+Ear *-- Person : composition
+Tragus *-- Ear : composition
 @enduml

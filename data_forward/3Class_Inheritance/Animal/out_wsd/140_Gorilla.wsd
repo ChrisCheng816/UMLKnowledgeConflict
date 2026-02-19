@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Ape
-Ape <|-- Gorilla
+Mammal <|-- Ape : inheritance
+Ape <|-- Gorilla : inheritance
 @enduml

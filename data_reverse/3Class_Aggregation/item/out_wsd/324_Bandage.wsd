@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Pharmacy
-Bandage o-- Cabinet
+Cabinet o-- Pharmacy : aggregation
+Bandage o-- Cabinet : aggregation
 @enduml

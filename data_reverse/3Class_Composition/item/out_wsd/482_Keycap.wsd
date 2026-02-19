@@ -1,4 +1,4 @@
 @startuml
-Keyboard *-- Laptop
-Keycap *-- Keyboard
+Keyboard *-- Laptop : composition
+Keycap *-- Keyboard : composition
 @enduml

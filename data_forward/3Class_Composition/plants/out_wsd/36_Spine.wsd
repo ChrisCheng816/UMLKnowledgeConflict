@@ -1,4 +1,4 @@
 @startuml
-Stem *-- Spine
-Cactus *-- Stem
+Stem *-- Spine : composition
+Cactus *-- Stem : composition
 @enduml

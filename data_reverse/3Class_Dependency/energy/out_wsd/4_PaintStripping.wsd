@@ -1,4 +1,4 @@
 @startuml
-ElectricHotPlate ..> PaintStripping
-Electricity ..> ElectricHotPlate
+ElectricHotPlate ..> PaintStripping : dependency
+Electricity ..> ElectricHotPlate : dependency
 @enduml

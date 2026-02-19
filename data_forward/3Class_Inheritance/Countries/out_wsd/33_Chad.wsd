@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Chad
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Chad : inheritance
 @enduml

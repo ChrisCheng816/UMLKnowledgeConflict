@@ -1,4 +1,4 @@
 @startuml
-TeaLeaves ..> Tea
-TeaPlant ..> TeaLeaves
+TeaLeaves ..> Tea : dependency
+TeaPlant ..> TeaLeaves : dependency
 @enduml

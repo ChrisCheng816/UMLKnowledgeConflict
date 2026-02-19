@@ -1,4 +1,4 @@
 @startuml
-Siren ..> IntruderAlert
-Electricity ..> Siren
+Siren ..> IntruderAlert : dependency
+Electricity ..> Siren : dependency
 @enduml

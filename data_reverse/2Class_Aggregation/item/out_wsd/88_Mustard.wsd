@@ -1,3 +1,3 @@
 @startuml
-Mustard o-- Bottle
+Mustard o-- Bottle : aggregation
 @enduml

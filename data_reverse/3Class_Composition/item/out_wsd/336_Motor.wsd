@@ -1,4 +1,4 @@
 @startuml
-Drive *-- Desktop
-Motor *-- Drive
+Drive *-- Desktop : composition
+Motor *-- Drive : composition
 @enduml

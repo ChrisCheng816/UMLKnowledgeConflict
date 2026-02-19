@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Brochure
-Library o-- Shelf
+Shelf o-- Brochure : aggregation
+Library o-- Shelf : aggregation
 @enduml

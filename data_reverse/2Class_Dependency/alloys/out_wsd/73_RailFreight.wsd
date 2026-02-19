@@ -1,3 +1,3 @@
 @startuml
-DieselTrain ..> RailFreight
+DieselTrain ..> RailFreight : dependency
 @enduml

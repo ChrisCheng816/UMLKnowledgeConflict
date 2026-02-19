@@ -1,3 +1,3 @@
 @startuml
-DishwasherCycle ..> Dishwasher
+DishwasherCycle ..> Dishwasher : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Gear *-- Sprocket
-Bicycle *-- Gear
+Gear *-- Sprocket : composition
+Bicycle *-- Gear : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Committee o-- Conference
-Organizer o-- Committee
+Committee o-- Conference : aggregation
+Organizer o-- Committee : aggregation
 @enduml

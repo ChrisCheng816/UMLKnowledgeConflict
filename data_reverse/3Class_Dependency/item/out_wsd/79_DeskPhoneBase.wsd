@@ -1,4 +1,4 @@
 @startuml
-TelephoneLine ..> DeskPhoneBase
-WallJack ..> TelephoneLine
+TelephoneLine ..> DeskPhoneBase : dependency
+WallJack ..> TelephoneLine : dependency
 @enduml

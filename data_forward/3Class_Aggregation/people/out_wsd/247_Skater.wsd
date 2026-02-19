@@ -1,4 +1,4 @@
 @startuml
-Team o-- Skater
-Club o-- Team
+Team o-- Skater : aggregation
+Club o-- Team : aggregation
 @enduml

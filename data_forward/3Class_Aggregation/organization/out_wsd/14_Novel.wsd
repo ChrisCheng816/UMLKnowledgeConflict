@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Novel
-Library o-- Shelf
+Shelf o-- Novel : aggregation
+Library o-- Shelf : aggregation
 @enduml

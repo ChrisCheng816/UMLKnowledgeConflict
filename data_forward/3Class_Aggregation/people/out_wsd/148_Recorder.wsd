@@ -1,4 +1,4 @@
 @startuml
-Committee o-- Recorder
-Community o-- Committee
+Committee o-- Recorder : aggregation
+Community o-- Committee : aggregation
 @enduml

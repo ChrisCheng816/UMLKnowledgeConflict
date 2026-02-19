@@ -1,4 +1,4 @@
 @startuml
-Brim *-- Wire
-Hat *-- Brim
+Brim *-- Wire : composition
+Hat *-- Brim : composition
 @enduml

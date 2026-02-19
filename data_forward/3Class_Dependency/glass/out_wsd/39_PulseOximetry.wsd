@@ -1,4 +1,4 @@
 @startuml
-PulseOximeter ..> Battery
-PulseOximetry ..> PulseOximeter
+PulseOximeter ..> Battery : dependency
+PulseOximetry ..> PulseOximeter : dependency
 @enduml

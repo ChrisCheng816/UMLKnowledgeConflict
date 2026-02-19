@@ -1,3 +1,3 @@
 @startuml
-Hanger o-- Shirt
+Hanger o-- Shirt : aggregation
 @enduml

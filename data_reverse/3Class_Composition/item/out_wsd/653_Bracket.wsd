@@ -1,4 +1,4 @@
 @startuml
-Handle *-- Pan
-Bracket *-- Handle
+Handle *-- Pan : composition
+Bracket *-- Handle : composition
 @enduml

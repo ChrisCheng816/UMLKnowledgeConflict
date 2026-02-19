@@ -1,4 +1,4 @@
 @startuml
-Reflection ..> SmoothSurface
-SonarReturn ..> Reflection
+Reflection ..> SmoothSurface : dependency
+SonarReturn ..> Reflection : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Speaker *-- Diaphragm
+Speaker *-- Diaphragm : composition
 @enduml

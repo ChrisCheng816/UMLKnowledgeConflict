@@ -1,3 +1,3 @@
 @startuml
-Enclosure o-- Raccoon
+Enclosure o-- Raccoon : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BrassBirmingham <|-- BoardGame
-BoardGame <|-- Game
+BrassBirmingham <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

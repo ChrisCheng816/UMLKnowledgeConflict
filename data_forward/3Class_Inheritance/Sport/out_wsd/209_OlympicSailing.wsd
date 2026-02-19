@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Sailing
-Sailing <|-- OlympicSailing
+Sport <|-- Sailing : inheritance
+Sailing <|-- OlympicSailing : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Department o-- Auditor
-Bank o-- Department
+Department o-- Auditor : aggregation
+Bank o-- Department : aggregation
 @enduml

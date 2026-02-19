@@ -1,4 +1,4 @@
 @startuml
-MuteSwan <|-- Swan
-Swan <|-- Bird
+MuteSwan <|-- Swan : inheritance
+Swan <|-- Bird : inheritance
 @enduml

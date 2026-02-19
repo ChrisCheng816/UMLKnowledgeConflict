@@ -1,4 +1,4 @@
 @startuml
-Flock o-- Sanctuary
-Crane o-- Flock
+Flock o-- Sanctuary : aggregation
+Crane o-- Flock : aggregation
 @enduml

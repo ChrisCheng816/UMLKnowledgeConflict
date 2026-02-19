@@ -1,4 +1,4 @@
 @startuml
-Bowl o-- Chili
-Kitchen o-- Bowl
+Bowl o-- Chili : aggregation
+Kitchen o-- Bowl : aggregation
 @enduml

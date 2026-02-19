@@ -1,4 +1,4 @@
 @startuml
-Shift o-- Factory
-Worker o-- Shift
+Shift o-- Factory : aggregation
+Worker o-- Shift : aggregation
 @enduml

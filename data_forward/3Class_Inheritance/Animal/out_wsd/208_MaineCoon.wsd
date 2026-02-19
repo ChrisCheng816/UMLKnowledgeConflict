@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Cat
-Cat <|-- MaineCoon
+Animal <|-- Cat : inheritance
+Cat <|-- MaineCoon : inheritance
 @enduml

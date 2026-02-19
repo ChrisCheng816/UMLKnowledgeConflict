@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Membrane
-Salmon *-- Gill
+Gill *-- Membrane : composition
+Salmon *-- Gill : composition
 @enduml

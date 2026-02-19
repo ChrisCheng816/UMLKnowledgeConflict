@@ -1,4 +1,4 @@
 @startuml
-Pancetta <|-- CuredMeat
-CuredMeat <|-- Food
+Pancetta <|-- CuredMeat : inheritance
+CuredMeat <|-- Food : inheritance
 @enduml

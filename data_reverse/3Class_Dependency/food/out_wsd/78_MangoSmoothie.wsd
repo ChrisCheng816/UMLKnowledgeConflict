@@ -1,4 +1,4 @@
 @startuml
-Mango ..> MangoSmoothie
-MangoTree ..> Mango
+Mango ..> MangoSmoothie : dependency
+MangoTree ..> Mango : dependency
 @enduml

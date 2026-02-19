@@ -1,4 +1,4 @@
 @startuml
-Polyester ..> Petroleum
-Raincoat ..> Polyester
+Polyester ..> Petroleum : dependency
+Raincoat ..> Polyester : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Page *-- Panel
-Comic *-- Page
+Page *-- Panel : composition
+Comic *-- Page : composition
 @enduml

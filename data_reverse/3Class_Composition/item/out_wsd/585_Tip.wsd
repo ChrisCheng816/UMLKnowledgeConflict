@@ -1,4 +1,4 @@
 @startuml
-Bristle *-- Brush
-Tip *-- Bristle
+Bristle *-- Brush : composition
+Tip *-- Bristle : composition
 @enduml

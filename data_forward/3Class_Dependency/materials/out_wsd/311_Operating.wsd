@@ -1,4 +1,4 @@
 @startuml
-Welder ..> Electricity
-Operating ..> Welder
+Welder ..> Electricity : dependency
+Operating ..> Welder : dependency
 @enduml

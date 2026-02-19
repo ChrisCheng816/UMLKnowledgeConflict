@@ -1,4 +1,4 @@
 @startuml
-LaundryDetergent <|-- Detergent
-Detergent <|-- CleaningSupply
+LaundryDetergent <|-- Detergent : inheritance
+Detergent <|-- CleaningSupply : inheritance
 @enduml

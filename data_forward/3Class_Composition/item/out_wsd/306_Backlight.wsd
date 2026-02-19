@@ -1,4 +1,4 @@
 @startuml
-Keyboard *-- Backlight
-Laptop *-- Keyboard
+Keyboard *-- Backlight : composition
+Laptop *-- Keyboard : composition
 @enduml

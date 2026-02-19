@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Potato
-Potato <|-- RussetPotato
+Vegetable <|-- Potato : inheritance
+Potato <|-- RussetPotato : inheritance
 @enduml

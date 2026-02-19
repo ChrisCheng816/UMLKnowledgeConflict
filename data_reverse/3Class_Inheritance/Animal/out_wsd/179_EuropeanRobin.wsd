@@ -1,4 +1,4 @@
 @startuml
-EuropeanRobin <|-- Robin
-Robin <|-- Bird
+EuropeanRobin <|-- Robin : inheritance
+Robin <|-- Bird : inheritance
 @enduml

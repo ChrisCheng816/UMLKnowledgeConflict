@@ -1,3 +1,3 @@
 @startuml
-Shampoo o-- Cabinet
+Shampoo o-- Cabinet : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Boiling ..> Heat
-Steam ..> Boiling
+Boiling ..> Heat : dependency
+Steam ..> Boiling : dependency
 @enduml

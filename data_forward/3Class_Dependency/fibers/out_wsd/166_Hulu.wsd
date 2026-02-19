@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Hulu ..> Internet
+Internet ..> Electricity : dependency
+Hulu ..> Internet : dependency
 @enduml

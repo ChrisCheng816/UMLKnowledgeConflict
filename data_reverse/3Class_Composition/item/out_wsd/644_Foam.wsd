@@ -1,4 +1,4 @@
 @startuml
-Arm *-- Sofa
-Foam *-- Arm
+Arm *-- Sofa : composition
+Foam *-- Arm : composition
 @enduml

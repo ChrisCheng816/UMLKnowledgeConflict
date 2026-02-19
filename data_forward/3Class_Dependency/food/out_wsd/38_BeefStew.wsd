@@ -1,4 +1,4 @@
 @startuml
-Beef ..> CattleRanch
-BeefStew ..> Beef
+Beef ..> CattleRanch : dependency
+BeefStew ..> Beef : dependency
 @enduml

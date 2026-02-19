@@ -1,4 +1,4 @@
 @startuml
-QueenPineapple <|-- Pineapple
-Pineapple <|-- Fruit
+QueenPineapple <|-- Pineapple : inheritance
+Pineapple <|-- Fruit : inheritance
 @enduml

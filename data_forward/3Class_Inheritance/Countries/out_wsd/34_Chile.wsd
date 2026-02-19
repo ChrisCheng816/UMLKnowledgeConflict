@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Chile
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Chile : inheritance
 @enduml

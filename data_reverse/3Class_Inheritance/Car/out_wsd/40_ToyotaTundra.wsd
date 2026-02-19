@@ -1,4 +1,4 @@
 @startuml
-ToyotaTundra <|-- FullSizePickup
-FullSizePickup <|-- PickupTruck
+ToyotaTundra <|-- FullSizePickup : inheritance
+FullSizePickup <|-- PickupTruck : inheritance
 @enduml

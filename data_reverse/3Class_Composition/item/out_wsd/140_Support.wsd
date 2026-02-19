@@ -1,4 +1,4 @@
 @startuml
-Turntable *-- Microwave
-Support *-- Turntable
+Turntable *-- Microwave : composition
+Support *-- Turntable : composition
 @enduml

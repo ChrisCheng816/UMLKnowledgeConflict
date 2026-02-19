@@ -1,4 +1,4 @@
 @startuml
-Cob *-- Kernel
-Corn *-- Cob
+Cob *-- Kernel : composition
+Corn *-- Cob : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Turmeric ..> TurmericPlant
-TurmericTea ..> Turmeric
+Turmeric ..> TurmericPlant : dependency
+TurmericTea ..> Turmeric : dependency
 @enduml

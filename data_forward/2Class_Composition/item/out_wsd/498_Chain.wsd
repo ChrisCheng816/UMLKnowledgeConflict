@@ -1,3 +1,3 @@
 @startuml
-Drivetrain *-- Chain
+Drivetrain *-- Chain : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Group o-- Singer
-Choir o-- Group
+Group o-- Singer : aggregation
+Choir o-- Group : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cilantro ..> CilantroSalsa
-CilantroPlant ..> Cilantro
+Cilantro ..> CilantroSalsa : dependency
+CilantroPlant ..> Cilantro : dependency
 @enduml

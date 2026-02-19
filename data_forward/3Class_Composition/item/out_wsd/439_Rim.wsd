@@ -1,4 +1,4 @@
 @startuml
-Shade *-- Rim
-Lamp *-- Shade
+Shade *-- Rim : composition
+Lamp *-- Shade : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Chimney *-- House
-Liner *-- Chimney
+Chimney *-- House : composition
+Liner *-- Chimney : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Rail *-- Wheel
-Drawer *-- Rail
+Rail *-- Wheel : composition
+Drawer *-- Rail : composition
 @enduml

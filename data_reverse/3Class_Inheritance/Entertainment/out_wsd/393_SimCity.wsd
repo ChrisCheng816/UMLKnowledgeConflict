@@ -1,4 +1,4 @@
 @startuml
-SimCity <|-- SimulationGame
-SimulationGame <|-- VideoGame
+SimCity <|-- SimulationGame : inheritance
+SimulationGame <|-- VideoGame : inheritance
 @enduml

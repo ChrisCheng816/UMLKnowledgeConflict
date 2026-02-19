@@ -1,4 +1,4 @@
 @startuml
-Somalia <|-- Country
-Country <|-- GeopoliticalEntity
+Somalia <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

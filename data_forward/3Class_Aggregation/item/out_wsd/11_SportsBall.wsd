@@ -1,4 +1,4 @@
 @startuml
-Locker o-- SportsBall
-SportsShop o-- Locker
+Locker o-- SportsBall : aggregation
+SportsShop o-- Locker : aggregation
 @enduml

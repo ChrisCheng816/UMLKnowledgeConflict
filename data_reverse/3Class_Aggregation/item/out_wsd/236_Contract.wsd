@@ -1,4 +1,4 @@
 @startuml
-Folder o-- Office
-Contract o-- Folder
+Folder o-- Office : aggregation
+Contract o-- Folder : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Semolina ..> Pasta
-Wheat ..> Semolina
+Semolina ..> Pasta : dependency
+Wheat ..> Semolina : dependency
 @enduml

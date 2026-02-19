@@ -1,4 +1,4 @@
 @startuml
-Dropbox ..> Sharing
-Internet ..> Dropbox
+Dropbox ..> Sharing : dependency
+Internet ..> Dropbox : dependency
 @enduml

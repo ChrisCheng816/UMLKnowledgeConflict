@@ -1,4 +1,4 @@
 @startuml
-AngelaMerkel <|-- Chancellor
-Chancellor <|-- Politician
+AngelaMerkel <|-- Chancellor : inheritance
+Chancellor <|-- Politician : inheritance
 @enduml

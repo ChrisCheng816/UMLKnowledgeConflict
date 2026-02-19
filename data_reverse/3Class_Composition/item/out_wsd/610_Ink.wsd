@@ -1,4 +1,4 @@
 @startuml
-Cartridge *-- Printer
-Ink *-- Cartridge
+Cartridge *-- Printer : composition
+Ink *-- Cartridge : composition
 @enduml

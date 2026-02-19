@@ -1,3 +1,3 @@
 @startuml
-Flash *-- CameraModule
+Flash *-- CameraModule : composition
 @enduml

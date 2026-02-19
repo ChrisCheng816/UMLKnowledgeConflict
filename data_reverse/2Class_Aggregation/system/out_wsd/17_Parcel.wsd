@@ -1,3 +1,3 @@
 @startuml
-Parcel o-- Depot
+Parcel o-- Depot : aggregation
 @enduml

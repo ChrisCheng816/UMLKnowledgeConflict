@@ -1,4 +1,4 @@
 @startuml
-CakeFlour ..> Cake
-Wheat ..> CakeFlour
+CakeFlour ..> Cake : dependency
+Wheat ..> CakeFlour : dependency
 @enduml

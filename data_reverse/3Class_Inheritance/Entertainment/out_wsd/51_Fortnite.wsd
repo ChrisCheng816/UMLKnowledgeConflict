@@ -1,4 +1,4 @@
 @startuml
-Fortnite <|-- VideoGame
-VideoGame <|-- Game
+Fortnite <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

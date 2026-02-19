@@ -1,4 +1,4 @@
 @startuml
-WoolScarf <|-- Scarf
-Scarf <|-- Accessory
+WoolScarf <|-- Scarf : inheritance
+Scarf <|-- Accessory : inheritance
 @enduml

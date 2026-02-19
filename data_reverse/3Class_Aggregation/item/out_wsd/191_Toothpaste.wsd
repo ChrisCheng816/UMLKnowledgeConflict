@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Bathroom
-Toothpaste o-- Cabinet
+Cabinet o-- Bathroom : aggregation
+Toothpaste o-- Cabinet : aggregation
 @enduml

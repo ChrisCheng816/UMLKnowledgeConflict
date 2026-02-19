@@ -1,3 +1,3 @@
 @startuml
-Microscope o-- Laboratory
+Microscope o-- Laboratory : aggregation
 @enduml

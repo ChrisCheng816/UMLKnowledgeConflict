@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Factory
-Supervisor o-- Staff
+Staff o-- Factory : aggregation
+Supervisor o-- Staff : aggregation
 @enduml

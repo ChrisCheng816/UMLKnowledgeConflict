@@ -1,3 +1,3 @@
 @startuml
-Duck o-- Coop
+Duck o-- Coop : aggregation
 @enduml

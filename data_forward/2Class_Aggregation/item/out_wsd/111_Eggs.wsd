@@ -1,3 +1,3 @@
 @startuml
-Cart o-- Eggs
+Cart o-- Eggs : aggregation
 @enduml

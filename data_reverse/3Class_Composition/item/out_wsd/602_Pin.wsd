@@ -1,4 +1,4 @@
 @startuml
-Jack *-- Headphone
-Pin *-- Jack
+Jack *-- Headphone : composition
+Pin *-- Jack : composition
 @enduml

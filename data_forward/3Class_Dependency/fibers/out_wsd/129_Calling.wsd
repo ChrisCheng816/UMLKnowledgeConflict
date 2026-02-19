@@ -1,4 +1,4 @@
 @startuml
-GoogleMeet ..> Internet
-Calling ..> GoogleMeet
+GoogleMeet ..> Internet : dependency
+Calling ..> GoogleMeet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Shark
-Shark <|-- GreatWhiteShark
+Animal <|-- Shark : inheritance
+Shark <|-- GreatWhiteShark : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Drinkware <|-- Mug
-Mug <|-- BeerMug
+Drinkware <|-- Mug : inheritance
+Mug <|-- BeerMug : inheritance
 @enduml

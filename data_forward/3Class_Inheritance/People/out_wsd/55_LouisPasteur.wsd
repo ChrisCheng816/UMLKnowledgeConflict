@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- Microbiologist
-Microbiologist <|-- LouisPasteur
+Scientist <|-- Microbiologist : inheritance
+Microbiologist <|-- LouisPasteur : inheritance
 @enduml

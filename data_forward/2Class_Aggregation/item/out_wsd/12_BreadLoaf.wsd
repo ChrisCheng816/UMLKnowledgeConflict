@@ -1,3 +1,3 @@
 @startuml
-Tray o-- BreadLoaf
+Tray o-- BreadLoaf : aggregation
 @enduml

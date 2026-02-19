@@ -1,4 +1,4 @@
 @startuml
-Pack o-- Zoo
-Coyote o-- Pack
+Pack o-- Zoo : aggregation
+Coyote o-- Pack : aggregation
 @enduml

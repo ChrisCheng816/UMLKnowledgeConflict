@@ -1,4 +1,4 @@
 @startuml
-ChiliPeppers ..> HotSauce
-PepperPlant ..> ChiliPeppers
+ChiliPeppers ..> HotSauce : dependency
+PepperPlant ..> ChiliPeppers : dependency
 @enduml

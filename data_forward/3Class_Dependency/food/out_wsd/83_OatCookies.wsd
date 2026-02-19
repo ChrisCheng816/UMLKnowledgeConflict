@@ -1,4 +1,4 @@
 @startuml
-OatFlour ..> Oats
-OatCookies ..> OatFlour
+OatFlour ..> Oats : dependency
+OatCookies ..> OatFlour : dependency
 @enduml

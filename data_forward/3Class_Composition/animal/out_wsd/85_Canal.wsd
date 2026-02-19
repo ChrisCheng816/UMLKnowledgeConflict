@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Canal
-Person *-- Ear
+Ear *-- Canal : composition
+Person *-- Ear : composition
 @enduml

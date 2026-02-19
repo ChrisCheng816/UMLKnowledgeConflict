@@ -1,4 +1,4 @@
 @startuml
-Garlic <|-- AlliumVegetable
-AlliumVegetable <|-- Vegetable
+Garlic <|-- AlliumVegetable : inheritance
+AlliumVegetable <|-- Vegetable : inheritance
 @enduml

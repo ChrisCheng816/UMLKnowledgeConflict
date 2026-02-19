@@ -1,3 +1,3 @@
 @startuml
-Dancer o-- Club
+Dancer o-- Club : aggregation
 @enduml

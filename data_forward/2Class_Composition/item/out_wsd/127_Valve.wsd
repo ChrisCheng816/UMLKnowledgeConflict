@@ -1,3 +1,3 @@
 @startuml
-Pump *-- Valve
+Pump *-- Valve : composition
 @enduml

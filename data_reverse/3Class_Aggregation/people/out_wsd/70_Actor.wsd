@@ -1,4 +1,4 @@
 @startuml
-Team o-- FilmSet
-Actor o-- Team
+Team o-- FilmSet : aggregation
+Actor o-- Team : aggregation
 @enduml

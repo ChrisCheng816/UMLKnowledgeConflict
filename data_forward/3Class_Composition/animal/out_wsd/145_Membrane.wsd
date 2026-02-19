@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Membrane
-Bat *-- Wing
+Wing *-- Membrane : composition
+Bat *-- Wing : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Program o-- Song
-RadioStation o-- Program
+Program o-- Song : aggregation
+RadioStation o-- Program : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Oldboy <|-- Film
-Film <|-- Entertainment
+Oldboy <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

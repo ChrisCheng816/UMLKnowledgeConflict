@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame
-BoardGame <|-- SettlersOfCatan
+Game <|-- BoardGame : inheritance
+BoardGame <|-- SettlersOfCatan : inheritance
 @enduml

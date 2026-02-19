@@ -1,4 +1,4 @@
 @startuml
-CanadaGoose <|-- Goose
-Goose <|-- Bird
+CanadaGoose <|-- Goose : inheritance
+Goose <|-- Bird : inheritance
 @enduml

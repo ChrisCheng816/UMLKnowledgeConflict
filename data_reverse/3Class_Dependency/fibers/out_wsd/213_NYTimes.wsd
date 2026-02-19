@@ -1,4 +1,4 @@
 @startuml
-Internet ..> NYTimes
-Electricity ..> Internet
+Internet ..> NYTimes : dependency
+Electricity ..> Internet : dependency
 @enduml

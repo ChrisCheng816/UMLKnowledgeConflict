@@ -1,3 +1,3 @@
 @startuml
-Bag o-- Chocolate
+Bag o-- Chocolate : aggregation
 @enduml

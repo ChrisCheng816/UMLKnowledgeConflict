@@ -1,3 +1,3 @@
 @startuml
-Motherboard *-- Connector
+Motherboard *-- Connector : composition
 @enduml

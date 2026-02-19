@@ -1,4 +1,4 @@
 @startuml
-Candle <|-- Light
-Light <|-- Item
+Candle <|-- Light : inheritance
+Light <|-- Item : inheritance
 @enduml

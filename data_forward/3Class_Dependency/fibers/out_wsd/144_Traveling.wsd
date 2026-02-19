@@ -1,4 +1,4 @@
 @startuml
-Uber ..> Internet
-Traveling ..> Uber
+Uber ..> Internet : dependency
+Traveling ..> Uber : dependency
 @enduml

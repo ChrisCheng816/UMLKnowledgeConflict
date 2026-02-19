@@ -1,4 +1,4 @@
 @startuml
-DeskPhoneBase ..> TelephoneLine
-OfficePhone ..> DeskPhoneBase
+DeskPhoneBase ..> TelephoneLine : dependency
+OfficePhone ..> DeskPhoneBase : dependency
 @enduml

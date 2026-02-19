@@ -1,4 +1,4 @@
 @startuml
-Minecraft <|-- SandboxGame
-SandboxGame <|-- VideoGame
+Minecraft <|-- SandboxGame : inheritance
+SandboxGame <|-- VideoGame : inheritance
 @enduml

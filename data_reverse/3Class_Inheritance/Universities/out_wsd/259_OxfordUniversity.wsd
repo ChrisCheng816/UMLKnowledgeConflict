@@ -1,4 +1,4 @@
 @startuml
-OxfordUniversity <|-- CollegiateUniversity
-CollegiateUniversity <|-- University
+OxfordUniversity <|-- CollegiateUniversity : inheritance
+CollegiateUniversity <|-- University : inheritance
 @enduml

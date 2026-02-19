@@ -1,4 +1,4 @@
 @startuml
-Stanza *-- Poem
-Line *-- Stanza
+Stanza *-- Poem : composition
+Line *-- Stanza : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Door *-- Peephole
-House *-- Door
+Door *-- Peephole : composition
+House *-- Door : composition
 @enduml

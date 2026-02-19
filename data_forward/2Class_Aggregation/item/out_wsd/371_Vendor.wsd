@@ -1,3 +1,3 @@
 @startuml
-Booth o-- Vendor
+Booth o-- Vendor : aggregation
 @enduml

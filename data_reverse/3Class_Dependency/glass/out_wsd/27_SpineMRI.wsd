@@ -1,4 +1,4 @@
 @startuml
-MRIMachine ..> SpineMRI
-Electricity ..> MRIMachine
+MRIMachine ..> SpineMRI : dependency
+Electricity ..> MRIMachine : dependency
 @enduml

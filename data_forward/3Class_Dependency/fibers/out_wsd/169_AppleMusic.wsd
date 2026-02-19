@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-AppleMusic ..> Internet
+Internet ..> Electricity : dependency
+AppleMusic ..> Internet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Dock o-- Marina
-Boat o-- Dock
+Dock o-- Marina : aggregation
+Boat o-- Dock : aggregation
 @enduml

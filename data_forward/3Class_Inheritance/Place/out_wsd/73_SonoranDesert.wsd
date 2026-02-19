@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Desert
-Desert <|-- SonoranDesert
+GeographicFeature <|-- Desert : inheritance
+Desert <|-- SonoranDesert : inheritance
 @enduml

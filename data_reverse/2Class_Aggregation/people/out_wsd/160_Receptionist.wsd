@@ -1,3 +1,3 @@
 @startuml
-Receptionist o-- Department
+Receptionist o-- Department : aggregation
 @enduml

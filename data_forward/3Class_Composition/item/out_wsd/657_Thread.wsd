@@ -1,4 +1,4 @@
 @startuml
-Spine *-- Thread
-Book *-- Spine
+Spine *-- Thread : composition
+Book *-- Spine : composition
 @enduml

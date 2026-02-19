@@ -1,4 +1,4 @@
 @startuml
-Molasses ..> BrownSugar
-Sugarcane ..> Molasses
+Molasses ..> BrownSugar : dependency
+Sugarcane ..> Molasses : dependency
 @enduml

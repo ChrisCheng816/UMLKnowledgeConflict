@@ -1,4 +1,4 @@
 @startuml
-Akira <|-- Film
-Film <|-- Entertainment
+Akira <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

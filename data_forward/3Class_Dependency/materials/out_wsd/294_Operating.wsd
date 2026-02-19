@@ -1,4 +1,4 @@
 @startuml
-RiceWarmer ..> Electricity
-Operating ..> RiceWarmer
+RiceWarmer ..> Electricity : dependency
+Operating ..> RiceWarmer : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Heart *-- Ventricle
-Person *-- Heart
+Heart *-- Ventricle : composition
+Person *-- Heart : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Paintbrush <|-- PaintingTool
-PaintingTool <|-- Tool
+Paintbrush <|-- PaintingTool : inheritance
+PaintingTool <|-- Tool : inheritance
 @enduml

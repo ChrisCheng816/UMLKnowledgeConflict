@@ -1,4 +1,4 @@
 @startuml
-MedicalHelicopter ..> JetFuel
-AirTravel ..> MedicalHelicopter
+MedicalHelicopter ..> JetFuel : dependency
+AirTravel ..> MedicalHelicopter : dependency
 @enduml

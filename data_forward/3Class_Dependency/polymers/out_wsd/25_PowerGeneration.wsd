@@ -1,4 +1,4 @@
 @startuml
-CoalPlant ..> Coal
-PowerGeneration ..> CoalPlant
+CoalPlant ..> Coal : dependency
+PowerGeneration ..> CoalPlant : dependency
 @enduml

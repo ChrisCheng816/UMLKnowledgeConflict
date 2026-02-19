@@ -1,3 +1,3 @@
 @startuml
-FishTacos ..> Fish
+FishTacos ..> Fish : dependency
 @enduml

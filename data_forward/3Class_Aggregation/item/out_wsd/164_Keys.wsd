@@ -1,4 +1,4 @@
 @startuml
-Drawer o-- Keys
-Bedroom o-- Drawer
+Drawer o-- Keys : aggregation
+Bedroom o-- Drawer : aggregation
 @enduml

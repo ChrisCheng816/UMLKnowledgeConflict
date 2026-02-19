@@ -1,3 +1,3 @@
 @startuml
-Board *-- Shelf
+Board *-- Shelf : composition
 @enduml

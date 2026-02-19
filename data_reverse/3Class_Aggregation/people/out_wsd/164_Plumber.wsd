@@ -1,4 +1,4 @@
 @startuml
-Department o-- Factory
-Plumber o-- Department
+Department o-- Factory : aggregation
+Plumber o-- Department : aggregation
 @enduml

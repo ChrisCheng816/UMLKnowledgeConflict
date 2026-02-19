@@ -1,3 +1,3 @@
 @startuml
-MedjoolDate <|-- Date
+MedjoolDate <|-- Date : inheritance
 @enduml

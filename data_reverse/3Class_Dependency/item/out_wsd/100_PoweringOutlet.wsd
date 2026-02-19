@@ -1,4 +1,4 @@
 @startuml
-WallOutlet ..> PoweringOutlet
-CircuitBreakerPanel ..> WallOutlet
+WallOutlet ..> PoweringOutlet : dependency
+CircuitBreakerPanel ..> WallOutlet : dependency
 @enduml

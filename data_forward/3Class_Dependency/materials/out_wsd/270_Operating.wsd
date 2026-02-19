@@ -1,4 +1,4 @@
 @startuml
-EllipticalMachine ..> Electricity
-Operating ..> EllipticalMachine
+EllipticalMachine ..> Electricity : dependency
+Operating ..> EllipticalMachine : dependency
 @enduml

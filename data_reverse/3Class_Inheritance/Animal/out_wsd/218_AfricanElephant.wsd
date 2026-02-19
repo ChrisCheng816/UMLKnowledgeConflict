@@ -1,4 +1,4 @@
 @startuml
-AfricanElephant <|-- Elephant
-Elephant <|-- Animal
+AfricanElephant <|-- Elephant : inheritance
+Elephant <|-- Animal : inheritance
 @enduml

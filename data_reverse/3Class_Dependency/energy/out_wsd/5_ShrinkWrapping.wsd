@@ -1,4 +1,4 @@
 @startuml
-ElectricHotPlate ..> ShrinkWrapping
-Electricity ..> ElectricHotPlate
+ElectricHotPlate ..> ShrinkWrapping : dependency
+Electricity ..> ElectricHotPlate : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Aviary o-- Zoo
-Pelican o-- Aviary
+Aviary o-- Zoo : aggregation
+Pelican o-- Aviary : aggregation
 @enduml

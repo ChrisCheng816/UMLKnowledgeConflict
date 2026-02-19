@@ -1,4 +1,4 @@
 @startuml
-PaintSprayer ..> WallPainting
-Electricity ..> PaintSprayer
+PaintSprayer ..> WallPainting : dependency
+Electricity ..> PaintSprayer : dependency
 @enduml

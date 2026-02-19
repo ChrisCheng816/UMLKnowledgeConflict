@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Pig
-Bristle *-- Skin
+Skin *-- Pig : composition
+Bristle *-- Skin : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MatchPlay <|-- Golf
-Golf <|-- Sport
+MatchPlay <|-- Golf : inheritance
+Golf <|-- Sport : inheritance
 @enduml

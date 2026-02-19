@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Rabbit
-Rabbit <|-- Jackrabbit
+Mammal <|-- Rabbit : inheritance
+Rabbit <|-- Jackrabbit : inheritance
 @enduml

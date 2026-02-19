@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Alipay ..> Internet
+Internet ..> Electricity : dependency
+Alipay ..> Internet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Plastic ..> BottleBlowing
-Petroleum ..> Plastic
+Plastic ..> BottleBlowing : dependency
+Petroleum ..> Plastic : dependency
 @enduml

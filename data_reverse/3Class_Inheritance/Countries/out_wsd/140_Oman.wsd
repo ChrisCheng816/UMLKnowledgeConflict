@@ -1,4 +1,4 @@
 @startuml
-Oman <|-- Country
-Country <|-- GeopoliticalEntity
+Oman <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

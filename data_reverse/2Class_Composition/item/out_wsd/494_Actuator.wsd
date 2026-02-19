@@ -1,3 +1,3 @@
 @startuml
-Actuator *-- CameraModule
+Actuator *-- CameraModule : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cuba <|-- Island
-Island <|-- GeographicFeature
+Cuba <|-- Island : inheritance
+Island <|-- GeographicFeature : inheritance
 @enduml

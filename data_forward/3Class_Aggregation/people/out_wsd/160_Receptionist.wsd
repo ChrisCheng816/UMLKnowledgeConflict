@@ -1,4 +1,4 @@
 @startuml
-Department o-- Receptionist
-Company o-- Department
+Department o-- Receptionist : aggregation
+Company o-- Department : aggregation
 @enduml

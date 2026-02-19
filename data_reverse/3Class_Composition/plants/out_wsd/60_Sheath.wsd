@@ -1,4 +1,4 @@
 @startuml
-Needle *-- Pine
-Sheath *-- Needle
+Needle *-- Pine : composition
+Sheath *-- Needle : composition
 @enduml

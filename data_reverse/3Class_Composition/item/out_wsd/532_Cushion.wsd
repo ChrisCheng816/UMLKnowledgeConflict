@@ -1,4 +1,4 @@
 @startuml
-Earcup *-- Headphone
-Cushion *-- Earcup
+Earcup *-- Headphone : composition
+Cushion *-- Earcup : composition
 @enduml

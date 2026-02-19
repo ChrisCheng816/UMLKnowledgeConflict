@@ -1,3 +1,3 @@
 @startuml
-Drying ..> HeatGun
+Drying ..> HeatGun : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-State <|-- Emirate
-Emirate <|-- Qatar
+State <|-- Emirate : inheritance
+Emirate <|-- Qatar : inheritance
 @enduml

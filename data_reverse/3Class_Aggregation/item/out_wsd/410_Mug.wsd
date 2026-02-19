@@ -1,4 +1,4 @@
 @startuml
-Rack o-- Kitchen
-Mug o-- Rack
+Rack o-- Kitchen : aggregation
+Mug o-- Rack : aggregation
 @enduml

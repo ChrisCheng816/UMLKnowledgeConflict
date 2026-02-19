@@ -1,4 +1,4 @@
 @startuml
-Basket o-- Potato
-Supermarket o-- Basket
+Basket o-- Potato : aggregation
+Supermarket o-- Basket : aggregation
 @enduml

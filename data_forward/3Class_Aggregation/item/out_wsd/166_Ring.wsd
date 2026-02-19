@@ -1,4 +1,4 @@
 @startuml
-Drawer o-- Ring
-Bedroom o-- Drawer
+Drawer o-- Ring : aggregation
+Bedroom o-- Drawer : aggregation
 @enduml

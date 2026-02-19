@@ -1,4 +1,4 @@
 @startuml
-Chicken ..> PoultryFarm
-ChickenSoup ..> Chicken
+Chicken ..> PoultryFarm : dependency
+ChickenSoup ..> Chicken : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Pistil *-- Stigma
-Flower *-- Pistil
+Pistil *-- Stigma : composition
+Flower *-- Pistil : composition
 @enduml

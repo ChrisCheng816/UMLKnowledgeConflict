@@ -1,3 +1,3 @@
 @startuml
-Squad o-- Officer
+Squad o-- Officer : aggregation
 @enduml

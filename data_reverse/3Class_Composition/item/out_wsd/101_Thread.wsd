@@ -1,4 +1,4 @@
 @startuml
-Jar *-- Blender
-Thread *-- Jar
+Jar *-- Blender : composition
+Thread *-- Jar : composition
 @enduml

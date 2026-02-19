@@ -1,4 +1,4 @@
 @startuml
-Page *-- Notebook
-Margin *-- Page
+Page *-- Notebook : composition
+Margin *-- Page : composition
 @enduml

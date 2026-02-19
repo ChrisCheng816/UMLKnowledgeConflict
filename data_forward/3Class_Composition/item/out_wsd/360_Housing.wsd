@@ -1,4 +1,4 @@
 @startuml
-Microphone *-- Housing
-Phone *-- Microphone
+Microphone *-- Housing : composition
+Phone *-- Microphone : composition
 @enduml

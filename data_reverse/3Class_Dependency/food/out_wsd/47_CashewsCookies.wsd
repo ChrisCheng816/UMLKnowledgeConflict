@@ -1,4 +1,4 @@
 @startuml
-Cashews ..> CashewsCookies
-CashewTree ..> Cashews
+Cashews ..> CashewsCookies : dependency
+CashewTree ..> Cashews : dependency
 @enduml

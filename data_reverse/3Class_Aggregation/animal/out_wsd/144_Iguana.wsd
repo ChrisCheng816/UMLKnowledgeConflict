@@ -1,4 +1,4 @@
 @startuml
-Terrarium o-- Sanctuary
-Iguana o-- Terrarium
+Terrarium o-- Sanctuary : aggregation
+Iguana o-- Terrarium : aggregation
 @enduml

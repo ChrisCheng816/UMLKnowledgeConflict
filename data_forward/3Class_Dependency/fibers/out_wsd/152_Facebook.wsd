@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Facebook ..> Internet
+Internet ..> Electricity : dependency
+Facebook ..> Internet : dependency
 @enduml

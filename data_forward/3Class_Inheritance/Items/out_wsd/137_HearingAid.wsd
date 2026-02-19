@@ -1,4 +1,4 @@
 @startuml
-Device <|-- MedicalDevice
-MedicalDevice <|-- HearingAid
+Device <|-- MedicalDevice : inheritance
+MedicalDevice <|-- HearingAid : inheritance
 @enduml

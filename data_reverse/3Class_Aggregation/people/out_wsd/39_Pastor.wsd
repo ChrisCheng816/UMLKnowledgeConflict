@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Church
-Pastor o-- Staff
+Staff o-- Church : aggregation
+Pastor o-- Staff : aggregation
 @enduml

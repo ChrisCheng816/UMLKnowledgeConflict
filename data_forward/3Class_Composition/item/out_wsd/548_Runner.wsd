@@ -1,4 +1,4 @@
 @startuml
-Drawer *-- Runner
-Table *-- Drawer
+Drawer *-- Runner : composition
+Table *-- Drawer : composition
 @enduml

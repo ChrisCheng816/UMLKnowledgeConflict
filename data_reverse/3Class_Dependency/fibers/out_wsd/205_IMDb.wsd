@@ -1,4 +1,4 @@
 @startuml
-Internet ..> IMDb
-Electricity ..> Internet
+Internet ..> IMDb : dependency
+Electricity ..> Internet : dependency
 @enduml

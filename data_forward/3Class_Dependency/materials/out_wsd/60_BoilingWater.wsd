@@ -1,4 +1,4 @@
 @startuml
-ElectricKettle ..> Electricity
-BoilingWater ..> ElectricKettle
+ElectricKettle ..> Electricity : dependency
+BoilingWater ..> ElectricKettle : dependency
 @enduml

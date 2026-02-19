@@ -1,4 +1,4 @@
 @startuml
-UniversityOfWarsaw <|-- University
-University <|-- EducationalInstitution
+UniversityOfWarsaw <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Enclosure o-- Antelope
+Enclosure o-- Antelope : aggregation
 @enduml

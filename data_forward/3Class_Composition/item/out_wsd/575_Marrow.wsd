@@ -1,4 +1,4 @@
 @startuml
-Bone *-- Marrow
-Skeleton *-- Bone
+Bone *-- Marrow : composition
+Skeleton *-- Bone : composition
 @enduml

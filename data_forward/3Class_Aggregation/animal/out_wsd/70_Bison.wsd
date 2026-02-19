@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Bison
-Zoo o-- Enclosure
+Enclosure o-- Bison : aggregation
+Zoo o-- Enclosure : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Armrest *-- Padding
-Sofa *-- Armrest
+Armrest *-- Padding : composition
+Sofa *-- Armrest : composition
 @enduml

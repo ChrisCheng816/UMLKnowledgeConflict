@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- ShortFilm
+Entertainment <|-- Film : inheritance
+Film <|-- ShortFilm : inheritance
 @enduml

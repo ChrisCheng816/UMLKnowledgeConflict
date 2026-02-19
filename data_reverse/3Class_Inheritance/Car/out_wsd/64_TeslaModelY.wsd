@@ -1,4 +1,4 @@
 @startuml
-TeslaModelY <|-- ElectricCrossover
-ElectricCrossover <|-- Vehicle
+TeslaModelY <|-- ElectricCrossover : inheritance
+ElectricCrossover <|-- Vehicle : inheritance
 @enduml

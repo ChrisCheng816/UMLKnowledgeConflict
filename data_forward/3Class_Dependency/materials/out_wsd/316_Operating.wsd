@@ -1,4 +1,4 @@
 @startuml
-GlueGun ..> Electricity
-Operating ..> GlueGun
+GlueGun ..> Electricity : dependency
+Operating ..> GlueGun : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Canola ..> CanolaPlant
-CanolaOil ..> Canola
+Canola ..> CanolaPlant : dependency
+CanolaOil ..> Canola : dependency
 @enduml

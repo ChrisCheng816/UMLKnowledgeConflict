@@ -1,4 +1,4 @@
 @startuml
-ForrestGump <|-- Film
-Film <|-- Entertainment
+ForrestGump <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

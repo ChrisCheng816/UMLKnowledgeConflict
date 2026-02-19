@@ -1,4 +1,4 @@
 @startuml
-Petal *-- Cell
-Flower *-- Petal
+Petal *-- Cell : composition
+Flower *-- Petal : composition
 @enduml

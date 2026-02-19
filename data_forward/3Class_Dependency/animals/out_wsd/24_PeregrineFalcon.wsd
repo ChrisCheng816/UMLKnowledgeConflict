@@ -1,4 +1,4 @@
 @startuml
-Pigeon ..> Grain
-PeregrineFalcon ..> Pigeon
+Pigeon ..> Grain : dependency
+PeregrineFalcon ..> Pigeon : dependency
 @enduml

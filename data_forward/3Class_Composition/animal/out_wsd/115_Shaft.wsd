@@ -1,4 +1,4 @@
 @startuml
-Hair *-- Shaft
-Person *-- Hair
+Hair *-- Shaft : composition
+Person *-- Hair : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Crew o-- MovieSet
-Editor o-- Crew
+Crew o-- MovieSet : aggregation
+Editor o-- Crew : aggregation
 @enduml

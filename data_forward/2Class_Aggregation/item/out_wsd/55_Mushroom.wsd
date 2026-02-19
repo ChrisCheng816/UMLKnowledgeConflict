@@ -1,3 +1,3 @@
 @startuml
-Basket o-- Mushroom
+Basket o-- Mushroom : aggregation
 @enduml

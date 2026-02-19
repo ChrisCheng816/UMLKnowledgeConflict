@@ -1,4 +1,4 @@
 @startuml
-Heatwave ..> HeatStroke
-Sunlight ..> Heatwave
+Heatwave ..> HeatStroke : dependency
+Sunlight ..> Heatwave : dependency
 @enduml

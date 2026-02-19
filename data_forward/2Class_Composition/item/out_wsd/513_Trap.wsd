@@ -1,3 +1,3 @@
 @startuml
-PlumbingSystem *-- Trap
+PlumbingSystem *-- Trap : composition
 @enduml

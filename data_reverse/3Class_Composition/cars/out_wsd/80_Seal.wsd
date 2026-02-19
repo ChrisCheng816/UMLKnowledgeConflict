@@ -1,4 +1,4 @@
 @startuml
-Hood *-- Car
-Seal *-- Hood
+Hood *-- Car : composition
+Seal *-- Hood : composition
 @enduml

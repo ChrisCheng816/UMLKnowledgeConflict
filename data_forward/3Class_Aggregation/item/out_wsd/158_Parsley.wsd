@@ -1,4 +1,4 @@
 @startuml
-Jar o-- Parsley
-Pantry o-- Jar
+Jar o-- Parsley : aggregation
+Pantry o-- Jar : aggregation
 @enduml

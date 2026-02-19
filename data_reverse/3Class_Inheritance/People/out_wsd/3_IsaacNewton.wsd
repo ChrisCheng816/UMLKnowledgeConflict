@@ -1,4 +1,4 @@
 @startuml
-IsaacNewton <|-- Physicist
-Physicist <|-- Scientist
+IsaacNewton <|-- Physicist : inheritance
+Physicist <|-- Scientist : inheritance
 @enduml

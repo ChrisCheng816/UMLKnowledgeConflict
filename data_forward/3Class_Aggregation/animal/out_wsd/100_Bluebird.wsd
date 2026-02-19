@@ -1,4 +1,4 @@
 @startuml
-Aviary o-- Bluebird
-Reserve o-- Aviary
+Aviary o-- Bluebird : aggregation
+Reserve o-- Aviary : aggregation
 @enduml

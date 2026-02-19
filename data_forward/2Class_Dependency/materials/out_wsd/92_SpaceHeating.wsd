@@ -1,3 +1,3 @@
 @startuml
-SpaceHeating ..> GasFurnace
+SpaceHeating ..> GasFurnace : dependency
 @enduml

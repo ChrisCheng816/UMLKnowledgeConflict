@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries
-TVSeries <|-- PeakyBlinders
+Entertainment <|-- TVSeries : inheritance
+TVSeries <|-- PeakyBlinders : inheritance
 @enduml

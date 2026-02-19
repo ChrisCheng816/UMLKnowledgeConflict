@@ -1,4 +1,4 @@
 @startuml
-Fleet o-- CarRental
-Car o-- Fleet
+Fleet o-- CarRental : aggregation
+Car o-- Fleet : aggregation
 @enduml

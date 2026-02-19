@@ -1,4 +1,4 @@
 @startuml
-Alien <|-- Film
-Film <|-- Entertainment
+Alien <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

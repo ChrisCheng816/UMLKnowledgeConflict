@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Salmon
-Slit *-- Gill
+Gill *-- Salmon : composition
+Slit *-- Gill : composition
 @enduml

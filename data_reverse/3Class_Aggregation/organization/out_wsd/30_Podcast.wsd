@@ -1,4 +1,4 @@
 @startuml
-Collection o-- MusicApp
-Podcast o-- Collection
+Collection o-- MusicApp : aggregation
+Podcast o-- Collection : aggregation
 @enduml

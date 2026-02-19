@@ -1,4 +1,4 @@
 @startuml
-Tail *-- Vertebra
-Cat *-- Tail
+Tail *-- Vertebra : composition
+Cat *-- Tail : composition
 @enduml

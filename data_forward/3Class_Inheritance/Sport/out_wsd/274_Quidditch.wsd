@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport
-TeamSport <|-- Quidditch
+Sport <|-- TeamSport : inheritance
+TeamSport <|-- Quidditch : inheritance
 @enduml

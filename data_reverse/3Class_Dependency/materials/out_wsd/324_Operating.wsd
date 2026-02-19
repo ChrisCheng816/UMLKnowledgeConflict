@@ -1,4 +1,4 @@
 @startuml
-StageLight ..> Operating
-Electricity ..> StageLight
+StageLight ..> Operating : dependency
+Electricity ..> StageLight : dependency
 @enduml

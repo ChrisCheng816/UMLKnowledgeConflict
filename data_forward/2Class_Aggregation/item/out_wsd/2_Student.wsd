@@ -1,3 +1,3 @@
 @startuml
-School o-- Student
+School o-- Student : aggregation
 @enduml

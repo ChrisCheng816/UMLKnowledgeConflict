@@ -1,4 +1,4 @@
 @startuml
-Zoom ..> Internet
-Calling ..> Zoom
+Zoom ..> Internet : dependency
+Calling ..> Zoom : dependency
 @enduml

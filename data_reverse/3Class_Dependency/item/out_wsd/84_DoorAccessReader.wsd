@@ -1,4 +1,4 @@
 @startuml
-AccessController ..> DoorAccessReader
-WallOutlet ..> AccessController
+AccessController ..> DoorAccessReader : dependency
+WallOutlet ..> AccessController : dependency
 @enduml

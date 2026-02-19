@@ -1,3 +1,3 @@
 @startuml
-Heart *-- Ventricle
+Heart *-- Ventricle : composition
 @enduml

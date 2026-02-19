@@ -1,4 +1,4 @@
 @startuml
-Pouch o-- Shirt
-Suitcase o-- Pouch
+Pouch o-- Shirt : aggregation
+Suitcase o-- Pouch : aggregation
 @enduml

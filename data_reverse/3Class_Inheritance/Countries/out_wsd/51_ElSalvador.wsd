@@ -1,4 +1,4 @@
 @startuml
-ElSalvador <|-- Country
-Country <|-- GeopoliticalEntity
+ElSalvador <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

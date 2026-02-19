@@ -1,4 +1,4 @@
 @startuml
-WaterPump ..> Electricity
-PumpingWater ..> WaterPump
+WaterPump ..> Electricity : dependency
+PumpingWater ..> WaterPump : dependency
 @enduml

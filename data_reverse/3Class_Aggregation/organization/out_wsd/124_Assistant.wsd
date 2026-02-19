@@ -1,4 +1,4 @@
 @startuml
-Office o-- Company
-Assistant o-- Office
+Office o-- Company : aggregation
+Assistant o-- Office : aggregation
 @enduml

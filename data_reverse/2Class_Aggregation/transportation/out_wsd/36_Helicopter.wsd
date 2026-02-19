@@ -1,3 +1,3 @@
 @startuml
-Helicopter o-- Fleet
+Helicopter o-- Fleet : aggregation
 @enduml

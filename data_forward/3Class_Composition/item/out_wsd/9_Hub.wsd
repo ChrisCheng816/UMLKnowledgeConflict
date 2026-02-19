@@ -1,4 +1,4 @@
 @startuml
-BicycleWheel *-- Hub
-Bicycle *-- BicycleWheel
+BicycleWheel *-- Hub : composition
+Bicycle *-- BicycleWheel : composition
 @enduml

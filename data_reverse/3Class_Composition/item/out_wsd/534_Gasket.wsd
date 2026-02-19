@@ -1,4 +1,4 @@
 @startuml
-Lid *-- Jar
-Gasket *-- Lid
+Lid *-- Jar : composition
+Gasket *-- Lid : composition
 @enduml

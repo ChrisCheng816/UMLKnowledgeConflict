@@ -1,4 +1,4 @@
 @startuml
-StreamingBox ..> VideoStreaming
-Electricity ..> StreamingBox
+StreamingBox ..> VideoStreaming : dependency
+Electricity ..> StreamingBox : dependency
 @enduml

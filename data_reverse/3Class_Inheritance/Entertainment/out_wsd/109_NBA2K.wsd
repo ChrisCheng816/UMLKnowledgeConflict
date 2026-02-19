@@ -1,4 +1,4 @@
 @startuml
-NBA2K <|-- VideoGame
-VideoGame <|-- Game
+NBA2K <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

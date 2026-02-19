@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Administrator
-University o-- Staff
+Staff o-- Administrator : aggregation
+University o-- Staff : aggregation
 @enduml

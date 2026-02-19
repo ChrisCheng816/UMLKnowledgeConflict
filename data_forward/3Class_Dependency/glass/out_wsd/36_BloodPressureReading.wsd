@@ -1,4 +1,4 @@
 @startuml
-BloodPressureMonitor ..> Battery
-BloodPressureReading ..> BloodPressureMonitor
+BloodPressureMonitor ..> Battery : dependency
+BloodPressureReading ..> BloodPressureMonitor : dependency
 @enduml

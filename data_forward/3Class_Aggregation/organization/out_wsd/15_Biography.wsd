@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Biography
-Library o-- Shelf
+Shelf o-- Biography : aggregation
+Library o-- Shelf : aggregation
 @enduml

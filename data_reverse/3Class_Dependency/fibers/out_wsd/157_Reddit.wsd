@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Reddit
-Electricity ..> Internet
+Internet ..> Reddit : dependency
+Electricity ..> Internet : dependency
 @enduml

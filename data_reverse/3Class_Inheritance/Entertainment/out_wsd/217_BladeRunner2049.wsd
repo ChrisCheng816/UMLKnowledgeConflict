@@ -1,4 +1,4 @@
 @startuml
-BladeRunner2049 <|-- Film
-Film <|-- Entertainment
+BladeRunner2049 <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

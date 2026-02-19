@@ -1,4 +1,4 @@
 @startuml
-Bird <|-- Dove
-Dove <|-- MourningDove
+Bird <|-- Dove : inheritance
+Dove <|-- MourningDove : inheritance
 @enduml

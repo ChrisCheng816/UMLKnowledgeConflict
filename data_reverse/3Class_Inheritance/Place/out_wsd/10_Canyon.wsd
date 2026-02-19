@@ -1,4 +1,4 @@
 @startuml
-Canyon <|-- GeographicFeature
-GeographicFeature <|-- Location
+Canyon <|-- GeographicFeature : inheritance
+GeographicFeature <|-- Location : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Wall *-- Stud
-House *-- Wall
+Wall *-- Stud : composition
+House *-- Wall : composition
 @enduml

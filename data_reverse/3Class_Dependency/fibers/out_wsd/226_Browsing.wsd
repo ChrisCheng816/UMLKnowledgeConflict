@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Browsing
-Electricity ..> Internet
+Internet ..> Browsing : dependency
+Electricity ..> Internet : dependency
 @enduml

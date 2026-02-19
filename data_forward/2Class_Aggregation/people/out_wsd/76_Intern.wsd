@@ -1,3 +1,3 @@
 @startuml
-Department o-- Intern
+Department o-- Intern : aggregation
 @enduml

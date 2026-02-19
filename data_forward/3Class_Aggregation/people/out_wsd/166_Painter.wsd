@@ -1,4 +1,4 @@
 @startuml
-Department o-- Painter
-Factory o-- Department
+Department o-- Painter : aggregation
+Factory o-- Department : aggregation
 @enduml

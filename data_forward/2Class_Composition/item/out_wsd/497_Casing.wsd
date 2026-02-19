@@ -1,3 +1,3 @@
 @startuml
-BatteryPack *-- Casing
+BatteryPack *-- Casing : composition
 @enduml

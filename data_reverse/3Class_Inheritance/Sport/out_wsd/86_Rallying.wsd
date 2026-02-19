@@ -1,4 +1,4 @@
 @startuml
-Rallying <|-- MotorSport
-MotorSport <|-- Sport
+Rallying <|-- MotorSport : inheritance
+MotorSport <|-- Sport : inheritance
 @enduml

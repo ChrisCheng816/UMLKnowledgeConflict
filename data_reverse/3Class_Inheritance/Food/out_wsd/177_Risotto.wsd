@@ -1,4 +1,4 @@
 @startuml
-Risotto <|-- Dish
-Dish <|-- Food
+Risotto <|-- Dish : inheritance
+Dish <|-- Food : inheritance
 @enduml

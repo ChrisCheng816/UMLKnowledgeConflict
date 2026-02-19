@@ -1,3 +1,3 @@
 @startuml
-VendingMachine ..> Operating
+VendingMachine ..> Operating : dependency
 @enduml

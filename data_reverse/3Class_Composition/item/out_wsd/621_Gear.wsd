@@ -1,4 +1,4 @@
 @startuml
-Tuner *-- Guitar
-Gear *-- Tuner
+Tuner *-- Guitar : composition
+Gear *-- Tuner : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Cereal o-- Aisle
+Cereal o-- Aisle : aggregation
 @enduml

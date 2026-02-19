@@ -1,4 +1,4 @@
 @startuml
-Coil *-- Speaker
-Wire *-- Coil
+Coil *-- Speaker : composition
+Wire *-- Coil : composition
 @enduml

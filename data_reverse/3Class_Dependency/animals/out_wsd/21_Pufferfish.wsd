@@ -1,4 +1,4 @@
 @startuml
-Crab ..> Pufferfish
-Plankton ..> Crab
+Crab ..> Pufferfish : dependency
+Plankton ..> Crab : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Antenna *-- Mount
-Router *-- Antenna
+Antenna *-- Mount : composition
+Router *-- Antenna : composition
 @enduml

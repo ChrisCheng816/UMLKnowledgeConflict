@@ -1,4 +1,4 @@
 @startuml
-Back *-- Frame
-Chair *-- Back
+Back *-- Frame : composition
+Chair *-- Back : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Enclosure o-- Horse
+Enclosure o-- Horse : aggregation
 @enduml

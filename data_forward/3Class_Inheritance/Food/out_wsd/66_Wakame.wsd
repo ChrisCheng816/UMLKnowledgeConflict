@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- SeaVegetable
-SeaVegetable <|-- Wakame
+Vegetable <|-- SeaVegetable : inheritance
+SeaVegetable <|-- Wakame : inheritance
 @enduml

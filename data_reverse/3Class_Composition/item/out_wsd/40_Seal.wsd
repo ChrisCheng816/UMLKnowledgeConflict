@@ -1,4 +1,4 @@
 @startuml
-Cap *-- Bottle
-Seal *-- Cap
+Cap *-- Bottle : composition
+Seal *-- Cap : composition
 @enduml

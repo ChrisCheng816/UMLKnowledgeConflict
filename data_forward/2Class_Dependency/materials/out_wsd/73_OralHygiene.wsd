@@ -1,3 +1,3 @@
 @startuml
-OralHygiene ..> ElectricToothbrush
+OralHygiene ..> ElectricToothbrush : dependency
 @enduml

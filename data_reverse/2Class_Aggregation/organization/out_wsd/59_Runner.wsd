@@ -1,3 +1,3 @@
 @startuml
-Runner o-- Team
+Runner o-- Team : aggregation
 @enduml

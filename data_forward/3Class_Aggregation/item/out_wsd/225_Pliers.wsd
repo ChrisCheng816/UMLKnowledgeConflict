@@ -1,4 +1,4 @@
 @startuml
-Toolbox o-- Pliers
-Garage o-- Toolbox
+Toolbox o-- Pliers : aggregation
+Garage o-- Toolbox : aggregation
 @enduml

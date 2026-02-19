@@ -1,3 +1,3 @@
 @startuml
-Rainfall ..> SoilMoisture
+Rainfall ..> SoilMoisture : dependency
 @enduml

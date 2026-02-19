@@ -1,4 +1,4 @@
 @startuml
-GreenAnaconda <|-- Anaconda
-Anaconda <|-- Snake
+GreenAnaconda <|-- Anaconda : inheritance
+Anaconda <|-- Snake : inheritance
 @enduml

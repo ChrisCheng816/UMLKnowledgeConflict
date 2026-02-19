@@ -1,4 +1,4 @@
 @startuml
-Motorcycle ..> Gasoline
-MotorcycleRide ..> Motorcycle
+Motorcycle ..> Gasoline : dependency
+MotorcycleRide ..> Motorcycle : dependency
 @enduml

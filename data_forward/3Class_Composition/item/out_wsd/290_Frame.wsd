@@ -1,4 +1,4 @@
 @startuml
-Screen *-- Frame
-Phone *-- Screen
+Screen *-- Frame : composition
+Phone *-- Screen : composition
 @enduml

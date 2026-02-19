@@ -1,4 +1,4 @@
 @startuml
-PokemonSapphire <|-- VideoGame
-VideoGame <|-- Game
+PokemonSapphire <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

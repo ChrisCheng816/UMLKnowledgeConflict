@@ -1,3 +1,3 @@
 @startuml
-Hatchback <|-- Car
+Hatchback <|-- Car : inheritance
 @enduml

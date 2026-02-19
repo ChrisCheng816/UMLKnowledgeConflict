@@ -1,3 +1,3 @@
 @startuml
-Fork o-- Drawer
+Fork o-- Drawer : aggregation
 @enduml

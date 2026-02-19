@@ -1,4 +1,4 @@
 @startuml
-Pool o-- Aquarium
-SeaLion o-- Pool
+Pool o-- Aquarium : aggregation
+SeaLion o-- Pool : aggregation
 @enduml

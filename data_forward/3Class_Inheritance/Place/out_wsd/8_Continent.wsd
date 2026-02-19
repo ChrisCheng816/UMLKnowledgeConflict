@@ -1,4 +1,4 @@
 @startuml
-Location <|-- GeographicFeature
-GeographicFeature <|-- Continent
+Location <|-- GeographicFeature : inheritance
+GeographicFeature <|-- Continent : inheritance
 @enduml

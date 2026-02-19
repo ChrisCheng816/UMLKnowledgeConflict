@@ -1,4 +1,4 @@
 @startuml
-Bird <|-- Hummingbird
-Hummingbird <|-- RubyThroatedHummingbird
+Bird <|-- Hummingbird : inheritance
+Hummingbird <|-- RubyThroatedHummingbird : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sumo <|-- Wrestling
-Wrestling <|-- Sport
+Sumo <|-- Wrestling : inheritance
+Wrestling <|-- Sport : inheritance
 @enduml

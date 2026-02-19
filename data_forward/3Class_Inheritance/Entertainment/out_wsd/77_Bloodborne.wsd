@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- Bloodborne
+Game <|-- VideoGame : inheritance
+VideoGame <|-- Bloodborne : inheritance
 @enduml

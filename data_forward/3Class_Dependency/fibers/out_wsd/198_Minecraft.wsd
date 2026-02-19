@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Minecraft ..> Internet
+Internet ..> Electricity : dependency
+Minecraft ..> Internet : dependency
 @enduml

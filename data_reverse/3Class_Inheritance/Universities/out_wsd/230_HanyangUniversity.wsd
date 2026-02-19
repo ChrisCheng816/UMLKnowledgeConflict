@@ -1,4 +1,4 @@
 @startuml
-HanyangUniversity <|-- University
-University <|-- EducationalInstitution
+HanyangUniversity <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

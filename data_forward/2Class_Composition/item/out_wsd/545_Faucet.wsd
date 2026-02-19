@@ -1,3 +1,3 @@
 @startuml
-Bathroom *-- Faucet
+Bathroom *-- Faucet : composition
 @enduml

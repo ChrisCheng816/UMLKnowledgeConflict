@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Mammal
-Mammal <|-- HumpbackWhale
+Animal <|-- Mammal : inheritance
+Mammal <|-- HumpbackWhale : inheritance
 @enduml

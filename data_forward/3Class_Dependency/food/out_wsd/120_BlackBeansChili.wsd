@@ -1,4 +1,4 @@
 @startuml
-BlackBeans ..> BeanPlant
-BlackBeansChili ..> BlackBeans
+BlackBeans ..> BeanPlant : dependency
+BlackBeansChili ..> BlackBeans : dependency
 @enduml

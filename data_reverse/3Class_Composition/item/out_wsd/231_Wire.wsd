@@ -1,4 +1,4 @@
 @startuml
-Wiring *-- House
-Wire *-- Wiring
+Wiring *-- House : composition
+Wire *-- Wiring : composition
 @enduml

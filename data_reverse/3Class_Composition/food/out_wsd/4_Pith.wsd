@@ -1,4 +1,4 @@
 @startuml
-Peel *-- Orange
-Pith *-- Peel
+Peel *-- Orange : composition
+Pith *-- Peel : composition
 @enduml

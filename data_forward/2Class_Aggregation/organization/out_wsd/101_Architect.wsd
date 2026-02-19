@@ -1,3 +1,3 @@
 @startuml
-Department o-- Architect
+Department o-- Architect : aggregation
 @enduml

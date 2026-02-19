@@ -1,4 +1,4 @@
 @startuml
-Router <|-- NetworkingDevice
-NetworkingDevice <|-- Electronics
+Router <|-- NetworkingDevice : inheritance
+NetworkingDevice <|-- Electronics : inheritance
 @enduml

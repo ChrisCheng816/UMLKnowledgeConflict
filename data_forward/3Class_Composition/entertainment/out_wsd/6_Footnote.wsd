@@ -1,4 +1,4 @@
 @startuml
-Chapter *-- Footnote
-Book *-- Chapter
+Chapter *-- Footnote : composition
+Book *-- Chapter : composition
 @enduml

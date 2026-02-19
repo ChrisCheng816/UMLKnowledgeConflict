@@ -1,3 +1,3 @@
 @startuml
-Box o-- Screwdriver
+Box o-- Screwdriver : aggregation
 @enduml

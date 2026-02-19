@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Bangladesh
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Bangladesh : inheritance
 @enduml

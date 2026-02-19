@@ -1,4 +1,4 @@
 @startuml
-Suitcase o-- Shirt
-Wardrobe o-- Suitcase
+Suitcase o-- Shirt : aggregation
+Wardrobe o-- Suitcase : aggregation
 @enduml

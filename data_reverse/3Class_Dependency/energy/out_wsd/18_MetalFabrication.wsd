@@ -1,4 +1,4 @@
 @startuml
-WeldingMachine ..> MetalFabrication
-Electricity ..> WeldingMachine
+WeldingMachine ..> MetalFabrication : dependency
+Electricity ..> WeldingMachine : dependency
 @enduml

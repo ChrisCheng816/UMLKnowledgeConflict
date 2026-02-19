@@ -1,3 +1,3 @@
 @startuml
-Division o-- Employee
+Division o-- Employee : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Section o-- Choir
-Tenor o-- Section
+Section o-- Choir : aggregation
+Tenor o-- Section : aggregation
 @enduml

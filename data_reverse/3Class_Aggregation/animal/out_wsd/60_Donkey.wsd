@@ -1,4 +1,4 @@
 @startuml
-Stable o-- Farm
-Donkey o-- Stable
+Stable o-- Farm : aggregation
+Donkey o-- Stable : aggregation
 @enduml

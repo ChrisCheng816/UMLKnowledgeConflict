@@ -1,4 +1,4 @@
 @startuml
-Team o-- Umpire
-Club o-- Team
+Team o-- Umpire : aggregation
+Club o-- Team : aggregation
 @enduml

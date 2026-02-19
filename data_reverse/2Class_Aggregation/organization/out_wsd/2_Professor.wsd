@@ -1,3 +1,3 @@
 @startuml
-Professor o-- Department
+Professor o-- Department : aggregation
 @enduml

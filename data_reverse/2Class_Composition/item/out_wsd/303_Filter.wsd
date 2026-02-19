@@ -1,3 +1,3 @@
 @startuml
-Filter *-- CameraModule
+Filter *-- CameraModule : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Arachnid <|-- Animal
-Animal <|-- Organism
+Arachnid <|-- Animal : inheritance
+Animal <|-- Organism : inheritance
 @enduml

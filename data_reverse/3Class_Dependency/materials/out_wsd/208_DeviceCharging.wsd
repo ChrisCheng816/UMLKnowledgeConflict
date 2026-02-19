@@ -1,4 +1,4 @@
 @startuml
-TabletCharger ..> DeviceCharging
-Electricity ..> TabletCharger
+TabletCharger ..> DeviceCharging : dependency
+Electricity ..> TabletCharger : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Engine *-- TimingChain
+Engine *-- TimingChain : composition
 @enduml

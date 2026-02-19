@@ -1,4 +1,4 @@
 @startuml
-Committee o-- Moderator
-Conference o-- Committee
+Committee o-- Moderator : aggregation
+Conference o-- Committee : aggregation
 @enduml

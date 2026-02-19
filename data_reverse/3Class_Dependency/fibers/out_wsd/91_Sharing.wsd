@@ -1,4 +1,4 @@
 @startuml
-Snapchat ..> Sharing
-Internet ..> Snapchat
+Snapchat ..> Sharing : dependency
+Internet ..> Snapchat : dependency
 @enduml

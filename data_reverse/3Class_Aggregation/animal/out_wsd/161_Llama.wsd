@@ -1,4 +1,4 @@
 @startuml
-Barn o-- Farm
-Llama o-- Barn
+Barn o-- Farm : aggregation
+Llama o-- Barn : aggregation
 @enduml

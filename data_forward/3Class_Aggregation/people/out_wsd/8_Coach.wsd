@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Coach
-School o-- Staff
+Staff o-- Coach : aggregation
+School o-- Staff : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Connector *-- Port
+Connector *-- Port : composition
 @enduml

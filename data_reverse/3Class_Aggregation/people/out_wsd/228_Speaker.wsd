@@ -1,4 +1,4 @@
 @startuml
-Panel o-- Conference
-Speaker o-- Panel
+Panel o-- Conference : aggregation
+Speaker o-- Panel : aggregation
 @enduml

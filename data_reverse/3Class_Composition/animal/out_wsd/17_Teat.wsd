@@ -1,4 +1,4 @@
 @startuml
-Pouch *-- Kangaroo
-Teat *-- Pouch
+Pouch *-- Kangaroo : composition
+Teat *-- Pouch : composition
 @enduml

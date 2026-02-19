@@ -1,4 +1,4 @@
 @startuml
-Jet ..> BusinessJetFlight
-JetFuel ..> Jet
+Jet ..> BusinessJetFlight : dependency
+JetFuel ..> Jet : dependency
 @enduml

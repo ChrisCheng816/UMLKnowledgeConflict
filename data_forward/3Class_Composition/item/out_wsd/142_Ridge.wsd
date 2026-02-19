@@ -1,4 +1,4 @@
 @startuml
-Roof *-- Ridge
-House *-- Roof
+Roof *-- Ridge : composition
+House *-- Roof : composition
 @enduml

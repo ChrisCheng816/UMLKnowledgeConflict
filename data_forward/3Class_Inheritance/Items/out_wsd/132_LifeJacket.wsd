@@ -1,4 +1,4 @@
 @startuml
-SafetyGear <|-- Vest
-Vest <|-- LifeJacket
+SafetyGear <|-- Vest : inheritance
+Vest <|-- LifeJacket : inheritance
 @enduml

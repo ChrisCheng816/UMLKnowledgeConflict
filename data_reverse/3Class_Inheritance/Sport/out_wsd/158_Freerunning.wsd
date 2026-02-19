@@ -1,4 +1,4 @@
 @startuml
-Freerunning <|-- IndividualSport
-IndividualSport <|-- Sport
+Freerunning <|-- IndividualSport : inheritance
+IndividualSport <|-- Sport : inheritance
 @enduml

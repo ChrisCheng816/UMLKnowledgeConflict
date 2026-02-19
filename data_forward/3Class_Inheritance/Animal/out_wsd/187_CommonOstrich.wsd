@@ -1,4 +1,4 @@
 @startuml
-Bird <|-- Ostrich
-Ostrich <|-- CommonOstrich
+Bird <|-- Ostrich : inheritance
+Ostrich <|-- CommonOstrich : inheritance
 @enduml

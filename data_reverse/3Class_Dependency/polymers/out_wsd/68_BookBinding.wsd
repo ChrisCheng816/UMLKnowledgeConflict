@@ -1,4 +1,4 @@
 @startuml
-Paper ..> BookBinding
-Trees ..> Paper
+Paper ..> BookBinding : dependency
+Trees ..> Paper : dependency
 @enduml

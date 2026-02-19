@@ -1,3 +1,3 @@
 @startuml
-EVCommute ..> ElectricCar
+EVCommute ..> ElectricCar : dependency
 @enduml

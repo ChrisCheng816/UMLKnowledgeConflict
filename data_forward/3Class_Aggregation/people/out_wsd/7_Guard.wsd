@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Guard
-School o-- Staff
+Staff o-- Guard : aggregation
+School o-- Staff : aggregation
 @enduml

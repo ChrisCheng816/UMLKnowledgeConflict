@@ -1,3 +1,3 @@
 @startuml
-Wiring *-- Breaker
+Wiring *-- Breaker : composition
 @enduml

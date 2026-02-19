@@ -1,4 +1,4 @@
 @startuml
-OrganPipeCactus <|-- Cactus
-Cactus <|-- Plant
+OrganPipeCactus <|-- Cactus : inheritance
+Cactus <|-- Plant : inheritance
 @enduml

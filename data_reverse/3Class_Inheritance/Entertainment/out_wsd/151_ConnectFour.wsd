@@ -1,4 +1,4 @@
 @startuml
-ConnectFour <|-- BoardGame
-BoardGame <|-- Game
+ConnectFour <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

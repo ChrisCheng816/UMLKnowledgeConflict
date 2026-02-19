@@ -1,4 +1,4 @@
 @startuml
-Expedia ..> Booking
-Internet ..> Expedia
+Expedia ..> Booking : dependency
+Internet ..> Expedia : dependency
 @enduml

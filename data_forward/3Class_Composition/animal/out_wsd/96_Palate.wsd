@@ -1,4 +1,4 @@
 @startuml
-Mouth *-- Palate
-Person *-- Mouth
+Mouth *-- Palate : composition
+Person *-- Mouth : composition
 @enduml

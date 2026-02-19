@@ -1,4 +1,4 @@
 @startuml
-Grape ..> GrapeJuice
-GrapeVine ..> Grape
+Grape ..> GrapeJuice : dependency
+GrapeVine ..> Grape : dependency
 @enduml

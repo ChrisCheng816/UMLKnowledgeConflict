@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Toad
-Wart *-- Skin
+Skin *-- Toad : composition
+Wart *-- Skin : composition
 @enduml

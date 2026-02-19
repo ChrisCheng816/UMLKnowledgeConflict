@@ -1,4 +1,4 @@
 @startuml
-BoardGame <|-- StrategyBoardGame
-StrategyBoardGame <|-- Catan
+BoardGame <|-- StrategyBoardGame : inheritance
+StrategyBoardGame <|-- Catan : inheritance
 @enduml

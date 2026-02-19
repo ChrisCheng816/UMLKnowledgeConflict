@@ -1,4 +1,4 @@
 @startuml
-Milkweed ..> MonarchCaterpillar
-Sunlight ..> Milkweed
+Milkweed ..> MonarchCaterpillar : dependency
+Sunlight ..> Milkweed : dependency
 @enduml

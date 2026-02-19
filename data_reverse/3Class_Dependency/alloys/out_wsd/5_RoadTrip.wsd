@@ -1,4 +1,4 @@
 @startuml
-Car ..> RoadTrip
-Gasoline ..> Car
+Car ..> RoadTrip : dependency
+Gasoline ..> Car : dependency
 @enduml

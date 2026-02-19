@@ -1,4 +1,4 @@
 @startuml
-Section o-- Alto
-Choir o-- Section
+Section o-- Alto : aggregation
+Choir o-- Section : aggregation
 @enduml

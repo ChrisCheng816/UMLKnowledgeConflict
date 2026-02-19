@@ -1,4 +1,4 @@
 @startuml
-Eraser ..> Erasing
-Rubber ..> Eraser
+Eraser ..> Erasing : dependency
+Rubber ..> Eraser : dependency
 @enduml

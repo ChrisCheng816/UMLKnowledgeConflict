@@ -1,4 +1,4 @@
 @startuml
-Act *-- Play
-Scene *-- Act
+Act *-- Play : composition
+Scene *-- Act : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Trainee o-- Class
+Trainee o-- Class : aggregation
 @enduml

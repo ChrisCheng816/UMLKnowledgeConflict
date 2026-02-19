@@ -1,4 +1,4 @@
 @startuml
-Olives ..> OliveTree
-OliveOil ..> Olives
+Olives ..> OliveTree : dependency
+OliveOil ..> Olives : dependency
 @enduml

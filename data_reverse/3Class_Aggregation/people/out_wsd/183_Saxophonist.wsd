@@ -1,4 +1,4 @@
 @startuml
-Band o-- Club
-Saxophonist o-- Band
+Band o-- Club : aggregation
+Saxophonist o-- Band : aggregation
 @enduml

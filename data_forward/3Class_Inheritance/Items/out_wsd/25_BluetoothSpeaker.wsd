@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Electronics
-Electronics <|-- BluetoothSpeaker
+Item <|-- Electronics : inheritance
+Electronics <|-- BluetoothSpeaker : inheritance
 @enduml

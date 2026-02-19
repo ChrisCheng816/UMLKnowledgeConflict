@@ -1,3 +1,3 @@
 @startuml
-Collection o-- Coin
+Collection o-- Coin : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Team o-- Teacher
+Team o-- Teacher : aggregation
 @enduml

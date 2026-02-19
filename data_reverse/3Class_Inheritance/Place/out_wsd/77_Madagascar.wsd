@@ -1,4 +1,4 @@
 @startuml
-Madagascar <|-- Island
-Island <|-- GeographicFeature
+Madagascar <|-- Island : inheritance
+Island <|-- GeographicFeature : inheritance
 @enduml

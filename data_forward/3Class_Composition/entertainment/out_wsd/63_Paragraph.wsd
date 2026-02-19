@@ -1,4 +1,4 @@
 @startuml
-Article *-- Paragraph
-Magazine *-- Article
+Article *-- Paragraph : composition
+Magazine *-- Article : composition
 @enduml

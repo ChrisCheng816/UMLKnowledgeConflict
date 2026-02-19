@@ -1,3 +1,3 @@
 @startuml
-SonarReturn ..> Reflection
+SonarReturn ..> Reflection : dependency
 @enduml

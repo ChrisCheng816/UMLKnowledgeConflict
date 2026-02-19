@@ -1,4 +1,4 @@
 @startuml
-Civilization <|-- StrategyGame
-StrategyGame <|-- VideoGame
+Civilization <|-- StrategyGame : inheritance
+StrategyGame <|-- VideoGame : inheritance
 @enduml

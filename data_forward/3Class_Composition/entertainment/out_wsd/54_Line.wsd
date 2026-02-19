@@ -1,4 +1,4 @@
 @startuml
-Verse *-- Line
-Song *-- Verse
+Verse *-- Line : composition
+Song *-- Verse : composition
 @enduml

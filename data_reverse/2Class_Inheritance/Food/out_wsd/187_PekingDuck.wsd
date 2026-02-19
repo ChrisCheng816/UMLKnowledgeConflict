@@ -1,3 +1,3 @@
 @startuml
-PekingDuck <|-- Dish
+PekingDuck <|-- Dish : inheritance
 @enduml

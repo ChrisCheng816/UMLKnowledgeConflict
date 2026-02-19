@@ -1,4 +1,4 @@
 @startuml
-RealityShow <|-- TVSeries
-TVSeries <|-- Entertainment
+RealityShow <|-- TVSeries : inheritance
+TVSeries <|-- Entertainment : inheritance
 @enduml

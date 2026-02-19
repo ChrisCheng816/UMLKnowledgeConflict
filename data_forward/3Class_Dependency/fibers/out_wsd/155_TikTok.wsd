@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-TikTok ..> Internet
+Internet ..> Electricity : dependency
+TikTok ..> Internet : dependency
 @enduml

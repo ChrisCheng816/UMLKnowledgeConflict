@@ -1,4 +1,4 @@
 @startuml
-Lineup o-- Festival
-Performer o-- Lineup
+Lineup o-- Festival : aggregation
+Performer o-- Lineup : aggregation
 @enduml

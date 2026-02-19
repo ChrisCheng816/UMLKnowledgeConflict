@@ -1,4 +1,4 @@
 @startuml
-WaterVapor ..> Ocean
-Rain ..> WaterVapor
+WaterVapor ..> Ocean : dependency
+Rain ..> WaterVapor : dependency
 @enduml

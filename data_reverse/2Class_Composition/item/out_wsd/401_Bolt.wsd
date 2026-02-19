@@ -1,3 +1,3 @@
 @startuml
-Bolt *-- Armrest
+Bolt *-- Armrest : composition
 @enduml

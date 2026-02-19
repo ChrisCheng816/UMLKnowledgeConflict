@@ -1,4 +1,4 @@
 @startuml
-CameraModule *-- CoverGlass
-Smartphone *-- CameraModule
+CameraModule *-- CoverGlass : composition
+Smartphone *-- CameraModule : composition
 @enduml

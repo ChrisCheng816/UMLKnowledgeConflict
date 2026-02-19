@@ -1,4 +1,4 @@
 @startuml
-Unit o-- Medic
-PoliceStation o-- Unit
+Unit o-- Medic : aggregation
+PoliceStation o-- Unit : aggregation
 @enduml

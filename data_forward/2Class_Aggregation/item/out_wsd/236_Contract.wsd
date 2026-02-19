@@ -1,3 +1,3 @@
 @startuml
-Folder o-- Contract
+Folder o-- Contract : aggregation
 @enduml

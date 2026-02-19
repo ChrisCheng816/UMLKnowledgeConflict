@@ -1,4 +1,4 @@
 @startuml
-Pond o-- Frog
-Reserve o-- Pond
+Pond o-- Frog : aggregation
+Reserve o-- Pond : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Fish
-Fish <|-- Clownfish
+Animal <|-- Fish : inheritance
+Fish <|-- Clownfish : inheritance
 @enduml

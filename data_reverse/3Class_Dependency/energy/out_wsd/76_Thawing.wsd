@@ -1,4 +1,4 @@
 @startuml
-Microwave ..> Thawing
-Electricity ..> Microwave
+Microwave ..> Thawing : dependency
+Electricity ..> Microwave : dependency
 @enduml

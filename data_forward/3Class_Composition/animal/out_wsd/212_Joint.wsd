@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Joint
-Eagle *-- Wing
+Wing *-- Joint : composition
+Eagle *-- Wing : composition
 @enduml

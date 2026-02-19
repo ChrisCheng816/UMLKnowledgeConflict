@@ -1,4 +1,4 @@
 @startuml
-Rack o-- Entryway
-Coat o-- Rack
+Rack o-- Entryway : aggregation
+Coat o-- Rack : aggregation
 @enduml

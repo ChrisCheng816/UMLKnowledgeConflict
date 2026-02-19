@@ -1,4 +1,4 @@
 @startuml
-Lens *-- Eye
-Cell *-- Lens
+Lens *-- Eye : composition
+Cell *-- Lens : composition
 @enduml

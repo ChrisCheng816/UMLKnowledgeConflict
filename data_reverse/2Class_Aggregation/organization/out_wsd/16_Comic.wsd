@@ -1,3 +1,3 @@
 @startuml
-Comic o-- Shelf
+Comic o-- Shelf : aggregation
 @enduml

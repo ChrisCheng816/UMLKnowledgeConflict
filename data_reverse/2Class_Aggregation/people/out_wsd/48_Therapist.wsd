@@ -1,3 +1,3 @@
 @startuml
-Therapist o-- Team
+Therapist o-- Team : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Paper ..> Trees
-Sketching ..> Paper
+Paper ..> Trees : dependency
+Sketching ..> Paper : dependency
 @enduml

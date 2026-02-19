@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Sanctuary
-Badger o-- Enclosure
+Enclosure o-- Sanctuary : aggregation
+Badger o-- Enclosure : aggregation
 @enduml

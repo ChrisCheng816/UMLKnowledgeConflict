@@ -1,4 +1,4 @@
 @startuml
-Lid *-- Latch
-Trashcan *-- Lid
+Lid *-- Latch : composition
+Trashcan *-- Lid : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-StaplerMachine ..> Electricity
-Operating ..> StaplerMachine
+StaplerMachine ..> Electricity : dependency
+Operating ..> StaplerMachine : dependency
 @enduml

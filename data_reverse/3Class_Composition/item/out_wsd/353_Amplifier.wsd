@@ -1,4 +1,4 @@
 @startuml
-Speaker *-- Phone
-Amplifier *-- Speaker
+Speaker *-- Phone : composition
+Amplifier *-- Speaker : composition
 @enduml

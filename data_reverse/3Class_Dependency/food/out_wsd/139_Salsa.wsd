@@ -1,4 +1,4 @@
 @startuml
-Tomato ..> Salsa
-TomatoPlant ..> Tomato
+Tomato ..> Salsa : dependency
+TomatoPlant ..> Tomato : dependency
 @enduml

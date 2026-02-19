@@ -1,4 +1,4 @@
 @startuml
-Turntable *-- Coupler
-Microwave *-- Turntable
+Turntable *-- Coupler : composition
+Microwave *-- Turntable : composition
 @enduml

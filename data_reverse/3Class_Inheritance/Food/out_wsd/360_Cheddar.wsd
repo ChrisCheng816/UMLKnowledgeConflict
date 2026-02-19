@@ -1,4 +1,4 @@
 @startuml
-Cheddar <|-- Cheese
-Cheese <|-- Food
+Cheddar <|-- Cheese : inheritance
+Cheese <|-- Food : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Parsnip <|-- RootVegetable
-RootVegetable <|-- Vegetable
+Parsnip <|-- RootVegetable : inheritance
+RootVegetable <|-- Vegetable : inheritance
 @enduml

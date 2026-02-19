@@ -1,4 +1,4 @@
 @startuml
-Trunk *-- Car
-Liner *-- Trunk
+Trunk *-- Car : composition
+Liner *-- Trunk : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries
-TVSeries <|-- RickAndMorty
+Entertainment <|-- TVSeries : inheritance
+TVSeries <|-- RickAndMorty : inheritance
 @enduml

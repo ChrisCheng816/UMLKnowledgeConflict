@@ -1,4 +1,4 @@
 @startuml
-Moon ..> Gravity
-Tide ..> Moon
+Moon ..> Gravity : dependency
+Tide ..> Moon : dependency
 @enduml

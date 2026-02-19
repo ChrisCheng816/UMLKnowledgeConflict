@@ -1,3 +1,3 @@
 @startuml
-Emu o-- Aviary
+Emu o-- Aviary : aggregation
 @enduml

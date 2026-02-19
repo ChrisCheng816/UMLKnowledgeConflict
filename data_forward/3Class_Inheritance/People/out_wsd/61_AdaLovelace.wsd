@@ -1,4 +1,4 @@
 @startuml
-Engineer <|-- ComputerProgrammer
-ComputerProgrammer <|-- AdaLovelace
+Engineer <|-- ComputerProgrammer : inheritance
+ComputerProgrammer <|-- AdaLovelace : inheritance
 @enduml

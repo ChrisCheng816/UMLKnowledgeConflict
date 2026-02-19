@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Costco
-Electricity ..> Internet
+Internet ..> Costco : dependency
+Electricity ..> Internet : dependency
 @enduml

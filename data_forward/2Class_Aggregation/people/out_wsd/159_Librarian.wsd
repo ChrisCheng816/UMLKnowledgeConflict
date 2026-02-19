@@ -1,3 +1,3 @@
 @startuml
-Department o-- Librarian
+Department o-- Librarian : aggregation
 @enduml

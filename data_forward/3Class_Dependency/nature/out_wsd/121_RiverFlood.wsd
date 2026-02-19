@@ -1,4 +1,4 @@
 @startuml
-HeavyRain ..> Thunderstorm
-RiverFlood ..> HeavyRain
+HeavyRain ..> Thunderstorm : dependency
+RiverFlood ..> HeavyRain : dependency
 @enduml

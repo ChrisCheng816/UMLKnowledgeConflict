@@ -1,4 +1,4 @@
 @startuml
-Claw *-- Nail
-Eagle *-- Claw
+Claw *-- Nail : composition
+Eagle *-- Claw : composition
 @enduml

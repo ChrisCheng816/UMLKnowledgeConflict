@@ -1,3 +1,3 @@
 @startuml
-PowerSupply *-- Fuse
+PowerSupply *-- Fuse : composition
 @enduml

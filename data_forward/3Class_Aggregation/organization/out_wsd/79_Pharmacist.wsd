@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Pharmacist
-Hospital o-- Staff
+Staff o-- Pharmacist : aggregation
+Hospital o-- Staff : aggregation
 @enduml

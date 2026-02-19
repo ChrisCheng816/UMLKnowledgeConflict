@@ -1,4 +1,4 @@
 @startuml
-SaturatedSoil ..> Landslide
-HeavyRain ..> SaturatedSoil
+SaturatedSoil ..> Landslide : dependency
+HeavyRain ..> SaturatedSoil : dependency
 @enduml

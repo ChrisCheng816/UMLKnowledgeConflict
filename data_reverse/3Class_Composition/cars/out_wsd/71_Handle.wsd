@@ -1,4 +1,4 @@
 @startuml
-DoorPanel *-- Car
-Handle *-- DoorPanel
+DoorPanel *-- Car : composition
+Handle *-- DoorPanel : composition
 @enduml

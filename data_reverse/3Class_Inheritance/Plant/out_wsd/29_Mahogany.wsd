@@ -1,4 +1,4 @@
 @startuml
-Mahogany <|-- Tree
-Tree <|-- Plant
+Mahogany <|-- Tree : inheritance
+Tree <|-- Plant : inheritance
 @enduml

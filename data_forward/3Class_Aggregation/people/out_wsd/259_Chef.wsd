@@ -1,4 +1,4 @@
 @startuml
-Crew o-- Chef
-Hotel o-- Crew
+Crew o-- Chef : aggregation
+Hotel o-- Crew : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Booking
-Electricity ..> Internet
+Internet ..> Booking : dependency
+Electricity ..> Internet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Honeydew ..> HoneydewVine
-HoneydewSmoothie ..> Honeydew
+Honeydew ..> HoneydewVine : dependency
+HoneydewSmoothie ..> Honeydew : dependency
 @enduml

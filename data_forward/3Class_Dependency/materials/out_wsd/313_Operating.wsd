@@ -1,4 +1,4 @@
 @startuml
-MillingMachine ..> Electricity
-Operating ..> MillingMachine
+MillingMachine ..> Electricity : dependency
+Operating ..> MillingMachine : dependency
 @enduml

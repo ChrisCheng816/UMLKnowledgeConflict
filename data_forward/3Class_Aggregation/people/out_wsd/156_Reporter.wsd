@@ -1,4 +1,4 @@
 @startuml
-Department o-- Reporter
-Studio o-- Department
+Department o-- Reporter : aggregation
+Studio o-- Department : aggregation
 @enduml

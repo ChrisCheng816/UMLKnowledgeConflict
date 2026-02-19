@@ -1,4 +1,4 @@
 @startuml
-SmartDisplay ..> WiFiNetwork
-WebBrowsing ..> SmartDisplay
+SmartDisplay ..> WiFiNetwork : dependency
+WebBrowsing ..> SmartDisplay : dependency
 @enduml

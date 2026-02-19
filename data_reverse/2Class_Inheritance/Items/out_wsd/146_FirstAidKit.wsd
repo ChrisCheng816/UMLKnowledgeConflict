@@ -1,3 +1,3 @@
 @startuml
-FirstAidKit <|-- MedicalKit
+FirstAidKit <|-- MedicalKit : inheritance
 @enduml

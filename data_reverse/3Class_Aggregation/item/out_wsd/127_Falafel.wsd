@@ -1,4 +1,4 @@
 @startuml
-Plate o-- Restaurant
-Falafel o-- Plate
+Plate o-- Restaurant : aggregation
+Falafel o-- Plate : aggregation
 @enduml

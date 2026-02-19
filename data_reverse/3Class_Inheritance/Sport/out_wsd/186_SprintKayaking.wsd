@@ -1,4 +1,4 @@
 @startuml
-SprintKayaking <|-- Kayaking
-Kayaking <|-- Sport
+SprintKayaking <|-- Kayaking : inheritance
+Kayaking <|-- Sport : inheritance
 @enduml

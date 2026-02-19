@@ -1,3 +1,3 @@
 @startuml
-Bicycle o-- Fleet
+Bicycle o-- Fleet : aggregation
 @enduml

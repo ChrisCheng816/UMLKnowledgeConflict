@@ -1,4 +1,4 @@
 @startuml
-CTScanner ..> CTScan
-Electricity ..> CTScanner
+CTScanner ..> CTScan : dependency
+Electricity ..> CTScanner : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Accessory <|-- Keychain
+Accessory <|-- Keychain : inheritance
 @enduml

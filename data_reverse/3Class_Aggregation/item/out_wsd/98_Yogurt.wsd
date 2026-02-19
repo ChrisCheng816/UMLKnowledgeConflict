@@ -1,4 +1,4 @@
 @startuml
-Bowl o-- Kitchen
-Yogurt o-- Bowl
+Bowl o-- Kitchen : aggregation
+Yogurt o-- Bowl : aggregation
 @enduml

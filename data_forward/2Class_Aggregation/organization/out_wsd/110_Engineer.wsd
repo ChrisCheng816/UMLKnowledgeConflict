@@ -1,3 +1,3 @@
 @startuml
-Department o-- Engineer
+Department o-- Engineer : aggregation
 @enduml

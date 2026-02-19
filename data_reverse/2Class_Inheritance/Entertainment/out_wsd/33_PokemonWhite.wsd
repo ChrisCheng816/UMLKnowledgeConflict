@@ -1,3 +1,3 @@
 @startuml
-PokemonWhite <|-- VideoGame
+PokemonWhite <|-- VideoGame : inheritance
 @enduml

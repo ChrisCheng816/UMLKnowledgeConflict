@@ -1,4 +1,4 @@
 @startuml
-Pineapple ..> PineapplePlant
-PineappleSmoothie ..> Pineapple
+Pineapple ..> PineapplePlant : dependency
+PineappleSmoothie ..> Pineapple : dependency
 @enduml

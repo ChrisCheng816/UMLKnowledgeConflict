@@ -1,4 +1,4 @@
 @startuml
-GasFurnace ..> NaturalGas
-WarmAir ..> GasFurnace
+GasFurnace ..> NaturalGas : dependency
+WarmAir ..> GasFurnace : dependency
 @enduml

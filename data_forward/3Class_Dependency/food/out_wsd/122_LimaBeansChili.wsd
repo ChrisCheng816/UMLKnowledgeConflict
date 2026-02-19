@@ -1,4 +1,4 @@
 @startuml
-LimaBeans ..> BeanPlant
-LimaBeansChili ..> LimaBeans
+LimaBeans ..> BeanPlant : dependency
+LimaBeansChili ..> LimaBeans : dependency
 @enduml

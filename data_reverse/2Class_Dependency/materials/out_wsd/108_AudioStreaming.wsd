@@ -1,3 +1,3 @@
 @startuml
-HeadphoneAmplifier ..> AudioStreaming
+HeadphoneAmplifier ..> AudioStreaming : dependency
 @enduml

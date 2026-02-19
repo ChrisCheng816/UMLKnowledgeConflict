@@ -1,4 +1,4 @@
 @startuml
-MapleSap ..> MapleTree
-MapleSyrup ..> MapleSap
+MapleSap ..> MapleTree : dependency
+MapleSyrup ..> MapleSap : dependency
 @enduml

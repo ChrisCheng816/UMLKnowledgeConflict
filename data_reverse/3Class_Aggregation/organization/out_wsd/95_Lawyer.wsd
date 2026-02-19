@@ -1,4 +1,4 @@
 @startuml
-Department o-- Company
-Lawyer o-- Department
+Department o-- Company : aggregation
+Lawyer o-- Department : aggregation
 @enduml

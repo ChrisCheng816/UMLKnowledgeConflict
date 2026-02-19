@@ -1,3 +1,3 @@
 @startuml
-Cabinet o-- Mask
+Cabinet o-- Mask : aggregation
 @enduml

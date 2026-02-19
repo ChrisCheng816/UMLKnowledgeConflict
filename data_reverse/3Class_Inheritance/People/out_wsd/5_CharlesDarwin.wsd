@@ -1,4 +1,4 @@
 @startuml
-CharlesDarwin <|-- Biologist
-Biologist <|-- Scientist
+CharlesDarwin <|-- Biologist : inheritance
+Biologist <|-- Scientist : inheritance
 @enduml

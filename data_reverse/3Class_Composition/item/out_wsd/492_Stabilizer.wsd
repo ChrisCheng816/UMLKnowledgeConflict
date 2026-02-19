@@ -1,4 +1,4 @@
 @startuml
-CameraModule *-- Smartphone
-Stabilizer *-- CameraModule
+CameraModule *-- Smartphone : composition
+Stabilizer *-- CameraModule : composition
 @enduml

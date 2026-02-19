@@ -1,3 +1,3 @@
 @startuml
-EthernetCable ..> Router
+EthernetCable ..> Router : dependency
 @enduml

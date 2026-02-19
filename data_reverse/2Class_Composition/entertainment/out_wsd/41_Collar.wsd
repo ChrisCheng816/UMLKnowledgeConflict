@@ -1,3 +1,3 @@
 @startuml
-Collar *-- Handle
+Collar *-- Handle : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Bottle o-- Ketchup
+Bottle o-- Ketchup : aggregation
 @enduml

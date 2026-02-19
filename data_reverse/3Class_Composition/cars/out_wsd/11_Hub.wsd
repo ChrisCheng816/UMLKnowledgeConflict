@@ -1,4 +1,4 @@
 @startuml
-Wheel *-- Car
-Hub *-- Wheel
+Wheel *-- Car : composition
+Hub *-- Wheel : composition
 @enduml

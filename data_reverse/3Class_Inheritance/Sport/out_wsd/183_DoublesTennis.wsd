@@ -1,4 +1,4 @@
 @startuml
-DoublesTennis <|-- Tennis
-Tennis <|-- Sport
+DoublesTennis <|-- Tennis : inheritance
+Tennis <|-- Sport : inheritance
 @enduml

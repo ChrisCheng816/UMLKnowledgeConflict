@@ -1,4 +1,4 @@
 @startuml
-InductionCooktop ..> StirFrying
-Electricity ..> InductionCooktop
+InductionCooktop ..> StirFrying : dependency
+Electricity ..> InductionCooktop : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Pinterest ..> Sharing
-Internet ..> Pinterest
+Pinterest ..> Sharing : dependency
+Internet ..> Pinterest : dependency
 @enduml

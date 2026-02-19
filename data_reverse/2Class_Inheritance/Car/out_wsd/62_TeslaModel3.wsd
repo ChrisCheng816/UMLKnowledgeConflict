@@ -1,3 +1,3 @@
 @startuml
-TeslaModel3 <|-- Sedan
+TeslaModel3 <|-- Sedan : inheritance
 @enduml

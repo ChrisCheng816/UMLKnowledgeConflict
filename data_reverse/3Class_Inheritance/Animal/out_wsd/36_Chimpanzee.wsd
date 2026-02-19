@@ -1,4 +1,4 @@
 @startuml
-Chimpanzee <|-- Mammal
-Mammal <|-- Animal
+Chimpanzee <|-- Mammal : inheritance
+Mammal <|-- Animal : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-CounterStrike <|-- VideoGame
+CounterStrike <|-- VideoGame : inheritance
 @enduml

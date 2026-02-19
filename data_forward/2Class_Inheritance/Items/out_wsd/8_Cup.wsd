@@ -1,3 +1,3 @@
 @startuml
-Drinkware <|-- Cup
+Drinkware <|-- Cup : inheritance
 @enduml

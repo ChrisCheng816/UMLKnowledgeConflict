@@ -1,4 +1,4 @@
 @startuml
-Orchestra o-- University
-Pianist o-- Orchestra
+Orchestra o-- University : aggregation
+Pianist o-- Orchestra : aggregation
 @enduml

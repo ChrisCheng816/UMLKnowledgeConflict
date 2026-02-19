@@ -1,4 +1,4 @@
 @startuml
-TheGodfather <|-- CrimeFilm
-CrimeFilm <|-- Film
+TheGodfather <|-- CrimeFilm : inheritance
+CrimeFilm <|-- Film : inheritance
 @enduml

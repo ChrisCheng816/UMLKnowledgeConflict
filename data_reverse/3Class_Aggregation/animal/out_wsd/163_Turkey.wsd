@@ -1,4 +1,4 @@
 @startuml
-Habitat o-- Aviary
-Turkey o-- Habitat
+Habitat o-- Aviary : aggregation
+Turkey o-- Habitat : aggregation
 @enduml

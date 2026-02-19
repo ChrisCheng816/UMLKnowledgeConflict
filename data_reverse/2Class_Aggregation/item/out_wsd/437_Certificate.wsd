@@ -1,3 +1,3 @@
 @startuml
-Certificate o-- Folder
+Certificate o-- Folder : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Subwoofer ..> Electricity
-Listening ..> Subwoofer
+Subwoofer ..> Electricity : dependency
+Listening ..> Subwoofer : dependency
 @enduml

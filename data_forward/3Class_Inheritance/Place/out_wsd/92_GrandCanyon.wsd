@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Canyon
-Canyon <|-- GrandCanyon
+GeographicFeature <|-- Canyon : inheritance
+Canyon <|-- GrandCanyon : inheritance
 @enduml

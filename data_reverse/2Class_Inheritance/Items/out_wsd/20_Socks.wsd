@@ -1,3 +1,3 @@
 @startuml
-Socks <|-- Clothing
+Socks <|-- Clothing : inheritance
 @enduml

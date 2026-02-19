@@ -1,4 +1,4 @@
 @startuml
-Cover *-- Title
-Magazine *-- Cover
+Cover *-- Title : composition
+Magazine *-- Cover : composition
 @enduml

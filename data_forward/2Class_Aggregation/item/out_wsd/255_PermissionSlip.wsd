@@ -1,3 +1,3 @@
 @startuml
-Binder o-- PermissionSlip
+Binder o-- PermissionSlip : aggregation
 @enduml

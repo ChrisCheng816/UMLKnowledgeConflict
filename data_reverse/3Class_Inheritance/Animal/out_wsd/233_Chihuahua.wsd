@@ -1,4 +1,4 @@
 @startuml
-Chihuahua <|-- Dog
-Dog <|-- Mammal
+Chihuahua <|-- Dog : inheritance
+Dog <|-- Mammal : inheritance
 @enduml

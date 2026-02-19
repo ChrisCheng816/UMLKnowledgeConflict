@@ -1,4 +1,4 @@
 @startuml
-Leg *-- Calf
-Person *-- Leg
+Leg *-- Calf : composition
+Person *-- Leg : composition
 @enduml

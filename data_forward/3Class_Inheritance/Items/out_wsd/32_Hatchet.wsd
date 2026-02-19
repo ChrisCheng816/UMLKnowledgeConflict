@@ -1,4 +1,4 @@
 @startuml
-Tool <|-- Axe
-Axe <|-- Hatchet
+Tool <|-- Axe : inheritance
+Axe <|-- Hatchet : inheritance
 @enduml

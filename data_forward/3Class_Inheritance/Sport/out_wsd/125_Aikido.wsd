@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- CombatSport
-CombatSport <|-- Aikido
+Sport <|-- CombatSport : inheritance
+CombatSport <|-- Aikido : inheritance
 @enduml

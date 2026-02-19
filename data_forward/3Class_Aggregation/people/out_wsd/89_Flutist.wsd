@@ -1,4 +1,4 @@
 @startuml
-Section o-- Flutist
-Orchestra o-- Section
+Section o-- Flutist : aggregation
+Orchestra o-- Section : aggregation
 @enduml

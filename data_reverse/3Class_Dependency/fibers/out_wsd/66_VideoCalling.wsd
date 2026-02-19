@@ -1,4 +1,4 @@
 @startuml
-Zoom ..> VideoCalling
-Internet ..> Zoom
+Zoom ..> VideoCalling : dependency
+Internet ..> Zoom : dependency
 @enduml

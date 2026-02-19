@@ -1,3 +1,3 @@
 @startuml
-FeaturePhone ..> VoiceCall
+FeaturePhone ..> VoiceCall : dependency
 @enduml

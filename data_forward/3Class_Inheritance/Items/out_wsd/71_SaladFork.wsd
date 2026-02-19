@@ -1,4 +1,4 @@
 @startuml
-Utensil <|-- Fork
-Fork <|-- SaladFork
+Utensil <|-- Fork : inheritance
+Fork <|-- SaladFork : inheritance
 @enduml

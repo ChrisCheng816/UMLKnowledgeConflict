@@ -1,4 +1,4 @@
 @startuml
-Tablet ..> Email
-WiFiNetwork ..> Tablet
+Tablet ..> Email : dependency
+WiFiNetwork ..> Tablet : dependency
 @enduml

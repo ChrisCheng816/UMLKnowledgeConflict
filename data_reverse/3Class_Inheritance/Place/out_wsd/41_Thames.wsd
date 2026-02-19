@@ -1,4 +1,4 @@
 @startuml
-Thames <|-- River
-River <|-- GeographicFeature
+Thames <|-- River : inheritance
+River <|-- GeographicFeature : inheritance
 @enduml

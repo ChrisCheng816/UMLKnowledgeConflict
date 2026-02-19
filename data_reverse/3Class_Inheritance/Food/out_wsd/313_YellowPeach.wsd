@@ -1,4 +1,4 @@
 @startuml
-YellowPeach <|-- Peach
-Peach <|-- Fruit
+YellowPeach <|-- Peach : inheritance
+Peach <|-- Fruit : inheritance
 @enduml

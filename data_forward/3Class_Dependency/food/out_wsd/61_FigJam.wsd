@@ -1,4 +1,4 @@
 @startuml
-Fig ..> FigTree
-FigJam ..> Fig
+Fig ..> FigTree : dependency
+FigJam ..> Fig : dependency
 @enduml

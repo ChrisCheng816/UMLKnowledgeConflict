@@ -1,4 +1,4 @@
 @startuml
-Teams ..> VideoCalling
-Internet ..> Teams
+Teams ..> VideoCalling : dependency
+Internet ..> Teams : dependency
 @enduml

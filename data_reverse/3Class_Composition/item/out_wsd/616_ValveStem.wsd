@@ -1,4 +1,4 @@
 @startuml
-Tire *-- Car
-ValveStem *-- Tire
+Tire *-- Car : composition
+ValveStem *-- Tire : composition
 @enduml

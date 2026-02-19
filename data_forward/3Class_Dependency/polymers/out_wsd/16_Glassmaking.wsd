@@ -1,4 +1,4 @@
 @startuml
-Sand ..> Rock
-Glassmaking ..> Sand
+Sand ..> Rock : dependency
+Glassmaking ..> Sand : dependency
 @enduml

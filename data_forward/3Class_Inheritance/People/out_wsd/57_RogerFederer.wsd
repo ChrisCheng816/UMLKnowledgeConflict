@@ -1,4 +1,4 @@
 @startuml
-Athlete <|-- TennisPlayer
-TennisPlayer <|-- RogerFederer
+Athlete <|-- TennisPlayer : inheritance
+TennisPlayer <|-- RogerFederer : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Seal
-Seal <|-- ElephantSeal
+Mammal <|-- Seal : inheritance
+Seal <|-- ElephantSeal : inheritance
 @enduml

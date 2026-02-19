@@ -1,4 +1,4 @@
 @startuml
-Key *-- Spring
-Piano *-- Key
+Key *-- Spring : composition
+Piano *-- Key : composition
 @enduml

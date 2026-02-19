@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Koala
-Fur *-- Ear
+Ear *-- Koala : composition
+Fur *-- Ear : composition
 @enduml

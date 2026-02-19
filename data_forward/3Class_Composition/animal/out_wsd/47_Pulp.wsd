@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Pulp
-Tiger *-- Tooth
+Tooth *-- Pulp : composition
+Tiger *-- Tooth : composition
 @enduml

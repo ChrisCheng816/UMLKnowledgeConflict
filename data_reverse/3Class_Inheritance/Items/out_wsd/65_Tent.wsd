@@ -1,4 +1,4 @@
 @startuml
-Tent <|-- CampingGear
-CampingGear <|-- Gear
+Tent <|-- CampingGear : inheritance
+CampingGear <|-- Gear : inheritance
 @enduml

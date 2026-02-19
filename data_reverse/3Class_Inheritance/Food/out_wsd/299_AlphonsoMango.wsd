@@ -1,4 +1,4 @@
 @startuml
-AlphonsoMango <|-- Mango
-Mango <|-- Fruit
+AlphonsoMango <|-- Mango : inheritance
+Mango <|-- Fruit : inheritance
 @enduml

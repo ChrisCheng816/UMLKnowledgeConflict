@@ -1,4 +1,4 @@
 @startuml
-Charger ..> Smartphone
-Socket ..> Charger
+Charger ..> Smartphone : dependency
+Socket ..> Charger : dependency
 @enduml

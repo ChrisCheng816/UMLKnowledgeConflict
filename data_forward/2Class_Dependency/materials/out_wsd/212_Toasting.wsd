@@ -1,3 +1,3 @@
 @startuml
-Toasting ..> ToasterOven
+Toasting ..> ToasterOven : dependency
 @enduml

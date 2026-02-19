@@ -1,4 +1,4 @@
 @startuml
-Mulberry ..> Sunlight
-Silkworm ..> Mulberry
+Mulberry ..> Sunlight : dependency
+Silkworm ..> Mulberry : dependency
 @enduml

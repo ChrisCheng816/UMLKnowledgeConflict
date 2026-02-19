@@ -1,4 +1,4 @@
 @startuml
-Class o-- Student
-School o-- Class
+Class o-- Student : aggregation
+School o-- Class : aggregation
 @enduml

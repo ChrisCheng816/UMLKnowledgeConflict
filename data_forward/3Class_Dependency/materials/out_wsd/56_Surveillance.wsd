@@ -1,4 +1,4 @@
 @startuml
-DoorSensor ..> Electricity
-Surveillance ..> DoorSensor
+DoorSensor ..> Electricity : dependency
+Surveillance ..> DoorSensor : dependency
 @enduml

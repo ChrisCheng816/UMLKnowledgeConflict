@@ -1,3 +1,3 @@
 @startuml
-SewingMachine ..> Sewing
+SewingMachine ..> Sewing : dependency
 @enduml

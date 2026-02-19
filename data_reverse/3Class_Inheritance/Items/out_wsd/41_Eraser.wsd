@@ -1,4 +1,4 @@
 @startuml
-Eraser <|-- Stationery
-Stationery <|-- Item
+Eraser <|-- Stationery : inheritance
+Stationery <|-- Item : inheritance
 @enduml

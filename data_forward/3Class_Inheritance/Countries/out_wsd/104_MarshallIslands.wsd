@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- MarshallIslands
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- MarshallIslands : inheritance
 @enduml

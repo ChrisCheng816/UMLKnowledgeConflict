@@ -1,4 +1,4 @@
 @startuml
-Skyfall <|-- SpyFilm
-SpyFilm <|-- Film
+Skyfall <|-- SpyFilm : inheritance
+SpyFilm <|-- Film : inheritance
 @enduml

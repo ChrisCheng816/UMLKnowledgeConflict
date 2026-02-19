@@ -1,4 +1,4 @@
 @startuml
-YuGiOh <|-- CardGame
-CardGame <|-- Game
+YuGiOh <|-- CardGame : inheritance
+CardGame <|-- Game : inheritance
 @enduml

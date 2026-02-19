@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Watermelon
-Watermelon <|-- SeedlessWatermelon
+Fruit <|-- Watermelon : inheritance
+Watermelon <|-- SeedlessWatermelon : inheritance
 @enduml

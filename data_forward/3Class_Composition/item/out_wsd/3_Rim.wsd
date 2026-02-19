@@ -1,4 +1,4 @@
 @startuml
-WheelAssembly *-- Rim
-Car *-- WheelAssembly
+WheelAssembly *-- Rim : composition
+Car *-- WheelAssembly : composition
 @enduml

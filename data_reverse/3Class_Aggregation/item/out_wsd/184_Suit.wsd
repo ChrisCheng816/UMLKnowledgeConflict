@@ -1,4 +1,4 @@
 @startuml
-Hanger o-- Closet
-Suit o-- Hanger
+Hanger o-- Closet : aggregation
+Suit o-- Hanger : aggregation
 @enduml

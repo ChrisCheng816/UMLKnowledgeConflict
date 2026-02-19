@@ -1,4 +1,4 @@
 @startuml
-DocumentCamera ..> Recording
-Electricity ..> DocumentCamera
+DocumentCamera ..> Recording : dependency
+Electricity ..> DocumentCamera : dependency
 @enduml

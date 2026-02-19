@@ -1,4 +1,4 @@
 @startuml
-Orchestra o-- Theater
-Clarinetist o-- Orchestra
+Orchestra o-- Theater : aggregation
+Clarinetist o-- Orchestra : aggregation
 @enduml

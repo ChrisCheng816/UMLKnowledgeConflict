@@ -1,4 +1,4 @@
 @startuml
-Masthead *-- Newspaper
-Logo *-- Masthead
+Masthead *-- Newspaper : composition
+Logo *-- Masthead : composition
 @enduml

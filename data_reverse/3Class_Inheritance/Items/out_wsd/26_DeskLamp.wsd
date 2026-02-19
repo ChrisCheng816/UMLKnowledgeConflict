@@ -1,4 +1,4 @@
 @startuml
-DeskLamp <|-- HomeAppliance
-HomeAppliance <|-- Item
+DeskLamp <|-- HomeAppliance : inheritance
+HomeAppliance <|-- Item : inheritance
 @enduml

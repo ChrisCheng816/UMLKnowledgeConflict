@@ -1,3 +1,3 @@
 @startuml
-WallMounting ..> Drill
+WallMounting ..> Drill : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-BoardGame <|-- Dixit
+BoardGame <|-- Dixit : inheritance
 @enduml

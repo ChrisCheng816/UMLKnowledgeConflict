@@ -1,4 +1,4 @@
 @startuml
-Fish ..> Plankton
-Eagle ..> Fish
+Fish ..> Plankton : dependency
+Eagle ..> Fish : dependency
 @enduml

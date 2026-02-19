@@ -1,4 +1,4 @@
 @startuml
-Root *-- Tree
-RootHair *-- Root
+Root *-- Tree : composition
+RootHair *-- Root : composition
 @enduml

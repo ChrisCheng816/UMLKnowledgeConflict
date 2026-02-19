@@ -1,4 +1,4 @@
 @startuml
-Bulb *-- Scale
-Tulip *-- Bulb
+Bulb *-- Scale : composition
+Tulip *-- Bulb : composition
 @enduml

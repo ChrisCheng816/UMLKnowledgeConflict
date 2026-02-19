@@ -1,4 +1,4 @@
 @startuml
-Silicone ..> SiliconeSealant
-Sand ..> Silicone
+Silicone ..> SiliconeSealant : dependency
+Sand ..> Silicone : dependency
 @enduml

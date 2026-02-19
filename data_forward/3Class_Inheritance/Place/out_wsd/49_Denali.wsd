@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Mountain
-Mountain <|-- Denali
+GeographicFeature <|-- Mountain : inheritance
+Mountain <|-- Denali : inheritance
 @enduml

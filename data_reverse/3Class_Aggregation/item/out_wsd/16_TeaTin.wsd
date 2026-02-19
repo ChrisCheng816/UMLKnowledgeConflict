@@ -1,4 +1,4 @@
 @startuml
-Case o-- TeaStore
-TeaTin o-- Case
+Case o-- TeaStore : aggregation
+TeaTin o-- Case : aggregation
 @enduml

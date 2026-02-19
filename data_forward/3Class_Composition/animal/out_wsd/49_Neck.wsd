@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Neck
-Tiger *-- Tooth
+Tooth *-- Neck : composition
+Tiger *-- Tooth : composition
 @enduml

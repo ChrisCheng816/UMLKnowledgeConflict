@@ -1,4 +1,4 @@
 @startuml
-Chest *-- Rib
-Person *-- Chest
+Chest *-- Rib : composition
+Person *-- Chest : composition
 @enduml

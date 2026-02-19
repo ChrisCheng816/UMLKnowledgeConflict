@@ -1,4 +1,4 @@
 @startuml
-Board o-- Chairperson
-Company o-- Board
+Board o-- Chairperson : aggregation
+Company o-- Board : aggregation
 @enduml

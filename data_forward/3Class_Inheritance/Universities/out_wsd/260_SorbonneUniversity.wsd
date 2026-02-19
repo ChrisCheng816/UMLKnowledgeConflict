@@ -1,4 +1,4 @@
 @startuml
-University <|-- HistoricUniversity
-HistoricUniversity <|-- SorbonneUniversity
+University <|-- HistoricUniversity : inheritance
+HistoricUniversity <|-- SorbonneUniversity : inheritance
 @enduml

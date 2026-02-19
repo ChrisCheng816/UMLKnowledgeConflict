@@ -1,4 +1,4 @@
 @startuml
-Habitat o-- Hare
-Zoo o-- Habitat
+Habitat o-- Hare : aggregation
+Zoo o-- Habitat : aggregation
 @enduml

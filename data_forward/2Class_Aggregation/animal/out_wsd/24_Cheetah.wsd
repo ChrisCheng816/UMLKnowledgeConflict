@@ -1,3 +1,3 @@
 @startuml
-Enclosure o-- Cheetah
+Enclosure o-- Cheetah : aggregation
 @enduml

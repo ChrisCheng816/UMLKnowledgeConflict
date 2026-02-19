@@ -1,4 +1,4 @@
 @startuml
-BoltCutter <|-- Cutter
-Cutter <|-- Tool
+BoltCutter <|-- Cutter : inheritance
+Cutter <|-- Tool : inheritance
 @enduml

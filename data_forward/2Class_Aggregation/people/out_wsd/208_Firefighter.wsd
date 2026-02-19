@@ -1,3 +1,3 @@
 @startuml
-Squad o-- Firefighter
+Squad o-- Firefighter : aggregation
 @enduml

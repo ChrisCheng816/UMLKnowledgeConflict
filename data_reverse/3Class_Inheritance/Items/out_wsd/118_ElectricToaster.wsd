@@ -1,4 +1,4 @@
 @startuml
-ElectricToaster <|-- Toaster
-Toaster <|-- Appliance
+ElectricToaster <|-- Toaster : inheritance
+Toaster <|-- Appliance : inheritance
 @enduml

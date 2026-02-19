@@ -1,4 +1,4 @@
 @startuml
-Panel o-- Expert
-Workshop o-- Panel
+Panel o-- Expert : aggregation
+Workshop o-- Panel : aggregation
 @enduml

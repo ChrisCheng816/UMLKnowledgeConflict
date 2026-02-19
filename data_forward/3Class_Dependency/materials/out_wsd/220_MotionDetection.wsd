@@ -1,4 +1,4 @@
 @startuml
-VideoDoorbell ..> Electricity
-MotionDetection ..> VideoDoorbell
+VideoDoorbell ..> Electricity : dependency
+MotionDetection ..> VideoDoorbell : dependency
 @enduml

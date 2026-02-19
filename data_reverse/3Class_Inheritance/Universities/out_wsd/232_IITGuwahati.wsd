@@ -1,4 +1,4 @@
 @startuml
-IITGuwahati <|-- University
-University <|-- EducationalInstitution
+IITGuwahati <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

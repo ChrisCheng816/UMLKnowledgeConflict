@@ -1,4 +1,4 @@
 @startuml
-Catalog o-- Magazine
-Library o-- Catalog
+Catalog o-- Magazine : aggregation
+Library o-- Catalog : aggregation
 @enduml

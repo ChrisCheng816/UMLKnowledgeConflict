@@ -1,4 +1,4 @@
 @startuml
-Habitat o-- Cardinal
-Aviary o-- Habitat
+Habitat o-- Cardinal : aggregation
+Aviary o-- Habitat : aggregation
 @enduml

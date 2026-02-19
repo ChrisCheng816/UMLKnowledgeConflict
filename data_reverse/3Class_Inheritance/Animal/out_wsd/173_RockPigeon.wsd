@@ -1,4 +1,4 @@
 @startuml
-RockPigeon <|-- Pigeon
-Pigeon <|-- Bird
+RockPigeon <|-- Pigeon : inheritance
+Pigeon <|-- Bird : inheritance
 @enduml

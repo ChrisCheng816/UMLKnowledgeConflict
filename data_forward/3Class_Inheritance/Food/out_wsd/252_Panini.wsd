@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Sandwich
-Sandwich <|-- Panini
+Food <|-- Sandwich : inheritance
+Sandwich <|-- Panini : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Crew o-- MovieSet
-Cameraperson o-- Crew
+Crew o-- MovieSet : aggregation
+Cameraperson o-- Crew : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Producer
-Newsroom o-- Staff
+Staff o-- Producer : aggregation
+Newsroom o-- Staff : aggregation
 @enduml

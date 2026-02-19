@@ -1,3 +1,3 @@
 @startuml
-Driver o-- Staff
+Driver o-- Staff : aggregation
 @enduml

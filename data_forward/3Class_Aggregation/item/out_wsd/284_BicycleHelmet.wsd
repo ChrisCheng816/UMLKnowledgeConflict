@@ -1,4 +1,4 @@
 @startuml
-Rack o-- BicycleHelmet
-Entryway o-- Rack
+Rack o-- BicycleHelmet : aggregation
+Entryway o-- Rack : aggregation
 @enduml

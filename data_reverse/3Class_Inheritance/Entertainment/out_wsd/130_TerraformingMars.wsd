@@ -1,4 +1,4 @@
 @startuml
-TerraformingMars <|-- BoardGame
-BoardGame <|-- Game
+TerraformingMars <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

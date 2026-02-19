@@ -1,4 +1,4 @@
 @startuml
-Drive *-- Desktop
-Magnet *-- Drive
+Drive *-- Desktop : composition
+Magnet *-- Drive : composition
 @enduml

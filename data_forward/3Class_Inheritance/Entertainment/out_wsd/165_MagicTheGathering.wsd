@@ -1,4 +1,4 @@
 @startuml
-Game <|-- CardGame
-CardGame <|-- MagicTheGathering
+Game <|-- CardGame : inheritance
+CardGame <|-- MagicTheGathering : inheritance
 @enduml

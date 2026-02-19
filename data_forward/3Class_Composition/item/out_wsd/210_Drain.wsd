@@ -1,4 +1,4 @@
 @startuml
-Basement *-- Drain
-House *-- Basement
+Basement *-- Drain : composition
+House *-- Basement : composition
 @enduml

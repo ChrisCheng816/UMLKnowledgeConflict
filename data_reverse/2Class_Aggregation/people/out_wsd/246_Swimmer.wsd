@@ -1,3 +1,3 @@
 @startuml
-Swimmer o-- Team
+Swimmer o-- Team : aggregation
 @enduml

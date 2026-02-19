@@ -1,4 +1,4 @@
 @startuml
-NelsonMandela <|-- FreedomFighter
-FreedomFighter <|-- Activist
+NelsonMandela <|-- FreedomFighter : inheritance
+FreedomFighter <|-- Activist : inheritance
 @enduml

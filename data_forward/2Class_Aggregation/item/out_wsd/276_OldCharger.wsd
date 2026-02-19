@@ -1,3 +1,3 @@
 @startuml
-Bin o-- OldCharger
+Bin o-- OldCharger : aggregation
 @enduml

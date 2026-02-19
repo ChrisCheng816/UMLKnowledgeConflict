@@ -1,4 +1,4 @@
 @startuml
-Exhibit o-- Aviary
-Robin o-- Exhibit
+Exhibit o-- Aviary : aggregation
+Robin o-- Exhibit : aggregation
 @enduml

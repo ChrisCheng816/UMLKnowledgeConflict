@@ -1,4 +1,4 @@
 @startuml
-Crate o-- Warehouse
-Cable o-- Crate
+Crate o-- Warehouse : aggregation
+Cable o-- Crate : aggregation
 @enduml

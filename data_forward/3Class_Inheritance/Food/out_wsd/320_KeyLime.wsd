@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Lime
-Lime <|-- KeyLime
+Fruit <|-- Lime : inheritance
+Lime <|-- KeyLime : inheritance
 @enduml

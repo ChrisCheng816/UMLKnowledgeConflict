@@ -1,4 +1,4 @@
 @startuml
-Page *-- Entry
-Catalog *-- Page
+Page *-- Entry : composition
+Catalog *-- Page : composition
 @enduml

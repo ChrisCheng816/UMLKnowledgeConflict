@@ -1,4 +1,4 @@
 @startuml
-Fleet o-- PoliceCar
-City o-- Fleet
+Fleet o-- PoliceCar : aggregation
+City o-- Fleet : aggregation
 @enduml

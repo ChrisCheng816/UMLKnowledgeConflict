@@ -1,4 +1,4 @@
 @startuml
-Pool o-- Dolphin
-Aquarium o-- Pool
+Pool o-- Dolphin : aggregation
+Aquarium o-- Pool : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Speedcubing <|-- IndividualSport
-IndividualSport <|-- Sport
+Speedcubing <|-- IndividualSport : inheritance
+IndividualSport <|-- Sport : inheritance
 @enduml

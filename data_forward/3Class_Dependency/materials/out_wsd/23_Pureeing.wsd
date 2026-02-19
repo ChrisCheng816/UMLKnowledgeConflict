@@ -1,4 +1,4 @@
 @startuml
-Blender ..> Electricity
-Pureeing ..> Blender
+Blender ..> Electricity : dependency
+Pureeing ..> Blender : dependency
 @enduml

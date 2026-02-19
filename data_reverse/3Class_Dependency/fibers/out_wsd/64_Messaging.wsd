@@ -1,4 +1,4 @@
 @startuml
-WeChat ..> Messaging
-Internet ..> WeChat
+WeChat ..> Messaging : dependency
+Internet ..> WeChat : dependency
 @enduml

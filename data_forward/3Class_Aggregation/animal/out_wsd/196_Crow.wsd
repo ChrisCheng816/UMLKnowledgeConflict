@@ -1,4 +1,4 @@
 @startuml
-Flock o-- Crow
-Reserve o-- Flock
+Flock o-- Crow : aggregation
+Reserve o-- Flock : aggregation
 @enduml

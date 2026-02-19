@@ -1,3 +1,3 @@
 @startuml
-CTScanner ..> AbdominalCTScan
+CTScanner ..> AbdominalCTScan : dependency
 @enduml

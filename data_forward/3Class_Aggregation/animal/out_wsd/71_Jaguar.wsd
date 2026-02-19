@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Jaguar
-Reserve o-- Enclosure
+Enclosure o-- Jaguar : aggregation
+Reserve o-- Enclosure : aggregation
 @enduml

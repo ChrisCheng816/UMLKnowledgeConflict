@@ -1,4 +1,4 @@
 @startuml
-PowerBankCharger ..> Electricity
-Operating ..> PowerBankCharger
+PowerBankCharger ..> Electricity : dependency
+Operating ..> PowerBankCharger : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Onigiri <|-- Snack
-Snack <|-- Food
+Onigiri <|-- Snack : inheritance
+Snack <|-- Food : inheritance
 @enduml

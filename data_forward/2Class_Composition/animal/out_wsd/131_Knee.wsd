@@ -1,3 +1,3 @@
 @startuml
-Leg *-- Knee
+Leg *-- Knee : composition
 @enduml

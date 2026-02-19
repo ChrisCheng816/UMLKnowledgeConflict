@@ -1,4 +1,4 @@
 @startuml
-Team o-- Cyclist
-School o-- Team
+Team o-- Cyclist : aggregation
+School o-- Team : aggregation
 @enduml

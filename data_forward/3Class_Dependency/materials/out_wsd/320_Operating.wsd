@@ -1,4 +1,4 @@
 @startuml
-PinballMachine ..> Electricity
-Operating ..> PinballMachine
+PinballMachine ..> Electricity : dependency
+Operating ..> PinballMachine : dependency
 @enduml

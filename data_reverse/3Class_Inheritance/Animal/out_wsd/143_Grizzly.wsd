@@ -1,4 +1,4 @@
 @startuml
-Grizzly <|-- Bear
-Bear <|-- Mammal
+Grizzly <|-- Bear : inheritance
+Bear <|-- Mammal : inheritance
 @enduml

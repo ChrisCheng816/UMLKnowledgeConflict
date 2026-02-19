@@ -1,3 +1,3 @@
 @startuml
-Teams ..> Meeting
+Teams ..> Meeting : dependency
 @enduml

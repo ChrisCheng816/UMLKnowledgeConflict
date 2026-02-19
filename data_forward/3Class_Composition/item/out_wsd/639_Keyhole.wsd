@@ -1,4 +1,4 @@
 @startuml
-Door *-- Keyhole
-House *-- Door
+Door *-- Keyhole : composition
+House *-- Door : composition
 @enduml

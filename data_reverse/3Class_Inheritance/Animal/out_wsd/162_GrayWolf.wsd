@@ -1,4 +1,4 @@
 @startuml
-GrayWolf <|-- Wolf
-Wolf <|-- Mammal
+GrayWolf <|-- Wolf : inheritance
+Wolf <|-- Mammal : inheritance
 @enduml

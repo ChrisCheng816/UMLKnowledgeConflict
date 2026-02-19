@@ -1,3 +1,3 @@
 @startuml
-BuildingPowerFeed ..> CircuitBreakerPanel
+BuildingPowerFeed ..> CircuitBreakerPanel : dependency
 @enduml

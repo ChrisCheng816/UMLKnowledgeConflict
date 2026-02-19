@@ -1,4 +1,4 @@
 @startuml
-Container <|-- Box
-Box <|-- GiftBox
+Container <|-- Box : inheritance
+Box <|-- GiftBox : inheritance
 @enduml

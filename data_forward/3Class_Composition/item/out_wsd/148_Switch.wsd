@@ -1,4 +1,4 @@
 @startuml
-Wall *-- Switch
-House *-- Wall
+Wall *-- Switch : composition
+House *-- Wall : composition
 @enduml

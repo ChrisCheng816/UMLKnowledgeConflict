@@ -1,4 +1,4 @@
 @startuml
-Activity <|-- Entertainment
-Entertainment <|-- TVSeries
+Activity <|-- Entertainment : inheritance
+Entertainment <|-- TVSeries : inheritance
 @enduml

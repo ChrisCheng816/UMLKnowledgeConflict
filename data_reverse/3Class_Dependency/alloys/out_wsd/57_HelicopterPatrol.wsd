@@ -1,4 +1,4 @@
 @startuml
-Helicopter ..> HelicopterPatrol
-JetFuel ..> Helicopter
+Helicopter ..> HelicopterPatrol : dependency
+JetFuel ..> Helicopter : dependency
 @enduml

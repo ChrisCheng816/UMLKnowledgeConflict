@@ -1,4 +1,4 @@
 @startuml
-CTScanner ..> Electricity
-LungCTScan ..> CTScanner
+CTScanner ..> Electricity : dependency
+LungCTScan ..> CTScanner : dependency
 @enduml

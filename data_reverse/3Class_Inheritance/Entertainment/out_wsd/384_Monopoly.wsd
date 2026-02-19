@@ -1,4 +1,4 @@
 @startuml
-Monopoly <|-- EconomicGame
-EconomicGame <|-- BoardGame
+Monopoly <|-- EconomicGame : inheritance
+EconomicGame <|-- BoardGame : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MontBlanc <|-- Mountain
-Mountain <|-- GeographicFeature
+MontBlanc <|-- Mountain : inheritance
+Mountain <|-- GeographicFeature : inheritance
 @enduml

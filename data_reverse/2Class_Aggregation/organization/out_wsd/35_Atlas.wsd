@@ -1,3 +1,3 @@
 @startuml
-Atlas o-- Shelf
+Atlas o-- Shelf : aggregation
 @enduml

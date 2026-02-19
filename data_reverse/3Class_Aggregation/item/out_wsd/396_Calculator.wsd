@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Classroom
-Calculator o-- Cabinet
+Cabinet o-- Classroom : aggregation
+Calculator o-- Cabinet : aggregation
 @enduml

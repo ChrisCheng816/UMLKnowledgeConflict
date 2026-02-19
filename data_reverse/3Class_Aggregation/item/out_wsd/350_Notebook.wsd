@@ -1,4 +1,4 @@
 @startuml
-Crate o-- Warehouse
-Notebook o-- Crate
+Crate o-- Warehouse : aggregation
+Notebook o-- Crate : aggregation
 @enduml

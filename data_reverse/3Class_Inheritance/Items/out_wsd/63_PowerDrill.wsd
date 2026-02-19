@@ -1,4 +1,4 @@
 @startuml
-PowerDrill <|-- Drill
-Drill <|-- Tool
+PowerDrill <|-- Drill : inheritance
+Drill <|-- Tool : inheritance
 @enduml

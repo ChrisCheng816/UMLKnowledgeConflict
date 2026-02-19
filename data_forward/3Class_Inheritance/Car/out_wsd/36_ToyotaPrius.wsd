@@ -1,4 +1,4 @@
 @startuml
-Car <|-- HybridCar
-HybridCar <|-- ToyotaPrius
+Car <|-- HybridCar : inheritance
+HybridCar <|-- ToyotaPrius : inheritance
 @enduml

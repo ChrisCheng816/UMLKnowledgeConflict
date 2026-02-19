@@ -1,3 +1,3 @@
 @startuml
-Piston *-- Engine
+Piston *-- Engine : composition
 @enduml

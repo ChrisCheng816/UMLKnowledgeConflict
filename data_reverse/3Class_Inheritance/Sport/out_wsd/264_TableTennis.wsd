@@ -1,4 +1,4 @@
 @startuml
-TableTennis <|-- RacquetSport
-RacquetSport <|-- Sport
+TableTennis <|-- RacquetSport : inheritance
+RacquetSport <|-- Sport : inheritance
 @enduml

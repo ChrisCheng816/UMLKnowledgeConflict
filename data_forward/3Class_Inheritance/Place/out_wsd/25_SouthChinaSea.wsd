@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Sea
-Sea <|-- SouthChinaSea
+GeographicFeature <|-- Sea : inheritance
+Sea <|-- SouthChinaSea : inheritance
 @enduml

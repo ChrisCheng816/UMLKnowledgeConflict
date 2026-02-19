@@ -1,4 +1,4 @@
 @startuml
-Hangar o-- Plane
-Airport o-- Hangar
+Hangar o-- Plane : aggregation
+Airport o-- Hangar : aggregation
 @enduml

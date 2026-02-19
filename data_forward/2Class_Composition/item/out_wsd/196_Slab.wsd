@@ -1,3 +1,3 @@
 @startuml
-Foundation *-- Slab
+Foundation *-- Slab : composition
 @enduml

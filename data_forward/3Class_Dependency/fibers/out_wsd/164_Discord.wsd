@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Discord ..> Internet
+Internet ..> Electricity : dependency
+Discord ..> Internet : dependency
 @enduml

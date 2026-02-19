@@ -1,4 +1,4 @@
 @startuml
-Company o-- Singer
-Theater o-- Company
+Company o-- Singer : aggregation
+Theater o-- Company : aggregation
 @enduml

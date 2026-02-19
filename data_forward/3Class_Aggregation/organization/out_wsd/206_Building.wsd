@@ -1,4 +1,4 @@
 @startuml
-Campus o-- Building
-University o-- Campus
+Campus o-- Building : aggregation
+University o-- Campus : aggregation
 @enduml

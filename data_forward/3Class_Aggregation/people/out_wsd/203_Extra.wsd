@@ -1,4 +1,4 @@
 @startuml
-Cast o-- Extra
-FilmSet o-- Cast
+Cast o-- Extra : aggregation
+FilmSet o-- Cast : aggregation
 @enduml

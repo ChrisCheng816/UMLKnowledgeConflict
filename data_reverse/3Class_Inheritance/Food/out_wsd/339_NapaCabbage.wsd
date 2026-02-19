@@ -1,4 +1,4 @@
 @startuml
-NapaCabbage <|-- Cabbage
-Cabbage <|-- Vegetable
+NapaCabbage <|-- Cabbage : inheritance
+Cabbage <|-- Vegetable : inheritance
 @enduml

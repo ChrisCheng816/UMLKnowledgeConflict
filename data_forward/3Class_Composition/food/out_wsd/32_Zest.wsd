@@ -1,4 +1,4 @@
 @startuml
-Peel *-- Zest
-Orange *-- Peel
+Peel *-- Zest : composition
+Orange *-- Peel : composition
 @enduml

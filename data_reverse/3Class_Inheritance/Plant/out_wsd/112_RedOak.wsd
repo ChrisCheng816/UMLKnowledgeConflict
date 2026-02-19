@@ -1,4 +1,4 @@
 @startuml
-RedOak <|-- Oak
-Oak <|-- Tree
+RedOak <|-- Oak : inheritance
+Oak <|-- Tree : inheritance
 @enduml

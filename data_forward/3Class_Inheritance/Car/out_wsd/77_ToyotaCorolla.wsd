@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Sedan
-Sedan <|-- ToyotaCorolla
+Vehicle <|-- Sedan : inheritance
+Sedan <|-- ToyotaCorolla : inheritance
 @enduml

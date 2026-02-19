@@ -1,4 +1,4 @@
 @startuml
-Crew o-- Theater
-Technician o-- Crew
+Crew o-- Theater : aggregation
+Technician o-- Crew : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Antacid o-- Cabinet
+Antacid o-- Cabinet : aggregation
 @enduml

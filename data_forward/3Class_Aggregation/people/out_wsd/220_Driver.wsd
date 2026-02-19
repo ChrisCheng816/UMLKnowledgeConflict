@@ -1,4 +1,4 @@
 @startuml
-Unit o-- Driver
-PoliceStation o-- Unit
+Unit o-- Driver : aggregation
+PoliceStation o-- Unit : aggregation
 @enduml

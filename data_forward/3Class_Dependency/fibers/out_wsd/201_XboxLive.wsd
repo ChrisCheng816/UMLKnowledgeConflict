@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-XboxLive ..> Internet
+Internet ..> Electricity : dependency
+XboxLive ..> Internet : dependency
 @enduml

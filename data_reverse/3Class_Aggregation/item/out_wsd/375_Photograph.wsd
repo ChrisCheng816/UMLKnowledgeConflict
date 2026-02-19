@@ -1,4 +1,4 @@
 @startuml
-Exhibition o-- Gallery
-Photograph o-- Exhibition
+Exhibition o-- Gallery : aggregation
+Photograph o-- Exhibition : aggregation
 @enduml

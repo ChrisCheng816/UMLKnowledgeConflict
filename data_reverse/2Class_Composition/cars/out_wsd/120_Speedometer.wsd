@@ -1,3 +1,3 @@
 @startuml
-Speedometer *-- Dashboard
+Speedometer *-- Dashboard : composition
 @enduml

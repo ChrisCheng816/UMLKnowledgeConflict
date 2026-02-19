@@ -1,4 +1,4 @@
 @startuml
-PowerGrid ..> PowerPlant
-TrafficLight ..> PowerGrid
+PowerGrid ..> PowerPlant : dependency
+TrafficLight ..> PowerGrid : dependency
 @enduml

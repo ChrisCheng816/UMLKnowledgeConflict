@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Sculpture
-Sculpture <|-- TheKissRodin
+Artwork <|-- Sculpture : inheritance
+Sculpture <|-- TheKissRodin : inheritance
 @enduml

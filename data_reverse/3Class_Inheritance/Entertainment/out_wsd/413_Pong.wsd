@@ -1,4 +1,4 @@
 @startuml
-Pong <|-- VideoGame
-VideoGame <|-- Game
+Pong <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

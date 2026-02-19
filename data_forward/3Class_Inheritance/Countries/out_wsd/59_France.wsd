@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- France
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- France : inheritance
 @enduml

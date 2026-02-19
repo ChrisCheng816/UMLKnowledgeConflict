@@ -1,4 +1,4 @@
 @startuml
-Nebulizer ..> Electricity
-Operating ..> Nebulizer
+Nebulizer ..> Electricity : dependency
+Operating ..> Nebulizer : dependency
 @enduml

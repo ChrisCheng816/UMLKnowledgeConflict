@@ -1,4 +1,4 @@
 @startuml
-Fish <|-- Carp
-Carp <|-- CommonCarp
+Fish <|-- Carp : inheritance
+Carp <|-- CommonCarp : inheritance
 @enduml

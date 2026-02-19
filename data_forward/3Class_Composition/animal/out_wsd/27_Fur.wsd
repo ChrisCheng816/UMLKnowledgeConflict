@@ -1,4 +1,4 @@
 @startuml
-Tail *-- Fur
-Cat *-- Tail
+Tail *-- Fur : composition
+Cat *-- Tail : composition
 @enduml

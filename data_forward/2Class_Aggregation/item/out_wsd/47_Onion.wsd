@@ -1,3 +1,3 @@
 @startuml
-Basket o-- Onion
+Basket o-- Onion : aggregation
 @enduml

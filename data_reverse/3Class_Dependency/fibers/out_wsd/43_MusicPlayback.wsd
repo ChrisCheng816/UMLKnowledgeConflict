@@ -1,4 +1,4 @@
 @startuml
-SmartTV ..> MusicPlayback
-WiFiNetwork ..> SmartTV
+SmartTV ..> MusicPlayback : dependency
+WiFiNetwork ..> SmartTV : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-StorageBin o-- Blanket
-CampingStore o-- StorageBin
+StorageBin o-- Blanket : aggregation
+CampingStore o-- StorageBin : aggregation
 @enduml

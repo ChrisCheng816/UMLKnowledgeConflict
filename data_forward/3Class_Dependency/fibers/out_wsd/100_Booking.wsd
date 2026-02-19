@@ -1,4 +1,4 @@
 @startuml
-Lyft ..> Internet
-Booking ..> Lyft
+Lyft ..> Internet : dependency
+Booking ..> Lyft : dependency
 @enduml

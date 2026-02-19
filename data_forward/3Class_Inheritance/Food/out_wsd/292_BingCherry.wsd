@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Cherry
-Cherry <|-- BingCherry
+Fruit <|-- Cherry : inheritance
+Cherry <|-- BingCherry : inheritance
 @enduml

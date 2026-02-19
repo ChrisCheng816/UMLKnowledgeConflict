@@ -1,4 +1,4 @@
 @startuml
-Cherry ..> CherryJam
-CherryTree ..> Cherry
+Cherry ..> CherryJam : dependency
+CherryTree ..> Cherry : dependency
 @enduml

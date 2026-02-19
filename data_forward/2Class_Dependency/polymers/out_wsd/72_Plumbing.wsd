@@ -1,3 +1,3 @@
 @startuml
-Plumbing ..> Hose
+Plumbing ..> Hose : dependency
 @enduml

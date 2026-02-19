@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Amazon ..> Internet
+Internet ..> Electricity : dependency
+Amazon ..> Internet : dependency
 @enduml

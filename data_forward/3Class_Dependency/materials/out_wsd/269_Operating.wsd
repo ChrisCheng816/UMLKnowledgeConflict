@@ -1,4 +1,4 @@
 @startuml
-ExerciseBike ..> Electricity
-Operating ..> ExerciseBike
+ExerciseBike ..> Electricity : dependency
+Operating ..> ExerciseBike : dependency
 @enduml

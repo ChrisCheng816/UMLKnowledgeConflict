@@ -1,3 +1,3 @@
 @startuml
-Unit o-- Dispatcher
+Unit o-- Dispatcher : aggregation
 @enduml

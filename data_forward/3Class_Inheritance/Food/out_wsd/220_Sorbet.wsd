@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dessert
-Dessert <|-- Sorbet
+Food <|-- Dessert : inheritance
+Dessert <|-- Sorbet : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Word *-- Essay
-Letter *-- Word
+Word *-- Essay : composition
+Letter *-- Word : composition
 @enduml

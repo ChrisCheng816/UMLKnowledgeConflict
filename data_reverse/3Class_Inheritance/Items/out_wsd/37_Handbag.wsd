@@ -1,4 +1,4 @@
 @startuml
-Handbag <|-- Bag
-Bag <|-- Accessory
+Handbag <|-- Bag : inheritance
+Bag <|-- Accessory : inheritance
 @enduml

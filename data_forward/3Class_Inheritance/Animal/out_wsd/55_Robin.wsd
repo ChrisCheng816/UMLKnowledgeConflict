@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Bird
-Bird <|-- Robin
+Animal <|-- Bird : inheritance
+Bird <|-- Robin : inheritance
 @enduml

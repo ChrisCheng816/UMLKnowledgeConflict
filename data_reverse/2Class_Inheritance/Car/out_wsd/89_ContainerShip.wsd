@@ -1,3 +1,3 @@
 @startuml
-ContainerShip <|-- Ship
+ContainerShip <|-- Ship : inheritance
 @enduml

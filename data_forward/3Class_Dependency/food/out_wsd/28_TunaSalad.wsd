@@ -1,4 +1,4 @@
 @startuml
-Tuna ..> Ocean
-TunaSalad ..> Tuna
+Tuna ..> Ocean : dependency
+TunaSalad ..> Tuna : dependency
 @enduml

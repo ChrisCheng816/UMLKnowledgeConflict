@@ -1,4 +1,4 @@
 @startuml
-Sheep <|-- Mammal
-Mammal <|-- Animal
+Sheep <|-- Mammal : inheritance
+Mammal <|-- Animal : inheritance
 @enduml

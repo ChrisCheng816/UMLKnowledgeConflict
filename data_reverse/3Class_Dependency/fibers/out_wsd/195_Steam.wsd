@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Steam
-Electricity ..> Internet
+Internet ..> Steam : dependency
+Electricity ..> Internet : dependency
 @enduml

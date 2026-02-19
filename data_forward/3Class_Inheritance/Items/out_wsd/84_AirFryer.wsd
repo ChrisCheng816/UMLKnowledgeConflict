@@ -1,4 +1,4 @@
 @startuml
-Appliance <|-- Fryer
-Fryer <|-- AirFryer
+Appliance <|-- Fryer : inheritance
+Fryer <|-- AirFryer : inheritance
 @enduml

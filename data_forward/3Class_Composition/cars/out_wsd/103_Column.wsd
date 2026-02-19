@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Column
-Car *-- SteeringSystem
+SteeringSystem *-- Column : composition
+Car *-- SteeringSystem : composition
 @enduml

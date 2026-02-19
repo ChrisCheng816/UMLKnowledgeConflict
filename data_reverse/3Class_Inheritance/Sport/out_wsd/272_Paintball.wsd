@@ -1,4 +1,4 @@
 @startuml
-Paintball <|-- Sport
-Sport <|-- Activity
+Paintball <|-- Sport : inheritance
+Sport <|-- Activity : inheritance
 @enduml

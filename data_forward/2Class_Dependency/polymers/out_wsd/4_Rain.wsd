@@ -1,3 +1,3 @@
 @startuml
-Rain ..> WaterVapor
+Rain ..> WaterVapor : dependency
 @enduml

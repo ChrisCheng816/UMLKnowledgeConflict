@@ -1,4 +1,4 @@
 @startuml
-Container <|-- Bin
-Bin <|-- StorageBin
+Container <|-- Bin : inheritance
+Bin <|-- StorageBin : inheritance
 @enduml

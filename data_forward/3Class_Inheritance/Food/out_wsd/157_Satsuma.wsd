@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- CitrusFruit
-CitrusFruit <|-- Satsuma
+Fruit <|-- CitrusFruit : inheritance
+CitrusFruit <|-- Satsuma : inheritance
 @enduml

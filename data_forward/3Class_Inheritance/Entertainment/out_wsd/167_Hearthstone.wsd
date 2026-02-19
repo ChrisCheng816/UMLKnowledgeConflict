@@ -1,4 +1,4 @@
 @startuml
-Game <|-- CardGame
-CardGame <|-- Hearthstone
+Game <|-- CardGame : inheritance
+CardGame <|-- Hearthstone : inheritance
 @enduml

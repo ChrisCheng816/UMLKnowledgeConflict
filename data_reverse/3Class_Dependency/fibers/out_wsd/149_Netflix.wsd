@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Netflix
-Electricity ..> Internet
+Internet ..> Netflix : dependency
+Electricity ..> Internet : dependency
 @enduml

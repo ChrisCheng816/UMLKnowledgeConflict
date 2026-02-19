@@ -1,4 +1,4 @@
 @startuml
-Touchpad *-- Laptop
-Sensor *-- Touchpad
+Touchpad *-- Laptop : composition
+Sensor *-- Touchpad : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Armrest *-- Bolt
-Chair *-- Armrest
+Armrest *-- Bolt : composition
+Chair *-- Armrest : composition
 @enduml

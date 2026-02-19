@@ -1,4 +1,4 @@
 @startuml
-GameConsole ..> WiFiNetwork
-Email ..> GameConsole
+GameConsole ..> WiFiNetwork : dependency
+Email ..> GameConsole : dependency
 @enduml

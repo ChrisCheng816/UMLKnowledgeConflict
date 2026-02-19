@@ -1,4 +1,4 @@
 @startuml
-Collection o-- Game
-GameLibrary o-- Collection
+Collection o-- Game : aggregation
+GameLibrary o-- Collection : aggregation
 @enduml

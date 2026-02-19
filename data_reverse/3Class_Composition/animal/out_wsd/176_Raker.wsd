@@ -1,4 +1,4 @@
 @startuml
-Gill *-- Shark
-Raker *-- Gill
+Gill *-- Shark : composition
+Raker *-- Gill : composition
 @enduml

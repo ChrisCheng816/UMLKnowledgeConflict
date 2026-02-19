@@ -12,10 +12,10 @@ from qwen_vl_utils import process_vision_info
 
 
 BATCH_SIZE = 4
-GPU_PER = 0.7
+GPU_PER = 0.6
 # Number of full pipeline runs for pass@k style evaluation.
 N = 10
-TP_SIZE = 4
+TP_SIZE = 8
 DTYPE = "auto"
 
 # os.environ.setdefault("NCCL_DEBUG", "INFO")

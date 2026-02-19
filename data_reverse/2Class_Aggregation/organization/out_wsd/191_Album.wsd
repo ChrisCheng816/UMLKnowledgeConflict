@@ -1,3 +1,3 @@
 @startuml
-Album o-- Shelf
+Album o-- Shelf : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Electronics <|-- MediaPlayer
-MediaPlayer <|-- StreamingStick
+Electronics <|-- MediaPlayer : inheritance
+MediaPlayer <|-- StreamingStick : inheritance
 @enduml

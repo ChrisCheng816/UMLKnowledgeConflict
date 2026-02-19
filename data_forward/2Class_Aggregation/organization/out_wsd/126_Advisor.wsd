@@ -1,3 +1,3 @@
 @startuml
-Faculty o-- Advisor
+Faculty o-- Advisor : aggregation
 @enduml

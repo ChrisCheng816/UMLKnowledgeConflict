@@ -1,3 +1,3 @@
 @startuml
-Gasket *-- Engine
+Gasket *-- Engine : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Vagabond <|-- Manga
-Manga <|-- Comic
+Vagabond <|-- Manga : inheritance
+Manga <|-- Comic : inheritance
 @enduml

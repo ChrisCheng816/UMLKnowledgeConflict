@@ -1,4 +1,4 @@
 @startuml
-Spring *-- Coil
-Pliers *-- Spring
+Spring *-- Coil : composition
+Pliers *-- Spring : composition
 @enduml

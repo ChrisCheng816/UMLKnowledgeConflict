@@ -1,4 +1,4 @@
 @startuml
-LawnMower ..> Operating
-Electricity ..> LawnMower
+LawnMower ..> Operating : dependency
+Electricity ..> LawnMower : dependency
 @enduml

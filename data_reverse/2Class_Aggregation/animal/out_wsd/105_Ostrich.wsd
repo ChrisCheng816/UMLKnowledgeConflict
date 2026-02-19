@@ -1,3 +1,3 @@
 @startuml
-Ostrich o-- Aviary
+Ostrich o-- Aviary : aggregation
 @enduml

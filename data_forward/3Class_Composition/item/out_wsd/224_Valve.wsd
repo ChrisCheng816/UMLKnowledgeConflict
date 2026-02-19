@@ -1,4 +1,4 @@
 @startuml
-Plumbing *-- Valve
-House *-- Plumbing
+Plumbing *-- Valve : composition
+House *-- Plumbing : composition
 @enduml

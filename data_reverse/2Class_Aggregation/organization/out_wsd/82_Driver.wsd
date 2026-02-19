@@ -1,3 +1,3 @@
 @startuml
-Driver o-- Crew
+Driver o-- Crew : aggregation
 @enduml

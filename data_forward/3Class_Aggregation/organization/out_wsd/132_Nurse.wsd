@@ -1,4 +1,4 @@
 @startuml
-Department o-- Nurse
-Hospital o-- Department
+Department o-- Nurse : aggregation
+Hospital o-- Department : aggregation
 @enduml

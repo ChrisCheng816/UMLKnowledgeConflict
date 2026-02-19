@@ -1,4 +1,4 @@
 @startuml
-Undertale <|-- VideoGame
-VideoGame <|-- Game
+Undertale <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

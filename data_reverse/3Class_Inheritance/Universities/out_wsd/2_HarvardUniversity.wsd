@@ -1,4 +1,4 @@
 @startuml
-HarvardUniversity <|-- University
-University <|-- EducationalInstitution
+HarvardUniversity <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

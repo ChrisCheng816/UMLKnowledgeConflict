@@ -1,4 +1,4 @@
 @startuml
-LeafBlower ..> Electricity
-Operating ..> LeafBlower
+LeafBlower ..> Electricity : dependency
+Operating ..> LeafBlower : dependency
 @enduml

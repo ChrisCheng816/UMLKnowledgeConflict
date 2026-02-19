@@ -1,3 +1,3 @@
 @startuml
-Toolbox o-- Nails
+Toolbox o-- Nails : aggregation
 @enduml

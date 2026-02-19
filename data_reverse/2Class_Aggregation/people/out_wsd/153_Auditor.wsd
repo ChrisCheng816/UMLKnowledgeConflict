@@ -1,3 +1,3 @@
 @startuml
-Auditor o-- Department
+Auditor o-- Department : aggregation
 @enduml

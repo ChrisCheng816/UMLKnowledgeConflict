@@ -1,3 +1,3 @@
 @startuml
-Sock o-- Drawer
+Sock o-- Drawer : aggregation
 @enduml

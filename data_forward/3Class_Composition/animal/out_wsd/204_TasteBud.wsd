@@ -1,4 +1,4 @@
 @startuml
-Tongue *-- TasteBud
-Human *-- Tongue
+Tongue *-- TasteBud : composition
+Human *-- Tongue : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CrossCountryRunning <|-- Athletics
-Athletics <|-- Sport
+CrossCountryRunning <|-- Athletics : inheritance
+Athletics <|-- Sport : inheritance
 @enduml

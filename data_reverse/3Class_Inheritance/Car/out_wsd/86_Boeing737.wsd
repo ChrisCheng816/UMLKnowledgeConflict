@@ -1,4 +1,4 @@
 @startuml
-Boeing737 <|-- Airplane
-Airplane <|-- Vehicle
+Boeing737 <|-- Airplane : inheritance
+Airplane <|-- Vehicle : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Painting
-Painting <|-- Nighthawks
+Artwork <|-- Painting : inheritance
+Painting <|-- Nighthawks : inheritance
 @enduml

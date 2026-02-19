@@ -1,4 +1,4 @@
 @startuml
-Carrots ..> CarrotCake
-CarrotPlant ..> Carrots
+Carrots ..> CarrotCake : dependency
+CarrotPlant ..> Carrots : dependency
 @enduml

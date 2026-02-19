@@ -1,3 +1,3 @@
 @startuml
-Cutter <|-- BoltCutter
+Cutter <|-- BoltCutter : inheritance
 @enduml

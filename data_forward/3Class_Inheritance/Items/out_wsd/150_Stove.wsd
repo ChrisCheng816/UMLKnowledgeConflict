@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Appliance
-Appliance <|-- Stove
+Item <|-- Appliance : inheritance
+Appliance <|-- Stove : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-IceCrystals ..> CirrusCloud
-Sundog ..> IceCrystals
+IceCrystals ..> CirrusCloud : dependency
+Sundog ..> IceCrystals : dependency
 @enduml

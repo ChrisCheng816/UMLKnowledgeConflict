@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Flap
-Elephant *-- Ear
+Ear *-- Flap : composition
+Elephant *-- Ear : composition
 @enduml

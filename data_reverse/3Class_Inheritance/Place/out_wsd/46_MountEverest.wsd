@@ -1,4 +1,4 @@
 @startuml
-MountEverest <|-- Mountain
-Mountain <|-- GeographicFeature
+MountEverest <|-- Mountain : inheritance
+Mountain <|-- GeographicFeature : inheritance
 @enduml

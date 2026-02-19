@@ -1,4 +1,4 @@
 @startuml
-Kiosk ..> Electricity
-Payment ..> Kiosk
+Kiosk ..> Electricity : dependency
+Payment ..> Kiosk : dependency
 @enduml

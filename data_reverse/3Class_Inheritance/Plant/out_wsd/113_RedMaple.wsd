@@ -1,4 +1,4 @@
 @startuml
-RedMaple <|-- Maple
-Maple <|-- Tree
+RedMaple <|-- Maple : inheritance
+Maple <|-- Tree : inheritance
 @enduml

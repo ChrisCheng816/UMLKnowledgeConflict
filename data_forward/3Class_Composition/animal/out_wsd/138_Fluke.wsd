@@ -1,4 +1,4 @@
 @startuml
-Tail *-- Fluke
-Whale *-- Tail
+Tail *-- Fluke : composition
+Whale *-- Tail : composition
 @enduml

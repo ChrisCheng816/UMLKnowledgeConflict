@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Concierge
-Hotel o-- Staff
+Staff o-- Concierge : aggregation
+Hotel o-- Staff : aggregation
 @enduml

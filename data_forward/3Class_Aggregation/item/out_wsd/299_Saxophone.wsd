@@ -1,4 +1,4 @@
 @startuml
-InstrumentRack o-- Saxophone
-MusicStore o-- InstrumentRack
+InstrumentRack o-- Saxophone : aggregation
+MusicStore o-- InstrumentRack : aggregation
 @enduml

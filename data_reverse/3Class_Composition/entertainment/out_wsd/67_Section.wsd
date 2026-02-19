@@ -1,4 +1,4 @@
 @startuml
-Chapter *-- Book
-Section *-- Chapter
+Chapter *-- Book : composition
+Section *-- Chapter : composition
 @enduml

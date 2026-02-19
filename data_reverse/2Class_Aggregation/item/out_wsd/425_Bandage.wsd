@@ -1,3 +1,3 @@
 @startuml
-Bandage o-- Shelf
+Bandage o-- Shelf : aggregation
 @enduml

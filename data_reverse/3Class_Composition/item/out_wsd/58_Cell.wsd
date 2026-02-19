@@ -1,4 +1,4 @@
 @startuml
-Vein *-- Leaf
-Cell *-- Vein
+Vein *-- Leaf : composition
+Cell *-- Vein : composition
 @enduml

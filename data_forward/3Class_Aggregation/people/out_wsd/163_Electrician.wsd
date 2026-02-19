@@ -1,4 +1,4 @@
 @startuml
-Department o-- Electrician
-Workshop o-- Department
+Department o-- Electrician : aggregation
+Workshop o-- Department : aggregation
 @enduml

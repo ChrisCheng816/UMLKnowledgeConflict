@@ -1,4 +1,4 @@
 @startuml
-AtlanticOcean <|-- Ocean
-Ocean <|-- GeographicFeature
+AtlanticOcean <|-- Ocean : inheritance
+Ocean <|-- GeographicFeature : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Crew o-- Studio
-Director o-- Crew
+Crew o-- Studio : aggregation
+Director o-- Crew : aggregation
 @enduml

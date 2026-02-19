@@ -1,3 +1,3 @@
 @startuml
-Dryer ..> Drying
+Dryer ..> Drying : dependency
 @enduml

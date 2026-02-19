@@ -1,4 +1,4 @@
 @startuml
-GardenHoe <|-- Hoe
-Hoe <|-- Tool
+GardenHoe <|-- Hoe : inheritance
+Hoe <|-- Tool : inheritance
 @enduml

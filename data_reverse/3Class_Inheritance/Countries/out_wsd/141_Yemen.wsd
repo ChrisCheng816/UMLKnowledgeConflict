@@ -1,4 +1,4 @@
 @startuml
-Yemen <|-- Country
-Country <|-- GeopoliticalEntity
+Yemen <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

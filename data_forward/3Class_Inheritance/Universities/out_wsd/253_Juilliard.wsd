@@ -1,4 +1,4 @@
 @startuml
-School <|-- Conservatory
-Conservatory <|-- Juilliard
+School <|-- Conservatory : inheritance
+Conservatory <|-- Juilliard : inheritance
 @enduml

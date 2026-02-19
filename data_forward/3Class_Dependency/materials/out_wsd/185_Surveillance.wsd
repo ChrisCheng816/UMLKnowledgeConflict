@@ -1,4 +1,4 @@
 @startuml
-SmokeAlarm ..> Electricity
-Surveillance ..> SmokeAlarm
+SmokeAlarm ..> Electricity : dependency
+Surveillance ..> SmokeAlarm : dependency
 @enduml

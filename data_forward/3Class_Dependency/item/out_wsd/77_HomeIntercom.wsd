@@ -1,4 +1,4 @@
 @startuml
-IntercomPanel ..> WallOutlet
-HomeIntercom ..> IntercomPanel
+IntercomPanel ..> WallOutlet : dependency
+HomeIntercom ..> IntercomPanel : dependency
 @enduml

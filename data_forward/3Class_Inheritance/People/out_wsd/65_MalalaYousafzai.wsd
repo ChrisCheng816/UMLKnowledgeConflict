@@ -1,4 +1,4 @@
 @startuml
-Activist <|-- EducationActivist
-EducationActivist <|-- MalalaYousafzai
+Activist <|-- EducationActivist : inheritance
+EducationActivist <|-- MalalaYousafzai : inheritance
 @enduml

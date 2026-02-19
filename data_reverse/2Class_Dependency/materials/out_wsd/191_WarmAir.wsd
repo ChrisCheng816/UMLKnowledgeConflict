@@ -1,3 +1,3 @@
 @startuml
-SpaceHeater ..> WarmAir
+SpaceHeater ..> WarmAir : dependency
 @enduml

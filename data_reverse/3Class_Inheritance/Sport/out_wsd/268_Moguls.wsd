@@ -1,4 +1,4 @@
 @startuml
-Moguls <|-- FreestyleSkiing
-FreestyleSkiing <|-- Skiing
+Moguls <|-- FreestyleSkiing : inheritance
+FreestyleSkiing <|-- Skiing : inheritance
 @enduml

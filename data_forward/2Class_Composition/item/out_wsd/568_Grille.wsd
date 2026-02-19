@@ -1,3 +1,3 @@
 @startuml
-Cabinet *-- Grille
+Cabinet *-- Grille : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Plate o-- Tofu
-Restaurant o-- Plate
+Plate o-- Tofu : aggregation
+Restaurant o-- Plate : aggregation
 @enduml

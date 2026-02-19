@@ -1,3 +1,3 @@
 @startuml
-Column *-- SteeringSystem
+Column *-- SteeringSystem : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Council o-- Chair
+Council o-- Chair : aggregation
 @enduml

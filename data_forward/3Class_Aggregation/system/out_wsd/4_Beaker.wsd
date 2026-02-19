@@ -1,4 +1,4 @@
 @startuml
-Laboratory o-- Beaker
-University o-- Laboratory
+Laboratory o-- Beaker : aggregation
+University o-- Laboratory : aggregation
 @enduml

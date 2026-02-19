@@ -1,4 +1,4 @@
 @startuml
-Pillow <|-- Bedding
-Bedding <|-- Item
+Pillow <|-- Bedding : inheritance
+Bedding <|-- Item : inheritance
 @enduml

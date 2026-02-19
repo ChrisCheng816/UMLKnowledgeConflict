@@ -1,4 +1,4 @@
 @startuml
-DartmouthCollege <|-- University
-University <|-- EducationalInstitution
+DartmouthCollege <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

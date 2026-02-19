@@ -1,4 +1,4 @@
 @startuml
-UtilityTransformer ..> ChargingStation
-DistributionLine ..> UtilityTransformer
+UtilityTransformer ..> ChargingStation : dependency
+DistributionLine ..> UtilityTransformer : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Chimney *-- Liner
+Chimney *-- Liner : composition
 @enduml

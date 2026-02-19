@@ -1,4 +1,4 @@
 @startuml
-Boot *-- Skate
-Lace *-- Boot
+Boot *-- Skate : composition
+Lace *-- Boot : composition
 @enduml

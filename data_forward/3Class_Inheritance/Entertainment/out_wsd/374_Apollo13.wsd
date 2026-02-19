@@ -1,4 +1,4 @@
 @startuml
-Film <|-- SpaceFilm
-SpaceFilm <|-- Apollo13
+Film <|-- SpaceFilm : inheritance
+SpaceFilm <|-- Apollo13 : inheritance
 @enduml

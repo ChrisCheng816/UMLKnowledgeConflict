@@ -1,4 +1,4 @@
 @startuml
-Blade *-- Hub
-Blender *-- Blade
+Blade *-- Hub : composition
+Blender *-- Blade : composition
 @enduml

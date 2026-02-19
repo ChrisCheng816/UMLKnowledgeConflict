@@ -1,3 +1,3 @@
 @startuml
-Basket o-- Pillow
+Basket o-- Pillow : aggregation
 @enduml

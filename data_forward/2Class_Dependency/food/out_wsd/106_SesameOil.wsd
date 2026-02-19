@@ -1,3 +1,3 @@
 @startuml
-SesameOil ..> SesameSeeds
+SesameOil ..> SesameSeeds : dependency
 @enduml

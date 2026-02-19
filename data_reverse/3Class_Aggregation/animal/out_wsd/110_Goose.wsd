@@ -1,4 +1,4 @@
 @startuml
-Aviary o-- Zoo
-Goose o-- Aviary
+Aviary o-- Zoo : aggregation
+Goose o-- Aviary : aggregation
 @enduml

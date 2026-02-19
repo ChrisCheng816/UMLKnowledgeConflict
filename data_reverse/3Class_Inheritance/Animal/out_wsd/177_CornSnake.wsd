@@ -1,4 +1,4 @@
 @startuml
-CornSnake <|-- Snake
-Snake <|-- Reptile
+CornSnake <|-- Snake : inheritance
+Snake <|-- Reptile : inheritance
 @enduml

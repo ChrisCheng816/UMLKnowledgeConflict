@@ -1,3 +1,3 @@
 @startuml
-DeliveryVan o-- Fleet
+DeliveryVan o-- Fleet : aggregation
 @enduml

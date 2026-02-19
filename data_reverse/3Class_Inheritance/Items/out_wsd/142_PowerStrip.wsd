@@ -1,4 +1,4 @@
 @startuml
-PowerStrip <|-- ElectricalAccessory
-ElectricalAccessory <|-- Accessory
+PowerStrip <|-- ElectricalAccessory : inheritance
+ElectricalAccessory <|-- Accessory : inheritance
 @enduml

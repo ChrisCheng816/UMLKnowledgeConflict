@@ -1,4 +1,4 @@
 @startuml
-Rwanda <|-- PresidentialRepublic
-PresidentialRepublic <|-- Republic
+Rwanda <|-- PresidentialRepublic : inheritance
+PresidentialRepublic <|-- Republic : inheritance
 @enduml

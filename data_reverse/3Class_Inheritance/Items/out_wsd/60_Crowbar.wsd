@@ -1,4 +1,4 @@
 @startuml
-Crowbar <|-- PryBar
-PryBar <|-- Tool
+Crowbar <|-- PryBar : inheritance
+PryBar <|-- Tool : inheritance
 @enduml

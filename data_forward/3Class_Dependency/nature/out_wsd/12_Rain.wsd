@@ -1,4 +1,4 @@
 @startuml
-Cloud ..> Condensation
-Rain ..> Cloud
+Cloud ..> Condensation : dependency
+Rain ..> Cloud : dependency
 @enduml

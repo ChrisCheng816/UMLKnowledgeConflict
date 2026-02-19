@@ -1,4 +1,4 @@
 @startuml
-SallyRide <|-- Astronaut
-Astronaut <|-- Explorer
+SallyRide <|-- Astronaut : inheritance
+Astronaut <|-- Explorer : inheritance
 @enduml

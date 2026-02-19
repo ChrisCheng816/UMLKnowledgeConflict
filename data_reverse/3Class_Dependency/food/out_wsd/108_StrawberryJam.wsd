@@ -1,4 +1,4 @@
 @startuml
-Strawberry ..> StrawberryJam
-StrawberryPlant ..> Strawberry
+Strawberry ..> StrawberryJam : dependency
+StrawberryPlant ..> Strawberry : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Staircase *-- Riser
+Staircase *-- Riser : composition
 @enduml

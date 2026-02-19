@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Newspaper
-Reporter o-- Staff
+Staff o-- Newspaper : aggregation
+Reporter o-- Staff : aggregation
 @enduml

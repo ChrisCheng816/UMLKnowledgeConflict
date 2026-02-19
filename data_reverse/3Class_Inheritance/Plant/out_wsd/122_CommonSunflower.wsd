@@ -1,4 +1,4 @@
 @startuml
-CommonSunflower <|-- Sunflower
-Sunflower <|-- Plant
+CommonSunflower <|-- Sunflower : inheritance
+Sunflower <|-- Plant : inheritance
 @enduml

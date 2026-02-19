@@ -1,4 +1,4 @@
 @startuml
-NailGun ..> Electricity
-Operating ..> NailGun
+NailGun ..> Electricity : dependency
+Operating ..> NailGun : dependency
 @enduml

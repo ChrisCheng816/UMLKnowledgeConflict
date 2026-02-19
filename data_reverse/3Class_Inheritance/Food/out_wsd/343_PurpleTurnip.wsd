@@ -1,4 +1,4 @@
 @startuml
-PurpleTurnip <|-- Turnip
-Turnip <|-- Vegetable
+PurpleTurnip <|-- Turnip : inheritance
+Turnip <|-- Vegetable : inheritance
 @enduml

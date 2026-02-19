@@ -1,4 +1,4 @@
 @startuml
-BirdsNestFern <|-- Fern
-Fern <|-- Plant
+BirdsNestFern <|-- Fern : inheritance
+Fern <|-- Plant : inheritance
 @enduml

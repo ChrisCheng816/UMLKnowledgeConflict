@@ -1,4 +1,4 @@
 @startuml
-Tentacle *-- Sucker
-Octopus *-- Tentacle
+Tentacle *-- Sucker : composition
+Octopus *-- Tentacle : composition
 @enduml

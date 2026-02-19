@@ -1,4 +1,4 @@
 @startuml
-Dock o-- Harbor
-Ship o-- Dock
+Dock o-- Harbor : aggregation
+Ship o-- Dock : aggregation
 @enduml

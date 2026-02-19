@@ -1,4 +1,4 @@
 @startuml
-Vanilla ..> VanillaIceCream
-VanillaBean ..> Vanilla
+Vanilla ..> VanillaIceCream : dependency
+VanillaBean ..> Vanilla : dependency
 @enduml

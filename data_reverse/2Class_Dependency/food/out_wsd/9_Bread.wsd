@@ -1,3 +1,3 @@
 @startuml
-BreadFlour ..> Bread
+BreadFlour ..> Bread : dependency
 @enduml

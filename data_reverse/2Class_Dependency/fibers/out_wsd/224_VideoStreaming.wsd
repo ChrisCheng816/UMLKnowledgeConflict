@@ -1,3 +1,3 @@
 @startuml
-InternetConnection ..> VideoStreaming
+InternetConnection ..> VideoStreaming : dependency
 @enduml

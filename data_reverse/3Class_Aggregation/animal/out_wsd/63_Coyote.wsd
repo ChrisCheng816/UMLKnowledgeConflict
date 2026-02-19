@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Reserve
-Coyote o-- Enclosure
+Enclosure o-- Reserve : aggregation
+Coyote o-- Enclosure : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-FuelTank *-- Cap
+FuelTank *-- Cap : composition
 @enduml

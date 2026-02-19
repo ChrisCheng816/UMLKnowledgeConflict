@@ -1,4 +1,4 @@
 @startuml
-Frame *-- Sunglasses
-Hinge *-- Frame
+Frame *-- Sunglasses : composition
+Hinge *-- Frame : composition
 @enduml

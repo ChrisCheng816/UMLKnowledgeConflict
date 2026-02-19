@@ -1,4 +1,4 @@
 @startuml
-PuttyKnife <|-- Scraper
-Scraper <|-- Tool
+PuttyKnife <|-- Scraper : inheritance
+Scraper <|-- Tool : inheritance
 @enduml

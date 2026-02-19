@@ -1,4 +1,4 @@
 @startuml
-Gallery o-- Painting
-Museum o-- Gallery
+Gallery o-- Painting : aggregation
+Museum o-- Gallery : aggregation
 @enduml

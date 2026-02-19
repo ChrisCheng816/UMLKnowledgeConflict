@@ -1,4 +1,4 @@
 @startuml
-Leg *-- FeltPad
-Chair *-- Leg
+Leg *-- FeltPad : composition
+Chair *-- Leg : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries
-TVSeries <|-- Chernobyl
+Entertainment <|-- TVSeries : inheritance
+TVSeries <|-- Chernobyl : inheritance
 @enduml

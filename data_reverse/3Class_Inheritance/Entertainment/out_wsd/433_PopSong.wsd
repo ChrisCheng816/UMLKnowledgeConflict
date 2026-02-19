@@ -1,4 +1,4 @@
 @startuml
-PopSong <|-- Song
-Song <|-- MusicWork
+PopSong <|-- Song : inheritance
+Song <|-- MusicWork : inheritance
 @enduml

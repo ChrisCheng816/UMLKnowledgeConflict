@@ -1,4 +1,4 @@
 @startuml
-Thunderstorm ..> Hail
-WarmAir ..> Thunderstorm
+Thunderstorm ..> Hail : dependency
+WarmAir ..> Thunderstorm : dependency
 @enduml

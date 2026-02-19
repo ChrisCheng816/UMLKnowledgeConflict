@@ -1,4 +1,4 @@
 @startuml
-LeonardoDiCaprio <|-- Actor
-Actor <|-- Artist
+LeonardoDiCaprio <|-- Actor : inheritance
+Actor <|-- Artist : inheritance
 @enduml

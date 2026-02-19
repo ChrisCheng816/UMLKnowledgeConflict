@@ -1,3 +1,3 @@
 @startuml
-Bird <|-- Duck
+Bird <|-- Duck : inheritance
 @enduml

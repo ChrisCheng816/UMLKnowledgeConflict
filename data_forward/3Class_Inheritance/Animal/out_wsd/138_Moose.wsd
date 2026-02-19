@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Deer
-Deer <|-- Moose
+Mammal <|-- Deer : inheritance
+Deer <|-- Moose : inheritance
 @enduml

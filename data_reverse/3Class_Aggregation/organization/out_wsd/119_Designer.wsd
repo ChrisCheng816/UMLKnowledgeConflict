@@ -1,4 +1,4 @@
 @startuml
-Team o-- Company
-Designer o-- Team
+Team o-- Company : aggregation
+Designer o-- Team : aggregation
 @enduml

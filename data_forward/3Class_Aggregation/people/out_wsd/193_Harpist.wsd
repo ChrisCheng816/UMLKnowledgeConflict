@@ -1,4 +1,4 @@
 @startuml
-Orchestra o-- Harpist
-Theater o-- Orchestra
+Orchestra o-- Harpist : aggregation
+Theater o-- Orchestra : aggregation
 @enduml

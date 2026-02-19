@@ -1,4 +1,4 @@
 @startuml
-RobotVacuum <|-- Vacuum
-Vacuum <|-- Appliance
+RobotVacuum <|-- Vacuum : inheritance
+Vacuum <|-- Appliance : inheritance
 @enduml

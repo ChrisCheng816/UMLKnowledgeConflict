@@ -1,4 +1,4 @@
 @startuml
-WirelessHeadphones ..> Bluetooth
-AudioPlayback ..> WirelessHeadphones
+WirelessHeadphones ..> Bluetooth : dependency
+AudioPlayback ..> WirelessHeadphones : dependency
 @enduml

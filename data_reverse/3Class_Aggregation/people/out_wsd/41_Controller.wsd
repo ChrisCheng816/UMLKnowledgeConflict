@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Airport
-Controller o-- Staff
+Staff o-- Airport : aggregation
+Controller o-- Staff : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FightClub <|-- Film
-Film <|-- Entertainment
+FightClub <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

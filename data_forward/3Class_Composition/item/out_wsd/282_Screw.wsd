@@ -1,4 +1,4 @@
 @startuml
-Buckle *-- Screw
-Belt *-- Buckle
+Buckle *-- Screw : composition
+Belt *-- Buckle : composition
 @enduml

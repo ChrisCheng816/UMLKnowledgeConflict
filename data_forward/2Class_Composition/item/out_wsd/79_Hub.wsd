@@ -1,3 +1,3 @@
 @startuml
-Drum *-- Hub
+Drum *-- Hub : composition
 @enduml

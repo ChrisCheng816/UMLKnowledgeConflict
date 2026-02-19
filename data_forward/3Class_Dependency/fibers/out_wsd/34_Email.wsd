@@ -1,4 +1,4 @@
 @startuml
-SmartDisplay ..> WiFiNetwork
-Email ..> SmartDisplay
+SmartDisplay ..> WiFiNetwork : dependency
+Email ..> SmartDisplay : dependency
 @enduml

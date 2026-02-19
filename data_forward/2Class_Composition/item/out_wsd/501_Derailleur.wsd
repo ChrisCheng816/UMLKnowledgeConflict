@@ -1,3 +1,3 @@
 @startuml
-Drivetrain *-- Derailleur
+Drivetrain *-- Derailleur : composition
 @enduml

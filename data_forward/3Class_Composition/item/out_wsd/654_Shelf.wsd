@@ -1,4 +1,4 @@
 @startuml
-Door *-- Shelf
-Refrigerator *-- Door
+Door *-- Shelf : composition
+Refrigerator *-- Door : composition
 @enduml

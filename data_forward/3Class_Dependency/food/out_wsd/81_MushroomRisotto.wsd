@@ -1,4 +1,4 @@
 @startuml
-Mushrooms ..> MushroomFarm
-MushroomRisotto ..> Mushrooms
+Mushrooms ..> MushroomFarm : dependency
+MushroomRisotto ..> Mushrooms : dependency
 @enduml

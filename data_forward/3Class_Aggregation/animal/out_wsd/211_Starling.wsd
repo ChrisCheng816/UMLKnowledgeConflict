@@ -1,4 +1,4 @@
 @startuml
-Flock o-- Starling
-Reserve o-- Flock
+Flock o-- Starling : aggregation
+Reserve o-- Flock : aggregation
 @enduml

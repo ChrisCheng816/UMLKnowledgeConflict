@@ -1,4 +1,4 @@
 @startuml
-PinkLily <|-- Lily
-Lily <|-- Flower
+PinkLily <|-- Lily : inheritance
+Lily <|-- Flower : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Target ..> Internet
+Internet ..> Electricity : dependency
+Target ..> Internet : dependency
 @enduml

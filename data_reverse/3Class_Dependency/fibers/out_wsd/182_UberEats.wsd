@@ -1,4 +1,4 @@
 @startuml
-Internet ..> UberEats
-Electricity ..> Internet
+Internet ..> UberEats : dependency
+Electricity ..> Internet : dependency
 @enduml

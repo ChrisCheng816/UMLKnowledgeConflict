@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Lily
-Lily <|-- AsiaticLily
+Plant <|-- Lily : inheritance
+Lily <|-- AsiaticLily : inheritance
 @enduml

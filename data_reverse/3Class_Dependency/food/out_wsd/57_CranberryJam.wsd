@@ -1,4 +1,4 @@
 @startuml
-Cranberry ..> CranberryJam
-CranberryPlant ..> Cranberry
+Cranberry ..> CranberryJam : dependency
+CranberryPlant ..> Cranberry : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Jar o-- Salsa
-Pantry o-- Jar
+Jar o-- Salsa : aggregation
+Pantry o-- Jar : aggregation
 @enduml

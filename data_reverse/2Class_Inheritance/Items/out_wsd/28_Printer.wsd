@@ -1,3 +1,3 @@
 @startuml
-Printer <|-- OfficeEquipment
+Printer <|-- OfficeEquipment : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Park <|-- NationalPark
-NationalPark <|-- Yellowstone
+Park <|-- NationalPark : inheritance
+NationalPark <|-- Yellowstone : inheritance
 @enduml

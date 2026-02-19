@@ -1,4 +1,4 @@
 @startuml
-Page *-- Newspaper
-Photo *-- Page
+Page *-- Newspaper : composition
+Photo *-- Page : composition
 @enduml

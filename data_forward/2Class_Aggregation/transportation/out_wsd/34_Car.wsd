@@ -1,3 +1,3 @@
 @startuml
-Fleet o-- Car
+Fleet o-- Car : aggregation
 @enduml

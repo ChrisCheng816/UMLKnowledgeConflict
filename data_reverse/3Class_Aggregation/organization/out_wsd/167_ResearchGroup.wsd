@@ -1,4 +1,4 @@
 @startuml
-Department o-- University
-ResearchGroup o-- Department
+Department o-- University : aggregation
+ResearchGroup o-- Department : aggregation
 @enduml

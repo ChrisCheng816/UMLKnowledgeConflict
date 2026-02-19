@@ -1,4 +1,4 @@
 @startuml
-Committee o-- Company
-Coordinator o-- Committee
+Committee o-- Company : aggregation
+Coordinator o-- Committee : aggregation
 @enduml

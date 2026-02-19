@@ -1,4 +1,4 @@
 @startuml
-Tooth *-- Tiger
-Dentin *-- Tooth
+Tooth *-- Tiger : composition
+Dentin *-- Tooth : composition
 @enduml

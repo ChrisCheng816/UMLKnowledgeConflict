@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Zucchini
-Zucchini <|-- GreenZucchini
+Vegetable <|-- Zucchini : inheritance
+Zucchini <|-- GreenZucchini : inheritance
 @enduml

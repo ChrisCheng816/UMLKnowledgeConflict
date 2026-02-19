@@ -1,4 +1,4 @@
 @startuml
-Hood *-- Car
-Panel *-- Hood
+Hood *-- Car : composition
+Panel *-- Hood : composition
 @enduml

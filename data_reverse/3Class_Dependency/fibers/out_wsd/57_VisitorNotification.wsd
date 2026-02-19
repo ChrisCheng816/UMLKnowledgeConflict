@@ -1,4 +1,4 @@
 @startuml
-VideoDoorbell ..> VisitorNotification
-WiFiNetwork ..> VideoDoorbell
+VideoDoorbell ..> VisitorNotification : dependency
+WiFiNetwork ..> VideoDoorbell : dependency
 @enduml

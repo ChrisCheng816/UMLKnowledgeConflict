@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Alpaca
-Reserve o-- Enclosure
+Enclosure o-- Alpaca : aggregation
+Reserve o-- Enclosure : aggregation
 @enduml

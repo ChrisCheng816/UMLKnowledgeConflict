@@ -1,4 +1,4 @@
 @startuml
-Rib *-- Joint
-Umbrella *-- Rib
+Rib *-- Joint : composition
+Umbrella *-- Rib : composition
 @enduml

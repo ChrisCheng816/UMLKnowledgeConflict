@@ -1,4 +1,4 @@
 @startuml
-Block o-- Neighborhood
-House o-- Block
+Block o-- Neighborhood : aggregation
+House o-- Block : aggregation
 @enduml

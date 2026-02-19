@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- Inception
+Entertainment <|-- Film : inheritance
+Film <|-- Inception : inheritance
 @enduml

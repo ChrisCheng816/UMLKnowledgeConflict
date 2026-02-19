@@ -1,3 +1,3 @@
 @startuml
-Segment *-- Antenna
+Segment *-- Antenna : composition
 @enduml

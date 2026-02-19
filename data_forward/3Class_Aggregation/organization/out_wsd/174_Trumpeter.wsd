@@ -1,4 +1,4 @@
 @startuml
-BrassSection o-- Trumpeter
-Orchestra o-- BrassSection
+BrassSection o-- Trumpeter : aggregation
+Orchestra o-- BrassSection : aggregation
 @enduml

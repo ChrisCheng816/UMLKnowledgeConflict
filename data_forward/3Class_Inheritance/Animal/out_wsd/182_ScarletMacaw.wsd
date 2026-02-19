@@ -1,4 +1,4 @@
 @startuml
-Parrot <|-- Macaw
-Macaw <|-- ScarletMacaw
+Parrot <|-- Macaw : inheritance
+Macaw <|-- ScarletMacaw : inheritance
 @enduml

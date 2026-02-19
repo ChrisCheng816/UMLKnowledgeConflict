@@ -1,4 +1,4 @@
 @startuml
-LeatherBelt <|-- Belt
-Belt <|-- Accessory
+LeatherBelt <|-- Belt : inheritance
+Belt <|-- Accessory : inheritance
 @enduml

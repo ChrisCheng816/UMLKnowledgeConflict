@@ -1,4 +1,4 @@
 @startuml
-Tank o-- Jellyfish
-Zoo o-- Tank
+Tank o-- Jellyfish : aggregation
+Zoo o-- Tank : aggregation
 @enduml

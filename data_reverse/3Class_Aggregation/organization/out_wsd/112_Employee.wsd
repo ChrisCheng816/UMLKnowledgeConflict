@@ -1,4 +1,4 @@
 @startuml
-Division o-- Company
-Employee o-- Division
+Division o-- Company : aggregation
+Employee o-- Division : aggregation
 @enduml

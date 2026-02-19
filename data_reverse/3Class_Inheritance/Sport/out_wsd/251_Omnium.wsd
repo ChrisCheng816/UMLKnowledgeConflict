@@ -1,4 +1,4 @@
 @startuml
-Omnium <|-- TrackCycling
-TrackCycling <|-- Cycling
+Omnium <|-- TrackCycling : inheritance
+TrackCycling <|-- Cycling : inheritance
 @enduml

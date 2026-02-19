@@ -1,4 +1,4 @@
 @startuml
-KitchenStaff o-- Chef
-Restaurant o-- KitchenStaff
+KitchenStaff o-- Chef : aggregation
+Restaurant o-- KitchenStaff : aggregation
 @enduml

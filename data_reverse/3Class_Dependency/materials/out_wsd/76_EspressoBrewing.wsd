@@ -1,4 +1,4 @@
 @startuml
-EspressoMachine ..> EspressoBrewing
-Electricity ..> EspressoMachine
+EspressoMachine ..> EspressoBrewing : dependency
+Electricity ..> EspressoMachine : dependency
 @enduml

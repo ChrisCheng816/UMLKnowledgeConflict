@@ -1,4 +1,4 @@
 @startuml
-Blender <|-- Appliance
-Appliance <|-- Item
+Blender <|-- Appliance : inheritance
+Appliance <|-- Item : inheritance
 @enduml

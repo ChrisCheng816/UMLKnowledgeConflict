@@ -1,4 +1,4 @@
 @startuml
-Oil ..> SoapMaking
-Coconut ..> Oil
+Oil ..> SoapMaking : dependency
+Coconut ..> Oil : dependency
 @enduml

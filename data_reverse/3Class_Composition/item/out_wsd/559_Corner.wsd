@@ -1,4 +1,4 @@
 @startuml
-Cover *-- Notebook
-Corner *-- Cover
+Cover *-- Notebook : composition
+Corner *-- Cover : composition
 @enduml

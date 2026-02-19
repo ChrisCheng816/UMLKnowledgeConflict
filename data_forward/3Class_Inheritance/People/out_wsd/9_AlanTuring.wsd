@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- Mathematician
-Mathematician <|-- AlanTuring
+Scientist <|-- Mathematician : inheritance
+Mathematician <|-- AlanTuring : inheritance
 @enduml

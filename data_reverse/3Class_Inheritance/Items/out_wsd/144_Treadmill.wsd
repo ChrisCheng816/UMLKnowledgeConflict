@@ -1,4 +1,4 @@
 @startuml
-Treadmill <|-- ExerciseMachine
-ExerciseMachine <|-- ExerciseEquipment
+Treadmill <|-- ExerciseMachine : inheritance
+ExerciseMachine <|-- ExerciseEquipment : inheritance
 @enduml

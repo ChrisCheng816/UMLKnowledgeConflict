@@ -1,3 +1,3 @@
 @startuml
-Editorial o-- Photographer
+Editorial o-- Photographer : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Bracket *-- Arm
-Shelf *-- Bracket
+Bracket *-- Arm : composition
+Shelf *-- Bracket : composition
 @enduml

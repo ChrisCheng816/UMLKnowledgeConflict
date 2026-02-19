@@ -1,4 +1,4 @@
 @startuml
-Terminal o-- Airport
-Lounge o-- Terminal
+Terminal o-- Airport : aggregation
+Lounge o-- Terminal : aggregation
 @enduml

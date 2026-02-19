@@ -1,4 +1,4 @@
 @startuml
-Herd o-- Camel
-Reserve o-- Herd
+Herd o-- Camel : aggregation
+Reserve o-- Herd : aggregation
 @enduml

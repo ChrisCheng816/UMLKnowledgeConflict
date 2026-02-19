@@ -1,4 +1,4 @@
 @startuml
-Board o-- Company
-Trustee o-- Board
+Board o-- Company : aggregation
+Trustee o-- Board : aggregation
 @enduml

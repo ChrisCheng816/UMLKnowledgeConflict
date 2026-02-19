@@ -1,4 +1,4 @@
 @startuml
-ToasterOven ..> Reheating
-Electricity ..> ToasterOven
+ToasterOven ..> Reheating : dependency
+Electricity ..> ToasterOven : dependency
 @enduml

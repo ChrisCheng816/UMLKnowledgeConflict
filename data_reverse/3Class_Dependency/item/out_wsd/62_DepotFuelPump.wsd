@@ -1,4 +1,4 @@
 @startuml
-FuelDeliveryTruck ..> DepotFuelPump
-FuelTerminal ..> FuelDeliveryTruck
+FuelDeliveryTruck ..> DepotFuelPump : dependency
+FuelTerminal ..> FuelDeliveryTruck : dependency
 @enduml

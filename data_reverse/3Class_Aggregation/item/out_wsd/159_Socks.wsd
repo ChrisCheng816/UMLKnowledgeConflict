@@ -1,4 +1,4 @@
 @startuml
-Drawer o-- Bedroom
-Socks o-- Drawer
+Drawer o-- Bedroom : aggregation
+Socks o-- Drawer : aggregation
 @enduml

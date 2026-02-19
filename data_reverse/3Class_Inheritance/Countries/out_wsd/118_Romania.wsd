@@ -1,4 +1,4 @@
 @startuml
-Romania <|-- SemiPresidentialRepublic
-SemiPresidentialRepublic <|-- Republic
+Romania <|-- SemiPresidentialRepublic : inheritance
+SemiPresidentialRepublic <|-- Republic : inheritance
 @enduml

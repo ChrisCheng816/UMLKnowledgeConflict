@@ -1,3 +1,3 @@
 @startuml
-Midfielder o-- Team
+Midfielder o-- Team : aggregation
 @enduml

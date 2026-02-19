@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University
-University <|-- ArizonaStateUniversity
+EducationalInstitution <|-- University : inheritance
+University <|-- ArizonaStateUniversity : inheritance
 @enduml

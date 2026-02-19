@@ -1,4 +1,4 @@
 @startuml
-Orchestra o-- Violinist
-University o-- Orchestra
+Orchestra o-- Violinist : aggregation
+University o-- Orchestra : aggregation
 @enduml

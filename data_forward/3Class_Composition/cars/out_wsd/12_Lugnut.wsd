@@ -1,4 +1,4 @@
 @startuml
-Wheel *-- Lugnut
-Car *-- Wheel
+Wheel *-- Lugnut : composition
+Car *-- Wheel : composition
 @enduml

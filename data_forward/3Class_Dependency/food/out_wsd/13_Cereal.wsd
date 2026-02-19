@@ -1,4 +1,4 @@
 @startuml
-Oats ..> OatPlant
-Cereal ..> Oats
+Oats ..> OatPlant : dependency
+Cereal ..> Oats : dependency
 @enduml

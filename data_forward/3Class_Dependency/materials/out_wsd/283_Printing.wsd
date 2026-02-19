@@ -1,4 +1,4 @@
 @startuml
-LabelPrinter ..> Electricity
-Printing ..> LabelPrinter
+LabelPrinter ..> Electricity : dependency
+Printing ..> LabelPrinter : dependency
 @enduml

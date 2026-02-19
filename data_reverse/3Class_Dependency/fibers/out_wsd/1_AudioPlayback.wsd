@@ -1,4 +1,4 @@
 @startuml
-BluetoothEarbuds ..> AudioPlayback
-Bluetooth ..> BluetoothEarbuds
+BluetoothEarbuds ..> AudioPlayback : dependency
+Bluetooth ..> BluetoothEarbuds : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tool <|-- Pliers
-Pliers <|-- LockingPliers
+Tool <|-- Pliers : inheritance
+Pliers <|-- LockingPliers : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-MotionSensor ..> HomeSecurity
+MotionSensor ..> HomeSecurity : dependency
 @enduml

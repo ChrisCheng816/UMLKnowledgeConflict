@@ -1,4 +1,4 @@
 @startuml
-TableLamp ..> NightLighting
-WallOutlet ..> TableLamp
+TableLamp ..> NightLighting : dependency
+WallOutlet ..> TableLamp : dependency
 @enduml

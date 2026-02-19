@@ -1,4 +1,4 @@
 @startuml
-Jar *-- Blender
-Seal *-- Jar
+Jar *-- Blender : composition
+Seal *-- Jar : composition
 @enduml

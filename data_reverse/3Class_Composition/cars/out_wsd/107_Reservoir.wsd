@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Car
-Reservoir *-- SteeringSystem
+SteeringSystem *-- Car : composition
+Reservoir *-- SteeringSystem : composition
 @enduml

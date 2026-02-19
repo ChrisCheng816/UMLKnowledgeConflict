@@ -1,4 +1,4 @@
 @startuml
-Artist <|-- Actor
-Actor <|-- MerylStreep
+Artist <|-- Actor : inheritance
+Actor <|-- MerylStreep : inheritance
 @enduml

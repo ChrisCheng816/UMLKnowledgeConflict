@@ -1,4 +1,4 @@
 @startuml
-GarageDoor *-- Spring
-House *-- GarageDoor
+GarageDoor *-- Spring : composition
+House *-- GarageDoor : composition
 @enduml

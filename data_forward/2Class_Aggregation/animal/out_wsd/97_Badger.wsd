@@ -1,3 +1,3 @@
 @startuml
-Enclosure o-- Badger
+Enclosure o-- Badger : aggregation
 @enduml

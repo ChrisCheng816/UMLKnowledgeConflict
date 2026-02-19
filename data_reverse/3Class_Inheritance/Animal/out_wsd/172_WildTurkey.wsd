@@ -1,4 +1,4 @@
 @startuml
-WildTurkey <|-- Turkey
-Turkey <|-- Bird
+WildTurkey <|-- Turkey : inheritance
+Turkey <|-- Bird : inheritance
 @enduml

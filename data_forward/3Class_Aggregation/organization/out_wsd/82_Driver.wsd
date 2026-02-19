@@ -1,4 +1,4 @@
 @startuml
-Crew o-- Driver
-FireStation o-- Crew
+Crew o-- Driver : aggregation
+FireStation o-- Crew : aggregation
 @enduml

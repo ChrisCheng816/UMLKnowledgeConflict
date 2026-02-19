@@ -1,4 +1,4 @@
 @startuml
-WaterDispenser ..> Operating
-Electricity ..> WaterDispenser
+WaterDispenser ..> Operating : dependency
+Electricity ..> WaterDispenser : dependency
 @enduml

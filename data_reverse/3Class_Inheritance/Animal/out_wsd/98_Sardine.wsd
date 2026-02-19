@@ -1,4 +1,4 @@
 @startuml
-Sardine <|-- Fish
-Fish <|-- Animal
+Sardine <|-- Fish : inheritance
+Fish <|-- Animal : inheritance
 @enduml

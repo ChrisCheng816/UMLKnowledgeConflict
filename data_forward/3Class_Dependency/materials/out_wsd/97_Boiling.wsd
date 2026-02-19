@@ -1,4 +1,4 @@
 @startuml
-GasStove ..> NaturalGas
-Boiling ..> GasStove
+GasStove ..> NaturalGas : dependency
+Boiling ..> GasStove : dependency
 @enduml

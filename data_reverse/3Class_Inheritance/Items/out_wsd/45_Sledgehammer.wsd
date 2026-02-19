@@ -1,4 +1,4 @@
 @startuml
-Sledgehammer <|-- Hammer
-Hammer <|-- Tool
+Sledgehammer <|-- Hammer : inheritance
+Hammer <|-- Tool : inheritance
 @enduml

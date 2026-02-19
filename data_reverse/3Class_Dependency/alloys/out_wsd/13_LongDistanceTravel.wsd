@@ -1,4 +1,4 @@
 @startuml
-DeliveryVan ..> LongDistanceTravel
-DieselFuel ..> DeliveryVan
+DeliveryVan ..> LongDistanceTravel : dependency
+DieselFuel ..> DeliveryVan : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Handle *-- Suitcase
-Strap *-- Handle
+Handle *-- Suitcase : composition
+Strap *-- Handle : composition
 @enduml

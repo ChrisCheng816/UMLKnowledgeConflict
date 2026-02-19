@@ -1,4 +1,4 @@
 @startuml
-GameConsole ..> VideoStreaming
-WiFiNetwork ..> GameConsole
+GameConsole ..> VideoStreaming : dependency
+WiFiNetwork ..> GameConsole : dependency
 @enduml

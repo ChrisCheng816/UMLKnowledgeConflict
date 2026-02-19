@@ -1,4 +1,4 @@
 @startuml
-PressureDifference ..> JetStream
-TemperatureContrast ..> PressureDifference
+PressureDifference ..> JetStream : dependency
+TemperatureContrast ..> PressureDifference : dependency
 @enduml

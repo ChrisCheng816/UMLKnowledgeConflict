@@ -1,4 +1,4 @@
 @startuml
-Bin o-- GlassJar
-Garage o-- Bin
+Bin o-- GlassJar : aggregation
+Garage o-- Bin : aggregation
 @enduml

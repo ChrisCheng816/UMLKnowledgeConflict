@@ -1,4 +1,4 @@
 @startuml
-Mint ..> MintPlant
-MintTea ..> Mint
+Mint ..> MintPlant : dependency
+MintTea ..> Mint : dependency
 @enduml

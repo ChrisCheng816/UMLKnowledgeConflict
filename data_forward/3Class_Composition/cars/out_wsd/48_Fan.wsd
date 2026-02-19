@@ -1,4 +1,4 @@
 @startuml
-Radiator *-- Fan
-Car *-- Radiator
+Radiator *-- Fan : composition
+Car *-- Radiator : composition
 @enduml

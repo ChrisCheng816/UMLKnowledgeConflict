@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Car
-Car <|-- Convertible
+Vehicle <|-- Car : inheritance
+Car <|-- Convertible : inheritance
 @enduml

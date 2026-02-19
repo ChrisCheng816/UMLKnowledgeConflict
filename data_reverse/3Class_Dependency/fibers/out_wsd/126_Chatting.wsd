@@ -1,4 +1,4 @@
 @startuml
-Discord ..> Chatting
-Internet ..> Discord
+Discord ..> Chatting : dependency
+Internet ..> Discord : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GoogleDrive ..> Internet
-Downloading ..> GoogleDrive
+GoogleDrive ..> Internet : dependency
+Downloading ..> GoogleDrive : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Stove ..> Chef
-NaturalGas ..> Stove
+Stove ..> Chef : dependency
+NaturalGas ..> Stove : dependency
 @enduml

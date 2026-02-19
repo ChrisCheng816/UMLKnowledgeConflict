@@ -1,3 +1,3 @@
 @startuml
-Insulation *-- Wall
+Insulation *-- Wall : composition
 @enduml

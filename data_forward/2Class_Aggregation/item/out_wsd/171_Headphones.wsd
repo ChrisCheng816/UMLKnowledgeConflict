@@ -1,3 +1,3 @@
 @startuml
-Drawer o-- Headphones
+Drawer o-- Headphones : aggregation
 @enduml

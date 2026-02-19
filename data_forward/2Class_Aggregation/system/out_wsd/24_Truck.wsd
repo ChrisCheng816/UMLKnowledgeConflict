@@ -1,3 +1,3 @@
 @startuml
-Depot o-- Truck
+Depot o-- Truck : aggregation
 @enduml

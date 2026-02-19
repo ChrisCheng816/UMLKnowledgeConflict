@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Ulna
-Bird *-- Wing
+Wing *-- Ulna : composition
+Bird *-- Wing : composition
 @enduml

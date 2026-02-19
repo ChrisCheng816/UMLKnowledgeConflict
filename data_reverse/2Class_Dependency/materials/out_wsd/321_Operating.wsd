@@ -1,3 +1,3 @@
 @startuml
-KaraokeMachine ..> Operating
+KaraokeMachine ..> Operating : dependency
 @enduml

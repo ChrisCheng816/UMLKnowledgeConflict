@@ -1,3 +1,3 @@
 @startuml
-LongDistanceTravel ..> DeliveryVan
+LongDistanceTravel ..> DeliveryVan : dependency
 @enduml

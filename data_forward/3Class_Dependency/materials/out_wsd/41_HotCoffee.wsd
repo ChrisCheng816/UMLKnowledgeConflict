@@ -1,4 +1,4 @@
 @startuml
-CoffeeMaker ..> Electricity
-HotCoffee ..> CoffeeMaker
+CoffeeMaker ..> Electricity : dependency
+HotCoffee ..> CoffeeMaker : dependency
 @enduml

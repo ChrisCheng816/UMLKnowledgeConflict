@@ -1,3 +1,3 @@
 @startuml
-Housing *-- Port
+Housing *-- Port : composition
 @enduml

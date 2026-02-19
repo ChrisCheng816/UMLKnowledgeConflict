@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Zoo
-Hare o-- Enclosure
+Enclosure o-- Zoo : aggregation
+Hare o-- Enclosure : aggregation
 @enduml

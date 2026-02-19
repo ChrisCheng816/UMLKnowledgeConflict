@@ -1,4 +1,4 @@
 @startuml
-LockerUnit o-- ParcelLocker
-Parcel o-- LockerUnit
+LockerUnit o-- ParcelLocker : aggregation
+Parcel o-- LockerUnit : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-RichardFeynman <|-- Physicist
-Physicist <|-- Scientist
+RichardFeynman <|-- Physicist : inheritance
+Physicist <|-- Scientist : inheritance
 @enduml

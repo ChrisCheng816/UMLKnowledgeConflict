@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- StemVegetable
-StemVegetable <|-- Rhubarb
+Vegetable <|-- StemVegetable : inheritance
+StemVegetable <|-- Rhubarb : inheritance
 @enduml

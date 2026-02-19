@@ -1,4 +1,4 @@
 @startuml
-NiagaraFalls <|-- Waterfall
-Waterfall <|-- GeographicFeature
+NiagaraFalls <|-- Waterfall : inheritance
+Waterfall <|-- GeographicFeature : inheritance
 @enduml

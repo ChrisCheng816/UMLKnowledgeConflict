@@ -1,4 +1,4 @@
 @startuml
-Lavender <|-- Herb
-Herb <|-- Plant
+Lavender <|-- Herb : inheritance
+Herb <|-- Plant : inheritance
 @enduml

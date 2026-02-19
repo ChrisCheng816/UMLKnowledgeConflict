@@ -1,4 +1,4 @@
 @startuml
-Tank o-- Carp
-Aquarium o-- Tank
+Tank o-- Carp : aggregation
+Aquarium o-- Tank : aggregation
 @enduml

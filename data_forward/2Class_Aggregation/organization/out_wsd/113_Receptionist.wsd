@@ -1,3 +1,3 @@
 @startuml
-Office o-- Receptionist
+Office o-- Receptionist : aggregation
 @enduml

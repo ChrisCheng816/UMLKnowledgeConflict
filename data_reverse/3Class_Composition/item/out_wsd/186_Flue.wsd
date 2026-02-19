@@ -1,4 +1,4 @@
 @startuml
-Chimney *-- House
-Flue *-- Chimney
+Chimney *-- House : composition
+Flue *-- Chimney : composition
 @enduml

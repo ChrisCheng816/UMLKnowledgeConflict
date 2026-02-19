@@ -1,4 +1,4 @@
 @startuml
-3DPrinter ..> Electricity
-RepairParts ..> 3DPrinter
+3DPrinter ..> Electricity : dependency
+RepairParts ..> 3DPrinter : dependency
 @enduml

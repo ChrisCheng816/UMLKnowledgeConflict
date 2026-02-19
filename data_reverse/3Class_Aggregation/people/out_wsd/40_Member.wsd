@@ -1,4 +1,4 @@
 @startuml
-Board o-- Neighborhood
-Member o-- Board
+Board o-- Neighborhood : aggregation
+Member o-- Board : aggregation
 @enduml

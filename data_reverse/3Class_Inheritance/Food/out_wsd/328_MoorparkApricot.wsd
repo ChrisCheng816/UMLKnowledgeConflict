@@ -1,4 +1,4 @@
 @startuml
-MoorparkApricot <|-- Apricot
-Apricot <|-- Fruit
+MoorparkApricot <|-- Apricot : inheritance
+Apricot <|-- Fruit : inheritance
 @enduml

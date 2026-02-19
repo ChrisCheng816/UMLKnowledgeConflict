@@ -1,3 +1,3 @@
 @startuml
-Enclosure o-- Donkey
+Enclosure o-- Donkey : aggregation
 @enduml

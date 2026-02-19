@@ -1,3 +1,3 @@
 @startuml
-Housing *-- Microphone
+Housing *-- Microphone : composition
 @enduml

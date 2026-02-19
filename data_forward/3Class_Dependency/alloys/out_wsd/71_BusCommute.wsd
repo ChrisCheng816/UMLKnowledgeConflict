@@ -1,4 +1,4 @@
 @startuml
-CityBus ..> DieselFuel
-BusCommute ..> CityBus
+CityBus ..> DieselFuel : dependency
+BusCommute ..> CityBus : dependency
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Parasite <|-- Film
+Parasite <|-- Film : inheritance
 @enduml

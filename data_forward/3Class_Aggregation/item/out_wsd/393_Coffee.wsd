@@ -1,4 +1,4 @@
 @startuml
-Menu o-- Coffee
-Cafe o-- Menu
+Menu o-- Coffee : aggregation
+Cafe o-- Menu : aggregation
 @enduml

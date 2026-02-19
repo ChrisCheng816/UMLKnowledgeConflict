@@ -1,4 +1,4 @@
 @startuml
-ElectricOven ..> Broiling
-Electricity ..> ElectricOven
+ElectricOven ..> Broiling : dependency
+Electricity ..> ElectricOven : dependency
 @enduml

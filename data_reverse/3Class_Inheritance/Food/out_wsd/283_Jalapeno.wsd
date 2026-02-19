@@ -1,4 +1,4 @@
 @startuml
-Jalapeno <|-- Pepper
-Pepper <|-- Vegetable
+Jalapeno <|-- Pepper : inheritance
+Pepper <|-- Vegetable : inheritance
 @enduml

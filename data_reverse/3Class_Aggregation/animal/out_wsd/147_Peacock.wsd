@@ -1,4 +1,4 @@
 @startuml
-Exhibit o-- Aviary
-Peacock o-- Exhibit
+Exhibit o-- Aviary : aggregation
+Peacock o-- Exhibit : aggregation
 @enduml

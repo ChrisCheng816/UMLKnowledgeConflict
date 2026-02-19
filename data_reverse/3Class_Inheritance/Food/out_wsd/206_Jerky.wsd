@@ -1,4 +1,4 @@
 @startuml
-Jerky <|-- Snack
-Snack <|-- Food
+Jerky <|-- Snack : inheritance
+Snack <|-- Food : inheritance
 @enduml

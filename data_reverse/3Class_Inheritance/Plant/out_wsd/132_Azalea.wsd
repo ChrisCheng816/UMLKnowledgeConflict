@@ -1,4 +1,4 @@
 @startuml
-Azalea <|-- Shrub
-Shrub <|-- Plant
+Azalea <|-- Shrub : inheritance
+Shrub <|-- Plant : inheritance
 @enduml

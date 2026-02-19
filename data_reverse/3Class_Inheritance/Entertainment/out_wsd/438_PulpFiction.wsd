@@ -1,4 +1,4 @@
 @startuml
-PulpFiction <|-- CrimeFilm
-CrimeFilm <|-- Film
+PulpFiction <|-- CrimeFilm : inheritance
+CrimeFilm <|-- Film : inheritance
 @enduml

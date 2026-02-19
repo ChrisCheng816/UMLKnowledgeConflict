@@ -1,4 +1,4 @@
 @startuml
-ElectricBlanket ..> Electricity
-ComfortHeating ..> ElectricBlanket
+ElectricBlanket ..> Electricity : dependency
+ComfortHeating ..> ElectricBlanket : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Playlist o-- Jingle
-RadioStation o-- Playlist
+Playlist o-- Jingle : aggregation
+RadioStation o-- Playlist : aggregation
 @enduml

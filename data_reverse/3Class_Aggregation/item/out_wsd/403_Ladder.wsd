@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Garage
-Ladder o-- Shelf
+Shelf o-- Garage : aggregation
+Ladder o-- Shelf : aggregation
 @enduml

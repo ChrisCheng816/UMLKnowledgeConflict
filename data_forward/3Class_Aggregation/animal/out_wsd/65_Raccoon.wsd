@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Raccoon
-Sanctuary o-- Enclosure
+Enclosure o-- Raccoon : aggregation
+Sanctuary o-- Enclosure : aggregation
 @enduml

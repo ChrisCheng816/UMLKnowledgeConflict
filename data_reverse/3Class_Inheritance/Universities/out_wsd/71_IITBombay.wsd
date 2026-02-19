@@ -1,4 +1,4 @@
 @startuml
-IITBombay <|-- University
-University <|-- EducationalInstitution
+IITBombay <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

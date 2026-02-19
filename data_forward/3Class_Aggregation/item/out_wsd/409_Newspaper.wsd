@@ -1,4 +1,4 @@
 @startuml
-Box o-- Newspaper
-Library o-- Box
+Box o-- Newspaper : aggregation
+Library o-- Box : aggregation
 @enduml

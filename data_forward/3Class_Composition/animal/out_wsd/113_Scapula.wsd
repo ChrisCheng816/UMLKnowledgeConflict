@@ -1,4 +1,4 @@
 @startuml
-Shoulder *-- Scapula
-Person *-- Shoulder
+Shoulder *-- Scapula : composition
+Person *-- Shoulder : composition
 @enduml

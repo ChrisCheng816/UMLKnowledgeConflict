@@ -1,4 +1,4 @@
 @startuml
-School o-- Trout
-Aquarium o-- School
+School o-- Trout : aggregation
+Aquarium o-- School : aggregation
 @enduml

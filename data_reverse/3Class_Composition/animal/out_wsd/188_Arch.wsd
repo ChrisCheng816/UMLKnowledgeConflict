@@ -1,4 +1,4 @@
 @startuml
-Gills *-- Fish
-Arch *-- Gills
+Gills *-- Fish : composition
+Arch *-- Gills : composition
 @enduml

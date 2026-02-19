@@ -1,4 +1,4 @@
 @startuml
-Department o-- Library
-Librarian o-- Department
+Department o-- Library : aggregation
+Librarian o-- Department : aggregation
 @enduml

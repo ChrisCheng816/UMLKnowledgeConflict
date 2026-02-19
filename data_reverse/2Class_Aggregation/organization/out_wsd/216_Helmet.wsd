@@ -1,3 +1,3 @@
 @startuml
-Helmet o-- Shelf
+Helmet o-- Shelf : aggregation
 @enduml

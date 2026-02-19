@@ -1,4 +1,4 @@
 @startuml
-StickyNote <|-- Note
-Note <|-- Stationery
+StickyNote <|-- Note : inheritance
+Note <|-- Stationery : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TapWater ..> Humidifier
-MunicipalWaterMain ..> TapWater
+TapWater ..> Humidifier : dependency
+MunicipalWaterMain ..> TapWater : dependency
 @enduml

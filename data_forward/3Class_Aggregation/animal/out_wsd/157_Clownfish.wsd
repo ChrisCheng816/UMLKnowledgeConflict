@@ -1,4 +1,4 @@
 @startuml
-Exhibit o-- Clownfish
-Aquarium o-- Exhibit
+Exhibit o-- Clownfish : aggregation
+Aquarium o-- Exhibit : aggregation
 @enduml

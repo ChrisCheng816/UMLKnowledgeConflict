@@ -1,3 +1,3 @@
 @startuml
-Onion ..> OnionRings
+Onion ..> OnionRings : dependency
 @enduml

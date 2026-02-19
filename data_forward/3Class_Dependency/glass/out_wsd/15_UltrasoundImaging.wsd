@@ -1,4 +1,4 @@
 @startuml
-UltrasoundMachine ..> Electricity
-UltrasoundImaging ..> UltrasoundMachine
+UltrasoundMachine ..> Electricity : dependency
+UltrasoundImaging ..> UltrasoundMachine : dependency
 @enduml

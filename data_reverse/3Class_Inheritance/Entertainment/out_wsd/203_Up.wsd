@@ -1,4 +1,4 @@
 @startuml
-Up <|-- Film
-Film <|-- Entertainment
+Up <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

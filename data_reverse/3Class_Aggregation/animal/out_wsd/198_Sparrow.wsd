@@ -1,4 +1,4 @@
 @startuml
-Flock o-- Reserve
-Sparrow o-- Flock
+Flock o-- Reserve : aggregation
+Sparrow o-- Flock : aggregation
 @enduml

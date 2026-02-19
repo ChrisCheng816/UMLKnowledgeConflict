@@ -1,4 +1,4 @@
 @startuml
-NetworkingDevice <|-- Electronics
-Electronics <|-- Item
+NetworkingDevice <|-- Electronics : inheritance
+Electronics <|-- Item : inheritance
 @enduml

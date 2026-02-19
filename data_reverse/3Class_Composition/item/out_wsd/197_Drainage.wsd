@@ -1,4 +1,4 @@
 @startuml
-Foundation *-- House
-Drainage *-- Foundation
+Foundation *-- House : composition
+Drainage *-- Foundation : composition
 @enduml

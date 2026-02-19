@@ -1,4 +1,4 @@
 @startuml
-Cushion *-- Cover
-Sofa *-- Cushion
+Cushion *-- Cover : composition
+Sofa *-- Cushion : composition
 @enduml

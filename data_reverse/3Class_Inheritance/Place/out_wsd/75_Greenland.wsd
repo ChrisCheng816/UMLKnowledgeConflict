@@ -1,4 +1,4 @@
 @startuml
-Greenland <|-- Island
-Island <|-- GeographicFeature
+Greenland <|-- Island : inheritance
+Island <|-- GeographicFeature : inheritance
 @enduml

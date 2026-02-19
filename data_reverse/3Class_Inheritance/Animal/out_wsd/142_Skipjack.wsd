@@ -1,4 +1,4 @@
 @startuml
-Skipjack <|-- Tuna
-Tuna <|-- Fish
+Skipjack <|-- Tuna : inheritance
+Tuna <|-- Fish : inheritance
 @enduml

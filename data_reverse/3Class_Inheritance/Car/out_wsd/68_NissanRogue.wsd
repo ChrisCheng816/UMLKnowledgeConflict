@@ -1,4 +1,4 @@
 @startuml
-NissanRogue <|-- CompactSUV
-CompactSUV <|-- Vehicle
+NissanRogue <|-- CompactSUV : inheritance
+CompactSUV <|-- Vehicle : inheritance
 @enduml

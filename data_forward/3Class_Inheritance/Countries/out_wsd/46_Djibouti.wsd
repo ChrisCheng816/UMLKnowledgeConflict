@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Djibouti
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Djibouti : inheritance
 @enduml

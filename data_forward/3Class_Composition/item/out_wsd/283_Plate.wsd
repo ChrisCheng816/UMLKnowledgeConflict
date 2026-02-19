@@ -1,4 +1,4 @@
 @startuml
-Buckle *-- Plate
-Belt *-- Buckle
+Buckle *-- Plate : composition
+Belt *-- Buckle : composition
 @enduml

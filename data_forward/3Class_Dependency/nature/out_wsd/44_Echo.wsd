@@ -1,4 +1,4 @@
 @startuml
-HardSurface ..> SoundWave
-Echo ..> HardSurface
+HardSurface ..> SoundWave : dependency
+Echo ..> HardSurface : dependency
 @enduml

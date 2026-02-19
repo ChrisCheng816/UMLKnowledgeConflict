@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Sausage
-Sausage <|-- Hotdog
+Food <|-- Sausage : inheritance
+Sausage <|-- Hotdog : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Shogi <|-- BoardGame
-BoardGame <|-- Game
+Shogi <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

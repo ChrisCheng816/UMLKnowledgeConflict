@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Venmo
-Electricity ..> Internet
+Internet ..> Venmo : dependency
+Electricity ..> Internet : dependency
 @enduml

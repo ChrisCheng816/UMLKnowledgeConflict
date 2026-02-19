@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-WhatsApp ..> Internet
+Internet ..> Electricity : dependency
+WhatsApp ..> Internet : dependency
 @enduml

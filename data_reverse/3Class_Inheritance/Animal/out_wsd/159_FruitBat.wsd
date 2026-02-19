@@ -1,4 +1,4 @@
 @startuml
-FruitBat <|-- Bat
-Bat <|-- Mammal
+FruitBat <|-- Bat : inheritance
+Bat <|-- Mammal : inheritance
 @enduml

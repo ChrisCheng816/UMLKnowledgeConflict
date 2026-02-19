@@ -1,4 +1,4 @@
 @startuml
-CaliforniaSeaLion <|-- SeaLion
-SeaLion <|-- Mammal
+CaliforniaSeaLion <|-- SeaLion : inheritance
+SeaLion <|-- Mammal : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tail *-- Kangaroo
-Bone *-- Tail
+Tail *-- Kangaroo : composition
+Bone *-- Tail : composition
 @enduml

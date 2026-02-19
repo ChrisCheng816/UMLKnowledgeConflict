@@ -1,4 +1,4 @@
 @startuml
-BandOfBrothers <|-- TVSeries
-TVSeries <|-- Entertainment
+BandOfBrothers <|-- TVSeries : inheritance
+TVSeries <|-- Entertainment : inheritance
 @enduml

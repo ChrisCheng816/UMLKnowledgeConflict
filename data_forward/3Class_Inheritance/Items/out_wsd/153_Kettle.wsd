@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Appliance
-Appliance <|-- Kettle
+Item <|-- Appliance : inheritance
+Appliance <|-- Kettle : inheritance
 @enduml

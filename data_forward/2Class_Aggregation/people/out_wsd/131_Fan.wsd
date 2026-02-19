@@ -1,3 +1,3 @@
 @startuml
-Club o-- Fan
+Club o-- Fan : aggregation
 @enduml

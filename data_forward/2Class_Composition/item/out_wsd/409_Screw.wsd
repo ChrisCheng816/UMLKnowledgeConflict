@@ -1,3 +1,3 @@
 @startuml
-Drawer *-- Screw
+Drawer *-- Screw : composition
 @enduml

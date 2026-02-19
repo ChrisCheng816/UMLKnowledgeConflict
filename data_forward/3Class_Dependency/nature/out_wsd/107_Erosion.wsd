@@ -1,4 +1,4 @@
 @startuml
-Wind ..> PressureDifference
-Erosion ..> Wind
+Wind ..> PressureDifference : dependency
+Erosion ..> Wind : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Unit o-- Officer
-Hospital o-- Unit
+Unit o-- Officer : aggregation
+Hospital o-- Unit : aggregation
 @enduml

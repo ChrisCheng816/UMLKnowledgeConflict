@@ -1,3 +1,3 @@
 @startuml
-Knife o-- Cabinet
+Knife o-- Cabinet : aggregation
 @enduml

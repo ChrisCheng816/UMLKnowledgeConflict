@@ -1,4 +1,4 @@
 @startuml
-SunVisor *-- Clip
-Car *-- SunVisor
+SunVisor *-- Clip : composition
+Car *-- SunVisor : composition
 @enduml

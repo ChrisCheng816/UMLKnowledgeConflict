@@ -1,4 +1,4 @@
 @startuml
-Bag o-- Pita
-Supermarket o-- Bag
+Bag o-- Pita : aggregation
+Supermarket o-- Bag : aggregation
 @enduml

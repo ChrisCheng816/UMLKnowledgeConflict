@@ -1,4 +1,4 @@
 @startuml
-Plate o-- Curry
-Restaurant o-- Plate
+Plate o-- Curry : aggregation
+Restaurant o-- Plate : aggregation
 @enduml

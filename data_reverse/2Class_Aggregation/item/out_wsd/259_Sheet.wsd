@@ -1,3 +1,3 @@
 @startuml
-Sheet o-- Basket
+Sheet o-- Basket : aggregation
 @enduml

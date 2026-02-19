@@ -1,4 +1,4 @@
 @startuml
-GoogleMeet ..> VideoCalling
-Internet ..> GoogleMeet
+GoogleMeet ..> VideoCalling : dependency
+Internet ..> GoogleMeet : dependency
 @enduml

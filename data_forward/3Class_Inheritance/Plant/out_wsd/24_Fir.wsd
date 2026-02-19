@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Tree
-Tree <|-- Fir
+Plant <|-- Tree : inheritance
+Tree <|-- Fir : inheritance
 @enduml

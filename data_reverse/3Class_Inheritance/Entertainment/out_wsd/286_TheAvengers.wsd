@@ -1,4 +1,4 @@
 @startuml
-TheAvengers <|-- Comic
-Comic <|-- Entertainment
+TheAvengers <|-- Comic : inheritance
+Comic <|-- Entertainment : inheritance
 @enduml

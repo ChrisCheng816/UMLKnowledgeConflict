@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Person
-Epidermis *-- Skin
+Skin *-- Person : composition
+Epidermis *-- Skin : composition
 @enduml

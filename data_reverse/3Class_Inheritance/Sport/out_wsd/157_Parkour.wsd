@@ -1,4 +1,4 @@
 @startuml
-Parkour <|-- IndividualSport
-IndividualSport <|-- Sport
+Parkour <|-- IndividualSport : inheritance
+IndividualSport <|-- Sport : inheritance
 @enduml

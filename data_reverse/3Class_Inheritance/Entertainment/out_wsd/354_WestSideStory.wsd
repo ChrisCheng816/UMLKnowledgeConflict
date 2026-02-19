@@ -1,4 +1,4 @@
 @startuml
-WestSideStory <|-- MusicalTheatre
-MusicalTheatre <|-- Theatre
+WestSideStory <|-- MusicalTheatre : inheritance
+MusicalTheatre <|-- Theatre : inheritance
 @enduml

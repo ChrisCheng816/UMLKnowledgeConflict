@@ -1,4 +1,4 @@
 @startuml
-Rib *-- Spoke
-Umbrella *-- Rib
+Rib *-- Spoke : composition
+Umbrella *-- Rib : composition
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Committee o-- Planner
+Committee o-- Planner : aggregation
 @enduml

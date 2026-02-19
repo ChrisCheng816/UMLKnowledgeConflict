@@ -1,3 +1,3 @@
 @startuml
-Monopoly <|-- BoardGame
+Monopoly <|-- BoardGame : inheritance
 @enduml

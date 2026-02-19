@@ -1,3 +1,3 @@
 @startuml
-Hose *-- Valve
+Hose *-- Valve : composition
 @enduml

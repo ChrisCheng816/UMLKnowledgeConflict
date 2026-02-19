@@ -1,4 +1,4 @@
 @startuml
-SeaSalt <|-- Salt
-Salt <|-- Seasoning
+SeaSalt <|-- Salt : inheritance
+Salt <|-- Seasoning : inheritance
 @enduml

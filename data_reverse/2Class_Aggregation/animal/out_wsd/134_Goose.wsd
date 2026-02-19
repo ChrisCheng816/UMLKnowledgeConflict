@@ -1,3 +1,3 @@
 @startuml
-Goose o-- Coop
+Goose o-- Coop : aggregation
 @enduml

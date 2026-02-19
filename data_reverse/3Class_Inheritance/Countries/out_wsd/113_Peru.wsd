@@ -1,4 +1,4 @@
 @startuml
-Peru <|-- Republic
-Republic <|-- State
+Peru <|-- Republic : inheritance
+Republic <|-- State : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-VolkswagenPassat <|-- MidsizeCar
-MidsizeCar <|-- Automobile
+VolkswagenPassat <|-- MidsizeCar : inheritance
+MidsizeCar <|-- Automobile : inheritance
 @enduml

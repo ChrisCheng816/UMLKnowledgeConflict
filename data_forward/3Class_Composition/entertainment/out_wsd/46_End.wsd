@@ -1,4 +1,4 @@
 @startuml
-Lace *-- End
-BaseballGlove *-- Lace
+Lace *-- End : composition
+BaseballGlove *-- Lace : composition
 @enduml

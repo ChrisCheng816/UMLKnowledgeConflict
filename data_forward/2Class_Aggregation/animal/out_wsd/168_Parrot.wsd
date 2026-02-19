@@ -1,3 +1,3 @@
 @startuml
-Exhibit o-- Parrot
+Exhibit o-- Parrot : aggregation
 @enduml

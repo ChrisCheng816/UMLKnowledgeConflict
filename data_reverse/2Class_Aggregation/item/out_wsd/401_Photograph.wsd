@@ -1,3 +1,3 @@
 @startuml
-Photograph o-- ArchiveBox
+Photograph o-- ArchiveBox : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-NylonRope ..> Climbing
-Nylon ..> NylonRope
+NylonRope ..> Climbing : dependency
+Nylon ..> NylonRope : dependency
 @enduml

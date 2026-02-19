@@ -1,4 +1,4 @@
 @startuml
-Cart o-- Supermarket
-Lobster o-- Cart
+Cart o-- Supermarket : aggregation
+Lobster o-- Cart : aggregation
 @enduml

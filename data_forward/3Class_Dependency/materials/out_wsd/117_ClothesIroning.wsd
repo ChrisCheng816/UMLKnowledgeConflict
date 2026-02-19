@@ -1,4 +1,4 @@
 @startuml
-Iron ..> Electricity
-ClothesIroning ..> Iron
+Iron ..> Electricity : dependency
+ClothesIroning ..> Iron : dependency
 @enduml

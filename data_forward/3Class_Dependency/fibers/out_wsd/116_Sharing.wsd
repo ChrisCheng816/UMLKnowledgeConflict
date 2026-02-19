@@ -1,4 +1,4 @@
 @startuml
-GoogleDrive ..> Internet
-Sharing ..> GoogleDrive
+GoogleDrive ..> Internet : dependency
+Sharing ..> GoogleDrive : dependency
 @enduml

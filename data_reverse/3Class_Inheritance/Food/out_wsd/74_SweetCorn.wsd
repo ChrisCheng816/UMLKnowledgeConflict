@@ -1,4 +1,4 @@
 @startuml
-SweetCorn <|-- Vegetable
-Vegetable <|-- Food
+SweetCorn <|-- Vegetable : inheritance
+Vegetable <|-- Food : inheritance
 @enduml

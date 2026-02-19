@@ -1,3 +1,3 @@
 @startuml
-WarmSleep ..> ElectricBlanket
+WarmSleep ..> ElectricBlanket : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Council o-- Neighborhood
-Treasurer o-- Council
+Council o-- Neighborhood : aggregation
+Treasurer o-- Council : aggregation
 @enduml

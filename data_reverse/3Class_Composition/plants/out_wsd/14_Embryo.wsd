@@ -1,4 +1,4 @@
 @startuml
-Seed *-- Sunflower
-Embryo *-- Seed
+Seed *-- Sunflower : composition
+Embryo *-- Seed : composition
 @enduml

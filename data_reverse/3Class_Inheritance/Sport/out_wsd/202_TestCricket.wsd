@@ -1,4 +1,4 @@
 @startuml
-TestCricket <|-- Cricket
-Cricket <|-- Sport
+TestCricket <|-- Cricket : inheritance
+Cricket <|-- Sport : inheritance
 @enduml

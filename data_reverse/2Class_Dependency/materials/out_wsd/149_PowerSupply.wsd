@@ -1,3 +1,3 @@
 @startuml
-PowerStrip ..> PowerSupply
+PowerStrip ..> PowerSupply : dependency
 @enduml

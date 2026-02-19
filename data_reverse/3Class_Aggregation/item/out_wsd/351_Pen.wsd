@@ -1,4 +1,4 @@
 @startuml
-Crate o-- Warehouse
-Pen o-- Crate
+Crate o-- Warehouse : aggregation
+Pen o-- Crate : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Appliance <|-- Grill
-Grill <|-- ElectricGrill
+Appliance <|-- Grill : inheritance
+Grill <|-- ElectricGrill : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Headlight *-- Car
-Bulb *-- Headlight
+Headlight *-- Car : composition
+Bulb *-- Headlight : composition
 @enduml

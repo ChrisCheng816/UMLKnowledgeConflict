@@ -1,4 +1,4 @@
 @startuml
-Panel *-- SpeechBubble
-Comic *-- Panel
+Panel *-- SpeechBubble : composition
+Comic *-- Panel : composition
 @enduml

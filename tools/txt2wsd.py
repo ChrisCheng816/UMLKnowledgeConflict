@@ -258,6 +258,32 @@ def clear_wsd_files(out_dir: Path) -> None:
         print(f"[WARN] failed to remove {failed} stale .wsd files under {out_dir}")
 
 
+def relation_label(template_id: str) -> str:
+    """
+    Map template id to noun form for edge labels.
+    """
+    return {
+        "inheritance": "inheritance",
+        "composition": "composition",
+        "aggregation": "aggregation",
+        "dependency": "dependency",
+    }.get(template_id, "")
+
+
+def build_wsd_body(nodes: List[str], edges: List[str], template_id: str) -> str:
+    """
+    Build .wsd body lines between @startuml and @enduml.
+
+    Content
+    - Relation edges with noun-form relation labels
+    """
+    label = relation_label(template_id)
+    if not label:
+        return "\n".join(edges)
+    labeled_edges = [f"{edge} : {label}" for edge in edges]
+    return "\n".join(labeled_edges)
+
+
 def write_wsd_files(
     instances: List[Instance],
     out_dir: Path,
@@ -290,7 +316,7 @@ def write_wsd_files(
         if out_path.exists() and not overwrite:
             raise FileExistsError(f"Output exists: {out_path}")
 
-        body = "\n".join(inst.edges)
+        body = build_wsd_body(inst.nodes, inst.edges, inst.template_id)
         content = "@startuml\n" + body + "\n@enduml\n"
         out_path.write_text(content, encoding="utf-8")
 
@@ -324,7 +350,7 @@ def write_reverse_wsd_files(
         if out_path.exists() and not overwrite:
             raise FileExistsError(f"Output exists: {out_path}")
 
-        body = "\n".join(reverse_edges)
+        body = build_wsd_body(reverse_nodes, reverse_edges, inst.template_id)
         content = "@startuml\n" + body + "\n@enduml\n"
         out_path.write_text(content, encoding="utf-8")
 

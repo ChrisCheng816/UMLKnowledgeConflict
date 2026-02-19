@@ -1,4 +1,4 @@
 @startuml
-Venezuela <|-- Country
-Country <|-- GeopoliticalEntity
+Venezuela <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

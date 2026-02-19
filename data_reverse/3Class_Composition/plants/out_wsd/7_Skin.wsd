@@ -1,4 +1,4 @@
 @startuml
-Fruit *-- Apple
-Skin *-- Fruit
+Fruit *-- Apple : composition
+Skin *-- Fruit : composition
 @enduml

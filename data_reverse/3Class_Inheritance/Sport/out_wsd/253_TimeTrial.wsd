@@ -1,4 +1,4 @@
 @startuml
-TimeTrial <|-- RoadCycling
-RoadCycling <|-- Cycling
+TimeTrial <|-- RoadCycling : inheritance
+RoadCycling <|-- Cycling : inheritance
 @enduml

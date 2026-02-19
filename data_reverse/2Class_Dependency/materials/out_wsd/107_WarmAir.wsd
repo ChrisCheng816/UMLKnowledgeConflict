@@ -1,3 +1,3 @@
 @startuml
-HairDryer ..> WarmAir
+HairDryer ..> WarmAir : dependency
 @enduml

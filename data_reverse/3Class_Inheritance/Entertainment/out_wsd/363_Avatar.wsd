@@ -1,4 +1,4 @@
 @startuml
-Avatar <|-- FantasyFilm
-FantasyFilm <|-- Film
+Avatar <|-- FantasyFilm : inheritance
+FantasyFilm <|-- Film : inheritance
 @enduml

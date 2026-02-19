@@ -1,4 +1,4 @@
 @startuml
-ControlCabinet ..> PowerGrid
-TrafficCamera ..> ControlCabinet
+ControlCabinet ..> PowerGrid : dependency
+TrafficCamera ..> ControlCabinet : dependency
 @enduml

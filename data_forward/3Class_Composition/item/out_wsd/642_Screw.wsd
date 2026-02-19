@@ -1,4 +1,4 @@
 @startuml
-Stand *-- Screw
-Monitor *-- Stand
+Stand *-- Screw : composition
+Monitor *-- Stand : composition
 @enduml

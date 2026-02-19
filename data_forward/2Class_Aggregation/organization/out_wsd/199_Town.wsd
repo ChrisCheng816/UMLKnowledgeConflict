@@ -1,3 +1,3 @@
 @startuml
-County o-- Town
+County o-- Town : aggregation
 @enduml

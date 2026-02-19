@@ -1,4 +1,4 @@
 @startuml
-Ear *-- Person
-Pinna *-- Ear
+Ear *-- Person : composition
+Pinna *-- Ear : composition
 @enduml

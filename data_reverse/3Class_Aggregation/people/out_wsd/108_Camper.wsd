@@ -1,4 +1,4 @@
 @startuml
-Class o-- Camp
-Camper o-- Class
+Class o-- Camp : aggregation
+Camper o-- Class : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SandwichMaker ..> Electricity
-Operating ..> SandwichMaker
+SandwichMaker ..> Electricity : dependency
+Operating ..> SandwichMaker : dependency
 @enduml

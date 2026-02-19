@@ -1,4 +1,4 @@
 @startuml
-Slovenia <|-- AlpineCountry
-AlpineCountry <|-- EuropeanCountry
+Slovenia <|-- AlpineCountry : inheritance
+AlpineCountry <|-- EuropeanCountry : inheritance
 @enduml

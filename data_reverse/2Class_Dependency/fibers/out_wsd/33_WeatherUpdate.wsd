@@ -1,3 +1,3 @@
 @startuml
-Radio ..> WeatherUpdate
+Radio ..> WeatherUpdate : dependency
 @enduml

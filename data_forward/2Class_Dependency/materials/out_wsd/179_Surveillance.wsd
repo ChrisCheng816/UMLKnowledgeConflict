@@ -1,3 +1,3 @@
 @startuml
-Surveillance ..> SmartLock
+Surveillance ..> SmartLock : dependency
 @enduml

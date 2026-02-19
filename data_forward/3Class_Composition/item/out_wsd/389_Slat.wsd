@@ -1,4 +1,4 @@
 @startuml
-Backrest *-- Slat
-Chair *-- Backrest
+Backrest *-- Slat : composition
+Chair *-- Backrest : composition
 @enduml

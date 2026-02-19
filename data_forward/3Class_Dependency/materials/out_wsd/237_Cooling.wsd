@@ -1,4 +1,4 @@
 @startuml
-TableFan ..> Electricity
-Cooling ..> TableFan
+TableFan ..> Electricity : dependency
+Cooling ..> TableFan : dependency
 @enduml

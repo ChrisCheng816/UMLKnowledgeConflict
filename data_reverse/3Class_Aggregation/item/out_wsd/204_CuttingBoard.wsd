@@ -1,4 +1,4 @@
 @startuml
-Cabinet o-- Kitchen
-CuttingBoard o-- Cabinet
+Cabinet o-- Kitchen : aggregation
+CuttingBoard o-- Cabinet : aggregation
 @enduml

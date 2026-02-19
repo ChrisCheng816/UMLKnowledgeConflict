@@ -1,4 +1,4 @@
 @startuml
-Apple ..> AppleJuice
-AppleTree ..> Apple
+Apple ..> AppleJuice : dependency
+AppleTree ..> Apple : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PowerCord ..> WallOutlet
-Scanner ..> PowerCord
+PowerCord ..> WallOutlet : dependency
+Scanner ..> PowerCord : dependency
 @enduml

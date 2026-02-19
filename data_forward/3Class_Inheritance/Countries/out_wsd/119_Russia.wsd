@@ -1,4 +1,4 @@
 @startuml
-State <|-- Federation
-Federation <|-- Russia
+State <|-- Federation : inheritance
+Federation <|-- Russia : inheritance
 @enduml

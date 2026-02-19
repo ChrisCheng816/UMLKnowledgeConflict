@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University
-University <|-- RutgersUniversity
+EducationalInstitution <|-- University : inheritance
+University <|-- RutgersUniversity : inheritance
 @enduml

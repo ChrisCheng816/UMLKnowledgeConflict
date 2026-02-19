@@ -1,4 +1,4 @@
 @startuml
-UCLA <|-- PublicUniversity
-PublicUniversity <|-- University
+UCLA <|-- PublicUniversity : inheritance
+PublicUniversity <|-- University : inheritance
 @enduml

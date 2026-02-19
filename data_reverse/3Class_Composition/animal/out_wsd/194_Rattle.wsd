@@ -1,4 +1,4 @@
 @startuml
-Tail *-- Rattlesnake
-Rattle *-- Tail
+Tail *-- Rattlesnake : composition
+Rattle *-- Tail : composition
 @enduml

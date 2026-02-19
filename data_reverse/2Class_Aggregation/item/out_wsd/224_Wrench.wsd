@@ -1,3 +1,3 @@
 @startuml
-Wrench o-- Toolbox
+Wrench o-- Toolbox : aggregation
 @enduml

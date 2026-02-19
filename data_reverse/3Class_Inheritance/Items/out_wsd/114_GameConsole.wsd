@@ -1,4 +1,4 @@
 @startuml
-GameConsole <|-- Console
-Console <|-- Electronics
+GameConsole <|-- Console : inheritance
+Console <|-- Electronics : inheritance
 @enduml

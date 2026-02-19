@@ -1,4 +1,4 @@
 @startuml
-WarmOcean ..> Sunlight
-Monsoon ..> WarmOcean
+WarmOcean ..> Sunlight : dependency
+Monsoon ..> WarmOcean : dependency
 @enduml

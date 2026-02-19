@@ -1,4 +1,4 @@
 @startuml
-Oregano ..> OreganoSeasoning
-OreganoPlant ..> Oregano
+Oregano ..> OreganoSeasoning : dependency
+OreganoPlant ..> Oregano : dependency
 @enduml

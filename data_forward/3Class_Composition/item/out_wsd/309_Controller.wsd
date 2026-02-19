@@ -1,4 +1,4 @@
 @startuml
-Keyboard *-- Controller
-Laptop *-- Keyboard
+Keyboard *-- Controller : composition
+Laptop *-- Keyboard : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Ant <|-- Insect
-Insect <|-- Animal
+Ant <|-- Insect : inheritance
+Insect <|-- Animal : inheritance
 @enduml

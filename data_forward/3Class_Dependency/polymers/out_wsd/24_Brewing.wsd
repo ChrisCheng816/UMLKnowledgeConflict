@@ -1,4 +1,4 @@
 @startuml
-CoffeeBeans ..> CoffeePlant
-Brewing ..> CoffeeBeans
+CoffeeBeans ..> CoffeePlant : dependency
+Brewing ..> CoffeeBeans : dependency
 @enduml

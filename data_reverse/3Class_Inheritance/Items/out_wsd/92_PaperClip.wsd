@@ -1,4 +1,4 @@
 @startuml
-PaperClip <|-- Clip
-Clip <|-- Stationery
+PaperClip <|-- Clip : inheritance
+Clip <|-- Stationery : inheritance
 @enduml

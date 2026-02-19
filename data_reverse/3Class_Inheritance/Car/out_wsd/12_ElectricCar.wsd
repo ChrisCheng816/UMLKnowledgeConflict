@@ -1,4 +1,4 @@
 @startuml
-ElectricCar <|-- Car
-Car <|-- Vehicle
+ElectricCar <|-- Car : inheritance
+Car <|-- Vehicle : inheritance
 @enduml

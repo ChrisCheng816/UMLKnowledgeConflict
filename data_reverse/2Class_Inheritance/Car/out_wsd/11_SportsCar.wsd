@@ -1,3 +1,3 @@
 @startuml
-SportsCar <|-- Car
+SportsCar <|-- Car : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Jicama <|-- RootVegetable
-RootVegetable <|-- Vegetable
+Jicama <|-- RootVegetable : inheritance
+RootVegetable <|-- Vegetable : inheritance
 @enduml

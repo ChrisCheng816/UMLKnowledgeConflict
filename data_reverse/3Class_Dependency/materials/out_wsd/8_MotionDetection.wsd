@@ -1,4 +1,4 @@
 @startuml
-AlarmSystem ..> MotionDetection
-Electricity ..> AlarmSystem
+AlarmSystem ..> MotionDetection : dependency
+Electricity ..> AlarmSystem : dependency
 @enduml

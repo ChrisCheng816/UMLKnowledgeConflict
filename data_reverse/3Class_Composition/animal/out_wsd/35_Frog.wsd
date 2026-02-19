@@ -1,4 +1,4 @@
 @startuml
-Hoof *-- Horse
-Frog *-- Hoof
+Hoof *-- Horse : composition
+Frog *-- Hoof : composition
 @enduml

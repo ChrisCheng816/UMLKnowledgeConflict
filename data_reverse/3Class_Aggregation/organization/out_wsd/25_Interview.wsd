@@ -1,4 +1,4 @@
 @startuml
-Segment o-- RadioShow
-Interview o-- Segment
+Segment o-- RadioShow : aggregation
+Interview o-- Segment : aggregation
 @enduml

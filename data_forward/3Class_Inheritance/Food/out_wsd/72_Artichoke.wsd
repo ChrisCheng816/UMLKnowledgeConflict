@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Vegetable
-Vegetable <|-- Artichoke
+Food <|-- Vegetable : inheritance
+Vegetable <|-- Artichoke : inheritance
 @enduml

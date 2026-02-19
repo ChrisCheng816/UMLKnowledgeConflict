@@ -1,3 +1,3 @@
 @startuml
-VascularUltrasound ..> UltrasoundMachine
+VascularUltrasound ..> UltrasoundMachine : dependency
 @enduml

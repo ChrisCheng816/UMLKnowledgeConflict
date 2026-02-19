@@ -1,4 +1,4 @@
 @startuml
-Flock o-- Turkey
-Farm o-- Flock
+Flock o-- Turkey : aggregation
+Farm o-- Flock : aggregation
 @enduml

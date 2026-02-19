@@ -1,4 +1,4 @@
 @startuml
-CornTortilla <|-- Tortilla
-Tortilla <|-- Bread
+CornTortilla <|-- Tortilla : inheritance
+Tortilla <|-- Bread : inheritance
 @enduml

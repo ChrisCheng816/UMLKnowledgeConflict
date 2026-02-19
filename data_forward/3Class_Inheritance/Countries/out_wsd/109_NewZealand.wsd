@@ -1,4 +1,4 @@
 @startuml
-State <|-- IslandNation
-IslandNation <|-- NewZealand
+State <|-- IslandNation : inheritance
+IslandNation <|-- NewZealand : inheritance
 @enduml

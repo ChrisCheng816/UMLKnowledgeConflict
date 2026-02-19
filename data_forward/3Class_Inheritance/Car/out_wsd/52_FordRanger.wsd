@@ -1,4 +1,4 @@
 @startuml
-Truck <|-- LightTruck
-LightTruck <|-- FordRanger
+Truck <|-- LightTruck : inheritance
+LightTruck <|-- FordRanger : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fleet o-- BoxTruck
-MovingCompany o-- Fleet
+Fleet o-- BoxTruck : aggregation
+MovingCompany o-- Fleet : aggregation
 @enduml

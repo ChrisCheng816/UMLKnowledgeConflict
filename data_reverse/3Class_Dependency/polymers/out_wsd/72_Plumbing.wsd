@@ -1,4 +1,4 @@
 @startuml
-Hose ..> Plumbing
-Rubber ..> Hose
+Hose ..> Plumbing : dependency
+Rubber ..> Hose : dependency
 @enduml

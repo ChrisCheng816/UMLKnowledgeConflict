@@ -1,3 +1,3 @@
 @startuml
-TapWater ..> Aquifer
+TapWater ..> Aquifer : dependency
 @enduml

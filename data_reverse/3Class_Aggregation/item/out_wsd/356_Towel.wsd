@@ -1,4 +1,4 @@
 @startuml
-Locker o-- Gym
-Towel o-- Locker
+Locker o-- Gym : aggregation
+Towel o-- Locker : aggregation
 @enduml

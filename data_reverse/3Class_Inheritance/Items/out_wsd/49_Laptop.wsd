@@ -1,4 +1,4 @@
 @startuml
-Laptop <|-- Computer
-Computer <|-- Electronics
+Laptop <|-- Computer : inheritance
+Computer <|-- Electronics : inheritance
 @enduml

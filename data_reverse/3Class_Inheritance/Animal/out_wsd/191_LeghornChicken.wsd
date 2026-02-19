@@ -1,4 +1,4 @@
 @startuml
-LeghornChicken <|-- Chicken
-Chicken <|-- Bird
+LeghornChicken <|-- Chicken : inheritance
+Chicken <|-- Bird : inheritance
 @enduml

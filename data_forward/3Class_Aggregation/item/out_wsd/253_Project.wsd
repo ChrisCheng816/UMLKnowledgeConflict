@@ -1,4 +1,4 @@
 @startuml
-Binder o-- Project
-Backpack o-- Binder
+Binder o-- Project : aggregation
+Backpack o-- Binder : aggregation
 @enduml

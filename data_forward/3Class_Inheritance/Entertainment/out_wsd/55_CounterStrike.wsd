@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- CounterStrike
+Game <|-- VideoGame : inheritance
+VideoGame <|-- CounterStrike : inheritance
 @enduml

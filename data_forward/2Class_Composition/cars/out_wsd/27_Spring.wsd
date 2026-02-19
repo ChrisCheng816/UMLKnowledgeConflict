@@ -1,3 +1,3 @@
 @startuml
-Seat *-- Spring
+Seat *-- Spring : composition
 @enduml

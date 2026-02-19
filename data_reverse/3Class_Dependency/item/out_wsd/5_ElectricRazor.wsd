@@ -1,4 +1,4 @@
 @startuml
-ChargingStand ..> ElectricRazor
-WallOutlet ..> ChargingStand
+ChargingStand ..> ElectricRazor : dependency
+WallOutlet ..> ChargingStand : dependency
 @enduml

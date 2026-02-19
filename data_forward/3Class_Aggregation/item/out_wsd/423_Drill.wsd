@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Drill
-HardwareStore o-- Shelf
+Shelf o-- Drill : aggregation
+HardwareStore o-- Shelf : aggregation
 @enduml

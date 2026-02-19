@@ -1,3 +1,3 @@
 @startuml
-GameConsole ..> VideoStreaming
+GameConsole ..> VideoStreaming : dependency
 @enduml

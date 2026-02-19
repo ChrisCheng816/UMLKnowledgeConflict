@@ -1,4 +1,4 @@
 @startuml
-Fang *-- Snake
-Tip *-- Fang
+Fang *-- Snake : composition
+Tip *-- Fang : composition
 @enduml

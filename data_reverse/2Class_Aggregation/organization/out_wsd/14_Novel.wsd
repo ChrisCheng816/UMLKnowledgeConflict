@@ -1,3 +1,3 @@
 @startuml
-Novel o-- Shelf
+Novel o-- Shelf : aggregation
 @enduml

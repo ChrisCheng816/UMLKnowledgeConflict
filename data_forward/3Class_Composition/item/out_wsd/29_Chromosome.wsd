@@ -1,4 +1,4 @@
 @startuml
-Nucleus *-- Chromosome
-Cell *-- Nucleus
+Nucleus *-- Chromosome : composition
+Cell *-- Nucleus : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Gravity ..> Orbit
-Mass ..> Gravity
+Gravity ..> Orbit : dependency
+Mass ..> Gravity : dependency
 @enduml

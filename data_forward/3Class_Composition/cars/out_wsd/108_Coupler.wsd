@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- Coupler
-Car *-- SteeringSystem
+SteeringSystem *-- Coupler : composition
+Car *-- SteeringSystem : composition
 @enduml

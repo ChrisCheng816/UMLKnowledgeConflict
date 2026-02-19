@@ -1,3 +1,3 @@
 @startuml
-Diaphragm *-- Microphone
+Diaphragm *-- Microphone : composition
 @enduml

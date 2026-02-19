@@ -1,4 +1,4 @@
 @startuml
-Choir o-- School
-Chorister o-- Choir
+Choir o-- School : aggregation
+Chorister o-- Choir : aggregation
 @enduml

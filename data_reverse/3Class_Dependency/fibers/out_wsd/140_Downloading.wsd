@@ -1,4 +1,4 @@
 @startuml
-AppleMusic ..> Downloading
-Internet ..> AppleMusic
+AppleMusic ..> Downloading : dependency
+Internet ..> AppleMusic : dependency
 @enduml

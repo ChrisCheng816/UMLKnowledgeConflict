@@ -1,4 +1,4 @@
 @startuml
-UniversityOfDelaware <|-- University
-University <|-- EducationalInstitution
+UniversityOfDelaware <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

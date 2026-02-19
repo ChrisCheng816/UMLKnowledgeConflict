@@ -1,4 +1,4 @@
 @startuml
-Jigsaw ..> Electricity
-WoodCutting ..> Jigsaw
+Jigsaw ..> Electricity : dependency
+WoodCutting ..> Jigsaw : dependency
 @enduml

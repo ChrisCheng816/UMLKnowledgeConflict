@@ -1,4 +1,4 @@
 @startuml
-Cone *-- Speaker
-Surround *-- Cone
+Cone *-- Speaker : composition
+Surround *-- Cone : composition
 @enduml

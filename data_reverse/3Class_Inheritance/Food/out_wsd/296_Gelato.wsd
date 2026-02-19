@@ -1,4 +1,4 @@
 @startuml
-Gelato <|-- IceCream
-IceCream <|-- Dessert
+Gelato <|-- IceCream : inheritance
+IceCream <|-- Dessert : inheritance
 @enduml

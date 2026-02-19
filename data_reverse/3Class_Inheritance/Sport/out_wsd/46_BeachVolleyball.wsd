@@ -1,4 +1,4 @@
 @startuml
-BeachVolleyball <|-- TeamSport
-TeamSport <|-- Sport
+BeachVolleyball <|-- TeamSport : inheritance
+TeamSport <|-- Sport : inheritance
 @enduml

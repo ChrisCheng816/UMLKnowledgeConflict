@@ -1,4 +1,4 @@
 @startuml
-Bag o-- Chips
-Supermarket o-- Bag
+Bag o-- Chips : aggregation
+Supermarket o-- Bag : aggregation
 @enduml

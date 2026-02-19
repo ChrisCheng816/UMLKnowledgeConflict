@@ -1,4 +1,4 @@
 @startuml
-Drive *-- Bearing
-Desktop *-- Drive
+Drive *-- Bearing : composition
+Desktop *-- Drive : composition
 @enduml

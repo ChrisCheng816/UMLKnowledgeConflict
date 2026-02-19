@@ -1,4 +1,4 @@
 @startuml
-Film <|-- AdventureFilm
-AdventureFilm <|-- Up
+Film <|-- AdventureFilm : inheritance
+AdventureFilm <|-- Up : inheritance
 @enduml

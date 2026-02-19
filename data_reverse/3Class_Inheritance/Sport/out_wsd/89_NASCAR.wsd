@@ -1,4 +1,4 @@
 @startuml
-NASCAR <|-- MotorSport
-MotorSport <|-- Sport
+NASCAR <|-- MotorSport : inheritance
+MotorSport <|-- Sport : inheritance
 @enduml

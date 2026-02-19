@@ -1,4 +1,4 @@
 @startuml
-Team o-- League
-Referee o-- Team
+Team o-- League : aggregation
+Referee o-- Team : aggregation
 @enduml

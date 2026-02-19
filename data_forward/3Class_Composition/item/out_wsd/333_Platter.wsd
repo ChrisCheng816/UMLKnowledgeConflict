@@ -1,4 +1,4 @@
 @startuml
-Drive *-- Platter
-Desktop *-- Drive
+Drive *-- Platter : composition
+Desktop *-- Drive : composition
 @enduml

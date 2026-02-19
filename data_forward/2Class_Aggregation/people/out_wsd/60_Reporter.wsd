@@ -1,3 +1,3 @@
 @startuml
-Team o-- Reporter
+Team o-- Reporter : aggregation
 @enduml

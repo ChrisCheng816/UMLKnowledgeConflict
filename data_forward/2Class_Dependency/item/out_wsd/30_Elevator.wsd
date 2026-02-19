@@ -1,3 +1,3 @@
 @startuml
-Elevator ..> BuildingPowerFeed
+Elevator ..> BuildingPowerFeed : dependency
 @enduml

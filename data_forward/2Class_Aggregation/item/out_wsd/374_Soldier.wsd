@@ -1,3 +1,3 @@
 @startuml
-Regiment o-- Soldier
+Regiment o-- Soldier : aggregation
 @enduml

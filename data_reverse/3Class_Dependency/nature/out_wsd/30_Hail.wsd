@@ -1,4 +1,4 @@
 @startuml
-Thundercloud ..> Hail
-StormSystem ..> Thundercloud
+Thundercloud ..> Hail : dependency
+StormSystem ..> Thundercloud : dependency
 @enduml

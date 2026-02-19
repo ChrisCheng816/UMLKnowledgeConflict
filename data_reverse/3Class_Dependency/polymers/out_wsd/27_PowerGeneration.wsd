@@ -1,4 +1,4 @@
 @startuml
-GasPlant ..> PowerGeneration
-NaturalGas ..> GasPlant
+GasPlant ..> PowerGeneration : dependency
+NaturalGas ..> GasPlant : dependency
 @enduml

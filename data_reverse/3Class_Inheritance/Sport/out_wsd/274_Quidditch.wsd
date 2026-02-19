@@ -1,4 +1,4 @@
 @startuml
-Quidditch <|-- TeamSport
-TeamSport <|-- Sport
+Quidditch <|-- TeamSport : inheritance
+TeamSport <|-- Sport : inheritance
 @enduml

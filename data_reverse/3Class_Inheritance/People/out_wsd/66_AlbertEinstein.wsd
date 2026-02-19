@@ -1,4 +1,4 @@
 @startuml
-AlbertEinstein <|-- TheoreticalPhysicist
-TheoreticalPhysicist <|-- Physicist
+AlbertEinstein <|-- TheoreticalPhysicist : inheritance
+TheoreticalPhysicist <|-- Physicist : inheritance
 @enduml

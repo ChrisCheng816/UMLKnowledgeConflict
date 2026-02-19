@@ -1,4 +1,4 @@
 @startuml
-Cage o-- Raven
-Aviary o-- Cage
+Cage o-- Raven : aggregation
+Aviary o-- Cage : aggregation
 @enduml

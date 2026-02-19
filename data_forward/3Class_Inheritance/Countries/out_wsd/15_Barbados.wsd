@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Barbados
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Barbados : inheritance
 @enduml

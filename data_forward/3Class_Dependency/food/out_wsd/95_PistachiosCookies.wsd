@@ -1,4 +1,4 @@
 @startuml
-Pistachios ..> PistachioTree
-PistachiosCookies ..> Pistachios
+Pistachios ..> PistachioTree : dependency
+PistachiosCookies ..> Pistachios : dependency
 @enduml

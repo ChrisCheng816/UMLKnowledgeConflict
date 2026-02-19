@@ -1,4 +1,4 @@
 @startuml
-Dishwasher ..> Electricity
-Washing ..> Dishwasher
+Dishwasher ..> Electricity : dependency
+Washing ..> Dishwasher : dependency
 @enduml

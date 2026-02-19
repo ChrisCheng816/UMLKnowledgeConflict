@@ -1,4 +1,4 @@
 @startuml
-Eyelid *-- Human
-Eyelash *-- Eyelid
+Eyelid *-- Human : composition
+Eyelash *-- Eyelid : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Lead *-- Pencil
-Graphite *-- Lead
+Lead *-- Pencil : composition
+Graphite *-- Lead : composition
 @enduml

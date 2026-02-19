@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Atlas
-Library o-- Shelf
+Shelf o-- Atlas : aggregation
+Library o-- Shelf : aggregation
 @enduml

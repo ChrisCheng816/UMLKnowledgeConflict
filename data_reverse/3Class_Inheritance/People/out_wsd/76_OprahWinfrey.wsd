@@ -1,4 +1,4 @@
 @startuml
-OprahWinfrey <|-- TalkShowHost
-TalkShowHost <|-- TelevisionHost
+OprahWinfrey <|-- TalkShowHost : inheritance
+TalkShowHost <|-- TelevisionHost : inheritance
 @enduml

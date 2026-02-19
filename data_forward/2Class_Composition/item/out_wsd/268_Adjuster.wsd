@@ -1,3 +1,3 @@
 @startuml
-Strap *-- Adjuster
+Strap *-- Adjuster : composition
 @enduml

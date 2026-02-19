@@ -1,3 +1,3 @@
 @startuml
-Frame *-- Backrest
+Frame *-- Backrest : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Dominion <|-- BoardGame
-BoardGame <|-- Game
+Dominion <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

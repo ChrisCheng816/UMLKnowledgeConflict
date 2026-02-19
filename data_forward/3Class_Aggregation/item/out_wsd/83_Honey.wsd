@@ -1,4 +1,4 @@
 @startuml
-Jar o-- Honey
-Pantry o-- Jar
+Jar o-- Honey : aggregation
+Pantry o-- Jar : aggregation
 @enduml

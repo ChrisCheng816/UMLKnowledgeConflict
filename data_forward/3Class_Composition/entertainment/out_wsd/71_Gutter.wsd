@@ -1,4 +1,4 @@
 @startuml
-Page *-- Gutter
-Comic *-- Page
+Page *-- Gutter : composition
+Comic *-- Page : composition
 @enduml

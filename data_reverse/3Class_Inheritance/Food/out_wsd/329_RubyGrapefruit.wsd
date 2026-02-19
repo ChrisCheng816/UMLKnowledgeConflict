@@ -1,4 +1,4 @@
 @startuml
-RubyGrapefruit <|-- Grapefruit
-Grapefruit <|-- Fruit
+RubyGrapefruit <|-- Grapefruit : inheritance
+Grapefruit <|-- Fruit : inheritance
 @enduml

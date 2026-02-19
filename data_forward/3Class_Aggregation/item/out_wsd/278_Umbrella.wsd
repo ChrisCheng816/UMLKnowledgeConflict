@@ -1,4 +1,4 @@
 @startuml
-Rack o-- Umbrella
-Entryway o-- Rack
+Rack o-- Umbrella : aggregation
+Entryway o-- Rack : aggregation
 @enduml

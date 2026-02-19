@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Electrician
-Workshop o-- Staff
+Staff o-- Electrician : aggregation
+Workshop o-- Staff : aggregation
 @enduml

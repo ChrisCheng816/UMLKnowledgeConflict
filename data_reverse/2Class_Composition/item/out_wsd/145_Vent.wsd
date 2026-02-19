@@ -1,3 +1,3 @@
 @startuml
-Vent *-- Roof
+Vent *-- Roof : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SteamMop <|-- Mop
-Mop <|-- CleaningTool
+SteamMop <|-- Mop : inheritance
+Mop <|-- CleaningTool : inheritance
 @enduml

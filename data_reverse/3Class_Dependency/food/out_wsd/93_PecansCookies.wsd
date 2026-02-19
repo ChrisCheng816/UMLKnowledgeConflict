@@ -1,4 +1,4 @@
 @startuml
-Pecans ..> PecansCookies
-PecanTree ..> Pecans
+Pecans ..> PecansCookies : dependency
+PecanTree ..> Pecans : dependency
 @enduml

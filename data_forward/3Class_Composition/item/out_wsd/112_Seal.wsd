@@ -1,4 +1,4 @@
 @startuml
-Door *-- Seal
-Microwave *-- Door
+Door *-- Seal : composition
+Microwave *-- Door : composition
 @enduml

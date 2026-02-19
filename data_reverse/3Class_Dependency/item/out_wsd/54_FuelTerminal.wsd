@@ -1,4 +1,4 @@
 @startuml
-Refinery ..> FuelTerminal
-CrudeOilSupply ..> Refinery
+Refinery ..> FuelTerminal : dependency
+CrudeOilSupply ..> Refinery : dependency
 @enduml

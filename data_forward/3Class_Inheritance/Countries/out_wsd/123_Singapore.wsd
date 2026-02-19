@@ -1,4 +1,4 @@
 @startuml
-State <|-- CityState
-CityState <|-- Singapore
+State <|-- CityState : inheritance
+CityState <|-- Singapore : inheritance
 @enduml

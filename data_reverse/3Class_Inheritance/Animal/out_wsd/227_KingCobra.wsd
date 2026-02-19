@@ -1,4 +1,4 @@
 @startuml
-KingCobra <|-- Snake
-Snake <|-- Animal
+KingCobra <|-- Snake : inheritance
+Snake <|-- Animal : inheritance
 @enduml

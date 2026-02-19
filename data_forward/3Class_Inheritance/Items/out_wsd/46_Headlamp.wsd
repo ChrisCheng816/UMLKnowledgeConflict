@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Flashlight
-Flashlight <|-- Headlamp
+Item <|-- Flashlight : inheritance
+Flashlight <|-- Headlamp : inheritance
 @enduml

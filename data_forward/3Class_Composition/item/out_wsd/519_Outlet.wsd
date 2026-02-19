@@ -1,4 +1,4 @@
 @startuml
-ElectricalSystem *-- Outlet
-House *-- ElectricalSystem
+ElectricalSystem *-- Outlet : composition
+House *-- ElectricalSystem : composition
 @enduml

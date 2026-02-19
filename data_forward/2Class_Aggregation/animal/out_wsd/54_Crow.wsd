@@ -1,3 +1,3 @@
 @startuml
-Aviary o-- Crow
+Aviary o-- Crow : aggregation
 @enduml

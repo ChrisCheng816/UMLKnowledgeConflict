@@ -1,3 +1,3 @@
 @startuml
-Post o-- Thread
+Post o-- Thread : aggregation
 @enduml

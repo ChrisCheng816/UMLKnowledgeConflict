@@ -1,4 +1,4 @@
 @startuml
-Lizard <|-- Iguana
-Iguana <|-- GreenIguana
+Lizard <|-- Iguana : inheritance
+Iguana <|-- GreenIguana : inheritance
 @enduml

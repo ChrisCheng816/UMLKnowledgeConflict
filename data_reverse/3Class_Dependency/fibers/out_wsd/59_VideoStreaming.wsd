@@ -1,4 +1,4 @@
 @startuml
-WiFiNetwork ..> VideoStreaming
-InternetConnection ..> WiFiNetwork
+WiFiNetwork ..> VideoStreaming : dependency
+InternetConnection ..> WiFiNetwork : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Insect
-Insect <|-- Grasshopper
+Animal <|-- Insect : inheritance
+Insect <|-- Grasshopper : inheritance
 @enduml

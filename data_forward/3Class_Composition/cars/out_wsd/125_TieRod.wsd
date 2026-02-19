@@ -1,4 +1,4 @@
 @startuml
-SteeringSystem *-- TieRod
-Car *-- SteeringSystem
+SteeringSystem *-- TieRod : composition
+Car *-- SteeringSystem : composition
 @enduml

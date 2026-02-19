@@ -1,4 +1,4 @@
 @startuml
-Nectar ..> Flower
-Honeybee ..> Nectar
+Nectar ..> Flower : dependency
+Honeybee ..> Nectar : dependency
 @enduml

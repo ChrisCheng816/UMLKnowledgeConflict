@@ -1,4 +1,4 @@
 @startuml
-Porch *-- House
-Deck *-- Porch
+Porch *-- House : composition
+Deck *-- Porch : composition
 @enduml

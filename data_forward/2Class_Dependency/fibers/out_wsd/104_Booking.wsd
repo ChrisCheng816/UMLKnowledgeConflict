@@ -1,3 +1,3 @@
 @startuml
-Booking ..> Airbnb
+Booking ..> Airbnb : dependency
 @enduml

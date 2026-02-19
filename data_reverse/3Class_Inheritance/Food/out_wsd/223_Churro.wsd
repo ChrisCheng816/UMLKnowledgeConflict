@@ -1,4 +1,4 @@
 @startuml
-Churro <|-- Dessert
-Dessert <|-- Food
+Churro <|-- Dessert : inheritance
+Dessert <|-- Food : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Bin o-- Garage
-PlasticBottle o-- Bin
+Bin o-- Garage : aggregation
+PlasticBottle o-- Bin : aggregation
 @enduml

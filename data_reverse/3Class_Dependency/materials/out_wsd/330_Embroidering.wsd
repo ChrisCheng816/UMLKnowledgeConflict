@@ -1,4 +1,4 @@
 @startuml
-EmbroideryMachine ..> Embroidering
-Electricity ..> EmbroideryMachine
+EmbroideryMachine ..> Embroidering : dependency
+Electricity ..> EmbroideryMachine : dependency
 @enduml

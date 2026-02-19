@@ -1,4 +1,4 @@
 @startuml
-Cob *-- Pith
-Corn *-- Cob
+Cob *-- Pith : composition
+Corn *-- Cob : composition
 @enduml

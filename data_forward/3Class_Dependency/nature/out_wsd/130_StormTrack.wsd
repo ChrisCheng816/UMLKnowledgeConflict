@@ -1,4 +1,4 @@
 @startuml
-JetStream ..> PressureDifference
-StormTrack ..> JetStream
+JetStream ..> PressureDifference : dependency
+StormTrack ..> JetStream : dependency
 @enduml

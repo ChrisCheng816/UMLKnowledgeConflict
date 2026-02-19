@@ -1,4 +1,4 @@
 @startuml
-Spotify ..> Internet
-Downloading ..> Spotify
+Spotify ..> Internet : dependency
+Downloading ..> Spotify : dependency
 @enduml

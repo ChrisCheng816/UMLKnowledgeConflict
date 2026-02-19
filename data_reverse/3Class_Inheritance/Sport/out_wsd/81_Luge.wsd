@@ -1,4 +1,4 @@
 @startuml
-Luge <|-- WinterSport
-WinterSport <|-- Sport
+Luge <|-- WinterSport : inheritance
+WinterSport <|-- Sport : inheritance
 @enduml

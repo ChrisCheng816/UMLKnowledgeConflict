@@ -1,4 +1,4 @@
 @startuml
-Rod *-- End
-Closet *-- Rod
+Rod *-- End : composition
+Closet *-- Rod : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ReceiverAntenna ..> Radio
-AntennaMast ..> ReceiverAntenna
+ReceiverAntenna ..> Radio : dependency
+AntennaMast ..> ReceiverAntenna : dependency
 @enduml

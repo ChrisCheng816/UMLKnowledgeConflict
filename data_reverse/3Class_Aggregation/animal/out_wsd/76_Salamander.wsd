@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Sanctuary
-Salamander o-- Enclosure
+Enclosure o-- Sanctuary : aggregation
+Salamander o-- Enclosure : aggregation
 @enduml

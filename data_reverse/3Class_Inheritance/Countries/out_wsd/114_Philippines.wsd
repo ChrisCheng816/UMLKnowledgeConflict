@@ -1,4 +1,4 @@
 @startuml
-Philippines <|-- ArchipelagoNation
-ArchipelagoNation <|-- State
+Philippines <|-- ArchipelagoNation : inheritance
+ArchipelagoNation <|-- State : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Film <|-- SuperheroFilm
-SuperheroFilm <|-- Logan
+Film <|-- SuperheroFilm : inheritance
+SuperheroFilm <|-- Logan : inheritance
 @enduml

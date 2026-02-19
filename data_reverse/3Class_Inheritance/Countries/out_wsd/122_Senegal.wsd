@@ -1,4 +1,4 @@
 @startuml
-Senegal <|-- UnitaryRepublic
-UnitaryRepublic <|-- Republic
+Senegal <|-- UnitaryRepublic : inheritance
+UnitaryRepublic <|-- Republic : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame
-BoardGame <|-- TicketToRide
+Game <|-- BoardGame : inheritance
+BoardGame <|-- TicketToRide : inheritance
 @enduml

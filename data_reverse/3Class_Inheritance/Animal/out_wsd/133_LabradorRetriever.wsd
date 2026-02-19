@@ -1,4 +1,4 @@
 @startuml
-LabradorRetriever <|-- Dog
-Dog <|-- Mammal
+LabradorRetriever <|-- Dog : inheritance
+Dog <|-- Mammal : inheritance
 @enduml

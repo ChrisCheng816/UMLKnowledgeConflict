@@ -1,3 +1,3 @@
 @startuml
-Plate *-- Chain
+Plate *-- Chain : composition
 @enduml

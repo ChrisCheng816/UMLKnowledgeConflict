@@ -1,4 +1,4 @@
 @startuml
-TheScream <|-- Painting
-Painting <|-- Artwork
+TheScream <|-- Painting : inheritance
+Painting <|-- Artwork : inheritance
 @enduml

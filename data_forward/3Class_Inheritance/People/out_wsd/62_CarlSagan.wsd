@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- ScienceCommunicator
-ScienceCommunicator <|-- CarlSagan
+Scientist <|-- ScienceCommunicator : inheritance
+ScienceCommunicator <|-- CarlSagan : inheritance
 @enduml

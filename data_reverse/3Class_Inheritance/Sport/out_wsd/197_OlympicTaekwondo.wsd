@@ -1,4 +1,4 @@
 @startuml
-OlympicTaekwondo <|-- Taekwondo
-Taekwondo <|-- Sport
+OlympicTaekwondo <|-- Taekwondo : inheritance
+Taekwondo <|-- Sport : inheritance
 @enduml

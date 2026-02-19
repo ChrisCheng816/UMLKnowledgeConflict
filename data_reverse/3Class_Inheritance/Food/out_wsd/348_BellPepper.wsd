@@ -1,4 +1,4 @@
 @startuml
-BellPepper <|-- Pepper
-Pepper <|-- Vegetable
+BellPepper <|-- Pepper : inheritance
+Pepper <|-- Vegetable : inheritance
 @enduml

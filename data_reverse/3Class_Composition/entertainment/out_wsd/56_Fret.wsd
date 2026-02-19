@@ -1,4 +1,4 @@
 @startuml
-Neck *-- Guitar
-Fret *-- Neck
+Neck *-- Guitar : composition
+Fret *-- Neck : composition
 @enduml

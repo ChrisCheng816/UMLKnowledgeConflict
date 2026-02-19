@@ -1,4 +1,4 @@
 @startuml
-Fleet o-- Backhoe
-City o-- Fleet
+Fleet o-- Backhoe : aggregation
+City o-- Fleet : aggregation
 @enduml

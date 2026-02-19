@@ -1,4 +1,4 @@
 @startuml
-SaltwaterCrocodile <|-- Crocodile
-Crocodile <|-- Reptile
+SaltwaterCrocodile <|-- Crocodile : inheritance
+Crocodile <|-- Reptile : inheritance
 @enduml

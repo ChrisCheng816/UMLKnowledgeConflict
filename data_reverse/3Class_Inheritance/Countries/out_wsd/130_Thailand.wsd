@@ -1,4 +1,4 @@
 @startuml
-Thailand <|-- SoutheastAsianCountry
-SoutheastAsianCountry <|-- AsianCountry
+Thailand <|-- SoutheastAsianCountry : inheritance
+SoutheastAsianCountry <|-- AsianCountry : inheritance
 @enduml

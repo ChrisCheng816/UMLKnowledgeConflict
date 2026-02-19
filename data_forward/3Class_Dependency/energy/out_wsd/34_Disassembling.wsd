@@ -1,4 +1,4 @@
 @startuml
-ElectricScrewdriver ..> Electricity
-Disassembling ..> ElectricScrewdriver
+ElectricScrewdriver ..> Electricity : dependency
+Disassembling ..> ElectricScrewdriver : dependency
 @enduml

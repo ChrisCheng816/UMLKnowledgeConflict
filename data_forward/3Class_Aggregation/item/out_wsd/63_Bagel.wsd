@@ -1,4 +1,4 @@
 @startuml
-Bag o-- Bagel
-Supermarket o-- Bag
+Bag o-- Bagel : aggregation
+Supermarket o-- Bag : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Lens *-- Camera
-Element *-- Lens
+Lens *-- Camera : composition
+Element *-- Lens : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Asphalt ..> AsphaltPaving
-CrudeOil ..> Asphalt
+Asphalt ..> AsphaltPaving : dependency
+CrudeOil ..> Asphalt : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CirrusCloud ..> JetStream
-Halo ..> CirrusCloud
+CirrusCloud ..> JetStream : dependency
+Halo ..> CirrusCloud : dependency
 @enduml

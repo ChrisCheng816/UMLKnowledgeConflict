@@ -1,4 +1,4 @@
 @startuml
-HairTrimmer ..> Trimming
-Electricity ..> HairTrimmer
+HairTrimmer ..> Trimming : dependency
+Electricity ..> HairTrimmer : dependency
 @enduml

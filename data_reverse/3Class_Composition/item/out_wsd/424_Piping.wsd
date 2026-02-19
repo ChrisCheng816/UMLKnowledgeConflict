@@ -1,4 +1,4 @@
 @startuml
-Cushion *-- Sofa
-Piping *-- Cushion
+Cushion *-- Sofa : composition
+Piping *-- Cushion : composition
 @enduml

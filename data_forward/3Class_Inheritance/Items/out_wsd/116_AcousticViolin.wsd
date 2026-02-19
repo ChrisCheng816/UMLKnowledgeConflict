@@ -1,4 +1,4 @@
 @startuml
-Instrument <|-- Violin
-Violin <|-- AcousticViolin
+Instrument <|-- Violin : inheritance
+Violin <|-- AcousticViolin : inheritance
 @enduml

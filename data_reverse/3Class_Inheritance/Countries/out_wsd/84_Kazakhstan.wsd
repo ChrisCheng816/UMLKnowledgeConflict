@@ -1,4 +1,4 @@
 @startuml
-Kazakhstan <|-- Country
-Country <|-- GeopoliticalEntity
+Kazakhstan <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

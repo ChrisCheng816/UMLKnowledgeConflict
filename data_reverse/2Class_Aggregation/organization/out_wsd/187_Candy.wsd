@@ -1,3 +1,3 @@
 @startuml
-Candy o-- Aisle
+Candy o-- Aisle : aggregation
 @enduml

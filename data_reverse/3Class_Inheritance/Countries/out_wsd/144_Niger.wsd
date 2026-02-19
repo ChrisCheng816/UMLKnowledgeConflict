@@ -1,4 +1,4 @@
 @startuml
-Niger <|-- Country
-Country <|-- GeopoliticalEntity
+Niger <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

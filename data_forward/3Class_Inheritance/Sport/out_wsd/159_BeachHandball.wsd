@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Handball
-Handball <|-- BeachHandball
+Sport <|-- Handball : inheritance
+Handball <|-- BeachHandball : inheritance
 @enduml

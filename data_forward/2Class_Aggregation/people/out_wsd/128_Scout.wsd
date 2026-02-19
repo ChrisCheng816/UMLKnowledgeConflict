@@ -1,3 +1,3 @@
 @startuml
-Club o-- Scout
+Club o-- Scout : aggregation
 @enduml

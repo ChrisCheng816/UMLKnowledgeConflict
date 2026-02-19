@@ -1,3 +1,3 @@
 @startuml
-Scissors o-- Toolbox
+Scissors o-- Toolbox : aggregation
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Wheel *-- Hub
+Wheel *-- Hub : composition
 @enduml

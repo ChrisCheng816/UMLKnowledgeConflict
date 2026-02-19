@@ -1,4 +1,4 @@
 @startuml
-MRIMachine ..> Electricity
-DiagnosticImaging ..> MRIMachine
+MRIMachine ..> Electricity : dependency
+DiagnosticImaging ..> MRIMachine : dependency
 @enduml

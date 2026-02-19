@@ -1,3 +1,3 @@
 @startuml
-Basket o-- Orange
+Basket o-- Orange : aggregation
 @enduml

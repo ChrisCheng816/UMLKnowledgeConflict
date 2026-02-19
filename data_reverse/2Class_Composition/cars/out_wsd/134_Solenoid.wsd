@@ -1,3 +1,3 @@
 @startuml
-Solenoid *-- Starter
+Solenoid *-- Starter : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FountainPen <|-- Pen
-Pen <|-- Stationery
+FountainPen <|-- Pen : inheritance
+Pen <|-- Stationery : inheritance
 @enduml

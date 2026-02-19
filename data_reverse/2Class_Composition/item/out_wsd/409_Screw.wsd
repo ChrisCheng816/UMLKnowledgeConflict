@@ -1,3 +1,3 @@
 @startuml
-Screw *-- Drawer
+Screw *-- Drawer : composition
 @enduml

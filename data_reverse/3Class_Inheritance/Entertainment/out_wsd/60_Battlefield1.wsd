@@ -1,4 +1,4 @@
 @startuml
-Battlefield1 <|-- VideoGame
-VideoGame <|-- Game
+Battlefield1 <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

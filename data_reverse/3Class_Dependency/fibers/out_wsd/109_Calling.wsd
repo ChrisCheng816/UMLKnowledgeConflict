@@ -1,4 +1,4 @@
 @startuml
-Messenger ..> Calling
-Internet ..> Messenger
+Messenger ..> Calling : dependency
+Internet ..> Messenger : dependency
 @enduml

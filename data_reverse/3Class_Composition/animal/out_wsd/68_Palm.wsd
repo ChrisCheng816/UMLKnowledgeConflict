@@ -1,4 +1,4 @@
 @startuml
-Hand *-- Person
-Palm *-- Hand
+Hand *-- Person : composition
+Palm *-- Hand : composition
 @enduml

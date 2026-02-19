@@ -1,4 +1,4 @@
 @startuml
-Hellboy <|-- Comic
-Comic <|-- Entertainment
+Hellboy <|-- Comic : inheritance
+Comic <|-- Entertainment : inheritance
 @enduml

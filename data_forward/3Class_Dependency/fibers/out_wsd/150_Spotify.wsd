@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Spotify ..> Internet
+Internet ..> Electricity : dependency
+Spotify ..> Internet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Showcase o-- Painting
-ArtGallery o-- Showcase
+Showcase o-- Painting : aggregation
+ArtGallery o-- Showcase : aggregation
 @enduml

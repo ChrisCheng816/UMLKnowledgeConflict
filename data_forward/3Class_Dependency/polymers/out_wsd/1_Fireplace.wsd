@@ -1,4 +1,4 @@
 @startuml
-Firewood ..> Forest
-Fireplace ..> Firewood
+Firewood ..> Forest : dependency
+Fireplace ..> Firewood : dependency
 @enduml

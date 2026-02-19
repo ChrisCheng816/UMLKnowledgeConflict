@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Layer
-Onion *-- Skin
+Skin *-- Layer : composition
+Onion *-- Skin : composition
 @enduml

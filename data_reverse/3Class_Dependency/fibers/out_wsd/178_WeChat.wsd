@@ -1,4 +1,4 @@
 @startuml
-Internet ..> WeChat
-Electricity ..> Internet
+Internet ..> WeChat : dependency
+Electricity ..> Internet : dependency
 @enduml

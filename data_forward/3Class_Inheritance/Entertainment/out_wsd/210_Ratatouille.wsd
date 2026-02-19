@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Film
-Film <|-- Ratatouille
+Entertainment <|-- Film : inheritance
+Film <|-- Ratatouille : inheritance
 @enduml

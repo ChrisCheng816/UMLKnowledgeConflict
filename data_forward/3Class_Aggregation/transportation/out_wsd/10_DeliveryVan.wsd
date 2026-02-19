@@ -1,4 +1,4 @@
 @startuml
-Fleet o-- DeliveryVan
-City o-- Fleet
+Fleet o-- DeliveryVan : aggregation
+City o-- Fleet : aggregation
 @enduml

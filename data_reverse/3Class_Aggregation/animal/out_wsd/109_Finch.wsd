@@ -1,4 +1,4 @@
 @startuml
-Aviary o-- Reserve
-Finch o-- Aviary
+Aviary o-- Reserve : aggregation
+Finch o-- Aviary : aggregation
 @enduml

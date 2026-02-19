@@ -1,3 +1,3 @@
 @startuml
-Paper ..> Printing
+Paper ..> Printing : dependency
 @enduml

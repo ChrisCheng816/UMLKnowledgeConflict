@@ -1,4 +1,4 @@
 @startuml
-OlympicBadminton <|-- Badminton
-Badminton <|-- Sport
+OlympicBadminton <|-- Badminton : inheritance
+Badminton <|-- Sport : inheritance
 @enduml

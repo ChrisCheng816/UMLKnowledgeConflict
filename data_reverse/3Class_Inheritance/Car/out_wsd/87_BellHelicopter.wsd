@@ -1,4 +1,4 @@
 @startuml
-BellHelicopter <|-- Helicopter
-Helicopter <|-- Vehicle
+BellHelicopter <|-- Helicopter : inheritance
+Helicopter <|-- Vehicle : inheritance
 @enduml

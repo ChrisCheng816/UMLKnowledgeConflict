@@ -1,3 +1,3 @@
 @startuml
-Flashlight <|-- Headlamp
+Flashlight <|-- Headlamp : inheritance
 @enduml

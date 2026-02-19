@@ -1,4 +1,4 @@
 @startuml
-Plumbing *-- Joint
-House *-- Plumbing
+Plumbing *-- Joint : composition
+House *-- Plumbing : composition
 @enduml

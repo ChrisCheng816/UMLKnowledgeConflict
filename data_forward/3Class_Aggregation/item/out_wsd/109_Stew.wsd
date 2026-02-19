@@ -1,4 +1,4 @@
 @startuml
-Bowl o-- Stew
-Kitchen o-- Bowl
+Bowl o-- Stew : aggregation
+Kitchen o-- Bowl : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PokemonSword <|-- VideoGame
-VideoGame <|-- Game
+PokemonSword <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

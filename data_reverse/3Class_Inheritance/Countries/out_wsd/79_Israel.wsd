@@ -1,4 +1,4 @@
 @startuml
-Israel <|-- Country
-Country <|-- GeopoliticalEntity
+Israel <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

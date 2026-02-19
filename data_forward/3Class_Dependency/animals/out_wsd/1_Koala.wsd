@@ -1,4 +1,4 @@
 @startuml
-Eucalyptus ..> Sunlight
-Koala ..> Eucalyptus
+Eucalyptus ..> Sunlight : dependency
+Koala ..> Eucalyptus : dependency
 @enduml

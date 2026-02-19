@@ -1,4 +1,4 @@
 @startuml
-Library o-- Song
-MusicApp o-- Library
+Library o-- Song : aggregation
+MusicApp o-- Library : aggregation
 @enduml

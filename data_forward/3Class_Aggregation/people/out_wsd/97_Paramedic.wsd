@@ -1,4 +1,4 @@
 @startuml
-RescueTeam o-- Paramedic
-FireStation o-- RescueTeam
+RescueTeam o-- Paramedic : aggregation
+FireStation o-- RescueTeam : aggregation
 @enduml

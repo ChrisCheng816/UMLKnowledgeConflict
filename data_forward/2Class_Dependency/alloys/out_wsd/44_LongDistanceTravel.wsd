@@ -1,3 +1,3 @@
 @startuml
-LongDistanceTravel ..> ShuttleBus
+LongDistanceTravel ..> ShuttleBus : dependency
 @enduml

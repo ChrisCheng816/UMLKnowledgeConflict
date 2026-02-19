@@ -1,3 +1,3 @@
 @startuml
-Cable *-- GarageDoor
+Cable *-- GarageDoor : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Exhaust *-- Hanger
-Car *-- Exhaust
+Exhaust *-- Hanger : composition
+Car *-- Exhaust : composition
 @enduml

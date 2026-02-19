@@ -1,4 +1,4 @@
 @startuml
-Folder o-- Office
-Pen o-- Folder
+Folder o-- Office : aggregation
+Pen o-- Folder : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Giraffe
-Giraffe <|-- MasaiGiraffe
+Animal <|-- Giraffe : inheritance
+Giraffe <|-- MasaiGiraffe : inheritance
 @enduml

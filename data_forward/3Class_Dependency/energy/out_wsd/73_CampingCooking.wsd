@@ -1,4 +1,4 @@
 @startuml
-ElectricHotPlate ..> Electricity
-CampingCooking ..> ElectricHotPlate
+ElectricHotPlate ..> Electricity : dependency
+CampingCooking ..> ElectricHotPlate : dependency
 @enduml

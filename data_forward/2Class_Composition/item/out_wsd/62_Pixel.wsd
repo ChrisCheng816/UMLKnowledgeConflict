@@ -1,3 +1,3 @@
 @startuml
-Screen *-- Pixel
+Screen *-- Pixel : composition
 @enduml

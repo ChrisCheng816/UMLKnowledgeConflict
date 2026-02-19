@@ -1,4 +1,4 @@
 @startuml
-Hawaii <|-- Island
-Island <|-- GeographicFeature
+Hawaii <|-- Island : inheritance
+Island <|-- GeographicFeature : inheritance
 @enduml

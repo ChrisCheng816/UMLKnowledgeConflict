@@ -1,4 +1,4 @@
 @startuml
-WeldingMachine ..> GateRepair
-Electricity ..> WeldingMachine
+WeldingMachine ..> GateRepair : dependency
+Electricity ..> WeldingMachine : dependency
 @enduml

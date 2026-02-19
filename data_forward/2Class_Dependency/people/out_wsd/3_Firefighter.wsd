@@ -1,3 +1,3 @@
 @startuml
-Firefighter ..> FireHose
+Firefighter ..> FireHose : dependency
 @enduml

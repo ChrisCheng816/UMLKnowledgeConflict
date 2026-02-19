@@ -1,4 +1,4 @@
 @startuml
-Highlighter <|-- Marker
-Marker <|-- Stationery
+Highlighter <|-- Marker : inheritance
+Marker <|-- Stationery : inheritance
 @enduml

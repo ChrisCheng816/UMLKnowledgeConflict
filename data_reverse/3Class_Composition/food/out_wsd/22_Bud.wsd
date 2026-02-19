@@ -1,4 +1,4 @@
 @startuml
-Floret *-- Broccoli
-Bud *-- Floret
+Floret *-- Broccoli : composition
+Bud *-- Floret : composition
 @enduml

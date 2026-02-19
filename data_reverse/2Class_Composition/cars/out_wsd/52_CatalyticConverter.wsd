@@ -1,3 +1,3 @@
 @startuml
-CatalyticConverter *-- Exhaust
+CatalyticConverter *-- Exhaust : composition
 @enduml

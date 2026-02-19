@@ -1,4 +1,4 @@
 @startuml
-Tintin <|-- Comic
-Comic <|-- Entertainment
+Tintin <|-- Comic : inheritance
+Comic <|-- Entertainment : inheritance
 @enduml

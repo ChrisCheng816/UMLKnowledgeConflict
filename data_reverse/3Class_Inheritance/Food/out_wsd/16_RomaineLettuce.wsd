@@ -1,4 +1,4 @@
 @startuml
-RomaineLettuce <|-- LeafyVegetable
-LeafyVegetable <|-- Vegetable
+RomaineLettuce <|-- LeafyVegetable : inheritance
+LeafyVegetable <|-- Vegetable : inheritance
 @enduml

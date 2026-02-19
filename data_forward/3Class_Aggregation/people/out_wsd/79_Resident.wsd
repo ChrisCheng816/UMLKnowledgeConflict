@@ -1,4 +1,4 @@
 @startuml
-Community o-- Resident
-Neighborhood o-- Community
+Community o-- Resident : aggregation
+Neighborhood o-- Community : aggregation
 @enduml

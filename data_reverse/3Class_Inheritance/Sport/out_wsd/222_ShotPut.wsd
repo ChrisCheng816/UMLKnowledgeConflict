@@ -1,4 +1,4 @@
 @startuml
-ShotPut <|-- Athletics
-Athletics <|-- Sport
+ShotPut <|-- Athletics : inheritance
+Athletics <|-- Sport : inheritance
 @enduml

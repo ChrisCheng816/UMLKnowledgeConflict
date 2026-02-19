@@ -1,4 +1,4 @@
 @startuml
-FordMustang <|-- Coupe
-Coupe <|-- Vehicle
+FordMustang <|-- Coupe : inheritance
+Coupe <|-- Vehicle : inheritance
 @enduml

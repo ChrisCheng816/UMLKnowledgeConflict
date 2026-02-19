@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-BestBuy ..> Internet
+Internet ..> Electricity : dependency
+BestBuy ..> Internet : dependency
 @enduml

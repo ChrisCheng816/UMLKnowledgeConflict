@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- DiscoElysium
+Game <|-- VideoGame : inheritance
+VideoGame <|-- DiscoElysium : inheritance
 @enduml

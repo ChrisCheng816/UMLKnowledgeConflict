@@ -1,3 +1,3 @@
 @startuml
-Enclosure o-- Elk
+Enclosure o-- Elk : aggregation
 @enduml

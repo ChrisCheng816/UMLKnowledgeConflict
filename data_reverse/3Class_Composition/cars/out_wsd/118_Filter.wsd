@@ -1,4 +1,4 @@
 @startuml
-Engine *-- Car
-Filter *-- Engine
+Engine *-- Car : composition
+Filter *-- Engine : composition
 @enduml

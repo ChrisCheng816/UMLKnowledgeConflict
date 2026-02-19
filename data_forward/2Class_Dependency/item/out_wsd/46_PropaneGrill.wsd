@@ -1,3 +1,3 @@
 @startuml
-PropaneGrill ..> PropaneTank
+PropaneGrill ..> PropaneTank : dependency
 @enduml

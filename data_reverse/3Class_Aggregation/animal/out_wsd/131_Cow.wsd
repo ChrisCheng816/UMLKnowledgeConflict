@@ -1,4 +1,4 @@
 @startuml
-Pen o-- Farm
-Cow o-- Pen
+Pen o-- Farm : aggregation
+Cow o-- Pen : aggregation
 @enduml

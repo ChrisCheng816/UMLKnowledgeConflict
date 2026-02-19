@@ -1,4 +1,4 @@
 @startuml
-Thermometer ..> TemperatureCheck
-Battery ..> Thermometer
+Thermometer ..> TemperatureCheck : dependency
+Battery ..> Thermometer : dependency
 @enduml

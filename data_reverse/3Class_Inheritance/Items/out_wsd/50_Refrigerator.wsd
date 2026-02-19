@@ -1,4 +1,4 @@
 @startuml
-Refrigerator <|-- Appliance
-Appliance <|-- Item
+Refrigerator <|-- Appliance : inheritance
+Appliance <|-- Item : inheritance
 @enduml

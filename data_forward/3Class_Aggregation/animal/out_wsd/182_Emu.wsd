@@ -1,4 +1,4 @@
 @startuml
-Habitat o-- Emu
-Aviary o-- Habitat
+Habitat o-- Emu : aggregation
+Aviary o-- Habitat : aggregation
 @enduml

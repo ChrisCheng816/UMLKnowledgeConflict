@@ -1,3 +1,3 @@
 @startuml
-Drawer o-- Spatula
+Drawer o-- Spatula : aggregation
 @enduml

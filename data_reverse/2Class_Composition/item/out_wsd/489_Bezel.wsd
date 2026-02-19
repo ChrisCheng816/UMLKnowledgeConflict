@@ -1,3 +1,3 @@
 @startuml
-Bezel *-- Display
+Bezel *-- Display : composition
 @enduml

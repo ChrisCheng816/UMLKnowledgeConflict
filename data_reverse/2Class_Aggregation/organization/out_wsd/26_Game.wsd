@@ -1,3 +1,3 @@
 @startuml
-Game o-- Collection
+Game o-- Collection : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Library
-Textbook o-- Shelf
+Shelf o-- Library : aggregation
+Textbook o-- Shelf : aggregation
 @enduml

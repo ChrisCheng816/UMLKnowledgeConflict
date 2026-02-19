@@ -1,3 +1,3 @@
 @startuml
-DieselRailTravel ..> DieselTrain
+DieselRailTravel ..> DieselTrain : dependency
 @enduml

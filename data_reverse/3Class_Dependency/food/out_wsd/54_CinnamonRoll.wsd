@@ -1,4 +1,4 @@
 @startuml
-Cinnamon ..> CinnamonRoll
-CinnamonTree ..> Cinnamon
+Cinnamon ..> CinnamonRoll : dependency
+CinnamonTree ..> Cinnamon : dependency
 @enduml

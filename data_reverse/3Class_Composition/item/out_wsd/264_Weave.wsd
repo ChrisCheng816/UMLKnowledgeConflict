@@ -1,4 +1,4 @@
 @startuml
-Lace *-- Shoe
-Weave *-- Lace
+Lace *-- Shoe : composition
+Weave *-- Lace : composition
 @enduml

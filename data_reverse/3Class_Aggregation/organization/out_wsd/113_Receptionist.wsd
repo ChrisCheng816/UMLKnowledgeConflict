@@ -1,4 +1,4 @@
 @startuml
-Office o-- Company
-Receptionist o-- Office
+Office o-- Company : aggregation
+Receptionist o-- Office : aggregation
 @enduml

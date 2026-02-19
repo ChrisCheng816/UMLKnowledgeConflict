@@ -1,4 +1,4 @@
 @startuml
-Myanmar <|-- Country
-Country <|-- GeopoliticalEntity
+Myanmar <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sailboat <|-- Boat
-Boat <|-- Vehicle
+Sailboat <|-- Boat : inheritance
+Boat <|-- Vehicle : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Coco <|-- FamilyFilm
-FamilyFilm <|-- Film
+Coco <|-- FamilyFilm : inheritance
+FamilyFilm <|-- Film : inheritance
 @enduml

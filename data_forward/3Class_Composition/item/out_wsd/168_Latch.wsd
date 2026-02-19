@@ -1,4 +1,4 @@
 @startuml
-Window *-- Latch
-House *-- Window
+Window *-- Latch : composition
+House *-- Window : composition
 @enduml

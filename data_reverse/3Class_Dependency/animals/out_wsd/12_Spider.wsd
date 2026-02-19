@@ -1,4 +1,4 @@
 @startuml
-Insects ..> Spider
-Plants ..> Insects
+Insects ..> Spider : dependency
+Plants ..> Insects : dependency
 @enduml

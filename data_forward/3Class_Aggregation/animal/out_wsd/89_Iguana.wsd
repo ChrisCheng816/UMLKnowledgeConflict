@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Iguana
-Reserve o-- Enclosure
+Enclosure o-- Iguana : aggregation
+Reserve o-- Enclosure : aggregation
 @enduml

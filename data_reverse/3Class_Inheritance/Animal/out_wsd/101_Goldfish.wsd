@@ -1,4 +1,4 @@
 @startuml
-Goldfish <|-- Fish
-Fish <|-- Animal
+Goldfish <|-- Fish : inheritance
+Fish <|-- Animal : inheritance
 @enduml

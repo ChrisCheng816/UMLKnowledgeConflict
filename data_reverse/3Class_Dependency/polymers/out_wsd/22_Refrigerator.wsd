@@ -1,4 +1,4 @@
 @startuml
-WallOutlet ..> Refrigerator
-CircuitBreakerPanel ..> WallOutlet
+WallOutlet ..> Refrigerator : dependency
+CircuitBreakerPanel ..> WallOutlet : dependency
 @enduml

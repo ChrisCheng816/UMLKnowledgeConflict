@@ -1,4 +1,4 @@
 @startuml
-Bird <|-- Gull
-Gull <|-- HerringGull
+Bird <|-- Gull : inheritance
+Gull <|-- HerringGull : inheritance
 @enduml

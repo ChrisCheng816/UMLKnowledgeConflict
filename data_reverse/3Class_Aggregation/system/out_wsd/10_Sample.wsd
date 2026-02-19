@@ -1,4 +1,4 @@
 @startuml
-Laboratory o-- University
-Sample o-- Laboratory
+Laboratory o-- University : aggregation
+Sample o-- Laboratory : aggregation
 @enduml

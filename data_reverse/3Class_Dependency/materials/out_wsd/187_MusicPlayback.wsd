@@ -1,4 +1,4 @@
 @startuml
-Soundbar ..> MusicPlayback
-Electricity ..> Soundbar
+Soundbar ..> MusicPlayback : dependency
+Electricity ..> Soundbar : dependency
 @enduml

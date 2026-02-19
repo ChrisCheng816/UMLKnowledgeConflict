@@ -1,4 +1,4 @@
 @startuml
-Spine *-- Person
-Canal *-- Spine
+Spine *-- Person : composition
+Canal *-- Spine : composition
 @enduml

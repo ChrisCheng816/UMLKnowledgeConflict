@@ -1,4 +1,4 @@
 @startuml
-Wind ..> PressureDifference
-WaveEnergy ..> Wind
+Wind ..> PressureDifference : dependency
+WaveEnergy ..> Wind : dependency
 @enduml

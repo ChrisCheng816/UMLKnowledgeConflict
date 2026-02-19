@@ -1,3 +1,3 @@
 @startuml
-Orchestra o-- Clarinetist
+Orchestra o-- Clarinetist : aggregation
 @enduml

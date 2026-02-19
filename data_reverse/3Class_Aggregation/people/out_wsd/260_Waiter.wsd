@@ -1,4 +1,4 @@
 @startuml
-Crew o-- Restaurant
-Waiter o-- Crew
+Crew o-- Restaurant : aggregation
+Waiter o-- Crew : aggregation
 @enduml

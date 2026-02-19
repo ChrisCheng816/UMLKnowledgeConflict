@@ -1,4 +1,4 @@
 @startuml
-Brake *-- Car
-Pad *-- Brake
+Brake *-- Car : composition
+Pad *-- Brake : composition
 @enduml

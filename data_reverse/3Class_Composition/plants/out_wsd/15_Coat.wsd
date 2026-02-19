@@ -1,4 +1,4 @@
 @startuml
-Seed *-- Sunflower
-Coat *-- Seed
+Seed *-- Sunflower : composition
+Coat *-- Seed : composition
 @enduml

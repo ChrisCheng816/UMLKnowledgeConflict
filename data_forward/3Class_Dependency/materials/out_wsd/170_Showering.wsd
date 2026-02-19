@@ -1,4 +1,4 @@
 @startuml
-Shower ..> HotWater
-Showering ..> Shower
+Shower ..> HotWater : dependency
+Showering ..> Shower : dependency
 @enduml

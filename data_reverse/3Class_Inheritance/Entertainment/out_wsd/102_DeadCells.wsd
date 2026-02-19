@@ -1,4 +1,4 @@
 @startuml
-DeadCells <|-- VideoGame
-VideoGame <|-- Game
+DeadCells <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

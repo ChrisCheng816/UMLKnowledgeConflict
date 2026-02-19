@@ -1,3 +1,3 @@
 @startuml
-Fruit *-- Peel
+Fruit *-- Peel : composition
 @enduml

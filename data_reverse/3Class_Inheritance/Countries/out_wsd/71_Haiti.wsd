@@ -1,4 +1,4 @@
 @startuml
-Haiti <|-- Country
-Country <|-- GeopoliticalEntity
+Haiti <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

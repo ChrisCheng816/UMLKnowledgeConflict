@@ -1,4 +1,4 @@
 @startuml
-Splatoon3 <|-- VideoGame
-VideoGame <|-- Game
+Splatoon3 <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

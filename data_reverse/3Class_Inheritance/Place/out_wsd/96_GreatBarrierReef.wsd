@@ -1,4 +1,4 @@
 @startuml
-GreatBarrierReef <|-- CoralReef
-CoralReef <|-- GeographicFeature
+GreatBarrierReef <|-- CoralReef : inheritance
+CoralReef <|-- GeographicFeature : inheritance
 @enduml

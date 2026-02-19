@@ -1,3 +1,3 @@
 @startuml
-Cabinet o-- Inhaler
+Cabinet o-- Inhaler : aggregation
 @enduml

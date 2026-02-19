@@ -1,4 +1,4 @@
 @startuml
-Head *-- Handle
-Axe *-- Head
+Head *-- Handle : composition
+Axe *-- Head : composition
 @enduml

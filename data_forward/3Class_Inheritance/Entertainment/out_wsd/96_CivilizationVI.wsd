@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- CivilizationVI
+Game <|-- VideoGame : inheritance
+VideoGame <|-- CivilizationVI : inheritance
 @enduml

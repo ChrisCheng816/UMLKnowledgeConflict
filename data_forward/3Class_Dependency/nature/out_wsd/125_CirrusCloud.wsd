@@ -1,4 +1,4 @@
 @startuml
-JetStream ..> TemperatureContrast
-CirrusCloud ..> JetStream
+JetStream ..> TemperatureContrast : dependency
+CirrusCloud ..> JetStream : dependency
 @enduml

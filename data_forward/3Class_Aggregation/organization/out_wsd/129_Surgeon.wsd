@@ -1,4 +1,4 @@
 @startuml
-Ward o-- Surgeon
-Hospital o-- Ward
+Ward o-- Surgeon : aggregation
+Hospital o-- Ward : aggregation
 @enduml

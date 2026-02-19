@@ -1,4 +1,4 @@
 @startuml
-OlympicFencing <|-- Fencing
-Fencing <|-- Sport
+OlympicFencing <|-- Fencing : inheritance
+Fencing <|-- Sport : inheritance
 @enduml

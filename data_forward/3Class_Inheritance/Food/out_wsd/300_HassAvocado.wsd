@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Avocado
-Avocado <|-- HassAvocado
+Fruit <|-- Avocado : inheritance
+Avocado <|-- HassAvocado : inheritance
 @enduml

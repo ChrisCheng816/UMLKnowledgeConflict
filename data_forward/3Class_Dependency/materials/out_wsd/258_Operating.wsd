@@ -1,4 +1,4 @@
 @startuml
-SetTopBox ..> Electricity
-Operating ..> SetTopBox
+SetTopBox ..> Electricity : dependency
+Operating ..> SetTopBox : dependency
 @enduml

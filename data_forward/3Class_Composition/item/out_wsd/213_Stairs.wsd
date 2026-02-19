@@ -1,4 +1,4 @@
 @startuml
-Basement *-- Stairs
-House *-- Basement
+Basement *-- Stairs : composition
+House *-- Basement : composition
 @enduml

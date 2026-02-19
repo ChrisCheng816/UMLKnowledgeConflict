@@ -1,4 +1,4 @@
 @startuml
-Hulu ..> Watching
-Internet ..> Hulu
+Hulu ..> Watching : dependency
+Internet ..> Hulu : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-DisneyPlus ..> Internet
-Watching ..> DisneyPlus
+DisneyPlus ..> Internet : dependency
+Watching ..> DisneyPlus : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Duolingo ..> Internet
+Internet ..> Electricity : dependency
+Duolingo ..> Internet : dependency
 @enduml

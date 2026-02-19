@@ -1,4 +1,4 @@
 @startuml
-ExerciseEquipment <|-- Mat
-Mat <|-- YogaMat
+ExerciseEquipment <|-- Mat : inheritance
+Mat <|-- YogaMat : inheritance
 @enduml

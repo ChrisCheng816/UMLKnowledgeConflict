@@ -1,3 +1,3 @@
 @startuml
-Paramedic o-- Team
+Paramedic o-- Team : aggregation
 @enduml

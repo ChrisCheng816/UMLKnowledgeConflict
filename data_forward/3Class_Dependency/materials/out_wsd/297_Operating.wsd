@@ -1,4 +1,4 @@
 @startuml
-PopcornMaker ..> Electricity
-Operating ..> PopcornMaker
+PopcornMaker ..> Electricity : dependency
+Operating ..> PopcornMaker : dependency
 @enduml

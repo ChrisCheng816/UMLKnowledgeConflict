@@ -1,3 +1,3 @@
 @startuml
-WeldingMachine ..> GateRepair
+WeldingMachine ..> GateRepair : dependency
 @enduml

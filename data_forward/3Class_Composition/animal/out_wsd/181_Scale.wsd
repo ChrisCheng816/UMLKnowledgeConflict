@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Scale
-Butterfly *-- Wing
+Wing *-- Scale : composition
+Butterfly *-- Wing : composition
 @enduml

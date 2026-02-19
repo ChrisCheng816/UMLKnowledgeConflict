@@ -1,4 +1,4 @@
 @startuml
-Flower *-- Sepal
-Rose *-- Flower
+Flower *-- Sepal : composition
+Rose *-- Flower : composition
 @enduml

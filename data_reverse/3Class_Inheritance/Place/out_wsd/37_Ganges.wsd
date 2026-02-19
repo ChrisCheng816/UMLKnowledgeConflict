@@ -1,4 +1,4 @@
 @startuml
-Ganges <|-- River
-River <|-- GeographicFeature
+Ganges <|-- River : inheritance
+River <|-- GeographicFeature : inheritance
 @enduml

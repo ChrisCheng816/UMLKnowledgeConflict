@@ -1,4 +1,4 @@
 @startuml
-SmartSpeaker ..> Email
-WiFiNetwork ..> SmartSpeaker
+SmartSpeaker ..> Email : dependency
+WiFiNetwork ..> SmartSpeaker : dependency
 @enduml

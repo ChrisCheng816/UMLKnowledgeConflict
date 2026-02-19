@@ -1,4 +1,4 @@
 @startuml
-Committee o-- Delegate
-School o-- Committee
+Committee o-- Delegate : aggregation
+School o-- Committee : aggregation
 @enduml

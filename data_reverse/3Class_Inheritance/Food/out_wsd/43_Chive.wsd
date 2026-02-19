@@ -1,4 +1,4 @@
 @startuml
-Chive <|-- AlliumVegetable
-AlliumVegetable <|-- Vegetable
+Chive <|-- AlliumVegetable : inheritance
+AlliumVegetable <|-- Vegetable : inheritance
 @enduml

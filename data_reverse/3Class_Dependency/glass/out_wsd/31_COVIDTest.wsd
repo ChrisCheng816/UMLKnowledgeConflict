@@ -1,4 +1,4 @@
 @startuml
-TestKit ..> COVIDTest
-Reagent ..> TestKit
+TestKit ..> COVIDTest : dependency
+Reagent ..> TestKit : dependency
 @enduml

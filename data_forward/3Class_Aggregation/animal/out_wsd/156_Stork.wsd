@@ -1,4 +1,4 @@
 @startuml
-Cage o-- Stork
-Aviary o-- Cage
+Cage o-- Stork : aggregation
+Aviary o-- Cage : aggregation
 @enduml

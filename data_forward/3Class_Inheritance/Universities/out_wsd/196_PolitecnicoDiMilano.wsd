@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University
-University <|-- PolitecnicoDiMilano
+EducationalInstitution <|-- University : inheritance
+University <|-- PolitecnicoDiMilano : inheritance
 @enduml

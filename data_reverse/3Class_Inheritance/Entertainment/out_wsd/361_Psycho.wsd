@@ -1,4 +1,4 @@
 @startuml
-Psycho <|-- HorrorFilm
-HorrorFilm <|-- Film
+Psycho <|-- HorrorFilm : inheritance
+HorrorFilm <|-- Film : inheritance
 @enduml

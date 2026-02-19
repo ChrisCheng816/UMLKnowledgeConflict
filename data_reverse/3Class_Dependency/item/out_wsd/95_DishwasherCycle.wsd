@@ -1,4 +1,4 @@
 @startuml
-Dishwasher ..> DishwasherCycle
-WallOutlet ..> Dishwasher
+Dishwasher ..> DishwasherCycle : dependency
+WallOutlet ..> Dishwasher : dependency
 @enduml

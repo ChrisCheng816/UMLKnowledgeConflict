@@ -1,4 +1,4 @@
 @startuml
-Watermelon ..> WatermelonVine
-WatermelonSmoothie ..> Watermelon
+Watermelon ..> WatermelonVine : dependency
+WatermelonSmoothie ..> Watermelon : dependency
 @enduml

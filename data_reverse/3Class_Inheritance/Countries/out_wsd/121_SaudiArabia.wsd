@@ -1,4 +1,4 @@
 @startuml
-SaudiArabia <|-- AbsoluteMonarchy
-AbsoluteMonarchy <|-- Monarchy
+SaudiArabia <|-- AbsoluteMonarchy : inheritance
+AbsoluteMonarchy <|-- Monarchy : inheritance
 @enduml

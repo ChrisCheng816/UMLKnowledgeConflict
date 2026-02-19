@@ -1,4 +1,4 @@
 @startuml
-WhatsApp ..> Internet
-Chatting ..> WhatsApp
+WhatsApp ..> Internet : dependency
+Chatting ..> WhatsApp : dependency
 @enduml

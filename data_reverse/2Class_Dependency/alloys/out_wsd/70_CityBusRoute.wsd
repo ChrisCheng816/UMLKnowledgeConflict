@@ -1,3 +1,3 @@
 @startuml
-CityBus ..> CityBusRoute
+CityBus ..> CityBusRoute : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Seasoning <|-- Herb
-Herb <|-- Basil
+Seasoning <|-- Herb : inheritance
+Herb <|-- Basil : inheritance
 @enduml

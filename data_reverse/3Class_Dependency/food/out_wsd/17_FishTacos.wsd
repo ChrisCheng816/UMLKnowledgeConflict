@@ -1,4 +1,4 @@
 @startuml
-Fish ..> FishTacos
-Ocean ..> Fish
+Fish ..> FishTacos : dependency
+Ocean ..> Fish : dependency
 @enduml

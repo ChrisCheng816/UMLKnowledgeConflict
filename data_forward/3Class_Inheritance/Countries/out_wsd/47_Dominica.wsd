@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Dominica
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Dominica : inheritance
 @enduml

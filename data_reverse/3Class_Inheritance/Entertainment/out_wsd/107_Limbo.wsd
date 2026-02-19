@@ -1,4 +1,4 @@
 @startuml
-Limbo <|-- VideoGame
-VideoGame <|-- Game
+Limbo <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

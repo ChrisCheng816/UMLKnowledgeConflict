@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Person
-Retina *-- Eye
+Eye *-- Person : composition
+Retina *-- Eye : composition
 @enduml

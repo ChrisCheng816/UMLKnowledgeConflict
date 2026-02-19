@@ -1,4 +1,4 @@
 @startuml
-Television ..> Electricity
-Watching ..> Television
+Television ..> Electricity : dependency
+Watching ..> Television : dependency
 @enduml

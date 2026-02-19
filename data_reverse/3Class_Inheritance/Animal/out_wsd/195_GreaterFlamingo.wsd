@@ -1,4 +1,4 @@
 @startuml
-GreaterFlamingo <|-- Flamingo
-Flamingo <|-- Bird
+GreaterFlamingo <|-- Flamingo : inheritance
+Flamingo <|-- Bird : inheritance
 @enduml

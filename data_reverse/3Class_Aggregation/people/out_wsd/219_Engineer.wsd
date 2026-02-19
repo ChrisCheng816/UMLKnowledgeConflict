@@ -1,4 +1,4 @@
 @startuml
-Unit o-- Hospital
-Engineer o-- Unit
+Unit o-- Hospital : aggregation
+Engineer o-- Unit : aggregation
 @enduml

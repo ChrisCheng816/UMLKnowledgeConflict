@@ -1,4 +1,4 @@
 @startuml
-Toilet ..> ToiletFlush
-TapWater ..> Toilet
+Toilet ..> ToiletFlush : dependency
+TapWater ..> Toilet : dependency
 @enduml

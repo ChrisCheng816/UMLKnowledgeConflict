@@ -1,4 +1,4 @@
 @startuml
-Gasoline ..> Car
-CrudeOil ..> Gasoline
+Gasoline ..> Car : dependency
+CrudeOil ..> Gasoline : dependency
 @enduml

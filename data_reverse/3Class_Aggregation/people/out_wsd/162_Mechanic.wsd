@@ -1,4 +1,4 @@
 @startuml
-Department o-- Factory
-Mechanic o-- Department
+Department o-- Factory : aggregation
+Mechanic o-- Department : aggregation
 @enduml

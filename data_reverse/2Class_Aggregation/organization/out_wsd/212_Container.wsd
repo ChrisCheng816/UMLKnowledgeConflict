@@ -1,3 +1,3 @@
 @startuml
-Container o-- Dock
+Container o-- Dock : aggregation
 @enduml

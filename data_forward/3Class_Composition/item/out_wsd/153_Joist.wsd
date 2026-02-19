@@ -1,4 +1,4 @@
 @startuml
-Floor *-- Joist
-House *-- Floor
+Floor *-- Joist : composition
+House *-- Floor : composition
 @enduml

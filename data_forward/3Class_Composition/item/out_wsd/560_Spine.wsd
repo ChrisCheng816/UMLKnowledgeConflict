@@ -1,4 +1,4 @@
 @startuml
-Cover *-- Spine
-Book *-- Cover
+Cover *-- Spine : composition
+Book *-- Cover : composition
 @enduml

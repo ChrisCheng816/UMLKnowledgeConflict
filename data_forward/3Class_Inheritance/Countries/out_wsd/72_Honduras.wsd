@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Honduras
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Honduras : inheritance
 @enduml

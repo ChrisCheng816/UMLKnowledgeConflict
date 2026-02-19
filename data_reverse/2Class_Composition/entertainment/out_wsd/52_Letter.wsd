@@ -1,3 +1,3 @@
 @startuml
-Letter *-- Word
+Letter *-- Word : composition
 @enduml

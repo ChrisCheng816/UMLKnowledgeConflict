@@ -1,3 +1,3 @@
 @startuml
-Playlist o-- Movie
+Playlist o-- Movie : aggregation
 @enduml

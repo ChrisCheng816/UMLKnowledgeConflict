@@ -1,4 +1,4 @@
 @startuml
-Exhibit o-- Aquarium
-Jellyfish o-- Exhibit
+Exhibit o-- Aquarium : aggregation
+Jellyfish o-- Exhibit : aggregation
 @enduml

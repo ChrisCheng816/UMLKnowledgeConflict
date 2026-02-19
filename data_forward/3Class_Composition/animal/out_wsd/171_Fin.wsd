@@ -1,4 +1,4 @@
 @startuml
-Flipper *-- Fin
-Whale *-- Flipper
+Flipper *-- Fin : composition
+Whale *-- Flipper : composition
 @enduml

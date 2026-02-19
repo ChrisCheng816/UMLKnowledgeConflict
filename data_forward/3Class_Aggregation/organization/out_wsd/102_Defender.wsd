@@ -1,4 +1,4 @@
 @startuml
-Team o-- Defender
-SportsClub o-- Team
+Team o-- Defender : aggregation
+SportsClub o-- Team : aggregation
 @enduml

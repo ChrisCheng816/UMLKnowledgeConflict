@@ -1,4 +1,4 @@
 @startuml
-Clove *-- Garlic
-Skin *-- Clove
+Clove *-- Garlic : composition
+Skin *-- Clove : composition
 @enduml

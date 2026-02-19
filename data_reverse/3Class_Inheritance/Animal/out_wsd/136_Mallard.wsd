@@ -1,4 +1,4 @@
 @startuml
-Mallard <|-- Duck
-Duck <|-- Bird
+Mallard <|-- Duck : inheritance
+Duck <|-- Bird : inheritance
 @enduml

@@ -1,3 +1,3 @@
 @startuml
-Hippo o-- Herd
+Hippo o-- Herd : aggregation
 @enduml

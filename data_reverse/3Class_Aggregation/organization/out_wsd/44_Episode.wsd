@@ -1,4 +1,4 @@
 @startuml
-Catalog o-- StreamingService
-Episode o-- Catalog
+Catalog o-- StreamingService : aggregation
+Episode o-- Catalog : aggregation
 @enduml

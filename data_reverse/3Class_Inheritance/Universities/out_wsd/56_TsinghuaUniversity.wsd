@@ -1,4 +1,4 @@
 @startuml
-TsinghuaUniversity <|-- University
-University <|-- EducationalInstitution
+TsinghuaUniversity <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

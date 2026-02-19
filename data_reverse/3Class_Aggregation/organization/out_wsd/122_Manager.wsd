@@ -1,4 +1,4 @@
 @startuml
-Office o-- Company
-Manager o-- Office
+Office o-- Company : aggregation
+Manager o-- Office : aggregation
 @enduml

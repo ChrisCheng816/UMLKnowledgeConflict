@@ -1,4 +1,4 @@
 @startuml
-Gear *-- Cog
-Bicycle *-- Gear
+Gear *-- Cog : composition
+Bicycle *-- Gear : composition
 @enduml

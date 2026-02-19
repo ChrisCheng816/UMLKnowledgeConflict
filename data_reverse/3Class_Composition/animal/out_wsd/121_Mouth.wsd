@@ -1,4 +1,4 @@
 @startuml
-Head *-- Fish
-Mouth *-- Head
+Head *-- Fish : composition
+Mouth *-- Head : composition
 @enduml

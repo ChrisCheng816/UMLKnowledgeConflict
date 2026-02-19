@@ -1,4 +1,4 @@
 @startuml
-ECGMonitor ..> Electricity
-HeartRhythmCheck ..> ECGMonitor
+ECGMonitor ..> Electricity : dependency
+HeartRhythmCheck ..> ECGMonitor : dependency
 @enduml

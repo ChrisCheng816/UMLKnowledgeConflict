@@ -1,4 +1,4 @@
 @startuml
-String *-- Guitar
-Coating *-- String
+String *-- Guitar : composition
+Coating *-- String : composition
 @enduml

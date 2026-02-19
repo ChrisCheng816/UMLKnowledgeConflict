@@ -1,4 +1,4 @@
 @startuml
-Habitat o-- Reserve
-Beaver o-- Habitat
+Habitat o-- Reserve : aggregation
+Beaver o-- Habitat : aggregation
 @enduml

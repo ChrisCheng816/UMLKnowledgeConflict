@@ -1,4 +1,4 @@
 @startuml
-Bottle o-- Ketchup
-Cafe o-- Bottle
+Bottle o-- Ketchup : aggregation
+Cafe o-- Bottle : aggregation
 @enduml

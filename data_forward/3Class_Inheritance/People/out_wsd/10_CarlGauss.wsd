@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- Mathematician
-Mathematician <|-- CarlGauss
+Scientist <|-- Mathematician : inheritance
+Mathematician <|-- CarlGauss : inheritance
 @enduml

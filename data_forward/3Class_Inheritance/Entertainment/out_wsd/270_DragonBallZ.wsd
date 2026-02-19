@@ -1,4 +1,4 @@
 @startuml
-TVSeries <|-- AnimeSeries
-AnimeSeries <|-- DragonBallZ
+TVSeries <|-- AnimeSeries : inheritance
+AnimeSeries <|-- DragonBallZ : inheritance
 @enduml

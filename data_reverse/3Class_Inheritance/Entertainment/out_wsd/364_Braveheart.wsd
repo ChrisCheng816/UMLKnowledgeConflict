@@ -1,4 +1,4 @@
 @startuml
-Braveheart <|-- WarFilm
-WarFilm <|-- Film
+Braveheart <|-- WarFilm : inheritance
+WarFilm <|-- Film : inheritance
 @enduml

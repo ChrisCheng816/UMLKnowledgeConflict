@@ -1,4 +1,4 @@
 @startuml
-Internet ..> CashApp
-Electricity ..> Internet
+Internet ..> CashApp : dependency
+Electricity ..> Internet : dependency
 @enduml

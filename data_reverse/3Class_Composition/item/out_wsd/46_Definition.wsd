@@ -1,4 +1,4 @@
 @startuml
-Entry *-- Dictionary
-Definition *-- Entry
+Entry *-- Dictionary : composition
+Definition *-- Entry : composition
 @enduml

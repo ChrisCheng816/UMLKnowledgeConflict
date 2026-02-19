@@ -1,4 +1,4 @@
 @startuml
-MRIMachine ..> ShoulderMRIScan
-Electricity ..> MRIMachine
+MRIMachine ..> ShoulderMRIScan : dependency
+Electricity ..> MRIMachine : dependency
 @enduml

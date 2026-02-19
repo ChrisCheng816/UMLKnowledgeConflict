@@ -1,4 +1,4 @@
 @startuml
-TheDarkKnight <|-- SuperheroFilm
-SuperheroFilm <|-- Film
+TheDarkKnight <|-- SuperheroFilm : inheritance
+SuperheroFilm <|-- Film : inheritance
 @enduml

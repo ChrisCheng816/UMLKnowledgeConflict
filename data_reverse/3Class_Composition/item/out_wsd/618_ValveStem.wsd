@@ -1,4 +1,4 @@
 @startuml
-BicycleWheel *-- Bicycle
-ValveStem *-- BicycleWheel
+BicycleWheel *-- Bicycle : composition
+ValveStem *-- BicycleWheel : composition
 @enduml

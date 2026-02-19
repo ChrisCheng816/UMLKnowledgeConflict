@@ -1,4 +1,4 @@
 @startuml
-Rain ..> Puddle
-Cloud ..> Rain
+Rain ..> Puddle : dependency
+Cloud ..> Rain : dependency
 @enduml

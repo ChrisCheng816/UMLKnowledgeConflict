@@ -1,4 +1,4 @@
 @startuml
-Canister *-- Bin
-Vacuum *-- Canister
+Canister *-- Bin : composition
+Vacuum *-- Canister : composition
 @enduml

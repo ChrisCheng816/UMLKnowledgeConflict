@@ -1,4 +1,4 @@
 @startuml
-SewingMachine ..> Electricity
-Tailoring ..> SewingMachine
+SewingMachine ..> Electricity : dependency
+Tailoring ..> SewingMachine : dependency
 @enduml

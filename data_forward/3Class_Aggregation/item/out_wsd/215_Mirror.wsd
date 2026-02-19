@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Mirror
-LivingRoom o-- Shelf
+Shelf o-- Mirror : aggregation
+LivingRoom o-- Shelf : aggregation
 @enduml

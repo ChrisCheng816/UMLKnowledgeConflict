@@ -1,4 +1,4 @@
 @startuml
-Bathroom *-- Faucet
-House *-- Bathroom
+Bathroom *-- Faucet : composition
+House *-- Bathroom : composition
 @enduml

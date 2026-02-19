@@ -1,4 +1,4 @@
 @startuml
-Tail *-- Bone
-Kangaroo *-- Tail
+Tail *-- Bone : composition
+Kangaroo *-- Tail : composition
 @enduml

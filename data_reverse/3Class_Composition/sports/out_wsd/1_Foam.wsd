@@ -1,4 +1,4 @@
 @startuml
-Liner *-- Helmet
-Foam *-- Liner
+Liner *-- Helmet : composition
+Foam *-- Liner : composition
 @enduml

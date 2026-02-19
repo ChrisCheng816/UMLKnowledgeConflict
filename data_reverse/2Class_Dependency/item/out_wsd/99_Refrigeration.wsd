@@ -1,3 +1,3 @@
 @startuml
-Refrigerator ..> Refrigeration
+Refrigerator ..> Refrigeration : dependency
 @enduml

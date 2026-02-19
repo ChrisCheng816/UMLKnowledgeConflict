@@ -1,4 +1,4 @@
 @startuml
-Section *-- Article
-Newspaper *-- Section
+Section *-- Article : composition
+Newspaper *-- Section : composition
 @enduml

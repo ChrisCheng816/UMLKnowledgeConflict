@@ -1,4 +1,4 @@
 @startuml
-TrapShooting <|-- Shooting
-Shooting <|-- Sport
+TrapShooting <|-- Shooting : inheritance
+Shooting <|-- Sport : inheritance
 @enduml

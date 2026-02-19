@@ -1,4 +1,4 @@
 @startuml
-InductionCooktop ..> Boiling
-Electricity ..> InductionCooktop
+InductionCooktop ..> Boiling : dependency
+Electricity ..> InductionCooktop : dependency
 @enduml

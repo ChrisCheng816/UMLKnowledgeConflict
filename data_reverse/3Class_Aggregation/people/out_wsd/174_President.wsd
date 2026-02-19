@@ -1,4 +1,4 @@
 @startuml
-Board o-- Hospital
-President o-- Board
+Board o-- Hospital : aggregation
+President o-- Board : aggregation
 @enduml

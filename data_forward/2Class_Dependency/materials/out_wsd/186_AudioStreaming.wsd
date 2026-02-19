@@ -1,3 +1,3 @@
 @startuml
-AudioStreaming ..> Soundbar
+AudioStreaming ..> Soundbar : dependency
 @enduml

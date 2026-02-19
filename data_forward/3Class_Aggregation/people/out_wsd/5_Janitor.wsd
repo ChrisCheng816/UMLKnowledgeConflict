@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Janitor
-School o-- Staff
+Staff o-- Janitor : aggregation
+School o-- Staff : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Pistil *-- Ovary
-Flower *-- Pistil
+Pistil *-- Ovary : composition
+Flower *-- Pistil : composition
 @enduml

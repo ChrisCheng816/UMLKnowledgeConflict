@@ -1,3 +1,3 @@
 @startuml
-RootHair *-- Root
+RootHair *-- Root : composition
 @enduml

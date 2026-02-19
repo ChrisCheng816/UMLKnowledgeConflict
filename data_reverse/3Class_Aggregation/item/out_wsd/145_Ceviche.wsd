@@ -1,4 +1,4 @@
 @startuml
-Plate o-- Restaurant
-Ceviche o-- Plate
+Plate o-- Restaurant : aggregation
+Ceviche o-- Plate : aggregation
 @enduml

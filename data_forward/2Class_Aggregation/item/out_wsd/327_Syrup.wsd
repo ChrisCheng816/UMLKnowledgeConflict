@@ -1,3 +1,3 @@
 @startuml
-Cabinet o-- Syrup
+Cabinet o-- Syrup : aggregation
 @enduml

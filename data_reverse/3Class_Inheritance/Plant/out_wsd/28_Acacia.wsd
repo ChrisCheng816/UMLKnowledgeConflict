@@ -1,4 +1,4 @@
 @startuml
-Acacia <|-- Tree
-Tree <|-- Plant
+Acacia <|-- Tree : inheritance
+Tree <|-- Plant : inheritance
 @enduml

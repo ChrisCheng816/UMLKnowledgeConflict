@@ -1,4 +1,4 @@
 @startuml
-Rubber ..> Latex
-RubberBand ..> Rubber
+Rubber ..> Latex : dependency
+RubberBand ..> Rubber : dependency
 @enduml

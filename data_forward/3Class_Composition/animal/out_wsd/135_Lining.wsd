@@ -1,4 +1,4 @@
 @startuml
-Pouch *-- Lining
-Kangaroo *-- Pouch
+Pouch *-- Lining : composition
+Kangaroo *-- Pouch : composition
 @enduml

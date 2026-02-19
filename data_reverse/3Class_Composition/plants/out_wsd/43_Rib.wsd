@@ -1,4 +1,4 @@
 @startuml
-Stem *-- Cactus
-Rib *-- Stem
+Stem *-- Cactus : composition
+Rib *-- Stem : composition
 @enduml

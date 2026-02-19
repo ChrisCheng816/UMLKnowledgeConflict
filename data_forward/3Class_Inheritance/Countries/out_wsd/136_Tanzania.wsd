@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country
-Country <|-- Tanzania
+GeopoliticalEntity <|-- Country : inheritance
+Country <|-- Tanzania : inheritance
 @enduml

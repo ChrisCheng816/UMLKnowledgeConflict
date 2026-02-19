@@ -1,4 +1,4 @@
 @startuml
-Bathroom *-- Tile
-House *-- Bathroom
+Bathroom *-- Tile : composition
+House *-- Bathroom : composition
 @enduml

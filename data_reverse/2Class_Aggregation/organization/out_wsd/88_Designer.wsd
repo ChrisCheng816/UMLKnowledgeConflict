@@ -1,3 +1,3 @@
 @startuml
-Designer o-- Department
+Designer o-- Department : aggregation
 @enduml

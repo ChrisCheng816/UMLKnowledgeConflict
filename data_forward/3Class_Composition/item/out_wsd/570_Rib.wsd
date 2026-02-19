@@ -1,4 +1,4 @@
 @startuml
-Canopy *-- Rib
-Umbrella *-- Canopy
+Canopy *-- Rib : composition
+Umbrella *-- Canopy : composition
 @enduml

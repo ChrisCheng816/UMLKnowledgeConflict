@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Claw
-Seal *-- Fin
+Fin *-- Claw : composition
+Seal *-- Fin : composition
 @enduml

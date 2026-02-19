@@ -1,4 +1,4 @@
 @startuml
-BrownBear <|-- Mammal
-Mammal <|-- Animal
+BrownBear <|-- Mammal : inheritance
+Mammal <|-- Animal : inheritance
 @enduml

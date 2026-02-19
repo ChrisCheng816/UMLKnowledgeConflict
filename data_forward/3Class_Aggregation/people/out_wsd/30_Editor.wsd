@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Editor
-Studio o-- Staff
+Staff o-- Editor : aggregation
+Studio o-- Staff : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Monarchy <|-- ConstitutionalMonarchy
-ConstitutionalMonarchy <|-- Norway
+Monarchy <|-- ConstitutionalMonarchy : inheritance
+ConstitutionalMonarchy <|-- Norway : inheritance
 @enduml

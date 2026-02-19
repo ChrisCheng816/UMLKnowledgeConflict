@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-SoundCloud ..> Internet
+Internet ..> Electricity : dependency
+SoundCloud ..> Internet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Matcha <|-- Tea
-Tea <|-- Beverage
+Matcha <|-- Tea : inheritance
+Tea <|-- Beverage : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SmartDisplay ..> VideoStreaming
-WiFiNetwork ..> SmartDisplay
+SmartDisplay ..> VideoStreaming : dependency
+WiFiNetwork ..> SmartDisplay : dependency
 @enduml

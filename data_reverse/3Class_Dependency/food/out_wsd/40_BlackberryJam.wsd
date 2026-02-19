@@ -1,4 +1,4 @@
 @startuml
-Blackberry ..> BlackberryJam
-BlackberryBush ..> Blackberry
+Blackberry ..> BlackberryJam : dependency
+BlackberryBush ..> Blackberry : dependency
 @enduml

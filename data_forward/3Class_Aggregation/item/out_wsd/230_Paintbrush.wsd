@@ -1,4 +1,4 @@
 @startuml
-Toolbox o-- Paintbrush
-Garage o-- Toolbox
+Toolbox o-- Paintbrush : aggregation
+Garage o-- Toolbox : aggregation
 @enduml

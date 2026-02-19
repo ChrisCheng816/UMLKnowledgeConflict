@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- FullSizeSUV
-FullSizeSUV <|-- FordExplorer
+Vehicle <|-- FullSizeSUV : inheritance
+FullSizeSUV <|-- FordExplorer : inheritance
 @enduml

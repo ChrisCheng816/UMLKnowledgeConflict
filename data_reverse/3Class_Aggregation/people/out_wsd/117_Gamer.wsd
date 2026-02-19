@@ -1,4 +1,4 @@
 @startuml
-Club o-- University
-Gamer o-- Club
+Club o-- University : aggregation
+Gamer o-- Club : aggregation
 @enduml

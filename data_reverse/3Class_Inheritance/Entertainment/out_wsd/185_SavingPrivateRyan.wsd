@@ -1,4 +1,4 @@
 @startuml
-SavingPrivateRyan <|-- Film
-Film <|-- Entertainment
+SavingPrivateRyan <|-- Film : inheritance
+Film <|-- Entertainment : inheritance
 @enduml

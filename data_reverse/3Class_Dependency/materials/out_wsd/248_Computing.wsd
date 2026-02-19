@@ -1,4 +1,4 @@
 @startuml
-LaptopComputer ..> Computing
-Electricity ..> LaptopComputer
+LaptopComputer ..> Computing : dependency
+Electricity ..> LaptopComputer : dependency
 @enduml

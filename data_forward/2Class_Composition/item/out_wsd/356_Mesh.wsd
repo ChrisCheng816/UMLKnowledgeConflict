@@ -1,3 +1,3 @@
 @startuml
-Microphone *-- Mesh
+Microphone *-- Mesh : composition
 @enduml

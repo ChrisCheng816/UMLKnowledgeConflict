@@ -1,4 +1,4 @@
 @startuml
-Spain <|-- ParliamentaryMonarchy
-ParliamentaryMonarchy <|-- Monarchy
+Spain <|-- ParliamentaryMonarchy : inheritance
+ParliamentaryMonarchy <|-- Monarchy : inheritance
 @enduml

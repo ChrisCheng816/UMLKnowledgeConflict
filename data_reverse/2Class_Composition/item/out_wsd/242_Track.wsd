@@ -1,3 +1,3 @@
 @startuml
-Track *-- GarageDoor
+Track *-- GarageDoor : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Habitat o-- Zoo
-Badger o-- Habitat
+Habitat o-- Zoo : aggregation
+Badger o-- Habitat : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Crate o-- Cabbage
-FarmersMarket o-- Crate
+Crate o-- Cabbage : aggregation
+FarmersMarket o-- Crate : aggregation
 @enduml

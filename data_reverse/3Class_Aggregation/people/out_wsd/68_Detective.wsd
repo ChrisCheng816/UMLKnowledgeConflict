@@ -1,4 +1,4 @@
 @startuml
-Staff o-- PoliceStation
-Detective o-- Staff
+Staff o-- PoliceStation : aggregation
+Detective o-- Staff : aggregation
 @enduml

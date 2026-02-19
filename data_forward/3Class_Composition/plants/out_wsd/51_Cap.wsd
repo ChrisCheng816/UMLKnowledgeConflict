@@ -1,4 +1,4 @@
 @startuml
-Acorn *-- Cap
-Oak *-- Acorn
+Acorn *-- Cap : composition
+Oak *-- Acorn : composition
 @enduml

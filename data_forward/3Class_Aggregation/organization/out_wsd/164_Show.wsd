@@ -1,4 +1,4 @@
 @startuml
-Schedule o-- Show
-Theater o-- Schedule
+Schedule o-- Show : aggregation
+Theater o-- Schedule : aggregation
 @enduml

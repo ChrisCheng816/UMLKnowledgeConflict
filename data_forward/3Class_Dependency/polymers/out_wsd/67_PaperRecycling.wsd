@@ -1,4 +1,4 @@
 @startuml
-Paper ..> Trees
-PaperRecycling ..> Paper
+Paper ..> Trees : dependency
+PaperRecycling ..> Paper : dependency
 @enduml

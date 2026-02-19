@@ -1,3 +1,3 @@
 @startuml
-College o-- Professor
+College o-- Professor : aggregation
 @enduml

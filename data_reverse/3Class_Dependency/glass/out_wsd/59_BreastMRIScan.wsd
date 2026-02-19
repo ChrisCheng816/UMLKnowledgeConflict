@@ -1,4 +1,4 @@
 @startuml
-MRIMachine ..> BreastMRIScan
-Electricity ..> MRIMachine
+MRIMachine ..> BreastMRIScan : dependency
+Electricity ..> MRIMachine : dependency
 @enduml

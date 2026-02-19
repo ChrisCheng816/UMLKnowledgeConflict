@@ -1,4 +1,4 @@
 @startuml
-CraterLake <|-- Lake
-Lake <|-- GeographicFeature
+CraterLake <|-- Lake : inheritance
+Lake <|-- GeographicFeature : inheritance
 @enduml

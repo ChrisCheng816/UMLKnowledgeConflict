@@ -1,4 +1,4 @@
 @startuml
-Discobolus <|-- Sculpture
-Sculpture <|-- Artwork
+Discobolus <|-- Sculpture : inheritance
+Sculpture <|-- Artwork : inheritance
 @enduml

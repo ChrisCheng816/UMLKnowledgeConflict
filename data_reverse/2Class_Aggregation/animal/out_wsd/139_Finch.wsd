@@ -1,3 +1,3 @@
 @startuml
-Finch o-- Cage
+Finch o-- Cage : aggregation
 @enduml

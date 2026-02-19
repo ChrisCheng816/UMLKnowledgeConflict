@@ -1,4 +1,4 @@
 @startuml
-CoaxialCable ..> WallJack
-BroadbandModem ..> CoaxialCable
+CoaxialCable ..> WallJack : dependency
+BroadbandModem ..> CoaxialCable : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-ArcWelder <|-- Welder
-Welder <|-- PowerTool
+ArcWelder <|-- Welder : inheritance
+Welder <|-- PowerTool : inheritance
 @enduml

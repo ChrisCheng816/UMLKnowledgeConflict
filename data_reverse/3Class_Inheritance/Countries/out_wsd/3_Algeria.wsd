@@ -1,4 +1,4 @@
 @startuml
-Algeria <|-- Country
-Country <|-- GeopoliticalEntity
+Algeria <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

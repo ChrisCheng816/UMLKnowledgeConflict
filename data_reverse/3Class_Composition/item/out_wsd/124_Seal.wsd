@@ -1,4 +1,4 @@
 @startuml
-Switch *-- Flashlight
-Seal *-- Switch
+Switch *-- Flashlight : composition
+Seal *-- Switch : composition
 @enduml

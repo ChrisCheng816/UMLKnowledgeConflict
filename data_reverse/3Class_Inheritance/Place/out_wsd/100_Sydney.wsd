@@ -1,4 +1,4 @@
 @startuml
-Sydney <|-- City
-City <|-- Location
+Sydney <|-- City : inheritance
+City <|-- Location : inheritance
 @enduml

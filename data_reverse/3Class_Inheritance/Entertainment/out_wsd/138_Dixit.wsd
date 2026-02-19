@@ -1,4 +1,4 @@
 @startuml
-Dixit <|-- BoardGame
-BoardGame <|-- Game
+Dixit <|-- BoardGame : inheritance
+BoardGame <|-- Game : inheritance
 @enduml

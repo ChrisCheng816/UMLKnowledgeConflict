@@ -1,4 +1,4 @@
 @startuml
-Compressor *-- Refrigerator
-Seal *-- Compressor
+Compressor *-- Refrigerator : composition
+Seal *-- Compressor : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-UtilityMeter ..> DistributionLine
-CircuitBreakerPanel ..> UtilityMeter
+UtilityMeter ..> DistributionLine : dependency
+CircuitBreakerPanel ..> UtilityMeter : dependency
 @enduml

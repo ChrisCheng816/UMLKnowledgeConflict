@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Carpenter
-Workshop o-- Staff
+Staff o-- Carpenter : aggregation
+Workshop o-- Staff : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cornmeal ..> Tortilla
-Corn ..> Cornmeal
+Cornmeal ..> Tortilla : dependency
+Corn ..> Cornmeal : dependency
 @enduml

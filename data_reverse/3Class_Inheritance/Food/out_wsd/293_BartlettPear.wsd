@@ -1,4 +1,4 @@
 @startuml
-BartlettPear <|-- Pear
-Pear <|-- Fruit
+BartlettPear <|-- Pear : inheritance
+Pear <|-- Fruit : inheritance
 @enduml

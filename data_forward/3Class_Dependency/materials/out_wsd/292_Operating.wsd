@@ -1,4 +1,4 @@
 @startuml
-KnifeSharpener ..> Electricity
-Operating ..> KnifeSharpener
+KnifeSharpener ..> Electricity : dependency
+Operating ..> KnifeSharpener : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Team o-- Goalkeeper
-SportsClub o-- Team
+Team o-- Goalkeeper : aggregation
+SportsClub o-- Team : aggregation
 @enduml

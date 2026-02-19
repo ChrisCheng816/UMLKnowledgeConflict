@@ -1,4 +1,4 @@
 @startuml
-State <|-- Kingdom
-Kingdom <|-- Netherlands
+State <|-- Kingdom : inheritance
+Kingdom <|-- Netherlands : inheritance
 @enduml

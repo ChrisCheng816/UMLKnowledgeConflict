@@ -1,4 +1,4 @@
 @startuml
-PoleVault <|-- Athletics
-Athletics <|-- Sport
+PoleVault <|-- Athletics : inheritance
+Athletics <|-- Sport : inheritance
 @enduml

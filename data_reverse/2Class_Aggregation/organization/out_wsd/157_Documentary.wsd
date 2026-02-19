@@ -1,3 +1,3 @@
 @startuml
-Documentary o-- Catalog
+Documentary o-- Catalog : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Motor *-- Fan
-Vacuum *-- Motor
+Motor *-- Fan : composition
+Vacuum *-- Motor : composition
 @enduml

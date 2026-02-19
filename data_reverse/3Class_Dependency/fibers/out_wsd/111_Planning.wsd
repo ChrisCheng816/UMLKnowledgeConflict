@@ -1,4 +1,4 @@
 @startuml
-Booking ..> Planning
-Internet ..> Booking
+Booking ..> Planning : dependency
+Internet ..> Booking : dependency
 @enduml

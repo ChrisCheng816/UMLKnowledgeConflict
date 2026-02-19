@@ -1,4 +1,4 @@
 @startuml
-SolderingStation ..> Electricity
-ElectronicsAssembly ..> SolderingStation
+SolderingStation ..> Electricity : dependency
+ElectronicsAssembly ..> SolderingStation : dependency
 @enduml

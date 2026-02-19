@@ -1,4 +1,4 @@
 @startuml
-Habitat o-- Sanctuary
-Porcupine o-- Habitat
+Habitat o-- Sanctuary : aggregation
+Porcupine o-- Habitat : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Yosemite <|-- NationalPark
-NationalPark <|-- Park
+Yosemite <|-- NationalPark : inheritance
+NationalPark <|-- Park : inheritance
 @enduml

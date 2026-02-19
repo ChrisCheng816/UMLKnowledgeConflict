@@ -1,3 +1,3 @@
 @startuml
-Clipboard o-- Checklist
+Clipboard o-- Checklist : aggregation
 @enduml

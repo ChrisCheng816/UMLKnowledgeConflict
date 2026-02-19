@@ -1,4 +1,4 @@
 @startuml
-RocketLeague <|-- VideoGame
-VideoGame <|-- Game
+RocketLeague <|-- VideoGame : inheritance
+VideoGame <|-- Game : inheritance
 @enduml

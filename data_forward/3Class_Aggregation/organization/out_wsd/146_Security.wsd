@@ -1,4 +1,4 @@
 @startuml
-Staff o-- Security
-Museum o-- Staff
+Staff o-- Security : aggregation
+Museum o-- Staff : aggregation
 @enduml

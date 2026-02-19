@@ -1,4 +1,4 @@
 @startuml
-HedgeTrimmer ..> Trimming
-Electricity ..> HedgeTrimmer
+HedgeTrimmer ..> Trimming : dependency
+Electricity ..> HedgeTrimmer : dependency
 @enduml

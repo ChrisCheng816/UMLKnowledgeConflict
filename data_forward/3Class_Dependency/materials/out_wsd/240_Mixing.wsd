@@ -1,4 +1,4 @@
 @startuml
-Mixer ..> Electricity
-Mixing ..> Mixer
+Mixer ..> Electricity : dependency
+Mixing ..> Mixer : dependency
 @enduml

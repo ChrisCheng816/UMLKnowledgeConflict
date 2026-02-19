@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Herb
-Herb <|-- Cilantro
+Plant <|-- Herb : inheritance
+Herb <|-- Cilantro : inheritance
 @enduml

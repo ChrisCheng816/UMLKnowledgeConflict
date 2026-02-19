@@ -1,4 +1,4 @@
 @startuml
-Argentina <|-- Country
-Country <|-- GeopoliticalEntity
+Argentina <|-- Country : inheritance
+Country <|-- GeopoliticalEntity : inheritance
 @enduml

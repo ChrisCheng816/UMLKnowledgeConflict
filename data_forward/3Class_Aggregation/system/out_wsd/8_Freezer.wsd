@@ -1,4 +1,4 @@
 @startuml
-Laboratory o-- Freezer
-University o-- Laboratory
+Laboratory o-- Freezer : aggregation
+University o-- Laboratory : aggregation
 @enduml

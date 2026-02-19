@@ -1,4 +1,4 @@
 @startuml
-Wind ..> SandDune
-PressureDifference ..> Wind
+Wind ..> SandDune : dependency
+PressureDifference ..> Wind : dependency
 @enduml

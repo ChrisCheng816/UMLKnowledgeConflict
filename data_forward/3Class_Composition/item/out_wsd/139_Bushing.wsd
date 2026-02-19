@@ -1,4 +1,4 @@
 @startuml
-Turntable *-- Bushing
-Microwave *-- Turntable
+Turntable *-- Bushing : composition
+Microwave *-- Turntable : composition
 @enduml

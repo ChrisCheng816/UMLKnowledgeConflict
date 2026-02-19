@@ -1,4 +1,4 @@
 @startuml
-Plate o-- Restaurant
-Risotto o-- Plate
+Plate o-- Restaurant : aggregation
+Risotto o-- Plate : aggregation
 @enduml

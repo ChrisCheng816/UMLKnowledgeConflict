@@ -1,4 +1,4 @@
 @startuml
-Needle *-- Tip
-Pine *-- Needle
+Needle *-- Tip : composition
+Pine *-- Needle : composition
 @enduml

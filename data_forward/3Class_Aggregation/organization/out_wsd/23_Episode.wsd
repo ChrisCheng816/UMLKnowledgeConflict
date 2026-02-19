@@ -1,4 +1,4 @@
 @startuml
-Channel o-- Episode
-PodcastApp o-- Channel
+Channel o-- Episode : aggregation
+PodcastApp o-- Channel : aggregation
 @enduml

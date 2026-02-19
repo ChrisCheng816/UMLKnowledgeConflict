@@ -1,4 +1,4 @@
 @startuml
-Crate o-- FarmersMarket
-Pepper o-- Crate
+Crate o-- FarmersMarket : aggregation
+Pepper o-- Crate : aggregation
 @enduml

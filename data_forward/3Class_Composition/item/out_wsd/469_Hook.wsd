@@ -1,4 +1,4 @@
 @startuml
-Frame *-- Hook
-Mirror *-- Frame
+Frame *-- Hook : composition
+Mirror *-- Frame : composition
 @enduml

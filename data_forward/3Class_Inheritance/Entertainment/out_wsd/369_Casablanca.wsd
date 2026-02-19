@@ -1,4 +1,4 @@
 @startuml
-Film <|-- DramaFilm
-DramaFilm <|-- Casablanca
+Film <|-- DramaFilm : inheritance
+DramaFilm <|-- Casablanca : inheritance
 @enduml

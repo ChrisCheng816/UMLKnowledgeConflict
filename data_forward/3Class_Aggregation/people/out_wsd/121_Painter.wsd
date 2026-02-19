@@ -1,4 +1,4 @@
 @startuml
-Club o-- Painter
-University o-- Club
+Club o-- Painter : aggregation
+University o-- Club : aggregation
 @enduml

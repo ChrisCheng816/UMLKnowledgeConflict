@@ -1,3 +1,3 @@
 @startuml
-VoiceCall ..> TabletWithLTE
+VoiceCall ..> TabletWithLTE : dependency
 @enduml

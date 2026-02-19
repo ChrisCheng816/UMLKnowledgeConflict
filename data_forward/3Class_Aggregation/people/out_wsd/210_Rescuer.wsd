@@ -1,4 +1,4 @@
 @startuml
-Squad o-- Rescuer
-Shelter o-- Squad
+Squad o-- Rescuer : aggregation
+Shelter o-- Squad : aggregation
 @enduml

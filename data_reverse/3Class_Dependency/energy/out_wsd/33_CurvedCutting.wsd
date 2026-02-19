@@ -1,4 +1,4 @@
 @startuml
-Jigsaw ..> CurvedCutting
-Electricity ..> Jigsaw
+Jigsaw ..> CurvedCutting : dependency
+Electricity ..> Jigsaw : dependency
 @enduml

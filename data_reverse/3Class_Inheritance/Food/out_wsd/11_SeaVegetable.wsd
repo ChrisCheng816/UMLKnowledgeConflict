@@ -1,4 +1,4 @@
 @startuml
-SeaVegetable <|-- Vegetable
-Vegetable <|-- Food
+SeaVegetable <|-- Vegetable : inheritance
+Vegetable <|-- Food : inheritance
 @enduml

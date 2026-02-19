@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Comic
-Comic <|-- WonderWoman
+Entertainment <|-- Comic : inheritance
+Comic <|-- WonderWoman : inheritance
 @enduml

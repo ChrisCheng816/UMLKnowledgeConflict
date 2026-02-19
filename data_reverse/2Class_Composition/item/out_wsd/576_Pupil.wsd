@@ -1,3 +1,3 @@
 @startuml
-Pupil *-- Iris
+Pupil *-- Iris : composition
 @enduml

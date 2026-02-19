@@ -1,4 +1,4 @@
 @startuml
-Fleet o-- TowTruck
-City o-- Fleet
+Fleet o-- TowTruck : aggregation
+City o-- Fleet : aggregation
 @enduml

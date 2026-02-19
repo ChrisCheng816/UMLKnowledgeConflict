@@ -1,4 +1,4 @@
 @startuml
-ExplodingKittens <|-- CardGame
-CardGame <|-- Game
+ExplodingKittens <|-- CardGame : inheritance
+CardGame <|-- Game : inheritance
 @enduml

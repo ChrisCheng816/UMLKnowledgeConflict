@@ -1,3 +1,3 @@
 @startuml
-DoorPanel *-- Switch
+DoorPanel *-- Switch : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PlumbingSystem *-- House
-Trap *-- PlumbingSystem
+PlumbingSystem *-- House : composition
+Trap *-- PlumbingSystem : composition
 @enduml

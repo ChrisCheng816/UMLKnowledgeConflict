@@ -1,4 +1,4 @@
 @startuml
-Compressor ..> Electricity
-Operating ..> Compressor
+Compressor ..> Electricity : dependency
+Operating ..> Compressor : dependency
 @enduml

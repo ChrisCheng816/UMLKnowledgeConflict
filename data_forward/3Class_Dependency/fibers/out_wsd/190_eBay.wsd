@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-eBay ..> Internet
+Internet ..> Electricity : dependency
+eBay ..> Internet : dependency
 @enduml

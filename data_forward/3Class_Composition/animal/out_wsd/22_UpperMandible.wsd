@@ -1,4 +1,4 @@
 @startuml
-Beak *-- UpperMandible
-Eagle *-- Beak
+Beak *-- UpperMandible : composition
+Eagle *-- Beak : composition
 @enduml

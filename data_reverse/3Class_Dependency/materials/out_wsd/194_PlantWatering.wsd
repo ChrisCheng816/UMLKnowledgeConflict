@@ -1,4 +1,4 @@
 @startuml
-SprinklerSystem ..> PlantWatering
-TapWater ..> SprinklerSystem
+SprinklerSystem ..> PlantWatering : dependency
+TapWater ..> SprinklerSystem : dependency
 @enduml

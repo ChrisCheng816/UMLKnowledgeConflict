@@ -1,4 +1,4 @@
 @startuml
-Coconut ..> CoconutOil
-CoconutPalm ..> Coconut
+Coconut ..> CoconutOil : dependency
+CoconutPalm ..> Coconut : dependency
 @enduml

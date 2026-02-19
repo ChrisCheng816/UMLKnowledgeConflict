@@ -1,3 +1,3 @@
 @startuml
-Plumbing *-- Drain
+Plumbing *-- Drain : composition
 @enduml

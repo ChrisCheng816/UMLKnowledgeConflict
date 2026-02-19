@@ -1,4 +1,4 @@
 @startuml
-SmartSpeaker ..> VideoStreaming
-WiFiNetwork ..> SmartSpeaker
+SmartSpeaker ..> VideoStreaming : dependency
+WiFiNetwork ..> SmartSpeaker : dependency
 @enduml

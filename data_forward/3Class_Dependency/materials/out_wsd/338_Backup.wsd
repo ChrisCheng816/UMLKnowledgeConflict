@@ -1,4 +1,4 @@
 @startuml
-Server ..> Electricity
-Backup ..> Server
+Server ..> Electricity : dependency
+Backup ..> Server : dependency
 @enduml

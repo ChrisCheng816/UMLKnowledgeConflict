@@ -1,3 +1,3 @@
 @startuml
-Article o-- Issue
+Article o-- Issue : aggregation
 @enduml

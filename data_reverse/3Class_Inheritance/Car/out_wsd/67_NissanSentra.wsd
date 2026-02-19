@@ -1,4 +1,4 @@
 @startuml
-NissanSentra <|-- EconomySedan
-EconomySedan <|-- Sedan
+NissanSentra <|-- EconomySedan : inheritance
+EconomySedan <|-- Sedan : inheritance
 @enduml

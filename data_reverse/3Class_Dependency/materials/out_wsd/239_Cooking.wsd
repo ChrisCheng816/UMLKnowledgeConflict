@@ -1,4 +1,4 @@
 @startuml
-InductionCooker ..> Cooking
-Electricity ..> InductionCooker
+InductionCooker ..> Cooking : dependency
+Electricity ..> InductionCooker : dependency
 @enduml

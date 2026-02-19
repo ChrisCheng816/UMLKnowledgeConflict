@@ -1,3 +1,3 @@
 @startuml
-Club o-- Knitter
+Club o-- Knitter : aggregation
 @enduml

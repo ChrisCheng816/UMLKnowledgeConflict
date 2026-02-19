@@ -1,4 +1,4 @@
 @startuml
-Ward o-- Hospital
-Visitor o-- Ward
+Ward o-- Hospital : aggregation
+Visitor o-- Ward : aggregation
 @enduml

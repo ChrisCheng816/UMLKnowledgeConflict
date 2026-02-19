@@ -1,4 +1,4 @@
 @startuml
-Folder o-- Pencil
-Office o-- Folder
+Folder o-- Pencil : aggregation
+Office o-- Folder : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fermentation ..> Yeast
-Vinegar ..> Fermentation
+Fermentation ..> Yeast : dependency
+Vinegar ..> Fermentation : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-WinstonChurchill <|-- PrimeMinister
-PrimeMinister <|-- Politician
+WinstonChurchill <|-- PrimeMinister : inheritance
+PrimeMinister <|-- Politician : inheritance
 @enduml

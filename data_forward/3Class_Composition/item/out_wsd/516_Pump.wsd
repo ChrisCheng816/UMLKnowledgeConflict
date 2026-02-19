@@ -1,4 +1,4 @@
 @startuml
-PlumbingSystem *-- Pump
-House *-- PlumbingSystem
+PlumbingSystem *-- Pump : composition
+House *-- PlumbingSystem : composition
 @enduml

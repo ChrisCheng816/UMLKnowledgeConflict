@@ -1,4 +1,4 @@
 @startuml
-Drill ..> Electricity
-WallMounting ..> Drill
+Drill ..> Electricity : dependency
+WallMounting ..> Drill : dependency
 @enduml

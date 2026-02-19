@@ -1,4 +1,4 @@
 @startuml
-ArabianHorse <|-- Horse
-Horse <|-- Animal
+ArabianHorse <|-- Horse : inheritance
+Horse <|-- Animal : inheritance
 @enduml

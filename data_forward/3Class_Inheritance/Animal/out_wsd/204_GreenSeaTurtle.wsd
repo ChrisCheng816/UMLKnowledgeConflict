@@ -1,4 +1,4 @@
 @startuml
-Reptile <|-- Turtle
-Turtle <|-- GreenSeaTurtle
+Reptile <|-- Turtle : inheritance
+Turtle <|-- GreenSeaTurtle : inheritance
 @enduml

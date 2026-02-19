@@ -1,3 +1,3 @@
 @startuml
-Surgeon o-- Ward
+Surgeon o-- Ward : aggregation
 @enduml

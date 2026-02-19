@@ -1,4 +1,4 @@
 @startuml
-Herd o-- Antelope
-Reserve o-- Herd
+Herd o-- Antelope : aggregation
+Reserve o-- Herd : aggregation
 @enduml

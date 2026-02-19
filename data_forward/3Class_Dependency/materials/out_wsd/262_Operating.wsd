@@ -1,4 +1,4 @@
 @startuml
-EBikeCharger ..> Electricity
-Operating ..> EBikeCharger
+EBikeCharger ..> Electricity : dependency
+Operating ..> EBikeCharger : dependency
 @enduml

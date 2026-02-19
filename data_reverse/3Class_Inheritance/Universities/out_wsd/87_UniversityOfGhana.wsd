@@ -1,4 +1,4 @@
 @startuml
-UniversityOfGhana <|-- University
-University <|-- EducationalInstitution
+UniversityOfGhana <|-- University : inheritance
+University <|-- EducationalInstitution : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Seaweed ..> SushiRoll
-Ocean ..> Seaweed
+Seaweed ..> SushiRoll : dependency
+Ocean ..> Seaweed : dependency
 @enduml

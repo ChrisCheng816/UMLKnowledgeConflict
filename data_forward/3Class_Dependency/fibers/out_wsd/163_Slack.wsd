@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity
-Slack ..> Internet
+Internet ..> Electricity : dependency
+Slack ..> Internet : dependency
 @enduml

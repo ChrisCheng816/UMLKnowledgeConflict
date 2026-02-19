@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame
-VideoGame <|-- Cuphead
+Game <|-- VideoGame : inheritance
+VideoGame <|-- Cuphead : inheritance
 @enduml

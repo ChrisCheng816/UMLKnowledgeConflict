@@ -1,4 +1,4 @@
 @startuml
-Blade *-- Rivet
-Blender *-- Blade
+Blade *-- Rivet : composition
+Blender *-- Blade : composition
 @enduml

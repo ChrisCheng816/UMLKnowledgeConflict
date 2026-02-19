@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Clock
-LivingRoom o-- Shelf
+Shelf o-- Clock : aggregation
+LivingRoom o-- Shelf : aggregation
 @enduml

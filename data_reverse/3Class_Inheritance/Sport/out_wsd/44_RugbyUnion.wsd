@@ -1,4 +1,4 @@
 @startuml
-RugbyUnion <|-- TeamSport
-TeamSport <|-- Sport
+RugbyUnion <|-- TeamSport : inheritance
+TeamSport <|-- Sport : inheritance
 @enduml

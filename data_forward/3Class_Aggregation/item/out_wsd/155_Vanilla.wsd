@@ -1,4 +1,4 @@
 @startuml
-Jar o-- Vanilla
-Pantry o-- Jar
+Jar o-- Vanilla : aggregation
+Pantry o-- Jar : aggregation
 @enduml

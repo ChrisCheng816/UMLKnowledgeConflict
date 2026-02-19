@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Supermarket
-CannedSoup o-- Shelf
+Shelf o-- Supermarket : aggregation
+CannedSoup o-- Shelf : aggregation
 @enduml

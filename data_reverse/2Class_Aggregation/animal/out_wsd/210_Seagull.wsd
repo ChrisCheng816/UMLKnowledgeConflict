@@ -1,3 +1,3 @@
 @startuml
-Seagull o-- Flock
+Seagull o-- Flock : aggregation
 @enduml

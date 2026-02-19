@@ -1,4 +1,4 @@
 @startuml
-KaraokeMachine ..> Operating
-Electricity ..> KaraokeMachine
+KaraokeMachine ..> Operating : dependency
+Electricity ..> KaraokeMachine : dependency
 @enduml

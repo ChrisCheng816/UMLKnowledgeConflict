@@ -1,4 +1,4 @@
 @startuml
-Team o-- Curator
-Museum o-- Team
+Team o-- Curator : aggregation
+Museum o-- Team : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Handle *-- Screw
-Drawer *-- Handle
+Handle *-- Screw : composition
+Drawer *-- Handle : composition
 @enduml

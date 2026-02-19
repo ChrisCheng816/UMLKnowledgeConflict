@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Twitch
-Electricity ..> Internet
+Internet ..> Twitch : dependency
+Electricity ..> Internet : dependency
 @enduml

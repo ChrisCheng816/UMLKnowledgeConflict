@@ -1,3 +1,3 @@
 @startuml
-HeatShrinking ..> HeatGun
+HeatShrinking ..> HeatGun : dependency
 @enduml

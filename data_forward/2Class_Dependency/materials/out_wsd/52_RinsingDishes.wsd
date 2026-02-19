@@ -1,3 +1,3 @@
 @startuml
-RinsingDishes ..> Dishwasher
+RinsingDishes ..> Dishwasher : dependency
 @enduml

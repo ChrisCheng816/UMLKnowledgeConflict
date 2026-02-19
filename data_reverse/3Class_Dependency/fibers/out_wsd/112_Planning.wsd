@@ -1,4 +1,4 @@
 @startuml
-Expedia ..> Planning
-Internet ..> Expedia
+Expedia ..> Planning : dependency
+Internet ..> Expedia : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SmartTV ..> OnlineGaming
-WiFiNetwork ..> SmartTV
+SmartTV ..> OnlineGaming : dependency
+WiFiNetwork ..> SmartTV : dependency
 @enduml

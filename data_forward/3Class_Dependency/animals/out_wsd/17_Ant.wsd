@@ -1,4 +1,4 @@
 @startuml
-Sugar ..> Plants
-Ant ..> Sugar
+Sugar ..> Plants : dependency
+Ant ..> Sugar : dependency
 @enduml

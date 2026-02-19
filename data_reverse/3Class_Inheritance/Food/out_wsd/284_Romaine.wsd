@@ -1,4 +1,4 @@
 @startuml
-Romaine <|-- Lettuce
-Lettuce <|-- Vegetable
+Romaine <|-- Lettuce : inheritance
+Lettuce <|-- Vegetable : inheritance
 @enduml

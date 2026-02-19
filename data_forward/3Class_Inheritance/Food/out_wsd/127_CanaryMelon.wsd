@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Melon
-Melon <|-- CanaryMelon
+Fruit <|-- Melon : inheritance
+Melon <|-- CanaryMelon : inheritance
 @enduml

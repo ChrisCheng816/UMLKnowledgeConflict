@@ -1,4 +1,4 @@
 @startuml
-Pen ..> Ink
-Writing ..> Pen
+Pen ..> Ink : dependency
+Writing ..> Pen : dependency
 @enduml

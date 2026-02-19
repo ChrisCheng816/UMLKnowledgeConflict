@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Roblox
-Electricity ..> Internet
+Internet ..> Roblox : dependency
+Electricity ..> Internet : dependency
 @enduml

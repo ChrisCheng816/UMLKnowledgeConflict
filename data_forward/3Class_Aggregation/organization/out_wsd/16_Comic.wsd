@@ -1,4 +1,4 @@
 @startuml
-Shelf o-- Comic
-Bookstore o-- Shelf
+Shelf o-- Comic : aggregation
+Bookstore o-- Shelf : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Appliance <|-- Blender
-Blender <|-- ImmersionBlender
+Appliance <|-- Blender : inheritance
+Blender <|-- ImmersionBlender : inheritance
 @enduml

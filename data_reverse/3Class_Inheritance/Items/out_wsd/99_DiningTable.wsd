@@ -1,4 +1,4 @@
 @startuml
-DiningTable <|-- Table
-Table <|-- Furniture
+DiningTable <|-- Table : inheritance
+Table <|-- Furniture : inheritance
 @enduml

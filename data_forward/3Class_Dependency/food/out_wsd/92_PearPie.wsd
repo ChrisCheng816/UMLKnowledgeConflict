@@ -1,4 +1,4 @@
 @startuml
-Pear ..> PearTree
-PearPie ..> Pear
+Pear ..> PearTree : dependency
+PearPie ..> Pear : dependency
 @enduml

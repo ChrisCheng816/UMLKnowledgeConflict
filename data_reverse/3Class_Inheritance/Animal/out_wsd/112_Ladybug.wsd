@@ -1,4 +1,4 @@
 @startuml
-Ladybug <|-- Insect
-Insect <|-- Animal
+Ladybug <|-- Insect : inheritance
+Insect <|-- Animal : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Committee o-- Chair
-University o-- Committee
+Committee o-- Chair : aggregation
+University o-- Committee : aggregation
 @enduml

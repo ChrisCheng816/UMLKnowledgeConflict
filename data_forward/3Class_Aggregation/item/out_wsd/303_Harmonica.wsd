@@ -1,4 +1,4 @@
 @startuml
-InstrumentRack o-- Harmonica
-MusicStore o-- InstrumentRack
+InstrumentRack o-- Harmonica : aggregation
+MusicStore o-- InstrumentRack : aggregation
 @enduml

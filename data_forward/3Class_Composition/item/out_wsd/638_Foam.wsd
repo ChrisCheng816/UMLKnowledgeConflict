@@ -1,4 +1,4 @@
 @startuml
-Padding *-- Foam
-Helmet *-- Padding
+Padding *-- Foam : composition
+Helmet *-- Padding : composition
 @enduml

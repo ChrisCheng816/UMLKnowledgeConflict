@@ -1,4 +1,4 @@
 @startuml
-Telegram ..> Sharing
-Internet ..> Telegram
+Telegram ..> Sharing : dependency
+Internet ..> Telegram : dependency
 @enduml

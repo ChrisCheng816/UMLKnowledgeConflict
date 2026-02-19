@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Appliance
-Appliance <|-- Microwave
+Item <|-- Appliance : inheritance
+Appliance <|-- Microwave : inheritance
 @enduml

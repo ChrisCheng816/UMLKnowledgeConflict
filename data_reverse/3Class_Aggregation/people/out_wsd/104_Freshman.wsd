@@ -1,4 +1,4 @@
 @startuml
-Class o-- University
-Freshman o-- Class
+Class o-- University : aggregation
+Freshman o-- Class : aggregation
 @enduml

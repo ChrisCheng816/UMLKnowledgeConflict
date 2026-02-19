@@ -1,4 +1,4 @@
 @startuml
-Java <|-- Island
-Island <|-- GeographicFeature
+Java <|-- Island : inheritance
+Island <|-- GeographicFeature : inheritance
 @enduml

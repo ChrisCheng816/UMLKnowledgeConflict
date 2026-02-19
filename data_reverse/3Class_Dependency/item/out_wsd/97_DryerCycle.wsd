@@ -1,4 +1,4 @@
 @startuml
-ClothesDryer ..> DryerCycle
-WallOutlet ..> ClothesDryer
+ClothesDryer ..> DryerCycle : dependency
+WallOutlet ..> ClothesDryer : dependency
 @enduml

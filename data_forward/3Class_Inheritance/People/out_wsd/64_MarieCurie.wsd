@@ -1,4 +1,4 @@
 @startuml
-Physicist <|-- ExperimentalPhysicist
-ExperimentalPhysicist <|-- MarieCurie
+Physicist <|-- ExperimentalPhysicist : inheritance
+ExperimentalPhysicist <|-- MarieCurie : inheritance
 @enduml

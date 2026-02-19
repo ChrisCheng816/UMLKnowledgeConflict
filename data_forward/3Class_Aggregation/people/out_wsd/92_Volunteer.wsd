@@ -1,4 +1,4 @@
 @startuml
-NeighborhoodWatch o-- Volunteer
-City o-- NeighborhoodWatch
+NeighborhoodWatch o-- Volunteer : aggregation
+City o-- NeighborhoodWatch : aggregation
 @enduml

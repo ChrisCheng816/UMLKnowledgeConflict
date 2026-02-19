@@ -1,4 +1,4 @@
 @startuml
-Broccoli ..> BroccoliPlant
-BroccoliSoup ..> Broccoli
+Broccoli ..> BroccoliPlant : dependency
+BroccoliSoup ..> Broccoli : dependency
 @enduml

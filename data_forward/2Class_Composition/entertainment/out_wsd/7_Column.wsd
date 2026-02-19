@@ -1,3 +1,3 @@
 @startuml
-Page *-- Column
+Page *-- Column : composition
 @enduml

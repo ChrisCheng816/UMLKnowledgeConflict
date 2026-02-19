@@ -1,4 +1,4 @@
 @startuml
-LEDStrip ..> Electricity
-Illumination ..> LEDStrip
+LEDStrip ..> Electricity : dependency
+Illumination ..> LEDStrip : dependency
 @enduml

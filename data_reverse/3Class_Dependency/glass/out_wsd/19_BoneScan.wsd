@@ -1,4 +1,4 @@
 @startuml
-XRayMachine ..> BoneScan
-Electricity ..> XRayMachine
+XRayMachine ..> BoneScan : dependency
+Electricity ..> XRayMachine : dependency
 @enduml

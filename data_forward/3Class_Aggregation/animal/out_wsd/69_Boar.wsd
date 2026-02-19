@@ -1,4 +1,4 @@
 @startuml
-Enclosure o-- Boar
-Reserve o-- Enclosure
+Enclosure o-- Boar : aggregation
+Reserve o-- Enclosure : aggregation
 @enduml

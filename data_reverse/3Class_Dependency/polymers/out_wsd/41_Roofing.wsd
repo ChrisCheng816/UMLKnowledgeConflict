@@ -1,4 +1,4 @@
 @startuml
-Tar ..> Roofing
-Petroleum ..> Tar
+Tar ..> Roofing : dependency
+Petroleum ..> Tar : dependency
 @enduml

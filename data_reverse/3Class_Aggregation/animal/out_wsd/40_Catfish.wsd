@@ -1,4 +1,4 @@
 @startuml
-Tank o-- Aquarium
-Catfish o-- Tank
+Tank o-- Aquarium : aggregation
+Catfish o-- Tank : aggregation
 @enduml

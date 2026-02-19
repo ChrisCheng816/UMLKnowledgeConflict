@@ -1,3 +1,3 @@
 @startuml
-RadioListening ..> Turntable
+RadioListening ..> Turntable : dependency
 @enduml

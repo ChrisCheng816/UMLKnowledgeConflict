@@ -1,4 +1,4 @@
 @startuml
-PeregrineFalcon <|-- Falcon
-Falcon <|-- Bird
+PeregrineFalcon <|-- Falcon : inheritance
+Falcon <|-- Bird : inheritance
 @enduml

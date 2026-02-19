@@ -1,4 +1,4 @@
 @startuml
-Drawer o-- Stapler
-Office o-- Drawer
+Drawer o-- Stapler : aggregation
+Office o-- Drawer : aggregation
 @enduml

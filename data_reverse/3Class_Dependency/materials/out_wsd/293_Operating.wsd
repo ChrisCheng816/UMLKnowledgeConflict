@@ -1,4 +1,4 @@
 @startuml
-ElectricCanOpener ..> Operating
-Electricity ..> ElectricCanOpener
+ElectricCanOpener ..> Operating : dependency
+Electricity ..> ElectricCanOpener : dependency
 @enduml

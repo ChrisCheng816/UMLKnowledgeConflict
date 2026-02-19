@@ -1,4 +1,4 @@
 @startuml
-SmartSpeaker ..> WiFiNetwork
-WebBrowsing ..> SmartSpeaker
+SmartSpeaker ..> WiFiNetwork : dependency
+WebBrowsing ..> SmartSpeaker : dependency
 @enduml

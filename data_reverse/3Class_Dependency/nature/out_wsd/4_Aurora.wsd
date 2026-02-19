@@ -1,4 +1,4 @@
 @startuml
-SolarWind ..> Aurora
-Sun ..> SolarWind
+SolarWind ..> Aurora : dependency
+Sun ..> SolarWind : dependency
 @enduml

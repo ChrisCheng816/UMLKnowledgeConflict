@@ -1,4 +1,4 @@
 @startuml
-Frame *-- Bed
-Slat *-- Frame
+Frame *-- Bed : composition
+Slat *-- Frame : composition
 @enduml

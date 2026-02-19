@@ -1,4 +1,4 @@
 @startuml
-Sander ..> PaintRemoval
-Electricity ..> Sander
+Sander ..> PaintRemoval : dependency
+Electricity ..> Sander : dependency
 @enduml

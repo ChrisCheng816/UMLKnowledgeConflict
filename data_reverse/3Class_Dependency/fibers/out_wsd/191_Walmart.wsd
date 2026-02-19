@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Walmart
-Electricity ..> Internet
+Internet ..> Walmart : dependency
+Electricity ..> Internet : dependency
 @enduml

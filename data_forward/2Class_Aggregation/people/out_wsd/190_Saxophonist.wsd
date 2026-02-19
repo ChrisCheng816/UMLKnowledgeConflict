@@ -1,3 +1,3 @@
 @startuml
-Orchestra o-- Saxophonist
+Orchestra o-- Saxophonist : aggregation
 @enduml

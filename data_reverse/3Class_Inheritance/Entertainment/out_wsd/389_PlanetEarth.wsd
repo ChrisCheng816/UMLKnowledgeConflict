@@ -1,4 +1,4 @@
 @startuml
-PlanetEarth <|-- DocumentarySeries
-DocumentarySeries <|-- Television
+PlanetEarth <|-- DocumentarySeries : inheritance
+DocumentarySeries <|-- Television : inheritance
 @enduml

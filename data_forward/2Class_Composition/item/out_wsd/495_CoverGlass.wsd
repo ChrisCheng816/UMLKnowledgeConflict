@@ -1,3 +1,3 @@
 @startuml
-CameraModule *-- CoverGlass
+CameraModule *-- CoverGlass : composition
 @enduml
