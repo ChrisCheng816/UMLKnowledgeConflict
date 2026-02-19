@@ -4,11 +4,15 @@ import re
 # Maintain your commonly used models here.
 # "name" is used in output filenames and JSONL metadata.
 MODEL_SPECS = [
-    {"name": "qwen3-2b", "path": "Qwen/Qwen3-VL-2B-Instruct"},
     {"name": "qwen3-8b", "path": "Qwen/Qwen3-VL-8B-Instruct"},
     {"name": "qwen3-4b", "path": "Qwen/Qwen3-VL-4B-Instruct"},
+    {"name": "qwen3-2b", "path": "Qwen/Qwen3-VL-2B-Instruct"},
+    {"name": "InternVL3.5-8B", "path": "OpenGVLab/InternVL3_5-8B-Instruct"},
+    {"name": "InternVL3.5-4B", "path": "OpenGVLab/InternVL3_5-4B-Instruct"},
+    {"name": "InternVL3.5-2B", "path": "OpenGVLab/InternVL3_5-2B-Instruct"},
+    {"name": "InternVL3.5-30B", "path": "OpenGVLab/InternVL3_5-30B-A3B-Instruct"},
+    {"name": "Qwen3-30B", "path": "Qwen/Qwen3-VL-30B-A3B-Instruct"},
 ]
-
 
 def _slugify(text):
     value = (text or "").strip().lower()

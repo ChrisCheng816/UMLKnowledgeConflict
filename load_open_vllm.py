@@ -75,19 +75,19 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
     relation_specs = {
         "inheritance": {
             "relation_sentence": "An arrow with a hollow triangle head points from the subclass to the superclass, indicating the inheritance relationship.",
-            "ask_sentence": f"Does class {node2} inherits from class {node1}?",
+            "ask_sentence": f"Does class {node2} inherit from class {node1}?",
         },
         "aggregation": {
             "relation_sentence": "A line with a hollow diamond at the whole side points from the part to the whole, indicating the aggregation relationship.",
-            "ask_sentence": f"Does class {node2} aggregates class {node1}?",
+            "ask_sentence": f"Does class {node2} aggregate class {node1}?",
         },
         "composition": {
             "relation_sentence": "A line with a filled diamond at the whole side points from the part to the whole, indicating the composition relationship.",
-            "ask_sentence": f"Does class {node2} is composed of class {node1}?",
+            "ask_sentence": f"Is class {node2} composed of class {node1}?",
         },
         "dependency": {
             "relation_sentence": "A dashed arrow points from the dependent class to the class it depends on, indicating the dependency relationship.",
-            "ask_sentence": f"Does class {node2} depends on class {node1}?",
+            "ask_sentence": f"Does class {node2} depend on class {node1}?",
         },
     }
     if relation not in relation_specs:
@@ -104,8 +104,8 @@ def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
         "Do not use the model's internal knowledge or prior assumptions to attempt to answer the question.\n"
         "Answer the following question solely from the relationships explicitly depicted in the image.\n"
         f"The question is:\n {spec['ask_sentence']}\n\n"
-        "You may reason privately, but do not reveal any reasoning or intermediate steps. Output only the final binary answer: True or False.\n"
-        "Output 'Unknown' if the image is not provided."
+        "You may reason privately, but do not reveal any reasoning or intermediate steps. Output only one of: True, False, or Unknown.\n"
+        "Output 'Unknown' if the image is missing, unreadable, or the relation direction is unclear."
     )
 
     return question, {
@@ -164,16 +164,19 @@ def _build_class_presence_prompt(expected_count=None, relation="inheritance"):
         "Do not infer, guess, or invent any names. Complete the following task using only the class names that are visibly and explicitly depicted in the UML diagram.\n"+
         "The task is:\n"
         "List all class names that appear in the UML diagram.\n\n"
-        "After listing all class names, verify each listed class name against the UML diagram in the image letter by letter to ensure it is perfectly accurate. Repeat the task until every class name matches exactly."
+        "Each class name in your final output must match the UML diagram text exactly, character by character.\n"
         "You may reason privately, but do not reveal any reasoning or intermediate steps.\n"
         "Output only a JSON array of strings, for example: [\"ClassA\", \"ClassB\"].\n"
-        "Output [] if the image is not provided."
+        "Do not output any text before or after the JSON array.\n"
+        "Output [] if the image is missing or unreadable."
     )
 
 def _build_unified_system_prompt():
     return (
         "You are an accurate UML diagram reasoning assistant.\n"
         "You will be asked to complete a question or task.\n"
+        "Treat the provided image as the only source of truth.\n"
+        "Do not use the model's internal knowledge, assumptions, and guesses.\n"
         "Follow the requested output format exactly, without extra explanation.\n"
     )
 
