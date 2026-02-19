@@ -1,13 +1,28 @@
 import argparse
 import os
+import re
 
 os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
 # os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 # os.environ["NCCL_P2P_DISABLE"] = "1"
 
+CLOSED_DEFAULT_MODELS = [
+    {"name": "gemini_2_5_pro", "path": "gemini-2.5-pro"},
+    {"name": "o3", "path": "o3"},
+    {"name": "o4_mini", "path": "o4-mini"},
+    {"name": "claude_3_7_sonnet", "path": "claude-3-7-sonnet-20250219"},
+    {"name": "gpt_4_1", "path": "gpt-4.1"},
+]
+
 
 def parse_args():
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--backend",
+        choices=["open_vllm", "closed_llm"],
+        default="open_vllm",
+        help="Inference backend. Default is open_vllm (open-source vLLM).",
+    )
     parser.add_argument(
         "--mode",
         choices=["forward", "reverse", "both"],
@@ -44,17 +59,56 @@ def build_runs(mode, root):
     return [(mode, *all_runs[mode])]
 
 
+def _slugify(text):
+    value = (text or "").strip().lower()
+    value = re.sub(r"[^a-z0-9]+", "_", value)
+    value = re.sub(r"_+", "_", value).strip("_")
+    return value or "model"
+
+
+def _dedup_models(models):
+    out = []
+    seen = set()
+    for m in models:
+        key = (m["name"], m["path"])
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(m)
+    return out
+
+
+def _resolve_closed_models(model_names, model_paths):
+    # Closed backend accepts API model ids directly.
+    # - If no models provided, use curated defaults for one-click runs.
+    # - model_name/model_path are both treated as model ids.
+    if not model_names and not model_paths:
+        return list(CLOSED_DEFAULT_MODELS)
+
+    resolved = []
+    for name in model_names or []:
+        resolved.append({"name": _slugify(name), "path": name})
+    for path in model_paths or []:
+        resolved.append({"name": _slugify(path.split("/")[-1]), "path": path})
+    return _dedup_models(resolved)
+
+
 def main():
     args = parse_args()
-    # Delay heavy import so '--help' works even if runtime deps are not ready.
-    from load_open_vllm import generate_outputs, load_model
-    from model_registry import resolve_models
 
+    backend = args.backend
     root = os.path.dirname(os.path.abspath(__file__))
     results_dir = os.path.join(root, "experiment_results")
     os.makedirs(results_dir, exist_ok=True)
     runs = build_runs(args.mode, root)
-    models = resolve_models(model_names=args.model_name, model_paths=args.model_path)
+
+    if backend == "closed_llm":
+        models = _resolve_closed_models(args.model_name, args.model_path)
+    else:
+        # Delay heavy import so '--help' works even if runtime deps are not ready.
+        from model_registry import resolve_models
+
+        models = resolve_models(model_names=args.model_name, model_paths=args.model_path)
     if not models:
         raise ValueError("No model selected. Configure MODEL_SPECS or pass --model-name/--model-path.")
     print(f"[INFO] selected models: {[m['name'] for m in models]}")
@@ -64,13 +118,53 @@ def main():
         model_path = model_item["path"]
         model_results_dir = os.path.join(results_dir, model_name)
         os.makedirs(model_results_dir, exist_ok=True)
-        llm = None
-        processor = None
-        try:
-            # Load vLLM once per model and reuse across forward/reverse.
-            llm, processor = load_model(model_path)
-            print(f"[INFO] model initialized: name={model_name}, path={model_path}")
 
+        if backend == "open_vllm":
+            from load_open_vllm import generate_outputs, load_model
+
+            llm = None
+            processor = None
+            try:
+                # Load vLLM once per model and reuse across forward/reverse.
+                llm, processor = load_model(model_path)
+                print(f"[INFO] model initialized: name={model_name}, path={model_path}, backend={backend}")
+
+                for tag, dataset_root, output_image_root in runs:
+                    if not os.path.isdir(dataset_root):
+                        print(f"[WARN] skip {tag}: dataset_root not found -> {dataset_root}")
+                        continue
+                    if not os.path.isdir(output_image_root):
+                        print(f"[WARN] skip {tag}: output_image_root not found -> {output_image_root}")
+                        continue
+
+                    print(
+                        f"[INFO] run model={model_name}, split={tag}, backend={backend}: "
+                        f"dataset_root={dataset_root}, output_image_root={output_image_root}"
+                    )
+                    out_stem = f"{model_name}_{tag}" if not args.out_prefix else f"{args.out_prefix}_{model_name}_{tag}"
+                    generate_outputs(
+                        model_path=model_path,
+                        model_name=model_name,
+                        out_path=os.path.join(model_results_dir, f"{out_stem}.jsonl"),
+                        dataset_root=dataset_root,
+                        output_image_root=output_image_root,
+                        llm=llm,
+                        processor=processor,
+                    )
+            finally:
+                if llm is not None:
+                    del llm
+                if processor is not None:
+                    del processor
+                try:
+                    import gc
+                    gc.collect()
+                except Exception:
+                    pass
+        else:
+            from load_closed_llm import generate_outputs
+
+            print(f"[INFO] model initialized: name={model_name}, path={model_path}, backend={backend}")
             for tag, dataset_root, output_image_root in runs:
                 if not os.path.isdir(dataset_root):
                     print(f"[WARN] skip {tag}: dataset_root not found -> {dataset_root}")
@@ -80,29 +174,17 @@ def main():
                     continue
 
                 print(
-                    f"[INFO] run model={model_name}, split={tag}: "
+                    f"[INFO] run model={model_name}, split={tag}, backend={backend}: "
                     f"dataset_root={dataset_root}, output_image_root={output_image_root}"
                 )
                 out_stem = f"{model_name}_{tag}" if not args.out_prefix else f"{args.out_prefix}_{model_name}_{tag}"
                 generate_outputs(
-                    model_path=model_path,
+                    model=model_path,
                     model_name=model_name,
                     out_path=os.path.join(model_results_dir, f"{out_stem}.jsonl"),
                     dataset_root=dataset_root,
                     output_image_root=output_image_root,
-                    llm=llm,
-                    processor=processor,
                 )
-        finally:
-            if llm is not None:
-                del llm
-            if processor is not None:
-                del processor
-            try:
-                import gc
-                gc.collect()
-            except Exception:
-                pass
 
 
 if __name__ == "__main__":

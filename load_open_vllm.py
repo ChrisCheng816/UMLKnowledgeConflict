@@ -507,6 +507,7 @@ def load_prompt(
 ):
     requests = []
     information = []
+    skipped_missing_image = 0
 
     instances_path = _resolve_instances_path(dataset_root, dataset_dir)
     image_map_cache = {}
@@ -557,10 +558,8 @@ def load_prompt(
                     break
 
             if image_path is None:
-                tried_msg = "; ".join([f"{d} ids={ids}" for d, ids in tried])
-                raise FileNotFoundError(
-                    f"No image found for sample_id={sample_id}, source_id={source_id}. Tried: {tried_msg}"
-                )
+                skipped_missing_image += 1
+                continue
             prompt_items = _build_relation_prompts(
                 nodes,
                 relation=relation_for_row,
@@ -597,6 +596,12 @@ def load_prompt(
             for row in prepared_rows:
                 json.dump(row, wf, ensure_ascii=False)
                 wf.write("\n")
+
+    if not requests:
+        raise FileNotFoundError(
+            f"No image-aligned samples found for dataset '{dataset_dir}'. "
+            f"Skipped {skipped_missing_image} rows due to missing images."
+        )
 
     return requests, information
 
@@ -735,15 +740,20 @@ def save_outputs(predictions, information, out_path, model_name=None, model_path
 
     def _pass_at_k_from_outputs(run_outputs, k):
         if not run_outputs:
-            return False
+            return None
         k = max(1, min(int(k), len(run_outputs)))
         return any(_to_bool_true(x) for x in run_outputs[:k])
 
     def _pass_at_k_from_checks(run_checks, k):
         if not run_checks:
-            return False
+            return None
         k = max(1, min(int(k), len(run_checks)))
         return any(bool((run_checks[i] or {}).get("passed", False)) for i in range(k))
+
+    def _label(value):
+        if value is None:
+            return "Unknown"
+        return "True" if value else "False"
 
     with open(out_path, "w", encoding="utf8") as f:
         for pred, info in zip(predictions, information):
@@ -779,12 +789,12 @@ def save_outputs(predictions, information, out_path, model_name=None, model_path
                 "predicted_class_names": predicted_class_names,
                 "outputs_task1": outputs_task1,
                 "outputs_task2": run_outputs,
-                "pass@1": "True" if end2end_pass1 else "False",
-                "pass@5": "True" if end2end_pass5 else "False",
-                "pass@10": "True" if end2end_pass10 else "False",
-                "task1_pass@1": "True" if task1_pass1 else "False",
-                "task1_pass@5": "True" if task1_pass5 else "False",
-                "task1_pass@10": "True" if task1_pass10 else "False",
+                "pass@1": _label(end2end_pass1),
+                "pass@5": _label(end2end_pass5),
+                "pass@10": _label(end2end_pass10),
+                "task1_pass@1": _label(task1_pass1),
+                "task1_pass@5": _label(task1_pass5),
+                "task1_pass@10": _label(task1_pass10),
             }
             json.dump(obj, f, ensure_ascii=False)
             f.write("\n")
