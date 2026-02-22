@@ -1,7 +1,9 @@
 import json
+import logging
 import os
 import re
 import random
+from PIL import Image
 from transformers import AutoProcessor
 from vllm import LLM, SamplingParams
 from prompt_templates import (
@@ -13,11 +15,27 @@ from prompt_templates import (
 )
 
 
-BATCH_SIZE = 4
-GPU_PER = 0.6
+class _DropVllmTruncationOverrideWarning(logging.Filter):
+    def filter(self, record):
+        message = record.getMessage()
+        return not (
+            "The following intended overrides are not keyword args and will be dropped"
+            in message
+            and "{'truncation'}" in message
+        )
+
+def _configure_logging_filters():
+    filter_obj = _DropVllmTruncationOverrideWarning()
+    logging.getLogger("vllm").addFilter(filter_obj)
+    logging.getLogger("vllm.utils").addFilter(filter_obj)
+
+_configure_logging_filters()
+
+BATCH_SIZE = 8
+GPU_PER = 0.5
 # Number of full pipeline runs for pass@k style evaluation.
 N = 10
-TP_SIZE = 8
+TP_SIZE = 4
 DTYPE = "auto"
 
 # os.environ.setdefault("NCCL_DEBUG", "INFO")
@@ -29,6 +47,8 @@ def load_model(
     gpu_memory_utilization=GPU_PER,
 ):
     processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
+    # Cache family hint on processor so prompt building can follow model-native chat format.
+    processor._uml_model_family = _detect_model_family(model_name)
     llm = LLM(
         model=model_name,
         tensor_parallel_size=tensor_parallel_size,
@@ -38,6 +58,16 @@ def load_model(
         gpu_memory_utilization=gpu_memory_utilization
     )
     return llm, processor
+
+
+def _detect_model_family(model_name):
+    name = (model_name or "").strip().lower()
+    if "internvl" in name:
+        return "internvl"
+    if "qwen" in name:
+        return "qwen"
+    return "generic"
+
 
 def fmt_mean(value):
     if value is None:
@@ -120,19 +150,63 @@ def _build_mm_followup_request(
 
 
 def _build_mm_payload(processor, messages):
-    prompt = processor.apply_chat_template(
-        messages,
-        tokenize=False,
-        add_generation_prompt=True
-    )
+    prompt = _apply_chat_template_by_family(processor, messages)
     image_inputs = _extract_image_inputs(messages)
     mm = {}
     if image_inputs:
-        mm["image"] = image_inputs if len(image_inputs) > 1 else image_inputs[0]
+        # Keep list form to avoid accidental string iteration in downstream processors.
+        mm["image"] = image_inputs
     return {
         "prompt": prompt,
         "multi_modal_data": mm,
     }
+
+
+def _apply_chat_template_by_family(processor, messages):
+    model_family = getattr(processor, "_uml_model_family", "generic")
+    if model_family == "internvl":
+        # InternVL chat template expects plain string content with <image> placeholders.
+        render_messages = _normalize_messages_for_string_template(messages)
+    else:
+        # Qwen and most VLM processors support structured multimodal content.
+        render_messages = messages
+    try:
+        return processor.apply_chat_template(
+            render_messages,
+            tokenize=False,
+            add_generation_prompt=True,
+        )
+    except TypeError:
+        # Last-resort fallback for unknown templates.
+        return processor.apply_chat_template(
+            _normalize_messages_for_string_template(messages),
+            tokenize=False,
+            add_generation_prompt=True,
+        )
+
+
+def _normalize_messages_for_string_template(messages):
+    normalized = []
+    for message in messages or []:
+        role = message.get("role", "user")
+        content = message.get("content", "")
+        if isinstance(content, str):
+            content_text = content
+        elif isinstance(content, list):
+            parts = []
+            for item in content:
+                if not isinstance(item, dict):
+                    continue
+                item_type = item.get("type")
+                if item_type == "text":
+                    parts.append(str(item.get("text", "")))
+                elif item_type == "image":
+                    parts.append("<image>")
+            content_text = "\n".join([p for p in parts if p]).strip()
+        else:
+            content_text = str(content)
+        normalized.append({"role": role, "content": content_text})
+    return normalized
 
 
 def _extract_image_inputs(messages):
@@ -147,7 +221,11 @@ def _extract_image_inputs(messages):
             image_obj = item.get("image")
             if image_obj is None:
                 continue
-            images.append(image_obj)
+            if isinstance(image_obj, str):
+                with Image.open(image_obj) as img:
+                    images.append(img.convert("RGB"))
+            else:
+                images.append(image_obj)
     return images
 
 
@@ -715,6 +793,8 @@ def generate_outputs(
     llm=None,
     processor=None,
     num_runs=N,
+    include_relations=None,
+    include_arities=None,
 ):
     if dataset_root is None:
         dataset_root = os.path.dirname(os.path.abspath(__file__))
@@ -743,11 +823,30 @@ def generate_outputs(
     grouped_requests = {}
     grouped_information = {}
     valid_relations = {"inheritance", "aggregation", "composition", "dependency"}
+    valid_arities = {"2", "3"}
+    selected_relations = (
+        {str(x).strip().lower() for x in include_relations}
+        if include_relations is not None
+        else set(valid_relations)
+    )
+    selected_arities = (
+        {str(x).strip() for x in include_arities}
+        if include_arities is not None
+        else set(valid_arities)
+    )
+    selected_relations &= valid_relations
+    selected_arities &= valid_arities
+    if not selected_relations:
+        raise ValueError("No valid relations selected. Allowed: inheritance, aggregation, composition, dependency.")
+    if not selected_arities:
+        raise ValueError("No valid arities selected. Allowed: 2, 3.")
 
     for ds in dataset_dirs:
         relation_name, arity = _extract_relation_arity_from_dataset_dir(ds)
-        if relation_name not in valid_relations or arity not in {"2", "3"}:
+        if relation_name not in valid_relations or arity not in valid_arities:
             print(f"[WARN] Skip dataset '{ds}': unknown group relation={relation_name}, arity={arity}")
+            continue
+        if relation_name not in selected_relations or arity not in selected_arities:
             continue
         group_key = (relation_name, arity)
         try:
@@ -782,7 +881,11 @@ def generate_outputs(
     ordered_relations = ["inheritance", "aggregation", "composition", "dependency"]
     ordered_arities = ["2", "3"]
     for relation_name in ordered_relations:
+        if relation_name not in selected_relations:
+            continue
         for arity in ordered_arities:
+            if arity not in selected_arities:
+                continue
             group_key = (relation_name, arity)
             group_requests = grouped_requests.get(group_key, [])
             group_information = grouped_information.get(group_key, [])

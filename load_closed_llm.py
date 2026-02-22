@@ -786,6 +786,8 @@ def generate_outputs(
     relation="inheritance",
     query_pair=(0, 1),
     num_runs=1,
+    include_relations=None,
+    include_arities=None,
 ):
     if dataset_root is None:
         dataset_root = os.path.dirname(os.path.abspath(__file__))
@@ -804,11 +806,30 @@ def generate_outputs(
     grouped_requests: Dict[Tuple[str, str], List[Dict[str, str]]] = {}
     grouped_information: Dict[Tuple[str, str], List[Dict[str, Any]]] = {}
     valid_relations = {"inheritance", "aggregation", "composition", "dependency"}
+    valid_arities = {"2", "3"}
+    selected_relations = (
+        {str(x).strip().lower() for x in include_relations}
+        if include_relations is not None
+        else set(valid_relations)
+    )
+    selected_arities = (
+        {str(x).strip() for x in include_arities}
+        if include_arities is not None
+        else set(valid_arities)
+    )
+    selected_relations &= valid_relations
+    selected_arities &= valid_arities
+    if not selected_relations:
+        raise ValueError("No valid relations selected. Allowed: inheritance, aggregation, composition, dependency.")
+    if not selected_arities:
+        raise ValueError("No valid arities selected. Allowed: 2, 3.")
 
     for ds in dataset_dirs:
         relation_name, arity = _extract_relation_arity_from_dataset_dir(ds)
-        if relation_name not in valid_relations or arity not in {"2", "3"}:
+        if relation_name not in valid_relations or arity not in valid_arities:
             print(f"[WARN] Skip dataset '{ds}': unknown group relation={relation_name}, arity={arity}")
+            continue
+        if relation_name not in selected_relations or arity not in selected_arities:
             continue
         group_key = (relation_name, arity)
         try:
@@ -842,7 +863,11 @@ def generate_outputs(
     ordered_relations = ["inheritance", "aggregation", "composition", "dependency"]
     ordered_arities = ["2", "3"]
     for relation_name in ordered_relations:
+        if relation_name not in selected_relations:
+            continue
         for arity in ordered_arities:
+            if arity not in selected_arities:
+                continue
             group_key = (relation_name, arity)
             group_requests = grouped_requests.get(group_key, [])
             group_information = grouped_information.get(group_key, [])

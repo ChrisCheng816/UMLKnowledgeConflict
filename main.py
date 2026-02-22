@@ -46,6 +46,19 @@ def parse_args():
         default="",
         help="Optional output prefix. Files are written as [<out-prefix>_] <model>_<mode>_<relation>_<arity>.jsonl",
     )
+    parser.add_argument(
+        "--arity",
+        choices=["2", "3", "both"],
+        default="both",
+        help="Run only 2-class, only 3-class, or both.",
+    )
+    parser.add_argument(
+        "--relation",
+        action="append",
+        choices=["inheritance", "aggregation", "composition", "dependency"],
+        default=[],
+        help="Relation type to run. Repeatable. Default is all relations.",
+    )
     return parser.parse_args()
 
 
@@ -101,6 +114,13 @@ def main():
     results_dir = os.path.join(root, "experiment_results")
     os.makedirs(results_dir, exist_ok=True)
     runs = build_runs(args.mode, root)
+    arity_filter = {"2", "3"} if args.arity == "both" else {args.arity}
+    relation_filter = set(args.relation) if args.relation else {
+        "inheritance",
+        "aggregation",
+        "composition",
+        "dependency",
+    }
 
     if backend == "closed_llm":
         models = _resolve_closed_models(args.model_name, args.model_path)
@@ -154,6 +174,8 @@ def main():
                         out_path=os.path.join(model_results_dir, f"{out_stem}.jsonl"),
                         dataset_root=dataset_root,
                         output_image_root=output_image_root,
+                        include_arities=arity_filter,
+                        include_relations=relation_filter,
                         llm=llm,
                         processor=processor,
                     )
@@ -183,6 +205,8 @@ def main():
                     out_path=os.path.join(model_results_dir, f"{out_stem}.jsonl"),
                     dataset_root=dataset_root,
                     output_image_root=output_image_root,
+                    include_arities=arity_filter,
+                    include_relations=relation_filter,
                 )
 
 
