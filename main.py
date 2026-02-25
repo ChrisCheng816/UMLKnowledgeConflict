@@ -3,7 +3,7 @@ import os
 import re
 
 os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 # os.environ["NCCL_P2P_DISABLE"] = "1"
 
 CLOSED_DEFAULT_MODELS = [
@@ -13,7 +13,6 @@ CLOSED_DEFAULT_MODELS = [
     {"name": "claude_3_7_sonnet", "path": "claude-3-7-sonnet-20250219"},
     {"name": "gpt_4_1", "path": "gpt-4.1"},
 ]
-
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -33,13 +32,7 @@ def parse_args():
         "--model-name",
         action="append",
         default=[],
-        help="Registered model name in model_registry.py. Repeatable.",
-    )
-    parser.add_argument(
-        "--model-path",
-        action="append",
-        default=[],
-        help="Direct model path. Repeatable. Can be used with --model-name.",
+        help="Registered model name in model_registry.py. Repeatable. For open_vllm this is required.",
     )
     parser.add_argument(
         "--out-prefix",
@@ -58,6 +51,18 @@ def parse_args():
         choices=["inheritance", "aggregation", "composition", "dependency"],
         default=[],
         help="Relation type to run. Repeatable. Default is all relations.",
+    )
+    parser.add_argument(
+        "--tp-size",
+        type=int,
+        default=None,
+        help="vLLM tensor parallel size. Default: auto (from CUDA_VISIBLE_DEVICES, else 1).",
+    )
+    parser.add_argument(
+        "--gpu-mem-util",
+        type=float,
+        default=None,
+        help="vLLM gpu_memory_utilization in (0,1]. Default uses loader setting.",
     )
     return parser.parse_args()
 
@@ -91,18 +96,16 @@ def _dedup_models(models):
     return out
 
 
-def _resolve_closed_models(model_names, model_paths):
+def _resolve_closed_models(model_names):
     # Closed backend accepts API model ids directly.
     # - If no models provided, use curated defaults for one-click runs.
     # - model_name/model_path are both treated as model ids.
-    if not model_names and not model_paths:
+    if not model_names:
         return list(CLOSED_DEFAULT_MODELS)
 
     resolved = []
     for name in model_names or []:
         resolved.append({"name": _slugify(name), "path": name})
-    for path in model_paths or []:
-        resolved.append({"name": _slugify(path.split("/")[-1]), "path": path})
     return _dedup_models(resolved)
 
 
@@ -123,12 +126,14 @@ def main():
     }
 
     if backend == "closed_llm":
-        models = _resolve_closed_models(args.model_name, args.model_path)
+        models = _resolve_closed_models(args.model_name)
     else:
         # Delay heavy import so '--help' works even if runtime deps are not ready.
         from model_registry import resolve_models
 
-        models = resolve_models(model_names=args.model_name, model_paths=args.model_path)
+        if not args.model_name:
+            raise ValueError("open_vllm requires --model-name, and it must match model_registry.py entries.")
+        models = resolve_models(model_names=args.model_name, model_paths=None)
     if not models:
         raise ValueError("No model selected. Configure MODEL_SPECS or pass --model-name/--model-path.")
     print(f"[INFO] selected models: {[m['name'] for m in models]}")
@@ -159,7 +164,11 @@ def main():
             processor = None
             try:
                 # Load vLLM once per model and reuse across forward/reverse.
-                llm, processor = load_model(model_path)
+                llm, processor = load_model(
+                    model_path,
+                    tensor_parallel_size=args.tp_size,
+                    gpu_memory_utilization=args.gpu_mem_util,
+                )
                 print(f"[INFO] model initialized: name={model_name}, path={model_path}, backend={backend}")
 
                 for tag, dataset_root, output_image_root in valid_runs:

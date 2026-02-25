@@ -31,11 +31,11 @@ def _configure_logging_filters():
 
 _configure_logging_filters()
 
-BATCH_SIZE = 8
-GPU_PER = 0.5
+BATCH_SIZE = 4
+GPU_PER = 0.6
 # Number of full pipeline runs for pass@k style evaluation.
 N = 10
-TP_SIZE = 4
+TP_SIZE = None
 DTYPE = "auto"
 
 # os.environ.setdefault("NCCL_DEBUG", "INFO")
@@ -46,18 +46,62 @@ def load_model(
     dtype=DTYPE,
     gpu_memory_utilization=GPU_PER,
 ):
+    resolved_tp_size = _resolve_tensor_parallel_size(tensor_parallel_size)
+    if gpu_memory_utilization is None:
+        gpu_memory_utilization = GPU_PER
     processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
     # Cache family hint on processor so prompt building can follow model-native chat format.
     processor._uml_model_family = _detect_model_family(model_name)
-    llm = LLM(
-        model=model_name,
-        tensor_parallel_size=tensor_parallel_size,
-        dtype=dtype,
-        trust_remote_code=True,
-        max_model_len=10240,
-        gpu_memory_utilization=gpu_memory_utilization
-    )
+    try:
+        llm = LLM(
+            model=model_name,
+            tensor_parallel_size=resolved_tp_size,
+            dtype=dtype,
+            trust_remote_code=True,
+            max_model_len=8192,
+            gpu_memory_utilization=gpu_memory_utilization
+        )
+    except Exception as exc:
+        visible_devices = os.getenv("CUDA_VISIBLE_DEVICES", "<unset>")
+        raise RuntimeError(
+            "vLLM engine initialization failed. "
+            f"tensor_parallel_size(requested={tensor_parallel_size}, resolved={resolved_tp_size}), "
+            f"CUDA_VISIBLE_DEVICES={visible_devices}. "
+            "Try setting --tp-size to the number of visible GPUs (often 1), "
+            "or reduce --gpu-mem-util."
+        ) from exc
     return llm, processor
+
+
+def _resolve_tensor_parallel_size(requested_tp_size):
+    env_gpu_count = _get_visible_gpu_count_from_env()
+    if requested_tp_size is None:
+        if env_gpu_count is not None and env_gpu_count > 0:
+            return env_gpu_count
+        return 1
+    requested_tp_size = int(requested_tp_size)
+    if requested_tp_size < 1:
+        return 1
+    if env_gpu_count is not None and env_gpu_count > 0 and requested_tp_size > env_gpu_count:
+        logging.warning(
+            "Requested tensor_parallel_size=%s exceeds visible GPU count=%s from CUDA_VISIBLE_DEVICES; clamping.",
+            requested_tp_size,
+            env_gpu_count,
+        )
+        return env_gpu_count
+    return requested_tp_size
+
+
+def _get_visible_gpu_count_from_env():
+    value = os.getenv("CUDA_VISIBLE_DEVICES")
+    if value is None:
+        return None
+    value = value.strip()
+    if not value:
+        return None
+    if value in {"-1", "none", "None"}:
+        return 0
+    return len([token for token in value.split(",") if token.strip()])
 
 
 def _detect_model_family(model_name):
@@ -905,3 +949,4 @@ def generate_outputs(
                 model_name=model_name,
                 model_path=model_path,
             )
+            
