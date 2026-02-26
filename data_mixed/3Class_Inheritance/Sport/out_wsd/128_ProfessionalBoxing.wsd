@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Boxing : inheritance
+ProfessionalBoxing <|-- Boxing : inheritance
+@enduml

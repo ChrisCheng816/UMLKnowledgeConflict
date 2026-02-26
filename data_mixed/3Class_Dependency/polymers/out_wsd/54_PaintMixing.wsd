@@ -1,0 +1,4 @@
+@startuml
+Paint ..> Pigment : dependency
+Paint ..> PaintMixing : dependency
+@enduml

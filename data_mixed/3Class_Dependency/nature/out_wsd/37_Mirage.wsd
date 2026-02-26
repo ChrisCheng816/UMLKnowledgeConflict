@@ -1,0 +1,4 @@
+@startuml
+HotAir ..> DesertSurface : dependency
+HotAir ..> Mirage : dependency
+@enduml

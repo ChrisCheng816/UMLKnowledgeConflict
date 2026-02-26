@@ -1,0 +1,4 @@
+@startuml
+Leopard o-- Exhibit : aggregation
+Zoo o-- Exhibit : aggregation
+@enduml

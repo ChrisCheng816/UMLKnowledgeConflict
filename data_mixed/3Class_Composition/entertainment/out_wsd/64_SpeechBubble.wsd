@@ -1,0 +1,4 @@
+@startuml
+SpeechBubble *-- Panel : composition
+Comic *-- Panel : composition
+@enduml

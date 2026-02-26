@@ -1,0 +1,4 @@
+@startuml
+PlasticBottle o-- Bin : aggregation
+Garage o-- Bin : aggregation
+@enduml

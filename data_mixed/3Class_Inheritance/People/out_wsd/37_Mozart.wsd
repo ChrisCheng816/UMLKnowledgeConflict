@@ -1,0 +1,4 @@
+@startuml
+Musician <|-- Composer : inheritance
+Mozart <|-- Composer : inheritance
+@enduml

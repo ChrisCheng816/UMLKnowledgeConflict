@@ -1,0 +1,4 @@
+@startuml
+City o-- State : aggregation
+Country o-- State : aggregation
+@enduml

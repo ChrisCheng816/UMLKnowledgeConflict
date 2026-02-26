@@ -1,0 +1,4 @@
+@startuml
+Treasurer o-- Board : aggregation
+University o-- Board : aggregation
+@enduml

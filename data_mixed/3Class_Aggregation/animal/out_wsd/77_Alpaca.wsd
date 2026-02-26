@@ -1,0 +1,4 @@
+@startuml
+Alpaca o-- Enclosure : aggregation
+Reserve o-- Enclosure : aggregation
+@enduml

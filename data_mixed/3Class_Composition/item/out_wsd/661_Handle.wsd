@@ -1,0 +1,4 @@
+@startuml
+Handle *-- Head : composition
+Axe *-- Head : composition
+@enduml

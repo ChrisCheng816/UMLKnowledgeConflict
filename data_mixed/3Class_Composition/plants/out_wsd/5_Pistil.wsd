@@ -1,0 +1,4 @@
+@startuml
+Pistil *-- Flower : composition
+Rose *-- Flower : composition
+@enduml

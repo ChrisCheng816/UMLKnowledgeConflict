@@ -1,0 +1,4 @@
+@startuml
+Sugar o-- Jar : aggregation
+Kitchen o-- Jar : aggregation
+@enduml

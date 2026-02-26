@@ -1,0 +1,4 @@
+@startuml
+Spring *-- Door : composition
+Microwave *-- Door : composition
+@enduml

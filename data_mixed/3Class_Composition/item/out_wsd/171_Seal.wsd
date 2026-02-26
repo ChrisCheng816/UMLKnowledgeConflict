@@ -1,0 +1,4 @@
+@startuml
+Seal *-- Window : composition
+House *-- Window : composition
+@enduml

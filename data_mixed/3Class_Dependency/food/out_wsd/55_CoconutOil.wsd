@@ -1,0 +1,4 @@
+@startuml
+Coconut ..> CoconutPalm : dependency
+Coconut ..> CoconutOil : dependency
+@enduml

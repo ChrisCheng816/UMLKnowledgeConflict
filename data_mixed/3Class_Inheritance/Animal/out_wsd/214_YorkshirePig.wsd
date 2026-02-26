@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Pig : inheritance
+YorkshirePig <|-- Pig : inheritance
+@enduml

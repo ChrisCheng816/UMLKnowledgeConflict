@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- Rake : inheritance
+LeafRake <|-- Rake : inheritance
+@enduml

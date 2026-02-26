@@ -1,0 +1,4 @@
+@startuml
+Dolphin o-- Tank : aggregation
+Aquarium o-- Tank : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GeopoliticalEntity <|-- Country : inheritance
+Maldives <|-- Country : inheritance
+@enduml

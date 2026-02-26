@@ -1,0 +1,4 @@
+@startuml
+Spotify ..> Internet : dependency
+Spotify ..> Downloading : dependency
+@enduml

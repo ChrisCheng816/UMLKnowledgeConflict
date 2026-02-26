@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Shrub : inheritance
+RoseBush <|-- Shrub : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+TabletWithLTE ..> CellularNetwork : dependency
+TabletWithLTE ..> MobileInternet : dependency
+@enduml

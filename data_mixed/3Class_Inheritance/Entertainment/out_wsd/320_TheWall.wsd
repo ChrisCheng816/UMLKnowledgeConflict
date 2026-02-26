@@ -1,0 +1,4 @@
+@startuml
+MusicWork <|-- Album : inheritance
+TheWall <|-- Album : inheritance
+@enduml

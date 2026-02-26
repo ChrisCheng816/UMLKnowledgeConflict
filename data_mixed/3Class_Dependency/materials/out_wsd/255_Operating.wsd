@@ -1,0 +1,4 @@
+@startuml
+SmartThermostat ..> Electricity : dependency
+SmartThermostat ..> Operating : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Mechanic o-- Department : aggregation
+Factory o-- Department : aggregation
+@enduml

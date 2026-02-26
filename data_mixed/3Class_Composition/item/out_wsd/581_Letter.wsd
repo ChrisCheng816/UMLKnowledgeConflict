@@ -1,0 +1,4 @@
+@startuml
+Letter *-- Syllable : composition
+Word *-- Syllable : composition
+@enduml

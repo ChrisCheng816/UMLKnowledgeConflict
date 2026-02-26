@@ -1,0 +1,4 @@
+@startuml
+Cyclist o-- Club : aggregation
+School o-- Club : aggregation
+@enduml

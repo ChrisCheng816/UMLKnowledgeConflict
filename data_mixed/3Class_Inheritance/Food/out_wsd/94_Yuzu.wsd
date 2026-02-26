@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- CitrusFruit : inheritance
+Yuzu <|-- CitrusFruit : inheritance
+@enduml

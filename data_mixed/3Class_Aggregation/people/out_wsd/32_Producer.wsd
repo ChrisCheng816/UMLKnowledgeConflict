@@ -1,0 +1,4 @@
+@startuml
+Producer o-- Staff : aggregation
+Newsroom o-- Staff : aggregation
+@enduml

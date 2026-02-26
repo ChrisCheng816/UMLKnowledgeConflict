@@ -1,0 +1,4 @@
+@startuml
+Rubber *-- Core : composition
+Tennisball *-- Core : composition
+@enduml

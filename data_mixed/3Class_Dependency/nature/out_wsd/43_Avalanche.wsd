@@ -1,0 +1,4 @@
+@startuml
+Snowpack ..> SteepSlope : dependency
+Snowpack ..> Avalanche : dependency
+@enduml

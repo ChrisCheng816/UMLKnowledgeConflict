@@ -1,0 +1,4 @@
+@startuml
+Gearset *-- Transmission : composition
+Car *-- Transmission : composition
+@enduml

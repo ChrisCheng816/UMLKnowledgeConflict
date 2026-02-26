@@ -1,0 +1,4 @@
+@startuml
+InventoryShipment ..> DeliveryTruck : dependency
+InventoryShipment ..> WeldingSupplyStore : dependency
+@enduml

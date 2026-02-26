@@ -1,0 +1,4 @@
+@startuml
+Giraffe o-- Exhibit : aggregation
+Zoo o-- Exhibit : aggregation
+@enduml

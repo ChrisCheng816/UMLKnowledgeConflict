@@ -1,0 +1,4 @@
+@startuml
+Laser ..> Electricity : dependency
+Laser ..> Hologram : dependency
+@enduml

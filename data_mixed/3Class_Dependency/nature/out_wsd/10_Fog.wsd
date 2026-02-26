@@ -1,0 +1,4 @@
+@startuml
+HighHumidity ..> CoolAir : dependency
+HighHumidity ..> Fog : dependency
+@enduml

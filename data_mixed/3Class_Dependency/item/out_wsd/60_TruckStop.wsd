@@ -1,0 +1,4 @@
+@startuml
+FuelDeliveryTruck ..> FuelTerminal : dependency
+FuelDeliveryTruck ..> TruckStop : dependency
+@enduml

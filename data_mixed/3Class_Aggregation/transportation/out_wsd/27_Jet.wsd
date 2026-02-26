@@ -1,0 +1,4 @@
+@startuml
+Jet o-- Fleet : aggregation
+Airline o-- Fleet : aggregation
+@enduml

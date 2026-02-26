@@ -1,0 +1,4 @@
+@startuml
+Antelope o-- Herd : aggregation
+Reserve o-- Herd : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Comic <|-- Manga : inheritance
+DeathNote <|-- Manga : inheritance
+@enduml

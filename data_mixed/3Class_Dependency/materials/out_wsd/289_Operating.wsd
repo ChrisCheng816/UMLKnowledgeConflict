@@ -1,0 +1,4 @@
+@startuml
+GarmentSteamer ..> Electricity : dependency
+GarmentSteamer ..> Operating : dependency
+@enduml

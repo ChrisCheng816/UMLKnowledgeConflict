@@ -1,0 +1,4 @@
+@startuml
+Student o-- Department : aggregation
+University o-- Department : aggregation
+@enduml

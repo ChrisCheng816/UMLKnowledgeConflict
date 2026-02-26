@@ -1,0 +1,4 @@
+@startuml
+WindowLatch *-- Window : composition
+House *-- Window : composition
+@enduml

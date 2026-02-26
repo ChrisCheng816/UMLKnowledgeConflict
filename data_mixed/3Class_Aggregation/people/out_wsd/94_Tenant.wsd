@@ -1,0 +1,4 @@
+@startuml
+Tenant o-- TenantAssociation : aggregation
+ApartmentBuilding o-- TenantAssociation : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+YouTube ..> Internet : dependency
+YouTube ..> Learning : dependency
+@enduml

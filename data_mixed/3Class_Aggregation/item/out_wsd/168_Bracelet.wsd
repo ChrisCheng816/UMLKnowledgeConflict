@@ -1,0 +1,4 @@
+@startuml
+Bracelet o-- Drawer : aggregation
+Bedroom o-- Drawer : aggregation
+@enduml

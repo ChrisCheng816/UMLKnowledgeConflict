@@ -1,0 +1,4 @@
+@startuml
+WarmAir ..> Sunlight : dependency
+WarmAir ..> Thunderstorm : dependency
+@enduml

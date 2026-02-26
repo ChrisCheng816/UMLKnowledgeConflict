@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- Trowel : inheritance
+GardenTrowel <|-- Trowel : inheritance
+@enduml

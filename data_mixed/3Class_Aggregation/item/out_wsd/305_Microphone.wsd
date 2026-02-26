@@ -1,0 +1,4 @@
+@startuml
+Microphone o-- InstrumentRack : aggregation
+MusicStore o-- InstrumentRack : aggregation
+@enduml

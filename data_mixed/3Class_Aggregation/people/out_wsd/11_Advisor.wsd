@@ -1,0 +1,4 @@
+@startuml
+Advisor o-- Staff : aggregation
+University o-- Staff : aggregation
+@enduml

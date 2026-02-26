@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- GlueGun : inheritance
+HotGlueGun <|-- GlueGun : inheritance
+@enduml

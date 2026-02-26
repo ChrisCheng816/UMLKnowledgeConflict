@@ -1,0 +1,4 @@
+@startuml
+Hook *-- Beak : composition
+Eagle *-- Beak : composition
+@enduml

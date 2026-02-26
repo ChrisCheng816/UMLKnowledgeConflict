@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Archery : inheritance
+OlympicArchery <|-- Archery : inheritance
+@enduml

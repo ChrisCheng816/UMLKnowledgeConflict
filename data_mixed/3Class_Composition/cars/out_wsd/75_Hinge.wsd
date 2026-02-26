@@ -1,0 +1,4 @@
+@startuml
+Hinge *-- Hood : composition
+Car *-- Hood : composition
+@enduml

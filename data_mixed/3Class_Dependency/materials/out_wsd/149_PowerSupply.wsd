@@ -1,0 +1,4 @@
+@startuml
+PowerStrip ..> Electricity : dependency
+PowerStrip ..> PowerSupply : dependency
+@enduml

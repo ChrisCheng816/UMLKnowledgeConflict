@@ -1,0 +1,4 @@
+@startuml
+Sill *-- Window : composition
+House *-- Window : composition
+@enduml

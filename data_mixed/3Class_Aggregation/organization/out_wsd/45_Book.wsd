@@ -1,0 +1,4 @@
+@startuml
+Book o-- Collection : aggregation
+Publisher o-- Collection : aggregation
+@enduml

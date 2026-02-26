@@ -1,0 +1,4 @@
+@startuml
+Clove *-- Bulb : composition
+Garlic *-- Bulb : composition
+@enduml

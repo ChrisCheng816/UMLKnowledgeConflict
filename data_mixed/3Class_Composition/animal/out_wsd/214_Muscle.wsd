@@ -1,0 +1,4 @@
+@startuml
+Muscle *-- Trunk : composition
+Elephant *-- Trunk : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+EducationalInstitution <|-- University : inheritance
+VrijeUniversiteitAmsterdam <|-- University : inheritance
+@enduml

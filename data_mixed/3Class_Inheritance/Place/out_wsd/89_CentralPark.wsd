@@ -1,0 +1,4 @@
+@startuml
+Park <|-- UrbanPark : inheritance
+CentralPark <|-- UrbanPark : inheritance
+@enduml

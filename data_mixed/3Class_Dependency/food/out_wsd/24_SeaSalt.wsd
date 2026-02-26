@@ -1,0 +1,4 @@
+@startuml
+Salt ..> Sea : dependency
+Salt ..> SeaSalt : dependency
+@enduml

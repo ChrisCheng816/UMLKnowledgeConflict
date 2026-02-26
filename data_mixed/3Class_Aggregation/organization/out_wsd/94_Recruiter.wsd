@@ -1,0 +1,4 @@
+@startuml
+Recruiter o-- Department : aggregation
+Company o-- Department : aggregation
+@enduml

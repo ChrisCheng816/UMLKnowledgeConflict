@@ -1,0 +1,4 @@
+@startuml
+Deadbolt *-- Door : composition
+House *-- Door : composition
+@enduml

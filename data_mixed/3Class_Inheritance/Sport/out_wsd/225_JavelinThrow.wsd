@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Athletics : inheritance
+JavelinThrow <|-- Athletics : inheritance
+@enduml

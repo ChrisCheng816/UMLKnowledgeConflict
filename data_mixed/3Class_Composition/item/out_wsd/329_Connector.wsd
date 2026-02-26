@@ -1,0 +1,4 @@
+@startuml
+Connector *-- Memory : composition
+Desktop *-- Memory : composition
+@enduml

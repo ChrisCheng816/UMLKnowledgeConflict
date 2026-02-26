@@ -1,0 +1,4 @@
+@startuml
+WoodPellets ..> PelletSupplier : dependency
+WoodPellets ..> PelletStove : dependency
+@enduml

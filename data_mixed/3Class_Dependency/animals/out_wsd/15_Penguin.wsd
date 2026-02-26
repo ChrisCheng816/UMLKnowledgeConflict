@@ -1,0 +1,4 @@
+@startuml
+Krill ..> Plankton : dependency
+Krill ..> Penguin : dependency
+@enduml

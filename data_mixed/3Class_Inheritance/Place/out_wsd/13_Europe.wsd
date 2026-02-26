@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- Continent : inheritance
+Europe <|-- Continent : inheritance
+@enduml

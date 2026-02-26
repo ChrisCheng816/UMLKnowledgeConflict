@@ -1,0 +1,4 @@
+@startuml
+Rebar *-- Foundation : composition
+House *-- Foundation : composition
+@enduml

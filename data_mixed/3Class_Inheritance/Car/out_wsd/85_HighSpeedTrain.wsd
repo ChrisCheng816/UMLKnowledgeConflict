@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Train : inheritance
+HighSpeedTrain <|-- Train : inheritance
+@enduml

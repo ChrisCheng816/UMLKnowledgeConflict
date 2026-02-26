@@ -1,0 +1,4 @@
+@startuml
+Glue *-- Flap : composition
+Envelope *-- Flap : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Hammer o-- Shelf : aggregation
+Garage o-- Shelf : aggregation
+@enduml

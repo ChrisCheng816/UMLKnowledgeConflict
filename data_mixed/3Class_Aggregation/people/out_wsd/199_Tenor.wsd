@@ -1,0 +1,4 @@
+@startuml
+Tenor o-- Choir : aggregation
+University o-- Choir : aggregation
+@enduml

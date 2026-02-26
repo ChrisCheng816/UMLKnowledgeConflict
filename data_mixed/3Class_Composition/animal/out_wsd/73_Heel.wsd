@@ -1,0 +1,4 @@
+@startuml
+Heel *-- Foot : composition
+Person *-- Foot : composition
+@enduml

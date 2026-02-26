@@ -1,0 +1,4 @@
+@startuml
+Lightbulb o-- Bin : aggregation
+Garage o-- Bin : aggregation
+@enduml

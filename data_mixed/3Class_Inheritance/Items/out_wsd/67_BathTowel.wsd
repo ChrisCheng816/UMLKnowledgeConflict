@@ -1,0 +1,4 @@
+@startuml
+Linen <|-- Towel : inheritance
+BathTowel <|-- Towel : inheritance
+@enduml

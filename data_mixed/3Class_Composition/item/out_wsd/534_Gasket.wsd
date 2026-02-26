@@ -1,0 +1,4 @@
+@startuml
+Gasket *-- Lid : composition
+Jar *-- Lid : composition
+@enduml

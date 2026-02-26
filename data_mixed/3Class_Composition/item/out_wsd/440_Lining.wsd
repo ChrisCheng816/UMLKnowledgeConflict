@@ -1,0 +1,4 @@
+@startuml
+Lining *-- Shade : composition
+Lamp *-- Shade : composition
+@enduml

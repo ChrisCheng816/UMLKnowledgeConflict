@@ -1,0 +1,4 @@
+@startuml
+Mule o-- Stable : aggregation
+Ranch o-- Stable : aggregation
+@enduml

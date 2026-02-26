@@ -1,0 +1,4 @@
+@startuml
+Peg *-- Shelf : composition
+Cabinet *-- Shelf : composition
+@enduml

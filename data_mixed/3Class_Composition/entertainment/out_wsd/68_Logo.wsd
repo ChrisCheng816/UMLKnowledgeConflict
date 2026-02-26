@@ -1,0 +1,4 @@
+@startuml
+Logo *-- Masthead : composition
+Newspaper *-- Masthead : composition
+@enduml

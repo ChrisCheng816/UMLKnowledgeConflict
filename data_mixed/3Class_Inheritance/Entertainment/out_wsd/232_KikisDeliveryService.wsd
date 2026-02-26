@@ -1,0 +1,4 @@
+@startuml
+Film <|-- AnimatedFilm : inheritance
+KikisDeliveryService <|-- AnimatedFilm : inheritance
+@enduml

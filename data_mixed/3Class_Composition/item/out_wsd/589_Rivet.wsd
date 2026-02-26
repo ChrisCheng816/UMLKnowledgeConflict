@@ -1,0 +1,4 @@
+@startuml
+Rivet *-- Handle : composition
+Suitcase *-- Handle : composition
+@enduml

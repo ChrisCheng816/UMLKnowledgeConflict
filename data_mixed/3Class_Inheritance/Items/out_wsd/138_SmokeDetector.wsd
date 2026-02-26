@@ -1,0 +1,4 @@
+@startuml
+Device <|-- SafetyDevice : inheritance
+SmokeDetector <|-- SafetyDevice : inheritance
+@enduml

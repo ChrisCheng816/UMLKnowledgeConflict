@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Bedding : inheritance
+Blanket <|-- Bedding : inheritance
+@enduml

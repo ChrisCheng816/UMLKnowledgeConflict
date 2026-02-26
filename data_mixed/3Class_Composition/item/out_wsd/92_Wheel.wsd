@@ -1,0 +1,4 @@
+@startuml
+Wheel *-- Canister : composition
+Vacuum *-- Canister : composition
+@enduml

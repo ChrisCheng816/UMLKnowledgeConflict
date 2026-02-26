@@ -1,0 +1,4 @@
+@startuml
+Fluke *-- Tail : composition
+Whale *-- Tail : composition
+@enduml

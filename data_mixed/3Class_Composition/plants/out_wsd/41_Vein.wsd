@@ -1,0 +1,4 @@
+@startuml
+Vein *-- Blade : composition
+Leaf *-- Blade : composition
+@enduml

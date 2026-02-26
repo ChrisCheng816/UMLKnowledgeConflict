@@ -1,0 +1,4 @@
+@startuml
+Plumber o-- Department : aggregation
+Factory o-- Department : aggregation
+@enduml

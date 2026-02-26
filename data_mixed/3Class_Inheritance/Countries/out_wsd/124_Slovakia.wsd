@@ -1,0 +1,4 @@
+@startuml
+EuropeanCountry <|-- CentralEuropeanCountry : inheritance
+Slovakia <|-- CentralEuropeanCountry : inheritance
+@enduml

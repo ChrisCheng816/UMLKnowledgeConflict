@@ -1,0 +1,4 @@
+@startuml
+Vertebra *-- Tail : composition
+Cat *-- Tail : composition
+@enduml

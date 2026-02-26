@@ -1,0 +1,4 @@
+@startuml
+Game <|-- VideoGame : inheritance
+Terraria <|-- VideoGame : inheritance
+@enduml

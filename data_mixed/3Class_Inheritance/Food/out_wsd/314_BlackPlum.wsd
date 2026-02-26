@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Plum : inheritance
+BlackPlum <|-- Plum : inheritance
+@enduml

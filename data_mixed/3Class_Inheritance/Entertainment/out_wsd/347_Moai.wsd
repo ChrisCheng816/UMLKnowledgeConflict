@@ -1,0 +1,4 @@
+@startuml
+Artwork <|-- Sculpture : inheritance
+Moai <|-- Sculpture : inheritance
+@enduml

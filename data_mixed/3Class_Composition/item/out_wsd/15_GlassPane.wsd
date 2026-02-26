@@ -1,0 +1,4 @@
+@startuml
+GlassPane *-- Window : composition
+House *-- Window : composition
+@enduml

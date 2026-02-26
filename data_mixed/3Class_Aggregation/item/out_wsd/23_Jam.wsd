@@ -1,0 +1,4 @@
+@startuml
+Jam o-- Jar : aggregation
+Kitchen o-- Jar : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- IndividualSport : inheritance
+DiscGolf <|-- IndividualSport : inheritance
+@enduml

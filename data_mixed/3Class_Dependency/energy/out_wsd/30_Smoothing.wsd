@@ -1,0 +1,4 @@
+@startuml
+Sander ..> Electricity : dependency
+Sander ..> Smoothing : dependency
+@enduml

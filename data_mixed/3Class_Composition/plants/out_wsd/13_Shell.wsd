@@ -1,0 +1,4 @@
+@startuml
+Shell *-- Seed : composition
+Sunflower *-- Seed : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Atlas o-- Shelf : aggregation
+Library o-- Shelf : aggregation
+@enduml

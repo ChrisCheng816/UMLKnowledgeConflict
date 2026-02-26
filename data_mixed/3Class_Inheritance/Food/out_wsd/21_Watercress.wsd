@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- LeafyVegetable : inheritance
+Watercress <|-- LeafyVegetable : inheritance
+@enduml

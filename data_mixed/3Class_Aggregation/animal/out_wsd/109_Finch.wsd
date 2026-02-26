@@ -1,0 +1,4 @@
+@startuml
+Finch o-- Aviary : aggregation
+Reserve o-- Aviary : aggregation
+@enduml

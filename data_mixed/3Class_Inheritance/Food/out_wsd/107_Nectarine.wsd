@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- StoneFruit : inheritance
+Nectarine <|-- StoneFruit : inheritance
+@enduml

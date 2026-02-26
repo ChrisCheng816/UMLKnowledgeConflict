@@ -1,0 +1,4 @@
+@startuml
+Skater o-- Club : aggregation
+School o-- Club : aggregation
+@enduml

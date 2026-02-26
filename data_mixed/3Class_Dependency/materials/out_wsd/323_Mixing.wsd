@@ -1,0 +1,4 @@
+@startuml
+MixerBoard ..> Electricity : dependency
+MixerBoard ..> Mixing : dependency
+@enduml

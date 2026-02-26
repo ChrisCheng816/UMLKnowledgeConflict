@@ -1,0 +1,4 @@
+@startuml
+Vent *-- Dashboard : composition
+Car *-- Dashboard : composition
+@enduml

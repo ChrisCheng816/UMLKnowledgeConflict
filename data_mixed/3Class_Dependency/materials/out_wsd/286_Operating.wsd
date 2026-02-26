@@ -1,0 +1,4 @@
+@startuml
+VendingMachine ..> Electricity : dependency
+VendingMachine ..> Operating : dependency
+@enduml

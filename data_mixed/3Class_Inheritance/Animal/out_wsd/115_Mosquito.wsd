@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Insect : inheritance
+Mosquito <|-- Insect : inheritance
+@enduml

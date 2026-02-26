@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Sunflower : inheritance
+CommonSunflower <|-- Sunflower : inheritance
+@enduml

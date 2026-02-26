@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Tomato : inheritance
+RomaTomato <|-- Tomato : inheritance
+@enduml

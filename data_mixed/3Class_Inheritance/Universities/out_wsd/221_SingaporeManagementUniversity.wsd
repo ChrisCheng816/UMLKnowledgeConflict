@@ -1,0 +1,4 @@
+@startuml
+EducationalInstitution <|-- University : inheritance
+SingaporeManagementUniversity <|-- University : inheritance
+@enduml

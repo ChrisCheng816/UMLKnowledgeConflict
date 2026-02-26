@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Fox : inheritance
+RedFox <|-- Fox : inheritance
+@enduml

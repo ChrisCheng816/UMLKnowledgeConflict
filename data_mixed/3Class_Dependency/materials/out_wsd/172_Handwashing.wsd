@@ -1,0 +1,4 @@
+@startuml
+SinkFaucet ..> TapWater : dependency
+SinkFaucet ..> Handwashing : dependency
+@enduml

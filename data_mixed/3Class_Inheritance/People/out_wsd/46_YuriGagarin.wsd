@@ -1,0 +1,4 @@
+@startuml
+Explorer <|-- Cosmonaut : inheritance
+YuriGagarin <|-- Cosmonaut : inheritance
+@enduml

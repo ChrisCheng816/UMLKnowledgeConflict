@@ -1,0 +1,4 @@
+@startuml
+Gasket *-- Door : composition
+Microwave *-- Door : composition
+@enduml

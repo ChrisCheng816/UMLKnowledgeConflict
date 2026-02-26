@@ -1,0 +1,4 @@
+@startuml
+Seagrass ..> Sunlight : dependency
+Seagrass ..> SeaTurtle : dependency
+@enduml

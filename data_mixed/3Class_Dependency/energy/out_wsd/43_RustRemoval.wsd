@@ -1,0 +1,4 @@
+@startuml
+AngleGrinder ..> Electricity : dependency
+AngleGrinder ..> RustRemoval : dependency
+@enduml

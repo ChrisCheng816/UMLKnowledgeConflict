@@ -1,0 +1,4 @@
+@startuml
+Salamander o-- Enclosure : aggregation
+Sanctuary o-- Enclosure : aggregation
+@enduml

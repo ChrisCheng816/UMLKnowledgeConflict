@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Eagle : inheritance
+BaldEagle <|-- Eagle : inheritance
+@enduml

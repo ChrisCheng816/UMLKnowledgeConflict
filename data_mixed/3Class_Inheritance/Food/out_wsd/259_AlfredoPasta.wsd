@@ -1,0 +1,4 @@
+@startuml
+Food <|-- PastaDish : inheritance
+AlfredoPasta <|-- PastaDish : inheritance
+@enduml

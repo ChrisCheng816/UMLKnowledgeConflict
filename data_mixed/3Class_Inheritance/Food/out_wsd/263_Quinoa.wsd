@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Grain : inheritance
+Quinoa <|-- Grain : inheritance
+@enduml

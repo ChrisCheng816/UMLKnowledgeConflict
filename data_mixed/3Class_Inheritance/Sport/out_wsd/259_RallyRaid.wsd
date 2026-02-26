@@ -1,0 +1,4 @@
+@startuml
+MotorSport <|-- Rallying : inheritance
+RallyRaid <|-- Rallying : inheritance
+@enduml

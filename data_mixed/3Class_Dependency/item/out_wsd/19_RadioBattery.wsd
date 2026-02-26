@@ -1,0 +1,4 @@
+@startuml
+BatteryCharger ..> WallOutlet : dependency
+BatteryCharger ..> RadioBattery : dependency
+@enduml

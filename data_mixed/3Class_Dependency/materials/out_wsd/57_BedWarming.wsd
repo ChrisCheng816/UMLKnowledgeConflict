@@ -1,0 +1,4 @@
+@startuml
+ElectricBlanket ..> Electricity : dependency
+ElectricBlanket ..> BedWarming : dependency
+@enduml

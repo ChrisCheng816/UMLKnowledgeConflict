@@ -1,0 +1,4 @@
+@startuml
+Facebook ..> Internet : dependency
+Facebook ..> Posting : dependency
+@enduml

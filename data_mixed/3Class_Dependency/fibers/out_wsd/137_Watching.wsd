@@ -1,0 +1,4 @@
+@startuml
+Hulu ..> Internet : dependency
+Hulu ..> Watching : dependency
+@enduml

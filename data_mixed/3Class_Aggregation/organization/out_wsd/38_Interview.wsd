@@ -1,0 +1,4 @@
+@startuml
+Interview o-- Archive : aggregation
+NewsSite o-- Archive : aggregation
+@enduml

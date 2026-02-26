@@ -1,0 +1,4 @@
+@startuml
+Pulp *-- Fruit : composition
+Apple *-- Fruit : composition
+@enduml

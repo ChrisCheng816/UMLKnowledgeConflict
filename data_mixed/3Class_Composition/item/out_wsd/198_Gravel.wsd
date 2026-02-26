@@ -1,0 +1,4 @@
+@startuml
+Gravel *-- Foundation : composition
+House *-- Foundation : composition
+@enduml

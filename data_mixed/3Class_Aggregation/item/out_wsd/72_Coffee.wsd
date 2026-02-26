@@ -1,0 +1,4 @@
+@startuml
+Coffee o-- Bottle : aggregation
+Cafe o-- Bottle : aggregation
+@enduml

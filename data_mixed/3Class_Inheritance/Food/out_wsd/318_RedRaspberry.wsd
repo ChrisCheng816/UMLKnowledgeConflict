@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Raspberry : inheritance
+RedRaspberry <|-- Raspberry : inheritance
+@enduml

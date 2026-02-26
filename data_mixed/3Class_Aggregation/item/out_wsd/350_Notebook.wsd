@@ -1,0 +1,4 @@
+@startuml
+Notebook o-- Crate : aggregation
+Warehouse o-- Crate : aggregation
+@enduml

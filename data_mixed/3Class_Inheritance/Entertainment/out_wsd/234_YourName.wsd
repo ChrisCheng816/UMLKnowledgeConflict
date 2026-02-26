@@ -1,0 +1,4 @@
+@startuml
+Film <|-- AnimatedFilm : inheritance
+YourName <|-- AnimatedFilm : inheritance
+@enduml

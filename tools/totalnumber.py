@@ -46,10 +46,10 @@ def print_counts_for_root(root_dir: Path, target_name: str, split_label: str, de
         return
 
     files = count_files(root_dir, target_name)
-    # Forward-side instances.jsonl exists at both:
+    # Forward/mixed-side instances.jsonl exists at both:
     # 1) group root (merged total) and 2) subgroup folders (per-category).
     # Keep only subgroup files to avoid double-counting merged totals.
-    if split_label == "forward" and target_name == "instances.jsonl":
+    if split_label in {"forward", "mixed"} and target_name == "instances.jsonl":
         files = [
             p for p in files
             if not re.match(r"^[23]Class_", p.parent.name)
@@ -157,14 +157,14 @@ def main() -> None:
     parser.add_argument(
         "--target",
         default=DEFAULT_TARGET_NAME,
-        help="Default target filename for non-forward splits.",
+        help="Default target filename for non-forward/mixed splits.",
     )
     parser.add_argument(
         "--splits",
         nargs="+",
-        choices=["forward", "reverse"],
-        default=["reverse", "forward"],
-        help="Dataset splits to print. Default: reverse forward",
+        choices=["forward", "reverse", "mixed"],
+        default=["reverse", "forward", "mixed"],
+        help="Dataset splits to print. Default: reverse forward mixed",
     )
     parser.add_argument(
         "--details",
@@ -178,7 +178,7 @@ def main() -> None:
 
     for split in args.splits:
         split_root = resolve_split_root(base_root, split)
-        target_name = "instances.jsonl" if split == "forward" else args.target
+        target_name = "instances.jsonl" if split in {"forward", "mixed"} else args.target
         print_counts_for_root(split_root, target_name, split_label=split, details=args.details)
         image_split_root = resolve_split_root(images_root, split)
         print_png_counts_for_root(image_split_root, split_label=split, details=args.details)

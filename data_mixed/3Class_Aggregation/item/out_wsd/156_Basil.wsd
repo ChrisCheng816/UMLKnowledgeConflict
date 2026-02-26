@@ -1,0 +1,4 @@
+@startuml
+Basil o-- Jar : aggregation
+Pantry o-- Jar : aggregation
+@enduml

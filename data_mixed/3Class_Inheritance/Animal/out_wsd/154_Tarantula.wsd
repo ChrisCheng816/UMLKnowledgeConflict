@@ -1,0 +1,4 @@
+@startuml
+Arachnid <|-- Spider : inheritance
+Tarantula <|-- Spider : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Drill ..> Electricity : dependency
+Drill ..> ShelfAssembly : dependency
+@enduml

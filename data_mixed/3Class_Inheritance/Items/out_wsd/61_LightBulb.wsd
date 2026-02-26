@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Bulb : inheritance
+LightBulb <|-- Bulb : inheritance
+@enduml

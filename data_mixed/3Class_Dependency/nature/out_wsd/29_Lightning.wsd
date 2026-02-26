@@ -1,0 +1,4 @@
+@startuml
+Thundercloud ..> StormSystem : dependency
+Thundercloud ..> Lightning : dependency
+@enduml

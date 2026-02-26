@@ -1,0 +1,4 @@
+@startuml
+Parcel o-- Depot : aggregation
+PostalSystem o-- Depot : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Gymnastics : inheritance
+TrampolineGymnastics <|-- Gymnastics : inheritance
+@enduml

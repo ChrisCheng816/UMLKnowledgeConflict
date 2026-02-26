@@ -1,0 +1,4 @@
+@startuml
+Country <|-- Republic : inheritance
+Portugal <|-- Republic : inheritance
+@enduml

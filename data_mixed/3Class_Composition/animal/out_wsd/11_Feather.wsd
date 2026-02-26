@@ -1,0 +1,4 @@
+@startuml
+Feather *-- Tail : composition
+Peacock *-- Tail : composition
+@enduml

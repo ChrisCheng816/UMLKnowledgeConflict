@@ -1,0 +1,4 @@
+@startuml
+Heel *-- Hoof : composition
+Horse *-- Hoof : composition
+@enduml

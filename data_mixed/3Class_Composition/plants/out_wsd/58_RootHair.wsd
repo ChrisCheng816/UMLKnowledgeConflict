@@ -1,0 +1,4 @@
+@startuml
+RootHair *-- Root : composition
+Tree *-- Root : composition
+@enduml

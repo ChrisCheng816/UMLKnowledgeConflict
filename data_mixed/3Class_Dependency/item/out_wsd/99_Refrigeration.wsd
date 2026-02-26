@@ -1,0 +1,4 @@
+@startuml
+Refrigerator ..> WallOutlet : dependency
+Refrigerator ..> Refrigeration : dependency
+@enduml

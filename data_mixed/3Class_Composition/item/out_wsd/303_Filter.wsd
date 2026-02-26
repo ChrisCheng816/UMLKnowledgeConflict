@@ -1,0 +1,4 @@
+@startuml
+Filter *-- CameraModule : composition
+Phone *-- CameraModule : composition
+@enduml

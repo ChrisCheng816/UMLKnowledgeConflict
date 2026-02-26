@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- PowerTool : inheritance
+HeatGun <|-- PowerTool : inheritance
+@enduml

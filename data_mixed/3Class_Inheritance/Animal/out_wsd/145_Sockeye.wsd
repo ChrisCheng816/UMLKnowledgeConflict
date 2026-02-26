@@ -1,0 +1,4 @@
+@startuml
+Fish <|-- Salmon : inheritance
+Sockeye <|-- Salmon : inheritance
+@enduml

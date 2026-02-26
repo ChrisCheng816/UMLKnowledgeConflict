@@ -1,0 +1,4 @@
+@startuml
+Charger ..> Socket : dependency
+Charger ..> Smartphone : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Dish : inheritance
+Burrito <|-- Dish : inheritance
+@enduml

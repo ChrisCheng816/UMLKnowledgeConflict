@@ -1,0 +1,4 @@
+@startuml
+Art <|-- Artwork : inheritance
+Sculpture <|-- Artwork : inheritance
+@enduml

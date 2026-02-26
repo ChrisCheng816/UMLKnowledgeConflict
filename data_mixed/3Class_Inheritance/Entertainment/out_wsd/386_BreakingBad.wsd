@@ -1,0 +1,4 @@
+@startuml
+Television <|-- CrimeSeries : inheritance
+BreakingBad <|-- CrimeSeries : inheritance
+@enduml

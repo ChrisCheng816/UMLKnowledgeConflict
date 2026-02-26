@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- AlliumVegetable : inheritance
+Scallion <|-- AlliumVegetable : inheritance
+@enduml

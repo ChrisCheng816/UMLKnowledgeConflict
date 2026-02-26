@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Utensil : inheritance
+Fork <|-- Utensil : inheritance
+@enduml

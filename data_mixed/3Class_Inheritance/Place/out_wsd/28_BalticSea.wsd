@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- Sea : inheritance
+BalticSea <|-- Sea : inheritance
+@enduml

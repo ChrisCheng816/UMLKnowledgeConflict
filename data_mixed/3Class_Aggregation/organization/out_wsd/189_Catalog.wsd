@@ -1,0 +1,4 @@
+@startuml
+Catalog o-- Shelf : aggregation
+Library o-- Shelf : aggregation
+@enduml

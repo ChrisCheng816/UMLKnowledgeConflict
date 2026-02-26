@@ -1,0 +1,4 @@
+@startuml
+Gear *-- Hand : composition
+Clock *-- Hand : composition
+@enduml

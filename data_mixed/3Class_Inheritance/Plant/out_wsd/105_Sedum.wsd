@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Succulent : inheritance
+Sedum <|-- Succulent : inheritance
+@enduml

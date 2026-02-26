@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- TVSeries : inheritance
+TheSimpsons <|-- TVSeries : inheritance
+@enduml

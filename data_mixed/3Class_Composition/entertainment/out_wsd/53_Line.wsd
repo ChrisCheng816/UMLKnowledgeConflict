@@ -1,0 +1,4 @@
+@startuml
+Line *-- Page : composition
+Book *-- Page : composition
+@enduml

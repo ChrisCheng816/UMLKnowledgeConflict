@@ -1,0 +1,4 @@
+@startuml
+HotGlueGun ..> Electricity : dependency
+HotGlueGun ..> Repairing : dependency
+@enduml

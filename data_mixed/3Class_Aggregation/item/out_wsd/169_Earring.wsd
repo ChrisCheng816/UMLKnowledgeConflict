@@ -1,0 +1,4 @@
+@startuml
+Earring o-- Drawer : aggregation
+Bedroom o-- Drawer : aggregation
+@enduml

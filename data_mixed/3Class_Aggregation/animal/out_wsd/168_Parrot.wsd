@@ -1,0 +1,4 @@
+@startuml
+Parrot o-- Exhibit : aggregation
+Aviary o-- Exhibit : aggregation
+@enduml

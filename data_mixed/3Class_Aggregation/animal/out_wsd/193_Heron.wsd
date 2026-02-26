@@ -1,0 +1,4 @@
+@startuml
+Heron o-- Flock : aggregation
+Sanctuary o-- Flock : aggregation
+@enduml

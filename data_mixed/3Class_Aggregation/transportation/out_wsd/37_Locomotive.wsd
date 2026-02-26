@@ -1,0 +1,4 @@
+@startuml
+Locomotive o-- Fleet : aggregation
+TrainDepot o-- Fleet : aggregation
+@enduml

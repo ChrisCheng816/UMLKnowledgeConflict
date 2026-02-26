@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Corn : inheritance
+SweetCorn <|-- Corn : inheritance
+@enduml

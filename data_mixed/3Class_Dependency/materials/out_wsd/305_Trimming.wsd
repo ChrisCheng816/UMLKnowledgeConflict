@@ -1,0 +1,4 @@
+@startuml
+HedgeTrimmer ..> Electricity : dependency
+HedgeTrimmer ..> Trimming : dependency
+@enduml

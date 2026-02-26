@@ -1,0 +1,4 @@
+@startuml
+Activist <|-- FreedomFighter : inheritance
+NelsonMandela <|-- FreedomFighter : inheritance
+@enduml

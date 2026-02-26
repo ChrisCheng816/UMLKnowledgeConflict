@@ -1,0 +1,4 @@
+@startuml
+Salsa o-- Jar : aggregation
+Pantry o-- Jar : aggregation
+@enduml

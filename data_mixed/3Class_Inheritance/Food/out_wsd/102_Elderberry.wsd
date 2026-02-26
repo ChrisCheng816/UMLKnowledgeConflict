@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Berry : inheritance
+Elderberry <|-- Berry : inheritance
+@enduml

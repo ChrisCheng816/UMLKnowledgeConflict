@@ -1,0 +1,4 @@
+@startuml
+Headphone o-- InstrumentRack : aggregation
+MusicStore o-- InstrumentRack : aggregation
+@enduml

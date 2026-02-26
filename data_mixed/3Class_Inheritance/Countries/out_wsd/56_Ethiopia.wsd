@@ -1,0 +1,4 @@
+@startuml
+GeopoliticalEntity <|-- Country : inheritance
+Ethiopia <|-- Country : inheritance
+@enduml

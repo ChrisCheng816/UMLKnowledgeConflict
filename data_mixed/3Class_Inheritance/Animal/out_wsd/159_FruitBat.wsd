@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Bat : inheritance
+FruitBat <|-- Bat : inheritance
+@enduml

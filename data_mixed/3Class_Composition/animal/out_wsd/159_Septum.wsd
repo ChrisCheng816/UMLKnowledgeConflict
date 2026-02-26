@@ -1,0 +1,4 @@
+@startuml
+Septum *-- Nose : composition
+Person *-- Nose : composition
+@enduml

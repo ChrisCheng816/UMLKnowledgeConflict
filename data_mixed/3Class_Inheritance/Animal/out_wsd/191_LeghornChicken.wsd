@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Chicken : inheritance
+LeghornChicken <|-- Chicken : inheritance
+@enduml

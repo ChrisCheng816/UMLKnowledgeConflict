@@ -1,0 +1,4 @@
+@startuml
+Hippo o-- Enclosure : aggregation
+Zoo o-- Enclosure : aggregation
+@enduml

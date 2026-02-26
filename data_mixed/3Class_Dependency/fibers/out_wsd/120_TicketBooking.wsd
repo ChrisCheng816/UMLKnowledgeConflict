@@ -1,0 +1,4 @@
+@startuml
+App ..> Internet : dependency
+App ..> TicketBooking : dependency
+@enduml

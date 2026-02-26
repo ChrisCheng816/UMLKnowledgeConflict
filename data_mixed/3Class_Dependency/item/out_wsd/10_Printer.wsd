@@ -1,0 +1,4 @@
+@startuml
+PowerCord ..> WallOutlet : dependency
+PowerCord ..> Printer : dependency
+@enduml

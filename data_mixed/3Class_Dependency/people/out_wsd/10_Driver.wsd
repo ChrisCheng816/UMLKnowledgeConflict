@@ -1,0 +1,4 @@
+@startuml
+Car ..> Gasoline : dependency
+Car ..> Driver : dependency
+@enduml

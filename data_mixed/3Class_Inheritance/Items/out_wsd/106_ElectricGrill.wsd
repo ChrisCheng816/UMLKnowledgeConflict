@@ -1,0 +1,4 @@
+@startuml
+Appliance <|-- Grill : inheritance
+ElectricGrill <|-- Grill : inheritance
+@enduml

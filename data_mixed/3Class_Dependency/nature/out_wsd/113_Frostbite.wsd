@@ -1,0 +1,4 @@
+@startuml
+ColdAir ..> LowTemperature : dependency
+ColdAir ..> Frostbite : dependency
+@enduml

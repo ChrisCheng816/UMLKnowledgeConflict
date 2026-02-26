@@ -1,0 +1,4 @@
+@startuml
+Celery ..> CeleryPlant : dependency
+Celery ..> CelerySoup : dependency
+@enduml

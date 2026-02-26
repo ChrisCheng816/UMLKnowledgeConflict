@@ -1,0 +1,4 @@
+@startuml
+Rattle *-- Tail : composition
+Rattlesnake *-- Tail : composition
+@enduml

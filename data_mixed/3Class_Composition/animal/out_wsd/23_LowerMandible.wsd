@@ -1,0 +1,4 @@
+@startuml
+LowerMandible *-- Beak : composition
+Eagle *-- Beak : composition
+@enduml

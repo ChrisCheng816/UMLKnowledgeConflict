@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Spinach : inheritance
+BabySpinach <|-- Spinach : inheritance
+@enduml

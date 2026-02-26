@@ -1,0 +1,4 @@
+@startuml
+Clutch *-- Transmission : composition
+Car *-- Transmission : composition
+@enduml

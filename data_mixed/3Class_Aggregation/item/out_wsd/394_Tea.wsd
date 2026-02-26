@@ -1,0 +1,4 @@
+@startuml
+Tea o-- Menu : aggregation
+Cafe o-- Menu : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Screwdriver o-- Toolbox : aggregation
+Garage o-- Toolbox : aggregation
+@enduml

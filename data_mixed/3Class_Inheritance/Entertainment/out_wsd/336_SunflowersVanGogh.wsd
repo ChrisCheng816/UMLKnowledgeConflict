@@ -1,0 +1,4 @@
+@startuml
+Artwork <|-- Painting : inheritance
+SunflowersVanGogh <|-- Painting : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Nylon ..> Petroleum : dependency
+Nylon ..> NylonWeaving : dependency
+@enduml

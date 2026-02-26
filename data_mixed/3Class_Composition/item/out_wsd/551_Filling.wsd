@@ -1,0 +1,4 @@
+@startuml
+Filling *-- Pillow : composition
+Bed *-- Pillow : composition
+@enduml

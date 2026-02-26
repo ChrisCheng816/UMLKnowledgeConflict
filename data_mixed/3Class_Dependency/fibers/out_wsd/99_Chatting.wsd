@@ -1,0 +1,4 @@
+@startuml
+Telegram ..> Internet : dependency
+Telegram ..> Chatting : dependency
+@enduml

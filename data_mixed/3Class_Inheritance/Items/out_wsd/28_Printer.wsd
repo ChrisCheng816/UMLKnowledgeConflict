@@ -1,0 +1,4 @@
+@startuml
+Item <|-- OfficeEquipment : inheritance
+Printer <|-- OfficeEquipment : inheritance
+@enduml

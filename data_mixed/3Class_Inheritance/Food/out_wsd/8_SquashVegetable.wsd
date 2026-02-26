@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Vegetable : inheritance
+SquashVegetable <|-- Vegetable : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+CircularSaw ..> Electricity : dependency
+CircularSaw ..> DeckBuilding : dependency
+@enduml

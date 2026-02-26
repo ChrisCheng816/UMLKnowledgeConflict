@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- StrategyGame : inheritance
+StarCraft <|-- StrategyGame : inheritance
+@enduml

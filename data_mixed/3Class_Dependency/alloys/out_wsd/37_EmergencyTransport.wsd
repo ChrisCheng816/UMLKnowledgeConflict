@@ -1,0 +1,4 @@
+@startuml
+Helicopter ..> JetFuel : dependency
+Helicopter ..> EmergencyTransport : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Screw *-- Stand : composition
+Monitor *-- Stand : composition
+@enduml

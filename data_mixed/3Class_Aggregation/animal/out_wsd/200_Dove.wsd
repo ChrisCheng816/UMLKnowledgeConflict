@@ -1,0 +1,4 @@
+@startuml
+Dove o-- Flock : aggregation
+Reserve o-- Flock : aggregation
+@enduml

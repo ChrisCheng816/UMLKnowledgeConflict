@@ -1,0 +1,4 @@
+@startuml
+Fish <|-- Cod : inheritance
+PacificCod <|-- Cod : inheritance
+@enduml

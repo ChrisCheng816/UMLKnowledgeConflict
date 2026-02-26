@@ -1,0 +1,4 @@
+@startuml
+Blade *-- Wiper : composition
+Car *-- Wiper : composition
+@enduml

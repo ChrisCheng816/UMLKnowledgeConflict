@@ -1,0 +1,4 @@
+@startuml
+Joist *-- Attic : composition
+House *-- Attic : composition
+@enduml

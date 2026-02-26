@@ -1,0 +1,4 @@
+@startuml
+Valve *-- PlumbingSystem : composition
+House *-- PlumbingSystem : composition
+@enduml

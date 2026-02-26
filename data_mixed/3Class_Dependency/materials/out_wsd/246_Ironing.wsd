@@ -1,0 +1,4 @@
+@startuml
+SteamIron ..> Electricity : dependency
+SteamIron ..> Ironing : dependency
+@enduml

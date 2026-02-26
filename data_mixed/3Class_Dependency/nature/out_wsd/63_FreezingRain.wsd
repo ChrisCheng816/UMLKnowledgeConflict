@@ -1,0 +1,4 @@
+@startuml
+ColdAirMass ..> PolarAir : dependency
+ColdAirMass ..> FreezingRain : dependency
+@enduml

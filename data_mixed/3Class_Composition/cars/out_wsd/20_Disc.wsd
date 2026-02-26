@@ -1,0 +1,4 @@
+@startuml
+Disc *-- Brake : composition
+Car *-- Brake : composition
+@enduml

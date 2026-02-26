@@ -1,0 +1,4 @@
+@startuml
+Utensil <|-- Knife : inheritance
+ChefKnife <|-- Knife : inheritance
+@enduml

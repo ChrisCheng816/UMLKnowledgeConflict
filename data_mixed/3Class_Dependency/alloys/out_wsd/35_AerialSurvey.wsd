@@ -1,0 +1,4 @@
+@startuml
+Helicopter ..> JetFuel : dependency
+Helicopter ..> AerialSurvey : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Mammal : inheritance
+GiantPanda <|-- Mammal : inheritance
+@enduml

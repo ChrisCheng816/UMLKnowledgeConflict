@@ -1,0 +1,4 @@
+@startuml
+GeopoliticalEntity <|-- Country : inheritance
+Cameroon <|-- Country : inheritance
+@enduml

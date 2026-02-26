@@ -1,0 +1,4 @@
+@startuml
+Cable *-- Touchpad : composition
+Laptop *-- Touchpad : composition
+@enduml

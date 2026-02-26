@@ -1,0 +1,4 @@
+@startuml
+HeatingPad ..> Electricity : dependency
+HeatingPad ..> Operating : dependency
+@enduml

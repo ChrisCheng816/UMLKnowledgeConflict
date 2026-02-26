@@ -1,0 +1,4 @@
+@startuml
+Gum *-- Mouth : composition
+Person *-- Mouth : composition
+@enduml

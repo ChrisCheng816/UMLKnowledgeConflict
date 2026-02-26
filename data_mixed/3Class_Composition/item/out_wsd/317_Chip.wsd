@@ -1,0 +1,4 @@
+@startuml
+Chip *-- Motherboard : composition
+Desktop *-- Motherboard : composition
+@enduml

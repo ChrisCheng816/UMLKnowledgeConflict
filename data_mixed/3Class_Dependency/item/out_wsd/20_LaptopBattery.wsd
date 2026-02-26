@@ -1,0 +1,4 @@
+@startuml
+LaptopCharger ..> WallOutlet : dependency
+LaptopCharger ..> LaptopBattery : dependency
+@enduml

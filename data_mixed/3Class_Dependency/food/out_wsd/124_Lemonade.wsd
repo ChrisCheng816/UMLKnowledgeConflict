@@ -1,0 +1,4 @@
+@startuml
+Lemon ..> LemonTree : dependency
+Lemon ..> Lemonade : dependency
+@enduml

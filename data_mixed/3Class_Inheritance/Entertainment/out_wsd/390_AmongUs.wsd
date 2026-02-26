@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- PartyGame : inheritance
+AmongUs <|-- PartyGame : inheritance
+@enduml

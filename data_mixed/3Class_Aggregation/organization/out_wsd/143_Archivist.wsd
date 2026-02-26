@@ -1,0 +1,4 @@
+@startuml
+Archivist o-- Staff : aggregation
+Library o-- Staff : aggregation
+@enduml

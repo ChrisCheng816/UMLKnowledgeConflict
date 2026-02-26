@@ -1,0 +1,4 @@
+@startuml
+BalanceCharger ..> WallOutlet : dependency
+BalanceCharger ..> DroneBattery : dependency
+@enduml

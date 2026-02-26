@@ -1,0 +1,4 @@
+@startuml
+Germ *-- Kernel : composition
+PumpkinSeed *-- Kernel : composition
+@enduml

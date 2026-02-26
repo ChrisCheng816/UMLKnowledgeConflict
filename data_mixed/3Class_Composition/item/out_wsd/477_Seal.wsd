@@ -1,0 +1,4 @@
+@startuml
+Seal *-- Lid : composition
+Trashcan *-- Lid : composition
+@enduml

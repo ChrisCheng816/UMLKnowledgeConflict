@@ -1,0 +1,4 @@
+@startuml
+Switch *-- Base : composition
+Lamp *-- Base : composition
+@enduml

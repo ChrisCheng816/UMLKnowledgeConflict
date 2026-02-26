@@ -1,0 +1,4 @@
+@startuml
+GeopoliticalEntity <|-- Country : inheritance
+Georgia <|-- Country : inheritance
+@enduml

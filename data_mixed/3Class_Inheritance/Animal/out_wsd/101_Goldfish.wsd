@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Fish : inheritance
+Goldfish <|-- Fish : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Treasurer o-- Council : aggregation
+Neighborhood o-- Council : aggregation
+@enduml

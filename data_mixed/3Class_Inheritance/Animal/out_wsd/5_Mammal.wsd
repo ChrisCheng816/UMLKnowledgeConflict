@@ -1,0 +1,4 @@
+@startuml
+Organism <|-- Animal : inheritance
+Mammal <|-- Animal : inheritance
+@enduml

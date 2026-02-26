@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- Lake : inheritance
+LakeOntario <|-- Lake : inheritance
+@enduml

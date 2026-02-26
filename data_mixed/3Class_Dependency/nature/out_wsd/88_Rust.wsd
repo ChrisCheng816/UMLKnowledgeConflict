@@ -1,0 +1,4 @@
+@startuml
+Moisture ..> Water : dependency
+Moisture ..> Rust : dependency
+@enduml

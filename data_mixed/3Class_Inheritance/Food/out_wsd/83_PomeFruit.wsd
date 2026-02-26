@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Fruit : inheritance
+PomeFruit <|-- Fruit : inheritance
+@enduml

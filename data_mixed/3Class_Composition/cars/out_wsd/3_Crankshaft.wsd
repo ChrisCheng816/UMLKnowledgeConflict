@@ -1,0 +1,4 @@
+@startuml
+Crankshaft *-- Engine : composition
+Car *-- Engine : composition
+@enduml

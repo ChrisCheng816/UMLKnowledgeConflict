@@ -1,0 +1,4 @@
+@startuml
+MicrowaveOven ..> Electricity : dependency
+MicrowaveOven ..> PopcornCooking : dependency
+@enduml

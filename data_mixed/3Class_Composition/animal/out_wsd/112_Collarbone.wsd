@@ -1,0 +1,4 @@
+@startuml
+Collarbone *-- Shoulder : composition
+Person *-- Shoulder : composition
+@enduml

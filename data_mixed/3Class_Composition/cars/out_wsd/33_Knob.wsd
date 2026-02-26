@@ -1,0 +1,4 @@
+@startuml
+Knob *-- Dashboard : composition
+Car *-- Dashboard : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Hatchback <|-- ElectricHatchback : inheritance
+NissanLeaf <|-- ElectricHatchback : inheritance
+@enduml

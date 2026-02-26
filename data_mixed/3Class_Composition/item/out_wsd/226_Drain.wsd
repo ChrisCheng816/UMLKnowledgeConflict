@@ -1,0 +1,4 @@
+@startuml
+Drain *-- Plumbing : composition
+House *-- Plumbing : composition
+@enduml

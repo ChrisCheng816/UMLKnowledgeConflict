@@ -1,0 +1,4 @@
+@startuml
+Cornmeal ..> Corn : dependency
+Cornmeal ..> Cornbread : dependency
+@enduml

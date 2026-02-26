@@ -1,0 +1,4 @@
+@startuml
+Llama o-- Pen : aggregation
+Ranch o-- Pen : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Rectifier *-- PowerSupply : composition
+Desktop *-- PowerSupply : composition
+@enduml

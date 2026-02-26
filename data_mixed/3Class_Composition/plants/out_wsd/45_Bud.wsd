@@ -1,0 +1,4 @@
+@startuml
+Bud *-- Node : composition
+Bamboo *-- Node : composition
+@enduml

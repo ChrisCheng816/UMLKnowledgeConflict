@@ -1,0 +1,4 @@
+@startuml
+SmokeAlarm ..> Electricity : dependency
+SmokeAlarm ..> MotionDetection : dependency
+@enduml

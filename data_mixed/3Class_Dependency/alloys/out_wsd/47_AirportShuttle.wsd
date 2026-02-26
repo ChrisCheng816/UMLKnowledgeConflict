@@ -1,0 +1,4 @@
+@startuml
+ShuttleBus ..> DieselFuel : dependency
+ShuttleBus ..> AirportShuttle : dependency
+@enduml

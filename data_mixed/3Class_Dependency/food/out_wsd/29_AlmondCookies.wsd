@@ -1,0 +1,4 @@
+@startuml
+AlmondFlour ..> Almond : dependency
+AlmondFlour ..> AlmondCookies : dependency
+@enduml

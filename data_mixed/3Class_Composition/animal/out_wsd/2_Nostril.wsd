@@ -1,0 +1,4 @@
+@startuml
+Nostril *-- Beak : composition
+Eagle *-- Beak : composition
+@enduml

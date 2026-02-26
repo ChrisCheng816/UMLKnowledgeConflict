@@ -1,0 +1,4 @@
+@startuml
+Gear *-- Tuner : composition
+Guitar *-- Tuner : composition
+@enduml

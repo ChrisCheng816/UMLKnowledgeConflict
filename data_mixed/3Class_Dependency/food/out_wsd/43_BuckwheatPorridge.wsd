@@ -1,0 +1,4 @@
+@startuml
+Buckwheat ..> BuckwheatPlant : dependency
+Buckwheat ..> BuckwheatPorridge : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- ScienceCommunicator : inheritance
+CarlSagan <|-- ScienceCommunicator : inheritance
+@enduml

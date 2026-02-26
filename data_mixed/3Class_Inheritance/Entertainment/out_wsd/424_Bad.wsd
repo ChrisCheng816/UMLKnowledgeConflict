@@ -1,0 +1,4 @@
+@startuml
+MusicWork <|-- Album : inheritance
+Bad <|-- Album : inheritance
+@enduml

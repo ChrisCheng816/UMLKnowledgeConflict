@@ -1,0 +1,4 @@
+@startuml
+Stove ..> NaturalGas : dependency
+Stove ..> Chef : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Doctor o-- Department : aggregation
+Hospital o-- Department : aggregation
+@enduml

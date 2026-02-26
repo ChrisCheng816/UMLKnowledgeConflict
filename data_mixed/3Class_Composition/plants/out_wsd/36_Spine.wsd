@@ -1,0 +1,4 @@
+@startuml
+Spine *-- Stem : composition
+Cactus *-- Stem : composition
+@enduml

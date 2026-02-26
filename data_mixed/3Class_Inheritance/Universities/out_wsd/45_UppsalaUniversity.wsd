@@ -1,0 +1,4 @@
+@startuml
+EducationalInstitution <|-- University : inheritance
+UppsalaUniversity <|-- University : inheritance
+@enduml

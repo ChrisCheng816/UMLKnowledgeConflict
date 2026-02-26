@@ -1,0 +1,4 @@
+@startuml
+Propane ..> NaturalGas : dependency
+Propane ..> GasGrill : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Car <|-- CompactCar : inheritance
+HondaCivic <|-- CompactCar : inheritance
+@enduml

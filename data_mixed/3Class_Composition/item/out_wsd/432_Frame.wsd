@@ -1,0 +1,4 @@
+@startuml
+Frame *-- Headboard : composition
+Bed *-- Headboard : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Operator o-- Unit : aggregation
+Company o-- Unit : aggregation
+@enduml

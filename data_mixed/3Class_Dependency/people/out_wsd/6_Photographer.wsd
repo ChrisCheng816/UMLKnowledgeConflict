@@ -1,0 +1,4 @@
+@startuml
+Camera ..> Battery : dependency
+Camera ..> Photographer : dependency
+@enduml

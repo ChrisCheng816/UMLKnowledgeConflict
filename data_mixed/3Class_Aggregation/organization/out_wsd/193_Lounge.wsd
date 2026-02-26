@@ -1,0 +1,4 @@
+@startuml
+Lounge o-- Terminal : aggregation
+Airport o-- Terminal : aggregation
+@enduml

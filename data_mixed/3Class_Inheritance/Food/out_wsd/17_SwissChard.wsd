@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- LeafyVegetable : inheritance
+SwissChard <|-- LeafyVegetable : inheritance
+@enduml

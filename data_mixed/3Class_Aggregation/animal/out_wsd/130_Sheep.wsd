@@ -1,0 +1,4 @@
+@startuml
+Sheep o-- Pen : aggregation
+Ranch o-- Pen : aggregation
+@enduml

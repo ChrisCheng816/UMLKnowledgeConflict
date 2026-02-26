@@ -1,0 +1,4 @@
+@startuml
+Game <|-- VideoGame : inheritance
+PokemonRuby <|-- VideoGame : inheritance
+@enduml

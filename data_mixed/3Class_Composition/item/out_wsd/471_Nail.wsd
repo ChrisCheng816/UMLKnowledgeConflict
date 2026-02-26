@@ -1,0 +1,4 @@
+@startuml
+Nail *-- Frame : composition
+Mirror *-- Frame : composition
+@enduml

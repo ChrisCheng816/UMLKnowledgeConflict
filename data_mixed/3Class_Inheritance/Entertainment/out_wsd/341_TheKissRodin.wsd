@@ -1,0 +1,4 @@
+@startuml
+Artwork <|-- Sculpture : inheritance
+TheKissRodin <|-- Sculpture : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Athlete <|-- Gymnast : inheritance
+SimoneBiles <|-- Gymnast : inheritance
+@enduml

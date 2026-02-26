@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Climbing : inheritance
+Bouldering <|-- Climbing : inheritance
+@enduml

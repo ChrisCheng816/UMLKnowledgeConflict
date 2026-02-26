@@ -1,0 +1,4 @@
+@startuml
+Joint *-- Rib : composition
+Umbrella *-- Rib : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Soup <|-- NoodleSoup : inheritance
+Ramen <|-- NoodleSoup : inheritance
+@enduml

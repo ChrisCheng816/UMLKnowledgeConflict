@@ -1,0 +1,4 @@
+@startuml
+Stocker o-- Staff : aggregation
+Store o-- Staff : aggregation
+@enduml

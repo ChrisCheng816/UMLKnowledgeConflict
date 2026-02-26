@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Grass : inheritance
+Bamboo <|-- Grass : inheritance
+@enduml

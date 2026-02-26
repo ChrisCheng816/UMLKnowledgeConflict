@@ -1,0 +1,4 @@
+@startuml
+MotionSensor ..> Electricity : dependency
+MotionSensor ..> HomeSecurity : dependency
+@enduml

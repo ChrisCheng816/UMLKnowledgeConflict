@@ -1,0 +1,4 @@
+@startuml
+Rim *-- Hoop : composition
+Drum *-- Hoop : composition
+@enduml

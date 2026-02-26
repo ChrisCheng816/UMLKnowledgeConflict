@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Bus : inheritance
+CityBus <|-- Bus : inheritance
+@enduml

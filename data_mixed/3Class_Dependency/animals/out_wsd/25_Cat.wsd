@@ -1,0 +1,4 @@
+@startuml
+CatFood ..> Meat : dependency
+CatFood ..> Cat : dependency
+@enduml

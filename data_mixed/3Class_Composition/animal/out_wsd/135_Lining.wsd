@@ -1,0 +1,4 @@
+@startuml
+Lining *-- Pouch : composition
+Kangaroo *-- Pouch : composition
+@enduml

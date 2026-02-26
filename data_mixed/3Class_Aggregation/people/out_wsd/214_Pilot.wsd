@@ -1,0 +1,4 @@
+@startuml
+Pilot o-- Squad : aggregation
+Shelter o-- Squad : aggregation
+@enduml

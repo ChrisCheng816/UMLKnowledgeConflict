@@ -1,0 +1,4 @@
+@startuml
+Tree <|-- Willow : inheritance
+WeepingWillow <|-- Willow : inheritance
+@enduml

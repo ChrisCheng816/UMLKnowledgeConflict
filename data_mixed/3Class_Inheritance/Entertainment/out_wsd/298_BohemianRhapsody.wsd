@@ -1,0 +1,4 @@
+@startuml
+MusicWork <|-- Song : inheritance
+BohemianRhapsody <|-- Song : inheritance
+@enduml

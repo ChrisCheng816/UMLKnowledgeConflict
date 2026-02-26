@@ -1,0 +1,4 @@
+@startuml
+Grille *-- Cabinet : composition
+Speaker *-- Cabinet : composition
+@enduml

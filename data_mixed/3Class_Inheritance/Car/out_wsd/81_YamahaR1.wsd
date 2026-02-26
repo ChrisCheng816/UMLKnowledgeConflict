@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Motorcycle : inheritance
+YamahaR1 <|-- Motorcycle : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Palm : inheritance
+DatePalm <|-- Palm : inheritance
+@enduml

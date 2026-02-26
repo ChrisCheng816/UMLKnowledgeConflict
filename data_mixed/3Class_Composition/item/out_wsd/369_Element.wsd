@@ -1,0 +1,4 @@
+@startuml
+Element *-- Antenna : composition
+Router *-- Antenna : composition
+@enduml

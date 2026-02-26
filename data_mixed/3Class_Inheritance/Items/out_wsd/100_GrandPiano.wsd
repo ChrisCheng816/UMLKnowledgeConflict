@@ -1,0 +1,4 @@
+@startuml
+Instrument <|-- Piano : inheritance
+GrandPiano <|-- Piano : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Bicycle : inheritance
+TrekRoadBike <|-- Bicycle : inheritance
+@enduml

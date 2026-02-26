@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- PomeFruit : inheritance
+RedDeliciousApple <|-- PomeFruit : inheritance
+@enduml

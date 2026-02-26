@@ -1,0 +1,4 @@
+@startuml
+Pincer *-- Claw : composition
+Crab *-- Claw : composition
+@enduml

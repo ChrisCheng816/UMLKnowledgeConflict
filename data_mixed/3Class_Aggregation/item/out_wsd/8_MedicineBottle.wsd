@@ -1,0 +1,4 @@
+@startuml
+MedicineBottle o-- MedicineCabinet : aggregation
+PharmacyStore o-- MedicineCabinet : aggregation
+@enduml

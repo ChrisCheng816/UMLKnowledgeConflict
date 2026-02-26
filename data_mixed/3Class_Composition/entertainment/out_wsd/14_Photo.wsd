@@ -1,0 +1,4 @@
+@startuml
+Photo *-- Column : composition
+Newspaper *-- Column : composition
+@enduml

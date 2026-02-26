@@ -1,0 +1,4 @@
+@startuml
+PorchLight ..> Electricity : dependency
+PorchLight ..> NightLighting : dependency
+@enduml

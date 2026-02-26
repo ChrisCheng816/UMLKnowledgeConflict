@@ -138,6 +138,70 @@ def reverse_instances(instances: List[Instance]) -> List[Instance]:
     return reversed_list
 
 
+def _single_pair_edge(left: str, right: str, template_id: str, reverse_pair: bool = False) -> Optional[str]:
+    """
+    Build one relation edge for a 2-node pair.
+
+    If reverse_pair is True, swap the pair order before edge construction.
+    """
+    pair_nodes = [left, right] if not reverse_pair else [right, left]
+    pair_edges = build_edges_from_nodes(pair_nodes, template_id) or []
+    if not pair_edges:
+        return None
+    return pair_edges[0]
+
+
+def build_mixed_instances(forward_like_instances: List[Instance]) -> List[Instance]:
+    """
+    Build mixed 3-class instances from forward-like 3-class instances.
+
+    Mixed rule
+    - Keep node order identical to forward-like instances.
+    - Keep the edge connected with the newly added node in forward direction.
+    - Flip only the edge between the two old nodes back to reverse direction.
+
+    Old node pair index in forward layout
+    - aggregation/composition: nodes[0], nodes[1]
+    - inheritance/dependency: nodes[1], nodes[2]
+    """
+    mixed: List[Instance] = []
+    for inst in forward_like_instances:
+        nodes = list(inst.nodes)
+        mixed_edges: List[str]
+
+        # Mixed is defined for 3-class chains. For any unexpected shape, keep current edges.
+        if len(nodes) != 3:
+            mixed_edges = list(inst.edges)
+        elif inst.template_id in {"aggregation", "composition"}:
+            # forward pairs: (0,1) old, (1,2) new
+            old_edge = _single_pair_edge(nodes[0], nodes[1], inst.template_id, reverse_pair=True)
+            new_edge = _single_pair_edge(nodes[1], nodes[2], inst.template_id, reverse_pair=False)
+            if old_edge is None or new_edge is None:
+                mixed_edges = build_edges_from_nodes(nodes, inst.template_id) or []
+            else:
+                mixed_edges = [old_edge, new_edge]
+        elif inst.template_id in {"inheritance", "dependency"}:
+            # forward pairs: (0,1) new, (1,2) old
+            new_edge = _single_pair_edge(nodes[0], nodes[1], inst.template_id, reverse_pair=False)
+            old_edge = _single_pair_edge(nodes[1], nodes[2], inst.template_id, reverse_pair=True)
+            if old_edge is None or new_edge is None:
+                mixed_edges = build_edges_from_nodes(nodes, inst.template_id) or []
+            else:
+                mixed_edges = [new_edge, old_edge]
+        else:
+            mixed_edges = build_edges_from_nodes(nodes, inst.template_id) or []
+
+        mixed.append(
+            Instance(
+                id=inst.id,
+                template_id=inst.template_id,
+                nodes=nodes,
+                edges=mixed_edges,
+            )
+        )
+    return mixed
+
+
 def write_jsonl(instances: List[Instance], out_path: Path) -> None:
     """
     Write instances into a jsonl file.
@@ -458,6 +522,7 @@ def run_for_root(
     jsonl_name: str,
     reverse_root: Optional[Path] = None,
     reverse_layout: str = "mirror",
+    mixed_root: Optional[Path] = None,
 ) -> None:
     """
     Run the pipeline for every data.txt found under root_dir.
@@ -472,9 +537,12 @@ def run_for_root(
     global_id = 1
     reverse_merged_rows: List[Dict[str, Any]] = []
     reverse_global_id = 1
+    mixed_merged_rows: List[Dict[str, Any]] = []
+    mixed_global_id = 1
 
     reverse_dataset_root: Optional[Path] = None
     reverse_flat_wsd_dir: Optional[Path] = None
+    mixed_dataset_root: Optional[Path] = None
     source_direction = infer_direction_from_path(root_dir, default="forward")
     mirror_direction = source_direction
     if reverse_root is not None:
@@ -490,10 +558,21 @@ def run_for_root(
         elif reverse_layout != "mirror":
             raise ValueError(f"Unsupported reverse_layout: {reverse_layout}")
 
+    if mixed_root is not None:
+        mixed_dataset_root = mixed_root / root_dir.name
+        mixed_dataset_root.mkdir(parents=True, exist_ok=True)
+
     expected_rel_dirs = set(p.parent.relative_to(root_dir) for p in data_files)
     if reverse_dataset_root is not None and reverse_layout == "mirror":
         prune_mirror_generated_layout(
             mirror_root=reverse_dataset_root,
+            expected_rel_dirs=expected_rel_dirs,
+            wsd_subdir_name=wsd_subdir_name,
+            jsonl_name=jsonl_name,
+        )
+    if mixed_dataset_root is not None:
+        prune_mirror_generated_layout(
+            mirror_root=mixed_dataset_root,
             expected_rel_dirs=expected_rel_dirs,
             wsd_subdir_name=wsd_subdir_name,
             jsonl_name=jsonl_name,
@@ -517,6 +596,7 @@ def run_for_root(
             source_subset = ""
 
         reverse_local_instances: Optional[List[Instance]] = None
+        mixed_local_instances: Optional[List[Instance]] = None
         if reverse_dataset_root is not None:
             reverse_local_instances = reverse_instances(instances)
             if reverse_layout == "mirror":
@@ -541,6 +621,22 @@ def run_for_root(
                     overwrite=overwrite_wsd,
                     start_index=reverse_global_id,
                 )
+
+        if mixed_dataset_root is not None and reverse_local_instances is not None:
+            mixed_local_instances = build_mixed_instances(reverse_local_instances)
+            mixed_folder = mixed_dataset_root / source_subset
+            mixed_jsonl_path = mixed_folder / jsonl_name
+            mixed_wsd_dir = mixed_folder / wsd_subdir_name
+            if overwrite_wsd and mixed_wsd_dir.exists():
+                shutil.rmtree(mixed_wsd_dir, ignore_errors=True)
+            write_jsonl(mixed_local_instances, mixed_jsonl_path)
+            # Mixed should follow forward naming/output conventions.
+            write_wsd_files(
+                mixed_local_instances,
+                mixed_wsd_dir,
+                overwrite=overwrite_wsd,
+                direction="forward",
+            )
 
         for inst in instances:
             merged_rows.append(
@@ -569,12 +665,29 @@ def run_for_root(
                 )
                 reverse_global_id += 1
 
+        if mixed_local_instances is not None:
+            for inst in mixed_local_instances:
+                mixed_merged_rows.append(
+                    {
+                        "id": str(mixed_global_id),
+                        "template_id": inst.template_id,
+                        "nodes": inst.nodes,
+                        "edges": inst.edges,
+                        "source_subset": source_subset,
+                        "source_id": inst.id,
+                    }
+                )
+                mixed_global_id += 1
+
     merged_jsonl_path = root_dir / jsonl_name
     write_jsonl_rows(merged_rows, merged_jsonl_path)
 
     if reverse_dataset_root is not None and reverse_layout == "mirror":
         reverse_merged_jsonl_path = reverse_dataset_root / jsonl_name
         write_jsonl_rows(reverse_merged_rows, reverse_merged_jsonl_path)
+    if mixed_dataset_root is not None:
+        mixed_merged_jsonl_path = mixed_dataset_root / jsonl_name
+        write_jsonl_rows(mixed_merged_rows, mixed_merged_jsonl_path)
 
 
 if __name__ == "__main__":
@@ -607,6 +720,7 @@ if __name__ == "__main__":
     # The opposite side receives mirror-structured outputs.
     base_forward = project_root / "data_forward"
     base_reverse = project_root / "data_reverse"
+    base_mixed = project_root / "data_mixed"
 
     reverse_has_data = base_reverse.exists() and any(base_reverse.rglob("data.txt"))
     forward_has_data = base_forward.exists() and any(base_forward.rglob("data.txt"))
@@ -620,12 +734,15 @@ if __name__ == "__main__":
 
     if source_base.exists():
         reverse_base.mkdir(parents=True, exist_ok=True)
+        if reverse_has_data:
+            base_mixed.mkdir(parents=True, exist_ok=True)
         print(f"[INFO] source_base={source_base} reverse_base={reverse_base}")
         for dataset_name, template_id in dataset_specs:
             root_dir = source_base / dataset_name
             if not root_dir.exists():
                 print(f"[WARN] skip missing dataset dir: {root_dir}")
                 continue
+            mixed_root = base_mixed if (reverse_has_data and dataset_name.startswith("3Class_")) else None
             run_for_root(
                 root_dir=root_dir,
                 template_id=template_id,
@@ -634,6 +751,7 @@ if __name__ == "__main__":
                 jsonl_name=jsonl_name,
                 reverse_root=reverse_base,
                 reverse_layout="mirror",
+                mixed_root=mixed_root,
             )
     else:
         # Backward-compatible legacy layout.

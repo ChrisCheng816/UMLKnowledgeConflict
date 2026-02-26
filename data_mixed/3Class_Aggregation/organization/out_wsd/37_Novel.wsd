@@ -1,0 +1,4 @@
+@startuml
+Novel o-- Collection : aggregation
+Library o-- Collection : aggregation
+@enduml

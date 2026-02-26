@@ -1,0 +1,4 @@
+@startuml
+Seal *-- Headlight : composition
+Car *-- Headlight : composition
+@enduml

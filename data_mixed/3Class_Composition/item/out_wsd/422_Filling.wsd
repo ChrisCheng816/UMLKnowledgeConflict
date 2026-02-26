@@ -1,0 +1,4 @@
+@startuml
+Filling *-- Cushion : composition
+Sofa *-- Cushion : composition
+@enduml

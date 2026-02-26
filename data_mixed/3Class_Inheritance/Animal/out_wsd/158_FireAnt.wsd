@@ -1,0 +1,4 @@
+@startuml
+Insect <|-- Ant : inheritance
+FireAnt <|-- Ant : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Film : inheritance
+LaLaLand <|-- Film : inheritance
+@enduml

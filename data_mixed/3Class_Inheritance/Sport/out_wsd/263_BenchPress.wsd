@@ -1,0 +1,4 @@
+@startuml
+IndividualSport <|-- Powerlifting : inheritance
+BenchPress <|-- Powerlifting : inheritance
+@enduml

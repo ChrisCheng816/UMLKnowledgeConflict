@@ -1,0 +1,4 @@
+@startuml
+Drummer o-- Band : aggregation
+Studio o-- Band : aggregation
+@enduml

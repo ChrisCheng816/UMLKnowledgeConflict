@@ -1,0 +1,4 @@
+@startuml
+Activity <|-- Entertainment : inheritance
+Theatre <|-- Entertainment : inheritance
+@enduml

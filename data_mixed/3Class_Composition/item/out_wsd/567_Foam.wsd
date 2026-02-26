@@ -1,0 +1,4 @@
+@startuml
+Foam *-- EarCup : composition
+Headphone *-- EarCup : composition
+@enduml

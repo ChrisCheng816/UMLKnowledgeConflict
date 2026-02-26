@@ -1,0 +1,4 @@
+@startuml
+Wire *-- Shade : composition
+Lamp *-- Shade : composition
+@enduml

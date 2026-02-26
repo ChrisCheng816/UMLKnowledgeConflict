@@ -1,0 +1,4 @@
+@startuml
+Episode o-- Playlist : aggregation
+PodcastApp o-- Playlist : aggregation
+@enduml

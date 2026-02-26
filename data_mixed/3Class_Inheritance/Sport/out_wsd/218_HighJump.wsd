@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Athletics : inheritance
+HighJump <|-- Athletics : inheritance
+@enduml

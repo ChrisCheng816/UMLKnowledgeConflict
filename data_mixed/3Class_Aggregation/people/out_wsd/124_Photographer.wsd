@@ -1,0 +1,4 @@
+@startuml
+Photographer o-- Club : aggregation
+University o-- Club : aggregation
+@enduml

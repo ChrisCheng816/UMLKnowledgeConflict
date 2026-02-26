@@ -1,0 +1,4 @@
+@startuml
+Popsicle o-- Cooler : aggregation
+Supermarket o-- Cooler : aggregation
+@enduml

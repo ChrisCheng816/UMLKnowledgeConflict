@@ -1,0 +1,4 @@
+@startuml
+SmartDisplay ..> WiFiNetwork : dependency
+SmartDisplay ..> Email : dependency
+@enduml

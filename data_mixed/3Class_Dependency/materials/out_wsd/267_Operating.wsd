@@ -1,0 +1,4 @@
+@startuml
+GlucoseMeter ..> Electricity : dependency
+GlucoseMeter ..> Operating : dependency
+@enduml

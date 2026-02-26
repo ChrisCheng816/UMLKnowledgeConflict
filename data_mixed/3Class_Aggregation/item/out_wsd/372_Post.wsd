@@ -1,0 +1,4 @@
+@startuml
+Post o-- Thread : aggregation
+Forum o-- Thread : aggregation
+@enduml

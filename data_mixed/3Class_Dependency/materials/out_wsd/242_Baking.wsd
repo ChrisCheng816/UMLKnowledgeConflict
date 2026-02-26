@@ -1,0 +1,4 @@
+@startuml
+BreadMaker ..> Electricity : dependency
+BreadMaker ..> Baking : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cable *-- Keyboard : composition
+Laptop *-- Keyboard : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Electronics <|-- Phone : inheritance
+Smartphone <|-- Phone : inheritance
+@enduml

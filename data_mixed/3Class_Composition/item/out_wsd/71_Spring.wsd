@@ -1,0 +1,4 @@
+@startuml
+Spring *-- Compressor : composition
+Refrigerator *-- Compressor : composition
+@enduml

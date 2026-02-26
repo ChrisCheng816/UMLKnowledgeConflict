@@ -1,0 +1,4 @@
+@startuml
+Volcano ..> Magma : dependency
+Volcano ..> LavaFlow : dependency
+@enduml

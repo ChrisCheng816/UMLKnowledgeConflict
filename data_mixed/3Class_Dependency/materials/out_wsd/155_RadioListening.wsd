@@ -1,0 +1,4 @@
+@startuml
+RadioReceiver ..> Electricity : dependency
+RadioReceiver ..> RadioListening : dependency
+@enduml

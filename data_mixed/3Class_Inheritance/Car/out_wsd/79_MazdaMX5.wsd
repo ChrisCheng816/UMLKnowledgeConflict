@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Convertible : inheritance
+MazdaMX5 <|-- Convertible : inheritance
+@enduml

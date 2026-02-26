@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- AdventureGame : inheritance
+Zelda <|-- AdventureGame : inheritance
+@enduml

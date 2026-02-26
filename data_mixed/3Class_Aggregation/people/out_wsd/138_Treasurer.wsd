@@ -1,0 +1,4 @@
+@startuml
+Treasurer o-- Committee : aggregation
+City o-- Committee : aggregation
+@enduml

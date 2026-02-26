@@ -1,0 +1,4 @@
+@startuml
+PowerCord ..> WallOutlet : dependency
+PowerCord ..> VacuumCleaner : dependency
+@enduml

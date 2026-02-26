@@ -1,0 +1,4 @@
+@startuml
+Iron ..> Electricity : dependency
+Iron ..> WrinkleRemoval : dependency
+@enduml

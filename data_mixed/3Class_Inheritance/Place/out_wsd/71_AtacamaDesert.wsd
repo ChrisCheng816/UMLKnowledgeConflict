@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- Desert : inheritance
+AtacamaDesert <|-- Desert : inheritance
+@enduml

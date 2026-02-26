@@ -1,0 +1,4 @@
+@startuml
+Mayonnaise o-- Jar : aggregation
+Pantry o-- Jar : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Printer ..> Electricity : dependency
+Printer ..> Printing : dependency
+@enduml

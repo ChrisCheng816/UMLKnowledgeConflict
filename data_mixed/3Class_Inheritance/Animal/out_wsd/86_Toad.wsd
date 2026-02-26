@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Amphibian : inheritance
+Toad <|-- Amphibian : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Player o-- Team : aggregation
+SportsClub o-- Team : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- RacingGame : inheritance
+MarioKart <|-- RacingGame : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+PropaneTank ..> PropaneFillingStation : dependency
+PropaneTank ..> PropaneTorch : dependency
+@enduml

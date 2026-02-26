@@ -1,0 +1,4 @@
+@startuml
+Syllabus o-- Binder : aggregation
+Backpack o-- Binder : aggregation
+@enduml

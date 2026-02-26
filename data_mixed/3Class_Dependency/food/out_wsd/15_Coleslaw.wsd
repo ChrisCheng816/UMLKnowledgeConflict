@@ -1,0 +1,4 @@
+@startuml
+Cabbage ..> CabbagePlant : dependency
+Cabbage ..> Coleslaw : dependency
+@enduml

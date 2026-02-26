@@ -1,0 +1,4 @@
+@startuml
+Lining *-- Brim : composition
+Hat *-- Brim : composition
+@enduml

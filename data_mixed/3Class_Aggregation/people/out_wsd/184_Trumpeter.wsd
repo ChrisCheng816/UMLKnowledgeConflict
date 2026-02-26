@@ -1,0 +1,4 @@
+@startuml
+Trumpeter o-- Band : aggregation
+Studio o-- Band : aggregation
+@enduml

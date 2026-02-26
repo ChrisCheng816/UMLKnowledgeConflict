@@ -1,0 +1,4 @@
+@startuml
+Gear *-- Roller : composition
+Printer *-- Roller : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Toiletry : inheritance
+Brush <|-- Toiletry : inheritance
+@enduml

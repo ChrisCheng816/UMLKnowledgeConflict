@@ -1,0 +1,4 @@
+@startuml
+Volunteer o-- Club : aggregation
+School o-- Club : aggregation
+@enduml

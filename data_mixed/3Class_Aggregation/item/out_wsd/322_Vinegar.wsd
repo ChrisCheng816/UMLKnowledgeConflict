@@ -1,0 +1,4 @@
+@startuml
+Vinegar o-- Pantry : aggregation
+Kitchen o-- Pantry : aggregation
+@enduml

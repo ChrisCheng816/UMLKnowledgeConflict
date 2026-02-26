@@ -1,0 +1,4 @@
+@startuml
+Pore *-- Shell : composition
+Egg *-- Shell : composition
+@enduml

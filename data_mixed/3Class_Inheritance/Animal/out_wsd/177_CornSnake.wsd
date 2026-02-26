@@ -1,0 +1,4 @@
+@startuml
+Reptile <|-- Snake : inheritance
+CornSnake <|-- Snake : inheritance
+@enduml

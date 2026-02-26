@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Arachnid : inheritance
+Mite <|-- Arachnid : inheritance
+@enduml

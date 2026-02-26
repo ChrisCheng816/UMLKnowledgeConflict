@@ -1,0 +1,4 @@
+@startuml
+BluetoothEarbuds ..> Bluetooth : dependency
+BluetoothEarbuds ..> HandsFreeCalling : dependency
+@enduml

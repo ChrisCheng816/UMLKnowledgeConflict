@@ -1,0 +1,4 @@
+@startuml
+Appliance <|-- Mixer : inheritance
+StandMixer <|-- Mixer : inheritance
+@enduml

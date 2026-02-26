@@ -1,0 +1,4 @@
+@startuml
+EspressoMachine ..> Electricity : dependency
+EspressoMachine ..> CappuccinoMaking : dependency
+@enduml

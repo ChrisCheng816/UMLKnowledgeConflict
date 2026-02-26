@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Linen : inheritance
+Towel <|-- Linen : inheritance
+@enduml

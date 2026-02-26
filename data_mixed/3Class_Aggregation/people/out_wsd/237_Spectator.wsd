@@ -1,0 +1,4 @@
+@startuml
+Spectator o-- Audience : aggregation
+Museum o-- Audience : aggregation
+@enduml

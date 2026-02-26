@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Dessert : inheritance
+Pie <|-- Dessert : inheritance
+@enduml

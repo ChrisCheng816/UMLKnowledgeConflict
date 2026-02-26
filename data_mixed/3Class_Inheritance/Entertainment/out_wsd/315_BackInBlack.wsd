@@ -1,0 +1,4 @@
+@startuml
+MusicWork <|-- Album : inheritance
+BackInBlack <|-- Album : inheritance
+@enduml

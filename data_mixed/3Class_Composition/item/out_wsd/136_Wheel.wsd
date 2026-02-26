@@ -1,0 +1,4 @@
+@startuml
+Wheel *-- Turntable : composition
+Microwave *-- Turntable : composition
+@enduml

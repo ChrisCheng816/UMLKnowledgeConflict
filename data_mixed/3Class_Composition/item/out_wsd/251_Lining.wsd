@@ -1,0 +1,4 @@
+@startuml
+Lining *-- Collar : composition
+Shirt *-- Collar : composition
+@enduml

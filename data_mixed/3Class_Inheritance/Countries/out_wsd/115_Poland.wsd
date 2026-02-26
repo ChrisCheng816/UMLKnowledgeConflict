@@ -1,0 +1,4 @@
+@startuml
+Republic <|-- ParliamentaryRepublic : inheritance
+Poland <|-- ParliamentaryRepublic : inheritance
+@enduml

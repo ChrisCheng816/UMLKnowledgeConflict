@@ -1,0 +1,4 @@
+@startuml
+Encyclopedia o-- Shelf : aggregation
+Library o-- Shelf : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Lathe ..> Electricity : dependency
+Lathe ..> Operating : dependency
+@enduml

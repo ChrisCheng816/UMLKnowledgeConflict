@@ -1,0 +1,4 @@
+@startuml
+MRIMachine ..> Electricity : dependency
+MRIMachine ..> BrainMRIScan : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Peppers ..> PepperPlant : dependency
+Peppers ..> StuffedPeppers : dependency
+@enduml

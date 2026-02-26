@@ -1,0 +1,4 @@
+@startuml
+Chainsaw ..> Electricity : dependency
+Chainsaw ..> Operating : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Stitch *-- Loop : composition
+Belt *-- Loop : composition
+@enduml

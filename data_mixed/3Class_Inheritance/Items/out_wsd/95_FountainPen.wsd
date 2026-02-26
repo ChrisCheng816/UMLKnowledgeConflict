@@ -1,0 +1,4 @@
+@startuml
+Stationery <|-- Pen : inheritance
+FountainPen <|-- Pen : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Railing *-- Porch : composition
+House *-- Porch : composition
+@enduml

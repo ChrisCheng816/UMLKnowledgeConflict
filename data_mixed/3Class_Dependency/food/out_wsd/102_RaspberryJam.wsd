@@ -1,0 +1,4 @@
+@startuml
+Raspberry ..> RaspberryBush : dependency
+Raspberry ..> RaspberryJam : dependency
+@enduml

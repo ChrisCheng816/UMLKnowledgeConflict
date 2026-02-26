@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Furniture : inheritance
+Table <|-- Furniture : inheritance
+@enduml

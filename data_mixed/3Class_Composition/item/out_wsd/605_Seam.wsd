@@ -1,0 +1,4 @@
+@startuml
+Seam *-- Pocket : composition
+Pants *-- Pocket : composition
+@enduml

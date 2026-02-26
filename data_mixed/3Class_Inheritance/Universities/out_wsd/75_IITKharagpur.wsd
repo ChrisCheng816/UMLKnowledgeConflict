@@ -1,0 +1,4 @@
+@startuml
+EducationalInstitution <|-- University : inheritance
+IITKharagpur <|-- University : inheritance
+@enduml

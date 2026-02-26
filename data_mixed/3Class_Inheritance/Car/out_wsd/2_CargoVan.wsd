@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Van : inheritance
+CargoVan <|-- Van : inheritance
+@enduml

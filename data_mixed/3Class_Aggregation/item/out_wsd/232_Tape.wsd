@@ -1,0 +1,4 @@
+@startuml
+Tape o-- Toolbox : aggregation
+Garage o-- Toolbox : aggregation
+@enduml

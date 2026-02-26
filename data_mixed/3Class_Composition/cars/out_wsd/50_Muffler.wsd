@@ -1,0 +1,4 @@
+@startuml
+Muffler *-- Exhaust : composition
+Car *-- Exhaust : composition
+@enduml

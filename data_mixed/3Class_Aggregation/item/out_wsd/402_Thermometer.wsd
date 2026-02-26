@@ -1,0 +1,4 @@
+@startuml
+Thermometer o-- Shelf : aggregation
+Pharmacy o-- Shelf : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Headphones o-- Drawer : aggregation
+Bedroom o-- Drawer : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Dish <|-- Burger : inheritance
+Cheeseburger <|-- Burger : inheritance
+@enduml

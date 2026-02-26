@@ -1,0 +1,4 @@
+@startuml
+Lizard <|-- Iguana : inheritance
+GreenIguana <|-- Iguana : inheritance
+@enduml

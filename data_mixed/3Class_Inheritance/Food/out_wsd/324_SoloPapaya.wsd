@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Papaya : inheritance
+SoloPapaya <|-- Papaya : inheritance
+@enduml

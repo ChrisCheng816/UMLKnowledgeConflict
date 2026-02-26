@@ -1,0 +1,4 @@
+@startuml
+Snake <|-- Cobra : inheritance
+KingCobra <|-- Cobra : inheritance
+@enduml

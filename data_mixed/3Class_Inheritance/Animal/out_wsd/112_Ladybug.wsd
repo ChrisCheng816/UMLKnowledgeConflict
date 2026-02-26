@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Insect : inheritance
+Ladybug <|-- Insect : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Reflection ..> SmoothSurface : dependency
+Reflection ..> Echo : dependency
+@enduml

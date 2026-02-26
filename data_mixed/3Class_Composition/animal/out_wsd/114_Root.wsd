@@ -1,0 +1,4 @@
+@startuml
+Root *-- Hair : composition
+Person *-- Hair : composition
+@enduml

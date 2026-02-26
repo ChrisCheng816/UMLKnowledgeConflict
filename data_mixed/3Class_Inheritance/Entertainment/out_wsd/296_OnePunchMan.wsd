@@ -1,0 +1,4 @@
+@startuml
+Comic <|-- Manga : inheritance
+OnePunchMan <|-- Manga : inheritance
+@enduml

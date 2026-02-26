@@ -1,0 +1,4 @@
+@startuml
+Lime ..> LimeTree : dependency
+Lime ..> LimeSmoothie : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Snapchat ..> Internet : dependency
+Snapchat ..> Posting : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- Geneticist : inheritance
+GregorMendel <|-- Geneticist : inheritance
+@enduml

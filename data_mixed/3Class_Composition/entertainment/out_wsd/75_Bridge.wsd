@@ -1,0 +1,4 @@
+@startuml
+Bridge *-- Track : composition
+Album *-- Track : composition
+@enduml

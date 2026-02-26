@@ -1,0 +1,4 @@
+@startuml
+Smoke ..> Combustion : dependency
+Smoke ..> Haze : dependency
+@enduml

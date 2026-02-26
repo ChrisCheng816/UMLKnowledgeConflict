@@ -1,0 +1,4 @@
+@startuml
+Trim *-- Shelf : composition
+Cabinet *-- Shelf : composition
+@enduml

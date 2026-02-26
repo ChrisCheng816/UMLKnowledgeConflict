@@ -1,0 +1,4 @@
+@startuml
+Kernel *-- Hull : composition
+SunflowerSeed *-- Hull : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Casing *-- BatteryPack : composition
+Smartphone *-- BatteryPack : composition
+@enduml

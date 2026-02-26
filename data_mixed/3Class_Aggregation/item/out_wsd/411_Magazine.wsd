@@ -1,0 +1,4 @@
+@startuml
+Magazine o-- Box : aggregation
+Library o-- Box : aggregation
+@enduml

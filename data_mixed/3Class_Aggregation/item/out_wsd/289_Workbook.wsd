@@ -1,0 +1,4 @@
+@startuml
+Workbook o-- Shelf : aggregation
+Library o-- Shelf : aggregation
+@enduml

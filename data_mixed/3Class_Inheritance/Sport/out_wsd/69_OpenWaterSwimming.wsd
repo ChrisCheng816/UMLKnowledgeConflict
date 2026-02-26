@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- WaterSport : inheritance
+OpenWaterSwimming <|-- WaterSport : inheritance
+@enduml

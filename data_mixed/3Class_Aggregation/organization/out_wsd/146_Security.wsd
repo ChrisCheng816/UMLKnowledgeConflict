@@ -1,0 +1,4 @@
+@startuml
+Security o-- Staff : aggregation
+Museum o-- Staff : aggregation
+@enduml

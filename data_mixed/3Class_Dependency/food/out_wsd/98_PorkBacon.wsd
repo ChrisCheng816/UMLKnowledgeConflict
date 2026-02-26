@@ -1,0 +1,4 @@
+@startuml
+Pork ..> PigFarm : dependency
+Pork ..> PorkBacon : dependency
+@enduml

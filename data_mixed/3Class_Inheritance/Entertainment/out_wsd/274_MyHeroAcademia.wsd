@@ -1,0 +1,4 @@
+@startuml
+TVSeries <|-- AnimeSeries : inheritance
+MyHeroAcademia <|-- AnimeSeries : inheritance
+@enduml

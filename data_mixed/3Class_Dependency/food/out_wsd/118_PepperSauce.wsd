@@ -1,0 +1,4 @@
+@startuml
+BlackPepper ..> PepperPlant : dependency
+BlackPepper ..> PepperSauce : dependency
+@enduml

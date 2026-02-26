@@ -1,0 +1,4 @@
+@startuml
+WiFiRepeater ..> Electricity : dependency
+WiFiRepeater ..> Operating : dependency
+@enduml

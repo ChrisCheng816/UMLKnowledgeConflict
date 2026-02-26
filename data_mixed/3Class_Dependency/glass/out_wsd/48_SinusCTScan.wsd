@@ -1,0 +1,4 @@
+@startuml
+CTScanner ..> Electricity : dependency
+CTScanner ..> SinusCTScan : dependency
+@enduml

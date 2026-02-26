@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Device : inheritance
+Calculator <|-- Device : inheritance
+@enduml

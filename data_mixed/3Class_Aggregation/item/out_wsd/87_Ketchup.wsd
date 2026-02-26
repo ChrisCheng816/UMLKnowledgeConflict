@@ -1,0 +1,4 @@
+@startuml
+Ketchup o-- Bottle : aggregation
+Cafe o-- Bottle : aggregation
+@enduml

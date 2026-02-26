@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- TeamSport : inheritance
+Camogie <|-- TeamSport : inheritance
+@enduml

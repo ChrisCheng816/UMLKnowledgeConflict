@@ -1,0 +1,4 @@
+@startuml
+Microorganisms ..> Moisture : dependency
+Microorganisms ..> Composting : dependency
+@enduml

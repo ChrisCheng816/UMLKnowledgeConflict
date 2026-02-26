@@ -1,0 +1,4 @@
+@startuml
+Surface *-- Blade : composition
+Blender *-- Blade : composition
+@enduml

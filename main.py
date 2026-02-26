@@ -24,9 +24,9 @@ def parse_args():
     )
     parser.add_argument(
         "--mode",
-        choices=["forward", "reverse", "both"],
+        choices=["forward", "reverse", "mixed", "both"],
         default="both",
-        help="Run forward dataset, reverse dataset, or both.",
+        help="Run forward dataset, reverse dataset, mixed dataset, or all available splits.",
     )
     parser.add_argument(
         "--model-name",
@@ -48,9 +48,13 @@ def parse_args():
     parser.add_argument(
         "--relation",
         action="append",
+        nargs="+",
         choices=["inheritance", "aggregation", "composition", "dependency"],
-        default=[],
-        help="Relation type to run. Repeatable. Default is all relations.",
+        default=None,
+        help=(
+            "Relation types to run. You can pass multiple at once, e.g. "
+            "--relation inheritance dependency. Repeatable. Default is all relations."
+        ),
     )
     parser.add_argument(
         "--tp-size",
@@ -71,9 +75,14 @@ def build_runs(mode, root):
     all_runs = {
         "forward": (os.path.join(root, "data_forward"), os.path.join(root, "images", "data_forward")),
         "reverse": (os.path.join(root, "data_reverse"), os.path.join(root, "images", "data_reverse")),
+        "mixed": (os.path.join(root, "data_mixed"), os.path.join(root, "images", "data_mixed")),
     }
     if mode == "both":
-        return [("forward", *all_runs["forward"]), ("reverse", *all_runs["reverse"])]
+        return [
+            ("forward", *all_runs["forward"]),
+            ("reverse", *all_runs["reverse"]),
+            ("mixed", *all_runs["mixed"]),
+        ]
     return [(mode, *all_runs[mode])]
 
 
@@ -118,12 +127,19 @@ def main():
     os.makedirs(results_dir, exist_ok=True)
     runs = build_runs(args.mode, root)
     arity_filter = {"2", "3"} if args.arity == "both" else {args.arity}
-    relation_filter = set(args.relation) if args.relation else {
-        "inheritance",
-        "aggregation",
-        "composition",
-        "dependency",
-    }
+    if args.relation:
+        relation_filter = {
+            relation
+            for relation_group in args.relation
+            for relation in relation_group
+        }
+    else:
+        relation_filter = {
+            "inheritance",
+            "aggregation",
+            "composition",
+            "dependency",
+        }
 
     if backend == "closed_llm":
         models = _resolve_closed_models(args.model_name)

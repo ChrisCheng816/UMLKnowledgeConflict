@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- Physicist : inheritance
+RichardFeynman <|-- Physicist : inheritance
+@enduml

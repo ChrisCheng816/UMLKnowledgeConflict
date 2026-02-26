@@ -1,0 +1,4 @@
+@startuml
+WashingMachine ..> TapWater : dependency
+WashingMachine ..> SpinCycle : dependency
+@enduml

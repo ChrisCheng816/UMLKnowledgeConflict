@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Electronics : inheritance
+BluetoothSpeaker <|-- Electronics : inheritance
+@enduml

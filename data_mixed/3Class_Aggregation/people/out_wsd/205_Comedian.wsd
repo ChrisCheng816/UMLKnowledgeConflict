@@ -1,0 +1,4 @@
+@startuml
+Comedian o-- Cast : aggregation
+MovieSet o-- Cast : aggregation
+@enduml

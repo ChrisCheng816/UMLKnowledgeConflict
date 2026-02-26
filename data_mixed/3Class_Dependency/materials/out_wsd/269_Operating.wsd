@@ -1,0 +1,4 @@
+@startuml
+ExerciseBike ..> Electricity : dependency
+ExerciseBike ..> Operating : dependency
+@enduml

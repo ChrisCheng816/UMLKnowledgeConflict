@@ -1,0 +1,4 @@
+@startuml
+Verse *-- Track : composition
+Album *-- Track : composition
+@enduml

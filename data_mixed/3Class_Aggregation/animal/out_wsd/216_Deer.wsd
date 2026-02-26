@@ -1,0 +1,4 @@
+@startuml
+Deer o-- Herd : aggregation
+Sanctuary o-- Herd : aggregation
+@enduml

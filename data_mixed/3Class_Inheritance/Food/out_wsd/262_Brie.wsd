@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Cheese : inheritance
+Brie <|-- Cheese : inheritance
+@enduml

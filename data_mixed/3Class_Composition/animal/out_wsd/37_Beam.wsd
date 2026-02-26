@@ -1,0 +1,4 @@
+@startuml
+Beam *-- Antler : composition
+Deer *-- Antler : composition
+@enduml

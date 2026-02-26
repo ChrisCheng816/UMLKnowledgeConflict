@@ -1,0 +1,4 @@
+@startuml
+PhoneCharger ..> WallOutlet : dependency
+PhoneCharger ..> PhoneCharging : dependency
+@enduml

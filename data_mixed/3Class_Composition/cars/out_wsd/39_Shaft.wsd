@@ -1,0 +1,4 @@
+@startuml
+Shaft *-- Transmission : composition
+Car *-- Transmission : composition
+@enduml

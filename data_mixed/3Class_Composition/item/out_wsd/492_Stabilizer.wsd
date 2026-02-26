@@ -1,0 +1,4 @@
+@startuml
+Stabilizer *-- CameraModule : composition
+Smartphone *-- CameraModule : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SafetyGear <|-- Vest : inheritance
+LifeJacket <|-- Vest : inheritance
+@enduml

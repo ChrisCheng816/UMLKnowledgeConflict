@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- TropicalFruit : inheritance
+Starfruit <|-- TropicalFruit : inheritance
+@enduml

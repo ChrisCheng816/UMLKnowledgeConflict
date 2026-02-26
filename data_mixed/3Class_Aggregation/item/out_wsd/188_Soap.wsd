@@ -1,0 +1,4 @@
+@startuml
+Soap o-- Cabinet : aggregation
+Bathroom o-- Cabinet : aggregation
+@enduml

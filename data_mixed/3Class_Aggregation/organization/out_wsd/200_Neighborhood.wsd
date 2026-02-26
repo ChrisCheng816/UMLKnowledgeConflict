@@ -1,0 +1,4 @@
+@startuml
+Neighborhood o-- District : aggregation
+City o-- District : aggregation
+@enduml

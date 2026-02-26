@@ -1,0 +1,4 @@
+@startuml
+Sensor *-- Screen : composition
+Phone *-- Screen : composition
+@enduml

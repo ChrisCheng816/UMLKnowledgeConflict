@@ -1,0 +1,4 @@
+@startuml
+Apricot ..> ApricotTree : dependency
+Apricot ..> ApricotJam : dependency
+@enduml

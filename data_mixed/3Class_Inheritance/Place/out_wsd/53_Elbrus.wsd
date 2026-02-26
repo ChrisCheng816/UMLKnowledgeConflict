@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- Mountain : inheritance
+Elbrus <|-- Mountain : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cauliflower o-- Basket : aggregation
+GroceryStore o-- Basket : aggregation
+@enduml

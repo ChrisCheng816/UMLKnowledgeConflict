@@ -1,0 +1,4 @@
+@startuml
+Socket *-- Motherboard : composition
+Desktop *-- Motherboard : composition
+@enduml

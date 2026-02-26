@@ -1,0 +1,4 @@
+@startuml
+Pen o-- Organizer : aggregation
+Desk o-- Organizer : aggregation
+@enduml

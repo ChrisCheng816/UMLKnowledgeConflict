@@ -1,0 +1,4 @@
+@startuml
+Painting o-- Showcase : aggregation
+ArtGallery o-- Showcase : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Claw *-- Fin : composition
+Seal *-- Fin : composition
+@enduml

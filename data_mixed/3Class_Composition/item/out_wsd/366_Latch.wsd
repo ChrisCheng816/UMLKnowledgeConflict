@@ -1,0 +1,4 @@
+@startuml
+Latch *-- Port : composition
+Laptop *-- Port : composition
+@enduml

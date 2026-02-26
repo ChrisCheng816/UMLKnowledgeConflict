@@ -1,0 +1,4 @@
+@startuml
+Member o-- Council : aggregation
+City o-- Council : aggregation
+@enduml

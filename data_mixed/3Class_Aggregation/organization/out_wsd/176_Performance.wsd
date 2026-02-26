@@ -1,0 +1,4 @@
+@startuml
+Performance o-- Schedule : aggregation
+Theater o-- Schedule : aggregation
+@enduml

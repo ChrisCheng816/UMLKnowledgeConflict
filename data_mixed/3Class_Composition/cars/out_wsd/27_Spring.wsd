@@ -1,0 +1,4 @@
+@startuml
+Spring *-- Seat : composition
+Car *-- Seat : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Chair o-- Committee : aggregation
+University o-- Committee : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- River : inheritance
+Yangtze <|-- River : inheritance
+@enduml

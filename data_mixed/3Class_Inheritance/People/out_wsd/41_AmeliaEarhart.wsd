@@ -1,0 +1,4 @@
+@startuml
+Pilot <|-- Aviator : inheritance
+AmeliaEarhart <|-- Aviator : inheritance
+@enduml

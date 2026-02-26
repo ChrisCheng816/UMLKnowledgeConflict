@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Jaw : composition
+Snake *-- Jaw : composition
+@enduml

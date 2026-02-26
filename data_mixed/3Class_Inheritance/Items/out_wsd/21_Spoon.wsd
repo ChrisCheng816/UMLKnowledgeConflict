@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Utensil : inheritance
+Spoon <|-- Utensil : inheritance
+@enduml

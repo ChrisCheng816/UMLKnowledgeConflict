@@ -1,0 +1,4 @@
+@startuml
+PickupTruck <|-- MidSizePickup : inheritance
+ToyotaTacoma <|-- MidSizePickup : inheritance
+@enduml

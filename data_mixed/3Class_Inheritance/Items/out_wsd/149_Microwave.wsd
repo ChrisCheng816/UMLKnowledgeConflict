@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Appliance : inheritance
+Microwave <|-- Appliance : inheritance
+@enduml

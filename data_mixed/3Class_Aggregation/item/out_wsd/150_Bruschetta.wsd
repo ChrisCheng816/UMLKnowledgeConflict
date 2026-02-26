@@ -1,0 +1,4 @@
+@startuml
+Bruschetta o-- Plate : aggregation
+Restaurant o-- Plate : aggregation
+@enduml

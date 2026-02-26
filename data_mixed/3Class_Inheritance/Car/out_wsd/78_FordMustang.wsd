@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Coupe : inheritance
+FordMustang <|-- Coupe : inheritance
+@enduml

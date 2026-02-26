@@ -1,0 +1,4 @@
+@startuml
+Laminator ..> Electricity : dependency
+Laminator ..> Laminating : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sculpture o-- Catalog : aggregation
+Museum o-- Catalog : aggregation
+@enduml

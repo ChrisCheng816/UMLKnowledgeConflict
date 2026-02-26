@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Pelican : inheritance
+BrownPelican <|-- Pelican : inheritance
+@enduml

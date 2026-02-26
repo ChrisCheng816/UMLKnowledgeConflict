@@ -1,0 +1,4 @@
+@startuml
+Insulation *-- Roof : composition
+House *-- Roof : composition
+@enduml

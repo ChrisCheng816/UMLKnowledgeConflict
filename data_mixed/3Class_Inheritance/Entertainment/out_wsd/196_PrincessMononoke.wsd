@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Film : inheritance
+PrincessMononoke <|-- Film : inheritance
+@enduml

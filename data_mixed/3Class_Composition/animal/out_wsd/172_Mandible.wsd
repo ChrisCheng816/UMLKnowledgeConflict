@@ -1,0 +1,4 @@
+@startuml
+Mandible *-- Beak : composition
+Duck *-- Beak : composition
+@enduml

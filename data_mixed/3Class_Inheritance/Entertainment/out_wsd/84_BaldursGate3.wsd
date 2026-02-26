@@ -1,0 +1,4 @@
+@startuml
+Game <|-- VideoGame : inheritance
+BaldursGate3 <|-- VideoGame : inheritance
+@enduml

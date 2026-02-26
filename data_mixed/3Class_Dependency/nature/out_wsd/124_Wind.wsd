@@ -1,0 +1,4 @@
+@startuml
+StormSystem ..> PressureDifference : dependency
+StormSystem ..> Wind : dependency
+@enduml

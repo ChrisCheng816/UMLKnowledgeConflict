@@ -1,0 +1,4 @@
+@startuml
+HeadphoneAmplifier ..> Electricity : dependency
+HeadphoneAmplifier ..> RadioListening : dependency
+@enduml

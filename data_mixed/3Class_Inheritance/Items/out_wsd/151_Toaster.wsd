@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Appliance : inheritance
+Toaster <|-- Appliance : inheritance
+@enduml

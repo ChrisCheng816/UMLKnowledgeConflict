@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Mammal : inheritance
+Kangaroo <|-- Mammal : inheritance
+@enduml

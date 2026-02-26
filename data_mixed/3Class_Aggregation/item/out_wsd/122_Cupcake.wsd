@@ -1,0 +1,4 @@
+@startuml
+Cupcake o-- Tray : aggregation
+Bakery o-- Tray : aggregation
+@enduml

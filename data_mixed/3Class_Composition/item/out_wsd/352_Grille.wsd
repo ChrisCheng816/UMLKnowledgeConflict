@@ -1,0 +1,4 @@
+@startuml
+Grille *-- Speaker : composition
+Phone *-- Speaker : composition
+@enduml

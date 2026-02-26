@@ -1,0 +1,4 @@
+@startuml
+Insect <|-- Butterfly : inheritance
+Monarch <|-- Butterfly : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sparrow o-- Cage : aggregation
+Aviary o-- Cage : aggregation
+@enduml

@@ -69,17 +69,37 @@ def _build_relation_prompts(nodes, relation="inheritance", query_pair=(0, 1)):
     return [_build_relation_prompt(nodes, relation=relation, query_pair=query_pair)]
 
 
-def _is_reverse_dataset(dataset_root):
+def _detect_dataset_split(dataset_root):
+    """
+    Detect dataset split from path.
+
+    Returns one of: "forward", "reverse", "mixed", "unknown".
+    """
     if not dataset_root:
-        return False
+        return "unknown"
     normalized = os.path.normpath(os.path.abspath(dataset_root)).lower()
     parts = [p for p in normalized.split(os.sep) if p]
-    return "data_reverse" in parts or "reverse" in parts
+    if "data_reverse" in parts or "reverse" in parts:
+        return "reverse"
+    if "data_mixed" in parts or "mixed" in parts:
+        return "mixed"
+    if "data_forward" in parts or "forward" in parts:
+        return "forward"
+    return "unknown"
 
 
-def _select_query_pair_for_task2(relation, is_reverse):
+def _select_query_pair_for_task2(relation, dataset_split):
+    """
+    For 3-class rows, task2 always asks about the old 2-class node pair.
+
+    Old-pair indices:
+    - forward/mixed inheritance/dependency: (1, 2)
+    - reverse inheritance/dependency: (0, 1)
+    - forward/mixed aggregation/composition: (0, 1)
+    - reverse aggregation/composition: (1, 2)
+    """
     relation = (relation or "").strip().lower()
-    if is_reverse:
+    if dataset_split == "reverse":
         if relation in {"inheritance", "dependency"}:
             return (0, 1)
         if relation in {"composition", "aggregation"}:
@@ -303,7 +323,7 @@ def build_relation_prompt(
         if len(nodes) >= 3:
             query_pair = _select_query_pair_for_task2(
                 relation,
-                _is_reverse_dataset(dataset_root),
+                _detect_dataset_split(dataset_root),
             )
         else:
             query_pair = (0, 1)
@@ -445,7 +465,7 @@ def load_prompt(
 
     instances_path = _resolve_instances_path(dataset_root, dataset_dir)
     image_map_cache: Dict[str, Dict[str, str]] = {}
-    is_reverse_dataset = _is_reverse_dataset(dataset_root)
+    dataset_split = _detect_dataset_split(dataset_root)
 
     prepared_rows = []
     with open(instances_path, "r", encoding="utf8") as f:
@@ -499,7 +519,7 @@ def load_prompt(
                 nodes,
                 relation=relation_for_row,
                 query_pair=(
-                    _select_query_pair_for_task2(relation_for_row, is_reverse_dataset)
+                    _select_query_pair_for_task2(relation_for_row, dataset_split)
                     if len(nodes) >= 3
                     else query_pair
                 ),

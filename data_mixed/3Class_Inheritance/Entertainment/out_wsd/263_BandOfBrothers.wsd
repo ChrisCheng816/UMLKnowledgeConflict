@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- TVSeries : inheritance
+BandOfBrothers <|-- TVSeries : inheritance
+@enduml

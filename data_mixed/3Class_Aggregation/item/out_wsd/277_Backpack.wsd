@@ -1,0 +1,4 @@
+@startuml
+Backpack o-- Rack : aggregation
+Entryway o-- Rack : aggregation
+@enduml

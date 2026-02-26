@@ -1,0 +1,4 @@
+@startuml
+Speaker o-- Club : aggregation
+Community o-- Club : aggregation
+@enduml

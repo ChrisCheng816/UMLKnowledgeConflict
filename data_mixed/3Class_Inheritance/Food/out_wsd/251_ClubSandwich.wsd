@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Sandwich : inheritance
+ClubSandwich <|-- Sandwich : inheritance
+@enduml

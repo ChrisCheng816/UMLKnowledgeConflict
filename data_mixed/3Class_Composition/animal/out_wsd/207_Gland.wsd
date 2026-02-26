@@ -1,0 +1,4 @@
+@startuml
+Gland *-- Skin : composition
+Frog *-- Skin : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+EducationalInstitution <|-- University : inheritance
+KocUniversity <|-- University : inheritance
+@enduml

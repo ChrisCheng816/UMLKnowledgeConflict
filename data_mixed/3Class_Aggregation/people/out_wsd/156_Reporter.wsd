@@ -1,0 +1,4 @@
+@startuml
+Reporter o-- Department : aggregation
+Studio o-- Department : aggregation
+@enduml

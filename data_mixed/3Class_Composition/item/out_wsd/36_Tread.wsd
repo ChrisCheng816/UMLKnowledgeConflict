@@ -1,0 +1,4 @@
+@startuml
+Tread *-- Sole : composition
+Shoe *-- Sole : composition
+@enduml

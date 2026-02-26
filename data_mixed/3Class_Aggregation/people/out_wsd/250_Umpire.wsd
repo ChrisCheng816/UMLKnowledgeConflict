@@ -1,0 +1,4 @@
+@startuml
+Umpire o-- Team : aggregation
+Club o-- Team : aggregation
+@enduml

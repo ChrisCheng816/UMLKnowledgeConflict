@@ -1,0 +1,4 @@
+@startuml
+Edge *-- Top : composition
+Table *-- Top : composition
+@enduml

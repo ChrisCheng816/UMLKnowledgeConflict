@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Game : inheritance
+CardGame <|-- Game : inheritance
+@enduml

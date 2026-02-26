@@ -1,0 +1,4 @@
+@startuml
+TVSeries <|-- AnimeSeries : inheritance
+AttackOnTitan <|-- AnimeSeries : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Politician o-- Committee : aggregation
+Parliament o-- Committee : aggregation
+@enduml

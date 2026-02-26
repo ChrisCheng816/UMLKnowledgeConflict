@@ -1,0 +1,4 @@
+@startuml
+Game <|-- VideoGame : inheritance
+Destiny2 <|-- VideoGame : inheritance
+@enduml

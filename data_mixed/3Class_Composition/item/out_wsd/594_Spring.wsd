@@ -1,0 +1,4 @@
+@startuml
+Spring *-- Lever : composition
+Toaster *-- Lever : composition
+@enduml

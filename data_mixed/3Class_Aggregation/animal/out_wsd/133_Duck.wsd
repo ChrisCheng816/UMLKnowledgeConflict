@@ -1,0 +1,4 @@
+@startuml
+Duck o-- Coop : aggregation
+Ranch o-- Coop : aggregation
+@enduml

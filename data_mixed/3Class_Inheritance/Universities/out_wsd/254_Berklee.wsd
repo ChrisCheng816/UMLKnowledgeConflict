@@ -1,0 +1,4 @@
+@startuml
+College <|-- MusicCollege : inheritance
+Berklee <|-- MusicCollege : inheritance
+@enduml

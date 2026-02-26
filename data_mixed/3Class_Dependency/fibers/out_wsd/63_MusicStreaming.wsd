@@ -1,0 +1,4 @@
+@startuml
+WirelessHeadphones ..> Bluetooth : dependency
+WirelessHeadphones ..> MusicStreaming : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Magnet *-- Drive : composition
+Desktop *-- Drive : composition
+@enduml

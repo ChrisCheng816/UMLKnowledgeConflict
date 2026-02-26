@@ -1,0 +1,4 @@
+@startuml
+Tree <|-- Palm : inheritance
+CoconutPalm <|-- Palm : inheritance
+@enduml

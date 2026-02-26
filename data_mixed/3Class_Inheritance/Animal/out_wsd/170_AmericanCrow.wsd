@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Crow : inheritance
+AmericanCrow <|-- Crow : inheritance
+@enduml

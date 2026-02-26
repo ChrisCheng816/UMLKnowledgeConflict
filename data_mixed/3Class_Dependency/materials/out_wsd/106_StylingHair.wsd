@@ -1,0 +1,4 @@
+@startuml
+HairDryer ..> Electricity : dependency
+HairDryer ..> StylingHair : dependency
+@enduml

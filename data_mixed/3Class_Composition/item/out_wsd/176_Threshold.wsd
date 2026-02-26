@@ -1,0 +1,4 @@
+@startuml
+Threshold *-- Door : composition
+House *-- Door : composition
+@enduml

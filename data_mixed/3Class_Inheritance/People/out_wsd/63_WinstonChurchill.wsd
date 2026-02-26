@@ -1,0 +1,4 @@
+@startuml
+Politician <|-- PrimeMinister : inheritance
+WinstonChurchill <|-- PrimeMinister : inheritance
+@enduml

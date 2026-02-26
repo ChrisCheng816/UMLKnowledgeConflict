@@ -1,0 +1,4 @@
+@startuml
+Electronics <|-- Console : inheritance
+GameConsole <|-- Console : inheritance
+@enduml

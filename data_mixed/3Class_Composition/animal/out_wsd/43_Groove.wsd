@@ -1,0 +1,4 @@
+@startuml
+Groove *-- Tentacle : composition
+Octopus *-- Tentacle : composition
+@enduml

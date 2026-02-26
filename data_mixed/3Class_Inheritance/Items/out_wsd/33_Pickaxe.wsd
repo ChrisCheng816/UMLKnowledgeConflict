@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Tool : inheritance
+Pickaxe <|-- Tool : inheritance
+@enduml

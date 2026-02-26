@@ -1,0 +1,4 @@
+@startuml
+EBikeCharger ..> Electricity : dependency
+EBikeCharger ..> Operating : dependency
+@enduml

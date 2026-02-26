@@ -1,0 +1,4 @@
+@startuml
+Checklist o-- Clipboard : aggregation
+Office o-- Clipboard : aggregation
+@enduml

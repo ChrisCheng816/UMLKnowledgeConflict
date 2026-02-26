@@ -1,0 +1,4 @@
+@startuml
+Spoon o-- Drawer : aggregation
+Kitchen o-- Drawer : aggregation
+@enduml

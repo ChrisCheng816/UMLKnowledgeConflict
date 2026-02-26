@@ -1,0 +1,4 @@
+@startuml
+Oil ..> Olives : dependency
+Oil ..> SaladDressing : dependency
+@enduml

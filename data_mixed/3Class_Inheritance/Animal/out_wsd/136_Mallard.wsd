@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Duck : inheritance
+Mallard <|-- Duck : inheritance
+@enduml

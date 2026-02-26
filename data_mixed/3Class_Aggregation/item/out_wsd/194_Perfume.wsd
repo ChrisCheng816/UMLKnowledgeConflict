@@ -1,0 +1,4 @@
+@startuml
+Perfume o-- Cabinet : aggregation
+Bathroom o-- Cabinet : aggregation
+@enduml

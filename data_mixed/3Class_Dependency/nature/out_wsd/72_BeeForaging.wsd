@@ -1,0 +1,4 @@
+@startuml
+Nectar ..> Flower : dependency
+Nectar ..> BeeForaging : dependency
+@enduml

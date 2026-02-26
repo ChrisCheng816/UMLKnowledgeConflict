@@ -1,0 +1,4 @@
+@startuml
+Headline *-- Column : composition
+Newspaper *-- Column : composition
+@enduml

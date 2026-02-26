@@ -1,0 +1,4 @@
+@startuml
+StapleGun ..> Electricity : dependency
+StapleGun ..> Operating : dependency
+@enduml

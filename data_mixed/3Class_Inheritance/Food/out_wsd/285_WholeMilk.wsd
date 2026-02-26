@@ -1,0 +1,4 @@
+@startuml
+Dairy <|-- Milk : inheritance
+WholeMilk <|-- Milk : inheritance
+@enduml

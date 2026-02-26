@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Car : inheritance
+SportsCar <|-- Car : inheritance
+@enduml

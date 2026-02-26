@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Athletics : inheritance
+Hurdling <|-- Athletics : inheritance
+@enduml

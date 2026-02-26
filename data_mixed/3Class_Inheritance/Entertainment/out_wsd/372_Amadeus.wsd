@@ -1,0 +1,4 @@
+@startuml
+Film <|-- BiographicalFilm : inheritance
+Amadeus <|-- BiographicalFilm : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+SUV <|-- CrossoverSUV : inheritance
+VolkswagenTiguan <|-- CrossoverSUV : inheritance
+@enduml

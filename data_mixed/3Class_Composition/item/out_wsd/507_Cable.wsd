@@ -1,0 +1,4 @@
+@startuml
+Cable *-- Drivetrain : composition
+Bicycle *-- Drivetrain : composition
+@enduml

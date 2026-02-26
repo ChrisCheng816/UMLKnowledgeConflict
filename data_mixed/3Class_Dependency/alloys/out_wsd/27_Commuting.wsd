@@ -1,0 +1,4 @@
+@startuml
+ElectricScooter ..> Electricity : dependency
+ElectricScooter ..> Commuting : dependency
+@enduml

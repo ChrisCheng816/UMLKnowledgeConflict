@@ -1,0 +1,4 @@
+@startuml
+Sclera *-- Eye : composition
+Person *-- Eye : composition
+@enduml

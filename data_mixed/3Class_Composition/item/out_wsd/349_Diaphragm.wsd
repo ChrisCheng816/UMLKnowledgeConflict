@@ -1,0 +1,4 @@
+@startuml
+Diaphragm *-- Speaker : composition
+Phone *-- Speaker : composition
+@enduml

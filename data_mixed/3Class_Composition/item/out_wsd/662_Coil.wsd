@@ -1,0 +1,4 @@
+@startuml
+Coil *-- Spring : composition
+Pliers *-- Spring : composition
+@enduml

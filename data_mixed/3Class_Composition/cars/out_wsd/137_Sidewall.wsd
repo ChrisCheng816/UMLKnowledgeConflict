@@ -1,0 +1,4 @@
+@startuml
+Sidewall *-- Tire : composition
+Car *-- Tire : composition
+@enduml

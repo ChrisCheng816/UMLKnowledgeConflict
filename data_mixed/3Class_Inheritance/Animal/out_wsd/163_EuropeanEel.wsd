@@ -1,0 +1,4 @@
+@startuml
+Fish <|-- Eel : inheritance
+EuropeanEel <|-- Eel : inheritance
+@enduml

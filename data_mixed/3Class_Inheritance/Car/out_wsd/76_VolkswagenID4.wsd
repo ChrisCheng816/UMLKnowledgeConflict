@@ -1,0 +1,4 @@
+@startuml
+Car <|-- ElectricCrossover : inheritance
+VolkswagenID4 <|-- ElectricCrossover : inheritance
+@enduml

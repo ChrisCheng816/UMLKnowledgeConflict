@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Shrub : inheritance
+Weigela <|-- Shrub : inheritance
+@enduml

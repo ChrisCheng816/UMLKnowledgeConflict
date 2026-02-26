@@ -1,0 +1,4 @@
+@startuml
+Rib *-- Stem : composition
+Cactus *-- Stem : composition
+@enduml

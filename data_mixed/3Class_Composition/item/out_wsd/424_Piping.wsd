@@ -1,0 +1,4 @@
+@startuml
+Piping *-- Cushion : composition
+Sofa *-- Cushion : composition
+@enduml

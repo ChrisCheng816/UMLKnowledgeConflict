@@ -1,0 +1,4 @@
+@startuml
+Thread *-- Binding : composition
+Book *-- Binding : composition
+@enduml

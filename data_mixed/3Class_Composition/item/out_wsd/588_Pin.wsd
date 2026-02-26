@@ -1,0 +1,4 @@
+@startuml
+Pin *-- Cylinder : composition
+Lock *-- Cylinder : composition
+@enduml

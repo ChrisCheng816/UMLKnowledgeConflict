@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- StoneFruit : inheritance
+Olive <|-- StoneFruit : inheritance
+@enduml

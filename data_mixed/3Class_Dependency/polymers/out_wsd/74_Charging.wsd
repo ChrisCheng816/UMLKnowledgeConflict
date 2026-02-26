@@ -1,0 +1,4 @@
+@startuml
+Smartphone ..> Electricity : dependency
+Smartphone ..> Charging : dependency
+@enduml

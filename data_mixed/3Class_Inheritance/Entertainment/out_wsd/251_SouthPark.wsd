@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- TVSeries : inheritance
+SouthPark <|-- TVSeries : inheritance
+@enduml

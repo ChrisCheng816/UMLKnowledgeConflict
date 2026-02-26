@@ -1,0 +1,4 @@
+@startuml
+Tire *-- BicycleWheel : composition
+Bicycle *-- BicycleWheel : composition
+@enduml

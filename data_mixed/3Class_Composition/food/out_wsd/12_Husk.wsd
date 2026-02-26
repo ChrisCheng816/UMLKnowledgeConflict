@@ -1,0 +1,4 @@
+@startuml
+Husk *-- Grain : composition
+Rice *-- Grain : composition
+@enduml

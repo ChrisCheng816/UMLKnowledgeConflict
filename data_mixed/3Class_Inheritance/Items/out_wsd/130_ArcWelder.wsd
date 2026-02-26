@@ -1,0 +1,4 @@
+@startuml
+PowerTool <|-- Welder : inheritance
+ArcWelder <|-- Welder : inheritance
+@enduml

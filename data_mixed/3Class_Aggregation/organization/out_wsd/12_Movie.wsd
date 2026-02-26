@@ -1,0 +1,4 @@
+@startuml
+Movie o-- Schedule : aggregation
+Cinema o-- Schedule : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Officer o-- Unit : aggregation
+Hospital o-- Unit : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Fur *-- Paw : composition
+Dog *-- Paw : composition
+@enduml

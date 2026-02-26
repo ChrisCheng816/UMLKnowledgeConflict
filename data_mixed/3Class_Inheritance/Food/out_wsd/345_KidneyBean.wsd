@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Bean : inheritance
+KidneyBean <|-- Bean : inheritance
+@enduml

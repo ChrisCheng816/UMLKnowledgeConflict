@@ -1,0 +1,4 @@
+@startuml
+Bran *-- Grain : composition
+Wheat *-- Grain : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Beets ..> BeetPlant : dependency
+Beets ..> BeetSalad : dependency
+@enduml

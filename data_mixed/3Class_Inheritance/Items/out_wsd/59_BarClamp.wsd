@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- Clamp : inheritance
+BarClamp <|-- Clamp : inheritance
+@enduml

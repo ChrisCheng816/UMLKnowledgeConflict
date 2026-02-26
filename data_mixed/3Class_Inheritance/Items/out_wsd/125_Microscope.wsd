@@ -1,0 +1,4 @@
+@startuml
+Instrument <|-- LaboratoryInstrument : inheritance
+Microscope <|-- LaboratoryInstrument : inheritance
+@enduml

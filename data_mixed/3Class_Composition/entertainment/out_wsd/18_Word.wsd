@@ -1,0 +1,4 @@
+@startuml
+Word *-- Paragraph : composition
+Essay *-- Paragraph : composition
+@enduml

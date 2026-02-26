@@ -1,0 +1,4 @@
+@startuml
+Artist <|-- Sculptor : inheritance
+Michelangelo <|-- Sculptor : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Membrane *-- Fin : composition
+Shark *-- Fin : composition
+@enduml

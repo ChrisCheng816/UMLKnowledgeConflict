@@ -1,0 +1,4 @@
+@startuml
+Manager o-- Office : aggregation
+Company o-- Office : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Humidifier ..> TapWater : dependency
+Humidifier ..> HumidityControl : dependency
+@enduml

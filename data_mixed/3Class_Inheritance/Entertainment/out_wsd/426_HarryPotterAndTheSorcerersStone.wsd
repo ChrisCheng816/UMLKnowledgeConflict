@@ -1,0 +1,4 @@
+@startuml
+Film <|-- FantasyFilm : inheritance
+HarryPotterAndTheSorcerersStone <|-- FantasyFilm : inheritance
+@enduml

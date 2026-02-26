@@ -1,0 +1,4 @@
+@startuml
+Dish <|-- Soup : inheritance
+ChickenSoup <|-- Soup : inheritance
+@enduml

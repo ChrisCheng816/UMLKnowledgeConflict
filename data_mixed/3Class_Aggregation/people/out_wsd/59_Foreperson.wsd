@@ -1,0 +1,4 @@
+@startuml
+Foreperson o-- Jury : aggregation
+Court o-- Jury : aggregation
+@enduml

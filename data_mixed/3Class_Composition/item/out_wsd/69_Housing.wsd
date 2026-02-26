@@ -1,0 +1,4 @@
+@startuml
+Housing *-- Compressor : composition
+Refrigerator *-- Compressor : composition
+@enduml

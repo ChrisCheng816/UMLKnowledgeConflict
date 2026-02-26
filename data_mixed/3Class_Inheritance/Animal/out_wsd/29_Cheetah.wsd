@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Mammal : inheritance
+Cheetah <|-- Mammal : inheritance
+@enduml

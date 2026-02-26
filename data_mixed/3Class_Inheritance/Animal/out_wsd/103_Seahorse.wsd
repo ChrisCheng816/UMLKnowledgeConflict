@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Fish : inheritance
+Seahorse <|-- Fish : inheritance
+@enduml

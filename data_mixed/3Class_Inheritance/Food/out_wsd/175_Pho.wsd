@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Dish : inheritance
+Pho <|-- Dish : inheritance
+@enduml

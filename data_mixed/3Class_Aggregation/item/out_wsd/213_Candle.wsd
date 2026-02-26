@@ -1,0 +1,4 @@
+@startuml
+Candle o-- Shelf : aggregation
+LivingRoom o-- Shelf : aggregation
+@enduml

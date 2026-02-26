@@ -1,0 +1,4 @@
+@startuml
+CoachBus o-- Fleet : aggregation
+BusCompany o-- Fleet : aggregation
+@enduml

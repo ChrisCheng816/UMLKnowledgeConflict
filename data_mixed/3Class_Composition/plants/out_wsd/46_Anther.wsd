@@ -1,0 +1,4 @@
+@startuml
+Anther *-- Stamen : composition
+Flower *-- Stamen : composition
+@enduml

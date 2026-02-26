@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- CitrusFruit : inheritance
+KeyLime <|-- CitrusFruit : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Yeast ..> Sugar : dependency
+Yeast ..> BreadRising : dependency
+@enduml

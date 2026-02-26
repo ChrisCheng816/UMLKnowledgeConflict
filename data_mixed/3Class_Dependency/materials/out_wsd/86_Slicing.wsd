@@ -1,0 +1,4 @@
+@startuml
+FoodProcessor ..> Electricity : dependency
+FoodProcessor ..> Slicing : dependency
+@enduml

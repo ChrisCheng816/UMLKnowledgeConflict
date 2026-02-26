@@ -1,0 +1,4 @@
+@startuml
+Singer o-- Choir : aggregation
+University o-- Choir : aggregation
+@enduml

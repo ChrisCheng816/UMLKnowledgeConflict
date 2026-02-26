@@ -1,0 +1,4 @@
+@startuml
+Seal *-- Transmission : composition
+Car *-- Transmission : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Team o-- Division : aggregation
+League o-- Division : aggregation
+@enduml

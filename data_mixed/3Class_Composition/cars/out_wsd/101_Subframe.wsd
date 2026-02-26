@@ -1,0 +1,4 @@
+@startuml
+Subframe *-- Suspension : composition
+Car *-- Suspension : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- Astronomer : inheritance
+GalileoGalilei <|-- Astronomer : inheritance
+@enduml

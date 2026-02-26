@@ -1,0 +1,4 @@
+@startuml
+Phrase *-- Sentence : composition
+Essay *-- Sentence : composition
+@enduml

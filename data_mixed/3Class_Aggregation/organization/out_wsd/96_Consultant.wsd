@@ -1,0 +1,4 @@
+@startuml
+Consultant o-- Department : aggregation
+Company o-- Department : aggregation
+@enduml

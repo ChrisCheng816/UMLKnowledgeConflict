@@ -1,0 +1,4 @@
+@startuml
+Tendon *-- Leg : composition
+Dog *-- Leg : composition
+@enduml

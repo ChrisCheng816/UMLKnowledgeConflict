@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Equestrian : inheritance
+Polo <|-- Equestrian : inheritance
+@enduml

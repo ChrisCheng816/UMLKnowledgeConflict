@@ -1,0 +1,4 @@
+@startuml
+Word *-- Line : composition
+Entry *-- Line : composition
+@enduml

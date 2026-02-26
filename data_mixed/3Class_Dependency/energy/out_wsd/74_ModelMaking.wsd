@@ -1,0 +1,4 @@
+@startuml
+3DPrinter ..> Electricity : dependency
+3DPrinter ..> ModelMaking : dependency
+@enduml

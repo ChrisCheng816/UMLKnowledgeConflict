@@ -1,0 +1,4 @@
+@startuml
+Violinist o-- StringSection : aggregation
+Orchestra o-- StringSection : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Tomatoes ..> TomatoPlant : dependency
+Tomatoes ..> Ketchup : dependency
+@enduml

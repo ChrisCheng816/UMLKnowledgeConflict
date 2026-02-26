@@ -1,0 +1,4 @@
+@startuml
+Spring *-- Key : composition
+Piano *-- Key : composition
+@enduml

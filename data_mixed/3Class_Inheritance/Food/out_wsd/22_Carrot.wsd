@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- RootVegetable : inheritance
+Carrot <|-- RootVegetable : inheritance
+@enduml

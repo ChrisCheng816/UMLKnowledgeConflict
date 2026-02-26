@@ -1,0 +1,4 @@
+@startuml
+Aperture *-- Lens : composition
+Camera *-- Lens : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ScubaTank ..> Oxygen : dependency
+ScubaTank ..> ScubaDiver : dependency
+@enduml

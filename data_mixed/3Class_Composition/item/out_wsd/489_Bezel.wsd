@@ -1,0 +1,4 @@
+@startuml
+Bezel *-- Display : composition
+Laptop *-- Display : composition
+@enduml

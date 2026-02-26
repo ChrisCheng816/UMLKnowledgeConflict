@@ -1,0 +1,4 @@
+@startuml
+Root *-- Fang : composition
+Snake *-- Fang : composition
+@enduml

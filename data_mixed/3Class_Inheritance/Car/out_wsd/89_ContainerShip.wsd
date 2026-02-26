@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Ship : inheritance
+ContainerShip <|-- Ship : inheritance
+@enduml

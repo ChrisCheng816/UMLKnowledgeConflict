@@ -1,0 +1,4 @@
+@startuml
+Plug *-- Base : composition
+Lamp *-- Base : composition
+@enduml

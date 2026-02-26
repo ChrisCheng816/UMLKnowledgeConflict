@@ -1,0 +1,4 @@
+@startuml
+Game <|-- VideoGame : inheritance
+Roblox <|-- VideoGame : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Athlete <|-- Swimmer : inheritance
+KatieLedecky <|-- Swimmer : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Principal o-- Staff : aggregation
+School o-- Staff : aggregation
+@enduml

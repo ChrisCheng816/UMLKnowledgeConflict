@@ -1,0 +1,4 @@
+@startuml
+Gazelle o-- Enclosure : aggregation
+Reserve o-- Enclosure : aggregation
+@enduml

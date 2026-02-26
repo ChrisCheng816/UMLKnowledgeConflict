@@ -1,0 +1,4 @@
+@startuml
+Branch *-- Vein : composition
+Leaf *-- Vein : composition
+@enduml

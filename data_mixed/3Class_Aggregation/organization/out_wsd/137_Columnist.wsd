@@ -1,0 +1,4 @@
+@startuml
+Columnist o-- Editorial : aggregation
+Newspaper o-- Editorial : aggregation
+@enduml

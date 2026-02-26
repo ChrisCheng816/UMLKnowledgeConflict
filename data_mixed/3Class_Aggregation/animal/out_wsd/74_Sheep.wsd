@@ -1,0 +1,4 @@
+@startuml
+Sheep o-- Enclosure : aggregation
+Sanctuary o-- Enclosure : aggregation
+@enduml

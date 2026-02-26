@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Grape : inheritance
+ConcordGrape <|-- Grape : inheritance
+@enduml

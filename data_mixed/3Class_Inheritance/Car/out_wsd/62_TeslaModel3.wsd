@@ -1,0 +1,4 @@
+@startuml
+Car <|-- Sedan : inheritance
+TeslaModel3 <|-- Sedan : inheritance
+@enduml

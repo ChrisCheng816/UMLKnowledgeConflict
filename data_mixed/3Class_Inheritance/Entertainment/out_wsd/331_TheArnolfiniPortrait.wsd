@@ -1,0 +1,4 @@
+@startuml
+Artwork <|-- Painting : inheritance
+TheArnolfiniPortrait <|-- Painting : inheritance
+@enduml

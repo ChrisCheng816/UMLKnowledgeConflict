@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- PuzzleGame : inheritance
+Tetris <|-- PuzzleGame : inheritance
+@enduml

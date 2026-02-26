@@ -1,0 +1,4 @@
+@startuml
+OxygenSensor *-- Exhaust : composition
+Car *-- Exhaust : composition
+@enduml

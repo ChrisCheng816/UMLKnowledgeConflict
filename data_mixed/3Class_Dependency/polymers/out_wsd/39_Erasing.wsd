@@ -1,0 +1,4 @@
+@startuml
+Eraser ..> Rubber : dependency
+Eraser ..> Erasing : dependency
+@enduml

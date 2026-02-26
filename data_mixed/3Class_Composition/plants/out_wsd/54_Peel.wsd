@@ -1,0 +1,4 @@
+@startuml
+Peel *-- Root : composition
+Carrot *-- Root : composition
+@enduml

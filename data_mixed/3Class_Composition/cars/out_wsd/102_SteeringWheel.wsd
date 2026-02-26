@@ -1,0 +1,4 @@
+@startuml
+SteeringWheel *-- SteeringSystem : composition
+Car *-- SteeringSystem : composition
+@enduml

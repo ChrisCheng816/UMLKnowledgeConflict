@@ -1,0 +1,4 @@
+@startuml
+EducationalInstitution <|-- University : inheritance
+PompeuFabraUniversity <|-- University : inheritance
+@enduml

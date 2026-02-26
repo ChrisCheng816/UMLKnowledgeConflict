@@ -1,0 +1,4 @@
+@startuml
+Pupil *-- Iris : composition
+Eye *-- Iris : composition
+@enduml

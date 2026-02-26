@@ -1,0 +1,4 @@
+@startuml
+Coin o-- Collection : aggregation
+ArchiveRoom o-- Collection : aggregation
+@enduml

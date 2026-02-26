@@ -1,0 +1,4 @@
+@startuml
+Movie o-- Playlist : aggregation
+StreamingService o-- Playlist : aggregation
+@enduml

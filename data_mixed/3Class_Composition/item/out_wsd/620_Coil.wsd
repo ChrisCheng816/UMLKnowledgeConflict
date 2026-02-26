@@ -1,0 +1,4 @@
+@startuml
+Coil *-- Pickup : composition
+Guitar *-- Pickup : composition
+@enduml

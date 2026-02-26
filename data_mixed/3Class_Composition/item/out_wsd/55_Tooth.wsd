@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Zipper : composition
+Jacket *-- Zipper : composition
+@enduml

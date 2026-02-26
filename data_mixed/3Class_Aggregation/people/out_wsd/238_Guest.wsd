@@ -1,0 +1,4 @@
+@startuml
+Guest o-- Audience : aggregation
+Theater o-- Audience : aggregation
+@enduml

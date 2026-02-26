@@ -1,0 +1,4 @@
+@startuml
+Button *-- Handle : composition
+Suitcase *-- Handle : composition
+@enduml

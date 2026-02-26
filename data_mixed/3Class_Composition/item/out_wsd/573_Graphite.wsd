@@ -1,0 +1,4 @@
+@startuml
+Graphite *-- Lead : composition
+Pencil *-- Lead : composition
+@enduml

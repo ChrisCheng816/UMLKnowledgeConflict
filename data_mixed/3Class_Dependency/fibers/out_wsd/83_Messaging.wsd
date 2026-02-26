@@ -1,0 +1,4 @@
+@startuml
+Gmail ..> Internet : dependency
+Gmail ..> Messaging : dependency
+@enduml

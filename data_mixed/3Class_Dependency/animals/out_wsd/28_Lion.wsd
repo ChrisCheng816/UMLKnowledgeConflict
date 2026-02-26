@@ -1,0 +1,4 @@
+@startuml
+Zebra ..> Grass : dependency
+Zebra ..> Lion : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Seal *-- PlumbingSystem : composition
+House *-- PlumbingSystem : composition
+@enduml

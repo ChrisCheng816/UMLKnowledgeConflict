@@ -1,0 +1,4 @@
+@startuml
+Cookware <|-- Pan : inheritance
+Saucepan <|-- Pan : inheritance
+@enduml

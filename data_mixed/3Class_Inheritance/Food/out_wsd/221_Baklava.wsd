@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Dessert : inheritance
+Baklava <|-- Dessert : inheritance
+@enduml

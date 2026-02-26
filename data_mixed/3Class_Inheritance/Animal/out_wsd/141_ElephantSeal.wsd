@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Seal : inheritance
+ElephantSeal <|-- Seal : inheritance
+@enduml

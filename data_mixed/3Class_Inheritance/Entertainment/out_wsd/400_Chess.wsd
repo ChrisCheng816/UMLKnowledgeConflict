@@ -1,0 +1,4 @@
+@startuml
+BoardGame <|-- AbstractStrategyGame : inheritance
+Chess <|-- AbstractStrategyGame : inheritance
+@enduml

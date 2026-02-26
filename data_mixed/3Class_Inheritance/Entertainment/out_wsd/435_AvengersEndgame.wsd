@@ -1,0 +1,4 @@
+@startuml
+Film <|-- SuperheroFilm : inheritance
+AvengersEndgame <|-- SuperheroFilm : inheritance
+@enduml

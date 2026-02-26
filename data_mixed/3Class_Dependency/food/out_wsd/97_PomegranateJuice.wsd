@@ -1,0 +1,4 @@
+@startuml
+Pomegranate ..> PomegranateTree : dependency
+Pomegranate ..> PomegranateJuice : dependency
+@enduml

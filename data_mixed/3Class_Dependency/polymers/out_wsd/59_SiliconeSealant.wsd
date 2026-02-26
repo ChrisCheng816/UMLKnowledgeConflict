@@ -1,0 +1,4 @@
+@startuml
+Silicone ..> Sand : dependency
+Silicone ..> SiliconeSealant : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+ScooterCharger ..> WallOutlet : dependency
+ScooterCharger ..> ScooterBattery : dependency
+@enduml

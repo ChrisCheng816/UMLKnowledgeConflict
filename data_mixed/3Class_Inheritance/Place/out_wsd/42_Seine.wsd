@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- River : inheritance
+Seine <|-- River : inheritance
+@enduml

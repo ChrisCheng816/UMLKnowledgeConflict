@@ -1,0 +1,4 @@
+@startuml
+Layer *-- Coat : composition
+Seed *-- Coat : composition
+@enduml

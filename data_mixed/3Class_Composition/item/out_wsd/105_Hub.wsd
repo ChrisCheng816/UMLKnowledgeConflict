@@ -1,0 +1,4 @@
+@startuml
+Hub *-- Blade : composition
+Blender *-- Blade : composition
+@enduml

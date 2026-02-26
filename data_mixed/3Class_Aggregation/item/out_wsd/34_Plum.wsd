@@ -1,0 +1,4 @@
+@startuml
+Plum o-- Crate : aggregation
+FarmersMarket o-- Crate : aggregation
+@enduml

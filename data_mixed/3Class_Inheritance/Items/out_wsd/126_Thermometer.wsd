@@ -1,0 +1,4 @@
+@startuml
+Instrument <|-- MeasuringInstrument : inheritance
+Thermometer <|-- MeasuringInstrument : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cook o-- Club : aggregation
+Company o-- Club : aggregation
+@enduml

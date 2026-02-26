@@ -1,0 +1,4 @@
+@startuml
+Lettuce o-- Basket : aggregation
+GroceryStore o-- Basket : aggregation
+@enduml

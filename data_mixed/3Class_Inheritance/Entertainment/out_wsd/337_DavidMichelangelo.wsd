@@ -1,0 +1,4 @@
+@startuml
+Artwork <|-- Sculpture : inheritance
+DavidMichelangelo <|-- Sculpture : inheritance
+@enduml

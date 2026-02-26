@@ -1,0 +1,4 @@
+@startuml
+MusicWork <|-- Song : inheritance
+UptownFunk <|-- Song : inheritance
+@enduml

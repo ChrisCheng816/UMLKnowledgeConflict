@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Bread : inheritance
+Pita <|-- Bread : inheritance
+@enduml

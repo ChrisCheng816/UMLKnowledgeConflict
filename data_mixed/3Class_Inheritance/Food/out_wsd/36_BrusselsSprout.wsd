@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- CruciferousVegetable : inheritance
+BrusselsSprout <|-- CruciferousVegetable : inheritance
+@enduml

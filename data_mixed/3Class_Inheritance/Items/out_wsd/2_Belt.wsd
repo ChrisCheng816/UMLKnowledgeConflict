@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Accessory : inheritance
+Belt <|-- Accessory : inheritance
+@enduml

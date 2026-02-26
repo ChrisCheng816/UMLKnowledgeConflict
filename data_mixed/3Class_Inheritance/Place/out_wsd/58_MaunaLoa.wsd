@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- Volcano : inheritance
+MaunaLoa <|-- Volcano : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cell *-- Row : composition
+Table *-- Row : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Mussels ..> Algae : dependency
+Mussels ..> Starfish : dependency
+@enduml

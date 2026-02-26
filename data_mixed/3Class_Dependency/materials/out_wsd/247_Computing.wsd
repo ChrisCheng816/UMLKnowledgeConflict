@@ -1,0 +1,4 @@
+@startuml
+DesktopComputer ..> Electricity : dependency
+DesktopComputer ..> Computing : dependency
+@enduml

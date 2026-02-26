@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- TVSeries : inheritance
+DoctorWho <|-- TVSeries : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Aperture *-- CameraModule : composition
+Phone *-- CameraModule : composition
+@enduml

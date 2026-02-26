@@ -1,0 +1,4 @@
+@startuml
+ECGMonitor ..> Electricity : dependency
+ECGMonitor ..> EKGTest : dependency
+@enduml

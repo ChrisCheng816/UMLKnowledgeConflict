@@ -1,0 +1,4 @@
+@startuml
+Blueberry ..> BlueberryBush : dependency
+Blueberry ..> BlueberryJam : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Membrane *-- Gill : composition
+Salmon *-- Gill : composition
+@enduml

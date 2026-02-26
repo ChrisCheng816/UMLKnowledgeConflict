@@ -1,0 +1,4 @@
+@startuml
+ChickpeaFlour ..> Chickpeas : dependency
+ChickpeaFlour ..> ChickpeaFlatbread : dependency
+@enduml

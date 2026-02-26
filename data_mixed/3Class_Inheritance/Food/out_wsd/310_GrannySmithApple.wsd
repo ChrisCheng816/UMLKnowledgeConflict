@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Apple : inheritance
+GrannySmithApple <|-- Apple : inheritance
+@enduml

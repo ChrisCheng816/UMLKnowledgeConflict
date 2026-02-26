@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Game : inheritance
+Wordle <|-- Game : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Republic <|-- UnitaryRepublic : inheritance
+Senegal <|-- UnitaryRepublic : inheritance
+@enduml

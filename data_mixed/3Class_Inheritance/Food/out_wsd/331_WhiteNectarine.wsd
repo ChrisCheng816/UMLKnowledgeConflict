@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Nectarine : inheritance
+WhiteNectarine <|-- Nectarine : inheritance
+@enduml

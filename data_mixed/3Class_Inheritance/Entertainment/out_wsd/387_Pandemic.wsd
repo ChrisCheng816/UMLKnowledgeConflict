@@ -1,0 +1,4 @@
+@startuml
+BoardGame <|-- CooperativeGame : inheritance
+Pandemic <|-- CooperativeGame : inheritance
+@enduml

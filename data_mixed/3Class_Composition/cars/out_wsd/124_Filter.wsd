@@ -1,0 +1,4 @@
+@startuml
+Filter *-- Transmission : composition
+Car *-- Transmission : composition
+@enduml

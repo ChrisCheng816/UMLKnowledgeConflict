@@ -1,0 +1,4 @@
+@startuml
+Slot *-- Bracket : composition
+Shelf *-- Bracket : composition
+@enduml

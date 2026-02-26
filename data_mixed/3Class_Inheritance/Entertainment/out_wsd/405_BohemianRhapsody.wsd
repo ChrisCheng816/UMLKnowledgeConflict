@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- RockSong : inheritance
+BohemianRhapsody <|-- RockSong : inheritance
+@enduml

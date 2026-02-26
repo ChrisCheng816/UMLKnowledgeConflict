@@ -1,0 +1,4 @@
+@startuml
+Screw *-- Frame : composition
+Mirror *-- Frame : composition
+@enduml

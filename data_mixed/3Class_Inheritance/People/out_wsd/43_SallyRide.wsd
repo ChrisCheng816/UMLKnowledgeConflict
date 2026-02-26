@@ -1,0 +1,4 @@
+@startuml
+Explorer <|-- Astronaut : inheritance
+SallyRide <|-- Astronaut : inheritance
+@enduml

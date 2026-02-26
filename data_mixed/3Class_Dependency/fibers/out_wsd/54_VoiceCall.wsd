@@ -1,0 +1,4 @@
+@startuml
+TabletWithLTE ..> CellularNetwork : dependency
+TabletWithLTE ..> VoiceCall : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Crane o-- Aviary : aggregation
+Sanctuary o-- Aviary : aggregation
+@enduml

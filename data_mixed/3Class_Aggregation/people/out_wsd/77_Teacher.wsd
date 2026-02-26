@@ -1,0 +1,4 @@
+@startuml
+Teacher o-- Team : aggregation
+School o-- Team : aggregation
+@enduml

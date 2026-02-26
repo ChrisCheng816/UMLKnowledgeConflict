@@ -1,0 +1,4 @@
+@startuml
+SmartBoard ..> Electricity : dependency
+SmartBoard ..> Presenting : dependency
+@enduml

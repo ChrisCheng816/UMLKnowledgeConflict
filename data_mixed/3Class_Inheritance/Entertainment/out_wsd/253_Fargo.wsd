@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- TVSeries : inheritance
+Fargo <|-- TVSeries : inheritance
+@enduml

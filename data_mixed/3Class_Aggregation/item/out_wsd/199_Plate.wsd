@@ -1,0 +1,4 @@
+@startuml
+Plate o-- Cabinet : aggregation
+Kitchen o-- Cabinet : aggregation
+@enduml

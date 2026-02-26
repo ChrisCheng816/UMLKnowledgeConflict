@@ -1,0 +1,4 @@
+@startuml
+Thrush o-- BirdCage : aggregation
+BirdMarket o-- BirdCage : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Outlet *-- Wiring : composition
+House *-- Wiring : composition
+@enduml

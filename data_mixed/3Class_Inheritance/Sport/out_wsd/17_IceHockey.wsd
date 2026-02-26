@@ -1,0 +1,4 @@
+@startuml
+Activity <|-- Sport : inheritance
+IceHockey <|-- Sport : inheritance
+@enduml

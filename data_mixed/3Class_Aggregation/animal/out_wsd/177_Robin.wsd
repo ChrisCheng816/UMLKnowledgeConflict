@@ -1,0 +1,4 @@
+@startuml
+Robin o-- Cage : aggregation
+Aviary o-- Cage : aggregation
+@enduml

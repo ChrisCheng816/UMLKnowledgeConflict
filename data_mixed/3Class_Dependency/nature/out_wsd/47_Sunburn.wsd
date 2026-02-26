@@ -1,0 +1,4 @@
+@startuml
+UVRadiation ..> Sun : dependency
+UVRadiation ..> Sunburn : dependency
+@enduml

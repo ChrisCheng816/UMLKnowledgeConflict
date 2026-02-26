@@ -1,0 +1,4 @@
+@startuml
+PickupTruck <|-- FullSizePickup : inheritance
+ToyotaTundra <|-- FullSizePickup : inheritance
+@enduml

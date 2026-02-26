@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Bird : inheritance
+Duck <|-- Bird : inheritance
+@enduml

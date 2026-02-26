@@ -1,0 +1,4 @@
+@startuml
+Rivet *-- Blade : composition
+Blender *-- Blade : composition
+@enduml

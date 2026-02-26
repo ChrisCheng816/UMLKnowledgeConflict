@@ -1,0 +1,4 @@
+@startuml
+FishingLine ..> Nylon : dependency
+FishingLine ..> Fishing : dependency
+@enduml

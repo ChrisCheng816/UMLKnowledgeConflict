@@ -1,0 +1,4 @@
+@startuml
+Pommel *-- Hilt : composition
+Sword *-- Hilt : composition
+@enduml

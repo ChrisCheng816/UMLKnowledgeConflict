@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- Hammer : inheritance
+Sledgehammer <|-- Hammer : inheritance
+@enduml

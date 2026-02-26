@@ -1,0 +1,4 @@
+@startuml
+DieselTrain ..> DieselFuel : dependency
+DieselTrain ..> TrainCommute : dependency
+@enduml

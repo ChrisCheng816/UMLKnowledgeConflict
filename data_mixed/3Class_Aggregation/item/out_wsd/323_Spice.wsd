@@ -1,0 +1,4 @@
+@startuml
+Spice o-- Pantry : aggregation
+Kitchen o-- Pantry : aggregation
+@enduml

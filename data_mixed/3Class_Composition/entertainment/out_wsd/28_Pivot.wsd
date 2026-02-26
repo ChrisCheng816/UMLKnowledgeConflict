@@ -1,0 +1,4 @@
+@startuml
+Pivot *-- Key : composition
+Piano *-- Key : composition
+@enduml

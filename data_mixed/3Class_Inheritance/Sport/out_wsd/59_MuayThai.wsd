@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- CombatSport : inheritance
+MuayThai <|-- CombatSport : inheritance
+@enduml

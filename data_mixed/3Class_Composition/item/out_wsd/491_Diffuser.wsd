@@ -1,0 +1,4 @@
+@startuml
+Diffuser *-- Display : composition
+Laptop *-- Display : composition
+@enduml

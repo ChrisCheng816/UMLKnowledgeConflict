@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Succulent : inheritance
+Agave <|-- Succulent : inheritance
+@enduml

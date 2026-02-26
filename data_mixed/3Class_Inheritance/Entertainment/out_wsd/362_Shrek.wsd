@@ -1,0 +1,4 @@
+@startuml
+Film <|-- AnimatedFilm : inheritance
+Shrek <|-- AnimatedFilm : inheritance
+@enduml

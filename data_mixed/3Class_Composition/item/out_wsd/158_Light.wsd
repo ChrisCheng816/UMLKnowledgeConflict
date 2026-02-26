@@ -1,0 +1,4 @@
+@startuml
+Light *-- Ceiling : composition
+House *-- Ceiling : composition
+@enduml

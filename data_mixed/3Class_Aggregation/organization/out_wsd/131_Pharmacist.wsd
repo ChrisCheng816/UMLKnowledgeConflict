@@ -1,0 +1,4 @@
+@startuml
+Pharmacist o-- Ward : aggregation
+Hospital o-- Ward : aggregation
+@enduml

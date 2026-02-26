@@ -1,0 +1,4 @@
+@startuml
+Barb *-- Feather : composition
+Penguin *-- Feather : composition
+@enduml

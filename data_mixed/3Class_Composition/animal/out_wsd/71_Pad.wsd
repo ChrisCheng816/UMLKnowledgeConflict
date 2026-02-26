@@ -1,0 +1,4 @@
+@startuml
+Pad *-- Finger : composition
+Person *-- Finger : composition
+@enduml

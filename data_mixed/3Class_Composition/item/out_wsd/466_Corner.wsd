@@ -1,0 +1,4 @@
+@startuml
+Corner *-- Frame : composition
+Mirror *-- Frame : composition
+@enduml

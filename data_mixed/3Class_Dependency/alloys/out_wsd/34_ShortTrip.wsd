@@ -1,0 +1,4 @@
+@startuml
+ElectricTram ..> Electricity : dependency
+ElectricTram ..> ShortTrip : dependency
+@enduml

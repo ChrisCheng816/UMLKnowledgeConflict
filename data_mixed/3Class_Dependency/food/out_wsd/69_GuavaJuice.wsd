@@ -1,0 +1,4 @@
+@startuml
+Guava ..> GuavaTree : dependency
+Guava ..> GuavaJuice : dependency
+@enduml

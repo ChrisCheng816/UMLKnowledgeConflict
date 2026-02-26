@@ -1,0 +1,4 @@
+@startuml
+Canal *-- Ear : composition
+Person *-- Ear : composition
+@enduml

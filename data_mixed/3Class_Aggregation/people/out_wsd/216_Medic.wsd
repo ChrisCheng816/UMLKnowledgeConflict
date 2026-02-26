@@ -1,0 +1,4 @@
+@startuml
+Medic o-- Unit : aggregation
+PoliceStation o-- Unit : aggregation
+@enduml

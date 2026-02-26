@@ -1,0 +1,4 @@
+@startuml
+Athlete <|-- Runner : inheritance
+UsainBolt <|-- Runner : inheritance
+@enduml

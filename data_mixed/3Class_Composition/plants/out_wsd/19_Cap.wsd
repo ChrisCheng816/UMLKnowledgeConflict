@@ -1,0 +1,4 @@
+@startuml
+Cap *-- Root : composition
+Carrot *-- Root : composition
+@enduml

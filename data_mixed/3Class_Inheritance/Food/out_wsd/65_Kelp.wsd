@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- SeaVegetable : inheritance
+Kelp <|-- SeaVegetable : inheritance
+@enduml

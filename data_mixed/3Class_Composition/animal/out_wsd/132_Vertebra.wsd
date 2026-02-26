@@ -1,0 +1,4 @@
+@startuml
+Vertebra *-- Neck : composition
+Giraffe *-- Neck : composition
+@enduml

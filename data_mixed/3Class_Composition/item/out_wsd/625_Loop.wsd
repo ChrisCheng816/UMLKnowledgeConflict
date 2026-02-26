@@ -1,0 +1,4 @@
+@startuml
+Loop *-- Handle : composition
+Scissors *-- Handle : composition
+@enduml

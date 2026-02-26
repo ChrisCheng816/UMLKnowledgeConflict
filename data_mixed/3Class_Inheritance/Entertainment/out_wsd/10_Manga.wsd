@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Comic : inheritance
+Manga <|-- Comic : inheritance
+@enduml

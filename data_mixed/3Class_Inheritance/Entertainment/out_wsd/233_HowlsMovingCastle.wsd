@@ -1,0 +1,4 @@
+@startuml
+Film <|-- AnimatedFilm : inheritance
+HowlsMovingCastle <|-- AnimatedFilm : inheritance
+@enduml

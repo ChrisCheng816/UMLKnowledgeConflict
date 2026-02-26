@@ -1,0 +1,4 @@
+@startuml
+Rib *-- Leaf : composition
+Lettuce *-- Leaf : composition
+@enduml

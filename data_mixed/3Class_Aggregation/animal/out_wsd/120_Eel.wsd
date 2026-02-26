@@ -1,0 +1,4 @@
+@startuml
+Eel o-- Tank : aggregation
+Aquarium o-- Tank : aggregation
+@enduml

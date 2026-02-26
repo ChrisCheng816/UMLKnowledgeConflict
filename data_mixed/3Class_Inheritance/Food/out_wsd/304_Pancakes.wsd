@@ -1,0 +1,4 @@
+@startuml
+Food <|-- BreakfastFood : inheritance
+Pancakes <|-- BreakfastFood : inheritance
+@enduml

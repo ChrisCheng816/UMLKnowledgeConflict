@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Elephant : inheritance
+AfricanElephant <|-- Elephant : inheritance
+@enduml

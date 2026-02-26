@@ -1,0 +1,4 @@
+@startuml
+Sheep o-- Barn : aggregation
+Ranch o-- Barn : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Invoice o-- Folder : aggregation
+Office o-- Folder : aggregation
+@enduml

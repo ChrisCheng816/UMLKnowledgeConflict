@@ -1,0 +1,4 @@
+@startuml
+Cleaner o-- Staff : aggregation
+Restaurant o-- Staff : aggregation
+@enduml

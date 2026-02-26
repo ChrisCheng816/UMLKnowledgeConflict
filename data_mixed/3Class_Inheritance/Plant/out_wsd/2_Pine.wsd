@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Tree : inheritance
+Pine <|-- Tree : inheritance
+@enduml

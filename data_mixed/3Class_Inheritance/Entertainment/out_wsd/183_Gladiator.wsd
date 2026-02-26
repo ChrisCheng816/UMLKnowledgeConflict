@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Film : inheritance
+Gladiator <|-- Film : inheritance
+@enduml

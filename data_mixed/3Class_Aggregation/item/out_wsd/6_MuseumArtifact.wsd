@@ -1,0 +1,4 @@
+@startuml
+MuseumArtifact o-- GlassCabinet : aggregation
+MuseumStore o-- GlassCabinet : aggregation
+@enduml

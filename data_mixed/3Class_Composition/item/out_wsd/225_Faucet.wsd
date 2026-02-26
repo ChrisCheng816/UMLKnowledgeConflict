@@ -1,0 +1,4 @@
+@startuml
+Faucet *-- Plumbing : composition
+House *-- Plumbing : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Reptile : inheritance
+Iguana <|-- Reptile : inheritance
+@enduml

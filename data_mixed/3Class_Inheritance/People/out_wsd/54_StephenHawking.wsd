@@ -1,0 +1,4 @@
+@startuml
+Physicist <|-- Cosmologist : inheritance
+StephenHawking <|-- Cosmologist : inheritance
+@enduml

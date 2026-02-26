@@ -1,0 +1,4 @@
+@startuml
+Mug o-- Rack : aggregation
+Kitchen o-- Rack : aggregation
+@enduml

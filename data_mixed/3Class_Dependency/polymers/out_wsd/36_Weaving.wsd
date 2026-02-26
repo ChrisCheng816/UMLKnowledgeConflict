@@ -1,0 +1,4 @@
+@startuml
+CottonFabric ..> Cotton : dependency
+CottonFabric ..> Weaving : dependency
+@enduml

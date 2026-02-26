@@ -1,0 +1,4 @@
+@startuml
+Entry *-- Page : composition
+Catalog *-- Page : composition
+@enduml

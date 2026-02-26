@@ -1,0 +1,4 @@
+@startuml
+Bottle o-- Crate : aggregation
+Warehouse o-- Crate : aggregation
+@enduml

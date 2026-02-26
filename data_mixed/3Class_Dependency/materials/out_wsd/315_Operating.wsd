@@ -1,0 +1,4 @@
+@startuml
+TileCutter ..> Electricity : dependency
+TileCutter ..> Operating : dependency
+@enduml

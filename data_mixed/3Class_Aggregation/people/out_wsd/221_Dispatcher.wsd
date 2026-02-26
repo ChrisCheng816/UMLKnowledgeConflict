@@ -1,0 +1,4 @@
+@startuml
+Dispatcher o-- Unit : aggregation
+FireStation o-- Unit : aggregation
+@enduml

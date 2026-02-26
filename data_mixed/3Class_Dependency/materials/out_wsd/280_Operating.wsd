@@ -1,0 +1,4 @@
+@startuml
+ElectricSaw ..> Electricity : dependency
+ElectricSaw ..> Operating : dependency
+@enduml

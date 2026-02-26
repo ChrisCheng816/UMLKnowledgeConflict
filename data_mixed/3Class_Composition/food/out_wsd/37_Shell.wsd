@@ -1,0 +1,4 @@
+@startuml
+Shell *-- Husk : composition
+Walnut *-- Husk : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Fiber *-- Stem : composition
+Bamboo *-- Stem : composition
+@enduml

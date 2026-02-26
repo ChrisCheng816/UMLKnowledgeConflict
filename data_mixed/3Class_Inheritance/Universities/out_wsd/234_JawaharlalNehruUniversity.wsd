@@ -1,0 +1,4 @@
+@startuml
+EducationalInstitution <|-- University : inheritance
+JawaharlalNehruUniversity <|-- University : inheritance
+@enduml

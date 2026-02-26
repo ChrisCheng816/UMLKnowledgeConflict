@@ -1,0 +1,4 @@
+@startuml
+Arch *-- Gill : composition
+Salmon *-- Gill : composition
+@enduml

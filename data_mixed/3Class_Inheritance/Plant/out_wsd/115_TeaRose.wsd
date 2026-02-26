@@ -1,0 +1,4 @@
+@startuml
+Flower <|-- Rose : inheritance
+TeaRose <|-- Rose : inheritance
+@enduml

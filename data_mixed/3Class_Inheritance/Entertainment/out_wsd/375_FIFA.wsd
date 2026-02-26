@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- SportsGame : inheritance
+FIFA <|-- SportsGame : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Giraffe : inheritance
+MasaiGiraffe <|-- Giraffe : inheritance
+@enduml

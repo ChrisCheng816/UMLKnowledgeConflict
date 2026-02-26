@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- Vise : inheritance
+BenchVise <|-- Vise : inheritance
+@enduml

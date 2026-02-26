@@ -1,0 +1,4 @@
+@startuml
+Hook *-- Chorus : composition
+Song *-- Chorus : composition
+@enduml

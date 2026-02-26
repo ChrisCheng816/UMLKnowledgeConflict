@@ -1,0 +1,4 @@
+@startuml
+University <|-- CollegiateUniversity : inheritance
+OxfordUniversity <|-- CollegiateUniversity : inheritance
+@enduml

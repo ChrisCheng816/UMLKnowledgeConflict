@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Zebra : inheritance
+PlainsZebra <|-- Zebra : inheritance
+@enduml

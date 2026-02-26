@@ -1,0 +1,4 @@
+@startuml
+Blade *-- Shutter : composition
+Camera *-- Shutter : composition
+@enduml

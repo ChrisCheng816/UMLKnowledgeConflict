@@ -1,0 +1,4 @@
+@startuml
+Soap o-- Aisle : aggregation
+Supermarket o-- Aisle : aggregation
+@enduml

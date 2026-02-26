@@ -1,0 +1,4 @@
+@startuml
+BuildingPowerFeed ..> CircuitBreakerPanel : dependency
+BuildingPowerFeed ..> Escalator : dependency
+@enduml

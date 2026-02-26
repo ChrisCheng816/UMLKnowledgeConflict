@@ -1,0 +1,4 @@
+@startuml
+WhatsApp ..> Internet : dependency
+WhatsApp ..> Messaging : dependency
+@enduml

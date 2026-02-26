@@ -1,0 +1,4 @@
+@startuml
+Editor o-- Crew : aggregation
+MovieSet o-- Crew : aggregation
+@enduml

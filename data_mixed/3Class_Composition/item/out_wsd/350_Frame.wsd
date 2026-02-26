@@ -1,0 +1,4 @@
+@startuml
+Frame *-- Speaker : composition
+Phone *-- Speaker : composition
+@enduml

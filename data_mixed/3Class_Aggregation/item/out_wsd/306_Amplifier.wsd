@@ -1,0 +1,4 @@
+@startuml
+Amplifier o-- InstrumentRack : aggregation
+MusicStore o-- InstrumentRack : aggregation
+@enduml

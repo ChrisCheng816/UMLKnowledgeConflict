@@ -1,0 +1,4 @@
+@startuml
+Cashier o-- Team : aggregation
+Cafe o-- Team : aggregation
+@enduml

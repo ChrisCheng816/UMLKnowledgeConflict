@@ -1,0 +1,4 @@
+@startuml
+Item <|-- MedicalSupply : inheritance
+Bandage <|-- MedicalSupply : inheritance
+@enduml

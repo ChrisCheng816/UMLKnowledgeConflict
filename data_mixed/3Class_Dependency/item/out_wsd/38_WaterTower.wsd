@@ -1,0 +1,4 @@
+@startuml
+PumpStation ..> WaterTreatmentPlant : dependency
+PumpStation ..> WaterTower : dependency
+@enduml

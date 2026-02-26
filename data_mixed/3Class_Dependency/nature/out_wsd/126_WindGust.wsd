@@ -1,0 +1,4 @@
+@startuml
+PressureDifference ..> TemperatureContrast : dependency
+PressureDifference ..> WindGust : dependency
+@enduml

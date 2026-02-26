@@ -1,0 +1,4 @@
+@startuml
+Turkey ..> TurkeyFarm : dependency
+Turkey ..> TurkeySandwich : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WallOutlet ..> CircuitBreakerPanel : dependency
+WallOutlet ..> Microwave : dependency
+@enduml

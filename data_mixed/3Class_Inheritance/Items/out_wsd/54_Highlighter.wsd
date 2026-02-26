@@ -1,0 +1,4 @@
+@startuml
+Stationery <|-- Marker : inheritance
+Highlighter <|-- Marker : inheritance
+@enduml

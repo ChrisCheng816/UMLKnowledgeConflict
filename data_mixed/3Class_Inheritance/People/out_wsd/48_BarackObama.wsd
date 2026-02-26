@@ -1,0 +1,4 @@
+@startuml
+Politician <|-- President : inheritance
+BarackObama <|-- President : inheritance
+@enduml

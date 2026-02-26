@@ -1,0 +1,4 @@
+@startuml
+Shield *-- Port : composition
+Laptop *-- Port : composition
+@enduml

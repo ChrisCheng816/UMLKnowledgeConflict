@@ -1,0 +1,4 @@
+@startuml
+BreadLoaf o-- Tray : aggregation
+BakeryMarket o-- Tray : aggregation
+@enduml

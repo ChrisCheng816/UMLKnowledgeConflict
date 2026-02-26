@@ -1,0 +1,4 @@
+@startuml
+Portrait o-- Collection : aggregation
+Gallery o-- Collection : aggregation
+@enduml

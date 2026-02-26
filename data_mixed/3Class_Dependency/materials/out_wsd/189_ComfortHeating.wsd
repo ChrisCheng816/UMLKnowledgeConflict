@@ -1,0 +1,4 @@
+@startuml
+SpaceHeater ..> Electricity : dependency
+SpaceHeater ..> ComfortHeating : dependency
+@enduml

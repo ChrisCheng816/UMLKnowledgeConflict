@@ -1,0 +1,4 @@
+@startuml
+Drywall *-- Ceiling : composition
+House *-- Ceiling : composition
+@enduml

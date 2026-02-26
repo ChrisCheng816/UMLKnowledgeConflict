@@ -1,0 +1,4 @@
+@startuml
+Novel o-- Catalog : aggregation
+Publisher o-- Catalog : aggregation
+@enduml

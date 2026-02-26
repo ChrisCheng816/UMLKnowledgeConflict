@@ -1,0 +1,4 @@
+@startuml
+Paramedic o-- Staff : aggregation
+Hospital o-- Staff : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Dancer o-- Club : aggregation
+School o-- Club : aggregation
+@enduml

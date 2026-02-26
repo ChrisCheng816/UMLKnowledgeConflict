@@ -1,0 +1,4 @@
+@startuml
+Thread *-- Lace : composition
+Shoe *-- Lace : composition
+@enduml

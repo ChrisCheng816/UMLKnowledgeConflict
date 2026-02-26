@@ -1,0 +1,4 @@
+@startuml
+Winding *-- String : composition
+Guitar *-- String : composition
+@enduml

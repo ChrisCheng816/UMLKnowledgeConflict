@@ -1,0 +1,4 @@
+@startuml
+Barley ..> BarleyPlant : dependency
+Barley ..> BarleyPorridge : dependency
+@enduml

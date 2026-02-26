@@ -1,0 +1,4 @@
+@startuml
+Housing *-- Microphone : composition
+Phone *-- Microphone : composition
+@enduml

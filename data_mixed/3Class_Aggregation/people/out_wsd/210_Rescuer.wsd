@@ -1,0 +1,4 @@
+@startuml
+Rescuer o-- Squad : aggregation
+Shelter o-- Squad : aggregation
+@enduml

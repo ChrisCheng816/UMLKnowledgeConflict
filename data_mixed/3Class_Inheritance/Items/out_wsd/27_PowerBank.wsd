@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Electronics : inheritance
+PowerBank <|-- Electronics : inheritance
+@enduml

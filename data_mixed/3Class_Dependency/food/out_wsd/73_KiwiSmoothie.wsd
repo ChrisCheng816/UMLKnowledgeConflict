@@ -1,0 +1,4 @@
+@startuml
+Kiwi ..> KiwiVine : dependency
+Kiwi ..> KiwiSmoothie : dependency
+@enduml

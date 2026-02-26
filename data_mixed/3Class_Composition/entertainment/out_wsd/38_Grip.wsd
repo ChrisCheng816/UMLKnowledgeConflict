@@ -1,0 +1,4 @@
+@startuml
+Grip *-- Handle : composition
+TennisRacket *-- Handle : composition
+@enduml

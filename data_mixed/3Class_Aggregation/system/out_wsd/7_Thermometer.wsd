@@ -1,0 +1,4 @@
+@startuml
+Thermometer o-- Laboratory : aggregation
+University o-- Laboratory : aggregation
+@enduml

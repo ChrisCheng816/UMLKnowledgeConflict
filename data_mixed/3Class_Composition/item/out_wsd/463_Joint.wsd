@@ -1,0 +1,4 @@
+@startuml
+Joint *-- Rod : composition
+Closet *-- Rod : composition
+@enduml

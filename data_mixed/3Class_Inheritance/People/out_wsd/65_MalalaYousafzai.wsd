@@ -1,0 +1,4 @@
+@startuml
+Activist <|-- EducationActivist : inheritance
+MalalaYousafzai <|-- EducationActivist : inheritance
+@enduml

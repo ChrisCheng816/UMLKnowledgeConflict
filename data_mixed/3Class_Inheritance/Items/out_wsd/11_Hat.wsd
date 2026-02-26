@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Clothing : inheritance
+Hat <|-- Clothing : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Bailiff o-- Staff : aggregation
+Court o-- Staff : aggregation
+@enduml

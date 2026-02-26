@@ -1,0 +1,4 @@
+@startuml
+Bezel *-- Screen : composition
+Phone *-- Screen : composition
+@enduml

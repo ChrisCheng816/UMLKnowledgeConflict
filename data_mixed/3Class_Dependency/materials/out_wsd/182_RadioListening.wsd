@@ -1,0 +1,4 @@
+@startuml
+SmartSpeaker ..> Electricity : dependency
+SmartSpeaker ..> RadioListening : dependency
+@enduml

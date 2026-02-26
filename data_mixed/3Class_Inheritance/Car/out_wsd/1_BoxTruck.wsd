@@ -1,0 +1,4 @@
+@startuml
+Vehicle <|-- Truck : inheritance
+BoxTruck <|-- Truck : inheritance
+@enduml

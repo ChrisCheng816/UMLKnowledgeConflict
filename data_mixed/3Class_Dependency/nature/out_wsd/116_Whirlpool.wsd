@@ -1,0 +1,4 @@
+@startuml
+OceanCurrent ..> Wind : dependency
+OceanCurrent ..> Whirlpool : dependency
+@enduml

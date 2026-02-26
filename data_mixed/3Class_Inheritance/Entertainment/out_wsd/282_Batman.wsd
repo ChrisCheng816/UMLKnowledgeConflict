@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Comic : inheritance
+Batman <|-- Comic : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+DesktopComputer ..> WiFiNetwork : dependency
+DesktopComputer ..> Email : dependency
+@enduml

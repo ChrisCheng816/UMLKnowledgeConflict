@@ -1,0 +1,4 @@
+@startuml
+CleaningTool <|-- Mop : inheritance
+SteamMop <|-- Mop : inheritance
+@enduml

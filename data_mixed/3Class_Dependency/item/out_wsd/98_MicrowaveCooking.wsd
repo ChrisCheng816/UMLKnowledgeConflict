@@ -1,0 +1,4 @@
+@startuml
+Microwave ..> WallOutlet : dependency
+Microwave ..> MicrowaveCooking : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Medic o-- Squad : aggregation
+Camp o-- Squad : aggregation
+@enduml

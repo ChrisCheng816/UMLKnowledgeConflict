@@ -1,0 +1,4 @@
+@startuml
+DeliveryVan ..> DieselFuel : dependency
+DeliveryVan ..> CourierDelivery : dependency
+@enduml

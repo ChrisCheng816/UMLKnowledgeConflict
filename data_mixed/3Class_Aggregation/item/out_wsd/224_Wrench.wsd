@@ -1,0 +1,4 @@
+@startuml
+Wrench o-- Toolbox : aggregation
+Garage o-- Toolbox : aggregation
+@enduml

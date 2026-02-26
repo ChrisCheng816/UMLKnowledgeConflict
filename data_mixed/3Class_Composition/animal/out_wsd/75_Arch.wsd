@@ -1,0 +1,4 @@
+@startuml
+Arch *-- Foot : composition
+Person *-- Foot : composition
+@enduml

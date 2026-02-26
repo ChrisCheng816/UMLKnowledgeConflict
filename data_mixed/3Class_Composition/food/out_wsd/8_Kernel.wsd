@@ -1,0 +1,4 @@
+@startuml
+Kernel *-- Pit : composition
+Peach *-- Pit : composition
+@enduml

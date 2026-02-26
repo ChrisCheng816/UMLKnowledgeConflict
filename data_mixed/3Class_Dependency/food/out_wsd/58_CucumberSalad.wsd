@@ -1,0 +1,4 @@
+@startuml
+Cucumbers ..> CucumberVine : dependency
+Cucumbers ..> CucumberSalad : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Athlete <|-- Boxer : inheritance
+MuhammadAli <|-- Boxer : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Lasagna o-- Plate : aggregation
+Restaurant o-- Plate : aggregation
+@enduml

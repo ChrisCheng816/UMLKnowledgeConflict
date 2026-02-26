@@ -1,0 +1,4 @@
+@startuml
+Soprano o-- Choir : aggregation
+Church o-- Choir : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Dolphin : inheritance
+Orca <|-- Dolphin : inheritance
+@enduml

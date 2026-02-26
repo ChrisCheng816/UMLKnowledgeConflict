@@ -1,0 +1,4 @@
+@startuml
+Plank *-- Floor : composition
+House *-- Floor : composition
+@enduml

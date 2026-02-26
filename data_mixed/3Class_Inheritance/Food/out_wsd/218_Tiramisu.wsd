@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Dessert : inheritance
+Tiramisu <|-- Dessert : inheritance
+@enduml

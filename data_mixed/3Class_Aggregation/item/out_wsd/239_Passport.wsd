@@ -1,0 +1,4 @@
+@startuml
+Passport o-- Folder : aggregation
+Office o-- Folder : aggregation
+@enduml

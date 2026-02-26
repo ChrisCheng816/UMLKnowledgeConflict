@@ -1,0 +1,4 @@
+@startuml
+Ukulele o-- InstrumentRack : aggregation
+MusicStore o-- InstrumentRack : aggregation
+@enduml

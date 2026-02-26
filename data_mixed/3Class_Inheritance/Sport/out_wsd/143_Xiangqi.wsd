@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- MindSport : inheritance
+Xiangqi <|-- MindSport : inheritance
+@enduml

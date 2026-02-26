@@ -1,0 +1,4 @@
+@startuml
+Goldfish o-- Tank : aggregation
+Aquarium o-- Tank : aggregation
+@enduml

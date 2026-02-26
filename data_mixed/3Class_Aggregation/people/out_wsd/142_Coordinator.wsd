@@ -1,0 +1,4 @@
+@startuml
+Coordinator o-- Committee : aggregation
+Company o-- Committee : aggregation
+@enduml

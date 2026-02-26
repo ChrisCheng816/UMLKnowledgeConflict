@@ -1,0 +1,4 @@
+@startuml
+Foam *-- Insole : composition
+Shoe *-- Insole : composition
+@enduml

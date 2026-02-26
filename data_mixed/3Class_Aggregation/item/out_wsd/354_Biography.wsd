@@ -1,0 +1,4 @@
+@startuml
+Biography o-- ArchiveShelf : aggregation
+Library o-- ArchiveShelf : aggregation
+@enduml

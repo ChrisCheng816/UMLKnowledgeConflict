@@ -1,0 +1,4 @@
+@startuml
+Marrow *-- Bone : composition
+Skeleton *-- Bone : composition
+@enduml

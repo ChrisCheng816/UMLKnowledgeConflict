@@ -1,0 +1,4 @@
+@startuml
+Spring *-- Pedal : composition
+Piano *-- Pedal : composition
+@enduml

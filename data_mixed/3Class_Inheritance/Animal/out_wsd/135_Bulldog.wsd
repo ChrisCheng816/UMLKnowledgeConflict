@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Dog : inheritance
+Bulldog <|-- Dog : inheritance
+@enduml

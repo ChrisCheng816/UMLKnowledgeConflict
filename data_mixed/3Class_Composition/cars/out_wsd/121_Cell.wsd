@@ -1,0 +1,4 @@
+@startuml
+Cell *-- Battery : composition
+Car *-- Battery : composition
+@enduml

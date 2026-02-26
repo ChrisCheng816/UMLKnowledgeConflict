@@ -1,0 +1,4 @@
+@startuml
+Eggplant ..> EggplantPlant : dependency
+Eggplant ..> EggplantParmesan : dependency
+@enduml

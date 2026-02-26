@@ -1,0 +1,4 @@
+@startuml
+Spine *-- Back : composition
+Person *-- Back : composition
+@enduml

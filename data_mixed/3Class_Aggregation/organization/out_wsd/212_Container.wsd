@@ -1,0 +1,4 @@
+@startuml
+Container o-- Dock : aggregation
+Port o-- Dock : aggregation
+@enduml

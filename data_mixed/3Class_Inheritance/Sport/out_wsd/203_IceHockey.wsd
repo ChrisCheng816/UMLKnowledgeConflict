@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Hockey : inheritance
+IceHockey <|-- Hockey : inheritance
+@enduml

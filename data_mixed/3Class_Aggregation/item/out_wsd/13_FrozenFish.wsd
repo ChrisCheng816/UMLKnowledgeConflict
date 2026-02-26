@@ -1,0 +1,4 @@
+@startuml
+FrozenFish o-- FrozenDrawer : aggregation
+SeafoodMarket o-- FrozenDrawer : aggregation
+@enduml

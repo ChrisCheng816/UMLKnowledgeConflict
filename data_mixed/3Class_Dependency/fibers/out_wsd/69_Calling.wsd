@@ -1,0 +1,4 @@
+@startuml
+Skype ..> Internet : dependency
+Skype ..> Calling : dependency
+@enduml

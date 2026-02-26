@@ -1,0 +1,4 @@
+@startuml
+ElectricKettle ..> Electricity : dependency
+ElectricKettle ..> MakingTea : dependency
+@enduml

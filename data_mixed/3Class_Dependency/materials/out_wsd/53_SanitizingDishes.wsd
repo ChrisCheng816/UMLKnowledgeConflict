@@ -1,0 +1,4 @@
+@startuml
+Dishwasher ..> TapWater : dependency
+Dishwasher ..> SanitizingDishes : dependency
+@enduml

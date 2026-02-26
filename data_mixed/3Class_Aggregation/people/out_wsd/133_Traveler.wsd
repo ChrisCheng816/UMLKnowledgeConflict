@@ -1,0 +1,4 @@
+@startuml
+Traveler o-- Club : aggregation
+Community o-- Club : aggregation
+@enduml

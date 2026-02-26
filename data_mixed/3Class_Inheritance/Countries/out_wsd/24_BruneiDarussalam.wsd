@@ -1,0 +1,4 @@
+@startuml
+GeopoliticalEntity <|-- Country : inheritance
+BruneiDarussalam <|-- Country : inheritance
+@enduml

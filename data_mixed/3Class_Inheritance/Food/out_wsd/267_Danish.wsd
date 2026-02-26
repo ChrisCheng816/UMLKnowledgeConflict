@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Pastry : inheritance
+Danish <|-- Pastry : inheritance
+@enduml

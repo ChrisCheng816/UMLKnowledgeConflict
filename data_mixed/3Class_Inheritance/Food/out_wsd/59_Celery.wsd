@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- StemVegetable : inheritance
+Celery <|-- StemVegetable : inheritance
+@enduml

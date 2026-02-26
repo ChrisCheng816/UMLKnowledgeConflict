@@ -1,0 +1,4 @@
+@startuml
+Television <|-- Sitcom : inheritance
+Friends <|-- Sitcom : inheritance
+@enduml

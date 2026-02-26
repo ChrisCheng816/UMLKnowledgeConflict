@@ -1,0 +1,4 @@
+@startuml
+Spring *-- Pump : composition
+CoffeeMaker *-- Pump : composition
+@enduml

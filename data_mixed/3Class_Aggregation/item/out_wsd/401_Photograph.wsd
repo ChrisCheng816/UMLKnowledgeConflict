@@ -1,0 +1,4 @@
+@startuml
+Photograph o-- ArchiveBox : aggregation
+Museum o-- ArchiveBox : aggregation
+@enduml

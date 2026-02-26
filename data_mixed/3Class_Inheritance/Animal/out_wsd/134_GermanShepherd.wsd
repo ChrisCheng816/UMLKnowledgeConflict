@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Dog : inheritance
+GermanShepherd <|-- Dog : inheritance
+@enduml

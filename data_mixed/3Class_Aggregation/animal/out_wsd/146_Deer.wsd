@@ -1,0 +1,4 @@
+@startuml
+Deer o-- Habitat : aggregation
+Sanctuary o-- Habitat : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Hoof *-- Leg : composition
+Deer *-- Leg : composition
+@enduml

@@ -1,0 +1,11 @@
+{"id": "1", "template_id": "dependency", "nodes": ["Oxygen", "Spacesuit", "Astronaut"], "edges": ["Spacesuit ..> Oxygen", "Spacesuit ..> Astronaut"]}
+{"id": "2", "template_id": "dependency", "nodes": ["Oxygen", "ScubaTank", "ScubaDiver"], "edges": ["ScubaTank ..> Oxygen", "ScubaTank ..> ScubaDiver"]}
+{"id": "3", "template_id": "dependency", "nodes": ["WaterSupply", "FireHose", "Firefighter"], "edges": ["FireHose ..> WaterSupply", "FireHose ..> Firefighter"]}
+{"id": "4", "template_id": "dependency", "nodes": ["JetFuel", "Airplane", "Pilot"], "edges": ["Airplane ..> JetFuel", "Airplane ..> Pilot"]}
+{"id": "5", "template_id": "dependency", "nodes": ["Gasoline", "Ambulance", "Paramedic"], "edges": ["Ambulance ..> Gasoline", "Ambulance ..> Paramedic"]}
+{"id": "6", "template_id": "dependency", "nodes": ["Battery", "Camera", "Photographer"], "edges": ["Camera ..> Battery", "Camera ..> Photographer"]}
+{"id": "7", "template_id": "dependency", "nodes": ["Electricity", "GameConsole", "Gamer"], "edges": ["GameConsole ..> Electricity", "GameConsole ..> Gamer"]}
+{"id": "8", "template_id": "dependency", "nodes": ["WiFiNetwork", "Laptop", "RemoteWorker"], "edges": ["Laptop ..> WiFiNetwork", "Laptop ..> RemoteWorker"]}
+{"id": "9", "template_id": "dependency", "nodes": ["Electricity", "EspressoMachine", "Barista"], "edges": ["EspressoMachine ..> Electricity", "EspressoMachine ..> Barista"]}
+{"id": "10", "template_id": "dependency", "nodes": ["Gasoline", "Car", "Driver"], "edges": ["Car ..> Gasoline", "Car ..> Driver"]}
+{"id": "11", "template_id": "dependency", "nodes": ["NaturalGas", "Stove", "Chef"], "edges": ["Stove ..> NaturalGas", "Stove ..> Chef"]}

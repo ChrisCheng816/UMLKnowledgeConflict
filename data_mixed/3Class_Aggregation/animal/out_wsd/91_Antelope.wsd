@@ -1,0 +1,4 @@
+@startuml
+Antelope o-- Enclosure : aggregation
+Zoo o-- Enclosure : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Drain *-- Basement : composition
+House *-- Basement : composition
+@enduml

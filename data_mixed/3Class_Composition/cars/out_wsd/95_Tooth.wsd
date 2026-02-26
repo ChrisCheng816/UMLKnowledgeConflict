@@ -1,0 +1,4 @@
+@startuml
+Tooth *-- Gear : composition
+Bicycle *-- Gear : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Shark o-- Tank : aggregation
+Aquarium o-- Tank : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Wire *-- Microphone : composition
+Phone *-- Microphone : composition
+@enduml

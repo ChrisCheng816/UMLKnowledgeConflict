@@ -1,0 +1,4 @@
+@startuml
+DJController ..> Electricity : dependency
+DJController ..> Operating : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Carrots ..> CarrotPlant : dependency
+Carrots ..> CarrotCake : dependency
+@enduml

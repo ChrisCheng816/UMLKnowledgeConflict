@@ -1,0 +1,4 @@
+@startuml
+Cylinder *-- Lock : composition
+Door *-- Lock : composition
+@enduml

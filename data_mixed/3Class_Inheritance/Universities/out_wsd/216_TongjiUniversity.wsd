@@ -1,0 +1,4 @@
+@startuml
+EducationalInstitution <|-- University : inheritance
+TongjiUniversity <|-- University : inheritance
+@enduml

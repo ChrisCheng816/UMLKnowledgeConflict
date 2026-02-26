@@ -1,0 +1,4 @@
+@startuml
+Fiber *-- Husk : composition
+Coconut *-- Husk : composition
+@enduml

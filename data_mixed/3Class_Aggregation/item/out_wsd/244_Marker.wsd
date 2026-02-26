@@ -1,0 +1,4 @@
+@startuml
+Marker o-- Folder : aggregation
+Office o-- Folder : aggregation
+@enduml

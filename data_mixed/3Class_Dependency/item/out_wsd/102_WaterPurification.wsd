@@ -1,0 +1,4 @@
+@startuml
+WaterTreatmentPlant ..> Electricity : dependency
+WaterTreatmentPlant ..> WaterPurification : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Snow ..> LowTemperature : dependency
+Snow ..> Blizzard : dependency
+@enduml

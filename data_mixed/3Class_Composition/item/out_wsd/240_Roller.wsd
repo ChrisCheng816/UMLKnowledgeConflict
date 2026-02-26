@@ -1,0 +1,4 @@
+@startuml
+Roller *-- GarageDoor : composition
+House *-- GarageDoor : composition
+@enduml

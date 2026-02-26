@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Weightlifting : inheritance
+OlympicWeightlifting <|-- Weightlifting : inheritance
+@enduml

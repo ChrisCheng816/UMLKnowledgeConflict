@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Canoeing : inheritance
+Slalom <|-- Canoeing : inheritance
+@enduml

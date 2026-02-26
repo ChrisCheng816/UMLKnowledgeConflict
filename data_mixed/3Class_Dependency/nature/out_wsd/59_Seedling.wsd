@@ -1,0 +1,4 @@
+@startuml
+Germination ..> Moisture : dependency
+Germination ..> Seedling : dependency
+@enduml

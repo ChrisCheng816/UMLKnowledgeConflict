@@ -1,0 +1,4 @@
+@startuml
+Core *-- Radiator : composition
+Car *-- Radiator : composition
+@enduml

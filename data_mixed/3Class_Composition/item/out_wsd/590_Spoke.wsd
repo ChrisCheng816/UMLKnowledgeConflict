@@ -1,0 +1,4 @@
+@startuml
+Spoke *-- Rib : composition
+Umbrella *-- Rib : composition
+@enduml

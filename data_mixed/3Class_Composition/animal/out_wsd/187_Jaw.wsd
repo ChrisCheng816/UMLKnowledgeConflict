@@ -1,0 +1,4 @@
+@startuml
+Jaw *-- Skull : composition
+Person *-- Skull : composition
+@enduml

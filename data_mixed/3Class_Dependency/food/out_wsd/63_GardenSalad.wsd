@@ -1,0 +1,4 @@
+@startuml
+Lettuce ..> LettucePlant : dependency
+Lettuce ..> GardenSalad : dependency
+@enduml

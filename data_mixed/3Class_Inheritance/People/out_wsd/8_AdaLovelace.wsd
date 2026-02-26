@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- Mathematician : inheritance
+AdaLovelace <|-- Mathematician : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GlueGun ..> Electricity : dependency
+GlueGun ..> Operating : dependency
+@enduml

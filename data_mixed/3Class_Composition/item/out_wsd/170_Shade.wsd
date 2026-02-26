@@ -1,0 +1,4 @@
+@startuml
+Shade *-- Window : composition
+House *-- Window : composition
+@enduml

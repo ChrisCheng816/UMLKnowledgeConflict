@@ -1,0 +1,4 @@
+@startuml
+Eyelid *-- Eye : composition
+Person *-- Eye : composition
+@enduml

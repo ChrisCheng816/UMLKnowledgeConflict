@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- Mathematician : inheritance
+NumberTheorist <|-- Mathematician : inheritance
+@enduml

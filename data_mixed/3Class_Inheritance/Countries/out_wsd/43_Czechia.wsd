@@ -1,0 +1,4 @@
+@startuml
+GeopoliticalEntity <|-- Country : inheritance
+Czechia <|-- Country : inheritance
+@enduml

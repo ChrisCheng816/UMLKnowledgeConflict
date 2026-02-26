@@ -1,0 +1,4 @@
+@startuml
+Cache *-- Processor : composition
+Desktop *-- Processor : composition
+@enduml

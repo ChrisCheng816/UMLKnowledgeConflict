@@ -1,0 +1,4 @@
+@startuml
+Wind ..> PressureDifference : dependency
+Wind ..> Sandstorm : dependency
+@enduml

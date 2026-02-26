@@ -1,0 +1,4 @@
+@startuml
+CoaxialCable ..> WallJack : dependency
+CoaxialCable ..> SetTopBox : dependency
+@enduml

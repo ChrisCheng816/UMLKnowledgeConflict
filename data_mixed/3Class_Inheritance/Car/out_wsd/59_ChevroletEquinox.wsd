@@ -1,0 +1,4 @@
+@startuml
+Crossover <|-- CompactCrossover : inheritance
+ChevroletEquinox <|-- CompactCrossover : inheritance
+@enduml

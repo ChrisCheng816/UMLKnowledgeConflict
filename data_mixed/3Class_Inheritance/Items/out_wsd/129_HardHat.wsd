@@ -1,0 +1,4 @@
+@startuml
+SafetyGear <|-- Helmet : inheritance
+HardHat <|-- Helmet : inheritance
+@enduml

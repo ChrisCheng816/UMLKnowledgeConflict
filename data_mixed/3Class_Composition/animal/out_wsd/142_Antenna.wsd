@@ -1,0 +1,4 @@
+@startuml
+Antenna *-- Head : composition
+Ant *-- Head : composition
+@enduml

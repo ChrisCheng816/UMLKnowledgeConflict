@@ -1,0 +1,4 @@
+@startuml
+Item <|-- HomeAppliance : inheritance
+AirPurifier <|-- HomeAppliance : inheritance
+@enduml

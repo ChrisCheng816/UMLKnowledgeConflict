@@ -1,0 +1,4 @@
+@startuml
+Pad *-- Strap : composition
+Backpack *-- Strap : composition
+@enduml

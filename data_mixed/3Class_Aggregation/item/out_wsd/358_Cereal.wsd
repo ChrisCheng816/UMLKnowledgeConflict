@@ -1,0 +1,4 @@
+@startuml
+Cereal o-- Shelf : aggregation
+Pantry o-- Shelf : aggregation
+@enduml

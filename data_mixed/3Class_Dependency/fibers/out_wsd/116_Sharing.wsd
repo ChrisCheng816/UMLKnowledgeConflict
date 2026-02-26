@@ -1,0 +1,4 @@
+@startuml
+GoogleDrive ..> Internet : dependency
+GoogleDrive ..> Sharing : dependency
+@enduml

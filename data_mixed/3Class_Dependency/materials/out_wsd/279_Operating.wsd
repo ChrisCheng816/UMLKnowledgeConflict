@@ -1,0 +1,4 @@
+@startuml
+DrillCharger ..> Electricity : dependency
+DrillCharger ..> Operating : dependency
+@enduml

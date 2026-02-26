@@ -1,0 +1,4 @@
+@startuml
+MapPoster o-- Drawer : aggregation
+MapShop o-- Drawer : aggregation
+@enduml

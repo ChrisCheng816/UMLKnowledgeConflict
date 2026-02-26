@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Comic : inheritance
+TheFantasticFour <|-- Comic : inheritance
+@enduml

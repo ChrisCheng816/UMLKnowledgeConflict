@@ -1,0 +1,4 @@
+@startuml
+Painter o-- Club : aggregation
+University o-- Club : aggregation
+@enduml

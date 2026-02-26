@@ -1,0 +1,4 @@
+@startuml
+Tea o-- Aisle : aggregation
+Supermarket o-- Aisle : aggregation
+@enduml

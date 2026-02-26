@@ -1,0 +1,4 @@
+@startuml
+Electrician o-- Department : aggregation
+Workshop o-- Department : aggregation
+@enduml

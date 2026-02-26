@@ -1,0 +1,4 @@
+@startuml
+Trim *-- Wall : composition
+House *-- Wall : composition
+@enduml

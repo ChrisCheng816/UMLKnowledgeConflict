@@ -1,0 +1,4 @@
+@startuml
+Actuator *-- CameraModule : composition
+Smartphone *-- CameraModule : composition
+@enduml

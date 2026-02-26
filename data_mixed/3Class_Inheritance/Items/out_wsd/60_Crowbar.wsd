@@ -1,0 +1,4 @@
+@startuml
+Tool <|-- PryBar : inheritance
+Crowbar <|-- PryBar : inheritance
+@enduml

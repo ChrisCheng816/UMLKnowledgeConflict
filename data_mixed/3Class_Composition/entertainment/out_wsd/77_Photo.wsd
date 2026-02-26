@@ -1,0 +1,4 @@
+@startuml
+Photo *-- Cover : composition
+Magazine *-- Cover : composition
+@enduml

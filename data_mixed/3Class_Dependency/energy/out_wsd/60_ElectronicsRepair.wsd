@@ -1,0 +1,4 @@
+@startuml
+SolderingStation ..> Electricity : dependency
+SolderingStation ..> ElectronicsRepair : dependency
+@enduml

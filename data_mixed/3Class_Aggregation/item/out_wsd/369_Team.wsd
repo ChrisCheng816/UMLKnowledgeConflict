@@ -1,0 +1,4 @@
+@startuml
+Team o-- Bracket : aggregation
+Tournament o-- Bracket : aggregation
+@enduml

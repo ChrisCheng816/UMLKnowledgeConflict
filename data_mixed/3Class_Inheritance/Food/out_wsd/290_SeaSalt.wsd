@@ -1,0 +1,4 @@
+@startuml
+Seasoning <|-- Salt : inheritance
+SeaSalt <|-- Salt : inheritance
+@enduml

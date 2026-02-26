@@ -1,0 +1,4 @@
+@startuml
+Magpie o-- Aviary : aggregation
+Sanctuary o-- Aviary : aggregation
+@enduml

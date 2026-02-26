@@ -1,0 +1,4 @@
+@startuml
+CargoShip o-- Fleet : aggregation
+ShippingCompany o-- Fleet : aggregation
+@enduml

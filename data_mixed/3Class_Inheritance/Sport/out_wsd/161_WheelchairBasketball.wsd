@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Basketball : inheritance
+WheelchairBasketball <|-- Basketball : inheritance
+@enduml

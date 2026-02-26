@@ -1,0 +1,4 @@
+@startuml
+Game <|-- VideoGame : inheritance
+SuperMario64 <|-- VideoGame : inheritance
+@enduml

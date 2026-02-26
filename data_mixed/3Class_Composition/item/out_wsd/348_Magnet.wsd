@@ -1,0 +1,4 @@
+@startuml
+Magnet *-- Speaker : composition
+Phone *-- Speaker : composition
+@enduml

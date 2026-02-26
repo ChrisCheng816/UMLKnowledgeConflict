@@ -1,0 +1,4 @@
+@startuml
+CitrusFruit <|-- Lemon : inheritance
+MeyerLemon <|-- Lemon : inheritance
+@enduml

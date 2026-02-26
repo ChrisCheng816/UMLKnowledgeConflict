@@ -1,0 +1,4 @@
+@startuml
+Airbnb ..> Internet : dependency
+Airbnb ..> Planning : dependency
+@enduml

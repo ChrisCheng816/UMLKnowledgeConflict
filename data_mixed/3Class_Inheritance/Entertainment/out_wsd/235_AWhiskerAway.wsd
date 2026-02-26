@@ -1,0 +1,4 @@
+@startuml
+Film <|-- AnimatedFilm : inheritance
+AWhiskerAway <|-- AnimatedFilm : inheritance
+@enduml

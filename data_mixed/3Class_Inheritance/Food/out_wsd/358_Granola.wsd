@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Cereal : inheritance
+Granola <|-- Cereal : inheritance
+@enduml

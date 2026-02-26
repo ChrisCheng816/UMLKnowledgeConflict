@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- TVSeries : inheritance
+TheWalkingDead <|-- TVSeries : inheritance
+@enduml

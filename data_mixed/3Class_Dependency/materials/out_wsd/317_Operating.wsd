@@ -1,0 +1,4 @@
+@startuml
+NailGun ..> Electricity : dependency
+NailGun ..> Operating : dependency
+@enduml

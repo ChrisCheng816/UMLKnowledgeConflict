@@ -1,0 +1,4 @@
+@startuml
+Utensil <|-- Spoon : inheritance
+Teaspoon <|-- Spoon : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Messenger ..> Internet : dependency
+Messenger ..> Texting : dependency
+@enduml

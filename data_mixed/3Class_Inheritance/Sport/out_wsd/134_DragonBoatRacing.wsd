@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- WaterSport : inheritance
+DragonBoatRacing <|-- WaterSport : inheritance
+@enduml

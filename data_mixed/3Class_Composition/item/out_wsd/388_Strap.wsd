@@ -1,0 +1,4 @@
+@startuml
+Strap *-- Upholstery : composition
+Chair *-- Upholstery : composition
+@enduml

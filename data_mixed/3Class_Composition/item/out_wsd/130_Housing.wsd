@@ -1,0 +1,4 @@
+@startuml
+Housing *-- Pump : composition
+CoffeeMaker *-- Pump : composition
+@enduml

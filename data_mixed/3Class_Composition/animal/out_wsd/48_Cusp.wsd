@@ -1,0 +1,4 @@
+@startuml
+Cusp *-- Tooth : composition
+Tiger *-- Tooth : composition
+@enduml

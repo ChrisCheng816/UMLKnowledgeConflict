@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Podcast : inheritance
+Serial <|-- Podcast : inheritance
+@enduml

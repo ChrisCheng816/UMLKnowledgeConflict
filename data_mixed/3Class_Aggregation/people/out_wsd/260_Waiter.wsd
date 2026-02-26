@@ -1,0 +1,4 @@
+@startuml
+Waiter o-- Crew : aggregation
+Restaurant o-- Crew : aggregation
+@enduml

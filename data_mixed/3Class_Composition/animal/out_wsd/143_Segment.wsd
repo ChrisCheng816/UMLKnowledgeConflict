@@ -1,0 +1,4 @@
+@startuml
+Segment *-- Leg : composition
+Spider *-- Leg : composition
+@enduml

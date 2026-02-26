@@ -1,0 +1,4 @@
+@startuml
+Pear ..> PearTree : dependency
+Pear ..> PearPie : dependency
+@enduml

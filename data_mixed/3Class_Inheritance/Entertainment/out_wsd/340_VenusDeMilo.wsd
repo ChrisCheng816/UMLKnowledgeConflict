@@ -1,0 +1,4 @@
+@startuml
+Artwork <|-- Sculpture : inheritance
+VenusDeMilo <|-- Sculpture : inheritance
+@enduml

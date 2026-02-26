@@ -1,0 +1,4 @@
+@startuml
+Core *-- String : composition
+Guitar *-- String : composition
+@enduml

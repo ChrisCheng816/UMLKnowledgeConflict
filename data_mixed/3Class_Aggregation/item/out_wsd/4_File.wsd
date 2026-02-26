@@ -1,0 +1,4 @@
+@startuml
+File o-- Folder : aggregation
+ImageLibrary o-- Folder : aggregation
+@enduml

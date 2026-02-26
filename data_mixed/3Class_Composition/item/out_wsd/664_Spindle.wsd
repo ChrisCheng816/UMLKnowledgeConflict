@@ -1,0 +1,4 @@
+@startuml
+Spindle *-- Pedal : composition
+Bicycle *-- Pedal : composition
+@enduml

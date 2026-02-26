@@ -1,0 +1,4 @@
+@startuml
+Ring *-- Neck : composition
+Bottle *-- Neck : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Filament *-- Gill : composition
+Shark *-- Gill : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+BunkeringPort ..> FuelBarge : dependency
+BunkeringPort ..> Ferry : dependency
+@enduml

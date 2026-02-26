@@ -1,0 +1,4 @@
+@startuml
+Article o-- Archive : aggregation
+Website o-- Archive : aggregation
+@enduml

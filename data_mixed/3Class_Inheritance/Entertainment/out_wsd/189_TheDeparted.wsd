@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- Film : inheritance
+TheDeparted <|-- Film : inheritance
+@enduml

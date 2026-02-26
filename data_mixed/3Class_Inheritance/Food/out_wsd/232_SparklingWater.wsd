@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Beverage : inheritance
+SparklingWater <|-- Beverage : inheritance
+@enduml

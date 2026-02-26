@@ -1,0 +1,4 @@
+@startuml
+CoaxialCable ..> WallJack : dependency
+CoaxialCable ..> BroadbandModem : dependency
+@enduml

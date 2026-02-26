@@ -1,0 +1,4 @@
+@startuml
+Actuator *-- Arm : composition
+Robot *-- Arm : composition
+@enduml

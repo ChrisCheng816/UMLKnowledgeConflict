@@ -1,0 +1,4 @@
+@startuml
+Trout o-- School : aggregation
+Aquarium o-- School : aggregation
+@enduml

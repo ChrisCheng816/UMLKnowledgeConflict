@@ -1,0 +1,4 @@
+@startuml
+Coil *-- Compressor : composition
+Refrigerator *-- Compressor : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Parrot o-- Habitat : aggregation
+Aviary o-- Habitat : aggregation
+@enduml

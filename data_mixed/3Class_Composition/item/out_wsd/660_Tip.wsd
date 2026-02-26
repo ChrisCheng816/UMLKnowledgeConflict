@@ -1,0 +1,4 @@
+@startuml
+Tip *-- Bit : composition
+Drill *-- Bit : composition
+@enduml

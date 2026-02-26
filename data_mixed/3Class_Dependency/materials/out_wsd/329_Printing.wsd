@@ -1,0 +1,4 @@
+@startuml
+Plotter ..> Electricity : dependency
+Plotter ..> Printing : dependency
+@enduml

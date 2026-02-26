@@ -1,0 +1,4 @@
+@startuml
+Cap *-- Knee : composition
+Person *-- Knee : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Crunchyroll ..> Internet : dependency
+Crunchyroll ..> Watching : dependency
+@enduml

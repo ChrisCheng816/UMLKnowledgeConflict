@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Appliance : inheritance
+Heater <|-- Appliance : inheritance
+@enduml

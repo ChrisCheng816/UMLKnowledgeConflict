@@ -1,0 +1,4 @@
+@startuml
+Flap *-- Ear : composition
+Elephant *-- Ear : composition
+@enduml

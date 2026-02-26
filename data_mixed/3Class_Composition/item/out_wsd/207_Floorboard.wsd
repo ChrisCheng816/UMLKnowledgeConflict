@@ -1,0 +1,4 @@
+@startuml
+Floorboard *-- Attic : composition
+House *-- Attic : composition
+@enduml

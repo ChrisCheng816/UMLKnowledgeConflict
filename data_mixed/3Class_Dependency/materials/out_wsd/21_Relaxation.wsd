@@ -1,0 +1,4 @@
+@startuml
+BathTub ..> HotWater : dependency
+BathTub ..> Relaxation : dependency
+@enduml

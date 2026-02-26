@@ -1,0 +1,4 @@
+@startuml
+Jacket o-- Hanger : aggregation
+Closet o-- Hanger : aggregation
+@enduml

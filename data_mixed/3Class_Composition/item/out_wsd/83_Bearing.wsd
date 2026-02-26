@@ -1,0 +1,4 @@
+@startuml
+Bearing *-- Motor : composition
+Vacuum *-- Motor : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Cauliflower ..> CauliflowerPlant : dependency
+Cauliflower ..> CauliflowerRice : dependency
+@enduml

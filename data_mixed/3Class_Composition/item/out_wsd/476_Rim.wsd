@@ -1,0 +1,4 @@
+@startuml
+Rim *-- Lid : composition
+Trashcan *-- Lid : composition
+@enduml

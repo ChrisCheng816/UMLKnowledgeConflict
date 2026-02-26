@@ -1,0 +1,4 @@
+@startuml
+Location <|-- GeographicFeature : inheritance
+Waterfall <|-- GeographicFeature : inheritance
+@enduml

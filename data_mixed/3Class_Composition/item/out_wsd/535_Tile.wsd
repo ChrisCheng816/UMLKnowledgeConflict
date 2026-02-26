@@ -1,0 +1,4 @@
+@startuml
+Tile *-- Roof : composition
+House *-- Roof : composition
+@enduml

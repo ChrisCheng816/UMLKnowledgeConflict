@@ -1,0 +1,4 @@
+@startuml
+Cycling <|-- RoadCycling : inheritance
+TimeTrial <|-- RoadCycling : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- TeamSport : inheritance
+RugbySevens <|-- TeamSport : inheritance
+@enduml

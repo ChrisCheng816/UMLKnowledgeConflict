@@ -1,0 +1,4 @@
+@startuml
+USBCharger ..> WallOutlet : dependency
+USBCharger ..> Tablet : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+GroundAnchor ..> ConcreteBase : dependency
+GroundAnchor ..> AntennaMast : dependency
+@enduml

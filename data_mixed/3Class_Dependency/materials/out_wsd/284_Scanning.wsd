@@ -1,0 +1,4 @@
+@startuml
+BarcodeScanner ..> Electricity : dependency
+BarcodeScanner ..> Scanning : dependency
+@enduml

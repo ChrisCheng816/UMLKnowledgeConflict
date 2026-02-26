@@ -1,0 +1,4 @@
+@startuml
+EducationalInstitution <|-- University : inheritance
+RensselaerPolytechnicInstitute <|-- University : inheritance
+@enduml

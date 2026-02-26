@@ -1,0 +1,4 @@
+@startuml
+Clownfish o-- Exhibit : aggregation
+Aquarium o-- Exhibit : aggregation
+@enduml

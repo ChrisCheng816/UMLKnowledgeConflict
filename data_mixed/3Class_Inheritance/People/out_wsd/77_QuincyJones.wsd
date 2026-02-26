@@ -1,0 +1,4 @@
+@startuml
+Musician <|-- Composer : inheritance
+QuincyJones <|-- Composer : inheritance
+@enduml

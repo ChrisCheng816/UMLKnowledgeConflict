@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Crustacean : inheritance
+Lobster <|-- Crustacean : inheritance
+@enduml

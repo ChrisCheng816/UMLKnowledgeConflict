@@ -1,0 +1,4 @@
+@startuml
+Canary o-- Cage : aggregation
+Zoo o-- Cage : aggregation
+@enduml

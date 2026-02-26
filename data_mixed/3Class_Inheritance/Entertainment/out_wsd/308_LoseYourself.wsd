@@ -1,0 +1,4 @@
+@startuml
+MusicWork <|-- Song : inheritance
+LoseYourself <|-- Song : inheritance
+@enduml

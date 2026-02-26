@@ -1,0 +1,4 @@
+@startuml
+Leaves ..> Tree : dependency
+Leaves ..> Sloth : dependency
+@enduml

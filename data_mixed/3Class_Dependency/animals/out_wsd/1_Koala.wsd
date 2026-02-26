@@ -1,0 +1,4 @@
+@startuml
+Eucalyptus ..> Sunlight : dependency
+Eucalyptus ..> Koala : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Housing *-- PowerSupply : composition
+Desktop *-- PowerSupply : composition
+@enduml

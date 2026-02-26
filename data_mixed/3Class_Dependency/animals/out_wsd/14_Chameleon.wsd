@@ -1,0 +1,4 @@
+@startuml
+Insects ..> Plants : dependency
+Insects ..> Chameleon : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+WarmWater ..> Tropics : dependency
+WarmWater ..> Hurricane : dependency
+@enduml

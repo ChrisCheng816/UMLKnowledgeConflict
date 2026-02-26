@@ -1,0 +1,4 @@
+@startuml
+Sausage <|-- Salami : inheritance
+Pepperoni <|-- Salami : inheritance
+@enduml

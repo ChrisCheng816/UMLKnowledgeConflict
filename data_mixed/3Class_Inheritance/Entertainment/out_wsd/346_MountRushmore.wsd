@@ -1,0 +1,4 @@
+@startuml
+Artwork <|-- Sculpture : inheritance
+MountRushmore <|-- Sculpture : inheritance
+@enduml

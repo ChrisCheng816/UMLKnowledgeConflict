@@ -1,0 +1,4 @@
+@startuml
+Game <|-- VideoGame : inheritance
+Splatoon2 <|-- VideoGame : inheritance
+@enduml

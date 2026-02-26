@@ -1,0 +1,4 @@
+@startuml
+Light *-- Trunk : composition
+Car *-- Trunk : composition
+@enduml

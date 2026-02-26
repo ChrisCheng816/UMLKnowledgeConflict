@@ -1,0 +1,4 @@
+@startuml
+Albatross o-- Aviary : aggregation
+Sanctuary o-- Aviary : aggregation
+@enduml

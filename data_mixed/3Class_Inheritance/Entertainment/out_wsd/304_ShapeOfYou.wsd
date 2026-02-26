@@ -1,0 +1,4 @@
+@startuml
+MusicWork <|-- Song : inheritance
+ShapeOfYou <|-- Song : inheritance
+@enduml

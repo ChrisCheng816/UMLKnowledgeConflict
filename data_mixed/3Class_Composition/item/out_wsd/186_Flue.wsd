@@ -1,0 +1,4 @@
+@startuml
+Flue *-- Chimney : composition
+House *-- Chimney : composition
+@enduml

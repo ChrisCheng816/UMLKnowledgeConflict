@@ -1,0 +1,4 @@
+@startuml
+GasOven ..> NaturalGas : dependency
+GasOven ..> Baking : dependency
+@enduml

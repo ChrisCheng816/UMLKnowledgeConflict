@@ -1,0 +1,4 @@
+@startuml
+Spout *-- Jar : composition
+Blender *-- Jar : composition
+@enduml

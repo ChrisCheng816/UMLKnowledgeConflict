@@ -1,0 +1,4 @@
+@startuml
+Angelfish o-- Tank : aggregation
+Zoo o-- Tank : aggregation
+@enduml

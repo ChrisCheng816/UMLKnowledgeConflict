@@ -1,0 +1,4 @@
+@startuml
+Parrot o-- Aviary : aggregation
+Zoo o-- Aviary : aggregation
+@enduml

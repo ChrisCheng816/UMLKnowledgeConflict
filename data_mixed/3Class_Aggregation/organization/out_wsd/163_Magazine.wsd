@@ -1,0 +1,4 @@
+@startuml
+Magazine o-- Collection : aggregation
+Publisher o-- Collection : aggregation
+@enduml

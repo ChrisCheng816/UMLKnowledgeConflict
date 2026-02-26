@@ -1,0 +1,4 @@
+@startuml
+Food <|-- Dish : inheritance
+PekingDuck <|-- Dish : inheritance
+@enduml

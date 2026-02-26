@@ -1,0 +1,4 @@
+@startuml
+Chair o-- Board : aggregation
+Bank o-- Board : aggregation
+@enduml

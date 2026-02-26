@@ -1,0 +1,4 @@
+@startuml
+Padding *-- Upholstery : composition
+Chair *-- Upholstery : composition
+@enduml

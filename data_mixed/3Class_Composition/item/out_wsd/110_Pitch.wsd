@@ -1,0 +1,4 @@
+@startuml
+Pitch *-- Blade : composition
+Blender *-- Blade : composition
+@enduml

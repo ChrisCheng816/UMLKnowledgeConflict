@@ -1,0 +1,4 @@
+@startuml
+ElectricCanOpener ..> Electricity : dependency
+ElectricCanOpener ..> Operating : dependency
+@enduml

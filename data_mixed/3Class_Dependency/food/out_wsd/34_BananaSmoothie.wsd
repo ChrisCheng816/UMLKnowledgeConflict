@@ -1,0 +1,4 @@
+@startuml
+Banana ..> BananaPlant : dependency
+Banana ..> BananaSmoothie : dependency
+@enduml

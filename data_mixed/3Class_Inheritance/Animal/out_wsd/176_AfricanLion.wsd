@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Lion : inheritance
+AfricanLion <|-- Lion : inheritance
+@enduml

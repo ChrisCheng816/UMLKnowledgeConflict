@@ -1,0 +1,4 @@
+@startuml
+Pear o-- Basket : aggregation
+GroceryStore o-- Basket : aggregation
+@enduml

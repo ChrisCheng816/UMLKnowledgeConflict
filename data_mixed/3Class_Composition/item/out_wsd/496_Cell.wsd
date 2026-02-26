@@ -1,0 +1,4 @@
+@startuml
+Cell *-- BatteryPack : composition
+Smartphone *-- BatteryPack : composition
+@enduml

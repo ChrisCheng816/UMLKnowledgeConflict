@@ -1,0 +1,4 @@
+@startuml
+Salamander o-- Terrarium : aggregation
+Zoo o-- Terrarium : aggregation
+@enduml

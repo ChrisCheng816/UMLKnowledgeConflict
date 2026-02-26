@@ -1,0 +1,4 @@
+@startuml
+Wheel *-- Rail : composition
+Drawer *-- Rail : composition
+@enduml

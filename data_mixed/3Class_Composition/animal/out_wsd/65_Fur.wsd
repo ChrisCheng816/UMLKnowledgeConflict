@@ -1,0 +1,4 @@
+@startuml
+Fur *-- Muzzle : composition
+Bear *-- Muzzle : composition
+@enduml

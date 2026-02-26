@@ -1,0 +1,4 @@
+@startuml
+Song o-- Program : aggregation
+RadioStation o-- Program : aggregation
+@enduml

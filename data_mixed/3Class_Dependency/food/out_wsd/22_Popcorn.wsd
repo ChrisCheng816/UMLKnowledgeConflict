@@ -1,0 +1,4 @@
+@startuml
+Corn ..> CornPlant : dependency
+Corn ..> Popcorn : dependency
+@enduml

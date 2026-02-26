@@ -1,0 +1,4 @@
+@startuml
+Feature o-- Issue : aggregation
+Magazine o-- Issue : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Blackberry : inheritance
+MarionBlackberry <|-- Blackberry : inheritance
+@enduml

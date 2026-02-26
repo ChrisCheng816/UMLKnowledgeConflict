@@ -1,0 +1,4 @@
+@startuml
+Lentils ..> LentilPlant : dependency
+Lentils ..> LentilSoup : dependency
+@enduml

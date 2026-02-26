@@ -1,0 +1,4 @@
+@startuml
+Manufacturer <|-- CarManufacturer : inheritance
+Tesla <|-- CarManufacturer : inheritance
+@enduml

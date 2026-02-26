@@ -1,0 +1,4 @@
+@startuml
+Cornea *-- Eye : composition
+Person *-- Eye : composition
+@enduml

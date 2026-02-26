@@ -1,0 +1,4 @@
+@startuml
+VideoGame <|-- SimulationGame : inheritance
+SimCity <|-- SimulationGame : inheritance
+@enduml

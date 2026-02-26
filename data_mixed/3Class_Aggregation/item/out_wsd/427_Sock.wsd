@@ -1,0 +1,4 @@
+@startuml
+Sock o-- Pouch : aggregation
+Suitcase o-- Pouch : aggregation
+@enduml

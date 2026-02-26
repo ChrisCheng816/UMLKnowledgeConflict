@@ -1,0 +1,4 @@
+@startuml
+Atlas o-- Library : aggregation
+School o-- Library : aggregation
+@enduml

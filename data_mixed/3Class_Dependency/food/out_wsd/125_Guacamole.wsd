@@ -1,0 +1,4 @@
+@startuml
+Avocado ..> AvocadoTree : dependency
+Avocado ..> Guacamole : dependency
+@enduml

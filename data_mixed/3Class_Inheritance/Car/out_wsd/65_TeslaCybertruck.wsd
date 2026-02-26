@@ -1,0 +1,4 @@
+@startuml
+Truck <|-- ElectricPickup : inheritance
+TeslaCybertruck <|-- ElectricPickup : inheritance
+@enduml

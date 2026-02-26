@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- TVSeries : inheritance
+GameShow <|-- TVSeries : inheritance
+@enduml

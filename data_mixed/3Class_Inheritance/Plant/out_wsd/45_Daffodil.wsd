@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Flower : inheritance
+Daffodil <|-- Flower : inheritance
+@enduml

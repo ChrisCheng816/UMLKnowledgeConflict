@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Crustacean : inheritance
+Krill <|-- Crustacean : inheritance
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Gutter *-- Page : composition
+Comic *-- Page : composition
+@enduml

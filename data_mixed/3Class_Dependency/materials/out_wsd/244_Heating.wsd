@@ -1,0 +1,4 @@
+@startuml
+WaterHeater ..> Electricity : dependency
+WaterHeater ..> Heating : dependency
+@enduml

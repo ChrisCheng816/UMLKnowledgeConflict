@@ -1,0 +1,4 @@
+@startuml
+Screen *-- Spout : composition
+Kettle *-- Spout : composition
+@enduml

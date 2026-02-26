@@ -1,0 +1,4 @@
+@startuml
+Rubber ..> Latex : dependency
+Rubber ..> RubberSealing : dependency
+@enduml

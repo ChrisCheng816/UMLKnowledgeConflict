@@ -1,0 +1,4 @@
+@startuml
+Skunk o-- Habitat : aggregation
+Sanctuary o-- Habitat : aggregation
+@enduml

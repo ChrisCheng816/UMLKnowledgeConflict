@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Stationery : inheritance
+Pencil <|-- Stationery : inheritance
+@enduml

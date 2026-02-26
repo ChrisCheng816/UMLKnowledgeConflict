@@ -1,0 +1,4 @@
+@startuml
+Film <|-- AdventureFilm : inheritance
+Up <|-- AdventureFilm : inheritance
+@enduml

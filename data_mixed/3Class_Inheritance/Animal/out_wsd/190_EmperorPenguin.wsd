@@ -1,0 +1,4 @@
+@startuml
+Bird <|-- Penguin : inheritance
+EmperorPenguin <|-- Penguin : inheritance
+@enduml

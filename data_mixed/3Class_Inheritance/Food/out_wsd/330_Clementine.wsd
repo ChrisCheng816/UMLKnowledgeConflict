@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Tangerine : inheritance
+Clementine <|-- Tangerine : inheritance
+@enduml

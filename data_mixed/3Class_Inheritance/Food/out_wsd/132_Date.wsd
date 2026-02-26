@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- DriedFruit : inheritance
+Date <|-- DriedFruit : inheritance
+@enduml

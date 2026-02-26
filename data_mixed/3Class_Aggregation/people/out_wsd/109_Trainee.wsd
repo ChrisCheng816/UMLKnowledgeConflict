@@ -1,0 +1,4 @@
+@startuml
+Trainee o-- Class : aggregation
+Workshop o-- Class : aggregation
+@enduml

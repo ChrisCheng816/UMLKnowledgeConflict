@@ -1,0 +1,4 @@
+@startuml
+GeographicFeature <|-- Continent : inheritance
+NorthAmerica <|-- Continent : inheritance
+@enduml

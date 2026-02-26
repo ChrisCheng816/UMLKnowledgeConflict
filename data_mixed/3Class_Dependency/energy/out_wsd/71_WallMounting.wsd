@@ -1,0 +1,4 @@
+@startuml
+Drill ..> Electricity : dependency
+Drill ..> WallMounting : dependency
+@enduml

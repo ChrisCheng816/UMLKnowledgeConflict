@@ -1,0 +1,4 @@
+@startuml
+Screen *-- Chimney : composition
+House *-- Chimney : composition
+@enduml

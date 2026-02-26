@@ -1,0 +1,4 @@
+@startuml
+Editor o-- Department : aggregation
+Library o-- Department : aggregation
+@enduml

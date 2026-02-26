@@ -1,0 +1,4 @@
+@startuml
+Expedia ..> Internet : dependency
+Expedia ..> Planning : dependency
+@enduml

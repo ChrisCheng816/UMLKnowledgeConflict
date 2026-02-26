@@ -1,0 +1,4 @@
+@startuml
+Shrimp ..> Ocean : dependency
+Shrimp ..> ShrimpFry : dependency
+@enduml

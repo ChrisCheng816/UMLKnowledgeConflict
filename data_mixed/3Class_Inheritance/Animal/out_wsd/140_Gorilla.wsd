@@ -1,0 +1,4 @@
+@startuml
+Mammal <|-- Ape : inheritance
+Gorilla <|-- Ape : inheritance
+@enduml

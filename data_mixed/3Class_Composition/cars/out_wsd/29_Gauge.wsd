@@ -1,0 +1,4 @@
+@startuml
+Gauge *-- Dashboard : composition
+Car *-- Dashboard : composition
+@enduml

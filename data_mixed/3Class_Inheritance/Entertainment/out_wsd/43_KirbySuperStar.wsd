@@ -1,0 +1,4 @@
+@startuml
+Game <|-- VideoGame : inheritance
+KirbySuperStar <|-- VideoGame : inheritance
+@enduml

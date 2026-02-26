@@ -1,0 +1,4 @@
+@startuml
+GeopoliticalEntity <|-- Country : inheritance
+Mexico <|-- Country : inheritance
+@enduml

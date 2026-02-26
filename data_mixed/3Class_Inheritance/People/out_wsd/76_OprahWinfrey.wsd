@@ -1,0 +1,4 @@
+@startuml
+TelevisionHost <|-- TalkShowHost : inheritance
+OprahWinfrey <|-- TalkShowHost : inheritance
+@enduml

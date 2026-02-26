@@ -1,0 +1,4 @@
+@startuml
+Band *-- Brim : composition
+Hat *-- Brim : composition
+@enduml

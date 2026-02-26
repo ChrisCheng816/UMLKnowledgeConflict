@@ -1,0 +1,4 @@
+@startuml
+Presenter o-- Panel : aggregation
+Court o-- Panel : aggregation
+@enduml

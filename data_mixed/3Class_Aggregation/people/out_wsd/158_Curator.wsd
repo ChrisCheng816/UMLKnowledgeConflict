@@ -1,0 +1,4 @@
+@startuml
+Curator o-- Department : aggregation
+Museum o-- Department : aggregation
+@enduml

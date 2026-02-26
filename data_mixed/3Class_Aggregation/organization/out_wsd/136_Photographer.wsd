@@ -1,0 +1,4 @@
+@startuml
+Photographer o-- Editorial : aggregation
+Newspaper o-- Editorial : aggregation
+@enduml

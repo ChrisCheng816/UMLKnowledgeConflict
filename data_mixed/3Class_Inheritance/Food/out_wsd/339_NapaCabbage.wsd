@@ -1,0 +1,4 @@
+@startuml
+Vegetable <|-- Cabbage : inheritance
+NapaCabbage <|-- Cabbage : inheritance
+@enduml

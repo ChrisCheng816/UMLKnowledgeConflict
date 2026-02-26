@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- TVSeries : inheritance
+TheOfficeUS <|-- TVSeries : inheritance
+@enduml

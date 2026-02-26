@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Wrestling : inheritance
+FreestyleWrestling <|-- Wrestling : inheritance
+@enduml

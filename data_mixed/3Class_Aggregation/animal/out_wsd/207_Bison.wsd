@@ -1,0 +1,4 @@
+@startuml
+Bison o-- Herd : aggregation
+Ranch o-- Herd : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Fruit <|-- Guava : inheritance
+PinkGuava <|-- Guava : inheritance
+@enduml

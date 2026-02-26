@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Fern : inheritance
+BrackenFern <|-- Fern : inheritance
+@enduml

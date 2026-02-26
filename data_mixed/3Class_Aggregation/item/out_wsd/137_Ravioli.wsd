@@ -1,0 +1,4 @@
+@startuml
+Ravioli o-- Plate : aggregation
+Restaurant o-- Plate : aggregation
+@enduml

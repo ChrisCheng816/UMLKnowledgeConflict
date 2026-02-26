@@ -1,0 +1,4 @@
+@startuml
+Newspaper o-- Box : aggregation
+Library o-- Box : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Wood ..> Tree : dependency
+Wood ..> Termite : dependency
+@enduml

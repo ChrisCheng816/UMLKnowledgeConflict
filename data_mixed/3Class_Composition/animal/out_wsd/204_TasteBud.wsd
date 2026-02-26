@@ -1,0 +1,4 @@
+@startuml
+TasteBud *-- Tongue : composition
+Human *-- Tongue : composition
+@enduml

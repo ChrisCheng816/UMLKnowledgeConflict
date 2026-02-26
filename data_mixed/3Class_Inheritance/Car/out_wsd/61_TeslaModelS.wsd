@@ -1,0 +1,4 @@
+@startuml
+Sedan <|-- ElectricSedan : inheritance
+TeslaModelS <|-- ElectricSedan : inheritance
+@enduml

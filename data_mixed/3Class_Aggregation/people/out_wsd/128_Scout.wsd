@@ -1,0 +1,4 @@
+@startuml
+Scout o-- Club : aggregation
+Neighborhood o-- Club : aggregation
+@enduml

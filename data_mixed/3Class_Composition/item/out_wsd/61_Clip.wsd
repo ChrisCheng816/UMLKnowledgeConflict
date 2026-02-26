@@ -1,0 +1,4 @@
+@startuml
+Clip *-- Cap : composition
+Pen *-- Cap : composition
+@enduml

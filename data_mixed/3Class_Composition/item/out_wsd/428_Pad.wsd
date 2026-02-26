@@ -1,0 +1,4 @@
+@startuml
+Pad *-- Mattress : composition
+Bed *-- Mattress : composition
+@enduml

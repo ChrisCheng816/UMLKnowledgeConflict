@@ -1,0 +1,4 @@
+@startuml
+GeopoliticalEntity <|-- Country : inheritance
+Gambia <|-- Country : inheritance
+@enduml

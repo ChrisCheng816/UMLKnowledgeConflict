@@ -1,0 +1,4 @@
+@startuml
+Toy o-- Box : aggregation
+Store o-- Box : aggregation
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Sport <|-- Volleyball : inheritance
+BeachVolleyball <|-- Volleyball : inheritance
+@enduml

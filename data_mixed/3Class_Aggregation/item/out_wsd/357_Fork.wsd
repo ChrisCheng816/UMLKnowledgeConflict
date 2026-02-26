@@ -1,0 +1,4 @@
+@startuml
+Fork o-- Drawer : aggregation
+Kitchen o-- Drawer : aggregation
+@enduml

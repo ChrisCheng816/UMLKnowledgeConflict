@@ -1,0 +1,4 @@
+@startuml
+ControlPanel ..> WallOutlet : dependency
+ControlPanel ..> SecuritySystem : dependency
+@enduml

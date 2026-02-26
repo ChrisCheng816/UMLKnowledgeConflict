@@ -1,0 +1,4 @@
+@startuml
+Entertainment <|-- TVSeries : inheritance
+MadMen <|-- TVSeries : inheritance
+@enduml

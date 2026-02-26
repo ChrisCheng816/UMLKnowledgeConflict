@@ -1,0 +1,4 @@
+@startuml
+Van <|-- Minivan : inheritance
+ToyotaSienna <|-- Minivan : inheritance
+@enduml

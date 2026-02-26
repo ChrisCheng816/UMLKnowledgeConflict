@@ -1,0 +1,4 @@
+@startuml
+Pickles o-- Jar : aggregation
+Pantry o-- Jar : aggregation
+@enduml

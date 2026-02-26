@@ -1,0 +1,4 @@
+@startuml
+PlasticFoam ..> Oil : dependency
+PlasticFoam ..> Insulation : dependency
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Lip *-- Muzzle : composition
+Bear *-- Muzzle : composition
+@enduml

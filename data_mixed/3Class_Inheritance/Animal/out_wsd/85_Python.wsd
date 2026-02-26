@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Reptile : inheritance
+Python <|-- Reptile : inheritance
+@enduml

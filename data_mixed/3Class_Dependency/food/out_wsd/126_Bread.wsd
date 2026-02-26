@@ -1,0 +1,4 @@
+@startuml
+Flour ..> Wheat : dependency
+Flour ..> Bread : dependency
+@enduml

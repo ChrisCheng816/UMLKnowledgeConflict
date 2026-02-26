@@ -1,0 +1,4 @@
+@startuml
+Animal <|-- Cow : inheritance
+HolsteinCow <|-- Cow : inheritance
+@enduml

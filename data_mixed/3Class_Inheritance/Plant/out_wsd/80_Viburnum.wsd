@@ -1,0 +1,4 @@
+@startuml
+Plant <|-- Shrub : inheritance
+Viburnum <|-- Shrub : inheritance
+@enduml

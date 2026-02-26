@@ -1,0 +1,4 @@
+@startuml
+Cap *-- Chimney : composition
+House *-- Chimney : composition
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Utensil : inheritance
+Knife <|-- Utensil : inheritance
+@enduml

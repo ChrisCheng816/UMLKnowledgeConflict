@@ -1,0 +1,4 @@
+@startuml
+Fur *-- Tail : composition
+Cat *-- Tail : composition
+@enduml

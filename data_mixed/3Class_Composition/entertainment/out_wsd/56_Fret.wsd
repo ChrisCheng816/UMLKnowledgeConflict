@@ -1,0 +1,4 @@
+@startuml
+Fret *-- Neck : composition
+Guitar *-- Neck : composition
+@enduml

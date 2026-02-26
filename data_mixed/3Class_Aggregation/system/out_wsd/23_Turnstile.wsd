@@ -1,0 +1,4 @@
+@startuml
+Turnstile o-- Station : aggregation
+TransitSystem o-- Station : aggregation
+@enduml

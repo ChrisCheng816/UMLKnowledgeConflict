@@ -1,0 +1,4 @@
+@startuml
+Building o-- Campus : aggregation
+University o-- Campus : aggregation
+@enduml

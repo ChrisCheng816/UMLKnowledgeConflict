@@ -1,0 +1,4 @@
+@startuml
+Operator o-- CallCenter : aggregation
+EmergencySystem o-- CallCenter : aggregation
+@enduml

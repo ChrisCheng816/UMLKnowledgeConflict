@@ -1,0 +1,4 @@
+@startuml
+Shop o-- Terminal : aggregation
+Airport o-- Terminal : aggregation
+@enduml

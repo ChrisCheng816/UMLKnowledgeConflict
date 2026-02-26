@@ -1,0 +1,4 @@
+@startuml
+Scientist <|-- Naturalist : inheritance
+CharlesDarwin <|-- Naturalist : inheritance
+@enduml

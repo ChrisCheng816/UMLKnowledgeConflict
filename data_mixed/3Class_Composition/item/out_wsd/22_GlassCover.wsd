@@ -1,0 +1,4 @@
+@startuml
+GlassCover *-- DisplayModule : composition
+Laptop *-- DisplayModule : composition
+@enduml

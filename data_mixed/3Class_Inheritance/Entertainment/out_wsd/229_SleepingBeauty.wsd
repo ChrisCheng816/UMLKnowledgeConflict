@@ -1,0 +1,4 @@
+@startuml
+Film <|-- AnimatedFilm : inheritance
+SleepingBeauty <|-- AnimatedFilm : inheritance
+@enduml

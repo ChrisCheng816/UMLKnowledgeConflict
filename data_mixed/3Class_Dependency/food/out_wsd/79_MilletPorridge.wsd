@@ -1,0 +1,4 @@
+@startuml
+Millet ..> MilletPlant : dependency
+Millet ..> MilletPorridge : dependency
+@enduml

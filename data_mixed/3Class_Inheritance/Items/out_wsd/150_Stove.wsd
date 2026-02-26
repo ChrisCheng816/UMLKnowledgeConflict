@@ -1,0 +1,4 @@
+@startuml
+Item <|-- Appliance : inheritance
+Stove <|-- Appliance : inheritance
+@enduml

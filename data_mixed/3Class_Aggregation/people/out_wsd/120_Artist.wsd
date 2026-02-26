@@ -1,0 +1,4 @@
+@startuml
+Artist o-- Club : aggregation
+Community o-- Club : aggregation
+@enduml
