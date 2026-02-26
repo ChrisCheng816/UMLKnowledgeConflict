@@ -3,7 +3,7 @@ import os
 import re
 
 os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 # os.environ["NCCL_P2P_DISABLE"] = "1"
 
 CLOSED_DEFAULT_MODELS = [
