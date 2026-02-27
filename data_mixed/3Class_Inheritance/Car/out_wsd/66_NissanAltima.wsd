@@ -1,4 +1,4 @@
 @startuml
-Sedan <|-- FullSizeSedan : inheritance
 NissanAltima <|-- FullSizeSedan : inheritance
+Sedan <|-- FullSizeSedan : inheritance
 @enduml

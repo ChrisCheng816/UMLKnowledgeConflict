@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Coconut : inheritance
 YoungCoconut <|-- Coconut : inheritance
+Fruit <|-- Coconut : inheritance
 @enduml

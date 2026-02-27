@@ -1,4 +1,4 @@
 @startuml
-Hand *-- Face : composition
 Watch *-- Face : composition
+Hand *-- Face : composition
 @enduml

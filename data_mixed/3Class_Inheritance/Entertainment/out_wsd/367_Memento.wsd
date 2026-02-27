@@ -1,4 +1,4 @@
 @startuml
-Film <|-- MysteryFilm : inheritance
 Memento <|-- MysteryFilm : inheritance
+Film <|-- MysteryFilm : inheritance
 @enduml

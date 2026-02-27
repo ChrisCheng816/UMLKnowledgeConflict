@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Apple : inheritance
 FujiApple <|-- Apple : inheritance
+Fruit <|-- Apple : inheritance
 @enduml

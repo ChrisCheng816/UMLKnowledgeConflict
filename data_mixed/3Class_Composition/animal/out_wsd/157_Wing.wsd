@@ -1,4 +1,4 @@
 @startuml
-Wing *-- Thorax : composition
 Insect *-- Thorax : composition
+Wing *-- Thorax : composition
 @enduml

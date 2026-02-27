@@ -1,4 +1,4 @@
 @startuml
-Root *-- Tooth : composition
 Rhinoceros *-- Tooth : composition
+Root *-- Tooth : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Bear : inheritance
 BrownBear <|-- Bear : inheritance
+Animal <|-- Bear : inheritance
 @enduml

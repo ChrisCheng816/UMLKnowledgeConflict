@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Bread : inheritance
 Baguette <|-- Bread : inheritance
+Food <|-- Bread : inheritance
 @enduml

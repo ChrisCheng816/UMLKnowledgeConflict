@@ -1,4 +1,4 @@
 @startuml
-TileCutter ..> Electricity : dependency
 TileCutter ..> Operating : dependency
+TileCutter ..> Electricity : dependency
 @enduml

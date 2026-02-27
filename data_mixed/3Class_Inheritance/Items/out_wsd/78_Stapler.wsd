@@ -1,4 +1,4 @@
 @startuml
-Item <|-- OfficeTool : inheritance
 Stapler <|-- OfficeTool : inheritance
+Item <|-- OfficeTool : inheritance
 @enduml

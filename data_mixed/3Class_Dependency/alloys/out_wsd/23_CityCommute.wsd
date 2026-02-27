@@ -1,4 +1,4 @@
 @startuml
-ElectricCar ..> Electricity : dependency
 ElectricCar ..> CityCommute : dependency
+ElectricCar ..> Electricity : dependency
 @enduml

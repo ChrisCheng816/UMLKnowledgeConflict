@@ -1,4 +1,4 @@
 @startuml
-Numeral *-- Face : composition
 Clock *-- Face : composition
+Numeral *-- Face : composition
 @enduml

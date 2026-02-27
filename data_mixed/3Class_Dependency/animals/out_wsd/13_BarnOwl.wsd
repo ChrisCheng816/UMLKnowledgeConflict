@@ -1,4 +1,4 @@
 @startuml
-Mouse ..> Grain : dependency
 Mouse ..> BarnOwl : dependency
+Mouse ..> Grain : dependency
 @enduml

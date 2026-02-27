@@ -1,4 +1,4 @@
 @startuml
-Vocalist o-- Band : aggregation
 Studio o-- Band : aggregation
+Vocalist o-- Band : aggregation
 @enduml

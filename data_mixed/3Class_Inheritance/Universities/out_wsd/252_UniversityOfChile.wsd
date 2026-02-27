@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inheritance
 UniversityOfChile <|-- University : inheritance
+EducationalInstitution <|-- University : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Edge *-- Shade : composition
 Lamp *-- Shade : composition
+Edge *-- Shade : composition
 @enduml

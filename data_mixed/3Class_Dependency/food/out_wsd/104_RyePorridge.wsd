@@ -1,4 +1,4 @@
 @startuml
-Rye ..> RyePlant : dependency
 Rye ..> RyePorridge : dependency
+Rye ..> RyePlant : dependency
 @enduml

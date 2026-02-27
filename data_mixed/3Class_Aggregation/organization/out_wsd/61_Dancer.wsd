@@ -1,4 +1,4 @@
 @startuml
-Dancer o-- Cast : aggregation
 Theater o-- Cast : aggregation
+Dancer o-- Cast : aggregation
 @enduml

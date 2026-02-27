@@ -1,4 +1,4 @@
 @startuml
-StringTrimmer ..> Electricity : dependency
 StringTrimmer ..> Trimming : dependency
+StringTrimmer ..> Electricity : dependency
 @enduml

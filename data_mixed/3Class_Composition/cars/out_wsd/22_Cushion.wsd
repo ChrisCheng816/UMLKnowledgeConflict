@@ -1,4 +1,4 @@
 @startuml
-Cushion *-- Seat : composition
 Car *-- Seat : composition
+Cushion *-- Seat : composition
 @enduml

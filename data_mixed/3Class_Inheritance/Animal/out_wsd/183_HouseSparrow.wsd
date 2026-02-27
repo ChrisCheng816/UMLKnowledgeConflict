@@ -1,4 +1,4 @@
 @startuml
-Bird <|-- Sparrow : inheritance
 HouseSparrow <|-- Sparrow : inheritance
+Bird <|-- Sparrow : inheritance
 @enduml

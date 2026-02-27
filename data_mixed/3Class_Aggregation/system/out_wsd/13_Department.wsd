@@ -1,4 +1,4 @@
 @startuml
-Department o-- University : aggregation
 EducationSystem o-- University : aggregation
+Department o-- University : aggregation
 @enduml

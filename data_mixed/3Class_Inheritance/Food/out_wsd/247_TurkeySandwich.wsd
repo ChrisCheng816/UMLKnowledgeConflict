@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Sandwich : inheritance
 TurkeySandwich <|-- Sandwich : inheritance
+Food <|-- Sandwich : inheritance
 @enduml

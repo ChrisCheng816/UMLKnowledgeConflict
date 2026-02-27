@@ -1,4 +1,4 @@
 @startuml
-Catcher o-- Team : aggregation
 SportsClub o-- Team : aggregation
+Catcher o-- Team : aggregation
 @enduml

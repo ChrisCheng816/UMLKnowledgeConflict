@@ -1,4 +1,4 @@
 @startuml
-Forward o-- Team : aggregation
 SportsClub o-- Team : aggregation
+Forward o-- Team : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Contact *-- Button : composition
 Remote *-- Button : composition
+Contact *-- Button : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-FuelBarge ..> FuelTerminal : dependency
 FuelBarge ..> BunkeringPort : dependency
+FuelBarge ..> FuelTerminal : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Strand *-- Fiber : composition
 Thread *-- Fiber : composition
+Strand *-- Fiber : composition
 @enduml

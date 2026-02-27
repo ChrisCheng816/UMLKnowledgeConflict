@@ -1,4 +1,4 @@
 @startuml
-Swimmer o-- Team : aggregation
 League o-- Team : aggregation
+Swimmer o-- Team : aggregation
 @enduml

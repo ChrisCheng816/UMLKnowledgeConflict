@@ -1,4 +1,4 @@
 @startuml
-Mechanic o-- Staff : aggregation
 Factory o-- Staff : aggregation
+Mechanic o-- Staff : aggregation
 @enduml

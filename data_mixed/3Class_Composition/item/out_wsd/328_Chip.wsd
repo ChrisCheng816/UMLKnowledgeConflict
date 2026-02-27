@@ -1,4 +1,4 @@
 @startuml
-Chip *-- Memory : composition
 Desktop *-- Memory : composition
+Chip *-- Memory : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Clamp *-- Exhaust : composition
 Car *-- Exhaust : composition
+Clamp *-- Exhaust : composition
 @enduml

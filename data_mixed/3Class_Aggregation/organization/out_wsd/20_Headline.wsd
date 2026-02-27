@@ -1,4 +1,4 @@
 @startuml
-Headline o-- Feed : aggregation
 NewsSite o-- Feed : aggregation
+Headline o-- Feed : aggregation
 @enduml

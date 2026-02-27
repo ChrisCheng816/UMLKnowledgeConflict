@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inheritance
 PokemonWhite <|-- VideoGame : inheritance
+Game <|-- VideoGame : inheritance
 @enduml

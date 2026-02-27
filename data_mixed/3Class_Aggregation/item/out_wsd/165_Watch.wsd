@@ -1,4 +1,4 @@
 @startuml
-Watch o-- Drawer : aggregation
 Bedroom o-- Drawer : aggregation
+Watch o-- Drawer : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Article *-- Volume : composition
 Encyclopedia *-- Volume : composition
+Article *-- Volume : composition
 @enduml

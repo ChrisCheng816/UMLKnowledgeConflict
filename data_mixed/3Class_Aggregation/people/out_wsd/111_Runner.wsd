@@ -1,4 +1,4 @@
 @startuml
-Runner o-- Club : aggregation
 Community o-- Club : aggregation
+Runner o-- Club : aggregation
 @enduml

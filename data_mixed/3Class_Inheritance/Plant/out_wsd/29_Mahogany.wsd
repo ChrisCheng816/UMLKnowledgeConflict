@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Tree : inheritance
 Mahogany <|-- Tree : inheritance
+Plant <|-- Tree : inheritance
 @enduml

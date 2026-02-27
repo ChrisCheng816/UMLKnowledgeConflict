@@ -1,4 +1,4 @@
 @startuml
-Parrot o-- Cage : aggregation
 Sanctuary o-- Cage : aggregation
+Parrot o-- Cage : aggregation
 @enduml

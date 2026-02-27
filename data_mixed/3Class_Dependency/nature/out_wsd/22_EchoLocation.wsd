@@ -1,4 +1,4 @@
 @startuml
-Echo ..> Reflection : dependency
 Echo ..> EchoLocation : dependency
+Echo ..> Reflection : dependency
 @enduml

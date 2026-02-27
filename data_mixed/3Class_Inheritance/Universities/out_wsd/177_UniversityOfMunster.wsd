@@ -1,4 +1,4 @@
 @startuml
-EducationalInstitution <|-- University : inheritance
 UniversityOfMunster <|-- University : inheritance
+EducationalInstitution <|-- University : inheritance
 @enduml

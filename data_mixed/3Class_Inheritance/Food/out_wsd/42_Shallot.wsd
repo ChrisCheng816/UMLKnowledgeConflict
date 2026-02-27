@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- AlliumVegetable : inheritance
 Shallot <|-- AlliumVegetable : inheritance
+Vegetable <|-- AlliumVegetable : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tempura o-- Plate : aggregation
 Restaurant o-- Plate : aggregation
+Tempura o-- Plate : aggregation
 @enduml

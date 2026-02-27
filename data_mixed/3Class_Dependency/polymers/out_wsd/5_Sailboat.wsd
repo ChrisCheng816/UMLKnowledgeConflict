@@ -1,4 +1,4 @@
 @startuml
-Wind ..> PressureDifference : dependency
 Wind ..> Sailboat : dependency
+Wind ..> PressureDifference : dependency
 @enduml

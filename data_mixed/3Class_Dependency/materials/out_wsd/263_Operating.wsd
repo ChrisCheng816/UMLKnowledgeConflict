@@ -1,4 +1,4 @@
 @startuml
-ScooterCharger ..> Electricity : dependency
 ScooterCharger ..> Operating : dependency
+ScooterCharger ..> Electricity : dependency
 @enduml

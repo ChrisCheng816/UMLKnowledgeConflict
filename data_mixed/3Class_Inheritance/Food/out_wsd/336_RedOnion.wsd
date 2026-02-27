@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Onion : inheritance
 RedOnion <|-- Onion : inheritance
+Vegetable <|-- Onion : inheritance
 @enduml

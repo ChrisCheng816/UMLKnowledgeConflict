@@ -1,4 +1,4 @@
 @startuml
-Head *-- Drive : composition
 Desktop *-- Drive : composition
+Head *-- Drive : composition
 @enduml

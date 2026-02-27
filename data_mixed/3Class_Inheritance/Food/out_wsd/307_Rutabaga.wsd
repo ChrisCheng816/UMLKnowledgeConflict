@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- RootVegetable : inheritance
 Rutabaga <|-- RootVegetable : inheritance
+Vegetable <|-- RootVegetable : inheritance
 @enduml

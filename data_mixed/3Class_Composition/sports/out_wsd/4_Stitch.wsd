@@ -1,4 +1,4 @@
 @startuml
-Stitch *-- Seam : composition
 Baseball *-- Seam : composition
+Stitch *-- Seam : composition
 @enduml

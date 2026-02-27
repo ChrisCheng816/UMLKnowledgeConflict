@@ -1,4 +1,4 @@
 @startuml
-Playmaker o-- Team : aggregation
 SportsClub o-- Team : aggregation
+Playmaker o-- Team : aggregation
 @enduml

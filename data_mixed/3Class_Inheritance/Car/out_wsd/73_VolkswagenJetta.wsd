@@ -1,4 +1,4 @@
 @startuml
-Automobile <|-- Sedan : inheritance
 VolkswagenJetta <|-- Sedan : inheritance
+Automobile <|-- Sedan : inheritance
 @enduml

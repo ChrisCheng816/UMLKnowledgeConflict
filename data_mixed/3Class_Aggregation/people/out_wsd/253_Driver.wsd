@@ -1,4 +1,4 @@
 @startuml
-Driver o-- Staff : aggregation
 Company o-- Staff : aggregation
+Driver o-- Staff : aggregation
 @enduml

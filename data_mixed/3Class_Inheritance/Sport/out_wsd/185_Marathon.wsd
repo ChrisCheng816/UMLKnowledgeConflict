@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- EnduranceSport : inheritance
 Marathon <|-- EnduranceSport : inheritance
+Sport <|-- EnduranceSport : inheritance
 @enduml

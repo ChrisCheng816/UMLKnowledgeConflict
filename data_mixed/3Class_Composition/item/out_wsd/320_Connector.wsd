@@ -1,4 +1,4 @@
 @startuml
-Connector *-- Motherboard : composition
 Desktop *-- Motherboard : composition
+Connector *-- Motherboard : composition
 @enduml

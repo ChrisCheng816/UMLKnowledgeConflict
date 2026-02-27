@@ -1,4 +1,4 @@
 @startuml
-Tube *-- Pump : composition
 CoffeeMaker *-- Pump : composition
+Tube *-- Pump : composition
 @enduml

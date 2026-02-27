@@ -1,4 +1,4 @@
 @startuml
-Bell *-- Handlebar : composition
 Bicycle *-- Handlebar : composition
+Bell *-- Handlebar : composition
 @enduml

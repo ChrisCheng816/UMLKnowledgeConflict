@@ -1,4 +1,4 @@
 @startuml
-Pho o-- Plate : aggregation
 Restaurant o-- Plate : aggregation
+Pho o-- Plate : aggregation
 @enduml

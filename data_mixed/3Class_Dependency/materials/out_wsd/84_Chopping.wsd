@@ -1,4 +1,4 @@
 @startuml
-FoodProcessor ..> Electricity : dependency
 FoodProcessor ..> Chopping : dependency
+FoodProcessor ..> Electricity : dependency
 @enduml

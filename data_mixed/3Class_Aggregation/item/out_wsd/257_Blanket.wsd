@@ -1,4 +1,4 @@
 @startuml
-Blanket o-- Basket : aggregation
 LaundryRoom o-- Basket : aggregation
+Blanket o-- Basket : aggregation
 @enduml

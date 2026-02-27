@@ -1,4 +1,4 @@
 @startuml
-Speedometer *-- Dashboard : composition
 Car *-- Dashboard : composition
+Speedometer *-- Dashboard : composition
 @enduml

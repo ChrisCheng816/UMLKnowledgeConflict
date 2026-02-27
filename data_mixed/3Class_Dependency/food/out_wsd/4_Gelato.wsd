@@ -1,4 +1,4 @@
 @startuml
-Milk ..> Cow : dependency
 Milk ..> Gelato : dependency
+Milk ..> Cow : dependency
 @enduml

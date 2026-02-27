@@ -1,4 +1,4 @@
 @startuml
-Otter o-- Enclosure : aggregation
 Reserve o-- Enclosure : aggregation
+Otter o-- Enclosure : aggregation
 @enduml

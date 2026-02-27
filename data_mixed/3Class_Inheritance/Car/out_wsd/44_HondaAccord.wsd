@@ -1,4 +1,4 @@
 @startuml
-Sedan <|-- MidsizeSedan : inheritance
 HondaAccord <|-- MidsizeSedan : inheritance
+Sedan <|-- MidsizeSedan : inheritance
 @enduml

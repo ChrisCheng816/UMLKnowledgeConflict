@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Tiger : inheritance
 BengalTiger <|-- Tiger : inheritance
+Mammal <|-- Tiger : inheritance
 @enduml

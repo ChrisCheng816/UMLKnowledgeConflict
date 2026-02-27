@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Pea : inheritance
 GreenPea <|-- Pea : inheritance
+Vegetable <|-- Pea : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Flashing *-- Roof : composition
 House *-- Roof : composition
+Flashing *-- Roof : composition
 @enduml

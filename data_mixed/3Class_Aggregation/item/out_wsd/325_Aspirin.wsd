@@ -1,4 +1,4 @@
 @startuml
-Aspirin o-- Cabinet : aggregation
 Pharmacy o-- Cabinet : aggregation
+Aspirin o-- Cabinet : aggregation
 @enduml

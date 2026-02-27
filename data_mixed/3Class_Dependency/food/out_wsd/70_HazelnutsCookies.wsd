@@ -1,4 +1,4 @@
 @startuml
-Hazelnuts ..> HazelTree : dependency
 Hazelnuts ..> HazelnutsCookies : dependency
+Hazelnuts ..> HazelTree : dependency
 @enduml

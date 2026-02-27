@@ -1,4 +1,4 @@
 @startuml
-Book o-- Collection : aggregation
 Publisher o-- Collection : aggregation
+Book o-- Collection : aggregation
 @enduml

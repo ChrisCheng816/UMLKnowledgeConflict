@@ -1,4 +1,4 @@
 @startuml
-ArcadeMachine ..> Electricity : dependency
 ArcadeMachine ..> Operating : dependency
+ArcadeMachine ..> Electricity : dependency
 @enduml

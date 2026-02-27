@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- ComputerScientist : inheritance
 EdsgerDijkstra <|-- ComputerScientist : inheritance
+Scientist <|-- ComputerScientist : inheritance
 @enduml

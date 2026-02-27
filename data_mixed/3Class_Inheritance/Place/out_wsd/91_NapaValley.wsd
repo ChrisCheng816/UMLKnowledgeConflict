@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Valley : inheritance
 NapaValley <|-- Valley : inheritance
+GeographicFeature <|-- Valley : inheritance
 @enduml

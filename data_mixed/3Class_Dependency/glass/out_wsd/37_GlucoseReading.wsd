@@ -1,4 +1,4 @@
 @startuml
-GlucoseMeter ..> Battery : dependency
 GlucoseMeter ..> GlucoseReading : dependency
+GlucoseMeter ..> Battery : dependency
 @enduml

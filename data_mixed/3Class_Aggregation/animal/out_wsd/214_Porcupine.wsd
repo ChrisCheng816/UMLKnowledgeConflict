@@ -1,4 +1,4 @@
 @startuml
-Porcupine o-- Enclosure : aggregation
 Zoo o-- Enclosure : aggregation
+Porcupine o-- Enclosure : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Backlight *-- Display : composition
 Laptop *-- Display : composition
+Backlight *-- Display : composition
 @enduml

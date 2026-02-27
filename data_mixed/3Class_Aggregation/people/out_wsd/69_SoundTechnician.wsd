@@ -1,4 +1,4 @@
 @startuml
-SoundTechnician o-- Crew : aggregation
 Theater o-- Crew : aggregation
+SoundTechnician o-- Crew : aggregation
 @enduml

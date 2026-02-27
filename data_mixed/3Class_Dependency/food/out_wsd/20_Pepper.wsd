@@ -1,4 +1,4 @@
 @startuml
-Peppercorns ..> PepperPlant : dependency
 Peppercorns ..> Pepper : dependency
+Peppercorns ..> PepperPlant : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Guitarist o-- Band : aggregation
 Club o-- Band : aggregation
+Guitarist o-- Band : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Planner o-- Department : aggregation
 Company o-- Department : aggregation
+Planner o-- Department : aggregation
 @enduml

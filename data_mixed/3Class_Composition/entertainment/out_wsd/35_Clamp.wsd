@@ -1,4 +1,4 @@
 @startuml
-Clamp *-- Hoop : composition
 Drum *-- Hoop : composition
+Clamp *-- Hoop : composition
 @enduml

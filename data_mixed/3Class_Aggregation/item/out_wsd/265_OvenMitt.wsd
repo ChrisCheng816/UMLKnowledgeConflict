@@ -1,4 +1,4 @@
 @startuml
-OvenMitt o-- Basket : aggregation
 LaundryRoom o-- Basket : aggregation
+OvenMitt o-- Basket : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Singer o-- Band : aggregation
 Club o-- Band : aggregation
+Singer o-- Band : aggregation
 @enduml

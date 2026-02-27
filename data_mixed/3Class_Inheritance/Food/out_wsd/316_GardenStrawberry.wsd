@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Strawberry : inheritance
 GardenStrawberry <|-- Strawberry : inheritance
+Fruit <|-- Strawberry : inheritance
 @enduml

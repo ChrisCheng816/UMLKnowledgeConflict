@@ -1,4 +1,4 @@
 @startuml
-Dryer ..> Electricity : dependency
 Dryer ..> Drying : dependency
+Dryer ..> Electricity : dependency
 @enduml

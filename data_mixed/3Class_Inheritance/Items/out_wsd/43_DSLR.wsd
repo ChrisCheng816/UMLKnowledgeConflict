@@ -1,4 +1,4 @@
 @startuml
-Electronics <|-- Camera : inheritance
 DSLR <|-- Camera : inheritance
+Electronics <|-- Camera : inheritance
 @enduml

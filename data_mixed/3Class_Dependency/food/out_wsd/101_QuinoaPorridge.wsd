@@ -1,4 +1,4 @@
 @startuml
-Quinoa ..> QuinoaPlant : dependency
 Quinoa ..> QuinoaPorridge : dependency
+Quinoa ..> QuinoaPlant : dependency
 @enduml

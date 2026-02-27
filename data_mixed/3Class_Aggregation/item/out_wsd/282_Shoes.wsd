@@ -1,4 +1,4 @@
 @startuml
-Shoes o-- Rack : aggregation
 Entryway o-- Rack : aggregation
+Shoes o-- Rack : aggregation
 @enduml

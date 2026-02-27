@@ -1,4 +1,4 @@
 @startuml
-GarbageTruck o-- Fleet : aggregation
 City o-- Fleet : aggregation
+GarbageTruck o-- Fleet : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Notebook o-- Folder : aggregation
 Office o-- Folder : aggregation
+Notebook o-- Folder : aggregation
 @enduml

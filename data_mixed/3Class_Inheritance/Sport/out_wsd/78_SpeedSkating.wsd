@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- WinterSport : inheritance
 SpeedSkating <|-- WinterSport : inheritance
+Sport <|-- WinterSport : inheritance
 @enduml

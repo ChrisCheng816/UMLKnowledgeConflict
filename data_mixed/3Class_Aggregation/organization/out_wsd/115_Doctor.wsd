@@ -1,4 +1,4 @@
 @startuml
-Doctor o-- Department : aggregation
 Hospital o-- Department : aggregation
+Doctor o-- Department : aggregation
 @enduml

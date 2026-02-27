@@ -1,4 +1,4 @@
 @startuml
-Piston *-- Compressor : composition
 Refrigerator *-- Compressor : composition
+Piston *-- Compressor : composition
 @enduml

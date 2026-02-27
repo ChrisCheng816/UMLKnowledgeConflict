@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Whale : inheritance
 BlueWhale <|-- Whale : inheritance
+Mammal <|-- Whale : inheritance
 @enduml

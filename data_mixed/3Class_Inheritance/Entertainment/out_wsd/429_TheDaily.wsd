@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- Podcast : inheritance
 TheDaily <|-- Podcast : inheritance
+Entertainment <|-- Podcast : inheritance
 @enduml

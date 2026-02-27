@@ -1,4 +1,4 @@
 @startuml
-Spring *-- Buckle : composition
 Backpack *-- Buckle : composition
+Spring *-- Buckle : composition
 @enduml

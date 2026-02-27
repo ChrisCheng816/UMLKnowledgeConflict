@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inheritance
 Dota2 <|-- VideoGame : inheritance
+Game <|-- VideoGame : inheritance
 @enduml

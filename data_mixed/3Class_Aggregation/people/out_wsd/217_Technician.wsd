@@ -1,4 +1,4 @@
 @startuml
-Technician o-- Unit : aggregation
 FireStation o-- Unit : aggregation
+Technician o-- Unit : aggregation
 @enduml

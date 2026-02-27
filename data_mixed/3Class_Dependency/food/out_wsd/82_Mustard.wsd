@@ -1,4 +1,4 @@
 @startuml
-MustardSeeds ..> MustardPlant : dependency
 MustardSeeds ..> Mustard : dependency
+MustardSeeds ..> MustardPlant : dependency
 @enduml

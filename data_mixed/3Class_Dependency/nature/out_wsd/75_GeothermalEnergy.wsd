@@ -1,4 +1,4 @@
 @startuml
-EarthHeat ..> EarthCore : dependency
 EarthHeat ..> GeothermalEnergy : dependency
+EarthHeat ..> EarthCore : dependency
 @enduml

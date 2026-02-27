@@ -1,4 +1,4 @@
 @startuml
-Politician <|-- President : inheritance
 BarackObama <|-- President : inheritance
+Politician <|-- President : inheritance
 @enduml

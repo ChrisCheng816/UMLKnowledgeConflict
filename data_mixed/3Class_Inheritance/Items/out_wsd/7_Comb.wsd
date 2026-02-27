@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Toiletry : inheritance
 Comb <|-- Toiletry : inheritance
+Item <|-- Toiletry : inheritance
 @enduml

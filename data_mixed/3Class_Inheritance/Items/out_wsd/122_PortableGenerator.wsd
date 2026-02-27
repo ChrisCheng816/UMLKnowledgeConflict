@@ -1,4 +1,4 @@
 @startuml
-Machine <|-- Generator : inheritance
 PortableGenerator <|-- Generator : inheritance
+Machine <|-- Generator : inheritance
 @enduml

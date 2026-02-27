@@ -1,4 +1,4 @@
 @startuml
-CleaningSupply <|-- Soap : inheritance
 DishSoap <|-- Soap : inheritance
+CleaningSupply <|-- Soap : inheritance
 @enduml

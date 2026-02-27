@@ -1,4 +1,4 @@
 @startuml
-Tuna o-- Cart : aggregation
 Supermarket o-- Cart : aggregation
+Tuna o-- Cart : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Trap *-- Plumbing : composition
 House *-- Plumbing : composition
+Trap *-- Plumbing : composition
 @enduml

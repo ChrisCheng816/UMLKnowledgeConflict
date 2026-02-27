@@ -1,4 +1,4 @@
 @startuml
-Baker o-- Club : aggregation
 Community o-- Club : aggregation
+Baker o-- Club : aggregation
 @enduml

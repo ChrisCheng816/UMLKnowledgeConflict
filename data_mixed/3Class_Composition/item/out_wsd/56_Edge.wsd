@@ -1,4 +1,4 @@
 @startuml
-Edge *-- Blade : composition
 Knife *-- Blade : composition
+Edge *-- Blade : composition
 @enduml

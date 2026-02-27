@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Scooter : inheritance
 VespaPrimavera <|-- Scooter : inheritance
+Vehicle <|-- Scooter : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- CitrusFruit : inheritance
 Kumquat <|-- CitrusFruit : inheritance
+Fruit <|-- CitrusFruit : inheritance
 @enduml

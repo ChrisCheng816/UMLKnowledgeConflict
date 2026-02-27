@@ -1,4 +1,4 @@
 @startuml
-Coil *-- Spring : composition
 Pliers *-- Spring : composition
+Coil *-- Spring : composition
 @enduml

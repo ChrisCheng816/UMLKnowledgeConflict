@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Song : inheritance
 HeyJude <|-- Song : inheritance
+MusicWork <|-- Song : inheritance
 @enduml

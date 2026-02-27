@@ -1,4 +1,4 @@
 @startuml
-Stationery <|-- Pencil : inheritance
 ColoredPencil <|-- Pencil : inheritance
+Stationery <|-- Pencil : inheritance
 @enduml

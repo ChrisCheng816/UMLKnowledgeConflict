@@ -1,4 +1,4 @@
 @startuml
-EyeDrops o-- Cabinet : aggregation
 Pharmacy o-- Cabinet : aggregation
+EyeDrops o-- Cabinet : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Instrument <|-- Guitar : inheritance
 ElectricGuitar <|-- Guitar : inheritance
+Instrument <|-- Guitar : inheritance
 @enduml

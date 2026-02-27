@@ -1,4 +1,4 @@
 @startuml
-Aphids ..> Plants : dependency
 Aphids ..> Ladybug : dependency
+Aphids ..> Plants : dependency
 @enduml

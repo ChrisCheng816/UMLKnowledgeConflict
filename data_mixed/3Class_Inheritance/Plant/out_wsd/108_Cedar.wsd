@@ -1,4 +1,4 @@
 @startuml
-Tree <|-- Conifer : inheritance
 Cedar <|-- Conifer : inheritance
+Tree <|-- Conifer : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Entry *-- Index : composition
 Book *-- Index : composition
+Entry *-- Index : composition
 @enduml

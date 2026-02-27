@@ -1,4 +1,4 @@
 @startuml
-Appliance <|-- Iron : inheritance
 WaffleIron <|-- Iron : inheritance
+Appliance <|-- Iron : inheritance
 @enduml

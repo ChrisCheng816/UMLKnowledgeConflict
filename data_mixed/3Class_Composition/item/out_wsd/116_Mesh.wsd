@@ -1,4 +1,4 @@
 @startuml
-Mesh *-- Door : composition
 Microwave *-- Door : composition
+Mesh *-- Door : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Artist <|-- Singer : inheritance
 TaylorSwift <|-- Singer : inheritance
+Artist <|-- Singer : inheritance
 @enduml

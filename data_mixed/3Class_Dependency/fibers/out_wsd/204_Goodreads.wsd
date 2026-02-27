@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity : dependency
 Internet ..> Goodreads : dependency
+Internet ..> Electricity : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-LeafVacuum ..> Electricity : dependency
 LeafVacuum ..> Vacuuming : dependency
+LeafVacuum ..> Electricity : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Device <|-- StorageDevice : inheritance
 SSD <|-- StorageDevice : inheritance
+Device <|-- StorageDevice : inheritance
 @enduml

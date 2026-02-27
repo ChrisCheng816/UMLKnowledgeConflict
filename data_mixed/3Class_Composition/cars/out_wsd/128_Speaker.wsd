@@ -1,4 +1,4 @@
 @startuml
-Speaker *-- Door : composition
 Car *-- Door : composition
+Speaker *-- Door : composition
 @enduml

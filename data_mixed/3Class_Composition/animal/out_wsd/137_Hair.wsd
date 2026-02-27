@@ -1,4 +1,4 @@
 @startuml
-Hair *-- Fur : composition
 Panda *-- Fur : composition
+Hair *-- Fur : composition
 @enduml

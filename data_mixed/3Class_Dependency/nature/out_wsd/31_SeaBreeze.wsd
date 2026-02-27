@@ -1,4 +1,4 @@
 @startuml
-TemperatureContrast ..> Sunlight : dependency
 TemperatureContrast ..> SeaBreeze : dependency
+TemperatureContrast ..> Sunlight : dependency
 @enduml

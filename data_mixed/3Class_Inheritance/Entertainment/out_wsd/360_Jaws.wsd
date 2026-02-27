@@ -1,4 +1,4 @@
 @startuml
-Film <|-- ThrillerFilm : inheritance
 Jaws <|-- ThrillerFilm : inheritance
+Film <|-- ThrillerFilm : inheritance
 @enduml

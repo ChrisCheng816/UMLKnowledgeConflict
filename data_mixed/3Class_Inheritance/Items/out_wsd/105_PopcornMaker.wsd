@@ -1,4 +1,4 @@
 @startuml
-Appliance <|-- Popper : inheritance
 PopcornMaker <|-- Popper : inheritance
+Appliance <|-- Popper : inheritance
 @enduml

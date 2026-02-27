@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- NightshadeVegetable : inheritance
 Tomatillo <|-- NightshadeVegetable : inheritance
+Vegetable <|-- NightshadeVegetable : inheritance
 @enduml

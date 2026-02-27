@@ -1,4 +1,4 @@
 @startuml
-Location <|-- GeographicFeature : inheritance
 Ocean <|-- GeographicFeature : inheritance
+Location <|-- GeographicFeature : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sage ..> SagePlant : dependency
 Sage ..> SageSeasoning : dependency
+Sage ..> SagePlant : dependency
 @enduml

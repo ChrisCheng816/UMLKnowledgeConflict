@@ -1,4 +1,4 @@
 @startuml
-HairDryer ..> Electricity : dependency
 HairDryer ..> WarmAir : dependency
+HairDryer ..> Electricity : dependency
 @enduml

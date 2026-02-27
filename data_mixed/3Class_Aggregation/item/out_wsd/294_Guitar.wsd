@@ -1,4 +1,4 @@
 @startuml
-Guitar o-- InstrumentRack : aggregation
 MusicStore o-- InstrumentRack : aggregation
+Guitar o-- InstrumentRack : aggregation
 @enduml

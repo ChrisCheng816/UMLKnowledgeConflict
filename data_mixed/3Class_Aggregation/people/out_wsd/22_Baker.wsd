@@ -1,4 +1,4 @@
 @startuml
-Baker o-- Staff : aggregation
 Cafe o-- Staff : aggregation
+Baker o-- Staff : aggregation
 @enduml

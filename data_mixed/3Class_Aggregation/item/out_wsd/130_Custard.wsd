@@ -1,4 +1,4 @@
 @startuml
-Custard o-- Bowl : aggregation
 Kitchen o-- Bowl : aggregation
+Custard o-- Bowl : aggregation
 @enduml

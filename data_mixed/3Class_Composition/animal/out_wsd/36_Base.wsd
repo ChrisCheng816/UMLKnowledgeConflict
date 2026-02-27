@@ -1,4 +1,4 @@
 @startuml
-Base *-- Antler : composition
 Deer *-- Antler : composition
+Base *-- Antler : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Onion ..> OnionPlant : dependency
 Onion ..> OnionRings : dependency
+Onion ..> OnionPlant : dependency
 @enduml

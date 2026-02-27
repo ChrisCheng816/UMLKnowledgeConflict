@@ -1,4 +1,4 @@
 @startuml
-Sketch o-- Exhibition : aggregation
 ArtGallery o-- Exhibition : aggregation
+Sketch o-- Exhibition : aggregation
 @enduml

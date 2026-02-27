@@ -1,4 +1,4 @@
 @startuml
-Fiber *-- Carpet : composition
 House *-- Carpet : composition
+Fiber *-- Carpet : composition
 @enduml

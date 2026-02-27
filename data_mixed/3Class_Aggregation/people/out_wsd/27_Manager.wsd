@@ -1,4 +1,4 @@
 @startuml
-Manager o-- Crew : aggregation
 Theater o-- Crew : aggregation
+Manager o-- Crew : aggregation
 @enduml

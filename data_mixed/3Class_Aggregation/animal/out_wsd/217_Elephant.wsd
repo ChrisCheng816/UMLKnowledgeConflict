@@ -1,4 +1,4 @@
 @startuml
-Elephant o-- Herd : aggregation
 Reserve o-- Herd : aggregation
+Elephant o-- Herd : aggregation
 @enduml

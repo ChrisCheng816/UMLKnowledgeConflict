@@ -1,4 +1,4 @@
 @startuml
-Mantel *-- Fireplace : composition
 House *-- Fireplace : composition
+Mantel *-- Fireplace : composition
 @enduml

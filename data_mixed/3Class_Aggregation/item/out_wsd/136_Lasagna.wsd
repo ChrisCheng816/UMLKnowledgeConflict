@@ -1,4 +1,4 @@
 @startuml
-Lasagna o-- Plate : aggregation
 Restaurant o-- Plate : aggregation
+Lasagna o-- Plate : aggregation
 @enduml

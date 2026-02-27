@@ -1,4 +1,4 @@
 @startuml
-Seal *-- Trunk : composition
 Car *-- Trunk : composition
+Seal *-- Trunk : composition
 @enduml

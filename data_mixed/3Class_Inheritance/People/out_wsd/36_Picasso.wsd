@@ -1,4 +1,4 @@
 @startuml
-Artist <|-- Painter : inheritance
 Picasso <|-- Painter : inheritance
+Artist <|-- Painter : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Clause *-- Paragraph : composition
 Essay *-- Paragraph : composition
+Clause *-- Paragraph : composition
 @enduml

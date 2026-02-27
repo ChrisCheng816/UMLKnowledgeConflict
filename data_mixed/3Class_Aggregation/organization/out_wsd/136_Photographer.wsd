@@ -1,4 +1,4 @@
 @startuml
-Photographer o-- Editorial : aggregation
 Newspaper o-- Editorial : aggregation
+Photographer o-- Editorial : aggregation
 @enduml

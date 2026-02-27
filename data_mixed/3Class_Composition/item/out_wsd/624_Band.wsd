@@ -1,4 +1,4 @@
 @startuml
-Band *-- Eraser : composition
 Pencil *-- Eraser : composition
+Band *-- Eraser : composition
 @enduml

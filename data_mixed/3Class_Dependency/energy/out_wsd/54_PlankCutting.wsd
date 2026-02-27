@@ -1,4 +1,4 @@
 @startuml
-CircularSaw ..> Electricity : dependency
 CircularSaw ..> PlankCutting : dependency
+CircularSaw ..> Electricity : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Lizard <|-- Chameleon : inheritance
 VeiledChameleon <|-- Chameleon : inheritance
+Lizard <|-- Chameleon : inheritance
 @enduml

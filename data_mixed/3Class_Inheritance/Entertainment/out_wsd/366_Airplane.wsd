@@ -1,4 +1,4 @@
 @startuml
-Film <|-- ComedyFilm : inheritance
 Airplane <|-- ComedyFilm : inheritance
+Film <|-- ComedyFilm : inheritance
 @enduml

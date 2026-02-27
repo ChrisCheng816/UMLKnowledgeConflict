@@ -1,4 +1,4 @@
 @startuml
-Combustion ..> Oxygen : dependency
 Combustion ..> Smoke : dependency
+Combustion ..> Oxygen : dependency
 @enduml

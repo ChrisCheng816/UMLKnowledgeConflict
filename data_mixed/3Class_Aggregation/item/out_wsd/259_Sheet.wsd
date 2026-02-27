@@ -1,4 +1,4 @@
 @startuml
-Sheet o-- Basket : aggregation
 LaundryRoom o-- Basket : aggregation
+Sheet o-- Basket : aggregation
 @enduml

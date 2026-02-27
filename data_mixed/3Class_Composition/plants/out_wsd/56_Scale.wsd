@@ -1,4 +1,4 @@
 @startuml
-Scale *-- Bulb : composition
 Tulip *-- Bulb : composition
+Scale *-- Bulb : composition
 @enduml

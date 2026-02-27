@@ -1,4 +1,4 @@
 @startuml
-Lemon ..> LemonTree : dependency
 Lemon ..> Lemonade : dependency
+Lemon ..> LemonTree : dependency
 @enduml

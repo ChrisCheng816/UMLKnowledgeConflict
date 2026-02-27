@@ -1,4 +1,4 @@
 @startuml
-Scute *-- Shell : composition
 Turtle *-- Shell : composition
+Scute *-- Shell : composition
 @enduml

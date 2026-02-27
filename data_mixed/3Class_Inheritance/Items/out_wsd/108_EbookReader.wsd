@@ -1,4 +1,4 @@
 @startuml
-Electronics <|-- Tablet : inheritance
 EbookReader <|-- Tablet : inheritance
+Electronics <|-- Tablet : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Connector *-- Battery : composition
 Phone *-- Battery : composition
+Connector *-- Battery : composition
 @enduml

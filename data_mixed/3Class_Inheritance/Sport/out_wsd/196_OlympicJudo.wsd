@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Judo : inheritance
 OlympicJudo <|-- Judo : inheritance
+Sport <|-- Judo : inheritance
 @enduml

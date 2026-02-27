@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- IndividualSport : inheritance
 ModernPentathlon <|-- IndividualSport : inheritance
+Sport <|-- IndividualSport : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Appliance : inheritance
 Blender <|-- Appliance : inheritance
+Item <|-- Appliance : inheritance
 @enduml

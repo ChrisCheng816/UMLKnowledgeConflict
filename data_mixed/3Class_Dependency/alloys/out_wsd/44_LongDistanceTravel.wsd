@@ -1,4 +1,4 @@
 @startuml
-ShuttleBus ..> DieselFuel : dependency
 ShuttleBus ..> LongDistanceTravel : dependency
+ShuttleBus ..> DieselFuel : dependency
 @enduml

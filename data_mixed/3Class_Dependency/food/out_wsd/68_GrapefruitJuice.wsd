@@ -1,4 +1,4 @@
 @startuml
-Grapefruit ..> GrapefruitTree : dependency
 Grapefruit ..> GrapefruitJuice : dependency
+Grapefruit ..> GrapefruitTree : dependency
 @enduml

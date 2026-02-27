@@ -1,4 +1,4 @@
 @startuml
-Violin o-- InstrumentRack : aggregation
 MusicStore o-- InstrumentRack : aggregation
+Violin o-- InstrumentRack : aggregation
 @enduml

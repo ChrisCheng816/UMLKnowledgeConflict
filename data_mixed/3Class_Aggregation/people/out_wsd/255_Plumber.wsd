@@ -1,4 +1,4 @@
 @startuml
-Plumber o-- Staff : aggregation
 Factory o-- Staff : aggregation
+Plumber o-- Staff : aggregation
 @enduml

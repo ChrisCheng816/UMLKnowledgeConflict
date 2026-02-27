@@ -1,4 +1,4 @@
 @startuml
-Beak *-- Head : composition
 Eagle *-- Head : composition
+Beak *-- Head : composition
 @enduml

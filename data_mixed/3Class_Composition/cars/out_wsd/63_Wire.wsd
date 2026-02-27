@@ -1,4 +1,4 @@
 @startuml
-Wire *-- Headlight : composition
 Car *-- Headlight : composition
+Wire *-- Headlight : composition
 @enduml

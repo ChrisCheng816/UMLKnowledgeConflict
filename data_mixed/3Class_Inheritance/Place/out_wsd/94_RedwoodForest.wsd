@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Forest : inheritance
 RedwoodForest <|-- Forest : inheritance
+GeographicFeature <|-- Forest : inheritance
 @enduml

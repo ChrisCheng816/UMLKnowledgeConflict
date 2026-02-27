@@ -1,4 +1,4 @@
 @startuml
-Spring *-- Lever : composition
 Toaster *-- Lever : composition
+Spring *-- Lever : composition
 @enduml

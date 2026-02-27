@@ -1,4 +1,4 @@
 @startuml
-Screen *-- Window : composition
 House *-- Window : composition
+Screen *-- Window : composition
 @enduml

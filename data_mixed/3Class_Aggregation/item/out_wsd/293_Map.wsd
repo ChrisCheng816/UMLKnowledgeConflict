@@ -1,4 +1,4 @@
 @startuml
-Map o-- Shelf : aggregation
 Library o-- Shelf : aggregation
+Map o-- Shelf : aggregation
 @enduml

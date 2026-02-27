@@ -1,4 +1,4 @@
 @startuml
-Frame *-- Keyboard : composition
 Laptop *-- Keyboard : composition
+Frame *-- Keyboard : composition
 @enduml

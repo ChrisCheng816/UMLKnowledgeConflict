@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame : inheritance
 Chess <|-- BoardGame : inheritance
+Game <|-- BoardGame : inheritance
 @enduml

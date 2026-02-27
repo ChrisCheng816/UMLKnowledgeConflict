@@ -1,4 +1,4 @@
 @startuml
-Crankset *-- Drivetrain : composition
 Bicycle *-- Drivetrain : composition
+Crankset *-- Drivetrain : composition
 @enduml

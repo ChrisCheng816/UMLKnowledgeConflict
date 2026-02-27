@@ -1,4 +1,4 @@
 @startuml
-Film o-- Program : aggregation
 FilmFestival o-- Program : aggregation
+Film o-- Program : aggregation
 @enduml

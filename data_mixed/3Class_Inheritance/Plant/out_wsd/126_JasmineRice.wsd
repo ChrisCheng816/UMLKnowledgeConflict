@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Rice : inheritance
 JasmineRice <|-- Rice : inheritance
+Plant <|-- Rice : inheritance
 @enduml

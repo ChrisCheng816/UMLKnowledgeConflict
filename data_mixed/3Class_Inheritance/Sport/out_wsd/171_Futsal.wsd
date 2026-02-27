@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Soccer : inheritance
 Futsal <|-- Soccer : inheritance
+Sport <|-- Soccer : inheritance
 @enduml

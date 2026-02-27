@@ -1,4 +1,4 @@
 @startuml
-Core *-- Horn : composition
 Cow *-- Horn : composition
+Core *-- Horn : composition
 @enduml

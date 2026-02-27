@@ -1,4 +1,4 @@
 @startuml
-WirelessCharger ..> Electricity : dependency
 WirelessCharger ..> DeviceCharging : dependency
+WirelessCharger ..> Electricity : dependency
 @enduml

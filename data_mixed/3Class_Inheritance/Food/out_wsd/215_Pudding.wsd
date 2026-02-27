@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dessert : inheritance
 Pudding <|-- Dessert : inheritance
+Food <|-- Dessert : inheritance
 @enduml

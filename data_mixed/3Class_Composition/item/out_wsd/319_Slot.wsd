@@ -1,4 +1,4 @@
 @startuml
-Slot *-- Motherboard : composition
 Desktop *-- Motherboard : composition
+Slot *-- Motherboard : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Word *-- Sentence : composition
 Essay *-- Sentence : composition
+Word *-- Sentence : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-DVDPlayer ..> Electricity : dependency
 DVDPlayer ..> Operating : dependency
+DVDPlayer ..> Electricity : dependency
 @enduml

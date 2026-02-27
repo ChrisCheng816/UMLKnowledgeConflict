@@ -1,4 +1,4 @@
 @startuml
-Bushing *-- Suspension : composition
 Car *-- Suspension : composition
+Bushing *-- Suspension : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Finish *-- Floor : composition
 House *-- Floor : composition
+Finish *-- Floor : composition
 @enduml

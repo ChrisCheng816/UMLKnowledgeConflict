@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Vegetable : inheritance
 LeafyVegetable <|-- Vegetable : inheritance
+Food <|-- Vegetable : inheritance
 @enduml

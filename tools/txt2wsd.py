@@ -151,43 +151,66 @@ def _single_pair_edge(left: str, right: str, template_id: str, reverse_pair: boo
     return pair_edges[0]
 
 
-def build_mixed_instances(forward_like_instances: List[Instance]) -> List[Instance]:
+def build_mixed_instances(
+    base_instances: List[Instance],
+    node_layout: str = "forward",
+) -> List[Instance]:
     """
-    Build mixed 3-class instances from forward-like 3-class instances.
+    Build mixed 3-class instances from base 3-class instances.
 
     Mixed rule
-    - Keep node order identical to forward-like instances.
-    - Keep the edge connected with the newly added node in forward direction.
-    - Flip only the edge between the two old nodes back to reverse direction.
+    - Keep node order identical to base instances.
+    - Keep the edge between the two old (2-class) nodes in the base/source direction.
+    - Flip only the edge connected with the newly added node.
 
-    Old node pair index in forward layout
-    - aggregation/composition: nodes[0], nodes[1]
-    - inheritance/dependency: nodes[1], nodes[2]
+    Old/new pair indices by node layout
+    - forward:
+      aggregation/composition old=(0,1), new=(1,2)
+      inheritance/dependency old=(1,2), new=(0,1)
+    - reverse:
+      aggregation/composition old=(1,2), new=(0,1)
+      inheritance/dependency old=(0,1), new=(1,2)
     """
+    if node_layout not in {"forward", "reverse"}:
+        raise ValueError(f"Unsupported node_layout: {node_layout}")
+
     mixed: List[Instance] = []
-    for inst in forward_like_instances:
+    for inst in base_instances:
         nodes = list(inst.nodes)
         mixed_edges: List[str]
 
         # Mixed is defined for 3-class chains. For any unexpected shape, keep current edges.
         if len(nodes) != 3:
             mixed_edges = list(inst.edges)
-        elif inst.template_id in {"aggregation", "composition"}:
-            # forward pairs: (0,1) old, (1,2) new
-            old_edge = _single_pair_edge(nodes[0], nodes[1], inst.template_id, reverse_pair=True)
-            new_edge = _single_pair_edge(nodes[1], nodes[2], inst.template_id, reverse_pair=False)
+        elif inst.template_id in {"aggregation", "composition", "inheritance", "dependency"}:
+            if inst.template_id in {"aggregation", "composition"}:
+                old_pair = (0, 1) if node_layout == "forward" else (1, 2)
+                new_pair = (1, 2) if node_layout == "forward" else (0, 1)
+            else:
+                old_pair = (1, 2) if node_layout == "forward" else (0, 1)
+                new_pair = (0, 1) if node_layout == "forward" else (1, 2)
+
+            old_edge = _single_pair_edge(
+                nodes[old_pair[0]],
+                nodes[old_pair[1]],
+                inst.template_id,
+                reverse_pair=False,
+            )
+            new_edge = _single_pair_edge(
+                nodes[new_pair[0]],
+                nodes[new_pair[1]],
+                inst.template_id,
+                reverse_pair=True,
+            )
             if old_edge is None or new_edge is None:
                 mixed_edges = build_edges_from_nodes(nodes, inst.template_id) or []
             else:
-                mixed_edges = [old_edge, new_edge]
-        elif inst.template_id in {"inheritance", "dependency"}:
-            # forward pairs: (0,1) new, (1,2) old
-            new_edge = _single_pair_edge(nodes[0], nodes[1], inst.template_id, reverse_pair=False)
-            old_edge = _single_pair_edge(nodes[1], nodes[2], inst.template_id, reverse_pair=True)
-            if old_edge is None or new_edge is None:
-                mixed_edges = build_edges_from_nodes(nodes, inst.template_id) or []
-            else:
-                mixed_edges = [new_edge, old_edge]
+                # Preserve pair order as they appear in the node chain: (0,1) then (1,2).
+                pair_edges: Dict[tuple[int, int], str] = {
+                    old_pair: old_edge,
+                    new_pair: new_edge,
+                }
+                mixed_edges = [pair_edges[(0, 1)], pair_edges[(1, 2)]]
         else:
             mixed_edges = build_edges_from_nodes(nodes, inst.template_id) or []
 
@@ -622,20 +645,23 @@ def run_for_root(
                     start_index=reverse_global_id,
                 )
 
-        if mixed_dataset_root is not None and reverse_local_instances is not None:
-            mixed_local_instances = build_mixed_instances(reverse_local_instances)
+        if mixed_dataset_root is not None:
+            mixed_local_instances = build_mixed_instances(
+                instances,
+                node_layout=source_direction,
+            )
             mixed_folder = mixed_dataset_root / source_subset
             mixed_jsonl_path = mixed_folder / jsonl_name
             mixed_wsd_dir = mixed_folder / wsd_subdir_name
             if overwrite_wsd and mixed_wsd_dir.exists():
                 shutil.rmtree(mixed_wsd_dir, ignore_errors=True)
             write_jsonl(mixed_local_instances, mixed_jsonl_path)
-            # Mixed should follow forward naming/output conventions.
+            # Mixed should follow source-side naming conventions to preserve node order identity.
             write_wsd_files(
                 mixed_local_instances,
                 mixed_wsd_dir,
                 overwrite=overwrite_wsd,
-                direction="forward",
+                direction=source_direction,
             )
 
         for inst in instances:

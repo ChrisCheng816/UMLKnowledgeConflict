@@ -1,4 +1,4 @@
 @startuml
-Cantaloupe ..> CantaloupeVine : dependency
 Cantaloupe ..> CantaloupeSmoothie : dependency
+Cantaloupe ..> CantaloupeVine : dependency
 @enduml

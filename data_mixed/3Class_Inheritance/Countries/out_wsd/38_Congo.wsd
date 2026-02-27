@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inheritance
 Congo <|-- Country : inheritance
+GeopoliticalEntity <|-- Country : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-BrakePad *-- BrakeCaliper : composition
 Car *-- BrakeCaliper : composition
+BrakePad *-- BrakeCaliper : composition
 @enduml

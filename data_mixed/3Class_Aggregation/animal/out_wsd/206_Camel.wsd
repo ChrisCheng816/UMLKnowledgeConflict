@@ -1,4 +1,4 @@
 @startuml
-Camel o-- Herd : aggregation
 Reserve o-- Herd : aggregation
+Camel o-- Herd : aggregation
 @enduml

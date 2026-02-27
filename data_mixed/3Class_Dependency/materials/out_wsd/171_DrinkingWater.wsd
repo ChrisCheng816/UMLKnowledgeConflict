@@ -1,4 +1,4 @@
 @startuml
-SinkFaucet ..> TapWater : dependency
 SinkFaucet ..> DrinkingWater : dependency
+SinkFaucet ..> TapWater : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Continent : inheritance
 Antarctica <|-- Continent : inheritance
+GeographicFeature <|-- Continent : inheritance
 @enduml

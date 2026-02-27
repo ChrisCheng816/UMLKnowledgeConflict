@@ -1,4 +1,4 @@
 @startuml
-Worksheet o-- Binder : aggregation
 Backpack o-- Binder : aggregation
+Worksheet o-- Binder : aggregation
 @enduml

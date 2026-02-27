@@ -1,4 +1,4 @@
 @startuml
-Rainfall ..> StormSystem : dependency
 Rainfall ..> SoilMoisture : dependency
+Rainfall ..> StormSystem : dependency
 @enduml

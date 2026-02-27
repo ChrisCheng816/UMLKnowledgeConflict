@@ -1,4 +1,4 @@
 @startuml
-Seal *-- Door : composition
 Microwave *-- Door : composition
+Seal *-- Door : composition
 @enduml

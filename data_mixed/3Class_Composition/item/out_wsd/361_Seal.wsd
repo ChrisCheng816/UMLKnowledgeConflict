@@ -1,4 +1,4 @@
 @startuml
-Seal *-- Microphone : composition
 Phone *-- Microphone : composition
+Seal *-- Microphone : composition
 @enduml

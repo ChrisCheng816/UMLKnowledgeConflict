@@ -1,4 +1,4 @@
 @startuml
-Wire *-- Switch : composition
 Flashlight *-- Switch : composition
+Wire *-- Switch : composition
 @enduml

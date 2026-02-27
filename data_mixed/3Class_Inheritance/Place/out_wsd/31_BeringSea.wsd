@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Sea : inheritance
 BeringSea <|-- Sea : inheritance
+GeographicFeature <|-- Sea : inheritance
 @enduml

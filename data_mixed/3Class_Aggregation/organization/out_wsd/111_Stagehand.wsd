@@ -1,4 +1,4 @@
 @startuml
-Stagehand o-- Crew : aggregation
 Theater o-- Crew : aggregation
+Stagehand o-- Crew : aggregation
 @enduml

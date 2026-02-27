@@ -1,4 +1,4 @@
 @startuml
-Foreperson o-- Jury : aggregation
 Court o-- Jury : aggregation
+Foreperson o-- Jury : aggregation
 @enduml

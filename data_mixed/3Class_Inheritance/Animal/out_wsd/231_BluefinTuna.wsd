@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Tuna : inheritance
 BluefinTuna <|-- Tuna : inheritance
+Animal <|-- Tuna : inheritance
 @enduml

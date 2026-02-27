@@ -1,4 +1,4 @@
 @startuml
-Duck o-- Aviary : aggregation
 Reserve o-- Aviary : aggregation
+Duck o-- Aviary : aggregation
 @enduml

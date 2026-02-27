@@ -1,4 +1,4 @@
 @startuml
-Dictionary o-- Shelf : aggregation
 Library o-- Shelf : aggregation
+Dictionary o-- Shelf : aggregation
 @enduml

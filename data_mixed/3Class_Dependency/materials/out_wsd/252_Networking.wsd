@@ -1,4 +1,4 @@
 @startuml
-Modem ..> Electricity : dependency
 Modem ..> Networking : dependency
+Modem ..> Electricity : dependency
 @enduml

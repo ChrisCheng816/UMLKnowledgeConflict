@@ -1,4 +1,4 @@
 @startuml
-Pumpkin ..> PumpkinVine : dependency
 Pumpkin ..> PumpkinPie : dependency
+Pumpkin ..> PumpkinVine : dependency
 @enduml

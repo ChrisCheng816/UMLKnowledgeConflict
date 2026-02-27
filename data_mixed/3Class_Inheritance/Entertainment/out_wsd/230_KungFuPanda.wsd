@@ -1,4 +1,4 @@
 @startuml
-Film <|-- AnimatedFilm : inheritance
 KungFuPanda <|-- AnimatedFilm : inheritance
+Film <|-- AnimatedFilm : inheritance
 @enduml

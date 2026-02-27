@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport : inheritance
 TugOfWar <|-- TeamSport : inheritance
+Sport <|-- TeamSport : inheritance
 @enduml

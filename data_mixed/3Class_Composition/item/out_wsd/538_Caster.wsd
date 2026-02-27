@@ -1,4 +1,4 @@
 @startuml
-Caster *-- Leg : composition
 Chair *-- Leg : composition
+Caster *-- Leg : composition
 @enduml

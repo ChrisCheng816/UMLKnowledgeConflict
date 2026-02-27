@@ -1,4 +1,4 @@
 @startuml
-Quote *-- Column : composition
 Newspaper *-- Column : composition
+Quote *-- Column : composition
 @enduml

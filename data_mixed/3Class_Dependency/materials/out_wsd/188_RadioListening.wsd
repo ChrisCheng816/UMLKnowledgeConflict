@@ -1,4 +1,4 @@
 @startuml
-Soundbar ..> Electricity : dependency
 Soundbar ..> RadioListening : dependency
+Soundbar ..> Electricity : dependency
 @enduml

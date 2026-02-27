@@ -1,4 +1,4 @@
 @startuml
-Filmmaker <|-- Director : inheritance
 ChristopherNolan <|-- Director : inheritance
+Filmmaker <|-- Director : inheritance
 @enduml

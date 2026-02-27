@@ -1,4 +1,4 @@
 @startuml
-Soap ..> Oil : dependency
 Soap ..> Washing : dependency
+Soap ..> Oil : dependency
 @enduml

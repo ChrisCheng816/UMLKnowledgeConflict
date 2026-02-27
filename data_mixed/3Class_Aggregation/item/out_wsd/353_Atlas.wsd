@@ -1,4 +1,4 @@
 @startuml
-Atlas o-- ArchiveShelf : aggregation
 Library o-- ArchiveShelf : aggregation
+Atlas o-- ArchiveShelf : aggregation
 @enduml

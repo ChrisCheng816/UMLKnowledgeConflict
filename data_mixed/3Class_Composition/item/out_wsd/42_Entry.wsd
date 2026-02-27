@@ -1,4 +1,4 @@
 @startuml
-Entry *-- Page : composition
 Catalog *-- Page : composition
+Entry *-- Page : composition
 @enduml

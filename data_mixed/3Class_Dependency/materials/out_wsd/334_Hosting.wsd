@@ -1,4 +1,4 @@
 @startuml
-ServerRack ..> Electricity : dependency
 ServerRack ..> Hosting : dependency
+ServerRack ..> Electricity : dependency
 @enduml

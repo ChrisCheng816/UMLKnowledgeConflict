@@ -1,4 +1,4 @@
 @startuml
-Instrument <|-- LaboratoryInstrument : inheritance
 Microscope <|-- LaboratoryInstrument : inheritance
+Instrument <|-- LaboratoryInstrument : inheritance
 @enduml

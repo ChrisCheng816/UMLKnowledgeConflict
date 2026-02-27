@@ -1,4 +1,4 @@
 @startuml
-Soup <|-- NoodleSoup : inheritance
 Ramen <|-- NoodleSoup : inheritance
+Soup <|-- NoodleSoup : inheritance
 @enduml

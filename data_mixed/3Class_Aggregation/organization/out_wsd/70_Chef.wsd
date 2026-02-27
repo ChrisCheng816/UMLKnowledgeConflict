@@ -1,4 +1,4 @@
 @startuml
-Chef o-- Staff : aggregation
 Restaurant o-- Staff : aggregation
+Chef o-- Staff : aggregation
 @enduml

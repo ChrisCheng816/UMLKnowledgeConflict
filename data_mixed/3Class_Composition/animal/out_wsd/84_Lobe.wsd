@@ -1,4 +1,4 @@
 @startuml
-Lobe *-- Ear : composition
 Person *-- Ear : composition
+Lobe *-- Ear : composition
 @enduml

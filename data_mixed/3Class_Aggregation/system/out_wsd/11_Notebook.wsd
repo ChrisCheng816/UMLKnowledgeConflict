@@ -1,4 +1,4 @@
 @startuml
-Notebook o-- Laboratory : aggregation
 University o-- Laboratory : aggregation
+Notebook o-- Laboratory : aggregation
 @enduml

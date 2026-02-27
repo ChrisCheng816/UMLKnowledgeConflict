@@ -1,4 +1,4 @@
 @startuml
-Valve *-- Ventricle : composition
 Heart *-- Ventricle : composition
+Valve *-- Ventricle : composition
 @enduml

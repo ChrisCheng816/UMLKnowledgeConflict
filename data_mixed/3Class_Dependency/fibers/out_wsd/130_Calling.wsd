@@ -1,4 +1,4 @@
 @startuml
-Teams ..> Internet : dependency
 Teams ..> Calling : dependency
+Teams ..> Internet : dependency
 @enduml

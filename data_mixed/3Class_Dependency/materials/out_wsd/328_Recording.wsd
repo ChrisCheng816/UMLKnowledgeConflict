@@ -1,4 +1,4 @@
 @startuml
-Webcam ..> Electricity : dependency
 Webcam ..> Recording : dependency
+Webcam ..> Electricity : dependency
 @enduml

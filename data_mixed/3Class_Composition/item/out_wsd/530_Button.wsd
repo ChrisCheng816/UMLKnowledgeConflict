@@ -1,4 +1,4 @@
 @startuml
-Button *-- Body : composition
 Camera *-- Body : composition
+Button *-- Body : composition
 @enduml

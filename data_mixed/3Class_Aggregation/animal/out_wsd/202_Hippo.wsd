@@ -1,4 +1,4 @@
 @startuml
-Hippo o-- Herd : aggregation
 Zoo o-- Herd : aggregation
+Hippo o-- Herd : aggregation
 @enduml

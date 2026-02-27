@@ -1,4 +1,4 @@
 @startuml
-Entertainment <|-- TVSeries : inheritance
 BetterCallSaul <|-- TVSeries : inheritance
+Entertainment <|-- TVSeries : inheritance
 @enduml

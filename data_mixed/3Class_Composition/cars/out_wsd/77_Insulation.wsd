@@ -1,4 +1,4 @@
 @startuml
-Insulation *-- Hood : composition
 Car *-- Hood : composition
+Insulation *-- Hood : composition
 @enduml

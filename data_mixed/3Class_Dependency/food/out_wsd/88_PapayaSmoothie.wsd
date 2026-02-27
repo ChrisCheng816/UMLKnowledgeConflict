@@ -1,4 +1,4 @@
 @startuml
-Papaya ..> PapayaTree : dependency
 Papaya ..> PapayaSmoothie : dependency
+Papaya ..> PapayaTree : dependency
 @enduml

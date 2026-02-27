@@ -1,4 +1,4 @@
 @startuml
-String *-- Peel : composition
 Banana *-- Peel : composition
+String *-- Peel : composition
 @enduml

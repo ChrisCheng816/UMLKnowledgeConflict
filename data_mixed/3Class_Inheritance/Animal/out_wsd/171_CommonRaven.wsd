@@ -1,4 +1,4 @@
 @startuml
-Bird <|-- Raven : inheritance
 CommonRaven <|-- Raven : inheritance
+Bird <|-- Raven : inheritance
 @enduml

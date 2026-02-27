@@ -1,4 +1,4 @@
 @startuml
-ValveBody *-- Transmission : composition
 Car *-- Transmission : composition
+ValveBody *-- Transmission : composition
 @enduml

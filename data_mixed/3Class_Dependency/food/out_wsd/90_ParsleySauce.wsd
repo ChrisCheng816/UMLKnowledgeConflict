@@ -1,4 +1,4 @@
 @startuml
-Parsley ..> ParsleyPlant : dependency
 Parsley ..> ParsleySauce : dependency
+Parsley ..> ParsleyPlant : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-University <|-- ResearchUniversity : inheritance
 MIT <|-- ResearchUniversity : inheritance
+University <|-- ResearchUniversity : inheritance
 @enduml

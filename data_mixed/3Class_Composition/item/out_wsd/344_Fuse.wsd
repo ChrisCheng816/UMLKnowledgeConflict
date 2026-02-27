@@ -1,4 +1,4 @@
 @startuml
-Fuse *-- PowerSupply : composition
 Desktop *-- PowerSupply : composition
+Fuse *-- PowerSupply : composition
 @enduml

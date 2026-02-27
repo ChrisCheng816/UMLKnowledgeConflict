@@ -1,4 +1,4 @@
 @startuml
-PictureFrame o-- Shelf : aggregation
 LivingRoom o-- Shelf : aggregation
+PictureFrame o-- Shelf : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Medicine o-- Cabinet : aggregation
 Pharmacy o-- Cabinet : aggregation
+Medicine o-- Cabinet : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tongue *-- Muzzle : composition
 Bear *-- Muzzle : composition
+Tongue *-- Muzzle : composition
 @enduml

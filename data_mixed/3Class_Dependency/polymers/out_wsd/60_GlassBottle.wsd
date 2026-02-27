@@ -1,4 +1,4 @@
 @startuml
-Glass ..> Sand : dependency
 Glass ..> GlassBottle : dependency
+Glass ..> Sand : dependency
 @enduml

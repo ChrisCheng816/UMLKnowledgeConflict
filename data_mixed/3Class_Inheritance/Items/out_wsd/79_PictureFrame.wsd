@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Frame : inheritance
 PictureFrame <|-- Frame : inheritance
+Item <|-- Frame : inheritance
 @enduml

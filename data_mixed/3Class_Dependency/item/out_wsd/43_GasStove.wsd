@@ -1,4 +1,4 @@
 @startuml
-GasMeter ..> GasPipeline : dependency
 GasMeter ..> GasStove : dependency
+GasMeter ..> GasPipeline : dependency
 @enduml

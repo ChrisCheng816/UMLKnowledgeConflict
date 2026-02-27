@@ -1,4 +1,4 @@
 @startuml
-Marker ..> Ink : dependency
 Marker ..> Coloring : dependency
+Marker ..> Ink : dependency
 @enduml

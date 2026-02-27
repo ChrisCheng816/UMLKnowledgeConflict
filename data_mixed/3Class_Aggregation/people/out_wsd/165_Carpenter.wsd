@@ -1,4 +1,4 @@
 @startuml
-Carpenter o-- Department : aggregation
 Workshop o-- Department : aggregation
+Carpenter o-- Department : aggregation
 @enduml

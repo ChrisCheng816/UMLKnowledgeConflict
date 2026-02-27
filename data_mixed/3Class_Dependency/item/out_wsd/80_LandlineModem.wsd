@@ -1,4 +1,4 @@
 @startuml
-TelephoneLine ..> WallJack : dependency
 TelephoneLine ..> LandlineModem : dependency
+TelephoneLine ..> WallJack : dependency
 @enduml

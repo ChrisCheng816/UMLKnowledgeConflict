@@ -1,4 +1,4 @@
 @startuml
-Turtle o-- Enclosure : aggregation
 Zoo o-- Enclosure : aggregation
+Turtle o-- Enclosure : aggregation
 @enduml

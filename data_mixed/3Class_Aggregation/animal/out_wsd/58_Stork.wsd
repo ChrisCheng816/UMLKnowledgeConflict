@@ -1,4 +1,4 @@
 @startuml
-Stork o-- Aviary : aggregation
 Zoo o-- Aviary : aggregation
+Stork o-- Aviary : aggregation
 @enduml

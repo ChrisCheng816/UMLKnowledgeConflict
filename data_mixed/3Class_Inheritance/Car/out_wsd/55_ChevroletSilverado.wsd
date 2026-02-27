@@ -1,4 +1,4 @@
 @startuml
-Truck <|-- FullSizePickup : inheritance
 ChevroletSilverado <|-- FullSizePickup : inheritance
+Truck <|-- FullSizePickup : inheritance
 @enduml

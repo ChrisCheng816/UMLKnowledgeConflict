@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dish : inheritance
 Bibimbap <|-- Dish : inheritance
+Food <|-- Dish : inheritance
 @enduml

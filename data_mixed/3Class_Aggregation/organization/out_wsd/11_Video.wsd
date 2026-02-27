@@ -1,4 +1,4 @@
 @startuml
-Video o-- Playlist : aggregation
 VideoSite o-- Playlist : aggregation
+Video o-- Playlist : aggregation
 @enduml

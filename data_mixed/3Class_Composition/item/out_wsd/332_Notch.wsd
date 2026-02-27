@@ -1,4 +1,4 @@
 @startuml
-Notch *-- Memory : composition
 Desktop *-- Memory : composition
+Notch *-- Memory : composition
 @enduml

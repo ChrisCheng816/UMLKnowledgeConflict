@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Sandwich : inheritance
 TunaMelt <|-- Sandwich : inheritance
+Food <|-- Sandwich : inheritance
 @enduml

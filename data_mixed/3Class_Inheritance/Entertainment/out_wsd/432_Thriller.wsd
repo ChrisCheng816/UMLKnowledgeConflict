@@ -1,4 +1,4 @@
 @startuml
-Song <|-- PopSong : inheritance
 Thriller <|-- PopSong : inheritance
+Song <|-- PopSong : inheritance
 @enduml

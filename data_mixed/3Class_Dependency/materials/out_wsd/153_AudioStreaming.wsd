@@ -1,4 +1,4 @@
 @startuml
-RadioReceiver ..> Electricity : dependency
 RadioReceiver ..> AudioStreaming : dependency
+RadioReceiver ..> Electricity : dependency
 @enduml

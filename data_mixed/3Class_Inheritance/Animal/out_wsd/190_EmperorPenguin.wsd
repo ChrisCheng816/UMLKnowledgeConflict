@@ -1,4 +1,4 @@
 @startuml
-Bird <|-- Penguin : inheritance
 EmperorPenguin <|-- Penguin : inheritance
+Bird <|-- Penguin : inheritance
 @enduml

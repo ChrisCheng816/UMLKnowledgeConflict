@@ -12,6 +12,14 @@ def _format_class_desc(nodes):
 
 
 def build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
+    """
+    Build the textual relation question for one queried node pair.
+
+    Important orientation note:
+    - query_pair is interpreted as (src_idx, dst_idx)
+    - the generated question text asks about "dst relates to src"
+      (e.g., "Does class dst inherit from class src?")
+    """
     if len(nodes) < 2:
         raise ValueError(f"nodes must contain at least 2 elements, got: {nodes}")
 

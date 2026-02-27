@@ -1,4 +1,4 @@
 @startuml
-CircularSaw ..> Electricity : dependency
 CircularSaw ..> FenceBuilding : dependency
+CircularSaw ..> Electricity : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Producer o-- Department : aggregation
 Newsroom o-- Department : aggregation
+Producer o-- Department : aggregation
 @enduml

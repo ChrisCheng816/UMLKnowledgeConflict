@@ -1,4 +1,4 @@
 @startuml
-Turtle o-- Terrarium : aggregation
 Zoo o-- Terrarium : aggregation
+Turtle o-- Terrarium : aggregation
 @enduml

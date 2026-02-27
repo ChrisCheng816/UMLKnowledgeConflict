@@ -1,4 +1,4 @@
 @startuml
-Flash *-- CameraModule : composition
 Phone *-- CameraModule : composition
+Flash *-- CameraModule : composition
 @enduml

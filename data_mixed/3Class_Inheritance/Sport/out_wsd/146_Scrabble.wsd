@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MindSport : inheritance
 Scrabble <|-- MindSport : inheritance
+Sport <|-- MindSport : inheritance
 @enduml

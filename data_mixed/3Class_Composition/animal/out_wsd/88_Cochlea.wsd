@@ -1,4 +1,4 @@
 @startuml
-Cochlea *-- Ear : composition
 Person *-- Ear : composition
+Cochlea *-- Ear : composition
 @enduml

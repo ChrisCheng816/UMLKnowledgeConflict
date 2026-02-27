@@ -1,4 +1,4 @@
 @startuml
-Truck <|-- PickupTruck : inheritance
 FordF150 <|-- PickupTruck : inheritance
+Truck <|-- PickupTruck : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Bibimbap o-- Bowl : aggregation
 Kitchen o-- Bowl : aggregation
+Bibimbap o-- Bowl : aggregation
 @enduml

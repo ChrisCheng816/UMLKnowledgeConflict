@@ -1,4 +1,4 @@
 @startuml
-TVSeries <|-- AnimeSeries : inheritance
 Naruto <|-- AnimeSeries : inheritance
+TVSeries <|-- AnimeSeries : inheritance
 @enduml

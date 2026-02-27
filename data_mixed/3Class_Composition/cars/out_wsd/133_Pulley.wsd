@@ -1,4 +1,4 @@
 @startuml
-Pulley *-- Alternator : composition
 Car *-- Alternator : composition
+Pulley *-- Alternator : composition
 @enduml

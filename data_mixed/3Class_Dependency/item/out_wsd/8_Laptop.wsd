@@ -1,4 +1,4 @@
 @startuml
-PowerAdapter ..> WallOutlet : dependency
 PowerAdapter ..> Laptop : dependency
+PowerAdapter ..> WallOutlet : dependency
 @enduml

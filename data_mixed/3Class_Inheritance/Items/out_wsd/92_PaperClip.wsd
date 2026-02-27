@@ -1,4 +1,4 @@
 @startuml
-Stationery <|-- Clip : inheritance
 PaperClip <|-- Clip : inheritance
+Stationery <|-- Clip : inheritance
 @enduml

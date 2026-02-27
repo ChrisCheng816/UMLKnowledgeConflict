@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Book : inheritance
 HardcoverBook <|-- Book : inheritance
+Item <|-- Book : inheritance
 @enduml

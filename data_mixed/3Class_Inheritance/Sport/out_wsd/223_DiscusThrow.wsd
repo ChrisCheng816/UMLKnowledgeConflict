@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Athletics : inheritance
 DiscusThrow <|-- Athletics : inheritance
+Sport <|-- Athletics : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Rice o-- Aisle : aggregation
 Supermarket o-- Aisle : aggregation
+Rice o-- Aisle : aggregation
 @enduml

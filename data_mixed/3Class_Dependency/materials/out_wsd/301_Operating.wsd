@@ -1,4 +1,4 @@
 @startuml
-SumpPump ..> Electricity : dependency
 SumpPump ..> Operating : dependency
+SumpPump ..> Electricity : dependency
 @enduml

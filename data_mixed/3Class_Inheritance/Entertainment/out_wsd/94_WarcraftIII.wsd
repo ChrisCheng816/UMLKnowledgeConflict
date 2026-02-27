@@ -1,4 +1,4 @@
 @startuml
-Game <|-- VideoGame : inheritance
 WarcraftIII <|-- VideoGame : inheritance
+Game <|-- VideoGame : inheritance
 @enduml

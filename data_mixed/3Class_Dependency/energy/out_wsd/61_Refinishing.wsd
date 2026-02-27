@@ -1,4 +1,4 @@
 @startuml
-Sander ..> Electricity : dependency
 Sander ..> Refinishing : dependency
+Sander ..> Electricity : dependency
 @enduml

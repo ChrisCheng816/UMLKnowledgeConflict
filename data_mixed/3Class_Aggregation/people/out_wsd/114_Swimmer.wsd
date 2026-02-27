@@ -1,4 +1,4 @@
 @startuml
-Swimmer o-- Club : aggregation
 Neighborhood o-- Club : aggregation
+Swimmer o-- Club : aggregation
 @enduml

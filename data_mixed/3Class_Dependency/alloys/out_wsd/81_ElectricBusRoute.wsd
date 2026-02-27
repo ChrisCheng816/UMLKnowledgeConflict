@@ -1,4 +1,4 @@
 @startuml
-ElectricBus ..> Electricity : dependency
 ElectricBus ..> ElectricBusRoute : dependency
+ElectricBus ..> Electricity : dependency
 @enduml

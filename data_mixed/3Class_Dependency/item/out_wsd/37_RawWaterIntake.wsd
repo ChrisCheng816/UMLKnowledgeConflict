@@ -1,4 +1,4 @@
 @startuml
-Reservoir ..> Watershed : dependency
 Reservoir ..> RawWaterIntake : dependency
+Reservoir ..> Watershed : dependency
 @enduml

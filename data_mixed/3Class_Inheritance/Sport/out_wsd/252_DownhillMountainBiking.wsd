@@ -1,4 +1,4 @@
 @startuml
-Cycling <|-- MountainBiking : inheritance
 DownhillMountainBiking <|-- MountainBiking : inheritance
+Cycling <|-- MountainBiking : inheritance
 @enduml

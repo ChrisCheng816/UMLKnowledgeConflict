@@ -1,4 +1,4 @@
 @startuml
-Noodles o-- Plate : aggregation
 Restaurant o-- Plate : aggregation
+Noodles o-- Plate : aggregation
 @enduml

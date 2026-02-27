@@ -1,4 +1,4 @@
 @startuml
-University <|-- ResearchUniversity : inheritance
 JohnsHopkins <|-- ResearchUniversity : inheritance
+University <|-- ResearchUniversity : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Instrument <|-- Drum : inheritance
 BassDrum <|-- Drum : inheritance
+Instrument <|-- Drum : inheritance
 @enduml

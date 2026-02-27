@@ -1,4 +1,4 @@
 @startuml
-AirPurifier ..> Electricity : dependency
 AirPurifier ..> Purifying : dependency
+AirPurifier ..> Electricity : dependency
 @enduml

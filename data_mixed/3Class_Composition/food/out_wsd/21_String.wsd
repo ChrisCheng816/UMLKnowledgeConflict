@@ -1,4 +1,4 @@
 @startuml
-String *-- Stalk : composition
 Celery *-- Stalk : composition
+String *-- Stalk : composition
 @enduml

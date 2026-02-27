@@ -1,4 +1,4 @@
 @startuml
-CopperWire ..> Copper : dependency
 CopperWire ..> Wiring : dependency
+CopperWire ..> Copper : dependency
 @enduml

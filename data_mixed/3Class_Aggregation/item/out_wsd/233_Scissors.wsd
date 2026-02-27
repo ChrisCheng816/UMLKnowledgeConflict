@@ -1,4 +1,4 @@
 @startuml
-Scissors o-- Toolbox : aggregation
 Garage o-- Toolbox : aggregation
+Scissors o-- Toolbox : aggregation
 @enduml

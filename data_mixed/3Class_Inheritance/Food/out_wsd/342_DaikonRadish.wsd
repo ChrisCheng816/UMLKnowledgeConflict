@@ -1,4 +1,4 @@
 @startuml
-Vegetable <|-- Radish : inheritance
 DaikonRadish <|-- Radish : inheritance
+Vegetable <|-- Radish : inheritance
 @enduml

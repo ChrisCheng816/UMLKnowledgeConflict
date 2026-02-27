@@ -1,4 +1,4 @@
 @startuml
-Sailboat ..> Wind : dependency
 Sailboat ..> Boating : dependency
+Sailboat ..> Wind : dependency
 @enduml

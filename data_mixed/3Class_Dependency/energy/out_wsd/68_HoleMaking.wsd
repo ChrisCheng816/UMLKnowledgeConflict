@@ -1,4 +1,4 @@
 @startuml
-Drill ..> Electricity : dependency
 Drill ..> HoleMaking : dependency
+Drill ..> Electricity : dependency
 @enduml

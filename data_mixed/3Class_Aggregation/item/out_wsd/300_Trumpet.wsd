@@ -1,4 +1,4 @@
 @startuml
-Trumpet o-- InstrumentRack : aggregation
 MusicStore o-- InstrumentRack : aggregation
+Trumpet o-- InstrumentRack : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-SmartLock ..> Electricity : dependency
 SmartLock ..> Surveillance : dependency
+SmartLock ..> Electricity : dependency
 @enduml

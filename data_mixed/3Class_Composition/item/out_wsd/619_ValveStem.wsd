@@ -1,4 +1,4 @@
 @startuml
-ValveStem *-- WheelAssembly : composition
 Car *-- WheelAssembly : composition
+ValveStem *-- WheelAssembly : composition
 @enduml

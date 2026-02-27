@@ -1,4 +1,4 @@
 @startuml
-Nail *-- Toe : composition
 Dog *-- Toe : composition
+Nail *-- Toe : composition
 @enduml

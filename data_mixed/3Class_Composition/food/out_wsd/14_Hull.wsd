@@ -1,4 +1,4 @@
 @startuml
-Hull *-- Grain : composition
 Oat *-- Grain : composition
+Hull *-- Grain : composition
 @enduml

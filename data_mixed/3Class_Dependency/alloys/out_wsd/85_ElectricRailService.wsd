@@ -1,4 +1,4 @@
 @startuml
-ElectricTrain ..> Electricity : dependency
 ElectricTrain ..> ElectricRailService : dependency
+ElectricTrain ..> Electricity : dependency
 @enduml

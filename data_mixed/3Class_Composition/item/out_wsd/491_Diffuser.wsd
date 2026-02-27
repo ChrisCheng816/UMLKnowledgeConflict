@@ -1,4 +1,4 @@
 @startuml
-Diffuser *-- Display : composition
 Laptop *-- Display : composition
+Diffuser *-- Display : composition
 @enduml

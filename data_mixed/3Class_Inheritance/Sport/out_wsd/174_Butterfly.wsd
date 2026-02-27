@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Swimming : inheritance
 Butterfly <|-- Swimming : inheritance
+Sport <|-- Swimming : inheritance
 @enduml

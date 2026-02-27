@@ -1,4 +1,4 @@
 @startuml
-CoffeeMaker ..> WallOutlet : dependency
 CoffeeMaker ..> CoffeeBrewing : dependency
+CoffeeMaker ..> WallOutlet : dependency
 @enduml

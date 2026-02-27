@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Shooting : inheritance
 ClayPigeonShooting <|-- Shooting : inheritance
+Sport <|-- Shooting : inheritance
 @enduml

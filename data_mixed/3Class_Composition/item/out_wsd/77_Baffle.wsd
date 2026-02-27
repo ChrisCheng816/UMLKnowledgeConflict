@@ -1,4 +1,4 @@
 @startuml
-Baffle *-- Drum : composition
 Washer *-- Drum : composition
+Baffle *-- Drum : composition
 @enduml

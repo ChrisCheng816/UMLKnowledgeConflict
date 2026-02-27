@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Banana : inheritance
 CavendishBanana <|-- Banana : inheritance
+Fruit <|-- Banana : inheritance
 @enduml

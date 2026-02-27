@@ -1,4 +1,4 @@
 @startuml
-Designer o-- Department : aggregation
 Company o-- Department : aggregation
+Designer o-- Department : aggregation
 @enduml

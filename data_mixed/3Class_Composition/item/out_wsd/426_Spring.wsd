@@ -1,4 +1,4 @@
 @startuml
-Spring *-- Mattress : composition
 Bed *-- Mattress : composition
+Spring *-- Mattress : composition
 @enduml

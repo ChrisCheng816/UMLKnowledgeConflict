@@ -1,4 +1,4 @@
 @startuml
-Laptop ..> WiFiNetwork : dependency
 Laptop ..> WebBrowsing : dependency
+Laptop ..> WiFiNetwork : dependency
 @enduml

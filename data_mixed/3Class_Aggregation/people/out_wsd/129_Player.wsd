@@ -1,4 +1,4 @@
 @startuml
-Player o-- Club : aggregation
 Community o-- Club : aggregation
+Player o-- Club : aggregation
 @enduml

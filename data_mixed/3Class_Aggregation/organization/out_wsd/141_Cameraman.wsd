@@ -1,4 +1,4 @@
 @startuml
-Cameraman o-- Crew : aggregation
 Studio o-- Crew : aggregation
+Cameraman o-- Crew : aggregation
 @enduml

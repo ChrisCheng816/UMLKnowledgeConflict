@@ -1,4 +1,4 @@
 @startuml
-MunicipalWaterMain ..> WaterTreatmentPlant : dependency
 MunicipalWaterMain ..> WaterSoftener : dependency
+MunicipalWaterMain ..> WaterTreatmentPlant : dependency
 @enduml

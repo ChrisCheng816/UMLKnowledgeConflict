@@ -1,4 +1,4 @@
 @startuml
-Skylight *-- Roof : composition
 House *-- Roof : composition
+Skylight *-- Roof : composition
 @enduml

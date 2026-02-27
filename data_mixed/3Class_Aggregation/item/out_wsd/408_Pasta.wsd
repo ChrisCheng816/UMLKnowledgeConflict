@@ -1,4 +1,4 @@
 @startuml
-Pasta o-- Cart : aggregation
 GroceryStore o-- Cart : aggregation
+Pasta o-- Cart : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inheritance
 Zimbabwe <|-- Country : inheritance
+GeopoliticalEntity <|-- Country : inheritance
 @enduml

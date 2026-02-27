@@ -1,4 +1,4 @@
 @startuml
-ChargingCable ..> WallOutlet : dependency
 ChargingCable ..> ElectricShaver : dependency
+ChargingCable ..> WallOutlet : dependency
 @enduml

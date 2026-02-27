@@ -1,4 +1,4 @@
 @startuml
-Band *-- Collar : composition
 Shirt *-- Collar : composition
+Band *-- Collar : composition
 @enduml

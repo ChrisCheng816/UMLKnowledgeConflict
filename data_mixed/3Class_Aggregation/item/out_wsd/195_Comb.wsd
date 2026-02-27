@@ -1,4 +1,4 @@
 @startuml
-Comb o-- Cabinet : aggregation
 Bathroom o-- Cabinet : aggregation
+Comb o-- Cabinet : aggregation
 @enduml

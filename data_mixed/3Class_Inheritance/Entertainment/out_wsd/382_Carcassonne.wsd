@@ -1,4 +1,4 @@
 @startuml
-BoardGame <|-- TileGame : inheritance
 Carcassonne <|-- TileGame : inheritance
+BoardGame <|-- TileGame : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Turtle o-- Pond : aggregation
 Sanctuary o-- Pond : aggregation
+Turtle o-- Pond : aggregation
 @enduml

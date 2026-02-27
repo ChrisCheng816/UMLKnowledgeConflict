@@ -1,4 +1,4 @@
 @startuml
-Drill ..> Electricity : dependency
 Drill ..> FurnitureAssembly : dependency
+Drill ..> Electricity : dependency
 @enduml

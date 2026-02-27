@@ -8,7 +8,7 @@ from transformers import AutoProcessor
 from vllm import LLM, SamplingParams
 from prompt_templates import (
     build_class_presence_prompt,
-    build_relation_prompt,
+    build_relation_prompt as build_relation_prompt_template,
     build_stage1_messages,
     build_stage2_messages,
     build_unified_system_prompt,
@@ -32,7 +32,7 @@ def _configure_logging_filters():
 _configure_logging_filters()
 
 BATCH_SIZE = 16
-GPU_PER = 0.92
+GPU_PER = 0.8
 # Number of full pipeline runs for pass@k style evaluation.
 N = 10
 TP_SIZE = None
@@ -128,7 +128,19 @@ def _format_class_desc(nodes):
     return f"{', '.join(nodes[:-1])}, and {nodes[-1]}"
 
 def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
-    return build_relation_prompt(nodes, relation=relation, query_pair=query_pair)
+    src_idx, dst_idx = _coerce_single_query_pair(query_pair)
+    # Prompt template asks about "node2 relation node1".
+    # Swap once here so the final question becomes "nodes[src_idx] relation nodes[dst_idx]".
+    prompt, triplet_slots = build_relation_prompt_template(
+        nodes,
+        relation=relation,
+        query_pair=(dst_idx, src_idx),
+    )
+    triplet_slots["node1"] = nodes[src_idx]
+    triplet_slots["node2"] = nodes[dst_idx]
+    triplet_slots["query_src_idx"] = src_idx
+    triplet_slots["query_dst_idx"] = dst_idx
+    return prompt, triplet_slots
 
 def _coerce_single_query_pair(query_pair):
     if query_pair is None:
@@ -169,13 +181,15 @@ def _select_query_pair_for_task2(relation, dataset_split):
     For 3-class rows, task2 always asks about the old 2-class node pair.
 
     Old-pair indices:
-    - forward/mixed inheritance/dependency: (1, 2)
+    - forward inheritance/dependency: (1, 2)
     - reverse inheritance/dependency: (0, 1)
-    - forward/mixed aggregation/composition: (0, 1)
+    - mixed inheritance/dependency: (0, 1)
+    - forward aggregation/composition: (0, 1)
     - reverse aggregation/composition: (1, 2)
+    - mixed aggregation/composition: (1, 2)
     """
     relation = (relation or "").strip().lower()
-    if dataset_split == "reverse":
+    if dataset_split in {"reverse", "mixed"}:
         if relation in {"inheritance", "dependency"}:
             return (0, 1)
         if relation in {"composition", "aggregation"}:

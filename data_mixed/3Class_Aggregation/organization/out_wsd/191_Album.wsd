@@ -1,4 +1,4 @@
 @startuml
-Album o-- Shelf : aggregation
 Library o-- Shelf : aggregation
+Album o-- Shelf : aggregation
 @enduml

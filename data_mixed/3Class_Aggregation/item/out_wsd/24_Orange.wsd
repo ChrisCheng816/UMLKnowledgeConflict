@@ -1,4 +1,4 @@
 @startuml
-Orange o-- Basket : aggregation
 GroceryStore o-- Basket : aggregation
+Orange o-- Basket : aggregation
 @enduml

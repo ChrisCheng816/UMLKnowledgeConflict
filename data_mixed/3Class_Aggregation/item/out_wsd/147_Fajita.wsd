@@ -1,4 +1,4 @@
 @startuml
-Fajita o-- Plate : aggregation
 Restaurant o-- Plate : aggregation
+Fajita o-- Plate : aggregation
 @enduml

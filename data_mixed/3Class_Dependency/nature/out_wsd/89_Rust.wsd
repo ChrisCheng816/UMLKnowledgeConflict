@@ -1,4 +1,4 @@
 @startuml
-Oxidation ..> Oxygen : dependency
 Oxidation ..> Rust : dependency
+Oxidation ..> Oxygen : dependency
 @enduml

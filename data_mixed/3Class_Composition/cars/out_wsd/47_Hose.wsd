@@ -1,4 +1,4 @@
 @startuml
-Hose *-- Radiator : composition
 Car *-- Radiator : composition
+Hose *-- Radiator : composition
 @enduml

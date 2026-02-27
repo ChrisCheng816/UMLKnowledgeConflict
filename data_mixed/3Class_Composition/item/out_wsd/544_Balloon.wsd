@@ -1,4 +1,4 @@
 @startuml
-Balloon *-- Panel : composition
 Comic *-- Panel : composition
+Balloon *-- Panel : composition
 @enduml

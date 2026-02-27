@@ -1,4 +1,4 @@
 @startuml
-Heatspreader *-- Memory : composition
 Desktop *-- Memory : composition
+Heatspreader *-- Memory : composition
 @enduml

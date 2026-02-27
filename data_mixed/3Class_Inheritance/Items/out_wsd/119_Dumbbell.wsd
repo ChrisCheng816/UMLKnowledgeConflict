@@ -1,4 +1,4 @@
 @startuml
-ExerciseEquipment <|-- Weight : inheritance
 Dumbbell <|-- Weight : inheritance
+ExerciseEquipment <|-- Weight : inheritance
 @enduml

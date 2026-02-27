@@ -1,4 +1,4 @@
 @startuml
-Spinach ..> SpinachPlant : dependency
 Spinach ..> SpinachSalad : dependency
+Spinach ..> SpinachPlant : dependency
 @enduml

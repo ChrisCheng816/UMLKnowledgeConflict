@@ -1,4 +1,4 @@
 @startuml
-Eye *-- Head : composition
 Person *-- Head : composition
+Eye *-- Head : composition
 @enduml

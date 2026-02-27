@@ -1,4 +1,4 @@
 @startuml
-Midfielder o-- Team : aggregation
 SportsClub o-- Team : aggregation
+Midfielder o-- Team : aggregation
 @enduml

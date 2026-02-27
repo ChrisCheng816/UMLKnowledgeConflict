@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inheritance
 Grenada <|-- Country : inheritance
+GeopoliticalEntity <|-- Country : inheritance
 @enduml

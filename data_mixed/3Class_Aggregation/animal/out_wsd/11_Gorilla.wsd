@@ -1,4 +1,4 @@
 @startuml
-Gorilla o-- Enclosure : aggregation
 Zoo o-- Enclosure : aggregation
+Gorilla o-- Enclosure : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Song o-- Playlist : aggregation
 MusicApp o-- Playlist : aggregation
+Song o-- Playlist : aggregation
 @enduml

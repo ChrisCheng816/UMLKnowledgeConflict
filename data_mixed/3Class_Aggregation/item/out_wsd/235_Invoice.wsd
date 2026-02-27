@@ -1,4 +1,4 @@
 @startuml
-Invoice o-- Folder : aggregation
 Office o-- Folder : aggregation
+Invoice o-- Folder : aggregation
 @enduml

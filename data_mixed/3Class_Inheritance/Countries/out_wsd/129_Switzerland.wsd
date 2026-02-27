@@ -1,4 +1,4 @@
 @startuml
-State <|-- Confederation : inheritance
 Switzerland <|-- Confederation : inheritance
+State <|-- Confederation : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Artwork <|-- Sculpture : inheritance
 PietaMichelangelo <|-- Sculpture : inheritance
+Artwork <|-- Sculpture : inheritance
 @enduml

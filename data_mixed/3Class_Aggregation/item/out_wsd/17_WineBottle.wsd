@@ -1,4 +1,4 @@
 @startuml
-WineBottle o-- WineRack : aggregation
 WineStore o-- WineRack : aggregation
+WineBottle o-- WineRack : aggregation
 @enduml

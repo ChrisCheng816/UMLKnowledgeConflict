@@ -1,4 +1,4 @@
 @startuml
-Condensation ..> Cooling : dependency
 Condensation ..> Dewdrop : dependency
+Condensation ..> Cooling : dependency
 @enduml

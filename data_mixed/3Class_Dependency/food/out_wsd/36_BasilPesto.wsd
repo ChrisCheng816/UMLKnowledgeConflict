@@ -1,4 +1,4 @@
 @startuml
-Basil ..> BasilPlant : dependency
 Basil ..> BasilPesto : dependency
+Basil ..> BasilPlant : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Padding *-- Shell : composition
 Helmet *-- Shell : composition
+Padding *-- Shell : composition
 @enduml

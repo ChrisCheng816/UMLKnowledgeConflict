@@ -1,4 +1,4 @@
 @startuml
-Instagram ..> Internet : dependency
 Instagram ..> Chatting : dependency
+Instagram ..> Internet : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Clock *-- Processor : composition
 Desktop *-- Processor : composition
+Clock *-- Processor : composition
 @enduml

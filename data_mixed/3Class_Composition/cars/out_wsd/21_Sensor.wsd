@@ -1,4 +1,4 @@
 @startuml
-Sensor *-- Brake : composition
 Car *-- Brake : composition
+Sensor *-- Brake : composition
 @enduml

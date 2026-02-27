@@ -1,4 +1,4 @@
 @startuml
-Machine <|-- Compressor : inheritance
 AirCompressor <|-- Compressor : inheritance
+Machine <|-- Compressor : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Hair *-- Tail : composition
 Zebra *-- Tail : composition
+Hair *-- Tail : composition
 @enduml

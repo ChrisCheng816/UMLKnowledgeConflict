@@ -1,4 +1,4 @@
 @startuml
-WiFiNetwork ..> InternetConnection : dependency
 WiFiNetwork ..> VideoCall : dependency
+WiFiNetwork ..> InternetConnection : dependency
 @enduml

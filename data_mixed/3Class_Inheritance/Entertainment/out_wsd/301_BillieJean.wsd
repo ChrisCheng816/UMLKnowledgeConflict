@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Song : inheritance
 BillieJean <|-- Song : inheritance
+MusicWork <|-- Song : inheritance
 @enduml

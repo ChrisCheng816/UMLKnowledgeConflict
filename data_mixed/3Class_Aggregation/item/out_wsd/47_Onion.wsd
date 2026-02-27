@@ -1,4 +1,4 @@
 @startuml
-Onion o-- Basket : aggregation
 GroceryStore o-- Basket : aggregation
+Onion o-- Basket : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-OfficeSupply <|-- Board : inheritance
 Whiteboard <|-- Board : inheritance
+OfficeSupply <|-- Board : inheritance
 @enduml

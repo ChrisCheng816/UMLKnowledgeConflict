@@ -1,4 +1,4 @@
 @startuml
-Beam *-- Attic : composition
 House *-- Attic : composition
+Beam *-- Attic : composition
 @enduml

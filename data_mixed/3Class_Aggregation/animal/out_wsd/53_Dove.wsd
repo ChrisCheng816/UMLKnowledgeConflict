@@ -1,4 +1,4 @@
 @startuml
-Dove o-- Aviary : aggregation
 Zoo o-- Aviary : aggregation
+Dove o-- Aviary : aggregation
 @enduml

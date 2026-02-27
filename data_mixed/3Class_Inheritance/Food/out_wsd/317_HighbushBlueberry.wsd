@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Blueberry : inheritance
 HighbushBlueberry <|-- Blueberry : inheritance
+Fruit <|-- Blueberry : inheritance
 @enduml

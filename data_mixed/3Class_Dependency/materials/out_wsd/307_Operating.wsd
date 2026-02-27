@@ -1,4 +1,4 @@
 @startuml
-SnowBlower ..> Electricity : dependency
 SnowBlower ..> Operating : dependency
+SnowBlower ..> Electricity : dependency
 @enduml

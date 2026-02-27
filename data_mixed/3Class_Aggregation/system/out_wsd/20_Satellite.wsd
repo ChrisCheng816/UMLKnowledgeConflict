@@ -1,4 +1,4 @@
 @startuml
-Satellite o-- Planet : aggregation
 SolarSystem o-- Planet : aggregation
+Satellite o-- Planet : aggregation
 @enduml

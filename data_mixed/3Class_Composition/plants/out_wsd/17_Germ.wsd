@@ -1,4 +1,4 @@
 @startuml
-Germ *-- Seed : composition
 Sunflower *-- Seed : composition
+Germ *-- Seed : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dairy : inheritance
 Butter <|-- Dairy : inheritance
+Food <|-- Dairy : inheritance
 @enduml

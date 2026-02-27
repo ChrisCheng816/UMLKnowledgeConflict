@@ -1,4 +1,4 @@
 @startuml
-Razor o-- Cabinet : aggregation
 Bathroom o-- Cabinet : aggregation
+Razor o-- Cabinet : aggregation
 @enduml

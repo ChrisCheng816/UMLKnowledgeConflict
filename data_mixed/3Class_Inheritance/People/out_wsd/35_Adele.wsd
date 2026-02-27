@@ -1,4 +1,4 @@
 @startuml
-Musician <|-- Singer : inheritance
 Adele <|-- Singer : inheritance
+Musician <|-- Singer : inheritance
 @enduml

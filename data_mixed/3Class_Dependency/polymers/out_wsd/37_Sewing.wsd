@@ -1,4 +1,4 @@
 @startuml
-CottonThread ..> Cotton : dependency
 CottonThread ..> Sewing : dependency
+CottonThread ..> Cotton : dependency
 @enduml

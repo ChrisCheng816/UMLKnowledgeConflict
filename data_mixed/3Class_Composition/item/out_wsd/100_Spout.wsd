@@ -1,4 +1,4 @@
 @startuml
-Spout *-- Jar : composition
 Blender *-- Jar : composition
+Spout *-- Jar : composition
 @enduml

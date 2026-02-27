@@ -1,4 +1,4 @@
 @startuml
-Game o-- Library : aggregation
 Console o-- Library : aggregation
+Game o-- Library : aggregation
 @enduml

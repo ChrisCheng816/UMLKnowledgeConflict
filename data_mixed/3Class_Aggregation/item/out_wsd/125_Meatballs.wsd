@@ -1,4 +1,4 @@
 @startuml
-Meatballs o-- Plate : aggregation
 Restaurant o-- Plate : aggregation
+Meatballs o-- Plate : aggregation
 @enduml

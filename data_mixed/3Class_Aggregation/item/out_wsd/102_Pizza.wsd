@@ -1,4 +1,4 @@
 @startuml
-Pizza o-- Plate : aggregation
 Restaurant o-- Plate : aggregation
+Pizza o-- Plate : aggregation
 @enduml

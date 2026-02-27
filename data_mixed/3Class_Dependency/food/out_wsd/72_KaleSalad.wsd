@@ -1,4 +1,4 @@
 @startuml
-Kale ..> KalePlant : dependency
 Kale ..> KaleSalad : dependency
+Kale ..> KalePlant : dependency
 @enduml

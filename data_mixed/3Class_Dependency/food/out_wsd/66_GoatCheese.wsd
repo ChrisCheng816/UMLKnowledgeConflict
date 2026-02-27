@@ -1,4 +1,4 @@
 @startuml
-GoatMilk ..> Goat : dependency
 GoatMilk ..> GoatCheese : dependency
+GoatMilk ..> Goat : dependency
 @enduml

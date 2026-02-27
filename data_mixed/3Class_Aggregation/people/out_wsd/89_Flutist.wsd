@@ -1,4 +1,4 @@
 @startuml
-Flutist o-- Section : aggregation
 Orchestra o-- Section : aggregation
+Flutist o-- Section : aggregation
 @enduml

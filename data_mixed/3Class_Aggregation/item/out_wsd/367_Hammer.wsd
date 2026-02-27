@@ -1,4 +1,4 @@
 @startuml
-Hammer o-- Tray : aggregation
 Toolbox o-- Tray : aggregation
+Hammer o-- Tray : aggregation
 @enduml

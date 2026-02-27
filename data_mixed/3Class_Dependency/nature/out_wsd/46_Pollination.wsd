@@ -1,4 +1,4 @@
 @startuml
-Pollen ..> Stamen : dependency
 Pollen ..> Pollination : dependency
+Pollen ..> Stamen : dependency
 @enduml

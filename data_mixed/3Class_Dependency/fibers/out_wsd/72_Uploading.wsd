@@ -1,4 +1,4 @@
 @startuml
-GoogleDrive ..> Internet : dependency
 GoogleDrive ..> Uploading : dependency
+GoogleDrive ..> Internet : dependency
 @enduml

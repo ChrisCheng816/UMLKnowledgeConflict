@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Snack : inheritance
 ChocolateBar <|-- Snack : inheritance
+Food <|-- Snack : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Raincoat o-- Hanger : aggregation
 Closet o-- Hanger : aggregation
+Raincoat o-- Hanger : aggregation
 @enduml

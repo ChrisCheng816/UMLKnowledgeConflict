@@ -1,4 +1,4 @@
 @startuml
-Ambulance ..> Gasoline : dependency
 Ambulance ..> Paramedic : dependency
+Ambulance ..> Gasoline : dependency
 @enduml

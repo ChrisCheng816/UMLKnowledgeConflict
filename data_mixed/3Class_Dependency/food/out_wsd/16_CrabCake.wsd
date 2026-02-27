@@ -1,4 +1,4 @@
 @startuml
-Crab ..> Ocean : dependency
 Crab ..> CrabCake : dependency
+Crab ..> Ocean : dependency
 @enduml

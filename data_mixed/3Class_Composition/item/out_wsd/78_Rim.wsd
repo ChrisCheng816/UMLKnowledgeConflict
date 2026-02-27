@@ -1,4 +1,4 @@
 @startuml
-Rim *-- Drum : composition
 Washer *-- Drum : composition
+Rim *-- Drum : composition
 @enduml

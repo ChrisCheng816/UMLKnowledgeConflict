@@ -1,4 +1,4 @@
 @startuml
-Bamboo ..> Sunlight : dependency
 Bamboo ..> GiantPanda : dependency
+Bamboo ..> Sunlight : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Sausage : inheritance
 Chorizo <|-- Sausage : inheritance
+Food <|-- Sausage : inheritance
 @enduml

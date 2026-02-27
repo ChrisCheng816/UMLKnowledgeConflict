@@ -1,4 +1,4 @@
 @startuml
-Magpie o-- Cage : aggregation
 Aviary o-- Cage : aggregation
+Magpie o-- Cage : aggregation
 @enduml

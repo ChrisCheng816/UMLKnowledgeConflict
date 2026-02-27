@@ -1,4 +1,4 @@
 @startuml
-PolarAir ..> ArcticOcean : dependency
 PolarAir ..> WindChill : dependency
+PolarAir ..> ArcticOcean : dependency
 @enduml

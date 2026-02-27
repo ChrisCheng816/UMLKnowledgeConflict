@@ -1,4 +1,4 @@
 @startuml
-Student o-- Club : aggregation
 School o-- Club : aggregation
+Student o-- Club : aggregation
 @enduml

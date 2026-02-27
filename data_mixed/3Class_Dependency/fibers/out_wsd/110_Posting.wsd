@@ -1,4 +1,4 @@
 @startuml
-Reddit ..> Internet : dependency
 Reddit ..> Posting : dependency
+Reddit ..> Internet : dependency
 @enduml

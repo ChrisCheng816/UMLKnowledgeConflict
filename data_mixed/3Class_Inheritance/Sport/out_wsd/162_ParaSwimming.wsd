@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Swimming : inheritance
 ParaSwimming <|-- Swimming : inheritance
+Sport <|-- Swimming : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Goat : inheritance
 BoerGoat <|-- Goat : inheritance
+Animal <|-- Goat : inheritance
 @enduml

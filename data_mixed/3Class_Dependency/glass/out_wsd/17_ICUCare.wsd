@@ -1,4 +1,4 @@
 @startuml
-Ventilator ..> Electricity : dependency
 Ventilator ..> ICUCare : dependency
+Ventilator ..> Electricity : dependency
 @enduml

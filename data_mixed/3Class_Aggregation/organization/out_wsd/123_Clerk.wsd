@@ -1,4 +1,4 @@
 @startuml
-Clerk o-- Office : aggregation
 Company o-- Office : aggregation
+Clerk o-- Office : aggregation
 @enduml

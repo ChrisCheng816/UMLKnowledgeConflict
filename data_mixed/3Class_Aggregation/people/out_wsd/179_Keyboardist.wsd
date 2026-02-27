@@ -1,4 +1,4 @@
 @startuml
-Keyboardist o-- Band : aggregation
 University o-- Band : aggregation
+Keyboardist o-- Band : aggregation
 @enduml

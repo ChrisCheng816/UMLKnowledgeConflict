@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity : dependency
 Internet ..> PlayStationNetwork : dependency
+Internet ..> Electricity : dependency
 @enduml

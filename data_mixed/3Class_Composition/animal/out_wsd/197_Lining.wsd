@@ -1,4 +1,4 @@
 @startuml
-Lining *-- Stomach : composition
 Person *-- Stomach : composition
+Lining *-- Stomach : composition
 @enduml

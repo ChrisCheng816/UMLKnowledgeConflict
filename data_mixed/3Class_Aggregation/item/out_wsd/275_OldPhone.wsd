@@ -1,4 +1,4 @@
 @startuml
-OldPhone o-- Bin : aggregation
 Garage o-- Bin : aggregation
+OldPhone o-- Bin : aggregation
 @enduml

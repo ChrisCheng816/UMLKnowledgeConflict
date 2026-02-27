@@ -1,4 +1,4 @@
 @startuml
-Shield *-- Port : composition
 Laptop *-- Port : composition
+Shield *-- Port : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Breaker *-- Wiring : composition
 House *-- Wiring : composition
+Breaker *-- Wiring : composition
 @enduml

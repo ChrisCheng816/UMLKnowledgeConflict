@@ -1,4 +1,4 @@
 @startuml
-GeothermalHeat ..> UndergroundWater : dependency
 GeothermalHeat ..> Geyser : dependency
+GeothermalHeat ..> UndergroundWater : dependency
 @enduml

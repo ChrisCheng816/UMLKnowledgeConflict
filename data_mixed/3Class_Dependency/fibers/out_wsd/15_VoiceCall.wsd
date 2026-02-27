@@ -1,4 +1,4 @@
 @startuml
-FeaturePhone ..> CellularNetwork : dependency
 FeaturePhone ..> VoiceCall : dependency
+FeaturePhone ..> CellularNetwork : dependency
 @enduml

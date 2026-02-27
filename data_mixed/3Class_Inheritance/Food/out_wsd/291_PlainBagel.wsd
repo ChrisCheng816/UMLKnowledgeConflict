@@ -1,4 +1,4 @@
 @startuml
-Bread <|-- Bagel : inheritance
 PlainBagel <|-- Bagel : inheritance
+Bread <|-- Bagel : inheritance
 @enduml

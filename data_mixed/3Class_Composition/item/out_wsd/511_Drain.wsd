@@ -1,4 +1,4 @@
 @startuml
-Drain *-- PlumbingSystem : composition
 House *-- PlumbingSystem : composition
+Drain *-- PlumbingSystem : composition
 @enduml

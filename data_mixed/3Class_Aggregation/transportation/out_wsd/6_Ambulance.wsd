@@ -1,4 +1,4 @@
 @startuml
-Ambulance o-- Fleet : aggregation
 City o-- Fleet : aggregation
+Ambulance o-- Fleet : aggregation
 @enduml

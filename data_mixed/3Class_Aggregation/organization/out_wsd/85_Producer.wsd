@@ -1,4 +1,4 @@
 @startuml
-Producer o-- Crew : aggregation
 MovieSet o-- Crew : aggregation
+Producer o-- Crew : aggregation
 @enduml

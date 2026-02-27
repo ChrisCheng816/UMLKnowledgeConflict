@@ -1,4 +1,4 @@
 @startuml
-Car <|-- Coupe : inheritance
 ChevroletCamaro <|-- Coupe : inheritance
+Car <|-- Coupe : inheritance
 @enduml

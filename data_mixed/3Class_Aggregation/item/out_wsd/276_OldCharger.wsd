@@ -1,4 +1,4 @@
 @startuml
-OldCharger o-- Bin : aggregation
 Garage o-- Bin : aggregation
+OldCharger o-- Bin : aggregation
 @enduml

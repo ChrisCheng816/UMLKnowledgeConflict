@@ -1,4 +1,4 @@
 @startuml
-Sclera *-- Eye : composition
 Person *-- Eye : composition
+Sclera *-- Eye : composition
 @enduml

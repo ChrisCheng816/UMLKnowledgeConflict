@@ -1,4 +1,4 @@
 @startuml
-Garlic ..> GarlicPlant : dependency
 Garlic ..> GarlicBread : dependency
+Garlic ..> GarlicPlant : dependency
 @enduml

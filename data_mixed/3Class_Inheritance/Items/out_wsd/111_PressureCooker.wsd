@@ -1,4 +1,4 @@
 @startuml
-Appliance <|-- Cooker : inheritance
 PressureCooker <|-- Cooker : inheritance
+Appliance <|-- Cooker : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Equestrian : inheritance
 Polo <|-- Equestrian : inheritance
+Sport <|-- Equestrian : inheritance
 @enduml

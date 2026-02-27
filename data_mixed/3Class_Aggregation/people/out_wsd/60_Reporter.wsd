@@ -1,4 +1,4 @@
 @startuml
-Reporter o-- Team : aggregation
 Newsroom o-- Team : aggregation
+Reporter o-- Team : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Melon : inheritance
 GaliaMelon <|-- Melon : inheritance
+Fruit <|-- Melon : inheritance
 @enduml

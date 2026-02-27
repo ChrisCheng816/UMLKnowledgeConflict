@@ -1,4 +1,4 @@
 @startuml
-Smartphone ..> CellularNetwork : dependency
 Smartphone ..> PhotoUpload : dependency
+Smartphone ..> CellularNetwork : dependency
 @enduml

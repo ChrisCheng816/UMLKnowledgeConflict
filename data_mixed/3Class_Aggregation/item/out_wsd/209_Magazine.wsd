@@ -1,4 +1,4 @@
 @startuml
-Magazine o-- Shelf : aggregation
 LivingRoom o-- Shelf : aggregation
+Magazine o-- Shelf : aggregation
 @enduml

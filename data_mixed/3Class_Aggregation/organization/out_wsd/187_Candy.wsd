@@ -1,4 +1,4 @@
 @startuml
-Candy o-- Aisle : aggregation
 Supermarket o-- Aisle : aggregation
+Candy o-- Aisle : aggregation
 @enduml

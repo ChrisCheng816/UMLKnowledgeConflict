@@ -1,4 +1,4 @@
 @startuml
-Parrot o-- Exhibit : aggregation
 Aviary o-- Exhibit : aggregation
+Parrot o-- Exhibit : aggregation
 @enduml

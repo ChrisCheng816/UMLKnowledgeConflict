@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Rugby : inheritance
 RugbyUnion <|-- Rugby : inheritance
+Sport <|-- Rugby : inheritance
 @enduml

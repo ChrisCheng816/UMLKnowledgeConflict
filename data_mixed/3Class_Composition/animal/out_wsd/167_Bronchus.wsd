@@ -1,4 +1,4 @@
 @startuml
-Bronchus *-- Lung : composition
 Person *-- Lung : composition
+Bronchus *-- Lung : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Potato ..> PotatoPlant : dependency
 Potato ..> FrenchFries : dependency
+Potato ..> PotatoPlant : dependency
 @enduml

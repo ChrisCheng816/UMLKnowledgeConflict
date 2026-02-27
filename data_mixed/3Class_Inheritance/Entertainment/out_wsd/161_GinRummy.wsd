@@ -1,4 +1,4 @@
 @startuml
-Game <|-- CardGame : inheritance
 GinRummy <|-- CardGame : inheritance
+Game <|-- CardGame : inheritance
 @enduml

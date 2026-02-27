@@ -1,4 +1,4 @@
 @startuml
-Shaft *-- Motor : composition
 Vacuum *-- Motor : composition
+Shaft *-- Motor : composition
 @enduml

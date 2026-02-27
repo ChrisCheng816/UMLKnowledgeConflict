@@ -1,4 +1,4 @@
 @startuml
-Pigeon o-- Flock : aggregation
 Reserve o-- Flock : aggregation
+Pigeon o-- Flock : aggregation
 @enduml

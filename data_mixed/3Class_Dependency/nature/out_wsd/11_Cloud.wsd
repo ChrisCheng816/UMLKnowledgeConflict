@@ -1,4 +1,4 @@
 @startuml
-Condensation ..> Cooling : dependency
 Condensation ..> Cloud : dependency
+Condensation ..> Cooling : dependency
 @enduml

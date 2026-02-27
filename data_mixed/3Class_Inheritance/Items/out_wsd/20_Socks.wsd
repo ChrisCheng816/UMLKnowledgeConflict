@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Clothing : inheritance
 Socks <|-- Clothing : inheritance
+Item <|-- Clothing : inheritance
 @enduml

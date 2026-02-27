@@ -1,4 +1,4 @@
 @startuml
-Legend *-- Keycap : composition
 Keyboard *-- Keycap : composition
+Legend *-- Keycap : composition
 @enduml

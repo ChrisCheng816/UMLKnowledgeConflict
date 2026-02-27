@@ -1,4 +1,4 @@
 @startuml
-WirelessHeadphones ..> Bluetooth : dependency
 WirelessHeadphones ..> HandsFreeCalling : dependency
+WirelessHeadphones ..> Bluetooth : dependency
 @enduml

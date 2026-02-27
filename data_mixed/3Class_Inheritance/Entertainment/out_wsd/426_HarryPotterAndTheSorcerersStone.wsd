@@ -1,4 +1,4 @@
 @startuml
-Film <|-- FantasyFilm : inheritance
 HarryPotterAndTheSorcerersStone <|-- FantasyFilm : inheritance
+Film <|-- FantasyFilm : inheritance
 @enduml

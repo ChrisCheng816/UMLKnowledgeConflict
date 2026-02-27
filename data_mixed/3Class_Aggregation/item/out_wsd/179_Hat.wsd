@@ -1,4 +1,4 @@
 @startuml
-Hat o-- Hanger : aggregation
 Closet o-- Hanger : aggregation
+Hat o-- Hanger : aggregation
 @enduml

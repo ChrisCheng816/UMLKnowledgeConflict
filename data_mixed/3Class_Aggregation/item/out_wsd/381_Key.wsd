@@ -1,4 +1,4 @@
 @startuml
-Key o-- Drawer : aggregation
 Office o-- Drawer : aggregation
+Key o-- Drawer : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Game <|-- BoardGame : inheritance
 Carcassonne <|-- BoardGame : inheritance
+Game <|-- BoardGame : inheritance
 @enduml

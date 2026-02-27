@@ -1,4 +1,4 @@
 @startuml
-Foam ..> Petroleum : dependency
 Foam ..> FoamCushion : dependency
+Foam ..> Petroleum : dependency
 @enduml

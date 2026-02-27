@@ -1,4 +1,4 @@
 @startuml
-KidneyBeans ..> BeanPlant : dependency
 KidneyBeans ..> KidneyBeansChili : dependency
+KidneyBeans ..> BeanPlant : dependency
 @enduml

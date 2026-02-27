@@ -1,4 +1,4 @@
 @startuml
-Fin *-- Radiator : composition
 Car *-- Radiator : composition
+Fin *-- Radiator : composition
 @enduml

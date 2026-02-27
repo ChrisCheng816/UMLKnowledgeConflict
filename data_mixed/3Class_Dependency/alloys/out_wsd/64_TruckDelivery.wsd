@@ -1,4 +1,4 @@
 @startuml
-DieselTruck ..> DieselFuel : dependency
 DieselTruck ..> TruckDelivery : dependency
+DieselTruck ..> DieselFuel : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Smartphone ..> CellularNetwork : dependency
 Smartphone ..> VoiceCall : dependency
+Smartphone ..> CellularNetwork : dependency
 @enduml

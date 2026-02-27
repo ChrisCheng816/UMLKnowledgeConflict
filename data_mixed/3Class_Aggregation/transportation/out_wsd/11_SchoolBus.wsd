@@ -1,4 +1,4 @@
 @startuml
-SchoolBus o-- Fleet : aggregation
 City o-- Fleet : aggregation
+SchoolBus o-- Fleet : aggregation
 @enduml

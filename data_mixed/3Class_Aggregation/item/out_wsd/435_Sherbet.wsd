@@ -1,4 +1,4 @@
 @startuml
-Sherbet o-- Cooler : aggregation
 Supermarket o-- Cooler : aggregation
+Sherbet o-- Cooler : aggregation
 @enduml

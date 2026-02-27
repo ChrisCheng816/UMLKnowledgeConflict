@@ -1,4 +1,4 @@
 @startuml
-Refrigerator ..> Electricity : dependency
 Refrigerator ..> IceMaking : dependency
+Refrigerator ..> Electricity : dependency
 @enduml

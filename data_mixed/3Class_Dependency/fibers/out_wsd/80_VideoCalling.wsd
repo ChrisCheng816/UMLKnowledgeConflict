@@ -1,4 +1,4 @@
 @startuml
-FaceTime ..> Internet : dependency
 FaceTime ..> VideoCalling : dependency
+FaceTime ..> Internet : dependency
 @enduml

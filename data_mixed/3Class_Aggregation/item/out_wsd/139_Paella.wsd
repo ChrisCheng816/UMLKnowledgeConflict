@@ -1,4 +1,4 @@
 @startuml
-Paella o-- Plate : aggregation
 Restaurant o-- Plate : aggregation
+Paella o-- Plate : aggregation
 @enduml

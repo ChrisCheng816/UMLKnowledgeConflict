@@ -1,4 +1,4 @@
 @startuml
-YogurtMaker ..> Electricity : dependency
 YogurtMaker ..> Operating : dependency
+YogurtMaker ..> Electricity : dependency
 @enduml

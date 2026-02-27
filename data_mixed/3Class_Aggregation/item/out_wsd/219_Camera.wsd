@@ -1,4 +1,4 @@
 @startuml
-Camera o-- Shelf : aggregation
 LivingRoom o-- Shelf : aggregation
+Camera o-- Shelf : aggregation
 @enduml

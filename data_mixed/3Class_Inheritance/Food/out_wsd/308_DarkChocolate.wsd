@@ -1,4 +1,4 @@
 @startuml
-Confectionery <|-- Chocolate : inheritance
 DarkChocolate <|-- Chocolate : inheritance
+Confectionery <|-- Chocolate : inheritance
 @enduml

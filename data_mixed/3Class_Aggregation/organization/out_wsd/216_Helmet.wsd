@@ -1,4 +1,4 @@
 @startuml
-Helmet o-- Shelf : aggregation
 Garage o-- Shelf : aggregation
+Helmet o-- Shelf : aggregation
 @enduml

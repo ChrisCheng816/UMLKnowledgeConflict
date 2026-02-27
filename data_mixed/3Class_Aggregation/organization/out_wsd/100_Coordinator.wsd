@@ -1,4 +1,4 @@
 @startuml
-Coordinator o-- Department : aggregation
 Company o-- Department : aggregation
+Coordinator o-- Department : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Backing *-- Frame : composition
 Mirror *-- Frame : composition
+Backing *-- Frame : composition
 @enduml

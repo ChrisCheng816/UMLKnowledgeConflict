@@ -1,4 +1,4 @@
 @startuml
-PowerAdapter ..> WallOutlet : dependency
 PowerAdapter ..> CableModem : dependency
+PowerAdapter ..> WallOutlet : dependency
 @enduml

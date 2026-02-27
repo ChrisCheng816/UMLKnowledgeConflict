@@ -1,4 +1,4 @@
 @startuml
-Document o-- Box : aggregation
 Archive o-- Box : aggregation
+Document o-- Box : aggregation
 @enduml

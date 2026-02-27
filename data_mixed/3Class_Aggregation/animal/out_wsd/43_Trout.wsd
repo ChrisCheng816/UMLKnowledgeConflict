@@ -1,4 +1,4 @@
 @startuml
-Trout o-- Tank : aggregation
 Aquarium o-- Tank : aggregation
+Trout o-- Tank : aggregation
 @enduml

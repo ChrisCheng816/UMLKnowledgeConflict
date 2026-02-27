@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- Continent : inheritance
 Africa <|-- Continent : inheritance
+GeographicFeature <|-- Continent : inheritance
 @enduml

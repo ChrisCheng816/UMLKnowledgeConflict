@@ -1,4 +1,4 @@
 @startuml
-PickupTruck <|-- CompactPickup : inheritance
 NissanFrontier <|-- CompactPickup : inheritance
+PickupTruck <|-- CompactPickup : inheritance
 @enduml

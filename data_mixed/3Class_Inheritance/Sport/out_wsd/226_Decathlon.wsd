@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Athletics : inheritance
 Decathlon <|-- Athletics : inheritance
+Sport <|-- Athletics : inheritance
 @enduml

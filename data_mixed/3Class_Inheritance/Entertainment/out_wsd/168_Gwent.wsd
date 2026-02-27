@@ -1,4 +1,4 @@
 @startuml
-Game <|-- CardGame : inheritance
 Gwent <|-- CardGame : inheritance
+Game <|-- CardGame : inheritance
 @enduml

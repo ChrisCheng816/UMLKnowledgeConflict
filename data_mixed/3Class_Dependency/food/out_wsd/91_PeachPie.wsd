@@ -1,4 +1,4 @@
 @startuml
-Peach ..> PeachTree : dependency
 Peach ..> PeachPie : dependency
+Peach ..> PeachTree : dependency
 @enduml

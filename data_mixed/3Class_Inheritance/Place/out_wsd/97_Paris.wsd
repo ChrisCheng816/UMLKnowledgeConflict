@@ -1,4 +1,4 @@
 @startuml
-Location <|-- City : inheritance
 Paris <|-- City : inheritance
+Location <|-- City : inheritance
 @enduml

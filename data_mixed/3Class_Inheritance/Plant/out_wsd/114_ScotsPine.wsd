@@ -1,4 +1,4 @@
 @startuml
-Tree <|-- Pine : inheritance
 ScotsPine <|-- Pine : inheritance
+Tree <|-- Pine : inheritance
 @enduml

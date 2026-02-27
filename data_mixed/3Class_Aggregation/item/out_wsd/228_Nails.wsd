@@ -1,4 +1,4 @@
 @startuml
-Nails o-- Toolbox : aggregation
 Garage o-- Toolbox : aggregation
+Nails o-- Toolbox : aggregation
 @enduml

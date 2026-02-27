@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Horse : inheritance
 Clydesdale <|-- Horse : inheritance
+Mammal <|-- Horse : inheritance
 @enduml

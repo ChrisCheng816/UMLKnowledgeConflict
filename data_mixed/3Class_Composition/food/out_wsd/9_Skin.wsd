@@ -1,4 +1,4 @@
 @startuml
-Skin *-- Kernel : composition
 Peanut *-- Kernel : composition
+Skin *-- Kernel : composition
 @enduml

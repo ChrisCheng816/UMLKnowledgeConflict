@@ -1,4 +1,4 @@
 @startuml
-Saxophonist o-- Orchestra : aggregation
 University o-- Orchestra : aggregation
+Saxophonist o-- Orchestra : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Pillow o-- Basket : aggregation
 LaundryRoom o-- Basket : aggregation
+Pillow o-- Basket : aggregation
 @enduml

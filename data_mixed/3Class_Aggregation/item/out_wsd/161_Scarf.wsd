@@ -1,4 +1,4 @@
 @startuml
-Scarf o-- Drawer : aggregation
 Bedroom o-- Drawer : aggregation
+Scarf o-- Drawer : aggregation
 @enduml

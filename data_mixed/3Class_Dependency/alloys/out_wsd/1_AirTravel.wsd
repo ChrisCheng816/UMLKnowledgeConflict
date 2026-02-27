@@ -1,4 +1,4 @@
 @startuml
-Airplane ..> JetFuel : dependency
 Airplane ..> AirTravel : dependency
+Airplane ..> JetFuel : dependency
 @enduml

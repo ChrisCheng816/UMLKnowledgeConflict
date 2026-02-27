@@ -1,4 +1,4 @@
 @startuml
-SweatGland *-- Skin : composition
 Person *-- Skin : composition
+SweatGland *-- Skin : composition
 @enduml

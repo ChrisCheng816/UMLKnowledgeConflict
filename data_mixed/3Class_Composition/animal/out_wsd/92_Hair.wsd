@@ -1,4 +1,4 @@
 @startuml
-Hair *-- Nose : composition
 Person *-- Nose : composition
+Hair *-- Nose : composition
 @enduml

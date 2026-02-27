@@ -1,4 +1,4 @@
 @startuml
-Fish <|-- Shark : inheritance
 Hammerhead <|-- Shark : inheritance
+Fish <|-- Shark : inheritance
 @enduml

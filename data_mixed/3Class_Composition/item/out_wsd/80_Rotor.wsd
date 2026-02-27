@@ -1,4 +1,4 @@
 @startuml
-Rotor *-- Motor : composition
 Vacuum *-- Motor : composition
+Rotor *-- Motor : composition
 @enduml

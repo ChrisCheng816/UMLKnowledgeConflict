@@ -1,4 +1,4 @@
 @startuml
-CarHandsFree ..> Bluetooth : dependency
 CarHandsFree ..> AudioPlayback : dependency
+CarHandsFree ..> Bluetooth : dependency
 @enduml

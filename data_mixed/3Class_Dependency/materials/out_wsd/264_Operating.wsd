@@ -1,4 +1,4 @@
 @startuml
-CPAPMachine ..> Electricity : dependency
 CPAPMachine ..> Operating : dependency
+CPAPMachine ..> Electricity : dependency
 @enduml

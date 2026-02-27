@@ -1,4 +1,4 @@
 @startuml
-Guide o-- Staff : aggregation
 Museum o-- Staff : aggregation
+Guide o-- Staff : aggregation
 @enduml

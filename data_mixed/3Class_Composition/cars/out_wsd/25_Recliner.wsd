@@ -1,4 +1,4 @@
 @startuml
-Recliner *-- Seat : composition
 Car *-- Seat : composition
+Recliner *-- Seat : composition
 @enduml

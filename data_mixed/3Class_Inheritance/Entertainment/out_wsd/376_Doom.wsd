@@ -1,4 +1,4 @@
 @startuml
-VideoGame <|-- ShooterGame : inheritance
 Doom <|-- ShooterGame : inheritance
+VideoGame <|-- ShooterGame : inheritance
 @enduml

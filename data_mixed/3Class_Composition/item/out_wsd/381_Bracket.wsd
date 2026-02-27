@@ -1,4 +1,4 @@
 @startuml
-Bracket *-- Leg : composition
 Chair *-- Leg : composition
+Bracket *-- Leg : composition
 @enduml

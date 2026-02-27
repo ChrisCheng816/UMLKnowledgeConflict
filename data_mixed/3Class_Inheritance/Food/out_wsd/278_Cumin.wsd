@@ -1,4 +1,4 @@
 @startuml
-Seasoning <|-- Spice : inheritance
 Cumin <|-- Spice : inheritance
+Seasoning <|-- Spice : inheritance
 @enduml

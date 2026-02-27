@@ -1,4 +1,4 @@
 @startuml
-Horse o-- Pen : aggregation
 Sanctuary o-- Pen : aggregation
+Horse o-- Pen : aggregation
 @enduml

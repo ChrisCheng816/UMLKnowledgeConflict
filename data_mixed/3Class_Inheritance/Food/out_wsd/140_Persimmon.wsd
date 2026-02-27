@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Fruit : inheritance
 Persimmon <|-- Fruit : inheritance
+Food <|-- Fruit : inheritance
 @enduml

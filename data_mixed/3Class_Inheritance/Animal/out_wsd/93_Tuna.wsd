@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Fish : inheritance
 Tuna <|-- Fish : inheritance
+Animal <|-- Fish : inheritance
 @enduml

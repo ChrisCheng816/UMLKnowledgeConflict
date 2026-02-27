@@ -1,4 +1,4 @@
 @startuml
-Manufacturer <|-- CarManufacturer : inheritance
 Ferrari <|-- CarManufacturer : inheritance
+Manufacturer <|-- CarManufacturer : inheritance
 @enduml

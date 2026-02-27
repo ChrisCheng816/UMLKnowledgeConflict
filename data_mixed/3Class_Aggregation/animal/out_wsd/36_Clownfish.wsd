@@ -1,4 +1,4 @@
 @startuml
-Clownfish o-- Tank : aggregation
 Aquarium o-- Tank : aggregation
+Clownfish o-- Tank : aggregation
 @enduml

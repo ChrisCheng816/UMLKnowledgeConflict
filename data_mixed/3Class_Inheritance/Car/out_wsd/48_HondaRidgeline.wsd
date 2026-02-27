@@ -1,4 +1,4 @@
 @startuml
-PickupTruck <|-- CrewCabPickup : inheritance
 HondaRidgeline <|-- CrewCabPickup : inheritance
+PickupTruck <|-- CrewCabPickup : inheritance
 @enduml

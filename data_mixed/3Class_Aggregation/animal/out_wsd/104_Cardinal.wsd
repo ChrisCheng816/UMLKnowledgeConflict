@@ -1,4 +1,4 @@
 @startuml
-Cardinal o-- Aviary : aggregation
 Zoo o-- Aviary : aggregation
+Cardinal o-- Aviary : aggregation
 @enduml

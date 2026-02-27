@@ -1,4 +1,4 @@
 @startuml
-Marrow *-- Bone : composition
 Skeleton *-- Bone : composition
+Marrow *-- Bone : composition
 @enduml

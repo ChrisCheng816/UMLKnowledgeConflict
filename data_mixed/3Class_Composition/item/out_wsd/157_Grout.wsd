@@ -1,4 +1,4 @@
 @startuml
-Grout *-- Floor : composition
 House *-- Floor : composition
+Grout *-- Floor : composition
 @enduml

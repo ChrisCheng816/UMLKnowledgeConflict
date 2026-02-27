@@ -1,4 +1,4 @@
 @startuml
-Moon o-- Planet : aggregation
 SolarSystem o-- Planet : aggregation
+Moon o-- Planet : aggregation
 @enduml

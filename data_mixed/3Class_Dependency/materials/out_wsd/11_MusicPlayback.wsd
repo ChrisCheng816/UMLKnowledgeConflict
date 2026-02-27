@@ -1,4 +1,4 @@
 @startuml
-Amplifier ..> Electricity : dependency
 Amplifier ..> MusicPlayback : dependency
+Amplifier ..> Electricity : dependency
 @enduml

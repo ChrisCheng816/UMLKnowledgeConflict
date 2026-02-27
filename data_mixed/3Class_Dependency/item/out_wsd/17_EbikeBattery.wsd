@@ -1,4 +1,4 @@
 @startuml
-EbikeCharger ..> WallOutlet : dependency
 EbikeCharger ..> EbikeBattery : dependency
+EbikeCharger ..> WallOutlet : dependency
 @enduml

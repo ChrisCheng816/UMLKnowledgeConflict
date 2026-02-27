@@ -1,4 +1,4 @@
 @startuml
-AirPump ..> Electricity : dependency
 AirPump ..> Operating : dependency
+AirPump ..> Electricity : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Newspaper o-- Shelf : aggregation
 LivingRoom o-- Shelf : aggregation
+Newspaper o-- Shelf : aggregation
 @enduml

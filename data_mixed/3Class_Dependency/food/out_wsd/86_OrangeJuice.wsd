@@ -1,4 +1,4 @@
 @startuml
-Orange ..> OrangeTree : dependency
 Orange ..> OrangeJuice : dependency
+Orange ..> OrangeTree : dependency
 @enduml

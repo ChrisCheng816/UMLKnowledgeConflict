@@ -1,4 +1,4 @@
 @startuml
-Organism <|-- Animal : inheritance
 Cat <|-- Animal : inheritance
+Organism <|-- Animal : inheritance
 @enduml

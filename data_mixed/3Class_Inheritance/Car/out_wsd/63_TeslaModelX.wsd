@@ -1,4 +1,4 @@
 @startuml
-SUV <|-- ElectricSUV : inheritance
 TeslaModelX <|-- ElectricSUV : inheritance
+SUV <|-- ElectricSUV : inheritance
 @enduml

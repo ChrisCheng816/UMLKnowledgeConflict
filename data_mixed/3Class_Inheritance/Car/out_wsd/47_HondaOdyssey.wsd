@@ -1,4 +1,4 @@
 @startuml
-Minivan <|-- PassengerMinivan : inheritance
 HondaOdyssey <|-- PassengerMinivan : inheritance
+Minivan <|-- PassengerMinivan : inheritance
 @enduml

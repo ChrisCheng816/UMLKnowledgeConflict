@@ -1,4 +1,4 @@
 @startuml
-Zoom ..> Internet : dependency
 Zoom ..> Meeting : dependency
+Zoom ..> Internet : dependency
 @enduml

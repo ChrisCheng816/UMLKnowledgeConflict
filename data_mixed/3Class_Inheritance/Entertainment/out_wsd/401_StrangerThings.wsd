@@ -1,4 +1,4 @@
 @startuml
-Television <|-- ScienceFictionSeries : inheritance
 StrangerThings <|-- ScienceFictionSeries : inheritance
+Television <|-- ScienceFictionSeries : inheritance
 @enduml

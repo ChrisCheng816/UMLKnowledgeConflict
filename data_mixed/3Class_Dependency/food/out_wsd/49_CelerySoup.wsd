@@ -1,4 +1,4 @@
 @startuml
-Celery ..> CeleryPlant : dependency
 Celery ..> CelerySoup : dependency
+Celery ..> CeleryPlant : dependency
 @enduml

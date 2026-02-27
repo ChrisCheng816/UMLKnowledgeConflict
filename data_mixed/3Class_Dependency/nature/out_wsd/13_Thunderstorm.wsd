@@ -1,4 +1,4 @@
 @startuml
-Convection ..> WarmAir : dependency
 Convection ..> Thunderstorm : dependency
+Convection ..> WarmAir : dependency
 @enduml

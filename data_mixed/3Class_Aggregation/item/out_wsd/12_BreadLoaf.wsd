@@ -1,4 +1,4 @@
 @startuml
-BreadLoaf o-- Tray : aggregation
 BakeryMarket o-- Tray : aggregation
+BreadLoaf o-- Tray : aggregation
 @enduml

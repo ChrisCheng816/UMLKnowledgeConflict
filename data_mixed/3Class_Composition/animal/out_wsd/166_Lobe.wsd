@@ -1,4 +1,4 @@
 @startuml
-Lobe *-- Lung : composition
 Person *-- Lung : composition
+Lobe *-- Lung : composition
 @enduml

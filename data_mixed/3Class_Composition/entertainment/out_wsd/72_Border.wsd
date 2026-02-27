@@ -1,4 +1,4 @@
 @startuml
-Border *-- Panel : composition
 Comic *-- Panel : composition
+Border *-- Panel : composition
 @enduml

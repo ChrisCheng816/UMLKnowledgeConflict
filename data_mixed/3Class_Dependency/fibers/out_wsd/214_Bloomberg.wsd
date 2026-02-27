@@ -1,4 +1,4 @@
 @startuml
-Internet ..> Electricity : dependency
 Internet ..> Bloomberg : dependency
+Internet ..> Electricity : dependency
 @enduml

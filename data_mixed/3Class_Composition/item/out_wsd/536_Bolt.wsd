@@ -1,4 +1,4 @@
 @startuml
-Bolt *-- Knob : composition
 Door *-- Knob : composition
+Bolt *-- Knob : composition
 @enduml

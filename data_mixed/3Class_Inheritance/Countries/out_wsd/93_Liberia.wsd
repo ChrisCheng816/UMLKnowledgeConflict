@@ -1,4 +1,4 @@
 @startuml
-GeopoliticalEntity <|-- Country : inheritance
 Liberia <|-- Country : inheritance
+GeopoliticalEntity <|-- Country : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Snowboarding : inheritance
 HalfpipeSnowboarding <|-- Snowboarding : inheritance
+Sport <|-- Snowboarding : inheritance
 @enduml

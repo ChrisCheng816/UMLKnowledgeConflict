@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Submarine : inheritance
 NuclearSubmarine <|-- Submarine : inheritance
+Vehicle <|-- Submarine : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Intern o-- Staff : aggregation
 Company o-- Staff : aggregation
+Intern o-- Staff : aggregation
 @enduml

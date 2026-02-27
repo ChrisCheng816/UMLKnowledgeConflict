@@ -1,4 +1,4 @@
 @startuml
-Suitcase o-- Rack : aggregation
 Entryway o-- Rack : aggregation
+Suitcase o-- Rack : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Tortilla o-- Bag : aggregation
 Supermarket o-- Bag : aggregation
+Tortilla o-- Bag : aggregation
 @enduml

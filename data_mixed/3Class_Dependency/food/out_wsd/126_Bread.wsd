@@ -1,4 +1,4 @@
 @startuml
-Flour ..> Wheat : dependency
 Flour ..> Bread : dependency
+Flour ..> Wheat : dependency
 @enduml

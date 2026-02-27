@@ -1,4 +1,4 @@
 @startuml
-Activist <|-- Humanitarian : inheritance
 MotherTeresa <|-- Humanitarian : inheritance
+Activist <|-- Humanitarian : inheritance
 @enduml

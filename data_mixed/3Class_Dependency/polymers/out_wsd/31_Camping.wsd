@@ -1,4 +1,4 @@
 @startuml
-NylonTent ..> Nylon : dependency
 NylonTent ..> Camping : dependency
+NylonTent ..> Nylon : dependency
 @enduml

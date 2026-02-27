@@ -1,4 +1,4 @@
 @startuml
-Song <|-- PopSong : inheritance
 Imagine <|-- PopSong : inheritance
+Song <|-- PopSong : inheritance
 @enduml

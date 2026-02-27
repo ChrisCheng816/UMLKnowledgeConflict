@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Mammal : inheritance
 PolarBear <|-- Mammal : inheritance
+Animal <|-- Mammal : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Running : inheritance
 Steeplechase <|-- Running : inheritance
+Sport <|-- Running : inheritance
 @enduml

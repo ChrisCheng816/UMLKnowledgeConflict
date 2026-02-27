@@ -1,4 +1,4 @@
 @startuml
-Pliers o-- Toolbox : aggregation
 Garage o-- Toolbox : aggregation
+Pliers o-- Toolbox : aggregation
 @enduml

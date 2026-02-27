@@ -1,4 +1,4 @@
 @startuml
-LaptopCharger ..> Electricity : dependency
 LaptopCharger ..> BatteryCharging : dependency
+LaptopCharger ..> Electricity : dependency
 @enduml

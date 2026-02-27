@@ -1,4 +1,4 @@
 @startuml
-Host o-- Panel : aggregation
 Conference o-- Panel : aggregation
+Host o-- Panel : aggregation
 @enduml

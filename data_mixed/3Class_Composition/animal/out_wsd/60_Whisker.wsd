@@ -1,4 +1,4 @@
 @startuml
-Whisker *-- Muzzle : composition
 Bear *-- Muzzle : composition
+Whisker *-- Muzzle : composition
 @enduml

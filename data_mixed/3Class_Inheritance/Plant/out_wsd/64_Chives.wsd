@@ -1,4 +1,4 @@
 @startuml
-Plant <|-- Herb : inheritance
 Chives <|-- Herb : inheritance
+Plant <|-- Herb : inheritance
 @enduml

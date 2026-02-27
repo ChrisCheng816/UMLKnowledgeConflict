@@ -1,4 +1,4 @@
 @startuml
-Radio ..> RadioNetwork : dependency
 Radio ..> EmergencyAlert : dependency
+Radio ..> RadioNetwork : dependency
 @enduml

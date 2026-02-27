@@ -1,4 +1,4 @@
 @startuml
-Paramedic o-- Crew : aggregation
 Firehouse o-- Crew : aggregation
+Paramedic o-- Crew : aggregation
 @enduml

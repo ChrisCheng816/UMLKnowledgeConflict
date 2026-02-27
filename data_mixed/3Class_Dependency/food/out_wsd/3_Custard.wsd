@@ -1,4 +1,4 @@
 @startuml
-Eggs ..> Chicken : dependency
 Eggs ..> Custard : dependency
+Eggs ..> Chicken : dependency
 @enduml

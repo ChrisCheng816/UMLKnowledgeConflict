@@ -1,4 +1,4 @@
 @startuml
-Housing *-- Port : composition
 Laptop *-- Port : composition
+Housing *-- Port : composition
 @enduml

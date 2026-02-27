@@ -1,4 +1,4 @@
 @startuml
-Can o-- Shelf : aggregation
 Pantry o-- Shelf : aggregation
+Can o-- Shelf : aggregation
 @enduml

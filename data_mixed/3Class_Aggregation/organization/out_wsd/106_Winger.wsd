@@ -1,4 +1,4 @@
 @startuml
-Winger o-- Team : aggregation
 SportsClub o-- Team : aggregation
+Winger o-- Team : aggregation
 @enduml

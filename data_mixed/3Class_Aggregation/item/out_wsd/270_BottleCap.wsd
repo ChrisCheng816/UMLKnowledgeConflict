@@ -1,4 +1,4 @@
 @startuml
-BottleCap o-- Bin : aggregation
 Garage o-- Bin : aggregation
+BottleCap o-- Bin : aggregation
 @enduml

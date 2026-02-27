@@ -1,4 +1,4 @@
 @startuml
-HighPressure ..> Sunlight : dependency
 HighPressure ..> Heatwave : dependency
+HighPressure ..> Sunlight : dependency
 @enduml

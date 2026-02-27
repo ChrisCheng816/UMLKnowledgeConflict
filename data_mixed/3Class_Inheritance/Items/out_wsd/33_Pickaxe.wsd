@@ -1,4 +1,4 @@
 @startuml
-Item <|-- Tool : inheritance
 Pickaxe <|-- Tool : inheritance
+Item <|-- Tool : inheritance
 @enduml

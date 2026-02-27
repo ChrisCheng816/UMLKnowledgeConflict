@@ -1,4 +1,4 @@
 @startuml
-Contact *-- Port : composition
 Laptop *-- Port : composition
+Contact *-- Port : composition
 @enduml

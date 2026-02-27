@@ -1,4 +1,4 @@
 @startuml
-Buckle *-- Seatbelt : composition
 Car *-- Seatbelt : composition
+Buckle *-- Seatbelt : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Necklace o-- Drawer : aggregation
 Bedroom o-- Drawer : aggregation
+Necklace o-- Drawer : aggregation
 @enduml

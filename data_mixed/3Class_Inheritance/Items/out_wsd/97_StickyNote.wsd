@@ -1,4 +1,4 @@
 @startuml
-Stationery <|-- Note : inheritance
 StickyNote <|-- Note : inheritance
+Stationery <|-- Note : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Joint *-- Arm : composition
 Robot *-- Arm : composition
+Joint *-- Arm : composition
 @enduml

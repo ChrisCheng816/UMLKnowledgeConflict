@@ -1,4 +1,4 @@
 @startuml
-Goat o-- Pen : aggregation
 Reserve o-- Pen : aggregation
+Goat o-- Pen : aggregation
 @enduml

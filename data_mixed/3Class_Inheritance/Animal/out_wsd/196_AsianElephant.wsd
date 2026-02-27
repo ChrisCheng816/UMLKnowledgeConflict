@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Elephant : inheritance
 AsianElephant <|-- Elephant : inheritance
+Mammal <|-- Elephant : inheritance
 @enduml

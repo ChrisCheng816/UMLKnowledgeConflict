@@ -1,4 +1,4 @@
 @startuml
-Cherry o-- Basket : aggregation
 GroceryStore o-- Basket : aggregation
+Cherry o-- Basket : aggregation
 @enduml

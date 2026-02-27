@@ -1,4 +1,4 @@
 @startuml
-Mammal <|-- Dog : inheritance
 GoldenRetriever <|-- Dog : inheritance
+Mammal <|-- Dog : inheritance
 @enduml

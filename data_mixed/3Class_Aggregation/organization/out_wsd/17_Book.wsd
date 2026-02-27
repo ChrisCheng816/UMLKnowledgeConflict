@@ -1,4 +1,4 @@
 @startuml
-Book o-- ReadingList : aggregation
 BookClub o-- ReadingList : aggregation
+Book o-- ReadingList : aggregation
 @enduml

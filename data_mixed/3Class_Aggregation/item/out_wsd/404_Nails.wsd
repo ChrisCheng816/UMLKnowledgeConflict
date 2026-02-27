@@ -1,4 +1,4 @@
 @startuml
-Nails o-- Bin : aggregation
 HardwareStore o-- Bin : aggregation
+Nails o-- Bin : aggregation
 @enduml

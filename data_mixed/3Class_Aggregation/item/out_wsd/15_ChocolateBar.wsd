@@ -1,4 +1,4 @@
 @startuml
-ChocolateBar o-- Box : aggregation
 ChocolateShop o-- Box : aggregation
+ChocolateBar o-- Box : aggregation
 @enduml

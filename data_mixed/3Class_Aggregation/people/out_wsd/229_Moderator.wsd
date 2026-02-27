@@ -1,4 +1,4 @@
 @startuml
-Moderator o-- Panel : aggregation
 Court o-- Panel : aggregation
+Moderator o-- Panel : aggregation
 @enduml

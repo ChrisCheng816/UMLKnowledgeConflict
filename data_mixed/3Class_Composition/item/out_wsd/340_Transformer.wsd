@@ -1,4 +1,4 @@
 @startuml
-Transformer *-- PowerSupply : composition
 Desktop *-- PowerSupply : composition
+Transformer *-- PowerSupply : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fish <|-- Trout : inheritance
 RainbowTrout <|-- Trout : inheritance
+Fish <|-- Trout : inheritance
 @enduml

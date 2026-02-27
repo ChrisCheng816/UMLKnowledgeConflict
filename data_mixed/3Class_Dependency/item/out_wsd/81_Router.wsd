@@ -1,4 +1,4 @@
 @startuml
-EthernetCable ..> BroadbandModem : dependency
 EthernetCable ..> Router : dependency
+EthernetCable ..> BroadbandModem : dependency
 @enduml

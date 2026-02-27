@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Date : inheritance
 MedjoolDate <|-- Date : inheritance
+Fruit <|-- Date : inheritance
 @enduml

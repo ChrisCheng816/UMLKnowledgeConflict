@@ -1,4 +1,4 @@
 @startuml
-WallOutlet ..> CircuitBreakerPanel : dependency
 WallOutlet ..> Dishwasher : dependency
+WallOutlet ..> CircuitBreakerPanel : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-PowerSupply ..> WallOutlet : dependency
 PowerSupply ..> NeonSign : dependency
+PowerSupply ..> WallOutlet : dependency
 @enduml

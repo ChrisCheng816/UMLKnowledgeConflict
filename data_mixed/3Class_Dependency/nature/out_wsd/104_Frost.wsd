@@ -1,4 +1,4 @@
 @startuml
-FreezingTemperature ..> ColdAir : dependency
 FreezingTemperature ..> Frost : dependency
+FreezingTemperature ..> ColdAir : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Plum ..> PlumTree : dependency
 Plum ..> PlumJam : dependency
+Plum ..> PlumTree : dependency
 @enduml

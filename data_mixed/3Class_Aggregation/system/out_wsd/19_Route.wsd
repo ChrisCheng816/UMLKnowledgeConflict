@@ -1,4 +1,4 @@
 @startuml
-Route o-- Schedule : aggregation
 TransitSystem o-- Schedule : aggregation
+Route o-- Schedule : aggregation
 @enduml

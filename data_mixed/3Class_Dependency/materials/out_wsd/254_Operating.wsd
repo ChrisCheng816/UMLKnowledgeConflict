@@ -1,4 +1,4 @@
 @startuml
-SmartDisplay ..> Electricity : dependency
 SmartDisplay ..> Operating : dependency
+SmartDisplay ..> Electricity : dependency
 @enduml

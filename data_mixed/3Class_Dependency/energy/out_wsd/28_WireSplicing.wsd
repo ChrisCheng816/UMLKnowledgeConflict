@@ -1,4 +1,4 @@
 @startuml
-SolderingStation ..> Electricity : dependency
 SolderingStation ..> WireSplicing : dependency
+SolderingStation ..> Electricity : dependency
 @enduml

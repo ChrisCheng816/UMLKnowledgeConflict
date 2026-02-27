@@ -1,4 +1,4 @@
 @startuml
-SparkPlug *-- Engine : composition
 Car *-- Engine : composition
+SparkPlug *-- Engine : composition
 @enduml

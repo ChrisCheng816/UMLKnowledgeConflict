@@ -1,4 +1,4 @@
 @startuml
-Mortar *-- Chimney : composition
 House *-- Chimney : composition
+Mortar *-- Chimney : composition
 @enduml

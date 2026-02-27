@@ -1,4 +1,4 @@
 @startuml
-SecurityCamera ..> Electricity : dependency
 SecurityCamera ..> MotionDetection : dependency
+SecurityCamera ..> Electricity : dependency
 @enduml

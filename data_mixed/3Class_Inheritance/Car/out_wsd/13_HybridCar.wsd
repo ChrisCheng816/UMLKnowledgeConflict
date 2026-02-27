@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Car : inheritance
 HybridCar <|-- Car : inheritance
+Vehicle <|-- Car : inheritance
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-CenterBack o-- Team : aggregation
 SportsClub o-- Team : aggregation
+CenterBack o-- Team : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Vehicle <|-- Bicycle : inheritance
 TrekRoadBike <|-- Bicycle : inheritance
+Vehicle <|-- Bicycle : inheritance
 @enduml

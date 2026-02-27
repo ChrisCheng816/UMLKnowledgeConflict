@@ -1,4 +1,4 @@
 @startuml
-Diaphragm *-- Microphone : composition
 Phone *-- Microphone : composition
+Diaphragm *-- Microphone : composition
 @enduml

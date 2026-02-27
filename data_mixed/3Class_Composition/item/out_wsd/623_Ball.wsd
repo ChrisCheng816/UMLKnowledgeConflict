@@ -1,4 +1,4 @@
 @startuml
-Ball *-- Tip : composition
 Pen *-- Tip : composition
+Ball *-- Tip : composition
 @enduml

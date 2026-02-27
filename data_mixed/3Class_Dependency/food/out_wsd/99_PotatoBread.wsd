@@ -1,4 +1,4 @@
 @startuml
-PotatoStarch ..> Potatoes : dependency
 PotatoStarch ..> PotatoBread : dependency
+PotatoStarch ..> Potatoes : dependency
 @enduml

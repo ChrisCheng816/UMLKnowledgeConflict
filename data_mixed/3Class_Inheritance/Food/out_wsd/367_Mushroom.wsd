@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Ingredient : inheritance
 Mushroom <|-- Ingredient : inheritance
+Food <|-- Ingredient : inheritance
 @enduml

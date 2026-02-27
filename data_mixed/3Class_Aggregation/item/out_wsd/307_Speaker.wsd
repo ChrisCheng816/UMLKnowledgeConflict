@@ -1,4 +1,4 @@
 @startuml
-Speaker o-- InstrumentRack : aggregation
 MusicStore o-- InstrumentRack : aggregation
+Speaker o-- InstrumentRack : aggregation
 @enduml

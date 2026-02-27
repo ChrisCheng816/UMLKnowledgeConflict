@@ -1,4 +1,4 @@
 @startuml
-Shelf *-- Cabinet : composition
 Kitchen *-- Cabinet : composition
+Shelf *-- Cabinet : composition
 @enduml

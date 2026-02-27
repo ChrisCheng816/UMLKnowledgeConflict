@@ -1,4 +1,4 @@
 @startuml
-IceMaker ..> Electricity : dependency
 IceMaker ..> Operating : dependency
+IceMaker ..> Electricity : dependency
 @enduml

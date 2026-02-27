@@ -1,4 +1,4 @@
 @startuml
-Reporter o-- Department : aggregation
 Studio o-- Department : aggregation
+Reporter o-- Department : aggregation
 @enduml

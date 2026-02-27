@@ -1,4 +1,4 @@
 @startuml
-Finch o-- Cage : aggregation
 Zoo o-- Cage : aggregation
+Finch o-- Cage : aggregation
 @enduml

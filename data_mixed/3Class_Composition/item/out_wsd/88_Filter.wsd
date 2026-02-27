@@ -1,4 +1,4 @@
 @startuml
-Filter *-- Canister : composition
 Vacuum *-- Canister : composition
+Filter *-- Canister : composition
 @enduml

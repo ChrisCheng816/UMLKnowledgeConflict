@@ -1,4 +1,4 @@
 @startuml
-CeilingLight ..> Electricity : dependency
 CeilingLight ..> Illumination : dependency
+CeilingLight ..> Electricity : dependency
 @enduml

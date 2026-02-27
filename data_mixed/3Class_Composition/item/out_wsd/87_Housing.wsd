@@ -1,4 +1,4 @@
 @startuml
-Housing *-- Motor : composition
 Vacuum *-- Motor : composition
+Housing *-- Motor : composition
 @enduml

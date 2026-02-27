@@ -1,4 +1,4 @@
 @startuml
-Beans o-- Pantry : aggregation
 Kitchen o-- Pantry : aggregation
+Beans o-- Pantry : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-InternetConnection ..> Modem : dependency
 InternetConnection ..> VideoStreaming : dependency
+InternetConnection ..> Modem : dependency
 @enduml

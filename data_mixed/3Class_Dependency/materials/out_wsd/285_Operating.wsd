@@ -1,4 +1,4 @@
 @startuml
-POSMachine ..> Electricity : dependency
 POSMachine ..> Operating : dependency
+POSMachine ..> Electricity : dependency
 @enduml

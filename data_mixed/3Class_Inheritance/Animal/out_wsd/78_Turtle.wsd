@@ -1,4 +1,4 @@
 @startuml
-Animal <|-- Reptile : inheritance
 Turtle <|-- Reptile : inheritance
+Animal <|-- Reptile : inheritance
 @enduml

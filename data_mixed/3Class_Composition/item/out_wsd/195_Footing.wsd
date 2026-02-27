@@ -1,4 +1,4 @@
 @startuml
-Footing *-- Foundation : composition
 House *-- Foundation : composition
+Footing *-- Foundation : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-VendingMachine ..> Electricity : dependency
 VendingMachine ..> Operating : dependency
+VendingMachine ..> Electricity : dependency
 @enduml

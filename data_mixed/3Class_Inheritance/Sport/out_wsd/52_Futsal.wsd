@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- TeamSport : inheritance
 Futsal <|-- TeamSport : inheritance
+Sport <|-- TeamSport : inheritance
 @enduml

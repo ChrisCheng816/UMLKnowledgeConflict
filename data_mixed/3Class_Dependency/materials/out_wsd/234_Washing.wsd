@@ -1,4 +1,4 @@
 @startuml
-WashingMachine ..> Electricity : dependency
 WashingMachine ..> Washing : dependency
+WashingMachine ..> Electricity : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Pasta o-- Shelf : aggregation
 Pantry o-- Shelf : aggregation
+Pasta o-- Shelf : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Cantaloupe : inheritance
 HoneydewMelon <|-- Cantaloupe : inheritance
+Fruit <|-- Cantaloupe : inheritance
 @enduml

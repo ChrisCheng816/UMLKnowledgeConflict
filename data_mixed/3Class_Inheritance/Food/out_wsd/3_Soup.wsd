@@ -1,4 +1,4 @@
 @startuml
-Food <|-- Dish : inheritance
 Soup <|-- Dish : inheritance
+Food <|-- Dish : inheritance
 @enduml

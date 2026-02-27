@@ -1,4 +1,4 @@
 @startuml
-Spacesuit ..> Oxygen : dependency
 Spacesuit ..> Astronaut : dependency
+Spacesuit ..> Oxygen : dependency
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-HeatGun ..> Electricity : dependency
 HeatGun ..> PaintStripping : dependency
+HeatGun ..> Electricity : dependency
 @enduml

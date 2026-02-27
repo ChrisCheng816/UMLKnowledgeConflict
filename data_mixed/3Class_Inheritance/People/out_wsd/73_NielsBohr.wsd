@@ -1,4 +1,4 @@
 @startuml
-Scientist <|-- Physicist : inheritance
 NielsBohr <|-- Physicist : inheritance
+Scientist <|-- Physicist : inheritance
 @enduml

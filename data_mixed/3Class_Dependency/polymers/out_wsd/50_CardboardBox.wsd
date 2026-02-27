@@ -1,4 +1,4 @@
 @startuml
-Cardboard ..> Paper : dependency
 Cardboard ..> CardboardBox : dependency
+Cardboard ..> Paper : dependency
 @enduml

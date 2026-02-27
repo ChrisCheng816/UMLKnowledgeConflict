@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Song : inheritance
 PurpleRain <|-- Song : inheritance
+MusicWork <|-- Song : inheritance
 @enduml

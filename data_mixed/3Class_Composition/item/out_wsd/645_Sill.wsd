@@ -1,4 +1,4 @@
 @startuml
-Sill *-- Frame : composition
 Window *-- Frame : composition
+Sill *-- Frame : composition
 @enduml

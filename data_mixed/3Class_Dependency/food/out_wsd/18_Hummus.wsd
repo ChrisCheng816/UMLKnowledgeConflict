@@ -1,4 +1,4 @@
 @startuml
-Chickpeas ..> ChickpeaPlant : dependency
 Chickpeas ..> Hummus : dependency
+Chickpeas ..> ChickpeaPlant : dependency
 @enduml

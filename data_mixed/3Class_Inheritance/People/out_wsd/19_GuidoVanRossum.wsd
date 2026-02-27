@@ -1,4 +1,4 @@
 @startuml
-Engineer <|-- SoftwareEngineer : inheritance
 GuidoVanRossum <|-- SoftwareEngineer : inheritance
+Engineer <|-- SoftwareEngineer : inheritance
 @enduml

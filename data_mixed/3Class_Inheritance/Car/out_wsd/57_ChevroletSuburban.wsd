@@ -1,4 +1,4 @@
 @startuml
-SUV <|-- ExtendedSUV : inheritance
 ChevroletSuburban <|-- ExtendedSUV : inheritance
+SUV <|-- ExtendedSUV : inheritance
 @enduml

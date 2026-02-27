@@ -1,4 +1,4 @@
 @startuml
-BluRayPlayer ..> Electricity : dependency
 BluRayPlayer ..> Operating : dependency
+BluRayPlayer ..> Electricity : dependency
 @enduml

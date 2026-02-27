@@ -1,4 +1,4 @@
 @startuml
-Rafter *-- Roof : composition
 House *-- Roof : composition
+Rafter *-- Roof : composition
 @enduml

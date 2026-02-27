@@ -1,4 +1,4 @@
 @startuml
-Athlete <|-- Sprinter : inheritance
 UsainBolt <|-- Sprinter : inheritance
+Athlete <|-- Sprinter : inheritance
 @enduml

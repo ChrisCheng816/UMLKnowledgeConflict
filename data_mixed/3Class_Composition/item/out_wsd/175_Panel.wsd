@@ -1,4 +1,4 @@
 @startuml
-Panel *-- Door : composition
 House *-- Door : composition
+Panel *-- Door : composition
 @enduml

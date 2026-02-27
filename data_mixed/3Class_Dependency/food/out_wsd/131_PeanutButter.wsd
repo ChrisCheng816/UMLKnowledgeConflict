@@ -1,4 +1,4 @@
 @startuml
-Peanuts ..> PeanutPlant : dependency
 Peanuts ..> PeanutButter : dependency
+Peanuts ..> PeanutPlant : dependency
 @enduml

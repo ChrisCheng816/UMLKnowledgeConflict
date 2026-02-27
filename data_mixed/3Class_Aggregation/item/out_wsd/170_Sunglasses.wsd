@@ -1,4 +1,4 @@
 @startuml
-Sunglasses o-- Drawer : aggregation
 Bedroom o-- Drawer : aggregation
+Sunglasses o-- Drawer : aggregation
 @enduml

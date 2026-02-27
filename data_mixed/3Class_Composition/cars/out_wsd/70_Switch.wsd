@@ -1,4 +1,4 @@
 @startuml
-Switch *-- SteeringWheel : composition
 Car *-- SteeringWheel : composition
+Switch *-- SteeringWheel : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Muscle *-- Eye : composition
 Person *-- Eye : composition
+Muscle *-- Eye : composition
 @enduml

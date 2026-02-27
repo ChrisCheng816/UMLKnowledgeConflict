@@ -1,4 +1,4 @@
 @startuml
-Country <|-- Kingdom : inheritance
 Sweden <|-- Kingdom : inheritance
+Country <|-- Kingdom : inheritance
 @enduml

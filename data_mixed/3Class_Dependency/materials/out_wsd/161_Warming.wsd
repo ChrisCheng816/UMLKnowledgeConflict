@@ -1,4 +1,4 @@
 @startuml
-RiceCooker ..> Electricity : dependency
 RiceCooker ..> Warming : dependency
+RiceCooker ..> Electricity : dependency
 @enduml

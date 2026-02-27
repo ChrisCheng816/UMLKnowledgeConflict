@@ -1,4 +1,4 @@
 @startuml
-Fruit <|-- Kiwi : inheritance
 GreenKiwi <|-- Kiwi : inheritance
+Fruit <|-- Kiwi : inheritance
 @enduml

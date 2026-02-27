@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Surfing : inheritance
 BigWaveSurfing <|-- Surfing : inheritance
+Sport <|-- Surfing : inheritance
 @enduml

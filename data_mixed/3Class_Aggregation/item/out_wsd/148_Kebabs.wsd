@@ -1,4 +1,4 @@
 @startuml
-Kebabs o-- Plate : aggregation
 Restaurant o-- Plate : aggregation
+Kebabs o-- Plate : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Dumpling o-- Plate : aggregation
 Restaurant o-- Plate : aggregation
+Dumpling o-- Plate : aggregation
 @enduml

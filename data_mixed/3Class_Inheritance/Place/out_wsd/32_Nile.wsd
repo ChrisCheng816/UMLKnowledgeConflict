@@ -1,4 +1,4 @@
 @startuml
-GeographicFeature <|-- River : inheritance
 Nile <|-- River : inheritance
+GeographicFeature <|-- River : inheritance
 @enduml

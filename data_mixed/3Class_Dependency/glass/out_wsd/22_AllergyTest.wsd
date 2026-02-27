@@ -1,4 +1,4 @@
 @startuml
-TestKit ..> Reagent : dependency
 TestKit ..> AllergyTest : dependency
+TestKit ..> Reagent : dependency
 @enduml

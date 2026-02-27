@@ -1,4 +1,4 @@
 @startuml
-Resume o-- Folder : aggregation
 Office o-- Folder : aggregation
+Resume o-- Folder : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Wire *-- Cable : composition
 Headphone *-- Cable : composition
+Wire *-- Cable : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-MedicineBottle o-- Cabinet : aggregation
 HospitalStore o-- Cabinet : aggregation
+MedicineBottle o-- Cabinet : aggregation
 @enduml

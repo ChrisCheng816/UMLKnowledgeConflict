@@ -1,4 +1,4 @@
 @startuml
-Orangutan o-- Enclosure : aggregation
 Zoo o-- Enclosure : aggregation
+Orangutan o-- Enclosure : aggregation
 @enduml

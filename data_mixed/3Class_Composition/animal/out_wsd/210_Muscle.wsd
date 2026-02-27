@@ -1,4 +1,4 @@
 @startuml
-Muscle *-- Leg : composition
 Horse *-- Leg : composition
+Muscle *-- Leg : composition
 @enduml

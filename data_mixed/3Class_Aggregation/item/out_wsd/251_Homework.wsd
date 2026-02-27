@@ -1,4 +1,4 @@
 @startuml
-Homework o-- Binder : aggregation
 Backpack o-- Binder : aggregation
+Homework o-- Binder : aggregation
 @enduml

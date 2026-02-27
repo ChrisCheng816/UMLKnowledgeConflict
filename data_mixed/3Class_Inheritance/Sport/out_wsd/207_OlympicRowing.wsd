@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- Rowing : inheritance
 OlympicRowing <|-- Rowing : inheritance
+Sport <|-- Rowing : inheritance
 @enduml

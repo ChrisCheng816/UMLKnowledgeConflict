@@ -1,4 +1,4 @@
 @startuml
-Corner *-- Frame : composition
 Mirror *-- Frame : composition
+Corner *-- Frame : composition
 @enduml

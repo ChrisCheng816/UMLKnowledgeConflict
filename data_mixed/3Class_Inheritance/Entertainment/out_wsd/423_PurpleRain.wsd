@@ -1,4 +1,4 @@
 @startuml
-MusicWork <|-- Album : inheritance
 PurpleRain <|-- Album : inheritance
+MusicWork <|-- Album : inheritance
 @enduml

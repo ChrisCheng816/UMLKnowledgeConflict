@@ -1,4 +1,4 @@
 @startuml
-Sport <|-- MindSport : inheritance
 Bridge <|-- MindSport : inheritance
+Sport <|-- MindSport : inheritance
 @enduml

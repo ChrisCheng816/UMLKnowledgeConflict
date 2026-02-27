@@ -1,4 +1,4 @@
 @startuml
-Dictionary o-- ArchiveShelf : aggregation
 Library o-- ArchiveShelf : aggregation
+Dictionary o-- ArchiveShelf : aggregation
 @enduml

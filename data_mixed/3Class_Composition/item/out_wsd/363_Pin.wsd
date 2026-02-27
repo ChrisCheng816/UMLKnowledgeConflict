@@ -1,4 +1,4 @@
 @startuml
-Pin *-- Port : composition
 Laptop *-- Port : composition
+Pin *-- Port : composition
 @enduml

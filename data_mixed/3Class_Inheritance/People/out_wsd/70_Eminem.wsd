@@ -1,4 +1,4 @@
 @startuml
-Musician <|-- Rapper : inheritance
 Eminem <|-- Rapper : inheritance
+Musician <|-- Rapper : inheritance
 @enduml

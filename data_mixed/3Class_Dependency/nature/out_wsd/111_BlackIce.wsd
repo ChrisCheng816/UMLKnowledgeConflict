@@ -1,4 +1,4 @@
 @startuml
-FreezingRain ..> ColdAir : dependency
 FreezingRain ..> BlackIce : dependency
+FreezingRain ..> ColdAir : dependency
 @enduml

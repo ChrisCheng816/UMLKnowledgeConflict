@@ -1,4 +1,4 @@
 @startuml
-Dish <|-- EggDish : inheritance
 Omelette <|-- EggDish : inheritance
+Dish <|-- EggDish : inheritance
 @enduml

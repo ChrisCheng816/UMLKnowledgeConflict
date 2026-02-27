@@ -1,4 +1,4 @@
 @startuml
-SparePart o-- PartsCrate : aggregation
 HardwareStore o-- PartsCrate : aggregation
+SparePart o-- PartsCrate : aggregation
 @enduml

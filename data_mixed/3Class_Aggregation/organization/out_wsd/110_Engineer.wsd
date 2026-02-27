@@ -1,4 +1,4 @@
 @startuml
-Engineer o-- Department : aggregation
 Company o-- Department : aggregation
+Engineer o-- Department : aggregation
 @enduml

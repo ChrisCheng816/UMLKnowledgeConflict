@@ -1,4 +1,4 @@
 @startuml
-Bird <|-- Stork : inheritance
 WhiteStork <|-- Stork : inheritance
+Bird <|-- Stork : inheritance
 @enduml

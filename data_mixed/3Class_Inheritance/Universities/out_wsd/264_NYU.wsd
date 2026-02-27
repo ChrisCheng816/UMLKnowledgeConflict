@@ -1,4 +1,4 @@
 @startuml
-University <|-- PrivateUniversity : inheritance
 NYU <|-- PrivateUniversity : inheritance
+University <|-- PrivateUniversity : inheritance
 @enduml

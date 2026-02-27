@@ -1,4 +1,4 @@
 @startuml
-Seed *-- Core : composition
 Apple *-- Core : composition
+Seed *-- Core : composition
 @enduml

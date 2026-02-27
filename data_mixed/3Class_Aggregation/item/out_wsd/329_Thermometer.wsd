@@ -1,4 +1,4 @@
 @startuml
-Thermometer o-- Cabinet : aggregation
 Pharmacy o-- Cabinet : aggregation
+Thermometer o-- Cabinet : aggregation
 @enduml

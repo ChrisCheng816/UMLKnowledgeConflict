@@ -1,4 +1,4 @@
 @startuml
-Base *-- Feather : composition
 Penguin *-- Feather : composition
+Base *-- Feather : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Accessory <|-- Watch : inheritance
 Smartwatch <|-- Watch : inheritance
+Accessory <|-- Watch : inheritance
 @enduml

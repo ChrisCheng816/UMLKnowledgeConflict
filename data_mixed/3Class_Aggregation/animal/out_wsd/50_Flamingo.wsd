@@ -1,4 +1,4 @@
 @startuml
-Flamingo o-- Aviary : aggregation
 Zoo o-- Aviary : aggregation
+Flamingo o-- Aviary : aggregation
 @enduml

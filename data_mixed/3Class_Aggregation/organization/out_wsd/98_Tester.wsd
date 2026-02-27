@@ -1,4 +1,4 @@
 @startuml
-Tester o-- Department : aggregation
 Company o-- Department : aggregation
+Tester o-- Department : aggregation
 @enduml

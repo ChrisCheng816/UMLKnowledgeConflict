@@ -1,4 +1,4 @@
 @startuml
-Derailleur *-- Drivetrain : composition
 Bicycle *-- Drivetrain : composition
+Derailleur *-- Drivetrain : composition
 @enduml
