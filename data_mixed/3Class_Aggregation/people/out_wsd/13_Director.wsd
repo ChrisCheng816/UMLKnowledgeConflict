@@ -1,4 +1,4 @@
 @startuml
-University o-- Board : aggregation
 Director o-- Board : aggregation
+Director o-- University : aggregation
 @enduml

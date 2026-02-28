@@ -1,4 +1,4 @@
 @startuml
-Community o-- Club : aggregation
 Skier o-- Club : aggregation
+Skier o-- Community : aggregation
 @enduml

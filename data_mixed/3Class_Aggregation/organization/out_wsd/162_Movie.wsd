@@ -1,4 +1,4 @@
 @startuml
-StreamingService o-- Queue : aggregation
 Movie o-- Queue : aggregation
+Movie o-- StreamingService : aggregation
 @enduml

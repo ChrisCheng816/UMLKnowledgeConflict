@@ -1,4 +1,4 @@
 @startuml
-Tree *-- Root : composition
 Tip *-- Root : composition
+Tip *-- Tree : composition
 @enduml

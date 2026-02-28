@@ -1,4 +1,4 @@
 @startuml
-House *-- Attic : composition
 Truss *-- Attic : composition
+Truss *-- House : composition
 @enduml

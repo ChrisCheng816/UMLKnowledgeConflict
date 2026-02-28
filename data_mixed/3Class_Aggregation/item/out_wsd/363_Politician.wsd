@@ -1,4 +1,4 @@
 @startuml
-Parliament o-- Committee : aggregation
 Politician o-- Committee : aggregation
+Politician o-- Parliament : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sanctuary o-- Cage : aggregation
 Hamster o-- Cage : aggregation
+Hamster o-- Sanctuary : aggregation
 @enduml

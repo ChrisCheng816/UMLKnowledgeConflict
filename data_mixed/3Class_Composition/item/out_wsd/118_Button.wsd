@@ -1,4 +1,4 @@
 @startuml
-Flashlight *-- Switch : composition
 Button *-- Switch : composition
+Button *-- Flashlight : composition
 @enduml

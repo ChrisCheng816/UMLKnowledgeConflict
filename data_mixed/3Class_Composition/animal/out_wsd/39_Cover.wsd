@@ -1,4 +1,4 @@
 @startuml
-Salmon *-- Gill : composition
 Cover *-- Gill : composition
+Cover *-- Salmon : composition
 @enduml

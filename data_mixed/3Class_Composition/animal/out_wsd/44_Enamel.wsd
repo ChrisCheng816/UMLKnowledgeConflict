@@ -1,4 +1,4 @@
 @startuml
-Tiger *-- Tooth : composition
 Enamel *-- Tooth : composition
+Enamel *-- Tiger : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sofa *-- Cushion : composition
 Filling *-- Cushion : composition
+Filling *-- Sofa : composition
 @enduml

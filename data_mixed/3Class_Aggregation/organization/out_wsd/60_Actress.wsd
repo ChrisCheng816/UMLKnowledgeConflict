@@ -1,4 +1,4 @@
 @startuml
-Theater o-- Cast : aggregation
 Actress o-- Cast : aggregation
+Actress o-- Theater : aggregation
 @enduml

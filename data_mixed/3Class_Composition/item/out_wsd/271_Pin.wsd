@@ -1,4 +1,4 @@
 @startuml
-Watch *-- Band : composition
 Pin *-- Band : composition
+Pin *-- Watch : composition
 @enduml

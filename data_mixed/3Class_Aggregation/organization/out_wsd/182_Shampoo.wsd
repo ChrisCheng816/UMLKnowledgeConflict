@@ -1,4 +1,4 @@
 @startuml
-Supermarket o-- Aisle : aggregation
 Shampoo o-- Aisle : aggregation
+Shampoo o-- Supermarket : aggregation
 @enduml

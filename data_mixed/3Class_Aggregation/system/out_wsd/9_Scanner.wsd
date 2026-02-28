@@ -1,4 +1,4 @@
 @startuml
-University o-- Laboratory : aggregation
 Scanner o-- Laboratory : aggregation
+Scanner o-- University : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-University o-- Library : aggregation
 Book o-- Library : aggregation
+Book o-- University : aggregation
 @enduml

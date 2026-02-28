@@ -1,4 +1,4 @@
 @startuml
-Car *-- Engine : composition
 Belt *-- Engine : composition
+Belt *-- Car : composition
 @enduml

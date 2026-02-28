@@ -1,4 +1,4 @@
 @startuml
-Vacuum *-- Canister : composition
 Wheel *-- Canister : composition
+Wheel *-- Vacuum : composition
 @enduml

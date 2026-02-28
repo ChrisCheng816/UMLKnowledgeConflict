@@ -1,4 +1,4 @@
 @startuml
-Car *-- Trunk : composition
 Hinge *-- Trunk : composition
+Hinge *-- Car : composition
 @enduml

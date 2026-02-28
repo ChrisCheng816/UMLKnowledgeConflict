@@ -1,4 +1,4 @@
 @startuml
-Comic *-- Panel : composition
 Dialogue *-- Panel : composition
+Dialogue *-- Comic : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Blender *-- Blade : composition
 Tip *-- Blade : composition
+Tip *-- Blender : composition
 @enduml

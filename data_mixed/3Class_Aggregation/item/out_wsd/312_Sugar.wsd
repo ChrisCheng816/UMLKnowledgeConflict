@@ -1,4 +1,4 @@
 @startuml
-Kitchen o-- Pantry : aggregation
 Sugar o-- Pantry : aggregation
+Sugar o-- Kitchen : aggregation
 @enduml

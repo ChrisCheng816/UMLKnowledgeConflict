@@ -1,4 +1,4 @@
 @startuml
-FireStation o-- Crew : aggregation
 Firefighter o-- Crew : aggregation
+Firefighter o-- FireStation : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Coconut *-- Shell : composition
 Eye *-- Shell : composition
+Eye *-- Coconut : composition
 @enduml

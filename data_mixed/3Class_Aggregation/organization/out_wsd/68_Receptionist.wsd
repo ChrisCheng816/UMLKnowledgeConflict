@@ -1,4 +1,4 @@
 @startuml
-Company o-- Staff : aggregation
 Receptionist o-- Staff : aggregation
+Receptionist o-- Company : aggregation
 @enduml

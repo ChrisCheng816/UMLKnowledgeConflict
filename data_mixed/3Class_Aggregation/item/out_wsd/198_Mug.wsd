@@ -1,4 +1,4 @@
 @startuml
-Kitchen o-- Cabinet : aggregation
 Mug o-- Cabinet : aggregation
+Mug o-- Kitchen : aggregation
 @enduml

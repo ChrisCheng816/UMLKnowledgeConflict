@@ -1,4 +1,4 @@
 @startuml
-House *-- ElectricalSystem : composition
 Conduit *-- ElectricalSystem : composition
+Conduit *-- House : composition
 @enduml

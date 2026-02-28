@@ -1,4 +1,4 @@
 @startuml
-Piano *-- Key : composition
 Lever *-- Key : composition
+Lever *-- Piano : composition
 @enduml

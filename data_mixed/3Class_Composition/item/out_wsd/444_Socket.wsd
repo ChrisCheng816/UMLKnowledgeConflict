@@ -1,4 +1,4 @@
 @startuml
-Lamp *-- Base : composition
 Socket *-- Base : composition
+Socket *-- Lamp : composition
 @enduml

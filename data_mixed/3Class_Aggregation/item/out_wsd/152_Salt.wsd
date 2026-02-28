@@ -1,4 +1,4 @@
 @startuml
-Pantry o-- Jar : aggregation
 Salt o-- Jar : aggregation
+Salt o-- Pantry : aggregation
 @enduml

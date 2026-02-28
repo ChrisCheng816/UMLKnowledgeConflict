@@ -1,4 +1,4 @@
 @startuml
-StreamingService o-- Catalog : aggregation
 Documentary o-- Catalog : aggregation
+Documentary o-- StreamingService : aggregation
 @enduml

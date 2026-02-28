@@ -1,4 +1,4 @@
 @startuml
-Desk *-- Drawer : composition
 Slide *-- Drawer : composition
+Slide *-- Desk : composition
 @enduml

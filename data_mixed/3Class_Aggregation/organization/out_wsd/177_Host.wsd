@@ -1,4 +1,4 @@
 @startuml
-RadioStation o-- Roster : aggregation
 Host o-- Roster : aggregation
+Host o-- RadioStation : aggregation
 @enduml

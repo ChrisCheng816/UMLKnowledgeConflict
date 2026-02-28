@@ -1,4 +1,4 @@
 @startuml
-Bicycle *-- Drivetrain : composition
 Pulley *-- Drivetrain : composition
+Pulley *-- Bicycle : composition
 @enduml

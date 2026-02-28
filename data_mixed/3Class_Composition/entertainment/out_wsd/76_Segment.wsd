@@ -1,4 +1,4 @@
 @startuml
-Podcast *-- Episode : composition
 Segment *-- Episode : composition
+Segment *-- Podcast : composition
 @enduml

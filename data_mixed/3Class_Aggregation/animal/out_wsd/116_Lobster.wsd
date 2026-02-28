@@ -1,4 +1,4 @@
 @startuml
-Aquarium o-- Tank : aggregation
 Lobster o-- Tank : aggregation
+Lobster o-- Aquarium : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Shoe *-- Sole : composition
 Heel *-- Sole : composition
+Heel *-- Shoe : composition
 @enduml

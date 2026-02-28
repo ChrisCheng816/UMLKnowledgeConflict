@@ -1,4 +1,4 @@
 @startuml
-Oven *-- Rack : composition
 Rail *-- Rack : composition
+Rail *-- Oven : composition
 @enduml

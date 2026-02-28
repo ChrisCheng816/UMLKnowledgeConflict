@@ -1,4 +1,4 @@
 @startuml
-School o-- Staff : aggregation
 Teacher o-- Staff : aggregation
+Teacher o-- School : aggregation
 @enduml

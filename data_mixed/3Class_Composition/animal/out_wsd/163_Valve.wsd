@@ -1,4 +1,4 @@
 @startuml
-Person *-- Heart : composition
 Valve *-- Heart : composition
+Valve *-- Person : composition
 @enduml

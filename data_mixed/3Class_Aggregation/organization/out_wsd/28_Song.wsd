@@ -1,4 +1,4 @@
 @startuml
-MusicApp o-- Queue : aggregation
 Song o-- Queue : aggregation
+Song o-- MusicApp : aggregation
 @enduml

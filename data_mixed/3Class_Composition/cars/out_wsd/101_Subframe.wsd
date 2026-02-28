@@ -1,4 +1,4 @@
 @startuml
-Car *-- Suspension : composition
 Subframe *-- Suspension : composition
+Subframe *-- Car : composition
 @enduml

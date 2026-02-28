@@ -1,4 +1,4 @@
 @startuml
-Supermarket o-- Basket : aggregation
 Grapes o-- Basket : aggregation
+Grapes o-- Supermarket : aggregation
 @enduml

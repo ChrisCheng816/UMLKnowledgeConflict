@@ -1,4 +1,4 @@
 @startuml
-City o-- Fleet : aggregation
 Snowplow o-- Fleet : aggregation
+Snowplow o-- City : aggregation
 @enduml

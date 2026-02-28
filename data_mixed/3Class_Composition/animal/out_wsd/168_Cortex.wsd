@@ -1,4 +1,4 @@
 @startuml
-Person *-- Brain : composition
 Cortex *-- Brain : composition
+Cortex *-- Person : composition
 @enduml

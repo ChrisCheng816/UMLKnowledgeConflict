@@ -1,4 +1,4 @@
 @startuml
-Car *-- Suspension : composition
 ShockAbsorber *-- Suspension : composition
+ShockAbsorber *-- Car : composition
 @enduml

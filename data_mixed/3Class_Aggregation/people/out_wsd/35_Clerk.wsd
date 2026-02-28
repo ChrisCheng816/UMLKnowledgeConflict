@@ -1,4 +1,4 @@
 @startuml
-Bank o-- Branch : aggregation
 Clerk o-- Branch : aggregation
+Clerk o-- Bank : aggregation
 @enduml

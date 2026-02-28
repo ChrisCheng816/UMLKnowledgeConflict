@@ -1,4 +1,4 @@
 @startuml
-Goose *-- Foot : composition
 Claw *-- Foot : composition
+Claw *-- Goose : composition
 @enduml

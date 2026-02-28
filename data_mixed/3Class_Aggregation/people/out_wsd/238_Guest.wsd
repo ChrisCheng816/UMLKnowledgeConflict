@@ -1,4 +1,4 @@
 @startuml
-Theater o-- Audience : aggregation
 Guest o-- Audience : aggregation
+Guest o-- Theater : aggregation
 @enduml

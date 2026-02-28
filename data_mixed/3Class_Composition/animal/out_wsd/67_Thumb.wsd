@@ -1,4 +1,4 @@
 @startuml
-Person *-- Hand : composition
 Thumb *-- Hand : composition
+Thumb *-- Person : composition
 @enduml

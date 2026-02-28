@@ -1,4 +1,4 @@
 @startuml
-Kitchen o-- Cabinet : aggregation
 Fork o-- Cabinet : aggregation
+Fork o-- Kitchen : aggregation
 @enduml

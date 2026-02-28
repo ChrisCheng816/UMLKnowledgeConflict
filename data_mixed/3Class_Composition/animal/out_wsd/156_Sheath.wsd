@@ -1,4 +1,4 @@
 @startuml
-Goat *-- Horn : composition
 Sheath *-- Horn : composition
+Sheath *-- Goat : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-House *-- Ceiling : composition
 Vent *-- Ceiling : composition
+Vent *-- House : composition
 @enduml

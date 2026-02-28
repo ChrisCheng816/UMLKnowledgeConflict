@@ -1,4 +1,4 @@
 @startuml
-School o-- Club : aggregation
 Gardener o-- Club : aggregation
+Gardener o-- School : aggregation
 @enduml

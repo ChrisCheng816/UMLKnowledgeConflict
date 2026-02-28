@@ -1,4 +1,4 @@
 @startuml
-Ticket *-- Stub : composition
 Barcode *-- Stub : composition
+Barcode *-- Ticket : composition
 @enduml

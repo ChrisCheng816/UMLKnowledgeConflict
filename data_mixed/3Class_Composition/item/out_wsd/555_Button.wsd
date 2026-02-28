@@ -1,4 +1,4 @@
 @startuml
-Backpack *-- Pocket : composition
 Button *-- Pocket : composition
+Button *-- Backpack : composition
 @enduml

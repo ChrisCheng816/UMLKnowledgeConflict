@@ -1,4 +1,4 @@
 @startuml
-Smartphone *-- BatteryPack : composition
 Cell *-- BatteryPack : composition
+Cell *-- Smartphone : composition
 @enduml

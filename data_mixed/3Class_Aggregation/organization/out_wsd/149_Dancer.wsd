@@ -1,4 +1,4 @@
 @startuml
-Theater o-- Company : aggregation
 Dancer o-- Company : aggregation
+Dancer o-- Theater : aggregation
 @enduml

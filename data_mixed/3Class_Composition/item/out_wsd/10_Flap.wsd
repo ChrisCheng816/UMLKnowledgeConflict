@@ -1,4 +1,4 @@
 @startuml
-Airplane *-- Wing : composition
 Flap *-- Wing : composition
+Flap *-- Airplane : composition
 @enduml

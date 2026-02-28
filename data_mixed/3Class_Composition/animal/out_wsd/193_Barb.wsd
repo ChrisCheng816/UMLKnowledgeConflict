@@ -1,4 +1,4 @@
 @startuml
-Bee *-- Stinger : composition
 Barb *-- Stinger : composition
+Barb *-- Bee : composition
 @enduml

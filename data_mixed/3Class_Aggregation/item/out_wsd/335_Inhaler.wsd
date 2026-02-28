@@ -1,4 +1,4 @@
 @startuml
-Pharmacy o-- Cabinet : aggregation
 Inhaler o-- Cabinet : aggregation
+Inhaler o-- Pharmacy : aggregation
 @enduml

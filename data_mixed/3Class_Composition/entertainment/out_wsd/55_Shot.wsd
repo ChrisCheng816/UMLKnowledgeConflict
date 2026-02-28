@@ -1,4 +1,4 @@
 @startuml
-Movie *-- Scene : composition
 Shot *-- Scene : composition
+Shot *-- Movie : composition
 @enduml

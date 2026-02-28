@@ -1,4 +1,4 @@
 @startuml
-Aviary o-- Cage : aggregation
 Robin o-- Cage : aggregation
+Robin o-- Aviary : aggregation
 @enduml

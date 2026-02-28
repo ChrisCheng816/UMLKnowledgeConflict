@@ -1,4 +1,4 @@
 @startuml
-HockeyStick *-- Blade : composition
 Toe *-- Blade : composition
+Toe *-- HockeyStick : composition
 @enduml

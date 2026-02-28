@@ -1,4 +1,4 @@
 @startuml
-Studio o-- Crew : aggregation
 Photographer o-- Crew : aggregation
+Photographer o-- Studio : aggregation
 @enduml

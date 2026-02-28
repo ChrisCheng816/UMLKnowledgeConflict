@@ -1,4 +1,4 @@
 @startuml
-University o-- Committee : aggregation
 Representative o-- Committee : aggregation
+Representative o-- University : aggregation
 @enduml

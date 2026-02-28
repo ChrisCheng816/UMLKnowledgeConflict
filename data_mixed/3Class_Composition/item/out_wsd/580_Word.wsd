@@ -1,4 +1,4 @@
 @startuml
-Sentence *-- Clause : composition
 Word *-- Clause : composition
+Word *-- Sentence : composition
 @enduml

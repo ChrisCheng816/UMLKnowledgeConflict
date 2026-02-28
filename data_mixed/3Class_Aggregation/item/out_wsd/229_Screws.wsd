@@ -1,4 +1,4 @@
 @startuml
-Garage o-- Toolbox : aggregation
 Screws o-- Toolbox : aggregation
+Screws o-- Garage : aggregation
 @enduml

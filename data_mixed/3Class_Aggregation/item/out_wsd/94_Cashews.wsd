@@ -1,4 +1,4 @@
 @startuml
-Supermarket o-- Bag : aggregation
 Cashews o-- Bag : aggregation
+Cashews o-- Supermarket : aggregation
 @enduml

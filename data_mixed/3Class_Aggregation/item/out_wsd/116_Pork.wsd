@@ -1,4 +1,4 @@
 @startuml
-Supermarket o-- Cart : aggregation
 Pork o-- Cart : aggregation
+Pork o-- Supermarket : aggregation
 @enduml

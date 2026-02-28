@@ -1,4 +1,4 @@
 @startuml
-Scissors *-- Handle : composition
 Loop *-- Handle : composition
+Loop *-- Scissors : composition
 @enduml

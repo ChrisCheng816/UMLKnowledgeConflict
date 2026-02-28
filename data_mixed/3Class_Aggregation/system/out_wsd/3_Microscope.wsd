@@ -1,4 +1,4 @@
 @startuml
-University o-- Laboratory : aggregation
 Microscope o-- Laboratory : aggregation
+Microscope o-- University : aggregation
 @enduml

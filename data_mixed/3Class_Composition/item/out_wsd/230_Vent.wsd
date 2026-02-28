@@ -1,4 +1,4 @@
 @startuml
-House *-- Plumbing : composition
 Vent *-- Plumbing : composition
+Vent *-- House : composition
 @enduml

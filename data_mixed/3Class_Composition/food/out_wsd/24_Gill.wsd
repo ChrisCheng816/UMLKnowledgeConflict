@@ -1,4 +1,4 @@
 @startuml
-Mushroom *-- Cap : composition
 Gill *-- Cap : composition
+Gill *-- Mushroom : composition
 @enduml

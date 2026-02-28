@@ -1,4 +1,4 @@
 @startuml
-Company o-- Department : aggregation
 Salesperson o-- Department : aggregation
+Salesperson o-- Company : aggregation
 @enduml

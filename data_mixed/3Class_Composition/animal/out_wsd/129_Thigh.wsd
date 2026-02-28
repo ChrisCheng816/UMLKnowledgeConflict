@@ -1,4 +1,4 @@
 @startuml
-Frog *-- Leg : composition
 Thigh *-- Leg : composition
+Thigh *-- Frog : composition
 @enduml

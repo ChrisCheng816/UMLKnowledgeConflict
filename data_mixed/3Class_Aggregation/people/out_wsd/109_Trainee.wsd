@@ -1,4 +1,4 @@
 @startuml
-Workshop o-- Class : aggregation
 Trainee o-- Class : aggregation
+Trainee o-- Workshop : aggregation
 @enduml

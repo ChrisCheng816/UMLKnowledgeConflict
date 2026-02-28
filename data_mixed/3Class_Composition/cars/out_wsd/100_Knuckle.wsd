@@ -1,4 +1,4 @@
 @startuml
-Car *-- Suspension : composition
 Knuckle *-- Suspension : composition
+Knuckle *-- Car : composition
 @enduml

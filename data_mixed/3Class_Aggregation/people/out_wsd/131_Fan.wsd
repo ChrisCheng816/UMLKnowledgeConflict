@@ -1,4 +1,4 @@
 @startuml
-Stadium o-- Club : aggregation
 Fan o-- Club : aggregation
+Fan o-- Stadium : aggregation
 @enduml

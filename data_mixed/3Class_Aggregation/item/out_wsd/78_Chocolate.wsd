@@ -1,4 +1,4 @@
 @startuml
-Supermarket o-- Bag : aggregation
 Chocolate o-- Bag : aggregation
+Chocolate o-- Supermarket : aggregation
 @enduml

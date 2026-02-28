@@ -1,4 +1,4 @@
 @startuml
-Aquarium o-- Tank : aggregation
 Shrimp o-- Tank : aggregation
+Shrimp o-- Aquarium : aggregation
 @enduml

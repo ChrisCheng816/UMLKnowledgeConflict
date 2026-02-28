@@ -1,4 +1,4 @@
 @startuml
-Ant *-- Head : composition
 Antenna *-- Head : composition
+Antenna *-- Ant : composition
 @enduml

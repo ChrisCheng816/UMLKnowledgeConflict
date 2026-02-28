@@ -1,4 +1,4 @@
 @startuml
-Scorpion *-- Tail : composition
 Stinger *-- Tail : composition
+Stinger *-- Scorpion : composition
 @enduml

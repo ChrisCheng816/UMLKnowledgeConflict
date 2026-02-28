@@ -49,19 +49,8 @@ def _format_class_desc(nodes):
 
 
 def _build_relation_prompt(nodes, relation="inheritance", query_pair=(0, 1)):
-    src_idx, dst_idx = _coerce_single_query_pair(query_pair)
-    # Prompt template asks about "node2 relation node1".
-    # Swap once here so the final question becomes "nodes[src_idx] relation nodes[dst_idx]".
-    prompt, triplet_slots = build_relation_prompt_template(
-        nodes,
-        relation=relation,
-        query_pair=(dst_idx, src_idx),
-    )
-    triplet_slots["node1"] = nodes[src_idx]
-    triplet_slots["node2"] = nodes[dst_idx]
-    triplet_slots["query_src_idx"] = src_idx
-    triplet_slots["query_dst_idx"] = dst_idx
-    return prompt, triplet_slots
+    query_pair = _coerce_single_query_pair(query_pair)
+    return build_relation_prompt_template(nodes, relation=relation, query_pair=query_pair)
 
 
 def _coerce_single_query_pair(query_pair):

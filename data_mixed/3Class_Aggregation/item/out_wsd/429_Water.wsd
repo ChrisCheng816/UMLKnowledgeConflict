@@ -1,4 +1,4 @@
 @startuml
-Supermarket o-- Cooler : aggregation
 Water o-- Cooler : aggregation
+Water o-- Supermarket : aggregation
 @enduml

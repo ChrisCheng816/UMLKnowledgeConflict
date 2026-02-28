@@ -1,4 +1,4 @@
 @startuml
-Garage o-- Cabinet : aggregation
 Flashlight o-- Cabinet : aggregation
+Flashlight o-- Garage : aggregation
 @enduml

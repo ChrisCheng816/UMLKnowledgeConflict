@@ -1,4 +1,4 @@
 @startuml
-House *-- Window : composition
 Sash *-- Window : composition
+Sash *-- House : composition
 @enduml

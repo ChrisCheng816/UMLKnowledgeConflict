@@ -1,4 +1,4 @@
 @startuml
-Octopus *-- Sucker : composition
 Ring *-- Sucker : composition
+Ring *-- Octopus : composition
 @enduml

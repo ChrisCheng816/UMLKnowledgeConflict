@@ -1,4 +1,4 @@
 @startuml
-Sanctuary o-- Enclosure : aggregation
 Toad o-- Enclosure : aggregation
+Toad o-- Sanctuary : aggregation
 @enduml

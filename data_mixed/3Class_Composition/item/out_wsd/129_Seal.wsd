@@ -1,4 +1,4 @@
 @startuml
-CoffeeMaker *-- Pump : composition
 Seal *-- Pump : composition
+Seal *-- CoffeeMaker : composition
 @enduml

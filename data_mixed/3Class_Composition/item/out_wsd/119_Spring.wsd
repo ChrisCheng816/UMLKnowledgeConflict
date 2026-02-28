@@ -1,4 +1,4 @@
 @startuml
-Flashlight *-- Switch : composition
 Spring *-- Switch : composition
+Spring *-- Flashlight : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Store o-- Box : aggregation
 Game o-- Box : aggregation
+Game o-- Store : aggregation
 @enduml

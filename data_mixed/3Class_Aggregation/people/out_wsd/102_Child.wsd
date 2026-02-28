@@ -1,4 +1,4 @@
 @startuml
-Camp o-- Class : aggregation
 Child o-- Class : aggregation
+Child o-- Camp : aggregation
 @enduml

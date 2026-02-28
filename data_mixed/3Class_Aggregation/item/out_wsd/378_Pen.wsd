@@ -1,4 +1,4 @@
 @startuml
-Office o-- Drawer : aggregation
 Pen o-- Drawer : aggregation
+Pen o-- Office : aggregation
 @enduml

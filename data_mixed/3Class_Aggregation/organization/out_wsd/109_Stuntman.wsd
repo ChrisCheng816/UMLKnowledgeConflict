@@ -1,4 +1,4 @@
 @startuml
-MovieSet o-- Crew : aggregation
 Stuntman o-- Crew : aggregation
+Stuntman o-- MovieSet : aggregation
 @enduml

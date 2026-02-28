@@ -1,4 +1,4 @@
 @startuml
-Sanctuary o-- Enclosure : aggregation
 Cow o-- Enclosure : aggregation
+Cow o-- Sanctuary : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Farm o-- Stable : aggregation
 Horse o-- Stable : aggregation
+Horse o-- Farm : aggregation
 @enduml

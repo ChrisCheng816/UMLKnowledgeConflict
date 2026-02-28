@@ -1,4 +1,4 @@
 @startuml
-Court o-- Staff : aggregation
 Judge o-- Staff : aggregation
+Judge o-- Court : aggregation
 @enduml

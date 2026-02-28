@@ -1,4 +1,4 @@
 @startuml
-Jacket *-- Sleeve : composition
 Lining *-- Sleeve : composition
+Lining *-- Jacket : composition
 @enduml

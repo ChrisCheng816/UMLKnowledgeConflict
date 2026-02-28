@@ -1,4 +1,4 @@
 @startuml
-Oak *-- Leaf : composition
 Blade *-- Leaf : composition
+Blade *-- Oak : composition
 @enduml

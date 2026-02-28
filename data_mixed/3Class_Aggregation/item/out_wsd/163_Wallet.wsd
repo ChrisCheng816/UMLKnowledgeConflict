@@ -1,4 +1,4 @@
 @startuml
-Bedroom o-- Drawer : aggregation
 Wallet o-- Drawer : aggregation
+Wallet o-- Bedroom : aggregation
 @enduml

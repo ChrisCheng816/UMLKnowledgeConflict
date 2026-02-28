@@ -1,4 +1,4 @@
 @startuml
-Museum o-- Team : aggregation
 Security o-- Team : aggregation
+Security o-- Museum : aggregation
 @enduml

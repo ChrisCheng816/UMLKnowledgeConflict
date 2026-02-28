@@ -1,4 +1,4 @@
 @startuml
-Garage o-- Toolbox : aggregation
 Drill o-- Toolbox : aggregation
+Drill o-- Garage : aggregation
 @enduml

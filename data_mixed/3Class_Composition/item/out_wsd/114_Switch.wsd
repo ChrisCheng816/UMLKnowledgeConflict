@@ -1,4 +1,4 @@
 @startuml
-Microwave *-- Door : composition
 Switch *-- Door : composition
+Switch *-- Microwave : composition
 @enduml

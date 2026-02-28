@@ -1,4 +1,4 @@
 @startuml
-Warehouse o-- Crate : aggregation
 Battery o-- Crate : aggregation
+Battery o-- Warehouse : aggregation
 @enduml

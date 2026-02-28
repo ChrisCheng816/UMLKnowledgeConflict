@@ -1,4 +1,4 @@
 @startuml
-Reserve o-- Enclosure : aggregation
 Elk o-- Enclosure : aggregation
+Elk o-- Reserve : aggregation
 @enduml

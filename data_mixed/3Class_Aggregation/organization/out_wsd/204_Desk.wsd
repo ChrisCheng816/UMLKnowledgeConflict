@@ -1,4 +1,4 @@
 @startuml
-School o-- Classroom : aggregation
 Desk o-- Classroom : aggregation
+Desk o-- School : aggregation
 @enduml

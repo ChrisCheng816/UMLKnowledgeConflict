@@ -1,4 +1,4 @@
 @startuml
-Person *-- Nose : composition
 Bridge *-- Nose : composition
+Bridge *-- Person : composition
 @enduml

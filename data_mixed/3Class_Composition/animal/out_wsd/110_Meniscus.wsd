@@ -1,4 +1,4 @@
 @startuml
-Person *-- Knee : composition
 Meniscus *-- Knee : composition
+Meniscus *-- Person : composition
 @enduml

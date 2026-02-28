@@ -1,4 +1,4 @@
 @startuml
-Radio *-- Speaker : composition
 Cone *-- Speaker : composition
+Cone *-- Radio : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Goose *-- Wing : composition
 Feather *-- Wing : composition
+Feather *-- Goose : composition
 @enduml

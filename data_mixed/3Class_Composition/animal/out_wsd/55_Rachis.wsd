@@ -1,4 +1,4 @@
 @startuml
-Penguin *-- Feather : composition
 Rachis *-- Feather : composition
+Rachis *-- Penguin : composition
 @enduml

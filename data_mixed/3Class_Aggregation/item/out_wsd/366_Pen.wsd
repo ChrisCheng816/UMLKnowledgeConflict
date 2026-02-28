@@ -1,4 +1,4 @@
 @startuml
-Backpack o-- Box : aggregation
 Pen o-- Box : aggregation
+Pen o-- Backpack : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Theater o-- Staff : aggregation
 Usher o-- Staff : aggregation
+Usher o-- Theater : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Smartphone *-- CameraModule : composition
 ImageSensor *-- CameraModule : composition
+ImageSensor *-- Smartphone : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Almond *-- Shell : composition
 Kernel *-- Shell : composition
+Kernel *-- Almond : composition
 @enduml

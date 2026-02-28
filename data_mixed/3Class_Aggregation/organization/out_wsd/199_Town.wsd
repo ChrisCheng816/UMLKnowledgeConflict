@@ -1,4 +1,4 @@
 @startuml
-State o-- County : aggregation
 Town o-- County : aggregation
+Town o-- State : aggregation
 @enduml

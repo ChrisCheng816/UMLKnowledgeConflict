@@ -1,4 +1,4 @@
 @startuml
-Moose *-- Antler : composition
 Branch *-- Antler : composition
+Branch *-- Moose : composition
 @enduml

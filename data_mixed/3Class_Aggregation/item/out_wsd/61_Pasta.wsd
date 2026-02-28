@@ -1,4 +1,4 @@
 @startuml
-Pantry o-- Box : aggregation
 Pasta o-- Box : aggregation
+Pasta o-- Pantry : aggregation
 @enduml

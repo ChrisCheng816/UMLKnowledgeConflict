@@ -1,4 +1,4 @@
 @startuml
-Kennel o-- Run : aggregation
 Dog o-- Run : aggregation
+Dog o-- Kennel : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Laptop *-- Display : composition
 Panel *-- Display : composition
+Panel *-- Laptop : composition
 @enduml

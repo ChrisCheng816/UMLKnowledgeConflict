@@ -1,4 +1,4 @@
 @startuml
-Vacuum *-- Motor : composition
 Brush *-- Motor : composition
+Brush *-- Vacuum : composition
 @enduml

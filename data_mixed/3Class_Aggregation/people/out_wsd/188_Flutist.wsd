@@ -1,4 +1,4 @@
 @startuml
-Studio o-- Orchestra : aggregation
 Flutist o-- Orchestra : aggregation
+Flutist o-- Studio : aggregation
 @enduml

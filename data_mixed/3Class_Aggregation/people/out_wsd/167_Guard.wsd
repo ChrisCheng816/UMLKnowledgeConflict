@@ -1,4 +1,4 @@
 @startuml
-Company o-- Department : aggregation
 Guard o-- Department : aggregation
+Guard o-- Company : aggregation
 @enduml

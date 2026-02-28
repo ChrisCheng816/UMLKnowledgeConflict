@@ -1,4 +1,4 @@
 @startuml
-Car *-- Engine : composition
 Camshaft *-- Engine : composition
+Camshaft *-- Car : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Airline o-- Fleet : aggregation
 CargoPlane o-- Fleet : aggregation
+CargoPlane o-- Airline : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Person *-- Eye : composition
 Pupil *-- Eye : composition
+Pupil *-- Person : composition
 @enduml

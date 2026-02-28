@@ -1,4 +1,4 @@
 @startuml
-Zoo o-- Terrarium : aggregation
 Salamander o-- Terrarium : aggregation
+Salamander o-- Zoo : aggregation
 @enduml

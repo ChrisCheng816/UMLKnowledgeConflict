@@ -1,4 +1,4 @@
 @startuml
-Reserve o-- Flock : aggregation
 Dove o-- Flock : aggregation
+Dove o-- Reserve : aggregation
 @enduml

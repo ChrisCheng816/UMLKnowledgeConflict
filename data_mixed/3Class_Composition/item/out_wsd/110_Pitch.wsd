@@ -1,4 +1,4 @@
 @startuml
-Blender *-- Blade : composition
 Pitch *-- Blade : composition
+Pitch *-- Blender : composition
 @enduml

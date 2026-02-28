@@ -1,4 +1,4 @@
 @startuml
-City o-- Committee : aggregation
 Mediator o-- Committee : aggregation
+Mediator o-- City : aggregation
 @enduml

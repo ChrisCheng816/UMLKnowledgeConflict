@@ -1,4 +1,4 @@
 @startuml
-Chair *-- Seat : composition
 Foam *-- Seat : composition
+Foam *-- Chair : composition
 @enduml

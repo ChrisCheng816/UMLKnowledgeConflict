@@ -1,4 +1,4 @@
 @startuml
-Onion *-- Bulb : composition
 Layer *-- Bulb : composition
+Layer *-- Onion : composition
 @enduml

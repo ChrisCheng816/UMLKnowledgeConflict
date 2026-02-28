@@ -1,4 +1,4 @@
 @startuml
-PoliceStation o-- Squad : aggregation
 Officer o-- Squad : aggregation
+Officer o-- PoliceStation : aggregation
 @enduml

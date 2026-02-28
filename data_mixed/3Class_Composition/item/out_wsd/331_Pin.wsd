@@ -1,4 +1,4 @@
 @startuml
-Desktop *-- Memory : composition
 Pin *-- Memory : composition
+Pin *-- Desktop : composition
 @enduml

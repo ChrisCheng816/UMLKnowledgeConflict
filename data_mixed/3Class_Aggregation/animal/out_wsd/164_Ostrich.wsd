@@ -1,4 +1,4 @@
 @startuml
-Aviary o-- Habitat : aggregation
 Ostrich o-- Habitat : aggregation
+Ostrich o-- Aviary : aggregation
 @enduml

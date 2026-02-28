@@ -1,4 +1,4 @@
 @startuml
-Ginger *-- Root : composition
 Skin *-- Root : composition
+Skin *-- Ginger : composition
 @enduml

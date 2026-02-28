@@ -1,4 +1,4 @@
 @startuml
-Crab *-- Claw : composition
 Shell *-- Claw : composition
+Shell *-- Crab : composition
 @enduml

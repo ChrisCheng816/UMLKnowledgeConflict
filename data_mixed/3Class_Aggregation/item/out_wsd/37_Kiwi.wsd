@@ -1,4 +1,4 @@
 @startuml
-GroceryStore o-- Basket : aggregation
 Kiwi o-- Basket : aggregation
+Kiwi o-- GroceryStore : aggregation
 @enduml

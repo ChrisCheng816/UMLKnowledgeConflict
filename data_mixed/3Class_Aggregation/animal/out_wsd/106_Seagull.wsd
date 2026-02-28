@@ -1,4 +1,4 @@
 @startuml
-Sanctuary o-- Aviary : aggregation
 Seagull o-- Aviary : aggregation
+Seagull o-- Sanctuary : aggregation
 @enduml

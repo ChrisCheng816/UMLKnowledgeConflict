@@ -1,4 +1,4 @@
 @startuml
-HardwareStore o-- Box : aggregation
 Screwdriver o-- Box : aggregation
+Screwdriver o-- HardwareStore : aggregation
 @enduml

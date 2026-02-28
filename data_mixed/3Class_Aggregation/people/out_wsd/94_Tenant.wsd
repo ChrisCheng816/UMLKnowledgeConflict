@@ -1,4 +1,4 @@
 @startuml
-ApartmentBuilding o-- TenantAssociation : aggregation
 Tenant o-- TenantAssociation : aggregation
+Tenant o-- ApartmentBuilding : aggregation
 @enduml

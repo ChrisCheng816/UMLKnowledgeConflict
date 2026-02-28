@@ -1,4 +1,4 @@
 @startuml
-Marina o-- Fleet : aggregation
 Sailboat o-- Fleet : aggregation
+Sailboat o-- Marina : aggregation
 @enduml

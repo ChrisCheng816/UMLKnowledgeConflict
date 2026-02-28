@@ -1,4 +1,4 @@
 @startuml
-Garage o-- Bin : aggregation
 Battery o-- Bin : aggregation
+Battery o-- Garage : aggregation
 @enduml

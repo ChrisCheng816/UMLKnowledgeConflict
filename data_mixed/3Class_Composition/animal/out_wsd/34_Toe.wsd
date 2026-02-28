@@ -1,4 +1,4 @@
 @startuml
-Horse *-- Hoof : composition
 Toe *-- Hoof : composition
+Toe *-- Horse : composition
 @enduml

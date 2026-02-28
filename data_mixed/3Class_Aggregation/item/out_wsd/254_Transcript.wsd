@@ -1,4 +1,4 @@
 @startuml
-Backpack o-- Binder : aggregation
 Transcript o-- Binder : aggregation
+Transcript o-- Backpack : aggregation
 @enduml

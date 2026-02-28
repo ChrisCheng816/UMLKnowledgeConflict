@@ -1,4 +1,4 @@
 @startuml
-Drum *-- Head : composition
 Rim *-- Head : composition
+Rim *-- Drum : composition
 @enduml

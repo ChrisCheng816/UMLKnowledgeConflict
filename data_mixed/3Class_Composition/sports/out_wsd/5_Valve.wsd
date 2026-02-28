@@ -1,4 +1,4 @@
 @startuml
-Soccerball *-- Bladder : composition
 Valve *-- Bladder : composition
+Valve *-- Soccerball : composition
 @enduml

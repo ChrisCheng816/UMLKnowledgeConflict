@@ -1,4 +1,4 @@
 @startuml
-Refrigerator *-- Freezer : composition
 Drawer *-- Freezer : composition
+Drawer *-- Refrigerator : composition
 @enduml

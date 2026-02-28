@@ -1,4 +1,4 @@
 @startuml
-Pantry o-- Jar : aggregation
 Peppercorn o-- Jar : aggregation
+Peppercorn o-- Pantry : aggregation
 @enduml

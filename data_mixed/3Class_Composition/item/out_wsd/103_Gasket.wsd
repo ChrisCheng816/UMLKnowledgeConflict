@@ -1,4 +1,4 @@
 @startuml
-Blender *-- Jar : composition
 Gasket *-- Jar : composition
+Gasket *-- Blender : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Museum o-- Department : aggregation
 Curator o-- Department : aggregation
+Curator o-- Museum : aggregation
 @enduml

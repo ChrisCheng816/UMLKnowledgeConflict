@@ -1,4 +1,4 @@
 @startuml
-Theater o-- Cast : aggregation
 Understudy o-- Cast : aggregation
+Understudy o-- Theater : aggregation
 @enduml

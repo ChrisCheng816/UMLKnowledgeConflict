@@ -1,4 +1,4 @@
 @startuml
-Phone *-- Speaker : composition
 Diaphragm *-- Speaker : composition
+Diaphragm *-- Phone : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Book *-- Page : composition
 Number *-- Page : composition
+Number *-- Book : composition
 @enduml

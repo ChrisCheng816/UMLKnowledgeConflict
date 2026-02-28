@@ -1,4 +1,4 @@
 @startuml
-City o-- Fleet : aggregation
 Bulldozer o-- Fleet : aggregation
+Bulldozer o-- City : aggregation
 @enduml

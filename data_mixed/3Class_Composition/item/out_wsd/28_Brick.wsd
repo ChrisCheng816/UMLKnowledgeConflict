@@ -1,4 +1,4 @@
 @startuml
-Room *-- Wall : composition
 Brick *-- Wall : composition
+Brick *-- Room : composition
 @enduml

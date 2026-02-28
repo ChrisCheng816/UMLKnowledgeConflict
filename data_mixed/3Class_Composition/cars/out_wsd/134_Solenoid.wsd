@@ -1,4 +1,4 @@
 @startuml
-Car *-- Starter : composition
 Solenoid *-- Starter : composition
+Solenoid *-- Car : composition
 @enduml

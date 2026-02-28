@@ -1,4 +1,4 @@
 @startuml
-Community o-- Committee : aggregation
 Advisor o-- Committee : aggregation
+Advisor o-- Community : aggregation
 @enduml

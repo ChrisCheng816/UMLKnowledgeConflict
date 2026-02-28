@@ -1,4 +1,4 @@
 @startuml
-FarmersMarket o-- Crate : aggregation
 Coconut o-- Crate : aggregation
+Coconut o-- FarmersMarket : aggregation
 @enduml

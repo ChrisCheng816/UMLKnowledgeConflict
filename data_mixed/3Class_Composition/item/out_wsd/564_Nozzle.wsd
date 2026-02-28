@@ -1,4 +1,4 @@
 @startuml
-Vacuum *-- Hose : composition
 Nozzle *-- Hose : composition
+Nozzle *-- Vacuum : composition
 @enduml

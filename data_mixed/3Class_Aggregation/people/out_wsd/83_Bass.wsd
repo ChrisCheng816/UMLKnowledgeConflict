@@ -1,4 +1,4 @@
 @startuml
-Choir o-- Section : aggregation
 Bass o-- Section : aggregation
+Bass o-- Choir : aggregation
 @enduml

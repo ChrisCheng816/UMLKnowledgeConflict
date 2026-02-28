@@ -1,4 +1,4 @@
 @startuml
-Bamboo *-- Stem : composition
 Bark *-- Stem : composition
+Bark *-- Bamboo : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Car *-- FuelTank : composition
 Cap *-- FuelTank : composition
+Cap *-- Car : composition
 @enduml

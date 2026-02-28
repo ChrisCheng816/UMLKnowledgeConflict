@@ -1,4 +1,4 @@
 @startuml
-Shoe *-- Lace : composition
 Thread *-- Lace : composition
+Thread *-- Shoe : composition
 @enduml

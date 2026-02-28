@@ -1,4 +1,4 @@
 @startuml
-City o-- Fleet : aggregation
 SubwayCar o-- Fleet : aggregation
+SubwayCar o-- City : aggregation
 @enduml

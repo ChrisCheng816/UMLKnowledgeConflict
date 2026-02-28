@@ -1,4 +1,4 @@
 @startuml
-Blender *-- Jar : composition
 Lid *-- Jar : composition
+Lid *-- Blender : composition
 @enduml

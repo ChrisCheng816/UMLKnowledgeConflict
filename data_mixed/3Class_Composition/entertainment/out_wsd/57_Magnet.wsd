@@ -1,4 +1,4 @@
 @startuml
-Guitar *-- Pickup : composition
 Magnet *-- Pickup : composition
+Magnet *-- Guitar : composition
 @enduml

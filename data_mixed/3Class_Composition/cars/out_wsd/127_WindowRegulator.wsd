@@ -1,4 +1,4 @@
 @startuml
-Car *-- Door : composition
 WindowRegulator *-- Door : composition
+WindowRegulator *-- Car : composition
 @enduml

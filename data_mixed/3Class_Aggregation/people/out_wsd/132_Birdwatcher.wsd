@@ -1,4 +1,4 @@
 @startuml
-Company o-- Club : aggregation
 Birdwatcher o-- Club : aggregation
+Birdwatcher o-- Company : aggregation
 @enduml

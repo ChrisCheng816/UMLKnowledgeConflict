@@ -1,4 +1,4 @@
 @startuml
-Cafe o-- Staff : aggregation
 Barista o-- Staff : aggregation
+Barista o-- Cafe : aggregation
 @enduml

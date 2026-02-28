@@ -1,4 +1,4 @@
 @startuml
-Ranch o-- Pen : aggregation
 Deer o-- Pen : aggregation
+Deer o-- Ranch : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Pantry o-- Box : aggregation
 Cookie o-- Box : aggregation
+Cookie o-- Pantry : aggregation
 @enduml

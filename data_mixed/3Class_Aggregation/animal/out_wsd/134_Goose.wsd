@@ -1,4 +1,4 @@
 @startuml
-Sanctuary o-- Coop : aggregation
 Goose o-- Coop : aggregation
+Goose o-- Sanctuary : aggregation
 @enduml

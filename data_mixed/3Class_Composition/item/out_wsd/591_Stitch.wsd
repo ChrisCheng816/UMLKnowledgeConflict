@@ -1,4 +1,4 @@
 @startuml
-Wallet *-- Pocket : composition
 Stitch *-- Pocket : composition
+Stitch *-- Wallet : composition
 @enduml

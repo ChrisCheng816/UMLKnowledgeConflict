@@ -1,4 +1,4 @@
 @startuml
-Hat *-- Brim : composition
 Edge *-- Brim : composition
+Edge *-- Hat : composition
 @enduml

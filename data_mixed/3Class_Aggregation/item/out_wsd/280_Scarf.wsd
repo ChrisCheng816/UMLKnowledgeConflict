@@ -1,4 +1,4 @@
 @startuml
-Entryway o-- Rack : aggregation
 Scarf o-- Rack : aggregation
+Scarf o-- Entryway : aggregation
 @enduml

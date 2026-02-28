@@ -1,4 +1,4 @@
 @startuml
-School o-- Staff : aggregation
 Counselor o-- Staff : aggregation
+Counselor o-- School : aggregation
 @enduml

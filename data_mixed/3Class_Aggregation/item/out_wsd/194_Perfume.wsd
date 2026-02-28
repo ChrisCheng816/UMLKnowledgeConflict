@@ -1,4 +1,4 @@
 @startuml
-Bathroom o-- Cabinet : aggregation
 Perfume o-- Cabinet : aggregation
+Perfume o-- Bathroom : aggregation
 @enduml

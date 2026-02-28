@@ -1,4 +1,4 @@
 @startuml
-Farm o-- Flock : aggregation
 Chicken o-- Flock : aggregation
+Chicken o-- Farm : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Pizza *-- Slice : composition
 Crust *-- Slice : composition
+Crust *-- Pizza : composition
 @enduml

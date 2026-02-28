@@ -1,4 +1,4 @@
 @startuml
-Shoe *-- Lace : composition
 Aglet *-- Lace : composition
+Aglet *-- Shoe : composition
 @enduml

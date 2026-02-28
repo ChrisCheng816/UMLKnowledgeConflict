@@ -1,4 +1,4 @@
 @startuml
-Trashcan *-- Lid : composition
 Handle *-- Lid : composition
+Handle *-- Trashcan : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Shelf *-- Bracket : composition
 Nail *-- Bracket : composition
+Nail *-- Shelf : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-University o-- Club : aggregation
 Knitter o-- Club : aggregation
+Knitter o-- University : aggregation
 @enduml

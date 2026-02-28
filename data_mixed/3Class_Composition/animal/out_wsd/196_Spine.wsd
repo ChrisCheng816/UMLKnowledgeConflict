@@ -1,4 +1,4 @@
 @startuml
-Fish *-- Fin : composition
 Spine *-- Fin : composition
+Spine *-- Fish : composition
 @enduml

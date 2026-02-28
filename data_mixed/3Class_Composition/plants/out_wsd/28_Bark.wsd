@@ -1,4 +1,4 @@
 @startuml
-Maple *-- Branch : composition
 Bark *-- Branch : composition
+Bark *-- Maple : composition
 @enduml

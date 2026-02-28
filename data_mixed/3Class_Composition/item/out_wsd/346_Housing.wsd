@@ -1,4 +1,4 @@
 @startuml
-Desktop *-- PowerSupply : composition
 Housing *-- PowerSupply : composition
+Housing *-- Desktop : composition
 @enduml

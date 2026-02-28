@@ -1,4 +1,4 @@
 @startuml
-School o-- Orchestra : aggregation
 Cellist o-- Orchestra : aggregation
+Cellist o-- School : aggregation
 @enduml

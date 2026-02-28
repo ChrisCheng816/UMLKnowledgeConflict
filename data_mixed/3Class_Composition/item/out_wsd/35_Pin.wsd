@@ -1,4 +1,4 @@
 @startuml
-Door *-- Hinge : composition
 Pin *-- Hinge : composition
+Pin *-- Door : composition
 @enduml

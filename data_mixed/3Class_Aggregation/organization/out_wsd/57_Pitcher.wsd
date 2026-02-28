@@ -1,4 +1,4 @@
 @startuml
-SportsClub o-- Team : aggregation
 Pitcher o-- Team : aggregation
+Pitcher o-- SportsClub : aggregation
 @enduml

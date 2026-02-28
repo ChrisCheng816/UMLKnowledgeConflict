@@ -1,4 +1,4 @@
 @startuml
-Toaster *-- HeatingElement : composition
 Coil *-- HeatingElement : composition
+Coil *-- Toaster : composition
 @enduml

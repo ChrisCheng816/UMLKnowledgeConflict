@@ -1,4 +1,4 @@
 @startuml
-Kitchen o-- Jar : aggregation
 Sugar o-- Jar : aggregation
+Sugar o-- Kitchen : aggregation
 @enduml

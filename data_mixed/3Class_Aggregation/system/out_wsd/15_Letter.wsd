@@ -1,4 +1,4 @@
 @startuml
-PostalSystem o-- PostOffice : aggregation
 Letter o-- PostOffice : aggregation
+Letter o-- PostalSystem : aggregation
 @enduml

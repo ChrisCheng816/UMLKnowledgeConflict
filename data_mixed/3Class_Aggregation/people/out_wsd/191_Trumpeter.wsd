@@ -1,4 +1,4 @@
 @startuml
-School o-- Orchestra : aggregation
 Trumpeter o-- Orchestra : aggregation
+Trumpeter o-- School : aggregation
 @enduml

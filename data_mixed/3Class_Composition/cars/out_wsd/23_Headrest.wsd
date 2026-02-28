@@ -1,4 +1,4 @@
 @startuml
-Car *-- Seat : composition
 Headrest *-- Seat : composition
+Headrest *-- Car : composition
 @enduml

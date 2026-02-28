@@ -1,4 +1,4 @@
 @startuml
-Lamp *-- Shade : composition
 Wire *-- Shade : composition
+Wire *-- Lamp : composition
 @enduml

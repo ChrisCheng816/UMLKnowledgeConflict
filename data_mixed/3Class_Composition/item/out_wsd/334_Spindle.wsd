@@ -1,4 +1,4 @@
 @startuml
-Desktop *-- Drive : composition
 Spindle *-- Drive : composition
+Spindle *-- Desktop : composition
 @enduml

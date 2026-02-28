@@ -1,4 +1,4 @@
 @startuml
-Elephant *-- Trunk : composition
 Nostril *-- Trunk : composition
+Nostril *-- Elephant : composition
 @enduml

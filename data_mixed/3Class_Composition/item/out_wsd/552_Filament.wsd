@@ -1,4 +1,4 @@
 @startuml
-Lamp *-- Bulb : composition
 Filament *-- Bulb : composition
+Filament *-- Lamp : composition
 @enduml

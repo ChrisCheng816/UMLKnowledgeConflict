@@ -1,4 +1,4 @@
 @startuml
-Car *-- DoorPanel : composition
 Switch *-- DoorPanel : composition
+Switch *-- Car : composition
 @enduml

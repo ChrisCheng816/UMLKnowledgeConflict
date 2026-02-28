@@ -1,4 +1,4 @@
 @startuml
-LivingRoom o-- Shelf : aggregation
 Remote o-- Shelf : aggregation
+Remote o-- LivingRoom : aggregation
 @enduml

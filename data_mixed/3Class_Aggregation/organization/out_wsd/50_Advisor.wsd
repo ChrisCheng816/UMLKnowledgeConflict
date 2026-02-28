@@ -1,4 +1,4 @@
 @startuml
-University o-- Department : aggregation
 Advisor o-- Department : aggregation
+Advisor o-- University : aggregation
 @enduml

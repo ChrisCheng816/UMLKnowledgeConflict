@@ -1,4 +1,4 @@
 @startuml
-Microwave *-- Door : composition
 Screen *-- Door : composition
+Screen *-- Microwave : composition
 @enduml

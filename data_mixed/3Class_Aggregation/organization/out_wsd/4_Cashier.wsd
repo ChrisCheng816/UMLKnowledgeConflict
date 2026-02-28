@@ -1,4 +1,4 @@
 @startuml
-Store o-- Staff : aggregation
 Cashier o-- Staff : aggregation
+Cashier o-- Store : aggregation
 @enduml

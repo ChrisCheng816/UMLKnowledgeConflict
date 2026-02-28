@@ -1,4 +1,4 @@
 @startuml
-School o-- StudentCouncil : aggregation
 Representative o-- StudentCouncil : aggregation
+Representative o-- School : aggregation
 @enduml

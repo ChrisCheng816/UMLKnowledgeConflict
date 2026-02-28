@@ -1,4 +1,4 @@
 @startuml
-Sanctuary o-- Pen : aggregation
 Pig o-- Pen : aggregation
+Pig o-- Sanctuary : aggregation
 @enduml

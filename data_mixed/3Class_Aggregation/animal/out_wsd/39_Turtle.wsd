@@ -1,4 +1,4 @@
 @startuml
-Aquarium o-- Tank : aggregation
 Turtle o-- Tank : aggregation
+Turtle o-- Aquarium : aggregation
 @enduml

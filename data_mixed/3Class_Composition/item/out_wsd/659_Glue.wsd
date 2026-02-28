@@ -1,4 +1,4 @@
 @startuml
-Envelope *-- Flap : composition
 Glue *-- Flap : composition
+Glue *-- Envelope : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Bakery o-- Tray : aggregation
 Donut o-- Tray : aggregation
+Donut o-- Bakery : aggregation
 @enduml

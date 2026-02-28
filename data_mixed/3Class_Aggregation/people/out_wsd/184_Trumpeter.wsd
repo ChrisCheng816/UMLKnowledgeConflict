@@ -1,4 +1,4 @@
 @startuml
-Studio o-- Band : aggregation
 Trumpeter o-- Band : aggregation
+Trumpeter o-- Studio : aggregation
 @enduml

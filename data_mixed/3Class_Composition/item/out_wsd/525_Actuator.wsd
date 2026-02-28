@@ -1,4 +1,4 @@
 @startuml
-Robot *-- Arm : composition
 Actuator *-- Arm : composition
+Actuator *-- Robot : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cafe o-- Team : aggregation
 Cashier o-- Team : aggregation
+Cashier o-- Cafe : aggregation
 @enduml

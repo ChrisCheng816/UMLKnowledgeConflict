@@ -1,4 +1,4 @@
 @startuml
-House *-- Basement : composition
 Insulation *-- Basement : composition
+Insulation *-- House : composition
 @enduml

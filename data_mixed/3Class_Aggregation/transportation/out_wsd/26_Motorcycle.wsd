@@ -1,4 +1,4 @@
 @startuml
-City o-- Fleet : aggregation
 Motorcycle o-- Fleet : aggregation
+Motorcycle o-- City : aggregation
 @enduml

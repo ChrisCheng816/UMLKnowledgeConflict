@@ -1,4 +1,4 @@
 @startuml
-Garage o-- Bin : aggregation
 Cardboard o-- Bin : aggregation
+Cardboard o-- Garage : aggregation
 @enduml

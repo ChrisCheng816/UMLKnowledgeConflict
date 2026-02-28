@@ -1,4 +1,4 @@
 @startuml
-Flashlight *-- Battery : composition
 Contact *-- Battery : composition
+Contact *-- Flashlight : composition
 @enduml

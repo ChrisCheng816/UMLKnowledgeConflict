@@ -1,4 +1,4 @@
 @startuml
-Swan *-- Neck : composition
 Feather *-- Neck : composition
+Feather *-- Swan : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Car *-- Exhaust : composition
 HeatShield *-- Exhaust : composition
+HeatShield *-- Car : composition
 @enduml

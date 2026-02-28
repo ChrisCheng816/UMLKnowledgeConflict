@@ -1,4 +1,4 @@
 @startuml
-Entry *-- Line : composition
 Word *-- Line : composition
+Word *-- Entry : composition
 @enduml

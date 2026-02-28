@@ -1,4 +1,4 @@
 @startuml
-Closet *-- Rod : composition
 Sleeve *-- Rod : composition
+Sleeve *-- Closet : composition
 @enduml

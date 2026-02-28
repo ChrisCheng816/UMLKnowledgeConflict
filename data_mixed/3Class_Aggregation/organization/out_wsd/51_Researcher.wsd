@@ -1,4 +1,4 @@
 @startuml
-University o-- Department : aggregation
 Researcher o-- Department : aggregation
+Researcher o-- University : aggregation
 @enduml

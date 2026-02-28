@@ -1,4 +1,4 @@
 @startuml
-Shark *-- Fin : composition
 Membrane *-- Fin : composition
+Membrane *-- Shark : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Lamp *-- Base : composition
 Screw *-- Base : composition
+Screw *-- Lamp : composition
 @enduml

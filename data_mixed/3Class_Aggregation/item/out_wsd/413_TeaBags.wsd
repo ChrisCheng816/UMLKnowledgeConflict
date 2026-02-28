@@ -1,4 +1,4 @@
 @startuml
-GroceryStore o-- Shelf : aggregation
 TeaBags o-- Shelf : aggregation
+TeaBags o-- GroceryStore : aggregation
 @enduml

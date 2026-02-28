@@ -1,4 +1,4 @@
 @startuml
-FarmersMarket o-- Crate : aggregation
 Garlic o-- Crate : aggregation
+Garlic o-- FarmersMarket : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-TransitSystem o-- Route : aggregation
 Stop o-- Route : aggregation
+Stop o-- TransitSystem : aggregation
 @enduml

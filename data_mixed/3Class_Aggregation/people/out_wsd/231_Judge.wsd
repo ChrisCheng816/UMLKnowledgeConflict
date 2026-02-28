@@ -1,4 +1,4 @@
 @startuml
-University o-- Panel : aggregation
 Judge o-- Panel : aggregation
+Judge o-- University : aggregation
 @enduml

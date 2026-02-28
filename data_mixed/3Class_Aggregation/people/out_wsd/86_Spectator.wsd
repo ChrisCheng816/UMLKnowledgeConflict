@@ -1,4 +1,4 @@
 @startuml
-Stadium o-- Crowd : aggregation
 Spectator o-- Crowd : aggregation
+Spectator o-- Stadium : aggregation
 @enduml

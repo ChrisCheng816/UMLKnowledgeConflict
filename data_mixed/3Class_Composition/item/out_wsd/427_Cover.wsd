@@ -1,4 +1,4 @@
 @startuml
-Bed *-- Mattress : composition
 Cover *-- Mattress : composition
+Cover *-- Bed : composition
 @enduml

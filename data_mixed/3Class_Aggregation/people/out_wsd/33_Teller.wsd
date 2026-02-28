@@ -1,4 +1,4 @@
 @startuml
-Bank o-- Branch : aggregation
 Teller o-- Branch : aggregation
+Teller o-- Bank : aggregation
 @enduml

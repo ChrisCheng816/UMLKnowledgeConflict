@@ -1,4 +1,4 @@
 @startuml
-MuseumStore o-- GlassCabinet : aggregation
 MuseumArtifact o-- GlassCabinet : aggregation
+MuseumArtifact o-- MuseumStore : aggregation
 @enduml

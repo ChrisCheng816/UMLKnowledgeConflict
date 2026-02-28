@@ -1,4 +1,4 @@
 @startuml
-Backpack o-- Binder : aggregation
 Report o-- Binder : aggregation
+Report o-- Backpack : aggregation
 @enduml

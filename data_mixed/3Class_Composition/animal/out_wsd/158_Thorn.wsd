@@ -1,4 +1,4 @@
 @startuml
-Plant *-- Stem : composition
 Thorn *-- Stem : composition
+Thorn *-- Plant : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Cauliflower *-- Floret : composition
 Stem *-- Floret : composition
+Stem *-- Cauliflower : composition
 @enduml

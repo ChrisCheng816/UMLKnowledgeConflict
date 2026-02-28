@@ -1,4 +1,4 @@
 @startuml
-Car *-- Transmission : composition
 Gearset *-- Transmission : composition
+Gearset *-- Car : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Salmon *-- Tail : composition
 Fin *-- Tail : composition
+Fin *-- Salmon : composition
 @enduml

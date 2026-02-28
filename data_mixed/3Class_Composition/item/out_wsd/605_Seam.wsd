@@ -1,4 +1,4 @@
 @startuml
-Pants *-- Pocket : composition
 Seam *-- Pocket : composition
+Seam *-- Pants : composition
 @enduml

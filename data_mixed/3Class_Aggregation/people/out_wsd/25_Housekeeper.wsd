@@ -1,4 +1,4 @@
 @startuml
-Hotel o-- Staff : aggregation
 Housekeeper o-- Staff : aggregation
+Housekeeper o-- Hotel : aggregation
 @enduml

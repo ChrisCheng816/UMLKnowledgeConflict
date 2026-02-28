@@ -1,4 +1,4 @@
 @startuml
-Ranch o-- Herd : aggregation
 Yak o-- Herd : aggregation
+Yak o-- Ranch : aggregation
 @enduml

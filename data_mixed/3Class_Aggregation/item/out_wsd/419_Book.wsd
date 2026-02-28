@@ -1,4 +1,4 @@
 @startuml
-Library o-- Box : aggregation
 Book o-- Box : aggregation
+Book o-- Library : aggregation
 @enduml

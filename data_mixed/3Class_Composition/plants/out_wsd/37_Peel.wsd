@@ -1,4 +1,4 @@
 @startuml
-Orange *-- Fruit : composition
 Peel *-- Fruit : composition
+Peel *-- Orange : composition
 @enduml

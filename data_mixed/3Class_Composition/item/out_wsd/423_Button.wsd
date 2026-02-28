@@ -1,4 +1,4 @@
 @startuml
-Sofa *-- Cushion : composition
 Button *-- Cushion : composition
+Button *-- Sofa : composition
 @enduml

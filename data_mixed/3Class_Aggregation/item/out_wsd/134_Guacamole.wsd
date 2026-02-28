@@ -1,4 +1,4 @@
 @startuml
-Pantry o-- Jar : aggregation
 Guacamole o-- Jar : aggregation
+Guacamole o-- Pantry : aggregation
 @enduml

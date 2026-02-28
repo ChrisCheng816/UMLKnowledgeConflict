@@ -1,4 +1,4 @@
 @startuml
-MovingCompany o-- MovingCrew : aggregation
 Mover o-- MovingCrew : aggregation
+Mover o-- MovingCompany : aggregation
 @enduml

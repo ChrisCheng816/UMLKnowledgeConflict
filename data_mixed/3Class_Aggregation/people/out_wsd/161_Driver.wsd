@@ -1,4 +1,4 @@
 @startuml
-Company o-- Department : aggregation
 Driver o-- Department : aggregation
+Driver o-- Company : aggregation
 @enduml

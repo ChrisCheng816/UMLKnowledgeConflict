@@ -1,4 +1,4 @@
 @startuml
-Person *-- Jaw : composition
 Muscle *-- Jaw : composition
+Muscle *-- Person : composition
 @enduml

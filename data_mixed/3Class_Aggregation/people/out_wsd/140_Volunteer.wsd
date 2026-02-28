@@ -1,4 +1,4 @@
 @startuml
-Charity o-- Committee : aggregation
 Volunteer o-- Committee : aggregation
+Volunteer o-- Charity : aggregation
 @enduml

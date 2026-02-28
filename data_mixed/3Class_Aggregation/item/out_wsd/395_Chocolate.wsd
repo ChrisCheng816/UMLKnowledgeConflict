@@ -1,4 +1,4 @@
 @startuml
-Supermarket o-- Shelf : aggregation
 Chocolate o-- Shelf : aggregation
+Chocolate o-- Supermarket : aggregation
 @enduml

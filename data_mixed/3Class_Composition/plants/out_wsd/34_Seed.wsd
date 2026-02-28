@@ -1,4 +1,4 @@
 @startuml
-Pine *-- Cone : composition
 Seed *-- Cone : composition
+Seed *-- Pine : composition
 @enduml

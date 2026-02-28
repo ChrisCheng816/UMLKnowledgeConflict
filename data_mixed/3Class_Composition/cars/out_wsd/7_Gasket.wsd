@@ -1,4 +1,4 @@
 @startuml
-Car *-- Engine : composition
 Gasket *-- Engine : composition
+Gasket *-- Car : composition
 @enduml

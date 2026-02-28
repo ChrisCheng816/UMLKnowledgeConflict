@@ -1,4 +1,4 @@
 @startuml
-TransitSystem o-- Station : aggregation
 Kiosk o-- Station : aggregation
+Kiosk o-- TransitSystem : aggregation
 @enduml

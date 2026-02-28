@@ -1,4 +1,4 @@
 @startuml
-Theater o-- Audience : aggregation
 Fan o-- Audience : aggregation
+Fan o-- Theater : aggregation
 @enduml

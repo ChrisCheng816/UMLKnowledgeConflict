@@ -1,4 +1,4 @@
 @startuml
-Zoo o-- Enclosure : aggregation
 Cheetah o-- Enclosure : aggregation
+Cheetah o-- Zoo : aggregation
 @enduml

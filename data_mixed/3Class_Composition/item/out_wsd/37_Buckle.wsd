@@ -1,4 +1,4 @@
 @startuml
-Backpack *-- Strap : composition
 Buckle *-- Strap : composition
+Buckle *-- Backpack : composition
 @enduml

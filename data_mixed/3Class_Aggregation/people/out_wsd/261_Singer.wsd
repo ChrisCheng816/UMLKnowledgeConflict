@@ -1,4 +1,4 @@
 @startuml
-University o-- Choir : aggregation
 Singer o-- Choir : aggregation
+Singer o-- University : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Studio o-- Cast : aggregation
 Stuntman o-- Cast : aggregation
+Stuntman o-- Studio : aggregation
 @enduml

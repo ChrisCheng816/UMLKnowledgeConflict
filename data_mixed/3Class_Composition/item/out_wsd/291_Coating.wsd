@@ -1,4 +1,4 @@
 @startuml
-Phone *-- Screen : composition
 Coating *-- Screen : composition
+Coating *-- Phone : composition
 @enduml

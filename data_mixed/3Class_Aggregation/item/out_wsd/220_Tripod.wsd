@@ -1,4 +1,4 @@
 @startuml
-LivingRoom o-- Shelf : aggregation
 Tripod o-- Shelf : aggregation
+Tripod o-- LivingRoom : aggregation
 @enduml

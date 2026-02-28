@@ -1,4 +1,4 @@
 @startuml
-Sanctuary o-- Cage : aggregation
 Rabbit o-- Cage : aggregation
+Rabbit o-- Sanctuary : aggregation
 @enduml

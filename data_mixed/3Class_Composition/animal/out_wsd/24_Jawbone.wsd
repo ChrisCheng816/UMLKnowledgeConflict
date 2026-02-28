@@ -1,4 +1,4 @@
 @startuml
-Eagle *-- Beak : composition
 Jawbone *-- Beak : composition
+Jawbone *-- Eagle : composition
 @enduml

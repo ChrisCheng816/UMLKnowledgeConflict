@@ -1,4 +1,4 @@
 @startuml
-Library o-- Club : aggregation
 Booklover o-- Club : aggregation
+Booklover o-- Library : aggregation
 @enduml

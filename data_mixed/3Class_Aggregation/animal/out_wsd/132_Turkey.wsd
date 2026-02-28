@@ -1,4 +1,4 @@
 @startuml
-Farm o-- Coop : aggregation
 Turkey o-- Coop : aggregation
+Turkey o-- Farm : aggregation
 @enduml

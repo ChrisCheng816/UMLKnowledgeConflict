@@ -1,4 +1,4 @@
 @startuml
-Chair *-- Leg : composition
 Screw *-- Leg : composition
+Screw *-- Chair : composition
 @enduml

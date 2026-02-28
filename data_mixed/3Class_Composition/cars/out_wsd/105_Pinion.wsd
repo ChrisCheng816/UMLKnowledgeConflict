@@ -1,4 +1,4 @@
 @startuml
-Car *-- SteeringSystem : composition
 Pinion *-- SteeringSystem : composition
+Pinion *-- Car : composition
 @enduml

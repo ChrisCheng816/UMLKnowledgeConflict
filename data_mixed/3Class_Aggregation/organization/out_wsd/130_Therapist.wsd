@@ -1,4 +1,4 @@
 @startuml
-Hospital o-- Ward : aggregation
 Therapist o-- Ward : aggregation
+Therapist o-- Hospital : aggregation
 @enduml

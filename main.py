@@ -3,7 +3,7 @@ import os
 import re
 
 os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 os.environ["NCCL_P2P_DISABLE"] = "1"
 
 CLOSED_DEFAULT_MODELS = [
@@ -32,7 +32,10 @@ def parse_args():
         "--model-name",
         action="append",
         default=[],
-        help="Registered model name in model_registry.py. Repeatable. For open_vllm this is required.",
+        help=(
+            "Registered model name in model_registry.py. Repeatable. "
+            "For open_vllm, omit to run all models from MODEL_SPECS."
+        ),
     )
     parser.add_argument(
         "--out-prefix",
@@ -147,11 +150,9 @@ def main():
         # Delay heavy import so '--help' works even if runtime deps are not ready.
         from model_registry import resolve_models
 
-        if not args.model_name:
-            raise ValueError("open_vllm requires --model-name, and it must match model_registry.py entries.")
         models = resolve_models(model_names=args.model_name, model_paths=None)
     if not models:
-        raise ValueError("No model selected. Configure MODEL_SPECS or pass --model-name/--model-path.")
+        raise ValueError("No model selected. Configure MODEL_SPECS or pass --model-name.")
     print(f"[INFO] selected models: {[m['name'] for m in models]}")
 
     for model_item in models:

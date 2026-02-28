@@ -1,4 +1,4 @@
 @startuml
-Turtle *-- Mouth : composition
 Beak *-- Mouth : composition
+Beak *-- Turtle : composition
 @enduml

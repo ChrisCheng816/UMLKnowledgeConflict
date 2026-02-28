@@ -1,4 +1,4 @@
 @startuml
-Belt *-- Buckle : composition
 Frame *-- Buckle : composition
+Frame *-- Belt : composition
 @enduml

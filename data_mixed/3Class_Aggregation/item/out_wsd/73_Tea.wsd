@@ -1,4 +1,4 @@
 @startuml
-Cafe o-- Bottle : aggregation
 Tea o-- Bottle : aggregation
+Tea o-- Cafe : aggregation
 @enduml

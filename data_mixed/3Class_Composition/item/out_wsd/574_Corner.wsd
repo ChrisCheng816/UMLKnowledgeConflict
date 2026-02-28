@@ -1,4 +1,4 @@
 @startuml
-Table *-- Top : composition
 Corner *-- Top : composition
+Corner *-- Table : composition
 @enduml

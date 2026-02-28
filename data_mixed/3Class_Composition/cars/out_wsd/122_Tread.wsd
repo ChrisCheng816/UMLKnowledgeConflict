@@ -1,4 +1,4 @@
 @startuml
-Bicycle *-- Tire : composition
 Tread *-- Tire : composition
+Tread *-- Bicycle : composition
 @enduml

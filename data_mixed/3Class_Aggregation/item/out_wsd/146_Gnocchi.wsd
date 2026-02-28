@@ -1,4 +1,4 @@
 @startuml
-Restaurant o-- Plate : aggregation
 Gnocchi o-- Plate : aggregation
+Gnocchi o-- Restaurant : aggregation
 @enduml

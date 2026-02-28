@@ -1,4 +1,4 @@
 @startuml
-Bathroom o-- Cabinet : aggregation
 Towel o-- Cabinet : aggregation
+Towel o-- Bathroom : aggregation
 @enduml

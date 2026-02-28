@@ -1,4 +1,4 @@
 @startuml
-Bird *-- Wing : composition
 Humerus *-- Wing : composition
+Humerus *-- Bird : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Zoo o-- Enclosure : aggregation
 Meerkat o-- Enclosure : aggregation
+Meerkat o-- Zoo : aggregation
 @enduml

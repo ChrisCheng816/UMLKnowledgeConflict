@@ -1,4 +1,4 @@
 @startuml
-Refrigerator *-- Compressor : composition
 Housing *-- Compressor : composition
+Housing *-- Refrigerator : composition
 @enduml

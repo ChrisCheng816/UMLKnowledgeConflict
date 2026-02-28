@@ -1,4 +1,4 @@
 @startuml
-House *-- Foundation : composition
 Pier *-- Foundation : composition
+Pier *-- House : composition
 @enduml

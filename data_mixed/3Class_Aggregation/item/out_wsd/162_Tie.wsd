@@ -1,4 +1,4 @@
 @startuml
-Bedroom o-- Drawer : aggregation
 Tie o-- Drawer : aggregation
+Tie o-- Bedroom : aggregation
 @enduml

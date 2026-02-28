@@ -1,4 +1,4 @@
 @startuml
-Remote *-- Button : composition
 Spring *-- Button : composition
+Spring *-- Remote : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Goat *-- Leg : composition
 Knee *-- Leg : composition
+Knee *-- Goat : composition
 @enduml

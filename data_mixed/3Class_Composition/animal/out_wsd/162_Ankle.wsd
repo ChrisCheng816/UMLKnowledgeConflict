@@ -1,4 +1,4 @@
 @startuml
-Person *-- Leg : composition
 Ankle *-- Leg : composition
+Ankle *-- Person : composition
 @enduml

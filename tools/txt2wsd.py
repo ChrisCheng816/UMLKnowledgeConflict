@@ -160,16 +160,18 @@ def build_mixed_instances(
 
     Mixed rule
     - Keep node order identical to base instances.
-    - Keep the edge between the two old (2-class) nodes in the base/source direction.
-    - Flip only the edge connected with the newly added node.
+    - Keep the edge between the two old (2-class) main nodes in the base/source direction.
+    - For the second edge, connect:
+      second main node <-> secondary node (the newly added one).
+    - This second edge uses forward direction semantics.
 
-    Old/new pair indices by node layout
+    Main pair indices by node layout
     - forward:
-      aggregation/composition old=(0,1), new=(1,2)
-      inheritance/dependency old=(1,2), new=(0,1)
+      aggregation/composition main=(0,1), secondary=2
+      inheritance/dependency main=(1,2), secondary=0
     - reverse:
-      aggregation/composition old=(1,2), new=(0,1)
-      inheritance/dependency old=(0,1), new=(1,2)
+      aggregation/composition main=(1,2), secondary=0
+      inheritance/dependency main=(0,1), secondary=2
     """
     if node_layout not in {"forward", "reverse"}:
         raise ValueError(f"Unsupported node_layout: {node_layout}")
@@ -184,33 +186,31 @@ def build_mixed_instances(
             mixed_edges = list(inst.edges)
         elif inst.template_id in {"aggregation", "composition", "inheritance", "dependency"}:
             if inst.template_id in {"aggregation", "composition"}:
-                old_pair = (0, 1) if node_layout == "forward" else (1, 2)
-                new_pair = (1, 2) if node_layout == "forward" else (0, 1)
+                main_pair = (0, 1) if node_layout == "forward" else (1, 2)
+                secondary_idx = 2 if node_layout == "forward" else 0
             else:
-                old_pair = (1, 2) if node_layout == "forward" else (0, 1)
-                new_pair = (0, 1) if node_layout == "forward" else (1, 2)
+                main_pair = (1, 2) if node_layout == "forward" else (0, 1)
+                secondary_idx = 0 if node_layout == "forward" else 2
+
+            main1_idx, main2_idx = main_pair
 
             old_edge = _single_pair_edge(
-                nodes[old_pair[0]],
-                nodes[old_pair[1]],
+                nodes[main1_idx],
+                nodes[main2_idx],
                 inst.template_id,
                 reverse_pair=False,
             )
             new_edge = _single_pair_edge(
-                nodes[new_pair[0]],
-                nodes[new_pair[1]],
+                nodes[main2_idx],
+                nodes[secondary_idx],
                 inst.template_id,
-                reverse_pair=True,
+                reverse_pair=(node_layout == "reverse"),
             )
             if old_edge is None or new_edge is None:
                 mixed_edges = build_edges_from_nodes(nodes, inst.template_id) or []
             else:
-                # Preserve pair order as they appear in the node chain: (0,1) then (1,2).
-                pair_edges: Dict[tuple[int, int], str] = {
-                    old_pair: old_edge,
-                    new_pair: new_edge,
-                }
-                mixed_edges = [pair_edges[(0, 1)], pair_edges[(1, 2)]]
+                # Mixed edge order is semantic: main-main first, then main2-secondary.
+                mixed_edges = [old_edge, new_edge]
         else:
             mixed_edges = build_edges_from_nodes(nodes, inst.template_id) or []
 

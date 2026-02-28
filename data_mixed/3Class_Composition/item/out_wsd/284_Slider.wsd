@@ -1,4 +1,4 @@
 @startuml
-Jacket *-- Zipper : composition
 Slider *-- Zipper : composition
+Slider *-- Jacket : composition
 @enduml

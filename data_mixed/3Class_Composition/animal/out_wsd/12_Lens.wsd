@@ -1,4 +1,4 @@
 @startuml
-Peacock *-- Eye : composition
 Lens *-- Eye : composition
+Lens *-- Peacock : composition
 @enduml

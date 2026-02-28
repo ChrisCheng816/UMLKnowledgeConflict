@@ -1,4 +1,4 @@
 @startuml
-Company o-- Class : aggregation
 Apprentice o-- Class : aggregation
+Apprentice o-- Company : aggregation
 @enduml

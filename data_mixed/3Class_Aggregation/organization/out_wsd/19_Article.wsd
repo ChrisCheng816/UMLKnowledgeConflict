@@ -1,4 +1,4 @@
 @startuml
-Website o-- Archive : aggregation
 Article o-- Archive : aggregation
+Article o-- Website : aggregation
 @enduml

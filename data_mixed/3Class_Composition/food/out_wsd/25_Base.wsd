@@ -1,4 +1,4 @@
 @startuml
-Mushroom *-- Stem : composition
 Base *-- Stem : composition
+Base *-- Mushroom : composition
 @enduml

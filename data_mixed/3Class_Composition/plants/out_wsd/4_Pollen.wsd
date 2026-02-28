@@ -1,4 +1,4 @@
 @startuml
-Rose *-- Flower : composition
 Pollen *-- Flower : composition
+Pollen *-- Rose : composition
 @enduml

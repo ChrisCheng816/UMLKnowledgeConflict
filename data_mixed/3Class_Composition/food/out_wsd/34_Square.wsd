@@ -1,4 +1,4 @@
 @startuml
-Chocolate *-- Bar : composition
 Square *-- Bar : composition
+Square *-- Chocolate : composition
 @enduml

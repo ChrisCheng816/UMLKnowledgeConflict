@@ -1,4 +1,4 @@
 @startuml
-Company o-- Staff : aggregation
 Salesperson o-- Staff : aggregation
+Salesperson o-- Company : aggregation
 @enduml

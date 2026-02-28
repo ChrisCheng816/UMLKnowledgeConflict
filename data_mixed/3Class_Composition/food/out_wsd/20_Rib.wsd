@@ -1,4 +1,4 @@
 @startuml
-Lettuce *-- Leaf : composition
 Rib *-- Leaf : composition
+Rib *-- Lettuce : composition
 @enduml

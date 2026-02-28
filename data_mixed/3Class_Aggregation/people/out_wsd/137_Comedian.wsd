@@ -1,4 +1,4 @@
 @startuml
-Community o-- Club : aggregation
 Comedian o-- Club : aggregation
+Comedian o-- Community : aggregation
 @enduml

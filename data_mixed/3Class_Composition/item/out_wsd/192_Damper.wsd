@@ -1,4 +1,4 @@
 @startuml
-House *-- Chimney : composition
 Damper *-- Chimney : composition
+Damper *-- House : composition
 @enduml

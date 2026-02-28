@@ -1,4 +1,4 @@
 @startuml
-Bedroom o-- Drawer : aggregation
 Charger o-- Drawer : aggregation
+Charger o-- Bedroom : aggregation
 @enduml

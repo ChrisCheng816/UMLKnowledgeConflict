@@ -1,4 +1,4 @@
 @startuml
-University o-- Laboratory : aggregation
 Flask o-- Laboratory : aggregation
+Flask o-- University : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Blender *-- Blade : composition
 Curve *-- Blade : composition
+Curve *-- Blender : composition
 @enduml

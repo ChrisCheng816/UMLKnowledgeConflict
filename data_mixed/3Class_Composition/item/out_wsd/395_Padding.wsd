@@ -1,4 +1,4 @@
 @startuml
-Chair *-- Backrest : composition
 Padding *-- Backrest : composition
+Padding *-- Chair : composition
 @enduml

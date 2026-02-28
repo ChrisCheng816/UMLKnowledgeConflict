@@ -1,4 +1,4 @@
 @startuml
-Charity o-- Board : aggregation
 Governor o-- Board : aggregation
+Governor o-- Charity : aggregation
 @enduml

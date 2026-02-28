@@ -1,4 +1,4 @@
 @startuml
-Zoo o-- Enclosure : aggregation
 Skunk o-- Enclosure : aggregation
+Skunk o-- Zoo : aggregation
 @enduml

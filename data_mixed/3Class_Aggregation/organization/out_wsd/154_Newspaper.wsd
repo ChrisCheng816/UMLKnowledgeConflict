@@ -1,4 +1,4 @@
 @startuml
-University o-- Library : aggregation
 Newspaper o-- Library : aggregation
+Newspaper o-- University : aggregation
 @enduml

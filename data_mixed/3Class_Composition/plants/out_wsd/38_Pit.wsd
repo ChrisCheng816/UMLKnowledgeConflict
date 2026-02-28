@@ -1,4 +1,4 @@
 @startuml
-Peach *-- Fruit : composition
 Pit *-- Fruit : composition
+Pit *-- Peach : composition
 @enduml

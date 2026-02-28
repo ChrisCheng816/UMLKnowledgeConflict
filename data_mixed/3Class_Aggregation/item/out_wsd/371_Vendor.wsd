@@ -1,4 +1,4 @@
 @startuml
-Convention o-- Booth : aggregation
 Vendor o-- Booth : aggregation
+Vendor o-- Convention : aggregation
 @enduml

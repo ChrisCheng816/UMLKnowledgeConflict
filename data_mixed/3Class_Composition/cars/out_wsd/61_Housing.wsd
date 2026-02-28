@@ -1,4 +1,4 @@
 @startuml
-Car *-- Headlight : composition
 Housing *-- Headlight : composition
+Housing *-- Car : composition
 @enduml

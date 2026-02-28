@@ -1,4 +1,4 @@
 @startuml
-Rabbit *-- Head : composition
 Ear *-- Head : composition
+Ear *-- Rabbit : composition
 @enduml

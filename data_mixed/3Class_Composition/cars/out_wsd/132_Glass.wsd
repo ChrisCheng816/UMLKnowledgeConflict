@@ -1,4 +1,4 @@
 @startuml
-Car *-- Mirror : composition
 Glass *-- Mirror : composition
+Glass *-- Car : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Sanctuary o-- Aviary : aggregation
 Turkey o-- Aviary : aggregation
+Turkey o-- Sanctuary : aggregation
 @enduml

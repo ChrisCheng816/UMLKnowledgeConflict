@@ -1,4 +1,4 @@
 @startuml
-Orchestra o-- StringSection : aggregation
 Violinist o-- StringSection : aggregation
+Violinist o-- Orchestra : aggregation
 @enduml

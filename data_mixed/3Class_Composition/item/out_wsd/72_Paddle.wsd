@@ -1,4 +1,4 @@
 @startuml
-Washer *-- Drum : composition
 Paddle *-- Drum : composition
+Paddle *-- Washer : composition
 @enduml

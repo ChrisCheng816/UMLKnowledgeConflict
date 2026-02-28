@@ -1,4 +1,4 @@
 @startuml
-Shoe *-- Tongue : composition
 Padding *-- Tongue : composition
+Padding *-- Shoe : composition
 @enduml

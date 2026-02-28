@@ -1,4 +1,4 @@
 @startuml
-Museum o-- Collection : aggregation
 Painting o-- Collection : aggregation
+Painting o-- Museum : aggregation
 @enduml

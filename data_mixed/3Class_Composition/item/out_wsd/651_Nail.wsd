@@ -1,4 +1,4 @@
 @startuml
-Floor *-- Board : composition
 Nail *-- Board : composition
+Nail *-- Floor : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Carrot *-- Root : composition
 Cap *-- Root : composition
+Cap *-- Carrot : composition
 @enduml

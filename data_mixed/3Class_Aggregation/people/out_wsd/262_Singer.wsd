@@ -1,4 +1,4 @@
 @startuml
-Community o-- Club : aggregation
 Singer o-- Club : aggregation
+Singer o-- Community : aggregation
 @enduml

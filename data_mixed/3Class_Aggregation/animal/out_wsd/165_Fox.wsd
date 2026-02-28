@@ -1,4 +1,4 @@
 @startuml
-Reserve o-- Habitat : aggregation
 Fox o-- Habitat : aggregation
+Fox o-- Reserve : aggregation
 @enduml

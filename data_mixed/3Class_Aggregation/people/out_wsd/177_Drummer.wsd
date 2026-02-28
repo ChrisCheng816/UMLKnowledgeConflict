@@ -1,4 +1,4 @@
 @startuml
-Studio o-- Band : aggregation
 Drummer o-- Band : aggregation
+Drummer o-- Studio : aggregation
 @enduml

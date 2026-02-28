@@ -1,4 +1,4 @@
 @startuml
-Heart *-- Chamber : composition
 Valve *-- Chamber : composition
+Valve *-- Heart : composition
 @enduml

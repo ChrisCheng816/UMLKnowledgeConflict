@@ -1,4 +1,4 @@
 @startuml
-Newspaper *-- Column : composition
 Text *-- Column : composition
+Text *-- Newspaper : composition
 @enduml

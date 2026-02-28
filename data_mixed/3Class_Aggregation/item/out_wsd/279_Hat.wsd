@@ -1,4 +1,4 @@
 @startuml
-Entryway o-- Rack : aggregation
 Hat o-- Rack : aggregation
+Hat o-- Entryway : aggregation
 @enduml

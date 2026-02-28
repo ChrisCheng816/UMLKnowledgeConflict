@@ -1,4 +1,4 @@
 @startuml
-Zoo o-- Tank : aggregation
 Walrus o-- Tank : aggregation
+Walrus o-- Zoo : aggregation
 @enduml

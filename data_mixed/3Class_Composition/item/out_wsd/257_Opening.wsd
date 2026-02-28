@@ -1,4 +1,4 @@
 @startuml
-Jeans *-- Pocket : composition
 Opening *-- Pocket : composition
+Opening *-- Jeans : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Bathroom o-- Cabinet : aggregation
 Hairdryer o-- Cabinet : aggregation
+Hairdryer o-- Bathroom : aggregation
 @enduml

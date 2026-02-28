@@ -1,4 +1,4 @@
 @startuml
-GroceryStore o-- Basket : aggregation
 Lentils o-- Basket : aggregation
+Lentils o-- GroceryStore : aggregation
 @enduml

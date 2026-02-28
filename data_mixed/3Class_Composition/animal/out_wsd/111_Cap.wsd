@@ -1,4 +1,4 @@
 @startuml
-Person *-- Knee : composition
 Cap *-- Knee : composition
+Cap *-- Person : composition
 @enduml

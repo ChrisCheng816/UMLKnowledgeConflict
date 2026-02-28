@@ -1,4 +1,4 @@
 @startuml
-Pig *-- Head : composition
 Nose *-- Head : composition
+Nose *-- Pig : composition
 @enduml

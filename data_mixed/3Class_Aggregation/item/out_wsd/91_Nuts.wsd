@@ -1,4 +1,4 @@
 @startuml
-Pantry o-- Jar : aggregation
 Nuts o-- Jar : aggregation
+Nuts o-- Pantry : aggregation
 @enduml

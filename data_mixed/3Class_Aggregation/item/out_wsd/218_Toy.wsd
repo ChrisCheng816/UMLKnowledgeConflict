@@ -1,4 +1,4 @@
 @startuml
-LivingRoom o-- Shelf : aggregation
 Toy o-- Shelf : aggregation
+Toy o-- LivingRoom : aggregation
 @enduml

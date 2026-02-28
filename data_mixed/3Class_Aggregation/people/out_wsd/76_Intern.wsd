@@ -1,4 +1,4 @@
 @startuml
-Company o-- Department : aggregation
 Intern o-- Department : aggregation
+Intern o-- Company : aggregation
 @enduml

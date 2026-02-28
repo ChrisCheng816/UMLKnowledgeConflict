@@ -1,4 +1,4 @@
 @startuml
-Zoo o-- Tank : aggregation
 Angelfish o-- Tank : aggregation
+Angelfish o-- Zoo : aggregation
 @enduml

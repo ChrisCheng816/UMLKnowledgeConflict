@@ -1,4 +1,4 @@
 @startuml
-Pine *-- Trunk : composition
 Ring *-- Trunk : composition
+Ring *-- Pine : composition
 @enduml

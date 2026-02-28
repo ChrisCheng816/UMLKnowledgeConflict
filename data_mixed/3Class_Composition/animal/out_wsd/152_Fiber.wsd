@@ -1,4 +1,4 @@
 @startuml
-Sheep *-- Wool : composition
 Fiber *-- Wool : composition
+Fiber *-- Sheep : composition
 @enduml

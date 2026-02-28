@@ -1,4 +1,4 @@
 @startuml
-Supermarket o-- Cooler : aggregation
 Gelato o-- Cooler : aggregation
+Gelato o-- Supermarket : aggregation
 @enduml

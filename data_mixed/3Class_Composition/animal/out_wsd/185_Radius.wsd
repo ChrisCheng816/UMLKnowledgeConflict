@@ -1,4 +1,4 @@
 @startuml
-Person *-- Arm : composition
 Radius *-- Arm : composition
+Radius *-- Person : composition
 @enduml

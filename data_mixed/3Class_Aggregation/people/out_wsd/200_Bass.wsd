@@ -1,4 +1,4 @@
 @startuml
-Theater o-- Choir : aggregation
 Bass o-- Choir : aggregation
+Bass o-- Theater : aggregation
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Zoo o-- Tank : aggregation
 Seal o-- Tank : aggregation
+Seal o-- Zoo : aggregation
 @enduml

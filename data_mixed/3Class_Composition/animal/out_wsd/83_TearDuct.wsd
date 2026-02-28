@@ -1,4 +1,4 @@
 @startuml
-Person *-- Eye : composition
 TearDuct *-- Eye : composition
+TearDuct *-- Person : composition
 @enduml

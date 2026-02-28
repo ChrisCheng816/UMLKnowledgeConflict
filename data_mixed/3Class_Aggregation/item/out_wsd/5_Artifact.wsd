@@ -1,4 +1,4 @@
 @startuml
-CityMarket o-- DisplayCase : aggregation
 Artifact o-- DisplayCase : aggregation
+Artifact o-- CityMarket : aggregation
 @enduml

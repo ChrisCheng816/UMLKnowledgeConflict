@@ -1,4 +1,4 @@
 @startuml
-Book *-- Binding : composition
 Spine *-- Binding : composition
+Spine *-- Book : composition
 @enduml

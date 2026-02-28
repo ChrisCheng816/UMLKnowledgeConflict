@@ -1,4 +1,4 @@
 @startuml
-Theater o-- Orchestra : aggregation
 Conductor o-- Orchestra : aggregation
+Conductor o-- Theater : aggregation
 @enduml

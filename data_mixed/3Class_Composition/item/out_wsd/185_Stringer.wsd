@@ -1,4 +1,4 @@
 @startuml
-House *-- Staircase : composition
 Stringer *-- Staircase : composition
+Stringer *-- House : composition
 @enduml

@@ -1,4 +1,4 @@
 @startuml
-Car *-- Engine : composition
 Fan *-- Engine : composition
+Fan *-- Car : composition
 @enduml

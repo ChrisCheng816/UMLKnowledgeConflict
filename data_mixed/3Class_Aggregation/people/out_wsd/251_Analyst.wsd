@@ -1,4 +1,4 @@
 @startuml
-Company o-- Staff : aggregation
 Analyst o-- Staff : aggregation
+Analyst o-- Company : aggregation
 @enduml

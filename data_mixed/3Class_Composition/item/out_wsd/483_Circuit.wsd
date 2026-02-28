@@ -1,4 +1,4 @@
 @startuml
-Laptop *-- Keyboard : composition
 Circuit *-- Keyboard : composition
+Circuit *-- Laptop : composition
 @enduml
