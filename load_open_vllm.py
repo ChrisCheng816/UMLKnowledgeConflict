@@ -32,7 +32,7 @@ def _configure_logging_filters():
 _configure_logging_filters()
 
 BATCH_SIZE = 16
-GPU_PER = 0.95
+GPU_PER = 0.6
 # Number of full pipeline runs for pass@k style evaluation.
 N = 10
 TP_SIZE = None

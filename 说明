@@ -26,3 +26,57 @@
 4. 如果你不确定某个三元组是否符合要求，或者是否真实存在的事物，请不要删除它，保持谨慎态度。
 
 https://drive.google.com/drive/folders/1rVVjDFjZaZYyeeaKFIb1T8HdJn8f52ci?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
+# required:
+#   --model_name
+#   --dataset
+# optional; experiment with these:
+#   --learning_rate, --max_seq_length, --per_device_train_batch_size, --gradient_accumulation_steps, --max_steps
+# to save the model at the end of training:
+#   --save_model
+
+torchrun --nproc_per_node=2 unsloth-cli.py \
+  --model_name=Qwen/Qwen3-8B \
+  --dataset=yahma/alpaca-cleaned \
+  --learning_rate=2e-5 \
+  --max_seq_length=2048 \
+  --per_device_train_batch_size=1 \
+  --gradient_accumulation_steps=4 \
+  --max_steps=1000 \
+  --save_model
+
+  $ python unsloth-cli.py --help
+usage: unsloth-cli.py [-h] [--model_name MODEL_NAME] [--max_seq_length MAX_SEQ_LENGTH] [--dtype DTYPE]
+                      [--load_in_4bit] [--dataset DATASET] [--r R] [--lora_alpha LORA_ALPHA]
+                      [--lora_dropout LORA_DROPOUT] [--bias BIAS]
+                      [--use_gradient_checkpointing USE_GRADIENT_CHECKPOINTING]
+…
+
+🦥 Fine-tune your llm faster using unsloth!
+
+options:
+  -h, --help            show this help message and exit
+
+🤖 Model Options:
+  --model_name MODEL_NAME
+                        Model name to load
+  --max_seq_length MAX_SEQ_LENGTH
+                        Maximum sequence length, default is 2048. We auto support RoPE Scaling
+                        internally!
+…
+
+🧠 LoRA Options:
+  These options are used to configure the LoRA model.
+
+  --r R                 Rank for Lora model, default is 16. (common values: 8, 16, 32, 64, 128)
+  --lora_alpha LORA_ALPHA
+                        LoRA alpha parameter, default is 16. (common values: 8, 16, 32, 64, 128)
+…
+
+🎓 Training Options:
+  --per_device_train_batch_size PER_DEVICE_TRAIN_BATCH_SIZE
+                        Batch size per device during training, default is 2.
+  --per_device_eval_batch_size PER_DEVICE_EVAL_BATCH_SIZE
+                        Batch size per device during evaluation, default is 4.
+  --gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS
+                        Number of gradient accumulation steps, default is 4.
+…
