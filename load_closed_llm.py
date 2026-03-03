@@ -15,6 +15,9 @@ from prompt_templates import (
 )
 
 api_keys = API_KEYS()
+DEFAULT_TEMPERATURE = 1
+DEFAULT_SEED = 42
+DEFAULT_MAX_TOKENS = 256
 
 
 def encode_image_to_base64(image_path):
@@ -423,6 +426,9 @@ def run_vqa(model, prompt, image_path, messages=None):
         response = client.responses.create(
             model=model,
             input=_to_responses_input(messages),
+            temperature=DEFAULT_TEMPERATURE,
+            seed=DEFAULT_SEED,
+            max_output_tokens=DEFAULT_MAX_TOKENS,
         )
 
         answer = response.output_text
@@ -430,6 +436,9 @@ def run_vqa(model, prompt, image_path, messages=None):
         response = client.chat.completions.create(
             model=model,
             messages=_to_chat_completions_messages(messages),
+            temperature=DEFAULT_TEMPERATURE,
+            seed=DEFAULT_SEED,
+            max_tokens=DEFAULT_MAX_TOKENS,
         )
 
         answer = response.choices[0].message.content

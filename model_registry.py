@@ -5,9 +5,9 @@ import re
 # "name" is used in output filenames and JSONL metadata.
 MODEL_SPECS = [
     
-    {"name": "qwen3-4b", "path": "Qwen/Qwen3-VL-4B-Instruct"},
+    # {"name": "qwen3-4b", "path": "Qwen/Qwen3-VL-4B-Instruct"},
     # {"name": "qwen3-8b", "path": "Qwen/Qwen3-VL-8B-Instruct"},
-     {"name": "InternVL3.5-8B", "path": "OpenGVLab/InternVL3_5-8B-Instruct"},
+    #  {"name": "InternVL3.5-8B", "path": "OpenGVLab/InternVL3_5-8B-Instruct"},
     {"name": "InternVL3.5-4B", "path": "OpenGVLab/InternVL3_5-4B-Instruct"},
     {"name": "InternVL3.5-2B", "path": "OpenGVLab/InternVL3_5-2B-Instruct"},
     {"name": "qwen3-2b", "path": "Qwen/Qwen3-VL-2B-Instruct"},
@@ -20,7 +20,6 @@ def _slugify(text):
     value = re.sub(r"[^a-z0-9]+", "_", value)
     value = re.sub(r"_+", "_", value).strip("_")
     return value or "model"
-
 
 def _name_from_model_path(model_path):
     if not model_path:

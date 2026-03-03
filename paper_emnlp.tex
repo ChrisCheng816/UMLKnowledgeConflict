@@ -1,0 +1,250 @@
+\documentclass[11pt]{article}
+
+% EMNLP/ACL-style paper scaffold (adapt as needed for the current year).
+\usepackage{acl}
+\usepackage{acl_natbib}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+
+\title{Evaluating Vision--Language Models for UML Diagram Reasoning\\under Anti-Prior Dataset Variants}
+
+% For double-blind submission, keep authors anonymous.
+\author{Anonymous EMNLP Submission}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present a controlled evaluation framework for UML diagram reasoning with vision--language models (VLMs).
+Given a rendered UML class diagram image, models must (i) extract the set of class names and (ii) answer a relation query (inheritance, aggregation, composition, dependency) using only diagram evidence and strict output formats.
+To probe reliance on world knowledge priors, we construct forward and \emph{reverse} variants that systematically flip plausible semantic relations between class names, plus a mixed variant that introduces additional nodes/edges.
+Our pipeline supports both open-source inference (vLLM) and closed APIs, and reports pass@k metrics over repeated stochastic runs.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+% TODO: Motivate why UML diagram understanding matters (e.g., software engineering, documentation, reverse engineering).
+% TODO: Argue VLMs may rely on priors; diagrams require precise directionality.
+% TODO: Summarize contributions.
+
+\section{Related Work}
+\label{sec:related}
+% TODO: Vision-language reasoning; document AI / diagram understanding; chart and figure QA; tool-assisted VLM evaluation; UML parsing.
+
+\section{Methodology}
+\label{sec:method}
+
+\subsection{Problem Setting}
+\label{sec:setting}
+Each example consists of:
+\begin{itemize}[leftmargin=*, itemsep=0.25em]
+  \item a PNG image of a UML class diagram, rendered from a lightweight PlantUML-style specification (\texttt{.wsd});
+  \item a small set of class names (arity $=2$ or $3$);
+  \item one of four relation types: \textsc{Inheritance}, \textsc{Aggregation}, \textsc{Composition}, \textsc{Dependency}.
+\end{itemize}
+The model receives the image and a textual prompt describing UML arrow conventions and must output only the requested format.
+
+\subsection{Two-Stage Evaluation Protocol}
+\label{sec:two-stage}
+We evaluate models with a two-stage protocol implemented in \texttt{load\_open\_vllm.py} / \texttt{load\_closed\_llm.py}.
+
+\paragraph{Stage 1: class-name extraction.}
+Given the diagram image, the model must list \emph{all} class names appearing in the diagram, as a JSON array of strings (e.g., \texttt{["ClassA","ClassB"]}).
+We post-process the raw output by attempting JSON parsing first; if parsing fails, we fall back to splitting lines/commas and removing bullets.
+We then compute a \textbf{set-exact match} under case-insensitive normalization:
+\begin{equation}
+\textsc{Pass}_{\text{cls}}(x) = \mathbb{I}\Big(\mathrm{set}(\hat{C}_x)=\mathrm{set}(C_x)\Big),
+\end{equation}
+where $C_x$ is the gold class-name set for image $x$ and $\hat{C}_x$ is the extracted set.
+
+\paragraph{Stage 2: relation question answering (QA).}
+Conditioned on passing Stage~1, we ask a binary relation question about a specific ordered pair of classes, with a strict answer space:
+\texttt{True}, \texttt{False}, or \texttt{Unknown}.
+Crucially, the prompt instructs the model to treat the image as the only source of truth and to consider arrow direction authoritative.
+If Stage~1 fails, we record \texttt{Unknown} for Stage~2 to prevent accidental ``correct'' answers based on priors.
+
+\paragraph{Oracle conditioning in the dialogue context.}
+To reduce error propagation from OCR failures into relation reasoning, the Stage~2 message history includes an \emph{oracle} assistant turn that provides the gold class-name list from Stage~1, while Stage~1 is still evaluated separately and gates whether Stage~2 is run.
+This design isolates relation reasoning given correct class-name grounding, while enforcing that models must also be able to read the diagram to obtain an end-to-end success.
+
+\subsection{Prompt Templates}
+\label{sec:prompts}
+All runs use a unified system prompt emphasizing diagram-only evidence, no guessing, and strict formatting.
+Stage~1 prompts request a JSON array of class names with exact string matching.
+Stage~2 prompts define the UML relation type via a short convention statement (e.g., hollow triangle for inheritance; dashed arrow for dependency) and ask a directed question such as:
+\begin{quote}\small
+\texttt{Does class B inherit from class A?}
+\end{quote}
+The question direction is fixed by an index pair $(i,j)$ over the node list, and the text is constructed so that the correct answer is \texttt{True} when the corresponding edge exists with that direction in the diagram.
+
+\subsection{Dataset Construction}
+\label{sec:data}
+Each instance is represented as one JSON object in \texttt{instances.jsonl} with fields:
+\texttt{id}, \texttt{template\_id} (relation type), \texttt{nodes} (class names), and \texttt{edges} (PlantUML-style edge strings).
+We render the edge specifications to diagram images and store them under \texttt{images/} with stable numeric prefixes to enable alignment.
+
+\paragraph{Arity and relation types.}
+We create both 2-class and 3-class diagrams for each relation type.
+For 3-class diagrams, we provide either a chain-like structure or a mixed structure with an additional edge, depending on the split (Section~\ref{sec:splits}).
+
+\subsection{Dataset Splits: Forward, Reverse, Mixed}
+\label{sec:splits}
+We design split variants to probe reliance on semantic priors in class names.
+
+\paragraph{Forward.}
+Forward diagrams reflect ``plausible'' semantic relations (e.g., \texttt{Mammal} $\leftarrow$ \texttt{Dog} under inheritance).
+
+\paragraph{Reverse (anti-prior).}
+Reverse diagrams flip the node order and regenerate edges so that the depicted relation direction contradicts typical world knowledge (e.g., \texttt{Dog} inheriting from \texttt{GoldenRetriever}).
+Because prompts explicitly forbid using prior knowledge, correct performance requires following the diagram arrow direction.
+
+\paragraph{Mixed.}
+Mixed diagrams are derived from 3-class bases by keeping the main queried relation but rewiring the second edge to connect a different pair, increasing structural variation and potential distractors.
+For 3-class cases, we query a fixed ``main'' class pair so that the intended answer remains \texttt{True}.
+
+\subsection{Dataset Statistics}
+\label{sec:stats}
+Table~\ref{tab:data} summarizes the number of instances per split, relation type, and arity (as provided by the repository).
+Across all splits, the benchmark contains 30{,}000 rendered diagrams.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llrr}
+\toprule
+\textbf{Split} & \textbf{Relation} & \textbf{2-class} & \textbf{3-class} \\
+\midrule
+\multirow{4}{*}{Forward} & Aggregation & 1200 & 1200 \\
+& Composition & 1200 & 1200 \\
+& Dependency & 1300 & 1300 \\
+& Inheritance & 2300 & 2300 \\
+\midrule
+\multirow{4}{*}{Reverse} & Aggregation & 1200 & 1200 \\
+& Composition & 1200 & 1200 \\
+& Dependency & 1300 & 1300 \\
+& Inheritance & 2300 & 2300 \\
+\midrule
+\multirow{4}{*}{Mixed} & Aggregation & -- & 1200 \\
+& Composition & -- & 1200 \\
+& Dependency & -- & 1300 \\
+& Inheritance & -- & 2300 \\
+\bottomrule
+\end{tabular}
+\caption{Dataset instance counts by split, relation type, and arity.}
+\label{tab:data}
+\end{table}
+
+\subsection{Model Inference Backends}
+\label{sec:inference}
+We support two inference backends:
+\begin{itemize}[leftmargin=*, itemsep=0.25em]
+  \item \textbf{Open-source VLMs via vLLM} (\texttt{open\_vllm}): we load models through vLLM and build multimodal chat inputs using each model family's chat template (e.g., Qwen-style structured multimodal messages vs.\ InternVL-style \texttt{<image>} placeholders).
+  \item \textbf{Closed API models} (\texttt{closed\_llm}): we issue multimodal chat requests to provider endpoints (OpenAI/Anthropic/Gemini-compatible), using the same prompt templates and output constraints.
+\end{itemize}
+
+\subsection{Decoding and Repeated Runs}
+\label{sec:decoding}
+We use stochastic decoding and run the full two-stage pipeline multiple times per instance to estimate pass@k.
+Let $y_x^{(r)}$ be the Stage~2 output for instance $x$ in run $r$ (or \texttt{Unknown} if gated).
+We define:
+\begin{equation}
+\textsc{Pass@k}(x) = \mathbb{I}\Big(\exists r \le k \;\text{s.t.}\; y_x^{(r)}=\texttt{True}\Big),
+\end{equation}
+and analogously compute \textsc{Task1\_Pass@k} from Stage~1 gate outcomes across runs.
+This yields both a \textbf{class-extraction} reliability measure and an \textbf{end-to-end} reliability measure.
+
+\section{Study Design}
+\label{sec:design}
+
+\subsection{Research Questions}
+\label{sec:rqs}
+We organize the study around four questions:
+\begin{itemize}[leftmargin=*, itemsep=0.25em]
+  \item \textbf{RQ1 (Reading)}: How accurately can VLMs extract all class names from UML diagram images?
+  \item \textbf{RQ2 (Relation reasoning)}: Given correct class-name grounding, how reliably can models answer directed relation queries?
+  \item \textbf{RQ3 (Anti-prior robustness)}: How much does performance drop from forward to reverse splits, where diagram semantics contradict world knowledge?
+  \item \textbf{RQ4 (Complexity)}: How do arity (2 vs.\ 3 classes) and mixed edge structures affect performance across relation types?
+\end{itemize}
+
+\subsection{Experimental Factors}
+\label{sec:factors}
+We use a factorial evaluation across:
+\begin{itemize}[leftmargin=*, itemsep=0.25em]
+  \item \textbf{Split}: forward, reverse, mixed;
+  \item \textbf{Relation type}: inheritance, aggregation, composition, dependency;
+  \item \textbf{Arity}: 2-class and 3-class (mixed is 3-class only);
+  \item \textbf{Model}: a set of VLMs registered in \texttt{model\_registry.py} and/or closed API model IDs (configured in \texttt{main.py});
+  \item \textbf{Backend}: vLLM vs.\ closed API.
+\end{itemize}
+Dependent variables are \textbf{Task1\_Pass@k} (class extraction) and \textbf{Pass@k} (end-to-end gated relation QA), reported for $k \in \{1,5,10\}$.
+
+\subsection{Controls}
+\label{sec:controls}
+To minimize confounds, we control:
+\begin{itemize}[leftmargin=*, itemsep=0.25em]
+  \item \textbf{Prompt templates}: identical system/user prompts per task and relation type;
+  \item \textbf{Answer space}: strict \texttt{True/False/Unknown} for Stage~2 and JSON array for Stage~1;
+  \item \textbf{Image generation}: consistent diagram rendering style within the benchmark;
+  \item \textbf{Evaluation parsing}: shared normalization and extraction rules for all models.
+\end{itemize}
+
+\subsection{Analysis Plan}
+\label{sec:analysis}
+We report overall and stratified results:
+\begin{itemize}[leftmargin=*, itemsep=0.25em]
+  \item \textbf{Per-split} (forward vs.\ reverse vs.\ mixed) to quantify anti-prior robustness;
+  \item \textbf{Per-relation} to identify which UML conventions are most error-prone;
+  \item \textbf{Per-arity} to assess sensitivity to additional nodes/edges;
+  \item \textbf{Error taxonomy}: OCR/class-name errors vs.\ arrow-direction mistakes vs.\ format violations.
+\end{itemize}
+Where appropriate, we recommend paired bootstrap confidence intervals over instances and multiple-run aggregation for pass@k, since each diagram is evaluated under identical prompts across models.
+
+\subsection{Reproducibility}
+\label{sec:repro}
+The pipeline logs per-instance metadata (nodes, edges, image path), prompts, raw model outputs across repeated runs, and derived pass@k labels into JSONL files under \texttt{experiment\_results/}.
+This enables deterministic re-scoring and auditing of parsing rules.
+
+\section{Experiments}
+\label{sec:experiments}
+% TODO: Provide compute details (GPU/TP size), full list of models, decoding parameters, and run count N.
+
+\section{Results}
+\label{sec:results}
+% TODO: Main tables: Task1_Pass@k and Pass@k by split/relation/arity.
+
+\section{Discussion}
+\label{sec:discussion}
+% TODO: Interpret forward vs reverse gaps; failure cases; sensitivity to prompt wording; oracle conditioning implications.
+
+\section{Limitations}
+\label{sec:limitations}
+% TODO: Synthetic diagram distribution; oracle conditioning for Stage 2; rendering style bias; evaluation assumes the correct Stage-2 answer is True.
+
+\section{Ethics Statement}
+\label{sec:ethics}
+% TODO: Dataset is synthetic; discuss potential misuse and evaluation transparency.
+
+\section{Conclusion}
+\label{sec:conclusion}
+% TODO: Summarize key findings and guidance for diagram-reasoning evaluation.
+
+% \bibliographystyle{acl_natbib}
+% \bibliography{custom}
+
+\appendix
+\section{Prompt Templates}
+\label{sec:appendix-prompts}
+% TODO: Include exact prompt strings from prompt_templates.py for Stage 1 and Stage 2.
+
+\end{document}
+

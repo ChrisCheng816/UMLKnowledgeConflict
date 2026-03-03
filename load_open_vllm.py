@@ -32,7 +32,7 @@ def _configure_logging_filters():
 _configure_logging_filters()
 
 BATCH_SIZE = 16
-GPU_PER = 0.6
+GPU_PER = 0.65
 # Number of full pipeline runs for pass@k style evaluation.
 N = 10
 TP_SIZE = None
@@ -673,7 +673,7 @@ def run_model(
     all_run_checks = []
 
     for run_idx in range(run_count):
-        run_seed = random.randint(1, 2**31 - 1)
+        run_seed = 42
         run_info = [dict(item) for item in information]
 
         gate_records = _build_gate_records(run_info, processor)
@@ -758,7 +758,7 @@ def run_model(
     )
     return final_predictions
 
-def run_batch(batch_prompts, model, n=1, seed=None):
+def run_batch(batch_prompts, model, n=1, seed=42):
     predictions = []
 
     sampling_params = SamplingParams(
