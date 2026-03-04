@@ -3,6 +3,8 @@ import json
 import os
 import random
 import re
+import tempfile
+import time
 from typing import Any, Dict, List, Tuple
 
 from apis import API_KEYS
@@ -19,6 +21,8 @@ DEFAULT_TEMPERATURE = 1
 DEFAULT_SEED = 42
 DEFAULT_MAX_TOKENS = 256
 DEFAULT_IMAGE_DETAIL = "high"
+OPENAI_BATCH_COMPLETION_WINDOW = "24h"
+OPENAI_BATCH_POLL_SECONDS = 5
 
 
 def encode_image_to_base64(image_path):
@@ -40,6 +44,30 @@ def get_info(model):
         api_key = api_keys.api_keys["GEMINI_API_KEY"]
         base_url = "https://generativelanguage.googleapis.com/v1beta/openai/"
     return api_key, base_url
+
+
+def _chat_completion_token_kwargs(model):
+    model_name = str(model or "").strip().lower()
+    # Newer reasoning and GPT-5 style chat models require max_completion_tokens.
+    if model_name.startswith("o") or model_name.startswith("gpt-5"):
+        return {"max_completion_tokens": DEFAULT_MAX_TOKENS}
+    return {"max_tokens": DEFAULT_MAX_TOKENS}
+
+
+def _swap_token_limit_param(kwargs):
+    if "max_tokens" in kwargs:
+        return {"max_completion_tokens": kwargs["max_tokens"]}
+    if "max_completion_tokens" in kwargs:
+        return {"max_tokens": kwargs["max_completion_tokens"]}
+    return {"max_tokens": DEFAULT_MAX_TOKENS}
+
+
+def _is_token_param_unsupported_error(exc):
+    text = str(exc or "")
+    lowered = text.lower()
+    has_unsupported = ("unsupported parameter" in lowered) or ("unsupported_parameter" in lowered)
+    mentions_tokens = ("max_tokens" in lowered) or ("max_completion_tokens" in lowered)
+    return has_unsupported and mentions_tokens
 
 
 def _format_class_desc(nodes):
@@ -441,13 +469,27 @@ def run_vqa(model, prompt, image_path, messages=None):
 
         answer = response.output_text
     else:
-        response = client.chat.completions.create(
-            model=model,
-            messages=_to_chat_completions_messages(messages),
-            temperature=DEFAULT_TEMPERATURE,
-            seed=DEFAULT_SEED,
-            max_tokens=DEFAULT_MAX_TOKENS,
-        )
+        token_kwargs = _chat_completion_token_kwargs(model)
+        create_kwargs = {
+            "model": model,
+            "messages": _to_chat_completions_messages(messages),
+            "temperature": DEFAULT_TEMPERATURE,
+            "seed": DEFAULT_SEED,
+            **token_kwargs,
+        }
+        try:
+            response = client.chat.completions.create(**create_kwargs)
+        except Exception as exc:
+            if not _is_token_param_unsupported_error(exc):
+                raise
+            fallback_kwargs = {
+                "model": model,
+                "messages": _to_chat_completions_messages(messages),
+                "temperature": DEFAULT_TEMPERATURE,
+                "seed": DEFAULT_SEED,
+                **_swap_token_limit_param(token_kwargs),
+            }
+            response = client.chat.completions.create(**fallback_kwargs)
 
         answer = response.choices[0].message.content
     return answer
@@ -469,6 +511,206 @@ def run_relation_vqa(
     )
     answer = run_vqa(model, prompt, image_path)
     return answer, prompt, triplet_slots
+
+
+def _is_openai_model(model):
+    _, base_url = get_info(model)
+    return (base_url or "").rstrip("/") == "https://api.openai.com/v1"
+
+
+def _can_use_openai_batch(model):
+    # Keep codex path on synchronous API for compatibility with /responses semantics.
+    return _is_openai_model(model) and "codex" not in str(model).lower()
+
+
+def _normalize_messages_for_chat_completions(req):
+    messages = req.get("messages")
+    if not messages:
+        return _build_chat_messages_for_client(req.get("prompt", ""), req.get("image_path"))
+
+    has_internal_image = False
+    for msg in messages:
+        for item in msg.get("content", []):
+            if isinstance(item, dict) and item.get("type") == "image":
+                has_internal_image = True
+                break
+        if has_internal_image:
+            break
+    if has_internal_image:
+        return _to_chat_completions_messages(messages)
+    return messages
+
+
+def _extract_text_from_chat_body(body):
+    choices = body.get("choices") or []
+    if not choices:
+        return "Unknown"
+    message = (choices[0] or {}).get("message") or {}
+    content = message.get("content", "")
+    if isinstance(content, str):
+        return content.strip()
+    if isinstance(content, list):
+        parts = []
+        for item in content:
+            if not isinstance(item, dict):
+                continue
+            if item.get("type") in {"text", "output_text"}:
+                text = item.get("text") or item.get("output_text")
+                if text:
+                    parts.append(str(text))
+        return "".join(parts).strip() if parts else "Unknown"
+    if content is None:
+        return "Unknown"
+    return str(content).strip()
+
+
+def _read_openai_file_text(content):
+    if isinstance(content, str):
+        return content
+    if isinstance(content, (bytes, bytearray)):
+        return bytes(content).decode("utf-8", errors="replace")
+
+    text_attr = getattr(content, "text", None)
+    if isinstance(text_attr, str):
+        return text_attr
+
+    content_attr = getattr(content, "content", None)
+    if isinstance(content_attr, (bytes, bytearray)):
+        return bytes(content_attr).decode("utf-8", errors="replace")
+    if isinstance(content_attr, str):
+        return content_attr
+
+    read_fn = getattr(content, "read", None)
+    if callable(read_fn):
+        raw = read_fn()
+        if isinstance(raw, str):
+            return raw
+        if isinstance(raw, (bytes, bytearray)):
+            return bytes(raw).decode("utf-8", errors="replace")
+
+    return str(content)
+
+
+def _run_requests_openai_batch(requests, model, progress_label="instances"):
+    from openai import OpenAI
+
+    if not requests:
+        return []
+
+    api_key, _ = get_info(model)
+    client = OpenAI(api_key=api_key)
+
+    request_rows = []
+    for idx, req in enumerate(requests):
+        body = {
+            "model": model,
+            "messages": _normalize_messages_for_chat_completions(req),
+            "temperature": DEFAULT_TEMPERATURE,
+            "seed": DEFAULT_SEED,
+        }
+        body.update(_chat_completion_token_kwargs(model))
+        request_rows.append(
+            {
+                "custom_id": f"req-{idx}",
+                "method": "POST",
+                "url": "/v1/chat/completions",
+                "body": body,
+            }
+        )
+
+    temp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".jsonl", delete=False, encoding="utf-8") as tmpf:
+            temp_path = tmpf.name
+            for row in request_rows:
+                tmpf.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+        with open(temp_path, "rb") as fh:
+            input_file = client.files.create(file=fh, purpose="batch")
+
+        batch = client.batches.create(
+            input_file_id=input_file.id,
+            endpoint="/v1/chat/completions",
+            completion_window=OPENAI_BATCH_COMPLETION_WINDOW,
+        )
+        batch_id = batch.id
+        print(f"[INFO] OpenAI batch submitted for {progress_label}: id={batch_id}, size={len(requests)}")
+
+        terminal_states = {"completed", "failed", "expired", "cancelled"}
+        while True:
+            batch = client.batches.retrieve(batch_id)
+            status = getattr(batch, "status", None)
+            if status in terminal_states:
+                break
+            time.sleep(OPENAI_BATCH_POLL_SECONDS)
+
+        if getattr(batch, "status", None) != "completed":
+            raise RuntimeError(f"Batch finished with status={getattr(batch, 'status', None)}")
+
+        output_file_id = getattr(batch, "output_file_id", None)
+        if not output_file_id:
+            # Some runs surface results with a small delay after status flips to completed.
+            for _ in range(6):
+                time.sleep(2)
+                batch = client.batches.retrieve(batch_id)
+                output_file_id = getattr(batch, "output_file_id", None)
+                if output_file_id:
+                    break
+
+        if not output_file_id:
+            error_file_id = getattr(batch, "error_file_id", None)
+            if error_file_id:
+                error_content = client.files.content(error_file_id)
+                error_text = _read_openai_file_text(error_content)
+                first_error = ""
+                for raw_line in (error_text or "").splitlines():
+                    raw_line = raw_line.strip()
+                    if raw_line:
+                        first_error = raw_line
+                        break
+                raise RuntimeError(
+                    f"Batch completed without output_file_id (error_file_id={error_file_id}). "
+                    f"First error: {first_error or 'N/A'}"
+                )
+            raise RuntimeError("Batch completed without output_file_id and without error_file_id")
+
+        output_content = client.files.content(output_file_id)
+        output_text = _read_openai_file_text(output_content)
+
+        predictions = [["Unknown"] for _ in range(len(requests))]
+        for raw_line in output_text.splitlines():
+            line = raw_line.strip()
+            if not line:
+                continue
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+
+            custom_id = row.get("custom_id", "")
+            if not custom_id.startswith("req-"):
+                continue
+            try:
+                idx = int(custom_id.split("-", 1)[1])
+            except (IndexError, ValueError):
+                continue
+            if idx < 0 or idx >= len(predictions):
+                continue
+
+            if row.get("error"):
+                predictions[idx] = ["Unknown"]
+                continue
+
+            body = ((row.get("response") or {}).get("body") or {})
+            predictions[idx] = [_extract_text_from_chat_body(body)]
+
+        return predictions
+    finally:
+        if temp_path and os.path.exists(temp_path):
+            try:
+                os.remove(temp_path)
+            except OSError:
+                pass
 
 
 def load_prompt(
@@ -632,7 +874,7 @@ def _build_stage2_request_from_info(info):
     }
 
 
-def _run_requests(requests, model, progress_label="instances"):
+def _run_requests_sequential(requests, model, progress_label="instances"):
     predictions = []
     for i, req in enumerate(requests):
         answer = run_vqa(
@@ -645,6 +887,18 @@ def _run_requests(requests, model, progress_label="instances"):
         if i > 0 and (i % 200) == 0:
             print(f"\033[1;32m{i}\033[0m {progress_label} generated successfully")
     return predictions
+
+
+def _run_requests(requests, model, progress_label="instances"):
+    if _can_use_openai_batch(model):
+        try:
+            return _run_requests_openai_batch(requests, model, progress_label=progress_label)
+        except Exception as exc:
+            print(
+                f"[WARN] OpenAI batch failed for {progress_label}: {exc}. "
+                "Falling back to sequential requests."
+            )
+    return _run_requests_sequential(requests, model, progress_label=progress_label)
 
 
 def run_model(

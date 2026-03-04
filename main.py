@@ -12,6 +12,7 @@ CLOSED_DEFAULT_MODELS = [
     {"name": "gpt-o4mini", "path": "o4-mini"},
     {"name": "claude-3.7sonnet", "path": "claude-3-7-sonnet-20250219"},
     {"name": "gpt-4.1", "path": "gpt-4.1"},
+    {"name": "gpt-5.1mini", "path": "gpt-5-mini"},
 ]
 
 def parse_args():
@@ -111,13 +112,25 @@ def _dedup_models(models):
 def _resolve_closed_models(model_names):
     # Closed backend accepts API model ids directly.
     # - If no models provided, use curated defaults for one-click runs.
-    # - model_name/model_path are both treated as model ids.
+    # - Prefer resolving known aliases from CLOSED_DEFAULT_MODELS.
+    # - Fallback: treat user input as raw model id.
     if not model_names:
         return list(CLOSED_DEFAULT_MODELS)
 
+    by_name = {m["name"]: m for m in CLOSED_DEFAULT_MODELS}
+    by_slug = {_slugify(m["name"]): m for m in CLOSED_DEFAULT_MODELS}
+    by_path = {m["path"]: m for m in CLOSED_DEFAULT_MODELS}
+
     resolved = []
-    for name in model_names or []:
-        resolved.append({"name": _slugify(name), "path": name})
+    for raw in model_names or []:
+        name = (raw or "").strip()
+        if not name:
+            continue
+        preset = by_name.get(name) or by_slug.get(_slugify(name)) or by_path.get(name)
+        if preset is not None:
+            resolved.append({"name": preset["name"], "path": preset["path"]})
+        else:
+            resolved.append({"name": _slugify(name), "path": name})
     return _dedup_models(resolved)
 
 
