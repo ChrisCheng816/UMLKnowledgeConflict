@@ -7,11 +7,11 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 os.environ["NCCL_P2P_DISABLE"] = "1"
 
 CLOSED_DEFAULT_MODELS = [
-    {"name": "gemini_2_5_pro", "path": "gemini-2.5-pro"},
-    {"name": "o3", "path": "o3"},
-    {"name": "o4_mini", "path": "o4-mini"},
-    {"name": "claude_3_7_sonnet", "path": "claude-3-7-sonnet-20250219"},
-    {"name": "gpt_4_1", "path": "gpt-4.1"},
+    {"name": "gemini-2.5pro", "path": "gemini-2.5-pro"},
+    {"name": "gpt-o3", "path": "o3"},
+    {"name": "gpt-o4mini", "path": "o4-mini"},
+    {"name": "claude-3.7sonnet", "path": "claude-3-7-sonnet-20250219"},
+    {"name": "gpt-4.1", "path": "gpt-4.1"},
 ]
 
 def parse_args():

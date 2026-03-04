@@ -18,6 +18,7 @@ api_keys = API_KEYS()
 DEFAULT_TEMPERATURE = 1
 DEFAULT_SEED = 42
 DEFAULT_MAX_TOKENS = 256
+DEFAULT_IMAGE_DETAIL = "high"
 
 
 def encode_image_to_base64(image_path):
@@ -346,7 +347,10 @@ def _build_chat_messages_for_client(prompt, image_path):
                 {"type": "text", "text": prompt},
                 {
                     "type": "image_url",
-                    "image_url": {"url": f"data:image/png;base64,{base64_image}"},
+                    "image_url": {
+                        "url": f"data:image/png;base64,{base64_image}",
+                        "detail": DEFAULT_IMAGE_DETAIL,
+                    },
                 },
             ],
         }
@@ -372,7 +376,10 @@ def _to_chat_completions_messages(messages):
                 content_items.append(
                     {
                         "type": "image_url",
-                        "image_url": {"url": f"data:image/png;base64,{base64_image}"},
+                        "image_url": {
+                            "url": f"data:image/png;base64,{base64_image}",
+                            "detail": DEFAULT_IMAGE_DETAIL,
+                        },
                     }
                 )
         converted.append({"role": role, "content": content_items})
@@ -399,6 +406,7 @@ def _to_responses_input(messages):
                     {
                         "type": "input_image",
                         "image_url": f"data:image/png;base64,{base64_image}",
+                        "detail": DEFAULT_IMAGE_DETAIL,
                     }
                 )
         converted.append({"role": role, "content": content_items})
