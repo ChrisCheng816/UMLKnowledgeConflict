@@ -4,15 +4,16 @@ import re
 # Maintain your commonly used models here.
 # "name" is used in output filenames and JSONL metadata.
 MODEL_SPECS = [
-    
     # {"name": "qwen3-4b", "path": "Qwen/Qwen3-VL-4B-Instruct"},
     # {"name": "qwen3-8b", "path": "Qwen/Qwen3-VL-8B-Instruct"},
     #  {"name": "InternVL3.5-8B", "path": "OpenGVLab/InternVL3_5-8B-Instruct"},
-    {"name": "InternVL3.5-4B", "path": "OpenGVLab/InternVL3_5-4B-Instruct"},
-    {"name": "InternVL3.5-2B", "path": "OpenGVLab/InternVL3_5-2B-Instruct"},
-    {"name": "qwen3-2b", "path": "Qwen/Qwen3-VL-2B-Instruct"},
-    # {"name": "InternVL3.5-38B", "path": "OpenGVLab/InternVL3_5-38B"},
-    # {"name": "Qwen3-32B", "path": "Qwen/Qwen3-VL-32B-Instruct"},
+    # {"name": "InternVL3.5-4B", "path": "OpenGVLab/InternVL3_5-4B-Instruct"},
+    # {"name": "InternVL3.5-2B", "path": "OpenGVLab/InternVL3_5-2B-Instruct"},
+    # {"name": "qwen3-2b", "path": "Qwen/Qwen3-VL-2B-Instruct"},
+    # {"name": "llava-7b", "path": "llava-hf/llava-1.5-7b-hf"},
+    # {"name": "llava-13b", "path": "llava-hf/llava-1.5-13b-hf"},
+    {"name": "qwen3-38b", "path": "Qwen/Qwen3-VL-32B-Instruct"},
+    # {"name": "qwen3-2b", "path": "Qwen/Qwen3-VL-2B-Instruct"},
 ]
 
 def _slugify(text):

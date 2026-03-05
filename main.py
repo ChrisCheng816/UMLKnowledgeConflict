@@ -3,7 +3,7 @@ import os
 import re
 
 os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"
 os.environ["NCCL_P2P_DISABLE"] = "1"
 
 CLOSED_DEFAULT_MODELS = [
@@ -108,6 +108,28 @@ def _dedup_models(models):
         out.append(m)
     return out
 
+def _resolve_split_arity_filter(split_tag, requested_arities):
+    """
+    Enforce split-specific arity policy:
+    - forward: only 2-class
+    - mixed: only 3-class
+    - reverse: keep caller request
+    """
+    fixed = {
+        "forward": {"2"},
+        "mixed": {"3"},
+    }
+    if split_tag not in fixed:
+        return set(requested_arities)
+
+    enforced = fixed[split_tag]
+    if set(requested_arities) != enforced:
+        print(
+            f"[INFO] split arity policy applied for {split_tag}: "
+            f"requested={sorted(requested_arities)} -> enforced={sorted(enforced)}"
+        )
+    return set(enforced)
+
 
 def _resolve_closed_models(model_names):
     # Closed backend accepts API model ids directly.
@@ -202,9 +224,11 @@ def main():
                 print(f"[INFO] model initialized: name={model_name}, path={model_path}, backend={backend}")
 
                 for tag, dataset_root, output_image_root in valid_runs:
+                    split_arity_filter = _resolve_split_arity_filter(tag, arity_filter)
                     print(
                         f"[INFO] run model={model_name}, split={tag}, backend={backend}: "
-                        f"dataset_root={dataset_root}, output_image_root={output_image_root}"
+                        f"dataset_root={dataset_root}, output_image_root={output_image_root}, "
+                        f"arities={sorted(split_arity_filter)}"
                     )
                     out_stem = f"{model_name}_{tag}" if not args.out_prefix else f"{args.out_prefix}_{model_name}_{tag}"
                     generate_outputs(
@@ -213,7 +237,7 @@ def main():
                         out_path=os.path.join(model_results_dir, f"{out_stem}.jsonl"),
                         dataset_root=dataset_root,
                         output_image_root=output_image_root,
-                        include_arities=arity_filter,
+                        include_arities=split_arity_filter,
                         include_relations=relation_filter,
                         llm=llm,
                         processor=processor,
@@ -233,9 +257,11 @@ def main():
 
             print(f"[INFO] model initialized: name={model_name}, path={model_path}, backend={backend}")
             for tag, dataset_root, output_image_root in valid_runs:
+                split_arity_filter = _resolve_split_arity_filter(tag, arity_filter)
                 print(
                     f"[INFO] run model={model_name}, split={tag}, backend={backend}: "
-                    f"dataset_root={dataset_root}, output_image_root={output_image_root}"
+                    f"dataset_root={dataset_root}, output_image_root={output_image_root}, "
+                    f"arities={sorted(split_arity_filter)}"
                 )
                 out_stem = f"{model_name}_{tag}" if not args.out_prefix else f"{args.out_prefix}_{model_name}_{tag}"
                 generate_outputs(
@@ -244,7 +270,7 @@ def main():
                     out_path=os.path.join(model_results_dir, f"{out_stem}.jsonl"),
                     dataset_root=dataset_root,
                     output_image_root=output_image_root,
-                    include_arities=arity_filter,
+                    include_arities=split_arity_filter,
                     include_relations=relation_filter,
                 )
 

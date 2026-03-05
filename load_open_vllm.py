@@ -31,8 +31,8 @@ def _configure_logging_filters():
 
 _configure_logging_filters()
 
-BATCH_SIZE = 16
-GPU_PER = 0.65
+BATCH_SIZE = 8
+GPU_PER = 0.92
 # Number of full pipeline runs for pass@k style evaluation.
 N = 10
 TP_SIZE = None
@@ -40,28 +40,95 @@ DTYPE = "auto"
 
 # os.environ.setdefault("NCCL_DEBUG", "INFO")
 
+def _extract_derived_max_model_len(exc_text):
+    text = str(exc_text or "")
+    if not text:
+        return None
+
+    # Example in vLLM errors:
+    # "... derived max_model_len (max_position_embeddings=4096 or model_max_length=None ...)"
+    for pattern in (
+        r"max_position_embeddings=(\d+)",
+        r"model_max_length=(\d+)",
+        r"derived max_model_len[^0-9]+(\d+)",
+    ):
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+        if match:
+            try:
+                value = int(match.group(1))
+            except ValueError:
+                continue
+            if value > 0:
+                return value
+    return None
+
 def load_model(
     model_name,
     tensor_parallel_size=TP_SIZE,
     dtype=DTYPE,
     gpu_memory_utilization=GPU_PER,
 ):
+    normalized_model_name = str(model_name or "").strip().lower()
+    if "deepseek-vl-" in normalized_model_name and "vl2" not in normalized_model_name:
+        raise RuntimeError(
+            "Detected DeepSeek-VL v1 checkpoint. "
+            "This project's vLLM backend does not support DeepSeek-VL v1 "
+            "(model_type='multi_modality'). "
+            "Use a vLLM-compatible model (e.g., Qwen/InternVL), or switch to "
+            "a DeepSeek-VL2 checkpoint if available."
+        )
+
     resolved_tp_size = _resolve_tensor_parallel_size(tensor_parallel_size)
     if gpu_memory_utilization is None:
         gpu_memory_utilization = GPU_PER
     processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
     # Cache family hint on processor so prompt building can follow model-native chat format.
     processor._uml_model_family = _detect_model_family(model_name)
+    requested_max_model_len = 8192
     try:
         llm = LLM(
             model=model_name,
             tensor_parallel_size=resolved_tp_size,
             dtype=dtype,
             trust_remote_code=True,
-            max_model_len=8192,
+            max_model_len=requested_max_model_len,
             gpu_memory_utilization=gpu_memory_utilization
         )
     except Exception as exc:
+        exc_text = str(exc or "")
+        if "model type `multi_modality`" in exc_text:
+            raise RuntimeError(
+                "vLLM cannot load this checkpoint because it uses DeepSeek-VL v1 "
+                "(model_type='multi_modality'), which is not supported by the current "
+                "vLLM/Transformers runtime in this project. "
+                "Use a vLLM-compatible model (for example Qwen/InternVL, or DeepSeek-VL2 "
+                "variants if available) instead."
+            ) from exc
+        derived_max_model_len = _extract_derived_max_model_len(exc_text)
+        if (
+            "User-specified max_model_len" in exc_text
+            and derived_max_model_len is not None
+            and requested_max_model_len > derived_max_model_len
+        ):
+            logging.warning(
+                "Model '%s' supports max_model_len=%s; retrying (requested=%s).",
+                model_name,
+                derived_max_model_len,
+                requested_max_model_len,
+            )
+            try:
+                llm = LLM(
+                    model=model_name,
+                    tensor_parallel_size=resolved_tp_size,
+                    dtype=dtype,
+                    trust_remote_code=True,
+                    max_model_len=derived_max_model_len,
+                    gpu_memory_utilization=gpu_memory_utilization,
+                )
+                return llm, processor
+            except Exception as retry_exc:
+                exc = retry_exc
+                exc_text = str(retry_exc or "")
         visible_devices = os.getenv("CUDA_VISIBLE_DEVICES", "<unset>")
         raise RuntimeError(
             "vLLM engine initialization failed. "
@@ -973,4 +1040,3 @@ def generate_outputs(
                 model_name=model_name,
                 model_path=model_path,
             )
-            
