@@ -1,0 +1,47 @@
+{
+  "run_time_utc": "2026-03-05T21:40:00.819892+00:00",
+  "input_root": "/scratch/zcheng06/Test/experiment_results",
+  "output_dir": "/scratch/zcheng06/Test/eval",
+  "methods": [
+    "passk_count_strength",
+    "model_size_vs_min_mcnemar"
+  ],
+  "args": {
+    "input_root": "/scratch/zcheng06/Test/experiment_results",
+    "output_dir": "/scratch/zcheng06/Test/eval",
+    "methods": "passk_count_strength,model_size_vs_min_mcnemar",
+    "passk_min_draws": 10,
+    "model_compare_metrics": "pass10"
+  },
+  "fixed_behavior": {
+    "exclude_forward_3": true,
+    "repair_passk_monotonic": true
+  },
+  "preprocess_outputs": {
+    "detailed_stats_json": "prepstats.json"
+  },
+  "data_meta": {
+    "total_files": 143,
+    "total_rows": 214800,
+    "exclude_forward_3": true,
+    "repair_passk_monotonic": true,
+    "monotonic_violations_before_repair": {
+      "pass@1>pass@5": 1063
+    },
+    "sanitize_rule_counts": {
+      "exact": 2114901,
+      "dict_token": 5416,
+      "json_unwrap": 1734,
+      "text_single_token": 1455,
+      "text_soft_token": 33,
+      "text_last_token_majority": 15,
+      "unresolved_fallback_unknown": 64,
+      "text_conflict_fallback_unknown": 11,
+      "text_decision_anchor": 483,
+      "text_soft_conflict_fallback_unknown": 2,
+      "empty_fallback_unknown": 484,
+      "text_decision_anchor_soft": 2
+    }
+  },
+  "num_rows_loaded": 214800
+}

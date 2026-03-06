@@ -12,8 +12,8 @@ MODEL_SPECS = [
     # {"name": "qwen3-2b", "path": "Qwen/Qwen3-VL-2B-Instruct"},
     # {"name": "llava-7b", "path": "llava-hf/llava-1.5-7b-hf"},
     # {"name": "llava-13b", "path": "llava-hf/llava-1.5-13b-hf"},
-    {"name": "qwen3-38b", "path": "Qwen/Qwen3-VL-32B-Instruct"},
-    # {"name": "qwen3-2b", "path": "Qwen/Qwen3-VL-2B-Instruct"},
+    # {"name": "qwen3-32b", "path": "Qwen/Qwen3-VL-32B-Instruct"},
+    {"name": "InternVL3.5-38B", "path": "OpenGVLab/InternVL3-38B-Instruct"},
 ]
 
 def _slugify(text):
@@ -27,7 +27,6 @@ def _name_from_model_path(model_path):
         return "model"
     tail = model_path.rstrip("/\\").split("/")[-1].split("\\")[-1]
     return _slugify(tail)
-
 
 def resolve_models(model_names=None, model_paths=None):
     """
